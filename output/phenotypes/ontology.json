@@ -1,0 +1,201 @@
+{
+  "version": "0.1",
+  "updated_at": "2026-06-04T00:39:33.549Z",
+  "phenotypes": [
+    {
+      "id": "agent-runtime-infra",
+      "label": "Agent runtime / harness / orchestration",
+      "family": "agent_infrastructure",
+      "value_wedge": "infrastructure_pickaxe",
+      "ai_application": "agent_orchestration",
+      "description": "Runtimes, sandboxes, auth layers, tool routing, reliability/cost optimization for agents"
+    },
+    {
+      "id": "agent-context-data",
+      "label": "Agent context & web/data enrichment API",
+      "family": "agent_infrastructure",
+      "value_wedge": "data_access",
+      "ai_application": "context_retrieval",
+      "description": "Feeds structured context into agents: crawl, extract, brand data, live web state"
+    },
+    {
+      "id": "agent-observability-evals",
+      "label": "Agent observability, evals, or safety",
+      "family": "agent_infrastructure",
+      "value_wedge": "trust_and_quality",
+      "ai_application": "evaluation_monitoring",
+      "description": "Tracing, benchmarks, red-teaming, compliance testing, production monitoring for agents"
+    },
+    {
+      "id": "training-data-synthetic",
+      "label": "Training / eval data generation",
+      "family": "data_assets",
+      "value_wedge": "data_asset",
+      "ai_application": "dataset_creation",
+      "description": "Synthetic data, labeling, domain-specific corpora, RL environments, benchmark datasets"
+    },
+    {
+      "id": "domain-data-ontology",
+      "label": "Domain data ontology / knowledge layer",
+      "family": "data_assets",
+      "value_wedge": "structured_knowledge",
+      "ai_application": "knowledge_representation",
+      "description": "Industry-specific schemas, knowledge graphs, entity resolution, canonical registries"
+    },
+    {
+      "id": "vertical-workflow-agent",
+      "label": "Vertical AI workflow agent (AI department for X)",
+      "family": "vertical_automation",
+      "value_wedge": "workflow_replacement",
+      "ai_application": "autonomous_workflow",
+      "description": "End-to-end job function automation inside one industry (billing, credentialing, leasing, etc.)"
+    },
+    {
+      "id": "ai-forward-consulting",
+      "label": "AI-forward consulting / managed service",
+      "family": "services",
+      "value_wedge": "labor_replacement",
+      "ai_application": "human_in_loop_service",
+      "description": "Consulting, regulatory, implementation, or ops delivered as service with AI core"
+    },
+    {
+      "id": "horizontal-copilot-saas",
+      "label": "Horizontal copilot / productivity SaaS",
+      "family": "horizontal_saas",
+      "value_wedge": "productivity_multiplier",
+      "ai_application": "copilot_assistant",
+      "description": "Cross-industry seat-based tools: writing, sales, growth, dev productivity"
+    },
+    {
+      "id": "fintech-insurance-ai-product",
+      "label": "AI-native fintech or insurance product",
+      "family": "regulated_product",
+      "value_wedge": "regulated_product",
+      "ai_application": "risk_underwriting",
+      "description": "Payments, wallets, underwriting, liability products where AI changes the SKU"
+    },
+    {
+      "id": "research-terminal-intel",
+      "label": "Research / terminal / intelligence product",
+      "family": "data_assets",
+      "value_wedge": "decision_intelligence",
+      "ai_application": "analysis_synthesis",
+      "description": "Bloomberg-style terminals, equity/healthcare research agents, market intelligence"
+    },
+    {
+      "id": "robotics-embodied-ai",
+      "label": "Robotics / embodied / teleoperation",
+      "family": "physical_ai",
+      "value_wedge": "physical_system",
+      "ai_application": "embodied_control",
+      "description": "Drones, robots, sensing meshes, teleop, model-hardware co-design"
+    },
+    {
+      "id": "biotech-rd-agent",
+      "label": "Biotech / clinical R&D acceleration",
+      "family": "life_sciences",
+      "value_wedge": "rd_acceleration",
+      "ai_application": "scientific_workflow",
+      "description": "Trials, lab workflows, drug discovery, clinical AI imaging ops"
+    },
+    {
+      "id": "compliance-gov-automation",
+      "label": "Compliance / regulatory / gov automation",
+      "family": "regulated_workflow",
+      "value_wedge": "risk_reduction",
+      "ai_application": "policy_automation",
+      "description": "SOX, FDA, audit controls, defense supply chain, gov-critical workflows"
+    },
+    {
+      "id": "consumer-ai-app",
+      "label": "Consumer / prosumer AI application",
+      "family": "consumer",
+      "value_wedge": "consumer_subscription",
+      "ai_application": "personal_assistant",
+      "description": "End-user apps, games, personal finance, creative tools"
+    },
+    {
+      "id": "open-source-commercial",
+      "label": "Open-source core + commercial layer",
+      "family": "developer_gtm",
+      "value_wedge": "developer_adoption",
+      "ai_application": "varies",
+      "description": "OSS agent frameworks or tools with hosted/enterprise monetization"
+    },
+    {
+      "id": "agent-context-infra",
+      "label": "Agent Context Infrastructure",
+      "family": "infrastructure",
+      "value_wedge": "data_access",
+      "ai_application": "context_retrieval",
+      "description": "API/service layer that prepares external data sources (system logs, web content, documents, telemetry) for agent consumption by compressing, structuring, enriching, or summarizing into token-efficient, semantically dense formats. Solves the 'context explosion' problem: agents need rich operational or domain context but can't ingest raw verbose data due to token limits and cost. Examples: log compression for agent observability, realtime web crawling/extraction APIs, document-to-context pipelines.",
+      "discovered_at": "2026-06-01T18:38:48.516Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "ai-native-prime-contractor",
+      "label": "AI-Native Prime Contractor",
+      "family": "vertical_saas",
+      "value_wedge": "risk_reduction",
+      "ai_application": "policy_automation",
+      "description": "Full-stack operational entity (not just software) that uses AI to automate end-to-end execution of complex, multi-party, compliance-heavy contracts in regulated industries (defense, construction, public infrastructure). Combines AI workflow automation, capital, supplier networks, and operational execution to act as a next-generation prime contractor or general contractor. AI handles procurement, compliance, supplier coordination, production tracking, and delivery logistics. Distinct from vertical SaaS because they take contractual responsibility and execute the work, not just provide tools.",
+      "discovered_at": "2026-06-01T18:38:48.516Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "ai-native-service-provider",
+      "label": "AI-Native Service Provider (Outcome-Based)",
+      "family": "services",
+      "value_wedge": "workflow_replacement",
+      "ai_application": "autonomous_workflow",
+      "description": "Companies that use AI to deliver traditional services (operations, claims recovery, contracting) at software-like margins but sell outcomes/results rather than software seats. They take contractual/financial responsibility for end-to-end processes and use AI agents to execute the work autonomously. Revenue models are service-based (contingency, per-contract, managed service) not SaaS subscriptions. Distinct from vertical SaaS because they ARE the service provider, not the software vendor enabling the service.",
+      "discovered_at": "2026-06-01T18:46:18.741Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "ai-enabled-physical-systems",
+      "label": "AI-enabled physical infrastructure",
+      "family": "physical_ai",
+      "value_wedge": "physical_system",
+      "ai_application": "design_manufacturing_control",
+      "description": "Companies building physical hardware/infrastructure (energy, transportation, manufacturing) where AI accelerates design optimization, manufacturing precision, and autonomous operational control. AI is enabler rather than product - core value is the physical system itself, but AI dramatically improves R&D cycles, production efficiency, and system performance. Includes robotics, but also nuclear reactors, aviation networks, advanced manufacturing equipment, etc.",
+      "discovered_at": "2026-06-01T18:57:41.039Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "ai-research-automation",
+      "label": "AI-native research labs",
+      "family": "rd_tooling",
+      "value_wedge": "rd_acceleration",
+      "ai_application": "scientific_workflow",
+      "description": "Organizations using agentic AI workflows to automate scientific research and discovery processes. Meta-level AI application: AI discovering better AI (novel architectures, optimizers, training methods) or accelerating research in other domains. Distinct from research tools (which assist human researchers) - these are AI-first labs where agents conduct primary research with minimal human intervention.",
+      "discovered_at": "2026-06-01T18:57:41.039Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "marketplace-network-ai",
+      "label": "Marketplace / exchange / liquidity network",
+      "family": "network",
+      "value_wedge": "network_effects",
+      "ai_application": "matching_routing",
+      "description": "Two-sided venues: exchanges, perps, private-market liquidity, investor matching — not selling insurance or a bank SKU"
+    }
+  ],
+  "families": [
+    "agent_infrastructure",
+    "data_assets",
+    "vertical_automation",
+    "services",
+    "horizontal_saas",
+    "regulated_product",
+    "physical_ai",
+    "life_sciences",
+    "regulated_workflow",
+    "consumer",
+    "developer_gtm",
+    "infrastructure",
+    "vertical_saas",
+    "rd_tooling"
+  ],
+  "proposals_pending": []
+}

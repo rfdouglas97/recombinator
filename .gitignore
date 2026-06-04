@@ -9,19 +9,44 @@ explore2.mjs
 algolia-sample.json
 company-page.html
 
-# Ignore all pipeline output by default
-output/**
+# Pipeline output — ignore everything under output/, then un-ignore snapshots
+output/*
+!output/launches/
+!output/verticals/
+!output/phenotypes/
+!output/whitespace/
+!output/startup-library/
 
-# Launch monitor state (for CI continuity)
-!output/launches/**
-output/launches/logs/**
+output/launches/*
+!output/launches/*.json
+!output/launches/*.md
+output/launches/logs/
 output/launches/launches-raw.json
+output/launches/reviews.jsonl
 
-# Predictor snapshot for launch checks in CI
+output/verticals/*
 !output/verticals/normalized-assignments.json
 !output/verticals/gap-candidates.json
 !output/verticals/bm-vertical-matrix.json
+
+output/phenotypes/*
 !output/phenotypes/ontology.json
 !output/phenotypes/assignments.json
+
+output/whitespace/*
 !output/whitespace/gap-opportunity-ranked.json
+
+output/startup-library/*
 !output/startup-library/library.json
+
+# Other generated dirs under output/
+output/audit/
+output/eval/
+output/generator/
+output/synthetic/
+output/yc_companies.json
+output/yc_companies.csv
+output/yc_companies_classified.json
+
+# Shortlist artifacts
+startup_engine/output/

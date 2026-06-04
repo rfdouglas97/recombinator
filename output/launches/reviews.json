@@ -1,0 +1,968 @@
+{
+  "updated_at": "2026-06-04T00:36:02.222Z",
+  "rubric_version": "1.0",
+  "reviews": [
+    {
+      "launch_id": 102525,
+      "company_slug": "hexa",
+      "launch_url": "https://www.ycombinator.com/launches/Qfd-hexa-autonomous-operations-for-industrial-distributors",
+      "created_at": "2026-06-03T20:08:30.161Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "logistics.supply-chain.ops",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-06-04T00:36:02.214Z",
+        "launch_id": 102525,
+        "company_slug": "hexa",
+        "taxonomy": {
+          "conformance_index": 80,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 80,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "logistics.supply-chain.ops",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::logistics.supply-chain.ops::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Supply chain & procurement operations",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 102518,
+      "company_slug": "miso-labs",
+      "launch_url": "https://www.ycombinator.com/launches/QfW-miso-labs-emotive-voice-models",
+      "created_at": "2026-06-03T17:54:30.376Z",
+      "classification": {
+        "phenotype_primary_id": "open-source-commercial",
+        "vertical_id": "services.staffing.rpo",
+        "business_models": [
+          "BM-12"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-06-04T00:35:38.799Z",
+        "launch_id": 102518,
+        "company_slug": "miso-labs",
+        "taxonomy": {
+          "conformance_index": 54,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 0,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-12",
+            "vertical_id": "services.staffing.rpo",
+            "phenotype_primary_id": "open-source-commercial",
+            "cell_key": "BM-12::services.staffing.rpo::open-source-commercial",
+            "business_model_label": "Open source + commercial",
+            "vertical_label": "RPO & outsourced recruiting",
+            "phenotype_label": "Open-source core + commercial layer"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 102479,
+      "company_slug": "wato",
+      "launch_url": "https://www.ycombinator.com/launches/Qet-wato-a-shared-ai-workspace-for-teams",
+      "created_at": "2026-06-03T16:52:49.877Z",
+      "classification": {
+        "phenotype_primary_id": "agent-context-infra",
+        "vertical_id": "ai-infrastructure.agent-runtime",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-06-04T00:36:02.216Z",
+        "launch_id": 102479,
+        "company_slug": "wato",
+        "taxonomy": {
+          "conformance_index": 54,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "agent-context-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-context-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Agent Context Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 102484,
+      "company_slug": "zenbu-2",
+      "launch_url": "https://www.ycombinator.com/launches/Qey-zenbu-the-extensible-ide-for-managing-coding-agents",
+      "created_at": "2026-06-03T15:43:00.805Z",
+      "classification": {
+        "phenotype_primary_id": "open-source-commercial",
+        "vertical_id": "enterprise.hr.workforce",
+        "business_models": [
+          "BM-12"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-06-04T00:36:02.218Z",
+        "launch_id": 102484,
+        "company_slug": "zenbu-2",
+        "taxonomy": {
+          "conformance_index": 53,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 2,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 90,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 61,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-12",
+            "vertical_id": "enterprise.hr.workforce",
+            "phenotype_primary_id": "open-source-commercial",
+            "cell_key": "BM-12::enterprise.hr.workforce::open-source-commercial",
+            "business_model_label": "Open source + commercial",
+            "vertical_label": "HR & workforce management",
+            "phenotype_label": "Open-source core + commercial layer"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 102471,
+      "company_slug": "siphox-health",
+      "launch_url": "https://www.ycombinator.com/launches/Qel-siphox-health-glp-monitoring",
+      "created_at": "2026-06-03T00:19:59.999Z",
+      "classification": {
+        "phenotype_primary_id": "agent-observability-evals",
+        "vertical_id": "healthcare.medtech.post-market-surveillance",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-06-04T00:35:38.807Z",
+        "launch_id": 102471,
+        "company_slug": "siphox-health",
+        "taxonomy": {
+          "conformance_index": 32,
+          "verdict": "non_conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 1,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 0,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 83,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "healthcare.medtech.post-market-surveillance",
+            "phenotype_primary_id": "agent-observability-evals",
+            "cell_key": "BM-03::healthcare.medtech.post-market-surveillance::agent-observability-evals",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Post-market surveillance & adverse event reporting",
+            "phenotype_label": "Agent observability, evals, or safety"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company",
+            "low_taxonomy_conformance"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 102384,
+      "company_slug": "refortifai",
+      "launch_url": "https://www.ycombinator.com/launches/QdM-refortifai-atrisa-agents-for-analog-circuit-design",
+      "created_at": "2026-06-02T16:20:45.709Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.devtools.productivity",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-06-04T00:36:02.219Z",
+        "launch_id": 102384,
+        "company_slug": "refortifai",
+        "taxonomy": {
+          "conformance_index": 58,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 7,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.devtools.productivity",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.devtools.productivity::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Developer productivity & engineering tools",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 102405,
+      "company_slug": "walter",
+      "launch_url": "https://www.ycombinator.com/launches/Qdh-walter-ai-employee-for-the-manufacturing-back-office",
+      "created_at": "2026-06-02T16:14:38.154Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "manufacturing.production-scheduling",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-06-04T00:36:02.220Z",
+        "launch_id": 102405,
+        "company_slug": "walter",
+        "taxonomy": {
+          "conformance_index": 70,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 29,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "manufacturing.production-scheduling",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::manufacturing.production-scheduling::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Production scheduling & capacity planning",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 66,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 102417,
+      "company_slug": "infera",
+      "launch_url": "https://www.ycombinator.com/launches/Qdt-infera-control-lab-instruments-with-natural-language",
+      "created_at": "2026-06-02T15:49:42.214Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "healthcare.pharma.drug-discovery",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-06-04T00:36:02.221Z",
+        "launch_id": 102417,
+        "company_slug": "infera",
+        "taxonomy": {
+          "conformance_index": 61,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "healthcare.pharma.drug-discovery",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::healthcare.pharma.drug-discovery::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Drug discovery & delivery R&D",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 102442,
+      "company_slug": "playablai",
+      "launch_url": "https://www.ycombinator.com/launches/QeI-playabl-ai-tiktok-for-user-generated-games",
+      "created_at": "2026-06-02T15:46:52.447Z",
+      "classification": {
+        "phenotype_primary_id": "consumer-ai-app",
+        "vertical_id": "media.gaming.ugc",
+        "business_models": [
+          "BM-10"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-06-04T00:36:02.221Z",
+        "launch_id": 102442,
+        "company_slug": "playablai",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-10",
+            "vertical_id": "media.gaming.ugc",
+            "phenotype_primary_id": "consumer-ai-app",
+            "cell_key": "BM-10::media.gaming.ugc::consumer-ai-app",
+            "business_model_label": "Consumer app / prosumer",
+            "vertical_label": "User-generated gaming platforms",
+            "phenotype_label": "Consumer / prosumer AI application"
+          }
+        },
+        "predictor": {
+          "predictability_band": "predicted",
+          "signals": [
+            "analog_in_gaps:18"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [
+            {
+              "rank": 178,
+              "opportunity_score": 36,
+              "vertical_id": "content.audience-analytics"
+            },
+            {
+              "rank": 180,
+              "opportunity_score": 36,
+              "vertical_id": "content.content-repurposing"
+            },
+            {
+              "rank": 182,
+              "opportunity_score": 36,
+              "vertical_id": "content.rights-licensing"
+            },
+            {
+              "rank": 217,
+              "opportunity_score": 36,
+              "vertical_id": "content.rights-clearance"
+            },
+            {
+              "rank": 219,
+              "opportunity_score": 36,
+              "vertical_id": "content.podcast-distribution"
+            },
+            {
+              "rank": 236,
+              "opportunity_score": 36,
+              "vertical_id": "content.user-generated-content"
+            },
+            {
+              "rank": 261,
+              "opportunity_score": 33,
+              "vertical_id": "content.video-production"
+            },
+            {
+              "rank": 295,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.anti-cheat-enforcement"
+            },
+            {
+              "rank": 301,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.cross-platform-progression"
+            },
+            {
+              "rank": 315,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.game-publishing-distribution"
+            },
+            {
+              "rank": 317,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.game-analytics-telemetry"
+            },
+            {
+              "rank": 319,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.monetization-optimization"
+            },
+            {
+              "rank": 330,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.live-ops-scheduling"
+            },
+            {
+              "rank": 332,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.player-monetization-compliance"
+            },
+            {
+              "rank": 341,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.game-monetization-fraud"
+            },
+            {
+              "rank": 343,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.player-acquisition"
+            },
+            {
+              "rank": 345,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.player-behavior-analytics"
+            },
+            {
+              "rank": 347,
+              "opportunity_score": 30,
+              "vertical_id": "gaming.content-moderation"
+            }
+          ],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 102410,
+      "company_slug": "aice",
+      "launch_url": "https://www.ycombinator.com/launches/Qdm-aice-power-underwater-drones-for-defense",
+      "created_at": "2026-06-02T13:13:02.084Z",
+      "classification": {
+        "phenotype_primary_id": "robotics-embodied-ai",
+        "vertical_id": "industrials.defense.drones",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-06-04T00:36:02.221Z",
+        "launch_id": 102410,
+        "company_slug": "aice",
+        "taxonomy": {
+          "conformance_index": 80,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 98,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 80,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "industrials.defense.drones",
+            "phenotype_primary_id": "robotics-embodied-ai",
+            "cell_key": "BM-08::industrials.defense.drones::robotics-embodied-ai",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Defense drone & UAS operations",
+            "phenotype_label": "Robotics / embodied / teleoperation"
+          }
+        },
+        "predictor": {
+          "predictability_band": "predicted",
+          "signals": [
+            "analog_in_gaps:33"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [
+            {
+              "rank": 98,
+              "opportunity_score": 39,
+              "vertical_id": "defense.cybersecurity-incident"
+            },
+            {
+              "rank": 116,
+              "opportunity_score": 37,
+              "vertical_id": "defense.contractor-performance"
+            },
+            {
+              "rank": 119,
+              "opportunity_score": 37,
+              "vertical_id": "defense.cost-accounting"
+            },
+            {
+              "rank": 122,
+              "opportunity_score": 37,
+              "vertical_id": "defense.counterfeit-detection"
+            },
+            {
+              "rank": 125,
+              "opportunity_score": 37,
+              "vertical_id": "defense.maintenance-readiness"
+            },
+            {
+              "rank": 128,
+              "opportunity_score": 37,
+              "vertical_id": "defense.export-licensing"
+            },
+            {
+              "rank": 131,
+              "opportunity_score": 37,
+              "vertical_id": "defense.facility-compliance"
+            },
+            {
+              "rank": 134,
+              "opportunity_score": 37,
+              "vertical_id": "defense.intelligence-classification"
+            },
+            {
+              "rank": 137,
+              "opportunity_score": 37,
+              "vertical_id": "defense.logistics-distribution"
+            },
+            {
+              "rank": 140,
+              "opportunity_score": 37,
+              "vertical_id": "defense.personnel-clearance"
+            },
+            {
+              "rank": 143,
+              "opportunity_score": 37,
+              "vertical_id": "defense.training-certification"
+            },
+            {
+              "rank": 146,
+              "opportunity_score": 37,
+              "vertical_id": "defense.subcontractor-management"
+            },
+            {
+              "rank": 158,
+              "opportunity_score": 37,
+              "vertical_id": "defense.munitions-serialization"
+            },
+            {
+              "rank": 249,
+              "opportunity_score": 34,
+              "vertical_id": "manufacturing.customs-trade"
+            },
+            {
+              "rank": 251,
+              "opportunity_score": 34,
+              "vertical_id": "manufacturing.production-scheduling"
+            },
+            {
+              "rank": 265,
+              "opportunity_score": 31,
+              "vertical_id": "manufacturing.equipment-procurement"
+            },
+            {
+              "rank": 270,
+              "opportunity_score": 31,
+              "vertical_id": "manufacturing.contract-manufacturing"
+            },
+            {
+              "rank": 274,
+              "opportunity_score": 31,
+              "vertical_id": "manufacturing.energy-sustainability"
+            },
+            {
+              "rank": 280,
+              "opportunity_score": 31,
+              "vertical_id": "manufacturing.cost-accounting"
+            },
+            {
+              "rank": 284,
+              "opportunity_score": 31,
+              "vertical_id": "manufacturing.quality-compliance"
+            },
+            {
+              "rank": 287,
+              "opportunity_score": 31,
+              "vertical_id": "manufacturing.supply-chain-planning"
+            },
+            {
+              "rank": 374,
+              "opportunity_score": 29,
+              "vertical_id": "robotics.simulation-digital-twin"
+            },
+            {
+              "rank": 392,
+              "opportunity_score": 26,
+              "vertical_id": "robotics.cost-roi-modeling"
+            },
+            {
+              "rank": 395,
+              "opportunity_score": 26,
+              "vertical_id": "robotics.maintenance-scheduling"
+            },
+            {
+              "rank": 398,
+              "opportunity_score": 26,
+              "vertical_id": "robotics.performance-analytics"
+            },
+            {
+              "rank": 401,
+              "opportunity_score": 26,
+              "vertical_id": "robotics.motion-planning"
+            },
+            {
+              "rank": 404,
+              "opportunity_score": 26,
+              "vertical_id": "robotics.programming-offline"
+            },
+            {
+              "rank": 407,
+              "opportunity_score": 26,
+              "vertical_id": "robotics.workforce-training"
+            },
+            {
+              "rank": 410,
+              "opportunity_score": 26,
+              "vertical_id": "robotics.quality-inspection"
+            },
+            {
+              "rank": 413,
+              "opportunity_score": 26,
+              "vertical_id": "robotics.safety-compliance"
+            },
+            {
+              "rank": 416,
+              "opportunity_score": 25,
+              "vertical_id": "industrials.defense.supply-chain"
+            },
+            {
+              "rank": 455,
+              "opportunity_score": 24,
+              "vertical_id": "robotics.collaborative-safety"
+            },
+            {
+              "rank": 573,
+              "opportunity_score": 6,
+              "vertical_id": "industrials.semiconductor"
+            }
+          ],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Strong fit: taxonomy conforms and whitespace model would have surfaced this cell."
+        ]
+      }
+    }
+  ]
+}
