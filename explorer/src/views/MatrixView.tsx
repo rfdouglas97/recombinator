@@ -130,17 +130,8 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
     );
   }
 
-  const sectorFilterDimsMatrix =
-    BM_GAP_MODES.has(state.matrixMode) && Boolean(state.sector || state.industry);
-
   return (
     <>
-      {sectorFilterDimsMatrix && (
-        <p className="matrix-filter-hint">
-          Sector/industry filters apply to this matrix and ontology views only — not chat. In BM ×
-          Sector/Industry modes, density counts ignore sector/industry so all columns stay visible.
-        </p>
-      )}
       <div className="toolbar">
         <label>
           <span className="toolbar-key">Matrix</span>

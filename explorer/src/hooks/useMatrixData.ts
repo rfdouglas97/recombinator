@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import type { DataBundle, FilterState, MatrixMode } from '../types';
-import { filteredSlugSet, slugSetIgnoringSectorIndustry } from '../utils/filterCompanies';
+import { filteredSlugSet } from '../utils/filterCompanies';
 
 export interface MatrixRow {
   id: string;
@@ -110,14 +110,6 @@ export function resolveGapVertical(
 export function useMatrixData(bundle: DataBundle, state: FilterState) {
   return useMemo(() => {
     const slugFilter = filteredSlugSet(bundle, state);
-    const bmDensityIgnoresSector =
-      (state.matrixMode === 'bm_sector' ||
-        state.matrixMode === 'bm_industry' ||
-        state.matrixMode === 'bm_vertical') &&
-      Boolean(state.sector || state.industry);
-    const densitySlugFilter = bmDensityIgnoresSector
-      ? slugSetIgnoringSectorIndustry(bundle, state)
-      : slugFilter;
     const gapSet = new Set(bundle.matrices.bm_vertical_gaps);
 
     const rows: MatrixRow[] = bundle.facets.businessModels.map((bm) => ({
@@ -129,7 +121,10 @@ export function useMatrixData(bundle: DataBundle, state: FilterState) {
     const cellMap = new Map<string, MatrixCell>();
 
     if (state.matrixMode === 'bm_sector') {
-      const cols: MatrixCol[] = bundle.facets.sectors.map((s) => ({
+      const sectors = state.sector
+        ? bundle.facets.sectors.filter((s) => s.id === state.sector)
+        : bundle.facets.sectors;
+      const cols: MatrixCol[] = sectors.map((s) => ({
         id: s.id,
         label: s.label,
         sectorId: s.id,
@@ -138,7 +133,7 @@ export function useMatrixData(bundle: DataBundle, state: FilterState) {
       for (const bm of rows) {
         for (const sec of cols) {
           const verts = bundle.facets.verticals.filter((v) => v.sector_id === sec.id);
-          const cell = aggregateBmCells(bundle, bm.id, verts, sec.id, densitySlugFilter, gapSet);
+          const cell = aggregateBmCells(bundle, bm.id, verts, sec.id, slugFilter, gapSet);
           cells.push(cell);
           cellMap.set(`${bm.id}|${sec.id}`, cell);
         }
@@ -149,7 +144,10 @@ export function useMatrixData(bundle: DataBundle, state: FilterState) {
     }
 
     if (state.matrixMode === 'bm_industry') {
-      const cols: MatrixCol[] = bundle.facets.industries.map((ind) => ({
+      let industries = bundle.facets.industries;
+      if (state.sector) industries = industries.filter((i) => i.sector_id === state.sector);
+      if (state.industry) industries = industries.filter((i) => i.id === state.industry);
+      const cols: MatrixCol[] = industries.map((ind) => ({
         id: ind.id,
         label: ind.label,
         sectorId: ind.sector_id,
@@ -159,7 +157,7 @@ export function useMatrixData(bundle: DataBundle, state: FilterState) {
       for (const bm of rows) {
         for (const ind of cols) {
           const verts = bundle.facets.verticals.filter((v) => v.industry_id === ind.id);
-          const cell = aggregateBmCells(bundle, bm.id, verts, ind.id, densitySlugFilter, gapSet);
+          const cell = aggregateBmCells(bundle, bm.id, verts, ind.id, slugFilter, gapSet);
           cells.push(cell);
           cellMap.set(`${bm.id}|${ind.id}`, cell);
         }
@@ -186,7 +184,7 @@ export function useMatrixData(bundle: DataBundle, state: FilterState) {
         const key = `${bm.id}|${v.id}`;
         const data = bundle.matrices.bm_vertical[key];
         const inGap = gapSet.has(key);
-        const filtered = data ? data.slugs.filter((s) => densitySlugFilter.has(s)) : [];
+        const filtered = data ? data.slugs.filter((s) => slugFilter.has(s)) : [];
         const cell: MatrixCell = {
           rowId: bm.id,
           colId: v.id,
