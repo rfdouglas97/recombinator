@@ -47,6 +47,16 @@ const server = createServer(async (req, res) => {
   const url = new URL(req.url ?? '/', `http://localhost:${PORT}`);
 
   try {
+    if (req.method === 'GET' && url.pathname === '/') {
+      sendJson(res, 200, {
+        ok: true,
+        service: 'yc-scrape-api',
+        docs: 'Use /api/health, /api/bundle, /api/companies, …',
+        health: '/api/health',
+      });
+      return;
+    }
+
     if (await tryHandleReadApi(req, res, url)) return;
 
     if (req.method === 'GET' && url.pathname === '/api/generator/health') {
