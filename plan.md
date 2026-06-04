@@ -6,14 +6,14 @@
 
 **Target:** batch scripts → Postgres → read API → React explorer (live at runtime).
 
-**Status (Phase 1):** Local stack complete — Docker Postgres, read API, explorer wired to `/api/bundle`. Next: **commit → merge frontend → deploy**.
+**Status (Phase 1):** Local stack complete — Docker Postgres, read API, explorer wired to `/api/bundle`, **Recombinator UI merged to `main`**. Next: **verify locally → remove worktree → deploy**.
 
 ---
 
 ## What to do next (recommended order)
 
-### Step A — Save backend work on `main` (safety net)
-Commit and push Postgres + API changes before merging frontend.
+### Step A — Save backend work on `main` (safety net) ✅ done
+Commit and push Postgres + API changes **before** merging frontend so you can always reset to a known-good state.
 
 ```bash
 cd "/Users/ryandouglas/Desktop/yc scrape"
@@ -23,8 +23,10 @@ git commit -m "Add Postgres, read API, and production plan"
 git push origin main
 ```
 
-### Step B — Merge frontend from `dev` worktree
-The redesign lives on branch `dev` (`.worktrees/dev`). It touches only explorer UI files — not `loadBundle.ts`.
+**Done:** `53eb2d3` on `origin/main`.
+
+### Step B — Merge frontend from `dev` worktree ✅ done
+The redesign lived on branch `dev` (`.worktrees/dev`). It touched only explorer UI files — not `loadBundle.ts`. Merge was clean.
 
 ```bash
 cd "/Users/ryandouglas/Desktop/yc scrape"
@@ -33,6 +35,8 @@ git merge dev -m "Merge Recombinator frontend redesign from dev"
 git push origin main
 ```
 
+**Done:** `f79e71b` on `origin/main`.
+
 Verify locally:
 ```bash
 npm run db:up          # if Docker not running
@@ -40,7 +44,7 @@ npm run api:dev        # terminal 2
 npm run explorer:dev:vite   # terminal 3 → http://localhost:5173
 ```
 
-### Step C — Remove worktree (optional, after merge succeeds)
+### Step C — Remove worktree (optional, after you verify UI)
 Only do this once you are happy with the merge on `main`.
 
 ```bash
@@ -49,7 +53,100 @@ git worktree remove .worktrees/dev
 git branch -d dev          # optional: delete local dev branch
 ```
 
-You do **not** need to delete the whole `.worktrees/` folder from git — `git worktree remove` cleans up properly.
+You do **not** need to manually delete the whole `.worktrees/` folder — `git worktree remove` cleans up the checkout. The empty `.worktrees/` directory may remain; that's fine (it's gitignored).
+
+---
+
+## Git worktree merge workflow (reference)
+
+Use this pattern whenever you want to experiment on a branch in a separate folder, then fold changes back into `main`.
+
+### 1. Create a worktree + branch (one-time setup)
+
+From your main repo folder:
+
+```bash
+cd "/Users/ryandouglas/Desktop/yc scrape"
+git worktree add .worktrees/dev -b dev
+```
+
+This creates:
+- a new branch `dev`
+- a second checkout at `.worktrees/dev` (same repo, different folder)
+- `.worktrees/` is in `.gitignore` so it never gets committed
+
+Work on the redesign in `.worktrees/dev` — run Vite there, edit files, commit as usual:
+
+```bash
+cd "/Users/ryandouglas/Desktop/yc scrape/.worktrees/dev"
+npm run explorer:dev:vite
+git add explorer/src/...
+git commit -m "Rebrand Explorer frontend to Recombinator light theme"
+```
+
+Your **main folder** stays on `main` with backend/API work untouched.
+
+### 2. Safety backup on `main` (always do this first)
+
+Before merging, commit and push whatever is on `main`:
+
+```bash
+cd "/Users/ryandouglas/Desktop/yc scrape"
+git checkout main
+git add -A
+git status   # confirm .env is NOT listed
+git commit -m "Your backend commit message"
+git push origin main
+```
+
+If the merge goes wrong, you can recover:
+
+```bash
+git reset --hard origin/main   # only if you haven't pushed bad commits yet
+# or reset to the backup commit: git reset --hard 53eb2d3
+```
+
+### 3. Merge `dev` into `main`
+
+Still in the **main repo folder** (not the worktree):
+
+```bash
+cd "/Users/ryandouglas/Desktop/yc scrape"
+git merge dev -m "Merge Recombinator frontend redesign from dev"
+git push origin main
+```
+
+If Git reports conflicts, open the listed files, fix them, then:
+
+```bash
+git add .
+git commit   # completes the merge
+git push origin main
+```
+
+### 4. Verify, then remove the worktree
+
+```bash
+npm run db:up && npm run api:dev   # terminal 1 & 2
+npm run explorer:dev:vite          # terminal 3 — check UI at localhost:5173
+
+cd "/Users/ryandouglas/Desktop/yc scrape"
+git worktree remove .worktrees/dev
+git branch -d dev                  # optional
+```
+
+### Why worktrees instead of switching branches?
+
+| Approach | Pros | Cons |
+|----------|------|------|
+| `git checkout dev` | Simple | Only one folder; must stop servers / stash work |
+| **Worktree** | Main + dev open side-by-side; compare live | Extra folder to manage |
+
+Check active worktrees anytime:
+
+```bash
+git worktree list
+```
 
 ### Step D — Deploy (~50 users)
 1. Create **Neon** Postgres → copy `DATABASE_URL`
@@ -149,7 +246,8 @@ Plan: build granular endpoints first, then optional `/api/bundle` for drop-in ex
 
 ### Frontend
 - [x] Explorer: `loadBundle()` prefers `GET /api/bundle`, falls back to static JSON
-- [ ] **Merge `dev` worktree** — Recombinator UI redesign → `main` (see steps above)
+- [x] **Merge `dev` worktree** — Recombinator UI redesign → `main` (`f79e71b`)
+- [ ] Remove `.worktrees/dev` after local verification
 - [ ] Loading + error UI when API is down (shows fallback message today)
 
 ### Deploy (~50 users)
