@@ -10,6 +10,23 @@
 
 ---
 
+## Taxonomy — one primary business model per company (next data fix)
+
+**Problem:** ~59% of companies carry **two BM codes** (224/402 are **BM-01 + BM-04**) because `taxonomy/phenotype-to-bm.mjs` maps each phenotype to *compatible* GTM shapes and classify/reclassify copies the **full list** onto every company. The matrix then places the same slug in **multiple rows** (e.g. Archal under “Vertical AI SaaS” and “AI labor / managed service” — same vertical, two rows). That double-counts in the explorer and reads as if half the batch runs two business models.
+
+**Intent vs reality:** Multi-BM on a phenotype is for **whitespace** (“this archetype could be SaaS or managed service”). It is **not** a claim that each YC company operates both models today.
+
+**Target model:**
+
+1. **One `primary_bm` per company** — chosen at classify/reclassify time (LLM or rules), stored in assignments + Postgres.
+2. **Compatible BMs stay on the phenotype** — used only for gap synthesis / idea generation, not for placing real companies in the matrix.
+3. **Matrix + bundle counts** — use `primary_bm` only (one cell per company per vertical).
+4. **Follow-up:** fix stale phenotypes (e.g. Archal: rationale says BM-03 devtools, tags still `vertical-workflow-agent` → BM-01+BM-04).
+
+**Files:** `taxonomy/phenotype-to-bm.mjs`, `agent/reclassify-classifications.mjs`, `normalize-verticals.mjs`, `db/schema.sql` (`company_business_models` or `primary_bm` on classifications), `db/queries.mjs` / `fetchBmVerticalMatrix`.
+
+---
+
 ## Production URLs
 
 | Service | URL / config |
@@ -315,6 +332,7 @@ So: **runtime data** (not baked into the build), **via GET requests**, **sourced
 - [ ] **Education & Workforce classifications** (see Step H) — fix Ed/workforce-adjacent companies mapped to Consumer / AI infra / Enterprise HR only
 
 ### Taxonomy & classifications
+- [ ] **Primary BM per company** — stop dual-tagging BM-01+BM-04 from phenotype map (see top of plan)
 - [ ] Education & Workforce gap — ontology + rules + re-normalize (Step H)
 
 ### Read API

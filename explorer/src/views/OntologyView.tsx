@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import { hierarchy } from 'd3-hierarchy';
 import type { DataBundle, FilterState, TreeNode } from '../types';
-import { slugSetIgnoringSectorIndustry } from '../utils/filterCompanies';
+import { filteredSlugSet } from '../utils/filterCompanies';
 
 interface Props {
   bundle: DataBundle;
@@ -129,11 +129,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
   const lastTransformRef = useRef<d3.ZoomTransform | null>(null);
   const lastResetNonceRef = useRef(0);
 
-  /** Full tree shape — sector/industry sidebar filters must not remove sibling branches. */
-  const treeSlugFilter = useMemo(
-    () => slugSetIgnoringSectorIndustry(bundle, state),
-    [bundle, state],
-  );
+  const treeSlugFilter = useMemo(() => filteredSlugSet(bundle, state), [bundle, state]);
 
   const rootTree = useMemo(() => {
     const raw =
@@ -209,6 +205,18 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
     setExpanded(new Set(['root']));
     lastTransformRef.current = null;
   }, [state.ontologyMode]);
+
+  useEffect(() => {
+    setExpanded(new Set(['root']));
+  }, [
+    state.batch,
+    state.sector,
+    state.industry,
+    state.phenotypeFamily,
+    state.businessModel,
+    state.minConfidence,
+    state.search,
+  ]);
 
   useEffect(() => {
     const el = containerRef.current;
@@ -490,8 +498,8 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
           Expand all
         </button>
         <span className="ontology-hint">
-          Drag to pan · Scroll to zoom · {Math.round(zoomHint * 100)}% · Click +/− to expand — all sectors stay visible
-          {state.sector ? ' (sidebar sector filter does not hide branches)' : ''}
+          Drag to pan · Scroll to zoom · {Math.round(zoomHint * 100)}% · Click +/− to expand · Sidebar filters
+          prune branches with no matching companies
         </span>
       </div>
       <div ref={containerRef} className="ontology-canvas view-area">
