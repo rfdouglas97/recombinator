@@ -2,11 +2,31 @@
 
 **Vision:** Turn the research pipeline into a **production-grade web app** for ~50 users — enough to validate the product, share with collaborators, and prove you can ship something real. Not millions of users; focus on reliability, live data, and a polished explorer.
 
-**Today:** batch scripts → JSON files → static `data.bundle.json` → React explorer.
+**Pipeline (still):** batch scripts → JSON files in `output/`.
 
-**Target:** batch scripts → Postgres → read API → React explorer (live at runtime).
+**App (live):** Postgres (Supabase) → read API (Railway) → React explorer (Vercel) at runtime.
 
-**Status (Phase 1):** Local stack complete — Docker Postgres, read API, explorer wired to `/api/bundle`, **Recombinator UI merged to `main`**. Next: **verify locally → remove worktree → deploy**.
+**Status (Phase 1):** **Deployed.** Supabase + Railway + Vercel live. Explorer loads `/api/bundle` from production Postgres. Next: **pipeline → Postgres directly**, GitHub Actions → Supabase, schema polish.
+
+---
+
+## Production URLs
+
+| Service | URL / config |
+|---------|----------------|
+| **Explorer** | Vercel (your project URL) |
+| **API** | `https://yc-scrape-production.up.railway.app` |
+| **Postgres** | Supabase (session pooler — credentials in Railway only) |
+
+Verify API: `curl https://yc-scrape-production.up.railway.app/api/health`
+
+Refresh production data after a pipeline run:
+
+```bash
+DATABASE_URL="postgresql://...supabase session pooler..." npm run db:migrate
+```
+
+Keep local `.env` on Docker Postgres for dev. Never commit `.env`.
 
 ---
 
@@ -148,22 +168,23 @@ Check active worktrees anytime:
 git worktree list
 ```
 
-### Step D — Deploy (~50 users) — Supabase + Railway + Vercel
+### Step D — Deploy (~50 users) — Supabase + Railway + Vercel ✅ done
 
-See **`db/DEPLOY.md`** for full step-by-step.
+See **`db/DEPLOY.md`** for reference.
 
-1. Create **Supabase** project → copy `DATABASE_URL` (URI with `?sslmode=require`)
-2. Run `DATABASE_URL=... npm run db:migrate` against Supabase (once, re-run after pipeline)
-3. Deploy API to **Railway** with `DATABASE_URL` + start command `node server/generator-api.mjs`
-4. Deploy explorer to **Vercel** — set `VITE_API_URL` to Railway URL
-5. Point GitHub Actions launch check at Supabase instead of git commits
+1. ✅ **Supabase** — schema + data migrated (use **session pooler** URI, not direct `db.*` host on IPv4)
+2. ✅ **Railway** — API at `yc-scrape-production.up.railway.app`, `DATABASE_URL` in Variables
+3. ✅ **Vercel** — explorer with `VITE_API_URL` → Railway
+4. ⬜ **GitHub Actions** — launch check writes to Supabase instead of git commits
 
-### Step E — Pipeline writes to Postgres directly
+### Step E — Pipeline writes to Postgres directly (next)
 Replace manual `db:migrate` copy step; scripts upsert after classify / launch-check / normalize.
 
 ### Step F — Polish
+- Schema cleanup (stub companies, missing FKs — see `.cursor/agents/schema-reviewer.md`)
 - Loading/error UI when API down
 - Sentry, launch alerts
+- Remove `.worktrees/dev` if still present
 - Auth when inviting users (Phase 2)
 
 ---
@@ -184,7 +205,7 @@ Replace manual `db:migrate` copy step; scripts upsert after classify / launch-ch
                             │  SQL queries
                             ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  Postgres (Docker local → Neon/Supabase in production)      │
+│  Postgres (Docker local dev → Supabase in production)       │
 │  companies, classifications, launches, gap_cells, …         │
 └───────────────────────────▲─────────────────────────────────┘
                             │  npm run db:migrate (for now)
@@ -208,20 +229,18 @@ The browser **never talks to Postgres directly** (that would expose credentials 
 
 So: **runtime data** (not baked into the build), **via GET requests**, **sourced from Postgres** — correct mental model.
 
-**Today vs target:**
+**Production vs local:**
 
-| | Today | After API |
-|--|-------|-----------|
-| Data at build time | `data.bundle.json` copied into build | No — fetched when app loads |
-| Data refresh | Re-run `data:bundle` + rebuild | Re-run pipeline + `db:migrate` (later: pipeline writes DB directly) |
-| User sees | Snapshot from last bundle | Live DB snapshot |
+| | Production (Vercel) | Local dev |
+|--|---------------------|-----------|
+| Data at load | `fetch(Railway/api/bundle)` from Supabase | Same via Vite proxy, or static fallback |
+| Data refresh | Pipeline → `DATABASE_URL=...supabase... npm run db:migrate` | Pipeline → `npm run db:migrate` (Docker) |
+| Env vars | `VITE_API_URL` on Vercel; `DATABASE_URL` on Railway | `.env` → localhost Postgres |
 
-**Two API styles we can use:**
+**API routes (all live on Railway):**
 
-1. **Granular GETs** — `/api/companies`, `/api/gaps`, `/api/launches` (flexible, good for filters/pagination).
-2. **Bundle GET** — `/api/bundle` returns same shape as `data.bundle.json` (fastest explorer migration).
-
-Plan: build granular endpoints first, then optional `/api/bundle` for drop-in explorer swap.
+- `GET /api/bundle` — full explorer payload (what Vercel uses)
+- `GET /api/companies`, `/api/gaps`, `/api/launches`, `/api/meta/facets` — granular reads
 
 ---
 
@@ -254,11 +273,11 @@ Plan: build granular endpoints first, then optional `/api/bundle` for drop-in ex
 - [ ] Loading + error UI when API is down (shows fallback message today)
 
 ### Deploy (~50 users)
-- [ ] Postgres: **Supabase** (see `db/DEPLOY.md`)
-- [ ] API: Railway
-- [ ] Explorer: Vercel (`VITE_API_URL` → Railway)
-- [ ] GitHub Actions: launch check writes to hosted Postgres (not git commits)
-- [ ] Environment variables: `DATABASE_URL` on API + Actions only (never in frontend)
+- [x] Postgres: **Supabase** (session pooler, ~401 companies migrated)
+- [x] API: **Railway** (`yc-scrape-production.up.railway.app`)
+- [x] Explorer: **Vercel** (`VITE_API_URL` → Railway, verified in DevTools Network)
+- [x] Environment variables: `DATABASE_URL` on Railway only; `VITE_API_URL` on Vercel
+- [ ] GitHub Actions: launch check writes to Supabase (not git commits)
 
 ### Ops
 - [x] Daily launch monitor (GitHub Actions)
@@ -310,7 +329,11 @@ npm run explorer:dev:vite
 After pipeline changes:
 
 ```bash
-npm run db:migrate   # refresh Postgres from JSON (until pipeline writes DB directly)
+# Local
+npm run db:migrate
+
+# Production (one-off — paste your Supabase session pooler URI)
+DATABASE_URL="postgresql://..." npm run db:migrate
 ```
 
 ---
@@ -319,7 +342,7 @@ npm run db:migrate   # refresh Postgres from JSON (until pipeline writes DB dire
 
 | Service | Monthly |
 |---------|---------|
-| Neon / Supabase Postgres | $0–25 |
+| Supabase Postgres | $0–25 |
 | Vercel (frontend) | $0–20 |
 | Railway / Fly (API) | $5–30 |
 | Anthropic API (generation) | $50–200 |
@@ -344,8 +367,9 @@ npm run db:migrate   # refresh Postgres from JSON (until pipeline writes DB dire
 |---------|------------------------|
 | Docker | `docker-compose.yml`, local Postgres |
 | Postgres / SQL | `db/schema.sql`, `npm run db:psql` |
-| API | `server/read-api.mjs` (next) |
-| Deploy | Vercel + Railway |
-| Git / worktrees | `.worktrees/dev` for frontend experiments |
+| API | `server/read-api.mjs`, `db/queries.mjs` |
+| Deploy | `db/DEPLOY.md`, Vercel + Railway + Supabase |
+| Git / worktrees | `.worktrees/dev` for UI experiments |
+| Schema review | `.cursor/agents/schema-reviewer.md` |
 
 See **`db/README.md`** for database learning guide.
