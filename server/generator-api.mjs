@@ -184,8 +184,8 @@ server.on('error', (err) => {
   throw err;
 });
 
-server.listen(PORT, () => {
-  console.log(`API server → http://localhost:${PORT}`);
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`API server → http://0.0.0.0:${PORT}`);
   console.log(`  Read API:  GET /api/bundle, /api/companies, /api/gaps, /api/launches, /api/health`);
   console.log(`  Generator: POST /api/generator/*, /api/library/*, /api/chat`);
   console.log(`  LLM: ${resolveApiConfig() ? 'configured' : 'NOT configured (set .env)'}`);

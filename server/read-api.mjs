@@ -32,8 +32,19 @@ export async function tryHandleReadApi(req, res, url) {
 
   try {
     if (url.pathname === '/api/health') {
-      const db = await pingDatabase();
-      sendJson(res, 200, { ok: true, database: db.db, time: db.now });
+      // Liveness: always 200 so Railway/Vercel deploy healthchecks pass.
+      // DB status is informational — readiness, not process survival.
+      let database = { ok: false, status: 'not_configured' };
+      if (process.env.DATABASE_URL) {
+        try {
+          const db = await pingDatabase();
+          database = { ok: true, status: 'connected', name: db.db, time: db.now };
+        } catch (err) {
+          const message = err instanceof Error ? err.message : String(err);
+          database = { ok: false, status: 'error', error: message };
+        }
+      }
+      sendJson(res, 200, { ok: true, service: 'yc-scrape-api', database });
       return true;
     }
 

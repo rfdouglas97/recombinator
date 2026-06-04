@@ -65,13 +65,14 @@ After pipeline runs (reclassify, etc.), re-run the same migrate command to refre
 3. **Settings → Deploy**
    - Start command: `node server/generator-api.mjs`
    - Health check path: `/api/health`
-4. **Variables** (Railway dashboard):
+4. **Variables** (Railway dashboard) — **required before healthcheck passes for data routes**:
 
 | Variable | Value |
 |----------|-------|
-| `DATABASE_URL` | Supabase connection string (session pooler OK) |
+| `DATABASE_URL` | Supabase **session pooler** URI with `?sslmode=require` |
 | `ANTHROPIC_API_KEY` | Your key (optional — generator/chat only) |
-| `PORT` | Set automatically by Railway |
+
+Do **not** commit `.env` — paste the Supabase session pooler URL here (same one used for `db:migrate`).
 
 5. **Settings → Networking → Generate domain** → copy URL, e.g. `https://yc-scrape-production.up.railway.app`
 

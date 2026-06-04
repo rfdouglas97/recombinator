@@ -26,6 +26,7 @@ export function getPool() {
       connectionString: url,
       max: 10,
       idleTimeoutMillis: 30_000,
+      connectionTimeoutMillis: 10_000,
       // Supabase / Neon / other hosted Postgres require SSL
       ...(isLocal ? {} : { ssl: { rejectUnauthorized: false } }),
     });
