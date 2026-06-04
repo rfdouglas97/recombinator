@@ -153,16 +153,80 @@ export function buildGenerationPrompt({ cell, vertical, phenotype, bm, exemplars
   );
 }
 
+/** Expand compound hints so e.g. "biopharma" can match gaps labeled "pharma" / "biotech". */
+function expandQueryTokens(queryTokens) {
+  const out = new Set(queryTokens);
+  for (const t of queryTokens) {
+    if (t.length < 4) continue;
+    if (/pharma|biopharma|biotech|biologic/.test(t)) {
+      out.add('pharma');
+      out.add('biotech');
+      out.add('biopharma');
+    }
+    if (/fintech|insurtech/.test(t)) {
+      out.add('fintech');
+      out.add('finance');
+      out.add('insurance');
+    }
+    if (/healthcare|health.?tech|medtech/.test(t)) {
+      out.add('healthcare');
+      out.add('health');
+      out.add('medical');
+    }
+  }
+  return out;
+}
+
+function queryTokenMatchesHay(token, hay, hayTokens) {
+  if (hayTokens.has(token) || (token.length >= 4 && hay.includes(token))) return true;
+  for (const h of hayTokens) {
+    if (h.length < 4 || token.length < 4) continue;
+    if (h.includes(token) || token.includes(h)) return true;
+  }
+  return false;
+}
+
 function gapSearchScore(gap, queryTokens) {
   if (!queryTokens.size) return 1;
   const hay = normalizeText(
-    [gap.vertical_label, gap.industry_label, gap.sector_label, gap.workflow, gap.business_model_label].join(' '),
+    [
+      gap.vertical_id,
+      gap.vertical_label,
+      gap.industry_label,
+      gap.sector_label,
+      gap.workflow,
+      gap.business_model_label,
+    ].join(' '),
   );
   const hayTokens = tokenSet(hay);
-  let inter = 0;
-  for (const t of queryTokens) if (hayTokens.has(t)) inter++;
-  if (inter === 0) return 0;
-  return inter / queryTokens.size;
+  const expanded = expandQueryTokens(queryTokens);
+  const queryJoined = [...queryTokens].join(' ');
+
+  let primaryHits = 0;
+  let expansionHits = 0;
+  for (const t of queryTokens) {
+    if (queryTokenMatchesHay(t, hay, hayTokens)) {
+      primaryHits++;
+      continue;
+    }
+    for (const alt of expanded) {
+      if (alt !== t && queryTokenMatchesHay(alt, hay, hayTokens)) {
+        expansionHits++;
+        break;
+      }
+    }
+  }
+  if (primaryHits === 0 && expansionHits === 0) return 0;
+
+  let score = primaryHits / queryTokens.size + (expansionHits / queryTokens.size) * 0.35;
+  if (queryJoined.length >= 4 && hay.includes(normalizeText(queryJoined))) score += 0.4;
+  if (
+    /pharma|biopharma|biotech|drug|clinical|therapeutic/.test(queryJoined) &&
+    /pharma|biotech|drug|clinical|therapeutic|fda/.test(hay)
+  ) {
+    score += 0.2;
+  }
+  return score;
 }
 
 /** Pick default phenotype for a gap cell (first compatible with BM). */
@@ -282,16 +346,50 @@ export function pickWhitespaceCell({
   });
 
   if (!pool.length && hasGuidance) {
-    pool = findWhitespaceGaps({ query: queryTrim, limit: 30 });
+    pool = findWhitespaceGaps({ limit: 400 })
+      .map((gap) => {
+        const hay = normalizeText(
+          [gap.vertical_id, gap.vertical_label, gap.industry_label, gap.sector_label, gap.workflow].join(' '),
+        );
+        const score = queryTrim.length >= 3 && hay.includes(normalizeText(queryTrim)) ? 0.5 : 0;
+        return { gap, score };
+      })
+      .filter(({ score }) => score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 30)
+      .map(({ gap, score }) => ({ ...gap, relevance_score: score }));
   }
 
   if (!pool.length) {
-    throw new Error('No structurally valid whitespace found. Try a broader industry hint.');
+    throw new Error(
+      'No structurally valid whitespace found for that hint. Try a shorter keyword (e.g. pharma, biotech, healthcare) or leave blank for a random gap.',
+    );
   }
 
   const assignments = loadNormalizedAssignments();
   const verticalOntology = loadVerticalOntology();
-  const candidates = queryTokens.size ? pool.slice(0, 20) : pool;
+
+  if (queryTokens.size) {
+    const gap = pool[0];
+    const gapRow = {
+      ...gap,
+      phenotype_primary_id: gap.target_cell.phenotype_primary_id,
+    };
+    const [ranked] = rankGapsByGoodness([gapRow], {
+      inferPhenotype: inferPhenotypeForGap,
+      assignments,
+      getIdeaContextForCell,
+      verticalOntology,
+    });
+    return {
+      gap,
+      selection_method: 'best_match',
+      transfer_score: ranked?.transfer_score ?? null,
+      goodness_index: ranked?.goodness_index ?? null,
+    };
+  }
+
+  const candidates = pool;
   const gapRows = candidates.map((g) => ({
     ...g,
     phenotype_primary_id: g.target_cell.phenotype_primary_id,
@@ -303,19 +401,6 @@ export function pickWhitespaceCell({
     verticalOntology,
   });
   const pickFrom = ranked.filter((r) => r.transfer_score >= 45).length ? ranked.filter((r) => r.transfer_score >= 45) : ranked;
-
-  if (queryTokens.size) {
-    const best = pickFrom[0];
-    const gap = pool.find(
-      (g) => g.vertical_id === best.gap.vertical_id && g.business_model === best.gap.business_model,
-    ) ?? pool[0];
-    return {
-      gap,
-      selection_method: 'best_match',
-      transfer_score: best.transfer_score,
-      goodness_index: best.goodness_index,
-    };
-  }
 
   const idx = hashSeed(seed) % pickFrom.length;
   const chosen = pickFrom[idx];

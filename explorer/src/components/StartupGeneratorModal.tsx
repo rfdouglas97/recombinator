@@ -41,6 +41,7 @@ export function StartupGeneratorModal({ bundle, open, onClose }: Props) {
 
   const handleGenerate = useCallback(async () => {
     setError(null);
+    setResult(null);
     setLoading(true);
     try {
       const seed = Date.now() + rollSeed;
