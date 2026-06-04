@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T16:11:45.407Z",
-  "gap_count": 948,
+  "generated_at": "2026-06-04T16:55:19.095Z",
+  "gap_count": 920,
   "gaps": [
     {
       "business_model": "BM-03",
@@ -35,12 +35,12 @@
     {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
       "sector_id": "enterprise-software",
       "sector_label": "Enterprise Software & B2B Functions",
       "industry_label": "Developer tools",
-      "workflow": "dev_productivity"
+      "workflow": "qa"
     },
     {
       "business_model": "BM-02",
@@ -73,8 +73,18 @@
       "workflow": "appsec"
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.security.cyber",
+      "vertical_label": "Enterprise cybersecurity operations",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Cybersecurity & compliance",
+      "workflow": "soc"
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.security.cyber",
       "vertical_label": "Enterprise cybersecurity operations",
       "sector_id": "enterprise-software",
@@ -91,6 +101,16 @@
       "sector_label": "Enterprise Software & B2B Functions",
       "industry_label": "Cybersecurity & compliance",
       "workflow": "audit"
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Cross-functional business operations",
+      "workflow": "knowledge"
     },
     {
       "business_model": "BM-06",
@@ -205,6 +225,16 @@
     {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
+      "vertical_id": "fintech.payments.consumer",
+      "vertical_label": "Consumer payments & rewards",
+      "sector_id": "financial-services",
+      "sector_label": "Financial Services & Insurance",
+      "industry_label": "Payments",
+      "workflow": "consumer_payments"
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "fintech.payments.consumer",
       "vertical_label": "Consumer payments & rewards",
       "sector_id": "financial-services",
@@ -375,6 +405,16 @@
     {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
+      "vertical_id": "fintech.insurance.claims-property",
+      "vertical_label": "Property & casualty insurance claims & contents",
+      "sector_id": "financial-services",
+      "sector_label": "Financial Services & Insurance",
+      "industry_label": "Insurance",
+      "workflow": "property_claims"
+    },
+    {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
       "vertical_id": "fintech.insurance.underwriting",
       "vertical_label": "Insurance underwriting automation",
       "sector_id": "financial-services",
@@ -423,16 +463,6 @@
       "workflow": "practice_ops"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.clinical.trials-data",
-      "vertical_label": "Clinical trial data & biometrics",
-      "sector_id": "healthcare-life-sciences",
-      "sector_label": "Healthcare & Life Sciences",
-      "industry_label": "Clinical trials & CRO",
-      "workflow": "trial_data"
-    },
-    {
       "business_model": "BM-09",
       "business_model_label": "Biotech / R&D platform",
       "vertical_id": "healthcare.clinical.trials-data",
@@ -441,26 +471,6 @@
       "sector_label": "Healthcare & Life Sciences",
       "industry_label": "Clinical trials & CRO",
       "workflow": "trial_data"
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.clinical.trials-data",
-      "vertical_label": "Clinical trial data & biometrics",
-      "sector_id": "healthcare-life-sciences",
-      "sector_label": "Healthcare & Life Sciences",
-      "industry_label": "Clinical trials & CRO",
-      "workflow": "trial_data"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.regulatory.fda",
-      "vertical_label": "FDA regulatory consulting (biotech & devices)",
-      "sector_id": "healthcare-life-sciences",
-      "sector_label": "Healthcare & Life Sciences",
-      "industry_label": "Pharma & biotech R&D",
-      "workflow": "fda_regulatory"
     },
     {
       "business_model": "BM-09",
@@ -565,6 +575,16 @@
     {
       "business_model": "BM-11",
       "business_model_label": "Defense / gov-critical infrastructure",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "sector_label": "Industrials, Defense & Hard Tech",
+      "industry_label": "Robotics & automation",
+      "workflow": "robotics_platform"
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "industrials.robotics.general",
       "vertical_label": "General-purpose robotics intelligence",
       "sector_id": "industrials-defense",
@@ -793,26 +813,6 @@
       "workflow": "gov_ops"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "education.institutional.learning",
-      "vertical_label": "Institutional learning & EdTech",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "learning"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "education.institutional.learning",
-      "vertical_label": "Institutional learning & EdTech",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "learning"
-    },
-    {
       "business_model": "BM-06",
       "business_model_label": "Data / intelligence product",
       "vertical_id": "research.equity.hedge-funds",
@@ -983,28 +983,8 @@
       "workflow": "pharmacy"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.payer.claims",
-      "vertical_label": "Health payer claims & utilization",
-      "sector_id": "healthcare-life-sciences",
-      "sector_label": "Healthcare & Life Sciences",
-      "industry_label": "Health insurance & payers",
-      "workflow": "payer_claims"
-    },
-    {
       "business_model": "BM-09",
       "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "healthcare.payer.claims",
-      "vertical_label": "Health payer claims & utilization",
-      "sector_id": "healthcare-life-sciences",
-      "sector_label": "Healthcare & Life Sciences",
-      "industry_label": "Health insurance & payers",
-      "workflow": "payer_claims"
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
       "vertical_id": "healthcare.payer.claims",
       "vertical_label": "Health payer claims & utilization",
       "sector_id": "healthcare-life-sciences",
@@ -1303,26 +1283,6 @@
       "workflow": "last_mile"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "education.corporate-training",
-      "vertical_label": "Corporate training & L&D",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "corporate_ld"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "education.corporate-training",
-      "vertical_label": "Corporate training & L&D",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "corporate_ld"
-    },
-    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "compute.gpu-cost-optimization",
@@ -1425,6 +1385,16 @@
     {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "compute.model-serving-versioning",
+      "vertical_label": "Model versioning & canary deployment",
+      "sector_id": "ai-infrastructure",
+      "sector_label": "AI & Agent Infrastructure",
+      "industry_label": "AI compute & GPU infrastructure",
+      "workflow": "model_version_management"
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "compute.gpu-cluster-autoscaling",
       "vertical_label": "GPU cluster autoscaling & dynamic provisioning",
       "sector_id": "ai-infrastructure",
@@ -1455,22 +1425,22 @@
     {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "compute.inference-request-routing",
+      "vertical_label": "Intelligent inference request routing & load balancing",
+      "sector_id": "ai-infrastructure",
+      "sector_label": "AI & Agent Infrastructure",
+      "industry_label": "AI compute & GPU infrastructure",
+      "workflow": "inference_routing"
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "compute.gpu-power-thermal-management",
       "vertical_label": "GPU power consumption & thermal management",
       "sector_id": "ai-infrastructure",
       "sector_label": "AI & Agent Infrastructure",
       "industry_label": "AI compute & GPU infrastructure",
       "workflow": "gpu_power_management"
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "data.synthetic-data-generation",
-      "vertical_label": "Synthetic data generation & augmentation",
-      "sector_id": "ai-infrastructure",
-      "sector_label": "AI & Agent Infrastructure",
-      "industry_label": "Agent context & training data",
-      "workflow": "synthetic_dataset_creation"
     },
     {
       "business_model": "BM-03",
@@ -1693,8 +1663,28 @@
       "workflow": "code_review"
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "devtools.infrastructure-as-code",
+      "vertical_label": "Infrastructure-as-code authoring & policy enforcement",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Developer tools",
+      "workflow": "iac_management"
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "devtools.infrastructure-as-code",
+      "vertical_label": "Infrastructure-as-code authoring & policy enforcement",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Developer tools",
+      "workflow": "iac_management"
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "devtools.infrastructure-as-code",
       "vertical_label": "Infrastructure-as-code authoring & policy enforcement",
       "sector_id": "enterprise-software",
@@ -2033,16 +2023,6 @@
       "workflow": "vuln_assessment"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "security.threat-intel",
-      "vertical_label": "Threat intelligence & adversary tracking",
-      "sector_id": "enterprise-software",
-      "sector_label": "Enterprise Software & B2B Functions",
-      "industry_label": "Cybersecurity & compliance",
-      "workflow": "threat_intel"
-    },
-    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "security.threat-intel",
@@ -2053,38 +2033,8 @@
       "workflow": "threat_intel"
     },
     {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "security.threat-intel",
-      "vertical_label": "Threat intelligence & adversary tracking",
-      "sector_id": "enterprise-software",
-      "sector_label": "Enterprise Software & B2B Functions",
-      "industry_label": "Cybersecurity & compliance",
-      "workflow": "threat_intel"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "security.incident-response",
-      "vertical_label": "Incident response & forensics",
-      "sector_id": "enterprise-software",
-      "sector_label": "Enterprise Software & B2B Functions",
-      "industry_label": "Cybersecurity & compliance",
-      "workflow": "incident_response"
-    },
-    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "security.incident-response",
-      "vertical_label": "Incident response & forensics",
-      "sector_id": "enterprise-software",
-      "sector_label": "Enterprise Software & B2B Functions",
-      "industry_label": "Cybersecurity & compliance",
-      "workflow": "incident_response"
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
       "vertical_id": "security.incident-response",
       "vertical_label": "Incident response & forensics",
       "sector_id": "enterprise-software",
@@ -2363,8 +2313,28 @@
       "workflow": "awareness_training"
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "security.compliance-automation",
+      "vertical_label": "Compliance automation & evidence collection",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Cybersecurity & compliance",
+      "workflow": "compliance_evidence"
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "security.compliance-automation",
+      "vertical_label": "Compliance automation & evidence collection",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Cybersecurity & compliance",
+      "workflow": "compliance_evidence"
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "security.compliance-automation",
       "vertical_label": "Compliance automation & evidence collection",
       "sector_id": "enterprise-software",
@@ -2433,28 +2403,8 @@
       "workflow": "risk_modeling"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "marketing.demand-gen",
-      "vertical_label": "Demand generation & lead scoring",
-      "sector_id": "enterprise-software",
-      "sector_label": "Enterprise Software & B2B Functions",
-      "industry_label": "Marketing operations",
-      "workflow": "demand_generation"
-    },
-    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "marketing.demand-gen",
-      "vertical_label": "Demand generation & lead scoring",
-      "sector_id": "enterprise-software",
-      "sector_label": "Enterprise Software & B2B Functions",
-      "industry_label": "Marketing operations",
-      "workflow": "demand_generation"
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
       "vertical_id": "marketing.demand-gen",
       "vertical_label": "Demand generation & lead scoring",
       "sector_id": "enterprise-software",
@@ -2883,6 +2833,16 @@
       "workflow": "cross_border_fx_settlement"
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "payments.cross-border-fx",
+      "vertical_label": "Cross-border payments & FX settlement",
+      "sector_id": "financial-services",
+      "sector_label": "Financial Services & Insurance",
+      "industry_label": "Payments",
+      "workflow": "cross_border_fx_settlement"
+    },
+    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "payments.subscription-billing",
@@ -2965,16 +2925,6 @@
     {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
-      "vertical_id": "payments.payment-gateway-integration",
-      "vertical_label": "Multi-gateway payment orchestration & routing",
-      "sector_id": "financial-services",
-      "sector_label": "Financial Services & Insurance",
-      "industry_label": "Payments",
-      "workflow": "payment_orchestration_routing"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "payments.payment-gateway-integration",
       "vertical_label": "Multi-gateway payment orchestration & routing",
       "sector_id": "financial-services",
@@ -3361,16 +3311,6 @@
       "sector_label": "Financial Services & Insurance",
       "industry_label": "Insurance",
       "workflow": "premium_billing"
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "insurance.claims-property",
-      "vertical_label": "Property & casualty claims processing",
-      "sector_id": "financial-services",
-      "sector_label": "Financial Services & Insurance",
-      "industry_label": "Insurance",
-      "workflow": "claims_property"
     },
     {
       "business_model": "BM-01",
@@ -3953,8 +3893,28 @@
       "workflow": "payer_enrollment"
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.payer.medical-policy",
+      "vertical_label": "Medical policy & clinical guidelines management",
+      "sector_id": "healthcare-life-sciences",
+      "sector_label": "Healthcare & Life Sciences",
+      "industry_label": "Health insurance & payers",
+      "workflow": "payer_medical_policy"
+    },
+    {
       "business_model": "BM-09",
       "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "healthcare.payer.medical-policy",
+      "vertical_label": "Medical policy & clinical guidelines management",
+      "sector_id": "healthcare-life-sciences",
+      "sector_label": "Healthcare & Life Sciences",
+      "industry_label": "Health insurance & payers",
+      "workflow": "payer_medical_policy"
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "healthcare.payer.medical-policy",
       "vertical_label": "Medical policy & clinical guidelines management",
       "sector_id": "healthcare-life-sciences",
@@ -5563,6 +5523,16 @@
       "workflow": "offline_programming"
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "robotics.supply-chain-logistics",
+      "vertical_label": "Autonomous mobile robot (AMR) fleet logistics & routing",
+      "sector_id": "industrials-defense",
+      "sector_label": "Industrials, Defense & Hard Tech",
+      "industry_label": "Robotics & automation",
+      "workflow": "amr_fleet_routing"
+    },
+    {
       "business_model": "BM-11",
       "business_model_label": "Defense / gov-critical infrastructure",
       "vertical_id": "robotics.supply-chain-logistics",
@@ -5875,6 +5845,16 @@
     {
       "business_model": "BM-11",
       "business_model_label": "Defense / gov-critical infrastructure",
+      "vertical_id": "manufacturing.production-scheduling",
+      "vertical_label": "Production scheduling & capacity planning",
+      "sector_id": "industrials-defense",
+      "sector_label": "Industrials, Defense & Hard Tech",
+      "industry_label": "Manufacturing & industrial ops",
+      "workflow": "production_scheduling"
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "manufacturing.production-scheduling",
       "vertical_label": "Production scheduling & capacity planning",
       "sector_id": "industrials-defense",
@@ -6111,6 +6091,16 @@
       "sector_label": "Real Estate & Construction",
       "industry_label": "Construction & field services",
       "workflow": "safety_incident_reporting"
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "construction.subcontractor-management",
+      "vertical_label": "Subcontractor vetting, licensing & payment",
+      "sector_id": "real-estate-construction",
+      "sector_label": "Real Estate & Construction",
+      "industry_label": "Construction & field services",
+      "workflow": "subcontractor_onboarding_payment"
     },
     {
       "business_model": "BM-01",
@@ -7193,6 +7183,16 @@
       "workflow": "shipper_onboarding"
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "freight.invoice-settlement",
+      "vertical_label": "Freight invoice & settlement processing",
+      "sector_id": "transportation-logistics",
+      "sector_label": "Transportation & Logistics",
+      "industry_label": "Freight & logistics brokerage",
+      "workflow": "invoice_settlement"
+    },
+    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "freight.invoice-settlement",
@@ -7513,6 +7513,16 @@
       "workflow": "bess_dispatch"
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "power.battery-storage-ops",
+      "vertical_label": "Battery energy storage system operations & dispatch",
+      "sector_id": "energy-climate",
+      "sector_label": "Energy & Climate",
+      "industry_label": "Power generation & grid",
+      "workflow": "bess_dispatch"
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "power.wholesale-market-trading",
@@ -7545,16 +7555,6 @@
     {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
-      "vertical_id": "power.microgrid-control",
-      "vertical_label": "Microgrid islanding & local energy management",
-      "sector_id": "energy-climate",
-      "sector_label": "Energy & Climate",
-      "industry_label": "Power generation & grid",
-      "workflow": "microgrid_ops"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "power.microgrid-control",
       "vertical_label": "Microgrid islanding & local energy management",
       "sector_id": "energy-climate",
@@ -7783,6 +7783,16 @@
       "workflow": "energy_audit_retrofit"
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "climate.energy-audit-retrofit",
+      "vertical_label": "Building energy audits & retrofit project management",
+      "sector_id": "energy-climate",
+      "sector_label": "Energy & Climate",
+      "industry_label": "Climate & sustainability",
+      "workflow": "energy_audit_retrofit"
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "climate.climate-risk-assessment",
@@ -7885,16 +7895,6 @@
     {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
-      "vertical_id": "climate.energy-consumption-monitoring",
-      "vertical_label": "Real-time energy consumption & demand response",
-      "sector_id": "energy-climate",
-      "sector_label": "Energy & Climate",
-      "industry_label": "Climate & sustainability",
-      "workflow": "energy_monitoring"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "climate.energy-consumption-monitoring",
       "vertical_label": "Real-time energy consumption & demand response",
       "sector_id": "energy-climate",
@@ -8921,286 +8921,6 @@
       "sector_label": "Agriculture & Food",
       "industry_label": "Farming & ag operations",
       "workflow": "water_quality_monitoring"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.student-enrollment",
-      "vertical_label": "Student enrollment & admissions workflow",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "enrollment_admissions"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.student-enrollment",
-      "vertical_label": "Student enrollment & admissions workflow",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "enrollment_admissions"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.student-records",
-      "vertical_label": "Student records & transcript management",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "records_transcripts"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.student-records",
-      "vertical_label": "Student records & transcript management",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "records_transcripts"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.tuition-billing",
-      "vertical_label": "Tuition billing & student accounts receivable",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "tuition_billing_ar"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.tuition-billing",
-      "vertical_label": "Tuition billing & student accounts receivable",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "tuition_billing_ar"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.financial-aid",
-      "vertical_label": "Financial aid & student loan administration",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "financial_aid_loans"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.financial-aid",
-      "vertical_label": "Financial aid & student loan administration",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "financial_aid_loans"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.faculty-scheduling",
-      "vertical_label": "Faculty scheduling & course assignment",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "faculty_scheduling"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.faculty-scheduling",
-      "vertical_label": "Faculty scheduling & course assignment",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "faculty_scheduling"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.classroom-facilities",
-      "vertical_label": "Classroom & facility booking management",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "facilities_booking"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.classroom-facilities",
-      "vertical_label": "Classroom & facility booking management",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "facilities_booking"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.accreditation-compliance",
-      "vertical_label": "Accreditation & institutional compliance reporting",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "accreditation_compliance"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.accreditation-compliance",
-      "vertical_label": "Accreditation & institutional compliance reporting",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "accreditation_compliance"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.student-conduct",
-      "vertical_label": "Student conduct & disciplinary case management",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "conduct_discipline"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.student-conduct",
-      "vertical_label": "Student conduct & disciplinary case management",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "conduct_discipline"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.alumni-relations",
-      "vertical_label": "Alumni engagement & donor relationship management",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "alumni_donor_relations"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.alumni-relations",
-      "vertical_label": "Alumni engagement & donor relationship management",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "alumni_donor_relations"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.grant-management",
-      "vertical_label": "Research grant & funding administration",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "grant_administration"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.grant-management",
-      "vertical_label": "Research grant & funding administration",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "grant_administration"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.hr-payroll",
-      "vertical_label": "Faculty & staff HR and payroll",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "hr_payroll"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.hr-payroll",
-      "vertical_label": "Faculty & staff HR and payroll",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "hr_payroll"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.institutional-planning",
-      "vertical_label": "Strategic planning & institutional effectiveness",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "strategic_planning"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.institutional-planning",
-      "vertical_label": "Strategic planning & institutional effectiveness",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "strategic_planning"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.library-resources",
-      "vertical_label": "Library & digital resource management",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "library_resources"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.library-resources",
-      "vertical_label": "Library & digital resource management",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "library_resources"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "institutions.career-services",
-      "vertical_label": "Career services & student employment placement",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "career_placement"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "institutions.career-services",
-      "vertical_label": "Career services & student employment placement",
-      "sector_id": "education",
-      "sector_label": "Education & Workforce",
-      "industry_label": "Schools & training providers",
-      "workflow": "career_placement"
     },
     {
       "business_model": "BM-04",

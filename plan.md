@@ -234,7 +234,9 @@ Use **`.cursor/agents/schema-reviewer.md`** when designing changes. Re-migrate S
 
 ### Step H — Education & Workforce taxonomy gap
 
-**Problem:** The gap matrix shows **zero** companies in **Education & Workforce** (`vertical_sector_id = education`, `education.*` / `institutions.*` verticals). That is **not** because the YC scrape has no Ed/workforce startups — it is because classifiers place them elsewhere.
+**Status:** `education` sector removed from ontology/UI for now (empty column hurt credibility). Re-add when classifications or overrides are ready.
+
+**Problem:** The gap matrix showed **zero** companies in **Education & Workforce** (`vertical_sector_id = education`, `education.*` / `institutions.*` verticals). That is **not** because the YC scrape has no Ed/workforce startups — it is because classifiers place them elsewhere.
 
 **Verified on current batch (401 companies, W26–S26 cohorts):**
 

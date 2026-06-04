@@ -17,7 +17,6 @@ export const SECTORS = [
   { id: 'media-entertainment', label: 'Media, Gaming & Entertainment' },
   { id: 'government-public', label: 'Government & Public Sector' },
   { id: 'agriculture', label: 'Agriculture & Food' },
-  { id: 'education', label: 'Education & Workforce' },
   { id: 'professional-services', label: 'Professional Services & Research' },
 ];
 
@@ -80,8 +79,6 @@ export const INDUSTRIES = [
   { id: 'government.public-sector', label: 'Government & GovTech', sector_id: 'government-public' },
   // agriculture
   { id: 'agriculture.farming', label: 'Farming & ag operations', sector_id: 'agriculture' },
-  // education
-  { id: 'education.institutions', label: 'Schools & training providers', sector_id: 'education' },
   // professional-services
   { id: 'research.cap-markets', label: 'Capital markets research', sector_id: 'professional-services' },
   { id: 'research.market-intel', label: 'Market research & intelligence', sector_id: 'professional-services' },
@@ -326,9 +323,6 @@ export const VERTICALS = [
   // --- Agriculture ---
   { id: 'agriculture.farm.ops', label: 'Farm & ag operations', industry_id: 'agriculture.farming', workflow: 'farm_ops', aliases: ['Farm operations', 'Precision agriculture'], yc_subindustry: ['Industrials > Agriculture'] },
 
-  // --- Education ---
-  { id: 'education.institutional.learning', label: 'Institutional learning & EdTech', industry_id: 'education.institutions', workflow: 'learning', aliases: ['EdTech', 'Corporate training platforms'], yc_subindustry: ['B2B > Productivity'] },
-
   // --- Research & consulting ---
   { id: 'research.equity.hedge-funds', label: 'Hedge fund & equity research', industry_id: 'research.cap-markets', workflow: 'equity_research', aliases: ['Hedge fund equity research', 'Equity research terminals'], yc_subindustry: ['B2B > Finance and Accounting', 'B2B > Analytics'] },
   { id: 'research.ai-rd', label: 'AI research & development labs', industry_id: 'ai-infrastructure.agent-platform', workflow: 'ai_research', aliases: ['AI research and development'], yc_subindustry: ['B2B > Analytics'] },
@@ -359,7 +353,6 @@ export const VERTICALS = [
   { id: 'services.staffing.rpo', label: 'RPO & outsourced recruiting', industry_id: 'enterprise.hr-ops', workflow: 'rpo', aliases: ['Recruitment process outsourcing', 'RPO services'], yc_subindustry: ['B2B > Recruiting and Talent'] },
   { id: 'logistics.warehouse.fulfillment', label: 'Warehouse & fulfillment operations', industry_id: 'logistics.supply-chain', workflow: 'fulfillment', aliases: ['Warehouse management', '3PL fulfillment', 'E-commerce fulfillment'], yc_subindustry: ['B2B > Supply Chain and Logistics'] },
   { id: 'logistics.last-mile', label: 'Last-mile delivery operations', industry_id: 'logistics.freight', workflow: 'last_mile', aliases: ['Last-mile delivery', 'Local delivery logistics'], yc_subindustry: ['B2B > Supply Chain and Logistics'] },
-  { id: 'education.corporate-training', label: 'Corporate training & L&D', industry_id: 'education.institutions', workflow: 'corporate_ld', aliases: ['Corporate learning', 'L&D platforms', 'Employee training'], yc_subindustry: ['B2B > Human Resources', 'B2B > Productivity'] },
 ];
 
 /** Default vertical when only YC sub-industry pair is known (no agent label). */
