@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { ChatMatch, ChatMessage } from '../api/chat';
 import { checkChatHealth, sendChatMessage } from '../api/chat';
+import { SIDEBAR_FILTER_DEFAULTS } from '../hooks/useFilterState';
 import type { DataBundle, DrawerSelection } from '../types';
 import {
   companiesToMatches,
@@ -128,7 +129,7 @@ export function YcChatPanel({
         setLastMatches(result.refused ? [] : result.matches);
         if (result.refused) setError(null);
       } catch (e) {
-        const local = searchCompaniesLocal(bundle, trimmed, {});
+        const local = searchCompaniesLocal(bundle, trimmed, SIDEBAR_FILTER_DEFAULTS);
         const reply = formatLocalSearchReply(trimmed, local);
         setMessages((prev) => [...prev, { role: 'assistant', content: reply }]);
         setLastMatches(companiesToMatches(local));
