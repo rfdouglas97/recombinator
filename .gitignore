@@ -9,27 +9,19 @@ explore2.mjs
 algolia-sample.json
 company-page.html
 
-# Regenerated pipeline artifacts (large)
-output/
+# Ignore all pipeline output by default
+output/**
 
-# Launch monitor: keep state + reviews in git for CI continuity
-!output/launches/
-output/launches/logs/
+# Launch monitor state (for CI continuity)
+!output/launches/**
+output/launches/logs/**
 output/launches/launches-raw.json
 
-# Predictor snapshot for launch checks in CI (~4MB total)
-!output/verticals/
-output/verticals/*
+# Predictor snapshot for launch checks in CI
 !output/verticals/normalized-assignments.json
 !output/verticals/gap-candidates.json
 !output/verticals/bm-vertical-matrix.json
-!output/phenotypes/
-output/phenotypes/*
 !output/phenotypes/ontology.json
 !output/phenotypes/assignments.json
-!output/whitespace/
-output/whitespace/*
 !output/whitespace/gap-opportunity-ranked.json
-!output/startup-library/
-output/startup-library/*
 !output/startup-library/library.json

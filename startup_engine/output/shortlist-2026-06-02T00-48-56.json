@@ -1,0 +1,169 @@
+{
+  "picked_at": "2026-06-02T00:48:56.090Z",
+  "source": "/Users/ryandouglas/Desktop/yc scrape/output/whitespace/gap-opportunity-ranked.json",
+  "ranking_version": null,
+  "filters": {
+    "top": 5,
+    "minOpportunity": 38,
+    "minDepth": 3,
+    "sector": "",
+    "requireRelevantAnalog": true
+  },
+  "shortlist": [
+    {
+      "rank": 1,
+      "opportunity_score": 54,
+      "transfer_score": 83,
+      "transfer_band": "strong",
+      "analog_match_tier": null,
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "consumer.finance.buy-now-pay-later",
+      "vertical_label": "Buy-now-pay-later (BNPL) origination & servicing",
+      "sector_id": "consumer",
+      "sector_label": "Consumer & Prosumer",
+      "workflow": "bnpl_origination",
+      "phenotype_primary_id": "consumer-ai-app",
+      "analog_slugs": [
+        "doomersion",
+        "drafted",
+        "heyclicky"
+      ],
+      "relevant_analogs": [],
+      "flags": [
+        "vertical_desert",
+        "sibling_gap",
+        "no_workflow_analog"
+      ],
+      "target_cell": {
+        "business_model": "BM-10",
+        "vertical_id": "consumer.finance.buy-now-pay-later",
+        "phenotype_primary_id": "consumer-ai-app"
+      }
+    },
+    {
+      "rank": 2,
+      "opportunity_score": 54,
+      "transfer_score": 83,
+      "transfer_band": "strong",
+      "analog_match_tier": null,
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.payer.care-management",
+      "vertical_label": "Care management & population health programs",
+      "sector_id": "healthcare-life-sciences",
+      "sector_label": "Healthcare & Life Sciences",
+      "workflow": "payer_care_mgmt",
+      "phenotype_primary_id": "vertical-workflow-agent",
+      "analog_slugs": [
+        "arctic-health",
+        "astraea",
+        "beacon-health"
+      ],
+      "relevant_analogs": [],
+      "flags": [
+        "vertical_desert",
+        "sibling_gap",
+        "no_workflow_analog"
+      ],
+      "target_cell": {
+        "business_model": "BM-01",
+        "vertical_id": "healthcare.payer.care-management",
+        "phenotype_primary_id": "vertical-workflow-agent"
+      }
+    },
+    {
+      "rank": 3,
+      "opportunity_score": 54,
+      "transfer_score": 83,
+      "transfer_band": "strong",
+      "analog_match_tier": null,
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "healthcare.payer.care-management",
+      "vertical_label": "Care management & population health programs",
+      "sector_id": "healthcare-life-sciences",
+      "sector_label": "Healthcare & Life Sciences",
+      "workflow": "payer_care_mgmt",
+      "phenotype_primary_id": "biotech-rd-agent",
+      "analog_slugs": [
+        "10x-science",
+        "celltype",
+        "ditto-biosciences"
+      ],
+      "relevant_analogs": [],
+      "flags": [
+        "vertical_desert",
+        "sibling_gap",
+        "no_workflow_analog"
+      ],
+      "target_cell": {
+        "business_model": "BM-09",
+        "vertical_id": "healthcare.payer.care-management",
+        "phenotype_primary_id": "biotech-rd-agent"
+      }
+    },
+    {
+      "rank": 4,
+      "opportunity_score": 54,
+      "transfer_score": 83,
+      "transfer_band": "strong",
+      "analog_match_tier": null,
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "healthcare.payer.care-management",
+      "vertical_label": "Care management & population health programs",
+      "sector_id": "healthcare-life-sciences",
+      "sector_label": "Healthcare & Life Sciences",
+      "workflow": "payer_care_mgmt",
+      "phenotype_primary_id": "vertical-workflow-agent",
+      "analog_slugs": [
+        "arctic-health",
+        "astraea",
+        "beacon-health"
+      ],
+      "relevant_analogs": [],
+      "flags": [
+        "vertical_desert",
+        "sibling_gap",
+        "no_workflow_analog"
+      ],
+      "target_cell": {
+        "business_model": "BM-04",
+        "vertical_id": "healthcare.payer.care-management",
+        "phenotype_primary_id": "vertical-workflow-agent"
+      }
+    },
+    {
+      "rank": 5,
+      "opportunity_score": 54,
+      "transfer_score": 83,
+      "transfer_band": "strong",
+      "analog_match_tier": null,
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "consumer.finance.expense-reimbursement",
+      "vertical_label": "Consumer expense reimbursement & cashback claims",
+      "sector_id": "consumer",
+      "sector_label": "Consumer & Prosumer",
+      "workflow": "expense_reimbursement",
+      "phenotype_primary_id": "consumer-ai-app",
+      "analog_slugs": [
+        "doomersion",
+        "drafted",
+        "heyclicky"
+      ],
+      "relevant_analogs": [],
+      "flags": [
+        "vertical_desert",
+        "sibling_gap",
+        "no_workflow_analog"
+      ],
+      "target_cell": {
+        "business_model": "BM-10",
+        "vertical_id": "consumer.finance.expense-reimbursement",
+        "phenotype_primary_id": "consumer-ai-app"
+      }
+    }
+  ]
+}

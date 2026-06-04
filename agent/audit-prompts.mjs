@@ -42,10 +42,13 @@ Verdicts:
 - minor_fix: mostly right; one field could be improved (suggest exact id from catalogs)
 - wrong: primary phenotype or vertical is materially incorrect
 
+classification_confidence: 0.0–1.0 — your confidence that the *current* classification is correct (not confidence in your suggestions). Use <0.85 when YC industry tags may be misleading or phenotype/vertical disagree with the product description.
+
 Return ONLY valid JSON:
 {
   "slug": "company-slug",
   "verdict": "ok|minor_fix|wrong",
+  "classification_confidence": 0.0,
   "severity": 1,
   "issues": [{"field": "phenotype_primary_id|vertical_id|industry_sub_vertical|business_models", "problem": "short", "suggested": "value or null"}],
   "suggested_phenotype_primary_id": "id-or-null",

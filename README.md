@@ -115,25 +115,30 @@ Every company in `output/phenotypes/assignments.jsonl` can be audited for phenot
 # 1) Fast rule pass — fixes perps/marketplace vs fintech-insurance mis-tags (no API)
 npm run audit:refine
 
-# 2) LLM audit all ~401 companies (default: Claude Sonnet; was Haiku in June 2026 run)
-npm run audit:classifications:full
+# 2) Tiered LLM audit (~$5–8 for 401 cos): Haiku screens all, Sonnet only when uncertain
+npm run audit:tiered
 # Review: output/audit/review.html and review.csv
 
 # 3) Re-tag companies flagged wrong/minor_fix
 npm run audit:reclassify
-# Or re-tag everyone: npm run audit:reclassify:all
 
 # 4) Human queue + HTML review after fixes
 npm run audit:human-queue && npm run audit:review
-
-# One-shot: audit → reclassify → human queue → review HTML
-npm run audit:pipeline
 ```
 
-**Model overrides** (optional, in `.env`):
+**Tiered audit** (`agent/tiered-audit.mjs`): every company gets a cheap Haiku pass with `classification_confidence`. Sonnet runs only when confidence is low, verdict is `wrong`, fintech phenotype is shaky, or vertical came from a YC fallback. Typical escalation ~15–25% → much cheaper than all-Sonnet.
 
 ```bash
-CLASSIFICATION_AUDIT_MODEL=claude-sonnet-4-5-20250929
+TIERED_TIER1_MODEL=claude-haiku-4-5-20251001
+TIERED_TIER2_MODEL=claude-sonnet-4-5-20250929
+TIERED_ESCALATE_BELOW=0.85
+TIERED_AUDIT_CONCURRENCY=12
+```
+
+**Model overrides** (single-model audit / reclassify):
+
+```bash
+CLASSIFICATION_AUDIT_MODEL=claude-haiku-4-5-20251001
 CLASSIFICATION_RECLASSIFY_MODEL=claude-sonnet-4-5-20250929
 CLASSIFICATION_AUDIT_CONCURRENCY=8
 ```

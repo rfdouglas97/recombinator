@@ -29,6 +29,8 @@
     "verticals:expand-all": "node agent/expand-verticals.mjs && node scripts/build-vertical-audit.mjs",
     "phenotype:rebuild": "node scripts/rebuild-assignments.mjs",
     "audit:refine": "node scripts/apply-archetype-refinement.mjs",
+    "audit:tiered": "node agent/tiered-audit.mjs && node scripts/build-classification-audit-review.mjs",
+    "audit:tiered:test": "node agent/tiered-audit.mjs --fresh --limit 10 && node scripts/build-classification-audit-review.mjs",
     "audit:classifications": "node agent/audit-classifications.mjs && node scripts/build-classification-audit-review.mjs",
     "audit:classifications:resume": "node agent/audit-classifications.mjs --resume && node scripts/build-classification-audit-review.mjs",
     "audit:classifications:test": "node agent/audit-classifications.mjs --fresh --limit 5 && node scripts/build-classification-audit-review.mjs",
