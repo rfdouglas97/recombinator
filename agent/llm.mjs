@@ -182,3 +182,19 @@ export function resolveApiConfig() {
 
   return null;
 }
+
+/** Explorer chat only — cheap default; does not affect classification/generator agents. */
+export function resolveChatApiConfig() {
+  const base = resolveApiConfig();
+  if (!base) return null;
+  const chatModel =
+    process.env.CHAT_MODEL ??
+    (base.provider === 'anthropic'
+      ? (process.env.CHAT_ANTHROPIC_MODEL ?? 'claude-haiku-4-5-20251001')
+      : (process.env.CHAT_OPENAI_MODEL ?? 'gpt-4o-mini'));
+  return {
+    ...base,
+    model: chatModel,
+    maxTokens: parseInt(process.env.CHAT_MAX_TOKENS ?? '1024', 10),
+  };
+}

@@ -17,8 +17,11 @@ import { query, closePool, pingDatabase } from './client.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
+const DB_DIR = dirname(fileURLToPath(import.meta.url));
+
 const PATHS = {
-  schema: join(dirname(fileURLToPath(import.meta.url)), 'schema.sql'),
+  schema: join(DB_DIR, 'schema.sql'),
+  schemaF1: join(DB_DIR, 'migrations/002_schema_f1.sql'),
   ontology: join(ROOT, 'output/phenotypes/ontology.json'),
   verticals: join(ROOT, 'taxonomy/verticals.json'),
   taxonomy: join(ROOT, 'taxonomy/v0.1.json'),
@@ -44,6 +47,26 @@ async function applySchema() {
   const sql = readFileSync(PATHS.schema, 'utf8');
   await query(sql);
   console.log('✓ schema applied');
+}
+
+async function applySchemaF1() {
+  if (!existsSync(PATHS.schemaF1)) return;
+  const sql = readFileSync(PATHS.schemaF1, 'utf8');
+  await query(sql);
+  console.log('✓ schema F1 applied (is_stub + idea_cards FKs)');
+}
+
+async function reconcileCompanyStubs() {
+  await query(`
+    UPDATE companies SET is_stub = false
+    WHERE slug IN (SELECT company_slug FROM company_classifications)
+  `);
+  await query(`
+    UPDATE companies SET is_stub = true
+    WHERE slug NOT IN (SELECT company_slug FROM company_classifications)
+  `);
+  const { rows } = await query(`SELECT is_stub, COUNT(*)::int AS n FROM companies GROUP BY is_stub ORDER BY is_stub`);
+  console.log('✓ company stubs reconciled:', rows.map((r) => `${r.is_stub}=${r.n}`).join(', '));
 }
 
 async function upsertMigration(name) {
@@ -149,15 +172,16 @@ async function loadCompanies(rows) {
     await query(
       `INSERT INTO companies (
          slug, name, website, yc_profile_url, batch, one_liner, description_combined,
-         yc_industries, yc_tags, launch_id, launch_url, launch_title, launch_tagline, launch_created_at, updated_at
-       ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,NOW())
+         yc_industries, yc_tags, launch_id, launch_url, launch_title, launch_tagline, launch_created_at,
+         is_stub, updated_at
+       ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,false,NOW())
        ON CONFLICT (slug) DO UPDATE SET
          name = EXCLUDED.name, website = EXCLUDED.website, batch = EXCLUDED.batch,
          one_liner = EXCLUDED.one_liner, description_combined = EXCLUDED.description_combined,
          yc_industries = EXCLUDED.yc_industries, yc_tags = EXCLUDED.yc_tags,
          launch_id = EXCLUDED.launch_id, launch_url = EXCLUDED.launch_url,
          launch_title = EXCLUDED.launch_title, launch_tagline = EXCLUDED.launch_tagline,
-         launch_created_at = EXCLUDED.launch_created_at, updated_at = NOW()`,
+         launch_created_at = EXCLUDED.launch_created_at, is_stub = false, updated_at = NOW()`,
       [
         r.slug,
         r.name,
@@ -241,7 +265,13 @@ async function loadCompanies(rows) {
 async function ensureCompany(slug, name = slug) {
   if (!slug) return;
   await query(
-    `INSERT INTO companies (slug, name) VALUES ($1, $2) ON CONFLICT (slug) DO NOTHING`,
+    `INSERT INTO companies (slug, name, is_stub) VALUES ($1, $2, true)
+     ON CONFLICT (slug) DO UPDATE SET
+       is_stub = CASE
+         WHEN EXISTS (SELECT 1 FROM company_classifications cc WHERE cc.company_slug = companies.slug)
+         THEN false
+         ELSE true
+       END`,
     [slug, name ?? slug],
   );
 }
@@ -344,6 +374,26 @@ async function loadGapCells(doc) {
   return gaps.length;
 }
 
+async function validateIdeaCardRefs() {
+  const checks = [
+    ['vertical_id', 'verticals', 'id'],
+    ['phenotype_primary_id', 'phenotypes', 'id'],
+    ['business_model', 'business_models', 'code'],
+  ];
+  for (const [col, table, pk] of checks) {
+    const { rows } = await query(
+      `SELECT id, ${col} AS ref FROM idea_cards
+       WHERE ${col} IS NOT NULL AND ${col} NOT IN (SELECT ${pk} FROM ${table})`,
+    );
+    if (rows.length) {
+      console.warn(`  warn: ${rows.length} idea_cards with orphan ${col}`);
+      for (const row of rows.slice(0, 5)) {
+        console.warn(`    ${row.id} → ${row.ref}`);
+      }
+    }
+  }
+}
+
 async function loadIdeaCards(doc) {
   const cards = doc?.cards ?? doc ?? [];
   const list = Array.isArray(cards) ? cards : [];
@@ -352,6 +402,19 @@ async function loadIdeaCards(doc) {
   for (const c of list) {
     const ws = c.whitespace ?? {};
     const target = ws.target_cell ?? c.startup?.target_cell ?? {};
+    const bm = ws.business_model ?? target.business_model ?? null;
+    const verticalId = ws.vertical_id ?? target.vertical_id ?? null;
+    const phenotypeId = ws.target_cell?.phenotype_primary_id ?? target.phenotype_primary_id ?? null;
+
+    if (phenotypeId) await ensurePhenotype(phenotypeId);
+    if (verticalId) await ensureVertical(verticalId, verticalId);
+    if (bm) {
+      await query(
+        `INSERT INTO business_models (code, label) VALUES ($1, $2) ON CONFLICT DO NOTHING`,
+        [bm, bm],
+      );
+    }
+
     await query(
       `INSERT INTO idea_cards (
          id, variant, generated_at, business_model, vertical_id, phenotype_primary_id,
@@ -364,9 +427,9 @@ async function loadIdeaCards(doc) {
         c.id,
         c.variant ?? null,
         c.generated_at ?? null,
-        ws.business_model ?? target.business_model ?? null,
-        ws.vertical_id ?? target.vertical_id ?? null,
-        ws.target_cell?.phenotype_primary_id ?? target.phenotype_primary_id ?? null,
+        bm,
+        verticalId,
+        phenotypeId,
         ws.cell_key ?? null,
         ws.opportunity_score ?? null,
         ws.opportunity_rank ?? null,
@@ -430,7 +493,12 @@ async function main() {
   await loadGapCells(loadJson(PATHS.rankedGaps));
   await loadIdeaCards(loadJson(PATHS.library));
 
+  await reconcileCompanyStubs();
+  await validateIdeaCardRefs();
+  await applySchemaF1();
+
   await upsertMigration('migrate-from-json-v1');
+  await upsertMigration('schema-f1');
   await printSummary();
   await closePool();
   console.log('\nDone.');

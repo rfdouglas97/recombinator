@@ -51,11 +51,16 @@ CREATE TABLE IF NOT EXISTS companies (
   launch_title        TEXT,
   launch_tagline      TEXT,
   launch_created_at   TIMESTAMPTZ,
+  is_stub             BOOLEAN NOT NULL DEFAULT false,
   created_at          TIMESTAMPTZ NOT NULL DEFAULT NOW(),
   updated_at          TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
 
+-- Idempotent column add for DBs created before schema v2 F1
+ALTER TABLE companies ADD COLUMN IF NOT EXISTS is_stub BOOLEAN NOT NULL DEFAULT false;
+
 CREATE INDEX IF NOT EXISTS idx_companies_batch ON companies (batch);
+CREATE INDEX IF NOT EXISTS idx_companies_is_stub ON companies (is_stub);
 CREATE INDEX IF NOT EXISTS idx_companies_name_trgm ON companies (name);
 
 CREATE TABLE IF NOT EXISTS company_classifications (
@@ -158,9 +163,9 @@ CREATE TABLE IF NOT EXISTS idea_cards (
   id              TEXT PRIMARY KEY,
   variant         INT,
   generated_at    TIMESTAMPTZ,
-  business_model  TEXT,
-  vertical_id     TEXT,
-  phenotype_primary_id TEXT,
+  business_model  TEXT REFERENCES business_models (code),
+  vertical_id     TEXT REFERENCES verticals (id),
+  phenotype_primary_id TEXT REFERENCES phenotypes (id),
   cell_key        TEXT,
   opportunity_score INT,
   opportunity_rank  INT,

@@ -199,7 +199,7 @@ Replace manual `db:migrate` copy step; scripts upsert after classify / launch-ch
 
 | Phase | Change | Files |
 |-------|--------|-------|
-| F1 | `is_stub` on companies; add missing FKs on `idea_cards`, `gap_cells` | `schema.sql`, migrate, queries |
+| F1 ✅ | `is_stub` on companies; FKs on `idea_cards` (`db/migrations/002_schema_f1.sql`) | Done — re-run `db:migrate` on Supabase to apply |
 | F2 | Drop denormalized label columns; JOIN in `queries.mjs` | schema, queries, build-bundle |
 | F3 | `sectors` + `industries` tables; migrate vertical hierarchy | schema, migrate, taxonomy import |
 | F4 | Remove `companies.launch_*`; unify on `launches` | schema, migrate, queries |
@@ -212,6 +212,29 @@ Use **`.cursor/agents/schema-reviewer.md`** when designing changes. Re-migrate S
 - Sentry, launch alerts
 - Remove `.worktrees/dev` if still present
 - Auth when inviting users (Phase 2)
+
+### Step H — Education & Workforce taxonomy gap
+
+**Problem:** The gap matrix shows **zero** companies in **Education & Workforce** (`vertical_sector_id = education`, `education.*` / `institutions.*` verticals). That is **not** because the YC scrape has no Ed/workforce startups — it is because classifiers place them elsewhere.
+
+**Verified on current batch (401 companies, W26–S26 cohorts):**
+
+| Placement | Count | Examples |
+|-----------|-------|----------|
+| `education` sector / vertical | **0** | — |
+| Ed/learning in copy, other sectors | ~10 | Doomersion → `consumer.productivity.personal`; Lamina Labs → `ai-infrastructure.training-data` |
+| YC `Education` / `Edtech` tag | 2 | HeyClicky (Mac buddy → consumer); Lamina Labs (EdTech infra → AI infra) |
+| `enterprise.hr.recruiting` | 6 | Skillsync, Perfectly, Saffron, Asendia, Standout, … |
+| `enterprise.hr.workforce` | 1 | TextSidekick — deskless worker SMS onboarding/training |
+
+**Todo:**
+
+- [ ] Add ontology verticals for common misfits (e.g. `consumer.education.language-learning`, clarify EdTech **infra** vs **institutional learning**)
+- [ ] Extend `taxonomy/infer-archetype.mjs` or vertical-classify prompts so consumer language-learning and frontline workforce training map to `education` when appropriate (not `consumer.productivity.personal` / generic HR)
+- [ ] Re-run `verticals:normalize --write` + `npm run db:migrate` (Supabase) after rule changes
+- [ ] Re-check BM × Sector matrix: Education column should reflect reassigned companies, not stay empty by default
+
+**Do not confuse with:** empty whitespace **gap cells** in that sector (those are unoccupied BM × vertical slots — expected). This step is about **misclassified companies** that should appear as observed density.
 
 ---
 
@@ -278,15 +301,21 @@ So: **runtime data** (not baked into the build), **via GET requests**, **sourced
 - [x] Postgres schema v1 (`db/schema.sql`) — JSON mirror, shipped to Supabase
 - [x] Docker local Postgres (`npm run db:up`)
 - [x] JSON → Postgres migration (`npm run db:migrate`)
-- [ ] **Schema v2 — data-engineer quality** (see Step F above)
-  - [ ] Stub companies isolated or flagged (`is_stub`)
-  - [ ] Missing FKs on `idea_cards`, `gap_cells`, `company_classifications.sector`
+- [ ] **Schema v2 — data-engineer quality** (see Step F above) — **F1 done**
+  - [x] Stub companies flagged (`companies.is_stub`; ~401 classified, ~490 launch-only stubs)
+  - [x] FKs on `idea_cards` → phenotypes, verticals, business_models
+  - [ ] Missing FK on `gap_cells.sector_id` (needs `sectors` table — F3)
+  - [ ] FK on `company_classifications.vertical_sector_id` (F3)
   - [ ] Denormalized labels removed; JOIN-based queries
   - [ ] `sectors` / `industries` hierarchy tables
   - [ ] Launch fields deduplicated (single home in `launches`)
   - [ ] Supabase ERD clean enough to onboard a new engineer without explanation
 - [ ] Pipeline writes to Postgres directly (replace migrate-as-copy)
 - [ ] Migrate remaining data: raw scrape, bm-vertical matrix, audit queue
+- [ ] **Education & Workforce classifications** (see Step H) — fix Ed/workforce-adjacent companies mapped to Consumer / AI infra / Enterprise HR only
+
+### Taxonomy & classifications
+- [ ] Education & Workforce gap — ontology + rules + re-normalize (Step H)
 
 ### Read API
 - [x] `server/read-api.mjs` + `db/queries.mjs` — GET handlers backed by Postgres

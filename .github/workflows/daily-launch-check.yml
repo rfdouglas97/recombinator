@@ -1,8 +1,11 @@
 # Daily YC Launches monitor
 # Docs: https://docs.github.com/en/actions
 #
-# Runs every day at 14:00 UTC (6:00 AM Pacific during PDT).
-# Also trigger manually: Actions tab → "Daily launch check" → Run workflow
+# Schedule: every day at 14:00 UTC (~6:00 AM Pacific during PDT).
+# Manual run: Actions → "Daily launch check" → Run workflow
+#
+# Setup (once): GitHub repo → Settings → Secrets → Actions → DATABASE_URL
+#   Use the Supabase session pooler URI (?sslmode=require). See db/DEPLOY.md.
 
 name: Daily launch check
 
@@ -10,9 +13,6 @@ on:
   schedule:
     - cron: '0 14 * * *'
   workflow_dispatch: {}
-
-permissions:
-  contents: write
 
 jobs:
   check-launches:
@@ -37,15 +37,24 @@ jobs:
           PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.playwright-browsers
         run: npx playwright install chromium --with-deps
 
-      - name: Run launch check
+      - name: Verify DATABASE_URL secret
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: |
+          if [ -z "$DATABASE_URL" ]; then
+            echo "::error::Add repository secret DATABASE_URL (Supabase session pooler URI). See db/DEPLOY.md"
+            exit 1
+          fi
+
+      - name: Run launch check (scrape, ingest, refresh)
         env:
           PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.playwright-browsers
-        run: node scripts/check-launches.mjs --ingest
+        run: npm run launches:check:ingest
 
-      - name: Refresh normalized assignments + explorer bundle
-        run: |
-          node normalize-verticals.mjs --write
-          node scripts/build-explorer-data.mjs
+      - name: Sync to Supabase
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: npm run db:migrate
 
       - name: Upload report artifact
         uses: actions/upload-artifact@v4
@@ -56,16 +65,5 @@ jobs:
             output/launches/check-report.json
             output/launches/reviews.json
             output/launches/rubric.md
+            output/launches/logs/
           retention-days: 90
-
-      - name: Commit launch results
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/launches/ output/verticals/normalized-assignments.json output/phenotypes/assignments.json explorer/public/data.bundle.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: daily launch check results (automated)"
-            git push
-          fi

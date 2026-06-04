@@ -47,7 +47,7 @@ During Phase 1 we **dual-write nothing yet** — JSON pipeline still runs; migra
 | `phenotypes` | Business archetype dictionary | `output/phenotypes/ontology.json` |
 | `verticals` | Industry workflow dictionary | `taxonomy/verticals.json` |
 | `business_models` | BM-01 … BM-12 labels | `taxonomy/v0.1.json` |
-| `companies` | One row per YC startup | `output/verticals/normalized-assignments.json` |
+| `companies` | YC startup row (classified or launch-only stub) | `normalized-assignments.json` + launch ingest |
 | `company_classifications` | Taxonomy assignment per company | same |
 | `company_business_models` | Many-to-many (company can have BM-01 + BM-04) | same |
 | `launches` | YC Launch Y posts | `output/launches/reviews.json` |
@@ -57,6 +57,20 @@ During Phase 1 we **dual-write nothing yet** — JSON pipeline still runs; migra
 
 **Primary key** = unique ID for each row (like `slug` for companies).  
 **Foreign key** = “this column must match a row in another table” (e.g. `company_slug` → `companies.slug`).
+
+### Schema v2 F1 — `is_stub` and `idea_cards` FKs
+
+- **`companies.is_stub`** — `false` for the ~401 classified startups (have a `company_classifications` row); `true` for ~490 launch-only placeholder rows created so `launches` can FK safely.
+- Explorer/API queries filter `is_stub = false` so bundle counts stay at 401.
+- **`idea_cards`** — `vertical_id`, `phenotype_primary_id`, and `business_model` enforce FKs to ontology tables.
+- Applied via `npm run db:migrate` (runs [`migrations/002_schema_f1.sql`](migrations/002_schema_f1.sql) after data load).
+
+Verify:
+
+```sql
+SELECT is_stub, COUNT(*) FROM companies GROUP BY is_stub;
+SELECT conname FROM pg_constraint WHERE conrelid = 'idea_cards'::regclass AND contype = 'f';
+```
 
 ---
 
@@ -124,6 +138,7 @@ LIMIT 10;
 | File | Purpose |
 |------|---------|
 | `schema.sql` | `CREATE TABLE` statements — the schema |
+| `migrations/002_schema_f1.sql` | F1: `is_stub` + `idea_cards` FKs (idempotent) |
 | `client.mjs` | Shared Postgres connection (pool) |
 | `migrate-from-json.mjs` | One-time / repeat load from JSON exports |
 

@@ -24,6 +24,8 @@ export interface ChatResponse {
   reply: string;
   matches: ChatMatch[];
   llm: boolean;
+  /** True when off-topic — no LLM call was made. */
+  refused?: boolean;
 }
 
 const API_BASE = apiUrl('/api/chat');
@@ -32,6 +34,7 @@ export async function checkChatHealth(): Promise<{
   ok: boolean;
   llm_configured: boolean;
   company_count: number;
+  model: string | null;
 }> {
   const res = await fetch(`${API_BASE}/health`);
   if (!res.ok) throw new Error('Chat API unavailable. Run: npm run explorer:dev');

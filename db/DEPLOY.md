@@ -50,8 +50,15 @@ DATABASE_URL="postgresql://postgres.[ref]:[password]@...supabase.com:5432/postgr
 Verify in Supabase **SQL Editor**:
 
 ```sql
-SELECT COUNT(*) FROM companies;        -- ~401
+SELECT COUNT(*) FROM company_classifications;  -- ~401 classified
+SELECT is_stub, COUNT(*) FROM companies GROUP BY is_stub;  -- false ~401, true ~490
 SELECT COUNT(*) FROM launch_reviews;   -- hundreds
+```
+
+After schema v2 F1 code is deployed, re-run full migrate so Supabase gets `is_stub` and `idea_cards` FKs:
+
+```bash
+DATABASE_URL="...session pooler..." npm run db:migrate
 ```
 
 After pipeline runs (reclassify, etc.), re-run the same migrate command to refresh production data.
@@ -71,6 +78,7 @@ After pipeline runs (reclassify, etc.), re-run the same migrate command to refre
 |----------|-------|
 | `DATABASE_URL` | Supabase **session pooler** URI with `?sslmode=require` |
 | `ANTHROPIC_API_KEY` | Your key (optional — generator/chat only) |
+| `CHAT_MODEL` | Optional; explorer chat only (default `claude-haiku-4-5-20251001`). `ANTHROPIC_MODEL` does not apply to chat. |
 
 Do **not** commit `.env` — paste the Supabase session pooler URL here (same one used for `db:migrate`).
 
@@ -101,9 +109,16 @@ Open the Vercel URL → DevTools → Network → confirm requests go to Railway 
 
 ---
 
-## 4. GitHub Actions — launch check (later)
+## 4. GitHub Actions — daily launch check
 
-Add repo secret `DATABASE_URL` (Supabase URI). Update `.github/workflows/daily-launch-check.yml` to write launch results to Postgres instead of committing JSON.
+Workflow: `.github/workflows/daily-launch-check.yml` (14:00 UTC daily + manual `workflow_dispatch`).
+
+1. GitHub repo → **Settings → Secrets and variables → Actions → New repository secret**
+2. Name: `DATABASE_URL` — same Supabase **session pooler** URI as Railway (`?sslmode=require`)
+3. Push `main` (scheduled workflows only run on the default branch)
+4. Optional smoke test: **Actions → Daily launch check → Run workflow**
+
+The job runs `npm run launches:check:ingest` then `npm run db:migrate`. Launch reports are kept as workflow artifacts (90 days), not committed to git.
 
 ---
 

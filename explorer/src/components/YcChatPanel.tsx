@@ -25,6 +25,15 @@ const SUGGESTIONS = [
   'Who sells to enterprise pharma?',
 ];
 
+function shortChatModel(model: string | null): string | null {
+  if (!model) return null;
+  if (model.includes('haiku')) return 'Haiku';
+  if (model.includes('sonnet')) return 'Sonnet';
+  if (model.includes('opus')) return 'Opus';
+  if (model.includes('gpt-4o-mini')) return 'GPT-4o mini';
+  return model;
+}
+
 function selectedSlugFromDrawer(drawer: DrawerSelection): string | null {
   if (!drawer) return null;
   if (drawer.kind === 'company') return drawer.slug;
@@ -60,13 +69,14 @@ export function YcChatPanel({
     {
       role: 'assistant',
       content:
-        'Ask me anything about the YC database — find companies by vertical, phenotype, batch, or what they sell. I use your sidebar filters as context.',
+        'Ask about companies in this database only — search by vertical, phenotype, batch, or what they sell. I use your sidebar filters as context. General coding or chat is not supported.',
     },
   ]);
   const [input, setInput] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [llmOk, setLlmOk] = useState<boolean | null>(null);
+  const [chatModel, setChatModel] = useState<string | null>(null);
   const [lastMatches, setLastMatches] = useState<ChatMatch[]>([]);
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
@@ -74,8 +84,14 @@ export function YcChatPanel({
   useEffect(() => {
     if (!open) return;
     checkChatHealth()
-      .then((h) => setLlmOk(h.llm_configured))
-      .catch(() => setLlmOk(false));
+      .then((h) => {
+        setLlmOk(h.llm_configured);
+        setChatModel(h.model);
+      })
+      .catch(() => {
+        setLlmOk(false);
+        setChatModel(null);
+      });
     inputRef.current?.focus();
   }, [open]);
 
@@ -123,7 +139,8 @@ export function YcChatPanel({
           selectedSlug,
         });
         setMessages((prev) => [...prev, { role: 'assistant', content: result.reply }]);
-        setLastMatches(result.matches);
+        setLastMatches(result.refused ? [] : result.matches);
+        if (result.refused) setError(null);
       } catch (e) {
         const local = searchCompaniesLocal(bundle, trimmed, state);
         const reply = formatLocalSearchReply(trimmed, local);
@@ -152,7 +169,11 @@ export function YcChatPanel({
             <h2 id="yc-chat-title">YC Database Chat</h2>
             <p className="chat-panel-subtitle">
               {bundle.meta.assignment_count} companies
-              {llmOk === true ? ' · LLM answers' : llmOk === false ? ' · keyword search' : ''}
+              {llmOk === true
+                ? ` · ${shortChatModel(chatModel) ?? 'LLM'} answers`
+                : llmOk === false
+                  ? ' · keyword search'
+                  : ''}
               {filteredSlugs.length < bundle.meta.assignment_count
                 ? ` · scoped to ${filteredSlugs.length} filtered`
                 : ''}
@@ -174,7 +195,7 @@ export function YcChatPanel({
               <p>Searching…</p>
             </div>
           )}
-          {error && <p className="chat-error-hint">API fallback: {error}</p>}
+          {error && <p className="chat-error-hint">Search fallback: {error}</p>}
         </div>
 
         {lastMatches.length > 0 && (

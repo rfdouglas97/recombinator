@@ -155,11 +155,7 @@ const server = createServer(async (req, res) => {
     }
 
     if (req.method === 'GET' && url.pathname === '/api/chat/health') {
-      sendJson(res, 200, {
-        ok: true,
-        llm_configured: Boolean(resolveApiConfig()),
-        ...getChatMeta(),
-      });
+      sendJson(res, 200, { ok: true, ...getChatMeta() });
       return;
     }
 

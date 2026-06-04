@@ -48,6 +48,7 @@ const COMPANY_SELECT = `
     ) AS business_models
   FROM companies c
   INNER JOIN company_classifications cc ON cc.company_slug = c.slug
+  WHERE c.is_stub = false
 `;
 
 const COMPANY_DETAIL_SELECT = `
@@ -66,6 +67,7 @@ const COMPANY_DETAIL_SELECT = `
     ) AS business_models
   FROM companies c
   INNER JOIN company_classifications cc ON cc.company_slug = c.slug
+  WHERE c.is_stub = false
 `;
 
 export async function listCompanies(filters = {}) {
@@ -104,7 +106,7 @@ export async function listCompanies(filters = {}) {
 
   const sql = `
     ${COMPANY_SELECT}
-    ${where.length ? `WHERE ${where.join(' AND ')}` : ''}
+    ${where.length ? `AND ${where.join(' AND ')}` : ''}
     ORDER BY c.name
     LIMIT $${limitIdx} OFFSET $${offsetIdx}
   `;
@@ -114,7 +116,7 @@ export async function listCompanies(filters = {}) {
 }
 
 export async function getCompanyDetail(slug) {
-  const { rows } = await query(`${COMPANY_DETAIL_SELECT} WHERE c.slug = $1`, [slug]);
+  const { rows } = await query(`${COMPANY_DETAIL_SELECT} AND c.slug = $1`, [slug]);
   if (!rows[0]) return null;
   const row = rows[0];
   return {
@@ -211,7 +213,9 @@ export async function listLaunches({ limit = 50, verdict = null, band = null } =
 
 export async function getFacets() {
   const [batches, phenotypes, verticals, businessModels] = await Promise.all([
-    query(`SELECT DISTINCT batch FROM companies WHERE batch IS NOT NULL AND batch <> '' ORDER BY batch`),
+    query(
+      `SELECT DISTINCT batch FROM companies WHERE is_stub = false AND batch IS NOT NULL AND batch <> '' ORDER BY batch`,
+    ),
     query(`SELECT id, label, family FROM phenotypes ORDER BY label`),
     query(
       `SELECT id, label, sector_id, industry_id, industry_label, sector_label FROM verticals ORDER BY label`,
@@ -271,7 +275,7 @@ export async function fetchBmVerticalMatrix() {
     INNER JOIN company_classifications cc ON cc.company_slug = c.slug
     INNER JOIN company_business_models cbm ON cbm.company_slug = c.slug
     LEFT JOIN business_models bm ON bm.code = cbm.business_model_code
-    WHERE cc.vertical_id IS NOT NULL
+    WHERE cc.vertical_id IS NOT NULL AND c.is_stub = false
     GROUP BY cbm.business_model_code, bm.label, cc.vertical_id, cc.vertical_label, cc.vertical_sector_id
   `);
 
@@ -296,6 +300,7 @@ export async function fetchPhenotypeIndustryMatrix() {
     FROM companies c
     INNER JOIN company_classifications cc ON cc.company_slug = c.slug
     WHERE cc.phenotype_primary_id IS NOT NULL AND cc.industry_sub_vertical IS NOT NULL
+      AND c.is_stub = false
     GROUP BY cc.phenotype_primary_id, cc.phenotype_primary_label, cc.industry_sub_vertical
   `);
 
