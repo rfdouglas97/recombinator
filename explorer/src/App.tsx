@@ -150,9 +150,6 @@ export default function App() {
               onCellClick={(sel) => openDrawer(sel)}
             />
           )}
-          <div className="footer-hint">
-            Data: {bundle.meta.sources[0]} · Rebuild: npm run data:bundle
-          </div>
         </div>
         <aside className={`drawer ${drawerOpen ? '' : 'closed'}`}>
           <CompanyDrawer
