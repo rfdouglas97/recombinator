@@ -270,6 +270,7 @@ export interface FilterState extends Filters {
   ontologyMode: OntologyMode;
   matrixMode: MatrixMode;
   matrixDisplay: MatrixDisplay;
+  matrixHideEmptyCols: boolean;
   vizLayout: VizLayout;
   ontologyFocusId: string | null;
 }

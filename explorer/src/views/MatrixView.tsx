@@ -22,15 +22,28 @@ interface Props {
 
 const BM_GAP_MODES = new Set<FilterState['matrixMode']>(['bm_sector', 'bm_industry', 'bm_vertical']);
 
+function columnHasCompanies(
+  colId: string,
+  rows: ReturnType<typeof useMatrixData>['rows'],
+  cellMap: ReturnType<typeof useMatrixData>['cellMap'],
+): boolean {
+  return rows.some((row) => (cellMap.get(`${row.id}|${colId}`)?.count ?? 0) > 0);
+}
+
 export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
   const { rows, cols, cellMap, max } = useMatrixData(bundle, state);
 
+  const visibleCols = useMemo(() => {
+    if (!state.matrixHideEmptyCols) return cols;
+    return cols.filter((c) => columnHasCompanies(c.id, rows, cellMap));
+  }, [cols, rows, cellMap, state.matrixHideEmptyCols]);
+
   const colGroups = useMemo((): ColGroup[] => {
     if (state.matrixMode === 'bm_sector') {
-      return [{ id: '_all', label: '', cols }];
+      return [{ id: '_all', label: '', cols: visibleCols }];
     }
-    const groups = new Map<string, typeof cols>();
-    for (const c of cols) {
+    const groups = new Map<string, typeof visibleCols>();
+    for (const c of visibleCols) {
       const g = c.groupLabel ?? 'Other';
       if (!groups.has(g)) groups.set(g, []);
       groups.get(g)!.push(c);
@@ -40,7 +53,7 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
       label,
       cols: groupCols,
     }));
-  }, [cols, state.matrixMode]);
+  }, [visibleCols, state.matrixMode]);
 
   const showSectorHeader = colGroups.length > 1 && colGroups[0].label !== '';
 
@@ -154,6 +167,14 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
             <option value="density">Density only</option>
             <option value="gaps">Gaps / whitespace only</option>
           </select>
+        </label>
+        <label className="toolbar-checkbox">
+          <input
+            type="checkbox"
+            checked={state.matrixHideEmptyCols}
+            onChange={(e) => onChange({ matrixHideEmptyCols: e.target.checked })}
+          />
+          Hide empty columns
         </label>
       </div>
       <div className="matrix-wrap">

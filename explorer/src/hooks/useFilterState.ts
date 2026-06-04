@@ -6,6 +6,7 @@ const DEFAULT: FilterState = {
   ontologyMode: 'industry_vertical',
   matrixMode: 'bm_sector',
   matrixDisplay: 'both',
+  matrixHideEmptyCols: false,
   vizLayout: 'sunburst',
   ontologyFocusId: null,
   batch: '',
@@ -32,6 +33,7 @@ function parseUrl(): Partial<FilterState> {
   if (p.get('display') === 'density' || p.get('display') === 'gaps' || p.get('display') === 'both') {
     out.matrixDisplay = p.get('display') as FilterState['matrixDisplay'];
   }
+  if (p.get('hideEmpty') === '1') out.matrixHideEmptyCols = true;
   return out;
 }
 
@@ -42,6 +44,7 @@ function syncUrl(state: FilterState) {
   if (state.sector) p.set('sector', state.sector);
   if (state.matrixMode !== 'bm_sector') p.set('matrix', state.matrixMode);
   if (state.matrixDisplay !== 'both') p.set('display', state.matrixDisplay);
+  if (state.matrixHideEmptyCols) p.set('hideEmpty', '1');
   const qs = p.toString();
   const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
   window.history.replaceState(null, '', url);

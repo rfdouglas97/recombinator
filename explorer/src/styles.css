@@ -568,6 +568,16 @@ body {
   font-size: 12px;
 }
 
+.toolbar-checkbox {
+  cursor: pointer;
+  user-select: none;
+}
+
+.toolbar-checkbox input {
+  margin: 0;
+  accent-color: var(--accent, #f2542d);
+}
+
 .toolbar-key {
   font-family: var(--font-mono);
   font-size: 10px;
