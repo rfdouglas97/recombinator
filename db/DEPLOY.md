@@ -79,6 +79,7 @@ After pipeline runs (reclassify, etc.), re-run the same migrate command to refre
 | `DATABASE_URL` | Supabase **session pooler** URI with `?sslmode=require` |
 | `ANTHROPIC_API_KEY` | Your key (optional — generator/chat only) |
 | `CHAT_MODEL` | Optional; explorer chat only (default `claude-haiku-4-5-20251001`). `ANTHROPIC_MODEL` does not apply to chat. |
+| `RATE_LIMIT_*` | Optional per-IP limits (see `.env.example`). Defaults: bundle 30/min, read 120/min, LLM 12/min. `RATE_LIMIT_DISABLED=1` turns off. |
 
 Do **not** commit `.env` — paste the Supabase session pooler URL here (same one used for `db:migrate`).
 
@@ -118,7 +119,13 @@ Workflow: `.github/workflows/daily-launch-check.yml` (14:00 UTC daily + manual `
 3. Push `main` (scheduled workflows only run on the default branch)
 4. Optional smoke test: **Actions → Daily launch check → Run workflow**
 
-The job runs `npm run launches:check:ingest` then `npm run db:migrate`. Launch reports are kept as workflow artifacts (90 days), not committed to git.
+The job runs `npm run launches:check:ingest` then `npm run db:migrate`.
+
+- **Corpus** (~401): scraped YC directory cohort in `output/yc_companies.json` → matrix, gaps, explorer.
+- **Launches**: all posts scraped/evaluated; `launch_reviews` stored for every launch.
+- **Add to corpus**: only when a **new** launch is processed and its `company_slug` is **not** already in the corpus (`--ingest-new` on pending launches only — no historical catalog backfill).
+
+Launch reports are kept as workflow artifacts (90 days), not committed to git.
 
 ---
 

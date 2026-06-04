@@ -11,18 +11,20 @@ import { findWhitespaceGaps, generateSyntheticForCell, discoverAndGenerate } fro
 import { getLibrary, getArchivedLibrary, generateMoreCards, recordJudgment, archiveCard, restoreCard } from './library-service.mjs';
 import { handleChat, getChatMeta } from './chat-service.mjs';
 import { tryHandleReadApi } from './read-api.mjs';
+import { checkRateLimit } from './rate-limit.mjs';
 
 loadDotEnv();
 
 const PORT = parseInt(process.env.PORT ?? process.env.GENERATOR_API_PORT ?? '3456', 10);
 
-function sendJson(res, status, body) {
+function sendJson(res, status, body, extraHeaders = {}) {
   const payload = JSON.stringify(body);
   res.writeHead(status, {
     'Content-Type': 'application/json',
     'Access-Control-Allow-Origin': '*',
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Allow-Headers': 'Content-Type',
+    ...extraHeaders,
   });
   res.end(payload);
 }
@@ -45,6 +47,22 @@ const server = createServer(async (req, res) => {
   }
 
   const url = new URL(req.url ?? '/', `http://localhost:${PORT}`);
+
+  const rl = checkRateLimit(req, url.pathname, req.method);
+  if (!rl.allowed) {
+    sendJson(
+      res,
+      429,
+      {
+        error: 'Too many requests',
+        retry_after: rl.retryAfterSec,
+        tier: rl.tier,
+        limit: rl.limit,
+      },
+      { 'Retry-After': String(rl.retryAfterSec) },
+    );
+    return;
+  }
 
   try {
     if (req.method === 'GET' && url.pathname === '/') {
@@ -196,4 +214,7 @@ server.listen(PORT, '0.0.0.0', () => {
   console.log(`  Generator: POST /api/generator/*, /api/library/*, /api/chat`);
   console.log(`  LLM: ${resolveApiConfig() ? 'configured' : 'NOT configured (set .env)'}`);
   console.log(`  Postgres: ${process.env.DATABASE_URL ? 'DATABASE_URL set' : 'NOT set — read API will fail'}`);
+  console.log(
+    `  Rate limits: ${process.env.RATE_LIMIT_DISABLED ? 'disabled' : `bundle ${process.env.RATE_LIMIT_BUNDLE_MAX ?? 30}/min, read ${process.env.RATE_LIMIT_READ_MAX ?? 120}/min, LLM ${process.env.RATE_LIMIT_EXPENSIVE_MAX ?? 12}/min`}`,
+  );
 });
