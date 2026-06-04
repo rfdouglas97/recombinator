@@ -21,10 +21,13 @@ export function getPool() {
     throw new Error('DATABASE_URL is not set. Copy .env.example → .env and run npm run db:up');
   }
   if (!pool) {
+    const isLocal = /@(?:localhost|127\.0\.0\.1)(?::|\/)/.test(url);
     pool = new Pool({
       connectionString: url,
       max: 10,
       idleTimeoutMillis: 30_000,
+      // Supabase / Neon / other hosted Postgres require SSL
+      ...(isLocal ? {} : { ssl: { rejectUnauthorized: false } }),
     });
   }
   return pool;

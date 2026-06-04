@@ -151,4 +151,5 @@ Implementation: `db/queries.mjs` (SQL) → `server/read-api.mjs` (HTTP) → moun
 
 1. ~~Add read API~~ (done — `npm run api:dev`)
 2. Point explorer at `/api/bundle` (done — with static fallback)
-3. Pipeline writes to Postgres directly (replace `db:migrate` copy step)
+3. **Deploy to Supabase** — see **`DEPLOY.md`**
+4. Pipeline writes to Postgres directly (replace `db:migrate` copy step)

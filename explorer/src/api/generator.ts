@@ -1,6 +1,7 @@
 import type { GapCandidate, GeneratedStartup } from '../types';
+import { apiUrl } from '../lib/apiBase';
 
-const API_BASE = '/api/generator';
+const API_BASE = apiUrl('/api/generator');
 
 export async function checkGeneratorHealth(): Promise<{ ok: boolean; llm_configured: boolean }> {
   const res = await fetch(`${API_BASE}/health`);

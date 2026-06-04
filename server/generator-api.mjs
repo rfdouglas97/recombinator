@@ -14,7 +14,7 @@ import { tryHandleReadApi } from './read-api.mjs';
 
 loadDotEnv();
 
-const PORT = parseInt(process.env.GENERATOR_API_PORT ?? '3456', 10);
+const PORT = parseInt(process.env.PORT ?? process.env.GENERATOR_API_PORT ?? '3456', 10);
 
 function sendJson(res, status, body) {
   const payload = JSON.stringify(body);

@@ -456,35 +456,33 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
+  width: 18px;
   padding: 0;
   border: none;
   border-right: 1px solid var(--border);
-  background: var(--bg-panel);
+  background: transparent;
   color: var(--text-muted);
+  opacity: 0.55;
   cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  transition: background 0.15s ease, color 0.15s ease, opacity 0.15s ease;
 }
 
 .sidebar-edge-toggle:hover {
   color: var(--text);
   background: var(--bg-hover);
-}
-
-.sidebar-edge-toggle[aria-pressed='true'] {
-  color: var(--accent);
-  background: var(--accent-soft);
-  border-right-color: var(--accent-dim);
+  opacity: 1;
 }
 
 .sidebar-edge-toggle.is-collapsed {
+  width: 24px;
+  opacity: 0.8;
   border-right: 1px solid var(--border-strong);
-  box-shadow: 2px 0 8px rgba(27, 26, 23, 0.06);
 }
 
 .sidebar-edge-toggle.is-collapsed:hover {
-  color: var(--accent);
-  background: var(--accent-soft);
+  color: var(--text);
+  background: var(--bg-hover);
+  opacity: 1;
 }
 
 .main {
@@ -652,7 +650,7 @@ body {
 
 .matrix-table {
   border-collapse: separate;
-  border-spacing: 2px;
+  border-spacing: 4px;
   font-size: 11px;
   --matrix-sector-header-height: 2rem;
 }
@@ -684,20 +682,20 @@ body {
 }
 
 .matrix-table th.col-header {
-  width: 6.75rem;
-  min-width: 6.75rem;
-  max-width: 6.75rem;
+  width: 5.25rem;
+  min-width: 5.25rem;
+  max-width: 5.25rem;
   height: auto;
-  padding: 4px 5px;
+  padding: 4px 4px;
   text-align: center;
   vertical-align: bottom;
   box-sizing: border-box;
 }
 
 .matrix-table--sector-cols th.col-header-sector {
-  width: 8.25rem;
-  min-width: 8.25rem;
-  max-width: 8.25rem;
+  width: 6.75rem;
+  min-width: 6.75rem;
+  max-width: 6.75rem;
 }
 
 .col-header-label {
@@ -706,7 +704,8 @@ body {
   font-weight: 600;
   line-height: 1.25;
   color: var(--text);
-  overflow-wrap: normal;
+  white-space: normal;
+  overflow-wrap: break-word;
   word-break: normal;
   hyphens: none;
 }
@@ -768,9 +767,14 @@ body {
   z-index: 5;
 }
 
+.matrix-table tbody td:not(.row-header) {
+  padding: 0;
+}
+
 .matrix-cell {
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
   border-radius: 3px;
   cursor: pointer;
   border: 1px solid transparent;

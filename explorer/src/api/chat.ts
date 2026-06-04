@@ -1,4 +1,5 @@
 import type { Filters } from '../types';
+import { apiUrl } from '../lib/apiBase';
 
 export interface ChatMessage {
   role: 'user' | 'assistant';
@@ -25,7 +26,7 @@ export interface ChatResponse {
   llm: boolean;
 }
 
-const API_BASE = '/api/chat';
+const API_BASE = apiUrl('/api/chat');
 
 export async function checkChatHealth(): Promise<{
   ok: boolean;

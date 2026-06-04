@@ -1,4 +1,5 @@
 import type { DataBundle } from '../types';
+import { apiUrl } from '../lib/apiBase';
 
 let cache: DataBundle | null = null;
 
@@ -10,7 +11,7 @@ export async function loadBundle(): Promise<DataBundle> {
   if (cache) return cache;
 
   try {
-    const res = await fetch('/api/bundle');
+    const res = await fetch(apiUrl('/api/bundle'));
     if (res.ok) {
       cache = (await res.json()) as DataBundle;
       return cache;

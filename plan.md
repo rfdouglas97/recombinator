@@ -148,12 +148,15 @@ Check active worktrees anytime:
 git worktree list
 ```
 
-### Step D — Deploy (~50 users)
-1. Create **Neon** Postgres → copy `DATABASE_URL`
-2. Run `npm run db:migrate` against Neon (once)
+### Step D — Deploy (~50 users) — Supabase + Railway + Vercel
+
+See **`db/DEPLOY.md`** for full step-by-step.
+
+1. Create **Supabase** project → copy `DATABASE_URL` (URI with `?sslmode=require`)
+2. Run `DATABASE_URL=... npm run db:migrate` against Supabase (once, re-run after pipeline)
 3. Deploy API to **Railway** with `DATABASE_URL` + start command `node server/generator-api.mjs`
-4. Deploy explorer to **Vercel** — set env `VITE_API_URL` or rely on proxy config for production API URL
-5. Point GitHub Actions launch check at Neon instead of git commits
+4. Deploy explorer to **Vercel** — set `VITE_API_URL` to Railway URL
+5. Point GitHub Actions launch check at Supabase instead of git commits
 
 ### Step E — Pipeline writes to Postgres directly
 Replace manual `db:migrate` copy step; scripts upsert after classify / launch-check / normalize.
@@ -251,9 +254,9 @@ Plan: build granular endpoints first, then optional `/api/bundle` for drop-in ex
 - [ ] Loading + error UI when API is down (shows fallback message today)
 
 ### Deploy (~50 users)
-- [ ] Postgres: Neon or Supabase (always-on, not Docker on your Mac)
-- [ ] API: Railway or Fly.io
-- [ ] Explorer: Vercel
+- [ ] Postgres: **Supabase** (see `db/DEPLOY.md`)
+- [ ] API: Railway
+- [ ] Explorer: Vercel (`VITE_API_URL` → Railway)
 - [ ] GitHub Actions: launch check writes to hosted Postgres (not git commits)
 - [ ] Environment variables: `DATABASE_URL` on API + Actions only (never in frontend)
 

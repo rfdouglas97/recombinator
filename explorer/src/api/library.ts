@@ -1,6 +1,7 @@
 import type { CardJudgment, StartupLibrary } from '../types';
+import { apiUrl } from '../lib/apiBase';
 
-const API_BASE = '/api/library';
+const API_BASE = apiUrl('/api/library');
 
 export interface LibraryResponse extends StartupLibrary {
   ok: boolean;
