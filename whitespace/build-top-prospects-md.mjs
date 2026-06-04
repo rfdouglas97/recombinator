@@ -42,7 +42,7 @@ function fmtGap(g) {
     (g.workflow_matched_analog_slugs ?? []).slice(0, 3).join(', ') || '— (none — weak prospect)';
   const neighbors = (g.adjacent_cluster_slugs ?? []).slice(0, 5).join(', ') || '—';
   const cell = `${g.business_model_label} × \`${g.vertical_id}\``;
-  const cmd = `node scripts/generate-synthetic.mjs --cell ${g.business_model}:${g.vertical_id}:${g.phenotype_primary_id}`;
+  const cmd = `npm run startup-engine  # target: ${g.business_model}:${g.vertical_id}:${g.phenotype_primary_id}`;
 
   return [
     `### ${g.rank}. ${g.vertical_label}`,

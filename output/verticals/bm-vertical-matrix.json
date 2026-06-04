@@ -1,17 +1,69 @@
 {
-  "generated_at": "2026-06-04T00:39:34.041Z",
+  "generated_at": "2026-06-04T01:57:20.970Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
     "assignment_count": 401,
-    "mapped_verticals": 147,
-    "observed_cells": 326,
+    "mapped_verticals": 153,
+    "observed_cells": 320,
     "total_verticals": 541,
-    "gap_candidates": 958
+    "gap_candidates": 952
   },
   "observed_cells": [
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "ai-infrastructure.agent-runtime",
+      "vertical_label": "Agent runtime & orchestration",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "approxima",
+        "cumulus-labs",
+        "drippay",
+        "fern-bot",
+        "insforge",
+        "minicor",
+        "openwork",
+        "overshoot",
+        "pentagon",
+        "polymorph",
+        "probe",
+        "projectx",
+        "ramain",
+        "superset",
+        "tasklet-2",
+        "terminal-use",
+        "thomas"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "ai-infrastructure.agent-runtime",
+      "vertical_label": "Agent runtime & orchestration",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "approxima",
+        "cumulus-labs",
+        "drippay",
+        "fern-bot",
+        "insforge",
+        "minicor",
+        "openwork",
+        "overshoot",
+        "pentagon",
+        "polymorph",
+        "probe",
+        "projectx",
+        "ramain",
+        "superset",
+        "tasklet-2",
+        "terminal-use",
+        "thomas"
+      ]
+    },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
@@ -19,29 +71,22 @@
       "vertical_label": "Cross-industry process automation",
       "sector_id": "enterprise-software",
       "companies": [
-        "autositu",
-        "autostep",
         "avoice",
+        "booko",
         "bubble-lab",
+        "chasi",
+        "deep-interactions",
+        "elyra",
         "flowscope",
-        "fuchsia",
         "hessian",
-        "jinba",
-        "klaus-ai",
         "lab0",
-        "martini",
+        "mendral",
         "ontora",
         "pairio",
-        "q2q",
         "ressl-ai",
-        "rev1",
-        "revion",
-        "takecareos",
-        "tepali",
-        "thomas",
-        "trellistech",
-        "unisson",
+        "the-company-company",
         "useparrot",
+        "withai",
         "zymbly"
       ]
     },
@@ -52,28 +97,21 @@
       "vertical_label": "Cross-industry process automation",
       "sector_id": "enterprise-software",
       "companies": [
-        "autositu",
-        "autostep",
         "avoice",
+        "booko",
         "bubble-lab",
-        "fuchsia",
+        "chasi",
+        "deep-interactions",
+        "elyra",
         "hessian",
-        "jinba",
-        "klaus-ai",
         "lab0",
-        "martini",
+        "mendral",
         "ontora",
         "pairio",
-        "q2q",
         "ressl-ai",
-        "rev1",
-        "revion",
-        "takecareos",
-        "tepali",
-        "thomas",
-        "trellistech",
-        "unisson",
+        "the-company-company",
         "useparrot",
+        "withai",
         "zymbly"
       ]
     },
@@ -85,102 +123,72 @@
       "sector_id": "ai-infrastructure",
       "companies": [
         "21st",
-        "emdash",
+        "ardent",
+        "cascade",
         "godhands",
-        "humwork",
         "indexable",
+        "keyframe-labs",
         "limrun",
-        "maven",
-        "polymath",
         "reasonblocks",
         "replicas",
         "runtime",
-        "sponge",
-        "the-company-company",
         "wato",
         "zatanna"
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.agent-runtime",
-      "vertical_label": "Agent runtime & orchestration",
-      "sector_id": "ai-infrastructure",
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.ops.process-automation",
+      "vertical_label": "Cross-industry process automation",
+      "sector_id": "enterprise-software",
       "companies": [
-        "constellation-space",
-        "drippay",
-        "insforge",
-        "interfaze",
-        "keyframe-labs",
-        "minicor",
-        "openwork",
-        "overshoot",
-        "projectx",
-        "ramain",
-        "superset",
-        "terminal-use"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "ai-infrastructure.agent-runtime",
-      "vertical_label": "Agent runtime & orchestration",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "constellation-space",
-        "drippay",
-        "insforge",
-        "interfaze",
-        "keyframe-labs",
-        "minicor",
-        "openwork",
-        "overshoot",
-        "projectx",
-        "ramain",
-        "superset",
-        "terminal-use"
+        "autostep",
+        "carson",
+        "cofia",
+        "jinba",
+        "lucent",
+        "o11",
+        "refortifai",
+        "supafax",
+        "vela",
+        "velum-labs"
       ]
     },
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
+      "vertical_id": "ai-infrastructure.agent-observability",
+      "vertical_label": "Agent observability & logging",
+      "sector_id": "ai-infrastructure",
       "companies": [
-        "approxima",
-        "ara",
-        "aurorin-cad",
-        "deep-interactions",
-        "lamina-labs",
-        "lightsprint",
-        "lucent",
-        "refortifai",
-        "shortkit",
-        "synthetic-sciences",
-        "syntropy"
+        "archal",
+        "arga-labs",
+        "armature",
+        "baseframe",
+        "datost",
+        "moda",
+        "oximy",
+        "sazabi",
+        "sentrial"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
+      "vertical_id": "ai-infrastructure.agent-observability",
+      "vertical_label": "Agent observability & logging",
+      "sector_id": "ai-infrastructure",
       "companies": [
-        "approxima",
-        "ara",
-        "aurorin-cad",
-        "deep-interactions",
-        "lamina-labs",
-        "lightsprint",
-        "lucent",
-        "refortifai",
-        "shortkit",
-        "synthetic-sciences",
-        "syntropy"
+        "archal",
+        "arga-labs",
+        "armature",
+        "baseframe",
+        "datost",
+        "moda",
+        "oximy",
+        "sazabi",
+        "sentrial"
       ]
     },
     {
@@ -192,12 +200,12 @@
       "companies": [
         "autumn-ai",
         "caretta",
-        "chasi",
-        "fixture",
+        "chert",
+        "cignara",
         "gojiberry-ai",
-        "kinro",
-        "trycardinal-ai",
-        "userlens"
+        "pollen",
+        "q2q",
+        "trycardinal-ai"
       ]
     },
     {
@@ -209,12 +217,12 @@
       "companies": [
         "autumn-ai",
         "caretta",
-        "chasi",
-        "fixture",
+        "chert",
+        "cignara",
         "gojiberry-ai",
-        "kinro",
-        "trycardinal-ai",
-        "userlens"
+        "pollen",
+        "q2q",
+        "trycardinal-ai"
       ]
     },
     {
@@ -227,10 +235,24 @@
         "captain",
         "compresr",
         "contextdev",
-        "hyper-4",
         "memory-store",
         "stablebrowse",
         "voygr"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.defense.drones",
+      "vertical_label": "Defense drone & UAS operations",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "9-mothers-corporation",
+        "aice",
+        "maquoketa-research",
+        "ornadyne",
+        "seeing-systems",
+        "surtr-defense-systems"
       ]
     },
     {
@@ -240,194 +262,53 @@
       "vertical_label": "Agent observability & logging",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "ardent",
         "bentolabs-ai",
         "codag",
-        "envariant",
-        "protent",
-        "salus",
-        "scope"
+        "rubric-ai",
+        "scope",
+        "traverse"
       ]
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "baseframe",
-        "booko",
-        "cofia",
-        "eigenpal",
-        "o11",
-        "supafax",
-        "tasklet-2"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "ai-infrastructure.agent-context-web",
-      "vertical_label": "Agent web context & data enrichment",
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.training-data",
+      "vertical_label": "Training & eval data generation",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "captain",
-        "contextdev",
-        "hyper-4",
-        "stablebrowse",
-        "travo",
-        "voygr"
+        "cajal-technologies",
+        "datoric",
+        "lamina-labs",
+        "polymath",
+        "shofo"
       ]
     },
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.agent-observability",
-      "vertical_label": "Agent observability & logging",
+      "vertical_id": "ai-infrastructure.training-data",
+      "vertical_label": "Training & eval data generation",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "archal",
-        "arga-labs",
-        "armature",
-        "moda",
-        "sazabi",
-        "sentrial"
+        "confluence-labs",
+        "hubxyz",
+        "luel",
+        "perfectbit",
+        "synthetic-sciences"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "ai-infrastructure.agent-observability",
-      "vertical_label": "Agent observability & logging",
+      "vertical_id": "ai-infrastructure.training-data",
+      "vertical_label": "Training & eval data generation",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "archal",
-        "arga-labs",
-        "armature",
-        "moda",
-        "sazabi",
-        "sentrial"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.support.customer",
-      "vertical_label": "Customer support & contact center",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "callab-ai",
-        "cignara",
-        "elyra",
-        "lance",
-        "pollen",
-        "signals"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.support.customer",
-      "vertical_label": "Customer support & contact center",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "callab-ai",
-        "cignara",
-        "elyra",
-        "lance",
-        "pollen",
-        "signals"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.pharma.drug-discovery",
-      "vertical_label": "Drug discovery & delivery R&D",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "10x-science",
-        "abinitio-bio",
-        "ditto-biosciences",
-        "finaldose",
-        "infera",
-        "rhizome-ai"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.pharma.drug-discovery",
-      "vertical_label": "Drug discovery & delivery R&D",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "10x-science",
-        "abinitio-bio",
-        "ditto-biosciences",
-        "finaldose",
-        "infera",
-        "rhizome-ai"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.aviation.space",
-      "vertical_label": "Space & satellite systems",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "beyond-reach-labs",
-        "daivin",
-        "dispatch",
-        "galactic-resource-utilization-space-inc-gru-space",
-        "generalastro",
-        "kyten-technologies"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "aseon-labs",
-        "hlabs",
-        "inloop-robotics",
-        "intelligence-factory",
-        "servo7",
-        "twolabs"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "logistics.supply-chain.ops",
-      "vertical_label": "Supply chain & procurement operations",
-      "sector_id": "transportation-logistics",
-      "companies": [
-        "dayjob",
-        "haladir",
-        "hexa",
-        "korso",
-        "pollinate",
-        "qomplement"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "logistics.supply-chain.ops",
-      "vertical_label": "Supply chain & procurement operations",
-      "sector_id": "transportation-logistics",
-      "companies": [
-        "dayjob",
-        "haladir",
-        "hexa",
-        "korso",
-        "pollinate",
-        "qomplement"
+        "confluence-labs",
+        "hubxyz",
+        "luel",
+        "perfectbit",
+        "synthetic-sciences"
       ]
     },
     {
@@ -445,45 +326,45 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.hr.recruiting",
-      "vertical_label": "Recruiting & staffing agency operations",
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "enterprise.devtools.productivity",
+      "vertical_label": "Developer productivity & engineering tools",
       "sector_id": "enterprise-software",
       "companies": [
-        "asendia-ai",
-        "perfectly",
-        "saffron",
-        "skillsync",
-        "vela"
+        "aurorin-cad",
+        "lightsprint",
+        "rev1",
+        "shortkit",
+        "visibl-semiconductors"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.finance.accounting",
+      "vertical_label": "Finance & accounting automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "eigenpal",
+        "end-close",
+        "fullseam",
+        "getbalance",
+        "kinro"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.hr.recruiting",
-      "vertical_label": "Recruiting & staffing agency operations",
+      "vertical_id": "enterprise.finance.accounting",
+      "vertical_label": "Finance & accounting automation",
       "sector_id": "enterprise-software",
       "companies": [
-        "asendia-ai",
-        "perfectly",
-        "saffron",
-        "skillsync",
-        "vela"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.defense.drones",
-      "vertical_label": "Defense drone & UAS operations",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "9-mothers-corporation",
-        "aice",
-        "maquoketa-research",
-        "ornadyne",
-        "seeing-systems"
+        "eigenpal",
+        "end-close",
+        "fullseam",
+        "getbalance",
+        "kinro"
       ]
     },
     {
@@ -493,10 +374,11 @@
       "vertical_label": "Enterprise knowledge management",
       "sector_id": "enterprise-software",
       "companies": [
+        "ara",
+        "hyper-4",
         "librar-labs",
-        "sila",
-        "textsidekick",
-        "withai"
+        "mantis",
+        "robby"
       ]
     },
     {
@@ -506,10 +388,39 @@
       "vertical_label": "Enterprise knowledge management",
       "sector_id": "enterprise-software",
       "companies": [
+        "ara",
+        "hyper-4",
         "librar-labs",
-        "sila",
-        "textsidekick",
-        "withai"
+        "mantis",
+        "robby"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.support.customer",
+      "vertical_label": "Customer support & contact center",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "callab-ai",
+        "lexius",
+        "takecareos",
+        "tepali",
+        "userlens"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "enterprise.support.customer",
+      "vertical_label": "Customer support & contact center",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "callab-ai",
+        "lexius",
+        "takecareos",
+        "tepali",
+        "userlens"
       ]
     },
     {
@@ -520,8 +431,256 @@
       "sector_id": "enterprise-software",
       "companies": [
         "andco",
+        "moritz",
         "stilta",
         "vector-legal",
+        "wayco"
+      ]
+    },
+    {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "ai-infrastructure.agent-context-web",
+      "vertical_label": "Agent web context & data enrichment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "captain",
+        "contextdev",
+        "stablebrowse",
+        "voygr"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "aemon",
+        "canary",
+        "regbase",
+        "testerarmy"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "aemon",
+        "canary",
+        "regbase",
+        "testerarmy"
+      ]
+    },
+    {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "ai-infrastructure.training-data",
+      "vertical_label": "Training & eval data generation",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "cajal-technologies",
+        "datoric",
+        "lamina-labs",
+        "shofo"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.devtools.productivity",
+      "vertical_label": "Developer productivity & engineering tools",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "aurorin-cad",
+        "lightsprint",
+        "rev1",
+        "shortkit"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.hr.recruiting",
+      "vertical_label": "Recruiting & staffing agency operations",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "asendia-ai",
+        "perfectly",
+        "saffron",
+        "skillsync"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "enterprise.hr.recruiting",
+      "vertical_label": "Recruiting & staffing agency operations",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "asendia-ai",
+        "perfectly",
+        "saffron",
+        "skillsync"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "fintech.wealth.asset-management",
+      "vertical_label": "Asset & wealth management",
+      "sector_id": "financial-services",
+      "companies": [
+        "kelai",
+        "kimpton-ai",
+        "maywood",
+        "wealor"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "fintech.wealth.asset-management",
+      "vertical_label": "Asset & wealth management",
+      "sector_id": "financial-services",
+      "companies": [
+        "kelai",
+        "kimpton-ai",
+        "maywood",
+        "wealor"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "healthcare.pharma.clinical-dev",
+      "vertical_label": "Biopharma clinical development & regulatory",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "astraea",
+        "rhizome-ai",
+        "ritivel",
+        "runharbor"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.pharma.drug-discovery",
+      "vertical_label": "Drug discovery & delivery R&D",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "10x-science",
+        "celltype",
+        "ditto-biosciences",
+        "finaldose"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "healthcare.pharma.drug-discovery",
+      "vertical_label": "Drug discovery & delivery R&D",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "10x-science",
+        "celltype",
+        "ditto-biosciences",
+        "finaldose"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.aviation.space",
+      "vertical_label": "Space & satellite systems",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "beyond-reach-labs",
+        "dispatch",
+        "galactic-resource-utilization-space-inc-gru-space",
+        "generalastro"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "industrials.manufacturing.ops",
+      "vertical_label": "Manufacturing operations & order management",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "arzana",
+        "smartbase",
+        "ventura",
+        "walter"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "industrials.manufacturing.ops",
+      "vertical_label": "Manufacturing operations & order management",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "arzana",
+        "smartbase",
+        "ventura",
+        "walter"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "logistics.supply-chain.ops",
+      "vertical_label": "Supply chain & procurement operations",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "haladir",
+        "hexa",
+        "korso",
+        "pollinate"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "logistics.supply-chain.ops",
+      "vertical_label": "Supply chain & procurement operations",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "haladir",
+        "hexa",
+        "korso",
+        "pollinate"
+      ]
+    },
+    {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "media.gaming.ugc",
+      "vertical_label": "User-generated gaming platforms",
+      "sector_id": "media-entertainment",
+      "companies": [
+        "codewisp",
+        "pax-historia",
+        "playablai",
+        "pops"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "professional.law-firms",
+      "vertical_label": "Law firm operations & litigation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "andco",
+        "moritz",
+        "stilta",
         "wayco"
       ]
     },
@@ -533,19 +692,19 @@
       "sector_id": "ai-infrastructure",
       "companies": [
         "agentic-fabriq",
+        "clawvisor",
+        "salus"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "ai-infrastructure.agent-security",
+      "vertical_label": "Agent security & authorization",
+      "sector_id": "ai-infrastructure",
+      "companies": [
         "allowance",
-        "clawvisor"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.agent-security",
-      "vertical_label": "Agent security & authorization",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "crosslayer-labs",
-        "oximy",
+        "protent",
         "silmaril"
       ]
     },
@@ -556,117 +715,177 @@
       "vertical_label": "Agent security & authorization",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "crosslayer-labs",
-        "oximy",
+        "allowance",
+        "protent",
         "silmaril"
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.qa-testing",
-      "vertical_label": "Software QA & test automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "ashr",
-        "canary",
-        "chronicle-labs"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.training-data",
-      "vertical_label": "Training & eval data generation",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "compute.model-compilation-optimization",
+      "vertical_label": "Model compilation & hardware-specific optimization",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "datoric",
-        "rubric-ai",
-        "shofo"
+        "envariant",
+        "rightnow",
+        "talking-computers"
       ]
     },
     {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "ai-infrastructure.training-data",
-      "vertical_label": "Training & eval data generation",
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "compute.model-compilation-optimization",
+      "vertical_label": "Model compilation & hardware-specific optimization",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "datoric",
-        "rubric-ai",
-        "shofo"
-      ]
-    },
-    {
-      "business_model": "BM-12",
-      "business_model_label": "Open source + commercial",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "glue",
-        "openspec",
-        "polymorph"
+        "envariant",
+        "rightnow",
+        "talking-computers"
       ]
     },
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.finance.accounting",
-      "vertical_label": "Finance & accounting automation",
+      "vertical_id": "enterprise.legal.regulatory-consulting",
+      "vertical_label": "Regulatory consulting (cross-industry)",
       "sector_id": "enterprise-software",
       "companies": [
-        "end-close",
-        "fullseam",
-        "getbalance"
+        "autositu",
+        "fed10",
+        "fuchsia"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.finance.accounting",
-      "vertical_label": "Finance & accounting automation",
+      "vertical_id": "enterprise.legal.regulatory-consulting",
+      "vertical_label": "Regulatory consulting (cross-industry)",
       "sector_id": "enterprise-software",
       "companies": [
-        "end-close",
-        "fullseam",
-        "getbalance"
+        "autositu",
+        "fed10",
+        "fuchsia"
       ]
     },
     {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "industrials.defense.surveillance",
-      "vertical_label": "Defense surveillance & threat detection",
-      "sector_id": "industrials-defense",
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
+      "vertical_id": "fintech.insurance.agent-liability",
+      "vertical_label": "AI & specialty liability insurance",
+      "sector_id": "financial-services",
       "companies": [
-        "arlo-industries",
-        "milliray",
-        "surtr-defense-systems"
+        "hedge",
+        "klaimee",
+        "mount"
       ]
     },
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "industrials.manufacturing.ops",
-      "vertical_label": "Manufacturing operations & order management",
-      "sector_id": "industrials-defense",
+      "vertical_id": "healthcare.pharma.clinical-dev",
+      "vertical_label": "Biopharma clinical development & regulatory",
+      "sector_id": "healthcare-life-sciences",
       "companies": [
-        "arzana",
-        "smartbase",
-        "ventura"
+        "astraea",
+        "rhizome-ai",
+        "ritivel"
+      ]
+    },
+    {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "healthcare.pharma.drug-discovery",
+      "vertical_label": "Drug discovery & delivery R&D",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "infera",
+        "origin-bio",
+        "strand-ai"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.provider.revenue-cycle",
+      "vertical_label": "Healthcare revenue cycle management",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "beacon-health",
+        "eos-ai",
+        "overdrive-health"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "industrials.manufacturing.ops",
-      "vertical_label": "Manufacturing operations & order management",
+      "vertical_id": "healthcare.provider.revenue-cycle",
+      "vertical_label": "Healthcare revenue cycle management",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "beacon-health",
+        "eos-ai",
+        "overdrive-health"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.provider.specialty-practice",
+      "vertical_label": "Specialty medical practice operations",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "opalite-health",
+        "plena-health",
+        "ruma-care"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "healthcare.provider.specialty-practice",
+      "vertical_label": "Specialty medical practice operations",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "opalite-health",
+        "plena-health",
+        "ruma-care"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "industrials.defense.drones",
+      "vertical_label": "Defense drone & UAS operations",
       "sector_id": "industrials-defense",
       "companies": [
-        "arzana",
-        "smartbase",
-        "ventura"
+        "degla-inc",
+        "tenet-industries",
+        "voltair"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "industrials.defense.drones",
+      "vertical_label": "Defense drone & UAS operations",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "degla-inc",
+        "tenet-industries",
+        "voltair"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "congruent",
+        "intelligence-factory",
+        "servo7"
       ]
     },
     {
@@ -684,35 +903,115 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "professional.law-firms",
-      "vertical_label": "Law firm operations & litigation",
+      "vertical_id": "marketing.content-ops",
+      "vertical_label": "Content operations & asset management",
       "sector_id": "enterprise-software",
       "companies": [
-        "andco",
-        "stilta",
-        "wayco"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.training-data",
-      "vertical_label": "Training & eval data generation",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "luel",
-        "perfectbit"
+        "cardboard",
+        "martini",
+        "tdaycom"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "ai-infrastructure.training-data",
-      "vertical_label": "Training & eval data generation",
+      "vertical_id": "marketing.content-ops",
+      "vertical_label": "Content operations & asset management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "cardboard",
+        "martini",
+        "tdaycom"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "realestate.property.management",
+      "vertical_label": "Property management operations",
+      "sector_id": "real-estate-construction",
+      "companies": [
+        "centralcoms",
+        "crow",
+        "trellistech"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "realestate.property.management",
+      "vertical_label": "Property management operations",
+      "sector_id": "real-estate-construction",
+      "companies": [
+        "centralcoms",
+        "crow",
+        "trellistech"
+      ]
+    },
+    {
+      "business_model": "BM-12",
+      "business_model_label": "Open source + commercial",
+      "vertical_id": "ai-infrastructure.agent-runtime",
+      "vertical_label": "Agent runtime & orchestration",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "luel",
-        "perfectbit"
+        "emdash",
+        "openprose"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.agent-telecom",
+      "vertical_label": "Agent telecommunications infrastructure",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "agentphone",
+        "maven"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "ai-infrastructure.agent-telecom",
+      "vertical_label": "Agent telecommunications infrastructure",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "primitive",
+        "samora-ai"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "matforge",
+        "pirislabs"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "matforge",
+        "pirislabs"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "ashr",
+        "chronicle-labs"
       ]
     },
     {
@@ -722,8 +1021,8 @@
       "vertical_label": "Project budget tracking & cost control",
       "sector_id": "real-estate-construction",
       "companies": [
-        "bidflow",
-        "foreman"
+        "plan0-ai",
+        "rudus"
       ]
     },
     {
@@ -733,8 +1032,30 @@
       "vertical_label": "Project budget tracking & cost control",
       "sector_id": "real-estate-construction",
       "companies": [
-        "bidflow",
-        "foreman"
+        "plan0-ai",
+        "rudus"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "devtools.code-review-governance",
+      "vertical_label": "Code review & pull request governance",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "sparkles",
+        "stage"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "devtools.code-review-governance",
+      "vertical_label": "Code review & pull request governance",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "sparkles",
+        "stage"
       ]
     },
     {
@@ -745,7 +1066,7 @@
       "sector_id": "enterprise-software",
       "companies": [
         "brownie",
-        "probe"
+        "sonarly"
       ]
     },
     {
@@ -756,40 +1077,40 @@
       "sector_id": "enterprise-software",
       "companies": [
         "brownie",
-        "probe"
+        "sonarly"
       ]
     },
     {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.legal.contracts",
-      "vertical_label": "Contract lifecycle & legal ops",
+      "business_model": "BM-12",
+      "business_model_label": "Open source + commercial",
+      "vertical_id": "enterprise.devtools.productivity",
+      "vertical_label": "Developer productivity & engineering tools",
       "sector_id": "enterprise-software",
       "companies": [
-        "general-legal",
-        "moritz"
+        "glue",
+        "openspec"
       ]
     },
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.legal.regulatory-consulting",
-      "vertical_label": "Regulatory consulting (cross-industry)",
-      "sector_id": "enterprise-software",
+      "vertical_id": "enterprise.marketing.analytics",
+      "vertical_label": "Marketing analytics & market research",
+      "sector_id": "professional-services",
       "companies": [
-        "fed10",
-        "payna"
+        "auxos",
+        "netter"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.legal.regulatory-consulting",
-      "vertical_label": "Regulatory consulting (cross-industry)",
-      "sector_id": "enterprise-software",
+      "vertical_id": "enterprise.marketing.analytics",
+      "vertical_label": "Marketing analytics & market research",
+      "sector_id": "professional-services",
       "companies": [
-        "fed10",
-        "payna"
+        "auxos",
+        "netter"
       ]
     },
     {
@@ -811,7 +1132,7 @@
       "sector_id": "enterprise-software",
       "companies": [
         "characterquilt",
-        "revnu"
+        "sitefire"
       ]
     },
     {
@@ -822,7 +1143,7 @@
       "sector_id": "enterprise-software",
       "companies": [
         "characterquilt",
-        "revnu"
+        "sitefire"
       ]
     },
     {
@@ -832,19 +1153,30 @@
       "vertical_label": "B2B growth marketing automation",
       "sector_id": "enterprise-software",
       "companies": [
-        "sherpa",
-        "sitefire"
+        "revnu",
+        "sherpa"
       ]
     },
     {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.ops.ai-transformation",
-      "vertical_label": "Enterprise AI transformation consulting",
-      "sector_id": "professional-services",
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
       "companies": [
-        "foaster",
-        "netter"
+        "sila",
+        "syntropy"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.sales.enablement",
+      "vertical_label": "Sales enablement & execution",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "fixture",
+        "salesgraph"
       ]
     },
     {
@@ -867,61 +1199,83 @@
       "companies": [
         "hex-security",
         "raspire"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.security.compliance-audit",
+      "vertical_label": "Internal audit & SOX compliance",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "arden",
+        "oxus"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "enterprise.security.compliance-audit",
+      "vertical_label": "Internal audit & SOX compliance",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "arden",
+        "oxus"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.support.customer",
+      "vertical_label": "Customer support & contact center",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "signals",
+        "unisson"
       ]
     },
     {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
-      "vertical_id": "fintech.insurance.agent-liability",
-      "vertical_label": "AI & specialty liability insurance",
+      "vertical_id": "fintech.insurance.corporate-risk",
+      "vertical_label": "Corporate insurance & risk management",
       "sector_id": "financial-services",
       "companies": [
-        "klaimee",
-        "mount"
+        "huscarl",
+        "panta"
+      ]
+    },
+    {
+      "business_model": "BM-07",
+      "business_model_label": "Marketplace / network",
+      "vertical_id": "fintech.prediction-markets.derivatives-protocol",
+      "vertical_label": "Prediction markets derivatives & protocol layer",
+      "sector_id": "financial-services",
+      "companies": [
+        "forum",
+        "totalis"
       ]
     },
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.trading.derivatives",
-      "vertical_label": "Trading & derivatives (general)",
+      "vertical_id": "fintech.prediction-markets.execution",
+      "vertical_label": "Prediction markets trading & prime brokerage",
       "sector_id": "financial-services",
       "companies": [
-        "alt-x",
-        "axis-2"
+        "river-markets",
+        "valence"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "fintech.trading.derivatives",
-      "vertical_label": "Trading & derivatives (general)",
+      "vertical_id": "fintech.prediction-markets.execution",
+      "vertical_label": "Prediction markets trading & prime brokerage",
       "sector_id": "financial-services",
       "companies": [
-        "alt-x",
-        "axis-2"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.wealth.asset-management",
-      "vertical_label": "Asset & wealth management",
-      "sector_id": "financial-services",
-      "companies": [
-        "kelai",
-        "kimpton-ai"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "fintech.wealth.asset-management",
-      "vertical_label": "Asset & wealth management",
-      "sector_id": "financial-services",
-      "companies": [
-        "kelai",
-        "kimpton-ai"
+        "river-markets",
+        "valence"
       ]
     },
     {
@@ -932,161 +1286,51 @@
       "sector_id": "healthcare-life-sciences",
       "companies": [
         "anoria",
-        "prana-health"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.pharma.clinical-dev",
-      "vertical_label": "Biopharma clinical development & regulatory",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "ritivel",
-        "runharbor"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "healthcare.pharma.drug-discovery",
-      "vertical_label": "Drug discovery & delivery R&D",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "biostack-platforms",
-        "origin-bio"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "healthcare.pharma.drug-discovery",
-      "vertical_label": "Drug discovery & delivery R&D",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "biostack-platforms",
-        "origin-bio"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "healthcare.pharma.drug-discovery",
-      "vertical_label": "Drug discovery & delivery R&D",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "celltype",
-        "strand-ai"
+        "juno-chat"
       ]
     },
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.provider.prior-authorization",
-      "vertical_label": "Prior authorization & utilization review",
+      "vertical_id": "healthcare.medtech.devices",
+      "vertical_label": "Medical devices & diagnostics",
       "sector_id": "healthcare-life-sciences",
       "companies": [
-        "claimglide",
-        "ruma-care"
+        "lumius",
+        "mango-medical-inc"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.provider.prior-authorization",
-      "vertical_label": "Prior authorization & utilization review",
+      "vertical_id": "healthcare.medtech.devices",
+      "vertical_label": "Medical devices & diagnostics",
       "sector_id": "healthcare-life-sciences",
       "companies": [
-        "claimglide",
-        "ruma-care"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.provider.revenue-cycle",
-      "vertical_label": "Healthcare revenue cycle management",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "beacon-health",
-        "eos-ai"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.provider.revenue-cycle",
-      "vertical_label": "Healthcare revenue cycle management",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "beacon-health",
-        "eos-ai"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "healthcare.provider.revenue-cycle",
-      "vertical_label": "Healthcare revenue cycle management",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "overdrive-health",
-        "taiga"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.provider.specialty-practice",
-      "vertical_label": "Specialty medical practice operations",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "mango-medical-inc",
-        "plena-health"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.provider.specialty-practice",
-      "vertical_label": "Specialty medical practice operations",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "mango-medical-inc",
-        "plena-health"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "industrials.defense.drones",
-      "vertical_label": "Defense drone & UAS operations",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "degla-inc",
-        "tenet-industries"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "industrials.defense.surveillance",
-      "vertical_label": "Defense surveillance & threat detection",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "milliray",
-        "surtr-defense-systems"
+        "lumius",
+        "mango-medical-inc"
       ]
     },
     {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.energy.smr",
-      "vertical_label": "Small modular reactor & advanced nuclear",
-      "sector_id": "energy-climate",
+      "vertical_id": "industrials.defense.supply-chain",
+      "vertical_label": "Defense supply chain & prime contracting",
+      "sector_id": "industrials-defense",
       "companies": [
-        "apollo-atomics-inc",
-        "terranox-ai"
+        "daivin",
+        "kyten-technologies"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.defense.surveillance",
+      "vertical_label": "Defense surveillance & threat detection",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "arlo-industries",
+        "milliray"
       ]
     },
     {
@@ -1096,33 +1340,11 @@
       "vertical_label": "Manufacturing & logistics automation",
       "sector_id": "industrials-defense",
       "companies": [
-        "advanced-metal-research",
+        "eden-robotics",
         "prototypingio"
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "asimov",
-        "human-archive"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "asimov",
-        "human-archive"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "lending.underwriting-automation",
@@ -1147,50 +1369,17 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "media.gaming.ugc",
-      "vertical_label": "User-generated gaming platforms",
-      "sector_id": "media-entertainment",
+      "vertical_id": "retail.merchant.cpg",
+      "vertical_label": "CPG brand operations & omnichannel retail",
+      "sector_id": "retail-commerce",
       "companies": [
-        "catchback-cards",
-        "playablai"
+        "corvera",
+        "menza"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "media.gaming.ugc",
-      "vertical_label": "User-generated gaming platforms",
-      "sector_id": "media-entertainment",
-      "companies": [
-        "catchback-cards",
-        "playablai"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "media.gaming.ugc",
-      "vertical_label": "User-generated gaming platforms",
-      "sector_id": "media-entertainment",
-      "companies": [
-        "pax-historia",
-        "pops"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "research.ai-rd",
-      "vertical_label": "AI research & development labs",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "asterlab",
-        "traverse"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
       "vertical_id": "retail.merchant.cpg",
       "vertical_label": "CPG brand operations & omnichannel retail",
       "sector_id": "retail-commerce",
@@ -1211,13 +1400,23 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "agriculture.farm.ops",
+      "vertical_label": "Farm & ag operations",
+      "sector_id": "agriculture",
+      "companies": [
+        "grazemate"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "agriculture.farm.ops",
       "vertical_label": "Farm & ag operations",
       "sector_id": "agriculture",
       "companies": [
-        "grazemate"
+        "synphony"
       ]
     },
     {
@@ -1227,27 +1426,17 @@
       "vertical_label": "Farm & ag operations",
       "sector_id": "agriculture",
       "companies": [
-        "grazemate"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "ai-infrastructure.agent-runtime",
-      "vertical_label": "Agent runtime & orchestration",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "fern-bot"
+        "synphony"
       ]
     },
     {
       "business_model": "BM-12",
       "business_model_label": "Open source + commercial",
-      "vertical_id": "ai-infrastructure.agent-runtime",
-      "vertical_label": "Agent runtime & orchestration",
+      "vertical_id": "ai-infrastructure.agent-observability",
+      "vertical_label": "Agent observability & logging",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "openprose"
+        "arc-prize-foundation"
       ]
     },
     {
@@ -1261,23 +1450,13 @@
       ]
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "ai-infrastructure.agent-runtime",
-      "vertical_label": "Agent runtime & orchestration",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "pentagon"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.agent-telecom",
       "vertical_label": "Agent telecommunications infrastructure",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "agentphone"
+        "primitive"
       ]
     },
     {
@@ -1287,37 +1466,17 @@
       "vertical_label": "Agent telecommunications infrastructure",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "primitive"
+        "sponge"
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "ai-infrastructure.gpu-deploy",
       "vertical_label": "GPU infrastructure for model deployment",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "cumulus-labs"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "cumulus-labs"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "pirislabs"
+        "interfaze"
       ]
     },
     {
@@ -1341,28 +1500,28 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "crosslayer-labs"
+      ]
+    },
+    {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "fort"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.qa-testing",
-      "vertical_label": "Software QA & test automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "testerarmy"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "ai-infrastructure.qa-testing",
-      "vertical_label": "Software QA & test automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "testerarmy"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "ai-infrastructure.voice",
       "vertical_label": "Enterprise voice & speech infrastructure",
       "sector_id": "ai-infrastructure",
@@ -1371,13 +1530,33 @@
       ]
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "ai-infrastructure.voice",
       "vertical_label": "Enterprise voice & speech infrastructure",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "samora-ai"
+        "kugelaudio"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "automotive.fleet",
+      "vertical_label": "Fleet & automotive operations",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "dayjob"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "automotive.fleet",
+      "vertical_label": "Fleet & automotive operations",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "dayjob"
       ]
     },
     {
@@ -1393,8 +1572,8 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "climate.energy-consumption-monitoring",
-      "vertical_label": "Real-time energy consumption & demand response",
+      "vertical_id": "climate.energy-audit-retrofit",
+      "vertical_label": "Building energy audits & retrofit project management",
       "sector_id": "energy-climate",
       "companies": [
         "inviscid-ai"
@@ -1403,8 +1582,8 @@
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "climate.energy-consumption-monitoring",
-      "vertical_label": "Real-time energy consumption & demand response",
+      "vertical_id": "climate.energy-audit-retrofit",
+      "vertical_label": "Building energy audits & retrofit project management",
       "sector_id": "energy-climate",
       "companies": [
         "inviscid-ai"
@@ -1413,36 +1592,6 @@
     {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
-      "vertical_id": "climate.water-management",
-      "vertical_label": "Water consumption & stress management",
-      "sector_id": "energy-climate",
-      "companies": [
-        "madrone"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "climate.water-management",
-      "vertical_label": "Water consumption & stress management",
-      "sector_id": "energy-climate",
-      "companies": [
-        "octapulse"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "climate.water-management",
-      "vertical_label": "Water consumption & stress management",
-      "sector_id": "energy-climate",
-      "companies": [
-        "octapulse"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "compute.edge-gpu-deployment",
       "vertical_label": "Edge & on-device GPU inference deployment",
       "sector_id": "ai-infrastructure",
@@ -1451,53 +1600,13 @@
       ]
     },
     {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "compute.edge-gpu-deployment",
-      "vertical_label": "Edge & on-device GPU inference deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "general-instinct"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "compute.edge-gpu-deployment",
-      "vertical_label": "Edge & on-device GPU inference deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "runanywhere"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "compute.gpu-cost-optimization",
       "vertical_label": "GPU utilization & cost optimization",
       "sector_id": "ai-infrastructure",
       "companies": [
         "expanse"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "compute.inference-latency-optimization",
-      "vertical_label": "Inference latency monitoring & optimization",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "talking-computers"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "compute.inference-latency-optimization",
-      "vertical_label": "Inference latency monitoring & optimization",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "talking-computers"
       ]
     },
     {
@@ -1513,11 +1622,21 @@
     {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "compute.model-compilation-optimization",
-      "vertical_label": "Model compilation & hardware-specific optimization",
+      "vertical_id": "compute.inference-request-routing",
+      "vertical_label": "Intelligent inference request routing & load balancing",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "rightnow"
+        "constellation-space"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "compute.model-serving-versioning",
+      "vertical_label": "Model versioning & canary deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "runanywhere"
       ]
     },
     {
@@ -1541,33 +1660,23 @@
       ]
     },
     {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "construction.budget-cost-control",
-      "vertical_label": "Project budget tracking & cost control",
-      "sector_id": "real-estate-construction",
-      "companies": [
-        "plan0-ai"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "construction.material-procurement",
-      "vertical_label": "Material procurement & supply chain logistics",
+      "vertical_id": "construction.subcontractor-management",
+      "vertical_label": "Subcontractor vetting, licensing & payment",
       "sector_id": "real-estate-construction",
       "companies": [
-        "rudus"
+        "bidflow"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "construction.material-procurement",
-      "vertical_label": "Material procurement & supply chain logistics",
+      "vertical_id": "construction.subcontractor-management",
+      "vertical_label": "Subcontractor vetting, licensing & payment",
       "sector_id": "real-estate-construction",
       "companies": [
-        "rudus"
+        "bidflow"
       ]
     },
     {
@@ -1581,8 +1690,8 @@
       ]
     },
     {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
       "vertical_id": "consumer.finance.personal",
       "vertical_label": "Personal finance management",
       "sector_id": "consumer",
@@ -1591,18 +1700,8 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "consumer.finance.personal",
-      "vertical_label": "Personal finance management",
-      "sector_id": "consumer",
-      "companies": [
-        "spotpay"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
       "vertical_id": "consumer.finance.personal",
       "vertical_label": "Personal finance management",
       "sector_id": "consumer",
@@ -1623,51 +1722,51 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "consumer.productivity.personal",
-      "vertical_label": "Personal productivity software",
-      "sector_id": "consumer",
+      "vertical_id": "content.video-production",
+      "vertical_label": "Video production & post-production workflow",
+      "sector_id": "media-entertainment",
       "companies": [
-        "result"
+        "wideframe"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "consumer.productivity.personal",
-      "vertical_label": "Personal productivity software",
-      "sector_id": "consumer",
+      "vertical_id": "content.video-production",
+      "vertical_label": "Video production & post-production workflow",
+      "sector_id": "media-entertainment",
       "companies": [
-        "result"
+        "wideframe"
       ]
     },
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "content.video-production",
-      "vertical_label": "Video production & post-production workflow",
-      "sector_id": "media-entertainment",
+      "vertical_id": "data.data-discovery-cataloging",
+      "vertical_label": "Data discovery & asset cataloging",
+      "sector_id": "ai-infrastructure",
       "companies": [
-        "wideframe"
+        "travo"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "content.video-production",
-      "vertical_label": "Video production & post-production workflow",
-      "sector_id": "media-entertainment",
+      "vertical_id": "data.data-discovery-cataloging",
+      "vertical_label": "Data discovery & asset cataloging",
+      "sector_id": "ai-infrastructure",
       "companies": [
-        "wideframe"
+        "travo"
       ]
     },
     {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "data.domain-specific-corpus-curation",
-      "vertical_label": "Domain-specific corpus curation & management",
+      "business_model": "BM-07",
+      "business_model_label": "Marketplace / network",
+      "vertical_id": "data.data-labeling-annotation",
+      "vertical_label": "Data labeling & annotation workflows",
       "sector_id": "ai-infrastructure",
       "companies": [
-        "hubxyz"
+        "humwork"
       ]
     },
     {
@@ -1683,41 +1782,21 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "devtools.build-optimization",
-      "vertical_label": "Build pipeline optimization & caching",
+      "vertical_id": "devtools.compliance-audit",
+      "vertical_label": "Compliance audit & change tracking for regulated environments",
       "sector_id": "enterprise-software",
       "companies": [
-        "mendral"
+        "didit"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "devtools.build-optimization",
-      "vertical_label": "Build pipeline optimization & caching",
+      "vertical_id": "devtools.compliance-audit",
+      "vertical_label": "Compliance audit & change tracking for regulated environments",
       "sector_id": "enterprise-software",
       "companies": [
-        "mendral"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "devtools.code-review-governance",
-      "vertical_label": "Code review & pull request governance",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "stage"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "devtools.code-review-governance",
-      "vertical_label": "Code review & pull request governance",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "stage"
+        "didit"
       ]
     },
     {
@@ -1731,13 +1810,13 @@
       ]
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "devtools.cost-optimization",
-      "vertical_label": "Cloud resource optimization & cost management",
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "devtools.container-orchestration",
+      "vertical_label": "Container deployment & Kubernetes management",
       "sector_id": "enterprise-software",
       "companies": [
-        "carrot-labs"
+        "smol-machines"
       ]
     },
     {
@@ -1747,7 +1826,27 @@
       "vertical_label": "Cloud resource optimization & cost management",
       "sector_id": "enterprise-software",
       "companies": [
-        "chamber"
+        "carrot-labs"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "devtools.database-devops",
+      "vertical_label": "Database schema versioning & migration automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "klaus-ai"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "devtools.database-devops",
+      "vertical_label": "Database schema versioning & migration automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "klaus-ai"
       ]
     },
     {
@@ -1761,18 +1860,38 @@
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "devtools.incident-response",
-      "vertical_label": "Incident management & on-call orchestration",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "devtools.infrastructure-as-code",
+      "vertical_label": "Infrastructure-as-code authoring & policy enforcement",
       "sector_id": "enterprise-software",
       "companies": [
-        "sonarly"
+        "byteport"
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "devtools.infrastructure-as-code",
+      "vertical_label": "Infrastructure-as-code authoring & policy enforcement",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "byteport"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "devtools.observability-instrumentation",
+      "vertical_label": "Application observability & instrumentation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "superlog"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "devtools.observability-instrumentation",
       "vertical_label": "Application observability & instrumentation",
       "sector_id": "enterprise-software",
@@ -1783,21 +1902,11 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "devtools.observability-instrumentation",
-      "vertical_label": "Application observability & instrumentation",
-      "sector_id": "enterprise-software",
+      "vertical_id": "ecommerce.analytics-attribution",
+      "vertical_label": "Multi-touch attribution & marketing analytics",
+      "sector_id": "retail-commerce",
       "companies": [
-        "velum-labs"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "devtools.observability-instrumentation",
-      "vertical_label": "Application observability & instrumentation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "velum-labs"
+        "laurence"
       ]
     },
     {
@@ -1833,8 +1942,8 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ecommerce.product-content",
-      "vertical_label": "Product information & content management",
+      "vertical_id": "ecommerce.tax-compliance",
+      "vertical_label": "Sales tax & nexus compliance automation",
       "sector_id": "retail-commerce",
       "companies": [
         "complir"
@@ -1843,71 +1952,21 @@
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "ecommerce.product-content",
-      "vertical_label": "Product information & content management",
+      "vertical_id": "ecommerce.tax-compliance",
+      "vertical_label": "Sales tax & nexus compliance automation",
       "sector_id": "retail-commerce",
       "companies": [
         "complir"
       ]
     },
     {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "energy.power.grid",
       "vertical_label": "Power grid & energy infrastructure",
       "sector_id": "energy-climate",
       "companies": [
-        "matforge"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "aemon"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "cajal-technologies"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "cascade"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "cascade"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "sparkles"
+        "madrone"
       ]
     },
     {
@@ -1917,7 +1976,7 @@
       "vertical_label": "Developer productivity & engineering tools",
       "sector_id": "enterprise-software",
       "companies": [
-        "visibl-semiconductors"
+        "button-computer"
       ]
     },
     {
@@ -1961,43 +2020,43 @@
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.hr.workforce",
       "vertical_label": "HR & workforce management",
       "sector_id": "enterprise-software",
       "companies": [
-        "mantis"
+        "textsidekick"
       ]
     },
     {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.hr.workforce",
       "vertical_label": "HR & workforce management",
       "sector_id": "enterprise-software",
       "companies": [
-        "mantis"
+        "textsidekick"
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.it.cloud-infra",
       "vertical_label": "Cloud infrastructure & virtualization",
       "sector_id": "enterprise-software",
       "companies": [
-        "byteport"
+        "chamber"
       ]
     },
     {
-      "business_model": "BM-12",
-      "business_model_label": "Open source + commercial",
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.it.cloud-infra",
       "vertical_label": "Cloud infrastructure & virtualization",
       "sector_id": "enterprise-software",
       "companies": [
-        "smol-machines"
+        "chamber"
       ]
     },
     {
@@ -2021,13 +2080,13 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.legal.contracts",
       "vertical_label": "Contract lifecycle & legal ops",
       "sector_id": "enterprise-software",
       "companies": [
-        "moritz"
+        "general-legal"
       ]
     },
     {
@@ -2041,28 +2100,8 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.marketing.analytics",
-      "vertical_label": "Marketing analytics & market research",
-      "sector_id": "professional-services",
-      "companies": [
-        "auxos"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.marketing.analytics",
-      "vertical_label": "Marketing analytics & market research",
-      "sector_id": "professional-services",
-      "companies": [
-        "auxos"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
       "vertical_id": "enterprise.marketing.analytics",
       "vertical_label": "Marketing analytics & market research",
       "sector_id": "professional-services",
@@ -2073,51 +2112,21 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.marketing.devrel",
-      "vertical_label": "Developer marketing & technical content",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "memoir"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.ops.ai-transformation",
       "vertical_label": "Enterprise AI transformation consulting",
       "sector_id": "professional-services",
       "companies": [
-        "datost"
+        "foaster"
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.ops.ai-transformation",
       "vertical_label": "Enterprise AI transformation consulting",
       "sector_id": "professional-services",
       "companies": [
-        "netter"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "enterprise.ops.knowledge",
-      "vertical_label": "Enterprise knowledge management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "carson"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "confluence-labs"
+        "foaster"
       ]
     },
     {
@@ -2141,93 +2150,23 @@
       ]
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.sales.enablement",
-      "vertical_label": "Sales enablement & execution",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "salesgraph"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "enterprise.security.compliance-audit",
-      "vertical_label": "Internal audit & SOX compliance",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "arden"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.security.compliance-audit",
-      "vertical_label": "Internal audit & SOX compliance",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "oxus"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.security.compliance-audit",
-      "vertical_label": "Internal audit & SOX compliance",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "oxus"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
       "vertical_id": "enterprise.security.cyber",
       "vertical_label": "Enterprise cybersecurity operations",
       "sector_id": "enterprise-software",
       "companies": [
-        "lexius"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "enterprise.support.customer",
-      "vertical_label": "Customer support & contact center",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "chert"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "farming.harvest-logistics",
-      "vertical_label": "Harvest planning & logistics coordination",
-      "sector_id": "agriculture",
-      "companies": [
-        "synphony"
+        "beesafe-ai"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "farming.harvest-logistics",
-      "vertical_label": "Harvest planning & logistics coordination",
-      "sector_id": "agriculture",
+      "vertical_id": "enterprise.security.cyber",
+      "vertical_label": "Enterprise cybersecurity operations",
+      "sector_id": "enterprise-software",
       "companies": [
-        "synphony"
-      ]
-    },
-    {
-      "business_model": "BM-07",
-      "business_model_label": "Marketplace / network",
-      "vertical_id": "fintech.banking.exchange",
-      "vertical_label": "Banking & exchange infrastructure",
-      "sector_id": "financial-services",
-      "companies": [
-        "maywood"
+        "beesafe-ai"
       ]
     },
     {
@@ -2273,56 +2212,16 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.insurance.corporate-risk",
-      "vertical_label": "Corporate insurance & risk management",
+      "vertical_id": "fintech.insurance.underwriting",
+      "vertical_label": "Insurance underwriting automation",
       "sector_id": "financial-services",
       "companies": [
-        "huscarl"
+        "valgo"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "fintech.insurance.corporate-risk",
-      "vertical_label": "Corporate insurance & risk management",
-      "sector_id": "financial-services",
-      "companies": [
-        "huscarl"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "fintech.insurance.corporate-risk",
-      "vertical_label": "Corporate insurance & risk management",
-      "sector_id": "financial-services",
-      "companies": [
-        "panta"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.insurance.underwriting",
-      "vertical_label": "Insurance underwriting automation",
-      "sector_id": "financial-services",
-      "companies": [
-        "hedge"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "fintech.insurance.underwriting",
-      "vertical_label": "Insurance underwriting automation",
-      "sector_id": "financial-services",
-      "companies": [
-        "hedge"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
       "vertical_id": "fintech.insurance.underwriting",
       "vertical_label": "Insurance underwriting automation",
       "sector_id": "financial-services",
@@ -2351,8 +2250,38 @@
       ]
     },
     {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "fintech.payments.consumer",
+      "vertical_label": "Consumer payments & rewards",
+      "sector_id": "financial-services",
+      "companies": [
+        "alt-x"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "fintech.payments.consumer",
+      "vertical_label": "Consumer payments & rewards",
+      "sector_id": "financial-services",
+      "companies": [
+        "alt-x"
+      ]
+    },
+    {
+      "business_model": "BM-07",
+      "business_model_label": "Marketplace / network",
+      "vertical_id": "fintech.payments.consumer",
+      "vertical_label": "Consumer payments & rewards",
+      "sector_id": "financial-services",
+      "companies": [
+        "instinct-xyz"
+      ]
+    },
+    {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
       "vertical_id": "fintech.payments.consumer",
       "vertical_label": "Consumer payments & rewards",
       "sector_id": "financial-services",
@@ -2373,36 +2302,6 @@
     {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
-      "vertical_id": "fintech.prediction-markets.derivatives-protocol",
-      "vertical_label": "Prediction markets derivatives & protocol layer",
-      "sector_id": "financial-services",
-      "companies": [
-        "forum"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "fintech.prediction-markets.derivatives-protocol",
-      "vertical_label": "Prediction markets derivatives & protocol layer",
-      "sector_id": "financial-services",
-      "companies": [
-        "totalis"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "fintech.prediction-markets.execution",
-      "vertical_label": "Prediction markets trading & prime brokerage",
-      "sector_id": "financial-services",
-      "companies": [
-        "river-markets"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "fintech.prediction-markets.execution",
       "vertical_label": "Prediction markets trading & prime brokerage",
       "sector_id": "financial-services",
@@ -2413,51 +2312,41 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.prediction-markets.execution",
-      "vertical_label": "Prediction markets trading & prime brokerage",
+      "vertical_id": "fintech.prediction-markets.infrastructure",
+      "vertical_label": "Prediction markets data & institutional infrastructure",
       "sector_id": "financial-services",
       "companies": [
-        "valence"
+        "oddpool"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "fintech.prediction-markets.execution",
-      "vertical_label": "Prediction markets trading & prime brokerage",
+      "vertical_id": "fintech.prediction-markets.infrastructure",
+      "vertical_label": "Prediction markets data & institutional infrastructure",
       "sector_id": "financial-services",
       "companies": [
-        "valence"
+        "oddpool"
       ]
     },
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.prediction-markets.infrastructure",
-      "vertical_label": "Prediction markets data & institutional infrastructure",
+      "vertical_id": "fintech.trading.derivatives",
+      "vertical_label": "Trading & derivatives (general)",
       "sector_id": "financial-services",
       "companies": [
-        "oddpool"
+        "axis-2"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "fintech.prediction-markets.infrastructure",
-      "vertical_label": "Prediction markets data & institutional infrastructure",
-      "sector_id": "financial-services",
-      "companies": [
-        "oddpool"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
       "vertical_id": "fintech.trading.derivatives",
       "vertical_label": "Trading & derivatives (general)",
       "sector_id": "financial-services",
       "companies": [
-        "instinct-xyz"
+        "axis-2"
       ]
     },
     {
@@ -2491,23 +2380,13 @@
       ]
     },
     {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "fintech.wealth.asset-management",
-      "vertical_label": "Asset & wealth management",
-      "sector_id": "financial-services",
-      "companies": [
-        "wealor"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "freight.invoice-settlement",
       "vertical_label": "Freight invoice & settlement processing",
       "sector_id": "transportation-logistics",
       "companies": [
-        "transload"
+        "qomplement"
       ]
     },
     {
@@ -2517,7 +2396,7 @@
       "vertical_label": "Freight invoice & settlement processing",
       "sector_id": "transportation-logistics",
       "companies": [
-        "transload"
+        "qomplement"
       ]
     },
     {
@@ -2543,26 +2422,16 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.clinical.trials-data",
-      "vertical_label": "Clinical trial data & biometrics",
+      "vertical_id": "healthcare.dental.practice",
+      "vertical_label": "Dental practice operations",
       "sector_id": "healthcare-life-sciences",
       "companies": [
-        "astraea"
+        "patientdeskai"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.clinical.trials-data",
-      "vertical_label": "Clinical trial data & biometrics",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "astraea"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
       "vertical_id": "healthcare.dental.practice",
       "vertical_label": "Dental practice operations",
       "sector_id": "healthcare-life-sciences",
@@ -2577,7 +2446,7 @@
       "vertical_label": "Consumer digital health & wearables",
       "sector_id": "healthcare-life-sciences",
       "companies": [
-        "juno-chat"
+        "clara-2"
       ]
     },
     {
@@ -2587,27 +2456,7 @@
       "vertical_label": "Consumer digital health & wearables",
       "sector_id": "healthcare-life-sciences",
       "companies": [
-        "juno-chat"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.medtech.competitive-intelligence",
-      "vertical_label": "Medical device competitive intelligence & market monitoring",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "regbase"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.medtech.competitive-intelligence",
-      "vertical_label": "Medical device competitive intelligence & market monitoring",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "regbase"
+        "clara-2"
       ]
     },
     {
@@ -2623,28 +2472,8 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.medtech.devices",
-      "vertical_label": "Medical devices & diagnostics",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "lumius"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.medtech.devices",
-      "vertical_label": "Medical devices & diagnostics",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "lumius"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.payer.appeals-grievances",
-      "vertical_label": "Member appeals & grievance resolution",
+      "vertical_id": "healthcare.payer.medical-policy",
+      "vertical_label": "Medical policy & clinical guidelines management",
       "sector_id": "healthcare-life-sciences",
       "companies": [
         "docura-health"
@@ -2653,8 +2482,8 @@
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.payer.appeals-grievances",
-      "vertical_label": "Member appeals & grievance resolution",
+      "vertical_id": "healthcare.payer.medical-policy",
+      "vertical_label": "Medical policy & clinical guidelines management",
       "sector_id": "healthcare-life-sciences",
       "companies": [
         "docura-health"
@@ -2671,13 +2500,23 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.pharma.clinical-dev",
-      "vertical_label": "Biopharma clinical development & regulatory",
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "healthcare.pharma.drug-discovery",
+      "vertical_label": "Drug discovery & delivery R&D",
       "sector_id": "healthcare-life-sciences",
       "companies": [
-        "ritivel"
+        "biostack-platforms"
+      ]
+    },
+    {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "healthcare.pharma.drug-discovery",
+      "vertical_label": "Drug discovery & delivery R&D",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "biostack-platforms"
       ]
     },
     {
@@ -2751,13 +2590,33 @@
       ]
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "healthcare.provider.patient-engagement",
-      "vertical_label": "Patient engagement & adherence",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.provider.prior-authorization",
+      "vertical_label": "Prior authorization & utilization review",
       "sector_id": "healthcare-life-sciences",
       "companies": [
-        "opalite-health"
+        "claimglide"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "healthcare.provider.prior-authorization",
+      "vertical_label": "Prior authorization & utilization review",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "claimglide"
+      ]
+    },
+    {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
+      "vertical_id": "healthcare.provider.revenue-cycle",
+      "vertical_label": "Healthcare revenue cycle management",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "taiga"
       ]
     },
     {
@@ -2781,13 +2640,43 @@
       ]
     },
     {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.provider.supply-chain",
+      "vertical_label": "Medical supply chain & inventory management",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "abinitio-bio"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "healthcare.provider.supply-chain",
+      "vertical_label": "Medical supply chain & inventory management",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "abinitio-bio"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.provider.telehealth-operations",
       "vertical_label": "Telehealth platform & remote care operations",
       "sector_id": "healthcare-life-sciences",
       "companies": [
-        "clara-2"
+        "prana-health"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "healthcare.provider.telehealth-operations",
+      "vertical_label": "Telehealth platform & remote care operations",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "prana-health"
       ]
     },
     {
@@ -2801,6 +2690,46 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "hospitality.restaurant.ops",
+      "vertical_label": "Restaurant & food service operations",
+      "sector_id": "consumer",
+      "companies": [
+        "light-anchor"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "hospitality.restaurant.ops",
+      "vertical_label": "Restaurant & food service operations",
+      "sector_id": "consumer",
+      "companies": [
+        "light-anchor"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "hospitality.travel",
+      "vertical_label": "Travel & hospitality operations",
+      "sector_id": "consumer",
+      "companies": [
+        "lance"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "hospitality.travel",
+      "vertical_label": "Travel & hospitality operations",
+      "sector_id": "consumer",
+      "companies": [
+        "lance"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.aviation.atc",
@@ -2811,113 +2740,93 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
       "vertical_id": "industrials.aviation.space",
       "vertical_label": "Space & satellite systems",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "ndea-com"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "industrials.aviation.space",
-      "vertical_label": "Space & satellite systems",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "ndea-com"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "industrials.defense.drones",
-      "vertical_label": "Defense drone & UAS operations",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "degla-inc"
-      ]
-    },
-    {
-      "business_model": "BM-11",
-      "business_model_label": "Defense / gov-critical infrastructure",
-      "vertical_id": "industrials.defense.drones",
-      "vertical_label": "Defense drone & UAS operations",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "tenet-industries"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "industrials.defense.supply-chain",
-      "vertical_label": "Defense supply chain & prime contracting",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "guild"
-      ]
-    },
-    {
-      "business_model": "BM-11",
-      "business_model_label": "Defense / gov-critical infrastructure",
-      "vertical_id": "industrials.defense.supply-chain",
-      "vertical_label": "Defense supply chain & prime contracting",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "guild"
-      ]
-    },
-    {
-      "business_model": "BM-11",
-      "business_model_label": "Defense / gov-critical infrastructure",
-      "vertical_id": "industrials.defense.surveillance",
-      "vertical_label": "Defense surveillance & threat detection",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "arlo-industries"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "industrials.defense.surveillance",
-      "vertical_label": "Defense surveillance & threat detection",
       "sector_id": "industrials-defense",
       "companies": [
         "axionorbital-space"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "industrials.defense.supply-chain",
+      "vertical_label": "Defense supply chain & prime contracting",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "guild"
+      ]
+    },
+    {
+      "business_model": "BM-11",
+      "business_model_label": "Defense / gov-critical infrastructure",
+      "vertical_id": "industrials.defense.supply-chain",
+      "vertical_label": "Defense supply chain & prime contracting",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "guild"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.energy.smr",
+      "vertical_label": "Small modular reactor & advanced nuclear",
+      "sector_id": "energy-climate",
+      "companies": [
+        "apollo-atomics-inc"
+      ]
+    },
+    {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "industrials.energy.smr",
+      "vertical_label": "Small modular reactor & advanced nuclear",
+      "sector_id": "energy-climate",
+      "companies": [
+        "terranox-ai"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "industrials.manufacturing.automation",
+      "vertical_label": "Manufacturing & logistics automation",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "control-seat"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "industrials.manufacturing.automation",
+      "vertical_label": "Manufacturing & logistics automation",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "control-seat"
+      ]
+    },
+    {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "industrials.manufacturing.ops",
+      "vertical_label": "Manufacturing operations & order management",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "ndea-com"
       ]
     },
     {
       "business_model": "BM-06",
       "business_model_label": "Data / intelligence product",
-      "vertical_id": "industrials.defense.surveillance",
-      "vertical_label": "Defense surveillance & threat detection",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
       "sector_id": "industrials-defense",
       "companies": [
-        "axionorbital-space"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "industrials.manufacturing.automation",
-      "vertical_label": "Manufacturing & logistics automation",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "control-seat"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "industrials.manufacturing.automation",
-      "vertical_label": "Manufacturing & logistics automation",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "control-seat"
+        "asimov"
       ]
     },
     {
@@ -2927,7 +2836,7 @@
       "vertical_label": "General-purpose robotics intelligence",
       "sector_id": "industrials-defense",
       "companies": [
-        "voltair"
+        "human-archive"
       ]
     },
     {
@@ -2937,7 +2846,7 @@
       "vertical_label": "General-purpose robotics intelligence",
       "sector_id": "industrials-defense",
       "companies": [
-        "voltair"
+        "human-archive"
       ]
     },
     {
@@ -2951,8 +2860,58 @@
       ]
     },
     {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "industrials.utilities.water",
+      "vertical_label": "Water & utility operations",
+      "sector_id": "energy-climate",
+      "companies": [
+        "octapulse"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "industrials.utilities.water",
+      "vertical_label": "Water & utility operations",
+      "sector_id": "energy-climate",
+      "companies": [
+        "octapulse"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "insurance.fraud-detection",
+      "vertical_label": "Insurance fraud detection & investigation",
+      "sector_id": "financial-services",
+      "companies": [
+        "mousecat"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "insurance.fraud-detection",
+      "vertical_label": "Insurance fraud detection & investigation",
+      "sector_id": "financial-services",
+      "companies": [
+        "mousecat"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "lending.compliance-monitoring",
+      "vertical_label": "Lending compliance & regulatory reporting",
+      "sector_id": "financial-services",
+      "companies": [
+        "fenrock-ai"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "lending.compliance-monitoring",
       "vertical_label": "Lending compliance & regulatory reporting",
       "sector_id": "financial-services",
@@ -3021,6 +2980,36 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "logistics.supply-chain.ops",
+      "vertical_label": "Supply chain & procurement operations",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "robodock"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "logistics.warehouse.fulfillment",
+      "vertical_label": "Warehouse & fulfillment operations",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "transload"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "manufacturing.contract-manufacturing",
+      "vertical_label": "Contract manufacturing & job costing",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "hlabs"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "manufacturing.customs-trade",
@@ -3047,7 +3036,7 @@
       "vertical_label": "Production scheduling & capacity planning",
       "sector_id": "industrials-defense",
       "companies": [
-        "walter"
+        "revion"
       ]
     },
     {
@@ -3057,7 +3046,7 @@
       "vertical_label": "Production scheduling & capacity planning",
       "sector_id": "industrials-defense",
       "companies": [
-        "walter"
+        "revion"
       ]
     },
     {
@@ -3073,66 +3062,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "marketing.competitive-intelligence",
-      "vertical_label": "Competitive intelligence & market research",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "kuli"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "marketing.competitive-intelligence",
-      "vertical_label": "Competitive intelligence & market research",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "kuli"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "marketing.content-ops",
-      "vertical_label": "Content operations & asset management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "cardboard"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "marketing.content-ops",
-      "vertical_label": "Content operations & asset management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "cardboard"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "marketing.demand-gen",
-      "vertical_label": "Demand generation & lead scoring",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "robby"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "marketing.demand-gen",
-      "vertical_label": "Demand generation & lead scoring",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "robby"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "marketing.event-ops",
       "vertical_label": "Event marketing & sponsorship management",
       "sector_id": "enterprise-software",
@@ -3148,26 +3077,6 @@
       "sector_id": "enterprise-software",
       "companies": [
         "pavoot"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "marketing.social-ops",
-      "vertical_label": "Social media management & publishing",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "instaagent"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "marketing.social-ops",
-      "vertical_label": "Social media management & publishing",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "instaagent"
       ]
     },
     {
@@ -3177,7 +3086,27 @@
       "vertical_label": "Social media management & publishing",
       "sector_id": "enterprise-software",
       "companies": [
-        "tdaycom"
+        "instaagent"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "marketing.social-ops",
+      "vertical_label": "Social media management & publishing",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "kuli"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "marketing.social-ops",
+      "vertical_label": "Social media management & publishing",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "kuli"
       ]
     },
     {
@@ -3201,28 +3130,48 @@
       ]
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "media.gaming.ugc",
       "vertical_label": "User-generated gaming platforms",
       "sector_id": "media-entertainment",
       "companies": [
-        "codewisp"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "payments.fraud-detection-prevention",
-      "vertical_label": "Real-time fraud detection & transaction blocking",
-      "sector_id": "financial-services",
-      "companies": [
-        "incandor"
+        "catchback-cards"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
+      "vertical_id": "media.gaming.ugc",
+      "vertical_label": "User-generated gaming platforms",
+      "sector_id": "media-entertainment",
+      "companies": [
+        "catchback-cards"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "payments.cross-border-fx",
+      "vertical_label": "Cross-border payments & FX settlement",
+      "sector_id": "financial-services",
+      "companies": [
+        "unifold"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "payments.cross-border-fx",
+      "vertical_label": "Cross-border payments & FX settlement",
+      "sector_id": "financial-services",
+      "companies": [
+        "unifold"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "payments.fraud-detection-prevention",
       "vertical_label": "Real-time fraud detection & transaction blocking",
       "sector_id": "financial-services",
@@ -3231,33 +3180,13 @@
       ]
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
       "vertical_id": "payments.fraud-detection-prevention",
       "vertical_label": "Real-time fraud detection & transaction blocking",
       "sector_id": "financial-services",
       "companies": [
-        "mousecat"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "payments.gig-worker-payouts",
-      "vertical_label": "Gig worker & contractor instant payouts",
-      "sector_id": "financial-services",
-      "companies": [
-        "grade"
-      ]
-    },
-    {
-      "business_model": "BM-12",
-      "business_model_label": "Open source + commercial",
-      "vertical_id": "payments.payment-gateway-integration",
-      "vertical_label": "Multi-gateway payment orchestration & routing",
-      "sector_id": "financial-services",
-      "companies": [
-        "unifold"
+        "incandor"
       ]
     },
     {
@@ -3267,12 +3196,32 @@
       "vertical_label": "Payroll processing & employee disbursement",
       "sector_id": "financial-services",
       "companies": [
+        "grade"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "payments.payroll-disbursement",
+      "vertical_label": "Payroll processing & employee disbursement",
+      "sector_id": "financial-services",
+      "companies": [
         "hevn-inc"
       ]
     },
     {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "payments.payroll-disbursement",
+      "vertical_label": "Payroll processing & employee disbursement",
+      "sector_id": "financial-services",
+      "companies": [
+        "hevn-inc"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "payments.subscription-billing",
       "vertical_label": "Recurring billing & subscription management",
       "sector_id": "financial-services",
@@ -3281,33 +3230,33 @@
       ]
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "power.asset-maintenance",
-      "vertical_label": "Power plant & transmission asset maintenance scheduling",
-      "sector_id": "energy-climate",
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "payments.subscription-billing",
+      "vertical_label": "Recurring billing & subscription management",
+      "sector_id": "financial-services",
       "companies": [
-        "robodock"
+        "zerosettle"
       ]
     },
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "power.demand-response",
-      "vertical_label": "Demand response program management & customer enrollment",
+      "vertical_id": "power.battery-storage-ops",
+      "vertical_label": "Battery energy storage system operations & dispatch",
       "sector_id": "energy-climate",
       "companies": [
-        "condor-energy"
+        "voxel-energy"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "power.demand-response",
-      "vertical_label": "Demand response program management & customer enrollment",
+      "vertical_id": "power.battery-storage-ops",
+      "vertical_label": "Battery energy storage system operations & dispatch",
       "sector_id": "energy-climate",
       "companies": [
-        "condor-energy"
+        "voxel-energy"
       ]
     },
     {
@@ -3333,21 +3282,21 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "power.microgrid-control",
-      "vertical_label": "Microgrid islanding & local energy management",
+      "vertical_id": "power.wholesale-market-trading",
+      "vertical_label": "Wholesale electricity market bidding & settlement",
       "sector_id": "energy-climate",
       "companies": [
-        "voxel-energy"
+        "condor-energy"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "power.microgrid-control",
-      "vertical_label": "Microgrid islanding & local energy management",
+      "vertical_id": "power.wholesale-market-trading",
+      "vertical_label": "Wholesale electricity market bidding & settlement",
       "sector_id": "energy-climate",
       "companies": [
-        "voxel-energy"
+        "condor-energy"
       ]
     },
     {
@@ -3371,10 +3320,40 @@
       ]
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "property.insurance-claims",
-      "vertical_label": "Property insurance claims & documentation",
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "productivity.project-portfolio-oversight",
+      "vertical_label": "Project portfolio management & resource allocation",
+      "sector_id": "consumer",
+      "companies": [
+        "result"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "productivity.project-portfolio-oversight",
+      "vertical_label": "Project portfolio management & resource allocation",
+      "sector_id": "consumer",
+      "companies": [
+        "result"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "property.maintenance-work-orders",
+      "vertical_label": "Maintenance & work order management",
+      "sector_id": "real-estate-construction",
+      "companies": [
+        "aquashield"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "property.maintenance-work-orders",
+      "vertical_label": "Maintenance & work order management",
       "sector_id": "real-estate-construction",
       "companies": [
         "aquashield"
@@ -3383,41 +3362,31 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "property.maintenance-work-orders",
-      "vertical_label": "Maintenance & work order management",
+      "vertical_id": "realestate.construction.field",
+      "vertical_label": "Construction field & project operations",
       "sector_id": "real-estate-construction",
       "companies": [
-        "centralcoms"
+        "foreman"
       ]
     },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "property.maintenance-work-orders",
-      "vertical_label": "Maintenance & work order management",
+      "vertical_id": "realestate.construction.field",
+      "vertical_label": "Construction field & project operations",
       "sector_id": "real-estate-construction",
       "companies": [
-        "centralcoms"
+        "foreman"
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "property.occupancy-analytics",
-      "vertical_label": "Occupancy tracking & revenue analytics",
-      "sector_id": "real-estate-construction",
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "research.ai-rd",
+      "vertical_label": "AI research & development labs",
+      "sector_id": "ai-infrastructure",
       "companies": [
-        "crow"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "property.occupancy-analytics",
-      "vertical_label": "Occupancy tracking & revenue analytics",
-      "sector_id": "real-estate-construction",
-      "companies": [
-        "crow"
+        "asterlab"
       ]
     },
     {
@@ -3461,13 +3430,13 @@
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "retail.merchant.cpg",
-      "vertical_label": "CPG brand operations & omnichannel retail",
-      "sector_id": "retail-commerce",
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "robotics.human-robot-collaboration",
+      "vertical_label": "Human-robot task scheduling & workflow orchestration",
+      "sector_id": "industrials-defense",
       "companies": [
-        "corvera"
+        "twolabs"
       ]
     },
     {
@@ -3481,8 +3450,28 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "robotics.maintenance-scheduling",
+      "vertical_label": "Robotic equipment maintenance & predictive upkeep",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "aseon-labs"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "robotics.quality-inspection",
+      "vertical_label": "Robotic quality inspection & defect detection",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "advanced-metal-research"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "robotics.simulation-digital-twin",
       "vertical_label": "Robotic digital twin & offline simulation",
       "sector_id": "industrials-defense",
@@ -3491,8 +3480,8 @@
       ]
     },
     {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
       "vertical_id": "robotics.simulation-digital-twin",
       "vertical_label": "Robotic digital twin & offline simulation",
       "sector_id": "industrials-defense",
@@ -3507,17 +3496,7 @@
       "vertical_label": "Autonomous mobile robot (AMR) fleet logistics & routing",
       "sector_id": "industrials-defense",
       "companies": [
-        "eden-robotics"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "robotics.vision-perception",
-      "vertical_label": "Robotic vision & perception system calibration",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "congruent"
+        "inloop-robotics"
       ]
     },
     {
@@ -3527,7 +3506,7 @@
       "vertical_label": "Compliance automation & evidence collection",
       "sector_id": "enterprise-software",
       "companies": [
-        "didit"
+        "payna"
       ]
     },
     {
@@ -3537,17 +3516,7 @@
       "vertical_label": "Compliance automation & evidence collection",
       "sector_id": "enterprise-software",
       "companies": [
-        "didit"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "security.threat-intel",
-      "vertical_label": "Threat intelligence & adversary tracking",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "beesafe-ai"
+        "payna"
       ]
     },
     {

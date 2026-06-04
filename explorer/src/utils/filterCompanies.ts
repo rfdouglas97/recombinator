@@ -25,3 +25,11 @@ export function filterCompanies(bundle: DataBundle, filters: Filters): Company[]
 export function filteredSlugSet(bundle: DataBundle, filters: Filters): Set<string> {
   return new Set(filterCompanies(bundle, filters).map((c) => c.slug));
 }
+
+/** Ignore sector/industry for matrix density or ontology structure (keep all branches visible). */
+export function slugSetIgnoringSectorIndustry(bundle: DataBundle, filters: Filters): Set<string> {
+  return filteredSlugSet(bundle, { ...filters, sector: '', industry: '' });
+}
+
+/** @deprecated use slugSetIgnoringSectorIndustry */
+export const matrixDensitySlugSet = slugSetIgnoringSectorIndustry;

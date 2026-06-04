@@ -73,7 +73,7 @@ After ranking, `pickWhitespaceCell` in `scripts/generator-lib.mjs`:
 1. `npm run whitespace:refresh`
 2. Review top 30 in `gap-opportunity-ranked.json` or `sector-summary.json`
 3. Edit `kill-list.json` for bad fits; re-rank
-4. Generate startups for top cells via explorer or `generate-synthetic.mjs --cell …`
+4. Generate startups for top cells via explorer or `npm run startup-engine`
 
 ## Editing kill-list
 

@@ -90,16 +90,36 @@ body {
 }
 
 .sidebar-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   background: var(--bg);
   border: 1px solid var(--border);
   color: var(--text-muted);
   cursor: pointer;
   border-radius: 6px;
+  padding: 7px 12px;
 }
 
 .sidebar-toggle:hover {
   color: var(--text);
   border-color: var(--accent-dim);
+  background: var(--bg-hover);
+}
+
+.sidebar-toggle[aria-pressed='true'] {
+  color: var(--text);
+  border-color: var(--accent-dim);
+  background: var(--accent-soft);
+}
+
+.sidebar-toggle[aria-pressed='true'] .sidebar-toggle-icon {
+  color: var(--accent);
+}
+
+.sidebar-toggle-text {
+  font-size: 13px;
+  font-weight: 500;
 }
 
 .btn-primary,
@@ -433,20 +453,38 @@ body {
 .sidebar-edge-toggle {
   flex-shrink: 0;
   align-self: stretch;
-  width: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
   padding: 0;
   border: none;
   border-right: 1px solid var(--border);
   background: var(--bg-panel);
   color: var(--text-muted);
   cursor: pointer;
-  font-size: 18px;
-  line-height: 1;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
 
 .sidebar-edge-toggle:hover {
   color: var(--text);
   background: var(--bg-hover);
+}
+
+.sidebar-edge-toggle[aria-pressed='true'] {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border-right-color: var(--accent-dim);
+}
+
+.sidebar-edge-toggle.is-collapsed {
+  border-right: 1px solid var(--border-strong);
+  box-shadow: 2px 0 8px rgba(27, 26, 23, 0.06);
+}
+
+.sidebar-edge-toggle.is-collapsed:hover {
+  color: var(--accent);
+  background: var(--accent-soft);
 }
 
 .main {
@@ -495,6 +533,15 @@ body {
   padding: 6px 8px;
   border-radius: 4px;
   font-size: 13px;
+}
+
+.matrix-filter-hint {
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 12px;
+  color: var(--text-muted);
+  background: var(--bg-elevated, var(--bg));
+  border-bottom: 1px solid var(--border);
 }
 
 .toolbar {
@@ -607,36 +654,118 @@ body {
   border-collapse: separate;
   border-spacing: 2px;
   font-size: 11px;
+  --matrix-sector-header-height: 2rem;
 }
 
 .matrix-table th {
-  position: sticky;
-  top: 0;
   background: var(--bg-panel);
-  z-index: 2;
-  padding: 4px 6px;
+  padding: 6px 8px;
   text-align: left;
   font-weight: 500;
-  max-width: 120px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  vertical-align: bottom;
 }
 
-.matrix-table th.row-header {
-  left: 0;
+.matrix-table thead .sector-header th {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+}
+
+.matrix-table--grouped thead .industry-header th {
+  position: sticky;
+  top: var(--matrix-sector-header-height);
   z-index: 3;
-  max-width: 200px;
 }
 
+.matrix-table:not(.matrix-table--grouped) thead .industry-header th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.matrix-table th.col-header {
+  width: 6.75rem;
+  min-width: 6.75rem;
+  max-width: 6.75rem;
+  height: auto;
+  padding: 4px 5px;
+  text-align: center;
+  vertical-align: bottom;
+  box-sizing: border-box;
+}
+
+.matrix-table--sector-cols th.col-header-sector {
+  width: 8.25rem;
+  min-width: 8.25rem;
+  max-width: 8.25rem;
+}
+
+.col-header-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--text);
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+.matrix-table th.row-header,
 .matrix-table td.row-header {
   position: sticky;
   left: 0;
   background: var(--bg-panel);
+  min-width: 10rem;
+  max-width: 14rem;
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  line-height: 1.3;
+  hyphens: none;
+}
+
+.matrix-table th.row-header {
+  z-index: 4;
+}
+
+.matrix-table th.row-header.corner-header,
+.matrix-table th.row-header.sector-corner {
+  z-index: 6;
+}
+
+.matrix-table thead .industry-header th.corner-header {
+  z-index: 5;
+}
+
+.matrix-table td.row-header {
   z-index: 1;
-  font-weight: 500;
-  max-width: 200px;
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+
+.sector-header th.sector-header-cell {
+  text-align: left;
+  vertical-align: middle;
   padding: 4px 8px;
+  min-height: var(--matrix-sector-header-height);
+  height: auto;
+  box-sizing: border-box;
+}
+
+.sector-header-title {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sector-header th.sector-corner {
+  z-index: 5;
 }
 
 .matrix-cell {
@@ -669,10 +798,6 @@ body {
 
 .sector-header th {
   background: var(--bg-hover);
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--text-muted);
 }
 
 .company-card {

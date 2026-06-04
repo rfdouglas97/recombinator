@@ -83,7 +83,7 @@ export interface DataBundle {
 
 export type ViewTab = 'ontology' | 'matrix' | 'library';
 export type OntologyMode = 'industry_vertical' | 'phenotype';
-export type MatrixMode = 'bm_vertical' | 'phenotype_industry';
+export type MatrixMode = 'bm_sector' | 'bm_industry' | 'bm_vertical';
 export type MatrixDisplay = 'density' | 'gaps' | 'both';
 export type VizLayout = 'sunburst' | 'icicle';
 
@@ -271,6 +271,5 @@ export interface FilterState extends Filters {
   matrixMode: MatrixMode;
   matrixDisplay: MatrixDisplay;
   vizLayout: VizLayout;
-  sectorCollapsed: boolean;
   ontologyFocusId: string | null;
 }

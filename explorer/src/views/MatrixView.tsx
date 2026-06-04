@@ -1,6 +1,17 @@
 import { useMemo } from 'react';
 import type { CellSelection, DataBundle, FilterState, GapSelection } from '../types';
-import { cellBorderColor, densityColor, useMatrixData } from '../hooks/useMatrixData';
+import {
+  cellBorderColor,
+  densityColor,
+  resolveGapVertical,
+  useMatrixData,
+} from '../hooks/useMatrixData';
+
+interface ColGroup {
+  id: string;
+  label: string;
+  cols: ReturnType<typeof useMatrixData>['cols'];
+}
 
 interface Props {
   bundle: DataBundle;
@@ -9,12 +20,14 @@ interface Props {
   onCellClick: (sel: CellSelection | GapSelection) => void;
 }
 
-export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
-  const { rows, cols, cellMap, max, grouped } = useMatrixData(bundle, state);
+const BM_GAP_MODES = new Set<FilterState['matrixMode']>(['bm_sector', 'bm_industry', 'bm_vertical']);
 
-  const colGroups = useMemo(() => {
-    if (grouped || state.matrixMode === 'phenotype_industry') {
-      return [{ label: '', cols }];
+export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
+  const { rows, cols, cellMap, max } = useMatrixData(bundle, state);
+
+  const colGroups = useMemo((): ColGroup[] => {
+    if (state.matrixMode === 'bm_sector') {
+      return [{ id: '_all', label: '', cols }];
     }
     const groups = new Map<string, typeof cols>();
     for (const c of cols) {
@@ -22,8 +35,14 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
       if (!groups.has(g)) groups.set(g, []);
       groups.get(g)!.push(c);
     }
-    return [...groups.entries()].map(([label, groupCols]) => ({ label, cols: groupCols }));
-  }, [cols, grouped, state.matrixMode]);
+    return [...groups.entries()].map(([label, groupCols]) => ({
+      id: groupCols[0]?.sectorId ?? label,
+      label,
+      cols: groupCols,
+    }));
+  }, [cols, state.matrixMode]);
+
+  const showSectorHeader = colGroups.length > 1 && colGroups[0].label !== '';
 
   function renderCell(rowId: string, colId: string) {
     const cell = cellMap.get(`${rowId}|${colId}`);
@@ -64,14 +83,23 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
           onClick={() => {
             if (cell.isGap && cell.count === 0) {
               const bm = bundle.facets.businessModels.find((b) => b.id === rowId);
+              const resolved = BM_GAP_MODES.has(state.matrixMode)
+                ? resolveGapVertical(bundle, rowId, colId, state.matrixMode)
+                : null;
               const vert = bundle.facets.verticals.find((v) => v.id === colId);
+              const sector = bundle.facets.sectors.find((s) => s.id === colId);
               onCellClick({
                 kind: 'gap',
                 businessModel: rowId,
                 businessModelLabel: bm?.label ?? rowId,
-                verticalId: colId,
-                verticalLabel: vert?.label ?? grouped ? bundle.facets.sectors.find((s) => s.id === colId)?.label ?? colId : colId,
-                sectorId: vert?.sector_id ?? colId,
+                verticalId: resolved?.verticalId ?? colId,
+                verticalLabel:
+                  resolved?.verticalLabel ??
+                  vert?.label ??
+                  bundle.facets.industries.find((i) => i.id === colId)?.label ??
+                  sector?.label ??
+                  colId,
+                sectorId: resolved?.sectorId ?? vert?.sector_id ?? sector?.id,
               });
             } else {
               onCellClick({
@@ -89,8 +117,17 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
     );
   }
 
+  const sectorFilterDimsMatrix =
+    BM_GAP_MODES.has(state.matrixMode) && Boolean(state.sector || state.industry);
+
   return (
     <>
+      {sectorFilterDimsMatrix && (
+        <p className="matrix-filter-hint">
+          Sidebar sector/industry filter applies to the company list only — matrix density shows all
+          sectors. Clear the Sector filter to narrow the list.
+        </p>
+      )}
       <div className="toolbar">
         <label>
           <span className="toolbar-key">Matrix</span>
@@ -100,20 +137,11 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
               onChange({ matrixMode: e.target.value as FilterState['matrixMode'] })
             }
           >
+            <option value="bm_sector">BM × Sector</option>
+            <option value="bm_industry">BM × Sub-industry</option>
             <option value="bm_vertical">BM × Vertical</option>
-            <option value="phenotype_industry">Phenotype × Industry</option>
           </select>
         </label>
-        {state.matrixMode === 'bm_vertical' && (
-          <label>
-            <input
-              type="checkbox"
-              checked={state.sectorCollapsed}
-              onChange={(e) => onChange({ sectorCollapsed: e.target.checked })}
-            />
-            Collapse columns by sector
-          </label>
-        )}
         <label>
           <span className="toolbar-key">Display</span>
           <select
@@ -129,26 +157,37 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
         </label>
       </div>
       <div className="matrix-wrap">
-        <table className="matrix-table">
+        <table
+          className={`matrix-table${showSectorHeader ? ' matrix-table--grouped' : ''}${state.matrixMode === 'bm_sector' ? ' matrix-table--sector-cols' : ''}`}
+        >
           <thead>
-            {colGroups.length > 1 && colGroups[0].label !== '' && (
+            {showSectorHeader && (
               <tr className="sector-header">
-                <th className="row-header" />
+                <th className="row-header sector-corner" />
                 {colGroups.map((g) => (
-                  <th key={g.label} colSpan={g.cols.length}>
-                    {g.label}
+                  <th
+                    key={g.id}
+                    colSpan={g.cols.length}
+                    className="sector-header-cell"
+                    title={g.label}
+                  >
+                    <span className="sector-header-title">{g.label}</span>
                   </th>
                 ))}
               </tr>
             )}
-            <tr>
-              <th className="row-header">
-                {state.matrixMode === 'bm_vertical' ? 'Business model' : 'Phenotype'}
-              </th>
+            <tr className="industry-header">
+              <th className="row-header corner-header">Business model</th>
               {colGroups.flatMap((g) =>
                 g.cols.map((c) => (
-                  <th key={c.id} title={c.id}>
-                    {c.label.length > 18 ? c.label.slice(0, 16) + '…' : c.label}
+                  <th
+                    key={c.id}
+                    className={
+                      state.matrixMode === 'bm_sector' ? 'col-header col-header-sector' : 'col-header'
+                    }
+                    title={c.id}
+                  >
+                    <span className="col-header-label">{c.label}</span>
                   </th>
                 )),
               )}
@@ -158,11 +197,9 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
             {rows.map((row) => (
               <tr key={row.id}>
                 <td className="row-header" title={row.id}>
-                  {row.label.length > 28 ? row.label.slice(0, 26) + '…' : row.label}
+                  {row.label}
                 </td>
-                {colGroups.flatMap((g) =>
-                  g.cols.map((c) => renderCell(row.id, c.id)),
-                )}
+                {colGroups.flatMap((g) => g.cols.map((c) => renderCell(row.id, c.id)))}
               </tr>
             ))}
           </tbody>

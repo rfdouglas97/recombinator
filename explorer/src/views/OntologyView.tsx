@@ -2,14 +2,13 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import { hierarchy } from 'd3-hierarchy';
 import type { DataBundle, FilterState, TreeNode } from '../types';
-import { filteredSlugSet } from '../utils/filterCompanies';
+import { slugSetIgnoringSectorIndustry } from '../utils/filterCompanies';
 
 interface Props {
   bundle: DataBundle;
   state: FilterState;
   onChange: (p: Partial<FilterState>) => void;
   onNodeSelect: (node: TreeNode, slugs: string[]) => void;
-  onSectorBrush: (sectorId: string) => void;
 }
 
 const NODE_HEIGHT = 36;
@@ -113,7 +112,7 @@ function nodeAccent(data: TreeNode): string {
   return 'var(--border-strong)';
 }
 
-export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBrush }: Props) {
+export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const [expanded, setExpanded] = useState<Set<string>>(() => new Set(['root']));
@@ -124,16 +123,20 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBr
   const lastTransformRef = useRef<d3.ZoomTransform | null>(null);
   const lastResetNonceRef = useRef(0);
 
-  const slugFilter = useMemo(() => filteredSlugSet(bundle, state), [bundle, state]);
+  /** Full tree shape — sector/industry sidebar filters must not remove sibling branches. */
+  const treeSlugFilter = useMemo(
+    () => slugSetIgnoringSectorIndustry(bundle, state),
+    [bundle, state],
+  );
 
   const rootTree = useMemo(() => {
     const raw =
       state.ontologyMode === 'industry_vertical'
         ? bundle.trees.industry_vertical
         : bundle.trees.phenotype;
-    const pruned = pruneTree(raw, slugFilter);
+    const pruned = pruneTree(raw, treeSlugFilter);
     return pruned ?? { ...raw, children: [] };
-  }, [bundle, state.ontologyMode, slugFilter]);
+  }, [bundle, state.ontologyMode, treeSlugFilter]);
 
   const toggleExpand = useCallback((id: string) => {
     setExpanded((prev) => {
@@ -212,7 +215,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBr
   }, []);
 
   const layout = useMemo(() => {
-    const visibleRoot = buildVisibleTree(rootTree, expanded, slugFilter);
+    const visibleRoot = buildVisibleTree(rootTree, expanded, treeSlugFilter);
     const hRoot = hierarchy(visibleRoot, (d) => d.children);
     const treeLayout = d3.tree<TreeNode>().nodeSize([NODE_HEIGHT, DEPTH_WIDTH]);
     treeLayout(hRoot);
@@ -245,7 +248,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBr
       graphH,
       visibleRoot,
     };
-  }, [rootTree, expanded, slugFilter]);
+  }, [rootTree, expanded, treeSlugFilter]);
 
   useEffect(() => {
     const svg = d3.select(svgRef.current);
@@ -390,7 +393,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBr
         (d.data.type === 'vertical' || d.data.type === 'phenotype') &&
         kidCount > MAX_COMPANY_CHILDREN
       ) {
-        const slugs = collectSlugs(fullNode, slugFilter);
+        const slugs = collectSlugs(fullNode, treeSlugFilter);
         onNodeSelect(fullNode, slugs);
         return;
       }
@@ -398,11 +401,9 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBr
       if (kidCount > 0) {
         toggleExpand(d.data.id);
       } else {
-        const slugs = collectSlugs(fullNode, slugFilter);
+        const slugs = collectSlugs(fullNode, treeSlugFilter);
         if (slugs.length) onNodeSelect(fullNode, slugs);
       }
-
-      if (fullNode.type === 'sector') onSectorBrush(fullNode.id);
     });
 
     svg.on('click', () => {
@@ -415,10 +416,9 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBr
     size,
     bundle,
     state.ontologyMode,
-    slugFilter,
+    treeSlugFilter,
     toggleExpand,
     onNodeSelect,
-    onSectorBrush,
     resetNonce,
   ]);
 
@@ -456,7 +456,8 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBr
           Expand all
         </button>
         <span className="ontology-hint">
-          Drag to pan · Scroll to zoom · {Math.round(zoomHint * 100)}% · Click +/− or use level controls
+          Drag to pan · Scroll to zoom · {Math.round(zoomHint * 100)}% · Click +/− to expand — all sectors stay visible
+          {state.sector ? ' (sidebar sector filter does not hide branches)' : ''}
         </span>
       </div>
       <div ref={containerRef} className="ontology-canvas view-area">

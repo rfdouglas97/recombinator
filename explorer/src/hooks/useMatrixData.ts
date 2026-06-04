@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import type { DataBundle, FilterState } from '../types';
-import { filteredSlugSet } from '../utils/filterCompanies';
+import type { DataBundle, FilterState, MatrixMode } from '../types';
+import { filteredSlugSet, slugSetIgnoringSectorIndustry } from '../utils/filterCompanies';
 
 export interface MatrixRow {
   id: string;
@@ -40,126 +40,167 @@ export function cellBorderColor(): string {
   return `rgba(${DENSITY_RGB}, 0.55)`;
 }
 
+function sectorLabel(bundle: DataBundle, sectorId: string): string {
+  return bundle.facets.sectors.find((s) => s.id === sectorId)?.label ?? sectorId;
+}
+
+function aggregateBmCells(
+  bundle: DataBundle,
+  bmId: string,
+  verticals: DataBundle['facets']['verticals'],
+  colId: string,
+  slugFilter: Set<string>,
+  gapSet: Set<string>,
+): MatrixCell {
+  let count = 0;
+  const slugs: string[] = [];
+  let isGap = false;
+  let isObserved = false;
+
+  for (const v of verticals) {
+    const key = `${bmId}|${v.id}`;
+    const data = bundle.matrices.bm_vertical[key];
+    const inGap = gapSet.has(key);
+    if (data) {
+      isObserved = true;
+      const filtered = data.slugs.filter((s) => slugFilter.has(s));
+      count += filtered.length;
+      slugs.push(...filtered);
+    } else if (inGap) {
+      isGap = true;
+    }
+  }
+
+  return {
+    rowId: bmId,
+    colId,
+    count,
+    slugs,
+    isGap: count === 0 && isGap,
+    isObserved,
+  };
+}
+
+/** Pick a BM × vertical gap inside an aggregated industry (or sector) column. */
+export function resolveGapVertical(
+  bundle: DataBundle,
+  bmId: string,
+  colId: string,
+  mode: Extract<MatrixMode, 'bm_sector' | 'bm_industry' | 'bm_vertical'>,
+): { verticalId: string; verticalLabel: string; sectorId: string } | null {
+  const gapSet = new Set(bundle.matrices.bm_vertical_gaps);
+  if (mode === 'bm_vertical') {
+    const v = bundle.facets.verticals.find((x) => x.id === colId);
+    if (!v) return null;
+    return { verticalId: v.id, verticalLabel: v.label, sectorId: v.sector_id };
+  }
+  const verts =
+    mode === 'bm_sector'
+      ? bundle.facets.verticals.filter((v) => v.sector_id === colId)
+      : bundle.facets.verticals.filter((v) => v.industry_id === colId);
+  for (const v of verts) {
+    if (gapSet.has(`${bmId}|${v.id}`)) {
+      return { verticalId: v.id, verticalLabel: v.label, sectorId: v.sector_id };
+    }
+  }
+  const v = verts[0];
+  return v ? { verticalId: v.id, verticalLabel: v.label, sectorId: v.sector_id } : null;
+}
+
 export function useMatrixData(bundle: DataBundle, state: FilterState) {
   return useMemo(() => {
     const slugFilter = filteredSlugSet(bundle, state);
+    const bmDensityIgnoresSector =
+      (state.matrixMode === 'bm_sector' ||
+        state.matrixMode === 'bm_industry' ||
+        state.matrixMode === 'bm_vertical') &&
+      Boolean(state.sector || state.industry);
+    const densitySlugFilter = bmDensityIgnoresSector
+      ? slugSetIgnoringSectorIndustry(bundle, state)
+      : slugFilter;
     const gapSet = new Set(bundle.matrices.bm_vertical_gaps);
 
-    if (state.matrixMode === 'phenotype_industry') {
-      const industryCounts = new Map<string, number>();
-      const cells: MatrixCell[] = [];
-      const phenotypeRows = state.phenotypeFamily
-        ? bundle.facets.phenotypes.filter((p) => p.family === state.phenotypeFamily)
-        : bundle.facets.phenotypes;
-
-      for (const [key, data] of Object.entries(bundle.matrices.phenotype_industry)) {
-        const filtered = data.slugs.filter((s) => slugFilter.has(s));
-        if (filtered.length === 0 && data.count > 0) continue;
-        const [phenotypeId, industry] = key.split('|');
-        const colKey = industry;
-        industryCounts.set(colKey, (industryCounts.get(colKey) ?? 0) + filtered.length);
-        cells.push({
-          rowId: phenotypeId,
-          colId: colKey,
-          count: filtered.length,
-          slugs: filtered,
-          isGap: filtered.length === 0,
-          isObserved: data.count > 0,
-        });
-      }
-
-      const topIndustries = [...industryCounts.entries()]
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, 40)
-        .map(([id]) => id);
-
-      const rows: MatrixRow[] = phenotypeRows.map((p) => ({ id: p.id, label: p.label }));
-      const cols: MatrixCol[] = topIndustries.map((id) => ({ id, label: id }));
-      const cellMap = new Map(cells.map((c) => [`${c.rowId}|${c.colId}`, c]));
-      const max = Math.max(1, ...cells.map((c) => c.count));
-
-      return { rows, cols, cells, cellMap, max, grouped: false };
-    }
-
-    // BM × vertical
     const rows: MatrixRow[] = bundle.facets.businessModels.map((bm) => ({
       id: bm.id,
       label: bm.label,
     }));
 
-    let cols: MatrixCol[];
     const cells: MatrixCell[] = [];
     const cellMap = new Map<string, MatrixCell>();
 
-    if (state.sectorCollapsed) {
-      cols = bundle.facets.sectors.map((s) => ({ id: s.id, label: s.label, sectorId: s.id }));
-      for (const bm of rows) {
-        for (const sector of cols) {
-          let count = 0;
-          const slugs: string[] = [];
-          let isGap = false;
-          let isObserved = false;
-
-          for (const v of bundle.facets.verticals) {
-            if (v.sector_id !== sector.id) continue;
-            const key = `${bm.id}|${v.id}`;
-            const data = bundle.matrices.bm_vertical[key];
-            const inGap = gapSet.has(key);
-            if (data) {
-              isObserved = true;
-              const filtered = data.slugs.filter((s) => slugFilter.has(s));
-              count += filtered.length;
-              slugs.push(...filtered);
-            } else if (inGap) {
-              isGap = true;
-            }
-          }
-
-          const cell: MatrixCell = {
-            rowId: bm.id,
-            colId: sector.id,
-            count,
-            slugs,
-            isGap: count === 0 && isGap,
-            isObserved,
-          };
-          cells.push(cell);
-          cellMap.set(`${bm.id}|${sector.id}`, cell);
-        }
-      }
-    } else {
-      let verts = bundle.facets.verticals;
-      if (state.sector) verts = verts.filter((v) => v.sector_id === state.sector);
-      if (state.industry) verts = verts.filter((v) => v.industry_id === state.industry);
-
-      cols = verts.map((v) => ({
-        id: v.id,
-        label: v.label,
-        sectorId: v.sector_id,
-        groupLabel: v.sector_label,
+    if (state.matrixMode === 'bm_sector') {
+      const cols: MatrixCol[] = bundle.facets.sectors.map((s) => ({
+        id: s.id,
+        label: s.label,
+        sectorId: s.id,
       }));
 
       for (const bm of rows) {
-        for (const v of cols) {
-          const key = `${bm.id}|${v.id}`;
-          const data = bundle.matrices.bm_vertical[key];
-          const inGap = gapSet.has(key);
-          const filtered = data ? data.slugs.filter((s) => slugFilter.has(s)) : [];
-          const cell: MatrixCell = {
-            rowId: bm.id,
-            colId: v.id,
-            count: filtered.length,
-            slugs: filtered,
-            isGap: filtered.length === 0 && (inGap || !data),
-            isObserved: !!data,
-          };
+        for (const sec of cols) {
+          const verts = bundle.facets.verticals.filter((v) => v.sector_id === sec.id);
+          const cell = aggregateBmCells(bundle, bm.id, verts, sec.id, densitySlugFilter, gapSet);
           cells.push(cell);
-          cellMap.set(key, cell);
+          cellMap.set(`${bm.id}|${sec.id}`, cell);
         }
+      }
+
+      const max = Math.max(1, ...cells.map((c) => c.count));
+      return { rows, cols, cells, cellMap, max, grouped: false };
+    }
+
+    if (state.matrixMode === 'bm_industry') {
+      const cols: MatrixCol[] = bundle.facets.industries.map((ind) => ({
+        id: ind.id,
+        label: ind.label,
+        sectorId: ind.sector_id,
+        groupLabel: sectorLabel(bundle, ind.sector_id),
+      }));
+
+      for (const bm of rows) {
+        for (const ind of cols) {
+          const verts = bundle.facets.verticals.filter((v) => v.industry_id === ind.id);
+          const cell = aggregateBmCells(bundle, bm.id, verts, ind.id, densitySlugFilter, gapSet);
+          cells.push(cell);
+          cellMap.set(`${bm.id}|${ind.id}`, cell);
+        }
+      }
+
+      const max = Math.max(1, ...cells.map((c) => c.count));
+      return { rows, cols, cells, cellMap, max, grouped: true };
+    }
+
+    // BM × vertical
+    let verts = bundle.facets.verticals;
+    if (state.sector) verts = verts.filter((v) => v.sector_id === state.sector);
+    if (state.industry) verts = verts.filter((v) => v.industry_id === state.industry);
+
+    const cols: MatrixCol[] = verts.map((v) => ({
+      id: v.id,
+      label: v.label,
+      sectorId: v.sector_id,
+      groupLabel: v.sector_label,
+    }));
+
+    for (const bm of rows) {
+      for (const v of cols) {
+        const key = `${bm.id}|${v.id}`;
+        const data = bundle.matrices.bm_vertical[key];
+        const inGap = gapSet.has(key);
+        const filtered = data ? data.slugs.filter((s) => densitySlugFilter.has(s)) : [];
+        const cell: MatrixCell = {
+          rowId: bm.id,
+          colId: v.id,
+          count: filtered.length,
+          slugs: filtered,
+          isGap: filtered.length === 0 && (inGap || !data),
+          isObserved: !!data,
+        };
+        cells.push(cell);
+        cellMap.set(key, cell);
       }
     }
 
     const max = Math.max(1, ...cells.map((c) => c.count));
-    return { rows, cols, cells, cellMap, max, grouped: state.sectorCollapsed };
+    return { rows, cols, cells, cellMap, max, grouped: false };
   }, [bundle, state]);
 }

@@ -11,6 +11,7 @@ import { CompanyDrawer } from './views/CompanyDrawer';
 import { StartupGeneratorModal } from './components/StartupGeneratorModal';
 import { YcChatPanel } from './components/YcChatPanel';
 import { BrandMark } from './components/BrandMark';
+import { SidebarToggleIcon } from './components/SidebarToggleIcon';
 
 export default function App() {
   const [bundle, setBundle] = useState<DataBundle | null>(null);
@@ -106,9 +107,12 @@ export default function App() {
             type="button"
             className="header-btn sidebar-toggle"
             onClick={toggleSidebar}
-            title={sidebarHidden ? 'Show filter sidebar' : 'Hide filter sidebar'}
+            title={sidebarHidden ? 'Show filters' : 'Hide filters'}
+            aria-label={sidebarHidden ? 'Show filters' : 'Hide filters'}
+            aria-pressed={!sidebarHidden}
           >
-            {sidebarHidden ? 'Show filters' : 'Hide filters'}
+            <SidebarToggleIcon open={!sidebarHidden} size={18} />
+            <span className="sidebar-toggle-text">Filters</span>
           </button>
           <button type="button" className="header-btn" onClick={() => setChatOpen(true)}>
             Ask Recombinator
@@ -132,12 +136,13 @@ export default function App() {
         <FilterBar bundle={bundle} state={state} onChange={patch} filteredCount={filtered.length} />
         <button
           type="button"
-          className="sidebar-edge-toggle"
+          className={`sidebar-edge-toggle${sidebarHidden ? ' is-collapsed' : ''}`}
           onClick={toggleSidebar}
-          title={sidebarHidden ? 'Show filter sidebar' : 'Hide filter sidebar'}
+          title={sidebarHidden ? 'Show filters' : 'Hide filters'}
           aria-label={sidebarHidden ? 'Show filters' : 'Hide filters'}
+          aria-pressed={!sidebarHidden}
         >
-          {sidebarHidden ? '›' : '‹'}
+          <SidebarToggleIcon open={!sidebarHidden} size={16} />
         </button>
         <div className="main">
           {state.view === 'matrix' ? (
@@ -153,7 +158,6 @@ export default function App() {
               state={state}
               onChange={patch}
               onNodeSelect={handleNodeSelect}
-              onSectorBrush={(sectorId) => patch({ sector: sectorId, sectorCollapsed: false })}
             />
           ) : (
             <IdeaLibraryView bundle={bundle} />
