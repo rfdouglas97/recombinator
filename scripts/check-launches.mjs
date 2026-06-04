@@ -4,11 +4,13 @@
  *   1. Scrape https://www.ycombinator.com/launches
  *   2. For each NEW launch post (not seen before): run rubric / predictor
  *   3. If company slug already in corpus (~401 scrape + prior launch adds): enrich record
- *   4. If NOT in corpus: add to normalized-assignments (shows on website after db:migrate)
+ *   4. If NOT in corpus: LLM phenotype agent + vertical classifier → normalized-assignments
  *
  * Usage:
  *   npm run launches:check:ingest   # scrape + eval + ingest + refresh (daily job)
  *   node scripts/check-launches.mjs --promote miso-labs   # one-off fix for missed slug
+ *
+ * Requires ANTHROPIC_API_KEY or OPENAI_API_KEY (.env / GitHub Actions secret).
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync } from 'fs';
@@ -20,6 +22,9 @@ import { scrapeLaunches, loadLaunchesRaw } from './scrape-launches.mjs';
 import { evaluateLaunchConformance, RUBRIC, rubricMarkdown } from './launch-conformance-rubric.mjs';
 import { classifyLocal } from '../agent/local-classifier.mjs';
 import { loadOntology } from '../agent/ontology.mjs';
+import { classifyLaunchCompany } from '../agent/classify-company.mjs';
+import { loadDotEnv } from '../agent/env.mjs';
+import { resolveApiConfig } from '../agent/llm.mjs';
 import { classifyHeuristic } from '../taxonomy/classify-rules.mjs';
 import { verticalCandidatesForCompany } from '../agent/vertical-candidates.mjs';
 import { loadVerticalOntology, getVerticalById } from '../taxonomy/verticals.mjs';
@@ -59,10 +64,12 @@ function parseArgs(argv) {
     headed: false,
     batchFilter: null,
     promote: [],
+    forceReclassify: false,
   };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
-    if (a === '--promote') {
+    if (a === '--force-reclassify') args.forceReclassify = true;
+    else if (a === '--promote') {
       while (argv[i + 1] && !argv[i + 1].startsWith('--')) args.promote.push(argv[++i]);
       if (!args.promote.length && argv[i + 1]) args.promote.push(argv[++i]);
     } else if (a === '--all') args.all = true;
@@ -82,8 +89,9 @@ Check https://www.ycombinator.com/launches for new posts and evaluate against ta
 Options:
   --all           Re-evaluate all launches (ignore processed state)
   --ingest        Enrich existing classified companies with launch metadata
-  --ingest-new    On NEW launches only: add slug if not already in corpus (local classifier)
+  --ingest-new    On NEW launches only: add slug via phenotype + vertical LLM agents
   --promote <slug>  Promote launch-catalog slug into corpus (fixes missed ingest-new)
+  --force-reclassify  With --promote: re-run LLM agents even if slug is already in corpus
   --refresh       After ingest: run verticals:normalize + data:bundle
   --from-cache    Use output/launches/launches-raw.json instead of scraping
   --limit <n>     Process at most N launches
@@ -172,7 +180,7 @@ function stripMarkdown(text) {
     .trim();
 }
 
-function buildClassification(launch, company, phenotypeOntology, verticalOntology) {
+function buildClassificationLocal(launch, company, phenotypeOntology, verticalOntology) {
   const local = classifyLocal(company, phenotypeOntology);
   const heuristic = classifyHeuristic({
     name: company.name,
@@ -193,9 +201,10 @@ function buildClassification(launch, company, phenotypeOntology, verticalOntolog
     vertical_id: null,
   };
 
+  const launchHints = stripMarkdown(launch.body)?.slice(0, 800);
   const candidates = verticalCandidatesForCompany(assignmentStub, verticalOntology, {
     maxCandidates: 5,
-    hints: stripMarkdown(launch.body)?.slice(0, 500),
+    hints: launchHints,
   });
   const topVertical = candidates[0] ?? null;
 
@@ -232,6 +241,52 @@ function buildClassification(launch, company, phenotypeOntology, verticalOntolog
     vertical_candidates: candidates.slice(0, 5).map((v) => ({ id: v.id, label: v.label })),
     heuristic_taxonomy: heuristic.taxonomy,
   };
+}
+
+async function buildClassification(launch, company, phenotypeOntology, verticalOntology, { useAgent = true } = {}) {
+  const launchHints = [launch.tagline, stripMarkdown(launch.body)?.slice(0, 1200)].filter(Boolean).join('\n');
+
+  if (useAgent && resolveApiConfig()) {
+    try {
+      const record = await classifyLaunchCompany(company, {
+        phenotypeOntology,
+        verticalOntology,
+        hints: launchHints,
+      });
+      return {
+        slug: record.slug,
+        name: record.name,
+        one_liner: record.one_liner,
+        description_combined: record.description_combined,
+        industry_sub_vertical: record.industry_sub_vertical,
+        phenotype_primary_id: record.phenotype_primary_id,
+        phenotype_primary_label: record.phenotype_primary_label,
+        phenotype_family: record.phenotype_family,
+        vertical_id: record.vertical_id,
+        vertical_label: record.vertical_label,
+        vertical_sector_id: record.vertical_sector_id,
+        canonical_vertical_id: record.canonical_vertical_id ?? record.vertical_id,
+        business_models: record.business_models,
+        value_wedge: record.value_wedge,
+        ai_application: record.ai_application,
+        ai_application_patterns: record.ai_application_patterns,
+        what_they_sell: record.what_they_sell,
+        ai_play: record.ai_play,
+        who_pays: record.who_pays,
+        confidence: record.confidence,
+        rationale: record.rationale,
+        method: record.method,
+      };
+    } catch (err) {
+      console.warn(`  ⚠ LLM classify failed for ${company.slug}: ${err.message}`);
+      if (process.env.LAUNCH_CLASSIFY_LOCAL_FALLBACK !== '1') throw err;
+      console.warn('  → LAUNCH_CLASSIFY_LOCAL_FALLBACK=1: using local classifier');
+    }
+  } else if (useAgent) {
+    console.warn('  ⚠ No ANTHROPIC_API_KEY / OPENAI_API_KEY — local classifier only (set keys for launch ingest)');
+  }
+
+  return buildClassificationLocal(launch, company, phenotypeOntology, verticalOntology);
 }
 
 function mergeLaunchIntoAssignment(existing, launch, classification) {
@@ -354,7 +409,7 @@ function ingestReviews(reviews, catalog, normalized, assignments, toIngest, opts
 }
 
 /** Corpus-missing companies with a recent launch — retry ingest even if launch_id was already processed. */
-function appendRecentCorpusMissing(
+async function appendRecentCorpusMissing(
   toIngest,
   catalog,
   normBySlug,
@@ -375,7 +430,7 @@ function appendRecentCorpusMissing(
     seen.add(launch.launch_id);
 
     const company = launchToCompanyRecord(launch);
-    const classification = buildClassification(launch, company, phenotypeOntology, verticalOntology);
+    const classification = await buildClassification(launch, company, phenotypeOntology, verticalOntology);
     const prior = reviewByLaunchId.get(launch.launch_id);
     toIngest.push({ launch, classification, review: prior?.review ?? null });
     added++;
@@ -392,7 +447,7 @@ function latestLaunchForSlug(catalog, slug) {
 }
 
 /** Promote slugs from launch catalog into corpus (not in scrape file). */
-async function promoteLaunchSlugs(slugs, { refresh = false } = {}) {
+async function promoteLaunchSlugs(slugs, { refresh = false, useAgent = true, forceReclassify = false } = {}) {
   const catalog = loadCatalog();
   const normalized = loadNormalizedAssignments();
   const assignments = loadJson(PATHS.assignments, []);
@@ -404,8 +459,8 @@ async function promoteLaunchSlugs(slugs, { refresh = false } = {}) {
   const verticalOntology = loadVerticalOntology();
 
   for (const slug of slugs) {
-    if (isInCorpus(slug) && normBySlug.has(slug)) {
-      console.log(`  ${slug}: already in corpus`);
+    if (isInCorpus(slug) && normBySlug.has(slug) && !forceReclassify) {
+      console.log(`  ${slug}: already in corpus (use --force-reclassify to re-run LLM)`);
       recordLaunchIngestedSlug(slug);
       continue;
     }
@@ -415,7 +470,9 @@ async function promoteLaunchSlugs(slugs, { refresh = false } = {}) {
       continue;
     }
     const company = launchToCompanyRecord(launch);
-    const classification = buildClassification(launch, company, phenotypeOntology, verticalOntology);
+    const classification = await buildClassification(launch, company, phenotypeOntology, verticalOntology, {
+      useAgent,
+    });
     if (!classification.phenotype_primary_id) {
       console.warn(`  ${slug}: no phenotype from classifier`);
       continue;
@@ -459,11 +516,15 @@ function printSummary(report) {
 }
 
 async function main() {
+  loadDotEnv();
   const args = parseArgs(process.argv);
   mkdirSync(join(ROOT, 'output/launches'), { recursive: true });
 
   if (args.promote.length) {
-    await promoteLaunchSlugs(args.promote, { refresh: args.refresh });
+    await promoteLaunchSlugs(args.promote, {
+      refresh: args.refresh,
+      forceReclassify: args.forceReclassify,
+    });
     return;
   }
 
@@ -523,7 +584,7 @@ async function main() {
           method: 'existing_assignment',
           confidence: existingAssignment.confidence ?? 0.85,
         }
-      : buildClassification(launch, company, phenotypeOntology, verticalOntology);
+      : await buildClassification(launch, company, phenotypeOntology, verticalOntology);
 
     const review = evaluateLaunchConformance(launch, classification, {
       verticalOntology,
@@ -568,7 +629,7 @@ async function main() {
 
   const catalog = loadCatalog();
   if (args.ingest && args.ingestNew) {
-    appendRecentCorpusMissing(
+    await appendRecentCorpusMissing(
       toIngest,
       catalog,
       normBySlug,

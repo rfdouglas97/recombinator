@@ -114,9 +114,10 @@ Open the Vercel URL → DevTools → Network → confirm requests go to Railway 
 
 Workflow: `.github/workflows/daily-launch-check.yml` (14:00 UTC daily + manual `workflow_dispatch`).
 
-1. GitHub repo → **Settings → Secrets and variables → Actions → New repository secret**
-2. Name: `DATABASE_URL` — same Supabase **session pooler** URI as Railway (`?sslmode=require`)
-3. Push `main` (scheduled workflows only run on the default branch)
+1. GitHub repo → **Settings → Secrets and variables → Actions → New repository secrets**
+2. `DATABASE_URL` — same Supabase **session pooler** URI as Railway (`?sslmode=require`)
+3. `ANTHROPIC_API_KEY` — required for LLM phenotype + vertical classification when new launches join the corpus
+4. Push `main` (scheduled workflows only run on the default branch)
 4. Optional smoke test: **Actions → Daily launch check → Run workflow**
 
 The job runs `npm run launches:check:ingest` then `npm run db:migrate`.

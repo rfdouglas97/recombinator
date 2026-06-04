@@ -88,12 +88,18 @@ function saveState(state) {
   writeFileSync(PATHS.state, JSON.stringify(state, null, 2));
 }
 
-function resolveClassifyApiConfig(base) {
+export function resolveVerticalClassifyApiConfig(base) {
+  if (!base) return null;
   return {
     ...base,
     model: process.env.VERTICAL_CLASSIFY_MODEL ?? process.env.CLASSIFICATION_RECLASSIFY_MODEL ?? 'claude-haiku-4-5-20251001',
     maxTokens: parseInt(process.env.VERTICAL_CLASSIFY_MAX_TOKENS ?? '2048', 10),
   };
+}
+
+/** @deprecated use resolveVerticalClassifyApiConfig */
+function resolveClassifyApiConfig(base) {
+  return resolveVerticalClassifyApiConfig(base);
 }
 
 function mergeVerticalIntoAssignment(company, raw, verticalOntology) {
@@ -118,8 +124,8 @@ function mergeVerticalIntoAssignment(company, raw, verticalOntology) {
   };
 }
 
-async function classifyOne(company, verticalOntology, apiConfig, maxCandidates) {
-  const candidates = verticalCandidatesForCompany(company, verticalOntology, { maxCandidates });
+export async function classifyOne(company, verticalOntology, apiConfig, maxCandidates, hints = '') {
+  const candidates = verticalCandidatesForCompany(company, verticalOntology, { maxCandidates, hints });
   if (candidates.length < 3) throw new Error(`Too few vertical candidates (${candidates.length})`);
 
   const raw = await chatJson({

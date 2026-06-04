@@ -25,6 +25,8 @@
 
 **Files:** `taxonomy/phenotype-to-bm.mjs`, `agent/reclassify-classifications.mjs`, `normalize-verticals.mjs`, `db/schema.sql` (`company_business_models` or `primary_bm` on classifications), `db/queries.mjs` / `fetchBmVerticalMatrix`.
 
+**Launch ingest (fixed):** New corpus adds use `agent/classify-company.mjs` — same stack as main batch (`phenotype` LLM + `classify-verticals` LLM), not `launch_check_local`. Requires `ANTHROPIC_API_KEY` in `.env` and GitHub Actions.
+
 ---
 
 ## Production URLs

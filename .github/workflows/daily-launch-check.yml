@@ -4,8 +4,9 @@
 # Schedule: every day at 14:00 UTC (~6:00 AM Pacific during PDT).
 # Manual run: Actions → "Daily launch check" → Run workflow
 #
-# Setup (once): GitHub repo → Settings → Secrets → Actions → DATABASE_URL
-#   Use the Supabase session pooler URI (?sslmode=require). See db/DEPLOY.md.
+# Setup (once): GitHub repo → Settings → Secrets → Actions
+#   DATABASE_URL — Supabase session pooler URI (?sslmode=require). See db/DEPLOY.md.
+#   ANTHROPIC_API_KEY — required for LLM phenotype + vertical classification on new launches.
 
 name: Daily launch check
 
@@ -37,18 +38,24 @@ jobs:
           PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.playwright-browsers
         run: npx playwright install chromium --with-deps
 
-      - name: Verify DATABASE_URL secret
+      - name: Verify secrets
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           if [ -z "$DATABASE_URL" ]; then
             echo "::error::Add repository secret DATABASE_URL (Supabase session pooler URI). See db/DEPLOY.md"
+            exit 1
+          fi
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::Add repository secret ANTHROPIC_API_KEY for launch ingest (phenotype + vertical LLM)."
             exit 1
           fi
 
       - name: Run launch check (scrape, ingest, refresh)
         env:
           PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.playwright-browsers
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run launches:check:ingest
 
       - name: Sync to Supabase

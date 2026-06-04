@@ -89,6 +89,18 @@ export function verticalCandidatesForCompany(company, verticalOntology, opts = {
     }
   }
 
+  if (/voice|speech|tts|text-to-speech|voiceover|voice model|audio model/i.test(hint)) {
+    for (const v of verts) {
+      if (
+        v.id.startsWith('ai-infrastructure.voice') ||
+        v.id.startsWith('ai-infrastructure.agent-telecom') ||
+        v.id === 'ai-infrastructure.voice'
+      ) {
+        ids.add(v.id);
+      }
+    }
+  }
+
   if (/logistics|supply chain|freight|wms|tms/i.test(hint)) {
     for (const v of verts) {
       if (v.id.startsWith('logistics.')) ids.add(v.id);

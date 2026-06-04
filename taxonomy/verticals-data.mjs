@@ -457,6 +457,7 @@ export const SLUG_VERTICAL_OVERRIDES = {
   mendral: 'enterprise.it.cloud-infra',
   'ressl-ai': 'realestate.construction.field',
   autositu: 'construction.permit-compliance',
+  'miso-labs': 'ai-infrastructure.voice',
 };
 
 /** Explicit verticals that should be re-inferred when text indicates a different domain. */
