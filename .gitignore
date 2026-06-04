@@ -17,6 +17,9 @@ output/*
 !output/phenotypes/
 !output/whitespace/
 !output/startup-library/
+!output/corpus/
+output/corpus/*
+!output/corpus/launch-ingested-slugs.json
 
 output/launches/*
 !output/launches/*.json

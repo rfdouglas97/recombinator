@@ -62,7 +62,7 @@ During Phase 1 we **dual-write nothing yet** — JSON pipeline still runs; migra
 
 - **`companies.is_stub`** — `false` when a `company_classifications` row exists; `true` for launch-only placeholders (no classification yet).
 - **Corpus** = scraped cohort (`output/yc_companies.json`, ~401). Matrix/gaps/explorer use `normalized-assignments.json` for those slugs only.
-- Daily launch job: evaluate all new launches; `--ingest-new` adds a company **only if** the slug is not already in the corpus (stealth/new launches). Older Launch YC companies stay launch-only (`is_stub = true`) until scraped or newly launched.
+- Daily launch job: evaluate all new launches; `--ingest-new` adds a company **only if** the slug is not already in the corpus (stealth/new launches), and records the slug in `output/corpus/launch-ingested-slugs.json`. Older Launch YC companies stay launch-only (`is_stub = true`) until a new launch triggers ingest or you run `npm run corpus:promote -- <slug>`.
 - Explorer/API queries filter `is_stub = false`.
 - **`idea_cards`** — `vertical_id`, `phenotype_primary_id`, and `business_model` enforce FKs to ontology tables.
 - Applied via `npm run db:migrate` (runs [`migrations/002_schema_f1.sql`](migrations/002_schema_f1.sql) after data load).

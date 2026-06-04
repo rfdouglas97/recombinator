@@ -48,6 +48,7 @@
     "launches:check": "node scripts/check-launches.mjs",
     "launches:check:ingest": "node scripts/check-launches.mjs --ingest --ingest-new --refresh",
     "corpus:restore": "node scripts/restore-scrape-corpus.mjs",
+    "corpus:promote": "node scripts/check-launches.mjs --promote",
     "launches:check:cache": "node scripts/check-launches.mjs --from-cache",
     "launches:daily": "bash scripts/run-daily-launch-check.sh",
     "db:up": "docker compose up -d",

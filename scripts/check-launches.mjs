@@ -1,15 +1,14 @@
 #!/usr/bin/env node
 /**
- * Check YC Launches for new posts, evaluate taxonomy conformance + predictor fit,
- * optionally ingest into the company database and refresh artifacts.
+ * Daily Launch YC workflow:
+ *   1. Scrape https://www.ycombinator.com/launches
+ *   2. For each NEW launch post (not seen before): run rubric / predictor
+ *   3. If company slug already in corpus (~401 scrape + prior launch adds): enrich record
+ *   4. If NOT in corpus: add to normalized-assignments (shows on website after db:migrate)
  *
  * Usage:
- *   node scripts/check-launches.mjs                    # check new launches since last run
- *   node scripts/check-launches.mjs --all              # re-evaluate all scraped launches
- *   node scripts/check-launches.mjs --ingest           # add new companies + enrich records
- *   node scripts/check-launches.mjs --ingest --refresh # also normalize + rebuild explorer bundle
- *   node scripts/check-launches.mjs --limit 5          # test on first 5
- *   node scripts/check-launches.mjs --from-cache       # skip scrape, use launches-raw.json
+ *   npm run launches:check:ingest   # scrape + eval + ingest + refresh (daily job)
+ *   node scripts/check-launches.mjs --promote miso-labs   # one-off fix for missed slug
  */
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync } from 'fs';
@@ -26,6 +25,7 @@ import { verticalCandidatesForCompany } from '../agent/vertical-candidates.mjs';
 import { loadVerticalOntology, getVerticalById } from '../taxonomy/verticals.mjs';
 import { PHENOTYPE_TO_BM } from '../taxonomy/phenotype-to-bm.mjs';
 import { loadNormalizedAssignments, EVAL_PATHS } from './eval-utils.mjs';
+import { recordLaunchIngestedSlug, isInCorpus } from './corpus-allowlist.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -58,10 +58,14 @@ function parseArgs(argv) {
     since: null,
     headed: false,
     batchFilter: null,
+    promote: [],
   };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
-    if (a === '--all') args.all = true;
+    if (a === '--promote') {
+      while (argv[i + 1] && !argv[i + 1].startsWith('--')) args.promote.push(argv[++i]);
+      if (!args.promote.length && argv[i + 1]) args.promote.push(argv[++i]);
+    } else if (a === '--all') args.all = true;
     else if (a === '--ingest') args.ingest = true;
     else if (a === '--ingest-new') args.ingestNew = true;
     else if (a === '--refresh') args.refresh = true;
@@ -79,6 +83,7 @@ Options:
   --all           Re-evaluate all launches (ignore processed state)
   --ingest        Enrich existing classified companies with launch metadata
   --ingest-new    On NEW launches only: add slug if not already in corpus (local classifier)
+  --promote <slug>  Promote launch-catalog slug into corpus (fixes missed ingest-new)
   --refresh       After ingest: run verticals:normalize + data:bundle
   --from-cache    Use output/launches/launches-raw.json instead of scraping
   --limit <n>     Process at most N launches
@@ -298,11 +303,16 @@ function ingestReviews(reviews, catalog, normalized, assignments, toIngest, opts
   let enrichedCompanies = 0;
 
   for (const { launch, classification, review } of toIngest) {
-    catalogById.set(launch.launch_id, { ...launch, review_summary: {
-      conformance_index: review.taxonomy.conformance_index,
-      predictability_band: review.predictor.predictability_band,
-      verdict: review.taxonomy.verdict,
-    }});
+    if (review?.taxonomy) {
+      catalogById.set(launch.launch_id, {
+        ...launch,
+        review_summary: {
+          conformance_index: review.taxonomy.conformance_index,
+          predictability_band: review.predictor.predictability_band,
+          verdict: review.taxonomy.verdict,
+        },
+      });
+    }
 
     const slug = launch.company_slug;
     if (!slug) continue;
@@ -318,11 +328,12 @@ function ingestReviews(reviews, catalog, normalized, assignments, toIngest, opts
       const record = assignmentFromClassification(launch, classification);
       normBySlug.set(slug, record);
       assignBySlug.set(slug, { ...record, proposed_phenotype: null });
+      recordLaunchIngestedSlug(slug);
       addedCompanies++;
       console.log(`  + new company: ${slug} → ${classification.phenotype_primary_id}${classification.vertical_id ? ` × ${classification.vertical_id}` : ' (vertical TBD)'}`);
     }
 
-    appendFileSync(PATHS.reviewsJsonl, `${JSON.stringify(review)}\n`);
+    if (review) appendFileSync(PATHS.reviewsJsonl, `${JSON.stringify(review)}\n`);
   }
 
   saveJson(PATHS.catalog, {
@@ -340,6 +351,92 @@ function ingestReviews(reviews, catalog, normalized, assignments, toIngest, opts
   saveJson(PATHS.assignments, assignOut);
 
   return { addedCompanies, enrichedCompanies };
+}
+
+/** Corpus-missing companies with a recent launch — retry ingest even if launch_id was already processed. */
+function appendRecentCorpusMissing(
+  toIngest,
+  catalog,
+  normBySlug,
+  phenotypeOntology,
+  verticalOntology,
+  reviewByLaunchId,
+  { lookbackDays = 14 } = {},
+) {
+  const seen = new Set(toIngest.map((x) => x.launch.launch_id));
+  const cutoff = Date.now() - lookbackDays * 24 * 60 * 60 * 1000;
+  let added = 0;
+
+  for (const launch of catalog.launches ?? []) {
+    const slug = launch.company_slug;
+    if (!slug || normBySlug.has(slug) || isInCorpus(slug)) continue;
+    if (!launch.created_at || new Date(launch.created_at) < cutoff) continue;
+    if (seen.has(launch.launch_id)) continue;
+    seen.add(launch.launch_id);
+
+    const company = launchToCompanyRecord(launch);
+    const classification = buildClassification(launch, company, phenotypeOntology, verticalOntology);
+    const prior = reviewByLaunchId.get(launch.launch_id);
+    toIngest.push({ launch, classification, review: prior?.review ?? null });
+    added++;
+    console.log(`  ↻ corpus retry: ${slug} (launch ${launch.launch_id})`);
+  }
+  if (added) console.log(`  ${added} recent launch(s) queued for corpus ingest`);
+  return added;
+}
+
+function latestLaunchForSlug(catalog, slug) {
+  const launches = (catalog.launches ?? []).filter((l) => l.company_slug === slug);
+  if (!launches.length) return null;
+  return launches.sort((a, b) => new Date(b.created_at) - new Date(a.created_at))[0];
+}
+
+/** Promote slugs from launch catalog into corpus (not in scrape file). */
+async function promoteLaunchSlugs(slugs, { refresh = false } = {}) {
+  const catalog = loadCatalog();
+  const normalized = loadNormalizedAssignments();
+  const assignments = loadJson(PATHS.assignments, []);
+  const normBySlug = new Map(normalized.map((r) => [r.slug, r]));
+  const assignBySlug = new Map(
+    (Array.isArray(assignments) ? assignments : Object.values(assignments)).map((r) => [r.slug, r]),
+  );
+  const phenotypeOntology = loadOntology(PATHS.ontology, PATHS.seeds);
+  const verticalOntology = loadVerticalOntology();
+
+  for (const slug of slugs) {
+    if (isInCorpus(slug) && normBySlug.has(slug)) {
+      console.log(`  ${slug}: already in corpus`);
+      recordLaunchIngestedSlug(slug);
+      continue;
+    }
+    const launch = latestLaunchForSlug(catalog, slug);
+    if (!launch) {
+      console.warn(`  ${slug}: no launch in catalog`);
+      continue;
+    }
+    const company = launchToCompanyRecord(launch);
+    const classification = buildClassification(launch, company, phenotypeOntology, verticalOntology);
+    if (!classification.phenotype_primary_id) {
+      console.warn(`  ${slug}: no phenotype from classifier`);
+      continue;
+    }
+    const record = assignmentFromClassification(launch, classification);
+    normBySlug.set(slug, record);
+    assignBySlug.set(slug, { ...record, proposed_phenotype: null });
+    recordLaunchIngestedSlug(slug);
+    console.log(
+      `  + promoted ${slug} → ${classification.phenotype_primary_id}${classification.vertical_id ? ` × ${classification.vertical_id}` : ''}`,
+    );
+  }
+
+  saveJson(PATHS.normalized, [...normBySlug.values()].sort((a, b) => a.slug.localeCompare(b.slug)));
+  saveJson(PATHS.assignments, [...assignBySlug.values()].sort((a, b) => a.slug.localeCompare(b.slug)));
+  console.log(`Corpus: ${normBySlug.size} companies`);
+
+  if (refresh) {
+    execSync('node normalize-verticals.mjs --write', { cwd: ROOT, stdio: 'inherit' });
+    execSync('node scripts/build-explorer-data.mjs', { cwd: ROOT, stdio: 'inherit' });
+  }
 }
 
 function printSummary(report) {
@@ -364,6 +461,11 @@ function printSummary(report) {
 async function main() {
   const args = parseArgs(process.argv);
   mkdirSync(join(ROOT, 'output/launches'), { recursive: true });
+
+  if (args.promote.length) {
+    await promoteLaunchSlugs(args.promote, { refresh: args.refresh });
+    return;
+  }
 
   writeFileSync(PATHS.rubricDoc, rubricMarkdown());
 
@@ -464,9 +566,20 @@ async function main() {
     ),
   });
 
+  const catalog = loadCatalog();
+  if (args.ingest && args.ingestNew) {
+    appendRecentCorpusMissing(
+      toIngest,
+      catalog,
+      normBySlug,
+      phenotypeOntology,
+      verticalOntology,
+      reviewByLaunchId,
+    );
+  }
+
   let ingestStats = null;
   if (args.ingest && toIngest.length > 0) {
-    const catalog = loadCatalog();
     const assignments = loadJson(PATHS.assignments, []);
     ingestStats = ingestReviews(
       [...reviewByLaunchId.values()],

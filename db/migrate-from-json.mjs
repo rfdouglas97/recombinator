@@ -506,8 +506,7 @@ async function main() {
     : [];
   if (companyRows.length) {
     await loadCompanies(companyRows);
-    const corpusSlugs = companyRows.map((r) => r.slug).filter(Boolean);
-    await pruneCorpusOutsideSlugs(corpusSlugs);
+    await pruneCorpusOutsideSlugs(companyRows.map((r) => r.slug).filter(Boolean));
   }
 
   await loadLaunchReviews(loadJson(PATHS.launchReviews));
