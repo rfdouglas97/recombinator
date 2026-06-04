@@ -6,7 +6,7 @@
 
 **App (live):** Postgres (Supabase) → read API (Railway) → React explorer (Vercel) at runtime.
 
-**Status (Phase 1):** **Deployed.** Supabase + Railway + Vercel live. Explorer loads `/api/bundle` from production Postgres. Next: **pipeline → Postgres directly**, GitHub Actions → Supabase, schema polish.
+**Status (Phase 1):** **Deployed.** Supabase + Railway + Vercel live. Explorer loads `/api/bundle` from production Postgres. Next: **schema v2 (data-engineer quality)**, pipeline → Postgres directly, GitHub Actions → Supabase.
 
 ---
 
@@ -177,11 +177,37 @@ See **`db/DEPLOY.md`** for reference.
 3. ✅ **Vercel** — explorer with `VITE_API_URL` → Railway
 4. ⬜ **GitHub Actions** — launch check writes to Supabase instead of git commits
 
-### Step E — Pipeline writes to Postgres directly (next)
+### Step E — Pipeline writes to Postgres directly
 Replace manual `db:migrate` copy step; scripts upsert after classify / launch-check / normalize.
 
-### Step F — Polish
-- Schema cleanup (stub companies, missing FKs — see `.cursor/agents/schema-reviewer.md`)
+### Step F — Schema v2: data-engineer quality (priority)
+
+**Goal:** Replace the Phase 1 “mirror the JSON files” schema with a **clean, normalized, production-grade data model** — the kind a data engineer would sign off on. Supabase visualizer should show clear hierarchy, enforced FKs, and no orphan noise.
+
+**Why:** Current schema works for the app but is messy: ~490 stub companies, denormalized labels, missing FKs, launch fields duplicated across tables. Fine for shipping; not fine for long-term analytics, multi-user workflows, or trusting the ERD.
+
+**Target principles:**
+- **Normalize ontology** — `sectors` → `industries` → `verticals`; phenotypes and business models as reference tables only
+- **Single source of truth** — labels come from JOINs, not copied columns (except explicit snapshot/version tables if needed)
+- **FK integrity** — every `*_id` column enforced; no dangling TEXT references
+- **Separate concerns** — classified companies vs launch-only stubs (`is_stub` flag or `launch_stub_companies` table)
+- **No duplication** — launch metadata lives in `launches` only, not also on `companies`
+- **Lineage** — optional `pipeline_runs` / `classification_versions` for audit trail
+- **Queryable analytics** — bm × vertical matrix as a view or materialized table, not JSON re-derivation
+
+**Phased rollout:**
+
+| Phase | Change | Files |
+|-------|--------|-------|
+| F1 | `is_stub` on companies; add missing FKs on `idea_cards`, `gap_cells` | `schema.sql`, migrate, queries |
+| F2 | Drop denormalized label columns; JOIN in `queries.mjs` | schema, queries, build-bundle |
+| F3 | `sectors` + `industries` tables; migrate vertical hierarchy | schema, migrate, taxonomy import |
+| F4 | Remove `companies.launch_*`; unify on `launches` | schema, migrate, queries |
+| F5 | Pipeline writes directly; deprecate JSON-as-source-of-truth | scripts, migrate |
+
+Use **`.cursor/agents/schema-reviewer.md`** when designing changes. Re-migrate Supabase after each schema bump.
+
+### Step G — Polish
 - Loading/error UI when API down
 - Sentry, launch alerts
 - Remove `.worktrees/dev` if still present
@@ -249,9 +275,16 @@ So: **runtime data** (not baked into the build), **via GET requests**, **sourced
 **Target:** Hosted app, live data, stable daily jobs, no laptop required.
 
 ### Data layer
-- [x] Postgres schema (`db/schema.sql`)
+- [x] Postgres schema v1 (`db/schema.sql`) — JSON mirror, shipped to Supabase
 - [x] Docker local Postgres (`npm run db:up`)
 - [x] JSON → Postgres migration (`npm run db:migrate`)
+- [ ] **Schema v2 — data-engineer quality** (see Step F above)
+  - [ ] Stub companies isolated or flagged (`is_stub`)
+  - [ ] Missing FKs on `idea_cards`, `gap_cells`, `company_classifications.sector`
+  - [ ] Denormalized labels removed; JOIN-based queries
+  - [ ] `sectors` / `industries` hierarchy tables
+  - [ ] Launch fields deduplicated (single home in `launches`)
+  - [ ] Supabase ERD clean enough to onboard a new engineer without explanation
 - [ ] Pipeline writes to Postgres directly (replace migrate-as-copy)
 - [ ] Migrate remaining data: raw scrape, bm-vertical matrix, audit queue
 
@@ -370,6 +403,6 @@ DATABASE_URL="postgresql://..." npm run db:migrate
 | API | `server/read-api.mjs`, `db/queries.mjs` |
 | Deploy | `db/DEPLOY.md`, Vercel + Railway + Supabase |
 | Git / worktrees | `.worktrees/dev` for UI experiments |
-| Schema review | `.cursor/agents/schema-reviewer.md` |
+| Schema design | `db/schema.sql`, `.cursor/agents/schema-reviewer.md` |
 
 See **`db/README.md`** for database learning guide.

@@ -14,6 +14,12 @@ interface Props {
 const NODE_HEIGHT = 36;
 const DEPTH_WIDTH = 280;
 const MAX_COMPANY_CHILDREN = 12;
+/** Text inset from a node's origin (matches the label's x offset below). */
+const LABEL_X = 4;
+/** Horizontal breathing room between a column's widest label and the next column. */
+const COL_GAP = 64;
+/** Short horizontal stub leading from the vertical connector into a child node. */
+const CHILD_STUB = 16;
 
 function getNodeDepth(root: TreeNode, id: string, depth = 0): number | null {
   if (root.id === id) return depth;
@@ -223,6 +229,33 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
     const nodes = hRoot.descendants();
     const links = hRoot.links();
 
+    // Re-space depths as columns: each column is as wide as its widest label, so a
+    // child branch's vertical connector starts past the previous level's longest
+    // phrase instead of cutting through it.
+    const maxByDepth = new Map<number, number>();
+    for (const d of nodes) {
+      const dep = Math.round((d.y ?? 0) / DEPTH_WIDTH);
+      (d as { depthLevel?: number }).depthLevel = dep;
+      const { text, fontSize } = nodeDisplay(d.data, rootTree, expanded, bundle);
+      const w = measureTextWidth(text, fontSize);
+      if (w > (maxByDepth.get(dep) ?? 0)) maxByDepth.set(dep, w);
+    }
+    const maxDepth = nodes.reduce(
+      (m, d) => Math.max(m, (d as { depthLevel?: number }).depthLevel ?? 0),
+      0,
+    );
+    const colX: number[] = [];
+    let acc = 0;
+    for (let dep = 0; dep <= maxDepth; dep++) {
+      colX[dep] = acc;
+      acc += LABEL_X + (maxByDepth.get(dep) ?? 0) + COL_GAP;
+    }
+    for (const d of nodes) {
+      const dep = (d as { depthLevel?: number }).depthLevel ?? 0;
+      (d as { y?: number }).y = colX[dep];
+      (d as { colRight?: number }).colRight = colX[dep] + LABEL_X + (maxByDepth.get(dep) ?? 0);
+    }
+
     let minX = 0,
       maxX = NODE_HEIGHT,
       minY = 0,
@@ -248,7 +281,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
       graphH,
       visibleRoot,
     };
-  }, [rootTree, expanded, treeSlugFilter]);
+  }, [rootTree, expanded, treeSlugFilter, bundle]);
 
   useEffect(() => {
     const svg = d3.select(svgRef.current);
@@ -307,12 +340,13 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
       .data(links)
       .join('path')
       .attr('d', (d) => {
-        const sx = (d.source.y ?? 0) + pad.left;
+        const srcRight = (d.source as { colRight?: number }).colRight ?? (d.source.y ?? 0);
+        const sx = srcRight + pad.left;
         const sy = (d.source.x ?? 0) + pad.top;
         const tx = (d.target.y ?? 0) + pad.left;
         const ty = (d.target.x ?? 0) + pad.top;
-        const mx = (sx + tx) / 2;
-        return `M${sx},${sy} H${mx} V${ty} H${tx}`;
+        const bend = Math.max(sx + 4, tx - CHILD_STUB);
+        return `M${sx},${sy} H${bend} V${ty} H${tx}`;
       })
       .attr('fill', 'none')
       .attr('stroke', 'var(--border-strong)')
@@ -479,4 +513,41 @@ function findRawNode(root: TreeNode, id: string): TreeNode | null {
 function truncateLabel(s: string, max: number): string {
   if (s.length <= max) return s;
   return s.slice(0, max - 1) + '…';
+}
+
+let measureCanvas: HTMLCanvasElement | null = null;
+function measureTextWidth(text: string, fontSize: number): number {
+  if (typeof document === 'undefined') return text.length * fontSize * 0.6;
+  if (!measureCanvas) measureCanvas = document.createElement('canvas');
+  const ctx = measureCanvas.getContext('2d');
+  if (!ctx) return text.length * fontSize * 0.6;
+  ctx.font = `${fontSize}px Inter, system-ui, -apple-system, sans-serif`;
+  return ctx.measureText(text).width;
+}
+
+/** The exact label string + font size a node renders with — used to size columns. */
+function nodeDisplay(
+  dData: TreeNode,
+  rootTree: TreeNode,
+  expanded: Set<string>,
+  bundle: DataBundle,
+): { text: string; fontSize: number } {
+  const fullNode = findRawNode(rootTree, dData.id) ?? dData;
+  const kidCount = (fullNode.children ?? []).length;
+  const isExpanded = expanded.has(dData.id) || dData.type === 'root';
+  const label =
+    dData.type === 'company' ? bundle.companies[dData.id]?.name ?? dData.id : dData.label;
+  const count = countCompanies(fullNode);
+  const suffix =
+    !isExpanded && kidCount > 0
+      ? ` (${count})`
+      : (dData.type === 'vertical' || dData.type === 'phenotype') &&
+          kidCount > MAX_COMPANY_CHILDREN &&
+          isExpanded
+        ? ` (${count} companies — click)`
+        : '';
+  return {
+    text: truncateLabel(label, 36) + suffix,
+    fontSize: dData.type === 'company' ? 12 : 13,
+  };
 }
