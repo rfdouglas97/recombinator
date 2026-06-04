@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { loadBundle } from './data/loadBundle';
 import type { DataBundle, TreeNode } from './types';
-import { useFilterState } from './hooks/useFilterState';
+import { SIDEBAR_FILTER_DEFAULTS, useFilterState } from './hooks/useFilterState';
 import { filterCompanies } from './utils/filterCompanies';
 import { FilterBar } from './components/FilterBar';
 import { MatrixView } from './views/MatrixView';
@@ -40,8 +40,6 @@ export default function App() {
     () => (bundle ? filterCompanies(bundle, state) : []),
     [bundle, state],
   );
-
-  const filteredSlugs = useMemo(() => filtered.map((c) => c.slug), [filtered]);
 
   if (error) {
     return (
@@ -117,15 +115,19 @@ export default function App() {
       <StartupGeneratorModal bundle={bundle} open={generatorOpen} onClose={() => setGeneratorOpen(false)} />
       <YcChatPanel
         bundle={bundle}
-        state={state}
-        filteredSlugs={filteredSlugs}
         drawer={drawer}
         open={chatOpen}
         onClose={() => setChatOpen(false)}
         onOpenCompany={(slug) => openDrawer({ kind: 'company', slug })}
       />
       <div className={`app-body ${sidebarHidden ? 'sidebar-hidden' : ''}`}>
-        <FilterBar bundle={bundle} state={state} onChange={patch} filteredCount={filtered.length} />
+        <FilterBar
+          bundle={bundle}
+          state={state}
+          onChange={patch}
+          onReset={() => patch(SIDEBAR_FILTER_DEFAULTS)}
+          filteredCount={filtered.length}
+        />
         <button
           type="button"
           className={`sidebar-edge-toggle${sidebarHidden ? ' is-collapsed' : ''}`}

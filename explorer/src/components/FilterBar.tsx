@@ -1,19 +1,35 @@
 import type { DataBundle, FilterState } from '../types';
+import { hasActiveSidebarFilters } from '../hooks/useFilterState';
 
 interface Props {
   bundle: DataBundle;
   state: FilterState;
   onChange: (p: Partial<FilterState>) => void;
+  onReset: () => void;
   filteredCount: number;
 }
 
-export function FilterBar({ bundle, state, onChange, filteredCount }: Props) {
+export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: Props) {
+  const filtersActive = hasActiveSidebarFilters(state);
   const industries = state.sector
     ? bundle.facets.industries.filter((i) => i.sector_id === state.sector)
     : bundle.facets.industries;
 
   return (
     <div className="sidebar">
+      <div className="filter-sidebar-head">
+        <span className="filter-sidebar-title">Filters</span>
+        <button
+          type="button"
+          className="filter-reset-btn"
+          onClick={onReset}
+          disabled={!filtersActive}
+          title="Clear batch, sector, industry, and other sidebar filters"
+        >
+          Reset filters
+        </button>
+      </div>
+      <p className="filter-sidebar-hint">Applies to gap matrix and ontology only.</p>
       <div className="filter-group">
         <label>Search</label>
         <input

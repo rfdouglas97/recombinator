@@ -137,8 +137,8 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
     <>
       {sectorFilterDimsMatrix && (
         <p className="matrix-filter-hint">
-          Sidebar sector/industry filter applies to the company list only — matrix density shows all
-          sectors. Clear the Sector filter to narrow the list.
+          Sector/industry filters apply to this matrix and ontology views only — not chat. In BM ×
+          Sector/Industry modes, density counts ignore sector/industry so all columns stay visible.
         </p>
       )}
       <div className="toolbar">

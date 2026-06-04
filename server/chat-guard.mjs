@@ -63,7 +63,7 @@ export function refusalReply(reason = 'not_database_scope') {
   }
   return (
     'I only answer questions about the YC company database in this explorer (search, verticals, phenotypes, batches). ' +
-    'I cannot help with general coding, writing, or other tasks. Try a company-focused question, or use the sidebar filters and matrix.'
+    'I cannot help with general coding, writing, or other tasks. Try a company-focused question about this YC database.'
   );
 }
 

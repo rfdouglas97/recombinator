@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { ChatMatch, ChatMessage } from '../api/chat';
 import { checkChatHealth, sendChatMessage } from '../api/chat';
-import type { DataBundle, DrawerSelection, FilterState } from '../types';
+import type { DataBundle, DrawerSelection } from '../types';
 import {
   companiesToMatches,
   formatLocalSearchReply,
@@ -10,8 +10,6 @@ import {
 
 interface Props {
   bundle: DataBundle;
-  state: FilterState;
-  filteredSlugs: string[];
   drawer: DrawerSelection;
   open: boolean;
   onClose: () => void;
@@ -58,8 +56,6 @@ function renderMarkdownLite(text: string) {
 
 export function YcChatPanel({
   bundle,
-  state,
-  filteredSlugs,
   drawer,
   open,
   onClose,
@@ -69,7 +65,7 @@ export function YcChatPanel({
     {
       role: 'assistant',
       content:
-        'Ask about companies in this database only — search by vertical, phenotype, batch, or what they sell. I use your sidebar filters as context. General coding or chat is not supported.',
+        'Ask about any company in this database — vertical, phenotype, batch, or what they sell. Sidebar filters apply to the matrix and ontology views only, not here. General coding or chat is not supported.',
     },
   ]);
   const [input, setInput] = useState('');
@@ -120,29 +116,19 @@ export function YcChatPanel({
       setMessages(nextMessages);
       setLoading(true);
 
-      const filters = {
-        batch: state.batch,
-        sector: state.sector,
-        industry: state.industry,
-        phenotypeFamily: state.phenotypeFamily,
-        businessModel: state.businessModel,
-        minConfidence: state.minConfidence,
-        search: state.search,
-      };
       const selectedSlug = selectedSlugFromDrawer(drawer);
 
       try {
         const result = await sendChatMessage({
           messages: nextMessages,
-          filters,
-          filterSlugs: filteredSlugs.length < bundle.meta.assignment_count ? filteredSlugs : undefined,
+          filters: {},
           selectedSlug,
         });
         setMessages((prev) => [...prev, { role: 'assistant', content: result.reply }]);
         setLastMatches(result.refused ? [] : result.matches);
         if (result.refused) setError(null);
       } catch (e) {
-        const local = searchCompaniesLocal(bundle, trimmed, state);
+        const local = searchCompaniesLocal(bundle, trimmed, {});
         const reply = formatLocalSearchReply(trimmed, local);
         setMessages((prev) => [...prev, { role: 'assistant', content: reply }]);
         setLastMatches(companiesToMatches(local));
@@ -151,7 +137,7 @@ export function YcChatPanel({
         setLoading(false);
       }
     },
-    [loading, messages, bundle, state, filteredSlugs, drawer],
+    [loading, messages, bundle, drawer],
   );
 
   if (!open) return null;
@@ -174,9 +160,6 @@ export function YcChatPanel({
                 : llmOk === false
                   ? ' · keyword search'
                   : ''}
-              {filteredSlugs.length < bundle.meta.assignment_count
-                ? ` · scoped to ${filteredSlugs.length} filtered`
-                : ''}
             </p>
           </div>
           <button type="button" className="chat-panel-close" onClick={onClose} aria-label="Close chat">

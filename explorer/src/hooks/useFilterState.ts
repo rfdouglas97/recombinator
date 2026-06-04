@@ -1,6 +1,32 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { DataBundle, DrawerSelection, FilterState } from '../types';
 
+/** Sidebar filters only — not view/matrix/ontology UI state. */
+export const SIDEBAR_FILTER_DEFAULTS: Pick<
+  FilterState,
+  'batch' | 'sector' | 'industry' | 'phenotypeFamily' | 'businessModel' | 'minConfidence' | 'search'
+> = {
+  batch: '',
+  sector: '',
+  industry: '',
+  phenotypeFamily: '',
+  businessModel: '',
+  minConfidence: 0,
+  search: '',
+};
+
+export function hasActiveSidebarFilters(state: FilterState): boolean {
+  return Boolean(
+    state.batch ||
+      state.sector ||
+      state.industry ||
+      state.phenotypeFamily ||
+      state.businessModel ||
+      state.minConfidence > 0 ||
+      state.search.trim(),
+  );
+}
+
 const DEFAULT: FilterState = {
   view: 'matrix',
   ontologyMode: 'industry_vertical',
@@ -9,13 +35,7 @@ const DEFAULT: FilterState = {
   matrixHideEmptyCols: false,
   vizLayout: 'sunburst',
   ontologyFocusId: null,
-  batch: '',
-  sector: '',
-  industry: '',
-  phenotypeFamily: '',
-  businessModel: '',
-  minConfidence: 0,
-  search: '',
+  ...SIDEBAR_FILTER_DEFAULTS,
 };
 
 function parseUrl(): Partial<FilterState> {
