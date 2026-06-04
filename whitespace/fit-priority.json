@@ -1,0 +1,21 @@
+{
+  "description": "Preferred business models per sector for gap-candidates (first = highest fit boost)",
+  "default": ["BM-01", "BM-02"],
+  "by_sector": {
+    "ai-infrastructure": ["BM-03"],
+    "enterprise-software": ["BM-01", "BM-02", "BM-04"],
+    "financial-services": ["BM-05", "BM-01"],
+    "healthcare-life-sciences": ["BM-01", "BM-09", "BM-04"],
+    "industrials-defense": ["BM-08", "BM-11", "BM-01"],
+    "real-estate-construction": ["BM-01"],
+    "consumer": ["BM-10"],
+    "retail-commerce": ["BM-01", "BM-07"],
+    "transportation-logistics": ["BM-01", "BM-07"],
+    "energy-climate": ["BM-08", "BM-01"],
+    "media-entertainment": ["BM-10", "BM-07"],
+    "government-public": ["BM-11", "BM-04"],
+    "agriculture": ["BM-01", "BM-08"],
+    "education": ["BM-01", "BM-10"],
+    "professional-services": ["BM-04", "BM-06"]
+  }
+}

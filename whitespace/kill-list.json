@@ -1,0 +1,33 @@
+{
+  "description": "Human-curated exclusions for whitespace ranking. Edit and re-run npm run whitespace:rank.",
+  "sector_block": [],
+  "vertical_prefix_block": [],
+  "business_model_block": [],
+  "rules": [
+    {
+      "match": { "sector_id": "real-estate-construction", "business_model": "BM-09" },
+      "reason": "biotech_bm_in_real_estate",
+      "unless_vertical_prefix": []
+    },
+    {
+      "match": { "sector_id": "consumer", "business_model": "BM-11" },
+      "reason": "defense_bm_in_consumer",
+      "unless_vertical_prefix": []
+    },
+    {
+      "match": { "sector_id": "healthcare-life-sciences", "business_model": "BM-12" },
+      "reason": "open_source_primary_wedge_clinical",
+      "unless_vertical_prefix": ["ai-infrastructure"]
+    },
+    {
+      "match": { "sector_id": "ai-infrastructure", "business_model": "BM-05" },
+      "reason": "fintech_sku_in_infra_sector",
+      "unless_vertical_prefix": []
+    },
+    {
+      "match": { "sector_id": "media-entertainment", "business_model": "BM-09" },
+      "reason": "biotech_rd_in_media",
+      "unless_vertical_prefix": []
+    }
+  ]
+}

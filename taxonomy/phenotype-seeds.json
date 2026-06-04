@@ -1,0 +1,139 @@
+{
+  "version": "0.1",
+  "description": "Seed phenotypes — business archetypes separate from industry. The agent may add new IDs; these anchor pattern matching.",
+  "dimensions": {
+    "value_wedge": "What economic value is sold (pickaxe, workflow, data asset, labor replacement, regulated product, etc.)",
+    "ai_application": "How AI is applied (agent runtime, evals, training data, copilot, autonomous workflow, etc.)",
+    "industry_sub_vertical": "Where it is applied — orthogonal to phenotype"
+  },
+  "phenotypes": [
+    {
+      "id": "agent-runtime-infra",
+      "label": "Agent runtime / harness / orchestration",
+      "family": "agent_infrastructure",
+      "value_wedge": "infrastructure_pickaxe",
+      "ai_application": "agent_orchestration",
+      "description": "Runtimes, sandboxes, auth layers, tool routing, reliability/cost optimization for agents"
+    },
+    {
+      "id": "agent-context-data",
+      "label": "Agent context & web/data enrichment API",
+      "family": "agent_infrastructure",
+      "value_wedge": "data_access",
+      "ai_application": "context_retrieval",
+      "description": "Feeds structured context into agents: crawl, extract, brand data, live web state"
+    },
+    {
+      "id": "agent-observability-evals",
+      "label": "Agent observability, evals, or safety",
+      "family": "agent_infrastructure",
+      "value_wedge": "trust_and_quality",
+      "ai_application": "evaluation_monitoring",
+      "description": "Tracing, benchmarks, red-teaming, compliance testing, production monitoring for agents"
+    },
+    {
+      "id": "training-data-synthetic",
+      "label": "Training / eval data generation",
+      "family": "data_assets",
+      "value_wedge": "data_asset",
+      "ai_application": "dataset_creation",
+      "description": "Synthetic data, labeling, domain-specific corpora, RL environments, benchmark datasets"
+    },
+    {
+      "id": "domain-data-ontology",
+      "label": "Domain data ontology / knowledge layer",
+      "family": "data_assets",
+      "value_wedge": "structured_knowledge",
+      "ai_application": "knowledge_representation",
+      "description": "Industry-specific schemas, knowledge graphs, entity resolution, canonical registries"
+    },
+    {
+      "id": "vertical-workflow-agent",
+      "label": "Vertical AI workflow agent (AI department for X)",
+      "family": "vertical_automation",
+      "value_wedge": "workflow_replacement",
+      "ai_application": "autonomous_workflow",
+      "description": "End-to-end job function automation inside one industry (billing, credentialing, leasing, etc.)"
+    },
+    {
+      "id": "ai-forward-consulting",
+      "label": "AI-forward consulting / managed service",
+      "family": "services",
+      "value_wedge": "labor_replacement",
+      "ai_application": "human_in_loop_service",
+      "description": "Consulting, regulatory, implementation, or ops delivered as service with AI core"
+    },
+    {
+      "id": "horizontal-copilot-saas",
+      "label": "Horizontal copilot / productivity SaaS",
+      "family": "horizontal_saas",
+      "value_wedge": "productivity_multiplier",
+      "ai_application": "copilot_assistant",
+      "description": "Cross-industry seat-based tools: writing, sales, growth, dev productivity"
+    },
+    {
+      "id": "fintech-insurance-ai-product",
+      "label": "AI-native fintech or insurance product",
+      "family": "regulated_product",
+      "value_wedge": "regulated_product",
+      "ai_application": "risk_underwriting",
+      "description": "Payments, wallets, underwriting, liability products where AI changes the SKU"
+    },
+    {
+      "id": "marketplace-network-ai",
+      "label": "Marketplace / exchange / liquidity network",
+      "family": "network",
+      "value_wedge": "network_effects",
+      "ai_application": "matching_routing",
+      "description": "Two-sided venues: exchanges, perps, private-market liquidity, investor matching — not selling insurance or a bank SKU"
+    },
+    {
+      "id": "research-terminal-intel",
+      "label": "Research / terminal / intelligence product",
+      "family": "data_assets",
+      "value_wedge": "decision_intelligence",
+      "ai_application": "analysis_synthesis",
+      "description": "Bloomberg-style terminals, equity/healthcare research agents, market intelligence"
+    },
+    {
+      "id": "robotics-embodied-ai",
+      "label": "Robotics / embodied / teleoperation",
+      "family": "physical_ai",
+      "value_wedge": "physical_system",
+      "ai_application": "embodied_control",
+      "description": "Drones, robots, sensing meshes, teleop, model-hardware co-design"
+    },
+    {
+      "id": "biotech-rd-agent",
+      "label": "Biotech / clinical R&D acceleration",
+      "family": "life_sciences",
+      "value_wedge": "rd_acceleration",
+      "ai_application": "scientific_workflow",
+      "description": "Trials, lab workflows, drug discovery, clinical AI imaging ops"
+    },
+    {
+      "id": "compliance-gov-automation",
+      "label": "Compliance / regulatory / gov automation",
+      "family": "regulated_workflow",
+      "value_wedge": "risk_reduction",
+      "ai_application": "policy_automation",
+      "description": "SOX, FDA, audit controls, defense supply chain, gov-critical workflows"
+    },
+    {
+      "id": "consumer-ai-app",
+      "label": "Consumer / prosumer AI application",
+      "family": "consumer",
+      "value_wedge": "consumer_subscription",
+      "ai_application": "personal_assistant",
+      "description": "End-user apps, games, personal finance, creative tools"
+    },
+    {
+      "id": "open-source-commercial",
+      "label": "Open-source core + commercial layer",
+      "family": "developer_gtm",
+      "value_wedge": "developer_adoption",
+      "ai_application": "varies",
+      "description": "OSS agent frameworks or tools with hosted/enterprise monetization"
+    }
+  ]
+}

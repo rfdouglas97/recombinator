@@ -1,0 +1,65 @@
+{
+  "version": "0.1",
+  "business_models": {
+    "BM-01": {
+      "label": "Vertical AI SaaS",
+      "definition": "Software for a specific industry workflow; AI is core to the product"
+    },
+    "BM-02": {
+      "label": "Horizontal AI SaaS",
+      "definition": "Cross-industry workflow software sold on recurring seats or subscriptions"
+    },
+    "BM-03": {
+      "label": "AI devtools / infrastructure",
+      "definition": "Sells to builders: APIs, runtimes, observability, sandboxes, agent infra"
+    },
+    "BM-04": {
+      "label": "AI labor / managed service",
+      "definition": "Outcome or team replacement; services-shaped delivery (ops, consulting, compliance)"
+    },
+    "BM-05": {
+      "label": "Fintech / insurance product",
+      "definition": "Regulated financial product: payments, lending, insurance, wallets, risk"
+    },
+    "BM-06": {
+      "label": "Data / intelligence product",
+      "definition": "Research, terminals, analytics feeds, enrichment — data is the product"
+    },
+    "BM-07": {
+      "label": "Marketplace / network",
+      "definition": "Two-sided matching, liquidity, or coordination between parties"
+    },
+    "BM-08": {
+      "label": "Hardware + software",
+      "definition": "Physical systems (robotics, drones, sensors) with embedded intelligence"
+    },
+    "BM-09": {
+      "label": "Biotech / R&D platform",
+      "definition": "Science, trials, lab, or biopharma R&D workflows — not classic SaaS"
+    },
+    "BM-10": {
+      "label": "Consumer app / prosumer",
+      "definition": "End-user subscription, usage, or consumer-facing application"
+    },
+    "BM-11": {
+      "label": "Defense / gov-critical infrastructure",
+      "definition": "Supply chain, sensing, or systems for government or defense customers"
+    },
+    "BM-12": {
+      "label": "Open source + commercial",
+      "definition": "Open-source core with hosted, enterprise, or support monetization"
+    }
+  },
+  "ai_roles": ["core_product", "enabler", "infrastructure", "wrapper_risk"],
+  "delivery_shapes": ["SaaS", "API", "Services", "Hardware", "Insurance", "Marketplace", "OpenSource"],
+  "buyers": ["Developer", "SMB", "Mid-market", "Enterprise", "Consumer", "Government"],
+  "sectors": [
+    "Enterprise software",
+    "Industrials / hard tech",
+    "Fintech / insurance",
+    "Healthcare / life sciences",
+    "Consumer",
+    "Real estate / construction",
+    "Government"
+  ]
+}

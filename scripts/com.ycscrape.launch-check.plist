@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.ycscrape.launch-check</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>/Users/ryandouglas/Desktop/yc scrape/scripts/run-daily-launch-check.sh</string>
+  </array>
+
+  <!-- 8:00 AM every day (local time). Edit Hour/Minute to change. -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>8</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/ryandouglas/Desktop/yc scrape/output/launches/logs/launchd-stdout.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/ryandouglas/Desktop/yc scrape/output/launches/logs/launchd-stderr.log</string>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/ryandouglas/Desktop/yc scrape</string>
+</dict>
+</plist>
