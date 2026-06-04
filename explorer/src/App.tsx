@@ -6,7 +6,6 @@ import { filterCompanies } from './utils/filterCompanies';
 import { FilterBar } from './components/FilterBar';
 import { MatrixView } from './views/MatrixView';
 import { OntologyView } from './views/OntologyView';
-import { IdeaLibraryView } from './views/IdeaLibraryView';
 import { CompanyDrawer } from './views/CompanyDrawer';
 import { StartupGeneratorModal } from './components/StartupGeneratorModal';
 import { YcChatPanel } from './components/YcChatPanel';
@@ -90,13 +89,6 @@ export default function App() {
           >
             Ontology
           </button>
-          <button
-            type="button"
-            className={state.view === 'library' ? 'active' : ''}
-            onClick={() => patch({ view: 'library' })}
-          >
-            Idea library
-          </button>
         </div>
         <span className="meta">
           {bundle.meta.assignment_count} companies · {bundle.meta.vertical_count} verticals ·{' '}
@@ -145,14 +137,7 @@ export default function App() {
           <SidebarToggleIcon open={!sidebarHidden} size={16} />
         </button>
         <div className="main">
-          {state.view === 'matrix' ? (
-            <MatrixView
-              bundle={bundle}
-              state={state}
-              onChange={patch}
-              onCellClick={(sel) => openDrawer(sel)}
-            />
-          ) : state.view === 'ontology' ? (
+          {state.view === 'ontology' ? (
             <OntologyView
               bundle={bundle}
               state={state}
@@ -160,7 +145,12 @@ export default function App() {
               onNodeSelect={handleNodeSelect}
             />
           ) : (
-            <IdeaLibraryView bundle={bundle} />
+            <MatrixView
+              bundle={bundle}
+              state={state}
+              onChange={patch}
+              onCellClick={(sel) => openDrawer(sel)}
+            />
           )}
           <div className="footer-hint">
             Data: {bundle.meta.sources[0]} · Rebuild: npm run data:bundle

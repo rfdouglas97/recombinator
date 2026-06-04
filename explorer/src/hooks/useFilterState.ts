@@ -21,8 +21,9 @@ const DEFAULT: FilterState = {
 function parseUrl(): Partial<FilterState> {
   const p = new URLSearchParams(window.location.search);
   const out: Partial<FilterState> = {};
-  if (p.get('view') === 'ontology' || p.get('view') === 'matrix' || p.get('view') === 'library') {
-    out.view = p.get('view') as FilterState['view'];
+  const view = p.get('view');
+  if (view === 'ontology' || view === 'matrix') {
+    out.view = view as FilterState['view'];
   }
   if (p.get('batch')) out.batch = p.get('batch')!;
   if (p.get('sector')) out.sector = p.get('sector')!;

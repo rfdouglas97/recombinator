@@ -81,7 +81,7 @@ export interface DataBundle {
   };
 }
 
-export type ViewTab = 'ontology' | 'matrix' | 'library';
+export type ViewTab = 'ontology' | 'matrix';
 export type OntologyMode = 'industry_vertical' | 'phenotype';
 export type MatrixMode = 'bm_sector' | 'bm_industry' | 'bm_vertical';
 export type MatrixDisplay = 'density' | 'gaps' | 'both';
@@ -137,97 +137,6 @@ export interface GeneratedStartup {
   } | null;
   selected_gap?: GapCandidate;
   selection_method?: 'best_match' | 'seeded_surprise';
-}
-
-export interface StartupWhitespace {
-  business_model: string;
-  business_model_label: string;
-  vertical_id: string;
-  vertical_label: string;
-  sector_id?: string;
-  sector_label: string;
-  industry_label?: string | null;
-  workflow: string | null;
-  cell_key: string;
-  target_cell: TargetCell;
-  opportunity_score: number | null;
-  opportunity_rank: number | null;
-  transfer_score: number | null;
-  transfer_band?: string | null;
-  matrix_gap_count?: number | null;
-}
-
-export interface StartupCardCompany {
-  name: string;
-  one_liner: string;
-  long_description: string;
-  what_they_sell: string;
-  ai_play: string;
-  who_pays: string;
-  generation_rationale: string;
-  why_good_idea?: {
-    pain?: string;
-    urgency?: string;
-    ai_wedge?: string;
-    buyer_budget?: string;
-    proof_from_batch?: string;
-  } | null;
-  chips: string[];
-  target_cell: TargetCell;
-}
-
-export interface GoodnessIndex {
-  overall: number;
-  band: string;
-  dimensions?: Record<string, number>;
-}
-
-export interface StartupIdeaCard {
-  id: string;
-  card_rank: number;
-  variant?: number;
-  generated_at: string;
-  whitespace: StartupWhitespace;
-  startup: StartupCardCompany;
-  scores: {
-    goodness_index: GoodnessIndex | null;
-    validation: { valid: boolean; errors: string[] } | null;
-    gap_opportunity_score?: number | null;
-    gap_transfer_score?: number | null;
-  };
-  judgment?: 'promising' | 'maybe' | 'reject' | null;
-  human_score?: number | null;
-  notes?: string;
-  judged_at?: string | null;
-  sort_score?: number;
-}
-
-export interface CardJudgment {
-  verdict?: 'promising' | 'maybe' | 'reject' | null;
-  human_score?: number | null;
-  notes?: string;
-}
-
-export interface StartupLibrary {
-  updated_at: string | null;
-  card_count: number;
-  cards: StartupIdeaCard[];
-  batches?: {
-    at: string;
-    requested: number;
-    picked: number;
-    succeeded: number;
-    failed: number;
-    guidance: Record<string, string>;
-  }[];
-  stats?: {
-    judged: number;
-    reject: number;
-    promising: number;
-    succeeded?: number;
-    requested?: number;
-    gaps?: number;
-  };
 }
 
 export interface Filters {
