@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import type { CellSelection, DataBundle, FilterState, GapSelection } from '../types';
-import { densityColor, sectorColor, useMatrixData } from '../hooks/useMatrixData';
+import { cellBorderColor, densityColor, useMatrixData } from '../hooks/useMatrixData';
 
 interface Props {
   bundle: DataBundle;
@@ -25,7 +25,7 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
     return [...groups.entries()].map(([label, groupCols]) => ({ label, cols: groupCols }));
   }, [cols, grouped, state.matrixMode]);
 
-  function renderCell(rowId: string, colId: string, sectorId?: string) {
+  function renderCell(rowId: string, colId: string) {
     const cell = cellMap.get(`${rowId}|${colId}`);
     if (!cell) return <td key={`${rowId}-${colId}`} />;
 
@@ -59,7 +59,7 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
           className={className}
           style={{
             background: bg,
-            borderColor: sectorId && cell.count > 0 ? sectorColor(sectorId, bundle.facets.sectors) : undefined,
+            borderColor: cell.count > 0 ? cellBorderColor() : undefined,
           }}
           onClick={() => {
             if (cell.isGap && cell.count === 0) {
@@ -93,7 +93,7 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
     <>
       <div className="toolbar">
         <label>
-          Matrix
+          <span className="toolbar-key">Matrix</span>
           <select
             value={state.matrixMode}
             onChange={(e) =>
@@ -115,7 +115,7 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
           </label>
         )}
         <label>
-          Display
+          <span className="toolbar-key">Display</span>
           <select
             value={state.matrixDisplay}
             onChange={(e) =>
@@ -161,7 +161,7 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
                   {row.label.length > 28 ? row.label.slice(0, 26) + '…' : row.label}
                 </td>
                 {colGroups.flatMap((g) =>
-                  g.cols.map((c) => renderCell(row.id, c.id, c.sectorId)),
+                  g.cols.map((c) => renderCell(row.id, c.id)),
                 )}
               </tr>
             ))}
@@ -170,12 +170,16 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
       </div>
       <div className="legend">
         <span>
-          <span className="legend-swatch" style={{ background: densityColor(5, max) }} />
+          <span className="legend-swatch" style={{ background: densityColor(max, max) }} />
           High density
         </span>
         <span>
-          <span className="legend-swatch" style={{ background: 'var(--gap)', border: '1px dashed #f0883e' }} />
+          <span className="legend-swatch gap-only" />
           Whitespace (gap)
+        </span>
+        <span>
+          <span className="legend-swatch" style={{ boxShadow: '0 0 0 1.5px var(--ring)' }} />
+          Cross-listed
         </span>
         <span>{bundle.meta.gap_count} gap cells in ontology</span>
       </div>

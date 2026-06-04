@@ -10,6 +10,7 @@ import { IdeaLibraryView } from './views/IdeaLibraryView';
 import { CompanyDrawer } from './views/CompanyDrawer';
 import { StartupGeneratorModal } from './components/StartupGeneratorModal';
 import { YcChatPanel } from './components/YcChatPanel';
+import { BrandMark } from './components/BrandMark';
 
 export default function App() {
   const [bundle, setBundle] = useState<DataBundle | null>(null);
@@ -66,7 +67,13 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>YC Database Explorer</h1>
+        <div className="brand">
+          <BrandMark size={26} />
+          <div className="brand-word">
+            <span className="brand-name">Recombinator</span>
+            <span className="brand-tag">DATABASE EXPLORER</span>
+          </div>
+        </div>
         <div className="tab-bar">
           <button
             type="button"
@@ -104,7 +111,7 @@ export default function App() {
             {sidebarHidden ? 'Show filters' : 'Hide filters'}
           </button>
           <button type="button" className="header-btn" onClick={() => setChatOpen(true)}>
-            Ask YC DB
+            Ask Recombinator
           </button>
           <button type="button" className="btn-accent header-btn" onClick={() => setGeneratorOpen(true)}>
             Startup Generator

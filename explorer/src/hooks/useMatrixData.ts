@@ -23,34 +23,21 @@ export interface MatrixCell {
   isObserved: boolean;
 }
 
-const SECTOR_COLORS = [
-  '#58a6ff',
-  '#3fb950',
-  '#d29922',
-  '#f85149',
-  '#a371f7',
-  '#39c5cf',
-  '#ff7b72',
-  '#79c0ff',
-  '#56d364',
-  '#e3b341',
-  '#bc8cff',
-  '#ffa657',
-  '#7ee787',
-  '#ffa198',
-  '#a5d6ff',
-];
-
-export function sectorColor(sectorId: string, sectors: { id: string }[]): string {
-  const i = sectors.findIndex((s) => s.id === sectorId);
-  return SECTOR_COLORS[i % SECTOR_COLORS.length] ?? '#58a6ff';
-}
+// Recombinator: a single coral accent ramp (no per-sector rainbow). Filled
+// cells ramp the accent's alpha by relative density; empty cells read as the
+// neutral "cell-empty" surface.
+const DENSITY_RGB = '242, 84, 45';
 
 export function densityColor(count: number, max: number): string {
-  if (count <= 0) return 'var(--gap)';
+  if (count <= 0) return 'var(--cell-empty)';
   const t = Math.min(count / Math.max(max, 1), 1);
-  const lightness = 25 + t * 35;
-  return `hsl(210, 70%, ${lightness}%)`;
+  const alpha = 0.18 + t * 0.74;
+  return `rgba(${DENSITY_RGB}, ${alpha.toFixed(3)})`;
+}
+
+// Border tone for a filled cell — the accent at a higher alpha than its fill.
+export function cellBorderColor(): string {
+  return `rgba(${DENSITY_RGB}, 0.55)`;
 }
 
 export function useMatrixData(bundle: DataBundle, state: FilterState) {
