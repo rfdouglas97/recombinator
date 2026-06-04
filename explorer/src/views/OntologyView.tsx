@@ -104,14 +104,13 @@ function buildVisibleTree(node: TreeNode, expanded: Set<string>, slugFilter: Set
   return { ...node, children };
 }
 
-function nodeAccent(data: TreeNode, sectors: DataBundle['facets']['sectors']): string {
-  if (data.type === 'sector') {
-    const i = sectors.findIndex((s) => s.id === data.id);
-    const hues = [210, 150, 35, 0, 270, 185];
-    return `hsl(${hues[i % hues.length]}, 45%, 55%)`;
+function nodeAccent(data: TreeNode): string {
+  // Recombinator: single coral accent for structural nodes, neutral for leaves
+  // (no per-sector rainbow).
+  if (data.type === 'sector' || data.type === 'family' || data.type === 'phenotype') {
+    return 'var(--accent)';
   }
-  if (data.type === 'family' || data.type === 'phenotype') return 'var(--accent)';
-  return 'var(--border)';
+  return 'var(--border-strong)';
 }
 
 export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBrush }: Props) {
@@ -313,7 +312,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBr
         return `M${sx},${sy} H${mx} V${ty} H${tx}`;
       })
       .attr('fill', 'none')
-      .attr('stroke', 'var(--border)')
+      .attr('stroke', 'var(--border-strong)')
       .attr('stroke-width', 1)
       .attr('opacity', 0.7);
 
@@ -332,7 +331,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBr
       .attr('x2', -10)
       .attr('y1', -10)
       .attr('y2', 10)
-      .attr('stroke', (d) => nodeAccent(d.data, bundle.facets.sectors))
+      .attr('stroke', (d) => nodeAccent(d.data))
       .attr('stroke-width', 2);
 
     nodeG.each(function (d) {
@@ -427,7 +426,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect, onSectorBr
     <>
       <div className="toolbar ontology-toolbar">
         <label>
-          Ontology
+          <span className="toolbar-key">Ontology</span>
           <select
             value={state.ontologyMode}
             onChange={(e) =>
