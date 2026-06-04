@@ -1098,8 +1098,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  max-height: 120px;
+  max-height: min(42vh, 340px);
   overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 4px;
 }
 
 .chat-match-chip {

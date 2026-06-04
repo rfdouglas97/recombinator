@@ -56,7 +56,7 @@ export async function sendChatMessage(params: {
       filters: params.filters ?? {},
       filterSlugs: params.filterSlugs,
       selectedSlug: params.selectedSlug ?? undefined,
-      limit: params.limit ?? 12,
+      limit: params.limit ?? 40,
     }),
   });
   const data = await res.json();

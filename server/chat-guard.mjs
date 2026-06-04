@@ -38,6 +38,15 @@ function filtersActive(filters = {}) {
   );
 }
 
+/** Short company-name or keyword lookups are in scope for this explorer. */
+function looksLikeCompanyLookup(query) {
+  const q = String(query ?? '').trim();
+  if (!q || q.length > 120) return false;
+  if (OFF_TOPIC_PATTERNS.some((re) => re.test(q))) return false;
+  if (q.length <= 48 && /[a-z0-9]/i.test(q)) return true;
+  return false;
+}
+
 /**
  * @returns {{ allowed: boolean, reason?: string }}
  */
@@ -53,6 +62,7 @@ export function assessChatScope(query, { filters = {}, filterSlugs = null, match
   if (filtersActive(filters)) return { allowed: true };
   if (matchCount > 0) return { allowed: true };
   if (DB_SCOPE_SIGNALS.some((re) => re.test(q))) return { allowed: true };
+  if (looksLikeCompanyLookup(q)) return { allowed: true };
 
   return { allowed: false, reason: 'not_database_scope' };
 }

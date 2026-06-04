@@ -4,7 +4,9 @@ import {
   buildRetrievalContext,
   formatSearchReply,
   loadCompanyRecords,
+  isListingIntent,
 } from './chat-context.mjs';
+import { splitSearchFilters } from './company-search.mjs';
 import { assessChatScope, refusalReply, trimChatHistory } from './chat-guard.mjs';
 
 const SYSTEM_PROMPT = `You are a scoped research assistant for a YC company database explorer ONLY.
@@ -15,6 +17,9 @@ STRICT RULES (never break):
 3. If the user asks something off-topic, reply in one sentence that you only help with this YC company database and suggest a company-focused question. Do NOT answer the off-topic request.
 4. Do not invent companies. Every named company must appear in retrieved context.
 5. Be concise (2–5 sentences unless they want a list). Include slug in parentheses when naming companies.`;
+
+const LISTING_LLM_PROMPT = `You are summarizing search results from a YC company database.
+Rules: 2–4 sentences max. Mention only companies from the retrieved list. Include slugs in parentheses. No outside knowledge.`;
 
 export function getChatMeta() {
   const companies = loadCompanyRecords();
@@ -31,24 +36,27 @@ export async function handleChat({
   filters = {},
   filterSlugs = null,
   selectedSlug = null,
-  limit = 12,
+  limit = 40,
 }) {
   const lastUser = [...messages].reverse().find((m) => m.role === 'user');
   const query = lastUser?.content ?? '';
+  const searchLimit = Math.min(Math.max(Number(limit) || 40, 12), 60);
+  const { hard: hardFilters } = splitSearchFilters(query, filters);
+  const listing = isListingIntent(query);
 
   const matches = searchCompanies({
     query,
-    filters,
+    filters: hardFilters,
     filterSlugs,
     selectedSlug,
-    limit: Math.min(limit, 20),
+    limit: searchLimit,
   });
 
-  const scope = assessChatScope(query, { filters, filterSlugs, matchCount: matches.length });
+  const scope = assessChatScope(query, { filters: hardFilters, filterSlugs, matchCount: matches.length });
   if (!scope.allowed) {
     return {
       reply: refusalReply(scope.reason),
-      matches: [],
+      matches,
       llm: false,
       refused: true,
     };
@@ -56,17 +64,44 @@ export async function handleChat({
 
   const meta = getChatMeta();
   const apiConfig = resolveChatApiConfig();
+  const searchReply = formatSearchReply(query, matches);
 
   if (!apiConfig) {
     return {
-      reply: formatSearchReply(query, matches),
+      reply: searchReply,
       matches,
       llm: false,
       refused: false,
     };
   }
 
-  const context = buildRetrievalContext(matches, { filters, selectedSlug, meta });
+  if (listing) {
+    if (!matches.length) {
+      return {
+        reply: searchReply,
+        matches,
+        llm: false,
+        refused: false,
+      };
+    }
+
+    const context = buildRetrievalContext(matches, { filters: hardFilters, selectedSlug, meta });
+    const summary = await chatMessages({
+      system: `${LISTING_LLM_PROMPT}\n\n---\n${context}`,
+      messages: [{ role: 'user', content: query }],
+      apiConfig,
+      maxTokens: 400,
+    });
+
+    return {
+      reply: `${searchReply}\n\n${summary.trim()}`,
+      matches,
+      llm: true,
+      refused: false,
+    };
+  }
+
+  const context = buildRetrievalContext(matches, { filters: hardFilters, selectedSlug, meta });
   const system = `${SYSTEM_PROMPT}\n\n---\n${context}`;
 
   const reply = await chatMessages({
@@ -80,7 +115,7 @@ export async function handleChat({
   });
 
   return {
-    reply,
+    reply: matches.length ? `${searchReply}\n\n${reply.trim()}` : reply,
     matches,
     llm: true,
     refused: false,

@@ -66,7 +66,7 @@ export function YcChatPanel({
     {
       role: 'assistant',
       content:
-        'Ask about any company in this database — vertical, phenotype, batch, or what they sell. Sidebar filters apply to the matrix and ontology views only, not here. General coding or chat is not supported.',
+        'Search by name, vertical, phenotype, or batch (e.g. "Winter 2026 fintech", "healthcare AI agents", "miso"). Results appear below each answer — click to open a profile.',
     },
   ]);
   const [input, setInput] = useState('');
@@ -124,9 +124,10 @@ export function YcChatPanel({
           messages: nextMessages,
           filters: {},
           selectedSlug,
+          limit: 40,
         });
         setMessages((prev) => [...prev, { role: 'assistant', content: result.reply }]);
-        setLastMatches(result.refused ? [] : result.matches);
+        setLastMatches(result.matches);
         if (result.refused) setError(null);
       } catch (e) {
         const local = searchCompaniesLocal(bundle, trimmed, SIDEBAR_FILTER_DEFAULTS);
@@ -184,7 +185,9 @@ export function YcChatPanel({
 
         {lastMatches.length > 0 && (
           <div className="chat-matches">
-            <span className="chat-matches-label">Results</span>
+            <span className="chat-matches-label">
+              {lastMatches.length} results — scroll for more
+            </span>
             <div className="chat-match-list">
               {lastMatches.map((m) => (
                 <button

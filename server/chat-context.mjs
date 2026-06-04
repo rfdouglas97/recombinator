@@ -1,6 +1,13 @@
 import { readFileSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import {
+  companyHaystack,
+  isListingIntent,
+  parseSearchQuery,
+  scoreCompanyRecord,
+  splitSearchFilters,
+} from './company-search.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -29,54 +36,9 @@ export function loadCompanyRecords() {
   return companiesCache;
 }
 
+/** @deprecated use parseSearchQuery from company-search.mjs */
 export function tokenize(text) {
-  return [
-    ...new Set(
-      String(text ?? '')
-        .toLowerCase()
-        .replace(/[^a-z0-9\s-]/g, ' ')
-        .split(/\s+/)
-        .filter((t) => t.length >= 2),
-    ),
-  ];
-}
-
-function companyHaystack(c) {
-  return [
-    c.name,
-    c.slug,
-    c.one_liner,
-    c.description_combined,
-    c.industry_sub_vertical,
-    c.vertical_label,
-    c.vertical_id,
-    c.phenotype_primary_label,
-    c.phenotype_family,
-    c.what_they_sell,
-    c.ai_play,
-    c.who_pays,
-    c.value_wedge,
-    ...(c.yc_tags ?? []),
-    ...(c.business_models ?? []),
-  ]
-    .filter(Boolean)
-    .join(' ')
-    .toLowerCase();
-}
-
-function scoreCompany(c, tokens, boost = 0) {
-  if (!tokens.length) return boost;
-  const hay = companyHaystack(c);
-  const name = c.name?.toLowerCase() ?? '';
-  const slug = c.slug?.toLowerCase() ?? '';
-  let score = boost;
-
-  for (const t of tokens) {
-    if (name.includes(t)) score += 12;
-    else if (slug.includes(t)) score += 10;
-    else if (hay.includes(t)) score += 3;
-  }
-  return score;
+  return parseSearchQuery(text).tokens;
 }
 
 function applyFilters(list, filters = {}) {
@@ -119,44 +81,48 @@ export function searchCompanies({
   filters = {},
   filterSlugs = null,
   selectedSlug = null,
-  limit = 12,
+  limit = 40,
 } = {}) {
   let list = loadCompanyRecords();
+  const { hard: hardFilters, soft: softHints } = splitSearchFilters(query, filters);
+  const parsed = parseSearchQuery(query);
+  const cap = Math.min(Math.max(Number(limit) || 40, 1), 60);
 
   if (Array.isArray(filterSlugs) && filterSlugs.length) {
     const allowed = new Set(filterSlugs);
     list = list.filter((c) => allowed.has(c.slug));
   } else {
-    list = applyFilters(list, filters);
+    list = applyFilters(list, hardFilters);
   }
 
-  const tokens = tokenize(query);
   const selected = selectedSlug ? list.find((c) => c.slug === selectedSlug) : null;
 
-  if (!tokens.length) {
+  if (!parsed.matchTokens.length && !parsed.quoted.length && !parsed.normalized) {
     const ranked = list
       .map((c) => ({ c, score: selectedSlug === c.slug ? 100 : 0 }))
       .sort((a, b) => b.score - a.score);
-    return ranked.slice(0, limit).map(({ c }) => formatMatch(c));
+    return ranked.slice(0, cap).map(({ c }) => formatMatch(c));
   }
 
   const scored = list
     .map((c) => ({
       c,
-      score: scoreCompany(c, tokens, selectedSlug === c.slug ? 50 : 0),
+      score: scoreCompanyRecord(c, parsed, selectedSlug === c.slug ? 50 : 0, softHints),
     }))
     .filter(({ score }) => score > 0)
     .sort((a, b) => b.score - a.score);
 
-  const matches = scored.slice(0, limit).map(({ c }) => formatMatch(c));
+  const matches = scored.slice(0, cap).map(({ c }) => formatMatch(c));
 
   if (selected && !matches.some((m) => m.slug === selected.slug)) {
     matches.unshift(formatMatch(selected));
-    if (matches.length > limit) matches.pop();
+    if (matches.length > cap) matches.pop();
   }
 
   return matches;
 }
+
+export { isListingIntent };
 
 export function buildRetrievalContext(matches, { filters, selectedSlug, meta } = {}) {
   const filterBits = [];
@@ -194,7 +160,7 @@ export function buildRetrievalContext(matches, { filters, selectedSlug, meta } =
 export function formatSearchReply(query, matches) {
   if (!matches.length) {
     return query.trim()
-      ? `No companies matched "${query.trim()}". Try different keywords — e.g. vertical ("dental"), phenotype ("agent runtime"), or tags ("SaaS", "biotech").`
+      ? `No companies matched "${query.trim()}". Try different keywords — e.g. vertical ("dental"), phenotype ("agent runtime"), batch ("Winter 2026 fintech"), or a company name.`
       : 'Ask me to find companies — e.g. "healthcare AI agents" or "Winter 2026 fintech".';
   }
 
@@ -202,12 +168,17 @@ export function formatSearchReply(query, matches) {
     ? `Found ${matches.length} match${matches.length === 1 ? '' : 'es'} for "${query.trim()}":`
     : `Showing ${matches.length} companies:`;
 
-  const body = matches
+  const shown = matches.slice(0, 20);
+  const body = shown
     .map(
       (m, i) =>
         `${i + 1}. **${m.name}** (${m.slug}) — ${m.one_liner ?? m.vertical_label ?? 'No description'}`,
     )
     .join('\n');
+  const more =
+    matches.length > shown.length
+      ? `\n\n_+${matches.length - shown.length} more in the results list below (scroll)._`
+      : '';
 
-  return `${header}\n\n${body}\n\nClick a result below to open its profile. Set ANTHROPIC_API_KEY in .env for natural-language answers.`;
+  return `${header}\n\n${body}${more}\n\nClick a result below to open its profile.`;
 }
