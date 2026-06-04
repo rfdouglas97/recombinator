@@ -114,7 +114,6 @@ export default function App() {
         drawer={drawer}
         open={chatOpen}
         onClose={() => setChatOpen(false)}
-        onOpenCompany={(slug) => openDrawer({ kind: 'company', slug })}
       />
       <div className={`app-body ${sidebarHidden ? 'sidebar-hidden' : ''}`}>
         <FilterBar

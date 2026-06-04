@@ -177,8 +177,8 @@ export function formatSearchReply(query, matches) {
     .join('\n');
   const more =
     matches.length > shown.length
-      ? `\n\n_+${matches.length - shown.length} more in the results list below (scroll)._`
+      ? `\n\n_+${matches.length - shown.length} more matches (ask to narrow or list a vertical/batch)._`
       : '';
 
-  return `${header}\n\n${body}${more}\n\nClick a result below to open its profile.`;
+  return `${header}\n\n${body}${more}`;
 }

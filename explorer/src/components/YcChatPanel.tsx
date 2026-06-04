@@ -1,20 +1,15 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import type { ChatMatch, ChatMessage } from '../api/chat';
+import type { ChatMessage } from '../api/chat';
 import { checkChatHealth, sendChatMessage } from '../api/chat';
 import { SIDEBAR_FILTER_DEFAULTS } from '../hooks/useFilterState';
 import type { DataBundle, DrawerSelection } from '../types';
-import {
-  companiesToMatches,
-  formatLocalSearchReply,
-  searchCompaniesLocal,
-} from '../utils/searchCompanies';
+import { formatLocalSearchReply, searchCompaniesLocal } from '../utils/searchCompanies';
 
 interface Props {
   bundle: DataBundle;
   drawer: DrawerSelection;
   open: boolean;
   onClose: () => void;
-  onOpenCompany: (slug: string) => void;
 }
 
 const SUGGESTIONS = [
@@ -55,18 +50,12 @@ function renderMarkdownLite(text: string) {
   });
 }
 
-export function YcChatPanel({
-  bundle,
-  drawer,
-  open,
-  onClose,
-  onOpenCompany,
-}: Props) {
+export function YcChatPanel({ bundle, drawer, open, onClose }: Props) {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: 'assistant',
       content:
-        'Search by name, vertical, phenotype, or batch (e.g. "Winter 2026 fintech", "healthcare AI agents", "miso"). Results appear below each answer — click to open a profile.',
+        'Search by name, vertical, phenotype, or batch (e.g. "Winter 2026 fintech", "healthcare AI agents", "miso").',
     },
   ]);
   const [input, setInput] = useState('');
@@ -74,7 +63,6 @@ export function YcChatPanel({
   const [error, setError] = useState<string | null>(null);
   const [llmOk, setLlmOk] = useState<boolean | null>(null);
   const [chatModel, setChatModel] = useState<string | null>(null);
-  const [lastMatches, setLastMatches] = useState<ChatMatch[]>([]);
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
@@ -103,7 +91,7 @@ export function YcChatPanel({
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: 'smooth' });
-  }, [messages, loading, lastMatches]);
+  }, [messages, loading]);
 
   const submit = useCallback(
     async (text: string) => {
@@ -127,13 +115,11 @@ export function YcChatPanel({
           limit: 40,
         });
         setMessages((prev) => [...prev, { role: 'assistant', content: result.reply }]);
-        setLastMatches(result.matches);
         if (result.refused) setError(null);
       } catch (e) {
         const local = searchCompaniesLocal(bundle, trimmed, SIDEBAR_FILTER_DEFAULTS);
         const reply = formatLocalSearchReply(trimmed, local);
         setMessages((prev) => [...prev, { role: 'assistant', content: reply }]);
-        setLastMatches(companiesToMatches(local));
         setError(e instanceof Error ? e.message : String(e));
       } finally {
         setLoading(false);
@@ -182,28 +168,6 @@ export function YcChatPanel({
           )}
           {error && <p className="chat-error-hint">Search fallback: {error}</p>}
         </div>
-
-        {lastMatches.length > 0 && (
-          <div className="chat-matches">
-            <span className="chat-matches-label">
-              {lastMatches.length} results — scroll for more
-            </span>
-            <div className="chat-match-list">
-              {lastMatches.map((m) => (
-                <button
-                  key={m.slug}
-                  type="button"
-                  className="chat-match-chip"
-                  onClick={() => onOpenCompany(m.slug)}
-                  title={m.one_liner ?? m.slug}
-                >
-                  <strong>{m.name}</strong>
-                  <small>{m.vertical_label ?? m.batch}</small>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
 
         <div className="chat-suggestions">
           {SUGGESTIONS.map((s) => (

@@ -255,7 +255,7 @@ export function formatLocalSearchReply(query: string, companies: Company[]): str
     (c, i) => `${i + 1}. ${c.name} (${c.slug}) — ${c.one_liner ?? c.vertical_label ?? ''}`,
   );
   const more =
-    companies.length > 20 ? `\n\n+${companies.length - 20} more in the results list below (scroll).` : '';
+    companies.length > 20 ? `\n\n+${companies.length - 20} more matches (ask to narrow the search).` : '';
   return `Found ${companies.length} match${companies.length === 1 ? '' : 'es'} (offline search):\n\n${lines.join('\n')}${more}`;
 }
 
