@@ -1,0 +1,25 @@
+# Local Postgres for development.
+# Start: npm run db:up
+# Stop:  npm run db:down
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: yc-scrape-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ycscrape
+      POSTGRES_PASSWORD: ycscrape
+      POSTGRES_DB: ycscrape
+    ports:
+      - '5432:5432'
+    volumes:
+      - yc_scrape_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ycscrape -d ycscrape']
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  yc_scrape_pgdata:

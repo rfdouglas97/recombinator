@@ -10,6 +10,7 @@ import { resolveApiConfig } from '../agent/llm.mjs';
 import { findWhitespaceGaps, generateSyntheticForCell, discoverAndGenerate } from '../scripts/generator-lib.mjs';
 import { getLibrary, getArchivedLibrary, generateMoreCards, recordJudgment, archiveCard, restoreCard } from './library-service.mjs';
 import { handleChat, getChatMeta } from './chat-service.mjs';
+import { tryHandleReadApi } from './read-api.mjs';
 
 loadDotEnv();
 
@@ -46,6 +47,8 @@ const server = createServer(async (req, res) => {
   const url = new URL(req.url ?? '/', `http://localhost:${PORT}`);
 
   try {
+    if (await tryHandleReadApi(req, res, url)) return;
+
     if (req.method === 'GET' && url.pathname === '/api/generator/health') {
       sendJson(res, 200, {
         ok: true,
@@ -182,6 +185,9 @@ server.on('error', (err) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Startup Generator API → http://localhost:${PORT}`);
+  console.log(`API server → http://localhost:${PORT}`);
+  console.log(`  Read API:  GET /api/bundle, /api/companies, /api/gaps, /api/launches, /api/health`);
+  console.log(`  Generator: POST /api/generator/*, /api/library/*, /api/chat`);
   console.log(`  LLM: ${resolveApiConfig() ? 'configured' : 'NOT configured (set .env)'}`);
+  console.log(`  Postgres: ${process.env.DATABASE_URL ? 'DATABASE_URL set' : 'NOT set — read API will fail'}`);
 });

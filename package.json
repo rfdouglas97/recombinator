@@ -50,6 +50,14 @@
     "launches:check:ingest": "node scripts/check-launches.mjs --ingest --refresh",
     "launches:check:cache": "node scripts/check-launches.mjs --from-cache",
     "launches:daily": "bash scripts/run-daily-launch-check.sh",
+    "db:up": "docker compose up -d",
+    "db:down": "docker compose down",
+    "db:psql": "docker compose exec postgres psql -U ycscrape -d ycscrape",
+    "db:migrate": "node db/migrate-from-json.mjs",
+    "db:migrate:dry": "node db/migrate-from-json.mjs --dry-run",
+    "db:ping": "node db/ping.mjs",
+    "api:dev": "node server/generator-api.mjs",
+    "api:read": "node server/generator-api.mjs",
     "generator:api": "node server/generator-api.mjs",
     "generator:primitives": "node scripts/build-idea-primitives.mjs",
     "whitespace:rank": "node whitespace/build.mjs",
@@ -69,6 +77,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "pg": "^8.21.0",
     "playwright": "^1.60.0"
   }
 }
