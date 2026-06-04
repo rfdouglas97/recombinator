@@ -77,8 +77,8 @@ Check https://www.ycombinator.com/launches for new posts and evaluate against ta
 
 Options:
   --all           Re-evaluate all launches (ignore processed state)
-  --ingest        Enrich existing DB records with launch metadata
-  --ingest-new    Also add companies not yet in DB (local classifier; run LLM pass after)
+  --ingest        Enrich existing classified companies with launch metadata
+  --ingest-new    On NEW launches only: add slug if not already in corpus (local classifier)
   --refresh       After ingest: run verticals:normalize + data:bundle
   --from-cache    Use output/launches/launches-raw.json instead of scraping
   --limit <n>     Process at most N launches
@@ -314,11 +314,12 @@ function ingestReviews(reviews, catalog, normalized, assignments, toIngest, opts
         assignBySlug.set(slug, mergeLaunchIntoAssignment(assignBySlug.get(slug), launch, classification));
       }
       enrichedCompanies++;
-    } else if (opts.ingestNew && classification.vertical_id && classification.phenotype_primary_id) {
+    } else if (opts.ingestNew && classification.phenotype_primary_id) {
       const record = assignmentFromClassification(launch, classification);
       normBySlug.set(slug, record);
       assignBySlug.set(slug, { ...record, proposed_phenotype: null });
       addedCompanies++;
+      console.log(`  + new company: ${slug} → ${classification.phenotype_primary_id}${classification.vertical_id ? ` × ${classification.vertical_id}` : ' (vertical TBD)'}`);
     }
 
     appendFileSync(PATHS.reviewsJsonl, `${JSON.stringify(review)}\n`);
@@ -475,7 +476,9 @@ async function main() {
       toIngest,
       { ingestNew: args.ingestNew },
     );
-    console.log(`Ingested: ${ingestStats.addedCompanies} new, ${ingestStats.enrichedCompanies} enriched`);
+    console.log(
+      `Ingested: ${ingestStats.addedCompanies} new, ${ingestStats.enrichedCompanies} enriched`,
+    );
 
     if (args.refresh) {
       console.log('Refreshing normalize + explorer bundle…');

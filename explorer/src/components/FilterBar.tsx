@@ -97,17 +97,6 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
           ))}
         </select>
       </div>
-      <div className="filter-group">
-        <label>Min confidence ({state.minConfidence.toFixed(2)})</label>
-        <input
-          type="range"
-          min={0}
-          max={1}
-          step={0.05}
-          value={state.minConfidence}
-          onChange={(e) => onChange({ minConfidence: parseFloat(e.target.value) })}
-        />
-      </div>
       <p style={{ fontSize: 12, color: 'var(--text-muted)', marginTop: 16 }}>
         {filteredCount} / {bundle.meta.assignment_count} companies match filters
       </p>

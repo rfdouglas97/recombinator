@@ -88,10 +88,6 @@ export default function App() {
             Ontology
           </button>
         </div>
-        <span className="meta">
-          {bundle.meta.assignment_count} companies · {bundle.meta.vertical_count} verticals ·{' '}
-          {bundle.meta.gap_count} gaps · {new Date(bundle.generated_at).toLocaleString()}
-        </span>
         <div className="header-actions">
           <button
             type="button"

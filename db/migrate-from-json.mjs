@@ -56,6 +56,20 @@ async function applySchemaF1() {
   console.log('✓ schema F1 applied (is_stub + idea_cards FKs)');
 }
 
+/** Drop classifications for slugs not in the scraped cohort JSON (removes mistaken launch-catalog backfill). */
+async function pruneCorpusOutsideSlugs(corpusSlugs) {
+  if (!corpusSlugs?.length) return;
+  const { rowCount: bm } = await query(
+    `DELETE FROM company_business_models WHERE company_slug <> ALL($1::text[])`,
+    [corpusSlugs],
+  );
+  const { rowCount: cc } = await query(
+    `DELETE FROM company_classifications WHERE company_slug <> ALL($1::text[])`,
+    [corpusSlugs],
+  );
+  console.log(`✓ pruned corpus outsiders: ${cc ?? 0} classifications, ${bm ?? 0} business-model links`);
+}
+
 async function reconcileCompanyStubs() {
   await query(`
     UPDATE companies SET is_stub = false
@@ -487,7 +501,14 @@ async function main() {
   await loadVerticals(loadJson(PATHS.verticals));
 
   const companies = loadJson(PATHS.companies);
-  if (companies) await loadCompanies(Array.isArray(companies) ? companies : Object.values(companies));
+  const companyRows = companies
+    ? (Array.isArray(companies) ? companies : Object.values(companies))
+    : [];
+  if (companyRows.length) {
+    await loadCompanies(companyRows);
+    const corpusSlugs = companyRows.map((r) => r.slug).filter(Boolean);
+    await pruneCorpusOutsideSlugs(corpusSlugs);
+  }
 
   await loadLaunchReviews(loadJson(PATHS.launchReviews));
   await loadGapCells(loadJson(PATHS.rankedGaps));

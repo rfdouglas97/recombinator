@@ -25,7 +25,7 @@ mkdir -p "$LOG_DIR"
 
   echo "Node: $(node -v) at $(command -v node)"
 
-  node scripts/check-launches.mjs --ingest --refresh
+  node scripts/check-launches.mjs --ingest --ingest-new --refresh
 
   echo "=== Done $(date -Iseconds) ==="
 } >>"$LOG_FILE" 2>&1

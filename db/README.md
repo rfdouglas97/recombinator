@@ -60,8 +60,10 @@ During Phase 1 we **dual-write nothing yet** — JSON pipeline still runs; migra
 
 ### Schema v2 F1 — `is_stub` and `idea_cards` FKs
 
-- **`companies.is_stub`** — `false` for the ~401 classified startups (have a `company_classifications` row); `true` for ~490 launch-only placeholder rows created so `launches` can FK safely.
-- Explorer/API queries filter `is_stub = false` so bundle counts stay at 401.
+- **`companies.is_stub`** — `false` when a `company_classifications` row exists; `true` for launch-only placeholders (no classification yet).
+- **Corpus** = scraped cohort (`output/yc_companies.json`, ~401). Matrix/gaps/explorer use `normalized-assignments.json` for those slugs only.
+- Daily launch job: evaluate all new launches; `--ingest-new` adds a company **only if** the slug is not already in the corpus (stealth/new launches). Older Launch YC companies stay launch-only (`is_stub = true`) until scraped or newly launched.
+- Explorer/API queries filter `is_stub = false`.
 - **`idea_cards`** — `vertical_id`, `phenotype_primary_id`, and `business_model` enforce FKs to ontology tables.
 - Applied via `npm run db:migrate` (runs [`migrations/002_schema_f1.sql`](migrations/002_schema_f1.sql) after data load).
 
