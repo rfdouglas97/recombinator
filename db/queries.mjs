@@ -4,6 +4,13 @@
 
 import { query } from './client.mjs';
 
+/** Sectors hidden from explorer until ontology is ready (see plan.md Step H). */
+export const EXCLUDED_SECTOR_IDS = new Set(['education']);
+
+function sectorVisible(sectorId) {
+  return sectorId && !EXCLUDED_SECTOR_IDS.has(sectorId);
+}
+
 function truncate(s, max = 2000) {
   if (!s) return null;
   return s.length > max ? s.slice(0, max) + '…' : s;
@@ -229,14 +236,17 @@ export async function getFacets() {
   const industryRows = await query(
     `SELECT DISTINCT industry_id AS id, industry_label AS label, sector_id FROM verticals WHERE industry_id IS NOT NULL ORDER BY industry_label`,
   );
+  const visibleSectors = sectorRows.rows.filter((s) => sectorVisible(s.id));
+  const visibleIndustries = industryRows.rows.filter((i) => sectorVisible(i.sector_id));
+  const visibleVerticals = verticals.rows.filter((v) => sectorVisible(v.sector_id));
 
   const batchList = batches.rows.map((r) => r.batch);
   const phenotypeFamilies = [...new Set(phenotypes.rows.map((p) => p.family).filter(Boolean))].sort();
 
   return {
     batches: batchList,
-    sectors: sectorRows.rows.map((s) => ({ id: s.id, label: s.label ?? s.id })),
-    industries: industryRows.rows.map((i) => ({
+    sectors: visibleSectors.map((s) => ({ id: s.id, label: s.label ?? s.id })),
+    industries: visibleIndustries.map((i) => ({
       id: i.id,
       label: i.label ?? i.id,
       sector_id: i.sector_id,
@@ -248,7 +258,7 @@ export async function getFacets() {
     })),
     phenotypeFamilies,
     phenotypes: phenotypes.rows.map((p) => ({ id: p.id, label: p.label, family: p.family })),
-    verticals: verticals.rows.map((v) => ({
+    verticals: visibleVerticals.map((v) => ({
       id: v.id,
       label: v.label,
       sector_id: v.sector_id,
@@ -318,8 +328,14 @@ export async function fetchPhenotypeIndustryMatrix() {
 }
 
 export async function fetchGapCellKeys() {
+  const excluded = [...EXCLUDED_SECTOR_IDS];
   const { rows } = await query(
-    `SELECT DISTINCT business_model, vertical_id FROM gap_cells WHERE business_model IS NOT NULL AND vertical_id IS NOT NULL`,
+    `SELECT DISTINCT gc.business_model, gc.vertical_id
+     FROM gap_cells gc
+     INNER JOIN verticals v ON v.id = gc.vertical_id
+     WHERE gc.business_model IS NOT NULL AND gc.vertical_id IS NOT NULL
+       AND (v.sector_id IS NULL OR NOT (v.sector_id = ANY($1::text[])))`,
+    [excluded],
   );
   return rows.map((g) => `${g.business_model}|${g.vertical_id}`);
 }
@@ -331,10 +347,21 @@ export async function fetchOntologies() {
       `SELECT id, label, sector_id, sector_label, industry_id, industry_label, workflow FROM verticals ORDER BY id`,
     ),
   ]);
+  const visible = verticals.rows.filter((v) => sectorVisible(v.sector_id));
   return {
     phenotypes: phenotypes.rows,
-    verticals: verticals.rows,
-    sectors: [...new Map(verticals.rows.filter((v) => v.sector_id).map((v) => [v.sector_id, { id: v.sector_id, label: v.sector_label ?? v.sector_id }])).values()],
-    industries: [...new Map(verticals.rows.filter((v) => v.industry_id).map((v) => [v.industry_id, { id: v.industry_id, label: v.industry_label ?? v.industry_id, sector_id: v.sector_id }])).values()],
+    verticals: visible,
+    sectors: [
+      ...new Map(
+        visible.filter((v) => v.sector_id).map((v) => [v.sector_id, { id: v.sector_id, label: v.sector_label ?? v.sector_id }]),
+      ).values(),
+    ],
+    industries: [
+      ...new Map(
+        visible
+          .filter((v) => v.industry_id)
+          .map((v) => [v.industry_id, { id: v.industry_id, label: v.industry_label ?? v.industry_id, sector_id: v.sector_id }]),
+      ).values(),
+    ],
   };
 }
