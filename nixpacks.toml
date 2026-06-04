@@ -1,0 +1,7 @@
+# Railway/Nixpacks — API server only (no Playwright browsers in production)
+[phases.setup]
+nixPkgs = ["nodejs_20"]
+
+[variables]
+PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD = "1"
+NPM_CONFIG_PRODUCTION = "false"

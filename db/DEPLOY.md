@@ -21,12 +21,12 @@ Local dev stays on Docker Postgres (`npm run db:up`). Production uses Supabase o
 
 **Project Settings → Database → Connection string → URI**
 
-Use the **Session pooler** or **Direct** connection:
+Use the **Session pooler** connection (port **5432**) — works on IPv4 home networks. Direct `db.*.supabase.co` often fails with `ENOTFOUND` (IPv6-only).
 
 | Use case | Connection type | Port |
 |----------|-----------------|------|
-| `npm run db:migrate` (one-time load) | **Direct** | 5432 |
-| Railway API (always-on server) | **Session pooler** or Direct | 5432 or 6543 |
+| `npm run db:migrate` | **Session pooler** | 5432 |
+| Railway API | **Session pooler** | 5432 |
 
 Example (replace password and project ref):
 
