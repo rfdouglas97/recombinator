@@ -64,11 +64,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "$(cat <<'EOF'
-chore: daily launch check results
-
-Automated update from GitHub Actions launch monitor.
-EOF
-)"
+            git commit -m "chore: daily launch check results (automated)"
             git push
           fi
