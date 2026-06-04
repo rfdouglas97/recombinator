@@ -440,6 +440,23 @@ export const SLUG_VERTICAL_OVERRIDES = {
   haladir: 'logistics.supply-chain.ops',
   corvera: 'retail.merchant.cpg',
   inventoryquant: 'fintech.insurance.claims-property',
+  // BM-01 × enterprise sense-check corrections (2026-06-04)
+  elyra: 'hospitality.restaurant.ops',
+  chasi: 'automotive.fleet',
+  useparrot: 'fintech.insurance.claims-auto',
+  withai: 'research.equity.hedge-funds',
+  kinro: 'insurance.quote-comparison',
+  pairio: 'robotics.maintenance-scheduling',
+  zymbly: 'industrials.aviation.space',
+  avoice: 'realestate.architecture',
+  'klaus-ai': 'ai-infrastructure.agent-runtime',
+  takecareos: 'healthcare.provider.telehealth-operations',
+  tepali: 'healthcare.digital.consumer-wellness',
+  hessian: 'enterprise.devtools.productivity',
+  lab0: 'enterprise.devtools.productivity',
+  mendral: 'enterprise.it.cloud-infra',
+  'ressl-ai': 'realestate.construction.field',
+  autositu: 'construction.permit-compliance',
 };
 
 /** Explicit verticals that should be re-inferred when text indicates a different domain. */

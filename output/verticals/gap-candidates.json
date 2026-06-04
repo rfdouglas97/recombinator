@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-04T15:46:30.136Z",
-  "gap_count": 952,
+  "generated_at": "2026-06-04T16:11:45.407Z",
+  "gap_count": 948,
   "gaps": [
     {
       "business_model": "BM-03",
@@ -373,16 +373,6 @@
       "workflow": "specialty_underwriting"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.insurance.claims-auto",
-      "vertical_label": "Auto collision claims & subrogation",
-      "sector_id": "financial-services",
-      "sector_label": "Financial Services & Insurance",
-      "industry_label": "Insurance",
-      "workflow": "claims"
-    },
-    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "fintech.insurance.underwriting",
@@ -655,16 +645,6 @@
     {
       "business_model": "BM-11",
       "business_model_label": "Defense / gov-critical infrastructure",
-      "vertical_id": "industrials.aviation.space",
-      "vertical_label": "Space & satellite systems",
-      "sector_id": "industrials-defense",
-      "sector_label": "Industrials, Defense & Hard Tech",
-      "industry_label": "Aviation & space",
-      "workflow": "space"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "industrials.aviation.space",
       "vertical_label": "Space & satellite systems",
       "sector_id": "industrials-defense",
@@ -1091,16 +1071,6 @@
       "sector_label": "Real Estate & Construction",
       "industry_label": "Property management & proptech",
       "workflow": "hoa"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "realestate.architecture",
-      "vertical_label": "Architecture & design services",
-      "sector_id": "real-estate-construction",
-      "sector_label": "Real Estate & Construction",
-      "industry_label": "Construction & field services",
-      "workflow": "architecture"
     },
     {
       "business_model": "BM-04",
@@ -1773,8 +1743,28 @@
       "workflow": "container_ops"
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "devtools.database-devops",
+      "vertical_label": "Database schema versioning & migration automation",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Developer tools",
+      "workflow": "database_migrations"
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "devtools.database-devops",
+      "vertical_label": "Database schema versioning & migration automation",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Developer tools",
+      "workflow": "database_migrations"
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "devtools.database-devops",
       "vertical_label": "Database schema versioning & migration automation",
       "sector_id": "enterprise-software",
@@ -3533,16 +3523,6 @@
       "workflow": "quote_generation"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "insurance.quote-comparison",
-      "vertical_label": "Insurance quote generation & rate shopping",
-      "sector_id": "financial-services",
-      "sector_label": "Financial Services & Insurance",
-      "industry_label": "Insurance",
-      "workflow": "quote_generation"
-    },
-    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "insurance.uw-data-intake",
@@ -5243,16 +5223,6 @@
       "workflow": "maintenance_scheduling"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "robotics.maintenance-scheduling",
-      "vertical_label": "Robotic equipment maintenance & predictive upkeep",
-      "sector_id": "industrials-defense",
-      "sector_label": "Industrials, Defense & Hard Tech",
-      "industry_label": "Robotics & automation",
-      "workflow": "maintenance_scheduling"
-    },
-    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "robotics.safety-compliance",
@@ -6131,16 +6101,6 @@
       "sector_label": "Real Estate & Construction",
       "industry_label": "Property management & proptech",
       "workflow": "move_in_out"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "construction.permit-compliance",
-      "vertical_label": "Permit acquisition & regulatory compliance",
-      "sector_id": "real-estate-construction",
-      "sector_label": "Real Estate & Construction",
-      "industry_label": "Construction & field services",
-      "workflow": "permit_filing_tracking"
     },
     {
       "business_model": "BM-01",
