@@ -13,6 +13,26 @@ export const CORPUS_PATHS = {
   launchIngested: join(ROOT, 'output/corpus/launch-ingested-slugs.json'),
 };
 
+/** Keep in sync with BATCHES in scrape.mjs — fallback when scrape JSON is absent (Railway/CI). */
+export const CANONICAL_COHORT_BATCHES = [
+  'Winter 2025',
+  'Spring 2025',
+  'Summer 2025',
+  'Fall 2025',
+  'Winter 2026',
+  'Spring 2026',
+  'Summer 2026',
+  'Fall 2026',
+  'Winter 2027',
+];
+
+function batchSortKey(batch) {
+  const m = String(batch).match(/^(Winter|Spring|Summer|Fall)\s+(\d{4})$/);
+  if (!m) return batch;
+  const season = { Winter: 0, Spring: 1, Summer: 2, Fall: 3 }[m[1]] ?? 9;
+  return `${m[2]}-${season}-${batch}`;
+}
+
 export function loadScrapeSlugs() {
   if (!existsSync(CORPUS_PATHS.scrape)) return new Set();
   const doc = JSON.parse(readFileSync(CORPUS_PATHS.scrape, 'utf8'));
@@ -52,11 +72,13 @@ export function isInCorpus(slug) {
   return getCorpusAllowlist().has(slug);
 }
 
-/** Batches in the scraped directory cohort (W26–S26, etc.). */
+/** Batches in the scraped directory cohort (2025 + 2026–2027). */
 export function loadCohortBatches() {
-  if (!existsSync(CORPUS_PATHS.scrape)) return [];
-  const doc = JSON.parse(readFileSync(CORPUS_PATHS.scrape, 'utf8'));
-  return [...(doc.batches ?? [])];
+  if (existsSync(CORPUS_PATHS.scrape)) {
+    const doc = JSON.parse(readFileSync(CORPUS_PATHS.scrape, 'utf8'));
+    if (doc.batches?.length) return [...doc.batches];
+  }
+  return [...CANONICAL_COHORT_BATCHES];
 }
 
 /** Batch facet list: cohort batches (+ batches for launch-promoted slugs) with ≥1 company. */
@@ -69,10 +91,15 @@ export function explorerBatchFacets(companies, cohortBatches = loadCohortBatches
     counts.set(c.batch, (counts.get(c.batch) ?? 0) + 1);
     if (launchPromoted.has(c.slug)) extraBatches.add(c.batch);
   }
+  if (!cohortBatches.length) {
+    return [...counts.keys()]
+      .filter((b) => (counts.get(b) ?? 0) > 0)
+      .sort((a, b) => batchSortKey(a).localeCompare(batchSortKey(b)));
+  }
+
   const ordered = [
     ...cohortBatches,
     ...[...extraBatches].filter((b) => !cohortBatches.includes(b)).sort(),
   ];
-  const list = ordered.length ? ordered : [...counts.keys()].sort();
-  return list.filter((b) => (counts.get(b) ?? 0) > 0);
+  return ordered.filter((b) => (counts.get(b) ?? 0) > 0);
 }

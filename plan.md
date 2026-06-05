@@ -14,6 +14,15 @@ Expect several minutes (full corpus reload). Example: removing the **Education &
 
 **Checklist:** `git push` → Railway redeploy (API code) → **`db:migrate`** (data) → hard-refresh explorer → `curl …/api/bundle` and confirm `facets.sectors` matches repo.
 
+## Corpus scope (2025 + 2026–2027)
+
+**~1,029 classified companies** across **9 YC batches** (Winter 2025 → Winter 2027). Ingested via scrape-merge + Haiku phenotype/vertical classify (`corpus-2025` branch, merged to `main`).
+
+- **Scrape:** [`scrape.mjs`](scrape.mjs) + [`scripts/merge-scrape.mjs`](scripts/merge-scrape.mjs) — never scrape 2025 into main path without merge (overwrites 2026).
+- **LLM:** Haiku only for bulk ingest; confidence on every row. Sonnet via [`npm run audit:tiered`](package.json) on low-confidence escalations only (~15–25%).
+- **Cohort batches on Railway:** [`scripts/corpus-allowlist.mjs`](scripts/corpus-allowlist.mjs) `CANONICAL_COHORT_BATCHES` fallback when gitignored `output/yc_companies.json` is absent on the API host.
+- **10 unmapped** consumer/hardware slugs (searchable, no vertical column) — acceptable; &lt;5% gap threshold.
+
 ---
 
 **Vision:** Turn the research pipeline into a **production-grade web app** for ~50 users — enough to validate the product, share with collaborators, and prove you can ship something real. Not millions of users; focus on reliability, live data, and a polished explorer.
