@@ -1,5 +1,21 @@
 # YC Scrape — Production roadmap
 
+## Production data — run a fresh migrate after ontology / bundle changes
+
+**[recombinator.app](https://www.recombinator.app/) loads live data from Supabase via Railway `GET /api/bundle`, not the static `data.bundle.json` in git.** Pushing taxonomy or `npm run data:bundle` alone does **not** update what users see until Postgres is refreshed.
+
+After any change to sectors, verticals, gaps, or company classifications:
+
+```bash
+DATABASE_URL="postgresql://...supabase session pooler...?sslmode=require" npm run db:migrate
+```
+
+Expect several minutes (full corpus reload). Example: removing the **Education & Workforce** sector from `taxonomy/verticals-data.mjs` updated git/Vercel fallback but the live site still showed 15 columns until migrate (or the interim `EXCLUDED_SECTOR_IDS` filter in `db/queries.mjs`).
+
+**Checklist:** `git push` → Railway redeploy (API code) → **`db:migrate`** (data) → hard-refresh explorer → `curl …/api/bundle` and confirm `facets.sectors` matches repo.
+
+---
+
 **Vision:** Turn the research pipeline into a **production-grade web app** for ~50 users — enough to validate the product, share with collaborators, and prove you can ship something real. Not millions of users; focus on reliability, live data, and a polished explorer.
 
 **Pipeline (still):** batch scripts → JSON files in `output/`.

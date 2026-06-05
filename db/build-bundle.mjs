@@ -71,7 +71,7 @@ function buildPhenotypeTree(ontology, companiesByPhenotype) {
 export async function buildBundleFromDb() {
   const assignments = await fetchAssignmentsForBundle();
   const ontologies = await fetchOntologies();
-  const facets = await getFacets();
+  const { cohort_batches, ...facets } = await getFacets(assignments);
   const [bm_vertical, phenotype_industry, bm_vertical_gaps] = await Promise.all([
     fetchBmVerticalMatrix(),
     fetchPhenotypeIndustryMatrix(),
@@ -103,6 +103,7 @@ export async function buildBundleFromDb() {
     generated_at: new Date().toISOString(),
     source: 'postgres',
     meta: {
+      cohort_batches: cohort_batches ?? [],
       assignment_count: assignments.length,
       vertical_count: ontologies.verticals.length,
       phenotype_count: ontologies.phenotypes.length,

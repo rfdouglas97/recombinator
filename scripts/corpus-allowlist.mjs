@@ -51,3 +51,28 @@ export function getCorpusAllowlist() {
 export function isInCorpus(slug) {
   return getCorpusAllowlist().has(slug);
 }
+
+/** Batches in the scraped directory cohort (W26–S26, etc.). */
+export function loadCohortBatches() {
+  if (!existsSync(CORPUS_PATHS.scrape)) return [];
+  const doc = JSON.parse(readFileSync(CORPUS_PATHS.scrape, 'utf8'));
+  return [...(doc.batches ?? [])];
+}
+
+/** Batch facet list: cohort batches (+ batches for launch-promoted slugs) with ≥1 company. */
+export function explorerBatchFacets(companies, cohortBatches = loadCohortBatches()) {
+  const launchPromoted = loadLaunchIngestedSlugs();
+  const counts = new Map();
+  const extraBatches = new Set();
+  for (const c of companies) {
+    if (!c?.batch) continue;
+    counts.set(c.batch, (counts.get(c.batch) ?? 0) + 1);
+    if (launchPromoted.has(c.slug)) extraBatches.add(c.batch);
+  }
+  const ordered = [
+    ...cohortBatches,
+    ...[...extraBatches].filter((b) => !cohortBatches.includes(b)).sort(),
+  ];
+  const list = ordered.length ? ordered : [...counts.keys()].sort();
+  return list.filter((b) => (counts.get(b) ?? 0) > 0);
+}

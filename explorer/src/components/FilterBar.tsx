@@ -1,5 +1,7 @@
+import { useMemo } from 'react';
 import type { DataBundle, FilterState } from '../types';
 import { hasActiveSidebarFilters } from '../hooks/useFilterState';
+import { filterCompanies } from '../utils/filterCompanies';
 
 interface Props {
   bundle: DataBundle;
@@ -14,6 +16,20 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
   const industries = state.sector
     ? bundle.facets.industries.filter((i) => i.sector_id === state.sector)
     : bundle.facets.industries;
+
+  const batchCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const c of filterCompanies(bundle, { ...state, batch: '' })) {
+      if (!c.batch) continue;
+      counts.set(c.batch, (counts.get(c.batch) ?? 0) + 1);
+    }
+    return counts;
+  }, [bundle, state]);
+
+  const batchOptions = useMemo(
+    () => bundle.facets.batches.filter((b) => (batchCounts.get(b) ?? 0) > 0),
+    [bundle.facets.batches, batchCounts],
+  );
 
   return (
     <div className="sidebar">
@@ -43,9 +59,9 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
         <label>Batch</label>
         <select value={state.batch} onChange={(e) => onChange({ batch: e.target.value })}>
           <option value="">All batches</option>
-          {bundle.facets.batches.map((b) => (
+          {batchOptions.map((b) => (
             <option key={b} value={b}>
-              {b}
+              {b} ({batchCounts.get(b)})
             </option>
           ))}
         </select>

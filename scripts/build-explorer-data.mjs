@@ -7,6 +7,8 @@ import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
+import { explorerBatchFacets, loadCohortBatches } from './corpus-allowlist.mjs';
+
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = join(ROOT, 'explorer/public/data.bundle.json');
 
@@ -187,13 +189,15 @@ function main() {
     definition: m.definition,
   }));
 
-  const batches = [...new Set(assignments.map((a) => a.batch).filter(Boolean))].sort();
+  const cohortBatches = loadCohortBatches();
+  const batches = explorerBatchFacets(assignments, cohortBatches);
   const sectors = verticalOntology.sectors;
   const phenotypeFamilies = [...new Set(phenotypeOntology.phenotypes.map((p) => p.family))].sort();
 
   const bundle = {
     generated_at: new Date().toISOString(),
     meta: {
+      cohort_batches: cohortBatches,
       assignment_count: assignments.length,
       vertical_count: verticalOntology.verticals?.length ?? 0,
       phenotype_count: phenotypeOntology.phenotypes?.length ?? 0,

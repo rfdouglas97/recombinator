@@ -14,6 +14,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 import { query, closePool, pingDatabase } from './client.mjs';
+import { getCorpusAllowlist } from '../scripts/corpus-allowlist.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -506,7 +507,8 @@ async function main() {
     : [];
   if (companyRows.length) {
     await loadCompanies(companyRows);
-    await pruneCorpusOutsideSlugs(companyRows.map((r) => r.slug).filter(Boolean));
+    const allowlist = [...getCorpusAllowlist()];
+    await pruneCorpusOutsideSlugs(allowlist.length ? allowlist : companyRows.map((r) => r.slug).filter(Boolean));
   }
 
   await loadLaunchReviews(loadJson(PATHS.launchReviews));

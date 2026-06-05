@@ -46,6 +46,7 @@ export interface MatrixCellData {
 export interface DataBundle {
   generated_at: string;
   meta: {
+    cohort_batches?: string[];
     assignment_count: number;
     vertical_count: number;
     phenotype_count: number;

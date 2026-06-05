@@ -3,6 +3,7 @@
  */
 
 import { query } from './client.mjs';
+import { explorerBatchFacets, loadCohortBatches } from '../scripts/corpus-allowlist.mjs';
 
 /** Sectors hidden from explorer until ontology is ready (see plan.md Step H). */
 export const EXCLUDED_SECTOR_IDS = new Set(['education']);
@@ -218,11 +219,8 @@ export async function listLaunches({ limit = 50, verdict = null, band = null } =
   return rows;
 }
 
-export async function getFacets() {
-  const [batches, phenotypes, verticals, businessModels] = await Promise.all([
-    query(
-      `SELECT DISTINCT batch FROM companies WHERE is_stub = false AND batch IS NOT NULL AND batch <> '' ORDER BY batch`,
-    ),
+export async function getFacets(classifiedCompanies = null) {
+  const [phenotypes, verticals, businessModels] = await Promise.all([
     query(`SELECT id, label, family FROM phenotypes ORDER BY label`),
     query(
       `SELECT id, label, sector_id, industry_id, industry_label, sector_label FROM verticals ORDER BY label`,
@@ -240,10 +238,15 @@ export async function getFacets() {
   const visibleIndustries = industryRows.rows.filter((i) => sectorVisible(i.sector_id));
   const visibleVerticals = verticals.rows.filter((v) => sectorVisible(v.sector_id));
 
-  const batchList = batches.rows.map((r) => r.batch);
+  const cohortBatches = loadCohortBatches();
+  const batchList = explorerBatchFacets(
+    classifiedCompanies ?? [],
+    cohortBatches,
+  );
   const phenotypeFamilies = [...new Set(phenotypes.rows.map((p) => p.family).filter(Boolean))].sort();
 
   return {
+    cohort_batches: cohortBatches,
     batches: batchList,
     sectors: visibleSectors.map((s) => ({ id: s.id, label: s.label ?? s.id })),
     industries: visibleIndustries.map((i) => ({

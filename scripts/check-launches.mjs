@@ -30,7 +30,7 @@ import { verticalCandidatesForCompany } from '../agent/vertical-candidates.mjs';
 import { loadVerticalOntology, getVerticalById } from '../taxonomy/verticals.mjs';
 import { PHENOTYPE_TO_BM } from '../taxonomy/phenotype-to-bm.mjs';
 import { loadNormalizedAssignments, EVAL_PATHS } from './eval-utils.mjs';
-import { recordLaunchIngestedSlug, isInCorpus } from './corpus-allowlist.mjs';
+import { recordLaunchIngestedSlug, isInCorpus, loadCohortBatches } from './corpus-allowlist.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -429,11 +429,15 @@ async function appendRecentCorpusMissing(
 ) {
   const seen = new Set(toIngest.map((x) => x.launch.launch_id));
   const cutoff = Date.now() - lookbackDays * 24 * 60 * 60 * 1000;
+  const cohortBatches = new Set(loadCohortBatches());
   let added = 0;
 
   for (const launch of catalog.launches ?? []) {
     const slug = launch.company_slug;
     if (!slug || normBySlug.has(slug) || isInCorpus(slug)) continue;
+    if (cohortBatches.size && launch.company_batch && !cohortBatches.has(launch.company_batch)) {
+      continue;
+    }
     if (!launch.created_at || new Date(launch.created_at) < cutoff) continue;
     if (seen.has(launch.launch_id)) continue;
     seen.add(launch.launch_id);
