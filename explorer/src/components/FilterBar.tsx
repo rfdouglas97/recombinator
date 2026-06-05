@@ -3,10 +3,12 @@ import type { DataBundle, FilterState } from '../types';
 import { hasActiveSidebarFilters } from '../hooks/useFilterState';
 import { filterCompanies } from '../utils/filterCompanies';
 
+const SEASON_ORDER: Record<string, number> = { Winter: 0, Spring: 1, Summer: 2, Fall: 3 };
+
 function batchSortKey(batch: string) {
   const m = batch.match(/^(Winter|Spring|Summer|Fall)\s+(\d{4})$/);
   if (!m) return batch;
-  const season = { Winter: 0, Spring: 1, Summer: 2, Fall: 3 }[m[1] as keyof typeof season] ?? 9;
+  const season = SEASON_ORDER[m[1]] ?? 9;
   return `${m[2]}-${season}-${batch}`;
 }
 
