@@ -65,7 +65,7 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
           className="filter-reset-btn"
           onClick={onReset}
           disabled={!filtersActive}
-          title="Clear batch, sector, industry, and other sidebar filters"
+          title="Clear batch, YC industry, sub-industry, and other sidebar filters"
         >
           Reset filters
         </button>
@@ -92,12 +92,12 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
         </select>
       </div>
       <div className="filter-group">
-        <label>Sector</label>
+        <label>Industry</label>
         <select
           value={state.sector}
           onChange={(e) => onChange({ sector: e.target.value, industry: '' })}
         >
-          <option value="">All sectors</option>
+          <option value="">All industries</option>
           {bundle.facets.sectors.map((s) => (
             <option key={s.id} value={s.id}>
               {s.label}
@@ -106,9 +106,9 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
         </select>
       </div>
       <div className="filter-group">
-        <label>Industry</label>
+        <label>Sub-industry</label>
         <select value={state.industry} onChange={(e) => onChange({ industry: e.target.value })}>
-          <option value="">All industries</option>
+          <option value="">All sub-industries</option>
           {industries.map((i) => (
             <option key={i.id} value={i.id}>
               {i.label}

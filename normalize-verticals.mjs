@@ -24,8 +24,7 @@ import {
   getVerticalById,
 } from './taxonomy/verticals.mjs';
 import { STALE_EXPLICIT_VERTICALS } from './taxonomy/verticals-data.mjs';
-import { BM_LABELS, PHENOTYPE_TO_BM } from './taxonomy/phenotype-to-bm.mjs';
-import { refineArchetype } from './taxonomy/infer-archetype.mjs';
+import { BM_LABELS, asSingleBusinessModels, primaryBmForPhenotype } from './taxonomy/phenotype-to-bm.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)));
 const PATHS = {
@@ -71,17 +70,14 @@ function loadHeuristicBm() {
 }
 
 function resolveBusinessModels(assignment, heuristicBm) {
-  const refined = refineArchetype(assignment);
-  if (refined.business_models?.length) return refined.business_models;
+  if (assignment.business_models?.length) {
+    return asSingleBusinessModels(assignment.business_models, assignment.phenotype_primary_id);
+  }
 
-  const fromHeuristic = heuristicBm.get(refined.slug);
+  const fromHeuristic = heuristicBm.get(assignment.slug);
   if (fromHeuristic) return [fromHeuristic];
 
-  const phenotype = refined.phenotype_primary_id;
-  if (phenotype && PHENOTYPE_TO_BM[phenotype]) {
-    return PHENOTYPE_TO_BM[phenotype];
-  }
-  return ['BM-02'];
+  return [primaryBmForPhenotype(assignment.phenotype_primary_id)];
 }
 
 function isLlmCanonicalVertical(assignment) {
@@ -213,8 +209,7 @@ function buildObservedMatrix(normalized, assignments, heuristicBm) {
   for (const row of normalized) {
     if (!row.vertical_id) continue;
     const a = assignmentBySlug[row.slug];
-    const refined = a ? refineArchetype(a) : row;
-    const bms = resolveBusinessModels(refined, heuristicBm);
+    const bms = resolveBusinessModels(a ?? row, heuristicBm);
     for (const bm of bms) {
       const key = `${bm}::${row.vertical_id}`;
       if (!cells.has(key)) {
@@ -350,15 +345,16 @@ function main() {
 
     const enriched = assignments.map((a) => {
       const n = normalized.find((r) => r.slug === a.slug);
-      const refined = refineArchetype(a);
+      const business_models = resolveBusinessModels(a, heuristicBm);
       return {
-        ...refined,
+        ...a,
         vertical_id: n?.vertical_id ?? null,
         vertical_label: n?.vertical_label ?? null,
         vertical_sector_id: n?.sector_id ?? null,
         vertical_normalize_confidence: n?.normalize_confidence ?? 0,
         vertical_normalize_method: n?.normalize_method ?? 'unmapped',
-        business_models: resolveBusinessModels(refined, heuristicBm),
+        business_models,
+        primary_bm: business_models[0],
       };
     });
 

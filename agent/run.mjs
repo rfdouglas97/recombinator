@@ -31,7 +31,7 @@ import {
 import { classifyLocal } from './local-classifier.mjs';
 import { buildMatrix } from './matrix.mjs';
 import { normalizeLlmResult } from './normalize.mjs';
-import { refineArchetype } from '../taxonomy/infer-archetype.mjs';
+import { buildPhenotypeAssignment } from '../taxonomy/assignment-record.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -117,33 +117,7 @@ function appendAssignment(record) {
 
 function enrichAssignment(company, raw, ontology) {
   const pheno = findPhenotype(ontology, raw.phenotype_primary_id);
-  return refineArchetype({
-    slug: company.slug,
-    name: company.name,
-    website: company.website,
-    yc_profile_url: company.yc_profile_url,
-    batch: company.batch,
-    one_liner: company.description?.one_liner,
-    description_combined: company.description?.combined,
-    industry_sub_vertical: raw.industry_sub_vertical,
-    phenotype_primary_id: raw.phenotype_primary_id,
-    phenotype_secondary_id: raw.phenotype_secondary_id ?? null,
-    phenotype_primary_label: raw.phenotype_primary_label ?? pheno?.label,
-    phenotype_family: pheno?.family ?? null,
-    value_wedge: raw.value_wedge ?? pheno?.value_wedge,
-    ai_application: raw.ai_application ?? pheno?.ai_application,
-    ai_application_patterns: raw.ai_application_patterns ?? [],
-    what_they_sell: raw.what_they_sell,
-    ai_play: raw.ai_play,
-    who_pays: raw.who_pays,
-    confidence: raw.confidence,
-    rationale: raw.rationale,
-    proposed_phenotype: raw.proposed_phenotype ?? null,
-    classified_at: new Date().toISOString(),
-    method: raw.method ?? 'openai',
-    yc_industries: company.yc_industries,
-    yc_tags: company.yc_tags,
-  });
+  return buildPhenotypeAssignment(company, raw, pheno);
 }
 
 async function classifyWithLlm(company, ontology, apiConfig) {

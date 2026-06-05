@@ -19,8 +19,7 @@ import { compactPhenotypeCatalog } from './audit-prompts.mjs';
 import { loadOntology, findPhenotype } from './ontology.mjs';
 import { loadVerticalOntology, normalizeVertical, getVerticalById } from '../taxonomy/verticals.mjs';
 import { normalizeLlmResult } from './normalize.mjs';
-import { PHENOTYPE_TO_BM } from '../taxonomy/phenotype-to-bm.mjs';
-import { refineArchetype } from '../taxonomy/infer-archetype.mjs';
+import { asSingleBusinessModels } from '../taxonomy/phenotype-to-bm.mjs';
 import { verticalCandidatesForCompany } from './vertical-candidates.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -125,6 +124,10 @@ function applyAuditSuggestions(normalized, audit, ontology, candidates) {
     }
   }
 
+  if (audit.suggested_business_models?.length) {
+    normalized.business_models = audit.suggested_business_models;
+  }
+
   return normalized;
 }
 
@@ -184,20 +187,17 @@ function enrichAssignment(company, raw, ontology, verticalOntology) {
     },
     yc_industries: company.yc_industries,
     yc_tags: company.yc_tags,
-    business_models:
-      PHENOTYPE_TO_BM[raw.phenotype_primary_id] ??
-      PHENOTYPE_TO_BM[pheno?.id] ??
-      ['BM-02'],
+    business_models: asSingleBusinessModels(raw.business_models, raw.phenotype_primary_id),
   };
 
-  const refined = refineArchetype(draft);
-  const phenoAfter = findPhenotype(ontology, refined.phenotype_primary_id);
+  const phenoAfter = findPhenotype(ontology, draft.phenotype_primary_id);
+  draft.primary_bm = draft.business_models[0];
   return {
-    ...refined,
-    phenotype_primary_label: phenoAfter?.label ?? refined.phenotype_primary_label,
-    phenotype_family: phenoAfter?.family ?? refined.phenotype_family,
-    value_wedge: phenoAfter?.value_wedge ?? refined.value_wedge,
-    ai_application: phenoAfter?.ai_application ?? refined.ai_application,
+    ...draft,
+    phenotype_primary_label: phenoAfter?.label ?? draft.phenotype_primary_label,
+    phenotype_family: phenoAfter?.family ?? draft.phenotype_family,
+    value_wedge: phenoAfter?.value_wedge ?? draft.value_wedge,
+    ai_application: phenoAfter?.ai_application ?? draft.ai_application,
   };
 }
 

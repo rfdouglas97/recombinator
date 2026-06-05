@@ -8,6 +8,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 import { explorerBatchFacets, loadCohortBatches } from './corpus-allowlist.mjs';
+import { buildYcFacetsFromCompanies, buildYcIndustryVerticalTree } from '../taxonomy/yc-industries.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = join(ROOT, 'explorer/public/data.bundle.json');
@@ -21,53 +22,6 @@ function readJson(rel, fallback = null) {
 function truncate(s, max = 2000) {
   if (!s) return null;
   return s.length > max ? s.slice(0, max) + '…' : s;
-}
-
-function buildIndustryVerticalTree(verticalOntology, companiesByVertical) {
-  const { sectors, industries, verticals } = verticalOntology;
-  const industryById = Object.fromEntries(industries.map((i) => [i.id, i]));
-
-  const root = { id: 'root', label: 'All verticals', type: 'root', children: [] };
-
-  for (const sector of sectors) {
-    const sectorIndustries = industries.filter((i) => i.sector_id === sector.id);
-    const sectorNode = {
-      id: sector.id,
-      label: sector.label,
-      type: 'sector',
-      children: [],
-    };
-
-    for (const ind of sectorIndustries) {
-      const indVerts = verticals.filter((v) => v.industry_id === ind.id);
-      const indNode = {
-        id: ind.id,
-        label: ind.label,
-        type: 'industry',
-        children: [],
-      };
-
-      for (const v of indVerts) {
-        const slugs = companiesByVertical[v.id] ?? [];
-        indNode.children.push({
-          id: v.id,
-          label: v.label,
-          type: 'vertical',
-          workflow: v.workflow ?? null,
-          companyCount: slugs.length,
-          children: slugs.map((slug) => ({
-            id: slug,
-            label: slug,
-            type: 'company',
-            children: [],
-          })),
-        });
-      }
-      if (indNode.children.length) sectorNode.children.push(indNode);
-    }
-    if (sectorNode.children.length) root.children.push(sectorNode);
-  }
-  return root;
 }
 
 function buildPhenotypeTree(ontology, companiesByPhenotype) {
@@ -139,10 +93,12 @@ function main() {
       phenotype_family: a.phenotype_family,
       phenotype_secondary_id: a.phenotype_secondary_id ?? null,
       business_models: a.business_models ?? [],
+      primary_bm: a.primary_bm ?? a.business_models?.[0] ?? null,
       confidence: a.confidence ?? null,
       what_they_sell: a.what_they_sell ?? null,
       ai_play: a.ai_play ?? null,
       yc_tags: a.yc_tags ?? [],
+      yc_industries: a.yc_industries ?? [],
     };
 
     if (a.vertical_id) {
@@ -191,7 +147,7 @@ function main() {
 
   const cohortBatches = loadCohortBatches();
   const batches = explorerBatchFacets(assignments, cohortBatches);
-  const sectors = verticalOntology.sectors;
+  const ycFacets = buildYcFacetsFromCompanies(Object.values(companies));
   const phenotypeFamilies = [...new Set(phenotypeOntology.phenotypes.map((p) => p.family))].sort();
 
   const bundle = {
@@ -214,12 +170,8 @@ function main() {
     },
     facets: {
       batches,
-      sectors: sectors.map((s) => ({ id: s.id, label: s.label })),
-      industries: verticalOntology.industries.map((i) => ({
-        id: i.id,
-        label: i.label,
-        sector_id: i.sector_id,
-      })),
+      sectors: ycFacets.sectors,
+      industries: ycFacets.industries.map(({ id, label, sector_id }) => ({ id, label, sector_id })),
       businessModels,
       phenotypeFamilies,
       phenotypes: phenotypeOntology.phenotypes.map((p) => ({
@@ -237,7 +189,7 @@ function main() {
       })),
     },
     trees: {
-      industry_vertical: buildIndustryVerticalTree(verticalOntology, companiesByVertical),
+      industry_vertical: buildYcIndustryVerticalTree(companies, verticalOntology),
       phenotype: buildPhenotypeTree(phenotypeOntology, companiesByPhenotype),
     },
     companies,

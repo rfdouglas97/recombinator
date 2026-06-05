@@ -10,36 +10,7 @@ import {
   fetchOntologies,
   getFacets,
 } from './queries.mjs';
-
-function buildIndustryVerticalTree(verticalOntology, companiesByVertical) {
-  const { sectors, industries, verticals } = verticalOntology;
-  const root = { id: 'root', label: 'All verticals', type: 'root', children: [] };
-
-  for (const sector of sectors) {
-    const sectorIndustries = industries.filter((i) => i.sector_id === sector.id);
-    const sectorNode = { id: sector.id, label: sector.label, type: 'sector', children: [] };
-
-    for (const ind of sectorIndustries) {
-      const indVerts = verticals.filter((v) => v.industry_id === ind.id);
-      const indNode = { id: ind.id, label: ind.label, type: 'industry', children: [] };
-
-      for (const v of indVerts) {
-        const slugs = companiesByVertical[v.id] ?? [];
-        indNode.children.push({
-          id: v.id,
-          label: v.label,
-          type: 'vertical',
-          workflow: v.workflow ?? null,
-          companyCount: slugs.length,
-          children: slugs.map((slug) => ({ id: slug, label: slug, type: 'company', children: [] })),
-        });
-      }
-      if (indNode.children.length) sectorNode.children.push(indNode);
-    }
-    if (sectorNode.children.length) root.children.push(sectorNode);
-  }
-  return root;
-}
+import { buildYcIndustryVerticalTree } from '../taxonomy/yc-industries.mjs';
 
 function buildPhenotypeTree(ontology, companiesByPhenotype) {
   const families = [...new Set(ontology.phenotypes.map((p) => p.family))];
@@ -113,7 +84,7 @@ export async function buildBundleFromDb() {
     },
     facets,
     trees: {
-      industry_vertical: buildIndustryVerticalTree(verticalOntology, companiesByVertical),
+      industry_vertical: buildYcIndustryVerticalTree(companies, verticalOntology),
       phenotype: buildPhenotypeTree(phenotypeOntology, companiesByPhenotype),
     },
     companies,

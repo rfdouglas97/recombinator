@@ -26,11 +26,14 @@ export interface Company {
   phenotype_primary_label: string;
   phenotype_family: string;
   phenotype_secondary_id: string | null;
+  /** Primary BM is always business_models[0] after single-BM normalization. */
   business_models: string[];
+  primary_bm?: string;
   confidence: number | null;
   what_they_sell: string | null;
   ai_play: string | null;
   yc_tags: string[];
+  yc_industries: string[];
 }
 
 export interface MatrixCellData {

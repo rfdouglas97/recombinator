@@ -4,6 +4,7 @@
 
 import { query } from './client.mjs';
 import { explorerBatchFacets, loadCohortBatches } from '../scripts/corpus-allowlist.mjs';
+import { buildYcFacetsFromCompanies } from '../taxonomy/yc-industries.mjs';
 
 /** Sectors hidden from explorer until ontology is ready (see plan.md Step H). */
 export const EXCLUDED_SECTOR_IDS = new Set(['education']);
@@ -39,13 +40,14 @@ export function rowToCompany(row) {
     what_they_sell: row.what_they_sell,
     ai_play: row.ai_play,
     yc_tags: row.yc_tags ?? [],
+    yc_industries: row.yc_industries ?? [],
   };
 }
 
 const COMPANY_SELECT = `
   SELECT
     c.slug, c.name, c.website, c.yc_profile_url, c.batch, c.one_liner,
-    c.description_combined, c.yc_tags,
+    c.description_combined, c.yc_tags, c.yc_industries,
     cc.industry_sub_vertical, cc.vertical_id, cc.vertical_label, cc.vertical_sector_id,
     cc.phenotype_primary_id, cc.phenotype_primary_label, cc.phenotype_family,
     cc.phenotype_secondary_id, cc.confidence, cc.what_they_sell, cc.ai_play,
@@ -228,15 +230,8 @@ export async function getFacets(classifiedCompanies = null) {
     query(`SELECT code AS id, label FROM business_models ORDER BY code`),
   ]);
 
-  const sectorRows = await query(
-    `SELECT DISTINCT sector_id AS id, sector_label AS label FROM verticals WHERE sector_id IS NOT NULL ORDER BY sector_id`,
-  );
-  const industryRows = await query(
-    `SELECT DISTINCT industry_id AS id, industry_label AS label, sector_id FROM verticals WHERE industry_id IS NOT NULL ORDER BY industry_label`,
-  );
-  const visibleSectors = sectorRows.rows.filter((s) => sectorVisible(s.id));
-  const visibleIndustries = industryRows.rows.filter((i) => sectorVisible(i.sector_id));
   const visibleVerticals = verticals.rows.filter((v) => sectorVisible(v.sector_id));
+  const ycFacets = buildYcFacetsFromCompanies(classifiedCompanies ?? []);
 
   const cohortBatches = loadCohortBatches();
   const batchList = explorerBatchFacets(
@@ -248,12 +243,8 @@ export async function getFacets(classifiedCompanies = null) {
   return {
     cohort_batches: cohortBatches,
     batches: batchList,
-    sectors: visibleSectors.map((s) => ({ id: s.id, label: s.label ?? s.id })),
-    industries: visibleIndustries.map((i) => ({
-      id: i.id,
-      label: i.label ?? i.id,
-      sector_id: i.sector_id,
-    })),
+    sectors: ycFacets.sectors,
+    industries: ycFacets.industries.map(({ id, label, sector_id }) => ({ id, label, sector_id })),
     businessModels: businessModels.rows.map((b) => ({
       id: b.id,
       label: b.label,
@@ -286,7 +277,7 @@ export async function fetchBmVerticalMatrix() {
            array_agg(c.slug ORDER BY c.slug) AS slugs
     FROM companies c
     INNER JOIN company_classifications cc ON cc.company_slug = c.slug
-    INNER JOIN company_business_models cbm ON cbm.company_slug = c.slug
+    INNER JOIN company_business_models cbm ON cbm.company_slug = c.slug AND cbm.is_primary = true
     LEFT JOIN business_models bm ON bm.code = cbm.business_model_code
     WHERE cc.vertical_id IS NOT NULL AND c.is_stub = false
     GROUP BY cbm.business_model_code, bm.label, cc.vertical_id, cc.vertical_label, cc.vertical_sector_id

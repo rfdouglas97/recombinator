@@ -1,4 +1,5 @@
 import type { Company, DataBundle, Filters } from '../types';
+import { companyMatchesYcIndustry, ycParent } from './ycIndustries';
 
 function companyFilterHaystack(c: Company, bundle: DataBundle): string {
   const v = bundle.facets.verticals.find((x) => x.id === c.vertical_id);
@@ -12,6 +13,7 @@ function companyFilterHaystack(c: Company, bundle: DataBundle): string {
     c.vertical_id,
     v?.industry_label,
     v?.sector_label,
+    ...(c.yc_industries ?? []),
   ]
     .filter(Boolean)
     .join(' ')
@@ -22,11 +24,8 @@ export function filterCompanies(bundle: DataBundle, filters: Filters): Company[]
   const q = filters.search.trim().toLowerCase();
   return Object.values(bundle.companies).filter((c) => {
     if (filters.batch && c.batch !== filters.batch) return false;
-    if (filters.sector && c.vertical_sector_id !== filters.sector) return false;
-    if (filters.industry) {
-      const v = bundle.facets.verticals.find((x) => x.id === c.vertical_id);
-      if (v?.industry_id !== filters.industry) return false;
-    }
+    if (filters.sector && ycParent(c.yc_industries) !== filters.sector) return false;
+    if (filters.industry && !companyMatchesYcIndustry(c.yc_industries, filters.industry)) return false;
     if (filters.phenotypeFamily && c.phenotype_family !== filters.phenotypeFamily) return false;
     if (filters.businessModel && !c.business_models.includes(filters.businessModel)) return false;
     if (filters.minConfidence > 0 && (c.confidence ?? 0) < filters.minConfidence) return false;

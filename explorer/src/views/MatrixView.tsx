@@ -141,9 +141,9 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
               onChange({ matrixMode: e.target.value as FilterState['matrixMode'] })
             }
           >
-            <option value="bm_sector">BM × Sector</option>
+            <option value="bm_sector">BM × Industry</option>
             <option value="bm_industry">BM × Sub-industry</option>
-            <option value="bm_vertical">BM × Vertical</option>
+            <option value="bm_vertical">BM × Workflow</option>
           </select>
         </label>
         <label>

@@ -11,8 +11,8 @@ import { loadOntology, getOntologySummary, findPhenotype } from './ontology.mjs'
 import { companySystemPrompt, companyUserPrompt } from './prompts.mjs';
 import { normalizeLlmResult } from './normalize.mjs';
 import { classifyLocal } from './local-classifier.mjs';
-import { refineArchetype } from '../taxonomy/infer-archetype.mjs';
-import { PHENOTYPE_TO_BM } from '../taxonomy/phenotype-to-bm.mjs';
+import { asSingleBusinessModels } from '../taxonomy/phenotype-to-bm.mjs';
+import { buildPhenotypeAssignment } from '../taxonomy/assignment-record.mjs';
 import { loadVerticalOntology, getVerticalById, resolveSlugVerticalOverride } from '../taxonomy/verticals.mjs';
 import { verticalCandidatesForCompany } from './vertical-candidates.mjs';
 import { classifyOne, resolveVerticalClassifyApiConfig } from './classify-verticals.mjs';
@@ -25,39 +25,7 @@ const SEEDS_PATH = join(ROOT, 'taxonomy/phenotype-seeds.json');
 
 function enrichPhenotypeAssignment(company, raw, ontology) {
   const pheno = findPhenotype(ontology, raw.phenotype_primary_id);
-  return refineArchetype({
-    slug: company.slug,
-    name: company.name,
-    website: company.website,
-    yc_profile_url: company.yc_url
-      ? `https://www.ycombinator.com/companies/${company.slug}`
-      : company.yc_profile_url,
-    batch: company.batch,
-    one_liner: company.description?.one_liner ?? company.one_liner,
-    description_combined: company.description?.combined ?? company.long_description,
-    industry_sub_vertical: raw.industry_sub_vertical,
-    phenotype_primary_id: raw.phenotype_primary_id,
-    phenotype_secondary_id: raw.phenotype_secondary_id ?? null,
-    phenotype_primary_label: raw.phenotype_primary_label ?? pheno?.label,
-    phenotype_family: pheno?.family ?? null,
-    value_wedge: raw.value_wedge ?? pheno?.value_wedge,
-    ai_application: raw.ai_application ?? pheno?.ai_application,
-    ai_application_patterns: raw.ai_application_patterns ?? [],
-    what_they_sell: raw.what_they_sell,
-    ai_play: raw.ai_play,
-    who_pays: raw.who_pays,
-    confidence: raw.confidence,
-    rationale: raw.rationale,
-    proposed_phenotype: raw.proposed_phenotype ?? null,
-    classified_at: new Date().toISOString(),
-    method: raw.method ?? 'launch_phenotype_agent',
-    yc_industries: company.yc_industries ?? [],
-    yc_tags: company.yc_tags ?? [],
-    business_models:
-      raw.business_models?.length > 0
-        ? raw.business_models
-        : (PHENOTYPE_TO_BM[raw.phenotype_primary_id] ?? ['BM-02']).slice(0, 1),
-  });
+  return buildPhenotypeAssignment(company, { ...raw, method: raw.method ?? 'launch_phenotype_agent' }, pheno);
 }
 
 async function classifyPhenotypeWithLlm(company, ontology, apiConfig) {
@@ -118,10 +86,8 @@ export async function classifyLaunchCompany(company, opts = {}) {
 
   record = await classifyOne(record, verticalOntology, apiConfig, maxCandidates, hints);
   record.method = 'launch_agent';
-  record.business_models =
-    record.business_models?.length > 0
-      ? record.business_models
-      : (PHENOTYPE_TO_BM[record.phenotype_primary_id] ?? ['BM-02']).slice(0, 1);
+  record.business_models = asSingleBusinessModels(record.business_models, record.phenotype_primary_id);
+  record.primary_bm = record.business_models[0];
 
   return record;
 }

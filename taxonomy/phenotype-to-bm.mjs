@@ -48,6 +48,20 @@ export const PHENOTYPE_TO_BM = {
   'ai-research-automation': ['BM-09'],
 };
 
+/** Default primary BM when only phenotype is known (first compatible code). */
+export function primaryBmForPhenotype(phenotypeId) {
+  const allowed = PHENOTYPE_TO_BM[phenotypeId];
+  return allowed?.[0] ?? 'BM-02';
+}
+
+/** Collapse to exactly one BM code for company matrix placement. */
+export function asSingleBusinessModels(codes, phenotypeId = null) {
+  if (Array.isArray(codes) && codes.length === 1) return codes;
+  if (Array.isArray(codes) && codes.length > 1) return [codes[0]];
+  if (typeof codes === 'string' && codes) return [codes];
+  return [primaryBmForPhenotype(phenotypeId)];
+}
+
 export function phenotypeAllowedForBm(phenotypeId, bmCode) {
   const allowed = PHENOTYPE_TO_BM[phenotypeId];
   if (!allowed) return true;

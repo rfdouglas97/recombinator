@@ -264,17 +264,19 @@ async function loadCompanies(rows) {
     );
 
     await query(`DELETE FROM company_business_models WHERE company_slug = $1`, [r.slug]);
-    const bms = r.business_models ?? [];
-    for (let i = 0; i < bms.length; i++) {
-      const code = bms[i];
+    const primaryBm =
+      r.primary_bm ??
+      (Array.isArray(r.business_models) && r.business_models.length === 1 ? r.business_models[0] : null) ??
+      (Array.isArray(r.business_models) && r.business_models.length > 1 ? r.business_models[0] : null);
+    if (primaryBm) {
       await query(
         `INSERT INTO business_models (code, label) VALUES ($1, $1) ON CONFLICT DO NOTHING`,
-        [code],
+        [primaryBm],
       );
       await query(
         `INSERT INTO company_business_models (company_slug, business_model_code, is_primary)
-         VALUES ($1, $2, $3)`,
-        [r.slug, code, i === 0],
+         VALUES ($1, $2, true)`,
+        [r.slug, primaryBm],
       );
     }
   }

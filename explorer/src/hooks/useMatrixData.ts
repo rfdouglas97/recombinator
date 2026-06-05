@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import type { DataBundle, FilterState, MatrixMode } from '../types';
 import { filteredSlugSet } from '../utils/filterCompanies';
+import { verticalIdsForYcIndustry, verticalIdsForYcParent, ycParent } from '../utils/ycIndustries';
 
 export interface MatrixRow {
   id: string;
@@ -92,19 +93,24 @@ export function resolveGapVertical(
   if (mode === 'bm_vertical') {
     const v = bundle.facets.verticals.find((x) => x.id === colId);
     if (!v) return null;
-    return { verticalId: v.id, verticalLabel: v.label, sectorId: v.sector_id };
+    const sectorId = ycParent(
+      Object.values(bundle.companies).find((c) => c.vertical_id === v.id)?.yc_industries,
+    );
+    return { verticalId: v.id, verticalLabel: v.label, sectorId: sectorId ?? '' };
   }
-  const verts =
+  const vertIdSet =
     mode === 'bm_sector'
-      ? bundle.facets.verticals.filter((v) => v.sector_id === colId)
-      : bundle.facets.verticals.filter((v) => v.industry_id === colId);
+      ? verticalIdsForYcParent(bundle.companies, colId)
+      : verticalIdsForYcIndustry(bundle.companies, colId);
+  const verts = bundle.facets.verticals.filter((v) => vertIdSet.has(v.id));
+  const sectorId = mode === 'bm_sector' ? colId : colId.split('::')[0] ?? '';
   for (const v of verts) {
     if (gapSet.has(`${bmId}|${v.id}`)) {
-      return { verticalId: v.id, verticalLabel: v.label, sectorId: v.sector_id };
+      return { verticalId: v.id, verticalLabel: v.label, sectorId };
     }
   }
   const v = verts[0];
-  return v ? { verticalId: v.id, verticalLabel: v.label, sectorId: v.sector_id } : null;
+  return v ? { verticalId: v.id, verticalLabel: v.label, sectorId } : null;
 }
 
 export function useMatrixData(bundle: DataBundle, state: FilterState) {
@@ -132,7 +138,8 @@ export function useMatrixData(bundle: DataBundle, state: FilterState) {
 
       for (const bm of rows) {
         for (const sec of cols) {
-          const verts = bundle.facets.verticals.filter((v) => v.sector_id === sec.id);
+          const vertIdSet = verticalIdsForYcParent(bundle.companies, sec.id, slugFilter);
+          const verts = bundle.facets.verticals.filter((v) => vertIdSet.has(v.id));
           const cell = aggregateBmCells(bundle, bm.id, verts, sec.id, slugFilter, gapSet);
           cells.push(cell);
           cellMap.set(`${bm.id}|${sec.id}`, cell);
@@ -156,7 +163,8 @@ export function useMatrixData(bundle: DataBundle, state: FilterState) {
 
       for (const bm of rows) {
         for (const ind of cols) {
-          const verts = bundle.facets.verticals.filter((v) => v.industry_id === ind.id);
+          const vertIdSet = verticalIdsForYcIndustry(bundle.companies, ind.id, slugFilter);
+          const verts = bundle.facets.verticals.filter((v) => vertIdSet.has(v.id));
           const cell = aggregateBmCells(bundle, bm.id, verts, ind.id, slugFilter, gapSet);
           cells.push(cell);
           cellMap.set(`${bm.id}|${ind.id}`, cell);
@@ -167,10 +175,20 @@ export function useMatrixData(bundle: DataBundle, state: FilterState) {
       return { rows, cols, cells, cellMap, max, grouped: true };
     }
 
-    // BM × vertical
-    let verts = bundle.facets.verticals;
-    if (state.sector) verts = verts.filter((v) => v.sector_id === state.sector);
-    if (state.industry) verts = verts.filter((v) => v.industry_id === state.industry);
+    // BM × workflow vertical
+    let vertIdSet: Set<string> | null = null;
+    if (state.sector) {
+      vertIdSet = verticalIdsForYcParent(bundle.companies, state.sector, slugFilter);
+      if (state.industry) {
+        const subSet = verticalIdsForYcIndustry(bundle.companies, state.industry, slugFilter);
+        vertIdSet = new Set([...vertIdSet].filter((id) => subSet.has(id)));
+      }
+    } else if (state.industry) {
+      vertIdSet = verticalIdsForYcIndustry(bundle.companies, state.industry, slugFilter);
+    }
+    let verts = vertIdSet
+      ? bundle.facets.verticals.filter((v) => vertIdSet!.has(v.id))
+      : bundle.facets.verticals;
 
     const cols: MatrixCol[] = verts.map((v) => ({
       id: v.id,
