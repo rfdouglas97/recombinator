@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "updated_at": "2026-06-04T00:39:33.549Z",
+  "updated_at": "2026-06-05T13:52:52.229Z",
   "phenotypes": [
     {
       "id": "agent-runtime-infra",
@@ -179,6 +179,196 @@
       "value_wedge": "network_effects",
       "ai_application": "matching_routing",
       "description": "Two-sided venues: exchanges, perps, private-market liquidity, investor matching — not selling insurance or a bank SKU"
+    },
+    {
+      "id": "consumer-ai-creation-platform",
+      "label": "Consumer AI Creation Platform (Social Distribution)",
+      "family": "consumer",
+      "value_wedge": "consumer_subscription",
+      "ai_application": "low_code_ai_tooling",
+      "description": "Social platforms enabling end-users (students, prosumers, creators) to build and share AI-powered experiences (chatbots, games, interactive tools) without coding. Monetized via freemium subscriptions, premium creation features, or creator revenue sharing. Distribution moat is social graph and network effects, not technical lock-in. Examples: A1Zap.",
+      "discovered_at": "2026-06-05T13:43:28.579Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "foundation-model-domain-infrastructure",
+      "label": "Domain-Specific Foundation Models as Infrastructure",
+      "family": "ai_infrastructure",
+      "value_wedge": "rd_acceleration",
+      "ai_application": "scientific_workflow",
+      "description": "Specialized foundation models trained on domain-specific data (genomics, microbiome, security patterns) that serve as reusable inference infrastructure for downstream customers. Value derives from learned representations, predictive accuracy, and ability to replace manual domain expertise with scalable AI inference. Typically monetized via SaaS subscription or licensing to enterprises in regulated industries (pharma, biotech, healthcare).",
+      "discovered_at": "2026-06-05T13:43:54.882Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "vertical-workflow-automation-ai",
+      "label": "Vertical Workflow Automation Agent",
+      "family": "vertical_automation",
+      "value_wedge": "workflow_replacement",
+      "ai_application": "autonomous_workflow",
+      "description": "AI agents that automate end-to-end workflows in specific verticals (construction, manufacturing, professional services) by parsing unstructured domain documents (blueprints, specs, PDFs) and integrating with existing ERPs/tools. Replaces manual, detail-intensive processes with autonomous execution. High switching cost via ERP integration and domain expertise.",
+      "discovered_at": "2026-06-05T13:44:22.277Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "curated-domain-dataset-provider",
+      "label": "Curated Domain Dataset Provider",
+      "family": "data_assets",
+      "value_wedge": "data_asset",
+      "ai_application": "dataset_creation",
+      "description": "Companies that collect, curate, and annotate proprietary datasets (audio, images, structured data) with human expert validation for specific AI model training domains (speech, vision, NLP). Compete on data diversity, quality, and domain coverage. Licensing model to AI labs and model builders.",
+      "discovered_at": "2026-06-05T13:44:22.277Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "vertical-agentic-workflow-saas",
+      "label": "Vertical Agentic Workflow SaaS",
+      "family": "vertical_automation",
+      "value_wedge": "workflow_replacement",
+      "ai_application": "autonomous_workflow",
+      "description": "End-user-facing SaaS product that deploys autonomous AI agents to replace or augment human job functions within a specific vertical (e.g., customer service, procurement, HR). Agents integrate with vertical-specific tools, learn workflows, and execute tasks autonomously. Differentiated from horizontal copilots by vertical focus and from agent infrastructure by being the end-product sold to customers. Examples: Calltree (call center agents), Candor (procurement agents).",
+      "discovered_at": "2026-06-05T13:44:49.674Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "gov-critical-workflow-automation",
+      "label": "Government-Critical Workflow Automation",
+      "family": "regulated_workflow",
+      "value_wedge": "risk_reduction",
+      "ai_application": "autonomous_workflow",
+      "description": "AI-driven automation of high-compliance, high-friction workflows in law enforcement and public safety. Focuses on eliminating manual data processing (transcription, evidence synthesis, administrative tasks) while maintaining audit trails, regulatory compliance, and transparency. Sold to government agencies as mission-critical infrastructure.",
+      "discovered_at": "2026-06-05T13:45:21.119Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "edge-inference-runtime",
+      "label": "Edge Inference Runtime & Optimization",
+      "family": "infrastructure",
+      "value_wedge": "infrastructure_pickaxe",
+      "ai_application": "model_optimization_deployment",
+      "description": "Infrastructure layer enabling efficient deployment of frontier AI models on edge devices, mobile, and on-prem hardware. Solves model compression, quantization, device-agnostic runtime, and cost optimization without cloud lock-in. Targets enterprises and device manufacturers needing local inference.",
+      "discovered_at": "2026-06-05T13:45:48.502Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "ai-native-regulated-product",
+      "label": "AI-Native Regulated Financial/Insurance Product",
+      "family": "regulated_product",
+      "value_wedge": "regulated_product",
+      "ai_application": "risk_underwriting",
+      "description": "Insurance, lending, or compliance products where AI is the core SKU differentiator. AI enables real-time risk scoring, dynamic pricing, automated underwriting, and claims prediction at scale. Company takes underwriting/credit/compliance risk directly (not a software vendor to regulated entities). Examples: Iron Grid (hardware insurance), embedded insurance platforms.",
+      "discovered_at": "2026-06-05T13:47:12.883Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "agent-workflow-abstraction-infra",
+      "label": "Agent Workflow Abstraction Infrastructure",
+      "family": "agent_infrastructure",
+      "value_wedge": "workflow_conversion",
+      "ai_application": "workflow_to_api_abstraction",
+      "description": "Developer-facing infrastructure (CLI, SDK, open-source) that converts human-driven workflows (website interactions, manual processes) into reliable, reusable APIs and autonomous agent-executable operations. Enables agents to interact with legacy systems and web-based workflows without custom integration. Example: Libretto (website workflows → APIs for agents).",
+      "discovered_at": "2026-06-05T13:47:46.319Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "agent-security-control-plane",
+      "label": "Agent Security & Access Control Infrastructure",
+      "family": "agent_infrastructure",
+      "value_wedge": "trust_and_quality",
+      "ai_application": "evaluation_monitoring",
+      "description": "Zero-trust authentication, authorization, auditing, and threat detection infrastructure for multi-agent systems. Enables enterprises to safely delegate account/system access to agents with fine-grained permissions, revocable credentials, and comprehensive audit trails. Solves the critical security gap between rapid agentic adoption and mature security controls. Buyers: CISOs, security teams in regulated/high-stakes domains.",
+      "discovered_at": "2026-06-05T13:48:44.285Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "gpu-accelerated-analytics-infrastructure",
+      "label": "GPU-Accelerated Analytics Infrastructure",
+      "family": "infrastructure",
+      "value_wedge": "infrastructure_pickaxe",
+      "ai_application": "compute_optimization",
+      "description": "Managed GPU-accelerated compute layer for SQL/Spark analytics workloads. Optimizes query execution, reduces latency and cost, and maintains compatibility with existing data tools (Spark, SQL, cloud platforms). Sold to data engineers and analytics teams as a drop-in replacement or optimization layer. AI/ML workloads benefit from the same hardware acceleration.",
+      "discovered_at": "2026-06-05T13:49:02.402Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "database-scaling-infrastructure",
+      "label": "Database Scaling & Query Routing Infrastructure",
+      "family": "infrastructure",
+      "value_wedge": "infrastructure_pickaxe",
+      "ai_application": "query_optimization_routing",
+      "description": "Infrastructure layer that intelligently scales and distributes database queries across multiple instances (sharding, load balancing, pooling) using SQL parsing and query analysis. Solves the 'scaling bottleneck' problem: applications hit single-database limits but lack tools to transparently shard without code changes. AI/ML enables automatic shard selection, query routing, and cost optimization. Sold to engineering teams as a drop-in proxy/middleware for managed databases.",
+      "discovered_at": "2026-06-05T13:49:19.125Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "domain-expert-replacement-agent",
+      "label": "Domain Expert Replacement Agent",
+      "family": "vertical_automation",
+      "value_wedge": "expertise_scarcity_resolution",
+      "ai_application": "autonomous_specialist_support",
+      "description": "Vertical SaaS deploying AI agents fine-tuned or retrieval-augmented on domain-specific knowledge (technical manuals, regulations, specialist expertise) to replace or augment scarce, expensive human experts. Targets knowledge-intensive verticals (industrial equipment support, HVAC, EV infrastructure, etc.) where expert supply is constrained and training is expensive. Monetized per-incident, per-ticket, or per-product-line.",
+      "discovered_at": "2026-06-05T13:50:16.103Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "model-optimization-rl",
+      "label": "Model Optimization via Reinforcement Learning",
+      "family": "agent_infrastructure",
+      "value_wedge": "trust_and_quality",
+      "ai_application": "rl_fine_tuning",
+      "description": "Infrastructure that automates model improvement by converting observability data, reward signals, and evaluation feedback into continuous RL-driven optimization loops. Eliminates manual prompt engineering and enables models to self-improve from production data without retraining.",
+      "discovered_at": "2026-06-05T13:50:46.852Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "vertical-ai-operating-system",
+      "label": "Vertical AI Operating System",
+      "family": "regulated_product",
+      "value_wedge": "workflow_automation",
+      "ai_application": "workflow_orchestration",
+      "description": "Industry-specific back-office platform that bundles AI agents, workflow orchestration, and domain logic into a unified operating system for complex, regulated verticals (supply chain, distribution, OEM operations). Automates multi-step procurement, quoting, and coordination workflows.",
+      "discovered_at": "2026-06-05T13:50:46.852Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "regulated-ai-decisioning-product",
+      "label": "AI-Native Regulated Decisioning Product",
+      "family": "regulated_product",
+      "value_wedge": "regulated_product",
+      "ai_application": "risk_underwriting",
+      "description": "B2B SaaS platforms that embed AI into regulated financial/insurance decisioning workflows (credit underwriting, risk scoring, claims adjudication). The AI application is a core SKU component, not a peripheral tool. Sold to regulated institutions (banks, insurers) whose buyers are risk/compliance teams. Confidence threshold: 0.70+.",
+      "discovered_at": "2026-06-05T13:51:55.054Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "physical-ai-autonomous-systems",
+      "label": "Physical AI & Autonomous Manufacturing",
+      "family": "physical_ai",
+      "value_wedge": "physical_system",
+      "ai_application": "design_manufacturing_control",
+      "description": "Hardware-centric companies deploying AI for autonomous control of physical systems (robotic factories, autonomous vehicles, industrial automation). AI coordinates multi-agent hardware, optimizes real-world execution, and enables end-to-end autonomy. Sold to manufacturers and enterprises seeking to scale hardware production or autonomous operations.",
+      "discovered_at": "2026-06-05T13:51:55.054Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "agent-governance-control-plane",
+      "label": "Agent Governance & Compliance Control Plane",
+      "family": "agent_infrastructure",
+      "value_wedge": "trust_and_quality",
+      "ai_application": "evaluation_monitoring",
+      "description": "Infrastructure that uses autonomous agents to enforce organizational policies, compliance rules, and security guardrails in real-time across AI tool usage. Monitors, evaluates, and blocks non-compliant AI interactions without manual intervention. Serves enterprise security and compliance teams managing AI adoption risk.",
+      "discovered_at": "2026-06-05T13:52:27.858Z",
+      "source": "agent_proposal"
+    },
+    {
+      "id": "infrastructure-optimization-ai",
+      "label": "Infrastructure Optimization & Streaming AI",
+      "family": "physical_ai",
+      "value_wedge": "operational_efficiency",
+      "ai_application": "real_time_optimization",
+      "description": "AI systems that optimize delivery, latency, compression, and resource allocation in cloud infrastructure, streaming platforms, and distributed networks. AI is embedded in the operational layer to maximize throughput, minimize latency, and adapt to variable conditions in real-time. Primary buyer is end-user or platform operator; value is measured in performance (latency, quality, cost per transaction).",
+      "discovered_at": "2026-06-05T13:52:52.228Z",
+      "source": "agent_proposal"
     }
   ],
   "families": [
@@ -195,7 +385,9 @@
     "developer_gtm",
     "infrastructure",
     "vertical_saas",
-    "rd_tooling"
+    "rd_tooling",
+    "network",
+    "ai_infrastructure"
   ],
   "proposals_pending": []
 }
