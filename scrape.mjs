@@ -13,14 +13,18 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const DEFAULT_URL =
-  'https://www.ycombinator.com/companies?batch=Spring%202026&batch=Winter%202027&batch=Fall%202026&batch=Summer%202026&batch=Winter%202026';
+  'https://www.ycombinator.com/companies?batch=Winter%202025&batch=Spring%202025&batch=Summer%202025&batch=Fall%202025&batch=Winter%202026&batch=Spring%202026&batch=Summer%202026&batch=Fall%202026&batch=Winter%202027';
 
 const BATCHES = [
-  'Spring 2026',
-  'Winter 2027',
-  'Fall 2026',
-  'Summer 2026',
+  'Winter 2025',
+  'Spring 2025',
+  'Summer 2025',
+  'Fall 2025',
   'Winter 2026',
+  'Spring 2026',
+  'Summer 2026',
+  'Fall 2026',
+  'Winter 2027',
 ];
 
 function parseArgs(argv) {
