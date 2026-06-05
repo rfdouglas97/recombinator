@@ -3,6 +3,31 @@ import type { DataBundle, FilterState } from '../types';
 import { hasActiveSidebarFilters } from '../hooks/useFilterState';
 import { filterCompanies } from '../utils/filterCompanies';
 
+function batchSortKey(batch: string) {
+  const m = batch.match(/^(Winter|Spring|Summer|Fall)\s+(\d{4})$/);
+  if (!m) return batch;
+  const season = { Winter: 0, Spring: 1, Summer: 2, Fall: 3 }[m[1] as keyof typeof season] ?? 9;
+  return `${m[2]}-${season}-${batch}`;
+}
+
+/** All batches with ≥1 matching company; cohort order when available, else chrono. */
+function orderedBatchOptions(
+  batchCounts: Map<string, number>,
+  cohortBatches: string[] | undefined,
+  facetBatches: string[],
+) {
+  const withCounts = [...batchCounts.entries()].filter(([, n]) => n > 0).map(([b]) => b);
+  const order = cohortBatches?.length ? cohortBatches : facetBatches;
+  if (order.length) {
+    const inOrder = order.filter((b) => (batchCounts.get(b) ?? 0) > 0);
+    const extras = withCounts
+      .filter((b) => !order.includes(b))
+      .sort((a, b) => batchSortKey(a).localeCompare(batchSortKey(b)));
+    return [...inOrder, ...extras];
+  }
+  return withCounts.sort((a, b) => batchSortKey(a).localeCompare(batchSortKey(b)));
+}
+
 interface Props {
   bundle: DataBundle;
   state: FilterState;
@@ -26,20 +51,10 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
     return counts;
   }, [bundle, state]);
 
-  const batchOptions = useMemo(() => {
-    const present = [...batchCounts.entries()]
-      .filter(([, n]) => n > 0)
-      .map(([b]) => b);
-    const order =
-      bundle.meta.cohort_batches?.length
-        ? bundle.meta.cohort_batches
-        : bundle.facets.batches.length
-          ? bundle.facets.batches
-          : present;
-    const ordered = order.filter((b) => batchCounts.has(b));
-    const extra = present.filter((b) => !order.includes(b)).sort();
-    return [...ordered, ...extra];
-  }, [bundle.meta.cohort_batches, bundle.facets.batches, batchCounts]);
+  const batchOptions = useMemo(
+    () => orderedBatchOptions(batchCounts, bundle.meta.cohort_batches, bundle.facets.batches),
+    [batchCounts, bundle.meta.cohort_batches, bundle.facets.batches],
+  );
 
   return (
     <div className="sidebar">

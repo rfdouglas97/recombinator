@@ -11,7 +11,10 @@ export async function loadBundle(): Promise<DataBundle> {
   if (cache) return cache;
 
   try {
-    const res = await fetch(apiUrl('/api/bundle'), { cache: 'no-store' });
+    const res = await fetch(apiUrl('/api/bundle'), {
+      cache: 'no-store',
+      headers: { 'Cache-Control': 'no-cache' },
+    });
     if (res.ok) {
       cache = (await res.json()) as DataBundle;
       return cache;
