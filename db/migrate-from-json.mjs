@@ -218,6 +218,12 @@ async function loadCompanies(rows) {
     const meta = {};
     if (r.reclassified_from) meta.reclassified_from = r.reclassified_from;
     if (r.vertical_classify_rationale) meta.vertical_classify_rationale = r.vertical_classify_rationale;
+    if (r.vertical_classify_confidence != null) {
+      meta.vertical_classify_confidence = r.vertical_classify_confidence;
+    }
+    if (r.vertical_normalize_confidence != null) {
+      meta.vertical_normalize_confidence = r.vertical_normalize_confidence;
+    }
 
     await query(
       `INSERT INTO company_classifications (
