@@ -26,10 +26,20 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
     return counts;
   }, [bundle, state]);
 
-  const batchOptions = useMemo(
-    () => bundle.facets.batches.filter((b) => (batchCounts.get(b) ?? 0) > 0),
-    [bundle.facets.batches, batchCounts],
-  );
+  const batchOptions = useMemo(() => {
+    const present = [...batchCounts.entries()]
+      .filter(([, n]) => n > 0)
+      .map(([b]) => b);
+    const order =
+      bundle.meta.cohort_batches?.length
+        ? bundle.meta.cohort_batches
+        : bundle.facets.batches.length
+          ? bundle.facets.batches
+          : present;
+    const ordered = order.filter((b) => batchCounts.has(b));
+    const extra = present.filter((b) => !order.includes(b)).sort();
+    return [...ordered, ...extra];
+  }, [bundle.meta.cohort_batches, bundle.facets.batches, batchCounts]);
 
   return (
     <div className="sidebar">
