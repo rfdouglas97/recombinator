@@ -52,16 +52,43 @@ jobs:
             exit 1
           fi
 
+      - name: Verify Anthropic API key (live ping)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          KEY="$(printf '%s' "$ANTHROPIC_API_KEY" | tr -d '\r\n' | sed 's/^["'\'']//;s/["'\'']$//')"
+          HTTP=$(curl -sS -o /tmp/anthropic-ping.json -w "%{http_code}" \
+            https://api.anthropic.com/v1/messages \
+            -H "x-api-key: $KEY" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "content-type: application/json" \
+            -d '{"model":"claude-haiku-4-5-20251001","max_tokens":8,"messages":[{"role":"user","content":"ping"}]}')
+          if [ "$HTTP" != "200" ]; then
+            echo "::error::Anthropic API key rejected (HTTP $HTTP). Delete and re-create ANTHROPIC_API_KEY secret — no quotes, no trailing newline."
+            cat /tmp/anthropic-ping.json
+            exit 1
+          fi
+          echo "Anthropic API key OK"
+
       - name: Run launch check (scrape, ingest, refresh)
+        id: launch
+        continue-on-error: true
         env:
           PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.playwright-browsers
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run launches:check:ingest
 
       - name: Sync to Supabase
+        if: always()
         env:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: npm run db:migrate
+
+      - name: Launch ingest warning
+        if: steps.launch.outcome == 'failure'
+        run: |
+          echo "::warning::Launch ingest failed; Supabase was still refreshed from committed JSON on main. Check logs for siphox-health / API errors."
+          exit 1
 
       - name: Upload report artifact
         uses: actions/upload-artifact@v4

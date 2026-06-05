@@ -159,8 +159,12 @@ async function anthropicChatJson({ system, user, apiConfig }) {
   return parseJsonContent(block.text);
 }
 
+function normalizeApiKey(key) {
+  return key?.trim().replace(/^['"]|['"]$/g, '') || '';
+}
+
 export function resolveApiConfig() {
-  const anthropicKey = process.env.ANTHROPIC_API_KEY;
+  const anthropicKey = normalizeApiKey(process.env.ANTHROPIC_API_KEY);
   if (anthropicKey) {
     return {
       provider: 'anthropic',
@@ -171,10 +175,11 @@ export function resolveApiConfig() {
     };
   }
 
-  if (process.env.OPENAI_API_KEY) {
+  const openaiKey = normalizeApiKey(process.env.OPENAI_API_KEY);
+  if (openaiKey) {
     return {
       provider: 'openai',
-      apiKey: process.env.OPENAI_API_KEY,
+      apiKey: openaiKey,
       model: process.env.OPENAI_MODEL ?? 'gpt-4o-mini',
       baseUrl: process.env.OPENAI_BASE_URL ?? 'https://api.openai.com',
     };

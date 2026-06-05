@@ -243,6 +243,10 @@ function buildClassificationLocal(launch, company, phenotypeOntology, verticalOn
   };
 }
 
+function isLlmAuthError(err) {
+  return /401|403|authentication_error|invalid x-api-key|invalid_api_key/i.test(String(err?.message ?? err));
+}
+
 async function buildClassification(launch, company, phenotypeOntology, verticalOntology, { useAgent = true } = {}) {
   const launchHints = [launch.tagline, stripMarkdown(launch.body)?.slice(0, 1200)].filter(Boolean).join('\n');
 
@@ -279,8 +283,13 @@ async function buildClassification(launch, company, phenotypeOntology, verticalO
       };
     } catch (err) {
       console.warn(`  ⚠ LLM classify failed for ${company.slug}: ${err.message}`);
-      if (process.env.LAUNCH_CLASSIFY_LOCAL_FALLBACK !== '1') throw err;
-      console.warn('  → LAUNCH_CLASSIFY_LOCAL_FALLBACK=1: using local classifier');
+      if (isLlmAuthError(err)) {
+        console.warn('  → invalid API key: using local classifier (fix ANTHROPIC_API_KEY in GitHub secrets)');
+      } else if (process.env.LAUNCH_CLASSIFY_LOCAL_FALLBACK !== '1') {
+        throw err;
+      } else {
+        console.warn('  → LAUNCH_CLASSIFY_LOCAL_FALLBACK=1: using local classifier');
+      }
     }
   } else if (useAgent) {
     console.warn('  ⚠ No ANTHROPIC_API_KEY / OPENAI_API_KEY — local classifier only (set keys for launch ingest)');
@@ -430,11 +439,15 @@ async function appendRecentCorpusMissing(
     seen.add(launch.launch_id);
 
     const company = launchToCompanyRecord(launch);
-    const classification = await buildClassification(launch, company, phenotypeOntology, verticalOntology);
-    const prior = reviewByLaunchId.get(launch.launch_id);
-    toIngest.push({ launch, classification, review: prior?.review ?? null });
-    added++;
-    console.log(`  ↻ corpus retry: ${slug} (launch ${launch.launch_id})`);
+    try {
+      const classification = await buildClassification(launch, company, phenotypeOntology, verticalOntology);
+      const prior = reviewByLaunchId.get(launch.launch_id);
+      toIngest.push({ launch, classification, review: prior?.review ?? null });
+      added++;
+      console.log(`  ↻ corpus retry: ${slug} (launch ${launch.launch_id})`);
+    } catch (err) {
+      console.warn(`  ⚠ corpus retry skipped ${slug}: ${err.message}`);
+    }
   }
   if (added) console.log(`  ${added} recent launch(s) queued for corpus ingest`);
   return added;
