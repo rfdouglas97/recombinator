@@ -46,8 +46,13 @@ Business quality (required):
 Goodness index: maximize buyer_budget, workflow_pain, ai_wedge, urgency, transfer_proof, sharpness (see goodness_dimensions in prompt). Avoid blocklist phrases.`;
 
 function loadTrainSet() {
-  if (!existsSync(EVAL_PATHS.trainSlugs)) return new Set();
-  return new Set(loadJson(EVAL_PATHS.trainSlugs));
+  if (existsSync(EVAL_PATHS.trainSlugs)) {
+    const doc = loadJson(EVAL_PATHS.trainSlugs);
+    const slugs = doc.slugs ?? doc;
+    return new Set(Array.isArray(slugs) ? slugs : []);
+  }
+  // Full classified corpus as exemplar pool when no eval holdout file exists.
+  return new Set(loadNormalizedAssignments().map((r) => r.slug).filter(Boolean));
 }
 
 function buildTrainExemplars(cell, assignments, trainSlugs, max = 3) {
