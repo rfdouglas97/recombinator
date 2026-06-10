@@ -76,7 +76,8 @@ export function StartupGeneratorModal({ bundle, open, onClose }: Props) {
             <h2 id="generator-title">Startup Generator</h2>
             <p className="modal-subtitle">
               We pick an empty BM × vertical cell in the matrix and invent a YC startup for it — you
-              get the whitespace reveal plus the company.
+              get the whitespace reveal plus the company. Generating takes 1–2 minutes, so hang
+              tight after you hit the button.
             </p>
           </div>
           <button type="button" className="modal-close" onClick={onClose} aria-label="Close">
@@ -121,7 +122,7 @@ export function StartupGeneratorModal({ bundle, open, onClose }: Props) {
               onClick={handleGenerate}
               disabled={loading || !llmOk || !apiOk}
             >
-              {loading ? 'Generating…' : result ? 'Generate another' : 'Generate startup'}
+              {loading ? 'Generating… (1–2 min)' : result ? 'Generate another' : 'Generate startup'}
             </button>
           </div>
 
