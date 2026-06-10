@@ -73,8 +73,11 @@ export function enrichCompany(assignment, normalizedMap, verticalOntology, heuri
 
   if (!vertical_id) {
     const n = normalizeVertical(
-      { industry_sub_vertical: assignment.industry_sub_vertical, yc_industries: assignment.yc_industries },
-      verticalOntology,
+      {
+        industry_sub_vertical: assignment.industry_sub_vertical,
+        yc_industries: assignment.yc_industries,
+      },
+      verticalOntology
     );
     vertical_id = n.vertical_id;
     vertical_label = n.vertical?.label ?? null;
@@ -116,7 +119,10 @@ export function verticalCandidatesFor(company, verticalOntology) {
       let score = 0;
       if (v.id === current) score += 10;
       if (company.industry_sub_vertical && v.label) {
-        const words = company.industry_sub_vertical.toLowerCase().split(/\W+/).filter((w) => w.length > 3);
+        const words = company.industry_sub_vertical
+          .toLowerCase()
+          .split(/\W+/)
+          .filter((w) => w.length > 3);
         const label = v.label.toLowerCase();
         score += words.filter((w) => label.includes(w)).length;
       }
@@ -143,12 +149,10 @@ export function resolveAuditApiConfig(base, { model, maxTokens } = {}) {
 
 export function normalizeAuditResult(raw, company, model) {
   const verdict = ['ok', 'minor_fix', 'wrong'].includes(raw.verdict) ? raw.verdict : 'minor_fix';
-  const severity =
-    raw.severity ?? (verdict === 'wrong' ? 3 : verdict === 'minor_fix' ? 2 : 1);
+  const severity = raw.severity ?? (verdict === 'wrong' ? 3 : verdict === 'minor_fix' ? 2 : 1);
   let classification_confidence = parseFloat(raw.classification_confidence);
   if (Number.isNaN(classification_confidence)) {
-    classification_confidence =
-      verdict === 'ok' ? 0.9 : verdict === 'minor_fix' ? 0.75 : 0.45;
+    classification_confidence = verdict === 'ok' ? 0.9 : verdict === 'minor_fix' ? 0.75 : 0.45;
   }
   classification_confidence = Math.max(0, Math.min(1, classification_confidence));
 
@@ -205,7 +209,10 @@ export function loadAuditState(path = AUDIT_PATHS.state) {
 export function saveAuditState(state, paths = AUDIT_PATHS) {
   state.updated_at = new Date().toISOString();
   writeFileSync(paths.state, JSON.stringify(state, null, 2));
-  writeFileSync(paths.audits, JSON.stringify({ generated_at: state.updated_at, audits: state.audits }, null, 2));
+  writeFileSync(
+    paths.audits,
+    JSON.stringify({ generated_at: state.updated_at, audits: state.audits }, null, 2)
+  );
 }
 
 export function resetAuditOutputs(paths = AUDIT_PATHS) {
@@ -249,7 +256,8 @@ export function escalationReasons(tier1, company, cfg = tieredAuditConfig()) {
   if (vm.includes('yc_') || vm === 'yc_subindustry_default') reasons.push('yc_vertical_fallback');
 
   const assignConf = company.confidence ?? company.phenotype_confidence;
-  if (typeof assignConf === 'number' && assignConf < 0.75) reasons.push('low_assignment_confidence');
+  if (typeof assignConf === 'number' && assignConf < 0.75)
+    reasons.push('low_assignment_confidence');
 
   if (tier1.error) reasons.push('tier1_error');
 

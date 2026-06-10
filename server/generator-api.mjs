@@ -7,8 +7,19 @@
 import { createServer } from 'http';
 import { loadDotEnv } from '../agent/env.mjs';
 import { resolveApiConfig } from '../agent/llm.mjs';
-import { findWhitespaceGaps, generateSyntheticForCell, discoverAndGenerate } from '../scripts/generator-lib.mjs';
-import { getLibrary, getArchivedLibrary, generateMoreCards, recordJudgment, archiveCard, restoreCard } from './library-service.mjs';
+import {
+  findWhitespaceGaps,
+  generateSyntheticForCell,
+  discoverAndGenerate,
+} from '../scripts/generator-lib.mjs';
+import {
+  getLibrary,
+  getArchivedLibrary,
+  generateMoreCards,
+  recordJudgment,
+  archiveCard,
+  restoreCard,
+} from './library-service.mjs';
 import { handleChat, getChatMeta } from './chat-service.mjs';
 import { tryHandleReadApi } from './read-api.mjs';
 import { checkRateLimit } from './rate-limit.mjs';
@@ -59,7 +70,7 @@ const server = createServer(async (req, res) => {
         tier: rl.tier,
         limit: rl.limit,
       },
-      { 'Retry-After': String(rl.retryAfterSec) },
+      { 'Retry-After': String(rl.retryAfterSec) }
     );
     return;
   }
@@ -210,11 +221,15 @@ server.on('error', (err) => {
 
 server.listen(PORT, '0.0.0.0', () => {
   console.log(`API server → http://0.0.0.0:${PORT}`);
-  console.log(`  Read API:  GET /api/bundle, /api/companies, /api/gaps, /api/launches, /api/health`);
+  console.log(
+    `  Read API:  GET /api/bundle, /api/companies, /api/gaps, /api/launches, /api/health`
+  );
   console.log(`  Generator: POST /api/generator/*, /api/library/*, /api/chat`);
   console.log(`  LLM: ${resolveApiConfig() ? 'configured' : 'NOT configured (set .env)'}`);
-  console.log(`  Postgres: ${process.env.DATABASE_URL ? 'DATABASE_URL set' : 'NOT set — read API will fail'}`);
   console.log(
-    `  Rate limits: ${process.env.RATE_LIMIT_DISABLED ? 'disabled' : `bundle ${process.env.RATE_LIMIT_BUNDLE_MAX ?? 30}/min, read ${process.env.RATE_LIMIT_READ_MAX ?? 120}/min, LLM ${process.env.RATE_LIMIT_EXPENSIVE_MAX ?? 12}/min`}`,
+    `  Postgres: ${process.env.DATABASE_URL ? 'DATABASE_URL set' : 'NOT set — read API will fail'}`
+  );
+  console.log(
+    `  Rate limits: ${process.env.RATE_LIMIT_DISABLED ? 'disabled' : `bundle ${process.env.RATE_LIMIT_BUNDLE_MAX ?? 30}/min, read ${process.env.RATE_LIMIT_READ_MAX ?? 120}/min, LLM ${process.env.RATE_LIMIT_EXPENSIVE_MAX ?? 12}/min`}`
   );
 });

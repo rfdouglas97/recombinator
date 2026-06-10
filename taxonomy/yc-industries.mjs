@@ -171,7 +171,7 @@ export function buildYcFacetsFromCompanies(companies) {
     (a, b) =>
       sortParents([a.sector_id, b.sector_id]).indexOf(a.sector_id) -
         sortParents([a.sector_id, b.sector_id]).indexOf(b.sector_id) ||
-      a.label.localeCompare(b.label),
+      a.label.localeCompare(b.label)
   );
 
   return { sectors, industries };

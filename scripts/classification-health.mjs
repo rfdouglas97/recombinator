@@ -32,7 +32,9 @@ function main() {
 
   const dualBm = assignments.filter((a) => (a.business_models ?? []).length > 1);
   const missingBm = assignments.filter((a) => !(a.business_models ?? []).length);
-  const unmappedVertical = normalized.filter((a) => a.vertical_id && !verticalIds.has(a.vertical_id));
+  const unmappedVertical = normalized.filter(
+    (a) => a.vertical_id && !verticalIds.has(a.vertical_id)
+  );
   const noVertical = normalized.filter((a) => !a.vertical_id);
 
   console.log('\n=== Classification health ===');

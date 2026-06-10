@@ -80,8 +80,12 @@ function main() {
   console.log(`  Gaps total:     ${full.gap_count}`);
   console.log(`  Ranked:         ${full.ranked_count}`);
   console.log(`  Kill-rejected:  ${full.rejected_count}`);
-  console.log(`  Checksum:       ${full.ranked_count + full.rejected_count} (expect ${full.gap_count})`);
-  console.log(`  Top opportunity: ${full.gaps[0]?.opportunity_score ?? '—'} — ${full.gaps[0]?.vertical_label ?? ''}`);
+  console.log(
+    `  Checksum:       ${full.ranked_count + full.rejected_count} (expect ${full.gap_count})`
+  );
+  console.log(
+    `  Top opportunity: ${full.gaps[0]?.opportunity_score ?? '—'} — ${full.gaps[0]?.vertical_label ?? ''}`
+  );
   console.log(`  Wrote: ${OUTPUT_PATHS.ranked}`);
 }
 

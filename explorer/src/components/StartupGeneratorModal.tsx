@@ -75,8 +75,8 @@ export function StartupGeneratorModal({ bundle, open, onClose }: Props) {
           <div>
             <h2 id="generator-title">Startup Generator</h2>
             <p className="modal-subtitle">
-              We pick an empty BM × vertical cell in the matrix and invent a YC startup for it — you get the
-              whitespace reveal plus the company.
+              We pick an empty BM × vertical cell in the matrix and invent a YC startup for it — you
+              get the whitespace reveal plus the company.
             </p>
           </div>
           <button type="button" className="modal-close" onClick={onClose} aria-label="Close">
@@ -86,7 +86,8 @@ export function StartupGeneratorModal({ bundle, open, onClose }: Props) {
 
         {apiOk === false && (
           <div className="generator-banner error">
-            Generator API not running. Start with <code>npm run explorer:dev</code> from the project root.
+            Generator API not running. Start with <code>npm run explorer:dev</code> from the project
+            root.
           </div>
         )}
         {apiOk && !llmOk && (
@@ -131,16 +132,20 @@ export function StartupGeneratorModal({ bundle, open, onClose }: Props) {
               <h3>Whitespace</h3>
               <div className="gap-card">
                 <p className="whitespace-cell">
-                  <strong>{gap.business_model_label}</strong> × <strong>{gap.vertical_label}</strong>
+                  <strong>{gap.business_model_label}</strong> ×{' '}
+                  <strong>{gap.vertical_label}</strong>
                 </p>
                 <p className="generator-hint">
                   {gap.sector_label}
                   {gap.workflow ? ` · ${gap.workflow}` : ''}
                   {' · '}
-                  {result.selection_method === 'best_match' ? 'matched your hint' : 'random valid gap'}
+                  {result.selection_method === 'best_match'
+                    ? 'matched your hint'
+                    : 'random valid gap'}
                 </p>
                 <p className="generator-hint">
-                  {bundle.meta.gap_count.toLocaleString()} empty cells in the matrix — zero YC companies here today.
+                  {bundle.meta.gap_count.toLocaleString()} empty cells in the matrix — zero YC
+                  companies here today.
                 </p>
               </div>
             </section>

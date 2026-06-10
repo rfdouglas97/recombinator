@@ -6,7 +6,14 @@
  * Predictor: gap matrix + opportunity ranking + synthetic idea library.
  */
 
-import { normalizeText, tokenSet, jaccard, getVerticalById, getPhenotypeById, cellKey } from './eval-utils.mjs';
+import {
+  normalizeText,
+  tokenSet,
+  jaccard,
+  getVerticalById,
+  getPhenotypeById,
+  cellKey,
+} from './eval-utils.mjs';
 import { BM_LABELS, PHENOTYPE_TO_BM, phenotypeAllowedForBm } from '../taxonomy/phenotype-to-bm.mjs';
 import { computeGoodnessIndex } from './goodness-rubric.mjs';
 
@@ -39,7 +46,8 @@ export const RUBRIC = {
     business_model_fit: {
       weight: 0.15,
       label: 'Business model fit',
-      description: 'Monetization and delivery signals (SaaS, managed service, marketplace, etc.) match BM code.',
+      description:
+        'Monetization and delivery signals (SaaS, managed service, marketplace, etc.) match BM code.',
       scoring: {
         strong: '≥0.75 — BM is unambiguous from launch',
         acceptable: '0.50–0.74 — BM plausible but multi-model',
@@ -49,7 +57,8 @@ export const RUBRIC = {
     ontology_completeness: {
       weight: 0.15,
       label: 'Ontology completeness',
-      description: 'All three taxonomy layers resolve without fallback or missing vertical/phenotype.',
+      description:
+        'All three taxonomy layers resolve without fallback or missing vertical/phenotype.',
       scoring: {
         strong: '1.0 — phenotype, vertical, BM all resolved with confidence ≥0.7',
         acceptable: '0.6 — one layer inferred heuristically',
@@ -57,9 +66,10 @@ export const RUBRIC = {
       },
     },
     thesis_coherence: {
-      weight: 0.20,
+      weight: 0.2,
       label: 'Thesis coherence',
-      description: 'Launch has clear what-they-sell, who-pays, and AI wedge (not generic AI platform language).',
+      description:
+        'Launch has clear what-they-sell, who-pays, and AI wedge (not generic AI platform language).',
       scoring: {
         strong: '≥0.75 — sharp one-liner + specific buyer + concrete AI mechanism',
         acceptable: '0.50–0.74 — thesis present but vague on buyer or wedge',
@@ -111,14 +121,20 @@ function launchTextBlob(launch, classification = {}) {
       classification.ai_play,
       classification.who_pays,
       classification.industry_sub_vertical,
-    ].join(' '),
+    ].join(' ')
   );
 }
 
 function phenotypeAlignmentScore(blob, phenotype, classification) {
   if (!phenotype) return 0.2;
   const phenoBlob = normalizeText(
-    [phenotype.label, phenotype.description, phenotype.value_wedge, phenotype.ai_application, phenotype.family].join(' '),
+    [
+      phenotype.label,
+      phenotype.description,
+      phenotype.value_wedge,
+      phenotype.ai_application,
+      phenotype.family,
+    ].join(' ')
   );
   let score = jaccard(blob, phenoBlob);
   const idTokens = normalizeText(classification.phenotype_primary_id ?? '').replace(/-/g, ' ');
@@ -132,11 +148,16 @@ function phenotypeAlignmentScore(blob, phenotype, classification) {
 function verticalWorkflowScore(blob, vertical, classification) {
   if (!vertical) return 0.2;
   const aliasBlob = normalizeText((vertical.aliases ?? []).join(' '));
-  let score = jaccard(blob, `${vertical.label} ${vertical.workflow ?? ''} ${(vertical.buyers ?? []).join(' ')} ${aliasBlob}`);
+  let score = jaccard(
+    blob,
+    `${vertical.label} ${vertical.workflow ?? ''} ${(vertical.buyers ?? []).join(' ')} ${aliasBlob}`
+  );
   const wf = vertical.workflow ? normalizeText(String(vertical.workflow).replace(/_/g, ' ')) : '';
   if (wf && blob.includes(wf)) score = Math.max(score, 0.85);
   for (const b of vertical.buyers ?? []) {
-    const tokens = normalizeText(b).split(' ').filter((t) => t.length > 3);
+    const tokens = normalizeText(b)
+      .split(' ')
+      .filter((t) => t.length > 3);
     if (tokens.some((t) => blob.includes(t))) score = Math.max(score, 0.75);
   }
   for (const alias of vertical.aliases ?? []) {
@@ -145,7 +166,15 @@ function verticalWorkflowScore(blob, vertical, classification) {
   }
   const sub = normalizeText(classification?.industry_sub_vertical ?? '');
   if (sub) score = Math.max(score, jaccard(blob, sub) * 1.2);
-  const domainTerms = ['distributor', 'procurement', 'supply chain', 'manufacturing', 'erp', 'quote', 'rfq'];
+  const domainTerms = [
+    'distributor',
+    'procurement',
+    'supply chain',
+    'manufacturing',
+    'erp',
+    'quote',
+    'rfq',
+  ];
   if (domainTerms.some((t) => blob.includes(t) && aliasBlob.includes(t.split(' ')[0]))) {
     score = Math.max(score, 0.7);
   }
@@ -155,7 +184,15 @@ function verticalWorkflowScore(blob, vertical, classification) {
 function businessModelScore(blob, businessModel, phenotypeId) {
   if (!businessModel) return 0.3;
   const signals = {
-    'BM-01': ['vertical', 'saas', 'workflow', 'for healthcare', 'for legal', 'for insurance', 'department'],
+    'BM-01': [
+      'vertical',
+      'saas',
+      'workflow',
+      'for healthcare',
+      'for legal',
+      'for insurance',
+      'department',
+    ],
     'BM-02': ['copilot', 'productivity', 'teams', 'horizontal', 'platform for'],
     'BM-03': ['infra', 'developer', 'api', 'runtime', 'sdk', 'devtools', 'orchestr'],
     'BM-04': ['managed', 'ai employee', 'we run', 'outsourc', 'service'],
@@ -238,7 +275,11 @@ function slugInGapAnalogs(slug, rankedGaps) {
   for (const g of rankedGaps) {
     const analogs = [...(g.analog_slugs ?? []), ...(g.workflow_matched_analog_slugs ?? [])];
     if (analogs.includes(slug)) {
-      matches.push({ rank: g.rank, opportunity_score: g.opportunity_score, vertical_id: g.vertical_id });
+      matches.push({
+        rank: g.rank,
+        opportunity_score: g.opportunity_score,
+        vertical_id: g.vertical_id,
+      });
     }
   }
   return matches;
@@ -253,7 +294,7 @@ function cellWasGap(gapCandidates, cell) {
 function cellIsObserved(matrix, cell, slug) {
   if (!cell) return false;
   const observed = (matrix.observed_cells ?? []).find(
-    (c) => c.business_model === cell.business_model && c.vertical_id === cell.vertical_id,
+    (c) => c.business_model === cell.business_model && c.vertical_id === cell.vertical_id
   );
   if (!observed) return false;
   return observed.companies?.includes(slug);
@@ -283,7 +324,11 @@ export function evaluateLaunchConformance(launch, classification, ctx) {
   const dimensions = {
     phenotype_alignment: phenotypeAlignmentScore(blob, phenotype, classification),
     vertical_workflow_fit: verticalWorkflowScore(blob, vertical, classification),
-    business_model_fit: businessModelScore(blob, businessModel, classification.phenotype_primary_id),
+    business_model_fit: businessModelScore(
+      blob,
+      businessModel,
+      classification.phenotype_primary_id
+    ),
     ontology_completeness: ontologyCompletenessScore(classification),
     thesis_coherence: thesisCoherenceScore(launch),
   };
@@ -292,25 +337,28 @@ export function evaluateLaunchConformance(launch, classification, ctx) {
     100 *
     Object.entries(RUBRIC.taxonomy_dimensions).reduce(
       (sum, [key, def]) => sum + def.weight * (dimensions[key] ?? 0),
-      0,
+      0
     );
 
-  const cell = businessModel && classification.vertical_id && classification.phenotype_primary_id
-    ? {
-        business_model: businessModel,
-        vertical_id: classification.vertical_id,
-        phenotype_primary_id: classification.phenotype_primary_id,
-      }
-    : null;
+  const cell =
+    businessModel && classification.vertical_id && classification.phenotype_primary_id
+      ? {
+          business_model: businessModel,
+          vertical_id: classification.vertical_id,
+          phenotype_primary_id: classification.phenotype_primary_id,
+        }
+      : null;
 
   const rankedGap = findRankedGap(rankedGaps, cell);
   const syntheticMatch = findSyntheticMatch(libraryCards, cell);
   const analogMatches = slugInGapAnalogs(launch.company_slug, rankedGaps);
   const wasGap = cellWasGap(gapCandidates, cell);
   const isObserved = cellIsObserved(bmMatrix, cell, launch.company_slug);
-  const isFirstOccupant = isObserved && (bmMatrix.observed_cells ?? [])
-    .find((c) => c.business_model === cell?.business_model && c.vertical_id === cell?.vertical_id)
-    ?.companies?.length === 1;
+  const isFirstOccupant =
+    isObserved &&
+    (bmMatrix.observed_cells ?? []).find(
+      (c) => c.business_model === cell?.business_model && c.vertical_id === cell?.vertical_id
+    )?.companies?.length === 1;
 
   const retroRecord = {
     one_liner: launch.tagline ?? launch.title,
@@ -342,7 +390,9 @@ export function evaluateLaunchConformance(launch, classification, ctx) {
     predictor_signals.push(`analog_in_gaps:${analogMatches.length}`);
   } else if (wasGap && rankedGap) {
     predictability_band = 'plausible';
-    predictor_signals.push(`ranked_gap:rank=${rankedGap.rank},score=${rankedGap.opportunity_score}`);
+    predictor_signals.push(
+      `ranked_gap:rank=${rankedGap.rank},score=${rankedGap.opportunity_score}`
+    );
   } else if (wasGap) {
     predictability_band = 'plausible';
     predictor_signals.push('cell_in_gap_list');
@@ -379,7 +429,10 @@ export function evaluateLaunchConformance(launch, classification, ctx) {
   else if (taxonomyScore >= RUBRIC.verdict_thresholds.partial) verdict = 'partial';
 
   const dimensionBands = Object.fromEntries(
-    Object.entries(dimensions).map(([k, v]) => [k, { score: Math.round(v * 100), band: bandForScore(v) }]),
+    Object.entries(dimensions).map(([k, v]) => [
+      k,
+      { score: Math.round(v * 100), band: bandForScore(v) },
+    ])
   );
 
   return {
@@ -413,7 +466,11 @@ export function evaluateLaunchConformance(launch, classification, ctx) {
           }
         : null,
       synthetic_match: syntheticMatch
-        ? { id: syntheticMatch.id, name: syntheticMatch.startup?.name, one_liner: syntheticMatch.startup?.one_liner }
+        ? {
+            id: syntheticMatch.id,
+            name: syntheticMatch.startup?.name,
+            one_liner: syntheticMatch.startup?.one_liner,
+          }
         : null,
       analog_gap_matches: analogMatches,
       retro_transfer_score: retroGoodness.overall,
@@ -428,20 +485,26 @@ function buildNotes(verdict, predictabilityBand, existing, classification) {
   const notes = [];
   if (existing && existing.phenotype_primary_id !== classification.phenotype_primary_id) {
     notes.push(
-      `Launch classifier phenotype (${classification.phenotype_primary_id}) differs from DB (${existing.phenotype_primary_id})`,
+      `Launch classifier phenotype (${classification.phenotype_primary_id}) differs from DB (${existing.phenotype_primary_id})`
     );
   }
   if (verdict === 'conforming' && predictabilityBand === 'predicted') {
     notes.push('Strong fit: taxonomy conforms and whitespace model would have surfaced this cell.');
   }
   if (verdict === 'conforming' && predictabilityBand === 'occupied_first') {
-    notes.push('Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche.');
+    notes.push(
+      'Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche.'
+    );
   }
   if (verdict === 'partial') {
-    notes.push('Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.');
+    notes.push(
+      'Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.'
+    );
   }
   if (predictabilityBand === 'surprise') {
-    notes.push('Launch diverges from model expectations — candidate for ontology expansion or reclassification.');
+    notes.push(
+      'Launch diverges from model expectations — candidate for ontology expansion or reclassification.'
+    );
   }
   return notes;
 }

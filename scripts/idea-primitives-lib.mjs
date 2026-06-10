@@ -9,7 +9,12 @@ import { fileURLToPath } from 'url';
 
 import { loadVerticalOntology } from '../taxonomy/verticals.mjs';
 import { phenotypeAllowedForBm } from '../taxonomy/phenotype-to-bm.mjs';
-import { loadNormalizedAssignments, getVerticalById, normalizeText, tokenSet } from './eval-utils.mjs';
+import {
+  loadNormalizedAssignments,
+  getVerticalById,
+  normalizeText,
+  tokenSet,
+} from './eval-utils.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 export const IDEA_PRIMITIVES_PATH = join(ROOT, 'output/generator/idea-primitives.json');
@@ -19,7 +24,11 @@ export const PRIMITIVE_TYPES = [
   {
     id: 'workflow-department',
     name: 'AI-native department for a vertical workflow',
-    phenotype_ids: ['vertical-workflow-agent', 'ai-native-service-provider', 'ai-forward-consulting'],
+    phenotype_ids: [
+      'vertical-workflow-agent',
+      'ai-native-service-provider',
+      'ai-forward-consulting',
+    ],
     business_models: ['BM-01', 'BM-04'],
     thesis_checklist: [
       'Name the manual workflow step that costs the buyer time or money today',
@@ -175,22 +184,24 @@ export function primitiveTypesForCell(cell) {
   return PRIMITIVE_TYPES.filter(
     (t) =>
       t.phenotype_ids.includes(cell.phenotype_primary_id) &&
-      t.business_models.includes(cell.business_model),
+      t.business_models.includes(cell.business_model)
   );
 }
 
 export function defaultPrimitiveTypeForCell(cell) {
   const matches = primitiveTypesForCell(cell);
-  return matches[0] ?? PRIMITIVE_TYPES.find((t) => t.phenotype_ids.includes(cell.phenotype_primary_id)) ?? null;
+  return (
+    matches[0] ??
+    PRIMITIVE_TYPES.find((t) => t.phenotype_ids.includes(cell.phenotype_primary_id)) ??
+    null
+  );
 }
 
 function instanceFromRecord(record, vertical) {
   const bm = record.business_models?.[0];
   const rationale = String(record.rationale ?? '').trim();
   const whyFromRationale =
-    rationale.length > 60 && !rationale.startsWith('Local scorer')
-      ? rationale.slice(0, 320)
-      : null;
+    rationale.length > 60 && !rationale.startsWith('Local scorer') ? rationale.slice(0, 320) : null;
 
   return {
     slug: record.slug,
@@ -248,7 +259,8 @@ function buildTransferNote(instance, cell, vertical) {
     parts.push('same archetype (phenotype)');
   }
   if (instance.sector_id === vertical?.sector_id) parts.push('same sector');
-  if (instance.workflow === vertical?.workflow) parts.push(`same workflow tag (${instance.workflow})`);
+  if (instance.workflow === vertical?.workflow)
+    parts.push(`same workflow tag (${instance.workflow})`);
   if (instance.cell.business_model === cell.business_model) parts.push('same business model');
   return `Transfer from ${instance.name}: ${parts.join(', ') || 'adjacent vertical'}`;
 }
@@ -271,7 +283,7 @@ export function getIdeaContextForCell(cell, { assignments, primitivesBundle = nu
     (i) =>
       i.cell.business_model === cell.business_model &&
       i.cell.vertical_id === cell.vertical_id &&
-      i.cell.phenotype_primary_id === cell.phenotype_primary_id,
+      i.cell.phenotype_primary_id === cell.phenotype_primary_id
   );
 
   const transferPool = instances
@@ -323,7 +335,7 @@ function textBlob(record) {
       record.why_good_idea?.ai_wedge,
       record.why_good_idea?.buyer_budget,
       record.why_good_idea?.proof_from_batch,
-    ].join(' '),
+    ].join(' ')
   );
 }
 
@@ -331,7 +343,9 @@ function hasBuyerSignal(record, vertical) {
   const blob = textBlob(record);
   const buyers = vertical?.buyers ?? [];
   for (const b of buyers) {
-    const tokens = normalizeText(b).split(' ').filter((t) => t.length > 3);
+    const tokens = normalizeText(b)
+      .split(' ')
+      .filter((t) => t.length > 3);
     if (tokens.some((t) => blob.includes(t))) return true;
   }
   const whoPays = normalizeText(record.who_pays);
@@ -365,7 +379,10 @@ function hitsBlocklist(record, extraBlocklist = []) {
 /**
  * Business-quality validation beyond schema / taxonomy fit.
  */
-export function validateBusinessThesis(record, { verticalOntology, ideaContext = null, cell = null } = {}) {
+export function validateBusinessThesis(
+  record,
+  { verticalOntology, ideaContext = null, cell = null } = {}
+) {
   const errors = [];
   const targetCell = cell ?? record.target_cell;
   if (!targetCell) return { valid: false, errors: ['missing target_cell for thesis validation'] };
@@ -379,7 +396,9 @@ export function validateBusinessThesis(record, { verticalOntology, ideaContext =
   } else if (primitiveType && record.idea_primitive_id !== primitiveType.id) {
     const allowed = primitiveTypesForCell(targetCell).map((t) => t.id);
     if (allowed.length && !allowed.includes(record.idea_primitive_id)) {
-      errors.push(`idea_primitive_id ${record.idea_primitive_id} not valid for this cell (expected one of: ${allowed.join(', ')})`);
+      errors.push(
+        `idea_primitive_id ${record.idea_primitive_id} not valid for this cell (expected one of: ${allowed.join(', ')})`
+      );
     }
   }
 
@@ -389,7 +408,8 @@ export function validateBusinessThesis(record, { verticalOntology, ideaContext =
   } else {
     for (const key of ['pain', 'urgency', 'ai_wedge', 'buyer_budget', 'proof_from_batch']) {
       const val = String(why[key] ?? '').trim();
-      if (val.length < 12) errors.push(`why_good_idea.${key} too short or missing (need concrete thesis)`);
+      if (val.length < 12)
+        errors.push(`why_good_idea.${key} too short or missing (need concrete thesis)`);
     }
     if (ctx.requires_analog_proof) {
       const proof = String(why.proof_from_batch ?? '');
@@ -397,7 +417,9 @@ export function validateBusinessThesis(record, { verticalOntology, ideaContext =
         (record.analog_slugs?.length ?? 0) > 0 ||
         /transfer|analog|similar|same archetype|e\.g\.|for example/i.test(proof);
       if (!hasAnalog) {
-        errors.push('empty cell: why_good_idea.proof_from_batch must cite transfer analog from YC batch');
+        errors.push(
+          'empty cell: why_good_idea.proof_from_batch must cite transfer analog from YC batch'
+        );
       }
     }
   }
@@ -459,7 +481,8 @@ export function buildPrimitivesBundle(assignments) {
 
   const primitive_types = PRIMITIVE_TYPES.map((t) => ({
     ...t,
-    instance_count: instances.filter((i) => t.phenotype_ids.includes(i.cell.phenotype_primary_id)).length,
+    instance_count: instances.filter((i) => t.phenotype_ids.includes(i.cell.phenotype_primary_id))
+      .length,
   }));
 
   return {

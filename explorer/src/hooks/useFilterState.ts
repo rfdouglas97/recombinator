@@ -18,12 +18,12 @@ export const SIDEBAR_FILTER_DEFAULTS: Pick<
 export function hasActiveSidebarFilters(state: FilterState): boolean {
   return Boolean(
     state.batch ||
-      state.sector ||
-      state.industry ||
-      state.phenotypeFamily ||
-      state.businessModel ||
-      state.minConfidence > 0 ||
-      state.search.trim(),
+    state.sector ||
+    state.industry ||
+    state.phenotypeFamily ||
+    state.businessModel ||
+    state.minConfidence > 0 ||
+    state.search.trim()
   );
 }
 
@@ -51,7 +51,11 @@ function parseUrl(): Partial<FilterState> {
   if (matrix === 'bm_sector' || matrix === 'bm_industry' || matrix === 'bm_vertical') {
     out.matrixMode = matrix as FilterState['matrixMode'];
   }
-  if (p.get('display') === 'density' || p.get('display') === 'gaps' || p.get('display') === 'both') {
+  if (
+    p.get('display') === 'density' ||
+    p.get('display') === 'gaps' ||
+    p.get('display') === 'both'
+  ) {
     out.matrixDisplay = p.get('display') as FilterState['matrixDisplay'];
   }
   if (p.get('hideEmpty') === '1') out.matrixHideEmptyCols = true;
@@ -95,6 +99,6 @@ export function useFilterState(_bundle: DataBundle | null) {
 
   return useMemo(
     () => ({ state, patch, drawer, drawerOpen, openDrawer, closeDrawer, setDrawer }),
-    [state, patch, drawer, drawerOpen, openDrawer, closeDrawer],
+    [state, patch, drawer, drawerOpen, openDrawer, closeDrawer]
   );
 }

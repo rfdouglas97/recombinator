@@ -105,7 +105,7 @@ export async function listCompanies(filters = {}) {
     params.push(`%${search.toLowerCase()}%`);
     const i = params.length;
     where.push(
-      `(LOWER(c.name) LIKE $${i} OR LOWER(c.slug) LIKE $${i} OR LOWER(c.one_liner) LIKE $${i})`,
+      `(LOWER(c.name) LIKE $${i} OR LOWER(c.slug) LIKE $${i} OR LOWER(c.one_liner) LIKE $${i})`
     );
   }
 
@@ -164,7 +164,7 @@ export async function listGaps({ limit = 100, sector = null } = {}) {
      FROM gap_cells ${where}
      ORDER BY rank NULLS LAST, opportunity_score DESC NULLS LAST
      LIMIT $${params.length}`,
-    params,
+    params
   );
 
   return rows.map((g) => ({
@@ -216,7 +216,7 @@ export async function listLaunches({ limit = 50, verdict = null, band = null } =
      ${where.length ? `WHERE ${where.join(' AND ')}` : ''}
      ORDER BY l.created_at DESC NULLS LAST
      LIMIT $${params.length}`,
-    params,
+    params
   );
   return rows;
 }
@@ -225,7 +225,7 @@ export async function getFacets(classifiedCompanies = null) {
   const [phenotypes, verticals, businessModels] = await Promise.all([
     query(`SELECT id, label, family FROM phenotypes ORDER BY label`),
     query(
-      `SELECT id, label, sector_id, industry_id, industry_label, sector_label FROM verticals ORDER BY label`,
+      `SELECT id, label, sector_id, industry_id, industry_label, sector_label FROM verticals ORDER BY label`
     ),
     query(`SELECT code AS id, label FROM business_models ORDER BY code`),
   ]);
@@ -234,11 +234,10 @@ export async function getFacets(classifiedCompanies = null) {
   const ycFacets = buildYcFacetsFromCompanies(classifiedCompanies ?? []);
 
   const cohortBatches = loadCohortBatches();
-  const batchList = explorerBatchFacets(
-    classifiedCompanies ?? [],
-    cohortBatches,
-  );
-  const phenotypeFamilies = [...new Set(phenotypes.rows.map((p) => p.family).filter(Boolean))].sort();
+  const batchList = explorerBatchFacets(classifiedCompanies ?? [], cohortBatches);
+  const phenotypeFamilies = [
+    ...new Set(phenotypes.rows.map((p) => p.family).filter(Boolean)),
+  ].sort();
 
   return {
     cohort_batches: cohortBatches,
@@ -264,9 +263,7 @@ export async function getFacets(classifiedCompanies = null) {
 }
 
 export async function fetchAssignmentsForBundle() {
-  const { rows } = await query(
-    `${COMPANY_SELECT} ORDER BY c.slug`,
-  );
+  const { rows } = await query(`${COMPANY_SELECT} ORDER BY c.slug`);
   return rows.map(rowToCompany);
 }
 
@@ -329,16 +326,18 @@ export async function fetchGapCellKeys() {
      INNER JOIN verticals v ON v.id = gc.vertical_id
      WHERE gc.business_model IS NOT NULL AND gc.vertical_id IS NOT NULL
        AND (v.sector_id IS NULL OR NOT (v.sector_id = ANY($1::text[])))`,
-    [excluded],
+    [excluded]
   );
   return rows.map((g) => `${g.business_model}|${g.vertical_id}`);
 }
 
 export async function fetchOntologies() {
   const [phenotypes, verticals] = await Promise.all([
-    query(`SELECT id, label, family, value_wedge, ai_application, description FROM phenotypes ORDER BY id`),
     query(
-      `SELECT id, label, sector_id, sector_label, industry_id, industry_label, workflow FROM verticals ORDER BY id`,
+      `SELECT id, label, family, value_wedge, ai_application, description FROM phenotypes ORDER BY id`
+    ),
+    query(
+      `SELECT id, label, sector_id, sector_label, industry_id, industry_label, workflow FROM verticals ORDER BY id`
     ),
   ]);
   const visible = verticals.rows.filter((v) => sectorVisible(v.sector_id));
@@ -347,14 +346,19 @@ export async function fetchOntologies() {
     verticals: visible,
     sectors: [
       ...new Map(
-        visible.filter((v) => v.sector_id).map((v) => [v.sector_id, { id: v.sector_id, label: v.sector_label ?? v.sector_id }]),
+        visible
+          .filter((v) => v.sector_id)
+          .map((v) => [v.sector_id, { id: v.sector_id, label: v.sector_label ?? v.sector_id }])
       ).values(),
     ],
     industries: [
       ...new Map(
         visible
           .filter((v) => v.industry_id)
-          .map((v) => [v.industry_id, { id: v.industry_id, label: v.industry_label ?? v.industry_id, sector_id: v.sector_id }]),
+          .map((v) => [
+            v.industry_id,
+            { id: v.industry_id, label: v.industry_label ?? v.industry_id, sector_id: v.sector_id },
+          ])
       ).values(),
     ],
   };

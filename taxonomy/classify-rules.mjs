@@ -32,13 +32,23 @@ function textBlob(company) {
 
 function sectorFromIndustries(industries = []) {
   const [a, b] = industries;
-  if (a === 'Healthcare' || b?.includes('Healthcare') || b?.includes('Biotech') || b?.includes('Drug')) {
+  if (
+    a === 'Healthcare' ||
+    b?.includes('Healthcare') ||
+    b?.includes('Biotech') ||
+    b?.includes('Drug')
+  ) {
     return 'Healthcare / life sciences';
   }
   if (a === 'Fintech' || b?.includes('Finance') || b?.includes('Insurance')) {
     return 'Fintech / insurance';
   }
-  if (a === 'Industrials' || b === 'Defense' || b?.includes('Manufacturing') || b?.includes('Aviation')) {
+  if (
+    a === 'Industrials' ||
+    b === 'Defense' ||
+    b?.includes('Manufacturing') ||
+    b?.includes('Aviation')
+  ) {
     return 'Industrials / hard tech';
   }
   if (a === 'Consumer') return 'Consumer';
@@ -62,9 +72,17 @@ export function classifyHeuristic(company) {
   if (/open source|open-source|oss/.test(t)) {
     primary = BM.OSS_COMMERCIAL;
     delivery.add('OpenSource');
-  } else if (/defense|military|atc|missile|drone|aerospace|satellite|robot|hardware|sensor|teleoperat|manufactur/.test(t)) {
-    primary = /drone|robot|hardware|sensor|teleoperat|aerial|satellite|chip|co-design/.test(t) ? BM.HARDWARE : BM.DEFENSE_GOV;
-    aiRole = /infrastructure|platform|layer|runtime|api/.test(t) ? 'infrastructure' : 'core_product';
+  } else if (
+    /defense|military|atc|missile|drone|aerospace|satellite|robot|hardware|sensor|teleoperat|manufactur/.test(
+      t
+    )
+  ) {
+    primary = /drone|robot|hardware|sensor|teleoperat|aerial|satellite|chip|co-design/.test(t)
+      ? BM.HARDWARE
+      : BM.DEFENSE_GOV;
+    aiRole = /infrastructure|platform|layer|runtime|api/.test(t)
+      ? 'infrastructure'
+      : 'core_product';
     delivery.add('Hardware');
     buyer.add('Government');
     buyer.add('Enterprise');
@@ -73,7 +91,11 @@ export function classifyHeuristic(company) {
     delivery.add('SaaS');
     delivery.add('Services');
     buyer.add('Enterprise');
-  } else if (/insurance|underwrit|payment|wallet|lending|banking|crypto|trading|actuarial|fintech|finance/.test(t)) {
+  } else if (
+    /insurance|underwrit|payment|wallet|lending|banking|crypto|trading|actuarial|fintech|finance/.test(
+      t
+    )
+  ) {
     primary = BM.FINTECH;
     delivery.add(/insurance|underwrit|liability/.test(t) ? 'Insurance' : 'SaaS');
     buyer.add('Enterprise');
@@ -92,7 +114,11 @@ export function classifyHeuristic(company) {
     delivery.add('API');
     delivery.add('SaaS');
     buyer.add('Developer');
-  } else if (/consulting|regulatory service|operations partner|we run|managed|outsourc|staffing|recruitment workflow/.test(t)) {
+  } else if (
+    /consulting|regulatory service|operations partner|we run|managed|outsourc|staffing|recruitment workflow/.test(
+      t
+    )
+  ) {
     primary = BM.MANAGED_SERVICE;
     delivery.add('Services');
     buyer.add('Enterprise');
@@ -100,7 +126,10 @@ export function classifyHeuristic(company) {
     primary = BM.DATA_INTEL;
     delivery.add('SaaS');
     buyer.add('Enterprise');
-  } else if (industries[0] === 'Consumer' || /consumer|tiktok|game|buddy on your mac|prosumer/.test(t)) {
+  } else if (
+    industries[0] === 'Consumer' ||
+    /consumer|tiktok|game|buddy on your mac|prosumer/.test(t)
+  ) {
     primary = BM.CONSUMER;
     delivery.add('SaaS');
     buyer.add('Consumer');
@@ -176,6 +205,9 @@ function buildRationale(company, primary, aiRole, sector) {
     `Primary business model ${primary} from one-liner/tags/industry keywords.`,
     `AI role ${aiRole}.`,
   ];
-  if (company.one_liner) bits.push(`One-liner: "${company.one_liner.slice(0, 120)}${company.one_liner.length > 120 ? '…' : ''}"`);
+  if (company.one_liner)
+    bits.push(
+      `One-liner: "${company.one_liner.slice(0, 120)}${company.one_liner.length > 120 ? '…' : ''}"`
+    );
   return bits.join(' ');
 }

@@ -1,0 +1,15 @@
+# Dependencies & build output
+node_modules/
+explorer/node_modules/
+explorer/dist/
+.playwright-browsers/
+
+# Committed data snapshots (machine-generated; not hand-edited)
+output/
+explorer/public/data.bundle.json
+explorer/public/startup-library.json
+taxonomy/verticals.json
+
+# Lockfiles
+package-lock.json
+explorer/package-lock.json

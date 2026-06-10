@@ -2,7 +2,7 @@
 
 ## Why Postgres?
 
-Today your “database” is JSON files in `output/`. That works for 401 companies and one developer.
+Today your “database” is JSON files in `output/`. That works for ~1,000 companies and one developer.
 
 Postgres gives you:
 
@@ -42,18 +42,18 @@ During Phase 1 we **dual-write nothing yet** — JSON pipeline still runs; migra
 
 ## Tables (what each one is)
 
-| Table | Analogy | Source file |
-|-------|---------|-------------|
-| `phenotypes` | Business archetype dictionary | `output/phenotypes/ontology.json` |
-| `verticals` | Industry workflow dictionary | `taxonomy/verticals.json` |
-| `business_models` | BM-01 … BM-12 labels | `taxonomy/v0.1.json` |
-| `companies` | YC startup row (classified or launch-only stub) | `normalized-assignments.json` + launch ingest |
-| `company_classifications` | Taxonomy assignment per company | same |
-| `company_business_models` | Many-to-many (company can have BM-01 + BM-04) | same |
-| `launches` | YC Launch Y posts | `output/launches/reviews.json` |
-| `launch_reviews` | Rubric scores per launch | same |
-| `gap_cells` | Empty BM × vertical opportunities | `output/whitespace/gap-opportunity-ranked.json` |
-| `idea_cards` | Synthetic startup ideas | `output/startup-library/library.json` |
+| Table                     | Analogy                                         | Source file                                     |
+| ------------------------- | ----------------------------------------------- | ----------------------------------------------- |
+| `phenotypes`              | Business archetype dictionary                   | `output/phenotypes/ontology.json`               |
+| `verticals`               | Industry workflow dictionary                    | `taxonomy/verticals.json`                       |
+| `business_models`         | BM-01 … BM-12 labels                            | `taxonomy/v0.1.json`                            |
+| `companies`               | YC startup row (classified or launch-only stub) | `normalized-assignments.json` + launch ingest   |
+| `company_classifications` | Taxonomy assignment per company                 | same                                            |
+| `company_business_models` | Many-to-many (company can have BM-01 + BM-04)   | same                                            |
+| `launches`                | YC Launch Y posts                               | `output/launches/reviews.json`                  |
+| `launch_reviews`          | Rubric scores per launch                        | same                                            |
+| `gap_cells`               | Empty BM × vertical opportunities               | `output/whitespace/gap-opportunity-ranked.json` |
+| `idea_cards`              | Synthetic startup ideas                         | `output/startup-library/library.json`           |
 
 **Primary key** = unique ID for each row (like `slug` for companies).  
 **Foreign key** = “this column must match a row in another table” (e.g. `company_slug` → `companies.slug`).
@@ -61,7 +61,7 @@ During Phase 1 we **dual-write nothing yet** — JSON pipeline still runs; migra
 ### Schema v2 F1 — `is_stub` and `idea_cards` FKs
 
 - **`companies.is_stub`** — `false` when a `company_classifications` row exists; `true` for launch-only placeholders (no classification yet).
-- **Corpus** = scraped cohort (`output/yc_companies.json`, ~401). Matrix/gaps/explorer use `normalized-assignments.json` for those slugs only.
+- **Corpus** = scraped cohort (`output/yc_companies.json`, ~1,029). Matrix/gaps/explorer use `normalized-assignments.json` for those slugs only.
 - Daily launch job: evaluate all new launches; `--ingest-new` adds a company **only if** the slug is not already in the corpus (stealth/new launches), and records the slug in `output/corpus/launch-ingested-slugs.json`. Older Launch YC companies stay launch-only (`is_stub = true`) until a new launch triggers ingest or you run `npm run corpus:promote -- <slug>`.
 - Explorer/API queries filter `is_stub = false`.
 - **`idea_cards`** — `vertical_id`, `phenotype_primary_id`, and `business_model` enforce FKs to ontology tables.
@@ -137,12 +137,12 @@ LIMIT 10;
 
 ## Files in this folder
 
-| File | Purpose |
-|------|---------|
-| `schema.sql` | `CREATE TABLE` statements — the schema |
+| File                           | Purpose                                       |
+| ------------------------------ | --------------------------------------------- |
+| `schema.sql`                   | `CREATE TABLE` statements — the schema        |
 | `migrations/002_schema_f1.sql` | F1: `is_stub` + `idea_cards` FKs (idempotent) |
-| `client.mjs` | Shared Postgres connection (pool) |
-| `migrate-from-json.mjs` | One-time / repeat load from JSON exports |
+| `client.mjs`                   | Shared Postgres connection (pool)             |
+| `migrate-from-json.mjs`        | One-time / repeat load from JSON exports      |
 
 ---
 
@@ -150,15 +150,15 @@ LIMIT 10;
 
 Run `npm run api:dev` then try in browser or curl:
 
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/health` | DB connection check |
-| `GET /api/bundle` | Full explorer payload (same shape as `data.bundle.json`) |
-| `GET /api/companies?batch=Spring%202026&limit=50` | Filtered company list |
-| `GET /api/companies/hexa` | Single company detail |
-| `GET /api/gaps?limit=20` | Ranked whitespace cells |
-| `GET /api/launches?verdict=surprise&limit=10` | Launch rubric results |
-| `GET /api/meta/facets` | Filter dropdown data |
+| Endpoint                                          | Description                                              |
+| ------------------------------------------------- | -------------------------------------------------------- |
+| `GET /api/health`                                 | DB connection check                                      |
+| `GET /api/bundle`                                 | Full explorer payload (same shape as `data.bundle.json`) |
+| `GET /api/companies?batch=Spring%202026&limit=50` | Filtered company list                                    |
+| `GET /api/companies/hexa`                         | Single company detail                                    |
+| `GET /api/gaps?limit=20`                          | Ranked whitespace cells                                  |
+| `GET /api/launches?verdict=surprise&limit=10`     | Launch rubric results                                    |
+| `GET /api/meta/facets`                            | Filter dropdown data                                     |
 
 Implementation: `db/queries.mjs` (SQL) → `server/read-api.mjs` (HTTP) → mounted in `server/generator-api.mjs`.
 

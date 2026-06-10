@@ -29,12 +29,12 @@ const DB_SCOPE_SIGNALS = [
 function filtersActive(filters = {}) {
   return Boolean(
     filters.batch ||
-      filters.sector ||
-      filters.industry ||
-      filters.phenotypeFamily ||
-      filters.businessModel ||
-      (filters.minConfidence ?? 0) > 0 ||
-      String(filters.search ?? '').trim(),
+    filters.sector ||
+    filters.industry ||
+    filters.phenotypeFamily ||
+    filters.businessModel ||
+    (filters.minConfidence ?? 0) > 0 ||
+    String(filters.search ?? '').trim()
   );
 }
 

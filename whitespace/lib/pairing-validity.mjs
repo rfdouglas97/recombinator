@@ -9,17 +9,22 @@ import { normalizeText } from '../../scripts/eval-utils.mjs';
 import { inferPhenotypeForGap } from './phenotype.mjs';
 
 const PAYER_ADMIN = /^payer_/;
-const ENTERPRISE_BACKOFFICE = /^(itsm|accounting|recruiting|hris|sales|audit|contracts|order_to_cash|process_automation)/;
+const ENTERPRISE_BACKOFFICE =
+  /^(itsm|accounting|recruiting|hris|sales|audit|contracts|order_to_cash|process_automation)/;
 
-const BIOTECH_RD = /\b(biotech|genomic|drug|pharma|laboratory|lab_|clinical.?trial|discovery|therapeutic|protein|omics|molecule|assay|cell.?line|screening|chemistry)\b/;
+const BIOTECH_RD =
+  /\b(biotech|genomic|drug|pharma|laboratory|lab_|clinical.?trial|discovery|therapeutic|protein|omics|molecule|assay|cell.?line|screening|chemistry)\b/;
 
-const FINTECH = /\b(fintech|finance|insurance|payment|lending|banking|trading|billing|claims|payer|underwriting|credit|bnpl|treasury|payroll)\b/;
+const FINTECH =
+  /\b(fintech|finance|insurance|payment|lending|banking|trading|billing|claims|payer|underwriting|credit|bnpl|treasury|payroll)\b/;
 
 const CONSUMER = /\b(consumer|prosumer|personal|creator|social|gaming|retail.?shopper)\b/;
 
-const DEFENSE_GOV = /\b(defense|gov|government|military|public.?sector|critical.?infra|clearance|contracting)\b/;
+const DEFENSE_GOV =
+  /\b(defense|gov|government|military|public.?sector|critical.?infra|clearance|contracting)\b/;
 
-const HARDWARE = /\b(hardware|robot|robotics|sensor|drone|autonomous|manufacturing|industrial|energy.?grid|construction.?site)\b/;
+const HARDWARE =
+  /\b(hardware|robot|robotics|sensor|drone|autonomous|manufacturing|industrial|energy.?grid|construction.?site)\b/;
 
 function haystack(gap, vertical = null) {
   return normalizeText(
@@ -33,7 +38,7 @@ function haystack(gap, vertical = null) {
       vertical?.label,
     ]
       .filter(Boolean)
-      .join(' '),
+      .join(' ')
   );
 }
 
@@ -71,10 +76,20 @@ export function evaluatePairingValidity(gap, { phenotypeId = null, vertical = nu
     if (ENTERPRISE_BACKOFFICE.test(wf) && !BIOTECH_RD.test(hay)) {
       return { valid: false, reason: 'biotech_rd_on_enterprise_backoffice', code: 'bogus_pairing' };
     }
-    if (/\b(dental|vision.?benefit|benefit.?admin|member.?services|appeals|enrollment)\b/.test(hay) && !BIOTECH_RD.test(hay)) {
-      return { valid: false, reason: 'biotech_rd_on_admin_benefits_vertical', code: 'bogus_pairing' };
+    if (
+      /\b(dental|vision.?benefit|benefit.?admin|member.?services|appeals|enrollment)\b/.test(hay) &&
+      !BIOTECH_RD.test(hay)
+    ) {
+      return {
+        valid: false,
+        reason: 'biotech_rd_on_admin_benefits_vertical',
+        code: 'bogus_pairing',
+      };
     }
-    if (!BIOTECH_RD.test(hay) && !/\b(life.?sci|research|rd|clinical|lab|pharma|biotech)\b/.test(hay)) {
+    if (
+      !BIOTECH_RD.test(hay) &&
+      !/\b(life.?sci|research|rd|clinical|lab|pharma|biotech)\b/.test(hay)
+    ) {
       return { valid: false, reason: 'biotech_rd_without_rd_vertical', code: 'bogus_pairing' };
     }
   }
@@ -83,8 +98,16 @@ export function evaluatePairingValidity(gap, { phenotypeId = null, vertical = nu
     if (PAYER_ADMIN.test(wf) || ENTERPRISE_BACKOFFICE.test(wf)) {
       return { valid: false, reason: 'hardware_bm_on_admin_workflow', code: 'bogus_pairing' };
     }
-    if (!HARDWARE.test(hay) && gap.sector_id !== 'industrials-defense' && gap.sector_id !== 'energy-climate') {
-      return { valid: false, reason: 'hardware_bm_without_physical_vertical', code: 'bogus_pairing' };
+    if (
+      !HARDWARE.test(hay) &&
+      gap.sector_id !== 'industrials-defense' &&
+      gap.sector_id !== 'energy-climate'
+    ) {
+      return {
+        valid: false,
+        reason: 'hardware_bm_without_physical_vertical',
+        code: 'bogus_pairing',
+      };
     }
   }
 
@@ -97,7 +120,11 @@ export function evaluatePairingValidity(gap, { phenotypeId = null, vertical = nu
   }
 
   if (bm === 'BM-10') {
-    if (gap.sector_id !== 'consumer' && gap.sector_id !== 'media-entertainment' && !CONSUMER.test(hay)) {
+    if (
+      gap.sector_id !== 'consumer' &&
+      gap.sector_id !== 'media-entertainment' &&
+      !CONSUMER.test(hay)
+    ) {
       return { valid: false, reason: 'consumer_bm_off_consumer_vertical', code: 'bogus_pairing' };
     }
     if (PAYER_ADMIN.test(wf)) {
@@ -106,7 +133,11 @@ export function evaluatePairingValidity(gap, { phenotypeId = null, vertical = nu
   }
 
   if (bm === 'BM-11') {
-    if (gap.sector_id !== 'industrials-defense' && gap.sector_id !== 'government-public' && !DEFENSE_GOV.test(hay)) {
+    if (
+      gap.sector_id !== 'industrials-defense' &&
+      gap.sector_id !== 'government-public' &&
+      !DEFENSE_GOV.test(hay)
+    ) {
       return { valid: false, reason: 'defense_bm_off_defense_vertical', code: 'bogus_pairing' };
     }
   }
@@ -119,7 +150,11 @@ export function evaluatePairingValidity(gap, { phenotypeId = null, vertical = nu
 
   if (bm === 'BM-07') {
     if (PAYER_ADMIN.test(wf) || ENTERPRISE_BACKOFFICE.test(wf)) {
-      return { valid: false, reason: 'marketplace_bm_on_backoffice_workflow', code: 'bogus_pairing' };
+      return {
+        valid: false,
+        reason: 'marketplace_bm_on_backoffice_workflow',
+        code: 'bogus_pairing',
+      };
     }
   }
 

@@ -20,12 +20,16 @@ interface Props {
   onCellClick: (sel: CellSelection | GapSelection) => void;
 }
 
-const BM_GAP_MODES = new Set<FilterState['matrixMode']>(['bm_sector', 'bm_industry', 'bm_vertical']);
+const BM_GAP_MODES = new Set<FilterState['matrixMode']>([
+  'bm_sector',
+  'bm_industry',
+  'bm_vertical',
+]);
 
 function columnHasCompanies(
   colId: string,
   rows: ReturnType<typeof useMatrixData>['rows'],
-  cellMap: ReturnType<typeof useMatrixData>['cellMap'],
+  cellMap: ReturnType<typeof useMatrixData>['cellMap']
 ): boolean {
   return rows.some((row) => (cellMap.get(`${row.id}|${colId}`)?.count ?? 0) > 0);
 }
@@ -67,7 +71,11 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
       state.matrixDisplay === 'density' || (state.matrixDisplay === 'both' && cell.count > 0);
 
     if (state.matrixDisplay === 'gaps' && !cell.isGap && cell.count === 0) {
-      return <td key={`${rowId}-${colId}`}><div className="matrix-cell" style={{ background: 'transparent' }} /></td>;
+      return (
+        <td key={`${rowId}-${colId}`}>
+          <div className="matrix-cell" style={{ background: 'transparent' }} />
+        </td>
+      );
     }
 
     const bg =
@@ -137,9 +145,7 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
           <span className="toolbar-key">Matrix</span>
           <select
             value={state.matrixMode}
-            onChange={(e) =>
-              onChange({ matrixMode: e.target.value as FilterState['matrixMode'] })
-            }
+            onChange={(e) => onChange({ matrixMode: e.target.value as FilterState['matrixMode'] })}
           >
             <option value="bm_sector">BM × Industry</option>
             <option value="bm_industry">BM × Sub-industry</option>
@@ -195,13 +201,15 @@ export function MatrixView({ bundle, state, onChange, onCellClick }: Props) {
                   <th
                     key={c.id}
                     className={
-                      state.matrixMode === 'bm_sector' ? 'col-header col-header-sector' : 'col-header'
+                      state.matrixMode === 'bm_sector'
+                        ? 'col-header col-header-sector'
+                        : 'col-header'
                     }
                     title={c.id}
                   >
                     <span className="col-header-label">{c.label}</span>
                   </th>
-                )),
+                ))
               )}
             </tr>
           </thead>

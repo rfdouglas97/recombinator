@@ -29,10 +29,21 @@ async function runBatch(jobs, concurrency, fn) {
 }
 
 function syntheticIdFor(gap, variant) {
-  return `syn-r${gap.rank}-v${variant}-${gap.business_model}-${gap.vertical_id}`.replace(/[^a-zA-Z0-9._-]/g, '-');
+  return `syn-r${gap.rank}-v${variant}-${gap.business_model}-${gap.vertical_id}`.replace(
+    /[^a-zA-Z0-9._-]/g,
+    '-'
+  );
 }
 
-function ideaSummary({ gap, variant, record, validation, goodness_index, idea_context, exemplars_used }) {
+function ideaSummary({
+  gap,
+  variant,
+  record,
+  validation,
+  goodness_index,
+  idea_context,
+  exemplars_used,
+}) {
   return {
     gap,
     variant,
@@ -135,7 +146,7 @@ export function writeIdeas(result, pickResult, outPath = null) {
   const matrixGapCount = gapDoc?.gap_count ?? null;
 
   const cards = sortCards(result.ideas.map((idea) => ideaToCard(idea, { matrixGapCount }))).map(
-    (c, i) => ({ ...c, card_rank: i + 1 }),
+    (c, i) => ({ ...c, card_rank: i + 1 })
   );
 
   const library = {

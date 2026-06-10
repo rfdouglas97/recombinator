@@ -60,7 +60,7 @@ export function expansionUserPrompt({ sector, industry, existingVerticals, ycHin
       ],
     },
     null,
-    2,
+    2
   );
 }
 
@@ -94,6 +94,6 @@ export function expansionReflectionUserPrompt(sector, proposals) {
       })),
     },
     null,
-    2,
+    2
   ).slice(0, 14000);
 }

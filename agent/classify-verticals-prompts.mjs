@@ -47,6 +47,6 @@ export function classifyVerticalsUserPrompt({ company, verticalCandidates }) {
       })),
     },
     null,
-    2,
+    2
   );
 }

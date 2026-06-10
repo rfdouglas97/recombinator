@@ -44,7 +44,7 @@ function textBlob(record) {
       record.why_good_idea?.ai_wedge,
       record.why_good_idea?.buyer_budget,
       record.why_good_idea?.proof_from_batch,
-    ].join(' '),
+    ].join(' ')
   );
 }
 
@@ -66,7 +66,9 @@ function buyerScore(record, vertical, blob) {
   let score = 0;
   const buyers = vertical?.buyers ?? [];
   for (const b of buyers) {
-    const tokens = normalizeText(b).split(' ').filter((t) => t.length > 3);
+    const tokens = normalizeText(b)
+      .split(' ')
+      .filter((t) => t.length > 3);
     if (tokens.some((t) => blob.includes(t))) score = Math.max(score, 0.85);
   }
   const whyBuyer = record.why_good_idea?.buyer_budget;
@@ -99,7 +101,17 @@ function aiWedgeScore(record, blob) {
   if (generic.some((g) => blob.includes(g)) && !record.why_good_idea?.ai_wedge) {
     score = Math.min(score, 0.35);
   }
-  const specific = ['agent', 'automat', 'workflow', 'infra', 'api', 'model', 'compliance', 'robot', 'sensor'];
+  const specific = [
+    'agent',
+    'automat',
+    'workflow',
+    'infra',
+    'api',
+    'model',
+    'compliance',
+    'robot',
+    'sensor',
+  ];
   if (specific.some((s) => blob.includes(s))) score = Math.max(score, 0.7);
   return clamp01(score);
 }
@@ -114,7 +126,9 @@ function transferScore(record, ideaContext) {
   if (ideaContext?.requires_analog_proof) {
     const hasAnalog =
       (record.analog_slugs?.length ?? 0) > 0 ||
-      /transfer|analog|similar|same archetype|e\.g\.|for example|rote|rex|batch/i.test(String(proof ?? ''));
+      /transfer|analog|similar|same archetype|e\.g\.|for example|rote|rex|batch/i.test(
+        String(proof ?? '')
+      );
     if (!hasAnalog) score = Math.min(score, 0.35);
     else score = Math.max(score, 0.75);
   } else if (ideaContext?.same_cell_instances?.length) {
@@ -173,8 +187,7 @@ export function computeGoodnessIndex(record, { vertical = null, ideaContext = nu
   };
 
   let overall =
-    100 *
-    Object.entries(GOODNESS_WEIGHTS).reduce((s, [k, w]) => s + w * (dimensions[k] ?? 0), 0);
+    100 * Object.entries(GOODNESS_WEIGHTS).reduce((s, [k, w]) => s + w * (dimensions[k] ?? 0), 0);
 
   if (sharp.blocked) overall = Math.min(overall, 45);
 
@@ -186,7 +199,7 @@ export function computeGoodnessIndex(record, { vertical = null, ideaContext = nu
     overall,
     band,
     dimensions: Object.fromEntries(
-      Object.entries(dimensions).map(([k, v]) => [k, Math.round(v * 100) / 100]),
+      Object.entries(dimensions).map(([k, v]) => [k, Math.round(v * 100) / 100])
     ),
     lowest_dimensions,
     feedback,
@@ -222,7 +235,7 @@ export function computeGapTransferScore(cell, { verticalOntology, ideaContext })
 /** Rank gaps by proto transfer score (higher = better whitespace to generate). */
 export function rankGapsByGoodness(
   gaps,
-  { inferPhenotype, assignments, getIdeaContextForCell, verticalOntology },
+  { inferPhenotype, assignments, getIdeaContextForCell, verticalOntology }
 ) {
   const scored = gaps.map((gap) => {
     const cell = {

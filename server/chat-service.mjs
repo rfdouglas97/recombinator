@@ -52,7 +52,11 @@ export async function handleChat({
     limit: searchLimit,
   });
 
-  const scope = assessChatScope(query, { filters: hardFilters, filterSlugs, matchCount: matches.length });
+  const scope = assessChatScope(query, {
+    filters: hardFilters,
+    filterSlugs,
+    matchCount: matches.length,
+  });
   if (!scope.allowed) {
     return {
       reply: refusalReply(scope.reason),
@@ -108,7 +112,7 @@ export async function handleChat({
     system,
     messages: trimChatHistory(
       messages.filter((m) => m.role === 'user' || m.role === 'assistant'),
-      6,
+      6
     ),
     apiConfig,
     maxTokens: 1024,

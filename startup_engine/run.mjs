@@ -12,7 +12,11 @@
 
 import { existsSync } from 'fs';
 
-import { pickInterestingWhitespace, writeShortlist, loadShortlistFile } from './pick-whitespace.mjs';
+import {
+  pickInterestingWhitespace,
+  writeShortlist,
+  loadShortlistFile,
+} from './pick-whitespace.mjs';
 import { generateIdeasForShortlist, writeIdeas } from './generate-ideas.mjs';
 
 function parseArgs(argv) {
@@ -48,7 +52,8 @@ function parseArgs(argv) {
     else if (a === '--generate-only') args.generateOnly = true;
     else if (a === '--top' && argv[i + 1]) args.top = parseInt(argv[++i], 10);
     else if (a === '--k' && argv[i + 1]) args.k = parseInt(argv[++i], 10);
-    else if (a === '--min-opportunity' && argv[i + 1]) args.minOpportunity = parseInt(argv[++i], 10);
+    else if (a === '--min-opportunity' && argv[i + 1])
+      args.minOpportunity = parseInt(argv[++i], 10);
     else if (a === '--min-depth' && argv[i + 1]) args.minDepth = parseInt(argv[++i], 10);
     else if (a === '--sector' && argv[i + 1]) args.sector = argv[++i];
     else if (a === '--concurrency' && argv[i + 1]) args.concurrency = parseInt(argv[++i], 10);
@@ -104,10 +109,10 @@ function printShortlist(pickResult) {
   console.log(`\n=== Step 1: Picked ${pickResult.shortlist.length} whitespace gaps ===\n`);
   for (const g of pickResult.shortlist) {
     console.log(
-      `  #${g.rank} [${g.analog_match_tier ?? '?'} analog] ${g.business_model_label} × ${g.vertical_label}`,
+      `  #${g.rank} [${g.analog_match_tier ?? '?'} analog] ${g.business_model_label} × ${g.vertical_label}`
     );
     console.log(
-      `       opp ${g.opportunity_score} · transfer ${g.transfer_score} · ${g.sector_label}${g.workflow ? ` · ${g.workflow}` : ''}`,
+      `       opp ${g.opportunity_score} · transfer ${g.transfer_score} · ${g.sector_label}${g.workflow ? ` · ${g.workflow}` : ''}`
     );
     console.log(`       cell: ${g.business_model}:${g.vertical_id}:${g.phenotype_primary_id}`);
     if (g.analog_slugs?.length) console.log(`       analogs: ${g.analog_slugs.join(', ')}`);
@@ -153,7 +158,9 @@ async function main() {
     }
   }
 
-  console.log(`\n=== Step 2: Generating ${pickResult.shortlist.length * args.k} company idea(s) ===\n`);
+  console.log(
+    `\n=== Step 2: Generating ${pickResult.shortlist.length * args.k} company idea(s) ===\n`
+  );
 
   const ideasResult = await generateIdeasForShortlist(pickResult.shortlist, {
     k: args.k,

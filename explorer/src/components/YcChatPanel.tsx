@@ -125,7 +125,7 @@ export function YcChatPanel({ bundle, drawer, open, onClose }: Props) {
         setLoading(false);
       }
     },
-    [loading, messages, bundle, drawer],
+    [loading, messages, bundle, drawer]
   );
 
   if (!open) return null;
@@ -150,7 +150,12 @@ export function YcChatPanel({ bundle, drawer, open, onClose }: Props) {
                   : ''}
             </p>
           </div>
-          <button type="button" className="chat-panel-close" onClick={onClose} aria-label="Close chat">
+          <button
+            type="button"
+            className="chat-panel-close"
+            onClick={onClose}
+            aria-label="Close chat"
+          >
             ×
           </button>
         </header>
@@ -171,7 +176,13 @@ export function YcChatPanel({ bundle, drawer, open, onClose }: Props) {
 
         <div className="chat-suggestions">
           {SUGGESTIONS.map((s) => (
-            <button key={s} type="button" className="chat-suggestion" disabled={loading} onClick={() => submit(s)}>
+            <button
+              key={s}
+              type="button"
+              className="chat-suggestion"
+              disabled={loading}
+              onClick={() => submit(s)}
+            >
               {s}
             </button>
           ))}

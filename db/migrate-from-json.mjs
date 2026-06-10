@@ -62,13 +62,15 @@ async function pruneCorpusOutsideSlugs(corpusSlugs) {
   if (!corpusSlugs?.length) return;
   const { rowCount: bm } = await query(
     `DELETE FROM company_business_models WHERE company_slug <> ALL($1::text[])`,
-    [corpusSlugs],
+    [corpusSlugs]
   );
   const { rowCount: cc } = await query(
     `DELETE FROM company_classifications WHERE company_slug <> ALL($1::text[])`,
-    [corpusSlugs],
+    [corpusSlugs]
   );
-  console.log(`✓ pruned corpus outsiders: ${cc ?? 0} classifications, ${bm ?? 0} business-model links`);
+  console.log(
+    `✓ pruned corpus outsiders: ${cc ?? 0} classifications, ${bm ?? 0} business-model links`
+  );
 }
 
 async function reconcileCompanyStubs() {
@@ -80,15 +82,16 @@ async function reconcileCompanyStubs() {
     UPDATE companies SET is_stub = true
     WHERE slug NOT IN (SELECT company_slug FROM company_classifications)
   `);
-  const { rows } = await query(`SELECT is_stub, COUNT(*)::int AS n FROM companies GROUP BY is_stub ORDER BY is_stub`);
+  const { rows } = await query(
+    `SELECT is_stub, COUNT(*)::int AS n FROM companies GROUP BY is_stub ORDER BY is_stub`
+  );
   console.log('✓ company stubs reconciled:', rows.map((r) => `${r.is_stub}=${r.n}`).join(', '));
 }
 
 async function upsertMigration(name) {
-  await query(
-    `INSERT INTO schema_migrations (name) VALUES ($1) ON CONFLICT (name) DO NOTHING`,
-    [name],
-  );
+  await query(`INSERT INTO schema_migrations (name) VALUES ($1) ON CONFLICT (name) DO NOTHING`, [
+    name,
+  ]);
 }
 
 async function loadBusinessModels(taxonomy) {
@@ -98,7 +101,7 @@ async function loadBusinessModels(taxonomy) {
     await query(
       `INSERT INTO business_models (code, label) VALUES ($1, $2)
        ON CONFLICT (code) DO UPDATE SET label = EXCLUDED.label`,
-      [code, def.label ?? def.name ?? code],
+      [code, def.label ?? def.name ?? code]
     );
     n++;
   }
@@ -124,7 +127,7 @@ async function loadPhenotypes(ontology) {
         p.ai_application ?? null,
         p.description ?? null,
         p.source ?? 'ontology',
-      ],
+      ]
     );
   }
   console.log(`✓ phenotypes: ${ontology.phenotypes.length}`);
@@ -152,7 +155,7 @@ async function loadVerticals(doc) {
         v.workflow ?? null,
         JSON.stringify(v.buyers ?? []),
         JSON.stringify(v.aliases ?? []),
-      ],
+      ]
     );
   }
   console.log(`✓ verticals: ${doc.verticals.length}`);
@@ -164,16 +167,16 @@ async function ensurePhenotype(id, label = id) {
   await query(
     `INSERT INTO phenotypes (id, label, family) VALUES ($1, $2, 'inferred')
      ON CONFLICT (id) DO NOTHING`,
-    [id, label],
+    [id, label]
   );
 }
 
 async function ensureVertical(id, label = id) {
   if (!id) return;
-  await query(
-    `INSERT INTO verticals (id, label) VALUES ($1, $2) ON CONFLICT (id) DO NOTHING`,
-    [id, label],
-  );
+  await query(`INSERT INTO verticals (id, label) VALUES ($1, $2) ON CONFLICT (id) DO NOTHING`, [
+    id,
+    label,
+  ]);
 }
 
 async function loadCompanies(rows) {
@@ -212,12 +215,13 @@ async function loadCompanies(rows) {
         r.launch_title ?? null,
         r.launch_tagline ?? null,
         r.launch_created_at ?? null,
-      ],
+      ]
     );
 
     const meta = {};
     if (r.reclassified_from) meta.reclassified_from = r.reclassified_from;
-    if (r.vertical_classify_rationale) meta.vertical_classify_rationale = r.vertical_classify_rationale;
+    if (r.vertical_classify_rationale)
+      meta.vertical_classify_rationale = r.vertical_classify_rationale;
     if (r.vertical_classify_confidence != null) {
       meta.vertical_classify_confidence = r.vertical_classify_confidence;
     }
@@ -260,23 +264,27 @@ async function loadCompanies(rows) {
         r.method ?? null,
         r.classified_at ?? null,
         JSON.stringify(meta),
-      ],
+      ]
     );
 
     await query(`DELETE FROM company_business_models WHERE company_slug = $1`, [r.slug]);
     const primaryBm =
       r.primary_bm ??
-      (Array.isArray(r.business_models) && r.business_models.length === 1 ? r.business_models[0] : null) ??
-      (Array.isArray(r.business_models) && r.business_models.length > 1 ? r.business_models[0] : null);
+      (Array.isArray(r.business_models) && r.business_models.length === 1
+        ? r.business_models[0]
+        : null) ??
+      (Array.isArray(r.business_models) && r.business_models.length > 1
+        ? r.business_models[0]
+        : null);
     if (primaryBm) {
       await query(
         `INSERT INTO business_models (code, label) VALUES ($1, $1) ON CONFLICT DO NOTHING`,
-        [primaryBm],
+        [primaryBm]
       );
       await query(
         `INSERT INTO company_business_models (company_slug, business_model_code, is_primary)
          VALUES ($1, $2, true)`,
-        [r.slug, primaryBm],
+        [r.slug, primaryBm]
       );
     }
   }
@@ -295,7 +303,7 @@ async function ensureCompany(slug, name = slug) {
          THEN false
          ELSE true
        END`,
-    [slug, name ?? slug],
+    [slug, name ?? slug]
   );
 }
 
@@ -315,7 +323,7 @@ async function loadLaunchReviews(doc) {
        ON CONFLICT (launch_id) DO UPDATE SET
          launch_url = EXCLUDED.launch_url, company_slug = EXCLUDED.company_slug,
          created_at = EXCLUDED.created_at, updated_at = NOW()`,
-      [launchId, item.launch_url ?? '', item.company_slug ?? null, item.created_at ?? null],
+      [launchId, item.launch_url ?? '', item.company_slug ?? null, item.created_at ?? null]
     );
 
     const review = item.review ?? {};
@@ -346,7 +354,7 @@ async function loadLaunchReviews(doc) {
         JSON.stringify(pred),
         JSON.stringify(review.notes ?? []),
         review.evaluated_at ?? null,
-      ],
+      ]
     );
   }
 
@@ -366,7 +374,7 @@ async function loadGapCells(doc) {
     if (g.business_model) {
       await query(
         `INSERT INTO business_models (code, label) VALUES ($1, $2) ON CONFLICT DO NOTHING`,
-        [g.business_model, g.business_model_label ?? g.business_model],
+        [g.business_model, g.business_model_label ?? g.business_model]
       );
     }
 
@@ -388,8 +396,11 @@ async function loadGapCells(doc) {
         g.rank ?? null,
         JSON.stringify(g.flags ?? []),
         JSON.stringify(g.analog_slugs ?? []),
-        JSON.stringify({ scores: g.scores ?? {}, adjacent_cluster_slugs: g.adjacent_cluster_slugs ?? [] }),
-      ],
+        JSON.stringify({
+          scores: g.scores ?? {},
+          adjacent_cluster_slugs: g.adjacent_cluster_slugs ?? [],
+        }),
+      ]
     );
   }
 
@@ -406,7 +417,7 @@ async function validateIdeaCardRefs() {
   for (const [col, table, pk] of checks) {
     const { rows } = await query(
       `SELECT id, ${col} AS ref FROM idea_cards
-       WHERE ${col} IS NOT NULL AND ${col} NOT IN (SELECT ${pk} FROM ${table})`,
+       WHERE ${col} IS NOT NULL AND ${col} NOT IN (SELECT ${pk} FROM ${table})`
     );
     if (rows.length) {
       console.warn(`  warn: ${rows.length} idea_cards with orphan ${col}`);
@@ -434,7 +445,7 @@ async function loadIdeaCards(doc) {
     if (bm) {
       await query(
         `INSERT INTO business_models (code, label) VALUES ($1, $2) ON CONFLICT DO NOTHING`,
-        [bm, bm],
+        [bm, bm]
       );
     }
 
@@ -461,7 +472,7 @@ async function loadIdeaCards(doc) {
         JSON.stringify(c.scores ?? {}),
         c.judgment ?? null,
         c.human_score ?? null,
-      ],
+      ]
     );
   }
 
@@ -511,12 +522,16 @@ async function main() {
 
   const companies = loadJson(PATHS.companies);
   const companyRows = companies
-    ? (Array.isArray(companies) ? companies : Object.values(companies))
+    ? Array.isArray(companies)
+      ? companies
+      : Object.values(companies)
     : [];
   if (companyRows.length) {
     await loadCompanies(companyRows);
     const allowlist = [...getCorpusAllowlist()];
-    await pruneCorpusOutsideSlugs(allowlist.length ? allowlist : companyRows.map((r) => r.slug).filter(Boolean));
+    await pruneCorpusOutsideSlugs(
+      allowlist.length ? allowlist : companyRows.map((r) => r.slug).filter(Boolean)
+    );
   }
 
   await loadLaunchReviews(loadJson(PATHS.launchReviews));

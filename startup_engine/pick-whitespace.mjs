@@ -75,7 +75,9 @@ export function pickInterestingWhitespace(options = {}) {
   const rankedPath = opts.rankedPath ?? INPUT.rankedGaps;
 
   if (!existsSync(rankedPath)) {
-    throw new Error(`Missing ${rankedPath}\nRun: npm run whitespace:rank  (or npm run startup-engine:refresh)`);
+    throw new Error(
+      `Missing ${rankedPath}\nRun: npm run whitespace:rank  (or npm run startup-engine:refresh)`
+    );
   }
 
   const ranked = JSON.parse(readFileSync(rankedPath, 'utf8'));

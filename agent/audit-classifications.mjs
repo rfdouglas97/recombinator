@@ -66,7 +66,7 @@ async function main() {
 
   const ontology = loadOntology(
     join(ROOT, 'output/phenotypes/ontology.json'),
-    join(ROOT, 'taxonomy/phenotype-seeds.json'),
+    join(ROOT, 'taxonomy/phenotype-seeds.json')
   );
   const verticalOntology = loadVerticalOntology();
   const heuristicBm = loadHeuristicBmMap();
@@ -74,11 +74,13 @@ async function main() {
   const phenotypeCatalog = compactPhenotypeCatalog(ontology.phenotypes);
 
   let companies = loadAssignmentsFromJsonl().map((a) =>
-    enrichCompany(a, normalizedMap, verticalOntology, heuristicBm),
+    enrichCompany(a, normalizedMap, verticalOntology, heuristicBm)
   );
   if (args.limit > 0) companies = companies.slice(0, args.limit);
 
-  const state = args.resume ? loadAuditState() : { processed_slugs: [], audits: [], started_at: new Date().toISOString() };
+  const state = args.resume
+    ? loadAuditState()
+    : { processed_slugs: [], audits: [], started_at: new Date().toISOString() };
   if (!args.resume) {
     state.processed_slugs = [];
     state.audits = [];
@@ -92,7 +94,7 @@ async function main() {
       : parseInt(process.env.CLASSIFICATION_AUDIT_CONCURRENCY ?? '8', 10);
 
   auditLog(
-    `Classification audit | model=${apiConfig.model} | concurrency=${concurrency} | queue=${queue.length}/${companies.length}`,
+    `Classification audit | model=${apiConfig.model} | concurrency=${concurrency} | queue=${queue.length}/${companies.length}`
   );
 
   const context = { phenotypeCatalog, verticalOntology, heuristicBm };
@@ -129,7 +131,7 @@ async function main() {
             error: err.message,
           };
         }
-      }),
+      })
     );
 
     for (const { audit, error } of results) {
@@ -144,7 +146,9 @@ async function main() {
 
       const flag = audit.verdict === 'ok' ? '✓' : audit.verdict === 'wrong' ? '✗' : '~';
       const conf = audit.classification_confidence?.toFixed(2) ?? '?';
-      auditLog(`  ${flag} ${audit.slug}: ${audit.verdict} (conf ${conf})${error ? ` (${error})` : ''}`);
+      auditLog(
+        `  ${flag} ${audit.slug}: ${audit.verdict} (conf ${conf})${error ? ` (${error})` : ''}`
+      );
     }
 
     saveAuditState(state);

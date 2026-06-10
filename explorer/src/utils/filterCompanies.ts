@@ -25,7 +25,8 @@ export function filterCompanies(bundle: DataBundle, filters: Filters): Company[]
   return Object.values(bundle.companies).filter((c) => {
     if (filters.batch && c.batch !== filters.batch) return false;
     if (filters.sector && ycParent(c.yc_industries) !== filters.sector) return false;
-    if (filters.industry && !companyMatchesYcIndustry(c.yc_industries, filters.industry)) return false;
+    if (filters.industry && !companyMatchesYcIndustry(c.yc_industries, filters.industry))
+      return false;
     if (filters.phenotypeFamily && c.phenotype_family !== filters.phenotypeFamily) return false;
     if (filters.businessModel && !c.business_models.includes(filters.businessModel)) return false;
     if (filters.minConfidence > 0 && (c.confidence ?? 0) < filters.minConfidence) return false;

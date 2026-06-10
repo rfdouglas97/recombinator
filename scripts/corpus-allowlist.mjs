@@ -50,7 +50,7 @@ export function saveLaunchIngestedSlugs(slugs) {
   const sorted = [...new Set(slugs)].sort();
   writeFileSync(
     CORPUS_PATHS.launchIngested,
-    JSON.stringify({ updated_at: new Date().toISOString(), slugs: sorted }, null, 2),
+    JSON.stringify({ updated_at: new Date().toISOString(), slugs: sorted }, null, 2)
   );
   return sorted;
 }

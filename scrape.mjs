@@ -275,8 +275,14 @@ function toCsv(companies) {
       c.status,
       c.is_hiring,
       founders.map((f) => f.full_name).join('; '),
-      founders.map((f) => f.linkedin_url).filter(Boolean).join('; '),
-      founders.map((f) => f.twitter_url).filter(Boolean).join('; '),
+      founders
+        .map((f) => f.linkedin_url)
+        .filter(Boolean)
+        .join('; '),
+      founders
+        .map((f) => f.twitter_url)
+        .filter(Boolean)
+        .join('; '),
     ].map(escape);
   });
 

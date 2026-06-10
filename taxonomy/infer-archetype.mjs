@@ -72,13 +72,14 @@ export function inferArchetype(record) {
   if (
     B2B_SOFTWARE_TO_FINANCE_RE.test(blob) ||
     TRADING_INFRA_B2B_RE.test(blob) ||
-    (/\bfor hedge funds\b/i.test(blob) && /\b(agent|platform|software|saas|automation)\b/i.test(blob))
+    (/\bfor hedge funds\b/i.test(blob) &&
+      /\b(agent|platform|software|saas|automation)\b/i.test(blob))
   ) {
     if (!IS_REGULATED_PRODUCT_RE.test(blob)) {
       return result(
         'vertical-workflow-agent',
         'b2b_financial_workflow',
-        'Sells AI workflow software to banks, funds, or private-market participants.',
+        'Sells AI workflow software to banks, funds, or private-market participants.'
       );
     }
   }
@@ -89,7 +90,7 @@ export function inferArchetype(record) {
       return result(
         'marketplace-network-ai',
         'trading_marketplace',
-        'Exchange, perps, or liquidity network — not an insurance/fintech SKU.',
+        'Exchange, perps, or liquidity network — not an insurance/fintech SKU.'
       );
     }
     return result(current, 'unchanged', '');
@@ -101,7 +102,7 @@ export function inferArchetype(record) {
       return result(
         'fintech-insurance-ai-product',
         'regulated_financial_product',
-        'Operates as the financial product (fund, bank, insurer) with AI wedge.',
+        'Operates as the financial product (fund, bank, insurer) with AI wedge.'
       );
     }
     return result(current, 'unchanged', '');
@@ -115,7 +116,7 @@ export function inferArchetype(record) {
     return result(
       'vertical-workflow-agent',
       'fintech_sku_no_ai_b2b',
-      'Tagged as AI fintech product but copy has no AI wedge — treat as vertical/B2B.',
+      'Tagged as AI fintech product but copy has no AI wedge — treat as vertical/B2B.'
     );
   }
 
@@ -128,7 +129,7 @@ export function inferArchetype(record) {
     return result(
       'vertical-workflow-agent',
       'trading_vertical_b2b',
-      'Trading-domain company selling workflow/platform, not issuing a regulated SKU.',
+      'Trading-domain company selling workflow/platform, not issuing a regulated SKU.'
     );
   }
 
@@ -137,13 +138,14 @@ export function inferArchetype(record) {
     const who = String(record.who_pays ?? '').toLowerCase();
     const enterpriseBuyer =
       /\b(banks?|hedge funds?|brokers?|insurers?|lenders?|enterprises?|teams?|analysts?|cfos?|operations?)\b/.test(
-        who,
-      ) && !/\b(limited partners|lps|institutional investors investing|capital providers)\b/.test(who);
+        who
+      ) &&
+      !/\b(limited partners|lps|institutional investors investing|capital providers)\b/.test(who);
     if (enterpriseBuyer && B2B_SOFTWARE_TO_FINANCE_RE.test(blob)) {
       return result(
         'vertical-workflow-agent',
         'enterprise_buyer_not_sku',
-        'Who pays is an operating enterprise buyer, not capital into a financial product.',
+        'Who pays is an operating enterprise buyer, not capital into a financial product.'
       );
     }
   }
@@ -188,7 +190,7 @@ export function refineArchetype(record) {
     phenotype_primary_id: inferred.phenotype_primary_id,
     business_models: phenotypeAllowedForBm(inferred.phenotype_primary_id, primaryBmCode)
       ? inferred.business_models
-      : PHENOTYPE_TO_BM[inferred.phenotype_primary_id] ?? inferred.business_models,
+      : (PHENOTYPE_TO_BM[inferred.phenotype_primary_id] ?? inferred.business_models),
     archetype_refined: true,
     archetype_refine_rule: inferred.rule,
     archetype_refine_note: inferred.note || null,

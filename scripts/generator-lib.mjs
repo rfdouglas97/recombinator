@@ -52,7 +52,11 @@ function loadTrainSet() {
     return new Set(Array.isArray(slugs) ? slugs : []);
   }
   // Full classified corpus as exemplar pool when no eval holdout file exists.
-  return new Set(loadNormalizedAssignments().map((r) => r.slug).filter(Boolean));
+  return new Set(
+    loadNormalizedAssignments()
+      .map((r) => r.slug)
+      .filter(Boolean)
+  );
 }
 
 function buildTrainExemplars(cell, assignments, trainSlugs, max = 3) {
@@ -62,13 +66,21 @@ function buildTrainExemplars(cell, assignments, trainSlugs, max = 3) {
         trainSlugs.has(r.slug) &&
         r.business_models?.[0] === cell.business_model &&
         r.vertical_id === cell.vertical_id &&
-        r.phenotype_primary_id === cell.phenotype_primary_id,
+        r.phenotype_primary_id === cell.phenotype_primary_id
     )
     .slice(0, max)
     .map(redactForTrainPrompt);
 }
 
-export function buildGenerationPrompt({ cell, vertical, phenotype, bm, exemplars, variantIndex, ideaContext }) {
+export function buildGenerationPrompt({
+  cell,
+  vertical,
+  phenotype,
+  bm,
+  exemplars,
+  variantIndex,
+  ideaContext,
+}) {
   return JSON.stringify(
     {
       task: 'Generate a synthetic YC-style startup for the target taxonomy cell',
@@ -154,7 +166,7 @@ export function buildGenerationPrompt({ cell, vertical, phenotype, bm, exemplars
       ],
     },
     null,
-    2,
+    2
   );
 }
 
@@ -201,7 +213,7 @@ function gapSearchScore(gap, queryTokens) {
       gap.sector_label,
       gap.workflow,
       gap.business_model_label,
-    ].join(' '),
+    ].join(' ')
   );
   const hayTokens = tokenSet(hay);
   const expanded = expandQueryTokens(queryTokens);
@@ -276,7 +288,7 @@ export function findWhitespaceGaps({
   }
   if (industryId) {
     filtered = filtered.filter(
-      (g) => g.vertical_id === industryId || g.vertical_id.startsWith(`${industryId}.`),
+      (g) => g.vertical_id === industryId || g.vertical_id.startsWith(`${industryId}.`)
     );
   }
   if (businessModel) {
@@ -293,7 +305,9 @@ export function findWhitespaceGaps({
     .filter(({ score }) => score > 0 || !queryTokens.size)
     .sort((a, b) => b.score - a.score || a.gap.vertical_label.localeCompare(b.gap.vertical_label));
 
-  return scored.slice(0, limit).map(({ gap, score }) => formatGapCandidate(gap, queryTokens.size ? score : null));
+  return scored
+    .slice(0, limit)
+    .map(({ gap, score }) => formatGapCandidate(gap, queryTokens.size ? score : null));
 }
 
 function formatGapCandidate(gap, relevanceScore = null) {
@@ -354,7 +368,13 @@ export function pickWhitespaceCell({
     pool = findWhitespaceGaps({ limit: 400 })
       .map((gap) => {
         const hay = normalizeText(
-          [gap.vertical_id, gap.vertical_label, gap.industry_label, gap.sector_label, gap.workflow].join(' '),
+          [
+            gap.vertical_id,
+            gap.vertical_label,
+            gap.industry_label,
+            gap.sector_label,
+            gap.workflow,
+          ].join(' ')
         );
         const score = queryTrim.length >= 3 && hay.includes(normalizeText(queryTrim)) ? 0.5 : 0;
         return { gap, score };
@@ -367,7 +387,7 @@ export function pickWhitespaceCell({
 
   if (!pool.length) {
     throw new Error(
-      'No structurally valid whitespace found for that hint. Try a shorter keyword (e.g. pharma, biotech, healthcare) or leave blank for a random gap.',
+      'No structurally valid whitespace found for that hint. Try a shorter keyword (e.g. pharma, biotech, healthcare) or leave blank for a random gap.'
     );
   }
 
@@ -405,13 +425,16 @@ export function pickWhitespaceCell({
     getIdeaContextForCell,
     verticalOntology,
   });
-  const pickFrom = ranked.filter((r) => r.transfer_score >= 45).length ? ranked.filter((r) => r.transfer_score >= 45) : ranked;
+  const pickFrom = ranked.filter((r) => r.transfer_score >= 45).length
+    ? ranked.filter((r) => r.transfer_score >= 45)
+    : ranked;
 
   const idx = hashSeed(seed) % pickFrom.length;
   const chosen = pickFrom[idx];
   const gap =
     pool.find(
-      (g) => g.vertical_id === chosen.gap.vertical_id && g.business_model === chosen.gap.business_model,
+      (g) =>
+        g.vertical_id === chosen.gap.vertical_id && g.business_model === chosen.gap.business_model
     ) ?? pool[0];
   return {
     gap,
@@ -443,7 +466,7 @@ export async function discoverAndGenerate(options = {}) {
  */
 export async function generateSyntheticForCell(
   cell,
-  { syntheticId = `syn-${Date.now()}`, variantIndex = 1, apiConfig = resolveApiConfig() } = {},
+  { syntheticId = `syn-${Date.now()}`, variantIndex = 1, apiConfig = resolveApiConfig() } = {}
 ) {
   if (!apiConfig) {
     throw new Error('No ANTHROPIC_API_KEY or OPENAI_API_KEY configured in .env');
@@ -469,10 +492,12 @@ export async function generateSyntheticForCell(
       workflow: vertical?.workflow,
       sector_id: vertical?.sector_id,
     },
-    { phenotypeId: cell.phenotype_primary_id, vertical },
+    { phenotypeId: cell.phenotype_primary_id, vertical }
   );
   if (!pairing.valid) {
-    throw new Error(`Invalid BM×vertical pairing (${pairing.reason}). This cell should not be generated.`);
+    throw new Error(
+      `Invalid BM×vertical pairing (${pairing.reason}). This cell should not be generated.`
+    );
   }
 
   const phenotype = getPhenotypeById(cell.phenotype_primary_id, phenotypeOntology);

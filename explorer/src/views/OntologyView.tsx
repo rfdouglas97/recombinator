@@ -83,7 +83,11 @@ function collectSlugs(node: TreeNode, slugFilter: Set<string>): string[] {
   return out;
 }
 
-function buildVisibleTree(node: TreeNode, expanded: Set<string>, slugFilter: Set<string>): TreeNode {
+function buildVisibleTree(
+  node: TreeNode,
+  expanded: Set<string>,
+  slugFilter: Set<string>
+): TreeNode {
   const kids = node.children ?? [];
   const isExpanded = node.type === 'root' || expanded.has(node.id);
 
@@ -180,7 +184,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
 
   const canCollapseLevel = useMemo(
     () => maxExpandedDepth(rootTree, expanded) > 0,
-    [rootTree, expanded],
+    [rootTree, expanded]
   );
 
   const resetView = useCallback(() => {
@@ -250,7 +254,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
     }
     const maxDepth = nodes.reduce(
       (m, d) => Math.max(m, (d as { depthLevel?: number }).depthLevel ?? 0),
-      0,
+      0
     );
     const colX: number[] = [];
     let acc = 0;
@@ -335,7 +339,10 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
 
     if (shouldResetZoom) {
       lastResetNonceRef.current = resetNonce;
-      svg.transition().duration(350).call(zoom.transform as never, transform);
+      svg
+        .transition()
+        .duration(350)
+        .call(zoom.transform as never, transform);
       lastTransformRef.current = transform;
       setZoomHint(0.95);
     } else {
@@ -348,7 +355,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
       .data(links)
       .join('path')
       .attr('d', (d) => {
-        const srcRight = (d.source as { colRight?: number }).colRight ?? (d.source.y ?? 0);
+        const srcRight = (d.source as { colRight?: number }).colRight ?? d.source.y ?? 0;
         const sx = srcRight + pad.left;
         const sy = (d.source.x ?? 0) + pad.top;
         const tx = (d.target.y ?? 0) + pad.left;
@@ -399,9 +406,7 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
       }
 
       const label =
-        d.data.type === 'company'
-          ? bundle.companies[d.data.id]?.name ?? d.data.id
-          : d.data.label;
+        d.data.type === 'company' ? (bundle.companies[d.data.id]?.name ?? d.data.id) : d.data.label;
 
       const count = countCompanies(fullNode);
       const suffix =
@@ -498,8 +503,8 @@ export function OntologyView({ bundle, state, onChange, onNodeSelect }: Props) {
           Expand all
         </button>
         <span className="ontology-hint">
-          Drag to pan · Scroll to zoom · {Math.round(zoomHint * 100)}% · Click +/− to expand · Sidebar filters
-          prune branches with no matching companies
+          Drag to pan · Scroll to zoom · {Math.round(zoomHint * 100)}% · Click +/− to expand ·
+          Sidebar filters prune branches with no matching companies
         </span>
       </div>
       <div ref={containerRef} className="ontology-canvas view-area">
@@ -538,13 +543,13 @@ function nodeDisplay(
   dData: TreeNode,
   rootTree: TreeNode,
   expanded: Set<string>,
-  bundle: DataBundle,
+  bundle: DataBundle
 ): { text: string; fontSize: number } {
   const fullNode = findRawNode(rootTree, dData.id) ?? dData;
   const kidCount = (fullNode.children ?? []).length;
   const isExpanded = expanded.has(dData.id) || dData.type === 'root';
   const label =
-    dData.type === 'company' ? bundle.companies[dData.id]?.name ?? dData.id : dData.label;
+    dData.type === 'company' ? (bundle.companies[dData.id]?.name ?? dData.id) : dData.label;
   const count = countCompanies(fullNode);
   const suffix =
     !isExpanded && kidCount > 0

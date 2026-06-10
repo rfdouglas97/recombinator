@@ -30,7 +30,9 @@ export function loadCompanyRecords() {
   if (companiesCache) return companiesCache;
   const path = join(ROOT, 'output/verticals/normalized-assignments.json');
   if (!existsSync(path)) {
-    throw new Error('Missing output/verticals/normalized-assignments.json — run npm run data:bundle');
+    throw new Error(
+      'Missing output/verticals/normalized-assignments.json — run npm run data:bundle'
+    );
   }
   companiesCache = JSON.parse(readFileSync(path, 'utf8'));
   return companiesCache;
@@ -51,7 +53,8 @@ function applyFilters(list, filters = {}) {
       if (v?.industry_id !== filters.industry) return false;
     }
     if (filters.phenotypeFamily && c.phenotype_family !== filters.phenotypeFamily) return false;
-    if (filters.businessModel && !(c.business_models ?? []).includes(filters.businessModel)) return false;
+    if (filters.businessModel && !(c.business_models ?? []).includes(filters.businessModel))
+      return false;
     if (filters.minConfidence > 0 && (c.confidence ?? 0) < filters.minConfidence) return false;
     if (filters.search?.trim()) {
       const q = filters.search.trim().toLowerCase();
@@ -135,7 +138,9 @@ export function buildRetrievalContext(matches, { filters, selectedSlug, meta } =
 
   const lines = [
     `YC database: ${meta?.assignment_count ?? 401} classified companies with vertical, phenotype, and business model tags.`,
-    filterBits.length ? `Active explorer filters: ${filterBits.join(', ')}` : 'No sidebar filters active.',
+    filterBits.length
+      ? `Active explorer filters: ${filterBits.join(', ')}`
+      : 'No sidebar filters active.',
     selectedSlug ? `User has selected company slug: ${selectedSlug}` : '',
     '',
     'Retrieved companies (cite by name; slug in parentheses when listing):',
@@ -146,7 +151,7 @@ export function buildRetrievalContext(matches, { filters, selectedSlug, meta } =
   } else {
     for (const m of matches) {
       lines.push(
-        `- ${m.name} (${m.slug}) · ${m.batch ?? '?'} · ${m.vertical_label ?? '?'} · ${m.phenotype_primary_label ?? '?'}`,
+        `- ${m.name} (${m.slug}) · ${m.batch ?? '?'} · ${m.vertical_label ?? '?'} · ${m.phenotype_primary_label ?? '?'}`
       );
       if (m.one_liner) lines.push(`  One-liner: ${m.one_liner}`);
       if (m.what_they_sell) lines.push(`  Sells: ${m.what_they_sell}`);
@@ -172,7 +177,7 @@ export function formatSearchReply(query, matches) {
   const body = shown
     .map(
       (m, i) =>
-        `${i + 1}. **${m.name}** (${m.slug}) — ${m.one_liner ?? m.vertical_label ?? 'No description'}`,
+        `${i + 1}. **${m.name}** (${m.slug}) — ${m.one_liner ?? m.vertical_label ?? 'No description'}`
     )
     .join('\n');
   const more =

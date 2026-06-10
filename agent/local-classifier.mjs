@@ -137,20 +137,8 @@ const KEYWORDS = {
     'compliance',
     'control testing',
   ],
-  'consumer-ai-app': [
-    'consumer',
-    'tiktok',
-    'game',
-    'personal finance',
-    'buddy',
-    'mac app',
-  ],
-  'open-source-commercial': [
-    'open source',
-    'open-source',
-    'oss',
-    'alternative to',
-  ],
+  'consumer-ai-app': ['consumer', 'tiktok', 'game', 'personal finance', 'buddy', 'mac app'],
+  'open-source-commercial': ['open source', 'open-source', 'oss', 'alternative to'],
 };
 
 function industrySubVertical(company) {

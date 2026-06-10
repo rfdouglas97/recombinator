@@ -72,7 +72,7 @@ function buildCsv(audits) {
       a.rationale,
     ]
       .map(csvEscape)
-      .join(','),
+      .join(',')
   );
   return [header, ...rows].join('\n');
 }

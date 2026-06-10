@@ -3,7 +3,12 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 import { loadVerticalOntology } from '../taxonomy/verticals.mjs';
-import { BM_LABELS, PHENOTYPE_TO_BM, phenotypeAllowedForBm, cellKey } from '../taxonomy/phenotype-to-bm.mjs';
+import {
+  BM_LABELS,
+  PHENOTYPE_TO_BM,
+  phenotypeAllowedForBm,
+  cellKey,
+} from '../taxonomy/phenotype-to-bm.mjs';
 import { refineArchetypeBatch } from '../taxonomy/infer-archetype.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -73,7 +78,11 @@ export function normalizeText(s) {
 }
 
 export function tokenSet(s) {
-  return new Set(normalizeText(s).split(' ').filter((t) => t.length > 2));
+  return new Set(
+    normalizeText(s)
+      .split(' ')
+      .filter((t) => t.length > 2)
+  );
 }
 
 export function jaccard(a, b) {
@@ -133,7 +142,7 @@ export function validateSyntheticRecord(record, { verticalOntology, trainOneLine
     }
     if (!phenotypeAllowedForBm(cell.phenotype_primary_id, cell.business_model)) {
       errors.push(
-        `phenotype ${cell.phenotype_primary_id} not allowed for ${cell.business_model} (see PHENOTYPE_TO_BM)`,
+        `phenotype ${cell.phenotype_primary_id} not allowed for ${cell.business_model} (see PHENOTYPE_TO_BM)`
       );
     }
     const vertical = getVerticalById(cell.vertical_id, verticalOntology);
@@ -157,10 +166,12 @@ export function validateSyntheticRecord(record, { verticalOntology, trainOneLine
 /** Schema + taxonomy + business-thesis validation (used by generator). */
 export async function validateSyntheticFull(record, opts = {}) {
   const schema = validateSyntheticRecord(record, opts);
-  const { validateBusinessThesis, getIdeaContextForCell } = await import('./idea-primitives-lib.mjs');
+  const { validateBusinessThesis, getIdeaContextForCell } =
+    await import('./idea-primitives-lib.mjs');
   const cell = record.target_cell;
   const ideaContext =
-    opts.ideaContext ?? (cell ? getIdeaContextForCell(cell, { assignments: opts.assignments }) : null);
+    opts.ideaContext ??
+    (cell ? getIdeaContextForCell(cell, { assignments: opts.assignments }) : null);
   const thesis = validateBusinessThesis(record, {
     verticalOntology: opts.verticalOntology,
     ideaContext,

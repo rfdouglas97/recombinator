@@ -35,7 +35,7 @@ function main() {
   }
 
   const assignments = refineArchetypeBatch([...bySlug.values()]).sort((a, b) =>
-    a.slug.localeCompare(b.slug),
+    a.slug.localeCompare(b.slug)
   );
   writeFileSync(PATHS.assignments, JSON.stringify(assignments, null, 2));
 

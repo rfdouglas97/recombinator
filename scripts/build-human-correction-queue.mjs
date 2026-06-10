@@ -83,9 +83,14 @@ function buildQueue() {
         business_models: audit.suggested_business_models ?? [],
       },
       current: {
-        phenotype_primary_id: assignment?.phenotype_primary_id ?? audit.current?.phenotype_primary_id,
-        vertical_id: assignment?.vertical_id ?? assignment?.canonical_vertical_id ?? audit.current?.vertical_id,
-        industry_sub_vertical: assignment?.industry_sub_vertical ?? audit.current?.industry_sub_vertical,
+        phenotype_primary_id:
+          assignment?.phenotype_primary_id ?? audit.current?.phenotype_primary_id,
+        vertical_id:
+          assignment?.vertical_id ??
+          assignment?.canonical_vertical_id ??
+          audit.current?.vertical_id,
+        industry_sub_vertical:
+          assignment?.industry_sub_vertical ?? audit.current?.industry_sub_vertical,
         business_models: assignment?.business_models ?? audit.current?.business_models ?? [],
       },
     };
@@ -100,7 +105,9 @@ function buildQueue() {
 
     const noSuggestedVert = !audit.suggested_vertical_id;
     const vertIssue = (audit.issues ?? []).some(
-      (i) => i.field === 'vertical_id' || /vertical|fallback|ontology|no candidate/i.test(i.problem ?? ''),
+      (i) =>
+        i.field === 'vertical_id' ||
+        /vertical|fallback|ontology|no candidate/i.test(i.problem ?? '')
     );
     if (noSuggestedVert && vertIssue && audit.verdict !== 'ok') {
       add({ ...base, reason: 'ontology_gap_no_matching_vertical', priority: 2 });
@@ -169,7 +176,7 @@ function writeCsv(data) {
       q.audit_rationale,
     ]
       .map(csvEscape)
-      .join(','),
+      .join(',')
   );
   writeFileSync(PATHS.csv, [header, ...rows].join('\n'));
 }
@@ -184,7 +191,7 @@ function writeHtml(data) {
         <td>${esc(q.current?.phenotype_primary_id)} → <strong>${esc(q.suggested?.phenotype_primary_id || '—')}</strong></td>
         <td>${esc(q.current?.vertical_id)} → <strong>${esc(q.suggested?.vertical_id || '—')}</strong></td>
         <td>${esc((q.audit_rationale || q.issues?.[0]?.problem || '').slice(0, 160))}</td>
-      </tr>`,
+      </tr>`
     )
     .join('\n');
 

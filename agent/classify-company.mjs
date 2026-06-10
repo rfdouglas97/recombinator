@@ -13,7 +13,11 @@ import { normalizeLlmResult } from './normalize.mjs';
 import { classifyLocal } from './local-classifier.mjs';
 import { asSingleBusinessModels } from '../taxonomy/phenotype-to-bm.mjs';
 import { buildPhenotypeAssignment } from '../taxonomy/assignment-record.mjs';
-import { loadVerticalOntology, getVerticalById, resolveSlugVerticalOverride } from '../taxonomy/verticals.mjs';
+import {
+  loadVerticalOntology,
+  getVerticalById,
+  resolveSlugVerticalOverride,
+} from '../taxonomy/verticals.mjs';
 import { verticalCandidatesForCompany } from './vertical-candidates.mjs';
 import { classifyOne, resolveVerticalClassifyApiConfig } from './classify-verticals.mjs';
 
@@ -25,7 +29,11 @@ const SEEDS_PATH = join(ROOT, 'taxonomy/phenotype-seeds.json');
 
 function enrichPhenotypeAssignment(company, raw, ontology) {
   const pheno = findPhenotype(ontology, raw.phenotype_primary_id);
-  return buildPhenotypeAssignment(company, { ...raw, method: raw.method ?? 'launch_phenotype_agent' }, pheno);
+  return buildPhenotypeAssignment(
+    company,
+    { ...raw, method: raw.method ?? 'launch_phenotype_agent' },
+    pheno
+  );
 }
 
 async function classifyPhenotypeWithLlm(company, ontology, apiConfig) {
@@ -50,7 +58,7 @@ export async function classifyLaunchCompany(company, opts = {}) {
   const apiConfig = resolveVerticalClassifyApiConfig(resolveApiConfig());
   if (!apiConfig) {
     throw new Error(
-      'ANTHROPIC_API_KEY or OPENAI_API_KEY required for launch ingest (set in .env or GitHub Actions secrets)',
+      'ANTHROPIC_API_KEY or OPENAI_API_KEY required for launch ingest (set in .env or GitHub Actions secrets)'
     );
   }
 
@@ -59,7 +67,8 @@ export async function classifyLaunchCompany(company, opts = {}) {
     rawPhenotype = await classifyPhenotypeWithLlm(company, phenotypeOntology, apiConfig);
   } catch (err) {
     rawPhenotype = classifyLocal(company, phenotypeOntology);
-    rawPhenotype.rationale = `${rawPhenotype.rationale ?? ''} (phenotype LLM failed: ${err.message})`.trim();
+    rawPhenotype.rationale =
+      `${rawPhenotype.rationale ?? ''} (phenotype LLM failed: ${err.message})`.trim();
     rawPhenotype.method = 'launch_phenotype_fallback';
   }
 
@@ -86,7 +95,10 @@ export async function classifyLaunchCompany(company, opts = {}) {
 
   record = await classifyOne(record, verticalOntology, apiConfig, maxCandidates, hints);
   record.method = 'launch_agent';
-  record.business_models = asSingleBusinessModels(record.business_models, record.phenotype_primary_id);
+  record.business_models = asSingleBusinessModels(
+    record.business_models,
+    record.phenotype_primary_id
+  );
   record.primary_bm = record.business_models[0];
 
   return record;

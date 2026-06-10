@@ -35,7 +35,8 @@ const NOT_A_BUSINESS_PHRASES = [
 ];
 
 /** Label endings that are usually taxonomy buckets, not startups. */
-const WEAK_SUFFIX_RE = /\b(management|operations|platform|infrastructure|automation|orchestration|virtualization|monitoring|optimization|tooling|devtools)\s*$/i;
+const WEAK_SUFFIX_RE =
+  /\b(management|operations|platform|infrastructure|automation|orchestration|virtualization|monitoring|optimization|tooling|devtools)\s*$/i;
 
 /** Whole-label patterns that are too horizontal. */
 const WEAK_LABEL_RE = [
@@ -46,7 +47,9 @@ const WEAK_LABEL_RE = [
 ];
 
 export function verticalDepth(verticalId) {
-  return String(verticalId ?? '').split('.').filter(Boolean).length;
+  return String(verticalId ?? '')
+    .split('.')
+    .filter(Boolean).length;
 }
 
 /**

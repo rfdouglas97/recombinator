@@ -18,7 +18,7 @@ export default function App() {
   const [generatorOpen, setGeneratorOpen] = useState(false);
   const [chatOpen, setChatOpen] = useState(false);
   const [sidebarHidden, setSidebarHidden] = useState(
-    () => localStorage.getItem('yc-explorer-sidebar-hidden') === '1',
+    () => localStorage.getItem('yc-explorer-sidebar-hidden') === '1'
   );
   const { state, patch, drawer, drawerOpen, openDrawer, closeDrawer } = useFilterState(bundle);
 
@@ -36,10 +36,7 @@ export default function App() {
       .catch((e) => setError(e instanceof Error ? e.message : String(e)));
   }, []);
 
-  const filtered = useMemo(
-    () => (bundle ? filterCompanies(bundle, state) : []),
-    [bundle, state],
-  );
+  const filtered = useMemo(() => (bundle ? filterCompanies(bundle, state) : []), [bundle, state]);
 
   if (error) {
     return (
@@ -103,12 +100,20 @@ export default function App() {
           <button type="button" className="header-btn" onClick={() => setChatOpen(true)}>
             Ask Recombinator
           </button>
-          <button type="button" className="btn-accent header-btn" onClick={() => setGeneratorOpen(true)}>
+          <button
+            type="button"
+            className="btn-accent header-btn"
+            onClick={() => setGeneratorOpen(true)}
+          >
             Startup Generator
           </button>
         </div>
       </header>
-      <StartupGeneratorModal bundle={bundle} open={generatorOpen} onClose={() => setGeneratorOpen(false)} />
+      <StartupGeneratorModal
+        bundle={bundle}
+        open={generatorOpen}
+        onClose={() => setGeneratorOpen(false)}
+      />
       <YcChatPanel
         bundle={bundle}
         drawer={drawer}

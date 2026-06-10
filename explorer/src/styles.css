@@ -438,7 +438,10 @@ body {
   background: var(--bg-panel);
   overflow-y: auto;
   padding: 12px;
-  transition: width 0.2s ease, padding 0.2s ease, opacity 0.2s ease;
+  transition:
+    width 0.2s ease,
+    padding 0.2s ease,
+    opacity 0.2s ease;
 }
 
 .app-body.sidebar-hidden .sidebar {
@@ -464,7 +467,10 @@ body {
   color: var(--text-muted);
   opacity: 0.55;
   cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+  transition:
+    background 0.15s ease,
+    color 0.15s ease,
+    opacity 0.15s ease;
 }
 
 .sidebar-edge-toggle:hover {

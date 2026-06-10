@@ -8,7 +8,10 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 import { explorerBatchFacets, loadCohortBatches } from './corpus-allowlist.mjs';
-import { buildYcFacetsFromCompanies, buildYcIndustryVerticalTree } from '../taxonomy/yc-industries.mjs';
+import {
+  buildYcFacetsFromCompanies,
+  buildYcIndustryVerticalTree,
+} from '../taxonomy/yc-industries.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = join(ROOT, 'explorer/public/data.bundle.json');
@@ -66,7 +69,9 @@ function main() {
   const bmTaxonomy = readJson('taxonomy/v0.1.json', { business_models: {} });
 
   if (!verticalOntology || !assignments.length) {
-    console.error('Missing normalized-assignments.json or verticals.json. Run verticals:normalize first.');
+    console.error(
+      'Missing normalized-assignments.json or verticals.json. Run verticals:normalize first.'
+    );
     process.exit(1);
   }
 
@@ -106,7 +111,8 @@ function main() {
       companiesByVertical[a.vertical_id].push(a.slug);
     }
     if (a.phenotype_primary_id) {
-      if (!companiesByPhenotype[a.phenotype_primary_id]) companiesByPhenotype[a.phenotype_primary_id] = [];
+      if (!companiesByPhenotype[a.phenotype_primary_id])
+        companiesByPhenotype[a.phenotype_primary_id] = [];
       companiesByPhenotype[a.phenotype_primary_id].push(a.slug);
     }
   }

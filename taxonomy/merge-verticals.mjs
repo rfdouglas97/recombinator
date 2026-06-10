@@ -20,7 +20,11 @@ function normalizeText(s) {
 }
 
 function tokenSet(s) {
-  return new Set(normalizeText(s).split(' ').filter((t) => t.length > 2));
+  return new Set(
+    normalizeText(s)
+      .split(' ')
+      .filter((t) => t.length > 2)
+  );
 }
 
 export function jaccard(a, b) {
@@ -159,8 +163,8 @@ export function writeMergeOutputs(result) {
         verticals: result.approved,
       },
       null,
-      2,
-    ),
+      2
+    )
   );
   writeFileSync(
     PATHS.mergeReport,
@@ -171,8 +175,8 @@ export function writeMergeOutputs(result) {
         rejected: result.rejected,
       },
       null,
-      2,
-    ),
+      2
+    )
   );
   return PATHS;
 }

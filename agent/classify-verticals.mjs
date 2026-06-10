@@ -14,7 +14,10 @@ import { execSync } from 'child_process';
 
 import { loadDotEnv } from './env.mjs';
 import { chatJson, resolveApiConfig } from './llm.mjs';
-import { classifyVerticalsSystemPrompt, classifyVerticalsUserPrompt } from './classify-verticals-prompts.mjs';
+import {
+  classifyVerticalsSystemPrompt,
+  classifyVerticalsUserPrompt,
+} from './classify-verticals-prompts.mjs';
 import { verticalCandidatesForCompany } from './vertical-candidates.mjs';
 import {
   loadVerticalOntology,
@@ -63,7 +66,9 @@ function log(msg) {
 
 function loadAssignments() {
   const raw = JSON.parse(readFileSync(PATHS.assignments, 'utf8'));
-  return (Array.isArray(raw) ? raw : Object.values(raw)).sort((a, b) => a.slug.localeCompare(b.slug));
+  return (Array.isArray(raw) ? raw : Object.values(raw)).sort((a, b) =>
+    a.slug.localeCompare(b.slug)
+  );
 }
 
 function loadDoneFromResults() {
@@ -92,7 +97,10 @@ export function resolveVerticalClassifyApiConfig(base) {
   if (!base) return null;
   return {
     ...base,
-    model: process.env.VERTICAL_CLASSIFY_MODEL ?? process.env.CLASSIFICATION_RECLASSIFY_MODEL ?? 'claude-haiku-4-5-20251001',
+    model:
+      process.env.VERTICAL_CLASSIFY_MODEL ??
+      process.env.CLASSIFICATION_RECLASSIFY_MODEL ??
+      'claude-haiku-4-5-20251001',
     maxTokens: parseInt(process.env.VERTICAL_CLASSIFY_MAX_TOKENS ?? '2048', 10),
   };
 }
@@ -125,7 +133,10 @@ function mergeVerticalIntoAssignment(company, raw, verticalOntology) {
 }
 
 export async function classifyOne(company, verticalOntology, apiConfig, maxCandidates, hints = '') {
-  const candidates = verticalCandidatesForCompany(company, verticalOntology, { maxCandidates, hints });
+  const candidates = verticalCandidatesForCompany(company, verticalOntology, {
+    maxCandidates,
+    hints,
+  });
   if (candidates.length < 3) throw new Error(`Too few vertical candidates (${candidates.length})`);
 
   const raw = await chatJson({
@@ -185,7 +196,9 @@ async function main() {
   const bySlug = new Map(assignments.map((a) => [a.slug, a]));
 
   const done = args.resume ? loadDoneFromResults() : new Set();
-  const state = args.resume ? loadState() : { processed_slugs: [], failed_slugs: [], started_at: new Date().toISOString() };
+  const state = args.resume
+    ? loadState()
+    : { processed_slugs: [], failed_slugs: [], started_at: new Date().toISOString() };
   if (args.fresh) {
     state.processed_slugs = [];
     state.failed_slugs = [];
@@ -200,7 +213,7 @@ async function main() {
       : parseInt(process.env.VERTICAL_CLASSIFY_CONCURRENCY ?? '8', 10);
 
   log(
-    `Classify verticals | model=${apiConfig.model} | concurrency=${concurrency} | queue=${queue.length}/${assignments.length}`,
+    `Classify verticals | model=${apiConfig.model} | concurrency=${concurrency} | queue=${queue.length}/${assignments.length}`
   );
 
   let ok = 0;
@@ -216,12 +229,17 @@ async function main() {
       batch.map(async (slug) => {
         const company = bySlug.get(slug);
         try {
-          const updated = await classifyOne(company, verticalOntology, apiConfig, args.maxCandidates);
+          const updated = await classifyOne(
+            company,
+            verticalOntology,
+            apiConfig,
+            args.maxCandidates
+          );
           return { slug, updated, error: null };
         } catch (err) {
           return { slug, updated: null, error: err.message };
         }
-      }),
+      })
     );
 
     for (const { slug, updated, error } of results) {
@@ -233,7 +251,9 @@ async function main() {
         state.processed_slugs.push(slug);
         state.failed_slugs = (state.failed_slugs ?? []).filter((s) => s !== slug);
         ok++;
-        log(`  ✓ ${slug} → ${updated.vertical_id} | ${updated.industry_sub_vertical?.slice(0, 55)}`);
+        log(
+          `  ✓ ${slug} → ${updated.vertical_id} | ${updated.industry_sub_vertical?.slice(0, 55)}`
+        );
       } else {
         failed++;
         state.failed_slugs = [...new Set([...(state.failed_slugs ?? []), slug])];
@@ -251,7 +271,9 @@ async function main() {
   log(`  Assignments: ${PATHS.assignments}`);
 
   if (!args.skipPipeline && ok > 0) {
-    log('\nRefreshing pipeline (LLM verticals are canonical; keyword normalize is validation-only)...');
+    log(
+      '\nRefreshing pipeline (LLM verticals are canonical; keyword normalize is validation-only)...'
+    );
     execSync('node normalize-verticals.mjs --write --gaps', { cwd: ROOT, stdio: 'inherit' });
     execSync('node scripts/build-explorer-data.mjs', { cwd: ROOT, stdio: 'inherit' });
     log('Pipeline refresh done.');

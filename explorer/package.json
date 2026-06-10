@@ -1,10 +1,13 @@
 {
-  "name": "yc-explorer",
+  "name": "recombinator-explorer",
+  "description": "React + Vite frontend for exploring the Recombinator taxonomy: gap matrices, ontology sunbursts, and the startup idea generator.",
   "private": true,
+  "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "typecheck": "tsc --noEmit",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview"
   },

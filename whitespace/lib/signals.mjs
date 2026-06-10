@@ -37,9 +37,7 @@ function siblingVerticalIds(verticalId, allVerticalIds) {
   const parts = verticalId.split('.');
   if (parts.length < 2) return [];
   const parent = parts.slice(0, -1).join('.');
-  return allVerticalIds.filter(
-    (id) => id !== verticalId && id.startsWith(`${parent}.`),
-  );
+  return allVerticalIds.filter((id) => id !== verticalId && id.startsWith(`${parent}.`));
 }
 
 export function buildAdjacencyIndex(observedCells, phenotypeOntology) {
@@ -48,7 +46,7 @@ export function buildAdjacencyIndex(observedCells, phenotypeOntology) {
   const siblingCompanyCount = new Map();
 
   const phenotypeFamily = new Map(
-    (phenotypeOntology.phenotypes ?? []).map((p) => [p.id, p.family]),
+    (phenotypeOntology.phenotypes ?? []).map((p) => [p.id, p.family])
   );
 
   for (const c of observedCells) {
@@ -126,7 +124,10 @@ export function filterRelevantAnalogs(ideaContext, gap, verticalOntology) {
 
     let tier = null;
     if (wf && a.workflow === wf) tier = 'workflow';
-    else if (industryPrefix && (analogVid === industryPrefix || analogVid.startsWith(`${industryPrefix}.`))) {
+    else if (
+      industryPrefix &&
+      (analogVid === industryPrefix || analogVid.startsWith(`${industryPrefix}.`))
+    ) {
       tier = 'industry';
     } else {
       const shared = gapParts.filter((p, i) => analogParts[i] === p).length;

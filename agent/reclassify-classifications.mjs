@@ -17,7 +17,11 @@ import { chatJson, resolveApiConfig } from './llm.mjs';
 import { reclassifySystemPrompt, reclassifyUserPrompt } from './reclassify-prompts.mjs';
 import { compactPhenotypeCatalog } from './audit-prompts.mjs';
 import { loadOntology, findPhenotype } from './ontology.mjs';
-import { loadVerticalOntology, normalizeVertical, getVerticalById } from '../taxonomy/verticals.mjs';
+import {
+  loadVerticalOntology,
+  normalizeVertical,
+  getVerticalById,
+} from '../taxonomy/verticals.mjs';
 import { normalizeLlmResult } from './normalize.mjs';
 import { asSingleBusinessModels } from '../taxonomy/phenotype-to-bm.mjs';
 import { verticalCandidatesForCompany } from './vertical-candidates.mjs';
@@ -55,7 +59,8 @@ function parseArgs() {
     else if (a === '--skip-pipeline') args.skipPipeline = true;
     else if (a === '--limit' && argv[++i]) args.limit = parseInt(argv[i], 10);
     else if (a === '--concurrency' && argv[++i]) args.concurrency = parseInt(argv[i], 10);
-    else if (a === '--verdict' && argv[++i]) args.verdicts = argv[i].split(',').map((s) => s.trim());
+    else if (a === '--verdict' && argv[++i])
+      args.verdicts = argv[i].split(',').map((s) => s.trim());
   }
   return args;
 }
@@ -145,7 +150,7 @@ function enrichAssignment(company, raw, ontology, verticalOntology) {
   } else {
     const n = normalizeVertical(
       { industry_sub_vertical: raw.industry_sub_vertical, yc_industries: company.yc_industries },
-      verticalOntology,
+      verticalOntology
     );
     vertical_id = n.vertical_id;
     vertical_label = n.vertical?.label ?? null;
@@ -211,7 +216,10 @@ function loadState() {
 function saveState(state) {
   state.updated_at = new Date().toISOString();
   writeFileSync(PATHS.state, JSON.stringify(state, null, 2));
-  writeFileSync(PATHS.fixes, JSON.stringify({ generated_at: state.updated_at, fixes: state.fixes }, null, 2));
+  writeFileSync(
+    PATHS.fixes,
+    JSON.stringify({ generated_at: state.updated_at, fixes: state.fixes }, null, 2)
+  );
 }
 
 function resolveReclassifyApiConfig(base) {
@@ -239,12 +247,18 @@ async function reclassifyOne(company, audit, context, apiConfig) {
 
   const validVert = candidates.some((v) => v.id === normalized.vertical_id);
   if (!validVert) {
-    if (audit.suggested_vertical_id && candidates.some((v) => v.id === audit.suggested_vertical_id)) {
+    if (
+      audit.suggested_vertical_id &&
+      candidates.some((v) => v.id === audit.suggested_vertical_id)
+    ) {
       normalized.vertical_id = audit.suggested_vertical_id;
     } else {
       const n = normalizeVertical(
-        { industry_sub_vertical: normalized.industry_sub_vertical, yc_industries: company.yc_industries },
-        context.verticalOntology,
+        {
+          industry_sub_vertical: normalized.industry_sub_vertical,
+          yc_industries: company.yc_industries,
+        },
+        context.verticalOntology
       );
       normalized.vertical_id = n.vertical_id;
     }
@@ -276,7 +290,10 @@ async function main() {
   }
   const apiConfig = resolveReclassifyApiConfig(baseConfig);
 
-  const ontology = loadOntology(join(ROOT, 'output/phenotypes/ontology.json'), join(ROOT, 'taxonomy/phenotype-seeds.json'));
+  const ontology = loadOntology(
+    join(ROOT, 'output/phenotypes/ontology.json'),
+    join(ROOT, 'taxonomy/phenotype-seeds.json')
+  );
   const verticalOntology = loadVerticalOntology();
   const phenotypeCatalog = compactPhenotypeCatalog(ontology.phenotypes);
   const audits = loadAudits();
@@ -302,7 +319,9 @@ async function main() {
 
   queueSlugs = queueSlugs.filter((s) => assignmentsBySlug.has(s)).sort();
 
-  const state = args.resume ? loadState() : { processed_slugs: [], fixes: [], started_at: new Date().toISOString() };
+  const state = args.resume
+    ? loadState()
+    : { processed_slugs: [], fixes: [], started_at: new Date().toISOString() };
   if (!args.resume) {
     state.processed_slugs = [];
     state.fixes = [];
@@ -320,7 +339,7 @@ async function main() {
       : parseInt(process.env.CLASSIFICATION_RECLASSIFY_CONCURRENCY ?? '8', 10);
 
   log(
-    `Reclassify | model=${apiConfig.model} | concurrency=${concurrency} | queue=${queue.length}/${queueSlugs.length}`,
+    `Reclassify | model=${apiConfig.model} | concurrency=${concurrency} | queue=${queue.length}/${queueSlugs.length}`
   );
 
   const context = { ontology, verticalOntology, phenotypeCatalog };
@@ -349,7 +368,7 @@ async function main() {
         } catch (err) {
           return { slug, updated: null, error: err.message, unchanged: false, audit };
         }
-      }),
+      })
     );
 
     for (const { slug, updated, error, unchanged, audit } of results) {
@@ -365,7 +384,10 @@ async function main() {
             business_models: updated.business_models,
           },
         });
-        appendFileSync(PATHS.fixesJsonl, JSON.stringify(state.fixes[state.fixes.length - 1]) + '\n');
+        appendFileSync(
+          PATHS.fixesJsonl,
+          JSON.stringify(state.fixes[state.fixes.length - 1]) + '\n'
+        );
         appendFileSync(PATHS.jsonl, JSON.stringify(updated) + '\n');
         fixed++;
         done.add(slug);
@@ -436,7 +458,9 @@ async function main() {
     await sleep(args.resume ? 400 : 150);
   }
 
-  const allAssignments = [...assignmentsBySlug.values()].sort((a, b) => a.slug.localeCompare(b.slug));
+  const allAssignments = [...assignmentsBySlug.values()].sort((a, b) =>
+    a.slug.localeCompare(b.slug)
+  );
   writeFileSync(PATHS.assignments, JSON.stringify(allAssignments, null, 2));
 
   log(`\n✓ Reclassify complete: ${fixed} fixed, ${failed} failed`);
@@ -453,10 +477,11 @@ async function main() {
         pending_during_reclassify: pendingHuman,
       },
       null,
-      2,
-    ),
+      2
+    )
   );
-  if (pendingHuman.length) log(`  Pre-audit human candidates: ${pendingHuman.length} → ${PATHS.humanQueue}`);
+  if (pendingHuman.length)
+    log(`  Pre-audit human candidates: ${pendingHuman.length} → ${PATHS.humanQueue}`);
 
   if (!args.skipPipeline && fixed > 0) {
     log('\nRefreshing pipeline outputs...');

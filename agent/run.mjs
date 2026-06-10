@@ -20,7 +20,13 @@ import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
 import { loadDotEnv } from './env.mjs';
-import { loadOntology, saveOntology, getOntologySummary, mergeProposals, findPhenotype } from './ontology.mjs';
+import {
+  loadOntology,
+  saveOntology,
+  getOntologySummary,
+  mergeProposals,
+  findPhenotype,
+} from './ontology.mjs';
 import { chatJson, resolveApiConfig } from './llm.mjs';
 import {
   companySystemPrompt,
@@ -191,9 +197,13 @@ async function main() {
   if (args.fresh) resetOutputs();
 
   const apiConfig = resolveApiConfig();
-  let mode = args.mode ?? (apiConfig?.provider === 'anthropic' ? 'anthropic' : apiConfig ? 'openai' : 'local');
+  let mode =
+    args.mode ??
+    (apiConfig?.provider === 'anthropic' ? 'anthropic' : apiConfig ? 'openai' : 'local');
   if (isLlmMode(mode) && !apiConfig) {
-    console.warn('No ANTHROPIC_API_KEY or OPENAI_API_KEY — falling back to local pattern matching.');
+    console.warn(
+      'No ANTHROPIC_API_KEY or OPENAI_API_KEY — falling back to local pattern matching.'
+    );
     console.warn('Add credentials to .env or export ANTHROPIC_API_KEY\n');
     mode = 'local';
   }
@@ -295,7 +305,9 @@ async function main() {
   console.log(`  Matrix:      ${PATHS.matrix}`);
   console.log(`  Ontology:    ${PATHS.ontology} (${ontology.phenotypes.length} phenotypes)`);
   console.log(`  Patterns:    ${PATHS.patterns}`);
-  console.log(`\n  Matrix: ${matrix.summary.sparse_cell_count} filled cells, ${matrix.summary.empty_phenotype_rows} unused phenotype archetypes`);
+  console.log(
+    `\n  Matrix: ${matrix.summary.sparse_cell_count} filled cells, ${matrix.summary.empty_phenotype_rows} unused phenotype archetypes`
+  );
 }
 
 main().catch((err) => {

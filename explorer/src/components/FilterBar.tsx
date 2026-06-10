@@ -16,7 +16,7 @@ function batchSortKey(batch: string) {
 function orderedBatchOptions(
   batchCounts: Map<string, number>,
   cohortBatches: string[] | undefined,
-  facetBatches: string[],
+  facetBatches: string[]
 ) {
   const withCounts = [...batchCounts.entries()].filter(([, n]) => n > 0).map(([b]) => b);
   const order = cohortBatches?.length ? cohortBatches : facetBatches;
@@ -55,7 +55,7 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
 
   const batchOptions = useMemo(
     () => orderedBatchOptions(batchCounts, bundle.meta.cohort_batches, bundle.facets.batches),
-    [batchCounts, bundle.meta.cohort_batches, bundle.facets.batches],
+    [batchCounts, bundle.meta.cohort_batches, bundle.facets.batches]
   );
 
   return (
@@ -120,7 +120,10 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
       </div>
       <div className="filter-group">
         <label>Phenotype family</label>
-        <select value={state.phenotypeFamily} onChange={(e) => onChange({ phenotypeFamily: e.target.value })}>
+        <select
+          value={state.phenotypeFamily}
+          onChange={(e) => onChange({ phenotypeFamily: e.target.value })}
+        >
           <option value="">All families</option>
           {bundle.facets.phenotypeFamilies.map((f) => (
             <option key={f} value={f}>
@@ -131,7 +134,10 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
       </div>
       <div className="filter-group">
         <label>Business model</label>
-        <select value={state.businessModel} onChange={(e) => onChange({ businessModel: e.target.value })}>
+        <select
+          value={state.businessModel}
+          onChange={(e) => onChange({ businessModel: e.target.value })}
+        >
           <option value="">All BMs</option>
           {bundle.facets.businessModels.map((bm) => (
             <option key={bm.id} value={bm.id}>

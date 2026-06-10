@@ -13,10 +13,13 @@ export function buildPhenotypeAssignment(company, raw, pheno) {
     name: company.name,
     website: company.website,
     yc_profile_url:
-      company.yc_url ?? company.yc_profile_url ?? `https://www.ycombinator.com/companies/${company.slug}`,
+      company.yc_url ??
+      company.yc_profile_url ??
+      `https://www.ycombinator.com/companies/${company.slug}`,
     batch: company.batch,
     one_liner: company.description?.one_liner ?? company.one_liner,
-    description_combined: company.description?.combined ?? company.description_combined ?? company.long_description,
+    description_combined:
+      company.description?.combined ?? company.description_combined ?? company.long_description,
     industry_sub_vertical: raw.industry_sub_vertical,
     phenotype_primary_id: phenotypeId,
     phenotype_secondary_id: raw.phenotype_secondary_id ?? null,

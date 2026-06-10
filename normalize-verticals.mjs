@@ -24,7 +24,11 @@ import {
   getVerticalById,
 } from './taxonomy/verticals.mjs';
 import { STALE_EXPLICIT_VERTICALS } from './taxonomy/verticals-data.mjs';
-import { BM_LABELS, asSingleBusinessModels, primaryBmForPhenotype } from './taxonomy/phenotype-to-bm.mjs';
+import {
+  BM_LABELS,
+  asSingleBusinessModels,
+  primaryBmForPhenotype,
+} from './taxonomy/phenotype-to-bm.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)));
 const PATHS = {
@@ -161,7 +165,7 @@ function resolveVerticalNorm(assignment, ontology, minConfidence) {
       one_liner: assignment.one_liner,
       description_combined: assignment.description_combined,
     },
-    ontology,
+    ontology
   );
 }
 
@@ -227,7 +231,7 @@ function buildObservedMatrix(normalized, assignments, heuristicBm) {
   }
 
   return [...cells.values()].sort(
-    (a, b) => b.companies.length - a.companies.length || a.vertical_id.localeCompare(b.vertical_id),
+    (a, b) => b.companies.length - a.companies.length || a.vertical_id.localeCompare(b.vertical_id)
   );
 }
 
@@ -275,7 +279,7 @@ function printReport(normalized, stats, ontology, observedCells) {
   console.log(`Assignments: ${normalized.length}`);
   console.log(`Mapped: ${mapped.length} | Unmapped: ${unmapped.length}`);
   console.log(
-    `Methods: explicit=${stats.explicit} exact=${stats.exact} substring=${stats.substring} token=${stats.token} yc_fallback=${stats.yc} unmapped=${stats.unmapped}`,
+    `Methods: explicit=${stats.explicit} exact=${stats.exact} substring=${stats.substring} token=${stats.token} yc_fallback=${stats.yc} unmapped=${stats.unmapped}`
   );
 
   console.log('\n--- Sample mappings ---');
@@ -294,7 +298,9 @@ function printReport(normalized, stats, ontology, observedCells) {
   if (observedCells.length) {
     console.log('Top clusters:');
     for (const c of observedCells.slice(0, 6)) {
-      console.log(`  ${c.business_model} × ${c.vertical_label}: ${c.companies.length} (${c.companies.join(', ')})`);
+      console.log(
+        `  ${c.business_model} × ${c.vertical_label}: ${c.companies.length} (${c.companies.join(', ')})`
+      );
     }
   }
 }
@@ -375,19 +381,34 @@ function main() {
           observed_cells: observedCells,
         },
         null,
-        2,
-      ),
+        2
+      )
     );
     writeFileSync(
       PATHS.outGaps,
-      JSON.stringify({ generated_at: new Date().toISOString(), gap_count: gaps.length, gaps }, null, 2),
+      JSON.stringify(
+        { generated_at: new Date().toISOString(), gap_count: gaps.length, gaps },
+        null,
+        2
+      )
     );
     writeFileSync(
       PATHS.outReport,
-      JSON.stringify({ generated_at: new Date().toISOString(), stats, normalized, unmapped: normalized.filter((r) => !r.vertical_id) }, null, 2),
+      JSON.stringify(
+        {
+          generated_at: new Date().toISOString(),
+          stats,
+          normalized,
+          unmapped: normalized.filter((r) => !r.vertical_id),
+        },
+        null,
+        2
+      )
     );
 
-    console.log(`\nWrote:\n  ${PATHS.outAssignments}\n  ${PATHS.outMatrix}\n  ${PATHS.outGaps}\n  ${PATHS.outReport}`);
+    console.log(
+      `\nWrote:\n  ${PATHS.outAssignments}\n  ${PATHS.outMatrix}\n  ${PATHS.outGaps}\n  ${PATHS.outReport}`
+    );
   }
 }
 

@@ -95,7 +95,7 @@ export function auditUserPrompt({ company, verticalCandidates, heuristicBm, allo
       })),
     },
     null,
-    2,
+    2
   );
 }
 

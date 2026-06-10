@@ -24,7 +24,9 @@ function main() {
   mkdirSync(dirname(OUT), { recursive: true });
   writeFileSync(OUT, JSON.stringify(bundle, null, 2));
 
-  console.log(`Wrote ${bundle.instances.length} instances, ${bundle.primitive_types.length} primitive types`);
+  console.log(
+    `Wrote ${bundle.instances.length} instances, ${bundle.primitive_types.length} primitive types`
+  );
   console.log(`→ ${OUT}`);
   for (const t of bundle.primitive_types) {
     console.log(`  ${t.id}: ${t.instance_count} companies`);

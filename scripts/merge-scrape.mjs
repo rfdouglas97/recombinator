@@ -21,7 +21,9 @@ function parseArgs(argv) {
     else if (a === '--add' && argv[++i]) args.add = argv[i];
     else if (a === '--out' && argv[++i]) args.out = argv[i];
     else if (a === '--help') {
-      console.log('Usage: node scripts/merge-scrape.mjs --add <scrape.json> [--base <path>] [--out <path>]');
+      console.log(
+        'Usage: node scripts/merge-scrape.mjs --add <scrape.json> [--base <path>] [--out <path>]'
+      );
       process.exit(0);
     }
   }
@@ -49,7 +51,9 @@ function batchSortKey(batch) {
 
 function uniqueBatches(companies, extra = []) {
   const fromCos = companies.map((c) => c.batch).filter(Boolean);
-  return [...new Set([...extra, ...fromCos])].sort((a, b) => batchSortKey(a).localeCompare(batchSortKey(b)));
+  return [...new Set([...extra, ...fromCos])].sort((a, b) =>
+    batchSortKey(a).localeCompare(batchSortKey(b))
+  );
 }
 
 function main() {
@@ -82,14 +86,23 @@ function main() {
     source_url: `merge:${args.base}+${args.add}`,
     batches,
     company_count: companies.length,
-    merge_meta: { base_path: args.base, add_path: args.add, base_count: base.companies.length, add_count: add.companies.length, added, skipped_duplicate_slugs: skipped },
+    merge_meta: {
+      base_path: args.base,
+      add_path: args.add,
+      base_count: base.companies.length,
+      add_count: add.companies.length,
+      added,
+      skipped_duplicate_slugs: skipped,
+    },
     companies,
   };
 
   mkdirSync(dirname(args.out), { recursive: true });
   writeFileSync(args.out, JSON.stringify(payload, null, 2));
 
-  console.log(`Merged ${companies.length} companies (${added} new, ${skipped} duplicate slugs skipped)`);
+  console.log(
+    `Merged ${companies.length} companies (${added} new, ${skipped} duplicate slugs skipped)`
+  );
   console.log(`Batches (${batches.length}): ${batches.join(', ')}`);
   console.log(`Wrote ${args.out}`);
 }

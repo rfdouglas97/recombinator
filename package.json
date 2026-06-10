@@ -1,9 +1,32 @@
 {
-  "name": "yc-scrape",
+  "name": "recombinator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Scrapes the Y Combinator startup directory, classifies companies into a business-model x vertical taxonomy with an LLM audit pass, and surfaces market whitespace through a React explorer and idea generator.",
   "type": "module",
+  "license": "MIT",
+  "author": "Ryan Douglas",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rfdouglas97/recombinator.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "y-combinator",
+    "startup-data",
+    "web-scraping",
+    "playwright",
+    "taxonomy",
+    "llm",
+    "classification",
+    "market-research"
+  ],
   "scripts": {
+    "test": "node --test",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "scrape": "node scrape.mjs",
     "scrape:test": "node scrape.mjs --limit 10",
     "classify": "node classify.mjs",
@@ -74,11 +97,15 @@
     "explorer:build": "npm run data:bundle && cd explorer && npm install && npm run build",
     "postinstall": "node -e \"console.log('Run: export PLAYWRIGHT_BROWSERS_PATH=\\\"$(pwd)/.playwright-browsers\\\" && npx playwright install chromium')\""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "pg": "^8.21.0",
     "playwright": "^1.60.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.4",
+    "typescript-eslint": "^8.61.0"
   }
 }

@@ -31,8 +31,7 @@ function gapSortKey(a, b) {
   const depthDiff = verticalDepth(b.vertical_id) - verticalDepth(a.vertical_id);
   if (depthDiff !== 0) return depthDiff;
   const analogDiff =
-    (b.workflow_matched_analog_slugs?.length ?? 0) -
-    (a.workflow_matched_analog_slugs?.length ?? 0);
+    (b.workflow_matched_analog_slugs?.length ?? 0) - (a.workflow_matched_analog_slugs?.length ?? 0);
   if (analogDiff !== 0) return analogDiff;
   return (a.vertical_label ?? a.vertical_id).localeCompare(b.vertical_label ?? b.vertical_id);
 }
@@ -202,7 +201,7 @@ export function buildSectorSummary(rankedGaps, topPerSector = 50) {
           transfer_score,
           flags,
           workflow_matched_analog_slugs,
-        }),
+        })
       ),
     };
   });

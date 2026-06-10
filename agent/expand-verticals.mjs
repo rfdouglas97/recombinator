@@ -54,7 +54,12 @@ function log(msg) {
 
 function loadState() {
   if (!existsSync(PATHS.state)) {
-    return { processed_industry_ids: [], proposals: [], reflections: [], started_at: new Date().toISOString() };
+    return {
+      processed_industry_ids: [],
+      proposals: [],
+      reflections: [],
+      started_at: new Date().toISOString(),
+    };
   }
   return JSON.parse(readFileSync(PATHS.state, 'utf8'));
 }
@@ -62,7 +67,10 @@ function loadState() {
 function saveState(state) {
   state.updated_at = new Date().toISOString();
   writeFileSync(PATHS.state, JSON.stringify(state, null, 2));
-  writeFileSync(PATHS.proposals, JSON.stringify({ generated_at: state.updated_at, proposals: state.proposals }, null, 2));
+  writeFileSync(
+    PATHS.proposals,
+    JSON.stringify({ generated_at: state.updated_at, proposals: state.proposals }, null, 2)
+  );
 }
 
 function resetOutputs() {
@@ -91,7 +99,12 @@ function ycHintsForIndustry(industryId) {
 }
 
 function sectorForIndustry(industry) {
-  return SECTORS.find((s) => s.id === industry.sector_id) ?? { id: industry.sector_id, label: industry.sector_id };
+  return (
+    SECTORS.find((s) => s.id === industry.sector_id) ?? {
+      id: industry.sector_id,
+      label: industry.sector_id,
+    }
+  );
 }
 
 function existingForIndustry(industryId) {
@@ -157,7 +170,14 @@ async function main() {
   let industries = [...INDUSTRIES];
   if (args.limit > 0) industries = industries.slice(0, args.limit);
 
-  const state = args.resume ? loadState() : { processed_industry_ids: [], proposals: [], reflections: [], started_at: new Date().toISOString() };
+  const state = args.resume
+    ? loadState()
+    : {
+        processed_industry_ids: [],
+        proposals: [],
+        reflections: [],
+        started_at: new Date().toISOString(),
+      };
   if (!args.resume) {
     state.proposals = [];
     state.processed_industry_ids = [];
@@ -166,10 +186,13 @@ async function main() {
 
   const done = new Set(state.processed_industry_ids);
   const queue = industries.filter((i) => !done.has(i.id));
-  const concurrency = args.concurrency > 0 ? args.concurrency : parseInt(process.env.VERTICALS_EXPAND_CONCURRENCY ?? '4', 10);
+  const concurrency =
+    args.concurrency > 0
+      ? args.concurrency
+      : parseInt(process.env.VERTICALS_EXPAND_CONCURRENCY ?? '4', 10);
 
   log(
-    `Vertical expansion | model=${apiConfig.model} | concurrency=${concurrency} | queue=${queue.length}/${industries.length}`,
+    `Vertical expansion | model=${apiConfig.model} | concurrency=${concurrency} | queue=${queue.length}/${industries.length}`
   );
 
   let batchProposalsSinceReflect = 0;
@@ -189,7 +212,7 @@ async function main() {
         } catch (err) {
           return { industry, proposals: [], notes: '', error: err.message };
         }
-      }),
+      })
     );
 
     for (const { industry, proposals, notes, error } of results) {
@@ -200,7 +223,10 @@ async function main() {
 
       state.proposals.push(...proposals);
       for (const p of proposals) {
-        appendFileSync(PATHS.proposalsJsonl, JSON.stringify({ industry_id: industry.id, ...p }) + '\n');
+        appendFileSync(
+          PATHS.proposalsJsonl,
+          JSON.stringify({ industry_id: industry.id, ...p }) + '\n'
+        );
       }
       done.add(industry.id);
       state.processed_industry_ids = [...done];
@@ -210,7 +236,9 @@ async function main() {
       if (!sectorProposalBuffer.has(sector.id)) sectorProposalBuffer.set(sector.id, []);
       sectorProposalBuffer.get(sector.id).push(...proposals);
 
-      log(`  ✓ ${industry.id}: +${proposals.length} proposals${notes ? ` — ${notes.slice(0, 80)}` : ''}`);
+      log(
+        `  ✓ ${industry.id}: +${proposals.length} proposals${notes ? ` — ${notes.slice(0, 80)}` : ''}`
+      );
     }
 
     saveState(state);
@@ -222,7 +250,11 @@ async function main() {
         log(`  ⟳ Reflecting on ${sector.label} (${buf.length} proposals)...`);
         const reflection = await reflectSector(sector, buf, apiConfig);
         if (reflection) {
-          state.reflections.push({ at: new Date().toISOString(), sector_id: sector.id, ...reflection });
+          state.reflections.push({
+            at: new Date().toISOString(),
+            sector_id: sector.id,
+            ...reflection,
+          });
         }
         sectorProposalBuffer.set(sector.id, []);
       }

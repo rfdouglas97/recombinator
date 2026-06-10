@@ -4,9 +4,7 @@
 
 function verticalMatchesPrefix(verticalId, prefixes) {
   if (!prefixes?.length) return false;
-  return prefixes.some(
-    (p) => verticalId === p || verticalId.startsWith(`${p}.`),
-  );
+  return prefixes.some((p) => verticalId === p || verticalId.startsWith(`${p}.`));
 }
 
 function ruleMatches(gap, rule) {

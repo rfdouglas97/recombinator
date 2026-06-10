@@ -23,19 +23,19 @@ npm run startup-library -- --top 15 --sector healthcare-life-sciences
 
 ## Outputs
 
-| File | Purpose |
-|------|---------|
-| `output/startup-library/library.json` | Sorted card library (browse in explorer) |
-| `output/startup-library/cards.jsonl` | Append-only log (one card per line) |
-| `startup_engine/output/ideas-*.json` | Raw generation batch |
-| `startup_engine/output/shortlist-*.json` | Which gaps were picked |
+| File                                     | Purpose                                  |
+| ---------------------------------------- | ---------------------------------------- |
+| `output/startup-library/library.json`    | Sorted card library (browse in explorer) |
+| `output/startup-library/cards.jsonl`     | Append-only log (one card per line)      |
+| `startup_engine/output/ideas-*.json`     | Raw generation batch                     |
+| `startup_engine/output/shortlist-*.json` | Which gaps were picked                   |
 
 ## Browse & judge
 
 1. Run `npm run data:bundle` (copies library into explorer)
-2. Open explorer → **Idea library** tab
+2. Open the explorer and launch the **Startup Generator** modal from the matrix
 3. Sort by goodness or whitespace opportunity
-4. Mark cards **Promising / Maybe / Reject** (saved in browser localStorage)
+4. Review the generated cards alongside the gap cell they target
 
 ## Card shape
 

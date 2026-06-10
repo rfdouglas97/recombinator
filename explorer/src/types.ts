@@ -1,4 +1,11 @@
-export type TreeNodeType = 'root' | 'sector' | 'industry' | 'vertical' | 'family' | 'phenotype' | 'company';
+export type TreeNodeType =
+  | 'root'
+  | 'sector'
+  | 'industry'
+  | 'vertical'
+  | 'family'
+  | 'phenotype'
+  | 'company';
 
 export interface TreeNode {
   id: string;

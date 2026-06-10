@@ -1,12 +1,52 @@
-# YC Company Scraper
+# Recombinator
 
-Playwright scraper for the [Y Combinator startup directory](https://www.ycombinator.com/companies), focused on 2026–2027 batches:
+[![Live](https://img.shields.io/badge/live-recombinator.app-6c5ce7.svg)](https://www.recombinator.app)
+[![CI](https://github.com/rfdouglas97/recombinator/actions/workflows/ci.yml/badge.svg)](https://github.com/rfdouglas97/recombinator/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node >= 22](https://img.shields.io/badge/node-%3E%3D22-3c873a.svg)](https://nodejs.org)
 
-- Spring 2026
-- Winter 2027
-- Fall 2026
-- Summer 2026
-- Winter 2026
+Recombinator scrapes the [Y Combinator startup directory](https://www.ycombinator.com/companies), classifies every company into a structured **business-model × industry-vertical × phenotype** taxonomy (with an LLM audit pass), and surfaces **market whitespace** through an interactive explorer and a startup-idea generator.
+
+**Live app: [recombinator.app](https://www.recombinator.app)**
+
+Current corpus: **1,029 companies** across nine 2025–2027 batches (Winter 2025 → Winter 2027).
+
+## Pipeline at a glance
+
+```mermaid
+flowchart LR
+  scrape["Scrape<br/>(Playwright + Algolia)"] --> classify["Classify<br/>(taxonomy + LLM)"]
+  classify --> audit["Audit & reclassify<br/>(tiered Haiku/Sonnet)"]
+  audit --> bundle["Build data bundle<br/>(matrices + gaps)"]
+  bundle --> explorer["Explorer UI<br/>(React + Vite)"]
+  bundle --> generator["Idea generator<br/>(whitespace cards)"]
+  bundle --> db["Postgres / Supabase<br/>(read API)"]
+```
+
+| Stage                | Entry point                                             | Output                                          |
+| -------------------- | ------------------------------------------------------- | ----------------------------------------------- |
+| Scrape               | `npm run scrape`                                        | `output/yc_companies.json`                      |
+| Classify             | `npm run classify`                                      | `output/yc_companies_classified.json`           |
+| Phenotype + vertical | `npm run phenotype-agent`, `npm run verticals:classify` | `output/phenotypes/`, `output/verticals/`       |
+| Audit + reclassify   | `npm run audit:tiered`, `npm run audit:reclassify`      | `output/audit/`                                 |
+| Whitespace + ideas   | `npm run whitespace:rank`, `npm run startup-library`    | `output/whitespace/`, `output/startup-library/` |
+| Explorer             | `npm run explorer:dev`                                  | `explorer/` (Vite)                              |
+| Database / API       | `npm run db:migrate`, `npm run api:dev`                 | Postgres (see [`db/README.md`](db/README.md))   |
+
+> **Why are JSON files in `output/` committed?** They are the pipeline's source-of-truth snapshots: the explorer build, the read API, and the daily GitHub Action all hydrate from them (the Action refreshes Supabase from the committed JSON on `main`). Treat them as generated data, not hand-edited files — `.prettierignore` and lint configs skip them accordingly.
+
+## Development
+
+```bash
+npm install          # install backend tooling
+npm test             # node:test unit + bundle-shape tests
+npm run lint         # eslint (backend .mjs + explorer TS)
+npm run format       # prettier --write
+```
+
+CI ([`.github/workflows/ci.yml`](.github/workflows/ci.yml)) runs formatting, lint, tests, and the explorer typecheck/build on every push and PR to `main`.
+
+Where the project is headed: [`docs/ROADMAP.md`](docs/ROADMAP.md).
 
 ## What it collects
 
@@ -26,7 +66,7 @@ npx playwright install chromium
 
 ## Usage
 
-Scrape all companies in the filtered batches (full run, ~401 companies):
+Scrape all companies in the filtered batches (full run, ~1,029 companies):
 
 ```bash
 npm run scrape
@@ -46,21 +86,21 @@ node scrape.mjs --list-only
 
 Options:
 
-| Flag | Description |
-|------|-------------|
-| `--url <url>` | Custom directory URL with query filters |
-| `--out <dir>` | Output directory (default: `./output`) |
-| `--limit <n>` | Cap number of companies |
-| `--concurrency <n>` | Parallel detail fetches (default: 5) |
-| `--headed` | Show browser window |
-| `--list-only` | Skip per-company pages |
+| Flag                | Description                             |
+| ------------------- | --------------------------------------- |
+| `--url <url>`       | Custom directory URL with query filters |
+| `--out <dir>`       | Output directory (default: `./output`)  |
+| `--limit <n>`       | Cap number of companies                 |
+| `--concurrency <n>` | Parallel detail fetches (default: 5)    |
+| `--headed`          | Show browser window                     |
+| `--list-only`       | Skip per-company pages                  |
 
 ## Taxonomy classification
 
 Build structured records with YC descriptions, website links, and draft business-model labels:
 
 ```bash
-npm run classify          # all 401 companies → output/yc_companies_classified.json
+npm run classify          # all companies → output/yc_companies_classified.json
 npm run classify:pilot    # 20-company sample for review
 npm run classify:pending  # descriptions + links only; taxonomy left empty for agent pass
 ```
@@ -95,13 +135,13 @@ npm run phenotype-agent:local
 
 Outputs in `output/phenotypes/`:
 
-| File | Contents |
-|------|----------|
-| `assignments.json` | Per-company phenotype, AI play, descriptions, links |
-| `matrix.json` | Sparse matrix + totals + empty archetype rows |
-| `ontology.json` | Evolving phenotype library (seed + agent discoveries) |
-| `patterns.json` | Cross-cutting patterns from reflection passes |
-| `state.json` | Checkpoint / resume state |
+| File               | Contents                                              |
+| ------------------ | ----------------------------------------------------- |
+| `assignments.json` | Per-company phenotype, AI play, descriptions, links   |
+| `matrix.json`      | Sparse matrix + totals + empty archetype rows         |
+| `ontology.json`    | Evolving phenotype library (seed + agent discoveries) |
+| `patterns.json`    | Cross-cutting patterns from reflection passes         |
+| `state.json`       | Checkpoint / resume state                             |
 
 Seed phenotypes: `taxonomy/phenotype-seeds.json`.
 
@@ -115,7 +155,7 @@ Every company in `output/phenotypes/assignments.jsonl` can be audited for phenot
 # 1) Fast rule pass — fixes perps/marketplace vs fintech-insurance mis-tags (no API)
 npm run audit:refine
 
-# 2) Tiered LLM audit (~$5–8 for 401 cos): Haiku screens all, Sonnet only when uncertain
+# 2) Tiered LLM audit (~$15–20 for the full corpus): Haiku screens all, Sonnet only when uncertain
 npm run audit:tiered
 # Review: output/audit/review.html and review.csv
 

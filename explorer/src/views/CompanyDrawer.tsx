@@ -98,12 +98,15 @@ export function CompanyDrawer({ bundle, selection, onSelectCompany, onClose }: P
         <div className="gap-card">
           <h3>Whitespace opportunity</h3>
           <p>
-            <strong>Business model:</strong> {selection.businessModel} — {selection.businessModelLabel}
+            <strong>Business model:</strong> {selection.businessModel} —{' '}
+            {selection.businessModelLabel}
           </p>
           <p>
             <strong>Vertical:</strong> {selection.verticalLabel}
           </p>
-          <p className="desc">No YC companies in this batch are mapped to this BM × vertical cell.</p>
+          <p className="desc">
+            No YC companies in this batch are mapped to this BM × vertical cell.
+          </p>
         </div>
       </>
     );

@@ -51,7 +51,7 @@ function aggregateBmCells(
   verticals: DataBundle['facets']['verticals'],
   colId: string,
   slugFilter: Set<string>,
-  gapSet: Set<string>,
+  gapSet: Set<string>
 ): MatrixCell {
   let count = 0;
   const slugs: string[] = [];
@@ -87,14 +87,14 @@ export function resolveGapVertical(
   bundle: DataBundle,
   bmId: string,
   colId: string,
-  mode: Extract<MatrixMode, 'bm_sector' | 'bm_industry' | 'bm_vertical'>,
+  mode: Extract<MatrixMode, 'bm_sector' | 'bm_industry' | 'bm_vertical'>
 ): { verticalId: string; verticalLabel: string; sectorId: string } | null {
   const gapSet = new Set(bundle.matrices.bm_vertical_gaps);
   if (mode === 'bm_vertical') {
     const v = bundle.facets.verticals.find((x) => x.id === colId);
     if (!v) return null;
     const sectorId = ycParent(
-      Object.values(bundle.companies).find((c) => c.vertical_id === v.id)?.yc_industries,
+      Object.values(bundle.companies).find((c) => c.vertical_id === v.id)?.yc_industries
     );
     return { verticalId: v.id, verticalLabel: v.label, sectorId: sectorId ?? '' };
   }
@@ -103,7 +103,7 @@ export function resolveGapVertical(
       ? verticalIdsForYcParent(bundle.companies, colId)
       : verticalIdsForYcIndustry(bundle.companies, colId);
   const verts = bundle.facets.verticals.filter((v) => vertIdSet.has(v.id));
-  const sectorId = mode === 'bm_sector' ? colId : colId.split('::')[0] ?? '';
+  const sectorId = mode === 'bm_sector' ? colId : (colId.split('::')[0] ?? '');
   for (const v of verts) {
     if (gapSet.has(`${bmId}|${v.id}`)) {
       return { verticalId: v.id, verticalLabel: v.label, sectorId };
@@ -186,7 +186,7 @@ export function useMatrixData(bundle: DataBundle, state: FilterState) {
     } else if (state.industry) {
       vertIdSet = verticalIdsForYcIndustry(bundle.companies, state.industry, slugFilter);
     }
-    let verts = vertIdSet
+    const verts = vertIdSet
       ? bundle.facets.verticals.filter((v) => vertIdSet!.has(v.id))
       : bundle.facets.verticals;
 

@@ -23,11 +23,7 @@ const LIMITS = {
 /** @type {Map<string, { count: number, resetAt: number }>} */
 const buckets = new Map();
 
-const EXPENSIVE_PATHS = new Set([
-  '/api/chat',
-  '/api/generator/generate',
-  '/api/library/generate',
-]);
+const EXPENSIVE_PATHS = new Set(['/api/chat', '/api/generator/generate', '/api/library/generate']);
 
 const WRITE_PATHS = new Set([
   '/api/generator/gaps',
@@ -36,12 +32,7 @@ const WRITE_PATHS = new Set([
   '/api/library/restore',
 ]);
 
-const HEALTH_PATHS = new Set([
-  '/',
-  '/api/health',
-  '/api/generator/health',
-  '/api/chat/health',
-]);
+const HEALTH_PATHS = new Set(['/', '/api/health', '/api/generator/health', '/api/chat/health']);
 
 function disabled() {
   return process.env.RATE_LIMIT_DISABLED === '1' || process.env.RATE_LIMIT_DISABLED === 'true';

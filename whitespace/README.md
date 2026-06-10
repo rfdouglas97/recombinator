@@ -26,11 +26,11 @@ node whitespace/build.mjs --no-write   # print JSON to stdout
 
 ## Outputs
 
-| File | Purpose |
-|------|---------|
+| File                                            | Purpose                                 |
+| ----------------------------------------------- | --------------------------------------- |
 | `output/whitespace/gap-opportunity-ranked.json` | All ranked gaps (`rank`, scores, flags) |
-| `output/whitespace/sector-summary.json` | Top N per sector + averages |
-| `output/whitespace/rejected-kill-list.json` | Gaps removed by kill-list |
+| `output/whitespace/sector-summary.json`         | Top N per sector + averages             |
+| `output/whitespace/rejected-kill-list.json`     | Gaps removed by kill-list               |
 
 ## Scores
 

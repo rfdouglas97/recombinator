@@ -36,9 +36,17 @@ function loadAssignments() {
 
 function buildAuditData() {
   const ontology = loadVerticalOntology();
-  const proposalsRaw = readJson(join(ROOT, 'output/verticals/expansion-proposals.json'), { proposals: [] });
-  const mergeReport = readJson(join(ROOT, 'output/verticals/merge-report.json'), { rejected: [], stats: {} });
-  const expansionApproved = readJson(join(ROOT, 'output/verticals/expansion-approved.json'), { verticals: [], stats: {} });
+  const proposalsRaw = readJson(join(ROOT, 'output/verticals/expansion-proposals.json'), {
+    proposals: [],
+  });
+  const mergeReport = readJson(join(ROOT, 'output/verticals/merge-report.json'), {
+    rejected: [],
+    stats: {},
+  });
+  const expansionApproved = readJson(join(ROOT, 'output/verticals/expansion-approved.json'), {
+    verticals: [],
+    stats: {},
+  });
   const assignments = loadAssignments();
   const ontologyBuilt = buildOntologyDocument();
 
@@ -51,7 +59,7 @@ function buildAuditData() {
       .filter((a) => {
         const n = normalizeVertical(
           { industry_sub_vertical: a.industry_sub_vertical, yc_industries: a.yc_industries },
-          ontology,
+          ontology
         );
         return n.vertical_id === v.id;
       })
@@ -83,7 +91,9 @@ function buildAuditData() {
       llm_rejected: (mergeReport.rejected ?? []).length,
       total_verticals: ontology.verticals.length,
       phenotype_assignments: assignments.length,
-      industries_with_yc_coverage: new Set(verticalRows.filter((v) => v.yc_company_count > 0).map((v) => v.industry_id)).size,
+      industries_with_yc_coverage: new Set(
+        verticalRows.filter((v) => v.yc_company_count > 0).map((v) => v.industry_id)
+      ).size,
     },
     merge_stats: mergeReport.stats ?? expansionApproved.stats ?? {},
     sectors: SECTORS,
@@ -91,7 +101,8 @@ function buildAuditData() {
     verticals: verticalRows,
     rejected: mergeReport.rejected ?? [],
     proposals_by_industry: proposalsByIndustry,
-    reflections: readJson(join(ROOT, 'output/verticals/expansion-state.json'), {})?.reflections ?? [],
+    reflections:
+      readJson(join(ROOT, 'output/verticals/expansion-state.json'), {})?.reflections ?? [],
   };
 }
 
@@ -298,7 +309,14 @@ function main() {
   writeFileSync(OUT, buildHtml(data));
   console.log('Wrote', OUT);
   console.log('  Total verticals:', data.counts.total_verticals);
-  console.log('  Seed:', data.counts.seed_verticals, '| LLM approved:', data.counts.llm_approved, '| Rejected:', data.counts.llm_rejected);
+  console.log(
+    '  Seed:',
+    data.counts.seed_verticals,
+    '| LLM approved:',
+    data.counts.llm_approved,
+    '| Rejected:',
+    data.counts.llm_rejected
+  );
 }
 
 main();

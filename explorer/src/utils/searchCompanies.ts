@@ -1,18 +1,135 @@
 import type { Company, DataBundle, Filters } from '../types';
 
 const STOP_WORDS = new Set([
-  'a', 'an', 'the', 'is', 'are', 'was', 'were', 'be', 'been', 'being', 'have', 'has', 'had',
-  'do', 'does', 'did', 'will', 'would', 'could', 'should', 'may', 'might', 'must', 'can',
-  'to', 'of', 'in', 'for', 'on', 'with', 'at', 'by', 'from', 'as', 'into', 'through', 'during',
-  'before', 'after', 'between', 'under', 'again', 'then', 'once', 'here', 'there', 'when', 'where',
-  'why', 'how', 'all', 'each', 'few', 'more', 'most', 'other', 'some', 'such', 'no', 'nor', 'not',
-  'only', 'own', 'same', 'so', 'than', 'too', 'very', 'just', 'now', 'me', 'my', 'we', 'our', 'you',
-  'your', 'what', 'which', 'who', 'whom', 'this', 'that', 'these', 'those', 'any', 'both',
-  'find', 'show', 'list', 'tell', 'give', 'get', 'want', 'know', 'see', 'look', 'like', 'help',
-  'about', 'using', 'use', 'used', 'make', 'made', 'building', 'build', 'built', 'working', 'work',
-  'companies', 'company', 'startup', 'startups', 'similar', 'comparable', 'peers', 'competitors',
-  'database', 'explorer', 'please', 'thanks', 'hello', 'hey',
-  'phenotype', 'phenotypes', 'vertical', 'verticals', 'sector', 'sectors',
+  'a',
+  'an',
+  'the',
+  'is',
+  'are',
+  'was',
+  'were',
+  'be',
+  'been',
+  'being',
+  'have',
+  'has',
+  'had',
+  'do',
+  'does',
+  'did',
+  'will',
+  'would',
+  'could',
+  'should',
+  'may',
+  'might',
+  'must',
+  'can',
+  'to',
+  'of',
+  'in',
+  'for',
+  'on',
+  'with',
+  'at',
+  'by',
+  'from',
+  'as',
+  'into',
+  'through',
+  'during',
+  'before',
+  'after',
+  'between',
+  'under',
+  'again',
+  'then',
+  'once',
+  'here',
+  'there',
+  'when',
+  'where',
+  'why',
+  'how',
+  'all',
+  'each',
+  'few',
+  'more',
+  'most',
+  'other',
+  'some',
+  'such',
+  'no',
+  'nor',
+  'not',
+  'only',
+  'own',
+  'same',
+  'so',
+  'than',
+  'too',
+  'very',
+  'just',
+  'now',
+  'me',
+  'my',
+  'we',
+  'our',
+  'you',
+  'your',
+  'what',
+  'which',
+  'who',
+  'whom',
+  'this',
+  'that',
+  'these',
+  'those',
+  'any',
+  'both',
+  'find',
+  'show',
+  'list',
+  'tell',
+  'give',
+  'get',
+  'want',
+  'know',
+  'see',
+  'look',
+  'like',
+  'help',
+  'about',
+  'using',
+  'use',
+  'used',
+  'make',
+  'made',
+  'building',
+  'build',
+  'built',
+  'working',
+  'work',
+  'companies',
+  'company',
+  'startup',
+  'startups',
+  'similar',
+  'comparable',
+  'peers',
+  'competitors',
+  'database',
+  'explorer',
+  'please',
+  'thanks',
+  'hello',
+  'hey',
+  'phenotype',
+  'phenotypes',
+  'vertical',
+  'verticals',
+  'sector',
+  'sectors',
 ]);
 
 const TERM_EXPANSIONS: Record<string, string[]> = {
@@ -50,7 +167,10 @@ const BATCH_ALIASES: [RegExp, string][] = [
 
 const SECTOR_HINTS: [RegExp, string][] = [
   [/\b(fintech|payments?|lending|banking|insurtech)\b/i, 'financial-services'],
-  [/\b(healthcare|health\s*tech|digital\s*health|medical|clinical|hospital)\b/i, 'healthcare-life-sciences'],
+  [
+    /\b(healthcare|health\s*tech|digital\s*health|medical|clinical|hospital)\b/i,
+    'healthcare-life-sciences',
+  ],
   [/\b(biotech|pharma|therapeutic|drug\s*discovery)\b/i, 'healthcare-life-sciences'],
   [/\b(enterprise|b2b\s*saas|devtools?|developer\s*tools)\b/i, 'enterprise-software'],
   [/\b(ai\s*infra|agent\s*(platform|runtime|infrastructure))\b/i, 'ai-infrastructure'],
@@ -80,7 +200,10 @@ function parseSearchQuery(text: string) {
   const matchTokens = new Set(focusTokens);
   for (const t of focusTokens.slice(0, 4)) {
     for (const alt of (TERM_EXPANSIONS[t] ?? []).slice(0, 3)) {
-      for (const piece of alt.toLowerCase().split(/\s+/).filter((x) => x.length >= 2)) {
+      for (const piece of alt
+        .toLowerCase()
+        .split(/\s+/)
+        .filter((x) => x.length >= 2)) {
         matchTokens.add(piece);
       }
     }
@@ -168,7 +291,7 @@ function scoreCompany(
   bundle: DataBundle,
   parsed: ReturnType<typeof parseSearchQuery>,
   soft: SoftHints,
-  boost = 0,
+  boost = 0
 ) {
   const { normalized, matchTokens, focusTokens, quoted } = parsed;
   if (!matchTokens.length && !quoted.length && !normalized) return boost + scoreSoftHints(c, soft);
@@ -209,7 +332,7 @@ export function searchCompaniesLocal(
   bundle: DataBundle,
   query: string,
   filters: Filters,
-  limit = 40,
+  limit = 40
 ): Company[] {
   const parsed = parseSearchQuery(query.trim());
   const soft = inferSoftHints(query);
@@ -251,11 +374,13 @@ export function formatLocalSearchReply(query: string, companies: Company[]): str
       : 'Try a search like "healthcare AI" or "agent infrastructure".';
   }
 
-  const lines = companies.slice(0, 20).map(
-    (c, i) => `${i + 1}. ${c.name} (${c.slug}) — ${c.one_liner ?? c.vertical_label ?? ''}`,
-  );
+  const lines = companies
+    .slice(0, 20)
+    .map((c, i) => `${i + 1}. ${c.name} (${c.slug}) — ${c.one_liner ?? c.vertical_label ?? ''}`);
   const more =
-    companies.length > 20 ? `\n\n+${companies.length - 20} more matches (ask to narrow the search).` : '';
+    companies.length > 20
+      ? `\n\n+${companies.length - 20} more matches (ask to narrow the search).`
+      : '';
   return `Found ${companies.length} match${companies.length === 1 ? '' : 'es'} (offline search):\n\n${lines.join('\n')}${more}`;
 }
 

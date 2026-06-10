@@ -17,31 +17,15 @@ export function SidebarToggleIcon({
       xmlns="http://www.w3.org/2000/svg"
       aria-hidden
     >
-      <rect
-        x="3.5"
-        y="5"
-        width="17"
-        height="14"
-        rx="2"
-        stroke="currentColor"
-        strokeWidth="1.75"
-      />
+      <rect x="3.5" y="5" width="17" height="14" rx="2" stroke="currentColor" strokeWidth="1.75" />
       {open ? (
         <>
-          <path
-            d="M3.5 5h7v14h-5a2 2 0 0 1-2-2V5z"
-            fill="currentColor"
-            fillOpacity="0.28"
-          />
+          <path d="M3.5 5h7v14h-5a2 2 0 0 1-2-2V5z" fill="currentColor" fillOpacity="0.28" />
           <path d="M10.5 5v14" stroke="currentColor" strokeWidth="1.75" />
         </>
       ) : (
         <>
-          <path
-            d="M3.5 5h7v14h-5a2 2 0 0 1-2-2V5z"
-            stroke="currentColor"
-            strokeWidth="1.75"
-          />
+          <path d="M3.5 5h7v14h-5a2 2 0 0 1-2-2V5z" stroke="currentColor" strokeWidth="1.75" />
           <path
             d="M13.5 12h4.5M16 9.5 18.5 12 16 14.5"
             stroke="currentColor"

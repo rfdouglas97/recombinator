@@ -45,7 +45,9 @@ function log(msg) {
 
 function loadAssignments() {
   const raw = JSON.parse(readFileSync(PATHS.assignments, 'utf8'));
-  return (Array.isArray(raw) ? raw : Object.values(raw)).sort((a, b) => a.slug.localeCompare(b.slug));
+  return (Array.isArray(raw) ? raw : Object.values(raw)).sort((a, b) =>
+    a.slug.localeCompare(b.slug)
+  );
 }
 
 function loadDoneFromResults() {
@@ -73,15 +75,16 @@ function saveState(state) {
 function resolveAssignBmApiConfig(base) {
   return {
     ...base,
-    model: process.env.ASSIGN_PRIMARY_BM_MODEL ?? process.env.CLASSIFICATION_RECLASSIFY_MODEL ?? 'claude-haiku-4-5-20251001',
+    model:
+      process.env.ASSIGN_PRIMARY_BM_MODEL ??
+      process.env.CLASSIFICATION_RECLASSIFY_MODEL ??
+      'claude-haiku-4-5-20251001',
     maxTokens: parseInt(process.env.ASSIGN_PRIMARY_BM_MAX_TOKENS ?? '1024', 10),
   };
 }
 
 function bmDefinitionsBlock(codes) {
-  return codes
-    .map((code) => `- ${code}: ${BM_LABELS[code] ?? code}`)
-    .join('\n');
+  return codes.map((code) => `- ${code}: ${BM_LABELS[code] ?? code}`).join('\n');
 }
 
 function primaryBmSystemPrompt() {
@@ -130,7 +133,9 @@ async function assignPrimaryBmOne(company, apiConfig) {
 
   const chosen = raw.primary_bm ?? raw.business_models?.[0];
   if (!chosen || !BM_LABELS[chosen]) {
-    throw new Error(`Invalid primary_bm ${chosen}; must be one of ${Object.keys(BM_LABELS).join(', ')}`);
+    throw new Error(
+      `Invalid primary_bm ${chosen}; must be one of ${Object.keys(BM_LABELS).join(', ')}`
+    );
   }
 
   return {
@@ -170,7 +175,9 @@ async function main() {
     .map((a) => a.slug);
 
   const done = args.resume ? loadDoneFromResults() : new Set();
-  const state = args.resume ? loadState() : { processed_slugs: [], failed_slugs: [], started_at: new Date().toISOString() };
+  const state = args.resume
+    ? loadState()
+    : { processed_slugs: [], failed_slugs: [], started_at: new Date().toISOString() };
   if (args.fresh) {
     state.processed_slugs = [];
     state.failed_slugs = [];
@@ -185,7 +192,7 @@ async function main() {
       : parseInt(process.env.ASSIGN_PRIMARY_BM_CONCURRENCY ?? '16', 10);
 
   log(
-    `Assign primary BM | model=${apiConfig.model} | concurrency=${concurrency} | queue=${queue.length}/${dualSlugs.length} dual-BM`,
+    `Assign primary BM | model=${apiConfig.model} | concurrency=${concurrency} | queue=${queue.length}/${dualSlugs.length} dual-BM`
   );
 
   let ok = 0;
@@ -206,7 +213,7 @@ async function main() {
         } catch (err) {
           return { slug, patch: null, error: err.message };
         }
-      }),
+      })
     );
 
     for (const { slug, patch, error } of results) {

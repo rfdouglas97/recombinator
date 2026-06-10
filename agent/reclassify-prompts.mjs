@@ -80,6 +80,6 @@ export function reclassifyUserPrompt({ company, audit, verticalCandidates }) {
       })),
     },
     null,
-    2,
+    2
   );
 }

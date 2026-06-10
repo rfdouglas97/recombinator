@@ -29,7 +29,13 @@ import {
 function gapQueryScore(gap, queryTokens) {
   if (!queryTokens.size) return 1;
   const hay = normalizeText(
-    [gap.vertical_label, gap.industry_label, gap.sector_label, gap.workflow, gap.business_model_label].join(' '),
+    [
+      gap.vertical_label,
+      gap.industry_label,
+      gap.sector_label,
+      gap.workflow,
+      gap.business_model_label,
+    ].join(' ')
   );
   const hayTokens = tokenSet(hay);
   let inter = 0;
@@ -72,7 +78,7 @@ export function pickGapsForGeneration({
     if (sectorId) gaps = gaps.filter((g) => g.sector_id === sectorId);
     if (industryId) {
       gaps = gaps.filter(
-        (g) => g.vertical_id === industryId || g.vertical_id.startsWith(`${industryId}.`),
+        (g) => g.vertical_id === industryId || g.vertical_id.startsWith(`${industryId}.`)
       );
     }
     if (businessModel) gaps = gaps.filter((g) => g.business_model === businessModel);
@@ -133,7 +139,10 @@ export function getLibrary() {
   cards = sortCards(cards).map((c, i) => ({
     ...c,
     card_rank: i + 1,
-    whitespace: { ...c.whitespace, matrix_gap_count: c.whitespace.matrix_gap_count ?? matrixGapCount },
+    whitespace: {
+      ...c.whitespace,
+      matrix_gap_count: c.whitespace.matrix_gap_count ?? matrixGapCount,
+    },
   }));
 
   const judgments = loadJudgmentsDoc().judgments ?? {};
@@ -168,7 +177,10 @@ export function getArchivedLibrary() {
   cards = sortCards(cards).map((c, i) => ({
     ...c,
     card_rank: i + 1,
-    whitespace: { ...c.whitespace, matrix_gap_count: c.whitespace.matrix_gap_count ?? matrixGapCount },
+    whitespace: {
+      ...c.whitespace,
+      matrix_gap_count: c.whitespace.matrix_gap_count ?? matrixGapCount,
+    },
   }));
 
   return {
@@ -188,10 +200,12 @@ export async function generateMoreCards(options = {}, onProgress = () => {}) {
   const count = Math.min(Math.max(parseInt(options.count ?? 5, 10), 1), 30);
   const doc = loadLibraryDoc();
   const archive = loadArchiveDoc();
-  const excludeCellKeys = new Set([
-    ...doc.cards.map((c) => c.whitespace?.cell_key),
-    ...archive.cards.map((c) => c.whitespace?.cell_key),
-  ].filter(Boolean));
+  const excludeCellKeys = new Set(
+    [
+      ...doc.cards.map((c) => c.whitespace?.cell_key),
+      ...archive.cards.map((c) => c.whitespace?.cell_key),
+    ].filter(Boolean)
+  );
 
   const shortlist = pickGapsForGeneration({
     count,
@@ -205,7 +219,7 @@ export async function generateMoreCards(options = {}, onProgress = () => {}) {
 
   if (!shortlist.length) {
     throw new Error(
-      'No new whitespace gaps match your filters (or all matching cells are already in the library). Try broader guidance.',
+      'No new whitespace gaps match your filters (or all matching cells are already in the library). Try broader guidance.'
     );
   }
 

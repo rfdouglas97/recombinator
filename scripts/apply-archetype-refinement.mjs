@@ -38,7 +38,9 @@ function main() {
       phenotype_primary_label: pheno?.label ?? refined.phenotype_primary_label,
       phenotype_family: pheno?.family ?? refined.phenotype_family,
       method: refined.archetype_refined ? 'archetype_refine' : row.method,
-      archetype_refined_at: refined.archetype_refined ? new Date().toISOString() : row.archetype_refined_at,
+      archetype_refined_at: refined.archetype_refined
+        ? new Date().toISOString()
+        : row.archetype_refined_at,
     };
 
     const same =
@@ -50,7 +52,7 @@ function main() {
       bySlug.set(slug, next);
       changed++;
       console.log(
-        `  ${slug}: ${row.phenotype_primary_id} → ${next.phenotype_primary_id} (${(next.business_models ?? []).join(',')})`,
+        `  ${slug}: ${row.phenotype_primary_id} → ${next.phenotype_primary_id} (${(next.business_models ?? []).join(',')})`
       );
     }
   }

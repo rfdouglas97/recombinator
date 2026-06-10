@@ -208,10 +208,9 @@ function buildClassificationLocal(launch, company, phenotypeOntology, verticalOn
   });
   const topVertical = candidates[0] ?? null;
 
-  const businessModels =
-    heuristic.taxonomy?.business_model_primary
-      ? [heuristic.taxonomy.business_model_primary]
-      : PHENOTYPE_TO_BM[local.phenotype_primary_id]?.slice(0, 1) ?? ['BM-02'];
+  const businessModels = heuristic.taxonomy?.business_model_primary
+    ? [heuristic.taxonomy.business_model_primary]
+    : (PHENOTYPE_TO_BM[local.phenotype_primary_id]?.slice(0, 1) ?? ['BM-02']);
 
   const vertical = topVertical ? getVerticalById(topVertical.id, verticalOntology) : null;
 
@@ -223,7 +222,8 @@ function buildClassificationLocal(launch, company, phenotypeOntology, verticalOn
     industry_sub_vertical: local.industry_sub_vertical,
     phenotype_primary_id: local.phenotype_primary_id,
     phenotype_primary_label: local.phenotype_primary_label,
-    phenotype_family: phenotypeOntology.phenotypes.find((p) => p.id === local.phenotype_primary_id)?.family,
+    phenotype_family: phenotypeOntology.phenotypes.find((p) => p.id === local.phenotype_primary_id)
+      ?.family,
     vertical_id: topVertical?.id ?? null,
     vertical_label: vertical?.label ?? null,
     vertical_sector_id: vertical?.sector_id ?? null,
@@ -244,11 +244,21 @@ function buildClassificationLocal(launch, company, phenotypeOntology, verticalOn
 }
 
 function isLlmAuthError(err) {
-  return /401|403|authentication_error|invalid x-api-key|invalid_api_key/i.test(String(err?.message ?? err));
+  return /401|403|authentication_error|invalid x-api-key|invalid_api_key/i.test(
+    String(err?.message ?? err)
+  );
 }
 
-async function buildClassification(launch, company, phenotypeOntology, verticalOntology, { useAgent = true } = {}) {
-  const launchHints = [launch.tagline, stripMarkdown(launch.body)?.slice(0, 1200)].filter(Boolean).join('\n');
+async function buildClassification(
+  launch,
+  company,
+  phenotypeOntology,
+  verticalOntology,
+  { useAgent = true } = {}
+) {
+  const launchHints = [launch.tagline, stripMarkdown(launch.body)?.slice(0, 1200)]
+    .filter(Boolean)
+    .join('\n');
 
   if (useAgent && resolveApiConfig()) {
     try {
@@ -284,7 +294,9 @@ async function buildClassification(launch, company, phenotypeOntology, verticalO
     } catch (err) {
       console.warn(`  ⚠ LLM classify failed for ${company.slug}: ${err.message}`);
       if (isLlmAuthError(err)) {
-        console.warn('  → invalid API key: using local classifier (fix ANTHROPIC_API_KEY in GitHub secrets)');
+        console.warn(
+          '  → invalid API key: using local classifier (fix ANTHROPIC_API_KEY in GitHub secrets)'
+        );
       } else if (process.env.LAUNCH_CLASSIFY_LOCAL_FALLBACK !== '1') {
         throw err;
       } else {
@@ -292,7 +304,9 @@ async function buildClassification(launch, company, phenotypeOntology, verticalO
       }
     }
   } else if (useAgent) {
-    console.warn('  ⚠ No ANTHROPIC_API_KEY / OPENAI_API_KEY — local classifier only (set keys for launch ingest)');
+    console.warn(
+      '  ⚠ No ANTHROPIC_API_KEY / OPENAI_API_KEY — local classifier only (set keys for launch ingest)'
+    );
   }
 
   return buildClassificationLocal(launch, company, phenotypeOntology, verticalOntology);
@@ -359,7 +373,7 @@ function assignmentFromClassification(launch, classification) {
 function ingestReviews(reviews, catalog, normalized, assignments, toIngest, opts = {}) {
   const normBySlug = new Map(normalized.map((r) => [r.slug, r]));
   const assignBySlug = new Map(
-    (Array.isArray(assignments) ? assignments : Object.values(assignments)).map((r) => [r.slug, r]),
+    (Array.isArray(assignments) ? assignments : Object.values(assignments)).map((r) => [r.slug, r])
   );
   const catalogById = new Map(catalog.launches.map((l) => [l.launch_id, l]));
 
@@ -385,7 +399,10 @@ function ingestReviews(reviews, catalog, normalized, assignments, toIngest, opts
       const updated = mergeLaunchIntoAssignment(normBySlug.get(slug), launch, classification);
       normBySlug.set(slug, updated);
       if (assignBySlug.has(slug)) {
-        assignBySlug.set(slug, mergeLaunchIntoAssignment(assignBySlug.get(slug), launch, classification));
+        assignBySlug.set(
+          slug,
+          mergeLaunchIntoAssignment(assignBySlug.get(slug), launch, classification)
+        );
       }
       enrichedCompanies++;
     } else if (opts.ingestNew && classification.phenotype_primary_id) {
@@ -394,7 +411,9 @@ function ingestReviews(reviews, catalog, normalized, assignments, toIngest, opts
       assignBySlug.set(slug, { ...record, proposed_phenotype: null });
       recordLaunchIngestedSlug(slug);
       addedCompanies++;
-      console.log(`  + new company: ${slug} → ${classification.phenotype_primary_id}${classification.vertical_id ? ` × ${classification.vertical_id}` : ' (vertical TBD)'}`);
+      console.log(
+        `  + new company: ${slug} → ${classification.phenotype_primary_id}${classification.vertical_id ? ` × ${classification.vertical_id}` : ' (vertical TBD)'}`
+      );
     }
 
     if (review) appendFileSync(PATHS.reviewsJsonl, `${JSON.stringify(review)}\n`);
@@ -404,7 +423,7 @@ function ingestReviews(reviews, catalog, normalized, assignments, toIngest, opts
     updated_at: new Date().toISOString(),
     count: catalogById.size,
     launches: [...catalogById.values()].sort(
-      (a, b) => new Date(b.created_at) - new Date(a.created_at),
+      (a, b) => new Date(b.created_at) - new Date(a.created_at)
     ),
   });
 
@@ -425,7 +444,7 @@ async function appendRecentCorpusMissing(
   phenotypeOntology,
   verticalOntology,
   reviewByLaunchId,
-  { lookbackDays = 14 } = {},
+  { lookbackDays = 14 } = {}
 ) {
   const seen = new Set(toIngest.map((x) => x.launch.launch_id));
   const cutoff = Date.now() - lookbackDays * 24 * 60 * 60 * 1000;
@@ -444,7 +463,12 @@ async function appendRecentCorpusMissing(
 
     const company = launchToCompanyRecord(launch);
     try {
-      const classification = await buildClassification(launch, company, phenotypeOntology, verticalOntology);
+      const classification = await buildClassification(
+        launch,
+        company,
+        phenotypeOntology,
+        verticalOntology
+      );
       const prior = reviewByLaunchId.get(launch.launch_id);
       toIngest.push({ launch, classification, review: prior?.review ?? null });
       added++;
@@ -464,13 +488,16 @@ function latestLaunchForSlug(catalog, slug) {
 }
 
 /** Promote slugs from launch catalog into corpus (not in scrape file). */
-async function promoteLaunchSlugs(slugs, { refresh = false, useAgent = true, forceReclassify = false } = {}) {
+async function promoteLaunchSlugs(
+  slugs,
+  { refresh = false, useAgent = true, forceReclassify = false } = {}
+) {
   const catalog = loadCatalog();
   const normalized = loadNormalizedAssignments();
   const assignments = loadJson(PATHS.assignments, []);
   const normBySlug = new Map(normalized.map((r) => [r.slug, r]));
   const assignBySlug = new Map(
-    (Array.isArray(assignments) ? assignments : Object.values(assignments)).map((r) => [r.slug, r]),
+    (Array.isArray(assignments) ? assignments : Object.values(assignments)).map((r) => [r.slug, r])
   );
   const phenotypeOntology = loadOntology(PATHS.ontology, PATHS.seeds);
   const verticalOntology = loadVerticalOntology();
@@ -487,9 +514,15 @@ async function promoteLaunchSlugs(slugs, { refresh = false, useAgent = true, for
       continue;
     }
     const company = launchToCompanyRecord(launch);
-    const classification = await buildClassification(launch, company, phenotypeOntology, verticalOntology, {
-      useAgent,
-    });
+    const classification = await buildClassification(
+      launch,
+      company,
+      phenotypeOntology,
+      verticalOntology,
+      {
+        useAgent,
+      }
+    );
     if (!classification.phenotype_primary_id) {
       console.warn(`  ${slug}: no phenotype from classifier`);
       continue;
@@ -499,12 +532,18 @@ async function promoteLaunchSlugs(slugs, { refresh = false, useAgent = true, for
     assignBySlug.set(slug, { ...record, proposed_phenotype: null });
     recordLaunchIngestedSlug(slug);
     console.log(
-      `  + promoted ${slug} → ${classification.phenotype_primary_id}${classification.vertical_id ? ` × ${classification.vertical_id}` : ''}`,
+      `  + promoted ${slug} → ${classification.phenotype_primary_id}${classification.vertical_id ? ` × ${classification.vertical_id}` : ''}`
     );
   }
 
-  saveJson(PATHS.normalized, [...normBySlug.values()].sort((a, b) => a.slug.localeCompare(b.slug)));
-  saveJson(PATHS.assignments, [...assignBySlug.values()].sort((a, b) => a.slug.localeCompare(b.slug)));
+  saveJson(
+    PATHS.normalized,
+    [...normBySlug.values()].sort((a, b) => a.slug.localeCompare(b.slug))
+  );
+  saveJson(
+    PATHS.assignments,
+    [...assignBySlug.values()].sort((a, b) => a.slug.localeCompare(b.slug))
+  );
   console.log(`Corpus: ${normBySlug.size} companies`);
 
   if (refresh) {
@@ -515,16 +554,22 @@ async function promoteLaunchSlugs(slugs, { refresh = false, useAgent = true, for
 
 function printSummary(report) {
   console.log('\n── Launch check summary ──');
-  console.log(`Checked: ${report.checked_count} | New: ${report.new_count} | Skipped (already processed): ${report.skipped_count}`);
-  console.log(`Conforming: ${report.summary.conforming} | Partial: ${report.summary.partial} | Non-conforming: ${report.summary.non_conforming}`);
-  console.log(`Predicted/plausible: ${report.summary.would_have_predicted} | Surprise: ${report.summary.surprise}`);
+  console.log(
+    `Checked: ${report.checked_count} | New: ${report.new_count} | Skipped (already processed): ${report.skipped_count}`
+  );
+  console.log(
+    `Conforming: ${report.summary.conforming} | Partial: ${report.summary.partial} | Non-conforming: ${report.summary.non_conforming}`
+  );
+  console.log(
+    `Predicted/plausible: ${report.summary.would_have_predicted} | Surprise: ${report.summary.surprise}`
+  );
   console.log('');
 
   for (const r of report.reviews.slice(0, 10)) {
     const t = r.review.taxonomy;
     const p = r.review.predictor;
     console.log(
-      `  ${r.launch.company_name ?? r.launch.company_slug} — ${t.verdict} (${t.conformance_index}) | ${p.predictability_band}${p.ranked_gap ? ` | gap rank #${p.ranked_gap.rank}` : ''}`,
+      `  ${r.launch.company_name ?? r.launch.company_slug} — ${t.verdict} (${t.conformance_index}) | ${p.predictability_band}${p.ranked_gap ? ` | gap rank #${p.ranked_gap.rank}` : ''}`
     );
   }
   if (report.reviews.length > 10) {
@@ -640,7 +685,7 @@ async function main() {
     updated_at: new Date().toISOString(),
     rubric_version: RUBRIC.version,
     reviews: [...reviewByLaunchId.values()].sort(
-      (a, b) => new Date(b.created_at) - new Date(a.created_at),
+      (a, b) => new Date(b.created_at) - new Date(a.created_at)
     ),
   });
 
@@ -652,7 +697,7 @@ async function main() {
       normBySlug,
       phenotypeOntology,
       verticalOntology,
-      reviewByLaunchId,
+      reviewByLaunchId
     );
   }
 
@@ -665,10 +710,10 @@ async function main() {
       normalized,
       assignments,
       toIngest,
-      { ingestNew: args.ingestNew },
+      { ingestNew: args.ingestNew }
     );
     console.log(
-      `Ingested: ${ingestStats.addedCompanies} new, ${ingestStats.enrichedCompanies} enriched`,
+      `Ingested: ${ingestStats.addedCompanies} new, ${ingestStats.enrichedCompanies} enriched`
     );
 
     if (args.refresh) {
@@ -679,7 +724,9 @@ async function main() {
   }
 
   state.processed_launch_ids = [...processedIds];
-  state.processed_slugs = [...new Set([...state.processed_slugs, ...pending.map((l) => l.company_slug).filter(Boolean)])];
+  state.processed_slugs = [
+    ...new Set([...state.processed_slugs, ...pending.map((l) => l.company_slug).filter(Boolean)]),
+  ];
   saveState(state);
 
   const report = {
@@ -693,9 +740,11 @@ async function main() {
       conforming: reviews.filter((r) => r.review.taxonomy.verdict === 'conforming').length,
       partial: reviews.filter((r) => r.review.taxonomy.verdict === 'partial').length,
       non_conforming: reviews.filter((r) => r.review.taxonomy.verdict === 'non_conforming').length,
-      would_have_predicted: reviews.filter((r) => r.review.predictor.would_have_been_predicted).length,
+      would_have_predicted: reviews.filter((r) => r.review.predictor.would_have_been_predicted)
+        .length,
       surprise: reviews.filter((r) => r.review.predictor.predictability_band === 'surprise').length,
-      predicted: reviews.filter((r) => r.review.predictor.predictability_band === 'predicted').length,
+      predicted: reviews.filter((r) => r.review.predictor.predictability_band === 'predicted')
+        .length,
     },
     reviews: reviews.map(({ launch, review }) => ({
       launch: {

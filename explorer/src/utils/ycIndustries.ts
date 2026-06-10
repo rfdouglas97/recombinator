@@ -22,7 +22,7 @@ export function parseYcSubIndustryId(id: string) {
 
 export function companyMatchesYcIndustry(
   ycIndustries: string[] | undefined,
-  industryId: string,
+  industryId: string
 ): boolean {
   const { parent, sub, isParentOnly } = parseYcSubIndustryId(industryId);
   if (!parent || ycParent(ycIndustries) !== parent) return false;
@@ -33,7 +33,7 @@ export function companyMatchesYcIndustry(
 export function verticalIdsForYcParent(
   companies: Record<string, { slug: string; vertical_id?: string; yc_industries?: string[] }>,
   parentId: string,
-  slugFilter?: Set<string>,
+  slugFilter?: Set<string>
 ): Set<string> {
   const vertIds = new Set<string>();
   for (const c of Object.values(companies)) {
@@ -48,7 +48,7 @@ export function verticalIdsForYcParent(
 export function verticalIdsForYcIndustry(
   companies: Record<string, { slug: string; vertical_id?: string; yc_industries?: string[] }>,
   industryId: string,
-  slugFilter?: Set<string>,
+  slugFilter?: Set<string>
 ): Set<string> {
   const vertIds = new Set<string>();
   for (const c of Object.values(companies)) {

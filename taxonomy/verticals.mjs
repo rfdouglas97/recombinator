@@ -89,7 +89,11 @@ function aliasContainsLabelAsWords(alias, label) {
 }
 
 function tokenSet(s) {
-  return new Set(normalizeText(s).split(' ').filter((t) => t.length > 2));
+  return new Set(
+    normalizeText(s)
+      .split(' ')
+      .filter((t) => t.length > 2)
+  );
 }
 
 function jaccard(a, b) {
@@ -136,7 +140,9 @@ export function resolveSlugVerticalOverride(slug) {
   if (!slug) return null;
   const vertical_id = SLUG_VERTICAL_OVERRIDES[slug] ?? PREDICTION_MARKET_SLUG_VERTICAL[slug];
   if (!vertical_id) return null;
-  const method = PREDICTION_MARKET_SLUG_VERTICAL[slug] ? 'prediction_markets_slug' : 'slug_override';
+  const method = PREDICTION_MARKET_SLUG_VERTICAL[slug]
+    ? 'prediction_markets_slug'
+    : 'slug_override';
   return { vertical_id, confidence: 0.98, method };
 }
 
@@ -176,14 +182,18 @@ export function inferPredictionMarketsVertical(input) {
 
   if (
     /prime brokerage|unified (api|trading|platform)|best execution|order management|low-latency execution|multi-venue.*prediction|prediction.*multi-venue/.test(
-      norm,
+      norm
     )
   ) {
-    return { vertical_id: 'fintech.prediction-markets.execution', confidence: 0.9, method: 'prediction_markets_infer' };
+    return {
+      vertical_id: 'fintech.prediction-markets.execution',
+      confidence: 0.9,
+      method: 'prediction_markets_infer',
+    };
   }
   if (
     /derivative layer|defi derivative|protocol layer|attention.*trad|exchange to trade|cultural attention|alternative asset trading/.test(
-      norm,
+      norm
     )
   ) {
     return {
@@ -201,7 +211,7 @@ export function inferPredictionMarketsVertical(input) {
   }
   if (
     /backtest|data infrastructure|institutional infrastructure|unified data|quantitative trading infrastructure|venue fragmentation/.test(
-      norm,
+      norm
     )
   ) {
     return {
@@ -242,14 +252,20 @@ export function normalizeVertical(input, ontology = loadVerticalOntology()) {
       const keyInAlias = key.includes(alias);
       if (!aliasInKey && !keyInAlias) continue;
       if (id.startsWith('fintech.prediction-markets.') && !PM_TEXT_RE.test(key)) continue;
-      if (id.startsWith('healthcare.') && /^(operations|infrastructure|analytics|b2b)$/.test(key)) continue;
+      if (id.startsWith('healthcare.') && /^(operations|infrastructure|analytics|b2b)$/.test(key))
+        continue;
       if (alias.length > bestSubLen) {
         bestSubLen = alias.length;
         bestSub = id;
       }
     }
     if (bestSub && bestSubLen >= 12) {
-      return { vertical_id: bestSub, confidence: 0.85, method: 'alias_substring', vertical: byId.get(bestSub) };
+      return {
+        vertical_id: bestSub,
+        confidence: 0.85,
+        method: 'alias_substring',
+        vertical: byId.get(bestSub),
+      };
     }
 
     // Token overlap against labels + aliases
@@ -309,11 +325,13 @@ export function listVerticals(ontology = loadVerticalOntology()) {
 }
 
 export function summarizeOntology(ontology = loadVerticalOntology()) {
-  return ontology.counts ?? {
-    sectors: ontology.sectors?.length,
-    industries: ontology.industries?.length,
-    verticals: ontology.verticals?.length,
-  };
+  return (
+    ontology.counts ?? {
+      sectors: ontology.sectors?.length,
+      industries: ontology.industries?.length,
+      verticals: ontology.verticals?.length,
+    }
+  );
 }
 
 if (process.argv[1]?.endsWith('verticals.mjs') && process.argv.includes('--emit-json')) {

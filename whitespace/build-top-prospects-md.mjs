@@ -15,9 +15,7 @@ const REQUIRE_WORKFLOW_ANALOG = process.env.REQUIRE_WORKFLOW_ANALOG !== '0';
 
 const ranked = JSON.parse(readFileSync(OUTPUT_PATHS.ranked, 'utf8'));
 const summary = JSON.parse(readFileSync(OUTPUT_PATHS.sectorSummary, 'utf8'));
-const rejected = JSON.parse(
-  readFileSync(OUTPUT_PATHS.rejected, 'utf8'),
-);
+const rejected = JSON.parse(readFileSync(OUTPUT_PATHS.rejected, 'utf8'));
 
 function prospectFilter(g) {
   if (verticalDepth(g.vertical_id) < MIN_DEPTH) return false;
@@ -33,7 +31,7 @@ function prospectFilter(g) {
 
 const prospects = ranked.gaps.filter(prospectFilter).slice(0, TOP);
 const catalogRejected = rejected.gaps.filter(
-  (g) => g.kill_reason?.includes('catalog') || g.flags?.includes('catalog_bucket'),
+  (g) => g.kill_reason?.includes('catalog') || g.flags?.includes('catalog_bucket')
 ).length;
 
 function fmtGap(g) {
@@ -91,7 +89,10 @@ const lines = [
 ];
 
 if (!prospects.length) {
-  lines.push('_No gaps passed v2 filters. Try lowering MIN_OPPORTUNITY or REQUIRE_WORKFLOW_ANALOG=0._', '');
+  lines.push(
+    '_No gaps passed v2 filters. Try lowering MIN_OPPORTUNITY or REQUIRE_WORKFLOW_ANALOG=0._',
+    ''
+  );
 } else {
   prospects.forEach((g) => lines.push(fmtGap(g)));
 }
@@ -99,13 +100,16 @@ if (!prospects.length) {
 lines.push('---', '', `## Top ${PER_SECTOR} per sector (v2 filters)`, '');
 
 for (const s of summary.sectors) {
-  const top = ranked.gaps.filter((g) => g.sector_id === s.sector_id).filter(prospectFilter).slice(0, PER_SECTOR);
+  const top = ranked.gaps
+    .filter((g) => g.sector_id === s.sector_id)
+    .filter(prospectFilter)
+    .slice(0, PER_SECTOR);
   if (!top.length) continue;
   lines.push(`### ${s.sector_label}`, '');
   for (const g of top) {
     const analogs = (g.workflow_matched_analog_slugs ?? []).join(', ') || '—';
     lines.push(
-      `- **#${g.rank}** ${g.business_model_label} × **${g.vertical_label}** — opp ${g.opportunity_score}, depth ${g.vertical_depth ?? verticalDepth(g.vertical_id)}, analogs: ${analogs}`,
+      `- **#${g.rank}** ${g.business_model_label} × **${g.vertical_label}** — opp ${g.opportunity_score}, depth ${g.vertical_depth ?? verticalDepth(g.vertical_id)}, analogs: ${analogs}`
     );
   }
   lines.push('');
@@ -113,9 +117,6 @@ for (const s of summary.sectors) {
 
 lines.push('---', '', '## Refresh', '', '```bash', 'npm run whitespace:rank', '```', '');
 
-const outPath = OUTPUT_PATHS.ranked.replace(
-  'gap-opportunity-ranked.json',
-  'top-prospects.md',
-);
+const outPath = OUTPUT_PATHS.ranked.replace('gap-opportunity-ranked.json', 'top-prospects.md');
 writeFileSync(outPath, lines.join('\n'));
 console.log(`Wrote ${outPath} (${prospects.length} prospects)`);

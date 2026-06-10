@@ -116,7 +116,7 @@ async function main() {
 
   const ontology = loadOntology(
     join(ROOT, 'output/phenotypes/ontology.json'),
-    join(ROOT, 'taxonomy/phenotype-seeds.json'),
+    join(ROOT, 'taxonomy/phenotype-seeds.json')
   );
   const verticalOntology = loadVerticalOntology();
   const heuristicBm = loadHeuristicBmMap();
@@ -124,7 +124,7 @@ async function main() {
   const phenotypeCatalog = compactPhenotypeCatalog(ontology.phenotypes);
 
   let companies = loadAssignmentsFromJsonl().map((a) =>
-    enrichCompany(a, normalizedMap, verticalOntology, heuristicBm),
+    enrichCompany(a, normalizedMap, verticalOntology, heuristicBm)
   );
   if (args.limit > 0) companies = companies.slice(0, args.limit);
 
@@ -152,7 +152,7 @@ async function main() {
 
   auditLog(
     `Tiered audit | tier1=${tier1Config.model} tier2=${tier2Config.model} | escalate_below=${cfg.escalateBelow} | queue=${queue.length}/${companies.length} | concurrency=${concurrency}`,
-    paths.log,
+    paths.log
   );
 
   const context = { phenotypeCatalog, verticalOntology, heuristicBm };
@@ -200,7 +200,7 @@ async function main() {
             tier2Error: err.message,
           };
         }
-      }),
+      })
     );
 
     for (const { audit, escalated, tier2Error } of results) {
@@ -214,14 +214,14 @@ async function main() {
         const flag = audit.verdict === 'ok' ? '✓' : audit.verdict === 'wrong' ? '✗' : '~';
         auditLog(
           `  ↑ ${flag} ${audit.slug}: tier2 ${audit.verdict} (conf ${audit.classification_confidence?.toFixed(2)})${tier2Error ? ` [tier2 err: ${tier2Error}]` : ''}`,
-          paths.log,
+          paths.log
         );
       } else {
         state.stats.tier1_only++;
         const flag = audit.verdict === 'ok' ? '✓' : audit.verdict === 'wrong' ? '✗' : '~';
         auditLog(
           `  · ${flag} ${audit.slug}: tier1 only ${audit.verdict} (conf ${audit.classification_confidence?.toFixed(2)})`,
-          paths.log,
+          paths.log
         );
       }
     }
@@ -234,7 +234,10 @@ async function main() {
     ? ((state.stats.escalated / companies.length) * 100).toFixed(1)
     : '0';
   auditLog('\n✓ Tiered audit complete', paths.log);
-  auditLog(`  tier1_only=${state.stats.tier1_only} escalated=${state.stats.escalated} (${escalatedPct}%)`, paths.log);
+  auditLog(
+    `  tier1_only=${state.stats.tier1_only} escalated=${state.stats.escalated} (${escalatedPct}%)`,
+    paths.log
+  );
   auditLog(`  tier2_failed=${state.stats.tier2_failed}`, paths.log);
   auditLog(`  Output: ${paths.audits}`, paths.log);
   auditLog('\nNext: npm run audit:reclassify && npm run audit:review', paths.log);
@@ -251,8 +254,8 @@ async function main() {
         audits: state.audits,
       },
       null,
-      2,
-    ),
+      2
+    )
   );
 }
 
