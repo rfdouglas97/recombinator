@@ -66,13 +66,16 @@ export function ideaToCard(idea, { matrixGapCount = null, judgment = null } = {}
     whitespace,
     startup,
     scores: {
+      judge_score: idea.judge_score ?? null,
+      judge: idea.judge ?? null,
       goodness_index: idea.goodness_index ?? record.goodness_index ?? null,
       validation: idea.validation ?? null,
       gap_opportunity_score: gap.opportunity_score ?? null,
       gap_transfer_score: gap.transfer_score ?? idea.transfer_score ?? null,
     },
     judgment,
-    sort_score: (idea.goodness_index ?? record.goodness_index)?.overall ?? 0,
+    // judge_score (LLM judge) ranks cards; heuristic goodness is the fallback.
+    sort_score: idea.judge_score ?? (idea.goodness_index ?? record.goodness_index)?.overall ?? 0,
   };
 }
 

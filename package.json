@@ -98,6 +98,7 @@
     "postinstall": "node -e \"console.log('Run: export PLAYWRIGHT_BROWSERS_PATH=\\\"$(pwd)/.playwright-browsers\\\" && npx playwright install chromium')\""
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
     "pg": "^8.21.0",
     "playwright": "^1.60.0"
   },

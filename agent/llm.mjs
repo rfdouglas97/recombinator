@@ -1,3 +1,5 @@
+import Anthropic from '@anthropic-ai/sdk';
+
 const JSON_INSTRUCTION =
   '\n\nRespond with a single valid JSON object only. No markdown code fences or extra text.';
 
@@ -10,11 +12,7 @@ function parseJsonContent(text) {
 
 function isRetryableError(err) {
   const msg = String(err?.message ?? err);
-  return (
-    msg.includes('fetch failed') ||
-    /Anthropic (429|529|500|502|503|504)/.test(msg) ||
-    /OpenAI (429|500|502|503|504)/.test(msg)
-  );
+  return msg.includes('fetch failed') || /OpenAI (429|500|502|503|504)/.test(msg);
 }
 
 async function withRetries(fn, { retries = 4, baseDelayMs = 1000 } = {}) {
@@ -31,9 +29,110 @@ async function withRetries(fn, { retries = 4, baseDelayMs = 1000 } = {}) {
   throw lastErr;
 }
 
+const anthropicClients = new Map();
+
+function getAnthropicClient(apiConfig) {
+  const key = apiConfig.apiKey;
+  let client = anthropicClients.get(key);
+  if (!client) {
+    // The SDK retries 429/5xx/529 with backoff using typed errors.
+    client = new Anthropic({ apiKey: key, maxRetries: 4 });
+    anthropicClients.set(key, client);
+  }
+  return client;
+}
+
+/** temperature/top_p/top_k are removed on Opus 4.7+ and Fable-tier models (400 if sent). */
+function samplingSupported(model) {
+  return !/opus-4-[789]|fable|mythos/.test(String(model ?? ''));
+}
+
+/** Normalize a system prompt to the block-array form so callers can attach cache_control. */
+function systemBlocks(system) {
+  if (Array.isArray(system)) return system;
+  return [{ type: 'text', text: String(system ?? '') }];
+}
+
+function systemText(system) {
+  return systemBlocks(system)
+    .map((b) => b.text)
+    .join('\n\n');
+}
+
+function firstTextBlock(message) {
+  const block = message.content?.find((b) => b.type === 'text');
+  if (!block?.text) throw new Error('Empty Anthropic response');
+  return block.text;
+}
+
+/**
+ * Schema-enforced JSON via Anthropic structured outputs (output_config.format).
+ * Streams internally (avoids HTTP timeouts) and fires `onStart` on the first
+ * stream event — used to stagger parallel calls so they share a prompt-cache
+ * entry (a cache write becomes readable once the first response starts).
+ *
+ * `system` and `messages` content may be block arrays carrying cache_control.
+ * Falls back to prompt-based JSON on the OpenAI provider (no schema guarantee).
+ *
+ * Returns { data, usage }.
+ */
+export async function chatStructured({
+  system,
+  user,
+  messages,
+  schema,
+  apiConfig = resolveApiConfig(),
+  model,
+  temperature = 0.2,
+  maxTokens = 3000,
+  effort,
+  onStart,
+}) {
+  if (!apiConfig) throw new Error('No ANTHROPIC_API_KEY or OPENAI_API_KEY configured in .env');
+
+  if (apiConfig.provider !== 'anthropic') {
+    const data = await withRetries(() =>
+      openaiChatJson({
+        system: systemText(system),
+        user: typeof user === 'string' ? user : JSON.stringify(user),
+        apiConfig,
+      })
+    );
+    onStart?.();
+    return { data, usage: null };
+  }
+
+  const client = getAnthropicClient(apiConfig);
+  const resolvedModel = model ?? apiConfig.model;
+  const request = {
+    model: resolvedModel,
+    max_tokens: maxTokens,
+    ...(samplingSupported(resolvedModel) ? { temperature } : {}),
+    system: systemBlocks(system),
+    messages: messages ?? [{ role: 'user', content: user }],
+    output_config: {
+      format: { type: 'json_schema', schema },
+      ...(effort ? { effort } : {}),
+    },
+  };
+
+  const stream = client.messages.stream(request);
+  if (onStart) {
+    let started = false;
+    stream.on('streamEvent', () => {
+      if (!started) {
+        started = true;
+        onStart();
+      }
+    });
+  }
+  const message = await stream.finalMessage();
+  return { data: JSON.parse(firstTextBlock(message)), usage: message.usage };
+}
+
 export async function chatJson({ system, user, apiConfig }) {
   if (apiConfig.provider === 'anthropic') {
-    return withRetries(() => anthropicChatJson({ system, user, apiConfig }));
+    return anthropicChatJson({ system, user, apiConfig });
   }
   return withRetries(() => openaiChatJson({ system, user, apiConfig }));
 }
@@ -41,7 +140,7 @@ export async function chatJson({ system, user, apiConfig }) {
 /** Multi-turn plain-text chat (no JSON mode). */
 export async function chatMessages({ system, messages, apiConfig, maxTokens = 2048 }) {
   if (apiConfig.provider === 'anthropic') {
-    return withRetries(() => anthropicChatMessages({ system, messages, apiConfig, maxTokens }));
+    return anthropicChatMessages({ system, messages, apiConfig, maxTokens });
   }
   return withRetries(() => openaiChatMessages({ system, messages, apiConfig, maxTokens }));
 }
@@ -74,31 +173,15 @@ async function openaiChatMessages({ system, messages, apiConfig, maxTokens }) {
 }
 
 async function anthropicChatMessages({ system, messages, apiConfig, maxTokens }) {
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'x-api-key': apiConfig.apiKey,
-      'anthropic-version': apiConfig.anthropicVersion ?? '2023-06-01',
-      'content-type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: apiConfig.model,
-      max_tokens: maxTokens ?? apiConfig.maxTokens ?? 2048,
-      temperature: 0.3,
-      system,
-      messages,
-    }),
+  const client = getAnthropicClient(apiConfig);
+  const message = await client.messages.create({
+    model: apiConfig.model,
+    max_tokens: maxTokens ?? apiConfig.maxTokens ?? 2048,
+    temperature: 0.3,
+    system,
+    messages,
   });
-
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Anthropic ${res.status}: ${text.slice(0, 500)}`);
-  }
-
-  const data = await res.json();
-  const block = data.content?.find((b) => b.type === 'text');
-  if (!block?.text) throw new Error('Empty Anthropic response');
-  return block.text.trim();
+  return firstTextBlock(message).trim();
 }
 
 async function openaiChatJson({ system, user, apiConfig }) {
@@ -132,31 +215,15 @@ async function openaiChatJson({ system, user, apiConfig }) {
 }
 
 async function anthropicChatJson({ system, user, apiConfig }) {
-  const res = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: {
-      'x-api-key': apiConfig.apiKey,
-      'anthropic-version': apiConfig.anthropicVersion ?? '2023-06-01',
-      'content-type': 'application/json',
-    },
-    body: JSON.stringify({
-      model: apiConfig.model,
-      max_tokens: apiConfig.maxTokens ?? 4096,
-      temperature: 0.2,
-      system: system + JSON_INSTRUCTION,
-      messages: [{ role: 'user', content: user }],
-    }),
+  const client = getAnthropicClient(apiConfig);
+  const message = await client.messages.create({
+    model: apiConfig.model,
+    max_tokens: apiConfig.maxTokens ?? 4096,
+    temperature: 0.2,
+    system: system + JSON_INSTRUCTION,
+    messages: [{ role: 'user', content: user }],
   });
-
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Anthropic ${res.status}: ${text.slice(0, 500)}`);
-  }
-
-  const data = await res.json();
-  const block = data.content?.find((b) => b.type === 'text');
-  if (!block?.text) throw new Error('Empty Anthropic response');
-  return parseJsonContent(block.text);
+  return parseJsonContent(firstTextBlock(message));
 }
 
 function normalizeApiKey(key) {
@@ -169,7 +236,8 @@ export function resolveApiConfig() {
     return {
       provider: 'anthropic',
       apiKey: anthropicKey,
-      model: process.env.ANTHROPIC_MODEL ?? 'claude-sonnet-4-5-20250929',
+      // Sonnet 4.6: structured outputs + prompt caching (2048-token minimum prefix).
+      model: process.env.ANTHROPIC_MODEL ?? 'claude-sonnet-4-6',
       maxTokens: parseInt(process.env.ANTHROPIC_MAX_TOKENS ?? '4096', 10),
       anthropicVersion: process.env.ANTHROPIC_VERSION ?? '2023-06-01',
     };
@@ -186,6 +254,18 @@ export function resolveApiConfig() {
   }
 
   return null;
+}
+
+/** Cheap model for judging/query-matching; falls back to the base provider. */
+export function resolveJudgeApiConfig() {
+  const base = resolveApiConfig();
+  if (!base) return null;
+  const judgeModel =
+    process.env.JUDGE_MODEL ??
+    (base.provider === 'anthropic'
+      ? (process.env.JUDGE_ANTHROPIC_MODEL ?? 'claude-haiku-4-5')
+      : (process.env.JUDGE_OPENAI_MODEL ?? 'gpt-4o-mini'));
+  return { ...base, model: judgeModel };
 }
 
 /** Explorer chat only — cheap default; does not affect classification/generator agents. */

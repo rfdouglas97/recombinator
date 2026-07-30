@@ -15,6 +15,7 @@ import {
   normalizeText,
   tokenSet,
 } from './eval-utils.mjs';
+import { cachedByFiles } from './data-cache.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 export const IDEA_PRIMITIVES_PATH = join(ROOT, 'output/generator/idea-primitives.json');
@@ -176,8 +177,36 @@ const GENERIC_BLOCKLIST = [
 ];
 
 export function loadIdeaPrimitives(path = IDEA_PRIMITIVES_PATH) {
-  if (!existsSync(path)) return null;
-  return JSON.parse(readFileSync(path, 'utf8'));
+  return cachedByFiles(`idea-primitives:${path}`, [path], () => {
+    if (!existsSync(path)) return null;
+    return JSON.parse(readFileSync(path, 'utf8'));
+  });
+}
+
+// Both caches key on object identity: loadNormalizedAssignments() and
+// loadVerticalOntology() return stable cached objects, so repeat requests hit.
+const verticalIndexCache = new WeakMap();
+const instancesCache = new WeakMap();
+
+function verticalIndex(ontology) {
+  let idx = verticalIndexCache.get(ontology);
+  if (!idx) {
+    idx = new Map((ontology.verticals ?? []).map((v) => [v.id, v]));
+    verticalIndexCache.set(ontology, idx);
+  }
+  return idx;
+}
+
+/** Cell-independent instance pool for a given assignments array. */
+function instancesForRows(rows, verticalOntology) {
+  const hit = instancesCache.get(rows);
+  if (hit && hit.ontology === verticalOntology) return hit.instances;
+  const byId = verticalIndex(verticalOntology);
+  const instances = rows
+    .filter((r) => r.vertical_id && r.phenotype_primary_id && r.business_models?.[0])
+    .map((r) => instanceFromRecord(r, byId.get(r.vertical_id) ?? null));
+  instancesCache.set(rows, { ontology: verticalOntology, instances });
+  return instances;
 }
 
 export function primitiveTypesForCell(cell) {
@@ -270,14 +299,12 @@ function buildTransferNote(instance, cell, vertical) {
  */
 export function getIdeaContextForCell(cell, { assignments, primitivesBundle = null } = {}) {
   const verticalOntology = loadVerticalOntology();
-  const vertical = getVerticalById(cell.vertical_id, verticalOntology);
+  const vertical = verticalIndex(verticalOntology).get(cell.vertical_id) ?? null;
   const primitiveTypes = primitiveTypesForCell(cell);
   const defaultType = defaultPrimitiveTypeForCell(cell);
 
   const rows = assignments ?? loadNormalizedAssignments();
-  const instances = rows
-    .filter((r) => r.vertical_id && r.phenotype_primary_id && r.business_models?.[0])
-    .map((r) => instanceFromRecord(r, getVerticalById(r.vertical_id, verticalOntology)));
+  const instances = instancesForRows(rows, verticalOntology);
 
   const sameCell = instances.filter(
     (i) =>

@@ -11,6 +11,8 @@ import {
 } from '../taxonomy/phenotype-to-bm.mjs';
 import { refineArchetypeBatch } from '../taxonomy/infer-archetype.mjs';
 
+import { cachedByFiles } from './data-cache.mjs';
+
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 export const EVAL_PATHS = {
@@ -34,18 +36,22 @@ export function loadJson(path) {
 }
 
 export function loadNormalizedAssignments() {
-  if (!existsSync(EVAL_PATHS.normalized)) return [];
-  const raw = loadJson(EVAL_PATHS.normalized);
-  const rows = Array.isArray(raw) ? raw : Object.values(raw);
-  return refineArchetypeBatch(rows);
+  return cachedByFiles('normalized-assignments', [EVAL_PATHS.normalized], () => {
+    if (!existsSync(EVAL_PATHS.normalized)) return [];
+    const raw = loadJson(EVAL_PATHS.normalized);
+    const rows = Array.isArray(raw) ? raw : Object.values(raw);
+    return refineArchetypeBatch(rows);
+  });
 }
 
 export function loadPhenotypeOntology() {
-  return loadJson(EVAL_PATHS.ontology);
+  return cachedByFiles('phenotype-ontology', [EVAL_PATHS.ontology], () =>
+    loadJson(EVAL_PATHS.ontology)
+  );
 }
 
 export function loadTaxonomyV01() {
-  return loadJson(EVAL_PATHS.taxonomy);
+  return cachedByFiles('taxonomy-v01', [EVAL_PATHS.taxonomy], () => loadJson(EVAL_PATHS.taxonomy));
 }
 
 export function getPhenotypeById(id, ontology = loadPhenotypeOntology()) {

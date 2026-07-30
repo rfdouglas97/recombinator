@@ -10,6 +10,7 @@ import {
   PREDICTION_MARKET_SLUG_VERTICAL,
   SLUG_VERTICAL_OVERRIDES,
 } from './verticals-data.mjs';
+import { cachedByFiles } from '../scripts/data-cache.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const JSON_PATH = join(dirname(fileURLToPath(import.meta.url)), 'verticals.json');
@@ -26,10 +27,12 @@ export function getAllVerticalLeaves() {
 }
 
 export function loadVerticalOntology() {
-  if (existsSync(JSON_PATH)) {
-    return JSON.parse(readFileSync(JSON_PATH, 'utf8'));
-  }
-  return buildOntologyDocument();
+  return cachedByFiles('vertical-ontology', [JSON_PATH, EXPANSION_PATH], () => {
+    if (existsSync(JSON_PATH)) {
+      return JSON.parse(readFileSync(JSON_PATH, 'utf8'));
+    }
+    return buildOntologyDocument();
+  });
 }
 
 export function buildOntologyDocument() {

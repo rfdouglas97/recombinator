@@ -41,6 +41,11 @@ function ideaSummary({
   record,
   validation,
   goodness_index,
+  judge_score,
+  judge,
+  novelty,
+  candidates_considered,
+  refined,
   idea_context,
   exemplars_used,
 }) {
@@ -50,6 +55,11 @@ function ideaSummary({
     record,
     validation,
     goodness_index,
+    judge_score: judge_score ?? null,
+    judge: judge ?? null,
+    novelty: novelty ?? null,
+    candidates_considered: candidates_considered ?? null,
+    refined: refined ?? false,
     idea_context,
     exemplars_used,
     rank: gap.rank,
@@ -97,6 +107,8 @@ export async function generateIdeasForShortlist(shortlist, options = {}) {
         syntheticId: syntheticIdFor(gap, variant),
         variantIndex: variant,
         apiConfig,
+        // Batch path: best-of-2 per gap keeps library cost in check.
+        candidates: options.candidatesPerGap ?? 2,
       });
       done++;
       onProgress({

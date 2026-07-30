@@ -26,6 +26,8 @@ import {
 import { getIdeaContextForCell, loadIdeaPrimitives } from './idea-primitives-lib.mjs';
 import { computeGoodnessIndex, rankGapsByGoodness } from './goodness-rubric.mjs';
 import { evaluatePairingValidity } from '../whitespace/lib/pairing-validity.mjs';
+import { generateBestForCell } from './generator-core.mjs';
+import { cachedByFiles } from './data-cache.mjs';
 
 loadDotEnv();
 
@@ -414,17 +416,21 @@ export function pickWhitespaceCell({
     };
   }
 
-  const candidates = pool;
-  const gapRows = candidates.map((g) => ({
-    ...g,
-    phenotype_primary_id: g.target_cell.phenotype_primary_id,
-  }));
-  const ranked = rankGapsByGoodness(gapRows, {
-    inferPhenotype: inferPhenotypeForGap,
-    assignments,
-    getIdeaContextForCell,
-    verticalOntology,
-  });
+  // The no-hint ranked pool is pure CPU over static files — cache per filter combo.
+  const ranked = cachedByFiles(
+    `ranked-gap-pool|${sectorId}|${industryId}|${businessModel}`,
+    [EVAL_PATHS.gaps, EVAL_PATHS.normalized],
+    () =>
+      rankGapsByGoodness(
+        pool.map((g) => ({ ...g, phenotype_primary_id: g.target_cell.phenotype_primary_id })),
+        {
+          inferPhenotype: inferPhenotypeForGap,
+          assignments,
+          getIdeaContextForCell,
+          verticalOntology,
+        }
+      )
+  );
   const pickFrom = ranked.filter((r) => r.transfer_score >= 45).length
     ? ranked.filter((r) => r.transfer_score >= 45)
     : ranked;
@@ -448,9 +454,18 @@ export function pickWhitespaceCell({
  * Pick whitespace + generate startup in one step.
  */
 export async function discoverAndGenerate(options = {}) {
-  const picked = pickWhitespaceCell(options);
+  const { onEvent, ...pickOptions } = options;
+  const emit = onEvent ?? (() => {});
+  emit({ type: 'status', phase: 'selecting_gap' });
+  const picked = pickWhitespaceCell(pickOptions);
+  emit({
+    type: 'gap',
+    selected_gap: picked.gap,
+    selection_method: picked.selection_method,
+  });
   const result = await generateSyntheticForCell(picked.gap.target_cell, {
     syntheticId: `syn-ui-${Date.now()}`,
+    onEvent,
   });
   return {
     ...result,
@@ -461,13 +476,8 @@ export async function discoverAndGenerate(options = {}) {
   };
 }
 
-/**
- * Generate one synthetic startup for a target taxonomy cell.
- */
-export async function generateSyntheticForCell(
-  cell,
-  { syntheticId = `syn-${Date.now()}`, variantIndex = 1, apiConfig = resolveApiConfig() } = {}
-) {
+/** Load and validate everything generation needs for one cell. */
+function buildCellContext(cell, apiConfig) {
   if (!apiConfig) {
     throw new Error('No ANTHROPIC_API_KEY or OPENAI_API_KEY configured in .env');
   }
@@ -505,47 +515,116 @@ export async function generateSyntheticForCell(
   const exemplars = buildTrainExemplars(cell, assignments, trainSlugs);
   const primitivesBundle = loadIdeaPrimitives();
   const ideaContext = getIdeaContextForCell(cell, { assignments, primitivesBundle });
+  const trainOneLiners = assignments.filter((r) => trainSlugs.has(r.slug)).map((r) => r.one_liner);
 
-  const user = buildGenerationPrompt({
+  return {
     cell,
+    apiConfig,
+    assignments,
+    verticalOntology,
     vertical,
     phenotype,
     bm,
     exemplars,
-    variantIndex,
     ideaContext,
+    trainOneLiners,
+  };
+}
+
+function shapeResult(ctx, extra) {
+  return {
+    idea_context: ctx.ideaContext,
+    exemplars_used: ctx.exemplars.map((e) => e.slug),
+    gap_context: ctx.vertical
+      ? {
+          vertical_label: ctx.vertical.label,
+          sector_label: ctx.vertical.sector_label,
+          workflow: ctx.vertical.workflow ?? null,
+        }
+      : null,
+    ...extra,
+  };
+}
+
+/**
+ * Generate one synthetic startup for a target taxonomy cell.
+ *
+ * Default path: best-of-N candidates → novelty/thesis gates → LLM-judge
+ * ranking → optional refine pass (scripts/generator-core.mjs).
+ * `legacy: true` runs the original single-shot prompt (kept for A/B evals).
+ */
+export async function generateSyntheticForCell(
+  cell,
+  {
+    syntheticId = `syn-${Date.now()}`,
+    variantIndex = 1,
+    apiConfig = resolveApiConfig(),
+    candidates = parseInt(process.env.GENERATOR_CANDIDATES ?? '3', 10),
+    legacy = false,
+    onEvent,
+  } = {}
+) {
+  const ctx = buildCellContext(cell, apiConfig);
+
+  if (legacy) {
+    return generateLegacySingleShot(ctx, { syntheticId, variantIndex });
+  }
+
+  const startedAt = Date.now();
+  const { winner, judge, candidates_considered, refined } = await generateBestForCell(
+    { ...ctx, syntheticId },
+    { n: Math.max(1, candidates), onEvent }
+  );
+
+  winner.record.goodness_index = winner.goodness_index;
+
+  return shapeResult(ctx, {
+    record: winner.record,
+    validation: winner.validation,
+    goodness_index: winner.goodness_index,
+    judge_score: winner.judge?.judge_score ?? null,
+    judge: {
+      ...judge.verdict,
+      winner_rationale: judge.winner_rationale,
+    },
+    novelty: winner.novelty,
+    candidates_considered,
+    refined,
+    timings: { total_ms: Date.now() - startedAt },
+  });
+}
+
+/** Original one-call pipeline, kept callable for blind A/B comparison. */
+async function generateLegacySingleShot(ctx, { syntheticId, variantIndex }) {
+  const user = buildGenerationPrompt({
+    cell: ctx.cell,
+    vertical: ctx.vertical,
+    phenotype: ctx.phenotype,
+    bm: ctx.bm,
+    exemplars: ctx.exemplars,
+    variantIndex,
+    ideaContext: ctx.ideaContext,
   });
 
-  const parsed = await chatJson({ system: GENERATION_SYSTEM, user, apiConfig });
+  const parsed = await chatJson({ system: GENERATION_SYSTEM, user, apiConfig: ctx.apiConfig });
 
   parsed.synthetic_id = parsed.synthetic_id ?? syntheticId;
-  parsed.target_cell = cell;
-  parsed.phenotype_primary_id = cell.phenotype_primary_id;
+  parsed.target_cell = ctx.cell;
+  parsed.phenotype_primary_id = ctx.cell.phenotype_primary_id;
   parsed.generated_at = new Date().toISOString();
 
-  const trainOneLiners = assignments.filter((r) => trainSlugs.has(r.slug)).map((r) => r.one_liner);
-  const goodness_index = computeGoodnessIndex(parsed, { vertical, ideaContext });
+  const goodness_index = computeGoodnessIndex(parsed, {
+    vertical: ctx.vertical,
+    ideaContext: ctx.ideaContext,
+  });
   parsed.goodness_index = goodness_index;
 
   const validation = await validateSyntheticFull(parsed, {
-    verticalOntology,
-    trainOneLiners,
-    assignments,
-    ideaContext,
+    verticalOntology: ctx.verticalOntology,
+    trainOneLiners: ctx.trainOneLiners,
+    assignments: ctx.assignments,
+    ideaContext: ctx.ideaContext,
   });
 
-  return {
-    record: parsed,
-    validation,
-    goodness_index,
-    idea_context: ideaContext,
-    exemplars_used: exemplars.map((e) => e.slug),
-    gap_context: vertical
-      ? {
-          vertical_label: vertical.label,
-          sector_label: vertical.sector_label,
-          workflow: vertical.workflow ?? null,
-        }
-      : null,
-  };
+  return shapeResult(ctx, { record: parsed, validation, goodness_index });
 }
