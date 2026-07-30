@@ -169,7 +169,9 @@ export function buildAngleHints({ ideaContext, vertical }, n) {
       parts.push(`Primary transfer analog to adapt: ${a.name} (${a.slug}) — ${a.one_liner}`);
     }
     if (buyers.length) parts.push(`Anchor the buyer on: ${buyers[i % buyers.length]}`);
-    parts.push(`One-liner shape to lean toward: "${ONE_LINER_PATTERNS[i % ONE_LINER_PATTERNS.length]}"`);
+    parts.push(
+      `One-liner shape to lean toward: "${ONE_LINER_PATTERNS[i % ONE_LINER_PATTERNS.length]}"`
+    );
     return parts.join('\n');
   });
 }
@@ -330,7 +332,12 @@ export async function generateCandidatesForCell(ctx, { n = 3, temperature = 0.9,
   for (let i = 0; i < settled.length; i++) {
     const s = settled[i];
     if (s.status === 'rejected') {
-      emit({ type: 'candidate', index: i + 1, status: 'error', error: String(s.reason?.message ?? s.reason) });
+      emit({
+        type: 'candidate',
+        index: i + 1,
+        status: 'error',
+        error: String(s.reason?.message ?? s.reason),
+      });
       continue;
     }
     const record = s.value.data;
@@ -430,10 +437,7 @@ export async function generateBestForCell(ctx, { n = 3, onEvent } = {}) {
   const apiConfig = ctx.apiConfig ?? resolveApiConfig();
 
   emit({ type: 'status', phase: 'generating', total: n });
-  const candidates = await generateCandidatesForCell(
-    { ...ctx, apiConfig },
-    { n, onEvent: emit }
-  );
+  const candidates = await generateCandidatesForCell({ ...ctx, apiConfig }, { n, onEvent: emit });
   if (!candidates.length) {
     throw new Error('All candidate generations failed');
   }
@@ -454,9 +458,18 @@ export async function generateBestForCell(ctx, { n = 3, onEvent } = {}) {
 
   let refined = false;
   const winnerScore = winner.judge?.judge_score ?? 0;
-  if (winnerScore < REFINE_THRESHOLD && (winner.judge?.critique || winner.validation?.errors?.length)) {
+  if (
+    winnerScore < REFINE_THRESHOLD &&
+    (winner.judge?.critique || winner.validation?.errors?.length)
+  ) {
     try {
-      const revised = await refineWinner(ctx, winner, winner.judge?.critique ?? '', apiConfig, emit);
+      const revised = await refineWinner(
+        ctx,
+        winner,
+        winner.judge?.critique ?? '',
+        apiConfig,
+        emit
+      );
       const rematch = await judgeCandidates({
         cell: ctx.cell,
         vertical: ctx.vertical,

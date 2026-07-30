@@ -35,36 +35,32 @@ Judge RELATIVELY: the ranking between candidates matters more than absolute scor
  * Cached on the underlying library files' mtimes.
  */
 export function harvestJudgmentExemplars({ maxRejects = 3, maxPromising = 3 } = {}) {
-  return cachedByFiles(
-    'judgment-exemplars',
-    [LIBRARY_PATH, ARCHIVE_PATH, JUDGMENTS_PATH],
-    () => {
-      const judgments = loadJudgmentsDoc().judgments ?? {};
-      const cardsById = new Map(
-        [...loadLibraryDoc().cards, ...loadArchiveDoc().cards].map((c) => [c.id, c])
-      );
+  return cachedByFiles('judgment-exemplars', [LIBRARY_PATH, ARCHIVE_PATH, JUDGMENTS_PATH], () => {
+    const judgments = loadJudgmentsDoc().judgments ?? {};
+    const cardsById = new Map(
+      [...loadLibraryDoc().cards, ...loadArchiveDoc().cards].map((c) => [c.id, c])
+    );
 
-      const pick = (verdict, max) =>
-        Object.values(judgments)
-          .filter((j) => j.verdict === verdict && cardsById.has(j.card_id))
-          .sort((a, b) => (b.notes?.length ?? 0) - (a.notes?.length ?? 0))
-          .slice(0, max)
-          .map((j) => {
-            const card = cardsById.get(j.card_id);
-            return {
-              name: card.startup?.name,
-              one_liner: card.startup?.one_liner,
-              long_description: card.startup?.long_description,
-              human_notes: j.notes || null,
-            };
-          });
+    const pick = (verdict, max) =>
+      Object.values(judgments)
+        .filter((j) => j.verdict === verdict && cardsById.has(j.card_id))
+        .sort((a, b) => (b.notes?.length ?? 0) - (a.notes?.length ?? 0))
+        .slice(0, max)
+        .map((j) => {
+          const card = cardsById.get(j.card_id);
+          return {
+            name: card.startup?.name,
+            one_liner: card.startup?.one_liner,
+            long_description: card.startup?.long_description,
+            human_notes: j.notes || null,
+          };
+        });
 
-      return {
-        rejects: pick('reject', maxRejects),
-        promising: pick('promising', maxPromising),
-      };
-    }
-  );
+    return {
+      rejects: pick('reject', maxRejects),
+      promising: pick('promising', maxPromising),
+    };
+  });
 }
 
 /**
