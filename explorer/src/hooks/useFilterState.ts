@@ -42,7 +42,7 @@ function parseUrl(): Partial<FilterState> {
   const p = new URLSearchParams(window.location.search);
   const out: Partial<FilterState> = {};
   const view = p.get('view');
-  if (view === 'ontology' || view === 'matrix') {
+  if (view === 'ontology' || view === 'matrix' || view === 'trends') {
     out.view = view as FilterState['view'];
   }
   if (p.get('batch')) out.batch = p.get('batch')!;

@@ -92,7 +92,7 @@ export interface DataBundle {
   };
 }
 
-export type ViewTab = 'ontology' | 'matrix';
+export type ViewTab = 'ontology' | 'matrix' | 'trends';
 export type OntologyMode = 'industry_vertical' | 'phenotype';
 export type MatrixMode = 'bm_sector' | 'bm_industry' | 'bm_vertical';
 export type MatrixDisplay = 'density' | 'gaps' | 'both';

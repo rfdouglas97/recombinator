@@ -72,7 +72,7 @@ export function FilterBar({ bundle, state, onChange, onReset, filteredCount }: P
           Reset filters
         </button>
       </div>
-      <p className="filter-sidebar-hint">Applies to gap matrix and ontology only.</p>
+      <p className="filter-sidebar-hint">Applies to gap matrix, ontology, and trends.</p>
       <div className="filter-group">
         <label>Search</label>
         <input

@@ -6,6 +6,7 @@ import { filterCompanies } from './utils/filterCompanies';
 import { FilterBar } from './components/FilterBar';
 import { MatrixView } from './views/MatrixView';
 import { OntologyView } from './views/OntologyView';
+import { TrendsView } from './views/TrendsView';
 import { CompanyDrawer } from './views/CompanyDrawer';
 import { StartupGeneratorModal } from './components/StartupGeneratorModal';
 import { YcChatPanel } from './components/YcChatPanel';
@@ -84,6 +85,13 @@ export default function App() {
           >
             Ontology
           </button>
+          <button
+            type="button"
+            className={state.view === 'trends' ? 'active' : ''}
+            onClick={() => patch({ view: 'trends' })}
+          >
+            Trends
+          </button>
         </div>
         <div className="header-actions">
           <button
@@ -139,7 +147,9 @@ export default function App() {
           <SidebarToggleIcon open={!sidebarHidden} size={16} />
         </button>
         <div className="main">
-          {state.view === 'ontology' ? (
+          {state.view === 'trends' ? (
+            <TrendsView bundle={bundle} state={state} onOpenDrawer={openDrawer} />
+          ) : state.view === 'ontology' ? (
             <OntologyView
               bundle={bundle}
               state={state}
