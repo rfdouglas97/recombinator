@@ -10,6 +10,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 export const CORPUS_PATHS = {
   scrape: join(ROOT, 'output/yc_companies.json'),
+  directory: join(ROOT, 'output/corpus/directory-companies.json'),
   launchIngested: join(ROOT, 'output/corpus/launch-ingested-slugs.json'),
 };
 
@@ -39,6 +40,12 @@ export function loadScrapeSlugs() {
   return new Set((doc.companies ?? []).map((c) => c.slug).filter(Boolean));
 }
 
+export function loadDirectorySlugs() {
+  if (!existsSync(CORPUS_PATHS.directory)) return new Set();
+  const doc = JSON.parse(readFileSync(CORPUS_PATHS.directory, 'utf8'));
+  return new Set((doc.companies ?? []).map((c) => c.slug).filter(Boolean));
+}
+
 export function loadLaunchIngestedSlugs() {
   if (!existsSync(CORPUS_PATHS.launchIngested)) return new Set();
   const doc = JSON.parse(readFileSync(CORPUS_PATHS.launchIngested, 'utf8'));
@@ -64,6 +71,7 @@ export function recordLaunchIngestedSlug(slug) {
 
 export function getCorpusAllowlist() {
   const allow = loadScrapeSlugs();
+  for (const s of loadDirectorySlugs()) allow.add(s);
   for (const s of loadLaunchIngestedSlugs()) allow.add(s);
   return allow;
 }
@@ -74,6 +82,10 @@ export function isInCorpus(slug) {
 
 /** Batches in the scraped directory cohort (2025 + 2026–2027). */
 export function loadCohortBatches() {
+  if (existsSync(CORPUS_PATHS.directory)) {
+    const doc = JSON.parse(readFileSync(CORPUS_PATHS.directory, 'utf8'));
+    if (doc.batches?.length) return [...doc.batches];
+  }
   if (existsSync(CORPUS_PATHS.scrape)) {
     const doc = JSON.parse(readFileSync(CORPUS_PATHS.scrape, 'utf8'));
     if (doc.batches?.length) return [...doc.batches];

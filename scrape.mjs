@@ -10,6 +10,8 @@ import { writeFileSync, mkdirSync } from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
+import { normalizeAlgoliaHit, normalizeCompanyDetail } from './scripts/yc-directory-client.mjs';
+
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const DEFAULT_URL =
@@ -60,94 +62,6 @@ Options:
     }
   }
   return args;
-}
-
-function normalizeAlgoliaHit(hit) {
-  return {
-    id: hit.id,
-    object_id: hit.objectID,
-    name: hit.name,
-    slug: hit.slug,
-    former_names: hit.former_names ?? [],
-    website: hit.website ?? null,
-    yc_url: `https://www.ycombinator.com/companies/${hit.slug}`,
-    one_liner: hit.one_liner ?? null,
-    long_description: hit.long_description ?? null,
-    batch: hit.batch ?? null,
-    status: hit.status ?? null,
-    stage: hit.stage ?? null,
-    industry: hit.industry ?? null,
-    subindustry: hit.subindustry ?? null,
-    industries: hit.industries ?? [],
-    tags: hit.tags ?? [],
-    team_size: hit.team_size ?? null,
-    location: hit.all_locations ?? null,
-    regions: hit.regions ?? [],
-    is_hiring: hit.isHiring ?? false,
-    nonprofit: hit.nonprofit ?? false,
-    top_company: hit.top_company ?? false,
-    launched_at: hit.launched_at ?? null,
-    logo_url: hit.small_logo_thumb_url ?? null,
-  };
-}
-
-function normalizeFounder(f) {
-  return {
-    user_id: f.user_id,
-    full_name: f.full_name,
-    title: f.title,
-    is_active: f.is_active,
-    bio: f.founder_bio ?? null,
-    linkedin_url: f.linkedin_url ?? null,
-    twitter_url: f.twitter_url ?? null,
-    avatar_url: f.avatar_thumb_url ?? null,
-    has_email: f.has_email ?? false,
-    latest_yc_company: f.latest_yc_company ?? null,
-  };
-}
-
-function normalizeCompanyDetail(company, listing) {
-  const industries = listing?.industries ?? [];
-  return {
-    ...listing,
-    name: company.name ?? listing?.name,
-    slug: company.slug ?? listing?.slug,
-    batch: company.batch_name ?? listing?.batch,
-    batch_code: company.batch ?? null,
-    one_liner: company.one_liner ?? listing?.one_liner,
-    long_description: company.long_description ?? listing?.long_description,
-    website: company.website ?? listing?.website,
-    yc_url: company.ycdc_url ?? listing?.yc_url,
-    year_founded: company.year_founded ?? null,
-    team_size: company.team_size ?? listing?.team_size,
-    location: company.location ?? listing?.location,
-    city: company.city ?? null,
-    country: company.country ?? null,
-    status: company.ycdc_status ?? listing?.status,
-    tags: company.tags ?? listing?.tags ?? [],
-    industry: industries[0] ?? listing?.industry ?? null,
-    subindustry: industries.length > 1 ? industries.slice(1).join(' / ') : listing?.subindustry,
-    industries,
-    business_model: {
-      primary_industry: industries[0] ?? listing?.industry ?? null,
-      sub_industries: industries.slice(1),
-      tags: company.tags ?? listing?.tags ?? [],
-      stage: listing?.stage ?? null,
-    },
-    social_links: {
-      linkedin: company.linkedin_url ?? null,
-      twitter: company.twitter_url ?? null,
-      facebook: company.fb_url ?? null,
-      github: company.github_url ?? null,
-      crunchbase: company.cb_url ?? null,
-    },
-    primary_group_partner: company.primary_group_partner ?? null,
-    logo_url: company.logo_url ?? listing?.logo_url,
-    company_photos: company.company_photos ?? [],
-    app_video_url: company.app_video_url ?? null,
-    demo_day_video_url: company.dday_video_url ?? null,
-    founders: (company.founders ?? []).map(normalizeFounder),
-  };
 }
 
 async function fetchListing(page, url) {

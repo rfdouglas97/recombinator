@@ -14,7 +14,12 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 import { query, closePool, pingDatabase } from './client.mjs';
-import { getCorpusAllowlist } from '../scripts/corpus-allowlist.mjs';
+import {
+  getCorpusAllowlist,
+  loadScrapeSlugs,
+  loadDirectorySlugs,
+  loadLaunchIngestedSlugs,
+} from '../scripts/corpus-allowlist.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -41,7 +46,20 @@ function loadJson(path) {
 }
 
 function parseArgs() {
-  return { dryRun: process.argv.includes('--dry-run') };
+  return {
+    dryRun: process.argv.includes('--dry-run'),
+    forcePrune: process.argv.includes('--force-prune'),
+  };
+}
+
+function reportAllowlistSources() {
+  const scrape = loadScrapeSlugs();
+  const directory = loadDirectorySlugs();
+  const launchIngested = loadLaunchIngestedSlugs();
+  console.log(
+    `  allowlist sources: scrape=${scrape.size} directory=${directory.size} launch-ingested=${launchIngested.size}`
+  );
+  return scrape.size + directory.size + launchIngested.size;
 }
 
 async function applySchema() {
@@ -57,9 +75,27 @@ async function applySchemaF1() {
   console.log('✓ schema F1 applied (is_stub + idea_cards FKs)');
 }
 
-/** Drop classifications for slugs not in the scraped cohort JSON (removes mistaken launch-catalog backfill). */
-async function pruneCorpusOutsideSlugs(corpusSlugs) {
+/** Drop classifications for slugs not in the corpus allowlist (removes mistaken launch-catalog backfill). */
+async function pruneCorpusOutsideSlugs(corpusSlugs, { forcePrune = false } = {}) {
   if (!corpusSlugs?.length) return;
+
+  // Fail-safe: a collapsed allowlist (e.g. missing corpus files in CI) would
+  // mass-delete live classifications. Refuse implausibly large prunes.
+  const { rows } = await query(
+    `SELECT company_slug FROM company_classifications WHERE company_slug <> ALL($1::text[])`,
+    [corpusSlugs]
+  );
+  const doomed = rows.map((r) => r.company_slug);
+  const threshold = Math.max(25, Math.ceil(corpusSlugs.length * 0.05));
+  if (doomed.length > threshold && !forcePrune) {
+    console.warn(
+      `⚠ prune SKIPPED: would delete ${doomed.length} classifications (threshold ${threshold}) — ` +
+        `allowlist looks incomplete (${corpusSlugs.length} slugs). Sample: ${doomed.slice(0, 5).join(', ')}. ` +
+        `Re-run with --force-prune to override.`
+    );
+    return;
+  }
+
   const { rowCount: bm } = await query(
     `DELETE FROM company_business_models WHERE company_slug <> ALL($1::text[])`,
     [corpusSlugs]
@@ -500,13 +536,15 @@ async function printSummary() {
 }
 
 async function main() {
-  const { dryRun } = parseArgs();
+  const { dryRun, forcePrune } = parseArgs();
   if (dryRun) {
     console.log('Dry run — would load from:');
     for (const [k, p] of Object.entries(PATHS)) {
       if (k === 'schema') continue;
       console.log(`  ${k}: ${existsSync(p) ? 'found' : 'MISSING'}`);
     }
+    console.log(`  corpus allowlist: ${getCorpusAllowlist().size} slugs`);
+    reportAllowlistSources();
     return;
   }
 
@@ -528,10 +566,13 @@ async function main() {
     : [];
   if (companyRows.length) {
     await loadCompanies(companyRows);
-    const allowlist = [...getCorpusAllowlist()];
-    await pruneCorpusOutsideSlugs(
-      allowlist.length ? allowlist : companyRows.map((r) => r.slug).filter(Boolean)
-    );
+    // Never delete a slug present in the JSON we just loaded — union the
+    // allowlist with the loaded rows so a missing corpus file (e.g. the
+    // gitignored scrape JSON in CI) can't trigger a mass prune.
+    const allowlist = new Set(getCorpusAllowlist());
+    for (const r of companyRows) if (r.slug) allowlist.add(r.slug);
+    reportAllowlistSources();
+    await pruneCorpusOutsideSlugs([...allowlist], { forcePrune });
   }
 
   await loadLaunchReviews(loadJson(PATHS.launchReviews));

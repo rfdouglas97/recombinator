@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-05T20:00:36.331Z",
-  "gap_count": 886,
+  "generated_at": "2026-07-30T16:18:44.020Z",
+  "gap_count": 869,
   "gaps": [
     {
       "business_model": "BM-03",
@@ -21,16 +21,6 @@
       "sector_label": "Enterprise Software & B2B Functions",
       "industry_label": "Developer tools",
       "workflow": "qa"
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.it.service-management",
-      "vertical_label": "Enterprise IT service management",
-      "sector_id": "enterprise-software",
-      "sector_label": "Enterprise Software & B2B Functions",
-      "industry_label": "IT operations & service management",
-      "workflow": "itsm"
     },
     {
       "business_model": "BM-04",
@@ -261,16 +251,6 @@
       "sector_label": "Financial Services & Insurance",
       "industry_label": "Lending & credit",
       "workflow": "business_lending"
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "fintech.banking.exchange",
-      "vertical_label": "Banking & exchange infrastructure",
-      "sector_id": "financial-services",
-      "sector_label": "Financial Services & Insurance",
-      "industry_label": "Banking & capital markets",
-      "workflow": "banking"
     },
     {
       "business_model": "BM-01",
@@ -733,16 +713,6 @@
       "workflow": "grid"
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "energy.climate.carbon",
-      "vertical_label": "Climate & carbon management",
-      "sector_id": "energy-climate",
-      "sector_label": "Energy & Climate",
-      "industry_label": "Climate & sustainability",
-      "workflow": "carbon"
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "energy.climate.carbon",
@@ -885,16 +855,6 @@
     {
       "business_model": "BM-09",
       "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "healthcare.home-health",
-      "vertical_label": "Home health & post-acute care",
-      "sector_id": "healthcare-life-sciences",
-      "sector_label": "Healthcare & Life Sciences",
-      "industry_label": "Healthcare providers & services",
-      "workflow": "home_health"
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
       "vertical_id": "healthcare.home-health",
       "vertical_label": "Home health & post-acute care",
       "sector_id": "healthcare-life-sciences",
@@ -1455,16 +1415,6 @@
     {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "data.data-transformation-pipeline",
-      "vertical_label": "Data transformation & feature engineering",
-      "sector_id": "ai-infrastructure",
-      "sector_label": "AI & Agent Infrastructure",
-      "industry_label": "Agent context & training data",
-      "workflow": "data_transformation_management"
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "data.data-cost-optimization",
       "vertical_label": "Training data cost & storage optimization",
       "sector_id": "ai-infrastructure",
@@ -1853,16 +1803,6 @@
       "workflow": "vuln_assessment"
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "security.vulnerability-mgmt",
-      "vertical_label": "Vulnerability management & remediation",
-      "sector_id": "enterprise-software",
-      "sector_label": "Enterprise Software & B2B Functions",
-      "industry_label": "Cybersecurity & compliance",
-      "workflow": "vuln_assessment"
-    },
-    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "security.vulnerability-mgmt",
@@ -1953,16 +1893,6 @@
       "workflow": "cloud_posture"
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "security.cloud-security",
-      "vertical_label": "Cloud infrastructure & SaaS security",
-      "sector_id": "enterprise-software",
-      "sector_label": "Enterprise Software & B2B Functions",
-      "industry_label": "Cybersecurity & compliance",
-      "workflow": "cloud_posture"
-    },
-    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "security.cloud-security",
@@ -1975,16 +1905,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "security.endpoint-protection",
-      "vertical_label": "Endpoint detection & response (EDR)",
-      "sector_id": "enterprise-software",
-      "sector_label": "Enterprise Software & B2B Functions",
-      "industry_label": "Cybersecurity & compliance",
-      "workflow": "edr_monitoring"
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "security.endpoint-protection",
       "vertical_label": "Endpoint detection & response (EDR)",
       "sector_id": "enterprise-software",
@@ -2713,16 +2633,6 @@
       "workflow": "gig_worker_instant_payouts"
     },
     {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "payments.card-issuing-management",
-      "vertical_label": "Corporate & prepaid card issuance & controls",
-      "sector_id": "financial-services",
-      "sector_label": "Financial Services & Insurance",
-      "industry_label": "Payments",
-      "workflow": "card_issuing_controls"
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "payments.card-issuing-management",
@@ -2925,16 +2835,6 @@
     {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
-      "vertical_id": "lending.portfolio-analytics",
-      "vertical_label": "Loan portfolio analytics & performance monitoring",
-      "sector_id": "financial-services",
-      "sector_label": "Financial Services & Insurance",
-      "industry_label": "Lending & credit",
-      "workflow": "portfolio_monitoring"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "lending.portfolio-analytics",
       "vertical_label": "Loan portfolio analytics & performance monitoring",
       "sector_id": "financial-services",
@@ -4363,16 +4263,6 @@
       "workflow": "competitive_intelligence"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.medtech.hospital-procurement",
-      "vertical_label": "Hospital procurement & medical device contracting",
-      "sector_id": "healthcare-life-sciences",
-      "sector_label": "Healthcare & Life Sciences",
-      "industry_label": "Medical devices & diagnostics",
-      "workflow": "hospital_procurement"
-    },
-    {
       "business_model": "BM-09",
       "business_model_label": "Biotech / R&D platform",
       "vertical_id": "healthcare.medtech.hospital-procurement",
@@ -5043,16 +4933,6 @@
       "workflow": "integration_deployment"
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "robotics.vision-perception",
-      "vertical_label": "Robotic vision & perception system calibration",
-      "sector_id": "industrials-defense",
-      "sector_label": "Industrials, Defense & Hard Tech",
-      "industry_label": "Robotics & automation",
-      "workflow": "vision_calibration"
-    },
-    {
       "business_model": "BM-11",
       "business_model_label": "Defense / gov-critical infrastructure",
       "vertical_id": "robotics.vision-perception",
@@ -5523,16 +5403,6 @@
       "workflow": "energy_sustainability"
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "manufacturing.product-lifecycle",
-      "vertical_label": "Product lifecycle & engineering change management",
-      "sector_id": "industrials-defense",
-      "sector_label": "Industrials, Defense & Hard Tech",
-      "industry_label": "Manufacturing & industrial ops",
-      "workflow": "product_lifecycle"
-    },
-    {
       "business_model": "BM-11",
       "business_model_label": "Defense / gov-critical infrastructure",
       "vertical_id": "manufacturing.product-lifecycle",
@@ -5591,16 +5461,6 @@
       "sector_label": "Industrials, Defense & Hard Tech",
       "industry_label": "Manufacturing & industrial ops",
       "workflow": "supplier_quality"
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "manufacturing.production-scheduling",
-      "vertical_label": "Production scheduling & capacity planning",
-      "sector_id": "industrials-defense",
-      "sector_label": "Industrials, Defense & Hard Tech",
-      "industry_label": "Manufacturing & industrial ops",
-      "workflow": "production_scheduling"
     },
     {
       "business_model": "BM-11",
@@ -6061,16 +5921,6 @@
       "sector_label": "Consumer & Prosumer",
       "industry_label": "Consumer finance",
       "workflow": "bnpl_origination"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "consumer.finance.investment-advisory",
-      "vertical_label": "Robo-advisory & automated investment management",
-      "sector_id": "consumer",
-      "sector_label": "Consumer & Prosumer",
-      "industry_label": "Consumer finance",
-      "workflow": "investment_advisory"
     },
     {
       "business_model": "BM-10",
@@ -7123,16 +6973,6 @@
       "workflow": "interconnection_permitting"
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "power.asset-maintenance",
-      "vertical_label": "Power plant & transmission asset maintenance scheduling",
-      "sector_id": "energy-climate",
-      "sector_label": "Energy & Climate",
-      "industry_label": "Power generation & grid",
-      "workflow": "preventive_maintenance"
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "power.asset-maintenance",
@@ -7835,16 +7675,6 @@
     {
       "business_model": "BM-10",
       "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "gaming.game-server-infrastructure",
-      "vertical_label": "Game server hosting & infrastructure management",
-      "sector_id": "media-entertainment",
-      "sector_label": "Media, Gaming & Entertainment",
-      "industry_label": "Gaming & interactive",
-      "workflow": "server_ops_scaling"
-    },
-    {
-      "business_model": "BM-07",
-      "business_model_label": "Marketplace / network",
       "vertical_id": "gaming.game-server-infrastructure",
       "vertical_label": "Game server hosting & infrastructure management",
       "sector_id": "media-entertainment",

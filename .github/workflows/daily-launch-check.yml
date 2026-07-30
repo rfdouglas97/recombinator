@@ -1,12 +1,24 @@
-# Daily YC Launches monitor
+# Daily YC monitor: directory sync + launches check
 # Docs: https://docs.github.com/en/actions
 #
 # Schedule: every day at 14:00 UTC (~6:00 AM Pacific during PDT).
 # Manual run: Actions → "Daily launch check" → Run workflow
 #
+# Pipeline per run:
+#   1. Directory sync — diff all cohort batches on ycombinator.com/companies
+#      (Algolia REST, no browser) against the corpus; LLM-classify new
+#      companies (capped per run to bound spend).
+#   2. Launches check — scrape ycombinator.com/launches for new Launch posts;
+#      enrich existing companies, ingest brand-new ones.
+#   3. Refresh normalized outputs + explorer bundle.
+#   4. Commit results back to main (BEFORE the DB sync, so state survives a
+#      migrate timeout) — this advances the diff state so the next run only
+#      processes genuinely-new companies. Vercel redeploys off this commit.
+#   5. Sync everything to Supabase.
+#
 # Setup (once): GitHub repo → Settings → Secrets → Actions
 #   DATABASE_URL — Supabase session pooler URI (?sslmode=require). See db/DEPLOY.md.
-#   ANTHROPIC_API_KEY — required for LLM phenotype + vertical classification on new launches.
+#   ANTHROPIC_API_KEY — required for LLM phenotype + vertical classification.
 
 name: Daily launch check
 
@@ -15,10 +27,17 @@ on:
     - cron: '0 14 * * *'
   workflow_dispatch: {}
 
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-launch-check
+  cancel-in-progress: false
+
 jobs:
   check-launches:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -70,13 +89,42 @@ jobs:
           fi
           echo "Anthropic API key OK"
 
-      - name: Run launch check (scrape, ingest, refresh)
+      - name: Directory sync (new companies from batch directory)
+        id: dirsync
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/sync-directory.mjs --limit 40
+
+      - name: Launch check (scrape + ingest)
         id: launch
         continue-on-error: true
         env:
           PLAYWRIGHT_BROWSERS_PATH: ${{ github.workspace }}/.playwright-browsers
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: npm run launches:check:ingest
+        run: node scripts/check-launches.mjs --ingest --ingest-new
+
+      - name: Refresh normalized outputs + explorer bundle
+        if: always()
+        run: |
+          node normalize-verticals.mjs --write
+          node scripts/build-explorer-data.mjs
+
+      - name: Commit daily results
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/launches/ output/corpus/ output/verticals/ \
+                  output/phenotypes/assignments.json output/phenotypes/ontology.json \
+                  output/whitespace/ explorer/public/data.bundle.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: daily directory sync + launch check (automated)"
+            git pull --rebase origin main || { git rebase --abort; git pull -X ours origin main; }
+            git push
+          fi
 
       - name: Sync to Supabase
         if: always()
@@ -84,10 +132,15 @@ jobs:
           DATABASE_URL: ${{ secrets.DATABASE_URL }}
         run: npm run db:migrate
 
-      - name: Launch ingest warning
-        if: steps.launch.outcome == 'failure'
+      - name: Step outcome warnings
+        if: steps.dirsync.outcome == 'failure' || steps.launch.outcome == 'failure'
         run: |
-          echo "::warning::Launch ingest failed; Supabase was still refreshed from committed JSON on main. Check logs for siphox-health / API errors."
+          if [ "${{ steps.dirsync.outcome }}" = "failure" ]; then
+            echo "::warning::Directory sync failed; launches + Supabase still refreshed. Check logs."
+          fi
+          if [ "${{ steps.launch.outcome }}" = "failure" ]; then
+            echo "::warning::Launch ingest failed; directory sync + Supabase still refreshed. Check logs."
+          fi
           exit 1
 
       - name: Upload report artifact
@@ -100,4 +153,5 @@ jobs:
             output/launches/reviews.json
             output/launches/rubric.md
             output/launches/logs/
+            output/corpus/directory-sync-state.json
           retention-days: 90
