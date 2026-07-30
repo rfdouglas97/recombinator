@@ -1,17 +1,7 @@
 {
-  "generated_at": "2026-07-30T16:56:30.649Z",
-  "gap_count": 865,
+  "generated_at": "2026-07-30T19:00:26.183Z",
+  "gap_count": 860,
   "gaps": [
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.medical-imaging",
-      "vertical_label": "Medical imaging AI infrastructure",
-      "sector_id": "ai-infrastructure",
-      "sector_label": "AI & Agent Infrastructure",
-      "industry_label": "AI compute & GPU infrastructure",
-      "workflow": "medical_imaging"
-    },
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
@@ -23,6 +13,16 @@
       "workflow": "qa"
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.it.service-management",
+      "vertical_label": "Enterprise IT service management",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "IT operations & service management",
+      "workflow": "itsm"
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.it.service-management",
@@ -31,6 +31,16 @@
       "sector_label": "Enterprise Software & B2B Functions",
       "industry_label": "IT operations & service management",
       "workflow": "itsm"
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.it.cloud-infra",
+      "vertical_label": "Cloud infrastructure & virtualization",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "IT operations & service management",
+      "workflow": "cloud"
     },
     {
       "business_model": "BM-04",
@@ -73,6 +83,16 @@
       "workflow": "soc"
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.security.compliance-audit",
+      "vertical_label": "Internal audit & SOX compliance",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Cybersecurity & compliance",
+      "workflow": "audit"
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.security.compliance-audit",
@@ -91,6 +111,16 @@
       "sector_label": "Enterprise Software & B2B Functions",
       "industry_label": "Cross-functional business operations",
       "workflow": "knowledge"
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.saas.extensibility",
+      "vertical_label": "SaaS customization & extensibility",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "SaaS platform & extensibility",
+      "workflow": "platform_ext"
     },
     {
       "business_model": "BM-04",
@@ -125,6 +155,16 @@
     {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.legal.contracts",
+      "vertical_label": "Contract lifecycle & legal ops",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Legal operations",
+      "workflow": "contracts"
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.legal.regulatory-consulting",
       "vertical_label": "Regulatory consulting (cross-industry)",
       "sector_id": "enterprise-software",
@@ -141,6 +181,16 @@
       "sector_label": "Enterprise Software & B2B Functions",
       "industry_label": "HR & talent operations",
       "workflow": "recruiting"
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.hr.workforce",
+      "vertical_label": "HR & workforce management",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "HR & talent operations",
+      "workflow": "hris"
     },
     {
       "business_model": "BM-04",
@@ -543,16 +593,6 @@
       "workflow": "surveillance"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "industrials.defense.surveillance",
-      "vertical_label": "Defense surveillance & threat detection",
-      "sector_id": "industrials-defense",
-      "sector_label": "Industrials, Defense & Hard Tech",
-      "industry_label": "Defense & national security",
-      "workflow": "surveillance"
-    },
-    {
       "business_model": "BM-11",
       "business_model_label": "Defense / gov-critical infrastructure",
       "vertical_id": "industrials.robotics.general",
@@ -733,16 +773,6 @@
       "workflow": "creator"
     },
     {
-      "business_model": "BM-11",
-      "business_model_label": "Defense / gov-critical infrastructure",
-      "vertical_id": "government.govtech.ops",
-      "vertical_label": "Government operations & GovTech",
-      "sector_id": "government-public",
-      "sector_label": "Government & Public Sector",
-      "industry_label": "Government & GovTech",
-      "workflow": "gov_ops"
-    },
-    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "government.govtech.ops",
@@ -761,16 +791,6 @@
       "sector_label": "Professional Services & Research",
       "industry_label": "Capital markets research",
       "workflow": "equity_research"
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "research.ai-rd",
-      "vertical_label": "AI research & development labs",
-      "sector_id": "ai-infrastructure",
-      "sector_label": "AI & Agent Infrastructure",
-      "industry_label": "Agent platforms & runtime",
-      "workflow": "ai_research"
     },
     {
       "business_model": "BM-02",
@@ -793,8 +813,8 @@
       "workflow": "payroll"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.finance.tax",
       "vertical_label": "Tax preparation & compliance",
       "sector_id": "enterprise-software",
@@ -811,6 +831,16 @@
       "sector_label": "Enterprise Software & B2B Functions",
       "industry_label": "Finance & accounting operations",
       "workflow": "tax"
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.legal.immigration",
+      "vertical_label": "Immigration & visa case management",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Legal operations",
+      "workflow": "immigration"
     },
     {
       "business_model": "BM-09",
@@ -851,16 +881,6 @@
       "sector_label": "Healthcare & Life Sciences",
       "industry_label": "Healthcare providers & services",
       "workflow": "home_health"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.pharmacy",
-      "vertical_label": "Pharmacy & medication management",
-      "sector_id": "healthcare-life-sciences",
-      "sector_label": "Healthcare & Life Sciences",
-      "industry_label": "Healthcare providers & services",
-      "workflow": "pharmacy"
     },
     {
       "business_model": "BM-09",
@@ -981,6 +1001,16 @@
       "sector_label": "Professional Services & Research",
       "industry_label": "Management & process consulting",
       "workflow": "accounting_firm"
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "professional.law-firms",
+      "vertical_label": "Law firm operations & litigation",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Legal operations",
+      "workflow": "law_firm"
     },
     {
       "business_model": "BM-04",
@@ -1175,16 +1205,6 @@
     {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "compute.gpu-cost-optimization",
-      "vertical_label": "GPU utilization & cost optimization",
-      "sector_id": "ai-infrastructure",
-      "sector_label": "AI & Agent Infrastructure",
-      "industry_label": "AI compute & GPU infrastructure",
-      "workflow": "gpu_cost_management"
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "compute.gpu-provisioning-procurement",
       "vertical_label": "GPU capacity planning & procurement automation",
       "sector_id": "ai-infrastructure",
@@ -1201,16 +1221,6 @@
       "sector_label": "AI & Agent Infrastructure",
       "industry_label": "AI compute & GPU infrastructure",
       "workflow": "gpu_health_monitoring"
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "compute.batch-processing-pipeline",
-      "vertical_label": "Batch AI processing & ETL pipeline orchestration",
-      "sector_id": "ai-infrastructure",
-      "sector_label": "AI & Agent Infrastructure",
-      "industry_label": "AI compute & GPU infrastructure",
-      "workflow": "batch_processing_orchestration"
     },
     {
       "business_model": "BM-03",
@@ -1643,6 +1653,16 @@
       "workflow": "appsec_scanning"
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "devtools.build-optimization",
+      "vertical_label": "Build pipeline optimization & caching",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Developer tools",
+      "workflow": "build_acceleration"
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "devtools.build-optimization",
@@ -1673,6 +1693,16 @@
       "workflow": "cloud_cost_ops"
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "devtools.cost-optimization",
+      "vertical_label": "Cloud resource optimization & cost management",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Developer tools",
+      "workflow": "cloud_cost_ops"
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "devtools.cost-optimization",
@@ -1793,6 +1823,16 @@
       "workflow": "vuln_assessment"
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "security.vulnerability-mgmt",
+      "vertical_label": "Vulnerability management & remediation",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Cybersecurity & compliance",
+      "workflow": "vuln_assessment"
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "security.vulnerability-mgmt",
@@ -1883,6 +1923,16 @@
       "workflow": "cloud_posture"
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "security.cloud-security",
+      "vertical_label": "Cloud infrastructure & SaaS security",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Cybersecurity & compliance",
+      "workflow": "cloud_posture"
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "security.cloud-security",
@@ -1895,6 +1945,16 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "security.endpoint-protection",
+      "vertical_label": "Endpoint detection & response (EDR)",
+      "sector_id": "enterprise-software",
+      "sector_label": "Enterprise Software & B2B Functions",
+      "industry_label": "Cybersecurity & compliance",
+      "workflow": "edr_monitoring"
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "security.endpoint-protection",
       "vertical_label": "Endpoint detection & response (EDR)",
       "sector_id": "enterprise-software",
@@ -2505,16 +2565,6 @@
     {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
-      "vertical_id": "payments.reconciliation-settlement",
-      "vertical_label": "Payment reconciliation & settlement automation",
-      "sector_id": "financial-services",
-      "sector_label": "Financial Services & Insurance",
-      "industry_label": "Payments",
-      "workflow": "reconciliation_settlement"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "payments.reconciliation-settlement",
       "vertical_label": "Payment reconciliation & settlement automation",
       "sector_id": "financial-services",
@@ -3493,16 +3543,6 @@
       "workflow": "clinical_trials"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.provider.behavioral-health",
-      "vertical_label": "Behavioral health & mental health practice operations",
-      "sector_id": "healthcare-life-sciences",
-      "sector_label": "Healthcare & Life Sciences",
-      "industry_label": "Healthcare providers & services",
-      "workflow": "behavioral_health"
-    },
-    {
       "business_model": "BM-09",
       "business_model_label": "Biotech / R&D platform",
       "vertical_id": "healthcare.provider.behavioral-health",
@@ -3631,16 +3671,6 @@
       "sector_label": "Healthcare & Life Sciences",
       "industry_label": "Health insurance & payers",
       "workflow": "payer_fwa_detection"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.payer.care-management",
-      "vertical_label": "Care management & population health programs",
-      "sector_id": "healthcare-life-sciences",
-      "sector_label": "Healthcare & Life Sciences",
-      "industry_label": "Health insurance & payers",
-      "workflow": "payer_care_mgmt"
     },
     {
       "business_model": "BM-09",
@@ -4511,16 +4541,6 @@
       "sector_label": "Industrials, Defense & Hard Tech",
       "industry_label": "Defense & national security",
       "workflow": "weapons_test_management"
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "defense.logistics-distribution",
-      "vertical_label": "Defense logistics & military equipment distribution",
-      "sector_id": "industrials-defense",
-      "sector_label": "Industrials, Defense & Hard Tech",
-      "industry_label": "Defense & national security",
-      "workflow": "defense_logistics"
     },
     {
       "business_model": "BM-11",
@@ -5545,16 +5565,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "property.tenant-communication",
-      "vertical_label": "Tenant communication & portal",
-      "sector_id": "real-estate-construction",
-      "sector_label": "Real Estate & Construction",
-      "industry_label": "Property management & proptech",
-      "workflow": "tenant_communication"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "property.eviction-compliance",
       "vertical_label": "Eviction & legal compliance workflow",
       "sector_id": "real-estate-construction",
@@ -5645,16 +5655,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "construction.material-procurement",
-      "vertical_label": "Material procurement & supply chain logistics",
-      "sector_id": "real-estate-construction",
-      "sector_label": "Real Estate & Construction",
-      "industry_label": "Construction & field services",
-      "workflow": "material_ordering_delivery"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "construction.equipment-fleet",
       "vertical_label": "Equipment & fleet management",
       "sector_id": "real-estate-construction",
@@ -5681,16 +5681,6 @@
       "sector_label": "Real Estate & Construction",
       "industry_label": "Construction & field services",
       "workflow": "progress_tracking_reporting"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "construction.contract-administration",
-      "vertical_label": "Contract administration & change management",
-      "sector_id": "real-estate-construction",
-      "sector_label": "Real Estate & Construction",
-      "industry_label": "Construction & field services",
-      "workflow": "contract_change_order_tracking"
     },
     {
       "business_model": "BM-01",
@@ -6503,16 +6493,6 @@
       "workflow": "marketplace_vendor_mgmt"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ecommerce.order-routing",
-      "vertical_label": "Intelligent order routing & fulfillment optimization",
-      "sector_id": "retail-commerce",
-      "sector_label": "Retail & E-Commerce",
-      "industry_label": "E-commerce & DTC",
-      "workflow": "order_routing"
-    },
-    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "ecommerce.order-routing",
@@ -6633,16 +6613,6 @@
       "workflow": "carrier_compliance"
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "freight.load-matching",
-      "vertical_label": "Load matching & capacity optimization",
-      "sector_id": "transportation-logistics",
-      "sector_label": "Transportation & Logistics",
-      "industry_label": "Freight & logistics brokerage",
-      "workflow": "load_matching"
-    },
-    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "freight.load-matching",
@@ -6721,16 +6691,6 @@
       "sector_label": "Transportation & Logistics",
       "industry_label": "Freight & logistics brokerage",
       "workflow": "shipment_tracking"
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "freight.exception-management",
-      "vertical_label": "Freight exception & incident management",
-      "sector_id": "transportation-logistics",
-      "sector_label": "Transportation & Logistics",
-      "industry_label": "Freight & logistics brokerage",
-      "workflow": "exception_management"
     },
     {
       "business_model": "BM-07",
@@ -7911,16 +7871,6 @@
       "sector_label": "Media, Gaming & Entertainment",
       "industry_label": "Content & creator economy",
       "workflow": "ad_operations"
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "content.video-production",
-      "vertical_label": "Video production & post-production workflow",
-      "sector_id": "media-entertainment",
-      "sector_label": "Media, Gaming & Entertainment",
-      "industry_label": "Content & creator economy",
-      "workflow": "video_production"
     },
     {
       "business_model": "BM-07",

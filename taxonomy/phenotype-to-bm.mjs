@@ -46,11 +46,38 @@ export const PHENOTYPE_TO_BM = {
   'semantic-translation-layer': ['BM-06', 'BM-03'],
   'vertical-infra-api': ['BM-03'],
   'ai-research-automation': ['BM-09'],
+  'vertical-agentic-workflow-saas': ['BM-01', 'BM-04'],
+  'vertical-ai-operating-system': ['BM-01'],
+  'vertical-workflow-automation-ai': ['BM-01', 'BM-04'],
+  'domain-expert-replacement-agent': ['BM-01', 'BM-04'],
+  'gov-critical-workflow-automation': ['BM-11', 'BM-01'],
+  'ai-native-regulated-product': ['BM-05', 'BM-01'],
+  'regulated-ai-decisioning-product': ['BM-05', 'BM-01'],
+  'agent-governance-control-plane': ['BM-03'],
+  'agent-security-control-plane': ['BM-03'],
+  'agent-workflow-abstraction-infra': ['BM-03'],
+  'database-scaling-infrastructure': ['BM-03'],
+  'foundation-model-domain-infrastructure': ['BM-03'],
+  'gpu-accelerated-analytics-infrastructure': ['BM-03'],
+  'infrastructure-optimization-ai': ['BM-03'],
+  'model-optimization-rl': ['BM-03'],
+  'edge-inference-runtime': ['BM-03', 'BM-08'],
+  'physical-ai-autonomous-systems': ['BM-08'],
+  'curated-domain-dataset-provider': ['BM-06', 'BM-04'],
+  'consumer-ai-creation-platform': ['BM-10'],
 };
+
+const warnedUnmapped = new Set();
 
 /** Default primary BM when only phenotype is known (first compatible code). */
 export function primaryBmForPhenotype(phenotypeId) {
   const allowed = PHENOTYPE_TO_BM[phenotypeId];
+  if (!allowed && phenotypeId && !warnedUnmapped.has(phenotypeId)) {
+    warnedUnmapped.add(phenotypeId);
+    console.warn(
+      `⚠ phenotype "${phenotypeId}" has no PHENOTYPE_TO_BM entry — defaulting to BM-02 (add a mapping in taxonomy/phenotype-to-bm.mjs)`
+    );
+  }
   return allowed?.[0] ?? 'BM-02';
 }
 

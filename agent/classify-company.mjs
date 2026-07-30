@@ -11,7 +11,8 @@ import { loadOntology, getOntologySummary, findPhenotype } from './ontology.mjs'
 import { companySystemPrompt, companyUserPrompt } from './prompts.mjs';
 import { normalizeLlmResult } from './normalize.mjs';
 import { classifyLocal } from './local-classifier.mjs';
-import { asSingleBusinessModels } from '../taxonomy/phenotype-to-bm.mjs';
+import { asSingleBusinessModels, PHENOTYPE_TO_BM } from '../taxonomy/phenotype-to-bm.mjs';
+import { assignPrimaryBmOne, resolveAssignBmApiConfig } from './assign-primary-bm.mjs';
 import { buildPhenotypeAssignment } from '../taxonomy/assignment-record.mjs';
 import {
   loadVerticalOntology,
@@ -100,6 +101,18 @@ export async function classifyLaunchCompany(company, opts = {}) {
     record.phenotype_primary_id
   );
   record.primary_bm = record.business_models[0];
+
+  // When the phenotype allows more than one BM, let the LLM pick instead of
+  // always taking the table's first entry. Failure falls back to the table.
+  const allowedBms = PHENOTYPE_TO_BM[record.phenotype_primary_id] ?? [];
+  if (allowedBms.length > 1) {
+    try {
+      const bmPatch = await assignPrimaryBmOne(record, resolveAssignBmApiConfig(apiConfig));
+      Object.assign(record, bmPatch);
+    } catch (err) {
+      console.warn(`  ⚠ primary BM pick failed for ${record.slug}: ${err.message}`);
+    }
+  }
 
   return record;
 }

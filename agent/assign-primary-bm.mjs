@@ -72,7 +72,7 @@ function saveState(state) {
   writeFileSync(PATHS.state, JSON.stringify(state, null, 2));
 }
 
-function resolveAssignBmApiConfig(base) {
+export function resolveAssignBmApiConfig(base) {
   return {
     ...base,
     model:
@@ -124,7 +124,7 @@ Allowed BM codes (pick exactly one):
 ${bmDefinitionsBlock(choices)}`;
 }
 
-async function assignPrimaryBmOne(company, apiConfig) {
+export async function assignPrimaryBmOne(company, apiConfig) {
   const raw = await chatJson({
     system: primaryBmSystemPrompt(),
     user: primaryBmUserPrompt(company),
