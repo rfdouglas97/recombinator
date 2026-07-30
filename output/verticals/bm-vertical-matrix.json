@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-30T16:18:44.016Z",
+  "generated_at": "2026-07-30T16:56:30.647Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1223,
-    "mapped_verticals": 237,
-    "observed_cells": 480,
+    "assignment_count": 1265,
+    "mapped_verticals": 239,
+    "observed_cells": 491,
     "total_verticals": 525,
-    "gap_candidates": 869
+    "gap_candidates": 865
   },
   "observed_cells": [
     {
@@ -38,6 +38,7 @@
         "dedalus-labs",
         "deepgrove",
         "dialogus",
+        "epsilla",
         "executor",
         "fern-bot",
         "godhands",
@@ -45,6 +46,7 @@
         "insforge",
         "invo",
         "keyframe-labs",
+        "keystroke",
         "klaus-ai",
         "limrun",
         "linzumi",
@@ -55,6 +57,7 @@
         "metorial",
         "minicor",
         "modelence",
+        "morph",
         "mspilot",
         "notte",
         "openwork",
@@ -66,9 +69,11 @@
         "replicas",
         "runtime",
         "sim",
+        "skyvern",
         "solbrowser",
         "specific",
         "speko",
+        "spine-ai",
         "superset",
         "sylvian",
         "terminal-use",
@@ -77,6 +82,55 @@
         "truffle-ai",
         "wato",
         "zatanna"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.agent-context-web",
+      "vertical_label": "Agent web context & data enrichment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "airweave",
+        "artie",
+        "capacitive",
+        "captain",
+        "compresr",
+        "contextdev",
+        "egoist-machines",
+        "fiber-ai",
+        "glen",
+        "graphify-labs",
+        "hyperspell",
+        "imprezia",
+        "intuned",
+        "kaelio",
+        "kernel",
+        "labric",
+        "leadbay",
+        "libretto",
+        "memory-store",
+        "mireye",
+        "monarcha",
+        "moss",
+        "nessie",
+        "nozomio",
+        "ondeck-ai",
+        "operand",
+        "orange-slice",
+        "outlit",
+        "parse-bot",
+        "perseus",
+        "screenpipe",
+        "shepherd-3",
+        "sherpa-labs",
+        "sixtyfour",
+        "stablebrowse",
+        "stillwind",
+        "the-hog",
+        "unsiloed-ai",
+        "upsolve-ai",
+        "voygr"
       ]
     },
     {
@@ -126,51 +180,6 @@
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.agent-context-web",
-      "vertical_label": "Agent web context & data enrichment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "airweave",
-        "capacitive",
-        "captain",
-        "compresr",
-        "contextdev",
-        "egoist-machines",
-        "glen",
-        "graphify-labs",
-        "hyperspell",
-        "imprezia",
-        "kaelio",
-        "kernel",
-        "labric",
-        "leadbay",
-        "libretto",
-        "memory-store",
-        "mireye",
-        "monarcha",
-        "moss",
-        "nessie",
-        "nozomio",
-        "ondeck-ai",
-        "operand",
-        "orange-slice",
-        "outlit",
-        "parse-bot",
-        "perseus",
-        "screenpipe",
-        "shepherd-3",
-        "sherpa-labs",
-        "sixtyfour",
-        "stablebrowse",
-        "stillwind",
-        "the-hog",
-        "unsiloed-ai",
-        "voygr"
-      ]
-    },
-    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.ops.process-automation",
@@ -200,6 +209,7 @@
         "rebolt",
         "sila",
         "supafax",
+        "tandem-2",
         "tire-swing",
         "valuemate",
         "vela",
@@ -217,6 +227,7 @@
         "aviro",
         "cajal-technologies",
         "cartpole",
+        "coverage-cat",
         "halluminate",
         "hillclimb",
         "hub",
@@ -243,13 +254,16 @@
       "vertical_label": "Agent observability & logging",
       "sector_id": "ai-infrastructure",
       "companies": [
+        "activeloop",
         "agnost-ai",
         "archal",
         "arga-labs",
         "bentolabs-ai",
         "buildbox",
+        "cambioml",
         "codag",
         "confident-ai",
+        "dimely",
         "fulcrum",
         "moda",
         "parachute",
@@ -337,6 +351,29 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.sales.enablement",
+      "vertical_label": "Sales enablement & execution",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "ai-coach",
+        "cohesive",
+        "cuckoo-labs",
+        "fixture",
+        "fuse-ai",
+        "item",
+        "karumi",
+        "mercura",
+        "mutiny",
+        "nex",
+        "osmaura",
+        "peppr-ai",
+        "quotain",
+        "salesgraph"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.robotics.general",
@@ -357,28 +394,6 @@
         "proception-inc",
         "servo7",
         "waddle-labs"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.sales.enablement",
-      "vertical_label": "Sales enablement & execution",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "ai-coach",
-        "cohesive",
-        "cuckoo-labs",
-        "fixture",
-        "fuse-ai",
-        "item",
-        "karumi",
-        "mercura",
-        "nex",
-        "osmaura",
-        "peppr-ai",
-        "quotain",
-        "salesgraph"
       ]
     },
     {
@@ -574,6 +589,24 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.support.customer",
+      "vertical_label": "Customer support & contact center",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "frigade",
+        "leaping-ai",
+        "minimal-ai",
+        "monumint",
+        "outrival-inc",
+        "pathpilot",
+        "signals",
+        "unisson",
+        "upstream"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "marketing.content-ops",
@@ -611,6 +644,40 @@
     {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "ai-infrastructure.agent-runtime",
+      "vertical_label": "Agent runtime & orchestration",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "cloudcruise",
+        "coasty",
+        "dock",
+        "flowtel",
+        "jarmin",
+        "openvector",
+        "redapto",
+        "serno"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.finance.accounting",
+      "vertical_label": "Finance & accounting automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "billow-ai-labs",
+        "cranston-ai",
+        "crunched",
+        "kinter",
+        "mod-ai",
+        "rational",
+        "saldor",
+        "tally-2"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.ops.knowledge",
       "vertical_label": "Enterprise knowledge management",
       "sector_id": "enterprise-software",
@@ -623,6 +690,23 @@
         "pally",
         "specific-labs",
         "stamp"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "enterprise.ops.process-automation",
+      "vertical_label": "Cross-industry process automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "clicks",
+        "flowscope",
+        "jeevy-fabrication",
+        "no-logo",
+        "rocketable",
+        "sennu-ai",
+        "soren",
+        "trope"
       ]
     },
     {
@@ -679,22 +763,6 @@
     {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "ai-infrastructure.agent-runtime",
-      "vertical_label": "Agent runtime & orchestration",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "coasty",
-        "dock",
-        "flowtel",
-        "jarmin",
-        "openvector",
-        "redapto",
-        "serno"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "consumer.productivity.personal",
       "vertical_label": "Personal productivity software",
       "sector_id": "consumer",
@@ -722,22 +790,6 @@
         "sourcebot",
         "superglue",
         "weave-3"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "clicks",
-        "flowscope",
-        "jeevy-fabrication",
-        "rocketable",
-        "sennu-ai",
-        "soren",
-        "trope"
       ]
     },
     {
@@ -785,21 +837,6 @@
         "helixdb",
         "overstand-labs",
         "paratus-health"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.finance.accounting",
-      "vertical_label": "Finance & accounting automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "billow-ai-labs",
-        "cranston-ai",
-        "crunched",
-        "mod-ai",
-        "rational",
-        "tally-2"
       ]
     },
     {
@@ -992,6 +1029,20 @@
     {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "marketing.content-ops",
+      "vertical_label": "Content operations & asset management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "clueso",
+        "knowlify",
+        "lapis",
+        "outpaintcom",
+        "palette-2"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "marketing.social-ops",
       "vertical_label": "Social media management & publishing",
       "sector_id": "enterprise-software",
@@ -1162,6 +1213,19 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "devtools.security-scanning",
+      "vertical_label": "Static & dynamic application security testing",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "casco",
+        "corgea",
+        "parameter-fka-hex-security",
+        "veria-labs"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.security.compliance-audit",
@@ -1172,19 +1236,6 @@
         "denki",
         "oxus",
         "tergle"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.support.customer",
-      "vertical_label": "Customer support & contact center",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "leaping-ai",
-        "minimal-ai",
-        "signals",
-        "unisson"
       ]
     },
     {
@@ -1263,6 +1314,19 @@
         "pax-historia",
         "playablai",
         "pops"
+      ]
+    },
+    {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "productivity.note-taking-capture",
+      "vertical_label": "Note-taking & information capture",
+      "sector_id": "consumer",
+      "companies": [
+        "costream",
+        "epicenter",
+        "palmier",
+        "pocket"
       ]
     },
     {
@@ -1443,18 +1507,6 @@
         "hyperprobe",
         "interfere",
         "subtrace"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "devtools.security-scanning",
-      "vertical_label": "Static & dynamic application security testing",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "casco",
-        "parameter-fka-hex-security",
-        "veria-labs"
       ]
     },
     {
@@ -1746,18 +1798,6 @@
       ]
     },
     {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "marketing.content-ops",
-      "vertical_label": "Content operations & asset management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "knowlify",
-        "lapis",
-        "palette-2"
-      ]
-    },
-    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "payments.cross-border-fx",
@@ -1779,18 +1819,6 @@
         "hevn-inc",
         "rally-3",
         "shor"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "productivity.note-taking-capture",
-      "vertical_label": "Note-taking & information capture",
-      "sector_id": "consumer",
-      "companies": [
-        "costream",
-        "epicenter",
-        "pocket"
       ]
     },
     {
@@ -2138,6 +2166,28 @@
       ]
     },
     {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "enterprise.ops.process-automation",
+      "vertical_label": "Cross-industry process automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "scispot-io",
+        "thesis"
+      ]
+    },
+    {
+      "business_model": "BM-12",
+      "business_model_label": "Open source + commercial",
+      "vertical_id": "enterprise.ops.process-automation",
+      "vertical_label": "Cross-industry process automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "unlayer",
+        "vibeflow"
+      ]
+    },
+    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "enterprise.sales.enablement",
@@ -2256,6 +2306,17 @@
       "companies": [
         "pluto",
         "standard-signal"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "fintech.wealth.asset-management",
+      "vertical_label": "Asset & wealth management",
+      "sector_id": "financial-services",
+      "companies": [
+        "cointracker",
+        "savahq"
       ]
     },
     {
@@ -2978,6 +3039,16 @@
     {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "construction.budget-cost-control",
+      "vertical_label": "Project budget tracking & cost control",
+      "sector_id": "real-estate-construction",
+      "companies": [
+        "handoff"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "construction.material-procurement",
       "vertical_label": "Material procurement & supply chain logistics",
       "sector_id": "real-estate-construction",
@@ -3536,6 +3607,16 @@
       ]
     },
     {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
+      "vertical_id": "enterprise.finance.order-to-cash",
+      "vertical_label": "Order-to-cash & billing operations",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "decentro"
+      ]
+    },
+    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "enterprise.finance.order-to-cash",
@@ -3583,6 +3664,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "litmus-hiring"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.hr.workforce",
+      "vertical_label": "HR & workforce management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "every"
       ]
     },
     {
@@ -3766,16 +3857,6 @@
       ]
     },
     {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "thesis"
-      ]
-    },
-    {
       "business_model": "BM-10",
       "business_model_label": "Consumer app / prosumer",
       "vertical_id": "enterprise.ops.process-automation",
@@ -3783,16 +3864,6 @@
       "sector_id": "enterprise-software",
       "companies": [
         "tweeksio"
-      ]
-    },
-    {
-      "business_model": "BM-12",
-      "business_model_label": "Open source + commercial",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "vibeflow"
       ]
     },
     {
@@ -4023,16 +4094,6 @@
       "sector_id": "financial-services",
       "companies": [
         "oddpool"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "fintech.wealth.asset-management",
-      "vertical_label": "Asset & wealth management",
-      "sector_id": "financial-services",
-      "companies": [
-        "savahq"
       ]
     },
     {
@@ -4676,6 +4737,16 @@
       ]
     },
     {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "insurance.quote-comparison",
+      "vertical_label": "Insurance quote generation & rate shopping",
+      "sector_id": "financial-services",
+      "companies": [
+        "riskcube"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "lending.collections-recovery",
@@ -4723,6 +4794,16 @@
       "sector_id": "financial-services",
       "companies": [
         "levocred-ai"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "lending.underwriting-automation",
+      "vertical_label": "Underwriting automation & document verification",
+      "sector_id": "financial-services",
+      "companies": [
+        "sei-ai"
       ]
     },
     {
@@ -4856,6 +4937,16 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "manufacturing.quality-compliance",
+      "vertical_label": "Quality control & regulatory compliance",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "cognitio-labs"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "manufacturing.quality-compliance",
@@ -4923,6 +5014,36 @@
       "sector_id": "enterprise-software",
       "companies": [
         "characterquilt"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "marketing.email-ops",
+      "vertical_label": "Email marketing & nurture automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "onesignal"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "marketing.event-ops",
+      "vertical_label": "Event marketing & sponsorship management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "lighttwist"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "marketing.event-ops",
+      "vertical_label": "Event marketing & sponsorship management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "nowadays"
       ]
     },
     {
@@ -5076,6 +5197,16 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "power.battery-storage-ops",
+      "vertical_label": "Battery energy storage system operations & dispatch",
+      "sector_id": "energy-climate",
+      "companies": [
+        "maingen"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "power.grid-resilience-planning",
@@ -5133,6 +5264,16 @@
       "sector_id": "consumer",
       "companies": [
         "sunflower"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "productivity.knowledge-base-documentation",
+      "vertical_label": "Internal knowledge base & documentation management",
+      "sector_id": "consumer",
+      "companies": [
+        "rowboat-labs"
       ]
     },
     {

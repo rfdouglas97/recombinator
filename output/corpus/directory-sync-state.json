@@ -1,45 +1,45 @@
 {
-  "last_sync_at": "2026-07-30T16:18:43.608Z",
+  "last_sync_at": "2026-07-30T16:48:51.431Z",
   "per_batch": {
     "Winter 2025": {
       "live": 167,
-      "local": 171,
-      "new_ingested": 1
+      "local": 172,
+      "new_ingested": 0
     },
     "Spring 2025": {
       "live": 143,
-      "local": 144,
-      "new_ingested": 4
+      "local": 148,
+      "new_ingested": 0
     },
     "Summer 2025": {
       "live": 166,
-      "local": 167,
-      "new_ingested": 7
+      "local": 174,
+      "new_ingested": 0
     },
     "Fall 2025": {
       "live": 148,
-      "local": 148,
-      "new_ingested": 6
+      "local": 154,
+      "new_ingested": 0
     },
     "Winter 2026": {
       "live": 198,
-      "local": 199,
-      "new_ingested": 6
+      "local": 205,
+      "new_ingested": 0
     },
     "Spring 2026": {
       "live": 196,
-      "local": 192,
-      "new_ingested": 11
+      "local": 203,
+      "new_ingested": 0
     },
     "Summer 2026": {
       "live": 163,
-      "local": 7,
-      "new_ingested": 153
+      "local": 160,
+      "new_ingested": 1
     },
     "Fall 2026": {
       "live": 6,
-      "local": 3,
-      "new_ingested": 3
+      "local": 6,
+      "new_ingested": 0
     },
     "Winter 2027": {
       "live": 1,
@@ -48,11 +48,5 @@
     }
   },
   "pending_slugs": [],
-  "failed_slugs": [
-    {
-      "slug": "maingen",
-      "error": "vertical_id power.grid not in candidate list",
-      "attempts": 1
-    }
-  ]
+  "failed_slugs": []
 }
