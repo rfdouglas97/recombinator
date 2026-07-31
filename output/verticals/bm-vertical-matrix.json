@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-30T19:00:26.182Z",
+  "generated_at": "2026-07-31T16:02:02.122Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1265,
+    "assignment_count": 1270,
     "mapped_verticals": 239,
     "observed_cells": 453,
     "total_verticals": 525,
@@ -423,6 +423,29 @@
       ]
     },
     {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "healthcare.pharma.drug-discovery",
+      "vertical_label": "Drug discovery & delivery R&D",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "anto-biosciences",
+        "b12-labs",
+        "convexia",
+        "ditto-biosciences",
+        "exin-therapeutics",
+        "exonic",
+        "finaldose",
+        "gamgee",
+        "infera",
+        "novaflow",
+        "origin-bio",
+        "strand-ai",
+        "tarebio",
+        "uncommon-therapeutics"
+      ]
+    },
+    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "ai-infrastructure.agent-security",
@@ -464,28 +487,6 @@
         "sila",
         "supafax",
         "vela"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "healthcare.pharma.drug-discovery",
-      "vertical_label": "Drug discovery & delivery R&D",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "anto-biosciences",
-        "b12-labs",
-        "convexia",
-        "ditto-biosciences",
-        "exin-therapeutics",
-        "exonic",
-        "finaldose",
-        "gamgee",
-        "infera",
-        "novaflow",
-        "origin-bio",
-        "strand-ai",
-        "uncommon-therapeutics"
       ]
     },
     {
@@ -721,6 +722,42 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "alara",
+        "clicks-health",
+        "den",
+        "fira",
+        "hyper-4",
+        "kestral",
+        "leeroo",
+        "librar-labs",
+        "slashy"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.aviation.space",
+      "vertical_label": "Space & satellite systems",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "beyond-reach-labs",
+        "daivin",
+        "dispatch",
+        "galactic-resource-utilization-space-inc-gru-space",
+        "generalastro",
+        "instinct",
+        "instinct-space",
+        "reditus-space",
+        "wardstone"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.agent-observability",
       "vertical_label": "Agent observability & logging",
       "sector_id": "ai-infrastructure",
@@ -750,23 +787,6 @@
         "sourcebot",
         "superglue",
         "weave-3"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.ops.knowledge",
-      "vertical_label": "Enterprise knowledge management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "alara",
-        "den",
-        "fira",
-        "hyper-4",
-        "kestral",
-        "leeroo",
-        "librar-labs",
-        "slashy"
       ]
     },
     {
@@ -804,20 +824,19 @@
       ]
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.aviation.space",
-      "vertical_label": "Space & satellite systems",
-      "sector_id": "industrials-defense",
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "healthcare.digital.consumer-wellness",
+      "vertical_label": "Consumer digital health & wearables",
+      "sector_id": "healthcare-life-sciences",
       "companies": [
-        "beyond-reach-labs",
-        "daivin",
-        "dispatch",
-        "galactic-resource-utilization-space-inc-gru-space",
-        "generalastro",
-        "instinct",
-        "reditus-space",
-        "wardstone"
+        "anoria",
+        "galen-ai",
+        "illume-labs",
+        "juno-chat",
+        "layers",
+        "lucis",
+        "lumeria"
       ]
     },
     {
@@ -896,21 +915,6 @@
       ]
     },
     {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "healthcare.digital.consumer-wellness",
-      "vertical_label": "Consumer digital health & wearables",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "anoria",
-        "galen-ai",
-        "illume-labs",
-        "juno-chat",
-        "lucis",
-        "lumeria"
-      ]
-    },
-    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.manufacturing.automation",
@@ -923,6 +927,20 @@
         "nox-metals",
         "parametric",
         "prototypingio"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "ai-infrastructure.agent-context-web",
+      "vertical_label": "Agent web context & data enrichment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "bitboard",
+        "chonkie",
+        "parsewise",
+        "surface-labs",
+        "wildcard"
       ]
     },
     {
@@ -1063,19 +1081,6 @@
         "logosguard",
         "panoptive",
         "probo"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.agent-context-web",
-      "vertical_label": "Agent web context & data enrichment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "bitboard",
-        "chonkie",
-        "parsewise",
-        "wildcard"
       ]
     },
     {

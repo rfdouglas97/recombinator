@@ -1,7 +1,770 @@
 {
-  "updated_at": "2026-07-30T16:56:28.586Z",
+  "updated_at": "2026-07-31T16:02:00.090Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 108327,
+      "company_slug": "machine0",
+      "launch_url": "https://www.ycombinator.com/launches/SBD-machine0-cloud-computers-for-agents",
+      "created_at": "2026-07-31T15:30:36.400Z",
+      "classification": {
+        "phenotype_primary_id": "agent-runtime-infra",
+        "vertical_id": "ai-infrastructure.agent-runtime",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:01:47.622Z",
+        "launch_id": 108327,
+        "company_slug": "machine0",
+        "taxonomy": {
+          "conformance_index": 71,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 46,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "agent-runtime-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Agent runtime / harness / orchestration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 107463,
+      "company_slug": "zaplar",
+      "launch_url": "https://www.ycombinator.com/launches/RxH-zaplar-replacing-pms-and-the-hotel-tech-stack",
+      "created_at": "2026-07-31T14:37:04.324Z",
+      "classification": {
+        "phenotype_primary_id": "marketplace-network-ai",
+        "vertical_id": "hospitality.travel",
+        "business_models": [
+          "BM-07"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:01:47.624Z",
+        "launch_id": 107463,
+        "company_slug": "zaplar",
+        "taxonomy": {
+          "conformance_index": 71,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 80,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-07",
+            "vertical_id": "hospitality.travel",
+            "phenotype_primary_id": "marketplace-network-ai",
+            "cell_key": "BM-07::hospitality.travel::marketplace-network-ai",
+            "business_model_label": "Marketplace / network",
+            "vertical_label": "Travel & hospitality operations",
+            "phenotype_label": "Marketplace / exchange / liquidity network"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 108364,
+      "company_slug": "luca-iq",
+      "launch_url": "https://www.ycombinator.com/launches/SBo-luca-iq-an-api-for-u-s-tax-calculation-and-e-filing",
+      "created_at": "2026-07-31T14:01:23.291Z",
+      "classification": {
+        "phenotype_primary_id": "agent-context-infra",
+        "vertical_id": "enterprise.finance.tax",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:01:47.625Z",
+        "launch_id": 108364,
+        "company_slug": "luca-iq",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 61,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "enterprise.finance.tax",
+            "phenotype_primary_id": "agent-context-infra",
+            "cell_key": "BM-03::enterprise.finance.tax::agent-context-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Tax preparation & compliance",
+            "phenotype_label": "Agent Context Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+        ]
+      }
+    },
+    {
+      "launch_id": 108365,
+      "company_slug": "mireye",
+      "launch_url": "https://www.ycombinator.com/launches/SBp-mireye-the-easiest-way-to-build-agentic-applications-for-the-physical-world",
+      "created_at": "2026-07-31T12:14:03.241Z",
+      "classification": {
+        "phenotype_primary_id": "agent-context-infra",
+        "vertical_id": "ai-infrastructure.agent-context-web",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:01:47.627Z",
+        "launch_id": 108365,
+        "company_slug": "mireye",
+        "taxonomy": {
+          "conformance_index": 57,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 80,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-context-web",
+            "phenotype_primary_id": "agent-context-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-context-web::agent-context-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent web context & data enrichment",
+            "phenotype_label": "Agent Context Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 108473,
+      "company_slug": "stoa",
+      "launch_url": "https://www.ycombinator.com/launches/SDZ-stoa-the-market-behind-ai-hardware",
+      "created_at": "2026-07-31T12:13:42.502Z",
+      "classification": {
+        "phenotype_primary_id": "marketplace-network-ai",
+        "vertical_id": "fintech.banking.exchange",
+        "business_models": [
+          "BM-07"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:01:47.628Z",
+        "launch_id": 108473,
+        "company_slug": "stoa",
+        "taxonomy": {
+          "conformance_index": 50,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 2,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 48,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-07",
+            "vertical_id": "fintech.banking.exchange",
+            "phenotype_primary_id": "marketplace-network-ai",
+            "cell_key": "BM-07::fintech.banking.exchange::marketplace-network-ai",
+            "business_model_label": "Marketplace / network",
+            "vertical_label": "Banking & exchange infrastructure",
+            "phenotype_label": "Marketplace / exchange / liquidity network"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 108367,
+      "company_slug": "greypoint-industries",
+      "launch_url": "https://www.ycombinator.com/launches/SBr-greypoint-industries-drone-swarms-that-find-drone-operators",
+      "created_at": "2026-07-30T23:00:42.765Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "industrials.defense.drones",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:01:47.629Z",
+        "launch_id": 108367,
+        "company_slug": "greypoint-industries",
+        "taxonomy": {
+          "conformance_index": 69,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 29,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "industrials.defense.drones",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::industrials.defense.drones::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Defense drone & UAS operations",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 108355,
+      "company_slug": "kebra",
+      "launch_url": "https://www.ycombinator.com/launches/SBf-kebra-make-your-field-service-company-ai-native",
+      "created_at": "2026-07-30T22:13:43.328Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.ops.process-automation",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:01:47.630Z",
+        "launch_id": 108355,
+        "company_slug": "kebra",
+        "taxonomy": {
+          "conformance_index": 58,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 5,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 83,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.ops.process-automation",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.ops.process-automation::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Cross-industry process automation",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 67,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 108339,
+      "company_slug": "ai-coach",
+      "launch_url": "https://www.ycombinator.com/launches/SBP-coach-the-ai-coach-for-in-person-sales-reps",
+      "created_at": "2026-07-30T19:46:52.311Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.sales.enablement",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:01:47.631Z",
+        "launch_id": 108339,
+        "company_slug": "ai-coach",
+        "taxonomy": {
+          "conformance_index": 80,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.sales.enablement",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.sales.enablement::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Sales enablement & execution",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 108461,
+      "company_slug": "surface-labs",
+      "launch_url": "https://www.ycombinator.com/launches/SDN-surface-labs-the-ai-research-assistant-that-tells-you-who-every-lead-is-instantly",
+      "created_at": "2026-07-30T18:53:03.784Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-agentic-workflow-saas",
+        "vertical_id": "ai-infrastructure.agent-context-web",
+        "business_models": [
+          "BM-01"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:02:00.066Z",
+        "launch_id": 108461,
+        "company_slug": "surface-labs",
+        "taxonomy": {
+          "conformance_index": 53,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 5,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "ai-infrastructure.agent-context-web",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::ai-infrastructure.agent-context-web::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Agent web context & data enrichment",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 108274,
+      "company_slug": "hoplite",
+      "launch_url": "https://www.ycombinator.com/launches/SAM-hoplite-effortless-cloud-agents-for-programming",
+      "created_at": "2026-07-30T18:32:37.080Z",
+      "classification": {
+        "phenotype_primary_id": "agent-runtime-infra",
+        "vertical_id": "devtools.container-orchestration",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:02:00.069Z",
+        "launch_id": 108274,
+        "company_slug": "hoplite",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 84,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "devtools.container-orchestration",
+            "phenotype_primary_id": "agent-runtime-infra",
+            "cell_key": "BM-03::devtools.container-orchestration::agent-runtime-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Container deployment & Kubernetes management",
+            "phenotype_label": "Agent runtime / harness / orchestration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 66,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 108273,
+      "company_slug": "joinmarble",
+      "launch_url": "https://www.ycombinator.com/launches/SAL-marble-the-autonomous-back-of-house-for-restaurants",
+      "created_at": "2026-07-30T17:31:56.143Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-agentic-workflow-saas",
+        "vertical_id": "enterprise.ops.process-automation",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-07-31T16:02:00.072Z",
+        "launch_id": 108273,
+        "company_slug": "joinmarble",
+        "taxonomy": {
+          "conformance_index": 58,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.ops.process-automation",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.ops.process-automation::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Cross-industry process automation",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
     {
       "launch_id": 107951,
       "company_slug": "wondering",

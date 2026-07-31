@@ -1979,7 +1979,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/ai-coach",
     "batch": "Summer 2026",
     "one_liner": "The AI Coach for in person sales reps.",
-    "description_combined": "The AI Coach for in person sales reps.\n\nCoach is the AI sales coach for in-person sales teams.\r\n\r\nReps record every meeting, and our AI figures out what your best closers do differently, then coaches everyone else to do the same, with precise, personalized feedback after every meeting. \r\n\r\nManagers finally see 100% of what happens in the field: Coach flags who&#x27;s stuck and why, so they only step in when it matters, and can coach 5× more reps.\r\n\r\nAnd every meeting feeds one sales brain, so leadership finally gets answers to the questions that used to be guesswork. They finally see the game of their team not just the scoreboard.\r\n\r\nOur bet: in the AI era, in-person sales will only matter more. It may end up being one of the last truly human jobs.\r\n\r\nOur conviction: any motivated rep can become a great one, meeting after meeting.\r\n\r\nThe results so far: +32% average lift in conversion rate.\r\n\r\nCOΛCH, post-game video analysis for field sales reps. YC S26\r\n",
+    "description_combined": "The AI Coach for in person sales reps.\n\nCoach is the AI sales coach for in-person sales teams.\r\n\r\nReps record every meeting, and our AI figures out what your best closers do differently, then coaches everyone else to do the same, with precise, personalized feedback after every meeting. \r\n\r\nManagers finally see 100% of what happens in the field: Coach flags who&#x27;s stuck and why, so they only step in when it matters, and can coach 5× more reps.\r\n\r\nAnd every meeting feeds one sales brain, so leadership finally gets answers to the questions that used to be guesswork. They finally see the game of their team not just the scoreboard.\r\n\r\nOur bet: in the AI era, in-person sales will only matter more. It may end up being one of the last truly human jobs.\r\n\r\nOur conviction: any motivated rep can become a great one, meeting after meeting.\r\n\r\nThe results so far: +32% average lift in conversion rate.\r\n\r\nCOΛCH, post-game video analysis for field sales reps. YC S26\r\n\n\nMake every rep sell like your best one: door-to-door, in-home, showroom.\n\nHey everyone, we're Mathieu, Thomas and Nicolas, two brothers and a best friend building COACH.\n\nTL;DR: We're building the best coach for in-person sales ever built: reps record every in-person meeting from our app, and our AI turns it into precise, personalized coaching. And it works so well that 5 months in, thousands of reps already run on COACH, and we're live with the top 5 in-person sales companies in France, lifting conversion rates by 32% on average.\n\n\n\n## The Problem\n\n85% of sales in the world happen face-to-face. And in-person selling is brutally hard: a rep alone in someone's living room, reading signals, handling doubts, feeling the exact moment to push.\n\nThe best reps catch what no playbook can teach. That's why 20% of them bring in 80% of the revenue, and nobody knows what th",
     "industry_sub_vertical": "Field sales rep coaching & performance analytics",
     "canonical_vertical_id": "enterprise.sales.enablement",
     "vertical_id": "enterprise.sales.enablement",
@@ -2073,6 +2073,12 @@
     "primary_bm_rationale": "Coach is a vertical AI SaaS product that sells software to sales organizations for rep coaching and performance analytics, not a managed service or labor outsourcing model.",
     "primary_bm_assigned_at": "2026-07-30T18:59:39.542Z",
     "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 108339,
+    "launch_url": "https://www.ycombinator.com/launches/SBP-coach-the-ai-coach-for-in-person-sales-reps",
+    "launch_title": "COACH: The AI coach for in-person sales reps",
+    "launch_created_at": "2026-07-30T19:46:52.311Z",
+    "launch_tagline": "Make every rep sell like your best one: door-to-door, in-home, showroom.",
+    "launch_evaluated_at": "2026-07-31T16:02:01.425Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit"
   },
@@ -16363,6 +16369,91 @@
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-04"
+  },
+  {
+    "slug": "clicks-health",
+    "name": "Clicks Health",
+    "website": "https://clickshealth.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/clicks-health",
+    "batch": "Fall 2025",
+    "one_liner": "AI agents for your healthcare back-office operations.",
+    "description_combined": "AI agents for your healthcare back-office operations.\n\nClicks Health builds AI agents that automate back-office operations for RCM companies and healthcare providers. Our agents work across EHRs, payer portals, desktop applications, and legacy systems, following existing processes, handling exceptions, and escalating when human judgment is needed. Backed by Y Combinator, Clicks helps teams improve accuracy, shorten turnaround times, and reduce operating costs, with SOC 2 Type II and HIPAA compliance built in.",
+    "industry_sub_vertical": "Healthcare RCM & back-office claims processing automation",
+    "canonical_vertical_id": "enterprise.ops.process-automation",
+    "vertical_id": "enterprise.ops.knowledge",
+    "vertical_label": "Enterprise knowledge management",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "multi_system_integration",
+      "exception_handling",
+      "process_automation",
+      "legacy_system_orchestration"
+    ],
+    "what_they_sell": "End-user-facing SaaS platform deploying autonomous AI agents that automate healthcare back-office workflows (billing, claims processing, prior authorization, denial management) across fragmented systems (EHRs, payer portals, legacy applications). Agents execute repetitive, high-volume tasks, handle exceptions, and escalate complex decisions to humans.",
+    "ai_play": "AI agents replace manual RCM staff by learning and executing existing workflows across multiple disconnected systems without custom integrations. Agents parse unstructured healthcare data, interact with web-based payer portals and desktop applications, and maintain audit trails for compliance. AI dramatically reduces turnaround time, improves accuracy, and lowers per-transaction operating costs.",
+    "who_pays": "RCM companies, healthcare providers, hospital systems, and billing service organizations seeking to reduce labor costs and improve claims processing velocity while maintaining HIPAA/SOC 2 compliance.",
+    "confidence": 0.85,
+    "rationale": "Clicks Health is a textbook vertical agentic workflow SaaS: (1) End-user-facing product sold to healthcare operators (RCM companies, providers); (2) Deploys autonomous AI agents to replace/augment human job functions (billing, claims, prior auth); (3) Integrates with vertical-specific tools (EHRs, payer portals, legacy systems); (4) High switching cost via workflow learning and compliance certification (HIPAA, SOC 2). Distinct from horizontal copilots (vertical focus on RCM), agent infrastructure (end-product, not tooling), and consulting (SaaS subscription model, not services). Secondary phenotype 'vertical-workflow-automation-ai' also fits due to multi-system document parsing and legacy system orchestration.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Productivity"
+    ],
+    "yc_tags": [
+      "Health Tech",
+      "Healthcare",
+      "Health Insurance",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 8,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2183481,
+        "full_name": "Dominik Helmreich",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "ETH Zurich CSE Grad, Stanford AI Researcher, Ex-BCG Consultant",
+        "linkedin_url": "https://www.linkedin.com/in/dominik-helmreich-30574a1b0/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a7bde85f353f8f0944277c4894f51c8f64e99e39.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAD2KLIXY%2F20260731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260731T160047Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCR1BYmnnI9GtCXd7bnog5EJH5j%2BcsbMKE8FKf%2Bl9CeLwIhAIVU2YE7jPTV1brRVJx68Rc2IsOJwewIoU10N8s%2BXMqKKu4DCLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwoJysoBuUpBA74iogqwgM3O8oxC1YKWUF0RwDr%2BHJv1hAGc6zrefreOhTL81mH5bX66cH3oC3ziY0i2UVIXxzeOtSNpLlM4irUsVtZpx6wAccUwLtSH43RPtTGbAdn53JoNfEBKMz3gDO%2FL6OIhnoE73G9XU%2F3ZQ2V%2Fo%2Bk%2BGU2wke%2FyEzkRMB3EFKYBfwWhHT5TMdlxKyClF9u8wRmyNLtkl9u7YjAw8a5nmz9ophDe9GdnX74%2BgpQUITISsu4v4kAPDVK91lFAW8w4H0ZhKs19%2BfpGLaeqLGcoU542W%2FkqnlIgN4KTKcyUA0x9uqC8J82B%2F%2F%2FnI%2BkUF%2F5MjLrt%2BjsEXlZ2i%2FnSYjvmnxDKx3a2n9k1N%2BSsEGm28l3VTzzJ%2Bv5uZoBMFnjacc%2FxuzNilduCFl7TL3PC4jp9hNk9rv1EXsrHYPGV4zFqT%2BnTOOH0SG8iBL9yrZ%2Fd0vWxbbfhDe9IAv4ctnzGuG9Z9gsJwdn4GQXvyiOIAMMJXYkuokLxv6NqF3hJRLlAJrwYA%2FaQYw0J5PxOQ3Gos7uKe3sjKb05VvimKXvgrekC%2BU8g%2FgsBI8s2g71tYJ8PvjNS3UqxmV7OR2tYo6WjlQMTVbzsAkdJkIwzImz0wY6pAHNca8JER8Z7bh7TVKCY0jJzwLlVAnzs1tGmGHP2o5FJyhJnsNEbmf%2FQeI%2F7%2Bt8mxr%2BfOb241HRMRgNMwCdKquYjOgRp%2BnNKAIpmrsH%2B9shf5%2B8w5tRlw%2F24eFfMKJA95wzqIxbqocMxRGQQHgHfvT0PYht2BUsRzvGpCEsoHjJQG0vtIOy7RENcKoT2Hm5l1Ao7TG%2F86Bf%2BSzx6L%2BVcqjO2O3rnw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c3e9c68f6b17356effd0db21dd688ecd16ab97edb457dd782666dd90a5372ba0",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Clicks Health",
+          "href": "https://www.ycombinator.com/companies/clicks-health"
+        }
+      },
+      {
+        "user_id": 2425676,
+        "full_name": "Oliver Knapp",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Repeated AI founder. Developed 10+ enterprise AI applications in the past 2 years. Studied Physics at ETH Zurich.",
+        "linkedin_url": "https://www.linkedin.com/in/oliverkn/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d9453ec18e4fe6b4fbc9d49c8c17eb4d84b6c085.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAD2KLIXY%2F20260731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260731T160047Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCR1BYmnnI9GtCXd7bnog5EJH5j%2BcsbMKE8FKf%2Bl9CeLwIhAIVU2YE7jPTV1brRVJx68Rc2IsOJwewIoU10N8s%2BXMqKKu4DCLH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwoJysoBuUpBA74iogqwgM3O8oxC1YKWUF0RwDr%2BHJv1hAGc6zrefreOhTL81mH5bX66cH3oC3ziY0i2UVIXxzeOtSNpLlM4irUsVtZpx6wAccUwLtSH43RPtTGbAdn53JoNfEBKMz3gDO%2FL6OIhnoE73G9XU%2F3ZQ2V%2Fo%2Bk%2BGU2wke%2FyEzkRMB3EFKYBfwWhHT5TMdlxKyClF9u8wRmyNLtkl9u7YjAw8a5nmz9ophDe9GdnX74%2BgpQUITISsu4v4kAPDVK91lFAW8w4H0ZhKs19%2BfpGLaeqLGcoU542W%2FkqnlIgN4KTKcyUA0x9uqC8J82B%2F%2F%2FnI%2BkUF%2F5MjLrt%2BjsEXlZ2i%2FnSYjvmnxDKx3a2n9k1N%2BSsEGm28l3VTzzJ%2Bv5uZoBMFnjacc%2FxuzNilduCFl7TL3PC4jp9hNk9rv1EXsrHYPGV4zFqT%2BnTOOH0SG8iBL9yrZ%2Fd0vWxbbfhDe9IAv4ctnzGuG9Z9gsJwdn4GQXvyiOIAMMJXYkuokLxv6NqF3hJRLlAJrwYA%2FaQYw0J5PxOQ3Gos7uKe3sjKb05VvimKXvgrekC%2BU8g%2FgsBI8s2g71tYJ8PvjNS3UqxmV7OR2tYo6WjlQMTVbzsAkdJkIwzImz0wY6pAHNca8JER8Z7bh7TVKCY0jJzwLlVAnzs1tGmGHP2o5FJyhJnsNEbmf%2FQeI%2F7%2Bt8mxr%2BfOb241HRMRgNMwCdKquYjOgRp%2BnNKAIpmrsH%2B9shf5%2B8w5tRlw%2F24eFfMKJA95wzqIxbqocMxRGQQHgHfvT0PYht2BUsRzvGpCEsoHjJQG0vtIOy7RENcKoT2Hm5l1Ao7TG%2F86Bf%2BSzx6L%2BVcqjO2O3rnw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=335cb9f112cd1be4644e66b51edd364d06591b025d888a3dd2c4c36a40092c9d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Clicks Health",
+          "href": "https://www.ycombinator.com/companies/clicks-health"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-07-31T16:00:58.097Z",
+    "classified_at": "2026-07-31T16:00:58.097Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 0.55,
+    "vertical_normalize_method": "yc_subindustry_default",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "clidey",
@@ -31164,7 +31255,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/greypoint-industries",
     "batch": "Summer 2026",
     "one_liner": "Manufacturing the future of autonomous swarm warfare.",
-    "description_combined": "Manufacturing the future of autonomous swarm warfare.\n\nGreypoint Industries builds mass-produced autonomous interceptors that defeat drone saturation for a fraction of the cost of the targets. We are developing a soldier-deployable, fire-and-forget interceptor built to give Western and allied forces the ammunition to counter mass drone swarm attacks.",
+    "description_combined": "Manufacturing the future of autonomous swarm warfare.\n\nGreypoint Industries builds mass-produced autonomous interceptors that defeat drone saturation for a fraction of the cost of the targets. We are developing a soldier-deployable, fire-and-forget interceptor built to give Western and allied forces the ammunition to counter mass drone swarm attacks.\n\nGreypoint Industries (YC S26) builds drone swarms that find enemy drone operators on the battlefield.\n\nGreypoint Industries (YC S26) Launch Video\n\nGreypoint Industries builds drone swarms that find enemy drone operators on the battlefield.\n\nOver 70% of casualties in Ukraine come from drones. The entire defense space is focused on building interceptors to shoot them down. While they’re treating the symptom, we’re going after the root cause: the drone stations. They’re hidden in bunkers, behind terrain, and fly the drones that kill our warfighters and civilians. Today, soldiers have no way to reliably geolocate operators on the battlefield.\n\nGreypoint Industries built LEGION, a drone swarm that identifies, geolocates, and tracks every emitter on the battlefield using the enemy’s own radio signals. LEGION enables our warfighters to precisely track previously obscured targets like jammers, comm",
     "industry_sub_vertical": "Counter-UAS autonomous interceptor manufacturing for military swarm defense",
     "canonical_vertical_id": "industrials.defense.drones",
     "vertical_id": "industrials.defense.drones",
@@ -31272,6 +31363,12 @@
     "primary_bm_rationale": "Greypoint manufactures physical autonomous interceptor hardware integrated with software systems for defense applications, making hardware + software the primary business model.",
     "primary_bm_assigned_at": "2026-07-30T18:59:54.231Z",
     "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 108367,
+    "launch_url": "https://www.ycombinator.com/launches/SBr-greypoint-industries-drone-swarms-that-find-drone-operators",
+    "launch_title": "Greypoint Industries: Drone swarms that find drone operators",
+    "launch_created_at": "2026-07-30T23:00:42.765Z",
+    "launch_tagline": "Greypoint Industries (YC S26) builds drone swarms that find enemy drone operators on the battlefield.",
+    "launch_evaluated_at": "2026-07-31T16:02:01.425Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit"
   },
@@ -33203,7 +33300,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/hoplite",
     "batch": "Summer 2026",
     "one_liner": "Effortlessly deploy cloud software factories.",
-    "description_combined": "Effortlessly deploy cloud software factories.",
+    "description_combined": "Effortlessly deploy cloud software factories.\n\nHoplite runs autonomous coding agents in cloud sandboxes. Spin up tasks manually from Slack, Linear, iMessage, or automatically from Sentry.\n\nCloud coding agents are painful to set up, lacking ergonomics, and don't allow you to move as fast as possible. We let you bring your local set up to the cloud.\n\n\n\nThe Problem \n\nIn the next 10 years the best software startups will be those who can effectively deploy tokens. \n\nRight now that's significantly harder than it needs to be. If you’ve ever ran multiple agents locally you immediately know this pain.\n\nLaptop crashes, wrangling gitwork trees, juggling ports, and more headaches.\n\n\n\nSo cloud is the obvious answer right? \n\nBut setting up with these existing providers is quite a hassle, and oftentimes they miss some key feature that your local config has.\n\nWhat we do\n\nWe deploy software factories into businesses that want to tokenmaxx but don't have the time or the resources to set up th",
     "industry_sub_vertical": "AI-driven cloud deployment and container orchestration for software factories",
     "canonical_vertical_id": "devtools.container-orchestration",
     "vertical_id": "devtools.container-orchestration",
@@ -33275,6 +33372,12 @@
     "directory_synced_at": "2026-07-30T16:13:32.433Z",
     "classified_at": "2026-07-30T16:13:32.433Z",
     "proposed_phenotype": null,
+    "launch_id": 108274,
+    "launch_url": "https://www.ycombinator.com/launches/SAM-hoplite-effortless-cloud-agents-for-programming",
+    "launch_title": "Hoplite - Effortless cloud agents for programming",
+    "launch_created_at": "2026-07-30T18:32:37.080Z",
+    "launch_tagline": "Hoplite runs autonomous coding agents in cloud sandboxes. Spin up tasks manually from Slack, Linear, iMessage, or automatically from Sentry.",
+    "launch_evaluated_at": "2026-07-31T16:02:01.426Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -35561,6 +35664,103 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "instinct-space",
+    "name": "Instinct Space",
+    "website": "https://www.instinct-space.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/instinct-space",
+    "batch": "Winter 2025",
+    "one_liner": "Building lunar landers",
+    "description_combined": "Building lunar landers\n\nInstinct is making the Moon the new LEO. Our small lunar lander is designed to be launched as a regular LEO rideshare, enabling higher mission cadence at a lower cost.",
+    "industry_sub_vertical": "Commercial lunar lander manufacturing and payload delivery services",
+    "canonical_vertical_id": "industrials.aviation.space",
+    "vertical_id": "industrials.aviation.space",
+    "vertical_label": "Space & satellite systems",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-enabled physical infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "autonomous_landing_control",
+      "trajectory_optimization",
+      "manufacturing_precision"
+    ],
+    "what_they_sell": "Small, reusable lunar landers optimized for LEO rideshare deployment; enables frequent, low-cost lunar missions for payloads and scientific instruments.",
+    "ai_play": "AI accelerates lander design optimization (thermal, structural, fuel efficiency), autonomous landing control systems, and manufacturing precision for rapid iteration cycles. AI enables real-time trajectory correction and autonomous descent/landing without ground intervention.",
+    "who_pays": "Space agencies (NASA, ESA), commercial space companies, satellite operators, scientific research institutions seeking lunar payload delivery.",
+    "confidence": 0.72,
+    "rationale": "Instinct Space is building physical hardware (lunar landers) where AI is a critical enabler rather than the primary product. The phenotype ai-enabled-physical-systems fits: core value is the physical lander system itself, but AI dramatically improves R&D cycles (design optimization), manufacturing precision, and autonomous operational control (landing, trajectory). This is distinct from robotics-embodied-ai (which focuses on drones/robots as the primary product) because the lander is a transportation vehicle, not a general-purpose robot. AI is embedded in guidance, navigation, control (GNC) systems and design optimization, not the primary differentiator. Confidence is moderate (0.72) because the company description emphasizes hardware design and cost reduction over explicit AI capabilities, but AI is inherent to modern aerospace systems.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Aviation and Space"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Space Exploration"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 5,
+    "location": "London, England, United Kingdom",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1741395,
+        "full_name": "Alex Pinel Neparidze",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Building lunar landers. Co-CEO of Instinct.\n\nGraduate in Space Engineering at UCL and Aerospace engineering at QMUL. At Open Cosmos, he worked in project management on the PHISAT-2 and HAMMER Earth observation satellites, both launched in 2024 and now in orbit. Published research on the usage of machine learning for detecting Coronal Mass Ejections (CMEs) at the Mullard Space Science Laboratory. \n\n",
+        "linkedin_url": "https://www.linkedin.com/in/alex-pinel/",
+        "twitter_url": "https://x.com/Alex__Pinel",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2686a16bde1511b7fc8f5979a461225a3ce9bc36.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJJB2OWUC%2F20260731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260731T160038Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBC0YeBP3jE2DXo%2BAUklcB95E0w1ERlPo30Xhu7t4kQwAiAQ5rRCWX%2FjpmvROLCRzakANzAYDK7zbA1qChTr%2B8kIuyruAwix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIM7G1WGdwxeMEeZc32KsID7izHghUyqUEjv3GhLWC96TqwiltVR3xU2YfAhfLLjyCUlQvf%2F8owNb8kLn37NPpz3nYCV9uskQSt%2BP3mzfwTSfgF1aaP1AgL%2B6cgAGAt7%2F%2FwPVERLBYrTntKHPo3Yj20UohVrVUDtNtD18usPuzw%2FtDYs5ZPAcDKBZvy6Zjj9TuOUnVt3GPnjc1gTrtcJn%2BncPHC3NpY4VdECuCbYelb3prkfrvDUXKIhAw%2B5hiHyNQW659djIHmngbVNf5MekMLdshWwoFICc29A1HD4wSa97sUo6V2gsQJBbsYJamaqRVjmC5r7JikEIvaBqpZPap%2Bst4lCfHs6micK42nYNNFPN7fGUO%2BgJjv3bYPlhOr2InhI6uxbnQH%2BPKPZ%2B7Uc1vKdmH7ILFQ7ENDANJMnI%2F86%2FPNNAI6%2F5zTmMMfcLsb%2FhgxtWaSyMf75ZO2xpFrkA47G1GvWEWO3dH5Uz5%2F7D8mcDPcQi1b5xOw4HMTezEhqPHpY8476jwhnwAfqelioNjtrR%2BWPYv4E5L9f2uoMxTDJp9WItMz2wuiPwAaifBiFc6pyDOSrHM4r2u8whJ97eAytrwfQg7HmY08Cqe958UxkoVLMOuJs9MGOqYBJoT3aIEFIl3Qbvic0fTHZ%2FIU3ZiG%2FkmGUycAfVXD5WpPil%2Bd%2FpsciApervXGUmV9juq6blSH4QbhJOATNyl16iz%2B%2FfpeXw5DrbFRLjXBMpr%2BzcE28dGswO7Bm9zXXmsEsR0xeYdzyVgoouDjm83Bbjms91EpJAN5eAxAkgtDeUszNcZAeWgOPV%2BUioucqKTm9yAmU9I8DmL3Ujn4pf97PZpd9l2CUA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d99ac60b69c8d54c3d15b2db9c6ce22aa411881c5986a5ab48c8fc0cda2d30bb",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Instinct Space",
+          "href": "https://www.ycombinator.com/companies/instinct-space"
+        }
+      },
+      {
+        "user_id": 2390225,
+        "full_name": "Joaquim Dickson",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Building lunar landers. CTO at Instinct.\n\nStudied Physics at Imperial College London and Space Technology at UCL. Worked on the magnetometer (MAG) for NASA&#x27;s IMAP spacecraft with Imperial&#x27;s Fluxgate Magnetometer Laboratory. Also worked on the Solar Wind Analyser (SWA) instrument suite aboard ESA&#x27;s Solar Orbiter spacecraft with UCL&#x27;s Mullard Space Science Laboratory.",
+        "linkedin_url": "https://www.linkedin.com/in/joaquim-ropd/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b6505e0e0f06bad77f9a710345a84337c3daffe1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJJB2OWUC%2F20260731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260731T160038Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBC0YeBP3jE2DXo%2BAUklcB95E0w1ERlPo30Xhu7t4kQwAiAQ5rRCWX%2FjpmvROLCRzakANzAYDK7zbA1qChTr%2B8kIuyruAwix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIM7G1WGdwxeMEeZc32KsID7izHghUyqUEjv3GhLWC96TqwiltVR3xU2YfAhfLLjyCUlQvf%2F8owNb8kLn37NPpz3nYCV9uskQSt%2BP3mzfwTSfgF1aaP1AgL%2B6cgAGAt7%2F%2FwPVERLBYrTntKHPo3Yj20UohVrVUDtNtD18usPuzw%2FtDYs5ZPAcDKBZvy6Zjj9TuOUnVt3GPnjc1gTrtcJn%2BncPHC3NpY4VdECuCbYelb3prkfrvDUXKIhAw%2B5hiHyNQW659djIHmngbVNf5MekMLdshWwoFICc29A1HD4wSa97sUo6V2gsQJBbsYJamaqRVjmC5r7JikEIvaBqpZPap%2Bst4lCfHs6micK42nYNNFPN7fGUO%2BgJjv3bYPlhOr2InhI6uxbnQH%2BPKPZ%2B7Uc1vKdmH7ILFQ7ENDANJMnI%2F86%2FPNNAI6%2F5zTmMMfcLsb%2FhgxtWaSyMf75ZO2xpFrkA47G1GvWEWO3dH5Uz5%2F7D8mcDPcQi1b5xOw4HMTezEhqPHpY8476jwhnwAfqelioNjtrR%2BWPYv4E5L9f2uoMxTDJp9WItMz2wuiPwAaifBiFc6pyDOSrHM4r2u8whJ97eAytrwfQg7HmY08Cqe958UxkoVLMOuJs9MGOqYBJoT3aIEFIl3Qbvic0fTHZ%2FIU3ZiG%2FkmGUycAfVXD5WpPil%2Bd%2FpsciApervXGUmV9juq6blSH4QbhJOATNyl16iz%2B%2FfpeXw5DrbFRLjXBMpr%2BzcE28dGswO7Bm9zXXmsEsR0xeYdzyVgoouDjm83Bbjms91EpJAN5eAxAkgtDeUszNcZAeWgOPV%2BUioucqKTm9yAmU9I8DmL3Ujn4pf97PZpd9l2CUA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=57a645c59a13e70bc33aa97b806da6a9d84a313671a1655907de12282a53db55",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Instinct Space",
+          "href": "https://www.ycombinator.com/companies/instinct-space"
+        }
+      },
+      {
+        "user_id": 1830493,
+        "full_name": "Ashwin Iyer",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Building rideshare compatible lunar landers. Ashwin is the co-founder and co-CEO of Instinct.\n\nHe studied mechanical engineering at QMUL in London and holds a Master in Industrial Systems, Manufacturing and Management from the University of Cambridge. Ashwin has also worked at Imperial College London, researching Rolls Royce jet engines as well as undertaken consulting projects as part of a team at Cambridge across a variety of industries including Venture capital, Metalworking and Electronics.",
+        "linkedin_url": "https://www.linkedin.com/in/ashwin-iyer-626263245/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/eb93731bd9cfc0a59ed3ff2d5a210efdf7a84bcf.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJJB2OWUC%2F20260731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260731T160038Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBC0YeBP3jE2DXo%2BAUklcB95E0w1ERlPo30Xhu7t4kQwAiAQ5rRCWX%2FjpmvROLCRzakANzAYDK7zbA1qChTr%2B8kIuyruAwix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIM7G1WGdwxeMEeZc32KsID7izHghUyqUEjv3GhLWC96TqwiltVR3xU2YfAhfLLjyCUlQvf%2F8owNb8kLn37NPpz3nYCV9uskQSt%2BP3mzfwTSfgF1aaP1AgL%2B6cgAGAt7%2F%2FwPVERLBYrTntKHPo3Yj20UohVrVUDtNtD18usPuzw%2FtDYs5ZPAcDKBZvy6Zjj9TuOUnVt3GPnjc1gTrtcJn%2BncPHC3NpY4VdECuCbYelb3prkfrvDUXKIhAw%2B5hiHyNQW659djIHmngbVNf5MekMLdshWwoFICc29A1HD4wSa97sUo6V2gsQJBbsYJamaqRVjmC5r7JikEIvaBqpZPap%2Bst4lCfHs6micK42nYNNFPN7fGUO%2BgJjv3bYPlhOr2InhI6uxbnQH%2BPKPZ%2B7Uc1vKdmH7ILFQ7ENDANJMnI%2F86%2FPNNAI6%2F5zTmMMfcLsb%2FhgxtWaSyMf75ZO2xpFrkA47G1GvWEWO3dH5Uz5%2F7D8mcDPcQi1b5xOw4HMTezEhqPHpY8476jwhnwAfqelioNjtrR%2BWPYv4E5L9f2uoMxTDJp9WItMz2wuiPwAaifBiFc6pyDOSrHM4r2u8whJ97eAytrwfQg7HmY08Cqe958UxkoVLMOuJs9MGOqYBJoT3aIEFIl3Qbvic0fTHZ%2FIU3ZiG%2FkmGUycAfVXD5WpPil%2Bd%2FpsciApervXGUmV9juq6blSH4QbhJOATNyl16iz%2B%2FfpeXw5DrbFRLjXBMpr%2BzcE28dGswO7Bm9zXXmsEsR0xeYdzyVgoouDjm83Bbjms91EpJAN5eAxAkgtDeUszNcZAeWgOPV%2BUioucqKTm9yAmU9I8DmL3Ujn4pf97PZpd9l2CUA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=07afc98811038e288edf2bd8a20b99887ba7418bde0a9b903b6bb74aa40a6dc9",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Instinct Space",
+          "href": "https://www.ycombinator.com/companies/instinct-space"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-07-31T16:00:47.258Z",
+    "classified_at": "2026-07-31T16:00:47.258Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
+  },
+  {
     "slug": "instinct-xyz",
     "name": "Instinct",
     "website": "https://instinct.xyz",
@@ -36925,7 +37125,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/joinmarble",
     "batch": "Summer 2026",
     "one_liner": "The autonomous back-of-house for restaurants.",
-    "description_combined": "The autonomous back-of-house for restaurants.\n\nMarble is the first AI-native operating system for the restaurant back-of-house. \r\n\r\nRestaurants, cafes and bars still run on a patchwork of disconnected point solutions, spreadsheets, clipboards and tribal knowledge, which costs the industry billions each year in stockouts, food waste, and lost profit. \r\n\r\nMarble replaces that entire stack with one system. Computer vision and voice AI capture real-time inventory levels 90% faster than manual counts, ML models forecast item-level demand at 97% accuracy, and AI agents run dozens of end-to-end workflows autonomously, from procurement and invoice reconciliation to scheduling, food prep, menu engineering, and more.",
+    "description_combined": "The autonomous back-of-house for restaurants.\n\nMarble is the first AI-native operating system for the restaurant back-of-house. \r\n\r\nRestaurants, cafes and bars still run on a patchwork of disconnected point solutions, spreadsheets, clipboards and tribal knowledge, which costs the industry billions each year in stockouts, food waste, and lost profit. \r\n\r\nMarble replaces that entire stack with one system. Computer vision and voice AI capture real-time inventory levels 90% faster than manual counts, ML models forecast item-level demand at 97% accuracy, and AI agents run dozens of end-to-end workflows autonomously, from procurement and invoice reconciliation to scheduling, food prep, menu engineering, and more.\n\nMarble uses computer vision and voice AI to count inventory in minutes and a collection of AI agents that run inventory and labor management on autopilot.\n\nHey YC! We’re Arjun and Aakar, and we’re launching Marble (previously Truffle), the first AI-native operating system for the restaurant back-of-house.\n\nTL;DR: We help restaurants control their two biggest costs, inventory and labor—saving them thousands of dollars per month in food waste, stockouts, and labor overage. We replace today's patchwork of disconnected point solutions, spreadsheets and clipboards with a single, easy to use system that actually does the work. We use computer vision and voice AI to count inventory 90% faster than manual counts, ML models to forecast item-level demand with 97% accuracy, and AI agents that run dozens of end-to-end workflows autonomously, including ordering, invoice reconciliation, scheduling, food prep, menu engineering, and more.\n\nThe result: We're ",
     "industry_sub_vertical": "Restaurant back-of-house operations automation (inventory, procurement, scheduling, food prep)",
     "canonical_vertical_id": "enterprise.ops.process-automation",
     "vertical_id": "enterprise.ops.process-automation",
@@ -37001,6 +37201,12 @@
     "primary_bm_rationale": "Marble is a software product sold to restaurants as a vertical SaaS platform; while it uses AI agents to automate workflows, the primary monetization is through software licensing to the restaurant vertical, not through managed services or human-in-loop labor outsourcing.",
     "primary_bm_assigned_at": "2026-07-30T18:59:56.151Z",
     "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 108273,
+    "launch_url": "https://www.ycombinator.com/launches/SAL-marble-the-autonomous-back-of-house-for-restaurants",
+    "launch_title": "Marble: The autonomous back-of-house for restaurants",
+    "launch_created_at": "2026-07-30T17:31:56.143Z",
+    "launch_tagline": "Marble uses computer vision and voice AI to count inventory in minutes and a collection of AI agents that run inventory and labor management on autopilot.",
+    "launch_evaluated_at": "2026-07-31T16:02:01.426Z",
     "vertical_normalize_confidence": 0.55,
     "vertical_normalize_method": "yc_subindustry_default"
   },
@@ -37938,7 +38144,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/kebra",
     "batch": "Summer 2026",
     "one_liner": "Make your field service company AI-native",
-    "description_combined": "Make your field service company AI-native\n\nField technicians are bad at documenting their jobs, which paralyzes the back office. Kebra ends that.\r\n\r\nWe capture what happens in the field and collect the exact job details the back office needs. Before the truck leaves the driveway, Kebra turns every job into complete notes, filed warranty claims, parts orders, and follow-up sales opportunities.\r\n\r\nOver time, every job feeds your Company Brain, so your best technicians’ expertise never leaves the company.",
+    "description_combined": "Make your field service company AI-native\n\nField technicians are bad at documenting their jobs, which paralyzes the back office. Kebra ends that.\r\n\r\nWe capture what happens in the field and collect the exact job details the back office needs. Before the truck leaves the driveway, Kebra turns every job into complete notes, filed warranty claims, parts orders, and follow-up sales opportunities.\r\n\r\nOver time, every job feeds your Company Brain, so your best technicians’ expertise never leaves the company.\n\nAI employees that turn field work into notes, claims, parts orders, and follow-ups\n\nHey YC! 👋\n\nWe’re Luca and Hosny, founders of Kebra.\n\n## TL;DR\n\nKebra makes field service companies AI-native.\n\nWe capture what happens in the field and put the back office on autopilot. Before the truck leaves the driveway, Kebra turns every job into complete notes, filed warranty claims, ordered parts, and follow-up sales opportunities.\n\nWe’re working with field service companies across Florida, Pennsylvania and California.\n\n\n\n## The problem\n\nField service runs like it’s 2015.\n\nField technicians are bad at documenting their jobs, which paralyzes the back office.\n\nCompanies juggle their Field Service Management software, CRM, calls, texts, and incomplete job reports. The office has to chase technicians for missing serial numbers and photos, reconstruct what happened, then manually file wa",
     "industry_sub_vertical": "Field service job documentation & back-office automation (HVAC, plumbing, electrical, home services)",
     "canonical_vertical_id": "enterprise.ops.process-automation",
     "vertical_id": "enterprise.ops.process-automation",
@@ -38016,6 +38222,12 @@
     "primary_bm_rationale": "Kebra is a software product sold to field service companies (a vertical) that automates job documentation and back-office workflows; while it uses AI agents, the primary monetization is SaaS licensing to the vertical, not outsourced labor or managed services.",
     "primary_bm_assigned_at": "2026-07-30T18:59:56.425Z",
     "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 108355,
+    "launch_url": "https://www.ycombinator.com/launches/SBf-kebra-make-your-field-service-company-ai-native",
+    "launch_title": "Kebra — Make your field service company AI-native",
+    "launch_created_at": "2026-07-30T22:13:43.328Z",
+    "launch_tagline": "AI employees that turn field work into notes, claims, parts orders, and follow-ups",
+    "launch_evaluated_at": "2026-07-31T16:02:01.425Z",
     "vertical_normalize_confidence": 0.55,
     "vertical_normalize_method": "yc_subindustry_default"
   },
@@ -40588,6 +40800,76 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "layers",
+    "name": "Layers",
+    "website": "https://www.layers.bio/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/layers",
+    "batch": "Fall 2025",
+    "one_liner": "A 30 min appointment to measure everything in your body",
+    "description_combined": "A 30 min appointment to measure everything in your body\n\nOur mission is to quantify and improve how people look and feel using data from blood panels, DEXA scans, skin analysis, hair analysis, and many other tests. We evaluate a baseline, give clear steps on how to improve, and measure progress over time.",
+    "industry_sub_vertical": "Consumer biometric assessment & preventive health optimization",
+    "canonical_vertical_id": "healthcare.digital.consumer-wellness",
+    "vertical_id": "healthcare.digital.consumer-wellness",
+    "vertical_label": "Consumer digital health & wearables",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / prosumer AI application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "personal_health_optimization",
+    "ai_application_patterns": [
+      "health_data_synthesis",
+      "personalized_recommendations",
+      "progress_tracking"
+    ],
+    "what_they_sell": "Direct-to-consumer health assessment and optimization platform: 30-minute comprehensive biometric evaluation (blood panels, DEXA scans, skin/hair analysis) with AI-driven baseline analysis, personalized improvement recommendations, and longitudinal progress tracking.",
+    "ai_play": "AI synthesizes multi-modal biometric data (lab results, imaging, visual analysis) into coherent health insights and actionable recommendations. Likely uses computer vision for skin/hair analysis, NLP for clinical interpretation, and ML for personalized intervention sequencing and outcome prediction.",
+    "who_pays": "Direct consumers (prosumers) seeking preventive health optimization and quantified self-tracking; likely subscription or per-assessment model.",
+    "confidence": 0.78,
+    "rationale": "Layers is a direct-to-consumer health app targeting prosumers who want comprehensive biometric quantification and personalized optimization. Core value is the consumer experience (ease of testing, clarity of insights, progress tracking), not B2B software or regulated financial products. AI is embedded in data synthesis and recommendation generation, but the primary moat is brand, user experience, and longitudinal data. Fits consumer-ai-app phenotype: end-user facing, subscription-likely, AI-enhanced personal health tool. Not biotech-rd-agent (no clinical trials/research focus), not foundation-model-domain-infrastructure (not selling models), not vertical-workflow-agent (not B2B to clinicians/providers).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare",
+      "Consumer Health and Wellness"
+    ],
+    "yc_tags": [
+      "Consumer Health Services",
+      "Health Tech",
+      "Beauty",
+      "Health & Wellness",
+      "AI"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1382504,
+        "full_name": "Shivani Patel",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "quantifying every layer of the human body",
+        "linkedin_url": "https://www.linkedin.com/in/shivanijpatel/",
+        "twitter_url": "https://x.com/shivanijpatel",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dfcd059dae3f81253fad3c346d3a059172c9de40.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMSHRR6NU%2F20260731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260731T160058Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHDQx8iN1BZ11Lw6uWCxKlh%2BoIP4nS6kQm5sNJcbf3sCAiEA5tS4H2dLTr2u%2Bbj56zfPoNNXQSrQocuatf%2BF9QeVz00q7gMIsf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDNj%2BVJcpFyZEeBKCxyrCA9ojw%2Frm0qdDyI0fKkVmtBdarg2m1vTAfROf86QYbEUpB1aF0q1pJH6oWrf1an4JV2qe5OVXfEIBi0TS4iNcduXtkY1nwPTzc%2FsaF9FVCcrX3L9RLT18BNXXjLJkHDnJd0PaRjSsrHxE5q2pS%2Fz37I90T7zaeUZwGV%2FaI8lxK46vueGDWjWJsyZpukrjbysKTo%2FA46p5uuztgHsiTnoLYI6CphUPM3nzDRucv1enyXBby85uezQgDexFQizeRD5s1svhwAwMyN8RiB6%2BKruXnXoJD%2BeFO8cAZpK3AtpHreOc5iNpPoiIkwM7oAawGdPqiDVc7oYjtpRJ1avG%2Bwb1HoMYukXYon0kaTbRuGXGrkxwHAxdhX40ljezXNEmBgMZMmE6DVnLt0H2jhPnIw6yJRJZJnoXnsfG%2B2ZVx0uJ3KfIhrro%2FJaoh%2Fi1ntf65VsCVQmmHYkEu91RhcGt7b6t2nffOxV4fdeU26GO7xSYTpRNxFsTxnjpS6HiUGVmXxFa69GUb4XCksMiDprUipcmn92ftiYcdQBBAUnVmfkC2bN%2FD3juBMJ3o%2FdFzygkQQ4Hgot9iZEHh67GEdz5bBllDGLYXDDsibPTBjqlAc0kBrC3IoQ5EhYg%2Fpha0sP%2Fto%2FmiwrH726Bban5mcsQgf5fzHihAvwXxDkunmXc9hV98YVlbtjo%2BMH1u80S9ADmxxWfCjfvr81o%2Fu8zNDFXwzZpkDAdIW448GQtH%2Bcgc8tRkS8dq%2FdLlbvAMBMZO0UHA%2Bh53Tlc2ukwmX00T4Vc28xVAiY6BlNF468tRANMQJKErTzGMxBH0tSWAfIbWCUyq6T12Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ab697df5d7a1ef489865d6ed864247513ee1a1ff1b8a2bc57e1b122d4d5ae2b4",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Layers",
+          "href": "https://www.ycombinator.com/companies/layers"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-07-31T16:01:06.802Z",
+    "classified_at": "2026-07-31T16:01:06.802Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-10"
+  },
+  {
     "slug": "leadbay",
     "name": "Leadbay",
     "website": "https://leadbay.ai/",
@@ -42566,7 +42848,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/luca-iq",
     "batch": "Summer 2026",
     "one_liner": "API First Tax Calculator for CPAs",
-    "description_combined": "API First Tax Calculator for CPAs\n\nLuca IQ is an API for deterministic tax calculation and an IRS Authorized e-filing engine - the foundation for accounting firms and fintechs building on tax.",
+    "description_combined": "API First Tax Calculator for CPAs\n\nLuca IQ is an API for deterministic tax calculation and an IRS Authorized e-filing engine - the foundation for accounting firms and fintechs building on tax.\n\nAn open API, IRS-authorized e-file tax engine for CPA firms and Fintechs\n\n# \\*\\*\\*\\*\n\nTL;DR: We're building a modern tax engine for accountants and fintechs building on tax: a deterministic tax calculation and e-filing core behind a single API, built on the IRS's official e-file infrastructure (MeF).\n\n## A tax return is math. It should be a function call.\n\nWe're Angelo and Akash, and we built Luca IQ, a new tax engine for accounting firms. One set of inputs in, a completed, filed return out in minutes. Not bolted onto decades out desktop software.\n\nFor CPA firms, that means more returns per preparer, less spend on labor, and a clean path off 30-year-old desktop software. For the PE groups acquiring and scaling firms, it means real operating leverage on the single most labor-intensive part of the business.\n\n\n\nThe problem. \\~95% of US firms file their returns thro",
     "industry_sub_vertical": "Tax calculation and e-filing infrastructure for accounting firms and fintechs",
     "canonical_vertical_id": "enterprise.finance.tax",
     "vertical_id": "enterprise.finance.tax",
@@ -42640,6 +42922,12 @@
     "directory_synced_at": "2026-07-30T16:02:08.372Z",
     "classified_at": "2026-07-30T16:02:08.372Z",
     "proposed_phenotype": null,
+    "launch_id": 108364,
+    "launch_url": "https://www.ycombinator.com/launches/SBo-luca-iq-an-api-for-u-s-tax-calculation-and-e-filing",
+    "launch_title": "Luca IQ - An API for U.S. tax calculation and e-filing",
+    "launch_created_at": "2026-07-31T14:01:23.291Z",
+    "launch_tagline": "An open API, IRS-authorized e-file tax engine for CPA firms and Fintechs",
+    "launch_evaluated_at": "2026-07-31T16:02:01.425Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -43534,7 +43822,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/machine0",
     "batch": "Summer 2026",
     "one_liner": "Cloud computers for AI agents",
-    "description_combined": "Cloud computers for AI agents\n\nmachine0 is a CLI for agent compute: `machine0 new mybox` gives your agent a full cloud VM, billed by the minute, from small up to 60 vCPU / 240 GB and 8×H100s. Agents drive it themselves via CLI or MCP.\r\n\r\nAgent workloads are moving from ephemeral to always-on. A coding agent working on a hard feature runs 6-8 hours. Auto-research agents run for days. machine0 is the environment in which these agents run.",
+    "description_combined": "Cloud computers for AI agents\n\nmachine0 is a CLI for agent compute: `machine0 new mybox` gives your agent a full cloud VM, billed by the minute, from small up to 60 vCPU / 240 GB and 8×H100s. Agents drive it themselves via CLI or MCP.\r\n\r\nAgent workloads are moving from ephemeral to always-on. A coding agent working on a hard feature runs 6-8 hours. Auto-research agents run for days. machine0 is the environment in which these agents run.\n\nOne command spins up a persistent VM. Your agent drives it via CLI or MCP, building its own fleet from 1 vCPU up to 60 vCPU / 240 GB and 8×H100s.\n\nTLDR: machine0 is a CLI for agent compute: “machine0 new mybox” gives your agent a full cloud VM, billed by the minute, from $0.013/hr up to 60 vCPU / 240 GB and 8×H100s. Agents drive it themselves via CLI or MCP.\n\n\n\n## The Pain\n\nAgent workloads are moving from ephemeral to always-on. A coding agent working on a hard feature runs 6-8 hours. Auto-research agents run for days. OpenClaw &amp; Hermes run 24/7. As you run more in parallel:\n\n* Resources: a few agents on a big codebase saturate your RAM and CPU. Auto-research needs GPUs you don't have.\n* Security: “—yolo” on your personal machine is one prompt injection away from exfiltrated credentials.\n* Availability: close your laptop and the agent dies mid-task.\n* Isolation: there's no clean line between everything on your laptop and the mini",
     "industry_sub_vertical": "Agent compute provisioning & persistent workload runtime",
     "canonical_vertical_id": "ai-infrastructure.agent-runtime",
     "vertical_id": "ai-infrastructure.agent-runtime",
@@ -43590,6 +43878,12 @@
     "directory_synced_at": "2026-07-30T16:05:54.069Z",
     "classified_at": "2026-07-30T16:05:54.069Z",
     "proposed_phenotype": null,
+    "launch_id": 108327,
+    "launch_url": "https://www.ycombinator.com/launches/SBD-machine0-cloud-computers-for-agents",
+    "launch_title": "machine0: Cloud Computers for Agents",
+    "launch_created_at": "2026-07-31T15:30:36.400Z",
+    "launch_tagline": "One command spins up a persistent VM. Your agent drives it via CLI or MCP, building its own fleet from 1 vCPU up to 60 vCPU / 240 GB and 8×H100s.",
+    "launch_evaluated_at": "2026-07-31T16:02:01.424Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -46766,7 +47060,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/mireye",
     "batch": "Summer 2026",
     "one_liner": "Infrastructure for Physical World AI Agents",
-    "description_combined": "Infrastructure for Physical World AI Agents\n\nAI agents are starting to act in the real world, but they can&#x27;t reliably understand it. \r\n\r\nGeospatial data is complex, fragmented, and unstructured. Ask a model a specific question about a specific place and it guesses. Our API and MCP give agents cited answers about any location.\r\n\r\nOur mission is to index every inch of the earth, and make it as queryable as the web.",
+    "description_combined": "Infrastructure for Physical World AI Agents\n\nAI agents are starting to act in the real world, but they can&#x27;t reliably understand it. \r\n\r\nGeospatial data is complex, fragmented, and unstructured. Ask a model a specific question about a specific place and it guesses. Our API and MCP give agents cited answers about any location.\r\n\r\nOur mission is to index every inch of the earth, and make it as queryable as the web.\n\nOne API for data, enrichment, tools and signals.\n\nTL;DR: Mireye is building the infrastructure that powers agents to make decisions and act in the real world. Today’s agents are book smart, we are going to make them street smart.\n\n\n\nThe Problem:\n\nEvery fact about a place has its own silo: land in GIS maps, power in utility portals, people in census tables, policy in county PDFs.\n\nAll built for humans, none for agents. Underneath, the data is fragmented across thousands of sources, unstructured and complex.\n\nEven with clean data the problem isn't solved, because a decision takes more than retrieving facts.\n\nWhat We Built: One API and MCP that connects your agent to the physical world\n\n\n\nHow It Works:\n\nInstall our skill or paste this in your agent: \n\nAsk any question about any US location, get a citable answer in seconds\n\nData enrichment, t",
     "industry_sub_vertical": "Geospatial context & location data enrichment for physical-world AI agents",
     "canonical_vertical_id": "ai-infrastructure.agent-context-web",
     "vertical_id": "ai-infrastructure.agent-context-web",
@@ -46824,6 +47118,12 @@
     "directory_synced_at": "2026-07-30T15:59:06.882Z",
     "classified_at": "2026-07-30T15:59:06.882Z",
     "proposed_phenotype": null,
+    "launch_id": 108365,
+    "launch_url": "https://www.ycombinator.com/launches/SBp-mireye-the-easiest-way-to-build-agentic-applications-for-the-physical-world",
+    "launch_title": "Mireye: The easiest way to build agentic applications for the physical world",
+    "launch_created_at": "2026-07-31T12:14:03.241Z",
+    "launch_tagline": "One API for data, enrichment, tools and signals.",
+    "launch_evaluated_at": "2026-07-31T16:02:01.425Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -72721,7 +73021,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/stoa",
     "batch": "Summer 2026",
     "one_liner": "The market behind AI hardware.",
-    "description_combined": "The market behind AI hardware.\n\nStoa provides pricing and trading infrastructure for AI hardware, live with an RFQ marketplace where companies buy and sell GPUs through vetted dealers real-time.",
+    "description_combined": "The market behind AI hardware.\n\nStoa provides pricing and trading infrastructure for AI hardware, live with an RFQ marketplace where companies buy and sell GPUs through vetted dealers real-time.\n\nGPU marketplace where vetted dealers bid blind with firm quotes. $300M+ in RFQs in our first month.\n\nTL;DR: AI hardware trades over phone calls and forwarded spreadsheets. No venue, no price to mark against: lenders mark billions in GPU collateral off appraisals. We're building Stoa, an RFQ marketplace where buyers and sellers get firm quotes within 48 hours, and settled trades build the prices the market can mark, finance, and hedge against.\n\n\n\nGPU deals close in group chats. We know because we've been in them.\n\nA price arrives as a voice note. Someone forwards an inventory list, then it gets forwarded again, and soon three brokers are offering the same machines. Nobody knows who actually owns what or whether any quote is firm.\n\nThe market behind those chats is worth hundreds of billions of dollars a year. Lenders mark billions in GPU collateral off appraisals, not trades.\n\nWe're Berat, ",
     "industry_sub_vertical": "AI hardware trading & RFQ marketplace infrastructure",
     "canonical_vertical_id": "fintech.banking.exchange",
     "vertical_id": "fintech.banking.exchange",
@@ -72809,6 +73109,12 @@
     "directory_synced_at": "2026-07-30T16:08:17.035Z",
     "classified_at": "2026-07-30T16:08:17.035Z",
     "proposed_phenotype": null,
+    "launch_id": 108473,
+    "launch_url": "https://www.ycombinator.com/launches/SDZ-stoa-the-market-behind-ai-hardware",
+    "launch_title": "Stoa: The market behind AI hardware",
+    "launch_created_at": "2026-07-31T12:13:42.502Z",
+    "launch_tagline": "GPU marketplace where vetted dealers bid blind with firm quotes. $300M+ in RFQs in our first month.",
+    "launch_evaluated_at": "2026-07-31T16:02:01.425Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-07"
@@ -73991,6 +74297,55 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.45,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "surface-labs",
+    "name": "Surface Labs",
+    "website": "https://withsurface.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/surface-labs",
+    "batch": "Summer 2023",
+    "one_liner": "Surface researches every lead the second they come in, who they are, what their company does, why they matter, so you follow up already knowing everything instead of digging through ten tabs yourself.",
+    "description_combined": "Surface researches every lead the second they come in, who they are, what their company does, why they matter, so you follow up already knowing everything instead of digging through ten tabs yourself.\n\nWe're S23, and I've probably spent hundreds of hours over the last two years just researching leads by hand.\n\nSomeone would sign up or book a call, and before I could follow up I'd go dig through their LinkedIn, their site, their funding, figuring out who they even were. 20-40 min a lead, usually at night because there was nobody else to do it. It adds up to a stupid amount of time.\n\nAnd basically every customer we onboarded was doing the same thing.\n\nSame pattern every time. The founder or the first hire personally researching every lead before they could do anything with it. Nobody had automated it, so we did.\n\nThe agent does the research the second a lead lands.\n\nBy the time you open the lead, it's already got who they are, what the company does, and why they're a fit sitting right on the record. You just reach out, already knowing everything, while they're still warm.\n\nSo you stop losing leads because you were too buried to get to them.\n\nThe ones that used to go cold sitting in your inbox for three days don't anymore. And your time goes back to actually building instead of tab-diving.\n\nWe're giving YC companies 500 free runs to try it.\n\nRun it on your real leads, see what it actually pulls, decide after. I'll set this up with you personally and make sure it's saving you 5+ hours a week →",
+    "industry_sub_vertical": "Lead research & CRM enrichment via agentic web data aggregation",
+    "canonical_vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_label": "Agent web context & data enrichment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "lead_enrichment",
+      "web_data_extraction",
+      "context_retrieval",
+      "sales_automation"
+    ],
+    "what_they_sell": "Autonomous AI agent that researches inbound leads in real-time by aggregating web data (LinkedIn, company websites, funding records, social signals) and enriches CRM records with structured context before sales teams engage.",
+    "ai_play": "Replaces manual lead research (20-40 min per lead) with autonomous agent-driven enrichment. AI crawls and extracts structured company/person data, synthesizes findings, and surfaces decision-relevant context (fit signals, funding stage, decision-maker info) directly in the sales workflow. Eliminates cold-lead decay by compressing research-to-outreach cycle from days to seconds.",
+    "who_pays": "Founders, sales leaders, and SDR teams at B2B SaaS and venture-backed companies seeking to reduce manual research overhead and accelerate lead follow-up velocity.",
+    "confidence": 0.82,
+    "rationale": "Surface is a vertical SaaS agent deployed into the sales workflow (primary buyer: sales ops/founders). The core value is autonomous execution of a repetitive, high-friction job function (lead research) that was previously manual and time-consuming. It integrates with CRM tools and delivers end-user-facing automation. Secondary phenotype (agent-context-data) reflects the underlying data enrichment and web-extraction capability, but the primary phenotype is the end-product SaaS agent sold to sales teams. Confidence is high (0.82) because the product clearly fits vertical-agentic-workflow-saas: vertical focus (sales/SDR), autonomous agent execution, and workflow replacement. Not horizontal-copilot-saas because it's vertical-specific (sales research, not cross-industry writing/productivity). Not agent-context-data because Surface is the end-product, not the infrastructure layer.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-01"
+    ],
+    "launch_id": 108461,
+    "launch_url": "https://www.ycombinator.com/launches/SDN-surface-labs-the-ai-research-assistant-that-tells-you-who-every-lead-is-instantly",
+    "launch_title": "Surface Labs - The AI research assistant that tells you who every lead is instantly",
+    "launch_created_at": "2026-07-30T18:53:03.784Z",
+    "launch_tagline": "Surface researches every lead the second they come in, who they are, what their company does, why they matter, so you follow up already knowing everything instead of digging through ten tabs yourself.",
+    "launch_ingested_at": "2026-07-31T16:02:01.425Z",
+    "classified_at": "2026-07-31T16:02:01.425Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "surtr-defense-systems",
@@ -75219,6 +75574,74 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.55,
     "vertical_normalize_method": "yc_subindustry_default"
+  },
+  {
+    "slug": "tarebio",
+    "name": "TareBio",
+    "website": "https://tarebio.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/tarebio",
+    "batch": "Summer 2026",
+    "one_liner": "Vaccines for any cancer or infection in weeks",
+    "description_combined": "Vaccines for any cancer or infection in weeks\n\nOur platform develops personalized or population-level vaccines for any disease in weeks by changing only one input: the immune imprint. Instead of trying to predict which antigens might work, we read out immune cells already fighting the disease in the body and reverse-engineer antigens that activate them. We&#x27;ve already run our platform end-to-end and created a vaccine that cured cancer in mice.",
+    "industry_sub_vertical": "Personalized cancer and infectious disease vaccine design via immune cell reverse-engineering",
+    "canonical_vertical_id": "healthcare.pharma.drug-discovery",
+    "vertical_id": "healthcare.pharma.drug-discovery",
+    "vertical_label": "Drug discovery & delivery R&D",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "biotech-rd-agent",
+    "phenotype_primary_label": "Biotech / clinical R&D acceleration",
+    "phenotype_family": "life_sciences",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "immune_profiling_automation",
+      "antigen_design_optimization",
+      "vaccine_synthesis_acceleration"
+    ],
+    "what_they_sell": "AI-driven platform that designs personalized or population-level vaccines by reverse-engineering antigens from immune cell profiling. Outputs vaccine candidates in weeks instead of months/years. Monetized via licensing to pharma, direct vaccine development partnerships, or clinical trial advancement.",
+    "ai_play": "AI automates the antigen discovery bottleneck by reading immune cell signatures (TCR/BCR repertoires, immune transcriptomics) and using ML/computational biology to reverse-engineer which antigens will activate existing immune responses. Replaces manual antigen prediction with data-driven immune imprinting. Accelerates vaccine design cycles from years to weeks.",
+    "who_pays": "Pharmaceutical companies, biotech vaccine developers, cancer immunotherapy firms, government health agencies (BARDA, DARPA), clinical trial sponsors.",
+    "confidence": 0.85,
+    "rationale": "TareBio is a biotech R&D acceleration platform using AI/ML to automate vaccine design. Core value is accelerating the scientific discovery cycle (immune profiling → antigen design → vaccine synthesis) via computational biology and machine learning. Fits biotech-rd-agent phenotype: they are using AI to compress R&D timelines and automate labor-intensive discovery steps. Not a vertical workflow agent (they're not selling software to operators) and not a domain ontology (they're not building a knowledge layer for others). The AI application is scientific workflow automation — using computational methods to replace manual antigen prediction and design iteration.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare",
+      "Drug Discovery and Delivery"
+    ],
+    "yc_tags": [
+      "Vaccines",
+      "Synthetic Biology",
+      "Biotechnology"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 431020,
+        "full_name": "Eta Atolia",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder & CEO, TareBio (YC S26). MD-PhD from UCLA-Caltech, where she built a novel platform that develops vaccines for any cancer or infection in weeks, funded by the Gates Foundation. BS in Biology from MIT. Conducted research at the Koch Institute, Harvard Medical School, and the Weizmann.\n\nSelect Awards: UCLA MD-PhD Merit Scholar, UCLA TDG Senior Fellow, MIT iGEM Gold Medal, MIT IDEAs winner, MIT Dean Advisory Group, WhiteHouse Science Fair, Bessie Lawrence Scholar, Intel STS Finalist",
+        "linkedin_url": "https://www.linkedin.com/in/eta-atolia/",
+        "twitter_url": "https://x.com/eatolia",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1b89afa4d7ba0012222ebc57912ad8e652db40bd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJ6IHZDXJ%2F20260731%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260731T160106Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEiqI06Y4tUOWHECznitNKHovf8HYYsnS9HS41n5HYN5AiB5%2BrQD11jqnmEZrvQGoVNzYTK2bUoEom3fsxMkj6lv%2BCruAwix%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMP50ZwpGwK9A1hE7iKsID5w25gF4NwcHLo%2F4vZ%2F6FI6GxtmVDXOFgDJME%2FvJe0Y3s3oh0Z0ZDNaXq%2FtSlj5oYlZaUmLM44w%2FIMmrgvcPSWWY8rRW30sYPUMW40QORspnF%2FwJeIJ9j3m4jgT8XwT61Oe9zLg645szqpyzU4AEsuewRcwLUa63M90mXtxOBv9pMvJ9cttkLFi94BKSKxf0ePdmM8l3cRresV3tm5ZEjWExt0x8Wh3Mtwa7Fyj3aCsg%2BXmeoQJepCnv0kX8C6JpcqdP43j3BS7LG8w0YcDOVj3g%2F1sA3uYLJUCIDlqloP1ptmPV0sDcLtKCcCBna6CiSl8RLVU%2BoCJInIzIa%2BdE4PDzNFfZqz0Bo41UW6IXWCdMAWBySVRC%2B1AQZL25ehxik1BTT%2B0CT2IUYVloxbYh65oRaMXs5nsg0UJWQSOrD7M3EMyZWNs43LmcTodj6By1jmCGoDS2J4p5yEAG41Kn9oacT3LAKPgocDf4Uplw8DTxcUc7MEo0A%2BVrz1zd8RosPOODl9hX6lgiAUtEgVO1lU%2BmLGET2OL%2B2jnhTzPq20Muy9yZs%2BXBI8fv97VaO%2BuycQMyYIGgpvCprVFJP9jDE%2BqTkMOuJs9MGOqYBe%2Bvmkqz3ZwCKu%2BSPUo9fKODkFasKZjOC85yUQTV5SOiCiQ9lsWPc8J7l4PHli1GjpyGQqaK%2BV2XUGQakJTeRe7ilwY8Lsv69Bl9qUmfIu5kGCF9DMYHb3LtQ5UXCz%2BeUkNIxBc%2B3gkd6ev4Ie2zmrtxuRq%2FkOUVRQFjvMddhLhFda0gNm0LWXRwDlN2teOa%2BEGbaKLd7wUsdH21rQdiE5c8NdI5YMw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=366190246204978d586748ce13872dfca9f19add2369622f38d3c71992d4fbd8",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "TareBio",
+          "href": "https://www.ycombinator.com/companies/tarebio"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-07-31T16:01:17.145Z",
+    "classified_at": "2026-07-31T16:01:17.145Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
   },
   {
     "slug": "tasklet-2",
@@ -85058,7 +85481,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/zaplar",
     "batch": "Summer 2026",
     "one_liner": "Agentic Hotel Operating System",
-    "description_combined": "Agentic Hotel Operating System\n\nZaplar is the AI-native operating system for hotels.\r\n\r\nWe replace the entire hotel tech stack (PMS, POS, booking engine, etc) into one software that can handle hotel operations autonomously.\r\n\r\nLearn more at https://zaplar.com",
+    "description_combined": "Agentic Hotel Operating System\n\nZaplar is the AI-native operating system for hotels.\r\n\r\nWe replace the entire hotel tech stack (PMS, POS, booking engine, etc) into one software that can handle hotel operations autonomously.\r\n\r\nLearn more at https://zaplar.com\n\nReplacing the fragmented hotel tech stack with one system that can understand and run hotel operations.\n\nHi everyone, we're Axel, Oscar, Jon, and Douglas, founders of Zaplar.\n\nTL;DR: Zaplar as an agentic hotel OS that replaces the fragmented hotel tech stack (PMS, booking engine, channel manager, POS, revenue management, housekeeping, and more) with one system built from the ground up for AI. We're eight people with backgrounds in hotel operations, engineering, AI research, and cybersecurity.\n\n\n\nAsk: Intros to hotel owners and operators who are unhappy with their PMS, and to executives and C-suite at hotel groups planning their next core system replacement. Details at the bottom. Reach us at founders@zaplar.com.\n\nLaunch Video!\n\n## The problem\n\nIncumbents are bolting AI onto systems built for a different era. They provide a layer of AI to the end user, but the automations beneath it stay const",
     "industry_sub_vertical": "Hotel operations & property management automation",
     "canonical_vertical_id": "enterprise.ops.process-automation",
     "vertical_id": "hospitality.travel",
@@ -85164,6 +85587,12 @@
     "primary_bm_rationale": "Zaplar is a vertical AI SaaS product that replaces the entire hotel tech stack and sells directly to hotels as a software solution for their operations.",
     "primary_bm_assigned_at": "2026-07-30T19:00:13.021Z",
     "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 107463,
+    "launch_url": "https://www.ycombinator.com/launches/RxH-zaplar-replacing-pms-and-the-hotel-tech-stack",
+    "launch_title": "Zaplar - Replacing PMS and the Hotel Tech Stack.",
+    "launch_created_at": "2026-07-31T14:37:04.324Z",
+    "launch_tagline": "Replacing the fragmented hotel tech stack with one system that can understand and run hotel operations.",
+    "launch_evaluated_at": "2026-07-31T16:02:01.425Z",
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "alias_substring"
   },
