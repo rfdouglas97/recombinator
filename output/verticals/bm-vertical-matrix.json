@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-31T16:02:02.122Z",
+  "generated_at": "2026-08-01T14:59:03.462Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1270,
+    "assignment_count": 1274,
     "mapped_verticals": 239,
-    "observed_cells": 453,
+    "observed_cells": 454,
     "total_verticals": 525,
     "gap_candidates": 860
   },
@@ -915,6 +915,21 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.sales.enablement",
+      "vertical_label": "Sales enablement & execution",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "amorphic-labs",
+        "cuckoo-labs",
+        "fixture",
+        "peppr-ai",
+        "quotain",
+        "salesgraph"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.manufacturing.automation",
@@ -997,20 +1012,6 @@
         "logical",
         "pally",
         "stamp"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.sales.enablement",
-      "vertical_label": "Sales enablement & execution",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "cuckoo-labs",
-        "fixture",
-        "peppr-ai",
-        "quotain",
-        "salesgraph"
       ]
     },
     {
@@ -1722,6 +1723,18 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "fintech.payments.b2b",
+      "vertical_label": "B2B payments & treasury",
+      "sector_id": "financial-services",
+      "companies": [
+        "blaze-2",
+        "infinite",
+        "palus-finance"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "fintech.prediction-markets.execution",
       "vertical_label": "Prediction markets trading & prime brokerage",
       "sector_id": "financial-services",
@@ -1933,6 +1946,18 @@
         "centralcoms",
         "crow",
         "realpact"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "security.cloud-security",
+      "vertical_label": "Cloud infrastructure & SaaS security",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "subimage",
+        "tolmo",
+        "trident"
       ]
     },
     {
@@ -2343,17 +2368,6 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.payments.b2b",
-      "vertical_label": "B2B payments & treasury",
-      "sector_id": "financial-services",
-      "companies": [
-        "infinite",
-        "palus-finance"
-      ]
-    },
-    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "fintech.prediction-markets.derivatives-protocol",
@@ -2725,17 +2739,6 @@
       "companies": [
         "one-robot",
         "the-robot-learning-company"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "security.cloud-security",
-      "vertical_label": "Cloud infrastructure & SaaS security",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "subimage",
-        "tolmo"
       ]
     },
     {
@@ -3127,6 +3130,16 @@
       "sector_id": "consumer",
       "companies": [
         "opentrade"
+      ]
+    },
+    {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
+      "vertical_id": "consumer.finance.investment-advisory",
+      "vertical_label": "Robo-advisory & automated investment management",
+      "sector_id": "consumer",
+      "companies": [
+        "tash"
       ]
     },
     {
