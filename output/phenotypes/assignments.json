@@ -13712,6 +13712,71 @@
     }
   },
   {
+    "slug": "carsignal",
+    "name": "CarSignal",
+    "website": "https://www.trycarsignal.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/carsignal",
+    "batch": "Summer 2026",
+    "one_liner": "The Smart Operating System for Auto Shops.",
+    "description_combined": "The Smart Operating System for Auto Shops.\n\nCarSignal is a shop management platform for independent auto repair shops. We replace the fragmented stack shops juggle today. Booking, intake, quoting, parts ordering, invoicing, payments, and customer communication all within one smart system.\r\nInstead of charging SaaS fees, we monetize through a 1% fee on the payments rail, so shops switch off $500+/month tools like Shopmonkey and Tekmetric without adding a line item. Every invoice paid through CarSignal is revenue; every shop that switches saves money on day one.",
+    "industry_sub_vertical": "Independent auto repair shop operations consolidation",
+    "canonical_vertical_id": "enterprise.ops.process-automation",
+    "vertical_id": "enterprise.ops.process-automation",
+    "vertical_label": "Cross-industry process automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "workflow_orchestration",
+      "intelligent_routing",
+      "process_automation",
+      "multi_step_task_execution"
+    ],
+    "what_they_sell": "An all-in-one shop management platform (booking, intake, quoting, parts ordering, invoicing, payments, customer communication) for independent auto repair shops, monetized via 1% payment processing fee rather than SaaS subscription.",
+    "ai_play": "AI agents autonomously handle multi-step workflows: intake-to-quote generation, parts ordering coordination, invoice processing, and customer communication routing. Agents learn shop-specific processes and reduce manual data entry and task switching across fragmented tools.",
+    "who_pays": "Independent auto repair shop owners and managers seeking to consolidate fragmented tooling and reduce operational overhead.",
+    "confidence": 0.72,
+    "rationale": "CarSignal is a vertical SaaS targeting auto repair shops with an integrated workflow platform. The description emphasizes replacing fragmented tools and automating multi-step processes (booking → intake → quoting → invoicing → payment). While the current description doesn't explicitly highlight agentic AI, the 'smart system' language and workflow consolidation strongly suggest autonomous task execution and intelligent routing. The vertical focus (auto repair), end-user product (shop operators), and workflow automation align with vertical-agentic-workflow-saas. The payment-rail monetization is a differentiation but doesn't change the phenotype. Confidence is 0.72 (not higher) because the description lacks explicit mention of AI agents or autonomous execution; if CarSignal's AI layer is primarily optimization/analytics rather than agentic, phenotype could shift to a simpler vertical SaaS. Secondary phenotype could be 'vertical-ai-operating-system' if the platform evolves to include deeper domain logic and multi-party coordination (e.g., supplier networks, insurance integration), but current description suggests single-shop focus.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "SaaS",
+      "Automotive"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "Los Angeles, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3650329,
+        "full_name": "Michael Muzzin",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder and CEO of CarSignal (YC S26). Previously electrical engineering at NVIDIA, he authored the Factory Failure Disposition Guide governing re-qualification of $300M in HGX and DGX hardware. BSEE, UCLA.",
+        "linkedin_url": "https://www.linkedin.com/in/mmuzzin/",
+        "twitter_url": "https://x.com/muzzin_michael",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/916db4a926a764d2aa5180ad114eb41c9395345a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMBFKY5C7%2F20260802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260802T150011Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBcaCXVzLXdlc3QtMiJIMEYCIQC9WehZbv%2BM%2B%2F%2BOnIF2r3D91%2FbOr%2BX4AGN3J5dcTl8wowIhALRJ7mqkoa3qHUa%2BnpyRpb6mb3cMPoI%2FC%2BrhU6L8ZrpbKu4DCN%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwcrMgXrYbNxWZbkVkqwgNEbq%2Fc1qBeoRryo%2BOo26VcxJkPvMwtfv9EJe6VWyKxG8bdu96K%2BtMurUuRbjZJsgkZFzYzXwsvICM2%2BRWeRkrdkjdSK8gXpoPX39Pd3OPXafQYv6lKcEGhGbxB5dz%2BIsfUqi5g9tIPKM5Peg%2B%2FdwbdAF60K6Ni%2FffUa64we%2FsHyT5JPLVr60rWSw9kHtqFv1uzIwnmYFUudaFToWG%2F2GxEL6CniJvfaS%2Bu03geZJlp36PU28GH7UgFtEr65u00LHxqiON5fIJQkvBTrjGW7rC%2FRb2nnsfKJdwUYtyZFpTfM7CTYgyFe3J326sA1a%2FfTPMy1FGUc90m2gsz4zw07eMMenYnRjJgslq%2FyYZwwzy6xZaJIXW4tkC1bQmrrb6N4KqDtycHFLMjVlGCcnSYtaOnjeDAc2ANn2xoWLPL6xcUSljkgZeVS%2BQi52y%2FIHTA0NbEES9%2BCWk0cB3W08In08oN5X%2FsTWQC4o%2FYCaOkrLTMKUpBbOPQ1OJWYdTj2TBE2K%2FSJbzGn%2FrOsL9ZfKeI2k1KruSUnbxTSf5Dsxw3jFRDr3lXz7hWCR%2B%2FSeGXHhlI8zbkMGDLT67Ta2wj9fQeflHeDJEw8qS90wY6pAFU%2FJHZqWvztd1xnxa9Oshd5i%2FXE472DJzVZeuur6F%2FFPks0dtmipAkqVADm4IhJ0JgIX9f1SWfF7jpjjzq4%2BJERxaYioMufPYguXRVtZPdXduuvM5lqHeV0%2BU4ePoP1%2F4gMD1ODoWxISQzQiXUs54OTOrmZzCpnm8VKPMi3%2FF4WgTq60b%2BOevtgKHEYf4%2B0x%2FHnBYfZ1ABk7VfWKLSu9vvP77w7g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d7516677bec24cb64f1db8845f79701ad62f6de1f00acb4f873f02048983b20f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "CarSignal",
+          "href": "https://www.ycombinator.com/companies/carsignal"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-02T15:00:22.668Z",
+    "classified_at": "2026-08-02T15:00:22.668Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "carson",
     "name": "Carson",
     "website": "https://usecarson.com",
@@ -37408,6 +37473,83 @@
     "launch_tagline": "An all-in-one platform for building internal agents & workflows.",
     "launch_ingested_at": "2026-07-30T16:56:29.915Z",
     "classified_at": "2026-07-30T16:56:29.915Z",
+    "proposed_phenotype": null
+  },
+  {
+    "slug": "khotan",
+    "name": "Khotan (formerly Pollinate)",
+    "website": "https://www.khotan.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/khotan",
+    "batch": "Winter 2026",
+    "one_liner": "AI Agents for the supply chain.",
+    "description_combined": "AI Agents for the supply chain.\n\nSupply chains still run on spreadsheets and inboxes because ERPs are rigid and the data is messy. We&#x27;re solving this problem by building an ontology where agents can operate and provide outcomes for our customers.\r\n\r\nWe start with procurement, by automating three-way match: extracting supplier invoices from email and matching them to the correct PO and receipt across ERPs.\r\n\r\nLearn more at khotan.com",
+    "industry_sub_vertical": "Procurement invoice reconciliation and three-way matching automation",
+    "canonical_vertical_id": "logistics.supply-chain.ops",
+    "vertical_id": "logistics.supply-chain.ops",
+    "vertical_label": "Supply chain & procurement operations",
+    "vertical_sector_id": "transportation-logistics",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "document_extraction",
+      "three_way_match_automation",
+      "erp_integration",
+      "invoice_reconciliation"
+    ],
+    "what_they_sell": "End-user-facing SaaS platform deploying autonomous AI agents to automate three-way matching (invoice-to-PO-to-receipt reconciliation) in supply chain procurement. Agents extract unstructured invoice data from email, match across multiple ERPs, and resolve discrepancies without manual intervention.",
+    "ai_play": "AI agents replace manual procurement clerks by parsing messy, unstructured supplier invoices and documents, then autonomously matching them to purchase orders and receipts across rigid ERP systems. Solves the 'spreadsheet and inbox' problem by building an ontology where agents can operate reliably on fragmented data.",
+    "who_pays": "Procurement teams, finance operations, and supply chain managers at mid-market and enterprise companies with complex multi-ERP environments and high invoice volumes.",
+    "confidence": 0.82,
+    "rationale": "Khotan is a vertical SaaS product targeting procurement workflows in supply chain. Primary phenotype is vertical-agentic-workflow-saas because: (1) they sell an end-user-facing product to procurement teams, not infrastructure; (2) agents autonomously execute a specific job function (three-way match) within a vertical (supply chain); (3) high switching cost via ERP integration and domain-specific workflow learning. Secondary phenotype is agent-context-infra because a core capability is extracting and structuring messy invoice data (PDFs, emails) into agent-consumable context — solving the 'context explosion' problem of unstructured supply chain documents. Confidence is high (0.82) because the vertical focus, autonomous execution model, and ERP integration pattern are clear; slight discount because early-stage and initial focus is narrow (three-way match) though they signal broader supply chain ambitions.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Supply Chain and Logistics"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2733270,
+        "full_name": "Adeep Mitra",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "I’ve built and scaled an agency to 5 figures at 17, whilst driving community events with partnerships involving A-list artists generating 1M+ impressions.",
+        "linkedin_url": "https://www.linkedin.com/in/adeep-mitra-b71030277/",
+        "twitter_url": "https://x.com/adeepmi",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/51400c5226795247a26f2a31eca56732d6bbcaf8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE7FMQZIV%2F20260802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260802T145948Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBcaCXVzLXdlc3QtMiJIMEYCIQCzp8Zy8J%2FxFaIXGHFczLToDkrkISaFP92igoZJ9knefQIhALtZk9Fz1f9dxO7B9oKg86TKFg%2Bi28U2xSq%2FRw3yFtBMKu4DCN%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxiJq%2FFj0aG6P3k8UEqwgOmb66Sp36GHxoerXUHrpfYcAOC7MgWcv3rhyJBH9vKZJCKG8M%2FlG5r1U6pqg08FfBd3mCv8Ac74XXR86AptyMqVa08hlM0jky71cl%2BHU6o77SeumLnh4tXG2PChKtUBBnf2PQT%2FrFBfD2nbb8zREAx%2FvE5F0mMDYiTBlgeaihDSAK00%2FTKtiFjMH18f8F7wTUPeFXzqusQdLhHGgnqIVyiAeVSnKB3LEeddi1vzRTxvDsYs23tQgjKys73Ys0nESmGq0gTpCrYvrFPxJ6amHMpQwHsbXdB4XwdD6tV7w2tfFKdEkSFsyKZkzNquPLwck%2FYUZNR6XfJe5jGezJgPuzNjaI3FV6jHW6FN43djfZZMbEtFpOKdVkgfmnMuWd0JqMUC4nu6CfhLp1vm2h2OGP9m%2BBQiSMXkaaHz2UMyozF86E%2BB4bWAMYIJTUweZa3t2%2FEAuetEDvGI2Nk2ycdAsaqhhvD0ozvr5kARqLYrZN16Nywh2QklPpZ3AEKKiIg9ak5ZIrEIkiVcJkxy2pj1TC7XZIQQFM%2B0y1VnjGRi2eO00PTa%2F2K964%2BJjxYJZRtr1%2BbbKVaAgLC%2BS2mNKikBsuwOjAw8aS90wY6pAGHHTimVk%2FDttAisRqb69hCTAnBVE3FWAdDfJX9sZs4PVSSyEptLPSTfDESOvYy31NEoEdcM9784tAO5BbciA1LUR1OMCPsRXSK2T%2F00r0HGfbHQl0BAP1DxVJwgcLtDfZpvEy96u2itKQxcGlW3zoMtNt64DCJJv0OJpZHBy%2FrfnQGO50T50q%2BanmwPbWw00h%2FR%2B5N7LL%2FphAV6ESLDbyEBR0NgQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6028833f3827897c90d4b09460e97dc39861b7bd94e5556c294e5095e533d9ce",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Khotan (formerly Pollinate)",
+          "href": "https://www.ycombinator.com/companies/khotan"
+        }
+      },
+      {
+        "user_id": 2763766,
+        "full_name": "Corey Berther",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Was shipped to coding camps at 12 years old. I ran both an electrical business and a software/ marketing agency to five figures a month. \n\nDropped out of a physics degree, to build the tech backbone of the supply chain. ",
+        "linkedin_url": "https://www.linkedin.com/in/corey-berther-1b0827147/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/84e60938bdb4db27ae3290ab973d1963da3eff71.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE7FMQZIV%2F20260802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260802T145948Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBcaCXVzLXdlc3QtMiJIMEYCIQCzp8Zy8J%2FxFaIXGHFczLToDkrkISaFP92igoZJ9knefQIhALtZk9Fz1f9dxO7B9oKg86TKFg%2Bi28U2xSq%2FRw3yFtBMKu4DCN%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxiJq%2FFj0aG6P3k8UEqwgOmb66Sp36GHxoerXUHrpfYcAOC7MgWcv3rhyJBH9vKZJCKG8M%2FlG5r1U6pqg08FfBd3mCv8Ac74XXR86AptyMqVa08hlM0jky71cl%2BHU6o77SeumLnh4tXG2PChKtUBBnf2PQT%2FrFBfD2nbb8zREAx%2FvE5F0mMDYiTBlgeaihDSAK00%2FTKtiFjMH18f8F7wTUPeFXzqusQdLhHGgnqIVyiAeVSnKB3LEeddi1vzRTxvDsYs23tQgjKys73Ys0nESmGq0gTpCrYvrFPxJ6amHMpQwHsbXdB4XwdD6tV7w2tfFKdEkSFsyKZkzNquPLwck%2FYUZNR6XfJe5jGezJgPuzNjaI3FV6jHW6FN43djfZZMbEtFpOKdVkgfmnMuWd0JqMUC4nu6CfhLp1vm2h2OGP9m%2BBQiSMXkaaHz2UMyozF86E%2BB4bWAMYIJTUweZa3t2%2FEAuetEDvGI2Nk2ycdAsaqhhvD0ozvr5kARqLYrZN16Nywh2QklPpZ3AEKKiIg9ak5ZIrEIkiVcJkxy2pj1TC7XZIQQFM%2B0y1VnjGRi2eO00PTa%2F2K964%2BJjxYJZRtr1%2BbbKVaAgLC%2BS2mNKikBsuwOjAw8aS90wY6pAGHHTimVk%2FDttAisRqb69hCTAnBVE3FWAdDfJX9sZs4PVSSyEptLPSTfDESOvYy31NEoEdcM9784tAO5BbciA1LUR1OMCPsRXSK2T%2F00r0HGfbHQl0BAP1DxVJwgcLtDfZpvEy96u2itKQxcGlW3zoMtNt64DCJJv0OJpZHBy%2FrfnQGO50T50q%2BanmwPbWw00h%2FR%2B5N7LL%2FphAV6ESLDbyEBR0NgQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a161d5dbe4b1e2754684d4f48fd37a107b81b290d558c22f64d1891309211bbd",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Khotan (formerly Pollinate)",
+          "href": "https://www.ycombinator.com/companies/khotan"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-02T15:00:00.348Z",
+    "classified_at": "2026-08-02T15:00:00.348Z",
     "proposed_phenotype": null
   },
   {
@@ -69097,6 +69239,88 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "spaceflow-technologies-inc",
+    "name": "SpaceFlow Technologies, Inc.",
+    "website": "https://spaceflow.tech",
+    "yc_profile_url": "https://www.ycombinator.com/companies/spaceflow-technologies-inc",
+    "batch": "Summer 2026",
+    "one_liner": "The managed runtime for enterprise AI agents",
+    "description_combined": "The managed runtime for enterprise AI agents\n\nSpaceFlow is the managed runtime for AI agents that execute supply chain work across ERPs, email, spreadsheets, documents, and supplier portals. It turns fragmented operational data and SOPs into a governed context layer, then gives agents reusable skills and controlled access to enterprise tools.\r\n\r\nSpaceFlow agents normalize multi-round quotations, chase suppliers and delivery confirmations, repair incomplete requests, classify materials, reconcile phantom inventory, surface market signals, and help sales and operations planning teams continuously align demand, supply, inventory, purchasing deadlines, and freight decisions.\r\n\r\nSpaceFlow deploys in the customer’s cloud or on-prem environment with permissions, human approvals, observability, and audit trails, allowing industrial and regulated enterprises to automate high-stakes operations without replacing existing systems or moving sensitive data.",
+    "industry_sub_vertical": "Supply chain operations automation for procurement, supplier coordination, and inventory reconciliation",
+    "canonical_vertical_id": "logistics.supply-chain.ops",
+    "vertical_id": "logistics.supply-chain.ops",
+    "vertical_label": "Supply chain & procurement operations",
+    "vertical_sector_id": "transportation-logistics",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_orchestration",
+      "multi_system_integration",
+      "context_normalization",
+      "governed_execution"
+    ],
+    "what_they_sell": "Managed runtime platform for autonomous AI agents that execute supply chain workflows (quotation normalization, supplier chasing, inventory reconciliation, demand-supply alignment) across fragmented enterprise systems (ERPs, email, spreadsheets, documents, supplier portals). Deployed in customer's cloud/on-prem with governance, approvals, observability, and audit trails.",
+    "ai_play": "AI agents replace manual, multi-step supply chain coordination work by normalizing fragmented operational data into a governed context layer, executing reusable skills (quotation parsing, supplier communication, inventory repair, market signal extraction), and integrating with existing enterprise tools without data movement or system replacement.",
+    "who_pays": "Supply chain, operations, and procurement teams at industrial and regulated enterprises (manufacturing, distribution, logistics) seeking to automate high-stakes, multi-party coordination workflows.",
+    "confidence": 0.82,
+    "rationale": "SpaceFlow is a vertical SaaS product deployed to end-users (supply chain teams) that uses autonomous AI agents to replace manual job functions within a specific vertical (supply chain operations). Primary phenotype is vertical-agentic-workflow-saas because: (1) end-user-facing SaaS sold to supply chain operators, (2) agents autonomously execute domain-specific tasks (quotation normalization, supplier chasing, inventory reconciliation), (3) high switching cost via ERP integration and domain expertise, (4) monetized as SaaS subscription. Secondary phenotype agent-runtime-infra is relevant because SpaceFlow also provides the managed runtime/orchestration layer (permissions, approvals, observability, audit trails) that enables safe agent execution in regulated environments. The 'governed context layer' and 'reusable skills' architecture aligns with both phenotypes: primary focus is vertical automation outcome; secondary is the infrastructure enabling that automation.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Supply Chain and Logistics"
+    ],
+    "yc_tags": [
+      "Workflow Automation",
+      "Logistics",
+      "Manufacturing",
+      "Supply Chain"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 4,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1732874,
+        "full_name": "Emre Isik",
+        "title": "Co-founder and CEO",
+        "is_active": true,
+        "bio": "Founder and CEO of SpaceFlow Technologies. Previously researched computational linguistics at Cambridge under Prof. Anna Korhonen and developed system identification algorithms for motor control at UCLA&#x27;s Institute of Pure and Applied Mathematics. BA in Computer Engineering from University of Cambridge. ",
+        "linkedin_url": "https://www.linkedin.com/in/emre-i-6a88aa193?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "twitter_url": "https://x.com/Emrre_isik",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/28d05ebaf53739897d5635366d7199420e898744.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACA57HHVD%2F20260802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260802T150000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBcaCXVzLXdlc3QtMiJHMEUCIQDjZ%2BGyXWv9MbBbzYlcLQ7S6Sbh9S%2FuhYCvO%2F3q71wKNgIgHCqpj8csOQmWd1HnK184bIb9PGMRRnztSv4H84p3C98q7gMI3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDESeYbfdAI%2BoOXkmvyrCA3YaFn3%2FmptJ0%2F1kmXCV3S8UI1dDQS%2FQbouCrXHDRQSsN677fSacrLs6Hc5SEynxVAUrI3%2FS6gg%2BuZQGGnaPmciAl%2B1h8%2B94Ha4x1mS2PrGCSL5netEIBqjjK2Z7LDRI8eJJ1xByBcOIib1AQB8eooxOuVh0ZQDsRKM4JQOJAIh2%2BeLl7g3qiJHZH43IUqmNfDPGY7F4YcNzeO%2FXHYHRg5G0utzoSyCX%2F2o%2BJbRGUpUMFCMXHl3NwDEnBmetEipcj5PaZKeP88nSVCH5tVHyYpsQcPb%2Bi9sm1GC%2FMljrFfm9ej5t4k9rdx1XI21EVkJGaJCV41d4gCtoI0erWOg%2FFZzWHV08FaqHXePYX8jT3NSExx0MybX4d7%2FsYdOuR157xr8kWpqYgdHL6cA4vois%2FWiBpuc7eB3J4SsV91HAKzjAJLJnUxXdm3gZ%2BEB9iuQUvJwiyL%2BZiwnDggKWx4BRtwPjlTgyrBOmpnDL7et80FGwrfpey07gRJctwVhgAs9%2Fqb7R2vBkAdQFyjsieHBSsP%2Fyo2mCjtRbOy2zV%2FTVGfrkqwHrLF%2FhkTgrDT4zbIL7ByA%2FGSosac5OCrbiG4aR0b6joTDxpL3TBjqlAavB0%2B%2Fh4StV4EhnCK%2FiRt5Gm72KZjyZOjHjeF5823Nc8PSwDEnu0CtV4sztoImaeHYK7J17fsQIcnlBLf0VmVhE426r0ax0kWn0JFH4JY8FKkDPPqh6lKoceW4IkI%2Fd0Cb5A2E%2F2TpsZ251Hm%2BD7gMJP2tqAZRLz5aL7oBZkmLRnbekJsilnNY%2BCb4QHbTjNnIhYEH8n1sN0y1yNUBeV%2BEx4BrERQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e36340bf6d2f5cc1e3c025031795ba595be87b4a9a6d9bb3eda7c1f8469af6d1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "SpaceFlow Technologies, Inc.",
+          "href": "https://www.ycombinator.com/companies/spaceflow-technologies-inc"
+        }
+      },
+      {
+        "user_id": 3610149,
+        "full_name": "Hakan Enes Aksu",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "co-founder and cto\n",
+        "linkedin_url": "https://www.linkedin.com/in/hakan-enes-aksu/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a232238a981347ef4a7cd6905b71a4afe540049a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACA57HHVD%2F20260802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260802T150000Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBcaCXVzLXdlc3QtMiJHMEUCIQDjZ%2BGyXWv9MbBbzYlcLQ7S6Sbh9S%2FuhYCvO%2F3q71wKNgIgHCqpj8csOQmWd1HnK184bIb9PGMRRnztSv4H84p3C98q7gMI3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDESeYbfdAI%2BoOXkmvyrCA3YaFn3%2FmptJ0%2F1kmXCV3S8UI1dDQS%2FQbouCrXHDRQSsN677fSacrLs6Hc5SEynxVAUrI3%2FS6gg%2BuZQGGnaPmciAl%2B1h8%2B94Ha4x1mS2PrGCSL5netEIBqjjK2Z7LDRI8eJJ1xByBcOIib1AQB8eooxOuVh0ZQDsRKM4JQOJAIh2%2BeLl7g3qiJHZH43IUqmNfDPGY7F4YcNzeO%2FXHYHRg5G0utzoSyCX%2F2o%2BJbRGUpUMFCMXHl3NwDEnBmetEipcj5PaZKeP88nSVCH5tVHyYpsQcPb%2Bi9sm1GC%2FMljrFfm9ej5t4k9rdx1XI21EVkJGaJCV41d4gCtoI0erWOg%2FFZzWHV08FaqHXePYX8jT3NSExx0MybX4d7%2FsYdOuR157xr8kWpqYgdHL6cA4vois%2FWiBpuc7eB3J4SsV91HAKzjAJLJnUxXdm3gZ%2BEB9iuQUvJwiyL%2BZiwnDggKWx4BRtwPjlTgyrBOmpnDL7et80FGwrfpey07gRJctwVhgAs9%2Fqb7R2vBkAdQFyjsieHBSsP%2Fyo2mCjtRbOy2zV%2FTVGfrkqwHrLF%2FhkTgrDT4zbIL7ByA%2FGSosac5OCrbiG4aR0b6joTDxpL3TBjqlAavB0%2B%2Fh4StV4EhnCK%2FiRt5Gm72KZjyZOjHjeF5823Nc8PSwDEnu0CtV4sztoImaeHYK7J17fsQIcnlBLf0VmVhE426r0ax0kWn0JFH4JY8FKkDPPqh6lKoceW4IkI%2Fd0Cb5A2E%2F2TpsZ251Hm%2BD7gMJP2tqAZRLz5aL7oBZkmLRnbekJsilnNY%2BCb4QHbTjNnIhYEH8n1sN0y1yNUBeV%2BEx4BrERQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=bf0ad780ed225e0fa8e057dcea9de2c780f4a0be8178afc889ecc69f51dc02d3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "SpaceFlow Technologies, Inc.",
+          "href": "https://www.ycombinator.com/companies/spaceflow-technologies-inc"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-02T15:00:11.367Z",
+    "classified_at": "2026-08-02T15:00:11.367Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "sparkles",
     "name": "Sparkles",
     "website": "https://sparkles.dev",
@@ -70049,6 +70273,70 @@
       "vertical_id": null,
       "industry_sub_vertical": "Enterprise productivity & knowledge work"
     }
+  },
+  {
+    "slug": "standard-machines",
+    "name": "Standard Machines",
+    "website": "https://standardmachines.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/standard-machines",
+    "batch": "Summer 2026",
+    "one_liner": "Environments For Chip Design",
+    "description_combined": "Environments For Chip Design\n\nWe build environments and evaluations to teach AI to design chips.",
+    "industry_sub_vertical": "AI model training infrastructure for chip design automation",
+    "canonical_vertical_id": "devtools.build-optimization",
+    "vertical_id": "devtools.build-optimization",
+    "vertical_label": "Build pipeline optimization & caching",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "training-data-synthetic",
+    "phenotype_primary_label": "Training / eval data generation",
+    "phenotype_family": "data_assets",
+    "value_wedge": "data_asset",
+    "ai_application": "dataset_creation",
+    "ai_application_patterns": [
+      "synthetic_environment_generation",
+      "chip_design_rl_training",
+      "evaluation_benchmarking",
+      "domain_specific_corpus"
+    ],
+    "what_they_sell": "Synthetic chip design environments and evaluation frameworks that enable AI models to learn and optimize semiconductor design through simulation, benchmarking, and reinforcement learning workflows.",
+    "ai_play": "Standard Machines provides the training infrastructure (simulated chip design environments, evaluation metrics, benchmark datasets) that allows AI agents and models to learn chip design patterns, trade-offs, and optimization strategies without requiring expensive physical silicon or human expert annotation. This is foundational data/environment infrastructure for training the next generation of AI-native chip design tools.",
+    "who_pays": "AI labs, semiconductor companies, chip design tool vendors, and foundries seeking to train or deploy AI models for automated chip design, layout optimization, and design space exploration.",
+    "confidence": 0.72,
+    "rationale": "Standard Machines is primarily a training-data and evaluation-infrastructure play. They build synthetic environments (chip design simulators) and evaluation frameworks—not the chip design agent itself. This maps most closely to training-data-synthetic (synthetic data generation for domain-specific AI training) with secondary alignment to agent-observability-evals (benchmarking and evaluation frameworks for AI performance in chip design). The core value is enabling AI to learn chip design via simulation and structured evaluation, not delivering end-to-end chip design automation as a product. They are the infrastructure layer that other AI chip-design startups or semiconductor companies would use to train their models.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Semiconductors",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": null,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1978488,
+        "full_name": "Jacob Peake",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Standard Machines. \nEx GPU Architect at Apple.",
+        "linkedin_url": "https://www.linkedin.com/in/jacob-peake/",
+        "twitter_url": "https://x.com/jacobpeake",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1e58da36d411b29af7b6af0bb04427b019ed414f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAI37NIDPB%2F20260802%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260802T150022Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBcaCXVzLXdlc3QtMiJGMEQCIFGVguPI28kDZqAMZKKV79HgDXDMbA4rnlhK1kuIs1FvAiBc0QNHMdoI%2BN9TT8kMwx4rg%2F8C0mIOFiUWCnjk%2BAHggSruAwjf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMDEXutJHmjAlzYBiSKsIDUlAf0PrddhaLjEm6K9PYls5z1Td3czu1is87edfn6xAEszmSNmswS25CRAolGSuYnGrs%2B%2B4ncaNBleCqVPxJH3njZAzq7nkhqJJuKfE0kL%2B6wPch1P0bW8SjgyTa0jAY862TwW3kcC1WzCa9daKQ1siHVf0lL7SfpZtsH8k%2F%2B2maCp%2BrwlllTbituEGPafFGcNfyxXtwcsOa35Ze%2FRDAtnLFc9BI%2BziK4qk%2BeokLs1dtoAwfHmjfZZY7H8Rm0A6YLNeZXzbt9UZgBOYxqUR5UU1JK1tao%2FDVkyte6LrooF6kSCy0PBRZHaQiNEzlTsGoKZmDa6YjXf7Ul9Ff4b2J3kDiywq13zgVTInOi0wmUAYhg%2FgjcqK9rlKInRqd8oh1JjMNtUfZupLQ%2FMhe%2B%2FHXRfXldFuJdeInwt5pCHqxc1NJS1YHgw7CSgm6dDldcpdDhvW5JX86bq%2FHt2m%2BLDP5YlwW7%2FYRuideyF1Tiw48f%2BKg%2BOhyeB23QwkHxKuiIaiBwhkj%2BEkDxPdloId6te3GATLD%2FlPPK4ob23M7uIrzmfvoqTmlD02TcyyzTV%2BIS0ti1XXi7qoqmntRPv1Q281h%2FuX7MPKkvdMGOqYBr10eH54%2F29XSp%2Fjdz2YhCGDZZ2Pa8GFS25SPIs%2Ft34UeWJLf2B9x9NtTclNFQi3PZZE1HvS3%2FSdkGHGgFUAIgj%2FhV28AuRJ7XxLqViFuSLL3nE0WnKuKFjfKT0l%2FkoA0g9fGRRUSyUCF0obwKOQ5cBnN%2F3bCT88tHQ6tzNLRo4PIqxWq6vGPNMnmuitagwnpuXnzWL7u420KQ7dogGsLGS4UP2dpkQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7d3968b6ccb2d0a531e5677de27f1a05d7f2bb38410d21ab794098edfd95e0ee",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Standard Machines",
+          "href": "https://www.ycombinator.com/companies/standard-machines"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-02T15:00:33.052Z",
+    "classified_at": "2026-08-02T15:00:33.052Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "standard-signal",

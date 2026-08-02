@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-01T14:59:03.462Z",
+  "generated_at": "2026-08-02T15:01:01.039Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1274,
+    "assignment_count": 1278,
     "mapped_verticals": 239,
     "observed_cells": 454,
     "total_verticals": 525,
@@ -103,6 +103,7 @@
         "axal",
         "booko",
         "bubble-lab",
+        "carsignal",
         "clidey",
         "collar",
         "dalus",
@@ -513,6 +514,27 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "logistics.supply-chain.ops",
+      "vertical_label": "Supply chain & procurement operations",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "bizmark",
+        "comena",
+        "haladir",
+        "kanava-ai",
+        "khotan",
+        "korso",
+        "lumari",
+        "pollinate",
+        "qomplement",
+        "salespatriot",
+        "spaceflow-technologies-inc",
+        "whitespace"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "professional.law-firms",
       "vertical_label": "Law firm operations & litigation",
       "sector_id": "enterprise-software",
@@ -607,25 +629,6 @@
         "soren",
         "tandem-2",
         "trope"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "logistics.supply-chain.ops",
-      "vertical_label": "Supply chain & procurement operations",
-      "sector_id": "transportation-logistics",
-      "companies": [
-        "bizmark",
-        "comena",
-        "haladir",
-        "kanava-ai",
-        "korso",
-        "lumari",
-        "pollinate",
-        "qomplement",
-        "salespatriot",
-        "whitespace"
       ]
     },
     {
@@ -1517,6 +1520,18 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "devtools.build-optimization",
+      "vertical_label": "Build pipeline optimization & caching",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "attune",
+        "standard-machines",
+        "trainloop"
+      ]
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "devtools.code-review-governance",
@@ -2112,17 +2127,6 @@
       "companies": [
         "edviro",
         "s2-dev"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "devtools.build-optimization",
-      "vertical_label": "Build pipeline optimization & caching",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "attune",
-        "trainloop"
       ]
     },
     {
