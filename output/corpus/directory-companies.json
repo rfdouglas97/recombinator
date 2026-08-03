@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-02T14:59:48.745Z",
+  "synced_at": "2026-08-03T16:21:09.426Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1195,
+  "company_count": 1198,
   "companies": [
     {
       "slug": "10x",
@@ -2627,17 +2627,18 @@
       "slug": "belvedir",
       "name": "Belvedir",
       "batch": "Summer 2026",
-      "one_liner": "The autonomous private AI platform.",
-      "long_description": "Belvedir is the autonomous platform for training custom AI models and memory systems, hosting them privately, and continually improving them from production data.",
+      "one_liner": "The easiest way to make private AI models.",
+      "long_description": "Private AI models will win. Belvedir is the infrastructure needed to make billions of them.\r\n\r\nBelvedir is making it cheap and easy for anyone to make private AI. We autonomously train custom models + harnesses + routers, privately host them, and recursively improve them as they are used. ",
       "website": "https://belvedir.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Machine Learning",
         "Reinforcement Learning"
       ],
-      "team_size": 1,
+      "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1784319754
@@ -3801,7 +3802,7 @@
         "B2B"
       ],
       "tags": [],
-      "team_size": 4,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1768162565
@@ -4071,6 +4072,27 @@
       "location": "",
       "status": "Inactive",
       "launched_at": 1745963507
+    },
+    {
+      "slug": "caution",
+      "name": "Caution",
+      "batch": "Summer 2026",
+      "one_liner": "Hosting platform for software you don't want to get hacked",
+      "long_description": "Caution is a hosting platform for software you can't afford to get hacked. It simplifies and extends confidential compute, and lets developers deploy workloads to secure enclaves in minutes and give customers, auditors, and counterparties cryptographic proof that production is running the exact reviewed source code, build, configuration, and runtime - not an opaque binary controlled by a cloud operator or internal admin.\r\n\r\nConfidential computing hardware exists, but the tooling is too fragmented and incomplete for most teams to use well. Today, attestation often proves only that a binary has a certain hash; it does not prove what source code produced that binary. Building the missing deployment, reproducibility, and verification layer requires specialized security engineering and often locks teams into one cloud or hardware stack. Caution turns that into a simple git-based workflow that builds reproducible enclave images, provisions infrastructure, and lets anyone independently verify what is running.\r\n\r\nWe built Caution after years securing high-risk systems through Distrust, where we worked with hedge funds, custodians, blockchain teams, cloud platforms, and critical grid operators on systems responsible for more than $600B in assets. Again and again, the same problem showed up: teams running mission-critical infrastructure could not reliably prove what was executing in production.\r\n\r\nAs AI, fintech, healthcare, and regulated data collaboration move into the cloud, \"trust us\" is no longer enough. Caution is a general-purpose platform: if it runs on a server, it can run verifiably on Caution. We're starting where trust failures cost the most, but we believe verifiable compute will become the default way software runs, the same way HTTPS became the default way it's served. Infrastructure you can verify, not trust.",
+      "website": "https://caution.co",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Cybersecurity",
+        "Cloud Computing",
+        "Infrastructure"
+      ],
+      "team_size": 5,
+      "location": "George Town, George Town, Cayman Islands",
+      "status": "Active",
+      "launched_at": 1785719703
     },
     {
       "slug": "cedar",
@@ -8222,7 +8244,7 @@
       "batch": "Summer 2026",
       "one_liner": "GitCafe is a modern replacement for GitHub.",
       "long_description": "",
-      "website": "https://gitcafe.dev/",
+      "website": "https://git.cafe",
       "industries": [
         "B2B",
         "Infrastructure"
@@ -8450,7 +8472,7 @@
       "name": "Graphify Labs",
       "batch": "Summer 2026",
       "one_liner": "On-device knowledge graph engine for enterprises",
-      "long_description": "Graphify builds queryable knowledge graphs from local codebases and documents, 96K GitHub stars, 3.8M downloads, used in production by engineers at Rootly, Geotab, and Tweddle Group.The enterprise layer on top, a self-learning brain that continuously syncs an organisation's knowledge, evolves its own graph over time without forgetting, and enables formal verification of code and architecture decisions. Runs fully on-premise. No data leaves the building.",
+      "long_description": "Graphify builds queryable knowledge graphs from local codebases, docs, and Jira (100K+ GitHub stars, ~4.2M downloads, used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent). \r\n\r\nOn that graph, its enterprise layer reviews every pull request and formally verifies each code change, proving the new behavior matches the old or handing back the exact input that breaks it. The graph updates itself as the code changes and keeps context instead of forgetting it, so your whole team and their coding agents work from one shared, always-current graph of the codebase instead of a thousand private threads. \r\n\r\nRuns fully on-premise, so no data leaves the building.",
       "website": "https://www.graphify.com/",
       "industries": [
         "B2B",
@@ -9353,6 +9375,28 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1757695309
+    },
+    {
+      "slug": "impact-drones",
+      "name": "IMPACT Drones",
+      "batch": "Summer 2026",
+      "one_liner": "Air defense as a Service.",
+      "long_description": "IMPACT builds autonomous interceptor drones that ship in a sealed box. The box sits at the site it protects (data centers, power grid, airports, bases) with no crew on the pad. When sensors cue a hostile drone, an interceptor pierces its own frangible lid, launches, and rams the target, guided by onboard visual navigation that keeps working when GPS is jammed. Legacy effectors cost $1M+ per shot against $50k threats; our interceptors cost like the threat and launches scale with the swarm. Sites subscribe to protection instead of buying missiles: hardware, reloads, and monitoring included. Air defense as a Service.",
+      "website": "https://www.impact-drones.com",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "tags": [
+        "Hardware",
+        "Drones",
+        "Swarm Robotics",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1785702345
     },
     {
       "slug": "imperfect",
@@ -10779,7 +10823,7 @@
         "Artificial Intelligence",
         "Hardware",
         "B2B",
-        "Electronics",
+        "Semiconductors",
         "AI"
       ],
       "team_size": 0,
@@ -13618,7 +13662,7 @@
       "slug": "noril1",
       "name": "Nori",
       "batch": "Summer 2026",
-      "one_liner": "Sub-1500$ robot anyone can program",
+      "one_liner": "Sub-2000$ robotic humanoid assembled in the US",
       "long_description": "We manufacture humanoid robots in San Francisco. ",
       "website": "http://norirobotics.com",
       "industries": [
@@ -16881,6 +16925,27 @@
       "launched_at": 1780001140
     },
     {
+      "slug": "rasyn",
+      "name": "Rasyn",
+      "batch": "Summer 2026",
+      "one_liner": "Towards a General Intelligence for Chemistry",
+      "long_description": "",
+      "website": "https://www.rasyn.ai/",
+      "industries": [
+        "Healthcare",
+        "Drug Discovery and Delivery"
+      ],
+      "tags": [
+        "AI-powered Drug Discovery",
+        "Deep Learning",
+        "Biotech"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1785736030
+    },
+    {
       "slug": "rational",
       "name": "Rational",
       "batch": "Summer 2026",
@@ -18762,7 +18827,7 @@
       "name": "Sila",
       "batch": "Winter 2026",
       "one_liner": "Agent-Native Messaging Platform",
-      "long_description": "Sila is an agent-native messaging platform where teams and agents collaborate in the same conversations. Every agent works from the live context of everything your team says. We're defining the standard for how companies work in the agent era by creating a new type of communication layer for team-agent and agent-agent collaboration.",
+      "long_description": "Sila is the agent-native messaging platform. We're defining the standard for how companies work in the AI era by creating new types of communication layers: team-agent, agent-agent, agent-customer interaction layers and more. The conversations that define the future will happen on Sila.",
       "website": "https://silahq.com",
       "industries": [
         "B2B",
@@ -18942,7 +19007,13 @@
         "B2B",
         "Productivity"
       ],
-      "tags": [],
+      "tags": [
+        "Productivity",
+        "Enterprise Software",
+        "Automation",
+        "Email",
+        "AI Assistant"
+      ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -19066,12 +19137,12 @@
         "Human Resources"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Marketplace",
         "Consumer",
-        "Recruiting"
+        "Recruiting",
+        "AI"
       ],
-      "team_size": 5,
+      "team_size": 6,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1759034914
@@ -20434,7 +20505,7 @@
       "slug": "tepali",
       "name": "Tepali",
       "batch": "Winter 2026",
-      "one_liner": "AI operating system for medspas",
+      "one_liner": "AI operating system for modern medspas",
       "long_description": "Tepali is the AI-native operating system for medspas. We replace fragmented software and manual work with a single system of record powered by AI agents that handle front desk, patient documentation, and lead conversion.",
       "website": "https://tepali.com",
       "industries": [
@@ -20582,8 +20653,8 @@
       "slug": "textsidekick",
       "name": "Sidekick",
       "batch": "Summer 2026",
-      "one_liner": "AI-powered SMS assistant for deskless workers.",
-      "long_description": "Sidekick is an AI-powered SMS assistant for frontline workers in manufacturing, auto dealerships, and retail. The idea came from Justin's father, who owns a manufacturing facility and asked him to build a tool to help with worker onboarding, training, and organizing company knowledge. Workers text questions in any language and get instant answers from their company's documents — no app, no login, works on any phone. They can send photos of equipment for instant identification or voice memos when their hands are dirty or they're wearing gloves. Managers upload documents and record video walkthroughs; Sidekick automatically generates step-by-step tutorials and a searchable knowledge base. When Sidekick can't answer, it escalates to the manager via SMS and learns from the response, getting smarter with every interaction.",
+      "one_liner": "The text layer for frontline operations",
+      "long_description": "Sidekick lets workers text problems, photos, or voice memos in any language; it answers from the company's own documents, creates and routes the work order, and syncs with the software a company already runs. Sidekick captures the tribal knowledge in veterans' heads - the know-how that usually walks out the door when they retire - into a searchable knowledge base the company owns. No app, no login, works on any phone.\r\n\r\nSidekick started as a tool Justin built for his dad's manufacturing facility - it turned out every plant has the same gap.",
       "website": "https://www.textsidekick.com/",
       "industries": [
         "B2B",
@@ -20592,7 +20663,9 @@
       "tags": [
         "SaaS",
         "B2B",
-        "AI Assistant"
+        "Manufacturing",
+        "AI Assistant",
+        "Industrial"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -21332,7 +21405,7 @@
       "slug": "trident",
       "name": "Trident",
       "batch": "Summer 2026",
-      "one_liner": "Secure your cloud and webapps by finding real attack paths ",
+      "one_liner": "Your AI Security Team ",
       "long_description": "Traditional security tools drown teams in useless alerts and logs. Trident chains vulnerabilities together like a real attacker, mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs to show the exploits that actually cause business impact",
       "website": "https://tridentsecurity.io/",
       "industries": [
@@ -21340,9 +21413,9 @@
         "Security"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Security",
-        "Cybersecurity",
-        "AI"
+        "Cybersecurity"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",

@@ -1,7 +1,145 @@
 {
-  "updated_at": "2026-08-02T15:00:59.514Z",
+  "updated_at": "2026-08-03T16:22:03.082Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 108778,
+      "company_slug": "lamb-labs",
+      "launch_url": "https://www.ycombinator.com/launches/SIU-lamb-labs-custom-chips-for-ai-inference",
+      "created_at": "2026-08-03T04:56:33.889Z",
+      "classification": {
+        "phenotype_primary_id": "edge-inference-runtime",
+        "vertical_id": "ai-infrastructure.gpu-deploy",
+        "business_models": [
+          "BM-03",
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-03T16:22:03.069Z",
+        "launch_id": 108778,
+        "company_slug": "lamb-labs",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.gpu-deploy",
+            "phenotype_primary_id": "edge-inference-runtime",
+            "cell_key": "BM-03::ai-infrastructure.gpu-deploy::edge-inference-runtime",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "GPU infrastructure for model deployment",
+            "phenotype_label": "Edge Inference Runtime & Optimization"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 108791,
+      "company_slug": "slashy",
+      "launch_url": "https://www.ycombinator.com/launches/SIh-slashy-start-saving-2-hours-a-day-on-email",
+      "created_at": "2026-08-03T03:07:19.686Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.ops.knowledge",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-03T16:22:03.071Z",
+        "launch_id": 108791,
+        "company_slug": "slashy",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.ops.knowledge",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.ops.knowledge::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Enterprise knowledge management",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
     {
       "launch_id": 108361,
       "company_slug": "tracer",

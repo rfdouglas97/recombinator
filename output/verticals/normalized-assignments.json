@@ -14857,6 +14857,105 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "caution",
+    "name": "Caution",
+    "website": "https://caution.co",
+    "yc_profile_url": "https://www.ycombinator.com/companies/caution",
+    "batch": "Summer 2026",
+    "one_liner": "Hosting platform for software you don&#x27;t want to get hacked",
+    "description_combined": "Hosting platform for software you don&#x27;t want to get hacked\n\nCaution is a hosting platform for software you can&#x27;t afford to get hacked. It simplifies and extends confidential compute, and lets developers deploy workloads to secure enclaves in minutes and give customers, auditors, and counterparties cryptographic proof that production is running the exact reviewed source code, build, configuration, and runtime - not an opaque binary controlled by a cloud operator or internal admin.\r\n\r\nConfidential computing hardware exists, but the tooling is too fragmented and incomplete for most teams to use well. Today, attestation often proves only that a binary has a certain hash; it does not prove what source code produced that binary. Building the missing deployment, reproducibility, and verification layer requires specialized security engineering and often locks teams into one cloud or hardware stack. Caution turns that into a simple git-based workflow that builds reproducible enclave images, provisions infrastructure, and lets anyone independently verify what is running.\r\n\r\nWe built Caution after years securing high-risk systems through Distrust, where we worked with hedge funds, custodians, blockchain teams, cloud platforms, and critical grid operators on systems responsible for more than $600B in assets. Again and again, the same problem showed up: teams running mission-critical infrastructure could not reliably prove what was executing in production.\r\n\r\nAs AI, fintech, healthcare, and regulated data collaboration move into the cloud, \"t",
+    "industry_sub_vertical": "Confidential compute attestation & enclave deployment for regulated fintech, healthcare, and critical infrastructure",
+    "canonical_vertical_id": "ai-infrastructure.agent-security",
+    "vertical_id": "ai-infrastructure.agent-security",
+    "vertical_label": "Agent security & authorization",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-security-control-plane",
+    "phenotype_primary_label": "Agent Security & Access Control Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "attestation_verification",
+      "reproducible_deployment",
+      "cryptographic_proof",
+      "enclave_orchestration"
+    ],
+    "what_they_sell": "Git-based hosting platform that deploys workloads to confidential computing enclaves with cryptographic attestation. Developers push code, Caution builds reproducible enclave images, provisions secure hardware, and generates cryptographic proofs that production is running exact reviewed source code—not opaque binaries. Simplifies fragmented confidential compute tooling into a unified workflow.",
+    "ai_play": "As AI models handle sensitive data (fintech trading signals, healthcare records, blockchain custody), Caution enables AI workloads to run in hardware-isolated enclaves with verifiable provenance. Customers (hedge funds, custodians, regulated platforms) can cryptographically prove to auditors and counterparties that AI inference is running unmodified, trusted code—eliminating the 'black box AI' risk in regulated domains. Critical for AI in high-stakes, auditable contexts.",
+    "who_pays": "Hedge funds, custodians, blockchain platforms, cloud operators, healthcare systems, and regulated data collaboratives that need to prove production integrity to auditors, counterparties, and customers.",
+    "confidence": 0.72,
+    "rationale": "Caution is infrastructure enabling secure, verifiable execution of mission-critical workloads. While not strictly an 'agent' platform, it solves the core security and trust problem for deploying AI agents in regulated domains: cryptographic proof of code integrity and runtime isolation. Best fit is agent-security-control-plane (zero-trust, audit trails, fine-grained control) + edge-inference-runtime (local, hardware-isolated inference without cloud lock-in). The phenotype bridges agent governance (proving what code runs) and edge deployment (confidential enclaves). Confidence 0.72 reflects that Caution is infrastructure-first, not agent-first, but the value proposition directly addresses the trust gap in agentic AI for regulated industries.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Cybersecurity",
+      "Cloud Computing",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 5,
+    "location": "George Town, George Town, Cayman Islands",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3654857,
+        "full_name": "Ksenia Lesko",
+        "title": "Co-founder",
+        "is_active": true,
+        "bio": "Co-founder at Caution, where we help teams run sensitive workloads in secure enclaves and cryptographically prove what code is running in production. I lead the business and product side; previously ran strategy and ops at Distrust (distrust.co) and led customer education and activation at Ada (ada.cx).",
+        "linkedin_url": "https://www.linkedin.com/in/ksenialesko/",
+        "twitter_url": "https://x.com/xenush",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4ecf3715be1ffcf30eedb062148902b9a1458237.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACO6DMTHI%2F20260803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260803T162109Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIBE6J%2F%2FXeqh8CTFtXZXVncqJV1DMix%2FqpWpON2fTbFcQAiA7F1Pn%2BmJbhmsKszVnFOEDr5w3ovwAdLVXfvO9vfOBUCruAwj5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMBzbiHX8%2FWdf6Q5QJKsIDImG9s5t%2BdlYYz%2FqDlSINg1uieUL83wVQSBwCCSCJCcMMRCMHkLX46BBu51tJR041%2FZfKCiO626EA4q0KvLhgHwUZqRixNjmCXqWuduVPHbZ47kBfjAA%2B37Lw10OdLzE9aI74EkKzWqkrPeodBeIvsuICLfdwvTMx%2FgrxzXzf0wz4GqB1BhtQobfkPQcUyzktdNWjACTC8M5YbZhH%2BOWmTcfUIr6ldyGj6N2KHqET4%2BM5cYX03ccOTRCzEy0CkCFMtGocMVWtlDuElyf%2BVNHzl%2Fb61QyAH8dG8TMFBvkk0ao6gzXz8sWs4r1E9qCWDgd6ptZhcnGViiXI4buwRI2uHk5moa2imnmb35YSHdS3QdiA2X0Isjq5%2FIOasYOqVRbUlU3MWNpNuQ5RV%2FgSfgOo2EIXHzuSeRwEymBJL5FLpaQx2lfLO7tt8kle%2BQa4kWHg5QOp4Nuqc95JGvbdOzEmT0y4jBEGd5QBXNH3V8AsH22L16ihRv7mpZPg6Q%2BmPF7PfOskc69Nw5my%2FhZA9IrWPlinAtjPgDuZpB1WZog%2FDbKNrvuDhZRrZSIUJ6yROqWKD0HOoQGCp4WiyeP4lH0zP0IdMMHkwtMGOqYBVACS%2FausNzp7COyGhojlpYu6T9SS6DXfQN5zHxRvWqiVQhCmdStAd0VgWQgFfGtUbFudonNlELU4s18VO3i9MlF1oqkZ0TCS6dCg5L2dHhayPEx2i2N4b5rv0egSwSJbqG0kNobVo4eaUg2qDgfFH7IaxMQ0dVGUhg2o%2BPiXiXJYYtdhvfaRQsbjrQqJ%2FOXK6H5UJbOTx72mZueYuxqNKRzAW9pKxQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b0223499ca6cd19c0713fe8dae5e89a94c76e832dc3a6bf9e98eeb5451aab5e3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Caution",
+          "href": "https://www.ycombinator.com/companies/caution"
+        }
+      },
+      {
+        "user_id": 3655130,
+        "full_name": "Anton Livaja",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder/CEO of Caution (YC S26). We give teams a hosting platform to run sensitive workloads in secure enclaves and cryptographically prove what code is running in prod. Previously co-founded Distrust, securing systems for hedge funds, custodians, and critical infra responsible for $600B+ in assets. Deep in confidential computing, supply chain security, and applied cryptography. Mission: improve the freedom, security, and privacy of as many people as possible.",
+        "linkedin_url": "https://www.linkedin.com/in/alivaja/",
+        "twitter_url": "https://x.com/antonlivaja",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f6dddfa8391b5f9fce21fa7496e2368d59ef6987.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACO6DMTHI%2F20260803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260803T162109Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIBE6J%2F%2FXeqh8CTFtXZXVncqJV1DMix%2FqpWpON2fTbFcQAiA7F1Pn%2BmJbhmsKszVnFOEDr5w3ovwAdLVXfvO9vfOBUCruAwj5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMBzbiHX8%2FWdf6Q5QJKsIDImG9s5t%2BdlYYz%2FqDlSINg1uieUL83wVQSBwCCSCJCcMMRCMHkLX46BBu51tJR041%2FZfKCiO626EA4q0KvLhgHwUZqRixNjmCXqWuduVPHbZ47kBfjAA%2B37Lw10OdLzE9aI74EkKzWqkrPeodBeIvsuICLfdwvTMx%2FgrxzXzf0wz4GqB1BhtQobfkPQcUyzktdNWjACTC8M5YbZhH%2BOWmTcfUIr6ldyGj6N2KHqET4%2BM5cYX03ccOTRCzEy0CkCFMtGocMVWtlDuElyf%2BVNHzl%2Fb61QyAH8dG8TMFBvkk0ao6gzXz8sWs4r1E9qCWDgd6ptZhcnGViiXI4buwRI2uHk5moa2imnmb35YSHdS3QdiA2X0Isjq5%2FIOasYOqVRbUlU3MWNpNuQ5RV%2FgSfgOo2EIXHzuSeRwEymBJL5FLpaQx2lfLO7tt8kle%2BQa4kWHg5QOp4Nuqc95JGvbdOzEmT0y4jBEGd5QBXNH3V8AsH22L16ihRv7mpZPg6Q%2BmPF7PfOskc69Nw5my%2FhZA9IrWPlinAtjPgDuZpB1WZog%2FDbKNrvuDhZRrZSIUJ6yROqWKD0HOoQGCp4WiyeP4lH0zP0IdMMHkwtMGOqYBVACS%2FausNzp7COyGhojlpYu6T9SS6DXfQN5zHxRvWqiVQhCmdStAd0VgWQgFfGtUbFudonNlELU4s18VO3i9MlF1oqkZ0TCS6dCg5L2dHhayPEx2i2N4b5rv0egSwSJbqG0kNobVo4eaUg2qDgfFH7IaxMQ0dVGUhg2o%2BPiXiXJYYtdhvfaRQsbjrQqJ%2FOXK6H5UJbOTx72mZueYuxqNKRzAW9pKxQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6c11e793c218ecc80edd2b88eb7b7027f5b05dfb888525195a98e47bc25b30bc",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Caution",
+          "href": "https://www.ycombinator.com/companies/caution"
+        }
+      },
+      {
+        "user_id": 52788,
+        "full_name": "Lance Vick",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Technology sovereignty maximalist. Lead security architect at Caution. Former security lead at Turnkey, BitGo, Unit 410, Pebble. Founded Stagex Linux distribution, and #! decentralized hackerspace. Experienced in Linux hardening, privacy, software engineering, security auditing, cryptographic key management, tamper evidence, HSMs, and supply chain security. Frequently internet infamous for exposing security negligence. Prolific mechanical puzzle collector, lockpicker, and hardware hacker.",
+        "linkedin_url": "https://lance.dev",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/45728fc907c9915858fe6304bbdb25700f05d67b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACO6DMTHI%2F20260803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260803T162109Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIBE6J%2F%2FXeqh8CTFtXZXVncqJV1DMix%2FqpWpON2fTbFcQAiA7F1Pn%2BmJbhmsKszVnFOEDr5w3ovwAdLVXfvO9vfOBUCruAwj5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMBzbiHX8%2FWdf6Q5QJKsIDImG9s5t%2BdlYYz%2FqDlSINg1uieUL83wVQSBwCCSCJCcMMRCMHkLX46BBu51tJR041%2FZfKCiO626EA4q0KvLhgHwUZqRixNjmCXqWuduVPHbZ47kBfjAA%2B37Lw10OdLzE9aI74EkKzWqkrPeodBeIvsuICLfdwvTMx%2FgrxzXzf0wz4GqB1BhtQobfkPQcUyzktdNWjACTC8M5YbZhH%2BOWmTcfUIr6ldyGj6N2KHqET4%2BM5cYX03ccOTRCzEy0CkCFMtGocMVWtlDuElyf%2BVNHzl%2Fb61QyAH8dG8TMFBvkk0ao6gzXz8sWs4r1E9qCWDgd6ptZhcnGViiXI4buwRI2uHk5moa2imnmb35YSHdS3QdiA2X0Isjq5%2FIOasYOqVRbUlU3MWNpNuQ5RV%2FgSfgOo2EIXHzuSeRwEymBJL5FLpaQx2lfLO7tt8kle%2BQa4kWHg5QOp4Nuqc95JGvbdOzEmT0y4jBEGd5QBXNH3V8AsH22L16ihRv7mpZPg6Q%2BmPF7PfOskc69Nw5my%2FhZA9IrWPlinAtjPgDuZpB1WZog%2FDbKNrvuDhZRrZSIUJ6yROqWKD0HOoQGCp4WiyeP4lH0zP0IdMMHkwtMGOqYBVACS%2FausNzp7COyGhojlpYu6T9SS6DXfQN5zHxRvWqiVQhCmdStAd0VgWQgFfGtUbFudonNlELU4s18VO3i9MlF1oqkZ0TCS6dCg5L2dHhayPEx2i2N4b5rv0egSwSJbqG0kNobVo4eaUg2qDgfFH7IaxMQ0dVGUhg2o%2BPiXiXJYYtdhvfaRQsbjrQqJ%2FOXK6H5UJbOTx72mZueYuxqNKRzAW9pKxQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=eb9163b8c681b9219efcdd1db47bc8dd512cdf6fc180548d5fe5706d7e89e6d6",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Caution",
+          "href": "https://www.ycombinator.com/companies/caution"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-03T16:21:19.731Z",
+    "classified_at": "2026-08-03T16:21:19.731Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "cedar",
     "name": "Cedar",
     "website": "https://mail.cedarcopilot.com/",
@@ -34804,6 +34903,91 @@
     "primary_bm": "BM-02"
   },
   {
+    "slug": "impact-drones",
+    "name": "IMPACT Drones",
+    "website": "https://www.impact-drones.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/impact-drones",
+    "batch": "Summer 2026",
+    "one_liner": "Air defense as a Service.",
+    "description_combined": "Air defense as a Service.\n\nIMPACT builds autonomous interceptor drones that ship in a sealed box. The box sits at the site it protects (data centers, power grid, airports, bases) with no crew on the pad. When sensors cue a hostile drone, an interceptor pierces its own frangible lid, launches, and rams the target, guided by onboard visual navigation that keeps working when GPS is jammed. Legacy effectors cost $1M+ per shot against $50k threats; our interceptors cost like the threat and launches scale with the swarm. Sites subscribe to protection instead of buying missiles: hardware, reloads, and monitoring included. Air defense as a Service.",
+    "industry_sub_vertical": "Autonomous interceptor drone swarms for critical infrastructure air defense",
+    "canonical_vertical_id": "industrials.defense.drones",
+    "vertical_id": "industrials.defense.drones",
+    "vertical_label": "Defense drone & UAS operations",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "physical-ai-autonomous-systems",
+    "phenotype_primary_label": "Physical AI & Autonomous Manufacturing",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "embodied_control",
+    "ai_application_patterns": [
+      "autonomous_interception",
+      "visual_navigation_jamming_resistant",
+      "swarm_coordination",
+      "real_time_threat_response"
+    ],
+    "what_they_sell": "Autonomous interceptor drone swarms deployed as a sealed, self-launching air defense service. Hardware (interceptor drones in sealed boxes), reload logistics, and 24/7 monitoring included in subscription model. Each interceptor costs ~$50k vs. legacy $1M+ effectors.",
+    "ai_play": "Onboard visual navigation AI that enables autonomous target acquisition, launch, and interception without GPS (jamming-resistant). AI coordinates swarm behavior, threat classification, and autonomous decision-making to intercept hostile drones in real-time. AI replaces expensive human operators and legacy radar/missile infrastructure.",
+    "who_pays": "Critical infrastructure operators: data center operators, power utilities, airport authorities, military bases, government defense agencies.",
+    "confidence": 0.92,
+    "rationale": "IMPACT is a hardware-centric company deploying AI for autonomous control of physical systems (interceptor drones). Core value is the autonomous hardware platform (sealed box, frangible lid, swarm coordination), but AI is the critical enabler: visual navigation, threat detection, autonomous launch/interception, and jamming-resistant guidance. Fits physical-ai-autonomous-systems (hardware + AI for autonomous control) as primary. Secondary fit: ai-enabled-physical-systems (physical infrastructure where AI accelerates design and operational control). Not robotics-embodied-ai because IMPACT is not a general robotics platform—it's a complete air defense system. Not agent-runtime-infra because the AI is embedded in the drone hardware, not a separate orchestration layer. Confidence 0.92: clear hardware + autonomous AI control, regulated defense domain, subscription-based service model.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Defense"
+    ],
+    "yc_tags": [
+      "Hardware",
+      "Drones",
+      "Swarm Robotics",
+      "AI"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3677968,
+        "full_name": "Alessandro Fiume",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Columbia MSBA 26&#x27;. Bloomberg Sales Analytics Desk Xp. Previously Sales Rep For AeroIntel.",
+        "linkedin_url": "https://www.linkedin.com/in/alessandro-fiume45/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b13d4542b5a18d0b5a4827c8faa6a7773fac1d75.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAXAUD44R%2F20260803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260803T162127Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQDvIPtXd5N7mdo%2FQz3lGnI%2BZYVC5WSg3DQK72uWONi%2B8gIhAIm27llbWAHc%2Bv6KSJWSxvt2bmVagcT6%2Fw7Slo4kMUJsKu4DCPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxTZrMJzW%2FwkoMg9QoqwgNDcGaRASpTNJ8YZLeaMfdkPi6YfDepI05Omu8f%2FPFCumX3k5W6Z0jSsOc11LUpiUVdlZRo5ylmM3IW%2BQbI9EJ3YNdyM%2BBViZ0UZAIj1reytluqcyCiwybqNM5Cf0MHPdwbCGx90VOudTPB0Dlgww1ubYyB72N8%2FUf7IOdyLUUdfJNqWEOL3C6CEMmqx0fQUKZzbEWHrshJTxycpCX%2FGlgp1W9d9iFa74IHJycCIxpXXYDLzgYYz2rZokIly2A1VWsAGyE3yjV0iVnqoq5UjHccWFdYPXXvbM2HZkkNlDLrKt6f63lbDPM4ceEkIa7Rf24EXED7gh6Y31wFS0MLji8htWdmuVBVun%2FeweKNXzq09Pm9V1GE5AwGjpfNc4LlemN%2FHzAf9%2FPxzF3JaA6i5dFAduOBBmvkYYAtVeW%2BbfC9juy%2FiZx%2BXmiGQqiYWBskoqT4kEtpI3DkTGeGO3Q9ULyY5GoUMDVJJzt0M%2FhT1uwIeAc2xKSryESOuOHpetP4bBlRf3Z9BtT50Pnr4Rtty1TsOhHlV9gfktQWbAixDLnTCWYWrjKHroC%2FZwFBdOWD%2FLSp0knezbl8HgF2f%2B1CfeWA%2Fv8wwuTC0wY6pAFP0Gddl1IZ9x1GNMD%2FXsvRxCNahAB1pw8lpLMhfcD5OqhYwFcEZ40jgyThrfJbkpf3qaLWSE4zhvIfbQb4S0G7CQSLGpnlw8kUNB%2B54uljOK1qeU5ek48HjSuRAt9MDEwQtyrg2wwctkmWSVWeSdmETtOe3%2FaNvH0wZc%2Ffsxd7WNBpuhN6HJ2r%2F1UEblJgLW4ULfut75u%2Bb2lUz5xsaq%2BWD810DQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7ae3e61db78308003658df01b903de209e5c459b2d03f273d9ec581c7c537381",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "IMPACT Drones",
+          "href": "https://www.ycombinator.com/companies/impact-drones"
+        }
+      },
+      {
+        "user_id": 3245067,
+        "full_name": "Jasper Lortije",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at IMPACT Drones. Previously co-founded Aerointel, building visual navigation and targeting AI for autonomous interceptors with $300K revenue across European defense customers, co-secured NATO Summit 2025. MS Aerospace Engineering from TU Delft.",
+        "linkedin_url": "https://www.linkedin.com/in/jasper-l/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a658fea832c15f888808bdf1131fe0fc62b3df85.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAXAUD44R%2F20260803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260803T162127Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJIMEYCIQDvIPtXd5N7mdo%2FQz3lGnI%2BZYVC5WSg3DQK72uWONi%2B8gIhAIm27llbWAHc%2Bv6KSJWSxvt2bmVagcT6%2Fw7Slo4kMUJsKu4DCPn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxTZrMJzW%2FwkoMg9QoqwgNDcGaRASpTNJ8YZLeaMfdkPi6YfDepI05Omu8f%2FPFCumX3k5W6Z0jSsOc11LUpiUVdlZRo5ylmM3IW%2BQbI9EJ3YNdyM%2BBViZ0UZAIj1reytluqcyCiwybqNM5Cf0MHPdwbCGx90VOudTPB0Dlgww1ubYyB72N8%2FUf7IOdyLUUdfJNqWEOL3C6CEMmqx0fQUKZzbEWHrshJTxycpCX%2FGlgp1W9d9iFa74IHJycCIxpXXYDLzgYYz2rZokIly2A1VWsAGyE3yjV0iVnqoq5UjHccWFdYPXXvbM2HZkkNlDLrKt6f63lbDPM4ceEkIa7Rf24EXED7gh6Y31wFS0MLji8htWdmuVBVun%2FeweKNXzq09Pm9V1GE5AwGjpfNc4LlemN%2FHzAf9%2FPxzF3JaA6i5dFAduOBBmvkYYAtVeW%2BbfC9juy%2FiZx%2BXmiGQqiYWBskoqT4kEtpI3DkTGeGO3Q9ULyY5GoUMDVJJzt0M%2FhT1uwIeAc2xKSryESOuOHpetP4bBlRf3Z9BtT50Pnr4Rtty1TsOhHlV9gfktQWbAixDLnTCWYWrjKHroC%2FZwFBdOWD%2FLSp0knezbl8HgF2f%2B1CfeWA%2Fv8wwuTC0wY6pAFP0Gddl1IZ9x1GNMD%2FXsvRxCNahAB1pw8lpLMhfcD5OqhYwFcEZ40jgyThrfJbkpf3qaLWSE4zhvIfbQb4S0G7CQSLGpnlw8kUNB%2B54uljOK1qeU5ek48HjSuRAt9MDEwQtyrg2wwctkmWSVWeSdmETtOe3%2FaNvH0wZc%2Ffsxd7WNBpuhN6HJ2r%2F1UEblJgLW4ULfut75u%2Bb2lUz5xsaq%2BWD810DQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=92c1abca94e207e50532faf16e32388758f1749e13bfa03174671a15b5724e87",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "IMPACT Drones",
+          "href": "https://www.ycombinator.com/companies/impact-drones"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-03T16:21:36.335Z",
+    "classified_at": "2026-08-03T16:21:36.335Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
+  },
+  {
     "slug": "imperfect",
     "name": "Imperfect",
     "website": "https://imperfect.co",
@@ -40243,7 +40427,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/lamb-labs",
     "batch": "Summer 2026",
     "one_liner": "World&#x27;s fastest AI models",
-    "description_combined": "World&#x27;s fastest AI models\n\nLamb Labs is building custom chips for AI inference and the world&#x27;s fastest LLM model at the lowest power. We&#x27;ve developed a new post-training technique that converts existing models to a diffusion-based architecture that delivers 2× faster inference on existing GPUs. We then build the hardware, custom silicon chips targeting up to 20,000+ tok/s and a 63× higher intelligence per watt.",
+    "description_combined": "World&#x27;s fastest AI models\n\nLamb Labs is building custom chips for AI inference and the world&#x27;s fastest LLM model at the lowest power. We&#x27;ve developed a new post-training technique that converts existing models to a diffusion-based architecture that delivers 2× faster inference on existing GPUs. We then build the hardware, custom silicon chips targeting up to 20,000+ tok/s and a 63× higher intelligence per watt.\n\nCo-designed models and silicon: we hardcode the model architecture into chips targeting 20,000+ tokens per second and 63x higher intelligence per watt.\n\nHi Everyone! \n\nWe’re Niki and Thomas - cofounders of Lamb Labs.  \n\nTL;DR: We build custom AI inference chips that run inference at 20,000+ tok/s and 63x higher intelligence per watt than a traditional GPU. Fully local and private by construction, no subscriptions, no API costs. \n\nOur mission: the world’s fastest LLM at the lowest power. \n\n\n\nOur hot take: AI models are finally getting good enough to hardcode them directly into silicon. Once you stop treating the chip as a general-purpose GPU and burn a specific model into hardware, inference gets radically faster and cheaper per watt. Most of the industry is still building flexible, general chips. We think that flexibility is exactly what's wasting your energy. So we’re on a mission to reduce the energy footprint of AI. \n\nThe Problem\n\nAI is",
     "industry_sub_vertical": "LLM inference acceleration hardware and custom silicon for edge deployment",
     "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
     "vertical_id": "ai-infrastructure.gpu-deploy",
@@ -40321,6 +40505,12 @@
     "primary_bm_rationale": "Lamb Labs primarily monetizes through custom silicon chips and hardware products paired with their software optimization techniques, making hardware + software their core business model rather than pure infrastructure tools for developers.",
     "primary_bm_assigned_at": "2026-07-30T18:59:58.563Z",
     "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 108778,
+    "launch_url": "https://www.ycombinator.com/launches/SIU-lamb-labs-custom-chips-for-ai-inference",
+    "launch_title": "Lamb Labs: Custom Chips for AI Inference",
+    "launch_created_at": "2026-08-03T04:56:33.889Z",
+    "launch_tagline": "Co-designed models and silicon: we hardcode the model architecture into chips targeting 20,000+ tokens per second and 63x higher intelligence per watt.",
+    "launch_evaluated_at": "2026-08-03T16:22:04.077Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit"
   },
@@ -63189,6 +63379,90 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "rasyn",
+    "name": "Rasyn",
+    "website": "https://www.rasyn.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/rasyn",
+    "batch": "Summer 2026",
+    "one_liner": "Towards a General Intelligence for Chemistry",
+    "description_combined": "Towards a General Intelligence for Chemistry",
+    "industry_sub_vertical": "AI-driven molecular design and property prediction for drug discovery R&D",
+    "canonical_vertical_id": "healthcare.pharma.drug-discovery",
+    "vertical_id": "healthcare.pharma.drug-discovery",
+    "vertical_label": "Drug discovery & delivery R&D",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "biotech-rd-agent",
+    "phenotype_primary_label": "Biotech / clinical R&D acceleration",
+    "phenotype_family": "life_sciences",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "molecular_design_automation",
+      "drug_discovery_acceleration",
+      "chemistry_foundation_model",
+      "structure_prediction"
+    ],
+    "what_they_sell": "AI-native chemistry platform / foundation model for drug discovery that automates molecular design, property prediction, and synthesis planning. Likely positioned as infrastructure (API/platform) for biotech R&D teams and pharma companies to accelerate lead identification and optimization cycles.",
+    "ai_play": "Deep learning foundation model trained on chemistry/molecular data to replace manual molecular design iteration and property prediction. Enables autonomous exploration of chemical space and dramatically reduces time-to-candidate.",
+    "who_pays": "Biotech companies, pharma R&D teams, CROs, academic research labs seeking to compress drug discovery timelines and reduce wet-lab iteration cycles.",
+    "confidence": 0.82,
+    "rationale": "Rasyn's tagline 'General Intelligence for Chemistry' and focus on AI-powered drug discovery strongly aligns with biotech-rd-agent (primary). The emphasis on deep learning and molecular design suggests a foundation model approach (secondary: foundation-model-domain-infrastructure). They are building AI infrastructure to accelerate R&D workflows in biotech, not a regulated product or vertical SaaS. High confidence: clear biotech R&D acceleration play with domain-specific AI as the core differentiator.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare",
+      "Drug Discovery and Delivery"
+    ],
+    "yc_tags": [
+      "AI-powered Drug Discovery",
+      "Deep Learning",
+      "Biotech"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 0,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 972683,
+        "full_name": "Ayush Chauhan",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "CTO at Rasyn (S26)",
+        "linkedin_url": "https://www.linkedin.com/in/ayushchauhan0203/",
+        "twitter_url": "",
+        "avatar_url": "/avatars/thumb/missing.png",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Rasyn",
+          "href": "https://www.ycombinator.com/companies/rasyn"
+        }
+      },
+      {
+        "user_id": 3481804,
+        "full_name": "Daood Hashmi",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Rasyn. Currently a researcher in the Arnold and Marcus Lab at Caltech, working with a Nobel Laureate to build diffusion models that predict organic reaction mechanisms and propose novel synthetic pathways. Previously ran DFT and molecular dynamics simulations in the Goddard Lab. Chemical Engineering at Caltech.",
+        "linkedin_url": "https://www.linkedin.com/in/daood-hashmi-9588b8420/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/951a6c5546701cb614078a22a24b949c93cf48a8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAANOXQNUN%2F20260803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260803T162119Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDAaCXVzLXdlc3QtMiJGMEQCIEf%2B%2FMngrM%2Bb4%2BmoLsocJpqSoPPRffj7s0kEYvGn3wKzAiAoDVYbVHczVJKe%2FiQ2CeBe5LGLJ1dWYC%2FAJOz9Pc07TyruAwj4%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMzaTbWJYnb%2FBCmwsrKsIDG9tkR0u8iLQdAFx3vsWv8Qq7tXrGhcDEHtSHADiMjM0rh2ElQL4px3ZXENhATQjS6nCJnIWEosv2X4MVeFQkO7DTA0WI3aXK%2BrbcWC4SMzFlm3yjxkikb85WZ%2FjsZkZJXacuDS1GrRt8DnNNOwRR0noFuVdvMYAYU4BoHTCxbpErWb1%2BtfmxBx%2BozTecmxE%2BMR4DOfhzeKy2jZK2uin1xEBTexTAqGea5ceOm3CVPXCK1FK7YxowT9PSAgDZOoaNyHp7mWDiZeKB8JA7K2EaLu%2F7cCYtq95nIgfOpaXtp8aLGcnUP9s9eickyh6Mg7ZWPXP5SOjpbQnRNbzSCjA%2FhOd2ia0%2BrvTM3LV6hcCSVJTwCFXSUm%2FO5OabwFstJfD0VS8FceTYb6LCmjgnN0J%2FqL68qx6n7dxg61AU5MK1S5xIY7cvMjVfYjXAEtKFJjplbKr%2Foh2fiAR8Drrvt%2FhSKoQF9B1gOs0RRu5s0kzQ31SUCtnQ41zg9Y4Y933stj9ByfWp%2F1AphVf%2B8HGjcnTeeJHFZVEX8yvhCr13J9LFe3upzPAI05FlmRMvyGIH5zg0ePKa3EknB8yg2z6pbcU3NDBgMMLkwtMGOqYBoFVbl4XHg2DcbsIyxW9kPgsK1BKV1kzvq6qsAxsRfYhObjqqO%2FTSsdFL4%2B%2BMzDzOLc9U1%2FS9anlYFF6oDolqzwnKe57qMxa1%2B%2Bwv1Wbiot4QFzsEEERtoTfa87RmTZmS2auFS04G6VhN1LzOJLgprSvIzNh%2FcRqgnAc33sCSRBjYktW8hHaZkzDim%2FpHRvxUPq1BXz6%2BkEeFHWgQb%2BRSXRd6n8S4Qw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ea2f1b4878e5bdaf69bf81733a6aa4a740f9383ef89933fa78dd519af36ac41c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Rasyn",
+          "href": "https://www.ycombinator.com/companies/rasyn"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-03T16:21:26.991Z",
+    "classified_at": "2026-08-03T16:21:26.991Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
+  },
+  {
     "slug": "rational",
     "name": "Rational",
     "website": "https://rational.to",
@@ -71071,7 +71345,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/slashy",
     "batch": "Summer 2025",
     "one_liner": "Cursor for Email",
-    "description_combined": "Cursor for Email\n\nAI that helps you fly through your inbox.",
+    "description_combined": "Cursor for Email\n\nAI that helps you fly through your inbox.\n\nSlashy drafts replies in your voice, schedules meetings, and handles follow ups, so you spend less time managing email, and more time on what matters\n\nHey everyone we’re Harsha and Dhruv from Slashy. Our goal is to define the next generation of email, by building an email platform that actually works for you, and learns over time. \n\nTLDR: Slashy is the next big email platform after Superhuman, the first with an assistant built in. Slashy can do everything from writing drafts in your tone, texting you when an important email comes in, prepping you for calls, to the things you expect from a true email client like keyboard shortcuts, open tracking, a mobile app and more. All while continuously learning about you and your preferences, so it only gets better over time. The average user takes 5 minutes to get set up and saves an extra hour a day. Read an independent review from Tom’s guide (1m+ subscribers) here.\n\nYou can get started for free ",
     "industry_sub_vertical": "Email inbox management & knowledge worker productivity",
     "phenotype_primary_id": "vertical-workflow-agent",
     "phenotype_secondary_id": null,
@@ -71124,6 +71398,12 @@
     "primary_bm_rationale": "Slashy is a software product sold to knowledge workers for email productivity, monetized as a SaaS subscription rather than as a managed service or outsourced labor outcome.",
     "primary_bm_assigned_at": "2026-06-05T19:59:50.992Z",
     "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 108791,
+    "launch_url": "https://www.ycombinator.com/launches/SIh-slashy-start-saving-2-hours-a-day-on-email",
+    "launch_title": "Slashy - start saving 2 hours a day on email",
+    "launch_created_at": "2026-08-03T03:07:19.686Z",
+    "launch_tagline": "Slashy drafts replies in your voice, schedules meetings, and handles follow ups, so you spend less time managing email, and more time on what matters",
+    "launch_evaluated_at": "2026-08-03T16:22:04.077Z",
     "vertical_normalize_confidence": 0.65,
     "vertical_normalize_method": "llm_vertical"
   },
