@@ -325,7 +325,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/83-sciences",
     "batch": "Summer 2026",
     "one_liner": "AI-native materials discovery powered by unpublished experimental data",
-    "description_combined": "AI-native materials discovery powered by unpublished experimental data\n\n83 Sciences uses AI to mine discarded experimental data and drive scientific breakthroughs. Working alongside labs, we discover the materials that will power the new Industrial Revolution.",
+    "description_combined": "AI-native materials discovery powered by unpublished experimental data\n\n83 Sciences uses AI to mine discarded experimental data and drive scientific breakthroughs. Working alongside labs, we discover the materials that will power the new Industrial Revolution.\n\nWe train materials discovery models on experimental data to help industry improve manufacturing performance at scale and help academics publish more. \n\nHistory’s greatest ages are named after materials (Stone Age, Bronze Age, Iron Age, Silicon Age, etc.). The next great age is ours to make together.\n\n\n\nTL;DR: We are a team of Stanford, MIT, and Harvard researchers discovering breakthrough materials by training frontier models on decades of unpublished experimental data. We've already discovered a novel material and drafted a manuscript for publication.\n\nIndustrial R&amp;D teams use us to find scalable application-specific materials that frontier models can't predict. Academic labs turn decades of unpublished data into new papers, citations, and commercialization revenue with us.\n\nWhat we do\n\nWe are uncovering novel materials that help industry improve performance at scale and stay top of new regulations. Examples include replacements for ",
     "industry_sub_vertical": "Materials discovery & R&D acceleration for advanced materials manufacturers",
     "canonical_vertical_id": "industrials.manufacturing.ops",
     "vertical_id": "industrials.manufacturing.ops",
@@ -411,6 +411,12 @@
     "directory_synced_at": "2026-07-30T15:58:43.567Z",
     "classified_at": "2026-07-30T15:58:43.567Z",
     "proposed_phenotype": null,
+    "launch_id": 108805,
+    "launch_url": "https://www.ycombinator.com/launches/SIv-83-sciences-materials-discovery-from-the-90-of-experimental-data-that-never-gets-published",
+    "launch_title": "83 Sciences: Materials discovery from the ~90% of experimental data that never gets published",
+    "launch_created_at": "2026-08-03T22:41:26.834Z",
+    "launch_tagline": "We train materials discovery models on experimental data to help industry improve manufacturing performance at scale and help academics publish more. ",
+    "launch_evaluated_at": "2026-08-04T16:11:35.017Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-09"
@@ -3112,6 +3118,55 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "alloy",
+    "name": "Alloy",
+    "website": "https://alloy.app",
+    "yc_profile_url": "https://www.ycombinator.com/companies/alloy",
+    "batch": "Winter 2023",
+    "one_liner": "Codebase Sessions for Everyone, Not Just Engineers",
+    "description_combined": "Codebase Sessions for Everyone, Not Just Engineers\n\n### Cloud Agents for Product Teams\n\nAlloy is the world's first cloud agents platform built for everyone, not just engineers:\n\n➤ Connect GitHub and run your real codebase in the cloud\n➤ Chat to build your feature ideas in minutes\n➤ View a direct preview, not a pixelated video stream\n➤ Push code and open a pull request in one click\n\n### The story behind cloud agents\n\nHey! I'm Simon Kubica, CEO of Alloy. I co-founded the company with Christian Iacullo after our time working at Canva and Atlassian. We founded the company with one mission: give product leaders new superpowers.\n\nWe started with prototypes that look exactly like your product, captured from the browser. But we kept hearing the same thing from our users: the prototype was never the finish line. The moment something looked right, PMs wanted it in the real product — and that meant handing it back to engineering and starting over.\n\nThe problem is that cloud agents today are built for engineers. Cursor, Devin, and Claude Code are powerful, but they assume you can configure environments, read diffs, and live in a terminal or IDE.\n\nWe felt that going from idea to pull request shouldn't require a development environment.\n\nSo starting today, it doesn't.\n\n### Get started with Cloud Agents\n\nWith cloud agents, you build with your actual codebase in the cloud: describe a change in chat, click through a live preview of your real app (not a pixelated remote desktop), share the session with a link, and open a pull request your engin",
+    "industry_sub_vertical": "Agentic codebase collaboration for product teams",
+    "canonical_vertical_id": "enterprise.devtools.productivity",
+    "vertical_id": "enterprise.ops.process-automation",
+    "vertical_label": "Cross-industry process automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "horizontal-copilot-saas",
+    "phenotype_primary_label": "Horizontal Copilot / Productivity SaaS",
+    "phenotype_family": "horizontal_saas",
+    "value_wedge": "productivity_multiplier",
+    "ai_application": "copilot_assistant",
+    "ai_application_patterns": [
+      "agentic_code_generation",
+      "live_preview_feedback",
+      "workflow_to_api_abstraction",
+      "cross_functional_tooling"
+    ],
+    "what_they_sell": "Cloud-based agentic platform enabling product managers, designers, and non-engineers to describe feature ideas in natural language, execute changes against a live codebase in the cloud, preview results in real-time, and generate pull requests — eliminating the handoff friction between product conception and engineering implementation.",
+    "ai_play": "AI agents execute codebase modifications autonomously by parsing natural language feature descriptions, integrating with GitHub, running code in cloud sandboxes, and generating diffs/PRs. The key innovation is making agentic code generation accessible to non-engineers by abstracting away terminal/IDE complexity and providing live visual feedback instead of diffs.",
+    "who_pays": "Product managers, product leaders, design teams, and engineering teams at software companies seeking to compress the ideation-to-implementation cycle and reduce context-switching between product and engineering.",
+    "confidence": 0.72,
+    "rationale": "Alloy is primarily a horizontal productivity tool (cross-industry, seat-based, targets product/design teams) that uses AI agents to augment workflow execution. It fits horizontal-copilot-saas because it's a cross-functional SaaS product multiplying productivity for non-engineers. Secondary phenotype agent-workflow-abstraction-infra applies because Alloy converts human-driven product workflows (chat → live preview → PR) into agent-executable operations against real codebases. The confidence is 0.72 (not higher) because while it's clearly horizontal SaaS, the agent-centric architecture and codebase integration depth suggest it could evolve into a more specialized developer/product infrastructure play; however, current positioning and GTM are seat-based SaaS to product teams.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-02"
+    ],
+    "launch_id": 109009,
+    "launch_url": "https://www.ycombinator.com/launches/SMD-alloy-cloud-agents",
+    "launch_title": "Alloy Cloud Agents",
+    "launch_created_at": "2026-08-04T14:29:27.961Z",
+    "launch_tagline": "Codebase Sessions for Everyone, Not Just Engineers",
+    "launch_ingested_at": "2026-08-04T16:11:35.016Z",
+    "classified_at": "2026-08-04T16:11:35.016Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 0.55,
+    "vertical_normalize_method": "yc_subindustry_default",
+    "primary_bm": "BM-02"
+  },
+  {
     "slug": "allus-ai",
     "name": "Allus AI",
     "website": "https://allus.ai",
@@ -4014,7 +4069,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/amorphic-labs",
     "batch": "Summer 2026",
     "one_liner": "Agentic, Personalized Product Demo Videos for Sales",
-    "description_combined": "Agentic, Personalized Product Demo Videos for Sales\n\nWe build agents that create personalized product demo videos for tailored outbound, qualifying inbound, and call follow ups. Provide a list of prospects and our agent will research each prospect, use your app to record a tailored demo workflow complete with personalized seeded data, edit and narrate the video, then output a polished demo video ready to send.",
+    "description_combined": "Agentic, Personalized Product Demo Videos for Sales\n\nWe build agents that create personalized product demo videos for tailored outbound, qualifying inbound, and call follow ups. Provide a list of prospects and our agent will research each prospect, use your app to record a tailored demo workflow complete with personalized seeded data, edit and narrate the video, then output a polished demo video ready to send.\n\nAI agents that create personalized demos at scale for outbound, inbound, and call follow-ups without your team recording a thing.\n\ntl;dr: We build AI agents that create personalized product demo videos for outbound, inbound qualification, and post-call follow-ups. Just give us a demo account for your app and a list of prospects, and our agent researches each prospect, uses its own computer to record a tailored workflow in your app with seeded personalized data, then edits and narrates the video so it is ready to send as a link to each prospect.\n\nLaunch Video:\n\n\n\nOur Ask:\n\n* If you’re a founder or part of a startup that sells software, we can help you give every prospect a tailored product experience while saving your team hours of recording time. Book a demo at amorphiclabs.com!\n* If you know any sales or RevOps leaders, we would love introductions or referrals to them.\n\nThe Problem:\n\nRecording a personalized product ",
     "industry_sub_vertical": "Sales enablement & personalized demo video generation",
     "canonical_vertical_id": "enterprise.sales.enablement",
     "vertical_id": "enterprise.sales.enablement",
@@ -4087,6 +4142,12 @@
     "directory_synced_at": "2026-08-01T14:58:12.666Z",
     "classified_at": "2026-08-01T14:58:12.666Z",
     "proposed_phenotype": null,
+    "launch_id": 108806,
+    "launch_url": "https://www.ycombinator.com/launches/SIw-amorphic-labs-agentic-personalized-product-demo-videos-for-sales",
+    "launch_title": "Amorphic Labs - Agentic, Personalized Product Demo Videos for Sales",
+    "launch_created_at": "2026-08-03T21:11:17.469Z",
+    "launch_tagline": "AI agents that create personalized demos at scale for outbound, inbound, and call follow-ups without your team recording a thing.",
+    "launch_evaluated_at": "2026-08-04T16:11:35.017Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-02"
@@ -12618,7 +12679,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/buildbox",
     "batch": "Summer 2026",
     "one_liner": "Understand how users experience your AI agents",
-    "description_combined": "Understand how users experience your AI agents\n\nBuildbox helps product teams improve the human-agent experience. We analyze user intent, agent behavior, and outcomes to find where users get stuck or lose trust, then turn those findings into ranked, reproducible issues. ",
+    "description_combined": "Understand how users experience your AI agents\n\nBuildbox helps product teams improve the human-agent experience. We analyze user intent, agent behavior, and outcomes to find where users get stuck or lose trust, then turn those findings into ranked, reproducible issues. \n\nFind the user-facing agent failures hidden behind successful traces and evals.\n\nTL;DR: An agent can pass its evals and look healthy in traces while still failing to help users complete important tasks. Buildbox identifies those failed user journeys, ties them to business outcomes, and tests better agent behaviors and interaction patterns. Product teams get evidence-backed fixes they can review and ship.\n\nAsk: If you’re building a customer-facing AI agent, we’ll help you find the agent failures you haven’t seen yet. Book 20 minutes with us: cal.com/team/buildbox/discovery\n\nwww.youtube.com/watch?v=Er_CW5WS6Lw\n\nThe problem: the most expensive agent failures rarely look like errors.\n\nYour agent can return an answer, produce a normal-looking trace, and pass its evals while still failing to help the user. If someone has to ask the same question three times, repeatedly redir",
     "industry_sub_vertical": "AI agent observability & user experience analytics",
     "canonical_vertical_id": "ai-infrastructure.agent-observability",
     "vertical_id": "ai-infrastructure.agent-observability",
@@ -12691,6 +12752,12 @@
     "directory_synced_at": "2026-07-30T16:09:10.991Z",
     "classified_at": "2026-07-30T16:09:10.991Z",
     "proposed_phenotype": null,
+    "launch_id": 108803,
+    "launch_url": "https://www.ycombinator.com/launches/SIt-buildbox-agent-analytics-for-real-user-outcomes",
+    "launch_title": "Buildbox: Agent analytics for real user outcomes",
+    "launch_created_at": "2026-08-03T20:24:30.725Z",
+    "launch_tagline": "Find the user-facing agent failures hidden behind successful traces and evals.",
+    "launch_evaluated_at": "2026-08-04T16:11:35.017Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -20977,6 +21044,76 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "dartboard",
+    "name": "Dartboard",
+    "website": "https://dartboard.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/dartboard",
+    "batch": "Winter 2025",
+    "one_liner": "AI-native remote operations center for hardware fleets",
+    "description_combined": "AI-native remote operations center for hardware fleets\n\nDartboard is the modern remote operations center for hardware fleets. We pair expert operators with AI agents to identify, diagnose, and fix issues faster.",
+    "industry_sub_vertical": "Hardware fleet remote operations & AI-assisted diagnostics",
+    "canonical_vertical_id": "industrials.robotics.teleop",
+    "vertical_id": "industrials.robotics.teleop",
+    "vertical_label": "Robotics teleoperation infrastructure",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_diagnostics",
+      "fleet_monitoring",
+      "human_agent_collaboration",
+      "real_time_issue_resolution"
+    ],
+    "what_they_sell": "SaaS platform that deploys AI agents into remote operations centers to work alongside human operators. Agents monitor hardware fleet telemetry, identify anomalies, diagnose root causes, and recommend or execute fixes in real-time. Reduces mean-time-to-resolution (MTTR) and operator workload.",
+    "ai_play": "AI agents augment expert operators by automating diagnostic workflows, parsing sensor data and logs, and routing issues to appropriate specialists. Agents learn fleet-specific failure patterns and operational context, enabling faster issue identification and resolution without replacing human expertise entirely.",
+    "who_pays": "Industrial equipment operators, fleet managers, and OEMs managing distributed hardware assets (manufacturing, energy, infrastructure, logistics).",
+    "confidence": 0.78,
+    "rationale": "Dartboard is a vertical SaaS product deployed into a specific operational domain (industrial fleet remote ops). The core offering is an end-user-facing platform where AI agents augment human operators to automate diagnostic and remediation workflows. This is distinct from agent infrastructure (they are not selling the runtime itself) and from consulting (they are selling a product, not a service). The human-in-the-loop model (agents + operators) and focus on workflow acceleration within a vertical (industrial hardware ops) align strongly with vertical-agentic-workflow-saas. Secondary phenotype agent-runtime-infra reflects the orchestration layer managing agent-operator collaboration and fleet telemetry ingestion.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Hardware",
+      "Robotics",
+      "Energy",
+      "Industrial"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 44103,
+        "full_name": "Rohun Ati",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "CEO at Dartboard. 10th employee and data scientist at Second Measure (YC S15), stayed through its acquisition by Bloomberg. Built the data pipelines for a first-to-market credit card transaction dataset, now powering the Bloomberg Terminal. Later, spent 9 months at AutoGrid in a contract role to see the challenges in clean energy firsthand.",
+        "linkedin_url": "https://www.linkedin.com/in/rohunati",
+        "twitter_url": "https://twitter.com/rohunati",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1797a7c71f5ed6498665c5cf7dde48d71e005ff5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACYMIF6NC%2F20260804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260804T161016Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIQCm4wXgXZA%2BsqqxFExkbXX8wMfBxGzT0GQYY80VLokCCQIgJOT1l496OxeZ55FQqMq3Zka06ds4zdzK00tjXS8ncKoq5QMIERAAGgwwMDYyMDE4MTEwNzIiDGmeEwXvIuA42P4OzSrCA7aQ7x7Sox%2FC%2FvM2klXY08z0GoNiyfcOGdwlx0NVFPqSMyffUcef81%2Fc0lJY0FYZn0Csm289TR3weTX9ulnV7VAKmEjgaJ6sR2jlBJT7vq6GG2LWQQNGQS5Ipp%2BsrRVaN%2FDyrgZyBBvTQYeZEQKw5vBZuWzOyN4uDQdI%2FH9szdVcNwbAF7UtdF4tOoXXnlQw4LXW2h8HaKoijWcCBu1JZLJfObYXaFIj36ypSgbgDIlrRh46dA3EASiPGwkyjrtpEbD3SLE1IRbctdYVy8%2FZUfb3jgGfzm%2ByfViqv8kfKsfH5W4IqLpg5jfS5%2BnWI%2BFlMm2qjBBnxuhTB%2BSxcRADaoN7wIFWmAhFEgC9UqSpJzF7FV%2Bae1nIhDogrB6PYtXcL4qTFooDbEmGfU3QqFZAJaJOhic%2FyFtXdJqJ7y9%2B5mE3vlMuT26ZVjWvm5WKw%2BhiFbKt%2B64ePDx0zvq2VpxC7vuXj5GBfn%2BZr7pIC%2FZFm2V5M2j32sQsCtbiA6SvalHZbjQ7yQrdWyaDVA7tBhdjgHfMsAtdmXwDHRPLHMMvn%2Bus3RTuBBg%2FdNRv3StE6Pw6rXAgRn4nScAICeCzGLzKpOKj9TC0lcjTBjqlARZfwNqTJh0n%2FgvrS5%2FAYFX%2BVxX7hdS%2Bf%2FXM0rMEj5JfitFz5qeX%2FiXR9fR9SAM%2BCv0eKn3d6QO2Hc9m38fbUMDV3%2FlOew315rHZZGJrjdabBG2PGc7I4XB9XnYuIDSoL1IoAR33FH6MVcNARM2vui4zm%2FE5MJlKOyMyJkZagGIjJAjfkoqRybnADFE7vVHjX8QmQauYlM%2F7rgDpxynTkSMK1Q3IiA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f2ac4f7b32e9197e6e7ceb316873000e8b4b53b3923d073f516e88723fd72f00",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Dartboard",
+          "href": "https://www.ycombinator.com/companies/dartboard"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-04T16:10:25.991Z",
+    "classified_at": "2026-08-04T16:10:25.991Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
+  },
+  {
     "slug": "dartboard-energy",
     "name": "Dartboard Energy",
     "website": "https://dartboardenergy.com",
@@ -23820,6 +23957,76 @@
     "primary_bm": "BM-10"
   },
   {
+    "slug": "dreach",
+    "name": "Dreach",
+    "website": "https://dreach.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/dreach",
+    "batch": "Spring 2026",
+    "one_liner": "Never miss a lead",
+    "description_combined": "Never miss a lead\n\ndrip autonomously finds leads, sends first messages, follows up, and books meetings. Every conversation syncs for your team.",
+    "industry_sub_vertical": "Sales outbound automation agent platform",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "lead_discovery_automation",
+      "autonomous_outreach_sequencing",
+      "meeting_booking_agent",
+      "team_sync_integration"
+    ],
+    "what_they_sell": "End-user-facing SaaS platform deploying autonomous AI agents to handle the full lead-to-meeting workflow: discovery, first-message composition, follow-up sequencing, and meeting booking. All conversation data syncs back to the sales team's CRM/tools for visibility and handoff.",
+    "ai_play": "AI agents autonomously execute multi-step sales workflows (prospecting, outreach, nurturing, qualification) that traditionally require manual effort from sales development reps (SDRs) and recruiters. Agents learn messaging patterns, handle objections, and adapt follow-up cadence without human intervention. Reduces SDR/recruiting labor while improving lead velocity and conversion.",
+    "who_pays": "Sales teams, recruiting teams, and sales operations leaders at B2B companies seeking to scale outbound prospecting and meeting booking without proportional headcount growth.",
+    "confidence": 0.82,
+    "rationale": "Dreach is a vertical agentic workflow SaaS targeting sales/recruiting. It deploys autonomous agents to replace manual SDR/recruiter tasks (lead finding, messaging, follow-up, booking). The product is end-user-facing (sold to sales/recruiting teams), integrates with existing tools (CRM sync), and uses AI to automate a repeatable, high-friction workflow. This is distinct from horizontal copilots (which assist humans) and agent infrastructure (which enables builders). The 'never miss a lead' positioning and autonomous drip campaign execution align with vertical workflow automation. Confidence is high (0.82) because the phenotype fit is clear, though there's minor ambiguity around whether this could be positioned as a horizontal productivity tool—but the vertical focus on sales/recruiting workflows and the autonomous execution model (not copilot-style assistance) strongly favors vertical-agentic-workflow-saas.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "B2B",
+      "Recruiting",
+      "Messaging",
+      "Sales Enablement"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3330353,
+        "full_name": "Mike Levin",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Autonomously find, sync, and message leads on every platform",
+        "linkedin_url": "https://www.linkedin.com/in/mikelevin-/",
+        "twitter_url": "https://x.com/mike_drip",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9f6504e75ab0a729c79d4cb170d8d97794be178b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAD2JTYXYN%2F20260804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260804T161026Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJIMEYCIQCk6trwzVQGWRKoEPR%2FDgoZafIZ%2BKqCjf%2B5AjSmMPVelgIhAJoMO3bIdTTKi4z%2B5j1AYUU71SmdZ4kQWUb0d0E2W8ZrKuUDCBEQABoMMDA2MjAxODExMDcyIgzXG8L%2BJRzSahKgeR4qwgMtHy4YI%2BldIGo0F4KOAm90sbNi7deV7yG3i71%2BV4275SVY%2FoRMbjDMCUjO9kXjxIx%2FASBAOFfCEkM9uhNYj54z0Ca%2BWgZvvEqgrqf3cwRRuwHs2G3qG2wSHdZdGwQn4bpfKy05mxe%2BrsCZUxrGY%2BVT545J1O11EexNSU8pxo3Hav0%2FujXhtxQK3J57Wf%2FCiQNi0fU9BkHazRLEpPAB0YD6u90G4WLpe70GLojtj9wRsPra0szo1fVp1mpOZjAgA5BP646Wme6YpVeMcTYyktObg%2FU%2BjKw9KppUjV4L4bKGsABaTZ%2FpHrFSGRLZMi832lfjLIv1kSVc%2BV5%2FdFigNFzKphXh%2F3SrBJeytaxK3lSPAMg00kHGBJG6lekkQcA%2Bt%2Bhsyi%2FikYZ4AcOwC1XIzbZYCzYcY%2B5qGHPP0xfkPMfsF%2BagZtHTuummfO91ABg64yEJAY%2B47wCsICmEtfTJ0Qc4CxUZuueG1s%2FXXOQXNj7Hg2s7H%2F1rRIvvQFFBld1zuve68ERyi90TFtOsKErfB9Iugq6N69xCbU6hU5vEky5%2Fc9YGVUM1gw8OLzeudLTeCQAYmtpIg7k11rWJriVE5%2BTwMuYwtZXI0wY6pAGbv3LeIwbewkZf1nOM85rjDz2WkeF1rTrXQqdy5bVVYyW5kYbhSZJlN56tVtlYIeKKKfZM78vnyhjhxBx%2FfVqEQViRh2MW8XyT9LUz%2F5ahC%2BD%2FwrWTqNi5UDdZ0Krom4jCwjrHk7UGOSzcuehX3t4EcX0Iv6Flw55yAw1%2BWf%2FraSJaKNFZWOmNZF2sm1KgKfp4gggwFI1OTe8bu69%2FfbZDhsElsg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a5e1f1fb99b3ed92415eff97a52260cbeeaf909b339f46b7f9e72be55006f1b2",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Dreach",
+          "href": "https://www.ycombinator.com/companies/dreach"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-04T16:10:36.485Z",
+    "classified_at": "2026-08-04T16:10:36.485Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
+  },
+  {
     "slug": "drippay",
     "name": "Drip",
     "website": "https://usedrip.ai",
@@ -25844,7 +26051,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/executor",
     "batch": "Summer 2026",
     "one_liner": "The open source integration management layer for AI.",
-    "description_combined": "The open source integration management layer for AI.\n\nExecutor.sh is an MCP gateway that allows you to sign in once to all of your integrations and use them with any client.\r\n\r\nWe enable you to connect your agents to anything (MCP, GraphQL, OpenAPI) so regardless of what you&#x27;re trying to connect agents to you&#x27;re able to.\r\n\r\nIf you&#x27;re trying to scale agents to access all of your production services, data, etc, you need Executor as a unified management layer.",
+    "description_combined": "The open source integration management layer for AI.\n\nExecutor.sh is an MCP gateway that allows you to sign in once to all of your integrations and use them with any client.\r\n\r\nWe enable you to connect your agents to anything (MCP, GraphQL, OpenAPI) so regardless of what you&#x27;re trying to connect agents to you&#x27;re able to.\r\n\r\nIf you&#x27;re trying to scale agents to access all of your production services, data, etc, you need Executor as a unified management layer.\n\nConnect your tools once and every agent has them, with permissions you control\n\nTL;DR: Executor is your tool gateway. Connect every service and every account once, set per-tool permissions, and any MCP-compatible agent (Claude Code, Codex, Cursor, whatever ships next) reaches all of it through one endpoint. Try it at executor.sh.\n\nhttps://youtu.be/NWYFpDW02Dw\n\n## The problem\n\nYou don't have one agent anymore. You have Claude Code, a ChatGPT account, Cursor, maybe a box in the corner running jobs overnight. Three problems follow:\n\n1. Every agent wants its own OAuth into everything. You connect your calendar to the tenth harness in a slightly different way, tokens expire, connectors deprecate, and each agent is missing something when you need it.\n2. Most connectors stop at one account per service. One Google login means your agent sees your work calendar or your persona",
     "industry_sub_vertical": "Agent integration management & API gateway orchestration",
     "canonical_vertical_id": "ai-infrastructure.agent-runtime",
     "vertical_id": "ai-infrastructure.agent-runtime",
@@ -25902,6 +26109,12 @@
     "directory_synced_at": "2026-07-30T16:01:50.404Z",
     "classified_at": "2026-07-30T16:01:50.404Z",
     "proposed_phenotype": null,
+    "launch_id": 108331,
+    "launch_url": "https://www.ycombinator.com/launches/SBH-executor-one-place-to-connect-your-agents-to-everything",
+    "launch_title": "Executor — One place to connect your agents to everything",
+    "launch_created_at": "2026-08-04T15:41:42.736Z",
+    "launch_tagline": "Connect your tools once and every agent has them, with permissions you control",
+    "launch_evaluated_at": "2026-08-04T16:11:35.016Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -48394,7 +48607,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/molagri",
     "batch": "Summer 2026",
     "one_liner": "Resistance free pesticides.",
-    "description_combined": "Resistance free pesticides.\n\nMolagri develops safer, more effective pesticides for agriculture.\r\n\r\nWe design biopesticides that hit a precise molecular target unique to pest insects, knocking out pests while sparing pollinators, beneficial insects, and the wider ecosystem. By modeling how pests are likely to evolve, we stay a step ahead of resistance, keeping our products effective against the pests of today and tomorrow. The higher efficacy and biobased production will also contribute to emissions reductions in both manufacturing and field use.\r\n\r\nOur founders are PhD lab mates from the University of Toronto who have worked together for six years and published in Nature Communications and Nature Microbiology. \r\n",
+    "description_combined": "Resistance free pesticides.\n\nMolagri develops safer, more effective pesticides for agriculture.\r\n\r\nWe design biopesticides that hit a precise molecular target unique to pest insects, knocking out pests while sparing pollinators, beneficial insects, and the wider ecosystem. By modeling how pests are likely to evolve, we stay a step ahead of resistance, keeping our products effective against the pests of today and tomorrow. The higher efficacy and biobased production will also contribute to emissions reductions in both manufacturing and field use.\r\n\r\nOur founders are PhD lab mates from the University of Toronto who have worked together for six years and published in Nature Communications and Nature Microbiology. \r\n\n\nSpecies-specific biopesticides built from engineered insect viruses, updatable the moment pests develop resistance.\n\nTLDR: We build next-generation pesticides from engineered insect virus-like particles. They target a single pest species, stay safe for humans, pollinators, and the environment, and can be reprogrammed over time as pests evolve resistance.\n\nPesticides underpin modern agriculture and food security, accounting for $80B in annual spend. Without effective pesticides, we can't grow enough food.\n\nThe Problem 🌱\n\nPests are developing resistance faster than new pesticides can be invented to replace the failing ones. At the same time, regulators are banning core active ingredients over environmental and human toxicity. Farmers are losing tools from both ends at once.\n\nOur Solution 🪲\n\nWe build pesticides out of insect virus-like particles. We start with a virus that only infects insects and is harm",
     "industry_sub_vertical": "Biopesticide product development for crop protection",
     "canonical_vertical_id": "farming.pest-disease-scouting",
     "vertical_id": "farming.pest-disease-scouting",
@@ -48468,6 +48681,12 @@
     "directory_synced_at": "2026-07-30T16:06:32.942Z",
     "classified_at": "2026-07-30T16:06:32.942Z",
     "proposed_phenotype": null,
+    "launch_id": 108796,
+    "launch_url": "https://www.ycombinator.com/launches/SIm-molagri-resistance-free-pesticides",
+    "launch_title": "Molagri: Resistance-free pesticides 🪲",
+    "launch_created_at": "2026-08-03T18:35:06.582Z",
+    "launch_tagline": "Species-specific biopesticides built from engineered insect viruses, updatable the moment pests develop resistance.",
+    "launch_evaluated_at": "2026-08-04T16:11:35.017Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-09"
@@ -52377,6 +52596,97 @@
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-02"
+  },
+  {
+    "slug": "omanta",
+    "name": "Omanta",
+    "website": "https://omanta.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/omanta",
+    "batch": "Summer 2026",
+    "one_liner": "A research lab for one",
+    "description_combined": "A research lab for one\n\nOmanta is a personalized research lab for patients who have exhausted standard options, want to prepare proactively for recurrence, or are living with an unresolved diagnosis.\r\n\r\nWe direct the full operational infrastructure, personnel, expertise, and technology of a large research program toward understanding and addressing the challenges of individual patients across oncology, rare disease, and undiagnosed conditions.\r\n\r\nFor clinicians, we act as a collaborative partner, providing a living roadmap for ongoing patient care built on a rigorous and evolving scientific evidence base.\r\n\r\nWe fully operationalize patient-specific research programs, covering tissue logistics, diagnostic follow-up, data integration, multiomic analysis, therapeutic strategy development, and more.\r\n\r\nOmanta brings context and clarity to complex cases, helping clinicians see more of the scientific picture as they decide how best to care for their patients.\n\nA research lab, for one.\n\nHey YC! We're Alfredo and Ranad, the founders of Omanta.\n\nTL;DR: Omanta creates a personalized research lab around a single patient. We integrate a patient’s complete medical record, personal genomics, and use AI to take on the most complex cancer cases. Our researchers tackled GitLab co-founder Sid Sijbrandij’s case, helping bring him into complete remission.\n\n\n\n\nWhy this matters\nIf you're a cancer patient, you'd think the hardest cases have entire teams dedicated to solving them. The reality: most doctors have about 20 minutes per patient, while the science never stops moving. New discoveries emerge every day, yet reaching standard clinical care can take over a decade (\\~17 years on average). Physicians make high-stakes decisions with limited time, and even the most difficult cases rarel",
+    "industry_sub_vertical": "Personalized oncology & rare disease precision diagnostics and therapeutic strategy development",
+    "canonical_vertical_id": "healthcare.pharma.clinical-dev",
+    "vertical_id": "healthcare.pharma.clinical-dev",
+    "vertical_label": "Biopharma clinical development & regulatory",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "biotech-rd-agent",
+    "phenotype_primary_label": "Biotech / clinical R&D acceleration",
+    "phenotype_family": "life_sciences",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "multiomic_analysis",
+      "diagnostic_automation",
+      "therapeutic_strategy_synthesis",
+      "patient_specific_research_orchestration"
+    ],
+    "what_they_sell": "End-to-end personalized research lab services for individual patients with oncology, rare disease, or undiagnosed conditions. Operationalizes tissue logistics, multiomic analysis, diagnostic follow-up, data integration, and therapeutic strategy development. Delivers a living clinical roadmap for ongoing care.",
+    "ai_play": "AI orchestrates and automates the full research workflow: tissue processing pipelines, multiomic data integration and interpretation, diagnostic hypothesis generation, literature synthesis, and therapeutic strategy recommendation. Reduces manual coordination and analysis bottlenecks that would otherwise require large research teams per patient.",
+    "who_pays": "Patients (out-of-pocket or via insurance), clinicians/oncologists seeking precision diagnostics and therapeutic guidance, health systems managing complex/refractory cases.",
+    "confidence": 0.82,
+    "rationale": "Omanta is a clinical R&D acceleration service that uses AI to automate and orchestrate complex, patient-specific research workflows. Core phenotype is biotech-rd-agent: they accelerate research and discovery (multiomic analysis, diagnostic strategy) in a clinical/oncology context. The AI play is automating the operational and analytical layers of a research program that would traditionally require large teams. Secondary consideration: could be positioned as ai-native-service-provider (outcome-based service delivery), but the primary value is R&D acceleration and scientific workflow automation, not just operational execution. Confidence 0.82 due to clear R&D acceleration focus and agentic workflow orchestration, though the service-delivery model is also present.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [
+      "Digital Health",
+      "Healthcare",
+      "Health & Wellness",
+      "Oncology",
+      "AI"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 4,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3670159,
+        "full_name": "Alfredo Gonzalez",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-Founder and CEO of Omanta. PhD in Cancer Bioinformatics from UCLA, biomedical researcher at Broad Institute and Harvard.  Spearheaded personalized therapeutic campaigns for patients creating personalized vaccines, immunotherapies, and radioligands. 10+ years in personalized medicine. Fueled by the belief that the future of Health is deeply personalized.\n\n",
+        "linkedin_url": "https://www.linkedin.com/in/alfredo-gonzalez-phd/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9d5790791f1a19912cd701c3817cb00d66003eca.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABVT5TA5S%2F20260804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260804T161036Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCICeVdosTGLLGnBzNEg55gk%2B%2FivTEkcMuJqBnUlutfQvIAiEAjpIy2RvGNCibaDem%2BE2kh1U5kx2Eouv9hKo%2FXuxRbxsq5QMIERAAGgwwMDYyMDE4MTEwNzIiDLV3SyX9abLyxAR3lSrCAyMs6yk0ARp4AUQ7T%2BoMVRhDLGfnI4Ne%2FFQ91XehJod1r%2FuqBcMHrbfrioYPOw9nWehShf6V3VowXaTKCu2QbyWHdpWkMGGgU%2BUKsBT9vveCTl53c8X2%2FomvPA1FPtVsGStsf%2BJS8K%2B5vhXsNyun2YCCIAanQQzlGZ9%2FDbaT0Lz6mKWbwznfdOTNPCJQGOEQfMHT24rxCwYiFfUByMOCqyV07N0PcZfefX%2BcC2RHnvQufL4hBzYdWw3YiOYXiuYo7CTUeaxqp40JtlK5UL9lCpcTJx9bf5gTu%2FStEq%2B50QkqvWnnv1M%2BNrbngAI4hq7BYeloAWeu7WVLpM6Nu2aoUSQ8rHOHyBmk6EhoQpqQLo5SVFoO7U%2FEDKbpZiCcch%2BCskV4AmiAsck9TkpbOEzR9lVL0%2BMAab31A2eMSpElLL1BttIIKP2z183Hlm3NfOfqbqY5SMh4Tttr6aqi3WKnUw%2F96u1kWOE0zG0HqccwQDPC7QvaVkCiQJ3tzXSUZyCH2T1mnI0l0ye7Y4E6wwxqKXm91lQ7gxXSs73wIO%2FYBhd7j0lf8oh9TuOj7d%2F53MU68N7NmPQ4cB2LtpNIV%2B4eiUQ6yTCglcjTBjqlAa669xYVkZpp0L2iRl5vGtBGgA%2BAE%2Bvf4us4NtXRqnf22rD%2FiDt7UOnym0jhVljsYw9G7rn5ADVZQc7uwnERlIyVo9vX2iGD0tOxclG6cCnIc%2FCUifefCIh%2FgLkSzSLbPJldjgM1lVnh7FIzV7aBehviXY18JQ2LSN%2Bugc4ib3nq1LkB8RfLIDv6PdzSJ4HFsQT1iEeJ19GKOnHBWDjVzss1usgaBQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b0cff1f53675172385b88dd3410e93685dcdd7ee085431f2eaed9d233c51cb97",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Omanta",
+          "href": "https://www.ycombinator.com/companies/omanta"
+        }
+      },
+      {
+        "user_id": 3399110,
+        "full_name": "Ranad Humeidi",
+        "title": "Founder and Chief Scientific Officer",
+        "is_active": true,
+        "bio": "Co-founder & CSO at Omanta, working with patients to turn frontier science into personalized treatment strategies. Harvard Chemical Biology PhD in 3 years; identified a druggable ulcerative colitis mechanism that led to a multimillion-dollar GSK collaboration. Built and directed a multimillion-dollar rare cancer program for one patient, coordinating researchers, physicians, biotechs, and drug developers. Led strategies for 12+ complex patients after standard options were exhausted.\n",
+        "linkedin_url": "https://www.linkedin.com/in/rhumeidi",
+        "twitter_url": "https://x.com/Ranadhumeidi",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4e2478bf2c078b78d7428a780e36bd00d7bba74a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABVT5TA5S%2F20260804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260804T161036Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCICeVdosTGLLGnBzNEg55gk%2B%2FivTEkcMuJqBnUlutfQvIAiEAjpIy2RvGNCibaDem%2BE2kh1U5kx2Eouv9hKo%2FXuxRbxsq5QMIERAAGgwwMDYyMDE4MTEwNzIiDLV3SyX9abLyxAR3lSrCAyMs6yk0ARp4AUQ7T%2BoMVRhDLGfnI4Ne%2FFQ91XehJod1r%2FuqBcMHrbfrioYPOw9nWehShf6V3VowXaTKCu2QbyWHdpWkMGGgU%2BUKsBT9vveCTl53c8X2%2FomvPA1FPtVsGStsf%2BJS8K%2B5vhXsNyun2YCCIAanQQzlGZ9%2FDbaT0Lz6mKWbwznfdOTNPCJQGOEQfMHT24rxCwYiFfUByMOCqyV07N0PcZfefX%2BcC2RHnvQufL4hBzYdWw3YiOYXiuYo7CTUeaxqp40JtlK5UL9lCpcTJx9bf5gTu%2FStEq%2B50QkqvWnnv1M%2BNrbngAI4hq7BYeloAWeu7WVLpM6Nu2aoUSQ8rHOHyBmk6EhoQpqQLo5SVFoO7U%2FEDKbpZiCcch%2BCskV4AmiAsck9TkpbOEzR9lVL0%2BMAab31A2eMSpElLL1BttIIKP2z183Hlm3NfOfqbqY5SMh4Tttr6aqi3WKnUw%2F96u1kWOE0zG0HqccwQDPC7QvaVkCiQJ3tzXSUZyCH2T1mnI0l0ye7Y4E6wwxqKXm91lQ7gxXSs73wIO%2FYBhd7j0lf8oh9TuOj7d%2F53MU68N7NmPQ4cB2LtpNIV%2B4eiUQ6yTCglcjTBjqlAa669xYVkZpp0L2iRl5vGtBGgA%2BAE%2Bvf4us4NtXRqnf22rD%2FiDt7UOnym0jhVljsYw9G7rn5ADVZQc7uwnERlIyVo9vX2iGD0tOxclG6cCnIc%2FCUifefCIh%2FgLkSzSLbPJldjgM1lVnh7FIzV7aBehviXY18JQ2LSN%2Bugc4ib3nq1LkB8RfLIDv6PdzSJ4HFsQT1iEeJ19GKOnHBWDjVzss1usgaBQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=818d86ebfe506d4f3354f3e3cd73e8d3f5723a698481489ce15a4abdd9848d4e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Omanta",
+          "href": "https://www.ycombinator.com/companies/omanta"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-04T16:10:45.305Z",
+    "classified_at": "2026-08-04T16:10:45.305Z",
+    "proposed_phenotype": null,
+    "launch_id": 108925,
+    "launch_url": "https://www.ycombinator.com/launches/SKr-omanta-a-personal-research-lab-dedicated-to-each-patient",
+    "launch_title": "Omanta: A personal research lab dedicated to each patient.",
+    "launch_created_at": "2026-08-04T13:31:15.555Z",
+    "launch_tagline": "A research lab, for one.",
+    "launch_evaluated_at": "2026-08-04T16:11:35.017Z",
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
   },
   {
     "slug": "omnara",
@@ -62707,6 +63017,102 @@
     "primary_bm": "BM-07"
   },
   {
+    "slug": "qokedas",
+    "name": "Qokedas",
+    "website": "https://qokedas.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/qokedas",
+    "batch": "Fall 2026",
+    "one_liner": "Teaching models to decode the physical world",
+    "description_combined": "Teaching models to decode the physical world\n\nMost of what happens on Earth is never written down. It passes through instruments as signal and disappears. Qokedas turns that signal into training data, so labs can build models that read the physical world and operate the machines that measure it",
+    "industry_sub_vertical": "Scientific instrumentation signal-to-dataset conversion for domain-specific AI model training",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "training-data-synthetic",
+    "phenotype_primary_label": "Training / eval data generation",
+    "phenotype_family": "data_assets",
+    "value_wedge": "data_asset",
+    "ai_application": "dataset_creation",
+    "ai_application_patterns": [
+      "signal_to_training_data",
+      "domain_dataset_curation",
+      "instrumentation_data_pipeline"
+    ],
+    "what_they_sell": "Infrastructure that converts raw instrumental signal (sensor streams, lab measurements, telemetry) into structured, labeled training datasets for domain-specific AI models. Captures ephemeral physical-world data that would otherwise be lost, curates it with domain context, and packages it as high-quality training corpora for scientific labs and model builders.",
+    "ai_play": "Solves the 'dark data' problem in science: most experimental and instrumental data is never captured or labeled for ML training. Qokedas acts as a data pipeline that preserves signal, applies domain-aware structuring and labeling, and creates reusable training datasets. This enables labs to train models that can read instruments and automate measurement workflows — turning ephemeral signal into persistent, machine-readable knowledge.",
+    "who_pays": "Scientific labs, research institutions, instrument manufacturers, biotech/pharma R&D teams, and AI model builders in regulated domains (life sciences, materials science, physics) who need high-quality domain-specific training data.",
+    "confidence": 0.75,
+    "rationale": "Qokedas is fundamentally a data asset company — they capture, structure, and curate instrumental signal into training datasets. Primary fit is training-data-synthetic (data generation and curation for ML). Secondary fit is foundation-model-domain-infrastructure because the datasets they produce could serve as training corpora for domain-specific foundation models in scientific domains. The company's value is in the data pipeline and dataset quality, not in selling models or agents directly. Confidence is 0.75 (not higher) because the description emphasizes 'teaching models to decode the physical world' which could imply they also build/sell the models themselves — if they do, phenotype could shift toward foundation-model-domain-infrastructure or biotech-rd-agent. But based on 'turns signal into training data, so labs can build models,' the primary motion is data provision.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Deep Learning",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3617571,
+        "full_name": "Wilhelm Hedenskog",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "19, CEO @ Qokedas / Previously a YC Fellow and Research Intern @ Gumloop",
+        "linkedin_url": "https://www.linkedin.com/in/wilhelm-hedenskog",
+        "twitter_url": "https://x.com/wilhelmmlem",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1251b0bcae925a5afb96cac0db696fe9ddcacd95.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACORGLMLK%2F20260804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260804T161045Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIFTIiCN0j45%2Bz6rI%2BnuqeRvtJsv4P%2BOy05496D4qkvOQAiEA4NXTJLmStqRx00NUnlvhAAz6ibAylX29fgTBkShzQoMq5QMIERAAGgwwMDYyMDE4MTEwNzIiDIcJtwYMRfbWr8q2AyrCA2TUdGqcyWTD3A7cFYQREkd9dT9t0UWKREvy2Tl1PLdky%2FNVJf62CEBs8iNyqW5lN3iIHIe4380voaAHtUkN9ztX29sMf9ZGXvss7WbhixexHjuKOd4LFI9mZXxsIPkB1rU%2BquK%2B6Ojeojej%2B5ZW2SASHJqt7LVsODYnqQKQIlh8FByBUkcm1jd7UChQfJiZmWewQ27K%2Fo%2Bdi3018KY7pBEAnY1%2B%2Bo02nRC3%2BP7PalSbbSrx%2F2aCiTatKAAzQRUcpKmWsnFjt6uvC0%2FWRGnRrN7ziS%2FU3mxsBo%2BMZA%2BUwKabKALgRomdn%2FBIRqcfBzHeOgFkXA875QaWo%2BPTM3KCVUXn9QqNx%2FUUUjnu%2FolBCIV%2FXb0IRbQ1LdPXdpyrRImlCNSYxyx5IGuKuf0WlcQbmq%2FdrUoOktcpJuKwSwH9nD7KCGNr%2BJ5WVK9KsFTwaDCsYTVUainlzsGd6XRD5byNLMfo3bXzYxQUKdiX8eUeMkHpQot37FL%2BoH55FZzOI2GQvIW7M2shP%2FgSxiLTZ0sO0popXX%2B5BlrRl85a67k3EnF7ps2Rt%2BLfqUzuCq0ic5wE1gubrTCAjVvsnRKRTFWt4N5XTzC2lcjTBjqlAZw4e1y6Yc0Xcuh3aTta6lytXIM7IlKcZLa3d58A6bdG6iEz5F5hfs6V7Y3IQLyAIWd2qsylnPOyl3U9UXbn0%2B8Q2GYBkbxb9Nl0M6GKC8x0DYDg13X34o7jhpTPlVbuV%2BKfyo1Wp5UZ6sABUqMx16ORPC9mFLwHwuXURhl4EnawL2IAbOQd%2FtDQ40Y6MwINleehgUcSODNOxLeYe0XHqjYZGOr%2BJg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c432338ef0c996ade7c2f5464aba2506490b36e8a03fc6a5ae946add8728bfc7",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Qokedas",
+          "href": "https://www.ycombinator.com/companies/qokedas"
+        }
+      },
+      {
+        "user_id": 3624555,
+        "full_name": "Jesper Johansson",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-Founder @  Qokedas, 19\n",
+        "linkedin_url": "https://www.linkedin.com/in/jesper-johansson-783000419/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d40811bde6c49e10bd321d9693db53c7c61daebf.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACORGLMLK%2F20260804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260804T161045Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIFTIiCN0j45%2Bz6rI%2BnuqeRvtJsv4P%2BOy05496D4qkvOQAiEA4NXTJLmStqRx00NUnlvhAAz6ibAylX29fgTBkShzQoMq5QMIERAAGgwwMDYyMDE4MTEwNzIiDIcJtwYMRfbWr8q2AyrCA2TUdGqcyWTD3A7cFYQREkd9dT9t0UWKREvy2Tl1PLdky%2FNVJf62CEBs8iNyqW5lN3iIHIe4380voaAHtUkN9ztX29sMf9ZGXvss7WbhixexHjuKOd4LFI9mZXxsIPkB1rU%2BquK%2B6Ojeojej%2B5ZW2SASHJqt7LVsODYnqQKQIlh8FByBUkcm1jd7UChQfJiZmWewQ27K%2Fo%2Bdi3018KY7pBEAnY1%2B%2Bo02nRC3%2BP7PalSbbSrx%2F2aCiTatKAAzQRUcpKmWsnFjt6uvC0%2FWRGnRrN7ziS%2FU3mxsBo%2BMZA%2BUwKabKALgRomdn%2FBIRqcfBzHeOgFkXA875QaWo%2BPTM3KCVUXn9QqNx%2FUUUjnu%2FolBCIV%2FXb0IRbQ1LdPXdpyrRImlCNSYxyx5IGuKuf0WlcQbmq%2FdrUoOktcpJuKwSwH9nD7KCGNr%2BJ5WVK9KsFTwaDCsYTVUainlzsGd6XRD5byNLMfo3bXzYxQUKdiX8eUeMkHpQot37FL%2BoH55FZzOI2GQvIW7M2shP%2FgSxiLTZ0sO0popXX%2B5BlrRl85a67k3EnF7ps2Rt%2BLfqUzuCq0ic5wE1gubrTCAjVvsnRKRTFWt4N5XTzC2lcjTBjqlAZw4e1y6Yc0Xcuh3aTta6lytXIM7IlKcZLa3d58A6bdG6iEz5F5hfs6V7Y3IQLyAIWd2qsylnPOyl3U9UXbn0%2B8Q2GYBkbxb9Nl0M6GKC8x0DYDg13X34o7jhpTPlVbuV%2BKfyo1Wp5UZ6sABUqMx16ORPC9mFLwHwuXURhl4EnawL2IAbOQd%2FtDQ40Y6MwINleehgUcSODNOxLeYe0XHqjYZGOr%2BJg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=538f71d15d8807614b199c39fa33e587164e906af974933fe52ca2fdbdcab37e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Qokedas",
+          "href": "https://www.ycombinator.com/companies/qokedas"
+        }
+      },
+      {
+        "user_id": 3979219,
+        "full_name": "Elias Reinfeldt",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-Founder @ Qokedas, 19",
+        "linkedin_url": "https://www.linkedin.com/in/elias-reinfeldt-77a321411",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2f3f20b2de455ee6c3500ce730e46daba37b3a5a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACORGLMLK%2F20260804%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260804T161045Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCXVzLXdlc3QtMiJHMEUCIFTIiCN0j45%2Bz6rI%2BnuqeRvtJsv4P%2BOy05496D4qkvOQAiEA4NXTJLmStqRx00NUnlvhAAz6ibAylX29fgTBkShzQoMq5QMIERAAGgwwMDYyMDE4MTEwNzIiDIcJtwYMRfbWr8q2AyrCA2TUdGqcyWTD3A7cFYQREkd9dT9t0UWKREvy2Tl1PLdky%2FNVJf62CEBs8iNyqW5lN3iIHIe4380voaAHtUkN9ztX29sMf9ZGXvss7WbhixexHjuKOd4LFI9mZXxsIPkB1rU%2BquK%2B6Ojeojej%2B5ZW2SASHJqt7LVsODYnqQKQIlh8FByBUkcm1jd7UChQfJiZmWewQ27K%2Fo%2Bdi3018KY7pBEAnY1%2B%2Bo02nRC3%2BP7PalSbbSrx%2F2aCiTatKAAzQRUcpKmWsnFjt6uvC0%2FWRGnRrN7ziS%2FU3mxsBo%2BMZA%2BUwKabKALgRomdn%2FBIRqcfBzHeOgFkXA875QaWo%2BPTM3KCVUXn9QqNx%2FUUUjnu%2FolBCIV%2FXb0IRbQ1LdPXdpyrRImlCNSYxyx5IGuKuf0WlcQbmq%2FdrUoOktcpJuKwSwH9nD7KCGNr%2BJ5WVK9KsFTwaDCsYTVUainlzsGd6XRD5byNLMfo3bXzYxQUKdiX8eUeMkHpQot37FL%2BoH55FZzOI2GQvIW7M2shP%2FgSxiLTZ0sO0popXX%2B5BlrRl85a67k3EnF7ps2Rt%2BLfqUzuCq0ic5wE1gubrTCAjVvsnRKRTFWt4N5XTzC2lcjTBjqlAZw4e1y6Yc0Xcuh3aTta6lytXIM7IlKcZLa3d58A6bdG6iEz5F5hfs6V7Y3IQLyAIWd2qsylnPOyl3U9UXbn0%2B8Q2GYBkbxb9Nl0M6GKC8x0DYDg13X34o7jhpTPlVbuV%2BKfyo1Wp5UZ6sABUqMx16ORPC9mFLwHwuXURhl4EnawL2IAbOQd%2FtDQ40Y6MwINleehgUcSODNOxLeYe0XHqjYZGOr%2BJg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b5200f97cb44bea015f4260ea82a9495a1593c248730b1ea87a5f900a45be8ac",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Qokedas",
+          "href": "https://www.ycombinator.com/companies/qokedas"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-04T16:10:57.831Z",
+    "classified_at": "2026-08-04T16:10:57.831Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "qomplement",
     "name": "qomplement",
     "website": "https://qomplement.com",
@@ -63385,7 +63791,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/rasyn",
     "batch": "Summer 2026",
     "one_liner": "Towards a General Intelligence for Chemistry",
-    "description_combined": "Towards a General Intelligence for Chemistry",
+    "description_combined": "Towards a General Intelligence for Chemistry\n\nTowards a General Intelligence for Chemistry\n\nHey! Ansh, Ayush and Daood here.\n\nWe're Rasyn, and we built a platform called Marigold. Give it any chemistry task in plain language and it pulls the literature, reads your files, picks the tools, sets up and runs the calculations on its own machine, and hands back the numbers along with its reasoning what it did to get them. \n\nIt's live at app.rasyn.ai; here's a short demo: \n\n\nHere's the team: \nAnsh studies Physics at Caltech, worked at NASA JPL, and researched with scientists from Nvidia and Deepmind. Ayush has worked on softwares serving 50 million users, and his research was used by frontier AI labs including OpenAI and Meta. Daood studies Computational Chemistry at Caltech, has done Total Synthesis for 4+ years, and researched alongside Nobel Laureates, so he has faced these problems ",
     "industry_sub_vertical": "AI-driven molecular design and property prediction for drug discovery R&D",
     "canonical_vertical_id": "healthcare.pharma.drug-discovery",
     "vertical_id": "healthcare.pharma.drug-discovery",
@@ -63458,6 +63864,12 @@
     "directory_synced_at": "2026-08-03T16:21:26.991Z",
     "classified_at": "2026-08-03T16:21:26.991Z",
     "proposed_phenotype": null,
+    "launch_id": 108802,
+    "launch_url": "https://www.ycombinator.com/launches/SIs-rasyn-one-place-to-run-any-chemistry-task",
+    "launch_title": "Rasyn: One place to run any Chemistry task",
+    "launch_created_at": "2026-08-03T19:40:21.411Z",
+    "launch_tagline": "Towards a General Intelligence for Chemistry",
+    "launch_evaluated_at": "2026-08-04T16:11:35.017Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-09"
@@ -76307,7 +76719,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/tarebio",
     "batch": "Summer 2026",
     "one_liner": "Vaccines for any cancer or infection in weeks",
-    "description_combined": "Vaccines for any cancer or infection in weeks\n\nOur platform develops personalized or population-level vaccines for any disease in weeks by changing only one input: the immune imprint. Instead of trying to predict which antigens might work, we read out immune cells already fighting the disease in the body and reverse-engineer antigens that activate them. We&#x27;ve already run our platform end-to-end and created a vaccine that cured cancer in mice.",
+    "description_combined": "Vaccines for any cancer or infection in weeks\n\nOur platform develops personalized or population-level vaccines for any disease in weeks by changing only one input: the immune imprint. Instead of trying to predict which antigens might work, we read out immune cells already fighting the disease in the body and reverse-engineer antigens that activate them. We&#x27;ve already run our platform end-to-end and created a vaccine that cured cancer in mice.\n\nWe make personalized or population-level vaccines reverse-engineered from the immune system. We have already cured cancer in mice and are vaccinating our first patient within the year.\n\nTL;DR: Our platform develops personalized or population-level vaccines for _any_ disease in weeks by changing _only one input_: the immune imprint. Instead of trying to predict which antigens might work, we read out immune cells already fighting the disease in the body and reverse-engineer antigens that activate them. We've already run our platform end-to-end and created a vaccine that cured cancer in mice. We will be vaccinating our first patient within the year.\n\n\n\nView our launch video here: \n\nThe vaccine bottleneck\n\nFor 200+ years, vaccines have been designed using the same workflow: study a pathogen or tumor, _predict_ which antigens might trigger protection, vaccinate, and hopefully generate a good immune response. This works for simpler infections. It has struggled for decades on co",
     "industry_sub_vertical": "Personalized cancer and infectious disease vaccine design via immune cell reverse-engineering",
     "canonical_vertical_id": "healthcare.pharma.drug-discovery",
     "vertical_id": "healthcare.pharma.drug-discovery",
@@ -76364,6 +76776,12 @@
     "directory_synced_at": "2026-07-31T16:01:17.145Z",
     "classified_at": "2026-07-31T16:01:17.145Z",
     "proposed_phenotype": null,
+    "launch_id": 108804,
+    "launch_url": "https://www.ycombinator.com/launches/SIu-tarebio-vaccines-for-any-cancer-or-infection-in-weeks",
+    "launch_title": "TareBio: Vaccines for any cancer or infection in weeks",
+    "launch_created_at": "2026-08-04T14:27:01.936Z",
+    "launch_tagline": "We make personalized or population-level vaccines reverse-engineered from the immune system. We have already cured cancer in mice and are vaccinating our first patient within the year.",
+    "launch_evaluated_at": "2026-08-04T16:11:35.017Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-09"

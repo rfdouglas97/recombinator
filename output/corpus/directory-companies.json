@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-03T16:21:09.426Z",
+  "synced_at": "2026-08-04T16:10:16.002Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1198,
+  "company_count": 1200,
   "companies": [
     {
       "slug": "10x",
@@ -2634,9 +2634,7 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Machine Learning",
-        "Reinforcement Learning"
+        "Machine Learning"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -3907,14 +3905,14 @@
       "name": "CarSignal",
       "batch": "Summer 2026",
       "one_liner": "The Smart Operating System for Auto Shops.",
-      "long_description": "CarSignal is a shop management platform for independent auto repair shops. We replace the fragmented stack shops juggle today. Booking, intake, quoting, parts ordering, invoicing, payments, and customer communication all within one smart system.\r\nInstead of charging SaaS fees, we monetize through a 1% fee on the payments rail, so shops switch off $500+/month tools like Shopmonkey and Tekmetric without adding a line item. Every invoice paid through CarSignal is revenue; every shop that switches saves money on day one.",
+      "long_description": "",
       "website": "https://www.trycarsignal.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
+        "AI",
         "Automotive"
       ],
       "team_size": 2,
@@ -5189,11 +5187,11 @@
         "Recruiting and Talent"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
-        "Recruiting"
+        "Recruiting",
+        "AI"
       ],
-      "team_size": 15,
+      "team_size": 20,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1740035301
@@ -5709,21 +5707,21 @@
       "launched_at": 1759188885
     },
     {
-      "slug": "dartboard-energy",
-      "name": "Dartboard Energy",
+      "slug": "dartboard",
+      "name": "Dartboard",
       "batch": "Winter 2025",
-      "one_liner": "AI Analyst for Electricity Markets",
-      "long_description": "Dartboard is an AI Analyst for Electricity Markets, starting with the owners of grid-scale battery projects.",
-      "website": "https://dartboardenergy.com",
+      "one_liner": "AI-native remote operations center for hardware fleets",
+      "long_description": "Dartboard is the modern remote operations center for hardware fleets. We pair expert operators with AI agents to identify, diagnose, and fix issues faster.",
+      "website": "https://dartboard.ai",
       "industries": [
-        "Industrials",
-        "Energy"
+        "Industrials"
       ],
       "tags": [
-        "Energy Storage",
-        "B2B",
-        "Analytics",
-        "AI"
+        "Artificial Intelligence",
+        "Hardware",
+        "Robotics",
+        "Energy",
+        "Industrial"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -6411,12 +6409,12 @@
       "launched_at": 1780013660
     },
     {
-      "slug": "drippay",
-      "name": "Drip",
+      "slug": "dreach",
+      "name": "Dreach",
       "batch": "Spring 2026",
       "one_liner": "Never miss a lead",
       "long_description": "drip autonomously finds leads, sends first messages, follows up, and books meetings. Every conversation syncs for your team.",
-      "website": "https://usedrip.ai",
+      "website": "https://dreach.ai",
       "industries": [
         "B2B",
         "Infrastructure"
@@ -9128,15 +9126,15 @@
       "slug": "human-archive",
       "name": "Human Archive",
       "batch": "Winter 2026",
-      "one_liner": "Multimodal data provider for robotics and world modeling",
-      "long_description": "We’re archiving the physical world for embodied intelligence by collecting and labeling aligned multimodal data. To build dexterous and perceptive robots that generalize robustly, we need massive amounts of real-world data across multiple modalities and environments.\r\n\r\nWe have thought deeply about the fine line between biomimicry and its application to humanoid systems. Based on this research, we design and deploy custom hardware across residential and manufacturing settings. We then post-process the resulting data through internal QA, anonymization, and annotation pipelines to deliver diverse, high-fidelity datasets at scale to frontier labs developing robotics foundation models and general-purpose robotics companies. \r\n\r\nWe believe we are at a historic inflection point, with a unique opportunity to leave a dent on humanity and reshape physical labor markets forever. That's why our team dropped out of Stanford and Berkeley and moved to Asia to collect the world’s largest annotated multimodal dataset. ",
+      "one_liner": "Physical AI data lab",
+      "long_description": "Human Archive (YC W26) is building the data infrastructure for physical AI.\r\n\r\nWe design hardware, deploy cameras and sensors globally, and train models that help AI better understand how humans interact with the physical world.\r\n\r\nLeading frontier AI labs trust us for their video, sensor, robot deployment, image, and audio datasets.\r\n\r\nWe have offices in SF, China, and India and are researchers from NYU GRAIL, UPenn GRASP, UC Berkeley, Stanford, Johns Hopkins Robotics, and national robotics champions.\r\n\r\nTo get data, please reach out to raj@humanarchive.ai",
       "website": "https://www.humanarchive.ai/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [],
-      "team_size": 4,
+      "team_size": 10,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1767518366
@@ -9380,18 +9378,18 @@
       "slug": "impact-drones",
       "name": "IMPACT Drones",
       "batch": "Summer 2026",
-      "one_liner": "Air defense as a Service.",
-      "long_description": "IMPACT builds autonomous interceptor drones that ship in a sealed box. The box sits at the site it protects (data centers, power grid, airports, bases) with no crew on the pad. When sensors cue a hostile drone, an interceptor pierces its own frangible lid, launches, and rams the target, guided by onboard visual navigation that keeps working when GPS is jammed. Legacy effectors cost $1M+ per shot against $50k threats; our interceptors cost like the threat and launches scale with the swarm. Sites subscribe to protection instead of buying missiles: hardware, reloads, and monitoring included. Air defense as a Service.",
+      "one_liner": "Air Defense as a Service for Civilian Infrastructure.",
+      "long_description": "IMPACT builds autonomous interceptor drones that ship in a sealed box. The box sits at the site it protects (data centers, power grid, airports, bases) with no crew on the pad. When sensors cue a hostile drone, an interceptor pierces its own frangible lid, launches, and rams the target, guided by onboard visual navigation that keeps working when GPS is jammed. Legacy effectors cost $1M+ per shot against $30k threats; our interceptors cost like the threat and launches scale with the swarm. Sites subscribe to protection instead of buying missiles: hardware, reloads, and monitoring included. Air defense as a Service.",
       "website": "https://www.impact-drones.com",
       "industries": [
         "Industrials",
         "Defense"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
         "Drones",
-        "Swarm Robotics",
-        "AI"
+        "Swarm Robotics"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -10762,10 +10760,10 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
-        "Enterprise"
+        "Enterprise",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -11268,7 +11266,7 @@
       "slug": "lightberry",
       "name": "Lightberry",
       "batch": "Fall 2025",
-      "one_liner": "The social brain for robots.",
+      "one_liner": "Robots with soul",
       "long_description": "We build brains for robots.\r\n\r\nWe work with manufacturers like Unitree to make robots listen, speak, and act. You can program your robot out of the box by literally talking to it, no coding involved.\r\n\r\nRobots running Lightberry are emotionally intelligent, always on, and fully autonomous. Just like in Star Wars!",
       "website": "https://lightberry.com",
       "industries": [
@@ -11453,8 +11451,8 @@
         "B2B"
       ],
       "tags": [
-        "GovTech",
-        "AI"
+        "Artificial Intelligence",
+        "GovTech"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -11644,17 +11642,17 @@
       "name": "Lucidic AI",
       "batch": "Winter 2025",
       "one_liner": "Reimagining how Machines Learn ",
-      "long_description": "Lucidic emulates model training without changing model weights. The last decade made models intelligent, but intelligence is not the same as experience. Humans do not get better by memorizing thousands of examples; we build learning systems around ourselves: skills, memories, critique, practice, tools, and guidance. And every person learns differently because every task is different. Lucidic brings that idea to AI agents by training a custom learning system for each agent, so it learns what to remember, what skills to build, when to ask for help, and how to improve from experience. The model provides the intelligence, Lucidic gives it a way to learn.",
+      "long_description": "Lucidic is trying to find a new paradigm to teach models. The last decade made models intelligent, but intelligence is not the same as experience. Humans do not get better by memorizing thousands of examples; we build learning systems around ourselves: skills, memories, critique, practice, tools, and guidance. And every person learns differently because every task is different. Lucidic brings that idea to AI agents by training a custom learning system for each agent, so it learns what to remember, what skills to build, when to ask for help, and how to improve from experience. The model provides the intelligence, Lucidic gives it a way to learn.",
       "website": "https://lucidic.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
         "AIOps",
+        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
-        "Automation",
-        "AI"
+        "Automation"
       ],
       "team_size": null,
       "location": "San Francisco, CA, USA",
@@ -13187,7 +13185,7 @@
         "B2B"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 6,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1769108383
@@ -13993,10 +13991,11 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Reinforcement Learning",
         "Gaming",
-        "Data Engineering"
+        "Crowdsourcing",
+        "Data Engineering",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -14023,6 +14022,28 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1740018718
+    },
+    {
+      "slug": "omanta",
+      "name": "Omanta",
+      "batch": "Summer 2026",
+      "one_liner": "A research lab for one",
+      "long_description": "Omanta is a personalized research lab for patients who have exhausted standard options, want to prepare proactively for recurrence, or are living with an unresolved diagnosis.\r\n\r\nWe direct the full operational infrastructure, personnel, expertise, and technology of a large research program toward understanding and addressing the challenges of individual patients across oncology, rare disease, and undiagnosed conditions.\r\n\r\nFor clinicians, we act as a collaborative partner, providing a living roadmap for ongoing patient care built on a rigorous and evolving scientific evidence base.\r\n\r\nWe fully operationalize patient-specific research programs, covering tissue logistics, diagnostic follow-up, data integration, multiomic analysis, therapeutic strategy development, and more.\r\n\r\nOmanta brings context and clarity to complex cases, helping clinicians see more of the scientific picture as they decide how best to care for their patients.",
+      "website": "https://omanta.com/",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "Digital Health",
+        "Healthcare",
+        "Health & Wellness",
+        "Oncology",
+        "AI"
+      ],
+      "team_size": 4,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1785793252
     },
     {
       "slug": "omnara",
@@ -16336,7 +16357,7 @@
       "name": "Prescience, Inc.",
       "batch": "Summer 2026",
       "one_liner": "Healthcare for the age of abundant intelligence.",
-      "long_description": "Prescience is the preeminent health benefits platform for the world's most ambitious companies. We save employers 20-50% on healthcare while offering best-in-industry health benefits: www.getprescience.com\r\n\r\nAbout us:\r\nPrescience is building a new healthcare system for America. We train AI systems to: create, operate, insure, and deliver healthcare for employer health plans. Prescience Time Machine – an AlphaGo-like system – steers patients towards “Move 37 health trajectories” that deliver dramatic cost savings for employers. Rishab Jain and Aditya Jain, M.D. are serial entrepreneurs and brothers from Harvard & Harvard Medical School with backgrounds in machine learning and medicine. We believe abundant intelligence will bring an opportunity to fundamentally rebuild the $4.5T healthcare industry around proactive (prescient) health and wellness.",
+      "long_description": "Prescience is the preeminent health benefits platform for the world's most ambitious companies. We save employers 20-50% on health insurance while offering best-in-industry health benefits: www.getprescience.com\r\n\r\nAbout us:\r\nPrescience is building a new healthcare system for America. We train AI systems to: create, operate, insure, and deliver healthcare for employer health plans. Prescience Time Machine – an AlphaGo-like system – steers patients towards “Move 37 health trajectories” that deliver dramatic cost savings for employers. Rishab Jain and Aditya Jain, M.D. are serial entrepreneurs and brothers from Harvard & Harvard Medical School with backgrounds in machine learning and medicine. We believe abundant intelligence will bring an opportunity to fundamentally rebuild the $4.5T healthcare industry around proactive (prescient) health and wellness.",
       "website": "https://www.getprescience.com/",
       "industries": [
         "Healthcare"
@@ -16744,6 +16765,25 @@
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1747069734
+    },
+    {
+      "slug": "qokedas",
+      "name": "Qokedas",
+      "batch": "Fall 2026",
+      "one_liner": "Teaching models to decode the physical world",
+      "long_description": "Most of what happens on Earth is never written down. It passes through instruments as signal and disappears. Qokedas turns that signal into training data, so labs can build models that read the physical world and operate the machines that measure it",
+      "website": "https://qokedas.com/",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Deep Learning",
+        "AI"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1785795073
     },
     {
       "slug": "qomplement",
@@ -17734,7 +17774,7 @@
       ],
       "tags": [],
       "team_size": 3,
-      "location": "Boston, MA, USA",
+      "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1770411161
     },
@@ -18049,6 +18089,7 @@
       ],
       "tags": [
         "Developer Tools",
+        "Open Source",
         "API",
         "Infrastructure",
         "Databases"
@@ -19299,8 +19340,8 @@
         "Infrastructure"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
-        "AI",
         "Conversational AI"
       ],
       "team_size": 4,
@@ -20653,8 +20694,8 @@
       "slug": "textsidekick",
       "name": "Sidekick",
       "batch": "Summer 2026",
-      "one_liner": "The text layer for frontline operations",
-      "long_description": "Sidekick lets workers text problems, photos, or voice memos in any language; it answers from the company's own documents, creates and routes the work order, and syncs with the software a company already runs. Sidekick captures the tribal knowledge in veterans' heads - the know-how that usually walks out the door when they retire - into a searchable knowledge base the company owns. No app, no login, works on any phone.\r\n\r\nSidekick started as a tool Justin built for his dad's manufacturing facility - it turned out every plant has the same gap.",
+      "one_liner": "AI agent that handles frontline operations over text",
+      "long_description": "Sidekick is an AI assistant for frontline manufacturing workers. Sidekick lets workers text problems, photos, or voice memos in any language; it answers from the company's own documents, creates and routes the work order, and syncs with software the company already runs. Sidekick captures the tribal knowledge in veterans' heads - the know-how that usually walks out the door when they retire - into a searchable knowledge base the company owns. No app, no login, works on any phone.",
       "website": "https://www.textsidekick.com/",
       "industries": [
         "B2B",
@@ -21774,7 +21815,7 @@
       "name": "Uno Wallet",
       "batch": "Spring 2026",
       "one_liner": "The AI mobile wallet that replaces Apple Pay",
-      "long_description": "We are changing the way that people pay...",
+      "long_description": "We are changing the way that people pay...\r\n\r\nFounded by:\r\nSaket Joshi: www.linkedin.com/in/saket-dattatray-joshi/\r\nMordi Shadpour: www.linkedin.com/in/mordi-shadpour/",
       "website": "https://myunowallet.com/",
       "industries": [
         "Fintech",

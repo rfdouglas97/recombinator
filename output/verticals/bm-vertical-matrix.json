@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-03T16:22:04.649Z",
+  "generated_at": "2026-08-04T16:11:35.746Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1281,
+    "assignment_count": 1286,
     "mapped_verticals": 239,
-    "observed_cells": 454,
+    "observed_cells": 455,
     "total_verticals": 525,
-    "gap_candidates": 860
+    "gap_candidates": 859
   },
   "observed_cells": [
     {
@@ -225,6 +225,7 @@
         "osmosis",
         "physical-turing",
         "polymath",
+        "qokedas",
         "refresh",
         "the-llm-data-company",
         "trim",
@@ -379,6 +380,30 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "ai-infrastructure.agent-runtime",
+      "vertical_label": "Agent runtime & orchestration",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "clarm",
+        "closera",
+        "dock",
+        "dreach",
+        "flowtel",
+        "gpt",
+        "kairos",
+        "lua-global-inc",
+        "mesmer",
+        "pentagon",
+        "probe",
+        "prox",
+        "synthetic-sciences",
+        "tasklet-2",
+        "zarna"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.support.customer",
       "vertical_label": "Customer support & contact center",
       "sector_id": "enterprise-software",
@@ -425,29 +450,6 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.agent-runtime",
-      "vertical_label": "Agent runtime & orchestration",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "clarm",
-        "closera",
-        "dock",
-        "flowtel",
-        "gpt",
-        "kairos",
-        "lua-global-inc",
-        "mesmer",
-        "pentagon",
-        "probe",
-        "prox",
-        "synthetic-sciences",
-        "tasklet-2",
-        "zarna"
-      ]
-    },
-    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "ai-infrastructure.agent-security",
@@ -477,6 +479,7 @@
       "vertical_label": "Cross-industry process automation",
       "sector_id": "enterprise-software",
       "companies": [
+        "alloy",
         "autostep",
         "bond",
         "caddy",
@@ -1221,6 +1224,19 @@
       ]
     },
     {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "healthcare.pharma.clinical-dev",
+      "vertical_label": "Biopharma clinical development & regulatory",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "atlas-discovery",
+        "enjamb-labs",
+        "frekil",
+        "omanta"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.provider.patient-engagement",
@@ -1808,18 +1824,6 @@
         "lumius",
         "mango-medical-inc",
         "nucleo"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "healthcare.pharma.clinical-dev",
-      "vertical_label": "Biopharma clinical development & regulatory",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "atlas-discovery",
-        "enjamb-labs",
-        "frekil"
       ]
     },
     {
@@ -4437,6 +4441,16 @@
       "sector_id": "industrials-defense",
       "companies": [
         "83-sciences"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "industrials.robotics.teleop",
+      "vertical_label": "Robotics teleoperation infrastructure",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "dartboard"
       ]
     },
     {
