@@ -1,37 +1,37 @@
 {
-  "checked_at": "2026-08-04T16:11:35.097Z",
+  "checked_at": "2026-08-05T16:01:32.380Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 9,
-  "new_count": 9,
-  "skipped_count": 921,
+  "checked_count": 5,
+  "new_count": 5,
+  "skipped_count": 925,
   "ingest": {
-    "addedCompanies": 1,
-    "enrichedCompanies": 8
+    "addedCompanies": 0,
+    "enrichedCompanies": 5
   },
   "summary": {
     "conforming": 3,
-    "partial": 3,
-    "non_conforming": 3,
+    "partial": 2,
+    "non_conforming": 0,
     "would_have_predicted": 4,
-    "surprise": 3,
+    "surprise": 0,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 108331,
-        "company_slug": "executor",
-        "company_name": "Executor",
-        "launch_url": "https://www.ycombinator.com/launches/SBH-executor-one-place-to-connect-your-agents-to-everything",
-        "created_at": "2026-08-04T15:41:42.736Z"
+        "launch_id": 109244,
+        "company_slug": "agent-fm",
+        "company_name": "Agent FM",
+        "launch_url": "https://www.ycombinator.com/launches/SQ0-agent-fm-one-group-chat-to-hear-and-steer-your-coding-agents",
+        "created_at": "2026-08-05T14:44:22.659Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-08-04T16:11:24.358Z",
-        "launch_id": 108331,
-        "company_slug": "executor",
+        "evaluated_at": "2026-08-05T16:01:31.058Z",
+        "launch_id": 109244,
+        "company_slug": "agent-fm",
         "taxonomy": {
-          "conformance_index": 54,
+          "conformance_index": 52,
           "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
@@ -39,7 +39,7 @@
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 2,
+              "score": 3,
               "band": "weak"
             },
             "business_model_fit": {
@@ -47,34 +47,32 @@
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 89,
+              "score": 88,
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 64,
+              "score": 56,
               "band": "acceptable"
             }
           },
           "cell": {
-            "business_model": "BM-03",
+            "business_model": "BM-01",
             "vertical_id": "ai-infrastructure.agent-runtime",
-            "phenotype_primary_id": "agent-context-infra",
-            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-context-infra",
-            "business_model_label": "AI devtools / infrastructure",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::ai-infrastructure.agent-runtime::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
             "vertical_label": "Agent runtime & orchestration",
-            "phenotype_label": "Agent Context Infrastructure"
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
           }
         },
         "predictor": {
           "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
+          "signals": [],
           "cell_was_whitespace": false,
           "ranked_gap": null,
           "synthetic_match": null,
           "analog_gap_matches": [],
-          "retro_transfer_score": 67,
+          "retro_transfer_score": 64,
           "retro_transfer_band": "acceptable",
           "would_have_been_predicted": true
         },
@@ -85,250 +83,50 @@
     },
     {
       "launch": {
-        "launch_id": 109009,
-        "company_slug": "alloy",
-        "company_name": "Alloy",
-        "launch_url": "https://www.ycombinator.com/launches/SMD-alloy-cloud-agents",
-        "created_at": "2026-08-04T14:29:27.961Z"
+        "launch_id": 109219,
+        "company_slug": "understudy-labs",
+        "company_name": "Understudy Labs",
+        "launch_url": "https://www.ycombinator.com/launches/SPb-understudy-the-self-optimizing-inference-cloud",
+        "created_at": "2026-08-05T02:21:26.322Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-08-04T16:11:33.774Z",
-        "launch_id": 109009,
-        "company_slug": "alloy",
+        "evaluated_at": "2026-08-05T16:01:31.062Z",
+        "launch_id": 109219,
+        "company_slug": "understudy-labs",
         "taxonomy": {
-          "conformance_index": 33,
-          "verdict": "non_conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 0,
-              "band": "weak"
-            },
-            "vertical_workflow_fit": {
-              "score": 4,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 86,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 44,
-              "band": "weak"
-            }
-          },
-          "cell": {
-            "business_model": "BM-02",
-            "vertical_id": "enterprise.devtools.productivity",
-            "phenotype_primary_id": "horizontal-copilot-saas",
-            "cell_key": "BM-02::enterprise.devtools.productivity::horizontal-copilot-saas",
-            "business_model_label": "Horizontal AI SaaS",
-            "vertical_label": "Developer productivity & engineering tools",
-            "phenotype_label": "Horizontal copilot / productivity SaaS"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "unclassified_new_company",
-            "low_taxonomy_conformance"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 108804,
-        "company_slug": "tarebio",
-        "company_name": "TareBio",
-        "launch_url": "https://www.ycombinator.com/launches/SIu-tarebio-vaccines-for-any-cancer-or-infection-in-weeks",
-        "created_at": "2026-08-04T14:27:01.936Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-04T16:11:33.777Z",
-        "launch_id": 108804,
-        "company_slug": "tarebio",
-        "taxonomy": {
-          "conformance_index": 49,
-          "verdict": "non_conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 5,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 93,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 29,
-              "band": "weak"
-            }
-          },
-          "cell": {
-            "business_model": "BM-09",
-            "vertical_id": "healthcare.pharma.drug-discovery",
-            "phenotype_primary_id": "biotech-rd-agent",
-            "cell_key": "BM-09::healthcare.pharma.drug-discovery::biotech-rd-agent",
-            "business_model_label": "Biotech / R&D platform",
-            "vertical_label": "Drug discovery & delivery R&D",
-            "phenotype_label": "Biotech / clinical R&D acceleration"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "cell_observed_with_peers",
-            "low_taxonomy_conformance"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 108925,
-        "company_slug": "omanta",
-        "company_name": "Omanta",
-        "launch_url": "https://www.ycombinator.com/launches/SKr-omanta-a-personal-research-lab-dedicated-to-each-patient",
-        "created_at": "2026-08-04T13:31:15.555Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-04T16:11:33.778Z",
-        "launch_id": 108925,
-        "company_slug": "omanta",
-        "taxonomy": {
-          "conformance_index": 34,
-          "verdict": "non_conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 1,
-              "band": "weak"
-            },
-            "vertical_workflow_fit": {
-              "score": 4,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 44,
-              "band": "weak"
-            }
-          },
-          "cell": {
-            "business_model": "BM-09",
-            "vertical_id": "healthcare.pharma.clinical-dev",
-            "phenotype_primary_id": "biotech-rd-agent",
-            "cell_key": "BM-09::healthcare.pharma.clinical-dev::biotech-rd-agent",
-            "business_model_label": "Biotech / R&D platform",
-            "vertical_label": "Biopharma clinical development & regulatory",
-            "phenotype_label": "Biotech / clinical R&D acceleration"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "low_taxonomy_conformance"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 108805,
-        "company_slug": "83-sciences",
-        "company_name": "83 Sciences",
-        "launch_url": "https://www.ycombinator.com/launches/SIv-83-sciences-materials-discovery-from-the-90-of-experimental-data-that-never-gets-published",
-        "created_at": "2026-08-03T22:41:26.834Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-04T16:11:33.780Z",
-        "launch_id": 108805,
-        "company_slug": "83-sciences",
-        "taxonomy": {
-          "conformance_index": 69,
-          "verdict": "partial",
+          "conformance_index": 73,
+          "verdict": "conforming",
           "dimensions": {
             "phenotype_alignment": {
               "score": 65,
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 70,
-              "band": "acceptable"
+              "score": 75,
+              "band": "strong"
             },
             "business_model_fit": {
               "score": 70,
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 91,
+              "score": 89,
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 56,
+              "score": 71,
               "band": "acceptable"
             }
           },
           "cell": {
-            "business_model": "BM-09",
-            "vertical_id": "industrials.manufacturing.ops",
-            "phenotype_primary_id": "ai-research-automation",
-            "cell_key": "BM-09::industrials.manufacturing.ops::ai-research-automation",
-            "business_model_label": "Biotech / R&D platform",
-            "vertical_label": "Manufacturing operations & order management",
-            "phenotype_label": "AI-native research labs"
+            "business_model": "BM-12",
+            "vertical_id": "compute.model-serving-versioning",
+            "phenotype_primary_id": "open-source-commercial",
+            "cell_key": "BM-12::compute.model-serving-versioning::open-source-commercial",
+            "business_model_label": "Open source + commercial",
+            "vertical_label": "Model versioning & canary deployment",
+            "phenotype_label": "Open-source core + commercial layer"
           }
         },
         "predictor": {
@@ -340,9 +138,75 @@
           "ranked_gap": null,
           "synthetic_match": null,
           "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
           "would_have_been_predicted": false
+        },
+        "notes": [
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 108976,
+        "company_slug": "salem-robotics-inc",
+        "company_name": "Salem Robotics Inc",
+        "launch_url": "https://www.ycombinator.com/launches/SLg-salem-robotics-autonomous-robots-for-hazardous-spaces",
+        "created_at": "2026-08-04T19:00:03.963Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-05T16:01:31.063Z",
+        "launch_id": 108976,
+        "company_slug": "salem-robotics-inc",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 54,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "robotics.quality-inspection",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::robotics.quality-inspection::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Robotic quality inspection & defect detection",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
         },
         "notes": [
           "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
@@ -351,17 +215,81 @@
     },
     {
       "launch": {
-        "launch_id": 108806,
-        "company_slug": "amorphic-labs",
-        "company_name": "Amorphic Labs",
-        "launch_url": "https://www.ycombinator.com/launches/SIw-amorphic-labs-agentic-personalized-product-demo-videos-for-sales",
-        "created_at": "2026-08-03T21:11:17.469Z"
+        "launch_id": 108922,
+        "company_slug": "impact-drones",
+        "company_name": "IMPACT Drones",
+        "launch_url": "https://www.ycombinator.com/launches/SKo-impact-drones-air-defense-as-a-service-for-civilian-infrastructure",
+        "created_at": "2026-08-04T18:02:22.616Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-08-04T16:11:33.782Z",
-        "launch_id": 108806,
-        "company_slug": "amorphic-labs",
+        "evaluated_at": "2026-08-05T16:01:31.064Z",
+        "launch_id": 108922,
+        "company_slug": "impact-drones",
+        "taxonomy": {
+          "conformance_index": 82,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "industrials.defense.drones",
+            "phenotype_primary_id": "physical-ai-autonomous-systems",
+            "cell_key": "BM-08::industrials.defense.drones::physical-ai-autonomous-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Defense drone & UAS operations",
+            "phenotype_label": "Physical AI & Autonomous Manufacturing"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 108800,
+        "company_slug": "caution",
+        "company_name": "Caution",
+        "launch_url": "https://www.ycombinator.com/launches/SIq-caution-hosting-platform-for-software-you-can-t-afford-to-have-hacked",
+        "created_at": "2026-08-04T17:02:42.242Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-05T16:01:31.068Z",
+        "launch_id": 108800,
+        "company_slug": "caution",
         "taxonomy": {
           "conformance_index": 76,
           "verdict": "conforming",
@@ -379,7 +307,7 @@
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 88,
+              "score": 86,
               "band": "strong"
             },
             "thesis_coherence": {
@@ -389,11 +317,11 @@
           },
           "cell": {
             "business_model": "BM-01",
-            "vertical_id": "enterprise.sales.enablement",
+            "vertical_id": "ai-infrastructure.agent-security",
             "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::enterprise.sales.enablement::vertical-workflow-agent",
+            "cell_key": "BM-01::ai-infrastructure.agent-security::vertical-workflow-agent",
             "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Sales enablement & execution",
+            "vertical_label": "Agent security & authorization",
             "phenotype_label": "Vertical AI workflow agent (AI department for X)"
           }
         },
@@ -409,200 +337,6 @@
           "would_have_been_predicted": true
         },
         "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 108803,
-        "company_slug": "buildbox",
-        "company_name": "Buildbox",
-        "launch_url": "https://www.ycombinator.com/launches/SIt-buildbox-agent-analytics-for-real-user-outcomes",
-        "created_at": "2026-08-03T20:24:30.725Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-04T16:11:33.783Z",
-        "launch_id": 108803,
-        "company_slug": "buildbox",
-        "taxonomy": {
-          "conformance_index": 77,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 55,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 90,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.agent-observability",
-            "phenotype_primary_id": "agent-observability-evals",
-            "cell_key": "BM-03::ai-infrastructure.agent-observability::agent-observability-evals",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Agent observability & logging",
-            "phenotype_label": "Agent observability, evals, or safety"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 108802,
-        "company_slug": "rasyn",
-        "company_name": "Rasyn",
-        "launch_url": "https://www.ycombinator.com/launches/SIs-rasyn-one-place-to-run-any-chemistry-task",
-        "created_at": "2026-08-03T19:40:21.411Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-04T16:11:33.785Z",
-        "launch_id": 108802,
-        "company_slug": "rasyn",
-        "taxonomy": {
-          "conformance_index": 76,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 71,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-09",
-            "vertical_id": "healthcare.pharma.drug-discovery",
-            "phenotype_primary_id": "biotech-rd-agent",
-            "cell_key": "BM-09::healthcare.pharma.drug-discovery::biotech-rd-agent",
-            "business_model_label": "Biotech / R&D platform",
-            "vertical_label": "Drug discovery & delivery R&D",
-            "phenotype_label": "Biotech / clinical R&D acceleration"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 108796,
-        "company_slug": "molagri",
-        "company_name": "Molagri",
-        "launch_url": "https://www.ycombinator.com/launches/SIm-molagri-resistance-free-pesticides",
-        "created_at": "2026-08-03T18:35:06.582Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-04T16:11:33.786Z",
-        "launch_id": 108796,
-        "company_slug": "molagri",
-        "taxonomy": {
-          "conformance_index": 50,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 1,
-              "band": "weak"
-            },
-            "vertical_workflow_fit": {
-              "score": 75,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 89,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 38,
-              "band": "weak"
-            }
-          },
-          "cell": {
-            "business_model": "BM-09",
-            "vertical_id": "farming.pest-disease-scouting",
-            "phenotype_primary_id": "biotech-rd-agent",
-            "cell_key": "BM-09::farming.pest-disease-scouting::biotech-rd-agent",
-            "business_model_label": "Biotech / R&D platform",
-            "vertical_label": "Pest & disease scouting & monitoring",
-            "phenotype_label": "Biotech / clinical R&D acceleration"
-          }
-        },
-        "predictor": {
-          "predictability_band": "occupied_first",
-          "signals": [
-            "first_occupant_of_cell"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
       }
     }
   ]

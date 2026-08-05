@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-04T16:10:16.002Z",
+  "synced_at": "2026-08-05T16:00:14.843Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1200,
+  "company_count": 1204,
   "companies": [
     {
       "slug": "10x",
@@ -428,6 +428,27 @@
       "launched_at": 1784914207
     },
     {
+      "slug": "agent-fm",
+      "name": "Agent FM",
+      "batch": "Summer 2026",
+      "one_liner": "One group chat to hear and steer your coding agents.",
+      "long_description": "Agent FM is a desktop app that gives engineers one group chat to hear and steer their coding agents. Instead of manually bouncing between different claude code and codex sessions, and combing through walls of text to monitor agents, engineers just tune in to Agent FM. Agents share important progress updates, blockers, assumptions, and decisions in the group chat. Engineers get live text and audio updates and respond right from the chat.",
+      "website": "https://www.agentfm.ai/",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Productivity"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1785890886
+    },
+    {
       "slug": "agentcard",
       "name": "Agentcard",
       "batch": "Summer 2026",
@@ -537,10 +558,10 @@
         "Analytics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "Analytics",
-        "Monitoring"
+        "Monitoring",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -1029,19 +1050,19 @@
       "slug": "amby-health",
       "name": "Amby Health",
       "batch": "Winter 2025",
-      "one_liner": "AI Copilot for Ambulance Agencies (EMS)",
-      "long_description": "Amby Health automates billing and quality reviews for ambulance agencies (EMS), replacing large back-office teams with AI. We analyze patient reports in seconds—not months—accurately coding claims and identifying liability and care risks while eliminating costly, error-prone manual processes.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "one_liner": "The health coach that texts you first",
+      "long_description": "Your wearable tells you what happened. Amby texts you what to do next, checks in, and adjusts when life gets in the way.",
       "website": "https://tryamby.com",
       "industries": [
         "Healthcare",
-        "Healthcare IT"
+        "Consumer Health and Wellness"
       ],
       "tags": [
         "SaaS",
         "Health Tech",
         "Digital Health",
         "Healthcare",
-        "Healthcare IT"
+        "Health & Wellness"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -1395,6 +1416,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1746569409
+    },
+    {
+      "slug": "arbital",
+      "name": "Arbital",
+      "batch": "Summer 2026",
+      "one_liner": "The trading terminal for perps, memes, and stocks.",
+      "long_description": "Arbital is a trading terminal for perps, memes, and stocks. In our first 7 months, 2,400 traders have traded $1.2B in volume through Arbital, and we're now doing $300M/month.\r\n\r\nWe're building towards a social, mobile-first trading app that brings tokenized equities, crypto, and perps to everyone.",
+      "website": "https://www.arbital.xyz",
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "tags": [
+        "DeFi",
+        "Crypto / Web3",
+        "Trading"
+      ],
+      "team_size": 3,
+      "location": "Singapore, Singapore",
+      "status": "Active",
+      "launched_at": 1785892617
     },
     {
       "slug": "arc-prize-foundation",
@@ -4365,6 +4407,25 @@
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1748069202
+    },
+    {
+      "slug": "chromiedev",
+      "name": "chromie.dev",
+      "batch": "Summer 2026",
+      "one_liner": "find, qualify, & win contracts with AI",
+      "long_description": "The all-in-one platform to tackle government contracts with intelligence.",
+      "website": "https://chromie.dev",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "GovTech",
+        "Workflow Automation"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1785887406
     },
     {
       "slug": "chronicle-labs",
@@ -7722,7 +7783,7 @@
         "Consumer Electronics"
       ],
       "tags": [],
-      "team_size": 3,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1769992231
@@ -9620,8 +9681,8 @@
         "Gaming"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Gaming"
+        "Gaming",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -11923,8 +11984,8 @@
       "slug": "magnitude",
       "name": "Magnitude",
       "batch": "Summer 2025",
-      "one_liner": "The best coding agent for open models",
-      "long_description": "The full Claude Code experience, except it runs anywhere. From our infra to fully air-gapped in your data center.",
+      "one_liner": "Code with local models, zero setup",
+      "long_description": "Today, coding with local models means finding a model, choosing a quant, installing and tuning a runtime, connecting it to an agent, and keeping the stack working. Magnitude handles it all for you so you can focus on coding. npm install -g @magnitudedev/cli",
       "website": "https://magnitude.dev",
       "industries": [
         "B2B",
@@ -11933,7 +11994,7 @@
       "tags": [
         "Artificial Intelligence",
         "Developer Tools",
-        "Enterprise Software",
+        "Open Source",
         "Infrastructure",
         "AI"
       ],
@@ -13984,7 +14045,7 @@
       "slug": "olam-labs",
       "name": "Olam Labs",
       "batch": "Summer 2026",
-      "one_liner": "Evaluating models for behavior and performance through simulated games",
+      "one_liner": "Building multi-agent simulations for model evals and training.",
       "long_description": "Evaluating models for social behavior, safety, and performance through multi-agent simulated games. We use popular games like Catan, Risk, or Poker, and make humans come play them against talking AI opponents, but on the backend we're actually running a multi-agent environment used to evaluate the models for skill and behavior over large sample sizes.\r\n\r\nYou can play in Social Arena and view our preliminary benchmarks today at https://olamlabs.ai/",
       "website": "https://olamlabs.ai",
       "industries": [
@@ -13993,7 +14054,6 @@
       "tags": [
         "Reinforcement Learning",
         "Gaming",
-        "Crowdsourcing",
         "Data Engineering",
         "AI"
       ],
@@ -14696,12 +14756,12 @@
       "slug": "osseus",
       "name": "Osseus",
       "batch": "Summer 2026",
-      "one_liner": "The intelligent design platform for robotics",
-      "long_description": "Osseus is the intelligent design platform for robotics. Today, it gives robotics teams a collaborative web app for reviewing mechanical and electrical designs against the full context around them. Engineers and suppliers comment on the exact part, net, connector, or dimension, while AI AutoReview compares proposed changes with prior revisions and source evidence.\r\n\r\nUnderneath is a secure research brain that connects physical designs, robot descriptions and models, firmware and robot software, simulation and test results, supplier feedback, decisions, and owners in one permissioned, version-aware record. Because Osseus understands those relationships, it can carry supplier constraints into future reviews, trace a hardware change into the exact configurations, code, and validation work it affects, and turn approved findings into owned work without losing the evidence or rationale.\r\n\r\nOur long-term goal is for any professional team or hobbyist to import, fork, or create a robot in Osseus. Builders will be able to explore compatible components and supplier intelligence, edit the physical design, and receive proposed updates to the robot description, firmware, control software, simulation, and tests. We ultimately want to develop physical-AI models that reason jointly over the robot's geometry, electronics, kinematics, components, software, and real-world performance so people can optimize and iterate on robots much faster.",
+      "one_liner": "The intelligent development platform for robotics",
+      "long_description": "Osseus is the intelligent development platform for robotics. Today, it gives robotics teams a collaborative web app for reviewing mechanical and electrical designs against the full context around them. Engineers and suppliers comment on the exact part, net, connector, or dimension, while AI AutoReview compares proposed changes with prior revisions and source evidence.\r\n\r\nUnderneath is a secure research brain that connects physical designs, robot descriptions and models, firmware and robot software, simulation and test results, supplier feedback, decisions, and owners in one permissioned, version-aware record. Because Osseus understands those relationships, it can carry supplier constraints into future reviews, trace a hardware change into the exact configurations, code, and validation work it affects, and turn approved findings into owned work without losing the evidence or rationale.\r\n\r\nOur long-term goal is for any professional team or hobbyist to import, fork, or create a robot in Osseus. Builders will be able to explore compatible components and supplier intelligence, edit the physical design, and receive proposed updates to the robot description, firmware, control software, simulation, and tests. We ultimately want to develop physical-AI models that reason jointly over the robot's geometry, electronics, kinematics, components, software, and real-world performance so people can optimize and iterate on robots much faster.",
       "website": "https://osseus.ai/",
       "industries": [
         "B2B",
-        "Productivity"
+        "Engineering, Product and Design"
       ],
       "tags": [
         "Artificial Intelligence",
@@ -14763,12 +14823,12 @@
       "batch": "Summer 2025",
       "one_liner": "Synthetic populations for decisions",
       "long_description": "Surveys ask people what they think they’ll do. Focus groups ask a handful of people to explain behavior they often don’t understand themselves.\r\n\r\nSapien simulates entire populations instead. We create AI agents that model how real audiences behave, letting companies, governments, and investors test decisions in minutes: what product to launch, what price to set, what campaign to run, what policy will work, or how a market will move.\r\n\r\nThe output is not another dashboard. It’s a prediction of what will happen, which segments will drive it, and what decision is most likely to win.",
-      "website": "https://www.outrove.ai/",
+      "website": "https://www.asksapien.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -16213,8 +16273,8 @@
       "slug": "polymorph",
       "name": "Polymorph",
       "batch": "Winter 2026",
-      "one_liner": "Building the future of the consumer internet",
-      "long_description": "Polymorph is building the future of the consumer internet: one that adapts to each user and optimizes for delightful experiences by building agents that constantly run thousands of experiments that scale our customers' product ideas and brand.\r\n\r\nTeam has extensive startup, AI, and math backgrounds: \r\n- founding engineer at a unicorn\r\n- ML infrastructure @ Scale AI (inference), AWS Bedrock (fine-tuning)\r\n- ads engineering @ Meta & Twitch\r\n- IMO & IOI medalists",
+      "one_liner": "Building secure polymorphic apps",
+      "long_description": "Team has extensive startup, AI, and math backgrounds: \r\n- founding engineer at a unicorn\r\n- ML infrastructure @ Scale AI (inference), AWS Bedrock (fine-tuning)\r\n- ads engineering @ Meta & Twitch\r\n- IMO & IOI medalists",
       "website": "https://usepolymorph.com/",
       "industries": [
         "B2B"
@@ -16513,8 +16573,8 @@
       "slug": "procindex",
       "name": "ProcIndex",
       "batch": "Summer 2025",
-      "one_liner": "AI Agents for Accounting Operations",
-      "long_description": "ProcIndex is a full stack AI accounting firm, with a suite of agents to automate quote to cash, accounts payable and month end close processes end to end.\r\n\r\nProcIndex connects with your existing ERP, operates in the background while giving you full visibility into the agent actions and powers accounting teams to become 33% more efficient.",
+      "one_liner": "AI-powered accounting automation for construction and manufacturing",
+      "long_description": "ProcIndex uses AI to automate accounting operations for the construction and manufacturing sectors.\r\n\r\nIt connects to your existing ERP and operates in the background while giving you full visibility into its actions. By automating accounts payable, accounts receivable, reconciliation, and vendor management, ProcIndex helps accounting teams improve efficiency by 33%.",
       "website": "https://procindex.com/",
       "industries": [
         "B2B",
@@ -17515,6 +17575,29 @@
       "launched_at": 1769550752
     },
     {
+      "slug": "riften",
+      "name": "Riften",
+      "batch": "Summer 2026",
+      "one_liner": "Earned Intelligence for every company. ",
+      "long_description": "Riften builds earned intelligence: models that come out of a company’s own work instead of out of a lab.\r\n\r\nOne environment variable points an existing application at Riften instead of OpenAI or Anthropic. Riften routes each request to the least expensive model likely to handle it, using open-weight models we host whenever they are sufficient. Customers lower inference costs before any training begins.\r\n\r\nBecause Riften sits in the request path, real tasks and their outcomes create training evidence the company controls. Riften uses that evidence to improve routing and train private models on open weights around recurring work. Those models earn production traffic by meeting the same bar as the APIs they replace.\r\n\r\nOver time, frontier APIs handle only the tasks that still require them. The rest runs on models the company owns, on infrastructure it controls, inside the applications where the work happens.",
+      "website": "https://riften.ai",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Reinforcement Learning",
+        "Open Source",
+        "Infrastructure"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1785872995
+    },
+    {
       "slug": "rightnow",
       "name": "RightNow",
       "batch": "Fall 2026",
@@ -17557,7 +17640,7 @@
       "name": "Rindler",
       "batch": "Summer 2026",
       "one_liner": "The translation layer between AI agents and the web",
-      "long_description": "Rindler turns any website, including sites without APIs, into a deterministic API that AI agents can reliably use. It handles logins, 2FA, and bot detection, giving agents clean structured data and dependable actions instead of raw HTML, with robust maintenance when sites change.\r\n\r\nRindler is agent-agnostic and built on the open MCP standard, so it works with any agent.\r\n\r\nFor operators: get your team out of portals and back to the work that matters.\r\n\r\nFor agent builders: let your agents act on the real web quickly, cheaply, and reliably on every run.",
+      "long_description": "Rindler turns any website into deterministic abstractions that AI agents can operate on with speed, efficiency, and reliability.\r\n\r\nRindler drives a real browser to execute tasks on websites. It signs in, handles one-time verification codes, navigates to the right screen, retrieves records or completes forms, and returns structured output in a caller-defined schema.\r\n\r\nMost browser agents re-process and re-compute the same website every time they visit it. Rindler remembers. Our infrastructure gets faster and cheaper the more it is used, and when a site changes underneath it, Rindler detects the break and heals itself.\r\n\r\nFor operations leaders, Rindler takes on the repetitive website work your team does by hand, giving them their time back for the work that matters.\r\n\r\nFor agent builders, Rindler is a single endpoint that carries out tasks on the web, so you do not have to build or run browser infrastructure of your own.",
       "website": "https://rindler.ai",
       "industries": [
         "B2B",
@@ -17566,8 +17649,8 @@
       "tags": [
         "B2B",
         "Workflow Automation",
-        "Infrastructure",
-        "APIs"
+        "Automation",
+        "Infrastructure"
       ],
       "team_size": 2,
       "location": "Boston, MA, USA",
@@ -18134,6 +18217,8 @@
       "tags": [
         "Hard Tech",
         "Robotics",
+        "Energy",
+        "Defense",
         "Industrial"
       ],
       "team_size": 2,
@@ -18671,26 +18756,6 @@
       "location": "",
       "status": "Active",
       "launched_at": 1759869599
-    },
-    {
-      "slug": "shepherd-3",
-      "name": "Shepherd",
-      "batch": "Summer 2026",
-      "one_liner": "Give your company the knowledge it deserves",
-      "long_description": "Shepherd automatically ingests every tool your team uses into one unified memory you can index, and your agents can act on.",
-      "website": "https://askshepherd.ai",
-      "industries": [
-        "B2B"
-      ],
-      "tags": [
-        "Enterprise",
-        "Search",
-        "AI Assistant"
-      ],
-      "team_size": 3,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1782183998
     },
     {
       "slug": "sherpa",
@@ -19533,8 +19598,8 @@
       "slug": "standard-machines",
       "name": "Standard Machines",
       "batch": "Summer 2026",
-      "one_liner": "Environments For Chip Design",
-      "long_description": "We build environments and evaluations to teach AI to design chips.",
+      "one_liner": "RL Environments For Chip Design",
+      "long_description": "We build RL environments to teach AI to design chips.",
       "website": "https://standardmachines.com",
       "industries": [
         "B2B"
@@ -19577,7 +19642,7 @@
         "Recruiting and Talent"
       ],
       "tags": [],
-      "team_size": 3,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1773415057
@@ -21714,6 +21779,28 @@
       "launched_at": 1779755220
     },
     {
+      "slug": "ultrasonium",
+      "name": "Ultrasonium",
+      "batch": "Summer 2026",
+      "one_liner": "Manufacturing the metal parts the world runs on faster, cheaper, safer",
+      "long_description": "The technologies that define this century, including data centers, rockets, satellites, and robots, are built from complex metal parts. As these systems advance, the parts get harder to make. Past a certain complexity, casting and machining stop working, and the advanced methods that remain are slow, expensive, and hazardous.\r\n\r\nUltrasonium has invented a new manufacturing method to make these critical parts 15x faster and 75% cheaper than the methods they replace, in the U.S. and at scale. Solid metal feedstock goes in and a finished part safely comes out, controlled by a physical AI layer and novel control processes. \r\n\r\nThe systems that matter most, in aerospace, energy, and compute, are demanding metal geometries that can't be machined or cast and are too expensive and slow to make with incumbent methods, at a moment when domestic manufacturing capacity is a national priority.\r\n\r\nOur founding team has built and innovated some of the most complex engineering systems known to man: quantum computers, superconductors, nuclear reactors, and novel aerospace alloy processing methods. ",
+      "website": "https://ultrasonium.com/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "Robotics",
+        "Manufacturing"
+      ],
+      "team_size": 17,
+      "location": "Boston, MA, USA",
+      "status": "Active",
+      "launched_at": 1785870310
+    },
+    {
       "slug": "uncommon-therapeutics",
       "name": "Uncommon Therapeutics",
       "batch": "Winter 2025",
@@ -22935,15 +23022,15 @@
       "slug": "withasync",
       "name": "Async",
       "batch": "Summer 2026",
-      "one_liner": "We transform small businesses with AI agents",
+      "one_liner": "Transforming small businesses with AI agents",
       "long_description": "Async builds agents that change how businesses can run. Law firms, healthcare clinics and real estate companies hire our AI agents to automate complex work that's never been economical to staff with humans, letting us capture labor spend that didn't previously exist.",
       "website": "https://withasync.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "B2B",
-        "AI"
+        "Artificial Intelligence",
+        "B2B"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -23054,7 +23141,7 @@
       "name": "Zaplar",
       "batch": "Summer 2026",
       "one_liner": "Agentic Hotel Operating System",
-      "long_description": "Zaplar is the AI-native operating system for hotels.\r\n\r\nWe replace the entire hotel tech stack (PMS, POS, booking engine, etc) into one software that can handle hotel operations autonomously.\r\n\r\nLearn more at https://zaplar.com",
+      "long_description": "Zaplar is the AI-native operating system for hotels.\r\n\r\nHotels run on legacy software and a fragmented tech stack. Zaplar replaces the entire hotel tech stack (PMS, POS, booking engine, etc) into one software that can handle hotel operations autonomously.\r\n\r\nLearn more at https://zaplar.com",
       "website": "https://zaplar.com",
       "industries": [
         "B2B",

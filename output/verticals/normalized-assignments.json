@@ -1552,6 +1552,95 @@
     "vertical_normalize_method": "assignment_explicit"
   },
   {
+    "slug": "agent-fm",
+    "name": "Agent FM",
+    "website": "https://www.agentfm.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/agent-fm",
+    "batch": "Summer 2026",
+    "one_liner": "One group chat to hear and steer your coding agents.",
+    "description_combined": "One group chat to hear and steer your coding agents.\n\nAgent FM is a desktop app that gives engineers one group chat to hear and steer their coding agents. Instead of manually bouncing between different claude code and codex sessions, and combing through walls of text to monitor agents, engineers just tune in to Agent FM. Agents share important progress updates, blockers, assumptions, and decisions in the group chat. Engineers get live text and audio updates and respond right from the chat.\n\nComputer use + live audio updates + group chat with your agents. One command center to end agent babysitting.\n\nHi everyone 👋\n\nWe're Aniket &amp; Mugdhaa, co-founders of Agent FM.\n\nTL;DR: Agent FM is a desktop app that gives engineers one group chat to hear and steer their coding agents. Instead of manually bouncing between different claude code and codex sessions, and combing through walls of text to monitor agents, engineers just tune in to Agent FM. Agents share important progress updates, blockers, assumptions, and decisions in the group chat. Engineers get live text and audio updates and respond right from the chat.\n\nLaunch video:  \n\n#### The Problem:\n\nBabysitting agents is exhausting. Engineers running claude code and codex agents spend all day bouncing between multiple sessions, combing through walls of text to keep track of the work. In long horizon tasks, agents often go down the wrong pat",
+    "industry_sub_vertical": "Agent orchestration & monitoring for multi-agent coding workflows",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent runtime / harness / orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_monitoring",
+      "multi_agent_coordination",
+      "developer_ux"
+    ],
+    "what_they_sell": "Desktop application providing unified group chat interface for monitoring, steering, and coordinating multiple coding agents (Claude Code, Codex, etc.) in real-time. Consolidates agent progress updates, blockers, assumptions, and decisions into a single conversational UI with live text and audio notifications.",
+    "ai_play": "Solves the multi-agent coordination and observability problem for developers. Instead of context-switching between multiple agent sessions and parsing verbose logs, engineers get a natural language group chat where agents communicate their state and engineers can steer them via conversational commands. Reduces cognitive load and improves agent reliability through better human-in-the-loop oversight.",
+    "who_pays": "Software engineers and development teams using multiple coding agents; engineering managers overseeing agentic development workflows.",
+    "confidence": 0.75,
+    "rationale": "Agent FM is primarily an agent orchestration and observability layer (agent-runtime-infra: tool routing, reliability, human steering). The group chat UX is the distribution mechanism, but the core value is managing multiple agents' execution state and enabling developers to intervene. Secondary phenotype (horizontal-copilot-saas) applies because it's a cross-industry productivity tool sold to developers as a seat-based desktop app. Primary phenotype is stronger because the focus is on agent coordination and monitoring, not general developer productivity. Confidence is 0.75 (not higher) because the product is primarily a UX/coordination layer rather than a full runtime harness—it orchestrates agents but doesn't execute them.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Developer Tools",
+      "Productivity"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 355672,
+        "full_name": "Aniket Deshpande",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder & CEO at Agent FM · Previously Applied AI at Meta Superintelligence Labs",
+        "linkedin_url": "https://linkedin.com/in/anideshp",
+        "twitter_url": "https://x.com/anideshp",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e07e9d9585f2f737ad4192980033d6bfb18882be.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEYQMZTUR%2F20260805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260805T160014Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGAaCXVzLXdlc3QtMiJIMEYCIQCegBDJ4KLCU4%2FpFvVdEndqeMvIJ%2FCdf5ZOYFlQmTE2gAIhAOFNQLVWYyAf0psgu5tJ3VWR%2FY7hdCEGbem84trLweBlKuUDCCkQABoMMDA2MjAxODExMDcyIgzmy%2FuVkH83DXFFDdoqwgOT9p3Y7IYcjJ7jR8GJFZ%2BJCw5MOKPyh10oa5sNEElSMr6CTWQWvx7bj7iPAInzbno1Jy88zX%2FmP0P3hBjcnOcY9rTwXDryVSYTHdsZxOdn6Z2As4bNCF0hz%2FsUB5%2FjYgUC6ufREPHMeSGY9oqeHiuX2bcqV9XBlzqH1TwqdCiUaGLElB9pynM2lL5fyo4erkSUqmcHj8ghrp6JtwcYLWVKAhugQIVDjQSFyxjh2GdOK1Wtud0uXGLhX%2FdoJER8U7BfZTE4xhOZc3cSskojhCx6SJOLWP%2F6EtoyU5sSnvSGryAirjYRe8AWWkA7r1xu52sIeGzI%2Bs64fi1iz7r3oSCuxpPTM8by5IFOlvx726q4pZfUz%2Bb3EabgVj%2BJZTGUxXwTgSr8MTvwMIsY6Som%2FVVUaPux0fK5lIUoh316kfBB3Ylk%2FJEEqmiLlODcm%2BjKXDHQK820ZRGHgn2jMyTp0d0VTefg94aGqa2YRYQf1TRgXgNkHSsyMWaRgcO%2F1hu1INmzEc3AP8G6SPtaLeAL%2Fpxy5yM5jUszlhxPJITT4ncG0kUmrITCTpOxHpyR9lWmQSnJCIXQNu%2BPOLmBXSSq9H8wd7ww6rjN0wY6pAFxKb0qbuPV3ytPxkc9VH8VBlnmiUMmyUH1F9KywNRrWccC5bWu3JBdG%2F2H%2F15pzZ6ONABdZfR2bkAiyGdycufv2OcOYEStoty6oFtAJj4I4dE0G2vayu6WkEJVv14y5QhGVyr8gwCuVRZ9Gt%2BJ8yNxwgL63IlKImA5TgbXkoBC8tRN5pRhqpQs%2FuczRUVMeWNvZTDcJJJ3qvgWbWUFvFiEhqGjsg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1f6bc6de556ec9510f44c476b0e203ff2450cc25b34a59b29283345ff0804ca7",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Agent FM",
+          "href": "https://www.ycombinator.com/companies/agent-fm"
+        }
+      },
+      {
+        "user_id": 606411,
+        "full_name": "Mugdhaa Patankar",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder & CTO at Agent FM · Previously Snowflake, Twitch, AWS",
+        "linkedin_url": "https://linkedin.com/in/mugdhaa-patankar",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cc8dfabe29ed3019f42417501588ddf2af32354e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEYQMZTUR%2F20260805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260805T160014Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGAaCXVzLXdlc3QtMiJIMEYCIQCegBDJ4KLCU4%2FpFvVdEndqeMvIJ%2FCdf5ZOYFlQmTE2gAIhAOFNQLVWYyAf0psgu5tJ3VWR%2FY7hdCEGbem84trLweBlKuUDCCkQABoMMDA2MjAxODExMDcyIgzmy%2FuVkH83DXFFDdoqwgOT9p3Y7IYcjJ7jR8GJFZ%2BJCw5MOKPyh10oa5sNEElSMr6CTWQWvx7bj7iPAInzbno1Jy88zX%2FmP0P3hBjcnOcY9rTwXDryVSYTHdsZxOdn6Z2As4bNCF0hz%2FsUB5%2FjYgUC6ufREPHMeSGY9oqeHiuX2bcqV9XBlzqH1TwqdCiUaGLElB9pynM2lL5fyo4erkSUqmcHj8ghrp6JtwcYLWVKAhugQIVDjQSFyxjh2GdOK1Wtud0uXGLhX%2FdoJER8U7BfZTE4xhOZc3cSskojhCx6SJOLWP%2F6EtoyU5sSnvSGryAirjYRe8AWWkA7r1xu52sIeGzI%2Bs64fi1iz7r3oSCuxpPTM8by5IFOlvx726q4pZfUz%2Bb3EabgVj%2BJZTGUxXwTgSr8MTvwMIsY6Som%2FVVUaPux0fK5lIUoh316kfBB3Ylk%2FJEEqmiLlODcm%2BjKXDHQK820ZRGHgn2jMyTp0d0VTefg94aGqa2YRYQf1TRgXgNkHSsyMWaRgcO%2F1hu1INmzEc3AP8G6SPtaLeAL%2Fpxy5yM5jUszlhxPJITT4ncG0kUmrITCTpOxHpyR9lWmQSnJCIXQNu%2BPOLmBXSSq9H8wd7ww6rjN0wY6pAFxKb0qbuPV3ytPxkc9VH8VBlnmiUMmyUH1F9KywNRrWccC5bWu3JBdG%2F2H%2F15pzZ6ONABdZfR2bkAiyGdycufv2OcOYEStoty6oFtAJj4I4dE0G2vayu6WkEJVv14y5QhGVyr8gwCuVRZ9Gt%2BJ8yNxwgL63IlKImA5TgbXkoBC8tRN5pRhqpQs%2FuczRUVMeWNvZTDcJJJ3qvgWbWUFvFiEhqGjsg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6cbbf2fef6da9791c0e80c74c5588a44a2d27ca1da719735e7a84f330bfe4bcb",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Agent FM",
+          "href": "https://www.ycombinator.com/companies/agent-fm"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-05T16:00:23.551Z",
+    "classified_at": "2026-08-05T16:00:23.551Z",
+    "proposed_phenotype": null,
+    "launch_id": 109244,
+    "launch_url": "https://www.ycombinator.com/launches/SQ0-agent-fm-one-group-chat-to-hear-and-steer-your-coding-agents",
+    "launch_title": "Agent FM: One group chat to hear and steer your coding agents.",
+    "launch_created_at": "2026-08-05T14:44:22.659Z",
+    "launch_tagline": "Computer use + live audio updates + group chat with your agents. One command center to end agent babysitting.",
+    "launch_evaluated_at": "2026-08-05T16:01:32.297Z",
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "agentcard",
     "name": "Agentcard",
     "website": "https://agentcard.sh",
@@ -5223,6 +5312,74 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.55,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "arbital",
+    "name": "Arbital",
+    "website": "https://www.arbital.xyz",
+    "yc_profile_url": "https://www.ycombinator.com/companies/arbital",
+    "batch": "Summer 2026",
+    "one_liner": "The trading terminal for perps, memes, and stocks.",
+    "description_combined": "The trading terminal for perps, memes, and stocks.\n\nArbital is a trading terminal for perps, memes, and stocks. In our first 7 months, 2,400 traders have traded $1.2B in volume through Arbital, and we&#x27;re now doing $300M/month.\r\n\r\nWe&#x27;re building towards a social, mobile-first trading app that brings tokenized equities, crypto, and perps to everyone.",
+    "industry_sub_vertical": "Retail crypto derivatives & tokenized equities trading terminal",
+    "canonical_vertical_id": "consumer.finance.investment-advisory",
+    "vertical_id": "consumer.finance.investment-advisory",
+    "vertical_label": "Robo-advisory & automated investment management",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "marketplace-network-ai",
+    "phenotype_primary_label": "Marketplace / exchange / liquidity network",
+    "phenotype_family": "network",
+    "value_wedge": "network_effects",
+    "ai_application": "matching_routing",
+    "ai_application_patterns": [
+      "order_routing",
+      "liquidity_matching",
+      "social_discovery"
+    ],
+    "what_they_sell": "A mobile-first trading terminal and venue for perpetual futures, meme tokens, and tokenized equities. Provides order execution, liquidity aggregation, and social discovery features for retail traders.",
+    "ai_play": "AI optimizes order routing across fragmented perp/spot liquidity pools, surfaces trending meme tokens and social signals, and personalizes discovery to drive user engagement and trading volume.",
+    "who_pays": "Retail traders (freemium model); revenue from trading fees, spreads, and premium features.",
+    "confidence": 0.75,
+    "rationale": "Arbital is a two-sided trading venue/exchange (not a regulated financial product taking capital/LP risk, not a B2B workflow tool). Core value is the liquidity network and social distribution moat. AI enhances matching, routing, and discovery but is not the primary SKU differentiator — the venue itself is. Fits marketplace-network-ai: trading venue with network effects. Not fintech-insurance-ai-product (no insurance/underwriting SKU, no LP capital). Not vertical-workflow-agent (not B2B software for professional traders/funds).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Consumer Finance"
+    ],
+    "yc_tags": [
+      "DeFi",
+      "Crypto / Web3",
+      "Trading"
+    ],
+    "business_models": [
+      "BM-07"
+    ],
+    "team_size": 3,
+    "location": "Singapore, Singapore",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3674258,
+        "full_name": "Steven Mulyawan",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Arbital. Previously led APAC regional growth at Aevo, closing partnerships with KOLs and agencies across the region and onboarding 10,000+ traders contributing to $5B+ in trading volume.",
+        "linkedin_url": "https://www.linkedin.com/in/steven-mulyawan-974ab7252?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+        "twitter_url": "https://x.com/0xstevezilla",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/07422eb4413225536a4e713e23fb4cd54da5d006.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAS54VHE2%2F20260805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260805T160043Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGAaCXVzLXdlc3QtMiJGMEQCIB24nsNzO1ivByjfQs%2FTqmXc1IWSrSPCxzMuxEIwzuTjAiBmotL56i5vffudbhvYSMfCMt%2B%2BedByoAJrFZUCt61BryrlAwgpEAAaDDAwNjIwMTgxMTA3MiIM5JjcePNpU1JgV73TKsIDerT4eq1jt407TH4YNb%2Fi%2Bs2N7DTVc3ljQiAb2xkhgeivDrupWO8Z%2FeBPG5Q0N83qeyTvxT%2BFzQbUTWiKO73ZKud1u2iPSkBPOITKNN3bNz18Mu5JFr2RRZB3DNgMj1pte3RkYj%2BpBAoMi3Hu4e%2BSbywx%2BZOSONG%2B1zu7s2yiJahX93ePxALUGlR35ivuwFj0tF%2B2dfyIr4PCo53lrhQsrykCa%2BlwiQoquF%2Bvh6STLaN5GhR9Va1r3sS7TJrjJpb26ocTjiy7ishCnfX7%2F8Zk6092J2TrWR8RY5EH40NWOZG%2FFvUHdU%2BT3eryOzMUJnrYysHEHC24M8Mehz2HMS2FRN%2Fij2YniFQyVvsHplYRIJrRI9eimY7sdNavp13v3msJxP%2B%2F9SxtLoy1ch%2F9IKfdH8mit8zjJsHK4WjqRo1iwseEn5N2E5nBt3OtzWYQVOhMM7gfeOS9m4bcqDjYHKZMUiL4M3UaGxOFIC%2FersBkw%2FEmfUUM0J6EFc8lhQvRESE9uRvQaRhoeopEH%2BJ%2Bkc%2F15FnQM0US8wn3eeBK7IkHzjn45AByY41KQf0vBYsuaSkJBCDi5gqfBXX4%2BGmhudGrB0e5MOu4zdMGOqYBP3ANXnmNx76sH9m73KkscpGDvcLdg6mYECCBqrA3wh%2BMPPzNRJ4M1moiGde1wu0jpaNI%2BE4whXIrGudxELmVniU958TxcKaz6Ab5ahK7zicMKlvGuS8hv3SUyHtk7xdYwt0WlqOPFGnEN%2F0FjMI22Dq%2B4r2YI5bEuHgdIZeXd7LN%2F5VKFcKs3G6M4b4mjgp3%2F3aKjO8tmTa%2FtxmRbd80zHwzdmTHKg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2448a564d632de21e56eb53d2af114e5c08a3acc44dfedb1b2cec786e246e958",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Arbital",
+          "href": "https://www.ycombinator.com/companies/arbital"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-05T16:00:53.799Z",
+    "classified_at": "2026-08-05T16:00:53.799Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-07"
   },
   {
     "slug": "arc-prize-foundation",
@@ -14930,7 +15087,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/caution",
     "batch": "Summer 2026",
     "one_liner": "Hosting platform for software you don&#x27;t want to get hacked",
-    "description_combined": "Hosting platform for software you don&#x27;t want to get hacked\n\nCaution is a hosting platform for software you can&#x27;t afford to get hacked. It simplifies and extends confidential compute, and lets developers deploy workloads to secure enclaves in minutes and give customers, auditors, and counterparties cryptographic proof that production is running the exact reviewed source code, build, configuration, and runtime - not an opaque binary controlled by a cloud operator or internal admin.\r\n\r\nConfidential computing hardware exists, but the tooling is too fragmented and incomplete for most teams to use well. Today, attestation often proves only that a binary has a certain hash; it does not prove what source code produced that binary. Building the missing deployment, reproducibility, and verification layer requires specialized security engineering and often locks teams into one cloud or hardware stack. Caution turns that into a simple git-based workflow that builds reproducible enclave images, provisions infrastructure, and lets anyone independently verify what is running.\r\n\r\nWe built Caution after years securing high-risk systems through Distrust, where we worked with hedge funds, custodians, blockchain teams, cloud platforms, and critical grid operators on systems responsible for more than $600B in assets. Again and again, the same problem showed up: teams running mission-critical infrastructure could not reliably prove what was executing in production.\r\n\r\nAs AI, fintech, healthcare, and regulated data collaboration move into the cloud, \"t",
+    "description_combined": "Hosting platform for software you don&#x27;t want to get hacked\n\nCaution is a hosting platform for software you can&#x27;t afford to get hacked. It simplifies and extends confidential compute, and lets developers deploy workloads to secure enclaves in minutes and give customers, auditors, and counterparties cryptographic proof that production is running the exact reviewed source code, build, configuration, and runtime - not an opaque binary controlled by a cloud operator or internal admin.\r\n\r\nConfidential computing hardware exists, but the tooling is too fragmented and incomplete for most teams to use well. Today, attestation often proves only that a binary has a certain hash; it does not prove what source code produced that binary. Building the missing deployment, reproducibility, and verification layer requires specialized security engineering and often locks teams into one cloud or hardware stack. Caution turns that into a simple git-based workflow that builds reproducible enclave images, provisions infrastructure, and lets anyone independently verify what is running.\r\n\r\nWe built Caution after years securing high-risk systems through Distrust, where we worked with hedge funds, custodians, blockchain teams, cloud platforms, and critical grid operators on systems responsible for more than $600B in assets. Again and again, the same problem showed up: teams running mission-critical infrastructure could not reliably prove what was executing in production.\r\n\r\nAs AI, fintech, healthcare, and regulated data collaboration move into the cloud, \"t\n\nDeploy to secure enclaves in minutes, isolate sensitive workloads, cryptographically prove what code is running.\n\nHey everyone! We're Anton Livaja, Lance Vick, and Ksenia Lesko from Caution.\n\nTL;DR: Caution is a hosting platform for software you can't afford to have hacked. Your software and data Istay protected even if your CI/CD pipeline, host infrastructure, or a developer laptop gets compromised. You go from source to a verifiable deployment in three commands. \n\nBuilt for: payment processors, PHI processors, AI agents, policy and fraud engines, secrets management, and other sensitive workloads.\n\nhttps://drive.google.com/file/d/1u-l2TSBQO2t5dbhBsatCkZf5earCTyDD\n\n### Why we built this\n\nOn February 21, 2025, attackers stole $1.5 billion worth of Ethereum from Bybit, the largest digital heist in history. They never breached Bybit's own infrastructure: North Korea's Lazarus Group compromised a single d",
     "industry_sub_vertical": "Confidential compute attestation & enclave deployment for regulated fintech, healthcare, and critical infrastructure",
     "canonical_vertical_id": "ai-infrastructure.agent-security",
     "vertical_id": "ai-infrastructure.agent-security",
@@ -15018,6 +15175,12 @@
     "directory_synced_at": "2026-08-03T16:21:19.731Z",
     "classified_at": "2026-08-03T16:21:19.731Z",
     "proposed_phenotype": null,
+    "launch_id": 108800,
+    "launch_url": "https://www.ycombinator.com/launches/SIq-caution-hosting-platform-for-software-you-can-t-afford-to-have-hacked",
+    "launch_title": "Caution: Hosting platform for software you can't afford to have hacked",
+    "launch_created_at": "2026-08-04T17:02:42.242Z",
+    "launch_tagline": "Deploy to secure enclaves in minutes, isolate sensitive workloads, cryptographically prove what code is running.",
+    "launch_evaluated_at": "2026-08-05T16:01:32.297Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -16028,6 +16191,72 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.75,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "chromiedev",
+    "name": "chromie.dev",
+    "website": "https://chromie.dev",
+    "yc_profile_url": "https://www.ycombinator.com/companies/chromiedev",
+    "batch": "Summer 2026",
+    "one_liner": "find, qualify, & win contracts with AI",
+    "description_combined": "find, qualify, & win contracts with AI\n\nThe all-in-one platform to tackle government contracts with intelligence.",
+    "industry_sub_vertical": "Government contract discovery, qualification, and bid automation for contractors",
+    "canonical_vertical_id": "enterprise.legal.contracts",
+    "vertical_id": "enterprise.legal.contracts",
+    "vertical_label": "Contract lifecycle & legal ops",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "compliance-gov-automation",
+    "phenotype_primary_label": "Compliance / regulatory / gov automation",
+    "phenotype_family": "regulated_workflow",
+    "value_wedge": "risk_reduction",
+    "ai_application": "policy_automation",
+    "ai_application_patterns": [
+      "contract_discovery",
+      "qualification_automation",
+      "bid_intelligence"
+    ],
+    "what_they_sell": "AI-powered platform that automates government contract discovery, qualification, and bid preparation for contractors and primes. Agents parse contract requirements, assess fit, and generate compliant proposals.",
+    "ai_play": "AI agents reduce manual contract research and qualification friction by autonomously identifying matching opportunities, extracting compliance requirements, and structuring bid responses. Replaces labor-intensive contract hunting and compliance review.",
+    "who_pays": "Government contractors, prime contractors, and subcontractors seeking to scale contract capture and reduce bid cycle time.",
+    "confidence": 0.78,
+    "rationale": "Primary fit is compliance-gov-automation: gov-critical workflow automation with high compliance friction (FAR, DFARS, SAM.gov requirements). Secondary fit is vertical-workflow-agent because they're selling agentic automation of a specific job function (contract qualification/bidding) to operators in the gov contracting vertical. The AI play is automating discovery, qualification, and compliance validation—all high-friction, manual tasks in government procurement. Not a pure marketplace (no two-sided liquidity) and not a regulated product (they don't take contract risk). Confidence 0.78 reflects strong fit to gov automation + workflow agent hybrid, but some uncertainty on whether they're primarily a discovery tool vs. full end-to-end bid automation.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "GovTech",
+      "Workflow Automation"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2672336,
+        "full_name": "Akshay Mistry",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at chromie.dev. Previously interned at Google (Gemini for Workspace), Plaid (Fraud Intelligence), and Amazon (Generative AI Music Search). MS and BS in Computer Science and Mathematics from Georgia Tech. Published AI authentication research at MIT URTC (top 5). Founded Accelerate Tutors, a nonprofit that delivered 1500+ hours of tutoring to 300+ students.",
+        "linkedin_url": "https://www.linkedin.com/in/akshaymistry-",
+        "twitter_url": "https://x.com/akshaymistry8",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5d9ca1c9324c48524160bca541500ec8ae521948.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADD76P4NY%2F20260805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260805T160023Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGAaCXVzLXdlc3QtMiJGMEQCIBjbiVd5Eie4XcVgMM0B5rBWOt7lRE%2BudouVS0UyzpX6AiAKisTHlmAPAPUbDxX7MUASO%2B0cQ7J0d6OGbOVFAW2moSrlAwgpEAAaDDAwNjIwMTgxMTA3MiIMDq9F2c57NnMxpDnzKsIDPXv88kgs%2BmRu9cWK%2BlMoNiA400L3dzlBX1%2BWc9D3W3gZrNQhFlmGsLCwI4gWmAwHlDQ2L0JiU399Tw%2FaErzAb7Vod38an84EC4skHXom5j35POOWniEQHTpBMzuUYv8qvVCS4kzjA48pnCYUCMurhVE6kaxJ7yiZ%2F9EZVVTXz9x934nfmEB56O5Fx%2BTaAt8oIpc735jHtJN8BIgBDgIa3ya2USvWSTtMjO3pdiMEP0%2Boz3JB%2B74hUxZXTZ4UGSD1bO%2BXdZeKRABoTNEpUFYkNfB%2BHNGDbL0JO%2FgNIrqJRilQw5G2IF0k938Gs3lL0WLRT8HtC9jVdNr%2F2DVHfD6uLXZv8lRMV7iMgup968Z8Dm%2FGjCV%2Fa3Z%2Fg2aHUWb8BByVYrP%2Fwb1XCnIYQKA1bV%2BWl6AjplgtSq6asZMWeCHaA5sRd99qIfJc9%2FYjMcZWQdAZT0eOSpMB4WSeGK4ON%2BFSs6U9efEXfopEYV%2BLC9WJezQd1cCBqpRqI2xhn7RKRWt%2FNiNxyfvH0SW22IGkUW%2B6lL3WvLm%2F7jpPQwyZjhhEAtLaPKaIP0bcuvDnM0endtjM3d4tq8XQkQ2eEaC5E9ueqormMOu4zdMGOqYBBk4WSu6cEpuyTHiHW1i45aaSqRDA2LchSjnFmx5x1O5N4LgBqa7cyEd0WsUxEHz4ifI9y3YnmJ3elo9DwNQ%2Ftjt%2Fef%2BkG%2B%2FV%2B%2FiXiIzitgsTvV9Z93WXZAjgZhamm9g3YJK6E0Ic55z%2BInXa64Ve7rKH6Qm1EJdNG4bmgftVJzW069Yx4CcPgwizltSKF9YdWNsv%2Fz3whAM0BEm23JqE8PKYmyx%2BLw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9fbc4620972e01b14b3c28bce7cdb54bb080f7f72a64702b15f3bc5aba98741f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "chromie.dev",
+          "href": "https://www.ycombinator.com/companies/chromiedev"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-05T16:00:33.344Z",
+    "classified_at": "2026-08-05T16:00:33.344Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "chronicle-labs",
@@ -35122,7 +35351,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/impact-drones",
     "batch": "Summer 2026",
     "one_liner": "Air defense as a Service.",
-    "description_combined": "Air defense as a Service.\n\nIMPACT builds autonomous interceptor drones that ship in a sealed box. The box sits at the site it protects (data centers, power grid, airports, bases) with no crew on the pad. When sensors cue a hostile drone, an interceptor pierces its own frangible lid, launches, and rams the target, guided by onboard visual navigation that keeps working when GPS is jammed. Legacy effectors cost $1M+ per shot against $50k threats; our interceptors cost like the threat and launches scale with the swarm. Sites subscribe to protection instead of buying missiles: hardware, reloads, and monitoring included. Air defense as a Service.",
+    "description_combined": "Air defense as a Service.\n\nIMPACT builds autonomous interceptor drones that ship in a sealed box. The box sits at the site it protects (data centers, power grid, airports, bases) with no crew on the pad. When sensors cue a hostile drone, an interceptor pierces its own frangible lid, launches, and rams the target, guided by onboard visual navigation that keeps working when GPS is jammed. Legacy effectors cost $1M+ per shot against $50k threats; our interceptors cost like the threat and launches scale with the swarm. Sites subscribe to protection instead of buying missiles: hardware, reloads, and monitoring included. Air defense as a Service.\n\nContainerized drone interception for airports, ports, data centers and power plants.\n\n# \n\nWe build containerized cells of autonomous interceptors that protect critical civilian infrastructure from hostile drones. Park the cell next to anything you need to keep running: it detects an incoming threat, launches and physically neutralizes the incoming aerial threat. www.impact-drones.com\n\nOUR LAUNCH VIDEO\n\n\n\nTL;DR: Half this batch is building AI agents. Your agents live in data centers. And these sites are now under threat. In March, drones took three AWS data centers offline in the Middle East and a dozen core cloud services with them. Amazon lost 200 million USD in one day. We sell a box you put next to anything you'd rather keep: an interceptor pierces its own lid, and the threat stops existing. We'll keep your agents running.\n\nWhy now: The drone threat went industrial and a",
     "industry_sub_vertical": "Autonomous interceptor drone swarms for critical infrastructure air defense",
     "canonical_vertical_id": "industrials.defense.drones",
     "vertical_id": "industrials.defense.drones",
@@ -35196,6 +35425,12 @@
     "directory_synced_at": "2026-08-03T16:21:36.335Z",
     "classified_at": "2026-08-03T16:21:36.335Z",
     "proposed_phenotype": null,
+    "launch_id": 108922,
+    "launch_url": "https://www.ycombinator.com/launches/SKo-impact-drones-air-defense-as-a-service-for-civilian-infrastructure",
+    "launch_title": "Impact Drones: Air Defense as a Service for Civilian Infrastructure",
+    "launch_created_at": "2026-08-04T18:02:22.616Z",
+    "launch_tagline": "Containerized drone interception for airports, ports, data centers and power plants.",
+    "launch_evaluated_at": "2026-08-05T16:01:32.297Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-08"
@@ -65832,6 +66067,77 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "riften",
+    "name": "Riften",
+    "website": "https://riften.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/riften",
+    "batch": "Summer 2026",
+    "one_liner": "Earned Intelligence for every company. ",
+    "description_combined": "Earned Intelligence for every company. \n\nRiften builds earned intelligence: models that come out of a company’s own work instead of out of a lab.\r\n\r\nOne environment variable points an existing application at Riften instead of OpenAI or Anthropic. Riften routes each request to the least expensive model likely to handle it, using open-weight models we host whenever they are sufficient. Customers lower inference costs before any training begins.\r\n\r\nBecause Riften sits in the request path, real tasks and their outcomes create training evidence the company controls. Riften uses that evidence to improve routing and train private models on open weights around recurring work. Those models earn production traffic by meeting the same bar as the APIs they replace.\r\n\r\nOver time, frontier APIs handle only the tasks that still require them. The rest runs on models the company owns, on infrastructure it controls, inside the applications where the work happens.",
+    "industry_sub_vertical": "Intelligent LLM inference request routing & cost optimization",
+    "canonical_vertical_id": "compute.inference-request-routing",
+    "vertical_id": "compute.inference-request-routing",
+    "vertical_label": "Intelligent inference request routing & load balancing",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "model-optimization-rl",
+    "phenotype_primary_label": "Model Optimization via Reinforcement Learning",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "inference_routing",
+      "cost_optimization",
+      "rl_fine_tuning",
+      "private_model_training"
+    ],
+    "what_they_sell": "A drop-in API proxy (environment variable swap) that intercepts LLM requests, routes them to the cheapest sufficient model (open-weight or frontier), and uses production task outcomes to train private, company-owned models that progressively replace expensive frontier APIs.",
+    "ai_play": "Riften uses RL-driven optimization to learn which tasks can be handled by cheaper open-weight models vs. frontier APIs, then fine-tunes private models on production evidence (real tasks + outcomes) to continuously improve routing and reduce inference costs. Over time, companies own and control the models handling their recurring work.",
+    "who_pays": "Engineering teams, ML ops, and finance/procurement at enterprises and mid-market companies running high-volume LLM inference workloads (customer support, content generation, data processing, etc.).",
+    "confidence": 0.78,
+    "rationale": "Riften is primarily an infrastructure layer for model optimization and cost reduction. The core value is: (1) intelligent routing to minimize inference cost, (2) continuous RL-driven improvement from production data, and (3) training private models on open weights that earn production traffic. This maps cleanly to model-optimization-rl (RL-driven self-improvement from observability/reward signals) and edge-inference-runtime (deployment of optimized models on company infrastructure). Secondary phenotype reflects the edge/on-prem control aspect. The open-source + commercial layer (open-weight models + hosted routing) also touches open-source-commercial, but the primary value is optimization infrastructure, not OSS distribution. Confidence is high (0.78) because the phenotype fit is clear, though Riften could also be positioned as agent-context-infra if framed as 'context compression for agents' — but the description emphasizes model routing and training, not context enrichment.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Developer Tools",
+      "Reinforcement Learning",
+      "Open Source",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 0,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2941426,
+        "full_name": "Carl Stauffer",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder and CEO of Riften. Palantir’s first Neurodivergent Fellow through Alex Karp’s program: Forward Deployed Engineer embedded with a nine-figure manufacturing account and building systems across purchasing and production. a16z Scout. Former nuclear researcher at Jefferson Lab. CS and AMS at Johns Hopkins.\n",
+        "linkedin_url": "https://www.linkedin.com/in/carl-stauffer-314335262/",
+        "twitter_url": "https://x.com/carlstauffer_",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0a3a2f44ecdd315423ad0b8510ef3bffafaf4843.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPLLFBL4V%2F20260805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260805T160053Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGAaCXVzLXdlc3QtMiJIMEYCIQCoRZSnsdfLZDSY7zOexz9LRo%2FjitQ5cK91mNLLNBAlWQIhAJN6ypiF8BPDsZ7fK2cSLLo%2FgGhSP9u0u9KFMDLkwJDEKuUDCCkQABoMMDA2MjAxODExMDcyIgweZl4uIzKo2C8F2cQqwgOHj9PsOCvQnDxcHZXJNLbg8VW5am2Iq5QXGCgvVfi9oh8RGpRolRZ%2BlXNMrb7kWXqI%2Fsa0bZzPHc1zNpzzT1egNiLmgQcZn%2BQt4Yer4T1LIV7wxUMNg8xK09u8v%2BtcIZ%2Blz45EhJulvR%2FaioHSGlzx%2FYUVLpakCLZIOvosAX7FCORA0xqyLiQNbmlgYch0ejcceVulbc5GS67%2FQIaUlj1CN%2FTUlzuZYqM%2BMY9%2FI6vtzDPAXI1UFdUw8mvLdlhp4t90UHODrHSYlvEPsxNcRmDZVz9Q6Y%2FoMsrl7St6Nf%2FUsXNMISOjVZvzxzo%2F1hbd2wi7DdYW25Bv2OBpCDTo2do2tmbK1HWMwTlfhzDMwYH7P%2F8Ria7pDWFuNfhm8RFRHFPvAwHSpjCm1WJiY19hUmz6yEkjj5nX%2FMpOUSdV09kDlVZmqn93%2BKCOYg7lZcduld6XydwkCBbPctlf9OjK3oAR57KFkylZCXVjYIZrzSC93ZIEV00%2Fx%2FQ%2BDyrcsXE8L31Eg3%2BeXi%2BroxzQQ%2Fqm%2BXnf2WXi0VW2yL8gaNxIWELnYTnI7e6BUwYeTo16KeDWVA6aUqluzuOiBQlM48QbrJmEoFQwzbvN0wY6pAFRPgKQ%2B1EYNF%2FnI9NfXlvaD8m29Oxmbk5jP2oDRyq5LDVXO9%2BPUM1tQ7DD27r4WTGlQ%2BZaMo4Zc82BBu4bAHl4MFHBHQdAq0kcQUx2surDZhPs3NsWoirCtLnBLn68bIMh5jDvRnI7H9t%2FRjvX9522y%2BOUMFSvA2JxnqZqa90lhqBAqTVOqGttX%2FkXm49a%2FV7VZ%2FEakCNbU6NMJf%2BmXek431Qz1g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=eb1201ad55836cc84ed33f3ffdae600c0d69ee6cbcd61eebbb0a3f90c418c204",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Riften",
+          "href": "https://www.ycombinator.com/companies/riften"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-05T16:01:04.060Z",
+    "classified_at": "2026-08-05T16:01:04.060Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "rightnow",
     "name": "RightNow",
     "website": "https://runinfra.ai/",
@@ -68157,7 +68463,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/salem-robotics-inc",
     "batch": "Summer 2026",
     "one_liner": "We deploy robots for inspections in hazardous spaces, like nuclear.",
-    "description_combined": "We deploy robots for inspections in hazardous spaces, like nuclear.\n\nOur software turns any robot we deploy into an everyday independent worker at your facility. They are able to walk sites, handle instruments, overcome obstacles, collect measurements, and generate auditable compliance records, replacing hours of manual surveys and inspections. Built by Los Alamos robotics veterans and deterministic-manipulation researchers, we&#x27;re starting in nuclear and expanding to other hazardous industries.",
+    "description_combined": "We deploy robots for inspections in hazardous spaces, like nuclear.\n\nOur software turns any robot we deploy into an everyday independent worker at your facility. They are able to walk sites, handle instruments, overcome obstacles, collect measurements, and generate auditable compliance records, replacing hours of manual surveys and inspections. Built by Los Alamos robotics veterans and deterministic-manipulation researchers, we&#x27;re starting in nuclear and expanding to other hazardous industries.\n\nWe deploy robots to perform autonomous inspections and surveys in hazardous spaces, like nuclear. \n\nWe're Caleb and Janak, PhD roboticists from UT Austin. We've spent a combined 15 years in nuclear, 10 of which deploying autonomous robots at Los Alamos National Lab, and we're building Salem Robotics.\nTLDR: Our software turns robots into independent survey and inspection workers at your facility.\n\nLaunch Video\n\n## Life and death pain worth $Millions/year\n\nAt every nuclear facility, highly trained radiation-protection teams spend hours each day walking the site, filling out hand-drawn maps, and searching for something life-threatening: radiation. IN THE BEST CASE they find nothing, and still have to return to their posts to transcribe the data into a computer before doing the actual high-value work they were assigned. These surveys are time-consuming, dangerous, expensive, and prone to dat",
     "industry_sub_vertical": "Nuclear facility autonomous inspection and compliance measurement",
     "canonical_vertical_id": "robotics.quality-inspection",
     "vertical_id": "robotics.quality-inspection",
@@ -68230,6 +68536,12 @@
     "directory_synced_at": "2026-07-30T15:55:10.661Z",
     "classified_at": "2026-07-30T15:55:10.661Z",
     "proposed_phenotype": null,
+    "launch_id": 108976,
+    "launch_url": "https://www.ycombinator.com/launches/SLg-salem-robotics-autonomous-robots-for-hazardous-spaces",
+    "launch_title": "Salem Robotics - Autonomous robots for hazardous spaces",
+    "launch_created_at": "2026-08-04T19:00:03.963Z",
+    "launch_tagline": "We deploy robots to perform autonomous inspections and surveys in hazardous spaces, like nuclear. ",
+    "launch_evaluated_at": "2026-08-05T16:01:32.297Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-08"
@@ -81823,6 +82135,120 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "ultrasonium",
+    "name": "Ultrasonium",
+    "website": "https://ultrasonium.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/ultrasonium",
+    "batch": "Summer 2026",
+    "one_liner": "Manufacturing the metal parts the world runs on faster, cheaper, safer",
+    "description_combined": "Manufacturing the metal parts the world runs on faster, cheaper, safer\n\nThe technologies that define this century, including data centers, rockets, satellites, and robots, are built from complex metal parts. As these systems advance, the parts get harder to make. Past a certain complexity, casting and machining stop working, and the advanced methods that remain are slow, expensive, and hazardous.\r\n\r\nUltrasonium has invented a new manufacturing method to make these critical parts 15x faster and 75% cheaper than the methods they replace, in the U.S. and at scale. Solid metal feedstock goes in and a finished part safely comes out, controlled by a physical AI layer and novel control processes. \r\n\r\nThe systems that matter most, in aerospace, energy, and compute, are demanding metal geometries that can&#x27;t be machined or cast and are too expensive and slow to make with incumbent methods, at a moment when domestic manufacturing capacity is a national priority.\r\n\r\nOur founding team has built and innovated some of the most complex engineering systems known to man: quantum computers, superconductors, nuclear reactors, and novel aerospace alloy processing methods. ",
+    "industry_sub_vertical": "Advanced metal parts manufacturing automation for aerospace, energy, and compute infrastructure",
+    "canonical_vertical_id": "industrials.manufacturing.automation",
+    "vertical_id": "industrials.manufacturing.automation",
+    "vertical_label": "Manufacturing & logistics automation",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "real_time_process_control",
+      "manufacturing_optimization",
+      "quality_assurance_automation"
+    ],
+    "what_they_sell": "A novel manufacturing system that produces complex metal parts (for aerospace, energy, compute) 15x faster and 75% cheaper than casting/machining alternatives. The system takes solid metal feedstock and outputs finished parts via a proprietary physical process controlled by an embedded AI layer.",
+    "ai_play": "AI serves as the real-time control plane for the manufacturing process—optimizing material flow, temperature, pressure, and geometry precision in real-time. AI replaces manual process tuning and enables safe, autonomous execution of complex metallurgical transformations that would otherwise require expert human oversight or be infeasible with legacy methods.",
+    "who_pays": "Aerospace OEMs, energy companies, data-center infrastructure builders, and satellite/rocket manufacturers who need high-complexity metal parts at scale and speed.",
+    "confidence": 0.82,
+    "rationale": "Ultrasonium is a hardware-centric company building a novel physical manufacturing system where AI is the embedded control layer enabling autonomous, optimized execution. The core value is the physical system itself (the manufacturing method), but AI dramatically improves precision, speed, safety, and eliminates manual process tuning. This fits ai-enabled-physical-systems (not robotics-embodied-ai, which focuses on mobile/dexterous robots). The 'physical AI layer' mentioned in their description and the real-time control requirements align with design_manufacturing_control. High confidence due to clear hardware-first positioning, AI as enabler rather than product, and manufacturing optimization focus.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Hardware",
+      "Robotics",
+      "Manufacturing"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 17,
+    "location": "Boston, MA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3748345,
+        "full_name": "Hunter Brown",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder & VP, Engineering at Ultrasonium\n\nStarted my R&D career working at national labs by age 15. I have contributed to the ITER fusion reactor and CERN through labs at NHFML and LBNL. I have led teams of fabricators and designers in both research and industry. I am passionate about hard tech and moving groundbreaking research ideas into real products. \n\nI lead the Ultrasonium team on the novel and cutting edge technology we implement in our manufacturing process. ",
+        "linkedin_url": "https://www.linkedin.com/in/hunterpbrown/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/525b78441a81f2ea58c6801c81cc2f8643e4e421.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHKGHIDQB%2F20260805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260805T160033Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGAaCXVzLXdlc3QtMiJHMEUCICgxXQHYY4uNPp51NWIt8agx1NAEfW8uhbD0wuF8PxUJAiEAzZsdGivlUJSU8ZvYQDbqbv6OtKlgTBeCXpN69cI4J6Iq5QMIKRAAGgwwMDYyMDE4MTEwNzIiDHr2Zwym2nRFREicCirCA9l71ZQlPiLidbK54u30TKDEdEWINlKziO4tWwtxYTAAMilwgu4bK89JlG%2FF%2FGP3Cf8X6kvX53NvPA%2Bku2VFRQ9lfhtAuAUclbzjaetH5fa6U8x7n9WafmBdpr3PYXfdYdw5YBtsuFaYl%2BVnvxk3IuPFIQZ%2Bn90qJf59SLfu2BKO4fbKRFwikWxGNdo%2Fexqu0dBm6kMsEMMIaF54Pij3iFZ7v%2F1KuPOHT%2FrN5iJzKaGTGsS3s4rlo39K79dAgzSkkkCUNZhVX3SHx1qGM2hoR%2Fzg76ObwOth44ME7asdBD7Ea36v6%2BwKEk0JudzveNkn9Szd5wAIApLTKmQwmkrXxSHneOVBB10XNN3eCNsL1wX2jkajgVSfMZhg3u9tY7WJYH5GBIbk7BG56%2Fiua6bblzvW1VrfFVlcX6invNoxDaPq2EtgVqA%2BVVXRCIF3M%2FEM9SE%2FB57yrT4PjDVnn3%2Fj4Dj4ZUi%2Ftm%2FyMgUZMjN12AD3ShknVLiXNDPmWsRjVYGw7yQB%2FxkNEYbAo%2FqyOUQT7mPq7epWRiFpPegXZChzU7GMzSm%2BaTW%2BeVg4rChJ%2BEW%2FY%2F5EG7OIqrDruLm3OPMEimsB6DDquM3TBjqlASgHVJc0qdB%2Fzyc%2FF5NngQANRuOLV05IFFsX%2FA37WwlwaFpOeT8YBszDGTIcSDT4egCefc4Q96wH54eVUu7%2B08MyElkRcWIcMYjON2xXMxwVbZrg%2FOR3LOQna3zkoaOOevgDOfj0Lu4TyygprBnkD%2F1gwjGlwoXUV2g2zzXnJCv6n2x6%2FnTFdezVcIxOfO9c6ZJhKAh6wo65anxtKr1IliS5AhWH%2Fg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f04376ffba57673718d6a9a7e07d3f7de2afc5d8961635e7140ce296cfaf0be4",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ultrasonium",
+          "href": "https://www.ycombinator.com/companies/ultrasonium"
+        }
+      },
+      {
+        "user_id": 1892793,
+        "full_name": "Chris Carter",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder & Chief Scientific Officer at Ultrasonium. PhD candidate on leave from MIT researching novel metal matrix materials and 3D printed metal heat treatments under NSF GRFP, MIT UCEM, GEM, and .406 Venture fellowship programs. Previously at Argonne National Laboratory working on additively manufactured steel. Led metal melt pool simulations for NASA-funded multi-university project. MS in Mechanical Engineering from MIT, BS from University of South Carolina.",
+        "linkedin_url": "https://www.linkedin.com/in/christopher-p-carter/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d2c39cf3788b615d4686293df632fc23d11aab12.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHKGHIDQB%2F20260805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260805T160033Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGAaCXVzLXdlc3QtMiJHMEUCICgxXQHYY4uNPp51NWIt8agx1NAEfW8uhbD0wuF8PxUJAiEAzZsdGivlUJSU8ZvYQDbqbv6OtKlgTBeCXpN69cI4J6Iq5QMIKRAAGgwwMDYyMDE4MTEwNzIiDHr2Zwym2nRFREicCirCA9l71ZQlPiLidbK54u30TKDEdEWINlKziO4tWwtxYTAAMilwgu4bK89JlG%2FF%2FGP3Cf8X6kvX53NvPA%2Bku2VFRQ9lfhtAuAUclbzjaetH5fa6U8x7n9WafmBdpr3PYXfdYdw5YBtsuFaYl%2BVnvxk3IuPFIQZ%2Bn90qJf59SLfu2BKO4fbKRFwikWxGNdo%2Fexqu0dBm6kMsEMMIaF54Pij3iFZ7v%2F1KuPOHT%2FrN5iJzKaGTGsS3s4rlo39K79dAgzSkkkCUNZhVX3SHx1qGM2hoR%2Fzg76ObwOth44ME7asdBD7Ea36v6%2BwKEk0JudzveNkn9Szd5wAIApLTKmQwmkrXxSHneOVBB10XNN3eCNsL1wX2jkajgVSfMZhg3u9tY7WJYH5GBIbk7BG56%2Fiua6bblzvW1VrfFVlcX6invNoxDaPq2EtgVqA%2BVVXRCIF3M%2FEM9SE%2FB57yrT4PjDVnn3%2Fj4Dj4ZUi%2Ftm%2FyMgUZMjN12AD3ShknVLiXNDPmWsRjVYGw7yQB%2FxkNEYbAo%2FqyOUQT7mPq7epWRiFpPegXZChzU7GMzSm%2BaTW%2BeVg4rChJ%2BEW%2FY%2F5EG7OIqrDruLm3OPMEimsB6DDquM3TBjqlASgHVJc0qdB%2Fzyc%2FF5NngQANRuOLV05IFFsX%2FA37WwlwaFpOeT8YBszDGTIcSDT4egCefc4Q96wH54eVUu7%2B08MyElkRcWIcMYjON2xXMxwVbZrg%2FOR3LOQna3zkoaOOevgDOfj0Lu4TyygprBnkD%2F1gwjGlwoXUV2g2zzXnJCv6n2x6%2FnTFdezVcIxOfO9c6ZJhKAh6wo65anxtKr1IliS5AhWH%2Fg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d572bf59605a059cd595504d614f62c796a24706d01893b748b83da9079f2a39",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ultrasonium",
+          "href": "https://www.ycombinator.com/companies/ultrasonium"
+        }
+      },
+      {
+        "user_id": 3735756,
+        "full_name": "Jack Qiu",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder & CEO of Ultrasonium. MIT PhD in EECS with research spanning quantum computing, cryogenics, signal processing, hardware control and advanced manufacturing. First author of a Nature Physics publication in collaboration with MIT Lincoln Lab under IARPA and DoD programs. Former researcher at Lawrence Berkeley National Laboratory. BA in Physics from UC Berkeley.",
+        "linkedin_url": "https://www.linkedin.com/in/jack-q-a1b81546/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/10afaa4d3df89c18be993661d93702c07d1f3782.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHKGHIDQB%2F20260805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260805T160033Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGAaCXVzLXdlc3QtMiJHMEUCICgxXQHYY4uNPp51NWIt8agx1NAEfW8uhbD0wuF8PxUJAiEAzZsdGivlUJSU8ZvYQDbqbv6OtKlgTBeCXpN69cI4J6Iq5QMIKRAAGgwwMDYyMDE4MTEwNzIiDHr2Zwym2nRFREicCirCA9l71ZQlPiLidbK54u30TKDEdEWINlKziO4tWwtxYTAAMilwgu4bK89JlG%2FF%2FGP3Cf8X6kvX53NvPA%2Bku2VFRQ9lfhtAuAUclbzjaetH5fa6U8x7n9WafmBdpr3PYXfdYdw5YBtsuFaYl%2BVnvxk3IuPFIQZ%2Bn90qJf59SLfu2BKO4fbKRFwikWxGNdo%2Fexqu0dBm6kMsEMMIaF54Pij3iFZ7v%2F1KuPOHT%2FrN5iJzKaGTGsS3s4rlo39K79dAgzSkkkCUNZhVX3SHx1qGM2hoR%2Fzg76ObwOth44ME7asdBD7Ea36v6%2BwKEk0JudzveNkn9Szd5wAIApLTKmQwmkrXxSHneOVBB10XNN3eCNsL1wX2jkajgVSfMZhg3u9tY7WJYH5GBIbk7BG56%2Fiua6bblzvW1VrfFVlcX6invNoxDaPq2EtgVqA%2BVVXRCIF3M%2FEM9SE%2FB57yrT4PjDVnn3%2Fj4Dj4ZUi%2Ftm%2FyMgUZMjN12AD3ShknVLiXNDPmWsRjVYGw7yQB%2FxkNEYbAo%2FqyOUQT7mPq7epWRiFpPegXZChzU7GMzSm%2BaTW%2BeVg4rChJ%2BEW%2FY%2F5EG7OIqrDruLm3OPMEimsB6DDquM3TBjqlASgHVJc0qdB%2Fzyc%2FF5NngQANRuOLV05IFFsX%2FA37WwlwaFpOeT8YBszDGTIcSDT4egCefc4Q96wH54eVUu7%2B08MyElkRcWIcMYjON2xXMxwVbZrg%2FOR3LOQna3zkoaOOevgDOfj0Lu4TyygprBnkD%2F1gwjGlwoXUV2g2zzXnJCv6n2x6%2FnTFdezVcIxOfO9c6ZJhKAh6wo65anxtKr1IliS5AhWH%2Fg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=deacdc8aff7aba8b7a868359e4164cd347e154bceb0cd109181dbf7f5aa8508d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ultrasonium",
+          "href": "https://www.ycombinator.com/companies/ultrasonium"
+        }
+      },
+      {
+        "user_id": 2875171,
+        "full_name": "Alexander Urbanski",
+        "title": "Co-Founder",
+        "is_active": true,
+        "bio": "Founder & Chief Research Officer of Ultrasonium. Former founder of the DOE-funded nuclear startup Bay State Energy and inventor of the Nuclear Thermoelectric Generator. Studied physics at Boston University. First hire at Phase3D - built and commercialized metals manufacturing tech. ",
+        "linkedin_url": "https://www.linkedin.com/in/aurban42/",
+        "twitter_url": "https://x.com/urban_alex42",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/453e1928db84e3ca68b98855a033c46f98ebc438.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHKGHIDQB%2F20260805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260805T160033Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGAaCXVzLXdlc3QtMiJHMEUCICgxXQHYY4uNPp51NWIt8agx1NAEfW8uhbD0wuF8PxUJAiEAzZsdGivlUJSU8ZvYQDbqbv6OtKlgTBeCXpN69cI4J6Iq5QMIKRAAGgwwMDYyMDE4MTEwNzIiDHr2Zwym2nRFREicCirCA9l71ZQlPiLidbK54u30TKDEdEWINlKziO4tWwtxYTAAMilwgu4bK89JlG%2FF%2FGP3Cf8X6kvX53NvPA%2Bku2VFRQ9lfhtAuAUclbzjaetH5fa6U8x7n9WafmBdpr3PYXfdYdw5YBtsuFaYl%2BVnvxk3IuPFIQZ%2Bn90qJf59SLfu2BKO4fbKRFwikWxGNdo%2Fexqu0dBm6kMsEMMIaF54Pij3iFZ7v%2F1KuPOHT%2FrN5iJzKaGTGsS3s4rlo39K79dAgzSkkkCUNZhVX3SHx1qGM2hoR%2Fzg76ObwOth44ME7asdBD7Ea36v6%2BwKEk0JudzveNkn9Szd5wAIApLTKmQwmkrXxSHneOVBB10XNN3eCNsL1wX2jkajgVSfMZhg3u9tY7WJYH5GBIbk7BG56%2Fiua6bblzvW1VrfFVlcX6invNoxDaPq2EtgVqA%2BVVXRCIF3M%2FEM9SE%2FB57yrT4PjDVnn3%2Fj4Dj4ZUi%2Ftm%2FyMgUZMjN12AD3ShknVLiXNDPmWsRjVYGw7yQB%2FxkNEYbAo%2FqyOUQT7mPq7epWRiFpPegXZChzU7GMzSm%2BaTW%2BeVg4rChJ%2BEW%2FY%2F5EG7OIqrDruLm3OPMEimsB6DDquM3TBjqlASgHVJc0qdB%2Fzyc%2FF5NngQANRuOLV05IFFsX%2FA37WwlwaFpOeT8YBszDGTIcSDT4egCefc4Q96wH54eVUu7%2B08MyElkRcWIcMYjON2xXMxwVbZrg%2FOR3LOQna3zkoaOOevgDOfj0Lu4TyygprBnkD%2F1gwjGlwoXUV2g2zzXnJCv6n2x6%2FnTFdezVcIxOfO9c6ZJhKAh6wo65anxtKr1IliS5AhWH%2Fg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=63d927c38b35a4ddb95014141fed89921014a3bfbf2b310c02cc3e855830394c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ultrasonium",
+          "href": "https://www.ycombinator.com/companies/ultrasonium"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-05T16:00:43.478Z",
+    "classified_at": "2026-08-05T16:00:43.478Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
+  },
+  {
     "slug": "uncommon-therapeutics",
     "name": "Uncommon Therapeutics",
     "website": "https://uncommontherapeutics.com",
@@ -81892,7 +82318,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/understudy-labs",
     "batch": "Summer 2026",
     "one_liner": "Effortlessly move to open weight models",
-    "description_combined": "Effortlessly move to open weight models\n\nAn open-source toolkit to capture traces, evaluate cheaper models against benchmarks, and ship specialist routes you own.\r\n\r\nCapture traces from LLM production workflows with a single install that deploys within coding agents you already use. Hosted infrastructure is optional.\r\n\r\nEvaluate the captured traces and set a benchmark for success. Every future model switch meets or exceeds it in A/B testing.\r\n\r\nTrain and fine-tune a new model on prompts and weights you always own. Start locally and scale into cloud-hosted processes as you see success.\r\n\r\nDeploy a new model only when the held-out eval is beaten. Serve it wherever you want. Production data feeds back into training and compounds performance over time.\r\n\r\nTest. Learn. Deploy. Repeat.",
+    "description_combined": "Effortlessly move to open weight models\n\nAn open-source toolkit to capture traces, evaluate cheaper models against benchmarks, and ship specialist routes you own.\r\n\r\nCapture traces from LLM production workflows with a single install that deploys within coding agents you already use. Hosted infrastructure is optional.\r\n\r\nEvaluate the captured traces and set a benchmark for success. Every future model switch meets or exceeds it in A/B testing.\r\n\r\nTrain and fine-tune a new model on prompts and weights you always own. Start locally and scale into cloud-hosted processes as you see success.\r\n\r\nDeploy a new model only when the held-out eval is beaten. Serve it wherever you want. Production data feeds back into training and compounds performance over time.\r\n\r\nTest. Learn. Deploy. Repeat.\n\nWe distill your production usage into cheaper, specialized models your company owns\n\nHey YC! We’re Luis and Aamir, founders of Understudy.\n\n### TL;DR\n\nWe help you cut your company’s Anthropic bill by 80% with no loss of performance.\n\nUnderstudy is an inference cloud. We capture your employee’s AI work traces, train smaller models, and automatically deploy them (only when they outperform the expensive model you are currently paying for).\n\nInstead of renting the same frontier model forever, your AI infrastructure gets cheaper and better every time it runs.\n\nSee more: \n\n### The problem\n\nLast week, we met with a company spending $40M/year on Anthropic. And it’s only going in one direction.\n\nTo them, it feels totally out of control.\n\nThey’re not alone - every company we meet is spending record amounts on models from frontier labs.\n\nBut almost none of that spending compounds.\n\nI",
     "industry_sub_vertical": "Open-weight model evaluation, fine-tuning, and canary deployment for cost-optimized inference",
     "canonical_vertical_id": "compute.model-serving-versioning",
     "vertical_id": "compute.model-serving-versioning",
@@ -81966,6 +82392,12 @@
     "directory_synced_at": "2026-07-30T16:10:55.366Z",
     "classified_at": "2026-07-30T16:10:55.366Z",
     "proposed_phenotype": null,
+    "launch_id": 109219,
+    "launch_url": "https://www.ycombinator.com/launches/SPb-understudy-the-self-optimizing-inference-cloud",
+    "launch_title": "Understudy: The self-optimizing inference cloud",
+    "launch_created_at": "2026-08-05T02:21:26.322Z",
+    "launch_tagline": "We distill your production usage into cheaper, specialized models your company owns",
+    "launch_evaluated_at": "2026-08-05T16:01:32.297Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-12"

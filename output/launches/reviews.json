@@ -1,7 +1,351 @@
 {
-  "updated_at": "2026-08-04T16:11:33.804Z",
+  "updated_at": "2026-08-05T16:01:31.081Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 109244,
+      "company_slug": "agent-fm",
+      "launch_url": "https://www.ycombinator.com/launches/SQ0-agent-fm-one-group-chat-to-hear-and-steer-your-coding-agents",
+      "created_at": "2026-08-05T14:44:22.659Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "ai-infrastructure.agent-runtime",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-05T16:01:31.058Z",
+        "launch_id": 109244,
+        "company_slug": "agent-fm",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::ai-infrastructure.agent-runtime::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 109219,
+      "company_slug": "understudy-labs",
+      "launch_url": "https://www.ycombinator.com/launches/SPb-understudy-the-self-optimizing-inference-cloud",
+      "created_at": "2026-08-05T02:21:26.322Z",
+      "classification": {
+        "phenotype_primary_id": "open-source-commercial",
+        "vertical_id": "compute.model-serving-versioning",
+        "business_models": [
+          "BM-12"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-05T16:01:31.062Z",
+        "launch_id": 109219,
+        "company_slug": "understudy-labs",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-12",
+            "vertical_id": "compute.model-serving-versioning",
+            "phenotype_primary_id": "open-source-commercial",
+            "cell_key": "BM-12::compute.model-serving-versioning::open-source-commercial",
+            "business_model_label": "Open source + commercial",
+            "vertical_label": "Model versioning & canary deployment",
+            "phenotype_label": "Open-source core + commercial layer"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+        ]
+      }
+    },
+    {
+      "launch_id": 108976,
+      "company_slug": "salem-robotics-inc",
+      "launch_url": "https://www.ycombinator.com/launches/SLg-salem-robotics-autonomous-robots-for-hazardous-spaces",
+      "created_at": "2026-08-04T19:00:03.963Z",
+      "classification": {
+        "phenotype_primary_id": "ai-enabled-physical-systems",
+        "vertical_id": "robotics.quality-inspection",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-05T16:01:31.063Z",
+        "launch_id": 108976,
+        "company_slug": "salem-robotics-inc",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 54,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "robotics.quality-inspection",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::robotics.quality-inspection::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Robotic quality inspection & defect detection",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 108922,
+      "company_slug": "impact-drones",
+      "launch_url": "https://www.ycombinator.com/launches/SKo-impact-drones-air-defense-as-a-service-for-civilian-infrastructure",
+      "created_at": "2026-08-04T18:02:22.616Z",
+      "classification": {
+        "phenotype_primary_id": "physical-ai-autonomous-systems",
+        "vertical_id": "industrials.defense.drones",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-05T16:01:31.064Z",
+        "launch_id": 108922,
+        "company_slug": "impact-drones",
+        "taxonomy": {
+          "conformance_index": 82,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "industrials.defense.drones",
+            "phenotype_primary_id": "physical-ai-autonomous-systems",
+            "cell_key": "BM-08::industrials.defense.drones::physical-ai-autonomous-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Defense drone & UAS operations",
+            "phenotype_label": "Physical AI & Autonomous Manufacturing"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 108800,
+      "company_slug": "caution",
+      "launch_url": "https://www.ycombinator.com/launches/SIq-caution-hosting-platform-for-software-you-can-t-afford-to-have-hacked",
+      "created_at": "2026-08-04T17:02:42.242Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "ai-infrastructure.agent-security",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-05T16:01:31.068Z",
+        "launch_id": 108800,
+        "company_slug": "caution",
+        "taxonomy": {
+          "conformance_index": 76,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "ai-infrastructure.agent-security",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::ai-infrastructure.agent-security::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Agent security & authorization",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
     {
       "launch_id": 108331,
       "company_slug": "executor",
