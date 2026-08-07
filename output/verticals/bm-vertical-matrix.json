@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-05T16:01:33.040Z",
+  "generated_at": "2026-08-07T14:53:26.357Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1291,
+    "assignment_count": 1304,
     "mapped_verticals": 240,
-    "observed_cells": 456,
+    "observed_cells": 460,
     "total_verticals": 525,
-    "gap_candidates": 858
+    "gap_candidates": 857
   },
   "observed_cells": [
     {
@@ -45,6 +45,7 @@
         "executor",
         "fern-bot",
         "godhands",
+        "herdr",
         "indexable",
         "insforge",
         "invo",
@@ -159,6 +160,7 @@
         "artie",
         "capacitive",
         "captain",
+        "click",
         "compresr",
         "contextdev",
         "egoist-machines",
@@ -313,6 +315,7 @@
         "intelligence-factory",
         "lambda-robotics",
         "lightberry",
+        "neuromorphic",
         "noril1",
         "os3",
         "pave-robotics",
@@ -403,6 +406,30 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.ops.process-automation",
+      "vertical_label": "Cross-industry process automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "alloy",
+        "autostep",
+        "bond",
+        "caddy",
+        "carson",
+        "char",
+        "cofia",
+        "jinba",
+        "lemonlime",
+        "o11",
+        "orchid-ai",
+        "promi",
+        "sila",
+        "supafax",
+        "vela"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.support.customer",
@@ -471,29 +498,6 @@
         "silmaril",
         "trustai",
         "truthsystems"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "alloy",
-        "autostep",
-        "bond",
-        "caddy",
-        "carson",
-        "char",
-        "cofia",
-        "jinba",
-        "lemonlime",
-        "o11",
-        "orchid-ai",
-        "sila",
-        "supafax",
-        "vela"
       ]
     },
     {
@@ -639,6 +643,25 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.aviation.space",
+      "vertical_label": "Space & satellite systems",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "beyond-reach-labs",
+        "daivin",
+        "dispatch",
+        "exosat",
+        "galactic-resource-utilization-space-inc-gru-space",
+        "generalastro",
+        "instinct",
+        "instinct-space",
+        "reditus-space",
+        "wardstone"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "marketing.content-ops",
@@ -745,24 +768,6 @@
         "leeroo",
         "librar-labs",
         "slashy"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.aviation.space",
-      "vertical_label": "Space & satellite systems",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "beyond-reach-labs",
-        "daivin",
-        "dispatch",
-        "galactic-resource-utilization-space-inc-gru-space",
-        "generalastro",
-        "instinct",
-        "instinct-space",
-        "reditus-space",
-        "wardstone"
       ]
     },
     {
@@ -1202,6 +1207,19 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.legal.contracts",
+      "vertical_label": "Contract lifecycle & legal ops",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "chromie",
+        "chromiedev",
+        "sammy-labs",
+        "vesence"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.marketing.growth",
       "vertical_label": "B2B growth marketing automation",
       "sector_id": "enterprise-software",
@@ -1223,6 +1241,19 @@
         "signals",
         "unisson",
         "upstream"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "fintech.insurance.underwriting",
+      "vertical_label": "Insurance underwriting automation",
+      "sector_id": "financial-services",
+      "companies": [
+        "copycat",
+        "qlo",
+        "valgo",
+        "vantel"
       ]
     },
     {
@@ -1687,18 +1718,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.legal.contracts",
-      "vertical_label": "Contract lifecycle & legal ops",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "chromiedev",
-        "sammy-labs",
-        "vesence"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.marketing.analytics",
       "vertical_label": "Marketing analytics & market research",
       "sector_id": "professional-services",
@@ -1754,18 +1773,6 @@
         "harper",
         "huscarl",
         "panta"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.insurance.underwriting",
-      "vertical_label": "Insurance underwriting automation",
-      "sector_id": "financial-services",
-      "companies": [
-        "copycat",
-        "valgo",
-        "vantel"
       ]
     },
     {
@@ -2250,6 +2257,17 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "a1zap-by-a1base",
+        "afterfive"
+      ]
+    },
+    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "enterprise.ops.knowledge",
@@ -2291,6 +2309,17 @@
       "companies": [
         "philon",
         "photonium"
+      ]
+    },
+    {
+      "business_model": "BM-07",
+      "business_model_label": "Marketplace / network",
+      "vertical_id": "enterprise.ops.process-automation",
+      "vertical_label": "Cross-industry process automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "rowflow",
+        "useforward"
       ]
     },
     {
@@ -3218,6 +3247,16 @@
       ]
     },
     {
+      "business_model": "BM-12",
+      "business_model_label": "Open source + commercial",
+      "vertical_id": "consumer.productivity.personal",
+      "vertical_label": "Personal productivity software",
+      "sector_id": "consumer",
+      "companies": [
+        "solo-labs"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "data.data-discovery-cataloging",
@@ -3415,6 +3454,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "corelayer"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "devtools.incident-response",
+      "vertical_label": "Incident management & on-call orchestration",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "dailybot"
       ]
     },
     {
@@ -3708,16 +3757,6 @@
       ]
     },
     {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "enterprise.ops.knowledge",
-      "vertical_label": "Enterprise knowledge management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "a1zap-by-a1base"
-      ]
-    },
-    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "enterprise.ops.knowledge",
@@ -3735,16 +3774,6 @@
       "sector_id": "enterprise-software",
       "companies": [
         "almanac"
-      ]
-    },
-    {
-      "business_model": "BM-07",
-      "business_model_label": "Marketplace / network",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "rowflow"
       ]
     },
     {
@@ -4278,6 +4307,16 @@
       ]
     },
     {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "healthcare.provider.specialty-practice",
+      "vertical_label": "Specialty medical practice operations",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "radley"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.provider.supply-chain",
@@ -4535,6 +4574,16 @@
       "sector_id": "financial-services",
       "companies": [
         "riskcube"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "lending.collections-recovery",
+      "vertical_label": "Collections & delinquency management",
+      "sector_id": "financial-services",
+      "companies": [
+        "audun"
       ]
     },
     {
