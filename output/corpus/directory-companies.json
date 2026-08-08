@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-07T14:50:53.086Z",
+  "synced_at": "2026-08-08T14:28:52.983Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1212,
+  "company_count": 1216,
   "companies": [
     {
       "slug": "10x",
@@ -886,14 +886,16 @@
       "slug": "almanac",
       "name": "Almanac",
       "batch": "Summer 2026",
-      "one_liner": "Self updating wiki for your coding agents",
-      "long_description": "Almanac is a self-updating wiki for your coding agents. It turns your team’s AI coding conversations into connected Markdown docs that live inside your repo. Your agents automatically search the wiki before making changes, so every agent working on the codebase starts with the same context, decisions, and implementation history. ",
-      "website": "https://codealmanac.com",
+      "one_liner": "The AI that knows your company",
+      "long_description": "Almanac is Hermes with a company brain. You message it in Slack or iMessage; it knows what is happening across your company and can use your accounts to get real tasks done for you. It has a full computer, browser and terminal. It takes your Gmail, Calendar, Attio, GitHub, AI convos, docs and meeting notes and compiles them into a Wiki that keeps itself up to date. It keeps a current understanding of what you’re building, who your customers are, what was decided, and what still needs to happen. It can use websites, run code, create files and take actions across your accounts. If it reaches a login, payment or decision it shouldn’t make alone, it pings you or hands you the live browser. \r\n",
+      "website": "https://usealmanac.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Generative AI"
+        "Generative AI",
+        "AI",
+        "AI Assistant"
       ],
       "team_size": 0,
       "location": "San Francisco, CA, USA",
@@ -1634,7 +1636,7 @@
       "name": "Armature",
       "batch": "Spring 2026",
       "one_liner": "Improve how users experience your product through AI Agents",
-      "long_description": "Armature helps companies monitor, analyze, and optimize how AI agents experience their products.\r\n\r\nWe start with Product Analytics: user sessions on your Claude Connector, ChatGPT App or MCP live inside their AI client, not your UI. Armature captures and shows you what users ask, what agents think and how they use your product.\r\n\r\nThen, we provide automated testing infrastructure: run complex sessions against your MCPs/CLIs across all major harnesses and models to catch broken workflows before your users do.\r\n\r\nFinally, our MCP lets your internal coding agents plug into Armature to autonomously fix your product's AX based on our run data.\r\n\r\nThe next step is to provide the foundational infrastructure for the Agent Experience, powering agent-native revenue, lifecycle marketing, and customer support for the next generation of software.",
+      "long_description": "Armature helps companies monitor, analyze, and optimize how AI agents experience their products.\r\n\r\nWe start with Product Analytics: user sessions on your Claude Connector, ChatGPT App or MCP live inside their AI client, not your UI. Armature captures and shows you what users ask, what agents think and how they use your product.\r\n\r\nThen, we provide automated evals infrastructure: run complex sessions against your MCPs/CLIs across all major harnesses and models to catch broken workflows before your users do.\r\n\r\nFinally, our MCP lets your internal coding agents plug into Armature to autonomously fix your product's AX based on our run data.\r\n\r\nThe next step is to provide the foundational infrastructure for the Agent Experience, powering agent-native revenue, lifecycle marketing, and customer support for the next generation of software.",
       "website": "https://armature.tech",
       "industries": [
         "B2B",
@@ -1815,11 +1817,11 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
-      "team_size": 3,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783894724
@@ -2694,13 +2696,14 @@
       "name": "Belvedir",
       "batch": "Summer 2026",
       "one_liner": "The easiest way to make private AI models.",
-      "long_description": "Private AI models are going to win. Belvedir is the infrastructure needed to make billions of them.\r\n\r\nBelvedir is making it cheap and easy for anyone to make private AI. Just connect us to your agent traces through our SDK and we can autonomously train custom models + harnesses + routers, privately host them, and recursively improve them as they are used. ",
+      "long_description": "Private AI models are going to win. Belvedir is the infrastructure needed to make billions of them.\r\n\r\nBelvedir makes it cheap and easy for anyone to make private AI. Just connect us to your agent traces through our SDK and we can autonomously train custom models + harnesses + routers, privately host them, and recursively improve them as they are used. Our customers have seen up to 10x reductions in inference costs and 2x increases on benchmark scores.",
       "website": "https://belvedir.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Machine Learning"
+        "Machine Learning",
+        "Infrastructure"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -4227,10 +4230,11 @@
       "long_description": "CentralComs is building AI Agents for property managers that tracks every maintenance call, chases every open ticket, and keep owners/tenants/vendors updated, so nothing falls through the cracks and operations never stall.\r\n\r\nThese agent work directly inside AppFolio, Buildium, Yardi and your existing stack, making real-time decisions and resolving multi-step workflows without handoffs.",
       "website": "https://centralcoms.com",
       "industries": [
-        "Real Estate and Construction",
-        "Housing and Real Estate"
+        "Real Estate and Construction"
       ],
-      "tags": [],
+      "tags": [
+        "Home Services"
+      ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -4436,7 +4440,7 @@
       "slug": "chromie",
       "name": "Chromie",
       "batch": "Summer 2026",
-      "one_liner": "find, qualify, & win contracts with AI",
+      "one_liner": "find, qualify, & win gov contracts with AI",
       "long_description": "The all-in-one platform to tackle government contracts with intelligence.",
       "website": "https://chromie.dev",
       "industries": [
@@ -5873,6 +5877,25 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1767154035
+    },
+    {
+      "slug": "dawn-industries",
+      "name": "Dawn Industries",
+      "batch": "Summer 2026",
+      "one_liner": "Automatic Diagnosis & Fix for Industrial Automation Cells",
+      "long_description": "VIM connects to the entire cell: PLCs, robots, CNC machines, sensors. When a cell faults, VIM finds the cause, stages the fix, and the operator approves with one click. When a part drifts, VIM catches it seconds after the cut, inside the machine, and recommends the correction. Recovery drops from 30 minutes to under two, saving more than $15,000 per fault in large factories.",
+      "website": "https://www.dawnxr.com",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Artificial Intelligence"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786150873
     },
     {
       "slug": "dayjob",
@@ -8906,6 +8929,29 @@
       "launched_at": 1737252261
     },
     {
+      "slug": "hebbian-robotics",
+      "name": "Hebbian Robotics",
+      "batch": "Summer 2026",
+      "one_liner": "APIs for searching and analyzing Physical AI data at scale",
+      "long_description": "We build APIs for searching and analyzing Physical AI data at scale, so providers have insight into the quality of their data, to sell more at higher prices.\r\n\r\nWe enable data providers to get on-demand signals and metrics on the quality of their data, without managing infrastructure.\r\n\r\nToday, we help our customers evaluate data quality without training a robotics model.",
+      "website": "https://hebbianrobotics.com/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Robotics",
+        "Data Science",
+        "Data Engineering",
+        "Databases"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786123276
+    },
+    {
       "slug": "hedge",
       "name": "Hedge",
       "batch": "Spring 2026",
@@ -8962,11 +9008,11 @@
         "Construction"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Construction",
         "B2B",
         "Workflow Automation",
-        "Architecture",
-        "AI"
+        "Architecture"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -10595,13 +10641,19 @@
       "slug": "keyframe-labs",
       "name": "Keyframe Labs",
       "batch": "Spring 2026",
-      "one_liner": "Turn agents into lifelike video calls with the word's best AI avatars",
-      "long_description": "Our real-time foundation models turn AI into lifelike video calls. Add the world's best AI avatars to your agents and applications in minutes with a few lines of embed code. Photorealism, emotion, and scale for as low as $0.06 per minute.",
+      "one_liner": "Bring AI to life with the world's best interactive avatars",
+      "long_description": "We build human foundation models. Our first family of models powers lifelike avatars that interact with users in real time, enabling AI agents and applications to go beyond text and voice with just a few lines of code. State-of-the-art realism with ultra-low latency at scale.",
       "website": "https://keyframelabs.com",
       "industries": [
         "B2B"
       ],
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "SaaS",
+        "B2B",
+        "API"
+      ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -12267,6 +12319,28 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1774490913
+    },
+    {
+      "slug": "marengo",
+      "name": "Marengo",
+      "batch": "Summer 2026",
+      "one_liner": "Automating engineering design, starting with data centers.",
+      "long_description": "Marengo designs data centers at double the speed and half the cost with AI. We’re working with some of the largest data center builders in the world to improve how design is done today.\r\n\r\nWe're backed by Y Combinator, a16z & Index Venture Scout Funds, as well as investors/angels in OpenAI, Anthropic, SpaceX, and more.\r\n\r\nOur advisors include the former President & CEO of Saipem America ($3B+ P&L), former President of Exyte's Advanced Technology Facilities GBU ($6B+ P&L) and more.",
+      "website": "https://marengox.com",
+      "industries": [
+        "Industrials",
+        "Energy"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Design",
+        "Energy",
+        "Architecture"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786181708
     },
     {
       "slug": "maritime-fusion",
@@ -15718,16 +15792,16 @@
       "name": "Perceptron ML",
       "batch": "Summer 2026",
       "one_liner": "We make law firms AI-native.",
-      "long_description": "We build custom AI systems for law firms, trained on each firm's own matters and deployed privately in their environment: timekeeping, intake and matter monitoring, research, discovery, and drafting. Our grounding engine verifies every fact against a primary source before a model can cite it, which is why firms trust us with work that off-the-shelf legal AI keeps getting wrong.",
+      "long_description": "We build AI systems for law firms, trained on each firm's own matters and deployed privately in their environment: timekeeping, intake and matter monitoring, research, discovery, and drafting. Our grounding engine verifies every fact against a primary source before a model can cite it, which is why firms trust us with work that off-the-shelf legal AI keeps getting wrong.",
       "website": "https://perceptronml.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Legal",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -16353,7 +16427,7 @@
       "name": "Polymath",
       "batch": "Winter 2026",
       "one_liner": "Simulation environments to train & evaluate long-horizon AI agents",
-      "long_description": "Polymath is a data lab focused on improving long-horizon agent capabilities",
+      "long_description": "Polymath is a data lab focused on improving long-horizon agent capabilities and alignment\r\n",
       "website": "https://polymathlabs.ai/",
       "industries": [
         "B2B"
@@ -16685,6 +16759,28 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753405058
+    },
+    {
+      "slug": "prodigy-research",
+      "name": "Prodigy Research",
+      "batch": "Summer 2026",
+      "one_liner": "Training the world's best foundation model for quantitative finance.",
+      "long_description": "Prodigy is the frontier AI trading research lab. We've trained the world's best foundation model for quantitative finance. We've already achieved more than 100% returns in live trading over the course of our YC batch, doubling our capital while major indices were flat. Our founders previously built strategies that generated billions in trading profits at Jane Street, trained frontier AI models at Google DeepMind and shipped cutting-edge AI at Apple to billions of customers. Join us as we use AI to solve the market.",
+      "website": "https://prodigy.markets",
+      "industries": [
+        "Fintech"
+      ],
+      "tags": [
+        "Reinforcement Learning",
+        "Finance",
+        "Investing",
+        "Trading",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786153448
     },
     {
       "slug": "projectx",
@@ -18669,7 +18765,7 @@
         "Enterprise",
         "Enterprise Software"
       ],
-      "team_size": 6,
+      "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783386650
@@ -20016,9 +20112,9 @@
         "Government"
       ],
       "tags": [
+        "Artificial Intelligence",
         "GovTech",
-        "Automation",
-        "AI"
+        "Automation"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -20863,11 +20959,11 @@
         "Analytics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "API",
-        "Insurance",
-        "AI"
+        "Insurance"
       ],
-      "team_size": 4,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1755571936
@@ -22036,7 +22132,7 @@
       "slug": "units",
       "name": "Units",
       "batch": "Spring 2025",
-      "one_liner": "The school for a post-agi world.",
+      "one_liner": "Units is building an AI education infrastructure company.",
       "long_description": "Units lets ambitious students graduate high school in 4 months instead of 4 years with real accredited diploma credits, plus a portfolio of real-world work, not just a transcript. \r\n\r\nWe're rebuilding school for a post-AGI world.",
       "website": "https://units.school",
       "industries": [
@@ -23020,7 +23116,7 @@
         "Real Estate and Construction"
       ],
       "tags": [],
-      "team_size": 3,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1754534050

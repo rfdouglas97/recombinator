@@ -1,7 +1,99 @@
 {
-  "updated_at": "2026-08-07T14:53:25.648Z",
-  "count": 1138,
+  "updated_at": "2026-08-08T14:30:01.053Z",
+  "count": 1142,
   "launches": [
+    {
+      "launch_id": 109669,
+      "launch_slug": "SWr-cognitio-labs-the-ai-back-office-for-product-quality-teams",
+      "launch_url": "https://www.ycombinator.com/launches/SWr-cognitio-labs-the-ai-back-office-for-product-quality-teams",
+      "title": "Cognitio Labs -  the AI Back Office for Product Quality Teams",
+      "tagline": "CoAsync by Cognitio Labs, the AI back office for product quality teams.",
+      "body": "CoAsync by Cognitio Labs, the AI back office for product quality teams.\n\n<https://youtu.be/IvQ1RtQ3280?si=oq-kHI5nO5iWeoji>\n\nCertificates of Analysis are one of the sources of documentation clogging food and consumer product shipments today. Every day, millions of dollars of product sit waiting to ship because paperwork isn't ready to certify it is safe.\n\nBefore food can leave a facility, quality teams review supplier documents, lab reports, product specs, and regulatory requirements to produce a COA, the document certifying a product is safe, meets quality standards, and complies with destination-country rules. That still happens across PDFs, emails, spreadsheets, and disconnected ERPs, and a single COA can take hours.\n\nCoAsync ingests supplier documents, extracts lab data, validates specifications, applies country-specific compliance requirements, and drafts audit-ready COAs, keeping quality teams in control at every step.\n\n![uploaded image](/media/?type=post&id=109669&key=user_uploads/339188/d089cbb5-ccba-49ee-a89b-29f4ad88253f)\n\n\nResults: A Fresno-based dry fruit manufacturer cut COA processing from 8 hrs/week to under 1 hr in a six-week deployment, an 85% drop in QA admin work. A California fig grower now processes 4x more COAs per shift, saving 1 to 2 hours per document, and onboarded in under a day.\n\n![uploaded image](/media/?type=post&id=109669&key=user_uploads/339188/c9de609b-22b8-4634-a6d0-47768cd58e52)\n\n\nWe're starting with food, one of the most document-intensive, regulated supply chains in the world, building toward an AI operating system for safety and quality across consumer products adoption.\n\nOur founder @[Diva Avaya Sharma](https://www.linkedin.com/in/diva-sharma/) presented on critical supply chains adopting artificial intelligence tools at the World Economic Forum's SmartStart Manufacturing Initiative Initiative and the AI for Good Global Summit (International Telecommunications x United Nations).\n\nIf you know a food, consumer products, or ingredients manufacturer buried in paperwork overload, we welcome an introduction: <https://www.cognitioiq.com/contact>.\n\n![uploaded image](/media/?type=post&id=109669&key=user_uploads/339188/7e9b5cea-da52-47c8-b61a-c419b89e02bf)\n\n\n#YCLaunch #FoodTech #SupplyChain #AI #FoodSafety",
+      "created_at": "2026-08-07T17:12:02.313Z",
+      "total_vote_count": 1,
+      "company_slug": "cognitio-labs",
+      "company_name": "Cognitio Labs",
+      "company_website": "https://cognitioiq.com",
+      "company_batch": "Summer 2023",
+      "company_industry": "Industrials",
+      "company_id": 29134,
+      "author_name": "Diva Avaya Sharma",
+      "scraped_at": "2026-08-08T14:29:59.756Z",
+      "review_summary": {
+        "conformance_index": 68,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 109526,
+      "launch_slug": "SUY-openrelay-the-inference-delivery-network",
+      "launch_url": "https://www.ycombinator.com/launches/SUY-openrelay-the-inference-delivery-network",
+      "title": "OpenRelay: The Inference Delivery Network",
+      "tagline": "One API for inference across every chip.",
+      "body": "**TL;DR:** OpenRelay is building an Inference Delivery Network (IDN) on top of its CDN for GPUs. We provide one entrypoint for inference across every chip. \n\nSend us a workload and we’ll cut your costs up to 20% by running it through our network, balancing the best available accelerator (NVIDIA, TPU, Trainium, AMD) across clouds and handing back a single endpoint. You never pick the hardware, chase quotas, or rebuild your stack per provider. And if you run GPUs or other AI accelerators (an NVIDIA cluster, TPUs, a reserved fleet), you can plug your capacity into our rails and we'll bring the inference demand. Get started [here](https://openrelay.inc/).\n\nP.S. sign up for our Luma page to be notified of our Launch Party!\n\n<https://luma.com/s6x8cx5x>\n\n\\\n<https://youtu.be/7uNhqcjBXJg>\n\n## The Team\n\nHey guys! We're **Jaden and Prashant**, the founders of OpenRelay. We came at the same problem from opposite sides.\n\n* Jaden built a half-megawatt data center at 20 from a warehouse shell, then joined Voltage Park early, where he ran virtualization and helped stand up HPC.\n* Prashant built accelerator infra at AWS, where he ran custom model deployments and wrote custom kernels to squeeze out Trainium performance.\n\n \n\nWe kept seeing the same thing: there's more AI compute than ever, and you still can't reach it. We left our jobs to fix that.\n\n## The Problem\n\nCompute is everywhere; liquidity is nowhere. Accelerators are scattered across dozens of clouds, chip vendors, and operators, each behind its own quotas, drivers, contracts, and console. Teams that want to run inference can't reach the capacity, and the capacity can't reach them.\n\nRunning inference naively is easy; running it at scale is hard. Any operator can spin up a model on a box. Turning idle GPUs into a production endpoint (load balancing, isolation, autoscaling, failover, metering, billing) is a software platform most individual operators won't build. So capacity sits stranded behind their own front door, and developers either overpay for scarce reserved GPUs or hand-stitch a fragile multi-provider stack.\n\n## Solution\n\nWe built one set of rails across all of it.\n\nSend a workload (any container or model) and we schedule it onto the best-fit accelerator, attach a production endpoint, and scale it. We route to the cheapest accelerator that meets your latency and throughput targets, and we benchmark continuously. If the market can't beat renting yourself, we backstop with our own inference demand, so you’re never on the hook. \n\nYou never pick the chip, cloud, or region; we handle routing, isolation, failover, metering, and billing across 4+ clouds and every major chip family. We're language- and framework-agnostic (no SDK lock-in), and you can drive everything from our CLI and REST API.\n\nIt's two-sided: if you run GPUs or other accelerators (a neocloud, a data center, a pay for an underutilized reserved fleet), you can connect that capacity to our rails and we'll bring the inference demand, turning hardware into a revenue-generating endpoint without building a platform yourself.\n\n## Traction\n\nWe're **live in production**, generating 100 billion tokens a week across 22 physical locations across Europe, APAC, North America, and the Middle East running on 8 different accelerator SKUs.  \n\n## Asks\n\nWe'd love to hear from you!\n\n* **Run GPUs, or know someone who does?** This is who we most want to talk to: companies running their own nodes for inference, data centers, reserved fleets, even a crypto or mining cluster looking to move into AI. Plug your capacity into our rails and we'll bring the demand. Reach us at [founders@openrelay.inc](https://mailto:founders@openrelay.inc).\n* **Shipping inference and tired of picking chips?** Bring a workload and we'll get you on the best available hardware today.\n* **Feedback, intros, or just want to chat?** Book a call with us, or email [founders@openrelay.inc](mailto:founders@openrelay.inc) for anything else.",
+      "created_at": "2026-08-07T17:00:00.601Z",
+      "total_vote_count": 6,
+      "company_slug": "openrelay",
+      "company_name": "OpenRelay",
+      "company_website": "https://www.openrelay.inc",
+      "company_batch": "Summer 2026",
+      "company_industry": "B2B",
+      "company_id": 33249,
+      "author_name": "Jaden Wang",
+      "scraped_at": "2026-08-08T14:29:59.756Z",
+      "review_summary": {
+        "conformance_index": 54,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 109472,
+      "launch_slug": "STg-maingen-simulations-of-real-industrial-operations-so-agents-can-run-the-physical-world",
+      "launch_url": "https://www.ycombinator.com/launches/STg-maingen-simulations-of-real-industrial-operations-so-agents-can-run-the-physical-world",
+      "title": "Maingen: Simulations of real industrial operations, so agents can run the physical world",
+      "tagline": "Long horizon RL environments for the $5 trillion industrial economy",
+      "body": "Hello everyone!\n\nPhillip and David here, founders of Maingen (YC S26).\n\n**TLDR: AI is moving to the industrial world. Maingen builds RL environments for industrials (a $5 trillion slice of the US economy) so frontier labs can train models that actually run factories.**\n\n**Problem**:\n\nWe believe the next capabilities frontier is the physical world: operating factories, power plants, and industrial infrastructure. But that data doesn't exist on the internet, but rather as tacit knowledge inside enterprises, on operations desks, and in CMMS systems and vendor portals.\n\n**What we do:**\n\n<https://youtu.be/jE5HtSiAqxE>\n\nWe embed with operators in these industries and translate their decision making process into RL environments labs can train.\n\n**Our first public benchmark evaluates whether agents can run a solar portfolio [solarbench.maingen.ai](http://solarbench.maingen.ai).** We’re continuing in other areas like factories, and we’re already working with frontier labs.\n\n**Who we are**\n\nThe founders Phillip Yan and David Yang have previously built RL environments, worked in the energy industry, shipped software powering 150 million+ TPV, and have been cited by Anthropic.\n\n**Get Involved**\n\nMaingen is looking for researchers and industrial operators to help shape its next environments. We’d love to hear from you if you:\n\n1. Work on research on long-horizon **agents, RL environments, or physical-world capabilities**.\n2. Run operations at an industrial site or can introduce the team to someone who does\n\nReach out at [founders@maingen.ai](mailto:founders@maingen.ai)! We're always down for a coffee!\n\nThanks,\n\nPhillip and David",
+      "created_at": "2026-08-07T16:00:00.073Z",
+      "total_vote_count": 2,
+      "company_slug": "maingen",
+      "company_name": "Maingen",
+      "company_website": "https://www.maingen.ai/",
+      "company_batch": "Summer 2026",
+      "company_industry": "Industrials",
+      "company_id": 32157,
+      "author_name": "Phillip Yan",
+      "scraped_at": "2026-08-08T14:29:59.756Z",
+      "review_summary": {
+        "conformance_index": 73,
+        "predictability_band": "occupied_first",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 109075,
+      "launch_slug": "SNH-sidekick-ai-agent-that-handles-frontline-operations-over-text",
+      "launch_url": "https://www.ycombinator.com/launches/SNH-sidekick-ai-agent-that-handles-frontline-operations-over-text",
+      "title": "Sidekick: AI agent that handles frontline operations over text",
+      "tagline": "Sidekick gives frontline workers an AI assistant they can text, with no app, login, or training.",
+      "body": "**Hey everyone 👋**\n\nI'm Justin, founder of Sidekick.\n\n**TL;DR** Sidekick is an AI assistant that frontline manufacturing workers use over text message. They text a number and it answers from the company's own documents, creates and routes work orders, and syncs with the software the company already uses. No app, no login, no training. I built Sidekick for my dad's manufacturing shop. It’s now live at facilities across the globe.\n\n**_Ask:_** Do you know anyone who owns or runs a manufacturing plant, warehouse, or industrial facility? I'd love an intro! Email [**justin@textsidekick.com**](mailto:justin@textsidekick.com) or [**book a demo**](https://calendly.com/justin-textsidekick).\n\nCheck out our launch video:\n\n<https://www.youtube.com/watch?v=yxwq5ZAojXg>\n\n## ❌ The Problem\n\nI grew up in my dad's manufacturing plants and spent summers working on the factory floor at EDS Manufacturing.\n\nHere's what I watched happen repeatedly. A machine goes down, everyone's waiting, and the person who can help is in a meeting or on another line. Half the time the answer already existed. Nobody could get to it.\n\nWhy it keeps happening:\n\n* **No computer access.** Nobody on that floor has a company login or an email address, so none of the plant's software reaches them.\n* **The answers are scattered.** An SOP in a binder, a manual on a shared drive few have permissions to, a safety procedure someone printed and taped to a wall in 2019.\n* **The best answers were never written down.** Thirty years of tribal knowledge lives in one guy's head, and when he retires it leaves with him.\n* **So the same questions get asked over and over.** Shift after shift, and every one of them costs somebody their afternoon.\n\nThere are 239,000 manufacturing plants in the US, and only 29% of the people working in them have advanced digital skills. Any tool that requires a download, a login, and training makes adoption difficult.\n\n## ✅ Our Solution\n\nWorkers text the Sidekick phone number. Problems, photos, voice memos, in any language. No app to download, no account to create, nothing to learn. Every worker on the floor already knows how to send a text, which is why adoption isn't a fight.\n\n* **Answers from your own documents.** SOPs, manuals, safety procedures, tribal knowledge. Sidekick responds in the worker's language, in seconds.\n* **Creates and routes the work order.** The issue gets logged and sent to the right person, without anyone needing a laptop.\n* **Syncs with the software you already run.** Sidekick pulls from and writes to your existing systems instead of replacing them, and integrates directly through PLC and SCADA systems so the floor and the software finally see the same thing.\n* **Captures tribal knowledge.** Every exchange builds a searchable knowledge base the company owns, so the know-how stays when the veteran leaves.\n\nHere's a full walkthrough:\n\n<https://www.youtube.com/watch?v=a5zBRSXi-90>\n\n## 👤 The Team\n\nI'm Justin, founder and CEO. I'm the third generation in a manufacturing family, and I've been around plant floors since I was a kid. I studied Computer Science at the University of Pennsylvania, worked in finance at Arm, and left both to build Sidekick after watching the same problem play out on every floor I'd been on.\n\n## 🙏 Our Ask\n\nIf you answer \"yes\" to any of these, I'd love your help:\n\n* **Do you know anyone who owns or runs a manufacturing plant, warehouse, or industrial facility?** Even a name and a \"you two should talk\" goes a long way.\n* **Have you sold software into manufacturing?** I'd love to hear what actually worked and what didn't.\n\nContact me at [**justin@textsidekick.com**](mailto:justin@textsidekick.com) or [**book a demo here**](https://calendly.com/justin-textsidekick)**.**",
+      "created_at": "2026-08-07T15:00:00.438Z",
+      "total_vote_count": 5,
+      "company_slug": "textsidekick",
+      "company_name": "Sidekick",
+      "company_website": "https://textsidekick.com/",
+      "company_batch": "Summer 2026",
+      "company_industry": "B2B",
+      "company_id": 31437,
+      "author_name": "Justin So",
+      "scraped_at": "2026-08-08T14:29:59.756Z",
+      "review_summary": {
+        "conformance_index": 50,
+        "predictability_band": "surprise",
+        "verdict": "non_conforming"
+      }
+    },
     {
       "launch_id": 109471,
       "launch_slug": "STf-praxis-ai-training-data-for-robotics",

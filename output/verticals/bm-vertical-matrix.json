@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-07T14:53:26.357Z",
+  "generated_at": "2026-08-08T14:30:01.824Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1304,
+    "assignment_count": 1308,
     "mapped_verticals": 240,
-    "observed_cells": 460,
+    "observed_cells": 461,
     "total_verticals": 525,
-    "gap_candidates": 857
+    "gap_candidates": 856
   },
   "observed_cells": [
     {
@@ -214,6 +214,7 @@
         "coverage-cat",
         "feyn",
         "halluminate",
+        "hebbian-robotics",
         "hillclimb",
         "hub",
         "hubxyz",
@@ -839,6 +840,23 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.manufacturing.automation",
+      "vertical_label": "Manufacturing & logistics automation",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "bramante",
+        "dawn-industries",
+        "eden-robotics",
+        "neuron-industries",
+        "nox-metals",
+        "parametric",
+        "prototypingio",
+        "ultrasonium"
+      ]
+    },
+    {
       "business_model": "BM-10",
       "business_model_label": "Consumer app / prosumer",
       "vertical_id": "healthcare.digital.consumer-wellness",
@@ -852,22 +870,6 @@
         "layers",
         "lucis",
         "lumeria"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.manufacturing.automation",
-      "vertical_label": "Manufacturing & logistics automation",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "bramante",
-        "eden-robotics",
-        "neuron-industries",
-        "nox-metals",
-        "parametric",
-        "prototypingio",
-        "ultrasonium"
       ]
     },
     {
@@ -2422,6 +2424,17 @@
       ]
     },
     {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
+      "vertical_id": "fintech.payments.consumer",
+      "vertical_label": "Consumer payments & rewards",
+      "sector_id": "financial-services",
+      "companies": [
+        "karsa",
+        "prodigy-research"
+      ]
+    },
+    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "fintech.prediction-markets.derivatives-protocol",
@@ -3547,6 +3560,16 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "energy.power.grid",
+      "vertical_label": "Power grid & energy infrastructure",
+      "sector_id": "energy-climate",
+      "companies": [
+        "marengo"
+      ]
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.devtools.productivity",
@@ -3954,16 +3977,6 @@
       "sector_id": "financial-services",
       "companies": [
         "computable"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "fintech.payments.consumer",
-      "vertical_label": "Consumer payments & rewards",
-      "sector_id": "financial-services",
-      "companies": [
-        "karsa"
       ]
     },
     {

@@ -1,7 +1,289 @@
 {
-  "updated_at": "2026-08-07T14:53:24.607Z",
+  "updated_at": "2026-08-08T14:29:59.812Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 109669,
+      "company_slug": "cognitio-labs",
+      "launch_url": "https://www.ycombinator.com/launches/SWr-cognitio-labs-the-ai-back-office-for-product-quality-teams",
+      "created_at": "2026-08-07T17:12:02.313Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-automation-ai",
+        "vertical_id": "manufacturing.quality-compliance",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-08T14:29:59.789Z",
+        "launch_id": 109669,
+        "company_slug": "cognitio-labs",
+        "taxonomy": {
+          "conformance_index": 68,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "manufacturing.quality-compliance",
+            "phenotype_primary_id": "vertical-workflow-automation-ai",
+            "cell_key": "BM-01::manufacturing.quality-compliance::vertical-workflow-automation-ai",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Quality control & regulatory compliance",
+            "phenotype_label": "Vertical Workflow Automation Agent"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 109526,
+      "company_slug": "openrelay",
+      "launch_url": "https://www.ycombinator.com/launches/SUY-openrelay-the-inference-delivery-network",
+      "created_at": "2026-08-07T17:00:00.601Z",
+      "classification": {
+        "phenotype_primary_id": "marketplace-network-ai",
+        "vertical_id": "ai-infrastructure.gpu-deploy",
+        "business_models": [
+          "BM-07"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-08T14:29:59.792Z",
+        "launch_id": 109526,
+        "company_slug": "openrelay",
+        "taxonomy": {
+          "conformance_index": 54,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 2,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-07",
+            "vertical_id": "ai-infrastructure.gpu-deploy",
+            "phenotype_primary_id": "marketplace-network-ai",
+            "cell_key": "BM-07::ai-infrastructure.gpu-deploy::marketplace-network-ai",
+            "business_model_label": "Marketplace / network",
+            "vertical_label": "GPU infrastructure for model deployment",
+            "phenotype_label": "Marketplace / exchange / liquidity network"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 109472,
+      "company_slug": "maingen",
+      "launch_url": "https://www.ycombinator.com/launches/STg-maingen-simulations-of-real-industrial-operations-so-agents-can-run-the-physical-world",
+      "created_at": "2026-08-07T16:00:00.073Z",
+      "classification": {
+        "phenotype_primary_id": "training-data-synthetic",
+        "vertical_id": "power.battery-storage-ops",
+        "business_models": [
+          "BM-03",
+          "BM-06"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-08T14:29:59.793Z",
+        "launch_id": 109472,
+        "company_slug": "maingen",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "power.battery-storage-ops",
+            "phenotype_primary_id": "training-data-synthetic",
+            "cell_key": "BM-03::power.battery-storage-ops::training-data-synthetic",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Battery energy storage system operations & dispatch",
+            "phenotype_label": "Training / eval data generation"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+        ]
+      }
+    },
+    {
+      "launch_id": 109075,
+      "company_slug": "textsidekick",
+      "launch_url": "https://www.ycombinator.com/launches/SNH-sidekick-ai-agent-that-handles-frontline-operations-over-text",
+      "created_at": "2026-08-07T15:00:00.438Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.hr.workforce",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-08T14:29:59.794Z",
+        "launch_id": 109075,
+        "company_slug": "textsidekick",
+        "taxonomy": {
+          "conformance_index": 50,
+          "verdict": "non_conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 6,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 29,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.hr.workforce",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.hr.workforce::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "HR & workforce management",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "cell_observed_with_peers",
+            "low_taxonomy_conformance"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
     {
       "launch_id": 109471,
       "company_slug": "praxis-ai-2",
