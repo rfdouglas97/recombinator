@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-08T14:30:01.824Z",
+  "generated_at": "2026-08-09T14:32:18.074Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1308,
+    "assignment_count": 1311,
     "mapped_verticals": 240,
     "observed_cells": 461,
     "total_verticals": 525,
@@ -772,6 +772,24 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.manufacturing.automation",
+      "vertical_label": "Manufacturing & logistics automation",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "antropi-robotics",
+        "bramante",
+        "dawn-industries",
+        "eden-robotics",
+        "neuron-industries",
+        "nox-metals",
+        "parametric",
+        "prototypingio",
+        "ultrasonium"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.agent-observability",
@@ -837,23 +855,6 @@
         "lakonia",
         "verdant",
         "waypoint-transit"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.manufacturing.automation",
-      "vertical_label": "Manufacturing & logistics automation",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "bramante",
-        "dawn-industries",
-        "eden-robotics",
-        "neuron-industries",
-        "nox-metals",
-        "parametric",
-        "prototypingio",
-        "ultrasonium"
       ]
     },
     {
@@ -1086,6 +1087,20 @@
         "pax-historia",
         "playablai",
         "pops"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "professional.law-firms",
+      "vertical_label": "Law firm operations & litigation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "erinys",
+        "moritz",
+        "third-chair",
+        "vector-legal",
+        "withasync"
       ]
     },
     {
@@ -1412,19 +1427,6 @@
         "epicenter",
         "palmier",
         "pocket"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "professional.law-firms",
-      "vertical_label": "Law firm operations & litigation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "moritz",
-        "third-chair",
-        "vector-legal",
-        "withasync"
       ]
     },
     {
@@ -2135,6 +2137,17 @@
       "companies": [
         "selfin",
         "spotpay"
+      ]
+    },
+    {
+      "business_model": "BM-12",
+      "business_model_label": "Open source + commercial",
+      "vertical_id": "consumer.productivity.personal",
+      "vertical_label": "Personal productivity software",
+      "sector_id": "consumer",
+      "companies": [
+        "jcode",
+        "solo-labs"
       ]
     },
     {
@@ -3257,16 +3270,6 @@
       "sector_id": "consumer",
       "companies": [
         "blue"
-      ]
-    },
-    {
-      "business_model": "BM-12",
-      "business_model_label": "Open source + commercial",
-      "vertical_id": "consumer.productivity.personal",
-      "vertical_label": "Personal productivity software",
-      "sector_id": "consumer",
-      "companies": [
-        "solo-labs"
       ]
     },
     {

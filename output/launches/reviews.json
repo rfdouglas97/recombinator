@@ -1,7 +1,294 @@
 {
-  "updated_at": "2026-08-08T14:29:59.812Z",
+  "updated_at": "2026-08-09T14:32:16.093Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 109711,
+      "company_slug": "hebbian-robotics",
+      "launch_url": "https://www.ycombinator.com/launches/SXX-hebbian-robotics-apis-for-searching-and-analyzing-physical-ai-data-at-scale",
+      "created_at": "2026-08-09T03:00:00.116Z",
+      "classification": {
+        "phenotype_primary_id": "training-data-synthetic",
+        "vertical_id": "ai-infrastructure.training-data",
+        "business_models": [
+          "BM-03",
+          "BM-06"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-09T14:32:16.073Z",
+        "launch_id": 109711,
+        "company_slug": "hebbian-robotics",
+        "taxonomy": {
+          "conformance_index": 59,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.training-data",
+            "phenotype_primary_id": "training-data-synthetic",
+            "cell_key": "BM-03::ai-infrastructure.training-data::training-data-synthetic",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Training & eval data generation",
+            "phenotype_label": "Training / eval data generation"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 109739,
+      "company_slug": "guild",
+      "launch_url": "https://www.ycombinator.com/launches/SXz-guild-new-generation-of-defense-contractor",
+      "created_at": "2026-08-08T17:00:00.905Z",
+      "classification": {
+        "phenotype_primary_id": "ai-native-prime-contractor",
+        "vertical_id": "industrials.defense.supply-chain",
+        "business_models": [
+          "BM-04",
+          "BM-11"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-09T14:32:16.075Z",
+        "launch_id": 109739,
+        "company_slug": "guild",
+        "taxonomy": {
+          "conformance_index": 76,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 98,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-04",
+            "vertical_id": "industrials.defense.supply-chain",
+            "phenotype_primary_id": "ai-native-prime-contractor",
+            "cell_key": "BM-04::industrials.defense.supply-chain::ai-native-prime-contractor",
+            "business_model_label": "AI labor / managed service",
+            "vertical_label": "Defense supply chain & prime contracting",
+            "phenotype_label": "AI-Native Prime Contractor"
+          }
+        },
+        "predictor": {
+          "predictability_band": "predicted",
+          "signals": [
+            "analog_in_gaps:15"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [
+            {
+              "rank": 4,
+              "opportunity_score": 54,
+              "vertical_id": "defense.cybersecurity-incident"
+            },
+            {
+              "rank": 13,
+              "opportunity_score": 53,
+              "vertical_id": "defense.cost-accounting"
+            },
+            {
+              "rank": 14,
+              "opportunity_score": 53,
+              "vertical_id": "defense.export-licensing"
+            },
+            {
+              "rank": 15,
+              "opportunity_score": 53,
+              "vertical_id": "defense.facility-compliance"
+            },
+            {
+              "rank": 16,
+              "opportunity_score": 53,
+              "vertical_id": "defense.subcontractor-management"
+            },
+            {
+              "rank": 19,
+              "opportunity_score": 52,
+              "vertical_id": "defense.contractor-performance"
+            },
+            {
+              "rank": 20,
+              "opportunity_score": 52,
+              "vertical_id": "defense.counterfeit-detection"
+            },
+            {
+              "rank": 21,
+              "opportunity_score": 52,
+              "vertical_id": "defense.maintenance-readiness"
+            },
+            {
+              "rank": 22,
+              "opportunity_score": 52,
+              "vertical_id": "defense.intelligence-classification"
+            },
+            {
+              "rank": 23,
+              "opportunity_score": 52,
+              "vertical_id": "defense.logistics-distribution"
+            },
+            {
+              "rank": 24,
+              "opportunity_score": 52,
+              "vertical_id": "defense.personnel-clearance"
+            },
+            {
+              "rank": 25,
+              "opportunity_score": 52,
+              "vertical_id": "defense.training-certification"
+            },
+            {
+              "rank": 26,
+              "opportunity_score": 52,
+              "vertical_id": "defense.munitions-serialization"
+            },
+            {
+              "rank": 27,
+              "opportunity_score": 52,
+              "vertical_id": "defense.weapons-testing"
+            },
+            {
+              "rank": 68,
+              "opportunity_score": 46,
+              "vertical_id": "industrials.defense.surveillance"
+            }
+          ],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Strong fit: taxonomy conforms and whitespace model would have surfaced this cell."
+        ]
+      }
+    },
+    {
+      "launch_id": 109744,
+      "company_slug": "dawn-industries",
+      "launch_url": "https://www.ycombinator.com/launches/SY4-dawn-industries-automatic-diagnosis-fix-for-industrial-automation",
+      "created_at": "2026-08-08T16:00:00.916Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "industrials.manufacturing.automation",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-09T14:32:16.077Z",
+        "launch_id": 109744,
+        "company_slug": "dawn-industries",
+        "taxonomy": {
+          "conformance_index": 69,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 64,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "industrials.manufacturing.automation",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::industrials.manufacturing.automation::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Manufacturing & logistics automation",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 67,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
     {
       "launch_id": 109669,
       "company_slug": "cognitio-labs",

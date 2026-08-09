@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-08T14:28:52.983Z",
+  "synced_at": "2026-08-09T14:31:14.365Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1216,
+  "company_count": 1218,
   "companies": [
     {
       "slug": "10x",
@@ -1305,6 +1305,26 @@
       "launched_at": 1761948352
     },
     {
+      "slug": "antropi-robotics",
+      "name": "Antropi Robotics",
+      "batch": "Fall 2026",
+      "one_liner": "Autonomous CNC factories for faster hardware",
+      "long_description": "",
+      "website": "https://www.antropi.world/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Robotics",
+        "Manufacturing"
+      ],
+      "team_size": 0,
+      "location": "Bengaluru, KA, India",
+      "status": "Active",
+      "launched_at": 1786284917
+    },
+    {
       "slug": "apollo-atomics-inc",
       "name": "Apollo Atomics, Inc.",
       "batch": "Spring 2026",
@@ -1360,7 +1380,7 @@
         "AI"
       ],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "Toronto, ON, Canada",
       "status": "Active",
       "launched_at": 1767593677
     },
@@ -4440,8 +4460,8 @@
       "slug": "chromie",
       "name": "Chromie",
       "batch": "Summer 2026",
-      "one_liner": "find, qualify, & win gov contracts with AI",
-      "long_description": "The all-in-one platform to tackle government contracts with intelligence.",
+      "one_liner": "find, qualify, & win contracts with AI",
+      "long_description": "The intelligent operating system for government contracting. Built by former AI engineers and government officials.",
       "website": "https://chromie.dev",
       "industries": [
         "B2B"
@@ -4651,7 +4671,7 @@
       "name": "Click",
       "batch": "Summer 2026",
       "one_liner": "Web search & connectors for agents",
-      "long_description": "Click lets you do more within Codex & Claude. It's an MCP that provides external context that the in-built web search misses - LinkedIn activity, YouTube transcripts, live flight fares, and more. \r\nWith Click, users do sales & GTM research, competitor ad analysis, travel planning, and financial analysis - all within their favorite agent surface.",
+      "long_description": "Click builds chat-native work services for ChatGPT and Claude. \r\nWe’re starting with a research service that brings live external context from professional & social platforms, financial markets, maps, travel sources - and a lot more - into the conversation. \r\nIt makes research on people & companies even deeper with specialized, source-backed context beyond built-in web search, while enabling new tasks like comparing live flight fares right inside the chat.",
       "website": "https://www.useclick.ai",
       "industries": [
         "B2B",
@@ -4758,16 +4778,17 @@
       "name": "Closure",
       "batch": "Winter 2025",
       "one_liner": "We help law enforcement solve crime",
-      "long_description": "Law enforcement is drowning in data. Closure helps search it to solve crime.\r\n\r\n- Hiring: UX, Engineering, AI, Ops, Business Development\r\n- Supporting: law enforcement throughout the country\r\n- Expanding: Local, state, and federal law enforcement.",
+      "long_description": "Closure turns evidence overload into cases closed, with the most trusted AI agents in law enforcement.",
       "website": "https://closure-intel.com/",
       "industries": [
         "Government"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "GovTech"
+        "GovTech",
+        "LegalTech",
+        "AI"
       ],
-      "team_size": 10,
+      "team_size": 11,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1739862740
@@ -7041,6 +7062,27 @@
       "launched_at": 1737484568
     },
     {
+      "slug": "erinys",
+      "name": "Erinys",
+      "batch": "Summer 2026",
+      "one_liner": "The first network of AI-native law firms",
+      "long_description": "",
+      "website": "https://erinys.ai",
+      "industries": [
+        "B2B",
+        "Legal"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Legal",
+        "LegalTech"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786258271
+    },
+    {
       "slug": "everest",
       "name": "Everest",
       "batch": "Fall 2025",
@@ -7287,16 +7329,16 @@
       "name": "Fabraix",
       "batch": "Summer 2026",
       "one_liner": "The world's frontier hacker for AI agents.",
-      "long_description": "Fabraix builds state-of-the-art AI red-teaming agents that continuously detect security vulnerabilities in customer-facing AI. Our product, Nyx, has already found vulnerabilities in agents at dozens of Fortune 500 companies. On AgentHarm, the leading benchmark for offensive AI security, Nyx achieved a 78% attack success rate, compared with 67% for GPT-5.6 Sol.\r\n\r\nAI agents can change more often than teams can test them. A new model, prompt, tool, permission, or data source can change what an agent does, even when the application code stays the same. And AI is also increasing how much software companies produce and how often it changes.\r\n\r\nWe built Nyx to automate the work required to red-team AI agents. It is built around three capabilities:\r\n- Nyx draws on more than 10,000 jailbreaks that we have collected and continuously update from public records (the largest such library we know of) as starting points for attacks across a wide range of failure modes.\r\n- Nyx attacks itself through adversarial self-play, retaining successful jailbreaks and using them to generate stronger variants. This creates a continuous search for novel attacks rather than replaying a fixed set of payloads which compounds over time; thus massively improving its capabilities.\r\n- It can interact directly with chat, voice, browser, and coding agents without source code or a special integration. It can also attack indirectly through controlled replicas of SaaS products and websites that we maintain, placing malicious payloads in webpages, documents, files, messages, and tool outputs to test how an agent behaves under different conditions.\r\n\r\nNyx often finds its first vulnerability within minutes or hours rather than days or weeks. Because the work is fully automated, companies can repeat the test with every change and at a much lower cost than what a 7-figure red-teaming (and point-in-time) engagement would require.\r\n\r\nWe're also the team behind ACE (Adversarial Cost to Exploit), a benchmark that ",
+      "long_description": "Fabraix builds state-of-the-art AI red-teaming agents that continuously detect security vulnerabilities in customer-facing AI. Our product, Nyx, has already found vulnerabilities in agents at dozens of Fortune 500 companies. On AgentHarm, the leading benchmark for offensive AI security, Nyx achieved a 78% attack success rate, compared with 67% for GPT-5.6 Sol.\r\n\r\nAI agents can change more often than teams can test them. A new model, prompt, tool, permission, or data source can change what an agent does, even when the application code stays the same. And AI is also increasing how much software companies produce and how often it changes. We built Nyx to automate the work required to red-team AI agents. It is multi modal by design and interacts with the target indirectly through controlled replicas of SaaS products and websites that we maintain, placing malicious payloads in webpages, documents, files, messages, and tool outputs to test how an agent behaves under different conditions.\r\n\r\nNyx often finds its first vulnerability within minutes or hours rather than days or weeks. Because the work is fully automated, companies can repeat the test with every change and at a much lower cost than what a 7-figure red-teaming (and point-in-time) engagement would require.\r\n\r\nWe're also the team behind ACE (Adversarial Cost to Exploit), a benchmark that measures AI security in terms of how much it costs attackers to break an AI system; providing a game-theoretic framework to understand how motivated a rational attacker would be in exploiting the system.",
       "website": "https://fabraix.com",
       "industries": [
         "B2B",
         "Security"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Reinforcement Learning",
-        "Cybersecurity",
-        "AI"
+        "Cybersecurity"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -9537,14 +9579,14 @@
         "Consumer Health and Wellness"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Generative AI",
         "Health Tech",
         "Biotech",
-        "Health & Wellness",
-        "AI"
+        "Health & Wellness"
       ],
       "team_size": 3,
-      "location": "Boston, MA, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1784104321
     },
@@ -10153,6 +10195,25 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1762304310
+    },
+    {
+      "slug": "jcode",
+      "name": "Jcode",
+      "batch": "Summer 2026",
+      "one_liner": "20x more coding agents, 20x more productivity",
+      "long_description": "We make an open source low ram coding agent that enables extreme parallelization for coding tasks. Our coding agent produces SOTA results on coding benchmarks. ",
+      "website": "https://jcode.sh/",
+      "industries": [
+        "Consumer"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools"
+      ],
+      "team_size": 1,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786012852
     },
     {
       "slug": "jeevy-fabrication",
@@ -11153,7 +11214,7 @@
         "Finance"
       ],
       "team_size": 4,
-      "location": "San Francisco, CA, USA",
+      "location": "Helsinki, Finland",
       "status": "Active",
       "launched_at": 1784575015
     },
@@ -13130,8 +13191,8 @@
       "slug": "moda",
       "name": "Moda",
       "batch": "Winter 2026",
-      "one_liner": "Continual learning for AI agents",
-      "long_description": "Moda is the continual learning layer for agents. It surfaces patterns across agent hallucinations, laziness, context loss, and tool call failures, then attributes each issue to a specific layer of the agent harness: prompts, tools, workflows, retrieval, memory, and evals. It also discovers what users are actually trying to do and turns those findings into concrete counterfactuals the team can ship.\r\n\r\nIn the next 10 years, with more AI agents spawning and trying to get PMF, developing an agent that actually works for users is critical. Everyone has access to the same models, thus the ones that win on a product level will be the ones who learn fastest from real usage. Moda is that learning layer.",
+      "one_liner": "The continual learning layer for AI agents.",
+      "long_description": "Moda is the continual learning layer for AI agents. It turns production agent traces into validated improvements for your agent harness. It surfaces patterns across agent hallucinations, laziness, context loss, and tool call failures, then attributes each issue to a specific layer of the agent harness: prompts, tools, workflows, retrieval, memory, and evals. It also discovers what users are actually trying to do and turns those findings into concrete counterfactuals the team can ship.\r\n\r\nIn the next 10 years, with more AI agents spawning and trying to get PMF, developing an agent that actually works for users is critical. Everyone has access to the same models, thus the ones that win on a product level will be the ones who learn fastest from real usage. Moda is that learning layer.",
       "website": "https://moda.dev",
       "industries": [
         "B2B",
@@ -17043,14 +17104,14 @@
       "name": "Qokedas",
       "batch": "Fall 2026",
       "one_liner": "Teaching models to decode the physical world",
-      "long_description": "Most of what happens on Earth is never written down. It passes through instruments as signal and disappears. Qokedas turns that signal into training data in the form of RL Environments, so labs can build models that read the physical world and operate the machines that measure it",
+      "long_description": "Most of what happens on Earth is never written down. It passes through instruments as signal and disappears. Our goal is to turn that signal into training data in the form of RL Environments, so labs can build models that read the physical world and operate the machines that measure it",
       "website": "https://qokedas.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Deep Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Deep Learning"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -19444,25 +19505,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1734365180
-    },
-    {
-      "slug": "solo-labs",
-      "name": "Solo Labs",
-      "batch": "Summer 2026",
-      "one_liner": "Coding Agents",
-      "long_description": "We make an open source low ram coding agent that enables extreme parallelization for coding tasks. Our coding agent produces SOTA results on coding benchmarks. ",
-      "website": "https://jcode.sh/",
-      "industries": [
-        "Consumer"
-      ],
-      "tags": [
-        "Developer Tools",
-        "AI"
-      ],
-      "team_size": 1,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1786012852
     },
     {
       "slug": "solva",
