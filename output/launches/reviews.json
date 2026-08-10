@@ -1,7 +1,149 @@
 {
-  "updated_at": "2026-08-09T14:32:16.093Z",
+  "updated_at": "2026-08-10T14:56:04.181Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 109738,
+      "company_slug": "flowmanual",
+      "launch_url": "https://www.ycombinator.com/launches/SXy-flowmanual-an-ai-native-back-office-for-construction-contractors",
+      "created_at": "2026-08-10T13:00:00.161Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "construction.material-procurement",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-10T14:56:04.162Z",
+        "launch_id": 109738,
+        "company_slug": "flowmanual",
+        "taxonomy": {
+          "conformance_index": 76,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 83,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "construction.material-procurement",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::construction.material-procurement::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Material procurement & supply chain logistics",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": {
+            "rank": 463,
+            "opportunity_score": 10,
+            "transfer_score": 83
+          },
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+        ]
+      }
+    },
+    {
+      "launch_id": 109878,
+      "company_slug": "erinys",
+      "launch_url": "https://www.ycombinator.com/launches/SaE-erinys-building-the-first-network-of-ai-native-law-firms",
+      "created_at": "2026-08-10T01:00:00.375Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "professional.law-firms",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-10T14:56:04.164Z",
+        "launch_id": 109878,
+        "company_slug": "erinys",
+        "taxonomy": {
+          "conformance_index": 76,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "professional.law-firms",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::professional.law-firms::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Law firm operations & litigation",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
     {
       "launch_id": 109711,
       "company_slug": "hebbian-robotics",
