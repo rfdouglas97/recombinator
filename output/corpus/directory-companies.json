@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-10T14:54:46.790Z",
+  "synced_at": "2026-08-11T14:54:51.785Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1221,
+  "company_count": 1225,
   "companies": [
     {
       "slug": "10x",
@@ -1103,10 +1103,10 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Machine Learning",
         "B2B",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -1427,16 +1427,18 @@
       "name": "Arbital",
       "batch": "Summer 2026",
       "one_liner": "The trading terminal for perps, memes, and stocks.",
-      "long_description": "Arbital is a trading terminal for perps, memes, and stocks. In our first 7 months, 2,400 traders have traded $1.2B in volume through Arbital, and we're now doing $300M/month.\r\n\r\nWe're building towards a social, mobile-first trading app that brings tokenized equities, crypto, and perps to everyone.",
+      "long_description": "Arbital lets you trade perps, memes, stocks, and run market-making strategies from one place. In our first 7 months, 2,600 traders have traded $1.3B in volume through Arbital, and we're now doing $377M/month. \r\n\r\nWe're building towards a social, mobile-first trading app that brings tokenized equities, crypto, and perps to everyone.",
       "website": "https://www.arbital.xyz",
       "industries": [
         "Fintech",
         "Consumer Finance"
       ],
       "tags": [
-        "DeFi",
+        "Fintech",
         "Crypto / Web3",
-        "Trading"
+        "Investing",
+        "Trading",
+        "AI"
       ],
       "team_size": 3,
       "location": "Singapore, Singapore",
@@ -2696,7 +2698,7 @@
       "name": "Belvedir",
       "batch": "Summer 2026",
       "one_liner": "The easiest way to make private AI models.",
-      "long_description": "Private AI models are going to win. Belvedir is the infrastructure needed to make billions of them.\r\n\r\nBelvedir makes it cheap and easy for anyone to make private AI. Just connect us to your agent traces through our SDK and we can autonomously train custom models + harnesses + routers, privately host them, and recursively improve them as they are used. Our customers have seen up to 10x reductions in inference costs and 2x increases on benchmark scores.",
+      "long_description": "Private AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.\r\n\r\nBelvedir makes it cheap and easy for anyone to make private AI. Just connect us to your agent traces through our SDK and we can autonomously train custom models + harnesses + routers, privately host them, and recursively improve them as they are used. Our customers have seen up to 10x reductions in inference costs and 2x increases on benchmark scores.",
       "website": "https://belvedir.ai/",
       "industries": [
         "B2B"
@@ -3607,7 +3609,7 @@
       "name": "Bystreet",
       "batch": "Winter 2025",
       "one_liner": "Your partner for hotel ownership data. ",
-      "long_description": "Bystreet is your partner for hotel ownership data. We enable hotel brands, operators, and vendors to connect directly with the owners and key decision-makers behind tens of thousands of hotels worldwide. 🗺️  🛫 ",
+      "long_description": "Identify and connect with the owners and key decision-makers behind 300,000+ hotels globally. Our customers include the world's leading hospitality firms: Marriott International, Choice Hotels, Wyndham Hotels & Resorts, Hotel Equities, and more. ",
       "website": "http://www.bystreet.com",
       "industries": [
         "B2B"
@@ -3820,7 +3822,7 @@
       "batch": "Winter 2026",
       "one_liner": "Accurate, high-performance retrieval for AI agents",
       "long_description": "Captain delivers the most accurate file search engine built for AI agents. We’ll index data from the sources folks already use like S3, SharePoint, and Google Drive, and easily scale multimodal, petabyte-level content search. We’re the Snowflake for Unstructured Data.\r\n\r\nCaptain tops the Open-RAG-Benchmark with over 20% higher accuracy than standard RAG pipelines. We achieve this through robust data processing techniques like embedding normalization across modalities, ensuring that representations cluster by semantic content rather than data type.",
-      "website": "https://runcaptain.com",
+      "website": "https://captain.dev",
       "industries": [
         "B2B",
         "Infrastructure"
@@ -4226,11 +4228,12 @@
       "slug": "centralcoms",
       "name": "CentralComs",
       "batch": "Spring 2026",
-      "one_liner": "AI Agents for Property Management",
-      "long_description": "CentralComs is building AI Agents for property managers that tracks every maintenance call, chases every open ticket, and keep owners/tenants/vendors updated, so nothing falls through the cracks and operations never stall.\r\n\r\nThese agent work directly inside AppFolio, Buildium, Yardi and your existing stack, making real-time decisions and resolving multi-step workflows without handoffs.",
+      "one_liner": "AI agent platform for home services companies.",
+      "long_description": "Home services companies lose money on missed calls and idle techs. When the phone rings during a job and nobody picks up, that lead goes to a competitor and the trucks already on the road sit half-booked because dispatch can't keep the schedule tight.\r\n\r\nCentralComs fixes this with AI agents that answer every call, route each job to the right technician, and keep the calendar full. They handle intake, dispatch, and customer updates end to end working inside ServiceTitan, Housecall Pro, and Jobber so no lead slips through and no truck runs empty.\r\n\r\nCapture every call. Book every tech. Never miss a job.",
       "website": "https://centralcoms.com",
       "industries": [
-        "Real Estate and Construction"
+        "Real Estate and Construction",
+        "Construction"
       ],
       "tags": [
         "Home Services"
@@ -7227,7 +7230,7 @@
       "name": "Exosat",
       "batch": "Summer 2026",
       "one_liner": "Building a sovereign Starlink",
-      "long_description": "Exosat is building thousands of low-cost communication satellites to provide a neutral, sovereign alternative to Starlink. By building our satellites with zero ITAR/EAR-controlled content, we can leverage manufacturers anywhere in the world to produce our satellites at under a tenth of the cost and launch them from any nation to bypass launch capacity bottlenecks.\r\n\r\nWe're starting off by selling connectivity to device OEMs and network operators, but will eventually use the distributed compute across our constellation to run low-latency inference for robots and autonomous vehicles in remote and rural areas anywhere on the planet.\r\n\r\nWe've already signed $400M+ in LOIs to work with operators across Central Asia, Southeast Asia, and the Middle East, booked our first satellite launch next year, and hold an 11,000 satellite filing with the ITU to build the largest comms network outside of the U.S. and China.",
+      "long_description": "Exosat is building thousands of low-cost communication satellites to provide a neutral, sovereign alternative to Starlink. By designing our satellites with zero ITAR/EAR-controlled content, we can leverage manufacturers anywhere in the world to produce our satellites at under a tenth of the cost and launch them from other nations to bypass capacity bottlenecks and access equatorial orbits. \r\n\r\nWe're starting off by selling connectivity to device OEMs and network operators, but will eventually use the distributed compute across our constellation to run low-latency inference for robots and autonomous vehicles in remote and rural areas anywhere on the planet.\r\n\r\nWe've already signed hundreds of millions in LOIs to work with operators across Central Asia, Southeast Asia, and the Middle East, booked our first satellite launch next year, and hold an 11,000 satellite filing with the ITU to build the largest comms network outside of the U.S. and China.",
       "website": "https://www.exosat.com",
       "industries": [
         "Industrials",
@@ -7528,6 +7531,26 @@
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1778543597
+    },
+    {
+      "slug": "financial-datasets",
+      "name": "Financial Datasets",
+      "batch": "Summer 2026",
+      "one_liner": "Connect your agent to the stock market ",
+      "long_description": "Financial Datasets is the best way to connect your agent to real-time stock market data: fundamentals, filings, ownership, earnings, KPIs, prices, and more.\r\n\r\nNew data is available within seconds of publication. We are a primary-source provider of financial data. Statements, filings, and disclosures are collected, parsed, and served by us directly.",
+      "website": "https://financialdatasets.ai/",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Stocks"
+      ],
+      "team_size": 1,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1786382003
     },
     {
       "slug": "finbar",
@@ -9572,10 +9595,10 @@
     },
     {
       "slug": "idler",
-      "name": "Idler",
+      "name": "idler",
       "batch": "Summer 2025",
-      "one_liner": "Reinforcement learning environments. ",
-      "long_description": "Idler builds reinforcement learning environments that teach AI models to code at expert human levels. We create training environments based on real-world coding scenarios that prepare models for the complex challenges they'll face in production.",
+      "one_liner": "reinforcement learning environments",
+      "long_description": "idler builds reinforcement learning environments that teach AI models how to do expert-level work",
       "website": "https://idler.ai/",
       "industries": [
         "B2B",
@@ -9780,8 +9803,8 @@
       "slug": "inkbox",
       "name": "Inkbox",
       "batch": "Summer 2026",
-      "one_liner": "Give your AI agents email, phone, iMessage and an internet address",
-      "long_description": "We are building the identity and communication layer for AI agents: giving agents their own email, phone, iMessage, and internet address. Every interaction flows through Inkbox, so agents are enhanced with multi-channel context.",
+      "one_liner": "Let your agents communicate via email, phone, iMessage, & Agent2Agent",
+      "long_description": "For your AI agents to behave like teammates, we give them persistent identities with their own email, phone, and iMessage. We also provide them an agent-to-agent channel, so they can communicate for task delegation.",
       "website": "https://inkbox.ai",
       "industries": [
         "B2B",
@@ -12911,7 +12934,7 @@
       "batch": "Spring 2025",
       "one_liner": "AI native accounting firm",
       "long_description": "We’re building an AI-native accounting firm where accountants collaborate with intelligent agents to deliver superior financial advisory services. Together, they close the books in a fraction of the time traditional firms require.",
-      "website": "https://www.tryminerva.ai",
+      "website": "https://joinminerva.ai",
       "industries": [
         "B2B",
         "Finance and Accounting"
@@ -13097,7 +13120,7 @@
       "name": "Miyagi Labs",
       "batch": "Winter 2025",
       "one_liner": "AI tutors for exam prep",
-      "long_description": "Miyagi Labs is an AI-powered exam preparation platform built to unlock human intelligence and democratize world-class education globally. We provide students with an elite AI tutor, hyper-personalized study analytics, and an infinite engine of rigorous practice material tailored to exam material.\r\n\r\nWe currently support major standardized exams across North America, Africa, and Asia, including the SAT, ACT, and NYC SHSAT (US), the UTME (Nigeria), the KCSE and KJSEA (Kenya), and the NEET and CAT (India).\r\n\r\nWe’re building the platform we wish we had when studying for exams. We envision a world where students anywhere can come to Miyagi to receive personalized, world-class AI tutoring designed to unlock their full potential.",
+      "long_description": "Miyagi Labs is an AI-powered exam preparation platform built to unlock human intelligence and democratize world-class education globally. We provide students with an elite AI tutor, hyper-personalized study analytics, and an infinite engine of rigorous practice material tailored to exam material.\r\n\r\nWe currently support major standardized exams across North America, Africa, and Asia, including the SAT, ACT, and NYC SHSAT (US), the UTME (Nigeria), the KCSE, KJSEA and KPSEA (Kenya), and the NEET and CAT (India).\r\n\r\nWe’re building the platform we wish we had when studying for exams. We envision a world where students anywhere can come to Miyagi to receive personalized, world-class AI tutoring designed to unlock their full potential.",
       "website": "https://miyagilabs.ai",
       "industries": [
         "Education"
@@ -14359,7 +14382,7 @@
       "slug": "omnara",
       "name": "Omnara",
       "batch": "Summer 2025",
-      "one_liner": "The Control Plane for Agents",
+      "one_liner": "The Open-Source Alternative to Claude Managed Agents",
       "long_description": "Omnara is an open-source, model-agnostic control plane for managed agents. One API to deploy, run, and control them. Self-host it, or use our managed cloud.\r\n",
       "website": "https://omnara.com",
       "industries": [
@@ -15219,18 +15242,18 @@
       "slug": "pacific",
       "name": "Pacific",
       "batch": "Summer 2026",
-      "one_liner": "Micro data centers for the harshest places on Earth and in space.",
+      "one_liner": "Mass-producing and deploying micro data centers for Earth and Space",
       "long_description": "We mass-produce modular data centers that deploy on stalled infrastructure projects losing billions per week.\r\n\r\nDelayed infrastructure projects hemorrhage $1B a week in the US alone - Pacific mass-produces modular data centers that deploy on those sites in days and turn their unused power into revenue.\r\n\r\nData centers are stuck for years waiting for power, while delayed construction sites across the world sit on unused interconnects, losing billions of dollars per week in interest on trillions of dollars of debt. Our pods deploy on those sites and generate revenue for them in days. They use diamond wafers in the cooling system so pods run anywhere on earth, even a desert. \r\n\r\nWe'll use the same mechanisms we're building today to deploy compute across the galaxy.\r\n",
       "website": "https://gopacific.ai/",
       "industries": [
         "Industrials"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "Robotics",
         "Space Exploration",
-        "Manufacturing",
-        "AI"
+        "Manufacturing"
       ],
       "team_size": 2,
       "location": "London, England, United Kingdom",
@@ -20943,7 +20966,7 @@
     {
       "slug": "tensr",
       "name": "Tensr",
-      "batch": "Fall 2025",
+      "batch": "Summer 2026",
       "one_liner": "Fully autonomous robotic factories",
       "long_description": "Robotic factories that build robotics in the US.\r\n\r\nWe’re a group of Berkeley graduate robotics researchers who previously won a full scale autonomous IndyCar competition at 160mph.",
       "website": "https://tensr.com/",
@@ -21912,15 +21935,15 @@
       "name": "Trope",
       "batch": "Summer 2026",
       "one_liner": "The AI-native ERP system integrator",
-      "long_description": "Trope is the AI-native system integrator for ERPs. Today, that means the Microsoft ecosystem: we implement Dynamics 365 Business Central, move companies off retiring systems like Dynamics GP and NAV, and run custom AI agents inside the ERP as a managed service.\r\n\r\nAgents carry the mechanical work: configuration, data migration, test cycles, and documentation. It is like having a consultant, project manager, and developer working 24/7. Principal consultants who have delivered 200+ implementations across 20+ years in ERP systems scope the work and sign every gate, so customers get a fixed price quoted at scoping and a go-live measured in weeks, in an industry that runs six to eighteen months on hourly billing.\r\n\r\nAfter go-live, the agents stay. Reconciliations, exception monitoring, reporting, and collections run as a managed service, reviewed against KPIs agreed at scoping. The delivery engine is built in-house.",
+      "long_description": "Trope is the AI-native ERP system integrator.\r\n\r\nWe accelerate months of hourly implementation work with agent-driven, fixed-fee delivery. Instead of leaving customers with a static system, we deploy AI agents that continue running and improving core business operations after go-live.\r\n\r\nTrope combines AI trained on ERP systems with principal consultants who have delivered 200+ implementations over 20 years. Together, they turn consulting services into software, shifting systems integration from one-time implementations to continuous AI-driven operations.",
       "website": "https://trope.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -22094,6 +22117,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1738808449
+    },
+    {
+      "slug": "twentyfour26",
+      "name": "twentyfour26",
+      "batch": "Fall 2026",
+      "one_liner": "On Demand CNC Prototyping ",
+      "long_description": "twentyfour26 builds autonomous CNC machining cells that turn CAD files into same-day custom metal parts.",
+      "website": "https://twentyfour26.com/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Robotics",
+        "Manufacturing",
+        "Industrial"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786154391
     },
     {
       "slug": "twentytwo",
@@ -22390,18 +22434,18 @@
       "slug": "usenarrative",
       "name": "Narrative",
       "batch": "Fall 2025",
-      "one_liner": "AI-Powered Sports Highlights",
-      "long_description": "Narrative automates the creation and distribution of high-quality sports highlight videos for broadcasters, teams, and leagues.",
+      "one_liner": "Video Intelligence for Sports",
+      "long_description": "Transform live and archive sports video into structured events, player data, and polished media content.",
       "website": "http://www.narrative-sports.com",
       "industries": [
         "B2B",
         "Marketing"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Sports Tech",
         "B2B",
-        "Video"
+        "Video",
+        "AI"
       ],
       "team_size": 3,
       "location": "New York City, NY, USA",
@@ -22732,6 +22776,27 @@
       "launched_at": 1768239774
     },
     {
+      "slug": "verdict-machine",
+      "name": "Verdict Machine",
+      "batch": "Summer 2026",
+      "one_liner": "AI cybersecurity for financial institutions' digital assets",
+      "long_description": "Verdict Machine uses AI to understand each financial institution's complete on-chain environment, assess its cyber risk and generate tailored controls. The same live model powers transaction prevention, continuous cyber diligence, security posture and cost-efficient wallet screening. Before execution, Verdict Machine evaluates proposed transactions against the institution's active policies.\n\nIn our first weeks, we started POCs with asset managers and digital-asset infrastructure providers whose systems move billions of dollars every week for financial institutions. We're now in active evaluations with digital-asset teams at some of the world's largest banks.\n\nThe founding team launched and led blockchain security at Check Point (NASDAQ: CHKP).",
+      "website": "https://verdictmachine.com",
+      "industries": [
+        "B2B",
+        "Security"
+      ],
+      "tags": [
+        "Crypto / Web3",
+        "Security",
+        "AI"
+      ],
+      "team_size": 4,
+      "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+      "status": "Active",
+      "launched_at": 1786374737
+    },
+    {
       "slug": "veria-labs",
       "name": "Veria Labs",
       "batch": "Fall 2025",
@@ -22984,6 +23049,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1779284137
+    },
+    {
+      "slug": "vorelios",
+      "name": "Vorelios",
+      "batch": "Fall 2026",
+      "one_liner": "AI that simulates physics 1000x faster",
+      "long_description": "Engineering is bottlenecked by slow, costly simulations. We're fixing that by building foundation models that learn physics end-to-end and deliver the same results in seconds, at a fraction of the cost.",
+      "website": "https://vorelios.com",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Hard Tech",
+        "B2B",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786417769
     },
     {
       "slug": "voxel-energy",

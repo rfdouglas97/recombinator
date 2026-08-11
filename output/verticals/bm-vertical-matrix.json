@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-10T14:56:06.453Z",
+  "generated_at": "2026-08-11T14:56:01.706Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1316,
+    "assignment_count": 1320,
     "mapped_verticals": 240,
-    "observed_cells": 461,
+    "observed_cells": 462,
     "total_verticals": 525,
     "gap_candidates": 856
   },
@@ -166,6 +166,7 @@
         "contextdev",
         "egoist-machines",
         "fiber-ai",
+        "financial-datasets",
         "glen",
         "graphify-labs",
         "hyperspell",
@@ -234,7 +235,8 @@
         "refresh",
         "the-llm-data-company",
         "trim",
-        "velvet"
+        "velvet",
+        "vorelios"
       ]
     },
     {
@@ -666,6 +668,25 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.manufacturing.automation",
+      "vertical_label": "Manufacturing & logistics automation",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "antropi-robotics",
+        "bramante",
+        "dawn-industries",
+        "eden-robotics",
+        "neuron-industries",
+        "nox-metals",
+        "parametric",
+        "prototypingio",
+        "twentyfour26",
+        "ultrasonium"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "marketing.content-ops",
@@ -772,24 +793,6 @@
         "leeroo",
         "librar-labs",
         "slashy"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.manufacturing.automation",
-      "vertical_label": "Manufacturing & logistics automation",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "antropi-robotics",
-        "bramante",
-        "dawn-industries",
-        "eden-robotics",
-        "neuron-industries",
-        "nox-metals",
-        "parametric",
-        "prototypingio",
-        "ultrasonium"
       ]
     },
     {
@@ -5435,6 +5438,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "tejas-ai"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "security.risk-quantification",
+      "vertical_label": "Cyber risk quantification & modeling",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "verdict-machine"
       ]
     },
     {
