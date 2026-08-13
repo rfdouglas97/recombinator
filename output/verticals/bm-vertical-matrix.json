@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-12T14:54:58.213Z",
+  "generated_at": "2026-08-13T14:56:09.253Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1327,
-    "mapped_verticals": 240,
-    "observed_cells": 462,
+    "assignment_count": 1339,
+    "mapped_verticals": 241,
+    "observed_cells": 465,
     "total_verticals": 525,
-    "gap_candidates": 856
+    "gap_candidates": 853
   },
   "observed_cells": [
     {
@@ -254,6 +254,7 @@
         "cignara",
         "cohesive",
         "ergo",
+        "feldy",
         "fuse-ai",
         "fuseai",
         "gojiberry-ai",
@@ -506,6 +507,28 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "professional.law-firms",
+      "vertical_label": "Law firm operations & litigation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "andco",
+        "blueshoe",
+        "caseflood-ai",
+        "crimson",
+        "kalinda",
+        "lexi",
+        "openintake",
+        "perceptron-ml",
+        "relaw",
+        "skope",
+        "stilta",
+        "tamlabs",
+        "wayco"
+      ]
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.devtools.productivity",
@@ -566,27 +589,6 @@
         "salespatriot",
         "spaceflow-technologies-inc",
         "whitespace"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "professional.law-firms",
-      "vertical_label": "Law firm operations & litigation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "andco",
-        "blueshoe",
-        "caseflood-ai",
-        "crimson",
-        "kalinda",
-        "lexi",
-        "openintake",
-        "perceptron-ml",
-        "skope",
-        "stilta",
-        "tamlabs",
-        "wayco"
       ]
     },
     {
@@ -912,6 +914,21 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "baud",
+        "dipole-labs",
+        "lamb-labs",
+        "partcl",
+        "powermatrix",
+        "sygaldry-technologies"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.qa-testing",
@@ -924,6 +941,21 @@
         "movedot",
         "propolis",
         "testerarmy"
+      ]
+    },
+    {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "ai-infrastructure.training-data",
+      "vertical_label": "Training & eval data generation",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "datoric",
+        "deepreach-inc",
+        "design-arena",
+        "human-archive",
+        "sciloop",
+        "shofo"
       ]
     },
     {
@@ -986,20 +1018,6 @@
       ]
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "baud",
-        "lamb-labs",
-        "partcl",
-        "powermatrix",
-        "sygaldry-technologies"
-      ]
-    },
-    {
       "business_model": "BM-09",
       "business_model_label": "Biotech / R&D platform",
       "vertical_id": "ai-infrastructure.training-data",
@@ -1011,20 +1029,6 @@
         "edotenv",
         "gutgutgoose",
         "monte"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "ai-infrastructure.training-data",
-      "vertical_label": "Training & eval data generation",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "datoric",
-        "design-arena",
-        "human-archive",
-        "sciloop",
-        "shofo"
       ]
     },
     {
@@ -1095,6 +1099,20 @@
         "smartbase",
         "ventura",
         "walter"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "marketing.content-ops",
+      "vertical_label": "Content operations & asset management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "familiar",
+        "knowlify",
+        "lapis",
+        "outpaintcom",
+        "palette-2"
       ]
     },
     {
@@ -1234,6 +1252,19 @@
     {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "devtools.cost-optimization",
+      "vertical_label": "Cloud resource optimization & cost management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "carrot-labs",
+        "conifer",
+        "mentlio",
+        "theta"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "devtools.security-scanning",
       "vertical_label": "Static & dynamic application security testing",
       "sector_id": "enterprise-software",
@@ -1281,6 +1312,19 @@
         "signals",
         "unisson",
         "upstream"
+      ]
+    },
+    {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
+      "vertical_id": "fintech.insurance.agent-liability",
+      "vertical_label": "AI & specialty liability insurance",
+      "sector_id": "financial-services",
+      "companies": [
+        "hedge",
+        "klaimee",
+        "mount",
+        "princeps"
       ]
     },
     {
@@ -1424,19 +1468,6 @@
         "manufacturingintelligence",
         "morphoai",
         "torus"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "marketing.content-ops",
-      "vertical_label": "Content operations & asset management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "knowlify",
-        "lapis",
-        "outpaintcom",
-        "palette-2"
       ]
     },
     {
@@ -1623,18 +1654,6 @@
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "devtools.cost-optimization",
-      "vertical_label": "Cloud resource optimization & cost management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "carrot-labs",
-        "conifer",
-        "theta"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "devtools.documentation-generation",
@@ -1776,18 +1795,6 @@
         "pax-markets",
         "qfex",
         "stoa"
-      ]
-    },
-    {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "fintech.insurance.agent-liability",
-      "vertical_label": "AI & specialty liability insurance",
-      "sector_id": "financial-services",
-      "companies": [
-        "hedge",
-        "klaimee",
-        "mount"
       ]
     },
     {
@@ -2528,6 +2535,17 @@
       ]
     },
     {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "fintech.wealth.asset-management",
+      "vertical_label": "Asset & wealth management",
+      "sector_id": "financial-services",
+      "companies": [
+        "pennant",
+        "soria"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "freight.cross-border",
@@ -2734,6 +2752,17 @@
       "companies": [
         "unifold",
         "zavo"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "power.asset-maintenance",
+      "vertical_label": "Power plant & transmission asset maintenance scheduling",
+      "sector_id": "energy-climate",
+      "companies": [
+        "libra-robotics",
+        "meteoric"
       ]
     },
     {
@@ -3325,6 +3354,16 @@
       "sector_id": "ai-infrastructure",
       "companies": [
         "humwork"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "data.data-monetization-marketplace",
+      "vertical_label": "Data marketplace & monetization",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "magma"
       ]
     },
     {
@@ -3928,6 +3967,16 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "fintech.banking.exchange",
+      "vertical_label": "Banking & exchange infrastructure",
+      "sector_id": "financial-services",
+      "companies": [
+        "tovenai"
+      ]
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "fintech.insurance.agent-liability",
@@ -4065,16 +4114,6 @@
       "sector_id": "financial-services",
       "companies": [
         "cointracker"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "fintech.wealth.asset-management",
-      "vertical_label": "Asset & wealth management",
-      "sector_id": "financial-services",
-      "companies": [
-        "soria"
       ]
     },
     {
@@ -4918,6 +4957,16 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "media.content.creator",
+      "vertical_label": "Creator economy & AI content monetization",
+      "sector_id": "media-entertainment",
+      "companies": [
+        "mochitv"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "media.content.creator",
@@ -4995,16 +5044,6 @@
       "sector_id": "financial-services",
       "companies": [
         "zerosettle"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "power.asset-maintenance",
-      "vertical_label": "Power plant & transmission asset maintenance scheduling",
-      "sector_id": "energy-climate",
-      "companies": [
-        "libra-robotics"
       ]
     },
     {

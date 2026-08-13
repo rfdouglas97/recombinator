@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-12T14:53:13.650Z",
+  "synced_at": "2026-08-13T14:53:46.455Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1233,
+  "company_count": 1243,
   "companies": [
     {
       "slug": "10x",
@@ -2719,7 +2719,7 @@
       "name": "Belvedir",
       "batch": "Summer 2026",
       "one_liner": "The easiest way to make private AI models.",
-      "long_description": "Private AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.\r\n\r\nBelvedir makes it cheap and easy for anyone to make private AI. Just connect us to your agent traces through our SDK and we can autonomously train custom models + harnesses + routers, privately host them, and recursively improve them as they are used. Our customers have seen up to 10x reductions in inference costs and 2x increases on benchmark scores.",
+      "long_description": "Private AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.\r\n\r\nBelvedir makes it cheap and easy for anyone to make private AI. Connect us to your agent traces through our SDK and we autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. Our customers have seen up to 10x reductions in inference costs and 2x increases on benchmark scores.",
       "website": "https://belvedir.ai/",
       "industries": [
         "B2B"
@@ -5965,16 +5965,16 @@
       "name": "Decawork",
       "batch": "Summer 2026",
       "one_liner": "The Agent Control Plane for IT teams",
-      "long_description": "Decawork gives IT teams one place to deploy, govern and maintain the AI agents running across their company.\r\n\r\nEvery company is building AI agents internally now - it started with experiments, and now every team wants their own. What follows is agent sprawl: deployment gets messy, agents go live with access to real systems and real data, and maintenance falls in the gap. IT can't see any of it, so it does the only two things it can: first ignore, then block. Ignoring piles up risk; blocking kills the productivity people just found. \r\n\r\nWith Decawork, every agent ships one standard way: its own identity and scoped credentials, with IT's sign-off before it goes live. After that, every run is watched - IT is alerted the moment something fails, agents nobody uses get retired. And the whole time, IT sees every agent, controls what it can touch, and audits every action, with approvals gating anything sensitive.\r\n\r\nEvery big shift - cloud, SaaS, the digital workspace - ended with IT running it. AI agents are the next one. Decawork is what IT will run them with.",
+      "long_description": "Decawork gives IT teams one place to deploy, govern and maintain the AI agents running across their company.\r\n\r\nBuilding internal AI tools and agents is getting easier. Turning them into company-owned systems is still hard. What follows is agent sprawl: deployment gets messy, agents go live with access to real systems and real data, and maintenance falls in the gap. IT can't see any of it, so it does the only two things it can: first ignore, then block. Ignoring piles up risk; blocking kills the productivity people just found. \r\n\r\nWith Decawork, every agent ships one standard way: its own identity and scoped credentials, with IT's sign-off before it goes live. After that, every run is watched - IT is alerted the moment something fails, agents nobody uses get retired. And the whole time, IT sees every agent, controls what it can touch, and audits every action, with approvals gating anything sensitive.\r\n\r\nEvery big shift - cloud, SaaS, the digital workspace - ended with IT running it. Agents aren't just the next shift, they're the next workforce, bigger than the human one. Decawork is what IT will run them with.",
       "website": "https://decawork.ai/",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -6057,6 +6057,28 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753646840
+    },
+    {
+      "slug": "deepreach-inc",
+      "name": "DeepReach Inc.",
+      "batch": "Summer 2026",
+      "one_liner": "Real-world data network for robots & world models",
+      "long_description": "Physical AI — robots and world models — is bottlenecked on one thing: diverse,\r\nreal-world data at massive scale showing how humans actually do work in the\r\nphysical world. It was never written down, and you can't buy it, because no one\r\nhas ever captured it. Only real local experts, the people who do this work every\r\nday, can produce data this authentic and valuable.\r\n\r\nDeepReach builds the network that reaches them. We design and manufacture\r\nwearable stereo capture devices, then place them with local data partners who\r\nrun collection as their own business — in warehouses, workshops, farms, kitchens\r\nand repair shops. They own the local relationships; we supply the hardware, the\r\nsoftware platform, the quality pipeline and the payments. Anyone can run a data\r\nbusiness.\r\n\r\nThat structure is what produces diversity. Instead of thousands of hours inside\r\none environment, we deliver hours spread across thousands of environments —\r\nwhich is what actually makes robot policies generalize.\r\n\r\n475 devices in the field and 100+ data partners are live across 7 countries, adding new\r\npartners every week. They've collected nearly 150,000 clips in the past three\r\nmonths, with volume roughly doubling month over month. Our data is in production\r\nwith multiple frontier model and robotics companies, and we're scaling to\r\n10,000+ devices across 50 countries.",
+      "website": "http://www.deepreach.ai",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Machine Learning",
+        "Robotics",
+        "Computer Vision"
+      ],
+      "team_size": 6,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786563914
     },
     {
       "slug": "deeptrace",
@@ -6356,6 +6378,26 @@
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1762366564
+    },
+    {
+      "slug": "dipole-labs",
+      "name": "Dipole Labs",
+      "batch": "Summer 2026",
+      "one_liner": "AI-controlled optical switching for AI clusters",
+      "long_description": "",
+      "website": "https://dipolelabs.com/",
+      "industries": [
+        "Industrials"
+      ],
+      "tags": [
+        "Hard Tech",
+        "Semiconductors",
+        "AI"
+      ],
+      "team_size": 0,
+      "location": "Boston, MA, USA",
+      "status": "Active",
+      "launched_at": 1786560399
     },
     {
       "slug": "discovered-materials",
@@ -6712,7 +6754,7 @@
       "name": "EdotEnv",
       "batch": "Summer 2026",
       "one_liner": "A Quant Neolab building toward RSI via quant trading",
-      "long_description": "EdotEnv is a Quant Neolab building toward RSI. They turn markets into self-improving research environments for AI agents.\r\n\r\nThe path to RSI is a continuous loop: agents conduct research, learn from the results, and autonomously become better at conducting the next round of research. For that loop to continue, each round must present a harder problem than the last.\r\n\r\nMarkets create this dynamic naturally. Every discovered inefficiency attracts competition, and every successful strategy makes future opportunities harder to find. Quant research therefore provides an advancing frontier for self-improving agents.\r\n\r\nEdotEnv captures this process in multi-step environments where agents form hypotheses, design experiments, verify results and iterate. They use these environments to evaluate and post-train agents on increasingly difficult research tasks.\r\n\r\nThey work with frontier AI labs and academic groups building research harnesses, evaluation benchmarks, and post-training environments.\r\n\r\nEdotEnv's team previously worked in quantitative research at G-Research, high frequency options trading at TransMarket Group, and LLM inference research at Etched.",
+      "long_description": "A Quant Neolab building toward RSI by leveraging markets as self-improving research environments.\r\n\r\nThey work with frontier AI labs and academic groups building research harnesses, evaluation benchmarks, and post-training environments.\r\n",
       "website": "https://edotenv.com",
       "industries": [
         "B2B"
@@ -6762,7 +6804,7 @@
         "Robotics",
         "Computer Vision"
       ],
-      "team_size": 1,
+      "team_size": 12,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1762259214
@@ -7409,6 +7451,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783913331
+    },
+    {
+      "slug": "familiar",
+      "name": "Familiar",
+      "batch": "Summer 2026",
+      "one_liner": "World Models for Accurate Humans.",
+      "long_description": "Dubbing is finally good. And real-time. Lipsync + voice translation. For ads and catalogs, networks and platforms, even broadcasts and live shopping.\r\n\r\nWe exist to break every barrier to understanding. Familiar is a team from Stanford, Yonsei's Visual Intelligence Lab, and HKUST: PhDs, professors, and researchers who started the field of joint audio-visual human models and co-authored the current state-of-the-art in real-time human animation. We build world models for accurate humans -- editing, predicting, understanding -- and teaching machines to do the same",
+      "website": "https://thefamiliarlab.com",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Generative AI",
+        "Media",
+        "Advertising",
+        "AI"
+      ],
+      "team_size": 6,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786578571
     },
     {
       "slug": "fastshot",
@@ -8112,14 +8175,14 @@
         "Healthcare"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Health Tech",
         "B2B",
         "Biotech",
-        "Healthcare"
+        "Healthcare",
+        "AI"
       ],
       "team_size": 2,
-      "location": "Bengaluru, KA, India",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1744440110
     },
@@ -11481,16 +11544,17 @@
       "slug": "lemonlime",
       "name": "LemonLime",
       "batch": "Summer 2026",
-      "one_liner": "No-code AI that learns your business and self-creates automations.",
-      "long_description": "LemonLime enables any business to deploy custom AI automations in minutes.  \r\n\r\nIt connects to your existing tools to pull information across sources, studies your business, and instantly creates specialized agents designed to support your team across departments.\r\n\r\nDon't know where to start? LemonLime automatically surfaces suggested automations that can be implemented with a single click.",
+      "one_liner": "Fully automated GTM for small business",
+      "long_description": "LemonLime runs fully automated sales and marketing for small businesses.\r\n\r\nEvery morning, LemonLime finds you new leads and drafts personalized outreach, prepares branded content, and identifies untapped sales & marketing opportunities.\r\n\r\nAll you have to do is click send.",
       "website": "https://www.lemonlime.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
-        "Workflow Automation",
-        "AI"
+        "Sales",
+        "Marketing"
       ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
@@ -11940,7 +12004,7 @@
       "slug": "luca-iq",
       "name": "Luca IQ",
       "batch": "Summer 2026",
-      "one_liner": "API First Tax Calculator for CPAs",
+      "one_liner": "API First Tax Engine for CPAs",
       "long_description": "Luca IQ is an API for deterministic tax calculation and an IRS Authorized e-filing engine - the foundation for accounting firms and fintechs building on tax.",
       "website": "https://lucaiq.com/",
       "industries": [
@@ -11948,10 +12012,10 @@
         "Finance and Accounting"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "API",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 5,
       "location": "Boston, MA, USA",
@@ -12254,6 +12318,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1778520435
+    },
+    {
+      "slug": "magma",
+      "name": "Magma",
+      "batch": "Summer 2026",
+      "one_liner": "Monetize your agent's traces.",
+      "long_description": "We enable companies monetize their agents' traces.",
+      "website": "https://magmahq.ai",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Marketplace",
+        "Reinforcement Learning",
+        "Data Engineering"
+      ],
+      "team_size": 1,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786606834
     },
     {
       "slug": "magnetic",
@@ -12782,6 +12867,26 @@
       "launched_at": 1769123342
     },
     {
+      "slug": "mentlio",
+      "name": "Mentlio",
+      "batch": "Summer 2026",
+      "one_liner": "Engineering Intelligence and Token Optimization for the AI-Coding Era",
+      "long_description": "Mentlio an applied research lab focused on optimizing AI ROI for the modern enterprise. We help engineering teams draw a line between their AI spend and delivery, per engineer. We then cut ~30% of AI spend via Mentlio's custom ML-based intelligent routing, context optimization, and prompt compression.",
+      "website": "https://mentlio.com",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Developer Tools",
+        "Machine Learning",
+        "Productivity"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786589390
+    },
+    {
       "slug": "mentra",
       "name": "Mentra",
       "batch": "Winter 2025",
@@ -12902,6 +13007,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1754469732
+    },
+    {
+      "slug": "meteoric",
+      "name": "Meteoric",
+      "batch": "Summer 2026",
+      "one_liner": "Drones that clear clouds over solar farms",
+      "long_description": "Meteoric is building drones that clear clouds over solar farms to increase output.",
+      "website": "https://meteoric.earth/",
+      "industries": [
+        "Industrials",
+        "Climate"
+      ],
+      "tags": [
+        "Hard Tech",
+        "Renewable Energy",
+        "ClimateTech"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786601879
     },
     {
       "slug": "metis",
@@ -13272,6 +13398,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1775162589
+    },
+    {
+      "slug": "mochitv",
+      "name": "MOCHI.TV",
+      "batch": "Summer 2026",
+      "one_liner": "1 Minute Anime",
+      "long_description": "Mochi is a mobile-first entertainment platform for vertical anime shorts. Users can scroll to discover shows and binge bite-sized episodes, unlocking them with either coins or a subscription. We produce new shows daily with AI, and they've hit 300M+ views organically.",
+      "website": "https://www.mochi.tv/",
+      "industries": [
+        "Consumer",
+        "Content"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Consumer"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786602622
     },
     {
       "slug": "moda",
@@ -13912,8 +14058,8 @@
       "slug": "nex",
       "name": "Nex",
       "batch": "Summer 2026",
-      "one_liner": "Claude Cowork for GTM Automations",
-      "long_description": "Nex turns your GTM goals into complex GTM automations only the world's best GTM engineers know to build, across 1000+ integrations. Instead of just chatting, the agent writes code as it works to make workflows deterministic, fast, and cheap to re-run, and delivers real output: a Slack message, an opened PR, or a live structured data table. Built for teams.",
+      "one_liner": "Claude Cowork using any AI model, starting with GTM agents",
+      "long_description": "Nex turns your GTM goals into complex GTM agents only the world's best GTM engineers know to build, across 1000+ integrations. Instead of just chatting, the agent writes code as it works to make workflows deterministic, fast, and cheap to re-run, and delivers real output: a lead list, a Slack message, or a live structured data table. Built for teams.",
       "website": "https://nex.ai",
       "industries": [
         "B2B",
@@ -14077,8 +14223,8 @@
       "slug": "noril1",
       "name": "Nori",
       "batch": "Summer 2026",
-      "one_liner": "Affordable robot you can teach to do anything",
-      "long_description": "Nori builds home robots that cost less than $2,000 and that anyone can teach. Out of the box, the NORI L3 does household chores: loading the dishwasher, folding laundry, tidying up. But because anyone can train it, it also learns your specific tasks, like washing paintbrushes if you're an artist or flipping sheet music while you play guitar. It's a general-purpose robot, not an appliance.\r\n\r\nWe launched pre-orders 6 weeks ago and have already booked $100K in revenue.\r\n\r\nHumanoid robots exist, but they cost $20,000 or more and are demoed, not shipped. We got to $1,688 without sacrificing capability. Instead of expensive actuators, we use low-cost servos and get more out of them through smarter control and design. A wheeled base with a lift gives full floor-to-counter reach without the cost and fragility of legs, and we streamlined manufacturing from day one, assembling in the US.\r\n\r\nThe teachability is the moat. Every skill a user trains can be shared, so each customer makes every robot more capable. Hardware is the entry point; the skill ecosystem is the recurring revenue.\r\n\r\nWe're robotics researchers from Columbia labs like RoboPIL (robot learning) and CGUI. Working with $100K research robots that struggled with everyday tasks convinced us the problem isn't capability, it's cost. Good robots don't need to be expensive.\r\n\r\nHouseholds already spend $2,000+ on single-task machines: a dishwasher, a washing machine, a vacuum. We sell one robot at $1,688 that does the work of all of them and learns more. At 5% of US households and $25 a month for skills, that's $2B a year in recurring revenue, on top of hardware.",
+      "one_liner": "sub-2000$ humanoid robot you can teach to do anything",
+      "long_description": "Nori is a sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have 100k in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. ",
       "website": "http://norirobotics.com",
       "industries": [
         "Industrials",
@@ -14090,7 +14236,7 @@
         "Robotics"
       ],
       "team_size": 5,
-      "location": "New York City, NY, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783099451
     },
@@ -14308,14 +14454,19 @@
       "slug": "o11",
       "name": "o11",
       "batch": "Winter 2026",
-      "one_liner": "Bespoke AI For Financial Firms",
-      "long_description": "o11 builds bespoke AI software for financial services firms. Every firm works differently: different deal processes, data rooms, CRMs, market data tools, Excel models, slide templates, IC memos, reporting workflows, and approval steps. The edge is not making a generic deck or model faster with ChatGPT. It is turning your firm’s historical knowledge, judgment, templates, data, and execution style into repeatable software.\r\n\r\nWe study how your firm actually works, then deploy custom AI agents and workflow tools across the systems your teams already use. That can include tailored Excel, PowerPoint, Word, and Outlook plugins; data room integrations; DealCloud, Salesforce, and market-data integrations; diligence automation; model and deck generation; reporting workflows; and firm-specific tools built around your process.",
+      "one_liner": "The AI Data Warehouse For Financial Firms",
+      "long_description": "o11 is the AI data warehouse for financial firms. The largest firms build a moat around their data. Today, they pay engineers $200k a year each to spend years organizing/maintaining disconnected sources in a legacy data warehouse. The business intelligence that results is the key unlock, but it's time effort and money that would be better spent elsewhere.\r\n\r\no11 brings a custom ontology and data model to firms of any size allowing them to unify CRM, email, files, data rooms, market data, M365, etc. all in one place. We help firms architect their own data warehouse, and then from their AI maintains it. No engineers, no legacy solutions, no complex migration. o11 is built for security and complex permissions from the ground up allowing it to safely connect directly into any agent including Claude, ChatGPT, and Copilot.\r\n\r\nLeverage your proprietary data -- it's the deal, relationship, and business intelligence that makes your firm special",
       "website": "https://o11.ai",
       "industries": [
         "B2B",
         "Finance and Accounting"
       ],
-      "tags": [],
+      "tags": [
+        "SaaS",
+        "Finance",
+        "B2B",
+        "AI"
+      ],
       "team_size": 2,
       "location": "New York City, NY, USA",
       "status": "Active",
@@ -14402,16 +14553,16 @@
       "name": "Olam Labs",
       "batch": "Summer 2026",
       "one_liner": "Building multi-agent simulations for model evals and training.",
-      "long_description": "There is a massive shortage of genuinely good AI evaluations. Multi-agent environments are an underdeveloped way of evaluating models that we think will help address our increasingly worse shortage of evals. We're starting with Multi-Agent Arena, where anyone can come compete against frontier AI models in social multiplayer games, as we build towards the full stack for multi-agent environments. \r\n\r\nTry Multi-Agent Arena at https://olamlabs.ai/ :)",
+      "long_description": "Multi-agent simulations let us evaluate for models and humans in competition with each other. We work with researchers on both evaluations and training for character and agentic performance typically difficult to assess for using current popular datasets. \r\n\r\nPlay one of our first releases, Multi-Agent Arena (https://olamlabs.ai/arena), where humans come play social strategy games against multiple AI agents. It's currently top 50 on OpenRouter and has thousands of matches played each day. We use Multi-Agent Arena to build datasets on agentic performance and real-world socialization.",
       "website": "https://olamlabs.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Reinforcement Learning",
         "Gaming",
-        "Data Engineering"
+        "Data Engineering",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -14612,15 +14763,15 @@
       "slug": "ooak-data",
       "name": "Ooak Data",
       "batch": "Summer 2026",
-      "one_liner": "We build the world's largest library of real-world business workflow…",
-      "long_description": "The promise of AI agents is still unmet in complex, real-world business environments. Our mission is to make it possible for agents to reliably accomplish concrete and useful tasks.\r\n\r\nThat’s why we're building **Alexandria,** the world's largest library of real-world business workflow datasets.",
+      "one_liner": "We turn company data into RL environnements.",
+      "long_description": "Ooak Data turns internal company data into a training ground where AI agents can be tested on real work.\r\n",
       "website": "https://ooakdata.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Reinforcement Learning"
+        "Reinforcement Learning",
+        "AI"
       ],
       "team_size": 5,
       "location": "Paris, Île-de-France, France",
@@ -15155,20 +15306,18 @@
       "slug": "outlit",
       "name": "Outlit",
       "batch": "Winter 2025",
-      "one_liner": "Customer Context for Agents",
-      "long_description": "Outlit turns every customer-facing tool in your stack, like Stripe, Granola, PostHog, Slack, Gmail, Pylon, and more, into one complete, queryable customer profile.\r\n\r\nWe resolve fragmented identity across mismatched records, extract structured facts and signals from unstructured interactions, and expose the result through CLI, MCP, and API. \r\n\r\nSo every person and agent in your company has the full context on every customer to work from.",
+      "one_liner": "Retain and Grow Every Customer",
+      "long_description": "Outlit helps B2B SaaS companies improve GRR and NRR by keeping more customers and finding more expansion revenue.\r\n\r\nOutlit creates a real-time view of every customer using product usage, support, calls, email, Slack, billing, CRM, and external signals. It assesses whether each account is likely to renew, expand, contract, or churn, then provides the evidence and next action.\r\n\r\nThe result: stronger adoption, higher retention, and more expansion revenue from signals your team would never catch in a health score or any single tool.",
       "website": "https://outlit.ai/",
       "industries": [
-        "B2B",
-        "Infrastructure"
+        "B2B"
       ],
       "tags": [
         "Artificial Intelligence",
         "B2B",
-        "API",
-        "Infrastructure"
+        "Customer Success"
       ],
-      "team_size": 2,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1736658447
@@ -15980,6 +16129,28 @@
       "launched_at": 1746945144
     },
     {
+      "slug": "pennant",
+      "name": "Pennant",
+      "batch": "Summer 2026",
+      "one_liner": "The Corporate Governance OS for Public Markets",
+      "long_description": "Led by former institutional proxy voters and technologists with 10+ years of experience, Pennant gives institutional investors, public companies, and corporate advisors voting and governance intelligence to act on their own principles at scale.",
+      "website": "https://www.getpennant.ai",
+      "industries": [
+        "Fintech",
+        "Asset Management"
+      ],
+      "tags": [
+        "Fintech",
+        "Investing",
+        "Investments",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1786584832
+    },
+    {
       "slug": "pentagon",
       "name": "Pentagon",
       "batch": "Spring 2026",
@@ -16154,7 +16325,7 @@
       "name": "Perspectives Health",
       "batch": "Summer 2025",
       "one_liner": "AI to run behavioral health programs better",
-      "long_description": "America is facing an addiction and mental health crisis, but the treatment programs trying to solve the problem are faced with administrative burden, staff shortages, and pressure from payers. \r\nWe work with treatment programs to incorporate AI that reduces administrative burden, prevents insurance denials, and helps directors run their program better.",
+      "long_description": "America is facing an addiction and mental health crisis, but the treatment programs trying to solve the problem are faced with administrative burden, staff shortages, and pressure from payers. \r\n\r\nWe work with treatment programs to incorporate AI that reduces administrative burden, prevents insurance denials, and helps directors run their program better.\r\n\r\nOur agents analyze charts to prevent insurance denials, complete documentation and insurance paperwork to save staff time, and sift through historical data to find opportunities for improvement.",
       "website": "https://perspectiveshealth.ai/",
       "industries": [
         "Healthcare",
@@ -16848,27 +17019,6 @@
       "launched_at": 1754272842
     },
     {
-      "slug": "primer",
-      "name": "Primer",
-      "batch": "Fall 2025",
-      "one_liner": "AI Product Demos",
-      "long_description": "Primer is an AI agent that sells, onboards, and supports users automatically through live, personalized walkthroughs.",
-      "website": "https://www.startprimer.com",
-      "industries": [
-        "B2B"
-      ],
-      "tags": [
-        "Artificial Intelligence",
-        "SaaS",
-        "Sales",
-        "Customer Support"
-      ],
-      "team_size": 2,
-      "location": "Los Angeles, CA, USA",
-      "status": "Active",
-      "launched_at": 1759337648
-    },
-    {
       "slug": "primitive",
       "name": "primitive",
       "batch": "Spring 2026",
@@ -16884,6 +17034,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1773121787
+    },
+    {
+      "slug": "princeps",
+      "name": "PRINCEPS",
+      "batch": "Summer 2026",
+      "one_liner": "AI-native insurance company for the compute economy",
+      "long_description": "",
+      "website": "https://princeps.dev",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "tags": [
+        "Machine Learning",
+        "AI"
+      ],
+      "team_size": 3,
+      "location": "London, England, United Kingdom",
+      "status": "Active",
+      "launched_at": 1786600478
     },
     {
       "slug": "prism",
@@ -17371,7 +17541,7 @@
       "name": "Radley",
       "batch": "Summer 2026",
       "one_liner": "AI-native, full-stack radiology practice",
-      "long_description": "Radley is the first AI-native radiology practice. We're acquiring a radiology practice bringing Radley to $4.3M in annualized revenue and rebuilding it with agents from the ground up.\r\n\r\nRadiology is already in crisis: there aren't enough radiologists to interpret 1 in 6 medical scans. In 10 years, that gap is growing to 1 in 3 - 246M scans a year.\r\n\r\nWe started as an AI software company, signed $2.2M in contracts, and went live, but learned the real bottleneck isn't software, it's outdated systems and slow, inefficient operations. That's why we own the full stack, clinical and operational, end to end.\r\n\r\nWe met at Carbon Health as we scaled operations 31x and expanded to 100+ clinics. Now we're rebuilding radiology.",
+      "long_description": "Radley is the first AI-native radiology practice. We're acquiring a radiology practice bringing Radley to $4.3M in annualized revenue and rebuilding it with agents from the ground up.\r\n\r\nRadiology is already in crisis: there aren't enough radiologists to interpret 1 in 6 medical scans. In 10 years, that gap is growing to 1 in 3 - 246M scans a year.\r\n\r\nFrom past experience, we know that point solutions won’t cut it. While there is demand (we have $2.2M in contracts to prove it), bottleneck isn't just software, it's outdated systems and slow, inefficient operations. That's why we own the full stack, clinical and operational, end to end.\r\n\r\nWe met at Carbon Health as we scaled operations 31x and expanded to 100+ clinics. Now we're rebuilding radiology.",
       "website": "https://radley.health/",
       "industries": [
         "Healthcare"
@@ -17780,6 +17950,26 @@
       "launched_at": 1784428991
     },
     {
+      "slug": "relaw",
+      "name": "Relaw",
+      "batch": "Fall 2025",
+      "one_liner": "AI Legal OS",
+      "long_description": "Relaw powers leading AI-native law firms.",
+      "website": "https://www.relaw.ai",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "SaaS",
+        "Legal"
+      ],
+      "team_size": 2,
+      "location": "Los Angeles, CA, USA",
+      "status": "Active",
+      "launched_at": 1759337648
+    },
+    {
       "slug": "relling",
       "name": "Relling",
       "batch": "Summer 2025",
@@ -18040,19 +18230,19 @@
       "slug": "riften",
       "name": "Riften",
       "batch": "Summer 2026",
-      "one_liner": "Earned Intelligence for every company. ",
-      "long_description": "Riften builds earned intelligence: models that come out of a company’s own work instead of out of a lab.\r\n\r\nOne environment variable points an existing application at Riften instead of OpenAI or Anthropic. Riften routes each request to the least expensive model likely to handle it, using open-weight models we host whenever they are sufficient. Customers lower inference costs before any training begins.\r\n\r\nBecause Riften sits in the request path, real tasks and their outcomes create training evidence the company controls. Riften uses that evidence to improve routing and train private models on open weights around recurring work. Those models earn production traffic by meeting the same bar as the APIs they replace.\r\n\r\nOver time, frontier APIs handle only the tasks that still require them. The rest runs on models the company owns, on infrastructure it controls, inside the applications where the work happens.",
+      "one_liner": "Cut LLM spend, then post-train owned models from production traffic.",
+      "long_description": "Riften is a drop-in replacement for OpenAI and Anthropic APIs. Change one env var. We route each request to the cheapest model that can handle it, including open-weight models we host. Customers cut inference cost before any training begins.\r\n\r\nBecause Riften sits in the request path, real tasks and their outcomes become training data the company controls. We use that to post-train private models on open weights around recurring work. Those models earn production traffic by matching the APIs they replace.\r\n\r\nOver time, frontier APIs handle only the tasks that still require them. The rest runs on models the company owns, on infrastructure it controls.",
       "website": "https://riften.ai",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "Reinforcement Learning",
         "Open Source",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 0,
       "location": "San Francisco, CA, USA",
@@ -20716,7 +20906,7 @@
       "name": "Synthetic Sciences",
       "batch": "Winter 2026",
       "one_liner": "Foundation Models for Scientific Research",
-      "long_description": "We're building the infrastructure for the era of autonomous science. Our core thesis: scientific foundation models with real research \"taste\" require two things, built in parallel. A product that captures high-quality organic research-process data at scale, and the training and research to turn that data into models with genuine scientific \"taste\". We're building both.",
+      "long_description": "We’re building infrastructure for scientific superintelligence. We develop high-fidelity evaluations and RL environments for long-horizon scientific research, alongside post-training systems and reinforcement-learning methods designed for domains where verification is slow, expensive, and imperfect. We’re starting with ML research, building agents that can form hypotheses, run experiments, learn from failures, and make meaningful progress over long horizons.",
       "website": "https://syntheticsciences.ai/",
       "industries": [
         "B2B",
@@ -21772,6 +21962,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1781312801
+    },
+    {
+      "slug": "tovenai",
+      "name": "TovenAI",
+      "batch": "Summer 2026",
+      "one_liner": "AI agents for compliance at institutional trading firms",
+      "long_description": "TovenAI builds a platform of AI agents that handle manual, data-intensive work for compliance teams at institutional trading firms, with six agents currently live. Our customers range from specialist firms to large global institutions, with our agents supporting multiple compliance workflows at a top-10 institutional brokerage.\r\n\r\nWith prebuilt connectors to more than 30 systems—including Bloomberg, Cloud9, and NICE Actimize—firms can onboard to our platform and evaluate results using their own data in less than a week.",
+      "website": "https://toven.ai",
+      "industries": [
+        "Fintech",
+        "Banking and Exchange"
+      ],
+      "tags": [
+        "Fintech",
+        "Regtech",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1786560317
     },
     {
       "slug": "trace-so",
