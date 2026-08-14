@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-13T14:56:09.253Z",
+  "generated_at": "2026-08-14T14:49:35.685Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1339,
+    "assignment_count": 1350,
     "mapped_verticals": 241,
-    "observed_cells": 465,
+    "observed_cells": 466,
     "total_verticals": 525,
-    "gap_candidates": 853
+    "gap_candidates": 852
   },
   "observed_cells": [
     {
@@ -22,6 +22,7 @@
         "21st",
         "agent-fm",
         "agentmail",
+        "akon-labs",
         "amika",
         "amulet",
         "approxima",
@@ -104,6 +105,7 @@
         "asteroid",
         "auctor",
         "axal",
+        "bernard",
         "booko",
         "bubble-lab",
         "carsignal",
@@ -223,6 +225,7 @@
         "hud",
         "idler",
         "klavis-ai",
+        "lyon",
         "mangodesk",
         "markov",
         "nitrode",
@@ -266,6 +269,7 @@
         "nex",
         "nomi",
         "osmaura",
+        "palisade",
         "pollen",
         "primer",
         "q2q",
@@ -388,6 +392,31 @@
       ]
     },
     {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "healthcare.pharma.drug-discovery",
+      "vertical_label": "Drug discovery & delivery R&D",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "anto-biosciences",
+        "b12-labs",
+        "convexia",
+        "ditto-biosciences",
+        "exin-therapeutics",
+        "exonic",
+        "finaldose",
+        "gamgee",
+        "infera",
+        "novaflow",
+        "origin-bio",
+        "rasyn",
+        "strand-ai",
+        "tarebio",
+        "uncommon-therapeutics",
+        "wondertx"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.agent-runtime",
@@ -460,30 +489,6 @@
       ]
     },
     {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "healthcare.pharma.drug-discovery",
-      "vertical_label": "Drug discovery & delivery R&D",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "anto-biosciences",
-        "b12-labs",
-        "convexia",
-        "ditto-biosciences",
-        "exin-therapeutics",
-        "exonic",
-        "finaldose",
-        "gamgee",
-        "infera",
-        "novaflow",
-        "origin-bio",
-        "rasyn",
-        "strand-ai",
-        "tarebio",
-        "uncommon-therapeutics"
-      ]
-    },
-    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "ai-infrastructure.agent-security",
@@ -504,6 +509,28 @@
         "silmaril",
         "trustai",
         "truthsystems"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "logistics.supply-chain.ops",
+      "vertical_label": "Supply chain & procurement operations",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "bizmark",
+        "comena",
+        "haladir",
+        "kanava-ai",
+        "khotan",
+        "korso",
+        "lumari",
+        "pollinate",
+        "qomplement",
+        "salespatriot",
+        "spaceflow-technologies-inc",
+        "waybill",
+        "whitespace"
       ]
     },
     {
@@ -568,27 +595,6 @@
         "ornadyne",
         "seeing-systems",
         "splash-inc"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "logistics.supply-chain.ops",
-      "vertical_label": "Supply chain & procurement operations",
-      "sector_id": "transportation-logistics",
-      "companies": [
-        "bizmark",
-        "comena",
-        "haladir",
-        "kanava-ai",
-        "khotan",
-        "korso",
-        "lumari",
-        "pollinate",
-        "qomplement",
-        "salespatriot",
-        "spaceflow-technologies-inc",
-        "whitespace"
       ]
     },
     {
@@ -802,6 +808,24 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "fintech.wealth.asset-management",
+      "vertical_label": "Asset & wealth management",
+      "sector_id": "financial-services",
+      "companies": [
+        "autonomous-technologies-group",
+        "ekpa",
+        "finbar",
+        "kelai",
+        "kimpton-ai",
+        "maywood",
+        "powder",
+        "savahq",
+        "wealor"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.agent-observability",
       "vertical_label": "Agent observability & logging",
       "sector_id": "ai-infrastructure",
@@ -831,23 +855,6 @@
         "sourcebot",
         "superglue",
         "weave-3"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.wealth.asset-management",
-      "vertical_label": "Asset & wealth management",
-      "sector_id": "financial-services",
-      "companies": [
-        "autonomous-technologies-group",
-        "ekpa",
-        "finbar",
-        "kelai",
-        "kimpton-ai",
-        "maywood",
-        "savahq",
-        "wealor"
       ]
     },
     {
@@ -1848,6 +1855,18 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "freight.cross-border",
+      "vertical_label": "Cross-border & customs clearance management",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "markit",
+        "tarifflo-inc",
+        "trava"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.dental.practice",
       "vertical_label": "Dental practice operations",
       "sector_id": "healthcare-life-sciences",
@@ -2092,6 +2111,17 @@
       "companies": [
         "cortex-ai",
         "relling"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "ai-infrastructure.training-data",
+      "vertical_label": "Training & eval data generation",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "dream",
+        "topological"
       ]
     },
     {
@@ -2548,23 +2578,23 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "freight.cross-border",
-      "vertical_label": "Cross-border & customs clearance management",
-      "sector_id": "transportation-logistics",
-      "companies": [
-        "markit",
-        "trava"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "freight.exception-management",
       "vertical_label": "Freight exception & incident management",
       "sector_id": "transportation-logistics",
       "companies": [
         "ekho-labs",
         "lunavo"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.payer.care-management",
+      "vertical_label": "Care management & population health programs",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "evergrove",
+        "pelica"
       ]
     },
     {
@@ -2994,16 +3024,6 @@
       "sector_id": "enterprise-software",
       "companies": [
         "lucent"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "ai-infrastructure.training-data",
-      "vertical_label": "Training & eval data generation",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "topological"
       ]
     },
     {
@@ -4257,16 +4277,6 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.payer.care-management",
-      "vertical_label": "Care management & population health programs",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "pelica"
-      ]
-    },
-    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "healthcare.payer.employer-group-management",
@@ -4624,6 +4634,16 @@
       "sector_id": "financial-services",
       "companies": [
         "solva"
+      ]
+    },
+    {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
+      "vertical_id": "insurance.claims-property",
+      "vertical_label": "Property & casualty claims processing",
+      "sector_id": "financial-services",
+      "companies": [
+        "veltha"
       ]
     },
     {

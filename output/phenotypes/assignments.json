@@ -2470,6 +2470,70 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "akon-labs",
+    "name": "Akon Labs",
+    "website": "https://akonlabs.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/akon-labs",
+    "batch": "Summer 2026",
+    "one_liner": "Nervous System for AI Agents",
+    "description_combined": "Nervous System for AI Agents",
+    "industry_sub_vertical": "AI agent runtime & multi-agent orchestration infrastructure",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Harness / Orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_coordination",
+      "nervous_system_abstraction",
+      "multi_agent_control"
+    ],
+    "what_they_sell": "Infrastructure layer that acts as a 'nervous system' for AI agents — enabling coordination, state management, communication, and control across multi-agent systems. Likely provides runtime harness, message routing, reliability primitives, and observability for agent fleets.",
+    "ai_play": "Abstracts away the complexity of building reliable, coordinated multi-agent systems by providing a unified control plane. Agents plug into the nervous system and inherit coordination, fault tolerance, and observability without custom engineering.",
+    "who_pays": "AI platform teams, enterprises deploying agent fleets, AI infrastructure builders, and SaaS companies embedding agentic workflows.",
+    "confidence": 0.72,
+    "rationale": "The 'nervous system' framing strongly suggests a coordination and control layer for multi-agent systems — core to agent-runtime-infra. The vague description and early-stage positioning (S26, no public details) make full confidence impossible, but the metaphor points to orchestration, state sync, and inter-agent communication. Secondary phenotype (observability-evals) is plausible if they also include monitoring/tracing. Without deeper product details, agent-runtime-infra is the best fit in the library.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Deep Learning",
+      "Generative AI",
+      "SaaS"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1607382,
+        "full_name": "Subham Kundu",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Akon Labs (YC S26). Previously CTO at Cignara (YC P26), building from first line to millionth. Principal AI Engineer at HTCD, developed AI observability platform and reduced AI search costs by 78%. Founding Engineer at Caravel Labs, built LLM chatbot scaled to 5,000 students and featured on Chinese national TV.",
+        "linkedin_url": "https://linkedin.com/in/subham-kundu-2746b515b",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/95a2cbce998042d28b021894a4de3a4084143d54.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE6DGPKQY%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144726Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJIMEYCIQDfe%2BItJxd2GDLhCE9khJLAPGgdxh7TpxW2KUd7HBIX1QIhAPtY1XTGfEZ%2BssU4S%2Fj6fDy4B4V2kb4zwxNYDmsjRyCkKu4DCP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgzquqz1QY32p%2BJ8odwqwgO5feCxgt7Fk4qKEjHNS60Tz48hQCCVTir6sFlpkEjcl170Ef%2FCNYcS04VjaKN43mqlvbxxaHJBnmKXCBXkk3Yw7S1Jk1l0HVAuTzDJu9oTjpQ6y4kHRcpbrKM7wP1oawNxcFrCD3nIocF%2BtbDBafsnlOFwQiptM67PSJ4dXtBlDbJ3Yt3mDI6M5z73yfC4fmQVSwLasSjtywToPCtsfZZcpQQ82gQ4QnoHsDbCM76zr%2F2TRpWex90uW42D6YYOPGCdwX1yxIo%2Fvp6wBV44CMYHB7kE%2FqIOgrDohUACJJqEF2CUrVvugppY1rAarxW3dsL9v0d252v0Xp6HOC8oetG1WT%2B3nvnd6%2Bj4ZNeRYsY8%2FX%2Be%2BXXPpDg%2BAw5neAVDwDP%2BhTvjceMTgvQKuZ5M1BXQqtmtTgeYhX%2BFqc5o6Ngp6wi14eAvoMLIeceXmD3CZBmqzIVa6MdBuhx6vjv9msMzxOLCw%2FWWF8xkXi9r9xWCA2umkYXxxFYLRKXfqho8Z68wMdKqOcsltV2qaajXPzTJZnSX0u8UxOJ%2FmnZ%2B25G4uSI%2FzlwejFb7hOG%2BSjn08ofQhvG8xm2fG53VGs%2FvIpXtKeYwq7z80wY6pAGIvroetMCR%2BgnREgWwqb%2BOQxWvuPhmXBzjt3szR9NC0MyHKwNQTahF%2BSes6qOJVM2EyaxDIeEIrzEDyrdWOtigD7PryUx5gRdf%2Be%2B77ix7IklK7yzovBfSKEbqOQ82F5sa%2FtQ3jvQ43dEH2cgiP%2F4McO3nwQ4RB0ms1pXpuh25cFMvZp39K7RVxSgrwuEfgHhdH6KUnDaOfC2VZfwxmL18sYc6dQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=19f7938d8aa182bc0434045e2870b3009e804b7492f4db8bb09dd16961b53d99",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Akon Labs",
+          "href": "https://www.ycombinator.com/companies/akon-labs"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-14T14:47:34.293Z",
+    "classified_at": "2026-08-14T14:47:34.293Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "aktoria-robotics",
     "name": "Aktoria Robotics",
     "website": "https://aktoria.com/",
@@ -3311,7 +3375,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/almanac",
     "batch": "Summer 2026",
     "one_liner": "Self updating wiki for your coding agents",
-    "description_combined": "Self updating wiki for your coding agents\n\nAlmanac is a self-updating wiki for your coding agents. It turns your team’s AI coding conversations into connected Markdown docs that live inside your repo. Your agents automatically search the wiki before making changes, so every agent working on the codebase starts with the same context, decisions, and implementation history. ",
+    "description_combined": "Self updating wiki for your coding agents\n\nAlmanac is a self-updating wiki for your coding agents. It turns your team’s AI coding conversations into connected Markdown docs that live inside your repo. Your agents automatically search the wiki before making changes, so every agent working on the codebase starts with the same context, decisions, and implementation history. \n\nAlmanac works with its own browser and terminal, signed into the accounts you connect.\n\nThere's a new kind of agent.\n\nIt exists on its own computer, connected to your tools, with a living brain of everything you and your company know.\n\nIntroducing Almanac, the agent with a company brain.\n\n\n\nAlmanac works with its own browser and terminal, signed into the accounts you connect. Everything in your tools compiles into a wiki that it reads before every task. Your teammates' Almanacs share that wiki. You text it work. It texts you when it's done.\n\n\n\nWhat we hand ours\n\n* Divit has it gather feedback from our customer Slack channels and file GitHub issues, with screenshots and reproduction steps.\n* Kushagra connected his Chase account. It inspects recurring charges and cancels subscriptions he doesn't use.\n* Before meetings, it sends us a brief built from our past emails and calendar",
     "industry_sub_vertical": "AI coding agent context & knowledge management for shared codebase development",
     "canonical_vertical_id": "enterprise.devtools.productivity",
     "vertical_id": "enterprise.devtools.productivity",
@@ -3395,7 +3459,13 @@
     ],
     "directory_synced_at": "2026-07-30T16:04:47.834Z",
     "classified_at": "2026-07-30T16:04:47.834Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 106258,
+    "launch_url": "https://www.ycombinator.com/launches/Rdq-almanac-the-agent-with-a-company-brain",
+    "launch_title": "Almanac: The agent with a company brain",
+    "launch_created_at": "2026-08-13T15:37:10.813Z",
+    "launch_tagline": "Almanac works with its own browser and terminal, signed into the accounts you connect.",
+    "launch_evaluated_at": "2026-08-14T14:49:34.844Z"
   },
   {
     "slug": "almond-2",
@@ -10111,6 +10181,86 @@
     }
   },
   {
+    "slug": "bernard",
+    "name": "Bernard",
+    "website": "https://bernardhq.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/bernard",
+    "batch": "Summer 2026",
+    "one_liner": "AI employees that run home appliance repair companies",
+    "description_combined": "AI employees that run home appliance repair companies\n\nBernard builds AI employees for home and commercial appliance servicers. They work across phone, text, email, warranty feeds, and existing systems to manage customer communication, scheduling, and dispatch, carrying each job through diagnosis, parts preparation, technician handoff, and follow-up. At the center is Pre-ID, which combines the exact appliance and its symptoms with repair history, similar completed visits, manufacturer guidance, and parts data to produce a diagnosis, ranked parts, and follow-up questions. Technicians arrive prepared with the right parts, helping servicers complete more repairs on the first visit.\r\n\r\nWe’re building the world’s most efficient appliance servicers, creating happier customers and a more connected appliance ecosystem.\r\n\r\nLearn more at https://bernardhq.com/",
+    "industry_sub_vertical": "Field service dispatch & technician workflow automation for appliance repair",
+    "canonical_vertical_id": "enterprise.ops.process-automation",
+    "vertical_id": "enterprise.ops.process-automation",
+    "vertical_label": "Cross-industry process automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "multi_channel_orchestration",
+      "diagnostic_rag",
+      "field_service_automation",
+      "first_time_fix_optimization"
+    ],
+    "what_they_sell": "AI agents that autonomously manage end-to-end appliance repair workflows: intake (phone/text/email/warranty feeds), diagnosis (Pre-ID combining appliance data + symptoms + repair history + manufacturer guidance), parts preparation, technician dispatch with pre-loaded context, and follow-up. Integrated with existing field service systems.",
+    "ai_play": "AI replaces manual dispatchers, diagnostic specialists, and administrative coordinators. Pre-ID (domain-specific diagnosis engine) combines structured appliance/parts data with retrieval-augmented reasoning to produce ranked diagnoses and parts lists, enabling technicians to arrive prepared and complete more repairs on first visit. Multi-channel orchestration (phone, text, email, systems) eliminates manual context-switching and reduces scheduling friction.",
+    "who_pays": "Home appliance repair companies, HVAC servicers, commercial appliance operators — field service managers and operations teams seeking to reduce labor costs, improve first-time fix rates, and scale without hiring.",
+    "confidence": 0.82,
+    "rationale": "Bernard is a vertical SaaS deploying autonomous AI agents to replace human job functions (dispatcher, diagnostic specialist, scheduler) within a specific vertical (appliance repair). The product is end-user-facing (sold to repair companies), agents execute workflows autonomously (intake → diagnosis → dispatch → follow-up), and differentiation comes from vertical-specific domain knowledge (Pre-ID diagnosis engine, parts data, repair history). Secondary phenotype (domain-expert-replacement-agent) also fits: appliance diagnostics is knowledge-intensive and expert-scarce; Bernard's Pre-ID replaces expensive diagnostic specialists. Primary phenotype is stronger because the full workflow automation (not just diagnosis) is the core SKU. Confidence 0.82 reflects strong fit on vertical focus, autonomous execution, and end-user SaaS model; minor uncertainty on whether they also sell to platforms vs. direct to repair operators.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Operations"
+    ],
+    "yc_tags": [
+      "Home Services",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 9,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3076324,
+        "full_name": "Dan Katzman",
+        "title": "Co-Founder/CEO",
+        "is_active": true,
+        "bio": "Dan is the co-founder and CEO of Bernard, where he focuses on building AI employees for the world’s most efficient appliance repair servicers. Before Bernard, he led strategy and operations at Nava Benefits and began his career at City Light Capital and Golub Capital. A native New Yorker, Dan graduated from the University of Southern California.",
+        "linkedin_url": "https://www.linkedin.com/in/dankatzman/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7e1bec6c246ca26e0bc9233f97856222281f0144.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALYBBLDTA%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144802Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJIMEYCIQCWa2R%2BmPoNkyeU3rVPsAWtw2yFS5KvBf%2BseJm5vImDHgIhAN2uFJ%2BW819AarZ1o3o9c%2FnwWR8rVvC3gQQmfImmyJGcKu4DCP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxPDTCgpPnkp0D5FiMqwgMBywR5u1qQ2IkGa1Fm%2Bz5e29KNsflpyAA86X4kCYNHASAgb5l3qtBC2lj6lPR4oAj6c8P3B4juuoR97Ma7UWiyJfu9vbAe%2Fb3KTRVHrrABOu0HECj8xnPDcMecuDoS5%2Bt6oQn4MV59HeMGtCFKTL18Hs5fGOo0kiqRYIlXbrIh2Dyi%2BBWKlzhG08coGdUDURr5Pr%2F2xnT6cNphGdds3iNhW7hPzzjzfGUeU%2BUC8XQnTooVwj4xB3%2BENE7eXttG2C7aycZAxZ4y1jwNlOumdyS7CpEW8bF%2FE5BAKhPoIK8hzHuo%2F8XE7LWEkntE3Mjzk2iuEaCf5DRptVQFKd1wl3jarlf1r7Bwhfl%2B69%2B52bmio4unou%2Bma6guBe5DMuSOkVHT2nmljrk9kvd6jaixePc582G2dd4%2B8fqfa7PvfCUE0QG54RKA8CP1tDpEjROtaveHhfQTm1cPUpI8BDrykufYPG9ZNHU3BC%2FCEJbWM1KiqXz9zX3YTPGZo%2BvP9RiYOUHusyhMkX90ruS3TEgAkmhYqJ7MnL7bPvgA7z9ltbivpB3uqT1SfSl8qhhmGZ8fGj5elVJc43I8mrrH1%2F6jtgoGweswq7z80wY6pAGS67lLnWzbyZNtfhgtxFeYcczkX7mfcgkktCbi%2FJJAr2huqLYj8U%2Fd0ukiiueoNnefD8NJLigqRI0ir1sXXWdMsBg7OxC5iJRWcgbqi%2F98LAf4jJVX2gbiY0vskbxAesq9kXaGAZNFBqnfsSZ1fV6brrCVI7K4OMHIB1anhuNesupNsf89%2BLlF2WDs67mCvehArG7nUdtrI%2F5HSvzG5%2Fh6ZfLolg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6aebe0f70895620f4ee88fafea2ce8ed0ed38d7df718162f3b7e3484da67baac",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Bernard",
+          "href": "https://www.ycombinator.com/companies/bernard"
+        }
+      },
+      {
+        "user_id": 3189022,
+        "full_name": "David Goodfellow",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Bernard (YC S26). Previously Engineering Manager at Radar Labs, where he led the fraud and geo-compliance products. Started career at Disney+. USC B.S. CS/BA + M.S. Data Informatics.",
+        "linkedin_url": "https://www.linkedin.com/in/dgoodfellow/",
+        "twitter_url": "https://x.com/davothedev",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9243f8fd38407d2c55286323424aeb424c28d236.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALYBBLDTA%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144802Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJIMEYCIQCWa2R%2BmPoNkyeU3rVPsAWtw2yFS5KvBf%2BseJm5vImDHgIhAN2uFJ%2BW819AarZ1o3o9c%2FnwWR8rVvC3gQQmfImmyJGcKu4DCP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxPDTCgpPnkp0D5FiMqwgMBywR5u1qQ2IkGa1Fm%2Bz5e29KNsflpyAA86X4kCYNHASAgb5l3qtBC2lj6lPR4oAj6c8P3B4juuoR97Ma7UWiyJfu9vbAe%2Fb3KTRVHrrABOu0HECj8xnPDcMecuDoS5%2Bt6oQn4MV59HeMGtCFKTL18Hs5fGOo0kiqRYIlXbrIh2Dyi%2BBWKlzhG08coGdUDURr5Pr%2F2xnT6cNphGdds3iNhW7hPzzjzfGUeU%2BUC8XQnTooVwj4xB3%2BENE7eXttG2C7aycZAxZ4y1jwNlOumdyS7CpEW8bF%2FE5BAKhPoIK8hzHuo%2F8XE7LWEkntE3Mjzk2iuEaCf5DRptVQFKd1wl3jarlf1r7Bwhfl%2B69%2B52bmio4unou%2Bma6guBe5DMuSOkVHT2nmljrk9kvd6jaixePc582G2dd4%2B8fqfa7PvfCUE0QG54RKA8CP1tDpEjROtaveHhfQTm1cPUpI8BDrykufYPG9ZNHU3BC%2FCEJbWM1KiqXz9zX3YTPGZo%2BvP9RiYOUHusyhMkX90ruS3TEgAkmhYqJ7MnL7bPvgA7z9ltbivpB3uqT1SfSl8qhhmGZ8fGj5elVJc43I8mrrH1%2F6jtgoGweswq7z80wY6pAGS67lLnWzbyZNtfhgtxFeYcczkX7mfcgkktCbi%2FJJAr2huqLYj8U%2Fd0ukiiueoNnefD8NJLigqRI0ir1sXXWdMsBg7OxC5iJRWcgbqi%2F98LAf4jJVX2gbiY0vskbxAesq9kXaGAZNFBqnfsSZ1fV6brrCVI7K4OMHIB1anhuNesupNsf89%2BLlF2WDs67mCvehArG7nUdtrI%2F5HSvzG5%2Fh6ZfLolg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b26237b5f274d296fdbc2b8600e7ca4fe8329a60b43ac700ac919dbc04941208",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Bernard",
+          "href": "https://www.ycombinator.com/companies/bernard"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-14T14:48:14.190Z",
+    "classified_at": "2026-08-14T14:48:14.190Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "besimple-ai",
     "name": "Besimple AI",
     "website": "https://besimple.ai",
@@ -10485,7 +10635,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/billow-ai-labs",
     "batch": "Summer 2026",
     "one_liner": "AI-native Accounting Firm to Replace the Big-4",
-    "description_combined": "AI-native Accounting Firm to Replace the Big-4\n\nBillow handles the work of Accounting and FP&A FTEs keeping teams compliant and audit-ready. We work within existing stacks (NetSuite, Coupa, and 80+ other systems) and complex spreadsheets, chasing down information and coordinating approvals across stakeholders. \r\n\r\nBuilt by repeat founders; Joan built and exited an accounting/ERP platform (45,000 businesses in 4 years) and Phil built Bloomberg&#x27;s financial “brain” data infrastructure, and as CTO of a trading platform ($1B in volume). Advisors include CFOs, controllers, auditors from publicly-traded biopharma, and a Big-4 Accounting firm. ",
+    "description_combined": "AI-native Accounting Firm to Replace the Big-4\n\nBillow handles the work of Accounting and FP&A FTEs keeping teams compliant and audit-ready. We work within existing stacks (NetSuite, Coupa, and 80+ other systems) and complex spreadsheets, chasing down information and coordinating approvals across stakeholders. \r\n\r\nBuilt by repeat founders; Joan built and exited an accounting/ERP platform (45,000 businesses in 4 years) and Phil built Bloomberg&#x27;s financial “brain” data infrastructure, and as CTO of a trading platform ($1B in volume). Advisors include CFOs, controllers, auditors from publicly-traded biopharma, and a Big-4 Accounting firm. \n\nAI-native Accounting Firm for Enterprise\n\n# _We’re killing Deloitte with AI_\n\nhttps://drive.google.com/file/d/1YaUyJE-ZL0poxDAFGv962RniFsue5nyE\n\nAccounting is a $700B industry that hasn’t changed in 200 years. Today, 80% of companies still do their accounting by hand – manually exporting data, building spreadsheets, and chasing approvals.\n\nBillow is an accounting firm that replaces human accountants with AI agents.\n\nWe connect to your existing tools (NetSuite, QuickBooks, and 80+ other systems) and use agents to provide faster, cheaper, and better accounting services. \n\n\n\nThere is zero software for customers to use. Just integrate and we’ll close your books for you.\n\nIn the last three months, we went from an idea to partnering with Series B-D companies representing over $1B in enterprise value.\n\nTeam:\n\n* Joanathan McIntosh - Repea",
     "industry_sub_vertical": "Accounting and FP&A workflow automation for mid-market and enterprise finance teams",
     "canonical_vertical_id": "enterprise.finance.accounting",
     "vertical_id": "enterprise.finance.accounting",
@@ -10562,7 +10712,13 @@
     "primary_bm": "BM-01",
     "primary_bm_rationale": "Billow is a vertical AI SaaS product sold to finance teams within existing enterprise stacks (NetSuite, Coupa, etc.) for accounting and FP&A automation, not a managed service or outsourced labor model.",
     "primary_bm_assigned_at": "2026-07-30T18:59:50.077Z",
-    "primary_bm_method": "assign_primary_bm_haiku"
+    "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 110394,
+    "launch_url": "https://www.ycombinator.com/launches/SiY-billow-killing-deloitte-with-ai",
+    "launch_title": "Billow - Killing Deloitte with AI",
+    "launch_created_at": "2026-08-13T19:00:00.141Z",
+    "launch_tagline": "AI-native Accounting Firm for Enterprise",
+    "launch_evaluated_at": "2026-08-14T14:49:34.844Z"
   },
   {
     "slug": "bindwell",
@@ -22038,7 +22194,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/deepreach-inc",
     "batch": "Summer 2026",
     "one_liner": "Real-world data network for robots & world models",
-    "description_combined": "Real-world data network for robots & world models\n\nPhysical AI — robots and world models — is bottlenecked on one thing: diverse,\r\nreal-world data at massive scale showing how humans actually do work in the\r\nphysical world. It was never written down, and you can&#x27;t buy it, because no one\r\nhas ever captured it. Only real local experts, the people who do this work every\r\nday, can produce data this authentic and valuable.\r\n\r\nDeepReach builds the network that reaches them. We design and manufacture\r\nwearable stereo capture devices, then place them with local data partners who\r\nrun collection as their own business — in warehouses, workshops, farms, kitchens\r\nand repair shops. They own the local relationships; we supply the hardware, the\r\nsoftware platform, the quality pipeline and the payments. Anyone can run a data\r\nbusiness.\r\n\r\nThat structure is what produces diversity. Instead of thousands of hours inside\r\none environment, we deliver hours spread across thousands of environments —\r\nwhich is what actually makes robot policies generalize.\r\n\r\n475 devices in the field and 100+ data partners are live across 7 countries, adding new\r\npartners every week. They&#x27;ve collected nearly 150,000 clips in the past three\r\nmonths, with volume roughly doubling month over month. Our data is in production\r\nwith multiple frontier model and robotics companies, and we&#x27;re scaling to\r\n10,000+ devices across 50 countries.",
+    "description_combined": "Real-world data network for robots & world models\n\nPhysical AI — robots and world models — is bottlenecked on one thing: diverse,\r\nreal-world data at massive scale showing how humans actually do work in the\r\nphysical world. It was never written down, and you can&#x27;t buy it, because no one\r\nhas ever captured it. Only real local experts, the people who do this work every\r\nday, can produce data this authentic and valuable.\r\n\r\nDeepReach builds the network that reaches them. We design and manufacture\r\nwearable stereo capture devices, then place them with local data partners who\r\nrun collection as their own business — in warehouses, workshops, farms, kitchens\r\nand repair shops. They own the local relationships; we supply the hardware, the\r\nsoftware platform, the quality pipeline and the payments. Anyone can run a data\r\nbusiness.\r\n\r\nThat structure is what produces diversity. Instead of thousands of hours inside\r\none environment, we deliver hours spread across thousands of environments —\r\nwhich is what actually makes robot policies generalize.\r\n\r\n475 devices in the field and 100+ data partners are live across 7 countries, adding new\r\npartners every week. They&#x27;ve collected nearly 150,000 clips in the past three\r\nmonths, with volume roughly doubling month over month. Our data is in production\r\nwith multiple frontier model and robotics companies, and we&#x27;re scaling to\r\n10,000+ devices across 50 countries.\n\nHelping entrepreneurs build data businesses for physical AI.\n\nHi everyone—we’re Tim and Chris, founders of DeepReach (YC S26).\n\nDeepReach is the platform where entrepreneurs build real-world data businesses.\n\nIn just three months, DeepReach has helped 150+ entrepreneurs build data businesses employing 1,000+ local experts across 7 countries. Together, they’ve collected 500,000+ real-world operation clips, captured 150,000+ professional skill demonstrations, and secured several million dollars in customer contracts with frontier AI labs and robotics companies.\n\n▶ Watch how it works: \n\n---\n\n# The Problem\n\nFrontier AI is already learning from the physical world.\n\nThe challenge is no longer collecting data—it’s collecting diverse real-world data at scale.\n\nMost companies solve this by building collection labs or hiring workers directly. Both approaches s",
     "industry_sub_vertical": "Physical AI training data collection network for robotics and world models",
     "canonical_vertical_id": "ai-infrastructure.training-data",
     "vertical_id": "ai-infrastructure.training-data",
@@ -22096,7 +22252,13 @@
     ],
     "directory_synced_at": "2026-08-13T14:54:54.639Z",
     "classified_at": "2026-08-13T14:54:54.639Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110389,
+    "launch_url": "https://www.ycombinator.com/launches/SiT-deepreach-launch-a-real-world-data-business-today",
+    "launch_title": "DeepReach: Launch a real-world data business today",
+    "launch_created_at": "2026-08-13T18:33:15.556Z",
+    "launch_tagline": "Helping entrepreneurs build data businesses for physical AI.",
+    "launch_evaluated_at": "2026-08-14T14:49:34.844Z"
   },
   {
     "slug": "deeptrace",
@@ -23272,7 +23434,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/dipole-labs",
     "batch": "Summer 2026",
     "one_liner": "AI-controlled optical switching for AI clusters",
-    "description_combined": "AI-controlled optical switching for AI clusters",
+    "description_combined": "AI-controlled optical switching for AI clusters\n\nHigh-speed optical circuit switches that keep data moving as light, giving AI clusters up to 25% more useful compute from the same hardware.\n\nThe most expensive computers ever built spend about half their time waiting for data. As AI clusters scale, it's increasingly the network that limits how much compute you can actually use.\n\nWhat we're building Dipole Labs builds high-speed optical circuit switches for AI data centers. Between racks, data already travels as light, but routing it usually means converting it to electricity and back, burning power, generating heat, and adding latency. Dipole's switch keeps data in the optical domain, targeting sub-microsecond reconfiguration at large port counts, so the network can reshape itself around each workload.\n\nAn AI-native control layer learns GPU communication patterns and synchronizes optical reconfiguration with training and inference, turning the network into an active accelerator",
     "industry_sub_vertical": "AI cluster optical networking & interconnect infrastructure",
     "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
     "vertical_id": "ai-infrastructure.gpu-deploy",
@@ -23342,7 +23504,13 @@
     ],
     "directory_synced_at": "2026-08-13T14:55:19.729Z",
     "classified_at": "2026-08-13T14:55:19.729Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110374,
+    "launch_url": "https://www.ycombinator.com/launches/SiE-dipole-labs-shooting-lasers-to-solve-the-billion-dollar-bottleneck-inside-ai-datacenters",
+    "launch_title": "Dipole Labs: Shooting lasers to solve the billion-dollar bottleneck inside AI datacenters",
+    "launch_created_at": "2026-08-13T17:30:00.146Z",
+    "launch_tagline": "High-speed optical circuit switches that keep data moving as light, giving AI clusters up to 25% more useful compute from the same hardware.",
+    "launch_evaluated_at": "2026-08-14T14:49:34.844Z"
   },
   {
     "slug": "discovered-materials",
@@ -24196,6 +24364,88 @@
     "proposed_phenotype": null
   },
   {
+    "slug": "dream",
+    "name": "Dream",
+    "website": "https://www.pingdream.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/dream",
+    "batch": "Summer 2026",
+    "one_liner": "Pocket-sized AI cameras that catch asset damage.",
+    "description_combined": "Pocket-sized AI cameras that catch asset damage.\n\nDream makes pocket-sized, battery-powered AI cameras that catch damage teams miss. Car dealerships, equipment rental companies, fleets, and more move expensive assets in and out all day, and undocumented damage is a costly leak.\r\n\r\nDream cameras are simple to set up and work automatically. Each vehicle or machine that passes is photographed from every angle, identified, and reconstructed into a 3D condition record. On return or intake, Dream instantly flags new dents, scrapes, and changes your team might miss, giving one source of truth for every asset&#x27;s condition over time.\r\n\r\nRyland worked at X/xAI and built aerial damage-detection vision at Vexcel Imaging. Alexander worked at AWS and trained edge-camera models deployed in the wild across Africa and India to detect poachers.",
+    "industry_sub_vertical": "Asset damage detection & condition tracking for automotive rental and fleet management",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "operational_efficiency",
+    "ai_application": "computer_vision_damage_detection",
+    "ai_application_patterns": [
+      "edge_inference_vision",
+      "3d_reconstruction",
+      "damage_classification",
+      "asset_condition_tracking"
+    ],
+    "what_they_sell": "Pocket-sized, battery-powered AI cameras deployed at asset intake/return points that automatically capture multi-angle imagery, reconstruct 3D condition records, and flag new damage (dents, scrapes, changes) via computer vision.",
+    "ai_play": "Edge-deployed computer vision models (trained on damage datasets) that run locally on hardware to detect and classify asset damage in real-time without cloud dependency. 3D reconstruction stitches multi-angle photos into condition records. AI eliminates manual inspection gaps and creates auditable damage history per asset.",
+    "who_pays": "Car dealerships, equipment rental companies, fleet operators, and asset-intensive businesses seeking to reduce undocumented damage losses and streamline intake/return workflows.",
+    "confidence": 0.78,
+    "rationale": "Dream is a hardware-centric company where AI (computer vision + 3D reconstruction) is the core operational enabler, not the primary product. The value is the physical camera system + AI-driven damage detection that improves asset condition tracking and reduces operational friction. Fits ai-enabled-physical-systems: AI accelerates design (edge model optimization), manufacturing precision (hardware-software co-design), and autonomous operational control (automated damage flagging). Secondary consideration: could map to robotics-embodied-ai (edge cameras as sensing mesh), but Dream is not building robots or teleoperation—it's stationary vision infrastructure. Primary fit is stronger.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Hardware",
+      "Machine Learning",
+      "Computer Vision",
+      "B2B"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1393934,
+        "full_name": "Ryland Birchmeier",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Ryland Birchmeier is Co-founder of Dream (YC S26), building pocket-sized, battery-powered AI cameras that automatically capture assets and catch damage teams miss at car dealerships, equipment rental companies, and more.\n\nPreviously, Ryland worked at X/xAI and built aerial computer vision at Vexcel Imaging. He studied computer science at the University of Virginia.",
+        "linkedin_url": "https://linkedin.com/in/rylandbirchmeier",
+        "twitter_url": "https://x.com/rylandbirch",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/37f594b7f6b8754e9966db95609cba5942fd3185.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE6DGPKQY%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144834Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJIMEYCIQDfe%2BItJxd2GDLhCE9khJLAPGgdxh7TpxW2KUd7HBIX1QIhAPtY1XTGfEZ%2BssU4S%2Fj6fDy4B4V2kb4zwxNYDmsjRyCkKu4DCP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgzquqz1QY32p%2BJ8odwqwgO5feCxgt7Fk4qKEjHNS60Tz48hQCCVTir6sFlpkEjcl170Ef%2FCNYcS04VjaKN43mqlvbxxaHJBnmKXCBXkk3Yw7S1Jk1l0HVAuTzDJu9oTjpQ6y4kHRcpbrKM7wP1oawNxcFrCD3nIocF%2BtbDBafsnlOFwQiptM67PSJ4dXtBlDbJ3Yt3mDI6M5z73yfC4fmQVSwLasSjtywToPCtsfZZcpQQ82gQ4QnoHsDbCM76zr%2F2TRpWex90uW42D6YYOPGCdwX1yxIo%2Fvp6wBV44CMYHB7kE%2FqIOgrDohUACJJqEF2CUrVvugppY1rAarxW3dsL9v0d252v0Xp6HOC8oetG1WT%2B3nvnd6%2Bj4ZNeRYsY8%2FX%2Be%2BXXPpDg%2BAw5neAVDwDP%2BhTvjceMTgvQKuZ5M1BXQqtmtTgeYhX%2BFqc5o6Ngp6wi14eAvoMLIeceXmD3CZBmqzIVa6MdBuhx6vjv9msMzxOLCw%2FWWF8xkXi9r9xWCA2umkYXxxFYLRKXfqho8Z68wMdKqOcsltV2qaajXPzTJZnSX0u8UxOJ%2FmnZ%2B25G4uSI%2FzlwejFb7hOG%2BSjn08ofQhvG8xm2fG53VGs%2FvIpXtKeYwq7z80wY6pAGIvroetMCR%2BgnREgWwqb%2BOQxWvuPhmXBzjt3szR9NC0MyHKwNQTahF%2BSes6qOJVM2EyaxDIeEIrzEDyrdWOtigD7PryUx5gRdf%2Be%2B77ix7IklK7yzovBfSKEbqOQ82F5sa%2FtQ3jvQ43dEH2cgiP%2F4McO3nwQ4RB0ms1pXpuh25cFMvZp39K7RVxSgrwuEfgHhdH6KUnDaOfC2VZfwxmL18sYc6dQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e798dc1dc5a8ae0bb890831d29f58bd9e10e9b4d604c6c12aefca6c8c4c35246",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Dream",
+          "href": "https://www.ycombinator.com/companies/dream"
+        }
+      },
+      {
+        "user_id": 1456894,
+        "full_name": "Alexander Halpern",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Alexander Halpern is Co-founder of Dream (YC S26), building pocket-sized, battery-powered AI cameras that automatically capture assets and catch damage teams miss at car dealerships, equipment rental companies, and more.\n\nPreviously, Alexander built agents for AWS Marketplace and trained models for edge computing cameras deployed across Africa and India to detect poachers hunting endangered wild cats at Panthera. He studied computer science at the University of Virginia.",
+        "linkedin_url": "https://www.linkedin.com/in/alexanderhalpern",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4702d251513a653e5c3f7e4d1307df73e45916e3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE6DGPKQY%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144834Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJIMEYCIQDfe%2BItJxd2GDLhCE9khJLAPGgdxh7TpxW2KUd7HBIX1QIhAPtY1XTGfEZ%2BssU4S%2Fj6fDy4B4V2kb4zwxNYDmsjRyCkKu4DCP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgzquqz1QY32p%2BJ8odwqwgO5feCxgt7Fk4qKEjHNS60Tz48hQCCVTir6sFlpkEjcl170Ef%2FCNYcS04VjaKN43mqlvbxxaHJBnmKXCBXkk3Yw7S1Jk1l0HVAuTzDJu9oTjpQ6y4kHRcpbrKM7wP1oawNxcFrCD3nIocF%2BtbDBafsnlOFwQiptM67PSJ4dXtBlDbJ3Yt3mDI6M5z73yfC4fmQVSwLasSjtywToPCtsfZZcpQQ82gQ4QnoHsDbCM76zr%2F2TRpWex90uW42D6YYOPGCdwX1yxIo%2Fvp6wBV44CMYHB7kE%2FqIOgrDohUACJJqEF2CUrVvugppY1rAarxW3dsL9v0d252v0Xp6HOC8oetG1WT%2B3nvnd6%2Bj4ZNeRYsY8%2FX%2Be%2BXXPpDg%2BAw5neAVDwDP%2BhTvjceMTgvQKuZ5M1BXQqtmtTgeYhX%2BFqc5o6Ngp6wi14eAvoMLIeceXmD3CZBmqzIVa6MdBuhx6vjv9msMzxOLCw%2FWWF8xkXi9r9xWCA2umkYXxxFYLRKXfqho8Z68wMdKqOcsltV2qaajXPzTJZnSX0u8UxOJ%2FmnZ%2B25G4uSI%2FzlwejFb7hOG%2BSjn08ofQhvG8xm2fG53VGs%2FvIpXtKeYwq7z80wY6pAGIvroetMCR%2BgnREgWwqb%2BOQxWvuPhmXBzjt3szR9NC0MyHKwNQTahF%2BSes6qOJVM2EyaxDIeEIrzEDyrdWOtigD7PryUx5gRdf%2Be%2B77ix7IklK7yzovBfSKEbqOQ82F5sa%2FtQ3jvQ43dEH2cgiP%2F4McO3nwQ4RB0ms1pXpuh25cFMvZp39K7RVxSgrwuEfgHhdH6KUnDaOfC2VZfwxmL18sYc6dQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=56b1a921959f58c7abbb0f87d57a3fd6cc261cc3d16605485e4c39729c1788bf",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Dream",
+          "href": "https://www.ycombinator.com/companies/dream"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-14T14:48:43.688Z",
+    "classified_at": "2026-08-14T14:48:43.688Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "drippay",
     "name": "Drip",
     "website": "https://usedrip.ai",
@@ -24611,7 +24861,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/edotenv",
     "batch": "Summer 2026",
     "one_liner": "A Quant Neolab building toward RSI via quant trading",
-    "description_combined": "A Quant Neolab building toward RSI via quant trading\n\nEdotEnv is a Quant Neolab building toward RSI. They turn markets into self-improving research environments for AI agents.\r\n\r\nThe path to RSI is a continuous loop: agents conduct research, learn from the results, and autonomously become better at conducting the next round of research. For that loop to continue, each round must present a harder problem than the last.\r\n\r\nMarkets create this dynamic naturally. Every discovered inefficiency attracts competition, and every successful strategy makes future opportunities harder to find. Quant research therefore provides an advancing frontier for self-improving agents.\r\n\r\nEdotEnv captures this process in multi-step environments where agents form hypotheses, design experiments, verify results and iterate. They use these environments to evaluate and post-train agents on increasingly difficult research tasks.\r\n\r\nThey work with frontier AI labs and academic groups building research harnesses, evaluation benchmarks, and post-training environments.\r\n\r\nEdotEnv&#x27;s team previously worked in quantitative research at G-Research, high frequency options trading at TransMarket Group, and LLM inference research at Etched.",
+    "description_combined": "A Quant Neolab building toward RSI via quant trading\n\nEdotEnv is a Quant Neolab building toward RSI. They turn markets into self-improving research environments for AI agents.\r\n\r\nThe path to RSI is a continuous loop: agents conduct research, learn from the results, and autonomously become better at conducting the next round of research. For that loop to continue, each round must present a harder problem than the last.\r\n\r\nMarkets create this dynamic naturally. Every discovered inefficiency attracts competition, and every successful strategy makes future opportunities harder to find. Quant research therefore provides an advancing frontier for self-improving agents.\r\n\r\nEdotEnv captures this process in multi-step environments where agents form hypotheses, design experiments, verify results and iterate. They use these environments to evaluate and post-train agents on increasingly difficult research tasks.\r\n\r\nThey work with frontier AI labs and academic groups building research harnesses, evaluation benchmarks, and post-training environments.\r\n\r\nEdotEnv&#x27;s team previously worked in quantitative research at G-Research, high frequency options trading at TransMarket Group, and LLM inference research at Etched.\n\nWe turn markets into self-improving research environments for AI agents.\n\nEdotEnv (YC S26) is a Quant Neolab building toward RSI. They turn markets into self-improving research environments for AI agents.\n\nThe path to RSI is a continuous loop: agents conduct experiments, learn from the results, and autonomously become better at conducting the next round of research. For that loop to continue, each round must present a harder problem than the last.\n\nMarkets create this dynamic naturally. Every discovered inefficiency attracts competition, and every successful strategy makes future opportunities harder to find. Markets therefore provide an advancing frontier for self-improving agents.\n\nEdotEnv captures this process in multi-step environments where agents form hypotheses, design experiments, verify results and iterate. They use these environments to evaluate and po",
     "industry_sub_vertical": "AI agent evaluation & post-training environments for quant research",
     "canonical_vertical_id": "ai-infrastructure.training-data",
     "vertical_id": "ai-infrastructure.training-data",
@@ -24666,7 +24916,13 @@
     ],
     "directory_synced_at": "2026-08-12T14:54:07.423Z",
     "classified_at": "2026-08-12T14:54:07.423Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110398,
+    "launch_url": "https://www.ycombinator.com/launches/Sic-edotenv-quant-neolab-building-towards-rsi",
+    "launch_title": "EdotEnv: Quant Neolab building towards RSI",
+    "launch_created_at": "2026-08-13T21:30:00.360Z",
+    "launch_tagline": "We turn markets into self-improving research environments for AI agents.",
+    "launch_evaluated_at": "2026-08-14T14:49:34.843Z"
   },
   {
     "slug": "edviro",
@@ -26269,6 +26525,84 @@
       "vertical_id": null,
       "industry_sub_vertical": "Consumer AI applications / personal productivity"
     }
+  },
+  {
+    "slug": "evergrove",
+    "name": "Evergrove",
+    "website": "https://www.evergrovelabs.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/evergrove",
+    "batch": "Summer 2026",
+    "one_liner": "Voice agents that accelerate care coordination in workers&#x27; comp",
+    "description_combined": "Voice agents that accelerate care coordination in workers&#x27; comp\n\nWe&#x27;ve built voice agents for the largest work comp managed care orgs and specialist PT networks in the country, making >500K calls annually and accelerating the speed at which they coordinate care. On average, our customers see a 40% increase in workflow completion, 10x decrease in cycle times, and >60% reduction in cost.\r\n\r\nWe think voice agents are the starting point for solving slow and fragmented care coordination in this market. Companies that manage an injured worker&#x27;s care rely on short-staffed contact centres and archaic methods of info exchange: phone, fax, and email. Every delay along the path of care leads to slower rehab of the injured worker, lower throughput for providers, and higher expense for the insurer/employer.",
+    "industry_sub_vertical": "Workers' compensation care coordination via voice agents",
+    "canonical_vertical_id": "healthcare.payer.care-management",
+    "vertical_id": "healthcare.payer.care-management",
+    "vertical_label": "Care management & population health programs",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "voice_agent_automation",
+      "care_coordination_orchestration",
+      "multi_party_communication_routing"
+    ],
+    "what_they_sell": "Voice agents deployed into workers' compensation managed care organizations and PT networks that autonomously coordinate care between injured workers, providers, insurers, and employers via phone calls. Agents handle scheduling, authorization requests, status updates, and information exchange that traditionally required manual contact center staff.",
+    "ai_play": "Voice agents replace manual contact center workflows by autonomously making and receiving calls, extracting care coordination information, routing to appropriate parties, and executing multi-step workflows (authorization, scheduling, follow-up). AI enables 40% faster workflow completion, 10x cycle time reduction, and 60% cost savings by eliminating phone/fax/email bottlenecks.",
+    "who_pays": "Managed care organizations, workers' comp insurers, and specialist PT networks managing injured worker care pathways.",
+    "confidence": 0.85,
+    "rationale": "Evergrove is an end-user-facing SaaS product deploying autonomous voice agents to replace manual job functions (care coordination, scheduling, authorization) within a specific vertical (workers' comp). This is a textbook vertical-agentic-workflow-saas: agents integrate with existing care coordination tools, learn domain workflows, and execute tasks autonomously. Secondary phenotype is vertical-workflow-agent because they also sell the agent capability as a workflow automation tool to managed care operators. The voice-first modality and care coordination domain are the key differentiators. Confidence is high (0.85) because the product, customer base, and value prop align clearly with autonomous workflow automation in a regulated, knowledge-intensive vertical.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Healthcare"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1161116,
+        "full_name": "Jacob Chia",
+        "title": "Co-Founder",
+        "is_active": true,
+        "bio": "Co-founder and CTO. We build agents for healthcare enterprises. Prev AI engineer at Newfront (Acq for $1.3B). Was on the platform team, wrote code for millions of authentication and authorization interactions at Newfront; Refactored file management for millions of mission critical insurance files.\n\nCofounder and I built fully autonomous insurance placements in 2025 - negotiating insurance coverage over email for policies between 300k to 1 million USD, achieving 15-20% cost reduction.",
+        "linkedin_url": "https://www.linkedin.com/in/jacob-chia-78a1b2135",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9246fa7dc3b92b39196a646c9b93b9fe22a79e7a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJF53D4UY%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144843Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJHMEUCIFdTxIYaXhBhI1aNDY31n3bxK810nzQqzPNmI%2BWnY4UsAiEAt3IUfMAmBORERcF8UFaYuchWLs5JEb9Yu3sC2sn%2FQq0q7gMI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDDQZsy1RnHnpphKJIyrCA8Ejk18BI%2BMEVbkBxtJdX3AwKCJ30MSl3VrgEhsBItatyCbx5EylDnEH8gLqn%2ByTMn9u815gukq95gFkPABlNAIaz8AlogJvvWde8bp5MQMEFH2pE6GYf7v78L84hZPLIHJsoiozMDzSTx%2B18s58V8a4JFjKz%2FjJ5dWuWaLKylBmoxaPadOBlxOS5qBesJm4Zavd%2F8de2n%2BZI%2FDKqbwufShhf0C76q5AbhLVSJktPh1Xxe%2FXtpRM9ZjG4uzAhTLJqPTFpyXlCxkawbdg8ZG57OCVKU%2BekbIcHFpw9Dg%2B6GEUJjWAVkS65NnDDo5adn%2B0ZJEyuXZzhjUirYufG1z3G%2BrGV8wmWbfuUkMjbDW1F%2BiPmyl5mUlvPxBOgt7n7a7hS%2BjRDhUqnjMr3dvmeMVreZCwh%2BzpXRh5Y5esW0Ib3oc426qfGeb1V5UOymlBMprFhyegdLjrVGrvRgRpPEmhPK1AU07rsnTd3%2FWpK0RkriIN7r3a%2FkBc9Wte3Aoz0itjWAFEU4sSxneO1WkHJ0rOxknv%2B1kh%2FHieq2BaUBULbDEouEcCbW7WgN6afAqVPJ3BgSLJe4n%2B%2Bm2kR9HEpys762UHvTCsvPzTBjqlAQPZPgEBN1Dufo41jMvDNoJLVx1rjYJB3ycw8XzLntRlaM%2BS8B4PdTR6ObDEbxvJwNBi1Q5AZjFbxluzGBwiN1LkmLdnqw09AAaxAMbMx8elqhtSss2KbF7Ctgkiy8t1CaP1jdSZYTmq8bhIhULTnI0BcE%2F1Un5jpvyUC1fycXSGZzhDr2QMIGwV8JUWv%2FJWkcljIeLBcbxKWlR8s3zzVfKniekYcg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2d61231acd59fd17e01536e411b0827a7703d5b6055cfec392f3e6b1fb8b5506",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Evergrove",
+          "href": "https://www.ycombinator.com/companies/evergrove"
+        }
+      },
+      {
+        "user_id": 1081614,
+        "full_name": "Sid Unnithan",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder and CEO. We&#x27;re building interoperability in healthcare and commercial insurance. Voice agents are our bread & butter. Prev AI PM lead at Newfront (Acq for $1.3B), Azure ML & VS Code at MSFT, Waterloo Eng Alum (2018), and co-founder of appinkflow.com (bootstrapped).\n\nCo-founder and I built AI-native placement service within Newfront. Small team of expert humans and agent swarms negotiated policies between $300K and $1M USD, achieving 40% faster renewal times, and 15-20% cost reduction.",
+        "linkedin_url": "https://www.linkedin.com/in/siddhanthunnithan",
+        "twitter_url": "https://x.com/SidUnnithan",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b219010304c97621f212e3f6017cac88384bced1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJF53D4UY%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144843Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJHMEUCIFdTxIYaXhBhI1aNDY31n3bxK810nzQqzPNmI%2BWnY4UsAiEAt3IUfMAmBORERcF8UFaYuchWLs5JEb9Yu3sC2sn%2FQq0q7gMI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDDQZsy1RnHnpphKJIyrCA8Ejk18BI%2BMEVbkBxtJdX3AwKCJ30MSl3VrgEhsBItatyCbx5EylDnEH8gLqn%2ByTMn9u815gukq95gFkPABlNAIaz8AlogJvvWde8bp5MQMEFH2pE6GYf7v78L84hZPLIHJsoiozMDzSTx%2B18s58V8a4JFjKz%2FjJ5dWuWaLKylBmoxaPadOBlxOS5qBesJm4Zavd%2F8de2n%2BZI%2FDKqbwufShhf0C76q5AbhLVSJktPh1Xxe%2FXtpRM9ZjG4uzAhTLJqPTFpyXlCxkawbdg8ZG57OCVKU%2BekbIcHFpw9Dg%2B6GEUJjWAVkS65NnDDo5adn%2B0ZJEyuXZzhjUirYufG1z3G%2BrGV8wmWbfuUkMjbDW1F%2BiPmyl5mUlvPxBOgt7n7a7hS%2BjRDhUqnjMr3dvmeMVreZCwh%2BzpXRh5Y5esW0Ib3oc426qfGeb1V5UOymlBMprFhyegdLjrVGrvRgRpPEmhPK1AU07rsnTd3%2FWpK0RkriIN7r3a%2FkBc9Wte3Aoz0itjWAFEU4sSxneO1WkHJ0rOxknv%2B1kh%2FHieq2BaUBULbDEouEcCbW7WgN6afAqVPJ3BgSLJe4n%2B%2Bm2kR9HEpys762UHvTCsvPzTBjqlAQPZPgEBN1Dufo41jMvDNoJLVx1rjYJB3ycw8XzLntRlaM%2BS8B4PdTR6ObDEbxvJwNBi1Q5AZjFbxluzGBwiN1LkmLdnqw09AAaxAMbMx8elqhtSss2KbF7Ctgkiy8t1CaP1jdSZYTmq8bhIhULTnI0BcE%2F1Un5jpvyUC1fycXSGZzhDr2QMIGwV8JUWv%2FJWkcljIeLBcbxKWlR8s3zzVfKniekYcg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=01af32f06339c6f33601fe63b63be9ceda7fbb359747b3cfb315c9c57f001176",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Evergrove",
+          "href": "https://www.ycombinator.com/companies/evergrove"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-14T14:48:54.348Z",
+    "classified_at": "2026-08-14T14:48:54.348Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "every",
@@ -44664,6 +44998,72 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "lyon",
+    "name": "Lyon",
+    "website": "https://lyon.so",
+    "yc_profile_url": "https://www.ycombinator.com/companies/lyon",
+    "batch": "Summer 2026",
+    "one_liner": "Foundation models on enterprise transaction data.",
+    "description_combined": "Foundation models on enterprise transaction data.",
+    "industry_sub_vertical": "Enterprise transaction data foundation models for financial AI",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "foundation-model-domain-infrastructure",
+    "phenotype_primary_label": "Domain-Specific Foundation Models as Infrastructure",
+    "phenotype_family": "ai_infrastructure",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "domain_foundation_model",
+      "transaction_data_pretraining",
+      "financial_inference_infrastructure"
+    ],
+    "what_they_sell": "Specialized foundation models trained on enterprise transaction data (payments, accounting, supply chain, ERP logs) that serve as reusable inference infrastructure for downstream financial/operational AI applications.",
+    "ai_play": "Lyon trains domain-specific foundation models on proprietary or curated enterprise transaction datasets, enabling customers to deploy pre-trained models for financial forecasting, anomaly detection, compliance automation, and operational intelligence without building models from scratch. The learned representations encode transaction semantics and financial patterns, replacing manual feature engineering.",
+    "who_pays": "Enterprise finance teams, CFOs, data science teams at large corporations; fintech platforms; accounting/ERP vendors seeking to embed AI-native financial intelligence.",
+    "confidence": 0.78,
+    "rationale": "Lyon's positioning as 'foundation models on enterprise transaction data' directly maps to foundation-model-domain-infrastructure. They are building reusable, pre-trained models on a specific domain (financial transactions) to serve as inference infrastructure for downstream customers. This is distinct from vertical-workflow-agent (which automates a specific job function) or training-data-synthetic (which generates data). The value is the learned model itself—transaction semantics, patterns, risk signals—licensed/deployed to enterprises. Confidence 0.78 reflects strong fit but some ambiguity: unclear if they're selling model weights/API access vs. consulting/implementation services. If they're primarily a consulting wrapper around models, confidence drops to ~0.65 and secondary phenotype ai-forward-consulting should be considered.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Analytics"
+    ],
+    "yc_tags": [
+      "Machine Learning",
+      "Finance",
+      "Data Science",
+      "Big Data"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1690305,
+        "full_name": "Gabriel Noya",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Stanford EE and CS 26&#x27;",
+        "linkedin_url": "https://linkedin.com/in/gabriel-noya",
+        "twitter_url": "https://x.com/gabrielnoya7",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4af339e08470b73536f535219d74828f249a98b7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABXDMQDVQ%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144753Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJHMEUCIEXRk1%2FJcVdnVcykEIFAQ8dx5vbkC5Oi3PQDq08Esg4MAiEA31UNR%2BMTS2ZvlO0nTMUQnL4zZ5bq4JIHqZsouOGWnvgq7gMI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDAf3jv%2BdCV4iHIWi8SrCAyyFU4U0JjHueEEkavVWvOcYTcPxeqzj%2BEcc44v5kPXKTx1NCX1%2Bo%2F5jkph3ZmgEPFi7E3AivvVeivp7pu2v%2F%2FzXJ8x%2FXaSYaeTpuCYjp1rpOF99qhAt0sGR3R0CkLtWMDfVrIr3x1BA8FObf8GJe9eXtIODRDxNF%2BVGzeIVvT%2B3FqXeL2R8TmO50d3qRra8RzkxNB8gDWBfTA4dxQxdEpP437aTDnnjYPxG%2FTNkiQMx4Cyhix%2FuEgq0G2jJPqf80w0b6qRy0noXKbW04oLkZ63non63VuWEbfwZ9i4avAy%2FpECKDuP1%2BYuwenbxyuXJCmgsICsgq6dV8cvFNtnmXw%2BQDM5U3AKJqjPD7J3MaXlN4dHsEfhRoHdncyBgDz1aVFpvcPenfm3fJakYY4JLijsP3ZQ5v6BYcTHup2iCYVa6X13RzevX3FUJhcT7vzsqW3UFuslCQP8pFP%2FymuZHlr6QXGVuOTpAN0A%2F61bq912TCJuTRAlHNvNt4zwrx126Q%2BsDcrEcB3c3Es%2F0hEoNAg1Z9q%2BQv4JXNqPgJ9JIQ9U0kzGCRGE5Vpli7VYrsesuJI7DV0g1EO3jfhuNSL74dFWvEzCrvPzTBjqlAQ8OJLv7dxlcy84Pnt2ZHJCuG90FkWqNEb75moXbSYF3VTErkms%2FEU4SpbotAkzGx9%2F55p%2FNpkAibyd1gqBOiBgS0GIbclyp7suJcE4R7K6SF2NNPtUbce6EUBKU3MVf9faApPACHJRVT%2BiVASwHPpXz8wWqkOeZ9fBUAbLuLuYjpb3FTmj%2BT0rB5IC8isE6Wp1K5HBSoCEWMEnQCvhuZPuTeBU66w%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=77428f0ac61f15434a54e78f5d2ee746f387d35a7790d4c8416b2b56ed2cf4bf",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Lyon",
+          "href": "https://www.ycombinator.com/companies/lyon"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-14T14:48:02.250Z",
+    "classified_at": "2026-08-14T14:48:02.250Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "lyrahq",
     "name": "Lyra",
     "website": "https://lyra.so/",
@@ -44992,7 +45392,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/magma",
     "batch": "Summer 2026",
     "one_liner": "Monetize your agent&#x27;s traces.",
-    "description_combined": "Monetize your agent&#x27;s traces.\n\nWe enable companies monetize their agents&#x27; traces.",
+    "description_combined": "Monetize your agent&#x27;s traces.\n\nWe enable companies monetize their agents&#x27; traces.\n\nWe enable any company monetize its agents' traces!\n\nTL;DR: Magma enables companies building AI agents to monetize their data in a few clicks.\n\n\n\n❌ The problem\n\nIf a product uses AI agents, every interaction creates valuable data. That could be a user correcting an agent’s mistake, or an agent discovering a new way to complete a workflow. That real-world data currently sits unused, while the best alternative is human annotators inventing hypothetical scenarios.\n\n✅ What we do\n\nMagma turns that data into recurring revenue for companies.\n\nCompanies share their agents’ traces in a few clicks. Access is read-only and encrypted, and nothing is shared without approval. Magma anonymizes the data, turns it into complex training environments, and handles licensing to AI labs. Every time the data is licensed, the company gets paid.\n\n👋 Who I am\n\nI’ve p",
     "industry_sub_vertical": "Agent trace data monetization marketplace",
     "canonical_vertical_id": "data.data-monetization-marketplace",
     "vertical_id": "data.data-monetization-marketplace",
@@ -45048,7 +45448,13 @@
     ],
     "directory_synced_at": "2026-08-13T14:54:07.158Z",
     "classified_at": "2026-08-13T14:54:07.158Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110488,
+    "launch_url": "https://www.ycombinator.com/launches/Sk4-magma-ai-labs-will-pay-you-to-learn-from-your-agent-s-mistakes",
+    "launch_title": "Magma - AI labs will pay you to learn from your agent's mistakes",
+    "launch_created_at": "2026-08-14T01:00:00.832Z",
+    "launch_tagline": "We enable any company monetize its agents' traces!",
+    "launch_evaluated_at": "2026-08-14T14:49:34.843Z"
   },
   {
     "slug": "magnetic",
@@ -56764,6 +57170,73 @@
     "launch_evaluated_at": "2026-08-01T14:59:02.714Z"
   },
   {
+    "slug": "palisade",
+    "name": "Palisade",
+    "website": "https://palisade.run",
+    "yc_profile_url": "https://www.ycombinator.com/companies/palisade",
+    "batch": "Summer 2026",
+    "one_liner": "AI sales agents that run your marketplace",
+    "description_combined": "AI sales agents that run your marketplace\n\nPalisade spins up a personal sales agent for every single visitor to your website. Marketplaces like trading card platforms, vintage stores, and short-term rental operators sell more when each customer works with a personal agent that remembers them.",
+    "industry_sub_vertical": "Marketplace conversion automation via AI sales agents",
+    "canonical_vertical_id": "enterprise.sales.enablement",
+    "vertical_id": "enterprise.sales.enablement",
+    "vertical_label": "Sales enablement & execution",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_personalization",
+      "sales_automation",
+      "customer_memory",
+      "conversion_optimization"
+    ],
+    "what_they_sell": "AI sales agents deployed per-visitor on marketplace platforms (trading cards, vintage goods, short-term rentals). Each agent maintains customer context, remembers preferences, and autonomously handles sales conversations to increase conversion and AOV.",
+    "ai_play": "Replaces manual sales/customer service workflows with autonomous, stateful agents that learn visitor behavior and execute personalized sales interactions in real-time. AI differentiator is multi-turn memory, context retention across sessions, and autonomous deal closure.",
+    "who_pays": "Marketplace operators (e-commerce platforms, rental networks, collectibles exchanges) seeking higher conversion rates and per-customer lifetime value without hiring sales teams.",
+    "confidence": 0.78,
+    "rationale": "Palisade is end-user-facing SaaS deployed into marketplaces to automate sales workflows. Primary phenotype is vertical-agentic-workflow-saas because: (1) agents replace human sales/support functions, (2) sold to marketplace operators as a product, (3) agents integrate with marketplace tools and learn workflows autonomously, (4) monetization is likely per-agent, per-transaction, or per-marketplace seat. Secondary phenotype marketplace-network-ai reflects that the buyer operates a two-sided venue, though Palisade itself is not the marketplace—it's the agent layer. Confidence 0.78 (not higher) because description emphasizes 'personal agent per visitor' which could imply horizontal copilot positioning, but context of 'run your marketplace' and vertical focus on trading cards/rentals suggests vertical SaaS is stronger fit.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Marketplace",
+      "Sales",
+      "E-commerce"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1155886,
+        "full_name": "Jonathan Salama",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "CEO & Founder of Palisade. Previously SWE @ Amazon Traffic & Marketing, Founding Eng @ Sage AI Labs, and co-creator of Lulus TV, a YouTube channel with 1M subscribers. CS @ Princeton.",
+        "linkedin_url": "https://www.linkedin.com/in/jonathan-salama/",
+        "twitter_url": "https://x.com/jonnysalama",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1ab0440756994e162a7f09a6aad6ada793b4683c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOSJNRMJB%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144814Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJGMEQCIDxE2oE%2FD8e1hoiaIckMcbpieOKHWgmBWwuZHtUsl%2FjCAiABKXF1FkOxEcOUSGlyzKgw3pyc%2FZQ6vZY%2BQKJi55FO4yruAwj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMqAb7LyLzacDIfJoeKsIDcmCNKMCdaZvnB2N3I7neTv4%2BAF1HcrI77%2BUXFOHIAsnMgdstH%2B8p2L%2FES%2FKFX0VaMV07qI0jRTXxMmXf5A3zA8ALfBxIZ7WulrYSQDN7rU8WGkzDl4UEMMDudodR9hH04%2F3ntkgMmdUxCFTPS3W5QCul4pF%2FVA7h1J%2BfTtsxB3kXZb9KGrgw16VVPfActi96G2UlUo2XgelUeOxAyE%2BCshL0osOm72NSmvVTNWLfkW%2BTSs5aOcoF5AdTZZmMNLKktSKp2cO3YGG%2BNuvzs%2FGVLMBJrxHrcA68EpBRDt%2BIOKH2cQmq2RDI%2FzhEyiisvSU23mfZ%2BNxZXNRnWdYXwfHe1Bio%2FqTPe4WpokiYrRC8f2vrHFQVtmmNZI%2Fv3sqKMsF%2BCS2mm%2FrcJwQcKqT%2BpEwkmTk8igdhmWUKGbhdO8wEYrXngGNiqV8Ve7edH1DneME%2BkNqc1zan%2B5bEbNCp7KTq6%2F95SQBY3ll6qCQhKtB0jspbnd6eB7k9IUeRRFnd%2By4K%2BS9DGgGpP7WcX5yb2OB7h%2F40%2BkeBj50PzP0PwhTtUFi5fWUYMxO07R47C2xo%2FGV1AztYmSHvlTVTvr36SfxlZHPnMKy8%2FNMGOqYB1pkkGoh3jaOyizH0lZgw%2B620oxdobaF7%2F1ml8Zl7Tf12CNgm0pjWrAkSoecgZiehC%2FTqgAmsBkd4kjFW5kBNg6YkOn8y6w2blOgyI2E5o4%2B1FqGKrIKWisjimc82K12J9hQVFeHSuEae9FqvJcPsCIo5VbR73%2BQXpHxUUtErfyPu7P1NYfxGpIo8g2pVSyPvDlZR%2FOxna0s18gFSEQ4cXFWivrjvNg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=890b6c110b27918dcd996cedea4e09ff85840f8684dafddc0a662fb9cd7e01b0",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Palisade",
+          "href": "https://www.ycombinator.com/companies/palisade"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-14T14:48:24.810Z",
+    "classified_at": "2026-08-14T14:48:24.810Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "palisade-2",
     "name": "Palisade",
     "website": "",
@@ -57857,7 +58330,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/parasma",
     "batch": "Summer 2026",
     "one_liner": "Training human brain cells for AI compute",
-    "description_combined": "Training human brain cells for AI compute\n\nWe write the algorithms to turn brain cells into compute.",
+    "description_combined": "Training human brain cells for AI compute\n\nWe write the algorithms to turn brain cells into compute.\n\nIn March, we trained them to play Doom; now we got them to do next-token prediction.\n\nWe train human brain cells for compute. In March, we trained them to play Doom; now we got them to do next-token prediction.\n\n\n\n\n\nThe Problem\n\nModern models require enormous amounts of energy and training data, while still struggling with continual learning and adapting efficiently to new tasks. Biological brains solve these problems very differently. They learn continuously, adapt from limited experience, and operate on roughly the power of a light bulb.\n\nSolution\n\nParasma is developing the algorithms and infrastructure needed to turn human brain cells into useful compute. The human brain is the most capable and energy-efficient learning system we know. Our goal is to reliably train biological substrates and use them for general computation, robotics, and eventually direct biological trai",
     "industry_sub_vertical": "Biological computing substrate research & neuromorphic hardware development",
     "canonical_vertical_id": "research.ai-rd",
     "vertical_id": "research.ai-rd",
@@ -57913,7 +58386,13 @@
     ],
     "directory_synced_at": "2026-07-30T16:12:00.598Z",
     "classified_at": "2026-07-30T16:12:00.598Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 109992,
+    "launch_url": "https://www.ycombinator.com/launches/Sc4-parasma-training-human-brain-cells-for-compute",
+    "launch_title": "Parasma: Training human brain cells for compute",
+    "launch_created_at": "2026-08-13T20:30:00.164Z",
+    "launch_tagline": "In March, we trained them to play Doom; now we got them to do next-token prediction.",
+    "launch_evaluated_at": "2026-08-14T14:49:34.843Z"
   },
   {
     "slug": "paratus-health",
@@ -59150,7 +59629,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/perceptron-ml",
     "batch": "Summer 2026",
     "one_liner": "We make law firms AI-native.",
-    "description_combined": "We make law firms AI-native.\n\nWe build custom AI systems for law firms, trained on each firm&#x27;s own matters and deployed privately in their environment: timekeeping, intake and matter monitoring, research, discovery, and drafting. Our grounding engine verifies every fact against a primary source before a model can cite it, which is why firms trust us with work that off-the-shelf legal AI keeps getting wrong.",
+    "description_combined": "We make law firms AI-native.\n\nWe build custom AI systems for law firms, trained on each firm&#x27;s own matters and deployed privately in their environment: timekeeping, intake and matter monitoring, research, discovery, and drafting. Our grounding engine verifies every fact against a primary source before a model can cite it, which is why firms trust us with work that off-the-shelf legal AI keeps getting wrong.\n\nWe help law firms claim the legal work they're leaving on the table by building AI and software around how each firm already works.\n\nHi everyone, we're Peyton and Michael Marcotte, brothers and co-founders of Perceptron ML (YC S26). We make law firms AI-native: we build the AI and software a firm needs to scale. Not a product off the shelf, a system built around how your firm already works, where no fact is used until it traces to a real document.\n\nPerceptron ML (YC S26) Launch Video\n\nThe problem. In 2023, two New York lawyers filed a brief written by AI that cited six cases that did not exist. Courts have caught it more than a thousand times since. So most firms went back to doing everything by hand, and by hand the math is brutal: lawyers lose \\~40% of their day to work that isn't law, and tens of billions in legal work goes unclaimed every year because firms can't move fast enough to take it.\n\nWhat we do. Every firm'",
     "industry_sub_vertical": "Law firm litigation & discovery workflow automation",
     "canonical_vertical_id": "professional.law-firms",
     "vertical_id": "professional.law-firms",
@@ -59226,7 +59705,13 @@
     "primary_bm": "BM-01",
     "primary_bm_rationale": "Perceptron ML primarily monetizes by selling custom AI software products deployed in law firms' private environments for workflow automation (timekeeping, intake, research, discovery, drafting), which is vertical SaaS delivery to the legal vertical, not outsourced labor or managed outcomes.",
     "primary_bm_assigned_at": "2026-07-30T19:00:06.446Z",
-    "primary_bm_method": "assign_primary_bm_haiku"
+    "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 110491,
+    "launch_url": "https://www.ycombinator.com/launches/Sk7-perceptron-ml-we-make-law-firms-ai-native",
+    "launch_title": "Perceptron ML: We make law firms AI-native",
+    "launch_created_at": "2026-08-14T12:00:00.181Z",
+    "launch_tagline": "We help law firms claim the legal work they're leaving on the table by building AI and software around how each firm already works.",
+    "launch_evaluated_at": "2026-08-14T14:49:34.843Z"
   },
   {
     "slug": "percival",
@@ -61716,6 +62201,52 @@
     "launch_created_at": "2026-06-25T19:41:41.476Z",
     "launch_tagline": "Understand why users behave the way they do—hypotheses from your data, validated through interviews.",
     "launch_evaluated_at": "2026-07-30T16:56:29.919Z"
+  },
+  {
+    "slug": "powder",
+    "name": "Powder",
+    "website": "https://www.powderfi.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/powder",
+    "batch": "Winter 2024",
+    "one_liner": "AI agents that discover, execute, and verify work for wealth management firms",
+    "description_combined": "AI agents that discover, execute, and verify work for wealth management firms\n\nPlaybook is an AI orchestration platform for wealth management firms.\n\nInstead of waiting for a human to prompt an AI copilot, Playbook deploys persistent AI agents that continuously discover work, investigate it, execute workflows, and verify the results.\n\nToday, \\~40 wealth management firms representing $660B in client assets are already on the platform.\n\nWe’re launching Playbook publicly at:\n\nhttps://askplaybook.ai\n\n\n\n## The Problem\n\nWealth management firms have spent years digitizing their businesses.\n\nThey have CRMs, portfolio management systems, custodians, financial planning tools, document repositories, email, meeting notes, and increasingly, AI copilots.\n\nBut there’s still a fundamental problem:\n\nSomeone has to notice that work needs to happen.\n\nConsider something simple.\n\nA client normally keeps $100K in cash. One morning, that balance becomes $600K.\n\nThere may be no email.\n\nNo task.\n\nNo meeting.\n\nNo explicit instruction telling an advisor to investigate.\n\nSomeone has to notice the change, understand why it happened, determine whether action is required, gather the relevant context, decide what to do next, execute the work, and make sure it was done correctly.\n\nAI copilots can make individual steps faster, but they still generally depend on a human to recognize the work, provide the context, and initiate the process.\n\nThat led us to a different question:\n\nWhat if the work discovered itself?\n\n## Introducing Playbook\n\nPlaybook is built around persistent AI agents that",
+    "industry_sub_vertical": "Wealth management operations & advisor workflow automation",
+    "canonical_vertical_id": "fintech.wealth.asset-management",
+    "vertical_id": "fintech.wealth.asset-management",
+    "vertical_label": "Asset & wealth management",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "autonomous_work_discovery",
+      "multi_system_context_aggregation",
+      "workflow_execution_verification",
+      "persistent_agent_orchestration"
+    ],
+    "what_they_sell": "Playbook: an AI orchestration platform deployed as persistent agents within wealth management firms that autonomously discover work across CRMs, portfolio systems, custodians, and email; investigate context; execute workflows; and verify results without human initiation.",
+    "ai_play": "Replaces the human work-discovery and initiation bottleneck by deploying always-on agents that monitor client data, detect anomalies (e.g., cash balance spikes), gather context from multiple systems, decide on required actions, execute workflows, and validate completion. Agents operate continuously rather than reactively, eliminating the need for advisors to manually notice and prompt work.",
+    "who_pays": "Wealth management firms (RIAs, private banks, family offices) — specifically operations teams, compliance, and advisory leadership seeking to reduce manual work and improve advisor productivity.",
+    "confidence": 0.82,
+    "rationale": "Powder/Playbook is a vertical SaaS product deployed into wealth management with autonomous AI agents as the core SKU. Primary phenotype is vertical-agentic-workflow-saas because: (1) end-user-facing SaaS sold to wealth management firms, (2) agents autonomously execute job functions (work discovery, investigation, execution, verification) within a specific vertical, (3) high switching cost via integration with CRMs, portfolio systems, custodians, and email. Secondary phenotype is agent-context-infra because the platform solves the 'context explosion' problem by aggregating and structuring data from multiple systems (CRM, portfolio mgmt, custodian, email, docs) into token-efficient context for agent consumption. Confidence is 0.82 (not higher) because the description emphasizes agent orchestration and workflow automation, but does not explicitly detail whether agents have autonomous decision-making authority or require human approval gates; however, the language 'discover, execute, and verify' suggests high autonomy.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "Fintech"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-01"
+    ],
+    "launch_id": 110475,
+    "launch_url": "https://www.ycombinator.com/launches/Sjr-playbook-ai-agents-that-run-wealth-management-operations",
+    "launch_title": "Playbook — AI agents that run wealth management operations",
+    "launch_created_at": "2026-08-13T19:28:17.154Z",
+    "launch_tagline": "AI agents that discover, execute, and verify work for wealth management firms",
+    "launch_ingested_at": "2026-08-14T14:49:34.843Z",
+    "classified_at": "2026-08-14T14:49:34.843Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "powermatrix",
@@ -67173,7 +67704,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/risklytics",
     "batch": "Summer 2026",
     "one_liner": "Commercial Insurance Brokerage for Frontier Tech",
-    "description_combined": "Commercial Insurance Brokerage for Frontier Tech\n\nRisklytics is a commercial insurance brokerage for frontier tech: robotics, autonomy, data centers, and energy infrastructure. Insurers are writing AI exclusions into standard liability forms, so companies whose products act in the physical world end up holding risk they thought they had transferred. We specialize in that gap, and we know which carriers in the admitted and surplus lines markets will still underwrite it. If you&#x27;re building anything that moves, lifts, drives, or powers something, we&#x27;d like to talk.",
+    "description_combined": "Commercial Insurance Brokerage for Frontier Tech\n\nRisklytics is a commercial insurance brokerage for frontier tech: robotics, autonomy, data centers, and energy infrastructure. Insurers are writing AI exclusions into standard liability forms, so companies whose products act in the physical world end up holding risk they thought they had transferred. We specialize in that gap, and we know which carriers in the admitted and surplus lines markets will still underwrite it. If you&#x27;re building anything that moves, lifts, drives, or powers something, we&#x27;d like to talk.\n\nInsurance for companies pushing the frontier of what is possible with AI, from robot fleets to agents in production.\n\nTLDR: Risklytics is a commercial insurance brokerage for companies building with AI in the physical space, from robot fleets on customer sites to agents running in production. This year many insurance companies stopped covering risks that involve AI. We find the insurers that will still cover it, translate what you're building into terms they can price, and read every clause before anything is signed.\n\n\n\nThe problem\n\nStarting this year, many insurance companies began excluding coverage for injury and property damage arising out of AI.\n\nFor a hardtech company that language reaches everything you do. If AI touched the work anywhere, including the tools your engineers designed it with or the product itself, the insurer can deny the claim.\n\nThe problem with these exclusions is that they get ad",
     "industry_sub_vertical": "Frontier tech liability insurance brokerage (robotics, autonomy, data centers, energy infrastructure)",
     "canonical_vertical_id": "fintech.insurance.agent-liability",
     "vertical_id": "fintech.insurance.agent-liability",
@@ -67247,7 +67778,13 @@
     ],
     "directory_synced_at": "2026-07-30T16:03:34.844Z",
     "classified_at": "2026-07-30T16:03:34.844Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110197,
+    "launch_url": "https://www.ycombinator.com/launches/SfN-risklytics-insurance-for-the-frontier",
+    "launch_title": "Risklytics: Insurance for the Frontier",
+    "launch_created_at": "2026-08-13T16:30:00.597Z",
+    "launch_tagline": "Insurance for companies pushing the frontier of what is possible with AI, from robot fleets to agents in production.",
+    "launch_evaluated_at": "2026-08-14T14:49:34.844Z"
   },
   {
     "slug": "ritivel",
@@ -77541,6 +78078,72 @@
     "launch_evaluated_at": "2026-08-04T16:11:35.017Z"
   },
   {
+    "slug": "tarifflo-inc",
+    "name": "Tarifflo Inc.",
+    "website": "https://www.tarifflo.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/tarifflo-inc",
+    "batch": "Summer 2026",
+    "one_liner": "Supply chain compliance and cost savings",
+    "description_combined": "Supply chain compliance and cost savings",
+    "industry_sub_vertical": "Tariff classification and customs duty optimization for importers/exporters",
+    "canonical_vertical_id": "freight.cross-border",
+    "vertical_id": "freight.cross-border",
+    "vertical_label": "Cross-border & customs clearance management",
+    "vertical_sector_id": "transportation-logistics",
+    "phenotype_primary_id": "vertical-workflow-automation-ai",
+    "phenotype_primary_label": "Vertical Workflow Automation Agent",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "document_parsing",
+      "compliance_rule_engine",
+      "cost_optimization",
+      "tariff_classification"
+    ],
+    "what_they_sell": "AI-powered supply chain compliance and tariff optimization platform that automates tariff classification, duty calculation, trade documentation, and regulatory compliance workflows for importers/exporters and logistics operators.",
+    "ai_play": "AI agents parse shipment manifests, product specifications, and trade documents to automatically classify goods under HS codes, calculate optimal tariff treatments, identify duty-saving opportunities, and generate compliant trade documentation—replacing manual, error-prone tariff specialist work.",
+    "who_pays": "Supply chain operators, freight forwarders, importers/exporters, 3PLs, and enterprise procurement teams managing cross-border logistics.",
+    "confidence": 0.75,
+    "rationale": "Tarifflo targets supply chain compliance and cost savings via AI automation. Primary fit is vertical-workflow-automation-ai: they automate end-to-end tariff/trade compliance workflows by parsing unstructured domain documents (shipping manifests, product specs, trade regulations) and integrating with logistics/ERP systems. Secondary fit is compliance-gov-automation because tariff classification and trade documentation are high-compliance, high-friction workflows with regulatory audit requirements. The AI play is clear: agents replace manual tariff specialist work, reduce misclassification risk, and unlock duty-saving opportunities. High switching cost via integration with supply chain systems and domain expertise in tariff law.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Supply Chain and Logistics"
+    ],
+    "yc_tags": [
+      "B2B",
+      "LegalTech",
+      "Supply Chain"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 5,
+    "location": "Salt Lake City, UT, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3688899,
+        "full_name": "Bryce Judy",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Tarifflo Inc. Previously Trade Analyst at KPMG US, specializing in customs classification and international tax. Licensed customs broker (CBP). Studied Information Systems at Utah State University.",
+        "linkedin_url": "https://www.linkedin.com/in/brycejudy/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c1d92eae9ff38990e80f1d0c8ebaac4fbc3c4597.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOSJNRMJB%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144744Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJGMEQCIDxE2oE%2FD8e1hoiaIckMcbpieOKHWgmBWwuZHtUsl%2FjCAiABKXF1FkOxEcOUSGlyzKgw3pyc%2FZQ6vZY%2BQKJi55FO4yruAwj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMqAb7LyLzacDIfJoeKsIDcmCNKMCdaZvnB2N3I7neTv4%2BAF1HcrI77%2BUXFOHIAsnMgdstH%2B8p2L%2FES%2FKFX0VaMV07qI0jRTXxMmXf5A3zA8ALfBxIZ7WulrYSQDN7rU8WGkzDl4UEMMDudodR9hH04%2F3ntkgMmdUxCFTPS3W5QCul4pF%2FVA7h1J%2BfTtsxB3kXZb9KGrgw16VVPfActi96G2UlUo2XgelUeOxAyE%2BCshL0osOm72NSmvVTNWLfkW%2BTSs5aOcoF5AdTZZmMNLKktSKp2cO3YGG%2BNuvzs%2FGVLMBJrxHrcA68EpBRDt%2BIOKH2cQmq2RDI%2FzhEyiisvSU23mfZ%2BNxZXNRnWdYXwfHe1Bio%2FqTPe4WpokiYrRC8f2vrHFQVtmmNZI%2Fv3sqKMsF%2BCS2mm%2FrcJwQcKqT%2BpEwkmTk8igdhmWUKGbhdO8wEYrXngGNiqV8Ve7edH1DneME%2BkNqc1zan%2B5bEbNCp7KTq6%2F95SQBY3ll6qCQhKtB0jspbnd6eB7k9IUeRRFnd%2By4K%2BS9DGgGpP7WcX5yb2OB7h%2F40%2BkeBj50PzP0PwhTtUFi5fWUYMxO07R47C2xo%2FGV1AztYmSHvlTVTvr36SfxlZHPnMKy8%2FNMGOqYB1pkkGoh3jaOyizH0lZgw%2B620oxdobaF7%2F1ml8Zl7Tf12CNgm0pjWrAkSoecgZiehC%2FTqgAmsBkd4kjFW5kBNg6YkOn8y6w2blOgyI2E5o4%2B1FqGKrIKWisjimc82K12J9hQVFeHSuEae9FqvJcPsCIo5VbR73%2BQXpHxUUtErfyPu7P1NYfxGpIo8g2pVSyPvDlZR%2FOxna0s18gFSEQ4cXFWivrjvNg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7cc93c686af7d6917d0c833f21db3a7f18f8ac46b7f408f3625807ae85d5e021",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Tarifflo Inc.",
+          "href": "https://www.ycombinator.com/companies/tarifflo-inc"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-14T14:47:52.970Z",
+    "classified_at": "2026-08-14T14:47:52.970Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "tash",
     "name": "tash",
     "website": "https://www.tash.cards/",
@@ -80607,7 +81210,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/touchmark",
     "batch": "Summer 2026",
     "one_liner": "Solving AI pricing",
-    "description_combined": "Solving AI pricing",
+    "description_combined": "Solving AI pricing\n\nBuy tokens in advance with flexibility to resell unused capacity up to 30%+ off - or more for larger orders via direct quotes\n\nTL;DR: We are building a market for future inference capacity. You buy tokens for a model over a time window from the provider of your choice at a price fixed today (up to 30% off - or more for larger orders via direct quotes). If your plans change, you will be able to resell your reserved capacity to another buyer.\n\n\n\nProblem\n\nToken spend is growing and it’s growing fast. Out of 100+ companies we spoke to, most are trying to cut their inference costs.\n\nReserved capacity guarantee deals provide discounts + certainty, but are negotiated bilaterally, take time, and are hard to switch from - as a buyer you commit by prepayment, which you lose if you switch to a different provider, or in some cases even a different model.\n\nWhat if a buyer could:\n\n1. See all possible discounted capacity deals i",
     "industry_sub_vertical": "AI inference cost optimization across multi-cloud providers and hardware configurations",
     "canonical_vertical_id": "compute.gpu-cost-optimization",
     "vertical_id": "compute.gpu-cost-optimization",
@@ -80681,7 +81284,13 @@
     "primary_bm": "BM-03",
     "primary_bm_rationale": "Touchmark sells GPU-accelerated analytics infrastructure to builders and ML engineers optimizing AI inference costs across multi-cloud environments, positioning it as a developer tool for infrastructure cost management.",
     "primary_bm_assigned_at": "2026-07-30T19:00:10.910Z",
-    "primary_bm_method": "assign_primary_bm_haiku"
+    "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 110492,
+    "launch_url": "https://www.ycombinator.com/launches/Sk8-touchmark-market-for-future-inference-capacity",
+    "launch_title": "Touchmark: Market for future inference capacity",
+    "launch_created_at": "2026-08-14T13:43:29.567Z",
+    "launch_tagline": "Buy tokens in advance with flexibility to resell unused capacity up to 30%+ off - or more for larger orders via direct quotes",
+    "launch_evaluated_at": "2026-08-14T14:49:34.842Z"
   },
   {
     "slug": "tovenai",
@@ -81600,7 +82209,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/trident",
     "batch": "Summer 2026",
     "one_liner": "Secure your cloud and webapps by finding real attack paths ",
-    "description_combined": "Secure your cloud and webapps by finding real attack paths \n\nTraditional security tools drown teams in useless alerts and logs. Trident chains vulnerabilities together like a real attacker, mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs to show the exploits that actually cause business impact",
+    "description_combined": "Secure your cloud and webapps by finding real attack paths \n\nTraditional security tools drown teams in useless alerts and logs. Trident chains vulnerabilities together like a real attacker, mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs to show the exploits that actually cause business impact\n\nMy app keeps getting hacked what can I do?\n\nTL;DR: Traditional pentesting is a thing of the past. Attackers use AI now, so we're making it fair. Trident safely and continuously attacks your own apps and cloud so you know what to fix before they do.\n\n\n\nToday we're launching Trident.\n\nAI changed the game on both sides. Your team ships every single hour; attackers scan and exploit at a scale no human team can match. Meanwhile, security is still sold as an annual pentest: a PDF about a version of your product that no longer exists.\n\nThat's not a fair fight. So we built Trident to make it even.\n\nTrident safely runs attacks on your own web apps, APIs, and cloud (AWS, GCP, Azure, Kubernetes), continuously. Every finding comes as an attack path that actually reaches your data, with proof of exploit and a proper fix. You know what to fix bef",
     "industry_sub_vertical": "Cloud attack path mapping & multi-cloud vulnerability chaining",
     "canonical_vertical_id": "security.cloud-security",
     "vertical_id": "security.cloud-security",
@@ -81672,7 +82281,13 @@
     ],
     "directory_synced_at": "2026-08-01T14:58:22.381Z",
     "classified_at": "2026-08-01T14:58:22.381Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110468,
+    "launch_url": "https://www.ycombinator.com/launches/Sjk-trident-secure-your-company-24-7",
+    "launch_title": "Trident: Secure your company 24/7",
+    "launch_created_at": "2026-08-13T22:30:00.463Z",
+    "launch_tagline": "My app keeps getting hacked what can I do?",
+    "launch_evaluated_at": "2026-08-14T14:49:34.843Z"
   },
   {
     "slug": "trim",
@@ -84480,6 +85095,85 @@
     }
   },
   {
+    "slug": "veltha",
+    "name": "Veltha",
+    "website": "https://veltha.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/veltha",
+    "batch": "Summer 2026",
+    "one_liner": "AI claims adjuster for regulated insurance",
+    "description_combined": "AI claims adjuster for regulated insurance\n\nVeltha is an AI claims adjuster. It helps the human decide on a claim faster, so insurance companies save time and reduce their litigation rate.\r\n\r\nLearn more at https://veltha.ai",
+    "industry_sub_vertical": "Property & casualty claims adjudication with AI-driven decision support",
+    "canonical_vertical_id": "insurance.claims-property",
+    "vertical_id": "insurance.claims-property",
+    "vertical_label": "Property & casualty claims processing",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "regulated-ai-decisioning-product",
+    "phenotype_primary_label": "AI-Native Regulated Decisioning Product",
+    "phenotype_family": "regulated_product",
+    "value_wedge": "regulated_product",
+    "ai_application": "risk_underwriting",
+    "ai_application_patterns": [
+      "claims_adjudication",
+      "decision_support",
+      "litigation_risk_reduction"
+    ],
+    "what_they_sell": "B2B SaaS platform embedding AI into insurance claims adjudication workflows. AI agent analyzes claim documentation, policy terms, and historical patterns to recommend approval/denial decisions and flag litigation risk, enabling human adjusters to decide faster with higher confidence.",
+    "ai_play": "AI replaces manual document review and risk assessment in claims processing. Reduces adjudication time, improves consistency, and lowers litigation exposure by surfacing risk signals before human decision-making. Core SKU differentiator for insurers.",
+    "who_pays": "Insurance companies (claims departments, risk/compliance teams); buyers are claims operations leaders and underwriting managers.",
+    "confidence": 0.82,
+    "rationale": "Veltha is a B2B SaaS platform sold to regulated insurance institutions where AI is embedded into a core decisioning workflow (claims adjudication). The AI application is not peripheral—it is the primary value driver: faster, more consistent, lower-litigation claim decisions. This matches regulated-ai-decisioning-product (credit underwriting, risk scoring, claims adjudication). The company takes no underwriting risk itself (no fintech-insurance-ai-product); it is a software vendor enabling insurers' decisioning. Confidence 0.82 reflects strong fit on regulated decisioning + claims domain, with minor uncertainty on whether Veltha also offers outcome-based pricing or pure SaaS subscription model.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Insurance"
+    ],
+    "yc_tags": [
+      "Fintech",
+      "Insurance"
+    ],
+    "business_models": [
+      "BM-05"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2366971,
+        "full_name": "Edin Citaku",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Edin is CEO and co-founder of Veltha, building the AI adjuster for regulated insurance. Prior to Veltha he led Palantir&#x27;s AI deployment at the german FBI. \nHe graduated with BSc and MSc in computer science at the TU Munich",
+        "linkedin_url": "https://www.linkedin.com/in/edin-citaku-564000127",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bdaf52429b81f014247f0a4fb52680e9164ce91a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACTXF33GX%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144734Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJIMEYCIQCGzwm959SSmf%2F3qapYQxjZn4k7FPtHxB0sfhBoJIrNTwIhALoRe6QdNgcEU89LRW%2FOIh7h%2BJZfUsk8tsM27ld57rZeKu4DCP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwHAqq5Tq8YDIGkAEAqwgPb1zsaK5%2Ba3mxOvxKysNcQXNHS%2FCjd6heu48sLReUptbR14wrRl2PWsN63mSQOAqIqnhqUT7IeqyG1Ii559Qcwuf07wppiAcRllepCSDEab4cCtCR4MlAS2dKmNHCBB1%2BGdrDHbookFUIfgosOIOUbEcvsxFCW7p8B6Yh4QrSdLsJiIviCHQOSkEoflNxrCGJ5i8PUm193bKQ4r7CPgO03hWz3UCVQW3ELsnzJ8sUfz94oLctyMDmMNssjJh4QptBqc7b2AWi72OlT136bBQKQbnEN1YAGKmQhQSh%2B%2BoJaaAt432yXIiLfL8%2BrROlCmLP8cdmq6oRklwQqs7Xuvm45S34oW1XkQUSr%2BbTGVIKRD1vYDyZU08GKbyMA2x2cR1W5aZsFqL1oSAOqxHZCiPwsvLy%2FbNwqfN1JUDuwfJ4aAJE3ywnWfgcujsdJy6jeHNJQsks%2BhhKpxJt%2BeOnv79KIeC4bcgeZnKRQA2M7y0LzHtsql8nhuhw8ovkONQWKmY57LgIeufhLGb5VL6B2%2BYxa3%2BXGwz5T0wNLExuhj7iBV%2BpoyPEsQJzfKYURnMFX3bPsAnvvDfpgyjKPWqZu7SDjElcwq7z80wY6pAEVjgd0bthwOqutt5tOXMa1AlNleR5SF4CQFZHx%2BErLPcqfFADRg9ho%2FEt1J2pRj4GhSRSHaEhxV93%2FiLFTxhVpkqODO%2BBo52ExvanEn3ia6d5u4m2ag1Y6gmsmU0fFJiwPhGAyFONIpLqjmGC%2BXIhaJ4QhXlv2lq%2FGCyjlOM2y4FqQ895gw4QZ5PX2uDBXxoz6W7cXEa%2F6ww3%2BWlqbm7pZ0gwrsg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=21a6cf9559e1a165340975578e766cf0484d7a755240651f249a3aae366adba0",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Veltha",
+          "href": "https://www.ycombinator.com/companies/veltha"
+        }
+      },
+      {
+        "user_id": 976541,
+        "full_name": "Roland Jaloszynski",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Roland is a co-founder of Veltha, an AI claims adjuster for federally regulated insurance. He was previously a technical lead on mortgage underwriting automation at Palantir for a $642B servicer, compiling agency guidebooks into executable rules. He earned his computing degree from Poznan University of Technology while working as a software engineer at Amazon, LocalBini and DAC.digital.",
+        "linkedin_url": "https://www.linkedin.com/in/roland-jal",
+        "twitter_url": "https://x.com/RJaloszynski",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1d12b27a5c3db72426424a70065a0a1a72eb1d87.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACTXF33GX%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144734Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJIMEYCIQCGzwm959SSmf%2F3qapYQxjZn4k7FPtHxB0sfhBoJIrNTwIhALoRe6QdNgcEU89LRW%2FOIh7h%2BJZfUsk8tsM27ld57rZeKu4DCP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwHAqq5Tq8YDIGkAEAqwgPb1zsaK5%2Ba3mxOvxKysNcQXNHS%2FCjd6heu48sLReUptbR14wrRl2PWsN63mSQOAqIqnhqUT7IeqyG1Ii559Qcwuf07wppiAcRllepCSDEab4cCtCR4MlAS2dKmNHCBB1%2BGdrDHbookFUIfgosOIOUbEcvsxFCW7p8B6Yh4QrSdLsJiIviCHQOSkEoflNxrCGJ5i8PUm193bKQ4r7CPgO03hWz3UCVQW3ELsnzJ8sUfz94oLctyMDmMNssjJh4QptBqc7b2AWi72OlT136bBQKQbnEN1YAGKmQhQSh%2B%2BoJaaAt432yXIiLfL8%2BrROlCmLP8cdmq6oRklwQqs7Xuvm45S34oW1XkQUSr%2BbTGVIKRD1vYDyZU08GKbyMA2x2cR1W5aZsFqL1oSAOqxHZCiPwsvLy%2FbNwqfN1JUDuwfJ4aAJE3ywnWfgcujsdJy6jeHNJQsks%2BhhKpxJt%2BeOnv79KIeC4bcgeZnKRQA2M7y0LzHtsql8nhuhw8ovkONQWKmY57LgIeufhLGb5VL6B2%2BYxa3%2BXGwz5T0wNLExuhj7iBV%2BpoyPEsQJzfKYURnMFX3bPsAnvvDfpgyjKPWqZu7SDjElcwq7z80wY6pAEVjgd0bthwOqutt5tOXMa1AlNleR5SF4CQFZHx%2BErLPcqfFADRg9ho%2FEt1J2pRj4GhSRSHaEhxV93%2FiLFTxhVpkqODO%2BBo52ExvanEn3ia6d5u4m2ag1Y6gmsmU0fFJiwPhGAyFONIpLqjmGC%2BXIhaJ4QhXlv2lq%2FGCyjlOM2y4FqQ895gw4QZ5PX2uDBXxoz6W7cXEa%2F6ww3%2BWlqbm7pZ0gwrsg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=aa06b580ed8cece5805a69f2748e986deec970a2774529d86c9d42487657a29c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Veltha",
+          "href": "https://www.ycombinator.com/companies/veltha"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-14T14:47:44.224Z",
+    "classified_at": "2026-08-14T14:47:44.224Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "velum-labs",
     "name": "Velum Labs",
     "website": "https://www.velum-labs.com/",
@@ -86643,6 +87337,87 @@
     }
   },
   {
+    "slug": "waybill",
+    "name": "Waybill",
+    "website": "https://www.waybill.to/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/waybill",
+    "batch": "Summer 2026",
+    "one_liner": "Managed procurement & inventory for hardware teams.",
+    "description_combined": "Managed procurement & inventory for hardware teams.\n\nHardware teams burn weeks on procurement. An engineer needs a part. Someone emails five distributors, chases quotes, gets an approval, wires the money, tracks a shipment across three carriers, clears customs, and then nobody knows where the box is or what&#x27;s actually on the shelf.\r\n\r\nWaybill runs that entire loop. Send us a part, a spec, or a BOM. We source it, pull quotes, route approvals, pay the supplier, handle freight and customs, track it to your dock, and keep your stock count updated. \r\n\r\nTake your supply chain for granted.\r\n\r\nBuilt by a team that&#x27;s seen it at LAT Aerospace and WareIQ (YC S20).",
+    "industry_sub_vertical": "Hardware procurement & inventory management for manufacturing and aerospace teams",
+    "canonical_vertical_id": "logistics.supply-chain.ops",
+    "vertical_id": "logistics.supply-chain.ops",
+    "vertical_label": "Supply chain & procurement operations",
+    "vertical_sector_id": "transportation-logistics",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "procurement_automation",
+      "supplier_routing",
+      "logistics_orchestration",
+      "inventory_tracking"
+    ],
+    "what_they_sell": "End-to-end managed procurement and inventory service for hardware teams. Customers submit part specs or BOMs; Waybill autonomously sources from distributors, negotiates quotes, routes approvals, processes payments, manages freight/customs, tracks shipments, and maintains real-time inventory visibility.",
+    "ai_play": "AI agents automate the entire procurement-to-dock workflow: parsing part specs, querying supplier networks, evaluating quotes against approval rules, coordinating multi-carrier logistics, and syncing inventory. Replaces weeks of manual email, phone calls, and spreadsheet tracking with autonomous end-to-end execution.",
+    "who_pays": "Hardware teams, manufacturing operations, aerospace/defense contractors, and OEMs that need reliable, hands-off procurement and supply chain visibility.",
+    "confidence": 0.78,
+    "rationale": "Waybill is a vertical SaaS deploying autonomous agents to replace manual procurement workflows specific to hardware/manufacturing. Primary phenotype is vertical-agentic-workflow-saas because they sell an end-user-facing product (SaaS) that deploys agents to automate job functions (procurement, logistics, inventory) within a vertical (hardware/aerospace). Secondary phenotype is ai-native-service-provider because they also take operational/contractual responsibility for the entire procurement process (sourcing, payment, customs, delivery) and could be monetized on outcome/contingency basis (e.g., cost savings, on-time delivery). The AI play is autonomous workflow orchestration across supplier networks, logistics, and compliance. High confidence due to clear vertical focus, agentic automation, and end-to-end workflow replacement.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Supply Chain and Logistics"
+    ],
+    "yc_tags": [
+      "Logistics",
+      "Procurement",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 5,
+    "location": "Gurugram, HR, India",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1476118,
+        "full_name": "Tushar Goyal",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Building Waybill (S26) | Ex-Engineer @ WareIQ (S20) | CS & AI @ Plaksha University",
+        "linkedin_url": "https://www.linkedin.com/in/thetushargoyal/",
+        "twitter_url": "https://x.com/thetushargoyal",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fd749c59593d9ac4681a39e6a981f1d0f291cd1b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFQ6KB7SA%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144716Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJHMEUCIGzTA46kOzGaNGcaklm6%2FEKXIj03yWs01WQDXSs1LoP6AiEA%2FKBfE5DaSAsRt1zC6V3pgF2oQTntsSGOn43fnt3GHR0q7gMI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDJLKpYQkzCuOsTfChSrCA9%2B3Uk6mN7pw2iHOzML0Zd2aKZUjhsmjzDZi%2Bn2nO%2Fyfa2osabCwiw3MUK5JdxnrjqJT2MvO3iw6huYDMfOJjEnVMVhWUI5GsEwsBwMYS%2FX2OnTOly6CuO2cOu4D15nzZ%2FLbXLtWDRWN%2FgfZcwgFv%2BsdUAK%2BPe53MVECL9wyFfTYvzumKipJZ5hKfpSZmDRf2xfpEQOxxOfcmh%2F7l%2FcBY6clLcU%2F6Mny3MLMGaFL79kKP9jEz1IYtIwmSu%2Be3ZGz9Rll6Oq6ZGwQkb25kN4kkXUk808osxRiLJzIRmHSfobg786hjRHpezokSEla5mORy3BjPoKuALwcVdbwCUixmZtLRP6uHrt8aFkRscAnHUuhd3RaSIAIYT87N8z3uAe5Egs0EuP4IDSuODJBCFEehzPxmfzvIDjeeCnCGlIHFK9zcrAqs%2BbBClKtVy8nvKCp5D5s7R0nlXI3l9cT3OVTzcpjliQcUu1Tstn0Lx54FYKLLNKHu8c1YblBkqZ7IUhFXUUbbk4cZ96cD9IDtU%2BQR%2Bj2HqRq6%2BagEQQZprnalO5yFff6YuZTdiRdCN%2BpkWE4sG%2BszzsbidHLHQeRQaSrYdH7szCrvPzTBjqlAYXFo15aFx3ADR0zjK1x41B92uMU4HpO2GpUlYQaU85BYfM0ZhyqVY%2Bzv8LfOUpOzmX9ImXE1HmEBPBLhbjCehF6LTahq7cClKLSHPofrWv9hTpwTQvMMvyteroymEGda9HkJ8tN9xCclzEueU9OFV8Sg0KnR3Boj9Y4NsuBhsZskIlKnWV2GWAmDa5OqqXEhpOLGpaSpH6ZfX2yFFzKPJch0%2B0PSg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c345fe92cd7f0d9719fa3835bef914784066688cfa81d00197b43dd0a3e90292",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Waybill",
+          "href": "https://www.ycombinator.com/companies/waybill"
+        }
+      },
+      {
+        "user_id": 1071184,
+        "full_name": "Rishi Laddha",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Waybill. Previously managed operations, supply chain, and government relations at LAT Aerospace (founded by Deepinder Goyal of Zomato). Built and scaled AI trade assistants at INDmoney. BTech in CS & AI from Plaksha University.",
+        "linkedin_url": "https://www.linkedin.com/in/rishiladdha",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/50bddf9b35eb2d7b15a92974b396c1a57b8d634f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFQ6KB7SA%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144716Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJHMEUCIGzTA46kOzGaNGcaklm6%2FEKXIj03yWs01WQDXSs1LoP6AiEA%2FKBfE5DaSAsRt1zC6V3pgF2oQTntsSGOn43fnt3GHR0q7gMI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDJLKpYQkzCuOsTfChSrCA9%2B3Uk6mN7pw2iHOzML0Zd2aKZUjhsmjzDZi%2Bn2nO%2Fyfa2osabCwiw3MUK5JdxnrjqJT2MvO3iw6huYDMfOJjEnVMVhWUI5GsEwsBwMYS%2FX2OnTOly6CuO2cOu4D15nzZ%2FLbXLtWDRWN%2FgfZcwgFv%2BsdUAK%2BPe53MVECL9wyFfTYvzumKipJZ5hKfpSZmDRf2xfpEQOxxOfcmh%2F7l%2FcBY6clLcU%2F6Mny3MLMGaFL79kKP9jEz1IYtIwmSu%2Be3ZGz9Rll6Oq6ZGwQkb25kN4kkXUk808osxRiLJzIRmHSfobg786hjRHpezokSEla5mORy3BjPoKuALwcVdbwCUixmZtLRP6uHrt8aFkRscAnHUuhd3RaSIAIYT87N8z3uAe5Egs0EuP4IDSuODJBCFEehzPxmfzvIDjeeCnCGlIHFK9zcrAqs%2BbBClKtVy8nvKCp5D5s7R0nlXI3l9cT3OVTzcpjliQcUu1Tstn0Lx54FYKLLNKHu8c1YblBkqZ7IUhFXUUbbk4cZ96cD9IDtU%2BQR%2Bj2HqRq6%2BagEQQZprnalO5yFff6YuZTdiRdCN%2BpkWE4sG%2BszzsbidHLHQeRQaSrYdH7szCrvPzTBjqlAYXFo15aFx3ADR0zjK1x41B92uMU4HpO2GpUlYQaU85BYfM0ZhyqVY%2Bzv8LfOUpOzmX9ImXE1HmEBPBLhbjCehF6LTahq7cClKLSHPofrWv9hTpwTQvMMvyteroymEGda9HkJ8tN9xCclzEueU9OFV8Sg0KnR3Boj9Y4NsuBhsZskIlKnWV2GWAmDa5OqqXEhpOLGpaSpH6ZfX2yFFzKPJch0%2B0PSg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=8bd4776fc50e0137da0aeed035fe287e2f07671b3ab7df9d6823b3d443b7bbdb",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Waybill",
+          "href": "https://www.ycombinator.com/companies/waybill"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-14T14:47:26.245Z",
+    "classified_at": "2026-08-14T14:47:26.245Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "wayco",
     "name": "Wayco",
     "website": "https://wayco.ai",
@@ -87604,6 +88379,72 @@
     "launch_created_at": "2026-07-30T16:40:18.492Z",
     "launch_tagline": "Break down any complex topic into a personalized path of short interactive lessons",
     "launch_evaluated_at": "2026-07-30T16:56:29.906Z"
+  },
+  {
+    "slug": "wondertx",
+    "name": "WonderTx",
+    "website": "https://wondertx.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/wondertx",
+    "batch": "Summer 2026",
+    "one_liner": "Extrapolative AI to unlock First-in-Class drugs",
+    "description_combined": "Extrapolative AI to unlock First-in-Class drugs\n\nWe’re an AI-native biotech, working on replacing needles with pills. Many drugs, like insulin or Ozempic, are wonderful except you have to inject them. We discover new molecules that you can take as a pill instead. Because the pills operate on biology which has been shown to be effective in people, rather than merely in animal models of disease, we avoid what has historically been the single biggest risk in drug discovery.  This should dramatically increase our probability of success.\r\n\r\nThere’s $200B of treatable diseases and validated human biology without a pill because discovery programs lack a tractable chemical starting point. This is a zero-shot inference problem, because these targets have no training data, so LLMs and other historical interpolative AI approaches are insufficient. Instead, we are building our own extrapolative frontier models that reason beyond their training data. Most critically, we have repeatedly validated our platform on both our own and partner programs. On 4 biologically- and structurally-diverse targets where we had zero training data, we successfully picked binders that were validated experimentally, with confirmation ranging from primary screen hits to crystallographic structures.",
+    "industry_sub_vertical": "AI-native small-molecule drug discovery for oral formulations of validated injectable therapeutics",
+    "canonical_vertical_id": "healthcare.pharma.drug-discovery",
+    "vertical_id": "healthcare.pharma.drug-discovery",
+    "vertical_label": "Drug discovery & delivery R&D",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "biotech-rd-agent",
+    "phenotype_primary_label": "Biotech / clinical R&D acceleration",
+    "phenotype_family": "life_sciences",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "molecular_design",
+      "zero_shot_inference",
+      "drug_discovery_automation",
+      "structure_prediction"
+    ],
+    "what_they_sell": "AI-native drug discovery platform using extrapolative frontier models to identify novel small-molecule binders for validated human biology targets lacking tractable chemical starting points. Discovers pill-form alternatives to injectable therapeutics (e.g., oral insulin, oral GLP-1 analogs).",
+    "ai_play": "Proprietary frontier models trained to reason beyond training data (zero-shot inference) rather than interpolate. Validates predictions experimentally on structurally-diverse targets with no prior training data. Dramatically reduces drug discovery risk by targeting validated human biology instead of animal models.",
+    "who_pays": "Pharma companies, biotech firms, and internal R&D (as AI-native biotech, they may also monetize via licensing, partnerships, or eventual drug commercialization).",
+    "confidence": 0.92,
+    "rationale": "WonderTx is an AI-native biotech company automating drug discovery via proprietary extrapolative AI models. Core value is scientific workflow automation (molecular design, zero-shot binding prediction, structure validation) applied to a high-risk, high-value problem (first-in-class drug discovery). Fits biotech-rd-agent phenotype: R&D acceleration through agentic AI workflows, validated on real experimental outcomes. Secondary consideration: they may eventually operate as a fintech-insurance-ai-product if they take on drug development risk directly, but current positioning is as a discovery platform/service, not a regulated pharmaceutical product SKU.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare",
+      "Therapeutics"
+    ],
+    "yc_tags": [
+      "AI-powered Drug Discovery",
+      "Generative AI",
+      "Biotech"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA; Remote",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 7359,
+        "full_name": "Abraham Heifets",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder and CEO of A Company in Stealth Mode. Previously, cofounded Atomwise, the first company to deploy deep learning for structure-based drug design ($220+ million in funding; 100 hires; signed $5B in total partnership value with Sanofi, Bayer, Eli Lilly, etc; ran largest AI-driven drug discovery experiment w/ 600+ researchers in 30 countries).  Even more previous: PhD @ U of Toronto; inventor on 15 patents + applications; IBM Research; AI for Cornell’s world champion robotic soccer team.",
+        "linkedin_url": "https://www.linkedin.com/in/abrahamheifets/",
+        "twitter_url": "https://twitter.com/AbeHeifets",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/571a64309f08a9ce37f2b403541f4d87c8410311.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFQ6KB7SA%2F20260814%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260814T144824Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDYaCXVzLXdlc3QtMiJHMEUCIGzTA46kOzGaNGcaklm6%2FEKXIj03yWs01WQDXSs1LoP6AiEA%2FKBfE5DaSAsRt1zC6V3pgF2oQTntsSGOn43fnt3GHR0q7gMI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDJLKpYQkzCuOsTfChSrCA9%2B3Uk6mN7pw2iHOzML0Zd2aKZUjhsmjzDZi%2Bn2nO%2Fyfa2osabCwiw3MUK5JdxnrjqJT2MvO3iw6huYDMfOJjEnVMVhWUI5GsEwsBwMYS%2FX2OnTOly6CuO2cOu4D15nzZ%2FLbXLtWDRWN%2FgfZcwgFv%2BsdUAK%2BPe53MVECL9wyFfTYvzumKipJZ5hKfpSZmDRf2xfpEQOxxOfcmh%2F7l%2FcBY6clLcU%2F6Mny3MLMGaFL79kKP9jEz1IYtIwmSu%2Be3ZGz9Rll6Oq6ZGwQkb25kN4kkXUk808osxRiLJzIRmHSfobg786hjRHpezokSEla5mORy3BjPoKuALwcVdbwCUixmZtLRP6uHrt8aFkRscAnHUuhd3RaSIAIYT87N8z3uAe5Egs0EuP4IDSuODJBCFEehzPxmfzvIDjeeCnCGlIHFK9zcrAqs%2BbBClKtVy8nvKCp5D5s7R0nlXI3l9cT3OVTzcpjliQcUu1Tstn0Lx54FYKLLNKHu8c1YblBkqZ7IUhFXUUbbk4cZ96cD9IDtU%2BQR%2Bj2HqRq6%2BagEQQZprnalO5yFff6YuZTdiRdCN%2BpkWE4sG%2BszzsbidHLHQeRQaSrYdH7szCrvPzTBjqlAYXFo15aFx3ADR0zjK1x41B92uMU4HpO2GpUlYQaU85BYfM0ZhyqVY%2Bzv8LfOUpOzmX9ImXE1HmEBPBLhbjCehF6LTahq7cClKLSHPofrWv9hTpwTQvMMvyteroymEGda9HkJ8tN9xCclzEueU9OFV8Sg0KnR3Boj9Y4NsuBhsZskIlKnWV2GWAmDa5OqqXEhpOLGpaSpH6ZfX2yFFzKPJch0%2B0PSg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6b3729ae01bde4393653dcb7591a6c49a2693cdc614fe31ea3501ff0cb70a33b",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "WonderTx",
+          "href": "https://www.ycombinator.com/companies/wondertx"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-14T14:48:34.178Z",
+    "classified_at": "2026-08-14T14:48:34.178Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "woz",
