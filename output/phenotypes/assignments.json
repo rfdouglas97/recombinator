@@ -5380,7 +5380,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/arbital",
     "batch": "Summer 2026",
     "one_liner": "The trading terminal for perps, memes, and stocks.",
-    "description_combined": "The trading terminal for perps, memes, and stocks.\n\nArbital is a trading terminal for perps, memes, and stocks. In our first 7 months, 2,400 traders have traded $1.2B in volume through Arbital, and we&#x27;re now doing $300M/month.\r\n\r\nWe&#x27;re building towards a social, mobile-first trading app that brings tokenized equities, crypto, and perps to everyone.",
+    "description_combined": "The trading terminal for perps, memes, and stocks.\n\nArbital is a trading terminal for perps, memes, and stocks. In our first 7 months, 2,400 traders have traded $1.2B in volume through Arbital, and we&#x27;re now doing $300M/month.\r\n\r\nWe&#x27;re building towards a social, mobile-first trading app that brings tokenized equities, crypto, and perps to everyone.\n\nTrade Anything, Anywhere - 2,700 traders have traded $1.35B in 7 months\n\nTL;DR: Arbital is a trading terminal for memecoins, stocks, and perps. In our first seven months, 2,700 traders have traded $1.35B through Arbital. We recently hit a record $41M in daily volume and are now doing \\~$435M/month in trading volume. \n\n\n\nThe problem\n\nVolatility no longer lives in one market.\n\nOn any given day, it might be a memecoin ripping, an AI stock pumping, or a Korean or Chinese stock moving.\n\nBut two things get in the way:\n\n* Discovery is noisy. Trade ideas are scattered across social feeds, and it's hard to know who's credible or why they're making a trade.\n* Execution is fragmented. There's no single place to trade every market that matters - crypto, memes, perps, and equities.\n\nArbital brings traders, trade ideas, and markets into one place.\n\nWhat we built\n\nArbital is ",
     "industry_sub_vertical": "Retail crypto derivatives & tokenized equities trading terminal",
     "canonical_vertical_id": "consumer.finance.investment-advisory",
     "vertical_id": "consumer.finance.investment-advisory",
@@ -5436,7 +5436,13 @@
     ],
     "directory_synced_at": "2026-08-05T16:00:53.799Z",
     "classified_at": "2026-08-05T16:00:53.799Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110390,
+    "launch_url": "https://www.ycombinator.com/launches/SiU-arbital-trade-memes-stocks-and-perps-from-one-place",
+    "launch_title": "Arbital - Trade memes, stocks, and perps from one place",
+    "launch_created_at": "2026-08-15T02:00:00.546Z",
+    "launch_tagline": "Trade Anything, Anywhere - 2,700 traders have traded $1.35B in 7 months",
+    "launch_evaluated_at": "2026-08-15T14:19:33.886Z"
   },
   {
     "slug": "arc-prize-foundation",
@@ -13324,6 +13330,89 @@
     }
   },
   {
+    "slug": "cactus-compute",
+    "name": "Cactus Compute",
+    "website": "https://www.cactuscompute.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/cactus-compute",
+    "batch": "Summer 2025",
+    "one_liner": "Tiny Edge AI For Tiny Devices",
+    "description_combined": "Tiny Edge AI For Tiny Devices\n\nOn-device AI for phones, wearables, smart home, robots and small robots:\r\n- Cactus Needle: 14MB agentic LLM for tiny devices\r\n- Cactus Engine: fastest runtime for tiny devices\r\n- Cactus Hybrid: post-trained models fall back to cloud",
+    "industry_sub_vertical": "Edge AI inference runtime for resource-constrained devices (phones, wearables, smart home, robots)",
+    "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_label": "GPU infrastructure for model deployment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "edge-inference-runtime",
+    "phenotype_primary_label": "Edge Inference Runtime & Optimization",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "model_compression",
+      "on_device_inference",
+      "agentic_llm_optimization",
+      "hybrid_cloud_fallback"
+    ],
+    "what_they_sell": "Cactus Needle (14MB agentic LLM), Cactus Engine (optimized runtime), and Cactus Hybrid (cloud fallback system) — enabling frontier AI models to run efficiently on phones, wearables, smart home devices, and robots without cloud dependency.",
+    "ai_play": "Compresses and optimizes large language models to run on severely constrained edge hardware (14MB footprint) while maintaining agentic capabilities. Hybrid architecture allows graceful degradation to cloud when local inference insufficient. Eliminates cloud latency, privacy concerns, and connectivity dependencies for edge AI applications.",
+    "who_pays": "Device manufacturers (phone OEMs, wearable makers, smart home platforms, robotics companies), enterprises deploying AI on edge hardware, and developers building on-device AI applications.",
+    "confidence": 0.85,
+    "rationale": "Cactus Compute is a clear fit for edge-inference-runtime: they build infrastructure (runtime + model optimization) enabling efficient deployment of AI models on edge devices. The 14MB agentic LLM and optimized engine directly solve the model-compression and device-agnostic-runtime problem. Secondary signals: open-source distribution (developer GTM), hard tech (model optimization), and developer tools positioning. Not a consumer app, not a vertical SaaS, not a service — pure infrastructure layer for edge AI deployment.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Developer Tools",
+      "Hard Tech",
+      "Open Source",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 8,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1131467,
+        "full_name": "Roman Shemet",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Former quant & economist with a background in product and data engineering. Pilot, triathlete, chess enthusiast. Working on mobile inference @ Cactus.",
+        "linkedin_url": "https://www.linkedin.com/in/roman-shemet/",
+        "twitter_url": "https://x.com/romanshemet",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1991f894485f13d07f1c9e71688c42ddf1c63296.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIKDV3FTR%2F20260815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260815T141819Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLXdlc3QtMiJGMEQCIEeZ0Ri%2B4iZU%2B7V12CgDclryRQJx2yT1ZC9eYH6Jv8d0AiBewzdWBvyAVpVnkq0Bu1J%2FGOTcyI9E%2FXYfMPB8miAidCrlAwgXEAAaDDAwNjIwMTgxMTA3MiIMJwJym2x7N9xwy0rXKsIDv8UxZPCIN74DkFD6jczj6nwmIGwY9bbtBGahfhIxh1UxXjg7p6pQL95L1IQx5MJLMGZ50goI19mEZsNx6TgCLR1okIBpAV5qYNlC6LyNnccZMTS19l6unOHtyX4LnIeSrsQUHRGXx1pCD76YrkFKnatckJdOb%2BajD4nmPequXSxpd75%2FVQTbCzWo0xjk1u07gqcDQ%2B6kBjGuXcxndjMdpGe0KqemPUajbM7lZumvMsYhV1r8FxBbOUAmJ6t4NHj5YzomNwCAD5QWptRJCs1RlWyblovwzcehjTAxym59cugv%2FXVGoEuYo4sVSbS7%2BVC5C3%2Bl%2FpDKpMx2vt5OBDv%2BHbxpaRLNMQU7LTyK%2B35Abxy%2BIj9%2F%2BBn4aB8ndjZry5jBBJH7ix2F%2Fyo2B14UvC%2BckGWrC4YafNmd0pA%2BZqgaXEG1lwafDBzd8QenW5SrXCYt0jpIeGmBtZTfImJmvuGWWKzlRWwj6MG%2FFT8XEhtp%2FPSC9upeUEpcfBeeV97Nszr5Aga4X%2FEfUvbfVIDJe5SpwZEQeAC2ZT2G5V1ROgLv81cGwLKImB1UB6HPLCSM0%2Bg58bJyJqkdRB2hbkrfG1CWF5GeMN%2FagdQGOqYBa962EpYa8VIzROf6YeE%2BJX0DoS654EumMKRCfrkg8tds6o0AdU9QltYIDTBNQobhayYNvI6%2BMEykJXYCF3arY2eMQrGpE6JiSiy1FiDdmyVcwtjK%2Ffa1zgMbV7TBGc3xRfbKVtrCo3JtLj0OQgs1lsVxPY2g4PBEBYY634TEtsLUF5Z%2FFw4Tl0I%2FgX2%2BgW9%2B7Xc2QN0U0lXUSy9Tkq7pTFdA8Zaqug%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9591d8005ff449195a6ea5ea8c9c72c1afb3b56bb28acfbe412ce2be9eb8d873",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Cactus Compute",
+          "href": "https://www.ycombinator.com/companies/cactus-compute"
+        }
+      },
+      {
+        "user_id": 901131,
+        "full_name": "Henry Ndubuaku",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Sidestepped an AI/ML role at Nvidia to work on Cactus.",
+        "linkedin_url": "https://linkedin.com/in/henry-ndubuaku-7b6350b8",
+        "twitter_url": "https://x.com/Henry_Ndubuaku",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/979686e7135b71cdb313d9af81830f6052dd572b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIKDV3FTR%2F20260815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260815T141819Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLXdlc3QtMiJGMEQCIEeZ0Ri%2B4iZU%2B7V12CgDclryRQJx2yT1ZC9eYH6Jv8d0AiBewzdWBvyAVpVnkq0Bu1J%2FGOTcyI9E%2FXYfMPB8miAidCrlAwgXEAAaDDAwNjIwMTgxMTA3MiIMJwJym2x7N9xwy0rXKsIDv8UxZPCIN74DkFD6jczj6nwmIGwY9bbtBGahfhIxh1UxXjg7p6pQL95L1IQx5MJLMGZ50goI19mEZsNx6TgCLR1okIBpAV5qYNlC6LyNnccZMTS19l6unOHtyX4LnIeSrsQUHRGXx1pCD76YrkFKnatckJdOb%2BajD4nmPequXSxpd75%2FVQTbCzWo0xjk1u07gqcDQ%2B6kBjGuXcxndjMdpGe0KqemPUajbM7lZumvMsYhV1r8FxBbOUAmJ6t4NHj5YzomNwCAD5QWptRJCs1RlWyblovwzcehjTAxym59cugv%2FXVGoEuYo4sVSbS7%2BVC5C3%2Bl%2FpDKpMx2vt5OBDv%2BHbxpaRLNMQU7LTyK%2B35Abxy%2BIj9%2F%2BBn4aB8ndjZry5jBBJH7ix2F%2Fyo2B14UvC%2BckGWrC4YafNmd0pA%2BZqgaXEG1lwafDBzd8QenW5SrXCYt0jpIeGmBtZTfImJmvuGWWKzlRWwj6MG%2FFT8XEhtp%2FPSC9upeUEpcfBeeV97Nszr5Aga4X%2FEfUvbfVIDJe5SpwZEQeAC2ZT2G5V1ROgLv81cGwLKImB1UB6HPLCSM0%2Bg58bJyJqkdRB2hbkrfG1CWF5GeMN%2FagdQGOqYBa962EpYa8VIzROf6YeE%2BJX0DoS654EumMKRCfrkg8tds6o0AdU9QltYIDTBNQobhayYNvI6%2BMEykJXYCF3arY2eMQrGpE6JiSiy1FiDdmyVcwtjK%2Ffa1zgMbV7TBGc3xRfbKVtrCo3JtLj0OQgs1lsVxPY2g4PBEBYY634TEtsLUF5Z%2FFw4Tl0I%2FgX2%2BgW9%2B7Xc2QN0U0lXUSy9Tkq7pTFdA8Zaqug%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=eaeefc667c519acb20f8470dd72b5911874fa89c568093c3713fbd0bce8023a6",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Cactus Compute",
+          "href": "https://www.ycombinator.com/companies/cactus-compute"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-15T14:18:28.502Z",
+    "classified_at": "2026-08-15T14:18:28.502Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "caddy",
     "name": "Caddy",
     "website": "https://caddy.app/",
@@ -20785,6 +20874,100 @@
     }
   },
   {
+    "slug": "cuebench",
+    "name": "CueBench",
+    "website": "",
+    "yc_profile_url": "https://www.ycombinator.com/companies/cuebench",
+    "batch": "Summer 2026",
+    "one_liner": "RL Environments for Scientific Reasoning & Performance Engineering",
+    "description_combined": "RL Environments for Scientific Reasoning & Performance Engineering",
+    "industry_sub_vertical": "RL environment and benchmark dataset generation for scientific reasoning model evaluation",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "training-data-synthetic",
+    "phenotype_primary_label": "Training / eval data generation",
+    "phenotype_family": "data_assets",
+    "value_wedge": "data_asset",
+    "ai_application": "dataset_creation",
+    "ai_application_patterns": [
+      "rl_environment_generation",
+      "scientific_reasoning_benchmarking",
+      "performance_evaluation_infrastructure"
+    ],
+    "what_they_sell": "RL environments and benchmark datasets designed for training and evaluating AI models on scientific reasoning and performance engineering tasks. Provides structured, labeled evaluation data that enables model developers to measure and improve reasoning capabilities.",
+    "ai_play": "CueBench creates synthetic RL environments and curated evaluation datasets that serve as training infrastructure for reasoning-focused AI models. By generating diverse, labeled scenarios for scientific reasoning and performance engineering, they enable model builders to systematically improve model capabilities on complex reasoning tasks without relying solely on human-generated data.",
+    "who_pays": "AI labs, frontier model developers, research organizations, and enterprises building reasoning-heavy AI systems that need high-quality evaluation and training data.",
+    "confidence": 0.72,
+    "rationale": "CueBench is primarily a data asset company—they generate RL environments and benchmark datasets for scientific reasoning. This maps cleanly to training-data-synthetic (synthetic data, benchmark datasets, RL environments). Secondary signal: agent-observability-evals (benchmarking, evaluation infrastructure). The RL environment generation and performance engineering focus suggests they're building reusable evaluation infrastructure rather than a single vertical agent or consumer product. Data labeling tag confirms data-centric positioning. Confidence is moderate (0.72) because 'scientific reasoning' could imply research tooling, but the emphasis on RL environments and performance engineering benchmarks points more toward infrastructure for model training/evaluation than research automation.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Reinforcement Learning",
+      "B2B",
+      "Data Labeling"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 0,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3762638,
+        "full_name": "Neel Gadde",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-Founder and CRO at CueBench. Previously founding engineer at Nuntius (YC S25)",
+        "linkedin_url": "https://www.linkedin.com/in/neel-gadde-491880377/",
+        "twitter_url": "https://x.com/neelapolitan?s=11",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d2be7502db72b4faa82985dd5181743eabe8a5aa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOG52MO7X%2F20260815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260815T141828Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLXdlc3QtMiJHMEUCIQDrqtQS6yScWwwwVURAoIep7HD3uLwg8CirmJ4eieu8bAIgGCK7nfcqpRq844wUMk5NaawqlNpkfVsZF%2BwvnV6neWEq5QMIFxAAGgwwMDYyMDE4MTEwNzIiDG%2FveTU%2Bo6dV9w6ImSrCA6aSkrchReHXBVqMVEJNSjuuNutiBN4M7Ot0mP0UAqKbkWA%2FGCNSYLyEW3GJWSK384PbSKCg0jp9MF%2BpCSCgEAiy%2FpzyoreSEewo8RFopsCnZ02X9OQymlvBgvn3fXvPkVZtXKZgMjnk5g4q6llBb6co0x4sLf%2F%2B4zEDloNmJ%2FkIcuakPjsTrxrCNAsDcQwtslDvL3G%2BIqrGHLCFcR0Rg%2B0ZZQMq2UW0Mb1UMjm%2FkUovCURxWBGXyacgfCCORDopcR76AHQBTrFHO3thcysIfi%2BAvTB5uUttojsuEZFVZtwP6b1yiCf387y%2FLhEgmQiyFh%2FLZrCFVE%2Ba91hviLYZiI8F%2BhwwX3YEfOXybUyuVHpuQd2qCfEv8VPmeyzmoubhPabYZIBWqAqdlHY83ytydLcrus3FtCaFJxagfPd%2BTH7qCN2oPnMT2WigBGO7hPdafcoCHrGay0AKTuLmRHmrdmEDRIQEthu71Zb7V7Wn%2BsJNYHD1OBmzpJBetjqq7losDl6yg3s0iffw8EgY4rN2w1Nj%2F1xhwz8tlzA7XVZ8%2FGSuMYyMsHc67pemFGQbyHtj48kxsOejmv3%2Bs4WDphWJFiTjqTDU5IHUBjqlATKBDS2bRH3cm%2BHORvHvnPMWe9Kyb6BR9XDJBXyUU6WuAA17h5CTcWJmAV94ke3Zj%2BNwgzh3r6avyTCYRjNirp9RU%2B7bZnN8KjOtmyXY8zit2bT7KCRrNHDNQtLwpW490XRK0NoPczsgQlgrBltofFZZcW%2FyzrfjBlnDt0vNczAbct57gPuCS4MJif6XU7Ilp6%2B5gCz5oGwl6lbygkAG5sj8B0qYzw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c3d30e63f4f0913046363fee60a61b3de2f8dfc0883c8ffab2b8f80a0938142f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "CueBench",
+          "href": "https://www.ycombinator.com/companies/cuebench"
+        }
+      },
+      {
+        "user_id": 3791688,
+        "full_name": "Rishan Hemrajani",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-Founder & CTO of CueBench.",
+        "linkedin_url": "https://www.linkedin.com/in/rishan-hemrajani-254bba292",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e3bd268e04f9551b93d77346c5652657d25a2b69.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOG52MO7X%2F20260815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260815T141828Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLXdlc3QtMiJHMEUCIQDrqtQS6yScWwwwVURAoIep7HD3uLwg8CirmJ4eieu8bAIgGCK7nfcqpRq844wUMk5NaawqlNpkfVsZF%2BwvnV6neWEq5QMIFxAAGgwwMDYyMDE4MTEwNzIiDG%2FveTU%2Bo6dV9w6ImSrCA6aSkrchReHXBVqMVEJNSjuuNutiBN4M7Ot0mP0UAqKbkWA%2FGCNSYLyEW3GJWSK384PbSKCg0jp9MF%2BpCSCgEAiy%2FpzyoreSEewo8RFopsCnZ02X9OQymlvBgvn3fXvPkVZtXKZgMjnk5g4q6llBb6co0x4sLf%2F%2B4zEDloNmJ%2FkIcuakPjsTrxrCNAsDcQwtslDvL3G%2BIqrGHLCFcR0Rg%2B0ZZQMq2UW0Mb1UMjm%2FkUovCURxWBGXyacgfCCORDopcR76AHQBTrFHO3thcysIfi%2BAvTB5uUttojsuEZFVZtwP6b1yiCf387y%2FLhEgmQiyFh%2FLZrCFVE%2Ba91hviLYZiI8F%2BhwwX3YEfOXybUyuVHpuQd2qCfEv8VPmeyzmoubhPabYZIBWqAqdlHY83ytydLcrus3FtCaFJxagfPd%2BTH7qCN2oPnMT2WigBGO7hPdafcoCHrGay0AKTuLmRHmrdmEDRIQEthu71Zb7V7Wn%2BsJNYHD1OBmzpJBetjqq7losDl6yg3s0iffw8EgY4rN2w1Nj%2F1xhwz8tlzA7XVZ8%2FGSuMYyMsHc67pemFGQbyHtj48kxsOejmv3%2Bs4WDphWJFiTjqTDU5IHUBjqlATKBDS2bRH3cm%2BHORvHvnPMWe9Kyb6BR9XDJBXyUU6WuAA17h5CTcWJmAV94ke3Zj%2BNwgzh3r6avyTCYRjNirp9RU%2B7bZnN8KjOtmyXY8zit2bT7KCRrNHDNQtLwpW490XRK0NoPczsgQlgrBltofFZZcW%2FyzrfjBlnDt0vNczAbct57gPuCS4MJif6XU7Ilp6%2B5gCz5oGwl6lbygkAG5sj8B0qYzw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=20f489844e711b8084d0a04ea676eb6997f5f9a4a6d6ad46b983d9f0d121b1e2",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "CueBench",
+          "href": "https://www.ycombinator.com/companies/cuebench"
+        }
+      },
+      {
+        "user_id": 3732725,
+        "full_name": "Dillon Mehta",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder and CEO at CueBench.",
+        "linkedin_url": "https://www.linkedin.com/in/dillon-mehta-49aa2827b/",
+        "twitter_url": "https://x.com/PickleDilll_",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/812fc022db435026c7bee56ba58f916bfd5218ee.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOG52MO7X%2F20260815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260815T141828Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLXdlc3QtMiJHMEUCIQDrqtQS6yScWwwwVURAoIep7HD3uLwg8CirmJ4eieu8bAIgGCK7nfcqpRq844wUMk5NaawqlNpkfVsZF%2BwvnV6neWEq5QMIFxAAGgwwMDYyMDE4MTEwNzIiDG%2FveTU%2Bo6dV9w6ImSrCA6aSkrchReHXBVqMVEJNSjuuNutiBN4M7Ot0mP0UAqKbkWA%2FGCNSYLyEW3GJWSK384PbSKCg0jp9MF%2BpCSCgEAiy%2FpzyoreSEewo8RFopsCnZ02X9OQymlvBgvn3fXvPkVZtXKZgMjnk5g4q6llBb6co0x4sLf%2F%2B4zEDloNmJ%2FkIcuakPjsTrxrCNAsDcQwtslDvL3G%2BIqrGHLCFcR0Rg%2B0ZZQMq2UW0Mb1UMjm%2FkUovCURxWBGXyacgfCCORDopcR76AHQBTrFHO3thcysIfi%2BAvTB5uUttojsuEZFVZtwP6b1yiCf387y%2FLhEgmQiyFh%2FLZrCFVE%2Ba91hviLYZiI8F%2BhwwX3YEfOXybUyuVHpuQd2qCfEv8VPmeyzmoubhPabYZIBWqAqdlHY83ytydLcrus3FtCaFJxagfPd%2BTH7qCN2oPnMT2WigBGO7hPdafcoCHrGay0AKTuLmRHmrdmEDRIQEthu71Zb7V7Wn%2BsJNYHD1OBmzpJBetjqq7losDl6yg3s0iffw8EgY4rN2w1Nj%2F1xhwz8tlzA7XVZ8%2FGSuMYyMsHc67pemFGQbyHtj48kxsOejmv3%2Bs4WDphWJFiTjqTDU5IHUBjqlATKBDS2bRH3cm%2BHORvHvnPMWe9Kyb6BR9XDJBXyUU6WuAA17h5CTcWJmAV94ke3Zj%2BNwgzh3r6avyTCYRjNirp9RU%2B7bZnN8KjOtmyXY8zit2bT7KCRrNHDNQtLwpW490XRK0NoPczsgQlgrBltofFZZcW%2FyzrfjBlnDt0vNczAbct57gPuCS4MJif6XU7Ilp6%2B5gCz5oGwl6lbygkAG5sj8B0qYzw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=dd2d7c5c95bfff6c7adec0209dc0c47ef6bf625ff0c74fffb94604d15f78f907",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "CueBench",
+          "href": "https://www.ycombinator.com/companies/cuebench"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-15T14:18:37.648Z",
+    "classified_at": "2026-08-15T14:18:37.648Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "cumulus-labs",
     "name": "Cumulus Labs",
     "website": "https://cumuluslabs.io",
@@ -24370,7 +24553,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/dream",
     "batch": "Summer 2026",
     "one_liner": "Pocket-sized AI cameras that catch asset damage.",
-    "description_combined": "Pocket-sized AI cameras that catch asset damage.\n\nDream makes pocket-sized, battery-powered AI cameras that catch damage teams miss. Car dealerships, equipment rental companies, fleets, and more move expensive assets in and out all day, and undocumented damage is a costly leak.\r\n\r\nDream cameras are simple to set up and work automatically. Each vehicle or machine that passes is photographed from every angle, identified, and reconstructed into a 3D condition record. On return or intake, Dream instantly flags new dents, scrapes, and changes your team might miss, giving one source of truth for every asset&#x27;s condition over time.\r\n\r\nRyland worked at X/xAI and built aerial damage-detection vision at Vexcel Imaging. Alexander worked at AWS and trained edge-camera models deployed in the wild across Africa and India to detect poachers.",
+    "description_combined": "Pocket-sized AI cameras that catch asset damage.\n\nDream makes pocket-sized, battery-powered AI cameras that catch damage teams miss. Car dealerships, equipment rental companies, fleets, and more move expensive assets in and out all day, and undocumented damage is a costly leak.\r\n\r\nDream cameras are simple to set up and work automatically. Each vehicle or machine that passes is photographed from every angle, identified, and reconstructed into a 3D condition record. On return or intake, Dream instantly flags new dents, scrapes, and changes your team might miss, giving one source of truth for every asset&#x27;s condition over time.\r\n\r\nRyland worked at X/xAI and built aerial damage-detection vision at Vexcel Imaging. Alexander worked at AWS and trained edge-camera models deployed in the wild across Africa and India to detect poachers.\n\nDream makes pocket-sized, battery-powered AI cameras that catch damage teams miss.\n\nHey everyone 👋, we are Ryland and Alexander, co-founders of Dream.\n\nTL;DR: Dream automatically photographs every vehicle or machine that passes through your gate, builds a 3D condition record, and uses AI to catch new damage the moment an asset passes through.\n\nLaunch Video: https://youtu.be/uMP12lCb12E\n\nThe problem\n\nDamage is an expensive leak for anyone who moves large, expensive assets in and out all day. It shows up two different ways:\n\nCar dealership service departments\n\n* As a car pulls into the service entrance, damage that could be identified and fixed goes unnoticed, which is lost revenue.\n* Without a record of the car's condition on arrival, disputes come down to the customer's word against the dealership's, and the dealership gets blamed for pre-existing damage.\n\nHigh-value ass",
     "industry_sub_vertical": "Asset damage detection & condition tracking for automotive rental and fleet management",
     "canonical_vertical_id": "ai-infrastructure.training-data",
     "vertical_id": "ai-infrastructure.training-data",
@@ -24443,7 +24626,13 @@
     ],
     "directory_synced_at": "2026-08-14T14:48:43.688Z",
     "classified_at": "2026-08-14T14:48:43.688Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110473,
+    "launch_url": "https://www.ycombinator.com/launches/Sjp-dream-pocket-sized-ai-cameras-that-catch-asset-damage",
+    "launch_title": "Dream - Pocket-sized AI cameras that catch asset damage",
+    "launch_created_at": "2026-08-14T17:00:00.348Z",
+    "launch_tagline": "Dream makes pocket-sized, battery-powered AI cameras that catch damage teams miss.",
+    "launch_evaluated_at": "2026-08-15T14:19:33.887Z"
   },
   {
     "slug": "drippay",
@@ -27482,7 +27671,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/familiar",
     "batch": "Summer 2026",
     "one_liner": "World Models for Accurate Humans.",
-    "description_combined": "World Models for Accurate Humans.\n\nDubbing is finally good. And real-time. Lipsync + voice translation. For ads and catalogs, networks and platforms, even broadcasts and live shopping.\r\n\r\nWe exist to break every barrier to understanding. Familiar is a team from Stanford, Yonsei&#x27;s Visual Intelligence Lab, and HKUST: PhDs, professors, and researchers who started the field of joint audio-visual human models and co-authored the current state-of-the-art in real-time human animation. We build world models for accurate humans -- editing, predicting, understanding -- and teaching machines to do the same",
+    "description_combined": "World Models for Accurate Humans.\n\nDubbing is finally good. And real-time. Lipsync + voice translation. For ads and catalogs, networks and platforms, even broadcasts and live shopping.\r\n\r\nWe exist to break every barrier to understanding. Familiar is a team from Stanford, Yonsei&#x27;s Visual Intelligence Lab, and HKUST: PhDs, professors, and researchers who started the field of joint audio-visual human models and co-authored the current state-of-the-art in real-time human animation. We build world models for accurate humans -- editing, predicting, understanding -- and teaching machines to do the same\n\nWorld Models for Accurate Humans\n\nhttps://drive.google.com/file/d/1DS2B-Qds8Pf6priQSXwLAelPkjCYV8kJ\n\nContent, now in every language. Exactly the same as the original.\n\nSales and Demos, Education, Telehealth, Advertising, Live Shopping, Entertainment.\n\nFounders An Zhu Liu, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation.\n\nThey're building world models for accurate humans: understanding, editing, and predicting.\n\nThey started with video-to-language translation, and they've already built one of the most accurate translators available today, the only one that works in real time.\n\n🦋 Familiar outperforms industry leaders at a fraction of th",
     "industry_sub_vertical": "Video content localization & dubbing for media platforms",
     "canonical_vertical_id": "marketing.content-ops",
     "vertical_id": "marketing.content-ops",
@@ -27538,7 +27727,13 @@
     ],
     "directory_synced_at": "2026-08-13T14:54:41.806Z",
     "classified_at": "2026-08-13T14:54:41.806Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110596,
+    "launch_url": "https://www.ycombinator.com/launches/Slo-familiar-breaking-down-every-language-barrier",
+    "launch_title": "Familiar: Breaking Down Every Language Barrier",
+    "launch_created_at": "2026-08-14T22:19:07.877Z",
+    "launch_tagline": "World Models for Accurate Humans",
+    "launch_evaluated_at": "2026-08-15T14:19:33.887Z"
   },
   {
     "slug": "fastshot",
@@ -39190,6 +39385,70 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "kandor",
+    "name": "Kandor",
+    "website": "https://kandorlabs.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/kandor",
+    "batch": "Summer 2026",
+    "one_liner": "Making health insurance invisible",
+    "description_combined": "Making health insurance invisible\n\nKandor gets private practices paid right after performing a procedure, eliminating the 30-90 day A/R lag from insurance payers. ",
+    "industry_sub_vertical": "Private practice claims acceleration & immediate payment processing",
+    "canonical_vertical_id": "healthcare.provider.revenue-cycle",
+    "vertical_id": "healthcare.provider.revenue-cycle",
+    "vertical_label": "Healthcare revenue cycle management",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "vertical-workflow-agent",
+    "phenotype_primary_label": "Vertical AI Workflow Agent",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "claims_processing",
+      "insurance_coordination",
+      "payment_acceleration"
+    ],
+    "what_they_sell": "AI-powered claims and payment acceleration platform that automates insurance billing workflows for private medical practices, enabling immediate or near-immediate payment after procedures instead of 30-90 day A/R cycles.",
+    "ai_play": "AI agents automate claim submission, payer coordination, eligibility verification, and payment reconciliation — replacing manual billing staff work and compressing cash conversion cycles by automating the entire insurance reimbursement workflow.",
+    "who_pays": "Private medical practices, ambulatory surgery centers, and specialty clinics seeking to improve cash flow and reduce billing overhead.",
+    "confidence": 0.75,
+    "rationale": "Kandor is a vertical workflow automation agent targeting healthcare revenue cycle. The core value is automating end-to-end insurance billing and claims processing for medical practices — a high-friction, detail-intensive, domain-specific workflow. AI agents handle claim submission, payer communication, eligibility checks, and payment routing autonomously. This is distinct from fintech-insurance-ai-product (Kandor is not an insurer or regulated financial product taking risk) and from horizontal SaaS (it is vertical-specific to healthcare billing). The phenotype fits vertical-workflow-agent: end-to-end job function automation (billing/revenue cycle) inside one industry (healthcare), with high switching cost via integration with practice management systems and domain expertise in payer rules.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Fintech",
+      "Healthcare"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1141562,
+        "full_name": "Cyrus Naficy",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder of Kandor. Built first company at 13 which was featured on Fox News. Founded a hacking studio which sold bug bounties and built an eccomerce bot, generating $200,000 in high school. Grew up around a family of doctors, and now dropped out of college to make health insurance invisible.",
+        "linkedin_url": "https://www.linkedin.com/in/cyrus-naficy-06b9151bb/",
+        "twitter_url": "https://x.com/cyrusnaficy",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/64437e1062deda11916e3782de518d9b025b595c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAGDZOOUNM%2F20260815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260815T141845Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLXdlc3QtMiJHMEUCICqFezum6ng%2FivznEfu%2Fn8HsRdIQh9WvvlI%2Fc8IXwYYVAiEAznXkG3q7S8FDCMvUcfGIpoBW8m0WrsRfV2u6E8IGvHcq5QMIFxAAGgwwMDYyMDE4MTEwNzIiDLBm5RMVpWmCs1vWFyrCA%2F6nhFaPsQ5jnjMkxKXtKZKch4bMpWOJswPTsOlHJvzyi2zDCOourFN9VDUlYV9WKI3%2BRJjSDCNc11yHjAGPbz2sIvgGr%2B2rKsh7uE3G3lV9%2FHJUtJ8Gb%2FtS%2FKeYvx5h1YkNRjt1%2FpuuQuYP5Z5yOGFIi60bXtJNvjfb3yWYT3kmunFEz5W6ZmIkIwDBZHu1dTd6hrHQA1CPpxFbR1FJznwE2wJhHcNbOSjGSxzw46Ayd3WVBIqFW1GSunXFjdlrRIadKtXP2ZzYnKmXVGNqnSNwhUQI6hnpPyNHUoV48c7qiKn%2BiTXy1Q1VN%2F92IdhP%2F4fEf0dSW03fRVj6Cs%2FmiWtpysm6FhES5bPWi3VB%2BxFm4IBxReiSh4UsVy6jojNzZSK2NK1SVLKy0B3R7obsHaKVe267koC5VGwYIca%2FH%2BYfaUzEKNbl6cqR0rFNlPr1mX4f2uhyX6x1TA07xNqvbsbhfneRTBgnf58fOCZLpQHWootJ9DWyKEYqNXCZmkOxZkXA5JIWNTQ613mwwT7g5UmzJbNqAG1zhM%2Fx0CRCDmPOdw5r%2BuSnIgpRZgbb%2F5A6VXEfi7na32v2sFO7iylZq1Yt%2BDC75IHUBjqlAdmlYIu%2BHMNg4wrJSvko9FF6FvVlxGgExiTTUCPJamCm0dRNyP7nI6EBuSVQ8cSF7n5RX12450J3h74TKAUuWrkbtkikrZGU2PSFQjneLqNxsgc9bwraJZQ%2FVCMjI7DM4eoO%2BvFprBCb6E1Uv6vBAS%2BrVlM4h9pJ90R1s2zYj4oEYhOisS8TwsoumZ84OavXcFsLE1O1eE1mC%2FhxOa1bXX2UmiqI8w%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c26d1b9842232cd09e467f83288f97477cb895a36b6cdb9fa9f5077e5344ce00",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kandor",
+          "href": "https://www.ycombinator.com/companies/kandor"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-15T14:18:54.698Z",
+    "classified_at": "2026-08-15T14:18:54.698Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "kara",
     "name": "Kara",
     "website": "https://karalabs.ai/",
@@ -46726,6 +46985,86 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "mass-magnetics",
+    "name": "Mass Magnetics",
+    "website": "https://massmagnetics.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/mass-magnetics",
+    "batch": "Summer 2026",
+    "one_liner": "USA-made magnetics for aerospace, robotics and defense. ",
+    "description_combined": "USA-made magnetics for aerospace, robotics and defense. \n\nMass Magnetics turns recycled rare-earth scrap into high-performance permanent magnets, made in America. The materials we supply are the backbone of electric motors, sensors, speakers, hard drives, and electronics.\r\nOur process enables DFARS-compliant magnets for defense, aerospace, and industrial manufacturers who demand domestic supply without compromising on quality.\r\nOperations in Greater Boston, MA (Greentown Labs) and Columbus, IN.",
+    "industry_sub_vertical": "Defense supply chain magnetics & DFARS-compliant domestic rare-earth materials",
+    "canonical_vertical_id": "industrials.defense.supply-chain",
+    "vertical_id": "industrials.defense.supply-chain",
+    "vertical_label": "Defense supply chain & prime contracting",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-enabled physical infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "manufacturing_optimization",
+      "supply_chain_automation",
+      "quality_control"
+    ],
+    "what_they_sell": "USA-made permanent magnets from recycled rare-earth scrap for aerospace, robotics, and defense applications. DFARS-compliant domestic supply chain alternative to foreign magnetics.",
+    "ai_play": "AI optimizes magnet design (magnetic field simulation, material composition tuning), accelerates manufacturing precision (process control, defect detection, yield optimization), and automates supply chain logistics (scrap sourcing, inventory routing, compliance tracking). AI enables faster R&D cycles and tighter quality control critical for defense/aerospace certification.",
+    "who_pays": "Defense contractors, aerospace OEMs, robotics manufacturers, and industrial equipment makers requiring DFARS-compliant, domestic magnetics supply.",
+    "confidence": 0.72,
+    "rationale": "Mass Magnetics is a physical manufacturing company (magnetics production from recycled rare-earth materials). The core value is the physical product and domestic supply chain compliance, not software. However, AI is a natural enabler for: (1) magnet design optimization via simulation, (2) manufacturing process control and quality assurance, (3) supply chain automation for scrap sourcing and logistics. This fits ai-enabled-physical-systems: AI accelerates R&D cycles, improves production efficiency, and enhances system performance, but the primary SKU is the magnet itself, not an AI service. Secondary consideration: could be vertical-workflow-automation-ai if they heavily automate procurement/supply-chain workflows, but the core business is manufacturing, not workflow software.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Defense"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Drones",
+      "Manufacturing"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 3,
+    "location": "Boston, MA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3637161,
+        "full_name": "Matthew Groll",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder and CTO at Mass Energy Company. Former NASA/Columbia/MIT. Previously worked on thermal systems and guidance/navigation at NASA Johnson Space Center for ISS and Artemis lunar missions. Also previously worked as a Member of Technical Staff at Draper Laboratory. Studied Mechanical Engineering at Columbia, captaining the Formula SAE and Robotics Club, then earned a Masters in Manufacturing from MIT.",
+        "linkedin_url": "https://www.linkedin.com/in/matthew-groll/",
+        "twitter_url": "https://x.com/matthewxgroll",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/68e632830dda51ab14dec0fac18967c93ed5c8ed.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOAQ4UB2Q%2F20260815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260815T141854Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLXdlc3QtMiJGMEQCICaNYXuyDORTnW3FVNAHVulobqq2lfuiqiRDcuym38hAAiAE5f4Y9jTWxJhiDkMBRtgt6CSdjeHNX1lf8SqHutJfPirlAwgXEAAaDDAwNjIwMTgxMTA3MiIMHG2st03N3e770nxyKsIDKvtrC3GdqmMp3g2gGaIRwofwI3%2BfJ4OhvqUYAh7Jy3eh9Uor2BX7Ca%2FBBR1OEUQECGVQ4ASD89CXt035yeR0jx3wFGYnA2Awwc8BqjB83fgQIw5lmeJJWkJeUF64zxDu7tImOwK0g8ed6GoOeAHghU7rVHQpeELlgzaixLjB16LA%2F9ZJmW24rD6LzOTjrlnY1h6vr9w6SbQptSA8g6CLJvGhBTkaXST7k5OCR%2B1wvLbjd3au8eY0%2Ft73%2BdxZHLlFotflZKNq9JdR5yOnTCpXC0bMZMQR9cAev6zp4zVNnlGwrI7KNKOvAqxB87Tw7VL79z10bBjlRC6MPRsIc4iGVShoqQO8sOrsdkMvDfHHds7xU3KHhKDtbfdY4lRWgDhSGh%2BlHZBhFlXgL7OThWiVbmBDcxl0O57o9eEWay%2FjYkatoJ2yVKSDWasJnprnSn5SIr%2Fn6%2FYjXhfi3fHYalzlepb4KXE9IlMhC8r7RNYypLGD4WBndlxz5btv11D20fcEm8%2F4I53RuBjBL0%2F6oe2rg%2F%2FJI9Bz8uw%2BK3VS8pESCZlkyaWvD3Xwy1%2BYWJe9I6XzSHZDZptR8u9fQgcgPWhWeqy4MMLegdQGOqYBbyGtNWvvCyojWTp6p61gaU6DgUgRtCO3LLDFaJA9M7CDcExPk9YaQoeFtLVu%2FDMDcyr9p7oqCt5zEJwvA5kUU0P%2BW%2FC9bHWmwtB%2FixkJleJUJGhtgc8EZ6XLtOY%2FfO9RYVViS5HIST4TFmbGoFdsA5KLf8Rbj9%2FdLCmI8v5H8DOKcYshk08Gx8QXlDiyaWKiulIJWmy6Qbn1Jf%2F9QwHreX0KCi5Org%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=11adfbbe74d367680c5e5892c40a57ac8261c4d6dbc0a4219b9d4a25a95373c4",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Mass Magnetics",
+          "href": "https://www.ycombinator.com/companies/mass-magnetics"
+        }
+      },
+      {
+        "user_id": 3652354,
+        "full_name": "Eric Silver",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Mass Magnetics. Worked for years in pilot cathode production for lithium-sulfur battery chemistries. Now I&#x27;m fixing American magnet supply chains. ",
+        "linkedin_url": "https://www.linkedin.com/in/energyeric/",
+        "twitter_url": "https://x.com/2998x10tothe8",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e6b9b7e311c8da8f0a7825f616d09c53fcd40558.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOAQ4UB2Q%2F20260815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260815T141854Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLXdlc3QtMiJGMEQCICaNYXuyDORTnW3FVNAHVulobqq2lfuiqiRDcuym38hAAiAE5f4Y9jTWxJhiDkMBRtgt6CSdjeHNX1lf8SqHutJfPirlAwgXEAAaDDAwNjIwMTgxMTA3MiIMHG2st03N3e770nxyKsIDKvtrC3GdqmMp3g2gGaIRwofwI3%2BfJ4OhvqUYAh7Jy3eh9Uor2BX7Ca%2FBBR1OEUQECGVQ4ASD89CXt035yeR0jx3wFGYnA2Awwc8BqjB83fgQIw5lmeJJWkJeUF64zxDu7tImOwK0g8ed6GoOeAHghU7rVHQpeELlgzaixLjB16LA%2F9ZJmW24rD6LzOTjrlnY1h6vr9w6SbQptSA8g6CLJvGhBTkaXST7k5OCR%2B1wvLbjd3au8eY0%2Ft73%2BdxZHLlFotflZKNq9JdR5yOnTCpXC0bMZMQR9cAev6zp4zVNnlGwrI7KNKOvAqxB87Tw7VL79z10bBjlRC6MPRsIc4iGVShoqQO8sOrsdkMvDfHHds7xU3KHhKDtbfdY4lRWgDhSGh%2BlHZBhFlXgL7OThWiVbmBDcxl0O57o9eEWay%2FjYkatoJ2yVKSDWasJnprnSn5SIr%2Fn6%2FYjXhfi3fHYalzlepb4KXE9IlMhC8r7RNYypLGD4WBndlxz5btv11D20fcEm8%2F4I53RuBjBL0%2F6oe2rg%2F%2FJI9Bz8uw%2BK3VS8pESCZlkyaWvD3Xwy1%2BYWJe9I6XzSHZDZptR8u9fQgcgPWhWeqy4MMLegdQGOqYBbyGtNWvvCyojWTp6p61gaU6DgUgRtCO3LLDFaJA9M7CDcExPk9YaQoeFtLVu%2FDMDcyr9p7oqCt5zEJwvA5kUU0P%2BW%2FC9bHWmwtB%2FixkJleJUJGhtgc8EZ6XLtOY%2FfO9RYVViS5HIST4TFmbGoFdsA5KLf8Rbj9%2FdLCmI8v5H8DOKcYshk08Gx8QXlDiyaWKiulIJWmy6Qbn1Jf%2F9QwHreX0KCi5Org%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9ca96b0b3e36f73c4eab3ec2bb7cfeedf041f0b8db75737419f018b83601a2e3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Mass Magnetics",
+          "href": "https://www.ycombinator.com/companies/mass-magnetics"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-15T14:19:02.840Z",
+    "classified_at": "2026-08-15T14:19:02.840Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "mastra",
     "name": "Mastra",
     "website": "https://mastra.ai",
@@ -49217,7 +49556,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/mochitv",
     "batch": "Summer 2026",
     "one_liner": "1 Minute Anime",
-    "description_combined": "1 Minute Anime\n\nMochi is a mobile-first entertainment platform for vertical anime shorts. Users can scroll to discover shows and binge bite-sized episodes, unlocking them with either coins or a subscription. We produce new shows daily with AI, and they&#x27;ve hit 300M+ views organically.",
+    "description_combined": "1 Minute Anime\n\nMochi is a mobile-first entertainment platform for vertical anime shorts. Users can scroll to discover shows and binge bite-sized episodes, unlocking them with either coins or a subscription. We produce new shows daily with AI, and they&#x27;ve hit 300M+ views organically.\n\nA mobile app to watch vertical anime shorts, created with AI.\n\nTL;DR: MOCHI.TV is a mobile app to watch vertical anime shorts. Users can scroll to discover shows and binge bite-sized episodes, unlocking them with either coins or a subscription. We produce new shows daily with AI, and they've hit 300M+ views organically.\n\n\n\nThe problem\n\nTraditionally, entertainment takes years to go from production to the TV screen. But fans always crave more. With the advent of AI, entertainment cycles become as fast as days, and now we’re able to serve the most underserved audience of all - anime fans.\n\nWhat we built\n\nA mobile app to watch 1 minute anime packed with:\n\n* emotional thrills (_finally_, you get revenge on the bully), \n* plot twists (_turns out_, the bully is your secret long-lost sibling), \n* and cliffhangers (_suddenly_, the bully whispers “without me, ",
     "industry_sub_vertical": "AI-generated short-form anime content monetization platform",
     "canonical_vertical_id": "media.content.creator",
     "vertical_id": "media.content.creator",
@@ -49272,7 +49611,13 @@
     ],
     "directory_synced_at": "2026-08-13T14:55:03.108Z",
     "classified_at": "2026-08-13T14:55:03.108Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110404,
+    "launch_url": "https://www.ycombinator.com/launches/Sii-mochi-tv-1-minute-anime",
+    "launch_title": "MOCHI.TV - 1 Minute Anime",
+    "launch_created_at": "2026-08-14T20:36:04.113Z",
+    "launch_tagline": "A mobile app to watch vertical anime shorts, created with AI.",
+    "launch_evaluated_at": "2026-08-15T14:19:33.887Z"
   },
   {
     "slug": "mod-ai",
@@ -52215,6 +52560,80 @@
     "proposed_phenotype": null
   },
   {
+    "slug": "nodi-energy",
+    "name": "NODI Energy",
+    "website": "https://www.nodienergy.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/nodi-energy",
+    "batch": "Spring 2025",
+    "one_liner": "Distributed energy infrastructure unlocking grid power to data centers",
+    "description_combined": "Distributed energy infrastructure unlocking grid power to data centers\n\nNODI is building distributed energy infrastructure to rewire the grid. \r\n\r\nWe deploy and aggregate batteries at the edge and orchestrate them as distributed nodes, providing locational flexibility to the rigid grid — relieving congestion and unlocking capacity at constrained locations, so data centers can connect in weeks instead of waiting decades for reinforcement.\n\nMaking the grid flexible to unlock GW power, enabling on-grid interconnection for data centers\n\nHi everyone 👋! We're Borong and Catherine, co-founders of NODI Energy!\n\nTL; DR:\n\nNODI is building distributed energy infrastructure to rewire the grid. We are deploying and aggregating batteries at the edge. All these distributed nodes are orchestrated to make the existing rigid grid more flexible, reducing grid congestion and unlocking more capacity at specific constrained locations. So data centers can get _on-grid_ connection in weeks instead of waiting on grid reinforcement for decades. ⚡ ️ Gigawatts unlockable on the way!\n\nLaunch video: \n\n### Problem\n\nThe existing power grid was built for the fossil-fuel era, not for tomorrow’s economy. It’s too rigid to deliver power to the right place at the right time.\n\n* 2,000 GW of projects, including data centers, sit stalled in grid connection",
+    "industry_sub_vertical": "Distributed battery storage orchestration for grid congestion relief and data center power connectivity",
+    "canonical_vertical_id": "power.battery-storage-ops",
+    "vertical_id": "power.battery-storage-ops",
+    "vertical_label": "Battery energy storage system operations & dispatch",
+    "vertical_sector_id": "energy-climate",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "distributed_system_orchestration",
+      "real_time_grid_optimization",
+      "predictive_load_balancing",
+      "autonomous_asset_coordination"
+    ],
+    "what_they_sell": "Distributed battery infrastructure deployed at grid edge, aggregated and orchestrated as a coordinated network to provide locational grid flexibility and capacity relief. Enables data centers to connect to constrained grid locations in weeks rather than years by dynamically managing power flow and congestion.",
+    "ai_play": "AI orchestration layer coordinates distributed battery nodes in real-time, predicts grid demand/congestion patterns, optimizes charge/discharge cycles across the network, and autonomously routes power to relieve bottlenecks. Machine learning models forecast grid constraints and data center power needs to maximize utilization and grid value.",
+    "who_pays": "Data center operators, utilities, grid operators, and energy-intensive industrial facilities seeking faster grid connectivity and locational power flexibility.",
+    "confidence": 0.72,
+    "rationale": "NODI is fundamentally a physical infrastructure company (distributed batteries + grid hardware) where AI is the operational enabler, not the product. The core value is the physical asset network and grid relief capability; AI accelerates design optimization, autonomous operational control, and real-time coordination of distributed nodes. Fits ai-enabled-physical-systems (hardware + AI control layer) rather than pure infrastructure or agent-based phenotypes. Secondary consideration: could map to infrastructure-optimization-ai (real-time grid optimization), but the hardware-first nature and capital-intensive physical deployment make ai-enabled-physical-systems the stronger fit.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Energy"
+    ],
+    "yc_tags": [
+      "Energy Storage",
+      "Hard Tech",
+      "Hardware",
+      "Energy",
+      "Electronics"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "London, England, United Kingdom",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2116203,
+        "full_name": "Borong Hu",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "I have been working on power electronics for over ten years and have extensive experience in R&D, manufacturing, and business in electronics engineering area.",
+        "linkedin_url": "https://www.linkedin.com/in/boronghu/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4c9eaf5c1c126122c529977520f01fba9c208a2a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIXGCMX6A%2F20260815%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260815T141810Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLXdlc3QtMiJIMEYCIQDzhFHB0kN2Fo6qVZNb%2BV63owDqz2ZnVQN%2BpjMztQZ8dwIhAKZ%2Fj0259ocVF0X%2Bv2d5mfz4ZxlREB9ZMASfNw1DKpbdKuUDCBcQABoMMDA2MjAxODExMDcyIgyu8WStpz2nPsT7ukoqwgNvPCnGJSnrUsjeQNiCzn5QY%2Ftmd6PjxRWMHSe22v6o%2FVaUQWLv9ajE%2FN0gPDFeK2UeXPHPZnItzTLv3TOiGPEtBHja9e4mjhxCCBL2PILrozPRsqaOAaFxt3vbKbZlgTzmghYV6%2BilaVWtLWtw6lw4jSkjwnHTicbE3dCDvtKxTxH9bRqhdBt2ntDcrFoKBPZbfZ5vY4fEFhGWXtkHKj2lrx5CeoDxu7RndMKwk5GlF9F2zBqyPH7nVPJizuYnMq18seAWlfv5tiKIsRBDaiaj8gLdjYLFzAuldO1tKM%2BZT8lMhIYFfj65L8ndw6I8nd97BRsqH8CfRZyxSGnIa3yFJQydjs%2ButazY2LkEXX%2BdYswahcN5l1E%2B9eD7l7859OgCeJYZlt28KxwwvhO0xTgEghb2Hey%2FEAmhBvZgoptkmvSFf82olLOEhm2RUjZRWG7DMjvHnmtKZoazl8joMh1ptfOCJwZ9nqQEnSXPIGQhoiWIUh6T8U4MCIdBMSh7F7BVhWuFKwJZIu2lY4YkBEISuxBgB3s7roX6zpuA59amW%2FvOIJ4n3bxwG2pVufl3ZEp2tfQphTpcqc6RS4JXOwwJJhwwgeaB1AY6pAHRN3TbEsgBngAqHvCCj9IUcijeK7l%2BlTKMniPV5Bpwp4kEo2jfdgHy91R00dVeIPNUHRVvDmbpp2vj2x%2FctMmwdwM8JyNS80olZu0ZdpA1eZYJXXrKOQ4vH6mmO2%2F07vdfvKT63tOC0W8XeQZXuijhMLxYdcfpOCO8TUulEl6hnmu9J7jaba%2BYV8IPsZVX3TeBeWK4lokVpU6q3BF09rDGKZPq1Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6cc0ca9677e64030928b0e5e9bcdb6d1f1d6db70df7e6b5e0874246a923bc011",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "NODI Energy",
+          "href": "https://www.ycombinator.com/companies/nodi-energy"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-15T14:18:19.449Z",
+    "classified_at": "2026-08-15T14:18:19.449Z",
+    "proposed_phenotype": null,
+    "launch_id": 110609,
+    "launch_url": "https://www.ycombinator.com/launches/Sm1-nodi-energy-distributed-energy-infrastructure-to-rewire-the-grid",
+    "launch_title": "NODI Energy - Distributed Energy Infrastructure to Rewire the Grid",
+    "launch_created_at": "2026-08-14T22:20:32.941Z",
+    "launch_tagline": "Making the grid flexible to unlock GW power, enabling on-grid interconnection for data centers",
+    "launch_evaluated_at": "2026-08-15T14:19:33.887Z"
+  },
+  {
     "slug": "nomi",
     "name": "Nomi",
     "website": "https://www.nomi.so",
@@ -54269,7 +54688,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/ooak-data",
     "batch": "Summer 2026",
     "one_liner": "We build the world&#x27;s largest library of real-world business workflow…",
-    "description_combined": "We build the world&#x27;s largest library of real-world business workflow…\n\nThe promise of AI agents is still unmet in complex, real-world business environments. Our mission is to make it possible for agents to reliably accomplish concrete and useful tasks.\r\n\r\nThat’s why we&#x27;re building **Alexandria,** the world&#x27;s largest library of real-world business workflow datasets.",
+    "description_combined": "We build the world&#x27;s largest library of real-world business workflow…\n\nThe promise of AI agents is still unmet in complex, real-world business environments. Our mission is to make it possible for agents to reliably accomplish concrete and useful tasks.\r\n\r\nThat’s why we&#x27;re building **Alexandria,** the world&#x27;s largest library of real-world business workflow datasets.\n\nThe bottleneck to smarter agents isn't compute. It's real data. We unlock it.\n\nTL;DR Ooak Data turns internal company data into a training ground where AI agents can be tested on real work.\n\nhttps://drive.google.com/file/d/1EgbFzN-g4cVY-dk7ZPH6gR37F28D56xo\n\nThe problem\n\nAI agents still fail on real work: the messy, multi-tool, permission-heavy workflows inside actual companies. You can't synthesize it either, real org charts, permissions, and cross-tool dependencies don't come out of a generator. You have to source it from real companies and make it safe. That's the hard part, and it's what we do.\n\nOur Solution\n\nWe connect to a company's tools (Gmail, Slack, Notion, Jira, Drive, SharePoint) and anonymize everything into a digital twin: structurally identical, but privacy-safe. Labs use our product to train and evaluate AI agents on real work.\n\nWe're working with mult",
     "industry_sub_vertical": "Real-world business workflow datasets for AI agent training and evaluation",
     "canonical_vertical_id": "ai-infrastructure.training-data",
     "vertical_id": "ai-infrastructure.training-data",
@@ -54323,7 +54742,13 @@
     ],
     "directory_synced_at": "2026-07-30T16:05:16.077Z",
     "classified_at": "2026-07-30T16:05:16.077Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110403,
+    "launch_url": "https://www.ycombinator.com/launches/Sih-ooak-data-turn-internal-company-data-into-a-training-ground-where-ai-agents-can-be-trained-on-real-work",
+    "launch_title": "Ooak Data: Turn internal company data into a training ground where AI agents can be trained on real work",
+    "launch_created_at": "2026-08-14T15:00:00.284Z",
+    "launch_tagline": "The bottleneck to smarter agents isn't compute. It's real data. We unlock it.",
+    "launch_evaluated_at": "2026-08-15T14:19:33.887Z"
   },
   {
     "slug": "opalite-health",
@@ -57176,7 +57601,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/palisade",
     "batch": "Summer 2026",
     "one_liner": "AI sales agents that run your marketplace",
-    "description_combined": "AI sales agents that run your marketplace\n\nPalisade spins up a personal sales agent for every single visitor to your website. Marketplaces like trading card platforms, vintage stores, and short-term rental operators sell more when each customer works with a personal agent that remembers them.",
+    "description_combined": "AI sales agents that run your marketplace\n\nPalisade spins up a personal sales agent for every single visitor to your website. Marketplaces like trading card platforms, vintage stores, and short-term rental operators sell more when each customer works with a personal agent that remembers them.\n\nWe spin up a dedicated sales agent for every single visitor to your marketplace.\n\nPalisade builds agents to run your online marketplace. Our agents have driven over $2.7M in GMV since the start of the batch.\n\n\n\nThe problem: The best marketplaces in the real world run on salespeople. The real estate agent who takes you house to house and texts you the moment the right listing is about to hit the market. The Sephora beauty advisor who finds your exact shade. The jeweler who walks you through diamond cuts for an engagement ring. Online marketplaces skipped that person entirely and left the selling to search bars and filters.\n\nWhat we do: Palisade builds the missing sales agent. Every single visitor to your marketplace gets their own dedicated agent, and conversion goes up massively.\n\nHow it works: Agents can take any action possible on your platform. They know every listin",
     "industry_sub_vertical": "Marketplace conversion automation via AI sales agents",
     "canonical_vertical_id": "enterprise.sales.enablement",
     "vertical_id": "enterprise.sales.enablement",
@@ -57234,7 +57659,13 @@
     ],
     "directory_synced_at": "2026-08-14T14:48:24.810Z",
     "classified_at": "2026-08-14T14:48:24.810Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110474,
+    "launch_url": "https://www.ycombinator.com/launches/Sjq-palisade-personalized-sales-agents-for-online-marketplaces",
+    "launch_title": "Palisade: Personalized sales agents for online marketplaces",
+    "launch_created_at": "2026-08-14T16:00:00.301Z",
+    "launch_tagline": "We spin up a dedicated sales agent for every single visitor to your marketplace.",
+    "launch_evaluated_at": "2026-08-15T14:19:33.887Z"
   },
   {
     "slug": "palisade-2",
@@ -59255,7 +59686,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/peer",
     "batch": "Summer 2026",
     "one_liner": "AI-native freight brokerage",
-    "description_combined": "AI-native freight brokerage\n\nPeer is building an AI-native freight brokerage that quotes freight, finds the right trucking companies, tracks shipments, and handles problems from pickup through delivery for shippers.",
+    "description_combined": "AI-native freight brokerage\n\nPeer is building an AI-native freight brokerage that quotes freight, finds the right trucking companies, tracks shipments, and handles problems from pickup through delivery for shippers.\n\nPeer brokers every load autonomously, from quote to delivery.\n\nFreight brokerages in 2026 look like stock trading floors in 1989. Rooms of people on phones, quoting prices from memory, faxing paperwork across the country. Then electronic trading showed up and those floors emptied out. Peer (YC S26) is that moment for trucking.\n\nhttps://drive.google.com/file/d/1IsbGimgbdogUQdADAzDloIuPn9zQgEJi\n\nTrucking is a $900 billion industry, and 91.5% of American trucking companies run ten trucks or fewer. Nobody shipping freight can manage hundreds of those relationships, so they hand the load to a broker, who finds the right truck, in the right place, at the right price.\n\nPeer is an AI-native freight brokerage. A shipper sends Peer a load and agents do everything after that: price it, find and vet the trucking company, handle the paperwork, track the delivery, ",
     "industry_sub_vertical": "AI-native freight brokerage for shippers (quoting, carrier matching, tracking, exception resolution)",
     "canonical_vertical_id": "logistics.freight.brokerage",
     "vertical_id": "logistics.freight.brokerage",
@@ -59326,7 +59757,13 @@
     ],
     "directory_synced_at": "2026-08-10T14:55:16.302Z",
     "classified_at": "2026-08-10T14:55:16.302Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110495,
+    "launch_url": "https://www.ycombinator.com/launches/SkB-peer-ai-native-freight-brokerage",
+    "launch_title": "Peer: AI-Native Freight Brokerage",
+    "launch_created_at": "2026-08-14T19:32:27.384Z",
+    "launch_tagline": "Peer brokers every load autonomously, from quote to delivery.",
+    "launch_evaluated_at": "2026-08-15T14:19:33.887Z"
   },
   {
     "slug": "pelica",
@@ -75982,7 +76419,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/stratum-industries",
     "batch": "Summer 2026",
     "one_liner": "AI agents that clear the U.S. government backlog.",
-    "description_combined": "AI agents that clear the U.S. government backlog.\n\nStratum builds AI agents that clear the U.S. government backlog. Every permit, license, patent, drug approval, and benefits claim in America has to be reviewed by a government adjudicator and the software they rely on was built decades before AI. The result is millions of applications stuck in queues: veterans waiting on disability ratings, families waiting on pensions, builders waiting years to break ground.\r\n\r\nStratum replaces that workflow. A reviewer drops in an application, selects the rubric it needs to be checked against, and an agent plans, executes, and reviews the file end to end routing each step to the right model for the most accurate and cost-efficient decision. Hundreds of agents run in parallel in the cloud, with a human kept in the loop to approve and full auditability at every step, so an entire backlog can be cleared in the time it used to take to review a single file.\r\n\r\nWe&#x27;re rebuilding the entire infrastructure the government runs on both the reviewer side and the applicant side - so filing and adjudication become instant instead of taking weeks.\r\n\r\nWe&#x27;re Vihaan and Raj, brothers. Vihaan was founding engineer #3 at Cadastral (acquired by Legora) and dropped out of Waterloo to build Stratum. Raj led GTM at Deel, averaging 220% of quota over two years and ranking top 5 of 1,000+ reps globally, and dropped out of grad school at the University of Bath to build Stratum.\n\nAI agents that review government applications end-to-end, so backlogs that took years clear in minutes.\n\nTL;DR\n\nStratum builds AI agents that clear the U.S. government's backlog. A reviewer drops in an application, picks the rubric to check it against, and an agent plans, executes, and reviews the file end to end. Hundreds run in parallel with a human approving every decision, so a backlog that used to take months clears in the time it took to review one file.\n\nThe Problem\n\nEvery permit, license, patent, drug approval, grants and benefits claim in America has to be reviewed by a government adjudicator, on software built decades before AI. The result is millions of applications stuck in queues, and real people waiting months or years: veterans on disability ratings, families on pensions, builders on permits. The approval isn't the problem. The software it runs on is.\n\nHow Stratum Works\n\n1. A r",
+    "description_combined": "AI agents that clear the U.S. government backlog.\n\nStratum builds AI agents that clear the U.S. government backlog. Every permit, license, patent, drug approval, and benefits claim in America has to be reviewed by a government adjudicator and the software they rely on was built decades before AI. The result is millions of applications stuck in queues: veterans waiting on disability ratings, families waiting on pensions, builders waiting years to break ground.\r\n\r\nStratum replaces that workflow. A reviewer drops in an application, selects the rubric it needs to be checked against, and an agent plans, executes, and reviews the file end to end routing each step to the right model for the most accurate and cost-efficient decision. Hundreds of agents run in parallel in the cloud, with a human kept in the loop to approve and full auditability at every step, so an entire backlog can be cleared in the time it used to take to review a single file.\r\n\r\nWe&#x27;re rebuilding the entire infrastructure the government runs on both the reviewer side and the applicant side - so filing and adjudication become instant instead of taking weeks.\r\n\r\nWe&#x27;re Vihaan and Raj, brothers. Vihaan was founding engineer #3 at Cadastral (acquired by Legora) and dropped out of Waterloo to build Stratum. Raj led GTM at Deel, averaging 220% of quota over two years and ranking top 5 of 1,000+ reps globally, and dropped out of grad school at the University of Bath to build Stratum.\n\nAI agents that review government applications end-to-end, so backlogs that took years clear in minutes.\n\nTL;DR\n\nStratum builds AI agents that clear the U.S. government's backlog. A reviewer drops in an application, picks the rubric to check it against, and an agent plans, executes, and reviews the file end to end. Hundreds run in parallel with a human approving every decision, so a backlog that used to take months clears in the time it took to review one file.\n\nThe Problem\n\nEvery permit, license, patent, drug approval, grants and benefits claim in America has to be reviewed by a government adjudicator, on software built decades before AI. The result is millions of applications stuck in queues, and real people waiting months or years: veterans on disability ratings, families on pensions, builders on permits. The approval isn't the problem. The software it runs on is.\n\nHow Stratum Works\n\n1. A r\n\nAI agents that automate the complex manual workflows governments run on.\n\nTL;DR: Stratum builds AI agents that automate the slow, manual processes governments run on. We're starting with application review - clearing backlogs in a fraction of the time and saving agencies tens of billions a year.\n\n\n\nThe problem\n\nGovernments run on manual work. Millions of complex processes - reviews, approvals, filings, claims -are still handled by hand, one file at a time, on software built long before AI existed.\n\nTake application review. Every permit, license, patent, drug approval, and benefits claim in America is reviewed by hand, one file at a time. Millions sit in queues while people wait months and years: veterans on disability ratings, families on pensions, builders on permits.\n\nThe tools reviewers open every morning were built long before AI. So the work stays manual, a",
     "industry_sub_vertical": "Government adjudication workflow automation for permits, licenses, patents, and benefits claims",
     "canonical_vertical_id": "government.govtech.ops",
     "vertical_id": "government.govtech.ops",
@@ -76054,12 +76491,12 @@
     "directory_synced_at": "2026-07-30T16:06:22.129Z",
     "classified_at": "2026-07-30T16:06:22.129Z",
     "proposed_phenotype": null,
-    "launch_id": 108348,
-    "launch_url": "https://www.ycombinator.com/launches/SBY-stratum-industries-clearing-the-entire-u-s-government-backlog",
-    "launch_title": "Stratum Industries - clearing the entire U.S. Government backlog",
-    "launch_created_at": "2026-07-30T01:21:28.889Z",
-    "launch_tagline": "AI agents that review government applications end-to-end, so backlogs that took years clear in minutes.",
-    "launch_evaluated_at": "2026-07-30T16:56:29.907Z",
+    "launch_id": 108362,
+    "launch_url": "https://www.ycombinator.com/launches/SBm-stratum-industries-applied-ai-for-governments",
+    "launch_title": "Stratum Industries - Applied AI for Governments",
+    "launch_created_at": "2026-08-14T18:00:00.843Z",
+    "launch_tagline": "AI agents that automate the complex manual workflows governments run on.",
+    "launch_evaluated_at": "2026-08-15T14:19:33.887Z",
     "primary_bm": "BM-11",
     "primary_bm_rationale": "Stratum's primary value delivery is as government-critical infrastructure that replaces core adjudication workflows for permits, licenses, patents, and benefits claims—essential government functions—rather than as a vertical SaaS product sold to a commercial market.",
     "primary_bm_assigned_at": "2026-07-30T19:00:08.592Z",
@@ -81291,6 +81728,56 @@
     "launch_created_at": "2026-08-14T13:43:29.567Z",
     "launch_tagline": "Buy tokens in advance with flexibility to resell unused capacity up to 30%+ off - or more for larger orders via direct quotes",
     "launch_evaluated_at": "2026-08-14T14:49:34.842Z"
+  },
+  {
+    "slug": "touchy",
+    "name": "Touchy",
+    "website": "https://touchyapp.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/touchy",
+    "batch": "Summer 2026",
+    "one_liner": "The AI assistant that doesn&#x27;t fight for your attention",
+    "description_combined": "The AI assistant that doesn&#x27;t fight for your attention\n\nTouchy is your personal AI assistant that lives on your iPhone. It sees what you see and talks to your other apps to take care of work so you can get back to living in the moment.",
+    "industry_sub_vertical": "Mobile AI assistant for personal task automation & attention management",
+    "canonical_vertical_id": "consumer.productivity.personal",
+    "vertical_id": "consumer.productivity.personal",
+    "vertical_label": "Personal productivity software",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / prosumer AI application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "personal_assistant",
+    "ai_application_patterns": [
+      "mobile_agent",
+      "context_awareness",
+      "app_integration",
+      "attention_minimization"
+    ],
+    "what_they_sell": "Mobile-first AI assistant (iOS app) that observes user context, integrates with other apps, and autonomously handles tasks without demanding attention or notifications.",
+    "ai_play": "AI agent that combines screen context awareness (vision/accessibility layer) with app integration (APIs, automation) to execute work autonomously. Differentiator is 'non-intrusive' design — agent works in background and surfaces results only when needed, vs. traditional copilots that interrupt with notifications.",
+    "who_pays": "Individual consumers / prosumers seeking productivity without attention tax; likely freemium or premium subscription model.",
+    "confidence": 0.78,
+    "rationale": "Touchy is a consumer-facing AI application (primary phenotype: consumer-ai-app) with copilot-like features (secondary: horizontal-copilot-saas). Core value is personal productivity multiplier via autonomous task execution on mobile. The 'doesn't fight for attention' positioning suggests agent-driven automation rather than reactive assistant. Fits consumer_subscription wedge and personal_assistant AI application. Not vertical (not industry-specific), not infrastructure, not regulated product.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Consumer",
+      "Productivity",
+      "AI Assistant"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-08-15T14:18:45.738Z",
+    "classified_at": "2026-08-15T14:18:45.738Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "tovenai",

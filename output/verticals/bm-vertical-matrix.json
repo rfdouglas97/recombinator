@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-14T14:49:35.685Z",
+  "generated_at": "2026-08-15T14:19:34.701Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1350,
+    "assignment_count": 1356,
     "mapped_verticals": 241,
-    "observed_cells": 466,
+    "observed_cells": 467,
     "total_verticals": 525,
-    "gap_candidates": 852
+    "gap_candidates": 851
   },
   "observed_cells": [
     {
@@ -216,6 +216,7 @@
         "cajal-technologies",
         "cartpole",
         "coverage-cat",
+        "cuebench",
         "feyn",
         "halluminate",
         "hebbian-robotics",
@@ -337,6 +338,34 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "consumer.productivity.personal",
+      "vertical_label": "Personal productivity software",
+      "sector_id": "consumer",
+      "companies": [
+        "aleph-lab",
+        "digipals",
+        "dollyglot",
+        "doomersion",
+        "drafted",
+        "everest",
+        "goriff",
+        "heyclicky",
+        "jo",
+        "meteor",
+        "mixy",
+        "neoncoral",
+        "parrot",
+        "pingo",
+        "remix-3",
+        "tegore",
+        "text-ai",
+        "touchy",
+        "wondering"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.finance.accounting",
@@ -362,33 +391,6 @@
         "tally-2",
         "zalos",
         "zomma"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "consumer.productivity.personal",
-      "vertical_label": "Personal productivity software",
-      "sector_id": "consumer",
-      "companies": [
-        "aleph-lab",
-        "digipals",
-        "dollyglot",
-        "doomersion",
-        "drafted",
-        "everest",
-        "goriff",
-        "heyclicky",
-        "jo",
-        "meteor",
-        "mixy",
-        "neoncoral",
-        "parrot",
-        "pingo",
-        "remix-3",
-        "tegore",
-        "text-ai",
-        "wondering"
       ]
     },
     {
@@ -678,6 +680,25 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "belvedir",
+        "cactus-compute",
+        "exla",
+        "freesolo",
+        "lilac",
+        "openrelay",
+        "pirislabs",
+        "stellon-labs",
+        "tinfoil",
+        "wafer"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.manufacturing.automation",
@@ -731,24 +752,6 @@
         "nao-labs",
         "openprose",
         "proliferate"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "belvedir",
-        "exla",
-        "freesolo",
-        "lilac",
-        "openrelay",
-        "pirislabs",
-        "stellon-labs",
-        "tinfoil",
-        "wafer"
       ]
     },
     {
@@ -1081,6 +1084,20 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.provider.revenue-cycle",
+      "vertical_label": "Healthcare revenue cycle management",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "amby-health",
+        "egress-health",
+        "eos-ai",
+        "kandor",
+        "lunabill"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.defense.surveillance",
@@ -1371,19 +1388,6 @@
         "framewise-health",
         "synthio-labs",
         "vocality-health"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.provider.revenue-cycle",
-      "vertical_label": "Healthcare revenue cycle management",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "amby-health",
-        "egress-health",
-        "eos-ai",
-        "lunabill"
       ]
     },
     {
@@ -2694,6 +2698,17 @@
       "companies": [
         "cascade-space",
         "zymbly"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.defense.supply-chain",
+      "vertical_label": "Defense supply chain & prime contracting",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "kyten-technologies",
+        "mass-magnetics"
       ]
     },
     {
@@ -4537,16 +4552,6 @@
       ]
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.defense.supply-chain",
-      "vertical_label": "Defense supply chain & prime contracting",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "kyten-technologies"
-      ]
-    },
-    {
       "business_model": "BM-06",
       "business_model_label": "Data / intelligence product",
       "vertical_id": "industrials.defense.surveillance",
@@ -5094,6 +5099,16 @@
       "sector_id": "energy-climate",
       "companies": [
         "maingen"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "power.battery-storage-ops",
+      "vertical_label": "Battery energy storage system operations & dispatch",
+      "sector_id": "energy-climate",
+      "companies": [
+        "nodi-energy"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-14T14:47:15.885Z",
+  "synced_at": "2026-08-15T14:18:10.583Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1253,
+  "company_count": 1257,
   "companies": [
     {
       "slug": "10x",
@@ -249,16 +249,16 @@
       "name": "Adam",
       "batch": "Winter 2025",
       "one_liner": "AI Powered CAD",
-      "long_description": "Adam is building AI CAD. It transforms text into parametric designs so engineering teams can ship 10x faster. Our mission is to eliminate the gap between engineering and reality so more great ideas come into existence.",
+      "long_description": "Applied AI lab building end-to-end agents for mechanical design.",
       "website": "https://adam.new/",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
-        "Design",
-        "AI"
+        "Design"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -1468,18 +1468,18 @@
       "name": "Arbital",
       "batch": "Summer 2026",
       "one_liner": "The trading terminal for perps, memes, and stocks.",
-      "long_description": "Arbital lets you trade perps, memes, stocks, and run market-making strategies from one place. In our first 7 months, 2,600 traders have traded $1.3B in volume through Arbital, and we're now doing $377M/month. \r\n\r\nWe're building towards a social, mobile-first trading app that brings tokenized equities, crypto, and perps to everyone.",
+      "long_description": "Arbital lets you trade perps, memes, stocks, and run market-making strategies from one place. In our first 7 months, 2,700 traders have traded $1.35B in volume through Arbital, and we're now doing $435M/month. \r\n\r\nWe're building towards a social, mobile-first trading app that brings tokenized equities, crypto, and perps to everyone.",
       "website": "https://www.arbital.xyz",
       "industries": [
         "Fintech",
         "Consumer Finance"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "Crypto / Web3",
         "Investing",
-        "Trading",
-        "AI"
+        "Trading"
       ],
       "team_size": 3,
       "location": "Singapore, Singapore",
@@ -3702,11 +3702,11 @@
       "launched_at": 1768498499
     },
     {
-      "slug": "cactus",
-      "name": "Cactus",
+      "slug": "cactus-compute",
+      "name": "Cactus Compute",
       "batch": "Summer 2025",
-      "one_liner": "Low-latency AI engine for mobile devices & wearables",
-      "long_description": "Check out the project: https://github.com/cactus-compute/cactus",
+      "one_liner": "Tiny Edge AI For Tiny Devices",
+      "long_description": "On-device AI for phones, wearables, smart home, robots and small robots:\r\n- Cactus Needle: 14MB agentic LLM for tiny devices\r\n- Cactus Engine: fastest runtime for tiny devices\r\n- Cactus Hybrid: post-trained models fall back to cloud",
       "website": "https://www.cactuscompute.com/",
       "industries": [
         "B2B",
@@ -5790,6 +5790,26 @@
       "launched_at": 1736479622
     },
     {
+      "slug": "cuebench",
+      "name": "CueBench",
+      "batch": "Summer 2026",
+      "one_liner": "RL Environments for Scientific Reasoning & Performance Engineering",
+      "long_description": "",
+      "website": "",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Reinforcement Learning",
+        "B2B",
+        "Data Labeling"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786744876
+    },
+    {
       "slug": "cumulus-labs",
       "name": "Cumulus Labs",
       "batch": "Winter 2026",
@@ -6245,17 +6265,15 @@
       "slug": "denta",
       "name": "Denta",
       "batch": "Summer 2026",
-      "one_liner": "The dental practice that runs itself",
-      "long_description": "Denta is the practice management platform that puts dental practices on autopilot. When a dentist starts a new practice, instead of finding an accounting firm, hiring two front desk workers, and then spending their nights posting insurance payments, they use Denta.\r\n\r\nI started Denta to help operate my Dad's 10 practices in Iowa. In supporting those, I realized the most painful part was both people and agents having messy access to fragmented data. So I solved for that and now spend my time automating work for dentists!",
+      "one_liner": "Save Money on Dental Insurance",
+      "long_description": "Denta saves you money on dental insurance.\r\n\r\nWhen you go to buy dental insurance, instead of picking the plan where 25% of your money goes to Brokers, CEOs, and Administrators, you pick the plan where 100% of your money goes to the dentist.\r\n\r\nI started Denta by building software for my dad's 10 dental practices in Iowa. In scaling that product to 13k MRR in 10 weeks, I realized I was working on a small problem in dentistry. Existing software sucks, no doubt, but what dentists complain about even more: insurance.\r\n\r\nInsurance is a massive burden on the industry. Dental Software companies make $6B/year. Dental Insurance Companies make $100B/year. 25% of that is wasted on administrators, brokers, and c-suite salaries. As the son of a dentist, I will not let these companies continue to burn $25B/year. That money should go to dentists via reimbursements, patients via more coverage, and employers via reduced costs.",
       "website": "https://trydenta.com",
       "industries": [
-        "Healthcare",
-        "Healthcare IT"
+        "Fintech",
+        "Insurance"
       ],
       "tags": [
-        "Dental",
-        "Healthcare IT",
-        "AI"
+        "Health Insurance"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -6669,8 +6687,8 @@
       "slug": "dreach",
       "name": "Dreach",
       "batch": "Spring 2026",
-      "one_liner": "Never miss a lead",
-      "long_description": "drip autonomously finds leads, sends first messages, follows up, and books meetings. Every conversation syncs for your team.",
+      "one_liner": "stop building lists. start booking clients.",
+      "long_description": "AI agents watch hiring demand, leadership changes, and company events, then queue who to contact, why now, and what to say.",
       "website": "https://dreach.ai",
       "industries": [
         "B2B",
@@ -7033,7 +7051,7 @@
         "B2B"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 5,
       "location": "Stockholm, Stockholm County, Sweden",
       "status": "Active",
       "launched_at": 1776156708
@@ -8683,7 +8701,7 @@
       "slug": "glen",
       "name": "Glen",
       "batch": "Summer 2026",
-      "one_liner": "Unified organizational context for agents and humans",
+      "one_liner": "Shared learning layer for agents",
       "long_description": "Glen is unified context for every agent and human on your team. Most MCP tools hand an agent a slice, one Slack thread, a single diff, and leave it to stitch the rest together itself. Glen reads from where your work already lives, code and PRs, issues, docs, and meetings, reconciles it, and gives your agents the full picture instead.\r\n\r\nWith Glen a coding agent knows why a line was written, not just what it says. Ask a PR assistant anything about a change and the clarifying-question relay disappears. Bug bots read the intent behind the code before they comment, so they stop flagging deliberate choices as defects and stop repeating mistakes they already made. A sales agent can coach your head of sales off the full account history, how teammates handle similar calls, what was promised, where the deal stalled, etc. \r\n\r\nAs the work gets done, Glen also distills it into skills and offers them back to the next agent, or person, who hits the same task.",
       "website": "https://www.tryglen.com/",
       "industries": [
@@ -8691,9 +8709,9 @@
         "Productivity"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -9024,6 +9042,7 @@
         "Healthcare"
       ],
       "tags": [
+        "Consumer",
         "Biotech",
         "Personalization",
         "Health & Wellness"
@@ -9802,7 +9821,7 @@
       "name": "idler",
       "batch": "Summer 2025",
       "one_liner": "reinforcement learning environments",
-      "long_description": "idler builds reinforcement learning environments that teach AI models how to do expert-level work",
+      "long_description": "idler builds reinforcement learning environments that teach AI models how to do expert-level work.",
       "website": "https://idler.ai/",
       "industries": [
         "B2B",
@@ -10724,6 +10743,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Inactive",
       "launched_at": 1747765211
+    },
+    {
+      "slug": "kandor",
+      "name": "Kandor",
+      "batch": "Summer 2026",
+      "one_liner": "Making health insurance invisible",
+      "long_description": "Kandor gets private practices paid right after performing a procedure, eliminating the 30-90 day A/R lag from insurance payers. ",
+      "website": "https://kandorlabs.com",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Healthcare"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786770807
     },
     {
       "slug": "kara",
@@ -11713,11 +11752,11 @@
         "Manufacturing and Robotics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Robotics",
         "Construction",
         "Sustainability",
-        "Energy"
+        "Energy",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -11804,17 +11843,17 @@
       "slug": "lilac",
       "name": "Lilac",
       "batch": "Summer 2025",
-      "one_liner": "We automatically monetize idle GPUs",
-      "long_description": "Lilac taps idle GPUs from cloud providers and enterprises, giving startups and researchers cheaper inference while letting companies monetize unused capacity. Fully automated with Kubernetes integration.",
+      "one_liner": "We sell GPUs.",
+      "long_description": "Lilac sells flexible GPU contracts and runs the software layer on top: monitoring, bare-metal provisioning, and managed Kubernetes and Slurm. We also run this layer for GPU cloud providers as their named operations and support partner.",
       "website": "https://getlilac.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Machine Learning",
         "Cloud Computing",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA; Remote",
@@ -12778,6 +12817,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1768440972
+    },
+    {
+      "slug": "mass-magnetics",
+      "name": "Mass Magnetics",
+      "batch": "Summer 2026",
+      "one_liner": "USA-made magnetics for aerospace, robotics and defense. ",
+      "long_description": "Mass Magnetics turns recycled rare-earth scrap into high-performance permanent magnets, made in America. The materials we supply are the backbone of electric motors, sensors, speakers, hard drives, and electronics.\r\nOur process enables DFARS-compliant magnets for defense, aerospace, and industrial manufacturers who demand domestic supply without compromising on quality.\r\nOperations in Greater Boston, MA (Greentown Labs) and Columbus, IN.",
+      "website": "https://massmagnetics.com/",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "tags": [
+        "Hard Tech",
+        "Drones",
+        "Manufacturing"
+      ],
+      "team_size": 3,
+      "location": "Boston, MA, USA",
+      "status": "Active",
+      "launched_at": 1786735839
     },
     {
       "slug": "mastra",
@@ -13839,14 +13899,15 @@
       "slug": "moving-atoms",
       "name": "Moving Atoms",
       "batch": "Summer 2026",
-      "one_liner": "Virtual Reality for Evaluating Robots (World Models)",
-      "long_description": "We use World Models to evaluate  and train robots. This enables you to test your policy checkpoints easily, as well as augmenting your training dataset. Scaling GPUs is much cheaper than scaling robot arms and humans needed to moniter them.",
+      "one_liner": "Solving Robotics with World Models Trained on Internet-Scale Video",
+      "long_description": "Moving Atoms is building world models trained on internet scale video: models that accurately predict physical interactions and are conditioned on robot actions. Our first model, Atom 1, already tops the Physics IQ benchmark. \r\n\r\nAn exceptional world model is what makes an exceptional robot model possible, and that's phase two.\r\nLLMs were unlocked by the trillions of text tokens sitting free on the internet. We believe robotics gets unlocked a similar way, by the latent physics information in online video content.",
       "website": "https://movingatoms.ai/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
+        "Hard Tech",
         "Robotics",
         "Virtual Reality",
         "AI"
@@ -13943,16 +14004,16 @@
       "slug": "naive",
       "name": "Naïve",
       "batch": "Spring 2025",
-      "one_liner": "Unified Agent Infrastructure",
-      "long_description": "The full stack your agent needs to act in the real world — compute, payments, identity, incorporation, 10,000+ tools — in one config file. \r\n\r\nPaste a prompt into your coding agent, it writes naive.config.ts, and provisions all infrastructure for your apps, agents, businesses. One API, one balance, every action governed.\r\n\r\nWe're a small, fast-moving, remote-first team.",
+      "one_liner": "Autonomous Company Infrastructure",
+      "long_description": "The full stack your agent needs to run a business — compute, payments, identity, incorporation, 10,000+ tools — in one config file. \r\n\r\nPaste a prompt into your coding agent, it writes naive.config.ts, and provisions all infrastructure for your apps, agents, businesses. One API, one balance, every action governed.\r\n\r\nWe're a small, fast-moving, remote-first team.",
       "website": "https://usenaive.ai",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 8,
       "location": "San Francisco, CA, USA",
@@ -14277,6 +14338,29 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1752219403
+    },
+    {
+      "slug": "nodi-energy",
+      "name": "NODI Energy",
+      "batch": "Spring 2025",
+      "one_liner": "Distributed energy infrastructure unlocking grid power to data centers",
+      "long_description": "NODI is building distributed energy infrastructure to rewire the grid. \r\n\r\nWe deploy and aggregate batteries at the edge and orchestrate them as distributed nodes, providing locational flexibility to the rigid grid — relieving congestion and unlocking capacity at constrained locations, so data centers can connect in weeks instead of waiting decades for reinforcement.",
+      "website": "https://www.nodienergy.com",
+      "industries": [
+        "Industrials",
+        "Energy"
+      ],
+      "tags": [
+        "Energy Storage",
+        "Hard Tech",
+        "Hardware",
+        "Energy",
+        "Electronics"
+      ],
+      "team_size": 2,
+      "location": "London, England, United Kingdom",
+      "status": "Active",
+      "launched_at": 1748546232
     },
     {
       "slug": "nomi",
@@ -16265,10 +16349,10 @@
         "Asset Management"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "Investing",
-        "Investments",
-        "AI"
+        "Investments"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -17024,29 +17108,6 @@
       "launched_at": 1782326273
     },
     {
-      "slug": "powermatrix",
-      "name": "PowerMatrix",
-      "batch": "Spring 2025",
-      "one_liner": "Connecting data cneters to the power grid, in weeks not decades",
-      "long_description": "PowerMatrix provides the MOST efficient and compact next-generation high-performance power supplies for emerging technologies, such as GPUs, xPUs, AI server, datacenters, drones, EV, aerospace, etc. \r\n\r\nBased on patented circuit topology, embedded packaging, and novel magnetics, our power supply systems can reduce energy loss by up to 50%. \r\n\r\nWe have developed several prototypes and are collaborating with world-leading customers.",
-      "website": "https://pwrmatrix.com",
-      "industries": [
-        "Industrials",
-        "Energy"
-      ],
-      "tags": [
-        "Hard Tech",
-        "Hardware",
-        "Energy",
-        "Semiconductors",
-        "Electronics"
-      ],
-      "team_size": 2,
-      "location": "London, England, United Kingdom",
-      "status": "Active",
-      "launched_at": 1748546232
-    },
-    {
       "slug": "prana-health",
       "name": "Prana",
       "batch": "Winter 2026",
@@ -17290,17 +17351,17 @@
       "name": "Prodigy Research",
       "batch": "Summer 2026",
       "one_liner": "Training the world's best foundation model for quantitative finance.",
-      "long_description": "Prodigy is the frontier AI trading research lab. We've trained the world's best foundation model for quantitative finance. We've already achieved more than 100% returns in live trading over the course of our YC batch, doubling our capital while major indices were flat. Our founders previously built strategies that generated billions in trading profits at Jane Street, trained frontier AI models at Google DeepMind and shipped cutting-edge AI at Apple to billions of customers. Join us as we use AI to solve the market.",
+      "long_description": "Prodigy is the frontier AI trading research lab. We've trained the world's best foundation model for quantitative finance. We've already achieved more than 100% returns in live trading over the course of our YC batch, doubling our capital while major indices were flat. Our founders previously worked at Jane Street, trained frontier AI models at Google DeepMind and shipped cutting-edge AI at Apple to billions of customers. Join us as we use AI to solve the market.",
       "website": "https://prodigy.markets",
       "industries": [
         "Fintech"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Reinforcement Learning",
         "Finance",
         "Investing",
-        "Trading",
-        "AI"
+        "Trading"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -18317,7 +18378,7 @@
       "slug": "rex-inc",
       "name": "Rex",
       "batch": "Summer 2026",
-      "one_liner": "AI Operations Partner for Enterprise Order to Cash",
+      "one_liner": "AI Native BPO for Enterprise Order to Cash",
       "long_description": "Rex is an AI-native service for order to cash. We replace people-heavy operations with AI agents that continuously manage invoices, customers and exceptions.\r\n\r\nOrder to cash is a $60B outsourced function because the work is too messy for traditional automation. Every customer has different context, exceptions do not follow clean rules, and the next step is often buried in emails, portals, handoffs, or someone’s memory. Rex agents run continuously in the background and resolve work to SLA standards so cash keeps moving. We're live with pre-IPO tech companies, managing  >$500m in receivables from F100 companies, cutting manual follow-up cycles from weeks to hours.\r\n\r\nWe founded Rex after spending four years building Sequence, an a16z-backed finance ops platform, from zero to Series A — where we saw firsthand that at-scale, O2C still runs on manual labour.\r\n\r\nRex is the #1 winner of the Vercel AI Accelerator out of 2,500 teams, selected by Guillermo Rauch and leaders from OpenAI, Anthropic, Browserbase and more.",
       "website": "https://www.rex.inc",
       "industries": [
@@ -18325,10 +18386,10 @@
         "Finance and Accounting"
       ],
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Enterprise",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -18355,8 +18416,8 @@
       "slug": "riften",
       "name": "Riften",
       "batch": "Summer 2026",
-      "one_liner": "Cut LLM spend, then post-train owned models from production traffic.",
-      "long_description": "Riften is a drop-in replacement for OpenAI and Anthropic APIs. Change one env var. We route each request to the cheapest model that can handle it, including open-weight models we host. Customers cut inference cost before any training begins.\r\n\r\nBecause Riften sits in the request path, real tasks and their outcomes become training data the company controls. We use that to post-train private models on open weights around recurring work. Those models earn production traffic by matching the APIs they replace.\r\n\r\nOver time, frontier APIs handle only the tasks that still require them. The rest runs on models the company owns, on infrastructure it controls.",
+      "one_liner": "Earned intelligence for every company",
+      "long_description": "Intelligence will be the most valuable asset a company owns. Today, almost every company rents it.\r\n\r\nCompanies pay a handful of labs one token at a time. Each dollar buys an answer, not an asset. They spend more, but own nothing more.\r\n\r\nRiften reverses that.\r\n\r\nChange one environment variable and Riften becomes the gateway for a company's AI traffic. We route each request to the lowest-cost model that can do the job, serving most work on open-weight models we host. Customers save money immediately without rebuilding their products.\r\n\r\nThe gateway is the entry point. Over time, Riften turns the company's work into private models built on open weights and shaped around the business. What begins as cheaper inference becomes an intelligence stack the company owns, runs on infrastructure it controls, and uses to power its most important applications.\r\n\r\nWe call this earned intelligence. It is created by the company's own work, controlled by the company, and accumulated over time.\r\n\r\nThe next generation of companies will not rent their intelligence. They will earn it, own it, and compound it. Riften is how they get there.",
       "website": "https://riften.ai",
       "industries": [
         "B2B",
@@ -20416,14 +20477,14 @@
       "name": "Standard Machines",
       "batch": "Summer 2026",
       "one_liner": "RL Environments For Chip Design",
-      "long_description": "We build RL environments to teach AI to design chips.",
+      "long_description": "We build environments and evaluations to train and evaluate models on advanced chip design.",
       "website": "https://standardmachines.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Semiconductors",
-        "AI"
+        "Artificial Intelligence",
+        "Semiconductors"
       ],
       "team_size": null,
       "location": "San Francisco, CA, USA",
@@ -20468,8 +20529,8 @@
       "slug": "starsling",
       "name": "StarSling",
       "batch": "Spring 2025",
-      "one_liner": "Self-Driving CI",
-      "long_description": "Fast GitHub Actions runners with AI agents that continuously improve your CI to make it up to 6x faster and 13x cheaper.",
+      "one_liner": "Self-Driving CI: fast AI-native GitHub Actions runners",
+      "long_description": "Drop-in Ubuntu runners plus AI agents that open optimization PRs for your workflows. StarSling Runners continuously improve your CI to make it up to 6x faster and 13x cheaper.",
       "website": "https://starsling.dev/",
       "industries": [
         "B2B",
@@ -22110,6 +22171,27 @@
       "launched_at": 1781312801
     },
     {
+      "slug": "touchy",
+      "name": "Touchy",
+      "batch": "Summer 2026",
+      "one_liner": "The AI assistant that doesn't fight for your attention",
+      "long_description": "Touchy is your personal AI assistant that lives on your iPhone. It sees what you see and talks to your other apps to take care of work so you can get back to living in the moment.",
+      "website": "https://touchyapp.com",
+      "industries": [
+        "Consumer"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Consumer",
+        "Productivity",
+        "AI Assistant"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1780080714
+    },
+    {
       "slug": "tovenai",
       "name": "TovenAI",
       "batch": "Summer 2026",
@@ -22403,9 +22485,9 @@
         "Security"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Security",
-        "Cybersecurity"
+        "Cybersecurity",
+        "AI"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
