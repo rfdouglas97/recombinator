@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-15T14:18:10.583Z",
+  "synced_at": "2026-08-16T14:18:51.390Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1257,
+  "company_count": 1259,
   "companies": [
     {
       "slug": "10x",
@@ -4885,8 +4885,8 @@
       "slug": "coasty",
       "name": "Coasty",
       "batch": "Summer 2026",
-      "one_liner": "The computer-use agent that doesn't break on real software. We will…",
-      "long_description": "Coasty is a computer use agent that does real work inside softwares, companies already run. New web apps, old desktop tools, the legacy systems nobody wants to touch. You hand it a workflow and it owns the outcome.\r\nMost agents demo well and break the moment they hit real software. They get 18 steps out of 20 right, misclick once, and everything after is garbage. Coasty catches when it goes off track and fixes itself mid-task instead of starting over. It handles the messy parts, benchmarks never show. Permission dialogs, surprise pop-ups, a modal that steals focus, a page that loads slow. When a vendor pushes an overnight update and moves half the menus, brittle scripts break by morning. Coasty reads the screen instead of recording clicks, so it adapts and keeps going.\r\nIt also checks its own output and leaves a time-stamped trail you can replay. We won't pretend it gets every task right. Nothing automating this work does. What matters is what happens when something breaks. It catches the mistake, fixes what it can, and flags what it can't so a person can step in. Nothing fails quietly. That's what lets a team trust it on the work where a silent error gets someone fired.\r\nWe scored 82% on OSWorld, which puts us among the most reliable agents out there. Reliability is the whole product, not a feature.",
+      "one_liner": "Real World Evals and RL Environments for Computer-Use",
+      "long_description": "Coasty is a computer use agent that officially reached 82.8% on OSWorld, which puts us among the most reliable agents out there. Going through the evaluation process, we realized a better crowdsourced benchmark was needed. So we created Coarena, real-world evals and RL environments for computer-use agents. We run a live arena where people post the computer-use tasks they actually need done, two frontier models race them head-to-head, and humans judge the outcome blind. Every battle produces something labs can't get from a static benchmark, an eval built on real demand instead of a memorized test set.\r\n\r\nMost benchmarks demo well and break the moment a model trains on them. They're fixed, they grade only the final screen, and they miss everything that matters, the run that spent $240 on an \"under $200\" task, the agent that subscribed to three newsletters on the way to checkout, the one that looped for 40 steps and quit. OSWorld and WebArena saturate in months. Ours are parameterized and demand-sourced, so the scores stay honest.\r\n\r\nOn top of the arena we build deterministic RL environments - flights, commerce, CRM, forms that reset bit-for-bit and grade outcome, trajectory, side-effects, and constraints, with per-step failure attribution and a dense reward you can train on. We also grade what nobody else does: whether an agent can be hijacked by instructions hidden in a page, and whether it knows when to stop and ask instead of spending someone's money.",
       "website": "http://coasty.ai/",
       "industries": [
         "B2B"
@@ -4894,7 +4894,9 @@
       "tags": [
         "AIOps",
         "Developer Tools",
-        "Workflow Automation"
+        "Reinforcement Learning",
+        "Workflow Automation",
+        "Data Labeling"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -6265,8 +6267,8 @@
       "slug": "denta",
       "name": "Denta",
       "batch": "Summer 2026",
-      "one_liner": "Save Money on Dental Insurance",
-      "long_description": "Denta saves you money on dental insurance.\r\n\r\nWhen you go to buy dental insurance, instead of picking the plan where 25% of your money goes to Brokers, CEOs, and Administrators, you pick the plan where 100% of your money goes to the dentist.\r\n\r\nI started Denta by building software for my dad's 10 dental practices in Iowa. In scaling that product to 13k MRR in 10 weeks, I realized I was working on a small problem in dentistry. Existing software sucks, no doubt, but what dentists complain about even more: insurance.\r\n\r\nInsurance is a massive burden on the industry. Dental Software companies make $6B/year. Dental Insurance Companies make $100B/year. 25% of that is wasted on administrators, brokers, and c-suite salaries. As the son of a dentist, I will not let these companies continue to burn $25B/year. That money should go to dentists via reimbursements, patients via more coverage, and employers via reduced costs.",
+      "one_liner": "Dental Insurance for Startups",
+      "long_description": "Denta is a full stack dental insurance carrier.\r\n\r\nCompanies need dental insurance. When they go to buy it, instead of picking the plan where their money goes to brokers, administrators, and c-suite execs, they pick the plan where their money goes straight to the dentist.\r\n\r\nI started Denta after building software for my dad's 10 dental practices. In scaling that software business to 16k MRR in 10 weeks, I realized I was working on a small problem in dentistry. Existing software sucks, no doubt, but what dentists complain about even more: insurance.\r\n\r\nDental Insurance Companies collect $100B/year in premiums. 25% of that is wasted on administrators, brokers, and c-suite salaries. As the son of a dentist, I will not let these companies burn $25B/year anymore. That money should go to dentists via reimbursements, patients via more coverage, and employers via reduced costs.",
       "website": "https://trydenta.com",
       "industries": [
         "Fintech",
@@ -6725,7 +6727,7 @@
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
-      "launched_at": 1765334321
+      "launched_at": 1786646316
     },
     {
       "slug": "duranium",
@@ -6852,8 +6854,8 @@
       "slug": "edviro",
       "name": "Edviro",
       "batch": "Summer 2026",
-      "one_liner": "Energy world models that fix energy waste before it becomes expensive.",
-      "long_description": "Edviro helps facilities managers at large buildings save on their energy bills. Facilities managers are overwhelmed with dashboards, alarms, and analytics for hundreds of boilers, HVAC units, and heat pumps across their buildings. Edviro continuously monitors and optimizes buildings using energy world models to detect anomalies, simulate interventions, and suggest the best options to the facilities manager.  Once the changes occur, we create a comprehensive M&V report to ensure savings show up on the bill. \r\n\r\nOur tools also allow institutions to maintain detailed service history & equipment logs, and perform maintenance with AR.  ",
+      "one_liner": "AI That Operates Energy Infrastructure",
+      "long_description": "Edviro builds AI that operates energy infrastructure. We connect to meters, HVAC systems, batteries, solar, and other energy equipment and continuously handle the work required to keep them efficient: detecting and diagnosing problems to forecasting demand, simulating fixes, creating work orders, coordinating maintenance, and controlling equipment where authorized. Our energy world models learn how each site behaves, choose the highest-value actions, and verify the results against real operational, meter, and billing data.",
       "website": "https://edviroenergy.com",
       "industries": [
         "B2B",
@@ -7917,7 +7919,7 @@
       "slug": "floracene",
       "name": "Floracene",
       "batch": "Summer 2026",
-      "one_liner": "Optimized medical device purchasing for independent providers",
+      "one_liner": "Vibecode + deploy HIPAA-compliant internal tools, no eng team needed",
       "long_description": "Floracene shows independent surgery centers the best-priced equivalent implant for every procedure based on their manufacturer contracts. \r\n\r\nEvery orthopedic surgeon we've talked to says the same thing: 90%+ of expensive implants they use are clinically interchangeable, but the choice comes down to habit, brand comfort, or the device rep. US surgery centers spend ~$7B a year on implants, and in orthopedic and spine cases the implant alone runs ~40-60% of the total cost of the procedure. Roughly ~20-30% of that spend is recoverable by switching to a clinically-equivalent device. Instead of defaulting to the implant they trained on, a surgeon sees the 3+ equivalent options side by side and switches to the one that protects the case's margin.\r\n\r\nAsaph and Jonah met on the hospitals team at Palantir two years ago, and have each spent the last four years in the plumbing of US healthcare: claims, eligibility, and payor contracting. Asaph was an early PM at Garner. Jonah was a founding engineer at Metriport (YC S22) after starting his own fax-automation startup for fertility clinics.\r\n\r\nAt a big hospital the surgeon picks the implant but isn't spending their own money, so price doesn't impact the decision. At an independent surgery center the physicians own the economics, so a cheaper equivalent goes straight to their bottom line. They have every incentive to switch. They just don't have the information or the tooling.",
       "website": "https://www.floracene.com/",
       "industries": [
@@ -7927,7 +7929,7 @@
         "Health Tech",
         "Medical Devices",
         "Digital Health",
-        "Procurement",
+        "Enterprise Software",
         "Healthcare IT"
       ],
       "team_size": 2,
@@ -8681,8 +8683,8 @@
       "slug": "gitcafe",
       "name": "GitCafe",
       "batch": "Summer 2026",
-      "one_liner": "GitCafe is a modern replacement for GitHub.",
-      "long_description": "",
+      "one_liner": "The Git forge for the next hundred billion commits",
+      "long_description": "We are GitCafe and we build GitHub for agents. We're rebuilding the infrastructure for the next hundred billion commits and CI jobs with hundreds of engineers already making the move.",
       "website": "https://git.cafe",
       "industries": [
         "B2B",
@@ -8911,7 +8913,7 @@
       "name": "Graphify Labs",
       "batch": "Summer 2026",
       "one_liner": "On-device knowledge graph engine for enterprises",
-      "long_description": "Graphify builds queryable knowledge graphs from local codebases, docs, and Jira (105K+ GitHub stars, ~5M+ downloads, used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent). \r\n\r\nOn that graph, its enterprise layer reviews every pull request and formally verifies each code change, proving the new behavior matches the old or handing back the exact input that breaks it. The graph updates itself as the code changes and keeps context instead of forgetting it, so your whole team and their coding agents work from one shared, always-current graph of the codebase instead of a thousand private threads. \r\n\r\nRuns fully on-premise, so no data leaves the building.",
+      "long_description": "Graphify builds a queryable knowledge graph from your codebase, docs, and Jira. The open-source engine has 105K+ GitHub stars and ~5M downloads, and is used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent.\r\n\r\nOn top of that graph, our enterprise layer reviews every pull request and formally verifies each code change: it proves the new behavior matches the old, or hands back the exact input that breaks it. That makes it built for the changes teams fear most, like refactors, framework upgrades, and large-scale code migrations, where you need proof that nothing broke, not a guess.\r\n\r\nThe graph updates itself as the code changes and keeps context instead of forgetting it, so your whole team and their coding agents work from one shared, always-current view of the codebase instead of a thousand private threads.\r\n\r\nIt runs entirely inside your perimeter, fully air-gapped on-premise or self-hosted in your own cloud, so no code or data ever leaves your environment.",
       "website": "https://www.graphify.com/",
       "industries": [
         "B2B",
@@ -10745,26 +10747,6 @@
       "launched_at": 1747765211
     },
     {
-      "slug": "kandor",
-      "name": "Kandor",
-      "batch": "Summer 2026",
-      "one_liner": "Making health insurance invisible",
-      "long_description": "Kandor gets private practices paid right after performing a procedure, eliminating the 30-90 day A/R lag from insurance payers. ",
-      "website": "https://kandorlabs.com",
-      "industries": [
-        "Healthcare"
-      ],
-      "tags": [
-        "Artificial Intelligence",
-        "Fintech",
-        "Healthcare"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1786770807
-    },
-    {
       "slug": "kara",
       "name": "Kara",
       "batch": "Summer 2026",
@@ -10868,7 +10850,7 @@
       "slug": "kebra",
       "name": "Kebra",
       "batch": "Summer 2026",
-      "one_liner": "Make your field service company AI-native",
+      "one_liner": "Field Service Companies that run themselves",
       "long_description": "Field technicians are bad at documenting their jobs, which paralyzes the back office. Kebra ends that.\r\n\r\nWe capture what happens in the field and collect the exact job details the back office needs. Before the truck leaves the driveway, Kebra turns every job into complete notes, filed warranty claims, parts orders, and follow-up sales opportunities.\r\n\r\nOver time, every job feeds your Company Brain, so your best technicians’ expertise never leaves the company.",
       "website": "https://kebra.com",
       "industries": [
@@ -10876,10 +10858,10 @@
         "Operations"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Home Services",
-        "Operations"
+        "Operations",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -11389,7 +11371,7 @@
       "name": "Lamina Labs",
       "batch": "Spring 2026",
       "one_liner": "Near-real-time video infrastructure for LLMs",
-      "long_description": "Lamina Labs is building infrastructure for near-real-time structured video generation.\r\n\r\nMost AI video is built for cinematic clips. Lamina is built for useful videos that teach and explain. Our first product, Simi, turns prompts, documents, and AI answers into whiteboard-style teaching videos in seconds.\r\n\r\nOur goal is to make video the default interface for AI communication.\r\n",
+      "long_description": "Lamina Labs is building infrastructure for near-real-time structured video generation.\r\n\r\nMost AI video is built for cinematic clips. Lamina is built for useful videos that break down ideas, workflows, and AI answers. Our first product, Simi, turns prompts and documents into whiteboard-style explainer videos in seconds",
       "website": "https://laminalabs.ai",
       "industries": [
         "B2B",
@@ -11821,6 +11803,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1761343459
+    },
+    {
+      "slug": "lightfield",
+      "name": "Lightfield",
+      "batch": "Fall 2026",
+      "one_liner": "AI legal intake & triage for in-house teams",
+      "long_description": "Lightfield is the front door for in-house legal teams. Requests from Gmail, Outlook and Microsoft 365, Microsoft Teams, and Slack land in one queue with an owner, a status, and the source record. Lightfield also connects with the business systems legal teams already use, including Salesforce, Jira, ServiceNow, Ironclad, Zendesk, and HubSpot. Lightfield, Inc. is based in San Francisco.",
+      "website": "https://trylightfield.ai",
+      "industries": [
+        "B2B",
+        "Legal"
+      ],
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Legal"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786835532
     },
     {
       "slug": "lightsprint",
@@ -13899,7 +13902,7 @@
       "slug": "moving-atoms",
       "name": "Moving Atoms",
       "batch": "Summer 2026",
-      "one_liner": "Solving Robotics with World Models Trained on Internet-Scale Video",
+      "one_liner": "World Model Lab for Evaluating and Training Robots.",
       "long_description": "Moving Atoms is building world models trained on internet scale video: models that accurately predict physical interactions and are conditioned on robot actions. Our first model, Atom 1, already tops the Physics IQ benchmark. \r\n\r\nAn exceptional world model is what makes an exceptional robot model possible, and that's phase two.\r\nLLMs were unlocked by the trillions of text tokens sitting free on the internet. We believe robotics gets unlocked a similar way, by the latent physics information in online video content.",
       "website": "https://movingatoms.ai/",
       "industries": [
@@ -14740,16 +14743,16 @@
       "name": "Olam Labs",
       "batch": "Summer 2026",
       "one_liner": "Building multi-agent simulations for model evals and training.",
-      "long_description": "Multi-agent simulations let us evaluate for models and humans in competition with each other. We work with researchers on both evaluations and training for character and agentic performance typically difficult to assess for using current popular datasets. \r\n\r\nPlay one of our first releases, Multi-Agent Arena (https://olamlabs.ai/arena), where humans come play social strategy games against multiple AI agents. It's currently top 50 on OpenRouter and has thousands of matches played each day. We use Multi-Agent Arena to build datasets on agentic performance and real-world socialization.",
+      "long_description": "Multi-agent environments let us evaluate and train models in complex, simulated worlds. We work with researchers on both evaluations and training for character and agentic performance typically difficult to assess for using current popular datasets. \r\n\r\nPlay one of our first releases, Multi-Agent Arena (https://olamlabs.ai/arena), where humans come play social strategy games against multiple AI agents. It's currently top 50 on OpenRouter and has thousands of matches played each day. We use Multi-Agent Arena to build datasets on agentic performance and real-world socialization.",
       "website": "https://olamlabs.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Reinforcement Learning",
         "Gaming",
-        "Data Engineering",
-        "AI"
+        "Data Engineering"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -16342,17 +16345,17 @@
       "name": "Pennant",
       "batch": "Summer 2026",
       "one_liner": "The Corporate Governance OS for Public Markets",
-      "long_description": "Led by former institutional proxy voters and technologists with 10+ years of experience, Pennant gives institutional investors, public companies, and corporate advisors voting and governance intelligence to act on their own principles at scale.",
+      "long_description": "Led by former institutional proxy voters and technologists with a collective 20+ years of experience, Pennant gives institutional investors, public companies, and corporate advisors voting and governance intelligence to act on their own principles at scale.",
       "website": "https://www.getpennant.ai",
       "industries": [
         "Fintech",
         "Asset Management"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
         "Investing",
-        "Investments"
+        "Investments",
+        "AI"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -18378,7 +18381,7 @@
       "slug": "rex-inc",
       "name": "Rex",
       "batch": "Summer 2026",
-      "one_liner": "AI Native BPO for Enterprise Order to Cash",
+      "one_liner": "AI-native BPO for enterprise order-to-cash",
       "long_description": "Rex is an AI-native service for order to cash. We replace people-heavy operations with AI agents that continuously manage invoices, customers and exceptions.\r\n\r\nOrder to cash is a $60B outsourced function because the work is too messy for traditional automation. Every customer has different context, exceptions do not follow clean rules, and the next step is often buried in emails, portals, handoffs, or someone’s memory. Rex agents run continuously in the background and resolve work to SLA standards so cash keeps moving. We're live with pre-IPO tech companies, managing  >$500m in receivables from F100 companies, cutting manual follow-up cycles from weeks to hours.\r\n\r\nWe founded Rex after spending four years building Sequence, an a16z-backed finance ops platform, from zero to Series A — where we saw firsthand that at-scale, O2C still runs on manual labour.\r\n\r\nRex is the #1 winner of the Vercel AI Accelerator out of 2,500 teams, selected by Guillermo Rauch and leaders from OpenAI, Anthropic, Browserbase and more.",
       "website": "https://www.rex.inc",
       "industries": [
@@ -18386,10 +18389,10 @@
         "Finance and Accounting"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Enterprise",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -20225,7 +20228,7 @@
       ],
       "tags": [],
       "team_size": 1,
-      "location": "San Francisco, CA, USA",
+      "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1768436882
     },
@@ -20490,6 +20493,28 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1785623138
+    },
+    {
+      "slug": "standard-medical",
+      "name": "Standard Medical",
+      "batch": "Summer 2026",
+      "one_liner": "A primary care clinic where AI earns clinical autonomy",
+      "long_description": "Standard Medical is building a primary care clinic where AI earns clinical autonomy. Physician attention is the scarcest resource in medicine, and nearly everything wrong with healthcare follows from that scarcity: the waitlists, the prices, the counties with no doctor at all. We are building the way out.\r\n\r\nThe clinic is designed for AI to do more than draft notes or recommend next steps. For defined clinical workflows, the AI progresses on the same principle used in medical training: supervised first, then progressively entrusted as it demonstrates competence, clearing safety and performance gates for each capability. We'll begin with prescription renewals and routine lab ordering and review, then expand into the rest of longitudinal primary care and common, low-acuity urgent care. Physicians set its scope, supervise its work, and take every complex or unusual case. Any authority the AI earns can be revoked if performance slips.\r\n\r\nWe're pursuing participation in Utah's first-in-nation AI regulatory sandbox to test this model and seek authorization under state oversight, as Washington moves to take clinical AI national. First patients: Utah, 2026. The model is built to repeat state by state. Long term, we want routine care to be increasingly autonomous, nearly free to deliver, and available whenever a patient needs it. The goal is one physician safely caring for a hundred times more patients, with the marginal cost of routine care driven toward zero.",
+      "website": "https://standardmedical.com",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "Health Tech",
+        "Telehealth",
+        "Digital Health",
+        "Healthcare",
+        "Primary Care"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786820862
     },
     {
       "slug": "standard-signal",
@@ -20881,7 +20906,7 @@
         "AI Assistant"
       ],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1767420715
     },
@@ -21052,18 +21077,18 @@
       "slug": "synapse-semiconductor",
       "name": "Synapse Semiconductor",
       "batch": "Summer 2026",
-      "one_liner": "Collapsing the edge AI vision hardware stack into one wafer",
+      "one_liner": "Frontier semiconductor research lab reimagining compute and vision…",
       "long_description": "We want to push machines to where humans cant go. To do that machines need to sense and understand their environment. \r\n\r\nSynapse Semiconductor is the first company to integrate all components of the computer vision stack into one substrate.\r\n\r\nModern computer vision requires the complex orchestration of storage, compute, processing, and sensors, inherently limiting the flexibility of its applications. These must be consolidated. ",
       "website": "https://synapsesemi.org",
       "industries": [
         "Industrials"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Edge Computing Semiconductors",
         "Hard Tech",
         "Robotics",
-        "Defense"
+        "Defense",
+        "AI"
       ],
       "team_size": 2,
       "location": "Durham, NC, USA",
@@ -21308,7 +21333,7 @@
       "team_size": 5,
       "location": "Salt Lake City, UT, USA",
       "status": "Active",
-      "launched_at": 1779036182
+      "launched_at": 1786674718
     },
     {
       "slug": "tash",
@@ -22189,7 +22214,7 @@
       "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
-      "launched_at": 1780080714
+      "launched_at": 1786732497
     },
     {
       "slug": "tovenai",
@@ -22724,27 +22749,6 @@
       "launched_at": 1738808449
     },
     {
-      "slug": "twentyfour26",
-      "name": "twentyfour26",
-      "batch": "Fall 2026",
-      "one_liner": "On Demand CNC Prototyping ",
-      "long_description": "twentyfour26 builds autonomous CNC machining cells that turn CAD files into same-day custom metal parts.",
-      "website": "https://twentyfour26.com/",
-      "industries": [
-        "Industrials",
-        "Manufacturing and Robotics"
-      ],
-      "tags": [
-        "Robotics",
-        "Manufacturing",
-        "Industrial"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1786424480
-    },
-    {
       "slug": "twentytwo",
       "name": "TwentyTwo",
       "batch": "Summer 2025",
@@ -23230,6 +23234,27 @@
       "launched_at": 1771526564
     },
     {
+      "slug": "veeza-ai",
+      "name": "Veeza AI",
+      "batch": "Fall 2026",
+      "one_liner": "AI travel agent for people with weak passports, starting with visas.",
+      "long_description": "Billions of people need tourist visas to travel the world. We use AI agents to prepare applications, verify documents, secure appointments, and handle the visa process end to end.\r\n",
+      "website": "https://veeza.ai",
+      "industries": [
+        "Consumer",
+        "Travel, Leisure and Tourism"
+      ],
+      "tags": [
+        "AIOps",
+        "Consumer",
+        "AI"
+      ],
+      "team_size": 1,
+      "location": "",
+      "status": "Active",
+      "launched_at": 1786858536
+    },
+    {
       "slug": "vela",
       "name": "Vela",
       "batch": "Winter 2026",
@@ -23250,7 +23275,7 @@
       "name": "Veltha",
       "batch": "Summer 2026",
       "one_liner": "AI claims adjuster for regulated insurance",
-      "long_description": "Veltha is an AI claims adjuster. It helps the human decide on a claim faster, so insurance companies save time and reduce their litigation rate.\r\n\r\nLearn more at https://veltha.ai",
+      "long_description": "Veltha is an AI co-adjuster. It puts a defensible decision on the adjuster's desk in hours, so carriers save time and fewer claims reach an attorney.\r\n\r\nLearn more at https://veltha.ai",
       "website": "https://veltha.ai/",
       "industries": [
         "Fintech",
@@ -23479,6 +23504,29 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753480338
+    },
+    {
+      "slug": "vernius-systems-inc",
+      "name": "Vernius Systems, Inc.",
+      "batch": "Summer 2026",
+      "one_liner": "Autonomous radar guidance for interceptors",
+      "long_description": "We make radar seekers for interceptors. The seeker — the sensor that finds and locks onto targets — is the most critical and costly component in every interceptor. Developing a radar seeker takes a 200+ person team at Raytheon and hundreds of millions of dollars. We’ve built a pipeline which automates their entire engineering pipeline, and can produce working seekers in weeks, not years.",
+      "website": "https://www.vernius.systems",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "tags": [
+        "Hard Tech",
+        "Drones",
+        "Radar",
+        "Aerospace",
+        "Defense"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786812946
     },
     {
       "slug": "vesence",
@@ -24133,15 +24181,15 @@
       "slug": "withasync",
       "name": "Async",
       "batch": "Summer 2026",
-      "one_liner": "Transforming small businesses with AI agents",
+      "one_liner": "AI agents that run small businesses",
       "long_description": "Async builds agents that change how businesses can run. Law firms, healthcare clinics and real estate companies hire our AI agents to automate complex work that's never been economical to staff with humans, letting us capture labor spend that didn't previously exist.",
       "website": "https://withasync.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",

@@ -45028,6 +45028,74 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "lightfield",
+    "name": "Lightfield",
+    "website": "https://trylightfield.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/lightfield",
+    "batch": "Fall 2026",
+    "one_liner": "AI legal intake & triage for in-house teams",
+    "description_combined": "AI legal intake & triage for in-house teams\n\nLightfield is the front door for in-house legal teams. Requests from Gmail, Outlook and Microsoft 365, Microsoft Teams, and Slack land in one queue with an owner, a status, and the source record. Lightfield also connects with the business systems legal teams already use, including Salesforce, Jira, ServiceNow, Ironclad, Zendesk, and HubSpot. Lightfield, Inc. is based in San Francisco.",
+    "industry_sub_vertical": "In-house legal intake & request triage for corporate legal operations",
+    "canonical_vertical_id": "enterprise.legal.contracts",
+    "vertical_id": "enterprise.legal.contracts",
+    "vertical_label": "Contract lifecycle & legal ops",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "intake_triage_automation",
+      "multi_source_aggregation",
+      "request_routing_assignment"
+    ],
+    "what_they_sell": "SaaS platform that consolidates legal requests from email, chat, and business systems (Salesforce, Jira, ServiceNow, etc.) into a unified intake queue with AI-driven triage, ownership assignment, and status tracking.",
+    "ai_play": "AI automates legal intake triage by parsing unstructured requests across multiple channels (Gmail, Outlook, Teams, Slack), extracting key metadata (request type, urgency, stakeholder), assigning to appropriate legal team members, and routing to relevant business systems. Replaces manual email sorting and request classification.",
+    "who_pays": "In-house legal teams (General Counsels, Legal Operations Managers) seeking to reduce manual intake overhead and improve request visibility.",
+    "confidence": 0.78,
+    "rationale": "Lightfield is a vertical SaaS product targeting legal operations with AI-driven workflow automation. Primary phenotype is vertical-agentic-workflow-saas because it deploys autonomous agents to replace manual intake/triage work within a specific vertical (legal). Secondary phenotype is agent-context-infra because it aggregates and structures unstructured data from multiple sources (email, chat, business systems) into a token-efficient, semantically dense intake queue for downstream processing. The AI play is intake automation + intelligent routing, not just a copilot. Confidence is 0.78 (not higher) because the description emphasizes consolidation and queuing more than autonomous execution; if the AI is primarily doing triage assignment and routing without human review, confidence would be 0.85+.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Legal"
+    ],
+    "yc_tags": [
+      "SaaS",
+      "B2B",
+      "Legal"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1633544,
+        "full_name": "Luke Wagner",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-Founder & CEO at Lightfield (F26) ",
+        "linkedin_url": "https://linkedin.com/in/lukedwagner",
+        "twitter_url": "https://x.com/lukedwagner12",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9a2c49f5763a3e6526cc53dbfe11bf14250aef0c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFD4P4SUV%2F20260816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260816T141921Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJIMEYCIQCzPkAtegjxYmb1f7r5SSdqsENzNIiXM%2BVwmv9WX7eQrQIhAOUD%2BetPkXCJ5PQS8%2B7%2FjXi9rDVbkAN6SjAG%2BzyWeDjoKuUDCCwQABoMMDA2MjAxODExMDcyIgxfdlSSuSfPiKSTlksqwgNVRuFYhL5qAaHK0rAj9rYvClW%2BQH1uCj67YUj6BtHLHqFB4AyOGFreTyg6glP0xEZEKplunsE%2BUgsfVUq7kO2CsMP8N1%2BRmuKKK6o1VdiTz%2BspwMs60Ij0DrbKk1A7iPpfMm8z38oD5%2FfgR8tldFko31AmahCth3zJl7IsbxHgQIF%2B1YJRb00urb%2Bt%2BkTcILNi%2FeSNhSxm6FBTg4sIWJf4QAEfFfHIottVb7%2Fa47pFW%2BzrIyLa0n3vD8A4P4gSCbkQVI6V94Y1kBsIbkgYe5OWCDq2rSttp0zKumPIt1uJBoxzasS43FPjTC2IG%2Bucfj7CZGaZ7wYiem1A5feXe9FrNeZSoEeYRf6rpE4FTP36i35uTM1NfWc4P%2BB2bPD2jdpQSYH3EifxS9xlqEyyEq%2FwH8aUroWxd00gB%2B1%2BCtoe7b4bFuwCHPldGqdVqZY4ZPfVF3gjfl%2B%2BYOh1VYIZHp8CJOofRGFGw8MZS2zjlKVK5FDZx0LPrMTSiXW6ipatNvaCInNCqQ%2BX2hVXnNsKZJzZaE9MGkxQyp6UIWnFafpP125uet3crsETs8mejzADRW8rOB0ZMBYD0verotjgPvCTfvEwmaOG1AY6pAHx44gFMQK4ZGuKkihaFxHl7s7oCSChVjjlduUHE4cdIzuQcVoQsVNlRQ9nkbBAhrGPpo7upKXI9pfAtlsQYQmPQN6YYXLOvS6qMvuHp%2FyKqx%2Fg8XP1BzfFB7zA6s3x1N0Bi3jsv4DM1LmaeU2DhWw4yMQmQNSQ8AS82RUVnsRzWQ%2BzISDqY19cdvbKYOYBz96TqMqu4lpoG3LW6AYa3c87d3fXYQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f4a9697cc694a0ea567933691d705b0cbbb7aaacd40f4d0ab577d08b97342848",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Lightfield",
+          "href": "https://www.ycombinator.com/companies/lightfield"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-16T14:19:30.682Z",
+    "classified_at": "2026-08-16T14:19:30.682Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
+  },
+  {
     "slug": "lightsprint",
     "name": "Lightsprint",
     "website": "https://lightsprint.ai",
@@ -78371,6 +78439,76 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "standard-medical",
+    "name": "Standard Medical",
+    "website": "https://standardmedical.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/standard-medical",
+    "batch": "Summer 2026",
+    "one_liner": "A primary care clinic where AI earns clinical autonomy",
+    "description_combined": "A primary care clinic where AI earns clinical autonomy\n\nStandard Medical is building a primary care clinic where AI earns clinical autonomy. Physician attention is the scarcest resource in medicine, and nearly everything wrong with healthcare follows from that scarcity: the waitlists, the prices, the counties with no doctor at all. We are building the way out.\r\n\r\nThe clinic is designed for AI to do more than draft notes or recommend next steps. For defined clinical workflows, the AI progresses on the same principle used in medical training: supervised first, then progressively entrusted as it demonstrates competence, clearing safety and performance gates for each capability. We&#x27;ll begin with prescription renewals and routine lab ordering and review, then expand into the rest of longitudinal primary care and common, low-acuity urgent care. Physicians set its scope, supervise its work, and take every complex or unusual case. Any authority the AI earns can be revoked if performance slips.\r\n\r\nWe&#x27;re pursuing participation in Utah&#x27;s first-in-nation AI regulatory sandbox to test this model and seek authorization under state oversight, as Washington moves to take clinical AI national. First patients: Utah, 2026. The model is built to repeat state by state. Long term, we want routine care to be increasingly autonomous, nearly free to deliver, and available whenever a patient needs it. The goal is one physician safely caring for a hundred times more patients, with the marginal cost of routine care driven toward zero.",
+    "industry_sub_vertical": "AI-autonomous primary care clinic operations & clinical workflow automation",
+    "canonical_vertical_id": "healthcare.provider.telehealth-operations",
+    "vertical_id": "healthcare.provider.telehealth-operations",
+    "vertical_label": "Telehealth platform & remote care operations",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "clinical_autonomy_progression",
+      "supervised_agent_escalation",
+      "regulatory_sandbox_compliance",
+      "physician_oversight_loop"
+    ],
+    "what_they_sell": "An AI-native primary care clinic where autonomous AI agents handle defined clinical workflows (prescription renewals, routine lab ordering/review, longitudinal care) under physician supervision, with progressive autonomy earned through demonstrated competence and regulatory approval.",
+    "ai_play": "AI agents replace physician time on routine, low-acuity tasks by earning clinical autonomy through supervised execution and safety gates. Physicians retain oversight, set scope, and handle complex cases. AI reduces marginal cost of routine care toward zero while scaling physician capacity 100x.",
+    "who_pays": "Patients (direct clinic revenue model); potentially payers/health systems seeking cost reduction and access expansion.",
+    "confidence": 0.78,
+    "rationale": "Standard Medical is an end-user-facing vertical SaaS (the clinic itself) deploying autonomous AI agents to replace physician labor on defined job functions (prescription renewal, lab review, routine ordering). This matches vertical-agentic-workflow-saas: agents integrate with clinical workflows, learn from supervision, and execute autonomously within scope. Secondary phenotype (compliance-gov-automation) applies because the company is explicitly pursuing regulatory sandbox authorization and state-by-state compliance testing—AI clinical autonomy is a regulated workflow requiring government oversight and audit trails. The model is NOT fintech-insurance-ai-product (no insurance SKU or capital-taking); NOT vertical-workflow-agent (they ARE the clinic operator, not selling software to clinics); NOT ai-forward-consulting (they deliver the service directly, not as managed service to third parties). Confidence is 0.78 (not higher) because the regulatory/compliance dimension is unusually prominent and may warrant a specialized phenotype, but vertical-agentic-workflow-saas + compliance-gov-automation captures the core archetype.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [
+      "Health Tech",
+      "Telehealth",
+      "Digital Health",
+      "Healthcare",
+      "Primary Care"
+    ],
+    "business_models": [
+      "BM-04"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1812738,
+        "full_name": "Alexander Densley",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder and CEO of Standard Medical\n\nDriving the cost of healthcare to zero",
+        "linkedin_url": "https://www.linkedin.com/in/alexander-densley/",
+        "twitter_url": "https://x.com/adensley",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f6fc77a106274337d4e1055cd3b988f17453b551.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAND6UMGMS%2F20260816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260816T141900Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDl8JMyBlrpi6b1Pt6FXx0QSbg5UWFhmOnkgBV6cIIylwIgJYridoqeLFeqfL25xKGJp9guabDGgcb1K%2BqK1lBF2%2Boq5QMILBAAGgwwMDYyMDE4MTEwNzIiDLiidRfMf0WBPZq0airCA2rm80IHG9S0N5yrmFekS%2BzWfFq7bmeJrF2Q3v6MYOeQtS%2FWSdBelNt1jpoewIjPyrGI3iSHvZi%2F62nrPBIkZg3EMgxQrPjNMH1DwAYrcMFEHAY15I9iPgUGLHVwuVaxrqZBpIaTa4iLT%2B3fbugY45YpJaYF%2BblCjH%2FLsD4ScM7gHmQXSJ%2BtrtWROAYRiVgY9Kds2HSUACB9w4Q9lMlyC1BSN1ccy%2B1o0knJZkePwXxtfm1rM9N2viVkm22iQFy7V2qaInFTsZIJ%2FMXOWVgTdHz0%2F8NFCMzf0VS6wFlsV6u55f8o0L5y1Y3S75UPcc9ZOggrCBaJ9rHpkEump5y8RucLgZeF5vRcfTwbEUaMU%2BaJAtJpHZ%2FXYc8KU%2BdrqqNnRC9SLDgDAQZdWa34lRXt3SAjKdPfyqx4teLPGmc4lu%2BwDJrccdsbkNw2LYdAGa2IF73%2FVOMhd3dAXZ%2BrSYXbzMgW7fvJfVPU2CRMJd4gbtfxO0FJ66r8QC3BhMQNdCnUWV6ahsd7C2%2B1vpJPanijjU9CA2T%2FYTOzv7MkPxIXmMmR5RVMK1yVrdcPTo8Xg29pIXvGwuGhEO%2F5px6FKlVldVGHRzDUqIbUBjqlAfDomsLf%2FVCrf2%2F1%2FBLYA7ysoa5ghgXv9oNfNA%2BLZQW3EvmID%2FoEp2PGTykcxpxHqp2HVJ3OPa2271gJm1oowskcAsLBCe8XLGg1XbV%2BWWLQpvrKr%2FW6%2FjXxy0KSrJkFBLXgX4acijIwOaUJTyFZQzqW8Iz8zQDvhxxcbXooFD0c%2BzNgA9prEFHkievc74I8zUzZeDEL0KO7kiPMUOak9%2BNk8jYTYA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=168037e561842e321563a60716b929686b4f6e2afd4e2d832a0bce90a613423f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Standard Medical",
+          "href": "https://www.ycombinator.com/companies/standard-medical"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-16T14:19:12.165Z",
+    "classified_at": "2026-08-16T14:19:12.165Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-04"
+  },
+  {
     "slug": "standard-signal",
     "name": "Standard Signal",
     "website": "https://standardsignal.com",
@@ -88748,6 +88886,75 @@
     "primary_bm": "BM-04"
   },
   {
+    "slug": "veeza-ai",
+    "name": "Veeza AI",
+    "website": "https://veeza.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/veeza-ai",
+    "batch": "Fall 2026",
+    "one_liner": "AI travel agent for people with weak passports, starting with visas.",
+    "description_combined": "AI travel agent for people with weak passports, starting with visas.\n\nBillions of people need tourist visas to travel the world. We use AI agents to prepare applications, verify documents, secure appointments, and handle the visa process end to end.\r\n",
+    "industry_sub_vertical": "Visa application & travel documentation automation for consumers",
+    "canonical_vertical_id": "hospitality.travel",
+    "vertical_id": "hospitality.travel",
+    "vertical_label": "Travel & hospitality operations",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "document_verification",
+      "process_automation",
+      "appointment_scheduling",
+      "application_preparation"
+    ],
+    "what_they_sell": "End-to-end AI agent service that automates visa application workflows: document preparation, verification, appointment booking, and submission handling for consumers navigating complex visa requirements.",
+    "ai_play": "AI agents replace manual visa application coordination by autonomously preparing applications, verifying document completeness, scheduling appointments, and managing the multi-step visa process without human intermediaries.",
+    "who_pays": "Individual consumers (prosumers) seeking visa assistance; potentially B2B2C via travel platforms or immigration consultancies.",
+    "confidence": 0.78,
+    "rationale": "Veeza is a vertical agentic workflow SaaS targeting a specific consumer pain point (visa applications). The AI agents autonomously execute end-to-end workflows (document prep, verification, appointment scheduling, submission) that would otherwise require manual coordination or expensive immigration consultants. This is distinct from horizontal copilots (not cross-industry productivity) and from agent infrastructure (it's the end-product sold to consumers). The vertical focus (visa/travel documentation) and autonomous execution model align strongly with vertical-agentic-workflow-saas. Confidence is 0.78 rather than higher because the company is consumer-facing rather than B2B, which is less typical for this phenotype, but the core archetype (vertical automation via autonomous agents) is clear.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Travel, Leisure and Tourism"
+    ],
+    "yc_tags": [
+      "AIOps",
+      "Consumer",
+      "AI"
+    ],
+    "business_models": [
+      "BM-04"
+    ],
+    "team_size": 1,
+    "location": "",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 578651,
+        "full_name": "Aly Moursy",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Veeza AI (YC F26). Previously Head of Product and AI at Efreshli, where he built an AI interior-design product. Earlier co-founded Dlvvr, a same-day delivery platform that became one of the highest-rated delivery apps on Shopify. Started at Bitaccess (YC S14) as their first intern. ",
+        "linkedin_url": "https://www.linkedin.com/in/alymoursy/",
+        "twitter_url": "https://x.com/alymoursy",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6bd07941a7e50d179bdb3c964edd166de233bb8d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEIGQL26D%2F20260816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260816T141912Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIBHmW7ypAQSYI%2FPFYWSZv2LsCrjUzm6ZQTa6%2BL6RkmRxAiEA3zb5hpdH3s1jQwbW4iqan4QPFpuncIOw4aywjKOYWZgq5QMILBAAGgwwMDYyMDE4MTEwNzIiDFZ%2FmVTNjaY2lnUngirCA7YqVK7BGpyroKQpNnRBpCWh8DrZ%2FMLDbSYntuu2MWXNTggVissW%2BnZ5WjV3WZILlhn7vmYtQmAqQb%2F7FbXEVk5Tiozptp2TcX0FiL5TOjoYeLxpbgZhl4VS1y%2FyJQkVVOYxnNsF03LnUqw%2BPa7jEQHUh8t7WBUlPJNy4OvoU65K5HVmGjcJpM0u5Zu26iX5dAIzgH1bY9SOqiyxXBvmwTG3Vmff7t9LJtcFy7oDOMFmIfcJgMDmlMuPXwEteZ0jSU0FM23LUNNGqY%2B1Y0kkkkhwHnVfYihFQXS%2F3JLf8aRHjznvJQIfEvp4OjoiktAvT2zohqCKpNhmqVQbarYveik1enCKYAwcY2TEW58WyTMvGxLoPqCxPbmnymQQWRyyYgEJYUYQIEFimVAi%2FrgCVs5pAV3eAw6XO24D%2BIDxWdRe5juNkfAOAPMy2jJBHc50u3h2tFD9hEPZW5N%2BTW4WAk%2BAvH663sAMibLTUNyPJit7c8qsDMwbSoU2DAzdM7zSGdetO6OhVY2B%2FmdUHviArrEBhLWmfqpfR7f32g89A9v3uEDlQ3nM8%2FT6eJDZVD8QU%2BQsCwTbfvc%2FeoXlZf1%2FLwoahjDgo4bUBjqlARVzAbSYDEDFCHviTZ5YaP1MajQfM4NPrv5L8wCaovJNf%2BWmDEH0hRgqRz7UO%2B6W96B7l%2FM07EcgqJ35KqdKNhci8PAkh2PG5sZocvolneK9TcrLLVhw%2BHPZXg80ZbMDzdY5bMmUTh0p27NBS7koYiVXOpxPTTJOEMTRzyTiVK0uS%2BIK8%2BCDq%2B58z2z3x40V3RNtjlkmEWfc6qFs2ZhQFyIo7VYuYg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=15d225ed943448a62f9b0a28f0e0787a157f34f5d28c47177e1f49d1730884a6",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Veeza AI",
+          "href": "https://www.ycombinator.com/companies/veeza-ai"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-16T14:19:21.341Z",
+    "classified_at": "2026-08-16T14:19:21.341Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-04"
+  },
+  {
     "slug": "vela",
     "name": "Vela",
     "website": "https://tryvela.ai",
@@ -89673,6 +89880,91 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "vernius-systems-inc",
+    "name": "Vernius Systems, Inc.",
+    "website": "https://www.vernius.systems",
+    "yc_profile_url": "https://www.ycombinator.com/companies/vernius-systems-inc",
+    "batch": "Summer 2026",
+    "one_liner": "Autonomous radar guidance for interceptors",
+    "description_combined": "Autonomous radar guidance for interceptors\n\nWe make radar seekers for interceptors. The seeker — the sensor that finds and locks onto targets — is the most critical and costly component in every interceptor. Developing a radar seeker takes a 200+ person team at Raytheon and hundreds of millions of dollars. We’ve built a pipeline which automates their entire engineering pipeline, and can produce working seekers in weeks, not years.",
+    "industry_sub_vertical": "Defense weapons system design automation — radar seeker engineering pipeline",
+    "canonical_vertical_id": "defense.engineering-change",
+    "vertical_id": "defense.engineering-change",
+    "vertical_label": "Defense engineering change & configuration management",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-enabled physical infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "engineering_pipeline_automation",
+      "design_optimization",
+      "accelerated_prototyping"
+    ],
+    "what_they_sell": "Automated radar seeker engineering pipeline — software/AI system that compresses the design-to-production cycle for interceptor radar seekers from years to weeks. Delivers working seeker designs and manufacturing specifications.",
+    "ai_play": "AI automates the entire engineering workflow (design iteration, simulation, validation, manufacturing specs) that traditionally requires 200+ person-years at defense contractors. Replaces manual design cycles, simulation loops, and engineering review with autonomous optimization and rapid prototyping.",
+    "who_pays": "Defense primes (Raytheon, Northrop Grumman, Lockheed Martin), missile manufacturers, government agencies (DoD, DARPA) seeking faster seeker development and cost reduction.",
+    "confidence": 0.82,
+    "rationale": "Vernius is building AI-driven automation of a complex physical engineering pipeline (radar seeker design). The core value is accelerating R&D cycles and manufacturing precision for a physical product (interceptor seekers). AI is the enabler that compresses 200+ person-years into weeks, but the output is a tangible physical system (working seeker hardware). This fits ai-enabled-physical-systems: AI dramatically improves design optimization, R&D cycles, and production efficiency for a hardware-centric defense product. Secondary consideration: could map to biotech-rd-agent (rd_acceleration wedge) but that phenotype is life-sciences-specific. ai-enabled-physical-systems is the correct fit for defense/aerospace hardware acceleration.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Defense"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Drones",
+      "Radar",
+      "Aerospace",
+      "Defense"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 372571,
+        "full_name": "Hisham El-Halabi",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Vernius Systems. Previously founding engineer at Suave Money (HF0, Orange DAO-backed), building a non-custodial P2P fiat-to-crypto marketplace used by hundreds of thousands and adopted by YC startups Shor and Kontigo. Co-founder/CTO at Auctify, raising $77K in presales and pivoting to Sano AI calorie tracker (30K users, $2.5K MRR, $250K raised). BEng Engineering Science, University of Toronto.",
+        "linkedin_url": "https://www.linkedin.com/in/hisham-el-halabi-001/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cd887780cb538a001e6e2bb72deb018117b59f82.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFD4P4SUV%2F20260816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260816T141851Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJIMEYCIQCzPkAtegjxYmb1f7r5SSdqsENzNIiXM%2BVwmv9WX7eQrQIhAOUD%2BetPkXCJ5PQS8%2B7%2FjXi9rDVbkAN6SjAG%2BzyWeDjoKuUDCCwQABoMMDA2MjAxODExMDcyIgxfdlSSuSfPiKSTlksqwgNVRuFYhL5qAaHK0rAj9rYvClW%2BQH1uCj67YUj6BtHLHqFB4AyOGFreTyg6glP0xEZEKplunsE%2BUgsfVUq7kO2CsMP8N1%2BRmuKKK6o1VdiTz%2BspwMs60Ij0DrbKk1A7iPpfMm8z38oD5%2FfgR8tldFko31AmahCth3zJl7IsbxHgQIF%2B1YJRb00urb%2Bt%2BkTcILNi%2FeSNhSxm6FBTg4sIWJf4QAEfFfHIottVb7%2Fa47pFW%2BzrIyLa0n3vD8A4P4gSCbkQVI6V94Y1kBsIbkgYe5OWCDq2rSttp0zKumPIt1uJBoxzasS43FPjTC2IG%2Bucfj7CZGaZ7wYiem1A5feXe9FrNeZSoEeYRf6rpE4FTP36i35uTM1NfWc4P%2BB2bPD2jdpQSYH3EifxS9xlqEyyEq%2FwH8aUroWxd00gB%2B1%2BCtoe7b4bFuwCHPldGqdVqZY4ZPfVF3gjfl%2B%2BYOh1VYIZHp8CJOofRGFGw8MZS2zjlKVK5FDZx0LPrMTSiXW6ipatNvaCInNCqQ%2BX2hVXnNsKZJzZaE9MGkxQyp6UIWnFafpP125uet3crsETs8mejzADRW8rOB0ZMBYD0verotjgPvCTfvEwmaOG1AY6pAHx44gFMQK4ZGuKkihaFxHl7s7oCSChVjjlduUHE4cdIzuQcVoQsVNlRQ9nkbBAhrGPpo7upKXI9pfAtlsQYQmPQN6YYXLOvS6qMvuHp%2FyKqx%2Fg8XP1BzfFB7zA6s3x1N0Bi3jsv4DM1LmaeU2DhWw4yMQmQNSQ8AS82RUVnsRzWQ%2BzISDqY19cdvbKYOYBz96TqMqu4lpoG3LW6AYa3c87d3fXYQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4fbfe8b957d8973a28e7d741af1311749a42202363b7b2ec402d0e40f435e704",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Vernius Systems, Inc.",
+          "href": "https://www.ycombinator.com/companies/vernius-systems-inc"
+        }
+      },
+      {
+        "user_id": 409168,
+        "full_name": "Joe Gonzalez",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "CoFounder at Vernius Systems. Serial founder: built Plucky Labs (backend-as-a-service for AI chat), XP Protocol (scaled to 200K+ users, 50K+ MAU), and Huddln (venture-backed Web3 startup). Previously Solutions Architect at Sandia National Labs under Q clearance, architecting secure comms for US Navy Tomahawk fleet. BS Computer Engineering, Sacramento State.",
+        "linkedin_url": "https://www.linkedin.com/in/jge-2a7937115/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/677db7a1244f2604393fb1cc01f838806ea6304f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFD4P4SUV%2F20260816%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260816T141851Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJIMEYCIQCzPkAtegjxYmb1f7r5SSdqsENzNIiXM%2BVwmv9WX7eQrQIhAOUD%2BetPkXCJ5PQS8%2B7%2FjXi9rDVbkAN6SjAG%2BzyWeDjoKuUDCCwQABoMMDA2MjAxODExMDcyIgxfdlSSuSfPiKSTlksqwgNVRuFYhL5qAaHK0rAj9rYvClW%2BQH1uCj67YUj6BtHLHqFB4AyOGFreTyg6glP0xEZEKplunsE%2BUgsfVUq7kO2CsMP8N1%2BRmuKKK6o1VdiTz%2BspwMs60Ij0DrbKk1A7iPpfMm8z38oD5%2FfgR8tldFko31AmahCth3zJl7IsbxHgQIF%2B1YJRb00urb%2Bt%2BkTcILNi%2FeSNhSxm6FBTg4sIWJf4QAEfFfHIottVb7%2Fa47pFW%2BzrIyLa0n3vD8A4P4gSCbkQVI6V94Y1kBsIbkgYe5OWCDq2rSttp0zKumPIt1uJBoxzasS43FPjTC2IG%2Bucfj7CZGaZ7wYiem1A5feXe9FrNeZSoEeYRf6rpE4FTP36i35uTM1NfWc4P%2BB2bPD2jdpQSYH3EifxS9xlqEyyEq%2FwH8aUroWxd00gB%2B1%2BCtoe7b4bFuwCHPldGqdVqZY4ZPfVF3gjfl%2B%2BYOh1VYIZHp8CJOofRGFGw8MZS2zjlKVK5FDZx0LPrMTSiXW6ipatNvaCInNCqQ%2BX2hVXnNsKZJzZaE9MGkxQyp6UIWnFafpP125uet3crsETs8mejzADRW8rOB0ZMBYD0verotjgPvCTfvEwmaOG1AY6pAHx44gFMQK4ZGuKkihaFxHl7s7oCSChVjjlduUHE4cdIzuQcVoQsVNlRQ9nkbBAhrGPpo7upKXI9pfAtlsQYQmPQN6YYXLOvS6qMvuHp%2FyKqx%2Fg8XP1BzfFB7zA6s3x1N0Bi3jsv4DM1LmaeU2DhWw4yMQmQNSQ8AS82RUVnsRzWQ%2BzISDqY19cdvbKYOYBz96TqMqu4lpoG3LW6AYa3c87d3fXYQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d4e1992b48b0ade78f22eb0678b15b8ebdb0320247bd159bc2d04173d091af72",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Vernius Systems, Inc.",
+          "href": "https://www.ycombinator.com/companies/vernius-systems-inc"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-16T14:19:00.804Z",
+    "classified_at": "2026-08-16T14:19:00.804Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "vesence",

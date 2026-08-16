@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-15T14:19:34.701Z",
+  "generated_at": "2026-08-16T14:20:01.794Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1356,
-    "mapped_verticals": 241,
-    "observed_cells": 467,
+    "assignment_count": 1360,
+    "mapped_verticals": 242,
+    "observed_cells": 469,
     "total_verticals": 525,
-    "gap_candidates": 851
+    "gap_candidates": 850
   },
   "observed_cells": [
     {
@@ -1056,6 +1056,20 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.legal.contracts",
+      "vertical_label": "Contract lifecycle & legal ops",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "chromie",
+        "chromiedev",
+        "lightfield",
+        "sammy-labs",
+        "vesence"
+      ]
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.ops.knowledge",
@@ -1297,19 +1311,6 @@
         "corgea",
         "parameter-fka-hex-security",
         "veria-labs"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.legal.contracts",
-      "vertical_label": "Contract lifecycle & legal ops",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "chromie",
-        "chromiedev",
-        "sammy-labs",
-        "vesence"
       ]
     },
     {
@@ -2668,6 +2669,17 @@
       ]
     },
     {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "healthcare.provider.telehealth-operations",
+      "vertical_label": "Telehealth platform & remote care operations",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "prana-health",
+        "standard-medical"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.provider.telehealth-operations",
@@ -3449,6 +3461,16 @@
       "sector_id": "ai-infrastructure",
       "companies": [
         "morphik"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "defense.engineering-change",
+      "vertical_label": "Defense engineering change & configuration management",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "vernius-systems-inc"
       ]
     },
     {
@@ -4444,16 +4466,6 @@
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
-      "vertical_id": "healthcare.provider.telehealth-operations",
-      "vertical_label": "Telehealth platform & remote care operations",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "prana-health"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
       "vertical_id": "healthcare.regulatory.fda",
       "vertical_label": "FDA regulatory consulting (biotech & devices)",
       "sector_id": "healthcare-life-sciences",
@@ -4489,6 +4501,16 @@
       "sector_id": "consumer",
       "companies": [
         "light-anchor"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "hospitality.travel",
+      "vertical_label": "Travel & hospitality operations",
+      "sector_id": "consumer",
+      "companies": [
+        "veeza-ai"
       ]
     },
     {
