@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T14:20:01.794Z",
+  "generated_at": "2026-08-17T14:24:14.944Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1360,
+    "assignment_count": 1363,
     "mapped_verticals": 242,
-    "observed_cells": 469,
+    "observed_cells": 470,
     "total_verticals": 525,
     "gap_candidates": 850
   },
@@ -680,6 +680,26 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.manufacturing.automation",
+      "vertical_label": "Manufacturing & logistics automation",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "antropi-robotics",
+        "bramante",
+        "dawn-industries",
+        "eden-robotics",
+        "neuron-industries",
+        "nox-metals",
+        "parametric",
+        "prototypingio",
+        "remy-ai",
+        "twentyfour26",
+        "ultrasonium"
+      ]
+    },
+    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "ai-infrastructure.gpu-deploy",
@@ -696,25 +716,6 @@
         "stellon-labs",
         "tinfoil",
         "wafer"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.manufacturing.automation",
-      "vertical_label": "Manufacturing & logistics automation",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "antropi-robotics",
-        "bramante",
-        "dawn-industries",
-        "eden-robotics",
-        "neuron-industries",
-        "nox-metals",
-        "parametric",
-        "prototypingio",
-        "twentyfour26",
-        "ultrasonium"
       ]
     },
     {
@@ -1457,6 +1458,19 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.semiconductor",
+      "vertical_label": "Semiconductor manufacturing",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "aerogen-systems",
+        "atum-works",
+        "inversion-semiconductor",
+        "kara"
+      ]
+    },
+    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "logistics.supply-chain.ops",
@@ -1951,18 +1965,6 @@
         "enact",
         "praxis-ai-2",
         "robocurve"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.semiconductor",
-      "vertical_label": "Semiconductor manufacturing",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "atum-works",
-        "inversion-semiconductor",
-        "kara"
       ]
     },
     {
@@ -2971,6 +2973,16 @@
       "sector_id": "ai-infrastructure",
       "companies": [
         "alter"
+      ]
+    },
+    {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "ai-infrastructure.agent-telecom",
+      "vertical_label": "Agent telecommunications infrastructure",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "antimattr"
       ]
     },
     {

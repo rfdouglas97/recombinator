@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-16T14:18:51.390Z",
+  "synced_at": "2026-08-17T14:23:18.562Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1259,
+  "company_count": 1261,
   "companies": [
     {
       "slug": "10x",
@@ -380,6 +380,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1772053698
+    },
+    {
+      "slug": "aerogen-systems",
+      "name": "Aerogen Systems",
+      "batch": "Summer 2026",
+      "one_liner": "Building the future of advanced chip manufacturing.",
+      "long_description": "We are building the future of chip manufacturing.\r\n\r\nChips are more advanced than ever, and the features inside them keep getting smaller. But the cleanroom infrastructure supporting their manufacture has not scaled at the same pace. Intel, TSMC, Samsung, and others spend billions building and operating massive cleanrooms, only to isolate their most advanced wafers from the surrounding facility as much as possible.\r\n\r\nWe think that architecture is backwards. Instead of making the entire building cleaner, why not make the machinery itself as clean as possible?\r\n\r\nTalos is our proprietary tool-integrated purification system. It sits directly inside semiconductor equipment and continuously destroys airborne molecular contaminants before they reach the wafer. Instead of fighting contamination by constantly flooding tools with ultra-high-purity nitrogen, Talos keeps the environment inside the machine 10–100x cleaner, without the massive purge-gas bill.\r\n\r\nTalos is powerful on its own, but it is also the foundation for a much bigger vision: the Cleanpipe.\r\n\r\nThe Aerogen Systems Cleanpipe is an ultra-clean interconnect infrastructure that protects wafers as they move from machine to machine across the fab. Rather than relying on a billion-dollar cleanroom to protect every cubic foot of factory space, Cleanpipe creates a controlled environment only where cleanliness actually matters: around the wafer.\r\n\r\nTalos cleans the tools. Cleanpipe connects them. Eventually, we delete the cleanroom and build more advanced chips, at greater scale, with radically less infrastructure. With cleanpipes connecting tools, chip fabs can exist anywhere.",
+      "website": "https://www.aerogensystems.com/",
+      "industries": [
+        "Industrials"
+      ],
+      "tags": [
+        "Hard Tech",
+        "B2B",
+        "Manufacturing",
+        "Semiconductors"
+      ],
+      "team_size": 4,
+      "location": "Ann Arbor, MI, USA",
+      "status": "Active",
+      "launched_at": 1786900126
     },
     {
       "slug": "afterfive",
@@ -1322,6 +1343,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1759979466
+    },
+    {
+      "slug": "antimattr",
+      "name": "antimattr",
+      "batch": "Fall 2026",
+      "one_liner": "voice-first hardware interface for human-agent interaction",
+      "long_description": "antimattr builds a voice-first hardware interface for human-agent interaction that includes a ring and a pair of earphones. Designed to make more of your voice, the ring can record and summarise your conversations, capture thoughts on the go, or control your agents. The earphones use proprietary voice isolation technology to block out background noise entirely, so you can take a clear call from a loud pub or dictate with real accuracy.\r\n\r\nReserve early access at https://www.antimattr.one/project-mnemosyne\r\n[use code YC at checkout]",
+      "website": "https://antimattr.one/",
+      "industries": [
+        "Consumer",
+        "Consumer Electronics"
+      ],
+      "tags": [
+        "Hardware",
+        "Consumer",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786922449
     },
     {
       "slug": "anto-biosciences",
@@ -5058,7 +5100,7 @@
       "slug": "collar",
       "name": "Collar",
       "batch": "Fall 2026",
-      "one_liner": "The platform for AI-native private market investors.",
+      "one_liner": "AI for General Partners",
       "long_description": "Connect your inboxes and conversations to Collar. \r\nGet a proprietary company brain from your past deals, context, and current mandate. Agents then run the entire pre-investment process: inbound and outbound sourcing, diligence, IC memos, and slides, in your fund's voice rather than a generic one. \r\nIt deploys inside your architecture, so every fund owns its platform and its data.",
       "website": "https://usecollarai.com",
       "industries": [
@@ -6267,8 +6309,8 @@
       "slug": "denta",
       "name": "Denta",
       "batch": "Summer 2026",
-      "one_liner": "Dental Insurance for Startups",
-      "long_description": "Denta is a full stack dental insurance carrier.\r\n\r\nCompanies need dental insurance. When they go to buy it, instead of picking the plan where their money goes to brokers, administrators, and c-suite execs, they pick the plan where their money goes straight to the dentist.\r\n\r\nI started Denta after building software for my dad's 10 dental practices. In scaling that software business to 16k MRR in 10 weeks, I realized I was working on a small problem in dentistry. Existing software sucks, no doubt, but what dentists complain about even more: insurance.\r\n\r\nDental Insurance Companies collect $100B/year in premiums. 25% of that is wasted on administrators, brokers, and c-suite salaries. As the son of a dentist, I will not let these companies burn $25B/year anymore. That money should go to dentists via reimbursements, patients via more coverage, and employers via reduced costs.",
+      "one_liner": "Full Stack Dental Insurance",
+      "long_description": "Denta saves companies money and time on dental insurance. In two minutes, employers can sign up directly, without dealing with the middlemen who add 25% to the cost.\r\n\r\nI started Denta after building software for my dad's 10 dental practices. In scaling that software business to 16k MRR in 10 weeks, I realized I was working on a small problem in dentistry. Existing software sucks, no doubt, but what dentists complain about even more: insurance.\r\n\r\nDental Insurance Companies collect $100B/year in premiums. 25% of that is wasted on administrators, brokers, and c-suite salaries. As the son of a dentist, I will not let these companies burn $25B/year anymore. That money should go to dentists via reimbursements, patients via more coverage, and employers via reduced costs.",
       "website": "https://trydenta.com",
       "industries": [
         "Fintech",
@@ -7920,7 +7962,7 @@
       "name": "Floracene",
       "batch": "Summer 2026",
       "one_liner": "Vibecode + deploy HIPAA-compliant internal tools, no eng team needed",
-      "long_description": "Floracene shows independent surgery centers the best-priced equivalent implant for every procedure based on their manufacturer contracts. \r\n\r\nEvery orthopedic surgeon we've talked to says the same thing: 90%+ of expensive implants they use are clinically interchangeable, but the choice comes down to habit, brand comfort, or the device rep. US surgery centers spend ~$7B a year on implants, and in orthopedic and spine cases the implant alone runs ~40-60% of the total cost of the procedure. Roughly ~20-30% of that spend is recoverable by switching to a clinically-equivalent device. Instead of defaulting to the implant they trained on, a surgeon sees the 3+ equivalent options side by side and switches to the one that protects the case's margin.\r\n\r\nAsaph and Jonah met on the hospitals team at Palantir two years ago, and have each spent the last four years in the plumbing of US healthcare: claims, eligibility, and payor contracting. Asaph was an early PM at Garner. Jonah was a founding engineer at Metriport (YC S22) after starting his own fax-automation startup for fertility clinics.\r\n\r\nAt a big hospital the surgeon picks the implant but isn't spending their own money, so price doesn't impact the decision. At an independent surgery center the physicians own the economics, so a cheaper equivalent goes straight to their bottom line. They have every incentive to switch. They just don't have the information or the tooling.",
+      "long_description": "Floracene lets any healthcare operator describe the internal tool they need and deploy it in one click - connected to production data, with read and write access scoped by the user. Think Lovable or Retool, except purpose-built for the needs of healthcare business that has no engineering team.\r\n\r\nThe bottleneck in healthcare isn't building anymore. Anyone can vibecode an 80% solution in an afternoon, custom to their own workflow, with people already on staff. The tool then dies locally on the builder’s computer, because IT (correctly) won't let anyone deploy a tool touching PHI without first-class authentication and permissioning. Our first design partner had multiple employees who had each built useful tools and dashboards locally, but couldn’t actually share these with coworkers or connect to their core practice data. Within weeks of implementing Floracene, they were able to cut a $12K / month contract for a crappy dashboarding tool and had 4 home-built tools shipped to production.\r\n\r\n~$200B is spent on administrative software in healthcare every year in the US. Tens of thousands of those companies still run core operations on spreadsheets, and we're at the top of the first inning of AI adoption.\r\n\r\nAsaph and Jonah met on the hospitals team at Palantir two years ago, and have each spent the last four years in the plumbing of US healthcare: claims, eligibility, and payor contracting. Asaph was an early PM at Garner. Jonah was a founding engineer at Metriport (YC S22) after starting his own fax-automation startup for fertility clinics.",
       "website": "https://www.floracene.com/",
       "industries": [
         "Healthcare"
@@ -11805,27 +11847,6 @@
       "launched_at": 1761343459
     },
     {
-      "slug": "lightfield",
-      "name": "Lightfield",
-      "batch": "Fall 2026",
-      "one_liner": "AI legal intake & triage for in-house teams",
-      "long_description": "Lightfield is the front door for in-house legal teams. Requests from Gmail, Outlook and Microsoft 365, Microsoft Teams, and Slack land in one queue with an owner, a status, and the source record. Lightfield also connects with the business systems legal teams already use, including Salesforce, Jira, ServiceNow, Ironclad, Zendesk, and HubSpot. Lightfield, Inc. is based in San Francisco.",
-      "website": "https://trylightfield.ai",
-      "industries": [
-        "B2B",
-        "Legal"
-      ],
-      "tags": [
-        "SaaS",
-        "B2B",
-        "Legal"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1786835532
-    },
-    {
       "slug": "lightsprint",
       "name": "Lightsprint",
       "batch": "Spring 2026",
@@ -11984,15 +12005,15 @@
       "slug": "locke",
       "name": "Locke",
       "batch": "Summer 2026",
-      "one_liner": "Builders of the first AI-native government affairs firm.",
-      "long_description": "Locke is an applied AI company changing the way companies and governments work together. \r\n\r\nOur first focus is building Locke Government Affairs, an AI-native government affairs firm helping early-stage companies monitor regulations, lobby policymakers, and win government contracts.",
+      "one_liner": "Locke is changing the way companies and governments work together.",
+      "long_description": "Locke builds AI agents that help companies and governments work together.\r\n\r\nOur agents also power Locke Government Affairs, the first AI-native government affairs firm.",
       "website": "https://locke.inc",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "GovTech"
+        "GovTech",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -12297,11 +12318,11 @@
       ],
       "tags": [
         "AIOps",
+        "Artificial Intelligence",
         "Developer Tools",
-        "Cloud Computing",
-        "AI"
+        "Cloud Computing"
       ],
-      "team_size": 5,
+      "team_size": 7,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1752295982
@@ -12328,18 +12349,18 @@
       "name": "LunaBill",
       "batch": "Fall 2025",
       "one_liner": "AI Voice callers for healthcare billing teams",
-      "long_description": "LunaBill is building AI Voice callers for healthcare billing teams. Insurance claim follow-up calls account for the 80% of the daily workload of a healthcare billing team, with each call averaging 30 minutes.\r\n\r\nSince our launch in July we are now at $764K in contracted ARR, of which $428K is live revenue and the rest will go live by January 2026. Our customers see a 10x increase in claims followed up per biller in the first week and we have converted 100% of pilots to paying customers. We have automated 50,000+ calls and signed partnerships with top healthcare leaders like UC health systems, Mayo, Experian Health and more.\r\n\r\nThe founders have known each other for over a year. Suhail is a 2x founder, with 3+ years of experience building in healthcare including operating a medical billing company with 200+ healthcare clients. David founded Skiesoft, Taiwan’s biggest healthcare AI scribe company, used by thousands of healthcare professionals. He also worked as a data scientist at UCSF, building models to audit medical-coding accuracy. Yash was a researcher at various hospital systems including Mayo Clinic.\r\n",
+      "long_description": "LunaBill is building AI Voice callers for healthcare billing teams. Insurance claim follow-up calls account for the 80% of the daily workload of a healthcare billing team, with each call averaging 30 minutes.\r\n\r\nSince our launch in July we are now at $764K in contracted ARR, of which $428K is live revenue and the rest will go live by January 2026. Our customers see a 10x increase in claims followed up per biller in the first week and we have converted 100% of pilots to paying customers. We have automated 50,000+ calls and signed partnerships with top healthcare systems in the country.\r\n\r\nThe founders have known each other for over a year. Suhail is a 2x founder, with 3+ years of experience building in healthcare including operating a medical billing company with 200+ healthcare clients. David founded Skiesoft, Taiwan’s biggest healthcare AI scribe company, used by thousands of healthcare professionals. He also worked as a data scientist at UCSF, building models to audit medical-coding accuracy. ",
       "website": "https://lunabill.com/",
       "industries": [
         "Healthcare",
         "Healthcare IT"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "Health Tech",
         "Healthcare",
-        "Healthcare IT"
+        "Healthcare IT",
+        "AI"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -12697,7 +12718,7 @@
         "Manufacturing"
       ],
       "team_size": 2,
-      "location": "Seattle, WA, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1784416117
     },
@@ -14225,8 +14246,8 @@
       "slug": "nex",
       "name": "Nex",
       "batch": "Summer 2026",
-      "one_liner": "Claude Cowork using any AI model, starting with GTM agents",
-      "long_description": "Nex turns your GTM goals into complex GTM agents only the world's best GTM engineers know to build, across 1000+ integrations. Instead of just chatting, the agent writes code as it works to make workflows deterministic, fast, and cheap to re-run, and delivers real output: a lead list, a Slack message, or a live structured data table. Built for teams.",
+      "one_liner": "Claude Cowork for high-volume workflows, starting with GTM",
+      "long_description": "Nex is the AI GTM engineer that builds and runs the complex, high-volume workflows only the world's best GTM engineers know how to build, across 1000+ integrations. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
       "website": "https://nex.ai",
       "industries": [
         "B2B",
@@ -14234,7 +14255,8 @@
       ],
       "tags": [
         "AIOps",
-        "Workflow Automation"
+        "Workflow Automation",
+        "Sales"
       ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
@@ -14414,7 +14436,7 @@
       "name": "Nori",
       "batch": "Summer 2026",
       "one_liner": "sub-$2000 humanoid robot you can teach to do anything",
-      "long_description": "Nori is a sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have 100k in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. ",
+      "long_description": "We manufacture Nori: A sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have 100k in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. ",
       "website": "http://norirobotics.com",
       "industries": [
         "Industrials",
@@ -14567,19 +14589,18 @@
       "slug": "nozomio",
       "name": "Nozomio",
       "batch": "Summer 2025",
-      "one_liner": "product lab solving context in ai",
+      "one_liner": "product lab. focused on personal ai and context.",
       "long_description": "We are a product lab solving context in AI.",
       "website": "https://www.nozomio.com/",
       "industries": [
-        "B2B",
-        "Engineering, Product and Design"
+        "Consumer"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
-        "Consumer",
-        "AI"
+        "Consumer"
       ],
-      "team_size": 5,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1751302971
@@ -15987,7 +16008,7 @@
         "Security"
       ],
       "tags": [],
-      "team_size": 10,
+      "team_size": 11,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1768943987
@@ -16752,7 +16773,7 @@
         "Consumer"
       ],
       "tags": [],
-      "team_size": 6,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753741789
@@ -17631,15 +17652,15 @@
       "slug": "qokedas",
       "name": "Qokedas",
       "batch": "Fall 2026",
-      "one_liner": "Teaching models to decode the physical world",
+      "one_liner": "Data for AI Science",
       "long_description": "Most of what happens on Earth is never written down. It passes through instruments as signal and disappears. Our goal is to turn that signal into training data in the form of RL Environments, so labs can build models that read the physical world and operate the machines that measure it",
       "website": "https://qokedas.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Deep Learning"
+        "Deep Learning",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -18211,6 +18232,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1770250805
+    },
+    {
+      "slug": "remy-ai",
+      "name": "Remy AI",
+      "batch": "Winter 2026",
+      "one_liner": "Automating dexterous tasks in warehouses with AI-powered robots",
+      "long_description": "Building robots and training models for automating manipulation in warehouse, starting with e-commerce 3PLs",
+      "website": "https://www.tryremy.ai/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Robotics",
+        "Logistics"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1770934019
     },
     {
       "slug": "rentahuman",
@@ -20479,15 +20520,15 @@
       "slug": "standard-machines",
       "name": "Standard Machines",
       "batch": "Summer 2026",
-      "one_liner": "RL Environments For Chip Design",
+      "one_liner": "Teaching AI to Design Chips",
       "long_description": "We build environments and evaluations to train and evaluate models on advanced chip design.",
       "website": "https://standardmachines.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Semiconductors"
+        "Semiconductors",
+        "AI"
       ],
       "team_size": null,
       "location": "San Francisco, CA, USA",
@@ -20855,7 +20896,7 @@
       "slug": "subvysion",
       "name": "SubVysion",
       "batch": "Summer 2026",
-      "one_liner": "We help contractors dig safer with 3D maps of underground…",
+      "one_liner": "3D Maps of Underground Utilities",
       "long_description": "We build centimeter-accurate 3D maps of underground utilities, to help construction contractors dig safer and faster. With underground intelligence, contractors can avoid utility strikes, which cause $30B in damages and 20 deaths every year in the US.",
       "website": "https://subvysion.com",
       "industries": [
@@ -21222,14 +21263,14 @@
       "name": "Pluto",
       "batch": "Summer 2026",
       "one_liner": "AI voice agent that helps professionals get discovered",
-      "long_description": "Resumes made careers readable. LinkedIn made them searchable. Pluto makes them understood.\r\n\r\nProfessionals talk to Pluto for 10 minutes about what they’ve done, what they’re great at, and what they want next. Pluto makes that context discoverable to the right people and AI agents, helping them understand the professional more fully.\r\n\r\nFor hiring, companies tell Pluto who they want to meet. Pluto searches its network and the broader market, evaluates fit on both sides, privately confirms interest, and makes warm introductions when both sides want to connect.\r\n\r\n18K+ professionals have shared their career context with Pluto. 100+ companies, from fast-growing startups to decacorns, use Pluto to meet people with deeper context and confirmed interest.",
+      "long_description": "Resumes made careers readable. LinkedIn made them searchable. Pluto makes them understood.\r\n\r\nProfessionals talk to Pluto for 10 minutes about what they’ve done, what they’re great at, and what they want next. Pluto makes that context discoverable to the right people and AI agents, helping them understand the professional more fully.\r\n\r\nFor hiring, companies tell Pluto who they want to meet. Pluto searches its network and the broader market, evaluates fit on both sides, privately confirms interest, and makes warm introductions when both sides want to connect.\r\n\r\n18K+ professionals have shared their career context with Pluto. 50+ companies, from fast-growing startups to decacorns, use Pluto to meet people with deeper context and confirmed interest.",
       "website": "https://talentpluto.com",
       "industries": [
         "Consumer",
         "Job and Career Services"
       ],
       "tags": [
-        "AI",
+        "Artificial Intelligence",
         "Careers",
         "Conversational AI"
       ],
@@ -22714,8 +22755,8 @@
       "slug": "tsenta",
       "name": "Tsenta",
       "batch": "Summer 2026",
-      "one_liner": "We match you with jobs and apply automatically",
-      "long_description": "Tsenta matches you with jobs, optimizes your profile & applies on your behalf. We have:\r\n➙ a web app ➙ an imessage bot ➙ an MCP ➙ a chrome extension, giving you control over every application being submitted.\r\n\r\nWe built Tsenta after applying to over 3,000 jobs manually, so that nobody else would have to.\r\n\r\nCheck us out at https://tsenta.com :)",
+      "one_liner": "AI career agent that finds matching jobs and applies for you",
+      "long_description": "Tsenta is an AI career agent that finds matching jobs, tailors your resume, and applies on your behalf.\r\n\r\nWe built it after manually applying to over 3,000 jobs ourselves, so nobody else would have to.\r\n\r\nToday, more than 70,000 job seekers use Tsenta to automate their job search.",
       "website": "https://tsenta.com",
       "industries": [
         "Consumer",
@@ -23500,7 +23541,7 @@
         "Manufacturing and Robotics"
       ],
       "tags": [],
-      "team_size": 6,
+      "team_size": 7,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753480338
@@ -24321,15 +24362,15 @@
       "name": "Zaplar",
       "batch": "Summer 2026",
       "one_liner": "Agentic Hotel Operating System",
-      "long_description": "Zaplar is the AI-native operating system for hotels.\r\n\r\nHotels run on legacy software and a fragmented tech stack. Zaplar replaces the entire hotel tech stack (PMS, POS, booking engine, etc) into one software that can handle hotel operations autonomously.\r\n\r\nLearn more at https://zaplar.com",
+      "long_description": "Zaplar is the AI-native operating system for hotels.\r\n\r\nHotels run on legacy software and a fragmented tech stack. Zaplar replaces the entire hotel tech stack (PMS, POS, booking engine, etc) with one software that can handle hotel operations autonomously.\r\n\r\nLearn more at https://zaplar.com",
       "website": "https://zaplar.com",
       "industries": [
         "B2B",
         "Operations"
       ],
       "tags": [
-        "B2B",
-        "AI"
+        "Artificial Intelligence",
+        "B2B"
       ],
       "team_size": 8,
       "location": "Stockholm, Stockholm County, Sweden",

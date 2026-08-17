@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-08-15T14:19:33.887Z",
-  "count": 1196,
+  "updated_at": "2026-08-17T14:24:14.121Z",
+  "count": 1197,
   "launches": [
+    {
+      "launch_id": 110923,
+      "launch_slug": "Sr5-codag-compression-and-control-for-agent-tools",
+      "launch_url": "https://www.ycombinator.com/launches/Sr5-codag-compression-and-control-for-agent-tools",
+      "title": "Codag: Compression and control for agent tools",
+      "tagline": "Optimize agent costs without changing how developers work.",
+      "body": "Hi everyone,\n\nI’m Michael, founder of Codag.\n\n**TL;DR:** Codag compresses tool results before models read them, lowering costs and improving accuracy without changing how developers work, while providing tool usage analytics.\n\n<https://youtu.be/eJbK3SezeXA>\n\n### The problem\n\nAgents consume huge amounts of output from searches, tests, builds, logs, file trees, and APIs.\n\nA single tool result can add thousands of mostly repetitive lines to a session. The model processes that output before provider-native compaction can help. Important evidence gets buried, so the agent searches again, retries, or rereads the same data.\n\nThis makes agent sessions slower and more expensive. Companies also lack a consistent view of which tools and MCP servers agents use across Claude Code, Codex, and other harnesses.\n\n### What Codag does\n\nCodag attaches to existing agent harnesses with one setup command.\n\nIt handles each result according to the action being performed:\n\n\\- Tests preserve failures, traces, file locations, and exit status.\n\n\\- Searches preserve exact file and line references.\n\n\\- Logs preserve chronology, causal evidence, and outliers.\n\n\\- Anything omitted remains selectively retrievable.\n\nOptimized tool results are 75% smaller on average, while preserving signal.\n\nDevelopers keep working normally. Codag reduces what reaches the model before the model pays to read it.\n\nCodag also reports which tools and MCP servers agents invoke, along with tokens, model-adjusted spend, savings, reducer cost, and latency across providers. Because Codag already sits in the tool path, it becomes the natural place for companies to control which tools agents can use, under what policies, and at what cost.\n\n### Results so far\n\nMore than 90 organizations use Codag, including teams of up to 35 people. I built and sold the product solo.\n\n### Where this goes\n\nOur bet is that agent activity will grow faster than model prices fall. As companies give agents more tools, longer tasks, and production access, they will need infrastructure that reduces, measures, and controls agent tool use across every provider.\n\nCodag starts with compression. The larger opportunity is becoming the gateway through which companies understand and control how agents use tools.\n\n### The ask\n\nIf your team uses agents, check out [codag.ai](http://codag.ai), or contact me at [michael@codag.ai](mailto:michael@codag.ai)",
+      "created_at": "2026-08-16T18:44:00.099Z",
+      "total_vote_count": 2,
+      "company_slug": "codag",
+      "company_name": "Codag",
+      "company_website": "https://codag.ai/",
+      "company_batch": "Summer 2026",
+      "company_industry": "B2B",
+      "company_id": 32230,
+      "author_name": "Michael Zhou",
+      "scraped_at": "2026-08-17T14:24:12.855Z",
+      "review_summary": {
+        "conformance_index": 77,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
     {
       "launch_id": 110390,
       "launch_slug": "SiU-arbital-trade-memes-stocks-and-perps-from-one-place",

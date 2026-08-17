@@ -1339,6 +1339,71 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "aerogen-systems",
+    "name": "Aerogen Systems",
+    "website": "https://www.aerogensystems.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/aerogen-systems",
+    "batch": "Summer 2026",
+    "one_liner": "Building the future of advanced chip manufacturing.",
+    "description_combined": "Building the future of advanced chip manufacturing.\n\nWe are building the future of chip manufacturing.\r\n\r\nChips are more advanced than ever, and the features inside them keep getting smaller. But the cleanroom infrastructure supporting their manufacture has not scaled at the same pace. Intel, TSMC, Samsung, and others spend billions building and operating massive cleanrooms, only to isolate their most advanced wafers from the surrounding facility as much as possible.\r\n\r\nWe think that architecture is backwards. Instead of making the entire building cleaner, why not make the machinery itself as clean as possible?\r\n\r\nTalos is our proprietary tool-integrated purification system. It sits directly inside semiconductor equipment and continuously destroys airborne molecular contaminants before they reach the wafer. Instead of fighting contamination by constantly flooding tools with ultra-high-purity nitrogen, Talos keeps the environment inside the machine 10–100x cleaner, without the massive purge-gas bill.\r\n\r\nTalos is powerful on its own, but it is also the foundation for a much bigger vision: the Cleanpipe.\r\n\r\nThe Aerogen Systems Cleanpipe is an ultra-clean interconnect infrastructure that protects wafers as they move from machine to machine across the fab. Rather than relying on a billion-dollar cleanroom to protect every cubic foot of factory space, Cleanpipe creates a controlled environment only where cleanliness actually matters: around the wafer.\r\n\r\nTalos cleans the tools. Cleanpipe connects them. Eventually, we delete the clean",
+    "industry_sub_vertical": "Advanced semiconductor fab equipment & cleanroom infrastructure optimization",
+    "canonical_vertical_id": "industrials.semiconductor",
+    "vertical_id": "industrials.semiconductor",
+    "vertical_label": "Semiconductor manufacturing",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "contamination_prediction",
+      "real_time_process_optimization",
+      "equipment_control_automation"
+    ],
+    "what_they_sell": "Talos: a tool-integrated purification system that continuously destroys airborne molecular contaminants inside semiconductor equipment. Cleanpipe: an ultra-clean interconnect infrastructure that protects wafers during inter-tool transport. Together, they replace massive cleanroom infrastructure with localized, equipment-level contamination control.",
+    "ai_play": "AI optimizes real-time contamination detection, predictive purification cycles, and equipment-level environmental control. Machine learning models analyze particle sensors and gas composition to dynamically adjust purification intensity, reducing purge-gas consumption while maintaining 10–100x cleaner environments than traditional cleanrooms. AI enables autonomous operation of the purification system without manual intervention.",
+    "who_pays": "Semiconductor fabs (Intel, TSMC, Samsung, foundries, advanced chip manufacturers) seeking to reduce cleanroom capex, operating costs (purge-gas bills), and contamination-related yield loss.",
+    "confidence": 0.72,
+    "rationale": "Aerogen is building physical hardware (Talos purification system, Cleanpipe interconnect) where AI accelerates design optimization, manufacturing precision, and autonomous operational control. The core value is the physical system itself—contamination control and wafer protection—but AI dramatically improves real-time process control, predictive maintenance, and cost optimization. This fits ai-enabled-physical-systems: AI is the enabler, not the product. The company is not selling an AI model or agent; they are selling advanced manufacturing equipment where AI optimizes performance. Secondary consideration: could map to infrastructure-optimization-ai (real-time optimization of fab operations), but the primary phenotype better captures the hardware-centric, design-manufacturing-control nature of the business.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "B2B",
+      "Manufacturing",
+      "Semiconductors"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 4,
+    "location": "Ann Arbor, MI, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3388722,
+        "full_name": "Noah Vogel",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder & CEO at Aerogen Systems. Previously engineering intern at SpaceX building Starship actuators and at Draper developing advanced mission simulators. BSE Aerospace Engineering from University of Michigan.",
+        "linkedin_url": "https://www.linkedin.com/in/noahvogel/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5153adbbedb2cd7f09db195d1d63de5e64513dea.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHW44GIYO%2F20260817%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260817T142326Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEH0aCXVzLXdlc3QtMiJIMEYCIQDA9%2Bf1EIic0bJM%2FTPlSaKn%2BXbMb%2FZ6oz5Ld5fNsaxOUQIhANAJpP%2F0gZQ8C%2BlknvEvSsBsZPEwvivIKs25nhiQWh76KuUDCEYQABoMMDA2MjAxODExMDcyIgwfDBxBAazrOqriXi0qwgObZr8M76s97guk%2FqitT%2BP3cU8%2FGhTunWjURu07Cuy3aSvDJlnjYu63Xjlxohb%2Fozt3I1R0ZO3L%2B9pOlm8DWaOKIUdSr%2Bqo8%2FuXrIAyoSNvmIa8YbYGfb6s9i75UnRNV8jiZ2P0FBGIx9Nn3UDhYlQtjIrmlo8E7T9yFhfDvgGfAMZGHV5nNTTWO2x2NNrNjbrQBtT5xy5q0%2BZ77HZ6CuNi3snF9S9dKu5s1knWu2SZlrML4hogzhn6maAe62335gHJrgu55%2BU1Rz04yL9VJtIE%2FJvg1rdLxjKOudi4GPL9L5tv1XJjKJ6v320FNU%2BjPyyzCSjBDK1p0yaGa8DunDRw%2BI%2F3mEwrM0GrDPmJydXLE0xfwdQLl0CRJFITvhv8vL2P%2BTblD2hR%2BLJ6PEZbGqcBMWBIHQHdzKCbzQ2yh%2FyCctZgDrcOttLQlfEtr4J7n5BtVrik2My%2BGW2%2Fqxf%2FVkDoJw8u54P%2B1vlTqoNsIhuBhf4dO6fGK5mA8fKjrOSQKeDvZV2sny3kOZYHo6r5zVDZs%2BqQUH5e8svLJraDrDDbNqTBlWGcW3U0P%2B3nfS7d73hi%2F9THaLjcRj%2Feq49lKqCOG7owlf%2BL1AY6pAHyD77PTYfeiuMcPuEMcPnYwos2dZVzM9N4toDqoGcS76bqqO2AX2l8f3CiRSVxSFdVE9OMi7kYapdDZBi8RxF0ZE3mGWhRxJkmux0IVgHcLtdKyzpBltOWkXDOge3NfA%2B13jSn0ofuCxdbwQu9sMWBy5lB5u0lmUQ%2B8MsOVs9hfxkQ%2BxMUyJhyKunWeRxDhWQVD9r773S%2BlLrAEl0SEwpFB7djoA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=be15299885fd59a61fee09a9f10e023240ee9ea4fd48599414f016953e5273fa",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Aerogen Systems",
+          "href": "https://www.ycombinator.com/companies/aerogen-systems"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-17T14:23:35.786Z",
+    "classified_at": "2026-08-17T14:23:35.786Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "afterfive",
     "name": "afterfive",
     "website": "https://afterfive.club/",
@@ -4779,6 +4844,87 @@
       "vertical_id": null,
       "industry_sub_vertical": "Enterprise offensive security / red team automation"
     }
+  },
+  {
+    "slug": "antimattr",
+    "name": "antimattr",
+    "website": "https://antimattr.one/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/antimattr",
+    "batch": "Fall 2026",
+    "one_liner": "voice-first hardware interface for human-agent interaction",
+    "description_combined": "voice-first hardware interface for human-agent interaction\n\nantimattr builds a voice-first hardware interface for human-agent interaction that includes a ring and a pair of earphones. Designed to make more of your voice, the ring can record and summarise your conversations, capture thoughts on the go, or control your agents. The earphones use proprietary voice isolation technology to block out background noise entirely, so you can take a clear call from a loud pub or dictate with real accuracy.\r\n\r\nReserve early access at https://www.antimattr.one/project-mnemosyne\r\n[use code YC at checkout]",
+    "industry_sub_vertical": "Consumer voice interface for agent interaction & hands-free control",
+    "canonical_vertical_id": "ai-infrastructure.agent-telecom",
+    "vertical_id": "ai-infrastructure.agent-telecom",
+    "vertical_label": "Agent telecommunications infrastructure",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer AI Application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "personal_assistant",
+    "ai_application_patterns": [
+      "voice_interface",
+      "conversation_summarization",
+      "agent_control",
+      "audio_processing"
+    ],
+    "what_they_sell": "Voice-first hardware (ring + earphones) that enables hands-free human-agent interaction with built-in conversation recording, summarization, thought capture, and proprietary voice isolation for noise cancellation.",
+    "ai_play": "AI agents are the primary interaction paradigm — users control and communicate with agents via voice; the hardware is the interface layer. AI handles conversation summarization, noise isolation, and agent command routing. The ring acts as a persistent agent control surface.",
+    "who_pays": "End consumers (prosumers, knowledge workers) seeking always-on voice access to AI agents and conversation intelligence.",
+    "confidence": 0.72,
+    "rationale": "Antimattr is a consumer-facing hardware product that enables voice-first interaction with AI agents. Primary phenotype is consumer-ai-app because the end-user is the buyer and the value is personal productivity/agent access. Secondary phenotype is ai-enabled-physical-systems because the hardware (ring, earphones) is the core physical product and AI (voice isolation, summarization, agent routing) is the enabler that makes the hardware valuable. The business model is consumer subscription (early access, likely freemium or premium tiers). Not robotics/embodied-ai because there's no autonomous physical control — it's a passive interface. Not horizontal-copilot-saas because it's hardware-first, not seat-based SaaS.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Consumer Electronics"
+    ],
+    "yc_tags": [
+      "Hardware",
+      "Consumer",
+      "AI"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3675155,
+        "full_name": "Sirsho C",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "co-founder and CTO at antimattr (YC F26).\npreviously co-founder & CTO at Snipe, bootstrapped to $240K ARR in 15 months.\nCS grad, KIIT &#x27;23.",
+        "linkedin_url": "https://www.linkedin.com/in/sirsho29",
+        "twitter_url": "https://x.com/sirsho29",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b63fb5096d443ad21ec0dde15db2959c159959a5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADBED4RZ4%2F20260817%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260817T142336Z&X-Amz-Expires=1409&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHkaCXVzLXdlc3QtMiJHMEUCIA9b18bC6A%2BQ7yKYM6IO5L4SAsskTVlA4dNR%2FxTkTOn5AiEAuo2eKHidrX2sqtu2RXnHH0ow7dQNvXT7gncQpKrNPdsq5QMIQhAAGgwwMDYyMDE4MTEwNzIiDF5AYYot7ZseAcZSjyrCAzPeU99y2PWQhCdRXk6bdJVoWzlljIy1j1zByjgQ0KHgk01BuoOy4Xkuz8rfGSfwxOmqaJNM5Em0jnsEHDsjynWjSY92z29Vg8JCTQI6m%2BmrVornBEA0ikuBKcTR1AA8poQsOPxfNO5Jc3otPAhQYrWT0fhz3T%2BPlJycsJ%2Fg35DCFtHeCdwJMu0%2B5q%2BlAr%2BfZNgv0TAL%2FxdK51fI7h5WmFNcCKeDwR1igSFkEe2YCs4r0zusgovciIiUdOIxCGkBDPnbt639NHQu2BxCfO%2B5IPRnKWCJztrnxwQ%2BG67R8%2BXiLz0bF31JjXgGbrIMmSdSTRJm5OW0z55dW9EWd5YaAmwJ3530%2Bj6j%2BrCrVjPpKlWMwCYY6trD%2F0OOXg8%2FWKz6vkdx7qN0T%2B5zz8Nwn6uC8XTU4e91w5q1pJfnzmBZ6osaBpE%2Fn1%2F4S3UjsZTpAJVUjFN0P171%2Bfpej8%2F%2Fj93jWsz1%2FRDO8XVC2J8ELuFMkvlAiaFOsxsLcVe0HKWg2k3C%2FKJPAviBAcKomkuW8eALrQ4Z%2Fev%2FpKl5Pyz6nD5OFY68w2%2B8pEE%2BIj5M0F%2Fcpw%2FzrlbGK5NbR4hIPTFaq8Q03paVxDCJlYvUBjqlARa%2Bp2Kf%2BA%2BUHhWWO8ZHTNfA3mDtAzLKflfqa4CKJ9%2BEPdtcbLtJUZKR3HFqwNTOhVQsr7Mw%2BWF3Jow9iex5gbpb9HBD%2FAXmhsKDV7BTI9sPIM6Mc1SfvWIZioENe2YKQoPH65HyPfCXqQifxv6GxRWe2JjdYBtSSLWevkBAFb%2FnhBfLrSGGOAhzBY7b%2BWb%2BvQHH3cRZgcY33zzXdRN1DGx75rBqCw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ac9da8ee5c5deed5ad0a89351751f5c797b653f6578d58083d10f2996e89fa61",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "antimattr",
+          "href": "https://www.ycombinator.com/companies/antimattr"
+        }
+      },
+      {
+        "user_id": 3579391,
+        "full_name": "Sridipto Ghosh",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at antimattr (YC F26). Previously co-founder/CEO at Snipe, scaled $250k revenue in 15 months. IIT (BHU) grad.",
+        "linkedin_url": "https://www.linkedin.com/in/sridiptoghosh/",
+        "twitter_url": "https://x.com/sridipto_ghosh",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ef946f5d0ea3fd89a9a53227943f1adbbf065e8a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADBED4RZ4%2F20260817%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260817T142336Z&X-Amz-Expires=1409&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHkaCXVzLXdlc3QtMiJHMEUCIA9b18bC6A%2BQ7yKYM6IO5L4SAsskTVlA4dNR%2FxTkTOn5AiEAuo2eKHidrX2sqtu2RXnHH0ow7dQNvXT7gncQpKrNPdsq5QMIQhAAGgwwMDYyMDE4MTEwNzIiDF5AYYot7ZseAcZSjyrCAzPeU99y2PWQhCdRXk6bdJVoWzlljIy1j1zByjgQ0KHgk01BuoOy4Xkuz8rfGSfwxOmqaJNM5Em0jnsEHDsjynWjSY92z29Vg8JCTQI6m%2BmrVornBEA0ikuBKcTR1AA8poQsOPxfNO5Jc3otPAhQYrWT0fhz3T%2BPlJycsJ%2Fg35DCFtHeCdwJMu0%2B5q%2BlAr%2BfZNgv0TAL%2FxdK51fI7h5WmFNcCKeDwR1igSFkEe2YCs4r0zusgovciIiUdOIxCGkBDPnbt639NHQu2BxCfO%2B5IPRnKWCJztrnxwQ%2BG67R8%2BXiLz0bF31JjXgGbrIMmSdSTRJm5OW0z55dW9EWd5YaAmwJ3530%2Bj6j%2BrCrVjPpKlWMwCYY6trD%2F0OOXg8%2FWKz6vkdx7qN0T%2B5zz8Nwn6uC8XTU4e91w5q1pJfnzmBZ6osaBpE%2Fn1%2F4S3UjsZTpAJVUjFN0P171%2Bfpej8%2F%2Fj93jWsz1%2FRDO8XVC2J8ELuFMkvlAiaFOsxsLcVe0HKWg2k3C%2FKJPAviBAcKomkuW8eALrQ4Z%2Fev%2FpKl5Pyz6nD5OFY68w2%2B8pEE%2BIj5M0F%2Fcpw%2FzrlbGK5NbR4hIPTFaq8Q03paVxDCJlYvUBjqlARa%2Bp2Kf%2BA%2BUHhWWO8ZHTNfA3mDtAzLKflfqa4CKJ9%2BEPdtcbLtJUZKR3HFqwNTOhVQsr7Mw%2BWF3Jow9iex5gbpb9HBD%2FAXmhsKDV7BTI9sPIM6Mc1SfvWIZioENe2YKQoPH65HyPfCXqQifxv6GxRWe2JjdYBtSSLWevkBAFb%2FnhBfLrSGGOAhzBY7b%2BWb%2BvQHH3cRZgcY33zzXdRN1DGx75rBqCw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=67ca59fbb32f1fbf832b27459313c4f0c98c25d38047195ab785903b830519b7",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "antimattr",
+          "href": "https://www.ycombinator.com/companies/antimattr"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-17T14:23:44.518Z",
+    "classified_at": "2026-08-17T14:23:44.518Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "anto-biosciences",
@@ -17776,7 +17922,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/codag",
     "batch": "Summer 2026",
     "one_liner": "Systems log compression for agents.",
-    "description_combined": "Systems log compression for agents.",
+    "description_combined": "Systems log compression for agents.\n\nOptimize agent costs without changing how developers work.\n\nHi everyone,\n\nI’m Michael, founder of Codag.\n\nTL;DR: Codag compresses tool results before models read them, lowering costs and improving accuracy without changing how developers work, while providing tool usage analytics.\n\n\n\n### The problem\n\nAgents consume huge amounts of output from searches, tests, builds, logs, file trees, and APIs.\n\nA single tool result can add thousands of mostly repetitive lines to a session. The model processes that output before provider-native compaction can help. Important evidence gets buried, so the agent searches again, retries, or rereads the same data.\n\nThis makes agent sessions slower and more expensive. Companies also lack a consistent view of which tools and MCP servers agents use across Claude Code, Codex, and other harnesses.\n\n### What Codag does\n\nCodag",
     "industry_sub_vertical": "Systems log compression for agent observability",
     "phenotype_primary_id": "agent-context-infra",
     "phenotype_secondary_id": "agent-observability-evals",
@@ -17827,7 +17973,13 @@
       "phenotype_primary_id": "agent-context-infra",
       "business_models": []
     },
-    "archetype_refined_at": "2026-06-04T00:39:33.845Z"
+    "archetype_refined_at": "2026-06-04T00:39:33.845Z",
+    "launch_id": 110923,
+    "launch_url": "https://www.ycombinator.com/launches/Sr5-codag-compression-and-control-for-agent-tools",
+    "launch_title": "Codag: Compression and control for agent tools",
+    "launch_created_at": "2026-08-16T18:44:00.099Z",
+    "launch_tagline": "Optimize agent costs without changing how developers work.",
+    "launch_evaluated_at": "2026-08-17T14:24:14.121Z"
   },
   {
     "slug": "code-four",
@@ -67004,6 +67156,86 @@
       "business_models": []
     },
     "archetype_refined_at": "2026-06-04T00:39:33.854Z"
+  },
+  {
+    "slug": "remy-ai",
+    "name": "Remy AI",
+    "website": "https://www.tryremy.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/remy-ai",
+    "batch": "Winter 2026",
+    "one_liner": "Automating dexterous tasks in warehouses with AI-powered robots",
+    "description_combined": "Automating dexterous tasks in warehouses with AI-powered robots\n\nBuilding robots and training models for automating manipulation in warehouse, starting with e-commerce 3PLs",
+    "industry_sub_vertical": "Warehouse & 3PL dexterous manipulation automation",
+    "canonical_vertical_id": "industrials.manufacturing.automation",
+    "vertical_id": "industrials.manufacturing.automation",
+    "vertical_label": "Manufacturing & logistics automation",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "physical-ai-autonomous-systems",
+    "phenotype_primary_label": "Physical AI & Autonomous Manufacturing",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "embodied_control",
+    "ai_application_patterns": [
+      "robotic_manipulation",
+      "vision_control",
+      "warehouse_automation",
+      "dexterous_task_learning"
+    ],
+    "what_they_sell": "AI-powered robotic systems that autonomously perform dexterous manipulation tasks (picking, sorting, packing) in warehouse and 3PL environments. Hardware + trained vision/control models bundled as an operational solution.",
+    "ai_play": "Computer vision and reinforcement learning models trained to enable robots to perceive warehouse items, plan manipulation sequences, and execute complex picking/sorting tasks with minimal human intervention. AI handles real-time object detection, grasp planning, and adaptive control.",
+    "who_pays": "3PL operators, e-commerce fulfillment centers, warehouse operators seeking to automate labor-intensive dexterous tasks.",
+    "confidence": 0.85,
+    "rationale": "Remy AI is building physical robotic hardware with embedded AI for autonomous warehouse manipulation. This is a core fit for physical-ai-autonomous-systems: hardware-centric, AI-driven autonomous control of physical systems, sold to operators (3PLs/warehouses) to scale operations. Secondary fit with ai-enabled-physical-systems (hardware is primary, AI accelerates capability). Not robotics-embodied-ai (which is broader sensing/teleoperation) — Remy is focused on autonomous dexterous task execution, not teleoperation or general sensing meshes.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Robotics",
+      "Logistics"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1182398,
+        "full_name": "Oscar Brisset",
+        "title": "Co-Founder, CEO",
+        "is_active": true,
+        "bio": "Oxford, AI Engineer at BCG X, now working on end-to-end learning for robotics ",
+        "linkedin_url": "https://www.linkedin.com/in/oscarbrisset/",
+        "twitter_url": "https://x.com/oscar__2025",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fc84e0375af73a1add39a9246fee99dc88fe7766.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPLUZMV5F%2F20260817%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260817T142318Z&X-Amz-Expires=1427&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHkaCXVzLXdlc3QtMiJHMEUCIHzeHBNx4K2d4Ito9VA%2BF0f2Ij%2B78VCEgVE6UXL09bEwAiEAutVp7brSg9vURb12HlHd%2Bduv7ezzjj%2B45Cxs6B91d9Yq5QMIQhAAGgwwMDYyMDE4MTEwNzIiDErpQaFNC7IF%2FZhDeirCA%2B7XsLB0Kv2rzSZVXgX%2Fl8Ngip9jHDRu45n39C2M50K%2Ffk4gbcHrdywmxlY9WW7MO0ebB%2Fc6KnjClHadivByYFrbGPyz54CfPGTdkxVRCHytNibGW3SjdlKdIfWIvBmYexJjQh%2FHh5G35EG3urfVqk6v8zKOzZxR7rYIDFefyVFXo66y7TUaj0kwDclMsKje%2B35X%2FqRu1QC0UX7p1Vyt7wIZyTGI2T7ZpihgKFcfkMlPWMCqAogWezqru3XOm0hKt9Ygt%2BhZW3tXpdztlb30Q8Ofkg%2B1%2BoqSG7Ab5YEbihOqZWH9jABN0iGBjdzlkWUUJiZd36uhTUDkJX%2BFC1jAPbkey9YjMdwqLHCg0XIUquOOmZhocVtltATeuyl7MYiG2cNRlBHTQRq9ZhpWmUxIOSerl7u7RF%2BUQH0xKsWUElX0wdgegFFFi25R9Z01v6RJWTRRozmM0%2BU9lqMvyu5Be2zJdOM6cHjzYJGNYpJ7kC%2FuNbF%2B39Z5NQPYVE%2B3u%2BJjK3teM5oCnvOBxrG83wP%2F2oZlXoDbYsdxNAqcSmVMhD%2FT6ECoDTrDsGnDfLSQMntF%2FspnnSQ1JhN%2BHhKeyQLAc63jczCJlYvUBjqlAdfkMKCM8cSLIfM3AzmISrVsDdhWjm9YthEmh2fEw%2F9fT28tNg8AsuZ%2F%2FNotVPHNdmRev8vN%2B6NozKKYa6OjO4ZUElEjZDQ%2F7ly1x66ilrTROhyEEZ96a3h%2BePxx7dEcVJnZBzAqr3dVfLpCaBA9vmJ21jJwcCkBOScpXP2zHSTeHZFbBZ93bWqrdTDdsbWDGyXaRdoRdQGPPWy1BYDl8QrFUwXmZg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=60259c1dfbe6ab439ca0914f3e380cb2f55c0550e1bf3a1e8a9e2f0e24a205bc",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Remy AI",
+          "href": "https://www.ycombinator.com/companies/remy-ai"
+        }
+      },
+      {
+        "user_id": 3174376,
+        "full_name": "Ben Kaye",
+        "title": "Co-founder, CTO",
+        "is_active": false,
+        "bio": "Oxford engineering &#x27;22 and PhD tbd. Expertise in Spatial AI",
+        "linkedin_url": "https://www.linkedin.com/in/ben-kaye-0/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/86a40536614763d9bfb931829495fdc91289e407.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPLUZMV5F%2F20260817%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260817T142318Z&X-Amz-Expires=1427&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHkaCXVzLXdlc3QtMiJHMEUCIHzeHBNx4K2d4Ito9VA%2BF0f2Ij%2B78VCEgVE6UXL09bEwAiEAutVp7brSg9vURb12HlHd%2Bduv7ezzjj%2B45Cxs6B91d9Yq5QMIQhAAGgwwMDYyMDE4MTEwNzIiDErpQaFNC7IF%2FZhDeirCA%2B7XsLB0Kv2rzSZVXgX%2Fl8Ngip9jHDRu45n39C2M50K%2Ffk4gbcHrdywmxlY9WW7MO0ebB%2Fc6KnjClHadivByYFrbGPyz54CfPGTdkxVRCHytNibGW3SjdlKdIfWIvBmYexJjQh%2FHh5G35EG3urfVqk6v8zKOzZxR7rYIDFefyVFXo66y7TUaj0kwDclMsKje%2B35X%2FqRu1QC0UX7p1Vyt7wIZyTGI2T7ZpihgKFcfkMlPWMCqAogWezqru3XOm0hKt9Ygt%2BhZW3tXpdztlb30Q8Ofkg%2B1%2BoqSG7Ab5YEbihOqZWH9jABN0iGBjdzlkWUUJiZd36uhTUDkJX%2BFC1jAPbkey9YjMdwqLHCg0XIUquOOmZhocVtltATeuyl7MYiG2cNRlBHTQRq9ZhpWmUxIOSerl7u7RF%2BUQH0xKsWUElX0wdgegFFFi25R9Z01v6RJWTRRozmM0%2BU9lqMvyu5Be2zJdOM6cHjzYJGNYpJ7kC%2FuNbF%2B39Z5NQPYVE%2B3u%2BJjK3teM5oCnvOBxrG83wP%2F2oZlXoDbYsdxNAqcSmVMhD%2FT6ECoDTrDsGnDfLSQMntF%2FspnnSQ1JhN%2BHhKeyQLAc63jczCJlYvUBjqlAdfkMKCM8cSLIfM3AzmISrVsDdhWjm9YthEmh2fEw%2F9fT28tNg8AsuZ%2F%2FNotVPHNdmRev8vN%2B6NozKKYa6OjO4ZUElEjZDQ%2F7ly1x66ilrTROhyEEZ96a3h%2BePxx7dEcVJnZBzAqr3dVfLpCaBA9vmJ21jJwcCkBOScpXP2zHSTeHZFbBZ93bWqrdTDdsbWDGyXaRdoRdQGPPWy1BYDl8QrFUwXmZg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ee444f630d8a9ecc44a5faa285bab57ab3408ae04b09fe1789b154e722df2964",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Remy AI",
+          "href": "https://www.ycombinator.com/companies/remy-ai"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-17T14:23:26.670Z",
+    "classified_at": "2026-08-17T14:23:26.670Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "rentahuman",
