@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-17T14:23:18.562Z",
+  "synced_at": "2026-08-18T14:29:27.894Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1261,
+  "company_count": 1265,
   "companies": [
     {
       "slug": "10x",
@@ -1180,17 +1180,17 @@
       "slug": "amorphic-labs",
       "name": "Amorphic Labs",
       "batch": "Summer 2026",
-      "one_liner": "Agentic, Personalized Product Demo Videos for Sales",
-      "long_description": "We build agents that create personalized product demo videos for tailored outbound, qualifying inbound, and call follow ups. Provide a list of prospects and our agent will research each prospect, use your app to record a tailored demo workflow complete with personalized seeded data, edit and narrate the video, then output a polished demo video ready to send.",
+      "one_liner": "Software Commerce Infrastructure for Agents",
+      "long_description": "The next billion software users are AI agents, yet fully autonomous agents remain impossible while every account, bill, and tool still runs through a human. We solve this for both agents and software vendors: vendors use us to let agents sign up and get billed directly, and to improve their agent experience across interfaces like MCP. Agents use us to find, acquire, and pay for what they need, including MCP servers, APIs, datasets, and skills.",
       "website": "https://www.amorphiclabs.com",
       "industries": [
         "B2B",
-        "Sales"
+        "Engineering, Product and Design"
       ],
       "tags": [
-        "B2B",
-        "Sales",
-        "AI"
+        "Artificial Intelligence",
+        "Marketplace",
+        "B2B"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -3821,6 +3821,24 @@
       "launched_at": 1773416869
     },
     {
+      "slug": "callbook-ai",
+      "name": "Callbook AI",
+      "batch": "Summer 2026",
+      "one_liner": "AI collections agency for late stage portfolios",
+      "long_description": "Callbook AI is a collections agency operated by AI. We collect late stage portfolios by finding, contacting and negotiating with borrowers.",
+      "website": "https://callbook.ai",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "AI"
+      ],
+      "team_size": 7,
+      "location": "San Francisco, CA, USA; Remote",
+      "status": "Active",
+      "launched_at": 1787023077
+    },
+    {
       "slug": "calltree",
       "name": "Calltree",
       "batch": "Winter 2025",
@@ -5834,26 +5852,6 @@
       "launched_at": 1736479622
     },
     {
-      "slug": "cuebench",
-      "name": "CueBench",
-      "batch": "Summer 2026",
-      "one_liner": "RL Environments for Scientific Reasoning & Performance Engineering",
-      "long_description": "",
-      "website": "",
-      "industries": [
-        "B2B"
-      ],
-      "tags": [
-        "Reinforcement Learning",
-        "B2B",
-        "Data Labeling"
-      ],
-      "team_size": 0,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1786744876
-    },
-    {
       "slug": "cumulus-labs",
       "name": "Cumulus Labs",
       "batch": "Winter 2026",
@@ -6310,8 +6308,8 @@
       "name": "Denta",
       "batch": "Summer 2026",
       "one_liner": "Full Stack Dental Insurance",
-      "long_description": "Denta saves companies money and time on dental insurance. In two minutes, employers can sign up directly, without dealing with the middlemen who add 25% to the cost.\r\n\r\nI started Denta after building software for my dad's 10 dental practices. In scaling that software business to 16k MRR in 10 weeks, I realized I was working on a small problem in dentistry. Existing software sucks, no doubt, but what dentists complain about even more: insurance.\r\n\r\nDental Insurance Companies collect $100B/year in premiums. 25% of that is wasted on administrators, brokers, and c-suite salaries. As the son of a dentist, I will not let these companies burn $25B/year anymore. That money should go to dentists via reimbursements, patients via more coverage, and employers via reduced costs.",
-      "website": "https://trydenta.com",
+      "long_description": "Denta saves companies money and time on dental insurance. In two minutes, employers can sign up directly, without dealing with the middlemen who add 25% to the cost.\r\n\r\nI started Denta after building software for my dad's 10 dental practices. In scaling the software business to 16k MRR in 10 weeks, I realized I was working on a small problem in dentistry. Existing software sucks, no doubt, but what dentists complain about even more: insurance.\r\n\r\nDental insurance carriers collect $100B per year in premiums. 25% of that is wasted on administrators, brokers, and c-suite salaries. As the son of a dentist, I will not let these companies burn $25B a year. That money should go to employers via reduced costs, dentists via reimbursements, and patients via more coverage.",
+      "website": "https://denta.insure",
       "industries": [
         "Fintech",
         "Insurance"
@@ -8026,7 +8024,7 @@
       "name": "FlowManual",
       "batch": "Summer 2026",
       "one_liner": "AI for Construction's Back Office.",
-      "long_description": "FlowManual is the all-in-one AI bidding and purchasing platform for both general and MEP construction contractors.\r\n\r\nBuilt by two engineers and Harvard dropouts, FlowManual automates the buying process during pre-construction. With FlowManual, specialty contractors win more work while general contractors deliver at higher standards.",
+      "long_description": "FlowManual is the all-in-one AI estimating, bidding, and purchasing platform for both general and MEP construction contractors.\r\n\r\nBuilt by two engineers and Harvard dropouts, FlowManual automates the buying process during pre-construction. With FlowManual, specialty contractors win more work while general contractors deliver at higher standards.",
       "website": "https://flowmanual.com/",
       "industries": [
         "Real Estate and Construction",
@@ -8708,15 +8706,15 @@
       "slug": "gigacatalyst",
       "name": "Gigacatalyst",
       "batch": "Spring 2026",
-      "one_liner": "Let software users build new features with our in-app AI agents",
-      "long_description": "Gigacatalyst allows sales and CS teams to build missing features that customers need, so you stop losing business because of feature gaps. We’ve helped our customers unblock $1M in sales in 6 weeks.\r\n\r\nWe do this with an embedded AI customization layer that learns your APIs. Each customer can now adapt your product to match their workflows perfectly, and share it across their team with our in-built app store.\r\n\r\nThe result is that customers use your SaaS more, retain for longer, and expand quicker, because they get bespoke implementation for their exact usecase, without waiting.\r\n\r\nWe're live with the top Series B companies with 90% repeat usage rate. Our customers tell us that Gigacatalyst is the best way to increase usage, retention, and expansion in 2026.",
+      "one_liner": "AI-first embedded analytics and reports for customer success",
+      "long_description": "Gigacatalyst allows your customers to build analytics, dashboards, reports, forms, from inside your product. We’ve helped our customers expand $1M in sales in 6 weeks.\r\n\r\nWe do this with an embedded AI customization layer that learns your APIs. Each customer can now build on top of your product to match their workflows perfectly, and share it across their team in one click.\r\n\r\nThe result is that customers use your SaaS more, retain for longer, and expand quicker, because they get bespoke dashboards for their exact usecase, without waiting.\r\n\r\nWe're live with the top Series B companies with 90% repeat usage rate. ",
       "website": "https://gigacatalyst.com/",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
       ],
       "tags": [],
-      "team_size": 4,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1775192956
@@ -8992,8 +8990,8 @@
       "slug": "greypoint-industries",
       "name": "Greypoint Industries",
       "batch": "Summer 2026",
-      "one_liner": "Manufacturing the future of autonomous swarm warfare.",
-      "long_description": "Greypoint Industries built LEGION, a drone swarm that identifies, geolocates, and tracks every emitter on the battlefield using the enemy’s own radio signals. LEGION enables our warfighters to precisely track previously obscured targets like jammers, command posts, and drone operators so they can proactively respond to threats instead of reacting to them.",
+      "one_liner": "Building drone swarms that hunt drone operators",
+      "long_description": "We build LEGION, a drone swarm that identifies, geolocates, and tracks every emitter on the battlefield using the enemy’s own radio signals. LEGION enables our warfighters to precisely track previously obscured targets like jammers, command posts, and drone operators so they can proactively respond to threats instead of reacting to them.",
       "website": "https://greypointindustries.com/",
       "industries": [
         "Industrials",
@@ -9003,7 +9001,6 @@
         "Hardware",
         "Robotics",
         "Drones",
-        "Manufacturing",
         "Defense"
       ],
       "team_size": 4,
@@ -9030,6 +9027,27 @@
       "location": "Zürich, ZH, Switzerland",
       "status": "Active",
       "launched_at": 1785254669
+    },
+    {
+      "slug": "grocalo",
+      "name": "Grocalo",
+      "batch": "Summer 2026",
+      "one_liner": "AI brain that runs content for creators",
+      "long_description": "",
+      "website": "https://grocalo.com/",
+      "industries": [
+        "Consumer",
+        "Content"
+      ],
+      "tags": [
+        "Entertainment",
+        "Creator Economy",
+        "AI"
+      ],
+      "team_size": 0,
+      "location": "Los Angeles, CA, USA",
+      "status": "Active",
+      "launched_at": 1787022465
     },
     {
       "slug": "groundcontrol",
@@ -9131,10 +9149,10 @@
         "Supply Chain and Logistics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Logistics",
         "Supply Chain",
-        "Operations",
-        "AI"
+        "Operations"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -9929,17 +9947,17 @@
       "name": "IMPACT Drones",
       "batch": "Summer 2026",
       "one_liner": "Air Defense as a Service for Civilian Infrastructure.",
-      "long_description": "IMPACT builds autonomous interceptor drones that ship in a sealed box. The box sits at the site it protects (data centers, power grid, airports, bases) with no crew on the pad. When sensors cue a hostile drone, an interceptor pierces its own frangible lid, launches, and rams the target, guided by onboard visual navigation that keeps working when GPS is jammed. Legacy effectors cost $1M+ per shot against $30k threats; our interceptors cost like the threat and launches scale with the swarm. Sites subscribe to protection instead of buying missiles: hardware, reloads, and monitoring included. Air defense as a Service.",
+      "long_description": "IMPACT builds autonomous interceptor drones that ship in sealed containers. The box sits at the site it protects, data centers, power grids, airports, bases, with no crew on the pad. When sensors cue a hostile drone, an interceptor pierces its own frangible lid, launches, and rams the target, guided by onboard vision that keeps working when GPS is jammed. Legacy effectors cost $1M+ per shot against $30k threats; ours cost less than the threat and scale with the swarm, the same class of interceptor already downing Shahed drones over Ukraine. Sites subscribe to protection instead of buying missiles, hardware, reloads and monitoring included: Air Defense as a Service. 180M+ USD in signed letters of intent.",
       "website": "https://www.impact-drones.com",
       "industries": [
         "Industrials",
         "Defense"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Drones",
-        "Swarm Robotics"
+        "Swarm Robotics",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -10235,6 +10253,8 @@
       "tags": [
         "Artificial Intelligence",
         "Health Tech",
+        "Healthcare",
+        "Insurance",
         "Automation"
       ],
       "team_size": 2,
@@ -11036,8 +11056,8 @@
       "slug": "khotan",
       "name": "Khotan (formerly Pollinate)",
       "batch": "Winter 2026",
-      "one_liner": "AI Agents for the supply chain.",
-      "long_description": "Supply chains still run on spreadsheets and inboxes because ERPs are rigid and the data is messy. We're solving this problem by building an ontology where agents can operate and provide outcomes for our customers.\r\n\r\nWe start with procurement, by automating three-way match: extracting supplier invoices from email and matching them to the correct PO and receipt across ERPs.\r\n\r\nLearn more at khotan.com",
+      "one_liner": "FDE as a platform for rebuilding critical operations in software.",
+      "long_description": "Khotan is the platform for embedded forward-deployed engineers to rebuild critical operations as software and maintain them. It combines business context with the infrastructure agent harnesses need to deploy, share, and maintain each application.\r\n\r\nAcross procurement, supply chain, finance, and operations, we’ve rebuilt the workflows businesses cannot afford to get wrong, from procurement to back office operations.\r\n\r\nLearn more at khotan.com",
       "website": "https://www.khotan.com/",
       "industries": [
         "B2B",
@@ -11464,6 +11484,27 @@
       "launched_at": 1753218115
     },
     {
+      "slug": "lantern-ai",
+      "name": "Lantern AI",
+      "batch": "Fall 2026",
+      "one_liner": "Turn Your Taste Into Hires",
+      "long_description": "Lantern learns what exceptional looks like for your team, pressure-tests the role against the real talent market, then runs the hiring loop: sourcing, inbound applications, interviews, assessments, candidate communication, and offers.",
+      "website": "https://www.lantern.md",
+      "industries": [
+        "B2B",
+        "Human Resources"
+      ],
+      "tags": [
+        "Human Resources",
+        "Recruiting",
+        "HR Tech"
+      ],
+      "team_size": 4,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1787030206
+    },
+    {
       "slug": "lapis",
       "name": "Lapis",
       "batch": "Fall 2025",
@@ -11768,19 +11809,19 @@
       "slug": "libra-robotics",
       "name": "Libra Robotics",
       "batch": "Summer 2026",
-      "one_liner": "Multi-robot collaboration for harsh environments on Earth.",
-      "long_description": "We build collaborative robot squads for solar farm construction.\r\n\r\nHigh labor costs, labor shortages, and unpredictable productivity make infrastructure difficult to build in places that are remote, harsh, or empty. We are building robots to unlock places once considered too difficult to develop. Solar is our first proving ground, spanning utility-scale, commercial and industrial, community solar, agrivoltaic, and other projects.\r\n\r\nUnlike solutions that automate only one task, or even part of one, we cover the workflow after PV module pallets arrive on-site: transportation, installation, alignment, and fastening. Each robot has a specific role, and fleets can be configured based on each project’s cost and schedule requirements.\r\n\r\nOur robots operate autonomously with remote supervision. One person can supervise 4+ robots through a screen and an e-stop button, without being physically present or teleoperating them. Our robotic fleet has also been tested at night, paving the way for 24/7 operation.\r\n\r\nWe work directly with EPCs through a Robotics-as-a-Service model, requiring no robot purchase or large upfront capital investment. We also work with racking and PV module manufacturers to certify compatibility and give customers confidence in deployment.\r\n\r\nPurpose-built hardware, multimodal sensing, and physical AI software help our robots handle real-world construction uncertainty.",
+      "one_liner": "Robot squads for solar farm construction",
+      "long_description": "We build collaborative robot squads for solar farm construction.\r\n\r\nHigh labor costs, labor shortages, and unpredictable productivity make infrastructure difficult to build in places that are remote, harsh, or empty. We are building robots to unlock places once considered too difficult to develop. Solar farm is our first proving ground.\r\n\r\nUnlike solutions that automate only one task, or even part of one, we cover the workflow after PV module pallets arrive on-site: transportation, installation, alignment, and fastening. Each robot has a specific role, and fleets can be configured based on each project’s cost and schedule requirements.\r\n\r\nOur robots operate autonomously with remote supervision. One person can supervise 4+ robots through a screen and an e-stop button, without being physically present or teleoperating them. Our robotic fleet has also been tested at night, paving the way for 24/7 operation.\r\n\r\nWe work directly with EPCs through a Robotics-as-a-Service model, requiring no robot purchase or large upfront capital investment. We also work with racking and PV module manufacturers to certify compatibility and give customers confidence in deployment.\r\n\r\nPurpose-built hardware, multimodal sensing, and physical AI software help our robots handle real-world construction uncertainty.",
       "website": "https://www.librabots.com/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
+        "Artificial Intelligence",
+        "Hard Tech",
         "Robotics",
         "Construction",
-        "Sustainability",
-        "Energy",
-        "AI"
+        "Energy"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -12394,7 +12435,7 @@
       "name": "Lyon",
       "batch": "Summer 2026",
       "one_liner": "Foundation models on enterprise transaction data.",
-      "long_description": "",
+      "long_description": "Lyon builds private foundation models for banks, insurance companies, and fintechs. Each model learns from the company’s proprietary transactions, payments, clicks, and customer interactions to predict credit, fraud, collections, income, churn, and lifetime value; and runs inside the company’s cloud, so its data and intelligence remain under its control. Lyon is already working with a major insurer and trained a model on 28B transactions for a fintech serving tens of millions of active users, identifying premium-card converters 4x more precisely than its existing rules; the model is now being deployed for credit.",
       "website": "https://lyon.so",
       "industries": [
         "B2B",
@@ -12460,10 +12501,10 @@
         "Operations"
       ],
       "tags": [
-        "Operations",
-        "AI"
+        "Artificial Intelligence",
+        "Operations"
       ],
-      "team_size": 4,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1762394891
@@ -12783,6 +12824,29 @@
       "launched_at": 1739572830
     },
     {
+      "slug": "marker",
+      "name": "Marker",
+      "batch": "Summer 2026",
+      "one_liner": "AI-native consultancy rebuilding businesses with agents",
+      "long_description": "Marker embeds with companies, learns how their organization actually works, finds the highest-impact problems, and ships custom AI agents into production in weeks via the Marker Command Center. Each agent deepens our understanding, so the next one launches faster.",
+      "website": "https://onmarker.com",
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Generative AI",
+        "SaaS",
+        "B2B",
+        "Workflow Automation"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA; Remote",
+      "status": "Active",
+      "launched_at": 1787016991
+    },
+    {
       "slug": "markit",
       "name": "MarkIt",
       "batch": "Fall 2025",
@@ -12846,7 +12910,7 @@
       "slug": "mass-magnetics",
       "name": "Mass Magnetics",
       "batch": "Summer 2026",
-      "one_liner": "USA-made magnetics for aerospace, robotics and defense. ",
+      "one_liner": "USA-made magnetics for aerospace, robotics, and defense. ",
       "long_description": "Mass Magnetics turns recycled rare-earth scrap into high-performance permanent magnets, made in America. The materials we supply are the backbone of electric motors, sensors, speakers, hard drives, and electronics.\r\nOur process enables DFARS-compliant magnets for defense, aerospace, and industrial manufacturers who demand domestic supply without compromising on quality.\r\nOperations in Greater Boston, MA (Greentown Labs) and Columbus, IN.",
       "website": "https://massmagnetics.com/",
       "industries": [
@@ -13884,13 +13948,16 @@
       "slug": "mousecat",
       "name": "MouseCat",
       "batch": "Winter 2026",
-      "one_liner": "AI-powered fraud investigations",
-      "long_description": "MouseCat enables companies to automatically detect, investigate, and mitigate emerging fraud trends",
+      "one_liner": "AI to fight financial crime",
+      "long_description": "MouseCat enables companies to detect suspicious activity, automate investigations, and act before the money leaves.\r\n\r\nWe work with Fortune 500 companies and startups to deploy real-time models and AI agents that reduce fraud, compliance incidents, and friction for good customeres. ",
       "website": "https://www.mousecat.ai",
       "industries": [
         "B2B"
       ],
-      "tags": [],
+      "tags": [
+        "Compliance",
+        "Fraud Detection"
+      ],
       "team_size": 6,
       "location": "New York City, NY, USA",
       "status": "Active",
@@ -13980,6 +14047,28 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1758318085
+    },
+    {
+      "slug": "multiplier",
+      "name": "Multiplier",
+      "batch": "Spring 2026",
+      "one_liner": "Agent harnesses for asset managers",
+      "long_description": "Multiplier helps institutional investors research stocks and manage their portfolios. We're live with six hedge funds, and our users spend 4+ hours a day in the platform.\r\n\r\nInvestors who try \"nearly every tool on the market,\" to quote a client of ours, \"wind up with an unwieldy collection of fragmented point solutions.\" Those who focus on building a great setup with general agents are instead \"signing up for a full-time job.\" So we deploy a platform called Multiplier that unifies structured data, unstructured data, AI work, human work, and tacit firm knowledge in one secure, governed, customized application.\r\n\r\nOur first vertical: independent equity funds with $250M-$5B of assets. They know AI is essential for staying relevant, but they don't have the time or talent to figure out what to do about it. But once we deploy Multiplier––\"We used to spend 80% of our time gathering information and 20% of our time acting on it,\" said one customer. \"Multiplier has flipped those percentages.\"",
+      "website": "https://multiplier.ai",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Productivity",
+        "Investing",
+        "Stocks"
+      ],
+      "team_size": 3,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1778527074
     },
     {
       "slug": "mundo-ai",
@@ -14744,15 +14833,15 @@
       "name": "Okibi",
       "batch": "Summer 2025",
       "one_liner": "Turns products into CLIs and agents into customers",
-      "long_description": "Okibi generates a CLI from any product's codebase, so AI agents can use it the way people do.\r\n\r\nAgents are becoming software's next customers. When one comes to a product to make a purchase and finds no doorway in, it buys from the competitor whose CLI lets it through. Okibi turns products into CLIs and agents into customers.\r\n\r\nDoorDash, Mercury, Gusto, Ramp, and 30+ other companies have already launched first-party agent CLIs. Okibi is how every product gets one.",
+      "long_description": "Okibi generates a CLI from any product's codebase, so AI agents can use it the way people do.\r\n\r\nAgents are becoming software's next customers. When one comes to a product to do a task or purchase and finds no doorway in, it moves on to the competitor whose CLI lets it through. Okibi turns products into CLIs and agents into customers.\r\n\r\nDoorDash, Mercury, Gusto, Ramp, and 30+ other companies have already launched first-party agent CLIs. Okibi is how every product gets one.",
       "website": "https://okibi.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "SaaS"
+        "SaaS",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -15767,19 +15856,19 @@
       "batch": "Summer 2026",
       "one_liner": "AI that finds and fixes OS-level vulnerabilities across device fleets",
       "long_description": "",
-      "website": "",
+      "website": "https://palisade-ai.com/",
       "industries": [
         "B2B",
         "Security"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
-        "Cybersecurity"
+        "Cybersecurity",
+        "AI"
       ],
       "team_size": 1,
-      "location": "Los Angeles, CA, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1784742432
     },
@@ -17082,7 +17171,7 @@
         "B2B"
       ],
       "tags": [],
-      "team_size": 5,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1771290879
@@ -17653,14 +17742,14 @@
       "name": "Qokedas",
       "batch": "Fall 2026",
       "one_liner": "Data for AI Science",
-      "long_description": "Most of what happens on Earth is never written down. It passes through instruments as signal and disappears. Our goal is to turn that signal into training data in the form of RL Environments, so labs can build models that read the physical world and operate the machines that measure it",
+      "long_description": "Models are trained on the entire internet, but most of what happens on Earth is never written down. We turn those signals into training data so labs can make models better at science",
       "website": "https://qokedas.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Deep Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Deep Learning"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -20082,6 +20171,27 @@
       "launched_at": 1775148410
     },
     {
+      "slug": "snap-poker",
+      "name": "Snap Poker",
+      "batch": "Summer 2026",
+      "one_liner": "The social network for online poker",
+      "long_description": "Snap Poker is the first social poker app, a real-money platform with a feed built in. Players post hands as interactive reels with voiceover and build a following, and we take zero rake because we monetize like a game rather than a casino. We're bringing everyone to online poker.",
+      "website": "https://playsnappoker.com",
+      "industries": [
+        "Consumer",
+        "Social"
+      ],
+      "tags": [
+        "Consumer",
+        "Gaming",
+        "Social Media"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786744876
+    },
+    {
       "slug": "socratix-ai",
       "name": "Socratix AI",
       "batch": "Summer 2025",
@@ -20179,17 +20289,18 @@
       "slug": "soren",
       "name": "Soren",
       "batch": "Fall 2025",
-      "one_liner": "Specialized AI for Real-World Deployment",
-      "long_description": "Soren helps organizations turn frontier AI into specialized systems built for real-world deployment. We train, deploy, and continuously improve models around the data, workflows, and decisions that matter most.\r\n\r\nLearn more at https://www.usesoren.com",
+      "one_liner": "The AI workforce for business operations.",
+      "long_description": "Soren builds the AI workforce for business operations. We power companies around the world across a range of traditional industries, including legal, financial services, healthcare, and more.\r\n\r\nOur specialized AI agents combine frontier intelligence with deep operational expertise to execute critical work behind the scenes, becoming an engine businesses rely on to run faster, leaner, and more effectively.\r\n\r\nOur goal is to build the AI operating layer that the world’s businesses will run on.\r\n",
       "website": "https://usesoren.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Enterprise",
-        "Enterprise Software"
+        "Enterprise Software",
+        "Operations",
+        "AI"
       ],
       "team_size": null,
       "location": "San Francisco, CA, USA",
@@ -20319,8 +20430,8 @@
       "slug": "speko",
       "name": "Speko",
       "batch": "Summer 2026",
-      "one_liner": "OpenRouter for voice AI",
-      "long_description": "",
+      "one_liner": "A router for voice models. One key, every model.",
+      "long_description": "Speko is a router for voice models: one API key, and your voice agent runs on the speech-to-text, LLM, and text-to-speech models we measured as best for your language and use case. The measurements are public at benchmarks.speko.ai: we test new models the day they ship and re-route when the numbers change, so you rewrite nothing. We ran this bake-off by hand for four years at Hupo, shipping production voice for Morgan Stanley, Prudential, HSBC, and Grab.",
       "website": "https://speko.ai/?utm_source=ycombinator&utm_medium=profile",
       "industries": [
         "B2B",
@@ -20896,15 +21007,17 @@
       "slug": "subvysion",
       "name": "SubVysion",
       "batch": "Summer 2026",
-      "one_liner": "3D Maps of Underground Utilities",
-      "long_description": "We build centimeter-accurate 3D maps of underground utilities, to help construction contractors dig safer and faster. With underground intelligence, contractors can avoid utility strikes, which cause $30B in damages and 20 deaths every year in the US.",
+      "one_liner": "Autonomous rovers to make the ‘Google Maps’ of underground utilities",
+      "long_description": "We build centimeter-accurate 3D maps of underground utilities to help construction contractors dig safer and faster. With underground intelligence, contractors can avoid dangerous utility strikes and costly project delays.",
       "website": "https://subvysion.com",
       "industries": [
         "Real Estate and Construction",
         "Construction"
       ],
       "tags": [
-        "Augmented Reality",
+        "Hard Tech",
+        "Computer Vision",
+        "Real Estate",
         "Construction"
       ],
       "team_size": 2,
@@ -21001,7 +21114,7 @@
       "slug": "superset",
       "name": "Superset",
       "batch": "Spring 2026",
-      "one_liner": "Building the platform for software factories",
+      "one_liner": "Building self-improving software",
       "long_description": "Superset is an open-source IDE that helps engineers run 100s of coding agents in parallel.\r\n\r\nOur desktop app is loved by tens of thousands of engineers, and we're scaling out our effort to build a collaborative, cross-platform tool to allow users to code anywhere.",
       "website": "https://www.superset.sh/",
       "industries": [
@@ -21009,11 +21122,11 @@
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Consumer",
         "B2B",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -21266,11 +21379,11 @@
       "long_description": "Resumes made careers readable. LinkedIn made them searchable. Pluto makes them understood.\r\n\r\nProfessionals talk to Pluto for 10 minutes about what they’ve done, what they’re great at, and what they want next. Pluto makes that context discoverable to the right people and AI agents, helping them understand the professional more fully.\r\n\r\nFor hiring, companies tell Pluto who they want to meet. Pluto searches its network and the broader market, evaluates fit on both sides, privately confirms interest, and makes warm introductions when both sides want to connect.\r\n\r\n18K+ professionals have shared their career context with Pluto. 50+ companies, from fast-growing startups to decacorns, use Pluto to meet people with deeper context and confirmed interest.",
       "website": "https://talentpluto.com",
       "industries": [
-        "Consumer",
-        "Job and Career Services"
+        "B2B",
+        "Recruiting and Talent"
       ],
       "tags": [
-        "Artificial Intelligence",
+        "AI",
         "Careers",
         "Conversational AI"
       ],
@@ -22356,11 +22469,11 @@
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
-      "team_size": 1,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753318246
@@ -22490,8 +22603,8 @@
       "slug": "travo",
       "name": "Travo",
       "batch": "Winter 2026",
-      "one_liner": "The data infrastructure for real estate",
-      "long_description": "We are building the most accurate and comprehensive real estate data set. Travo is the one stop shop for anyone working in real estate to search any property or parcel of land and instantly access rental comps, ownership, zoning and financials. With our data, we build the best informed AI applications for real estate private equity firms, developers, and brokers.",
+      "one_liner": "The brokerage that never sleeps",
+      "long_description": "Travo is an AI-native commercial real estate brokerage. Our AI constantly sources off-market deals that fit your exact buy box, and our brokers take them to close. Instead of the same on-market listings everyone sees, buyers get properties that never hit the market, with reconciled T-12s, rent rolls, and comps already cleaned up and ready to underwrite. We focus on multifamily, manufactured housing (MHP and MHC), and RV parks and resorts.",
       "website": "https://www.travoai.com/",
       "industries": [
         "Real Estate and Construction"
@@ -24008,9 +24121,9 @@
         "Supply Chain and Logistics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Logistics",
-        "Procurement",
-        "AI"
+        "Procurement"
       ],
       "team_size": 5,
       "location": "Gurugram, HR, India",
@@ -24201,22 +24314,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1724580560
-    },
-    {
-      "slug": "withai",
-      "name": "WithAI",
-      "batch": "Spring 2026",
-      "one_liner": "Agent harnesses for asset managers",
-      "long_description": "WithAI helps institutional investors research stocks and manage their portfolios. We're live with four hedge funds, and our users spend 4+ hours a day in the platform.\r\n\r\nInvestors who try \"nearly every tool on the market,\" to quote a client of ours, \"wind up with an unwieldy collection of fragmented point solutions.\" Those who focus on building a great setup with general agents are instead \"signing up for a full-time job.\" So we deploy a platform called Multiplier that unifies structured data, unstructured data, AI work, human work, and tacit firm knowledge in one secure, governed, customized application.\r\n\r\nOur first vertical: independent equity funds with $250M-$5B of assets. They know AI is essential for staying relevant, but they don't have the time or talent to figure out what to do about it. But once we deploy Multiplier––\"We used to spend 80% of our time gathering information and 20% of our time acting on it,\" said one customer. \"WithAI has flipped those percentages.\"",
-      "website": "https://withai.co",
-      "industries": [
-        "B2B"
-      ],
-      "tags": [],
-      "team_size": 3,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1778527074
     },
     {
       "slug": "withasync",

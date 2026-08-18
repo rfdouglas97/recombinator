@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-17T14:24:14.944Z",
+  "generated_at": "2026-08-18T14:30:56.016Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1363,
+    "assignment_count": 1369,
     "mapped_verticals": 242,
-    "observed_cells": 470,
+    "observed_cells": 471,
     "total_verticals": 525,
-    "gap_candidates": 850
+    "gap_candidates": 849
   },
   "observed_cells": [
     {
@@ -309,6 +309,35 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "consumer.productivity.personal",
+      "vertical_label": "Personal productivity software",
+      "sector_id": "consumer",
+      "companies": [
+        "aleph-lab",
+        "digipals",
+        "dollyglot",
+        "doomersion",
+        "drafted",
+        "everest",
+        "goriff",
+        "heyclicky",
+        "jo",
+        "meteor",
+        "mixy",
+        "neoncoral",
+        "parrot",
+        "pingo",
+        "remix-3",
+        "snap-poker",
+        "tegore",
+        "text-ai",
+        "touchy",
+        "wondering"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.robotics.general",
@@ -335,34 +364,6 @@
         "servo7",
         "verne-robotics",
         "waddle-labs"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "consumer.productivity.personal",
-      "vertical_label": "Personal productivity software",
-      "sector_id": "consumer",
-      "companies": [
-        "aleph-lab",
-        "digipals",
-        "dollyglot",
-        "doomersion",
-        "drafted",
-        "everest",
-        "goriff",
-        "heyclicky",
-        "jo",
-        "meteor",
-        "mixy",
-        "neoncoral",
-        "parrot",
-        "pingo",
-        "remix-3",
-        "tegore",
-        "text-ai",
-        "touchy",
-        "wondering"
       ]
     },
     {
@@ -394,6 +395,31 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "ai-infrastructure.agent-runtime",
+      "vertical_label": "Agent runtime & orchestration",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "clarm",
+        "closera",
+        "dock",
+        "dreach",
+        "flowtel",
+        "gpt",
+        "kairos",
+        "lua-global-inc",
+        "mesmer",
+        "multiplier",
+        "pentagon",
+        "probe",
+        "prox",
+        "synthetic-sciences",
+        "tasklet-2",
+        "zarna"
+      ]
+    },
+    {
       "business_model": "BM-09",
       "business_model_label": "Biotech / R&D platform",
       "vertical_id": "healthcare.pharma.drug-discovery",
@@ -416,30 +442,6 @@
         "tarebio",
         "uncommon-therapeutics",
         "wondertx"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.agent-runtime",
-      "vertical_label": "Agent runtime & orchestration",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "clarm",
-        "closera",
-        "dock",
-        "dreach",
-        "flowtel",
-        "gpt",
-        "kairos",
-        "lua-global-inc",
-        "mesmer",
-        "pentagon",
-        "probe",
-        "prox",
-        "synthetic-sciences",
-        "tasklet-2",
-        "zarna"
       ]
     },
     {
@@ -579,6 +581,27 @@
       ]
     },
     {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "enterprise.ops.process-automation",
+      "vertical_label": "Cross-industry process automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "callbook-ai",
+        "clicks",
+        "flowscope",
+        "jeevy-fabrication",
+        "no-logo",
+        "paloma",
+        "rocketable",
+        "sennu-ai",
+        "soren",
+        "tandem-2",
+        "tenor",
+        "trope"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.defense.drones",
@@ -637,26 +660,6 @@
         "lightsprint",
         "rev1",
         "rovr"
-      ]
-    },
-    {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "clicks",
-        "flowscope",
-        "jeevy-fabrication",
-        "no-logo",
-        "paloma",
-        "rocketable",
-        "sennu-ai",
-        "soren",
-        "tandem-2",
-        "tenor",
-        "trope"
       ]
     },
     {
@@ -721,6 +724,25 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.hr.recruiting",
+      "vertical_label": "Recruiting & staffing agency operations",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "asendia-ai",
+        "elip-ai",
+        "lantern-ai",
+        "outrove",
+        "outship",
+        "ovlo",
+        "perfectly",
+        "saffron",
+        "skillsync",
+        "spott"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "marketing.content-ops",
       "vertical_label": "Content operations & asset management",
       "sector_id": "enterprise-software",
@@ -771,24 +793,6 @@
         "stagewise",
         "sublingual",
         "zenbu-2"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.hr.recruiting",
-      "vertical_label": "Recruiting & staffing agency operations",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "asendia-ai",
-        "elip-ai",
-        "outrove",
-        "outship",
-        "ovlo",
-        "perfectly",
-        "saffron",
-        "skillsync",
-        "spott"
       ]
     },
     {
@@ -2792,6 +2796,17 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "media.content.creator",
+      "vertical_label": "Creator economy & AI content monetization",
+      "sector_id": "media-entertainment",
+      "companies": [
+        "grocalo",
+        "mochitv"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "media.gaming.ugc",
@@ -3916,6 +3931,16 @@
       ]
     },
     {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "marker"
+      ]
+    },
+    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "enterprise.ops.knowledge",
@@ -5013,16 +5038,6 @@
       "sector_id": "enterprise-software",
       "companies": [
         "stormy-ai"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "media.content.creator",
-      "vertical_label": "Creator economy & AI content monetization",
-      "sector_id": "media-entertainment",
-      "companies": [
-        "mochitv"
       ]
     },
     {

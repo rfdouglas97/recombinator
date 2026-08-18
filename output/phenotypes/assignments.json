@@ -2541,7 +2541,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/akon-labs",
     "batch": "Summer 2026",
     "one_liner": "Nervous System for AI Agents",
-    "description_combined": "Nervous System for AI Agents",
+    "description_combined": "Nervous System for AI Agents\n\nGitNexus gives coding agents a map of your codebase, so they stop burning tokens looking for it.\n\n##### We're building the most token-efficient coding agent in the world. The reason it works is GitNexus, our open-source knowledge graph for your codebase.\n\n\n\n##### The problem\n\nCoding agents don't understand your repo. They grep, they guess, they re-read the same files, and they stuff half your codebase into a context window hoping the answer is in there somewhere. You pay for every one of those tokens, and the agent still misses the cross-file relationship that mattered.\n\nThe bottleneck isn't the model. It's context.\n\n##### What we built:\n\nGitNexus indexes your repository into a knowledge graph (symbols, call paths, imports, ownership, history) and serves the agent exactly the context a task needs, instead of everything it might need.\n\nIt's one connected stack:\n\n* The knowledge graph. R",
     "industry_sub_vertical": "AI agent runtime & multi-agent orchestration infrastructure",
     "canonical_vertical_id": "ai-infrastructure.agent-runtime",
     "vertical_id": "ai-infrastructure.agent-runtime",
@@ -2596,7 +2596,13 @@
     ],
     "directory_synced_at": "2026-08-14T14:47:34.293Z",
     "classified_at": "2026-08-14T14:47:34.293Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110659,
+    "launch_url": "https://www.ycombinator.com/launches/Smp-akon-labs-we-re-building-the-most-token-efficient-coding-agent-in-the-world",
+    "launch_title": "Akon Labs: We're building the most token-efficient coding agent in the world",
+    "launch_created_at": "2026-08-17T19:30:00.167Z",
+    "launch_tagline": "GitNexus gives coding agents a map of your codebase, so they stop burning tokens looking for it.",
+    "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
   },
   {
     "slug": "aktoria-robotics",
@@ -13740,6 +13746,83 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "callbook-ai",
+    "name": "Callbook AI",
+    "website": "https://callbook.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/callbook-ai",
+    "batch": "Summer 2026",
+    "one_liner": "AI collections agency for late stage portfolios",
+    "description_combined": "AI collections agency for late stage portfolios\n\nCallbook AI is a collections agency operated by AI. We collect late stage portfolios by finding, contacting and negotiating with borrowers.",
+    "industry_sub_vertical": "AI-driven debt collections & portfolio recovery for late-stage loan portfolios",
+    "canonical_vertical_id": "enterprise.ops.process-automation",
+    "vertical_id": "enterprise.ops.process-automation",
+    "vertical_label": "Cross-industry process automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "ai-native-service-provider",
+    "phenotype_primary_label": "AI-Native Service Provider (Outcome-Based)",
+    "phenotype_family": "services",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_outreach",
+      "negotiation_automation",
+      "collections_execution"
+    ],
+    "what_they_sell": "End-to-end collections services for late-stage loan portfolios. Callbook AI operates as a collections agency, using AI agents to autonomously find borrowers, initiate contact, negotiate repayment terms, and execute recovery workflows. Revenue is outcome-based (contingency or per-recovery), not software subscriptions.",
+    "ai_play": "AI agents replace traditional collections staff by automating borrower identification (data enrichment + skip-tracing), multi-channel outreach (calls, SMS, email), negotiation logic, and payment coordination. Agents handle high-volume, repetitive contact workflows at software-like margins while taking contractual responsibility for recovery outcomes.",
+    "who_pays": "Late-stage portfolio holders (private credit funds, lenders, financial institutions) seeking to recover capital from non-performing or delinquent loans without building internal collections infrastructure.",
+    "confidence": 0.82,
+    "rationale": "Callbook AI is a service provider (not a software vendor) that takes contractual/financial responsibility for collections outcomes. They use AI agents to execute the work autonomously rather than selling seats or tools. This matches ai-native-service-provider: outcome-based revenue model, autonomous agent execution, and labor replacement at scale. Secondary consideration: could map to vertical-agentic-workflow-saas if they sold software to portfolio managers, but the description emphasizes 'operated by AI' and 'we collect', indicating they ARE the service provider taking risk, not the software enabling it.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "AI"
+    ],
+    "business_models": [
+      "BM-04"
+    ],
+    "team_size": 7,
+    "location": "San Francisco, CA, USA; Remote",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2639620,
+        "full_name": "Diego Avellaneda",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "CEO at Callbook AI. Applied ML researcher with two peer-reviewed publications on deep learning and embedded systems (TinyML on-device deep learning for indoor tracking; low-cost embedded sensing, Elsevier). Master&#x27;s in IoT applying TinyML to real-time truck telemetry 6+ years in embedded ML. Former Senior Software Engineer at CI&T, where he built Audi&#x27;s e-commerce car-purchasing platform. Second-time founder",
+        "linkedin_url": "https://www.linkedin.com/in/diegoavellaneda/",
+        "twitter_url": "https://x.com/diego_torres173",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7281632ccf8f2d5188e03060a59b811c147401ed.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAIECTZEW%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T142948Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHWswuVOgxT2Miy2w3VfybNa2H4r7NxN1%2Bl3ugzzAbcFAiEAnlN8JD7nd%2B81fCi9wgDckHGnW3YGRRGuZrEZ0vMPIZYq5QMIXBAAGgwwMDYyMDE4MTEwNzIiDJL7ZGD8IO9Z%2FTWdiCrCA6UPkvnhJUEY7voUfH2jHmB6GmKXGuphpkEz0rvJJtxTv%2F5cLym2h72adFjsnrmcCDgX8hC6wqf7WpeKCrmCoSnrvlpNjUapoR0SM7Uifdyw5efggi0lAsNS7hh7cD6gdhGJbLVN5ZUx1Uf0llsdcS7EQMWyhjUnagPNVVukU5%2FMRYNFTTH4Qx0OtG4l%2FElkaMXCVWZxEXtGqwe532h2u91ArvjQaBW%2FlkqH1h6bAnaK6EDdjyPFW%2BSB0aPMFdPym01eKOkWTtcIJ6YHSmwk7Ae%2FzR6vdiJ6oC1DtZWp5otLrmnNxx4UvBCrmQqr5tug02juu9qXSiRN3vixMmIhNKqP5XUxaCf9MfBQhZjdNeh3XNh5xn8S00iw40ILJaLvuEnaEyodfFJwa7YcM5RJg1tuBSLFLhWkmKcRXTKYxFQxUEgQT5iHA31iMXg5hxkMWjbcdmDKF8QEGuqFWfecIQ%2FhEVME980RCDMxMUY4D4Ppl6aI7aPaVNH1IPm%2FKcLlviY%2BE5Po8ZYCIbygy0m4ao%2B201vkTO5kUmtPMo1ML7LcE2vMsL6jNUf8Mx9eI4UkSgiyGDByKiU2kVOQzRRoJf6NrjC%2F6JDUBjqlAe9z7rhOYwAkwcP3%2FBsL0LmcQLVYWpMzad2H%2BImSmTuuCItRwWMS8KJcn9HrXuIRAXKT0zGdb6sLyGqRWQh1MhbUTw7V6%2FiLnv%2Fsu4Fds8giqNo%2FJ2eS3YVkcqrLbu7sCzerA2Vsi2c5G9YzfiYif0UmhtcuVSCwpeoXxoJQQKTGYJo3ntHzpMsv%2B%2Bn3Uc2a80uLHGIa5D%2Bx3buQTlg4koeCcq7sMw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e7b453c1151cca59bf1de71a2d0fa641c23a94873c9658aaf972383f493bbbee",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Callbook AI",
+          "href": "https://www.ycombinator.com/companies/callbook-ai"
+        }
+      },
+      {
+        "user_id": 325909,
+        "full_name": "Daniel Martinez",
+        "title": "Founder & Product",
+        "is_active": true,
+        "bio": "CTO at Callbook AI. CPO at Treble (YC S19). Leading B2B products for 5+ years. ",
+        "linkedin_url": "https://www.linkedin.com/in/daniel-martinez-b7a764164/",
+        "twitter_url": "https://x.com/imwi90",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d5a62a492561652bcec5f1ba3ea2e50f03afdce6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAIECTZEW%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T142948Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHWswuVOgxT2Miy2w3VfybNa2H4r7NxN1%2Bl3ugzzAbcFAiEAnlN8JD7nd%2B81fCi9wgDckHGnW3YGRRGuZrEZ0vMPIZYq5QMIXBAAGgwwMDYyMDE4MTEwNzIiDJL7ZGD8IO9Z%2FTWdiCrCA6UPkvnhJUEY7voUfH2jHmB6GmKXGuphpkEz0rvJJtxTv%2F5cLym2h72adFjsnrmcCDgX8hC6wqf7WpeKCrmCoSnrvlpNjUapoR0SM7Uifdyw5efggi0lAsNS7hh7cD6gdhGJbLVN5ZUx1Uf0llsdcS7EQMWyhjUnagPNVVukU5%2FMRYNFTTH4Qx0OtG4l%2FElkaMXCVWZxEXtGqwe532h2u91ArvjQaBW%2FlkqH1h6bAnaK6EDdjyPFW%2BSB0aPMFdPym01eKOkWTtcIJ6YHSmwk7Ae%2FzR6vdiJ6oC1DtZWp5otLrmnNxx4UvBCrmQqr5tug02juu9qXSiRN3vixMmIhNKqP5XUxaCf9MfBQhZjdNeh3XNh5xn8S00iw40ILJaLvuEnaEyodfFJwa7YcM5RJg1tuBSLFLhWkmKcRXTKYxFQxUEgQT5iHA31iMXg5hxkMWjbcdmDKF8QEGuqFWfecIQ%2FhEVME980RCDMxMUY4D4Ppl6aI7aPaVNH1IPm%2FKcLlviY%2BE5Po8ZYCIbygy0m4ao%2B201vkTO5kUmtPMo1ML7LcE2vMsL6jNUf8Mx9eI4UkSgiyGDByKiU2kVOQzRRoJf6NrjC%2F6JDUBjqlAe9z7rhOYwAkwcP3%2FBsL0LmcQLVYWpMzad2H%2BImSmTuuCItRwWMS8KJcn9HrXuIRAXKT0zGdb6sLyGqRWQh1MhbUTw7V6%2FiLnv%2Fsu4Fds8giqNo%2FJ2eS3YVkcqrLbu7sCzerA2Vsi2c5G9YzfiYif0UmhtcuVSCwpeoXxoJQQKTGYJo3ntHzpMsv%2B%2Bn3Uc2a80uLHGIa5D%2Bx3buQTlg4koeCcq7sMw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9fd13f88ebee85c202cddc7cf205f4495e5478705324fba6dca4d1b858abe6eb",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Callbook AI",
+          "href": "https://www.ycombinator.com/companies/callbook-ai"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-18T14:29:56.996Z",
+    "classified_at": "2026-08-18T14:29:56.996Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "calltree",
     "name": "Calltree",
     "website": "https://calltree.ai",
@@ -14610,7 +14693,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/carsignal",
     "batch": "Summer 2026",
     "one_liner": "The Smart Operating System for Auto Shops.",
-    "description_combined": "The Smart Operating System for Auto Shops.\n\nCarSignal is a shop management platform for independent auto repair shops. We replace the fragmented stack shops juggle today. Booking, intake, quoting, parts ordering, invoicing, payments, and customer communication all within one smart system.\r\nInstead of charging SaaS fees, we monetize through a 1% fee on the payments rail, so shops switch off $500+/month tools like Shopmonkey and Tekmetric without adding a line item. Every invoice paid through CarSignal is revenue; every shop that switches saves money on day one.",
+    "description_combined": "The Smart Operating System for Auto Shops.\n\nCarSignal is a shop management platform for independent auto repair shops. We replace the fragmented stack shops juggle today. Booking, intake, quoting, parts ordering, invoicing, payments, and customer communication all within one smart system.\r\nInstead of charging SaaS fees, we monetize through a 1% fee on the payments rail, so shops switch off $500+/month tools like Shopmonkey and Tekmetric without adding a line item. Every invoice paid through CarSignal is revenue; every shop that switches saves money on day one.\n\nYour shop runs on one AI platform: booking, diagnostics, quoting, parts, and payments all in a single loop.\n\nTL;DR:\nCarSignal is the AI Operating System for Auto shops. CarSignal provides a complete end to end operating system for mechanics and shop owners. We’re live in over 40 shops across 18 US states and are expanding everyday. \n\n\n\n🤯 The Problem\n\nThe average auto repair shop in the US runs across multiple different systems, none of which talk to each other. With over 300,000 of these shops existing in the US, the problem is vast. Owners are trapped paying for a web of complex disjointed software in order to maintain basic functionality. \n\n🛠️ The Solution\n\nCarSignal fixes those discontinuities, streamlining recurring tasks that every shop runs daily. We deploy four Agents across the traditional auto shop stack to boost efficiency and lower lift time. A voice agent is deployed as the shop's r",
     "industry_sub_vertical": "Independent auto repair shop operations consolidation",
     "canonical_vertical_id": "enterprise.ops.process-automation",
     "vertical_id": "enterprise.ops.process-automation",
@@ -14666,7 +14749,13 @@
     ],
     "directory_synced_at": "2026-08-02T15:00:22.668Z",
     "classified_at": "2026-08-02T15:00:22.668Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110407,
+    "launch_url": "https://www.ycombinator.com/launches/Sil-carsignal-the-ai-operating-system-for-auto-shops",
+    "launch_title": "CarSignal: The AI Operating System for Auto Shops",
+    "launch_created_at": "2026-08-17T16:30:09.423Z",
+    "launch_tagline": "Your shop runs on one AI platform: booking, diagnostics, quoting, parts, and payments all in a single loop.",
+    "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
   },
   {
     "slug": "carson",
@@ -26619,7 +26708,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/epsilla",
     "batch": "Summer 2023",
     "one_liner": "One API that puts Codex, Claude Code, Hermes, and more behind your product, so your users get real output: videos, games, code, documents.",
-    "description_combined": "One API that puts Codex, Claude Code, Hermes, and more behind your product, so your users get real output: videos, games, code, documents.\n\nHey everyone 👋 Today we're introducing HarnessRouter.\n\nTL;DR: HarnessRouter lets builders bring Codex, Claude Code, Hermes, and other agents into your products through one API. Each task runs in an isolated sandbox with step-by-step tracing and configurable cost caps. It's designed to scale from consumer apps to large-scale model evaluations, orchestrating thousands of isolated sandbox runs in parallel. Start with our AGENTS.md, drop it into your coding agent, describe want you want to build, add an API key, and ship without rebuilding agent runtime infrastructure.\n\nTry it now: harnessrouter.ai\n\n\n\n## The Problem\n\nThere's a gap between what AI agents can do and what your product can offer.\n\nAgents like Codex and Claude Code can genuinely finish work now, but they're built for developers, not for your users. Bringing that capability to your users inside your own product means building the infrastructure yourself: isolated execution environments, agent runtime, tool orchestration, file handling, streaming, retries, permissions, cost controls. Every team building an AI feature rebuilds this same stack from scratch, and it takes months. After launch, the upgrades and maintenance never stop.\n\nAs a result, most teams ship a chat interface instead, when what users actually need is finished output.\n\n## The Solution\n\nHarnessRouter runs the entire agent stack as a service. Your product sends a task through one API; We run it on the agent you choose and return the result in structured, ",
+    "description_combined": "One API that puts Codex, Claude Code, Hermes, and more behind your product, so your users get real output: videos, games, code, documents.\n\nHey everyone 👋 Today we're introducing HarnessRouter.\n\nTL;DR: HarnessRouter lets builders bring Codex, Claude Code, Hermes, and other agents into your products through one API. Each task runs in an isolated sandbox with step-by-step tracing and configurable cost caps. It's designed to scale from consumer apps to large-scale model evaluations, orchestrating thousands of isolated sandbox runs in parallel. Start with our AGENTS.md, drop it into your coding agent, describe want you want to build, add an API key, and ship without rebuilding agent runtime infrastructure.\n\nTry it now: harnessrouter.ai\n\n\n\n## The Problem\n\nThere's a gap between what AI agents can do and what your product can offer.\n\nAgents like Codex and Claude Code can genuinely finish work now, but they're built for developers, not for your users. Bringing that capability to your users inside your own product means building the infrastructure yourself: isolated execution environments, agent runtime, tool orchestration, file handling, streaming, retries, permissions, cost controls. Every team building an AI feature rebuilds this same stack from scratch, and it takes months. After launch, the upgrades and maintenance never stop.\n\nAs a result, most teams ship a chat interface instead, when what users actually need is finished output.\n\n## The Solution\n\nHarnessRouter runs the entire agent stack as a service. Your product sends a task through one API; We run it on the agent you choose and return the result in structured, \n\nPlug Codex, Claude Code, and Hermes into your backend on your own infrastructure. Introducing the Unified Harness Protocol (UHP), an open standard for connecting applications to different agent harnesses.\n\nHey everyone 👋 Three weeks ago, we launched HarnessRouter here on YC with one promise:\n\nBring the world’s best AI agents into your app, with one API.\n\nToday, we’re opening the layer underneath that promise.\n\nWe’re releasing HarnessRouter Community Edition and the Unified Harness Protocol (UHP). You can now run Codex, Claude Code, and Hermes as your product’s backend on infrastructure you control, using the same API contract as HarnessRouter Cloud.\n\nTL;DR：\n\nHarnessRouter is the world’s first unified interface for agent harnesses.\n\nYour product sends a task through one agent API. HarnessRouter runs the supported harness you choose and returns completed work, including files, artifacts, progress, and results.\n\nSessions, streaming, cancellation, and failure handling follow the same contract a",
     "industry_sub_vertical": "Agent runtime orchestration for multi-model deployment",
     "canonical_vertical_id": "ai-infrastructure.agent-runtime",
     "vertical_id": "ai-infrastructure.agent-runtime",
@@ -26649,14 +26738,15 @@
     "business_models": [
       "BM-03"
     ],
-    "launch_id": 106971,
-    "launch_url": "https://www.ycombinator.com/launches/RpL-harnessrouter-bring-the-world-s-best-ai-agents-into-your-app-with-one-api",
-    "launch_title": "HarnessRouter: Bring the World's Best AI Agents Into Your App, With One API",
-    "launch_created_at": "2026-07-23T13:44:28.619Z",
-    "launch_tagline": "One API that puts Codex, Claude Code, Hermes, and more behind your product, so your users get real output: videos, games, code, documents.",
+    "launch_id": 111172,
+    "launch_url": "https://www.ycombinator.com/launches/Sv6-harnessrouter-open-sourcing-the-world-s-first-unified-interface-for-agent-harnesses-and-the-unified-harness-protocol",
+    "launch_title": "HarnessRouter: Open-Sourcing the World’s First Unified Interface for Agent Harnesses and the Unified Harness Protocol",
+    "launch_created_at": "2026-08-17T22:23:24.250Z",
+    "launch_tagline": "Plug Codex, Claude Code, and Hermes into your backend on your own infrastructure. Introducing the Unified Harness Protocol (UHP), an open standard for connecting applications to different agent harnesses.",
     "launch_ingested_at": "2026-07-30T16:56:29.910Z",
     "classified_at": "2026-07-30T16:56:29.910Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
   },
   {
     "slug": "ergo",
@@ -33039,6 +33129,86 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "grocalo",
+    "name": "Grocalo",
+    "website": "https://grocalo.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/grocalo",
+    "batch": "Summer 2026",
+    "one_liner": "AI brain that runs content for creators",
+    "description_combined": "AI brain that runs content for creators",
+    "industry_sub_vertical": "AI-powered content generation and scheduling for individual creators",
+    "canonical_vertical_id": "media.content.creator",
+    "vertical_id": "media.content.creator",
+    "vertical_label": "Creator economy & AI content monetization",
+    "vertical_sector_id": "media-entertainment",
+    "phenotype_primary_id": "consumer-ai-creation-platform",
+    "phenotype_primary_label": "Consumer AI Creation Platform (Social Distribution)",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "content_generation_automation",
+    "ai_application_patterns": [
+      "content_automation",
+      "creator_tooling",
+      "agentic_publishing"
+    ],
+    "what_they_sell": "AI-powered content automation platform for creators — agents that generate, schedule, and manage content across social channels with minimal manual input",
+    "ai_play": "Autonomous content agents that learn creator voice/style and execute publishing workflows (ideation, drafting, scheduling, posting) across multiple platforms. Reduces creator workload and enables higher content velocity.",
+    "who_pays": "Individual creators, content studios, small media companies seeking to scale output without proportional labor",
+    "confidence": 0.72,
+    "rationale": "Grocalo is positioned as an 'AI brain' for creators — agentic automation of content workflows. Primary fit is consumer-ai-creation-platform (end-user creators building/sharing AI-powered experiences, freemium/subscription monetization, social distribution moat). Secondary fit is horizontal-copilot-saas (cross-creator productivity tool). Not a vertical workflow agent (not B2B software for a specific job function) or research terminal (not intelligence/analysis). The 'content' tag and creator economy focus align with consumer AI tooling rather than enterprise automation.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Content"
+    ],
+    "yc_tags": [
+      "Entertainment",
+      "Creator Economy",
+      "AI"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 0,
+    "location": "Los Angeles, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3672474,
+        "full_name": "David Hwang",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Grocalo. Living in the creator ecosystem daily. 5+ years in Investment Banking covering Enterprise Software and Internet & Digital Media. BA Economics from Johns Hopkins.",
+        "linkedin_url": "https://www.linkedin.com/in/david-hwang-b5301436/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/eb67ea357271a98b7f1d4c207e4d8f0206185662.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFQLDRHQK%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T142957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCQOh0QqBxxz2ymU11kgckJf%2FE1hkEGDRWk0stB6LuJWgIgEq4RgACGVA1Q276U1ril8wzQLftHVNg8ifCJda29Yxoq5QMIXhAAGgwwMDYyMDE4MTEwNzIiDCB97qi6%2FnNG2gprOirCA0YSeTH4INQ6x8uaQzvJua0n7Ys2d9bkbj1pvOeprd%2FUvSETI3IF2RcqslLfWXOAJmNcpQbYuQJczbI30cEkW3T6jiLbo16k41PmW6uyic6vF7StpfacfIMkqu%2FRr4ELiOj0VebPydk8EB4j%2F2T%2F2wcrZsDvNgu9QkbXdNSJyoTqcu73B89tkn3Bm9X8dIlvLkgEluxnXWX0sHxgayEtlK57xFjDBaKsHbioytWKRff70duNwCow2tmPB%2BDVL%2BOJa2uTO65kVMyyuSV3mIhCbUDrdUlpccdoBW%2FOJRBaXAVOHdDH8pVveangp83yMCLeNspQHcbxlQtg7srsUUJmgAhKzGtYS6DBDFBnKRhZCfDdRr43Xjq4pw4VzFppF2eD48%2Botj7Yuf0Ljehhyki3%2FLmLASciNpqXDmbSJdxrKXEM1HQUB7vjkCXSfPWZLnXjXJFekobXNIzxoGdEa98GWf90WT4IJ1dV66snwc7LjIHmlR6NBTg5g%2FzpD1u4qmzNxfHoGyy4Qq%2B6CGk3l%2FfaRuhpTdiwM6oa%2FB%2BeY8137ji3INsWeDkBwgQib2VfSogMJF48Gsaui%2FsFtUhLZGU0Vu8BJjDeoJHUBjqlAUVgwk3bCaFjosRGJnF7XGXmVQQlIrz5YPrksVQgc64bZ0tOPNO5%2BPAijgnPR02nyGGqAzc9DjMgp4v39bd5stWPpCxQUll3gB3KE1GfspWys2iZlTh8ly47MiYBLQgrIgg2SzeTlqCF%2BbMnlN7lp%2FTu%2BtmBlCGHGIHzUCwvcBuK1RoqDby4X0yspe2yvvOu1ZlFTvj%2Bm5zIQgFw7Ufl4QC3ZdErLw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7c0989cab09780f811c32da596d28aefbd4a41a9cf252faf78550dcf3b1f65a2",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Grocalo",
+          "href": "https://www.ycombinator.com/companies/grocalo"
+        }
+      },
+      {
+        "user_id": 208755,
+        "full_name": "Alex Yee",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Grocalo. 2x YC founder. Built and sold onederful (YC W18). MS in Bioengineering from Stanford, BS from UC San Diego.",
+        "linkedin_url": "https://www.linkedin.com/in/alexyee1/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/94f0c17bfc19684d4c5c368f26fe48f9fcf46be2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFQLDRHQK%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T142957Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCQOh0QqBxxz2ymU11kgckJf%2FE1hkEGDRWk0stB6LuJWgIgEq4RgACGVA1Q276U1ril8wzQLftHVNg8ifCJda29Yxoq5QMIXhAAGgwwMDYyMDE4MTEwNzIiDCB97qi6%2FnNG2gprOirCA0YSeTH4INQ6x8uaQzvJua0n7Ys2d9bkbj1pvOeprd%2FUvSETI3IF2RcqslLfWXOAJmNcpQbYuQJczbI30cEkW3T6jiLbo16k41PmW6uyic6vF7StpfacfIMkqu%2FRr4ELiOj0VebPydk8EB4j%2F2T%2F2wcrZsDvNgu9QkbXdNSJyoTqcu73B89tkn3Bm9X8dIlvLkgEluxnXWX0sHxgayEtlK57xFjDBaKsHbioytWKRff70duNwCow2tmPB%2BDVL%2BOJa2uTO65kVMyyuSV3mIhCbUDrdUlpccdoBW%2FOJRBaXAVOHdDH8pVveangp83yMCLeNspQHcbxlQtg7srsUUJmgAhKzGtYS6DBDFBnKRhZCfDdRr43Xjq4pw4VzFppF2eD48%2Botj7Yuf0Ljehhyki3%2FLmLASciNpqXDmbSJdxrKXEM1HQUB7vjkCXSfPWZLnXjXJFekobXNIzxoGdEa98GWf90WT4IJ1dV66snwc7LjIHmlR6NBTg5g%2FzpD1u4qmzNxfHoGyy4Qq%2B6CGk3l%2FfaRuhpTdiwM6oa%2FB%2BeY8137ji3INsWeDkBwgQib2VfSogMJF48Gsaui%2FsFtUhLZGU0Vu8BJjDeoJHUBjqlAUVgwk3bCaFjosRGJnF7XGXmVQQlIrz5YPrksVQgc64bZ0tOPNO5%2BPAijgnPR02nyGGqAzc9DjMgp4v39bd5stWPpCxQUll3gB3KE1GfspWys2iZlTh8ly47MiYBLQgrIgg2SzeTlqCF%2BbMnlN7lp%2FTu%2BtmBlCGHGIHzUCwvcBuK1RoqDby4X0yspe2yvvOu1ZlFTvj%2Bm5zIQgFw7Ufl4QC3ZdErLw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4068d9f5b201e78c4ba4d25ab1655659df51775420db6ccb4d63c91322f44d81",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Grocalo",
+          "href": "https://www.ycombinator.com/companies/grocalo"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-18T14:30:04.576Z",
+    "classified_at": "2026-08-18T14:30:04.576Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "groundcontrol",
     "name": "GroundControl",
     "website": "https://rungroundcontrol.com/",
@@ -35890,7 +36060,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/hyperprobe",
     "batch": "Summer 2026",
     "one_liner": "Your coding agent writes code. Now let it fix prod too.",
-    "description_combined": "Your coding agent writes code. Now let it fix prod too.\n\nIf your team uses Cursor, Claude Code, or Codex to ship, you&#x27;ve felt it: the AI is great at writing code, mediocre at debugging it. When something breaks in prod, you&#x27;re back to grepping logs, adding console.logs, redeploying, and hoping the AI&#x27;s guess is right.\r\n\r\nHyperProbe fixes this. Your coding agent dynamically drops non-breaking probes into your running services, straight from your IDE. When a probe fires, HyperProbe captures and sanitises the exact variable state, feeding your agent real evidence instead of flat logs. \r\n\r\nThis fixes prod incidents in minutes from the exact same window where agents write code, without ever redeploying to add a print statement. Under 1% CPU overhead. Automatic PII redaction. \r\n\r\nBuilt for backend teams shipping AI-written code today. Install in 60 seconds, see your first investigation in 10 minutes. That&#x27;s why we call HyperProbe the runtime data layer for AI-native software.\r\n\r\n",
+    "description_combined": "Your coding agent writes code. Now let it fix prod too.\n\nIf your team uses Cursor, Claude Code, or Codex to ship, you&#x27;ve felt it: the AI is great at writing code, mediocre at debugging it. When something breaks in prod, you&#x27;re back to grepping logs, adding console.logs, redeploying, and hoping the AI&#x27;s guess is right.\r\n\r\nHyperProbe fixes this. Your coding agent dynamically drops non-breaking probes into your running services, straight from your IDE. When a probe fires, HyperProbe captures and sanitises the exact variable state, feeding your agent real evidence instead of flat logs. \r\n\r\nThis fixes prod incidents in minutes from the exact same window where agents write code, without ever redeploying to add a print statement. Under 1% CPU overhead. Automatic PII redaction. \r\n\r\nBuilt for backend teams shipping AI-written code today. Install in 60 seconds, see your first investigation in 10 minutes. That&#x27;s why we call HyperProbe the runtime data layer for AI-native software.\r\n\r\n\n\nThe fastest way for coding agents to debug incidents live in production.\n\n# \\*\\*\\*\\*\n\nTL;DR: AI writes most of our code now. Debugging it when it breaks in production is still slow, because the value that explains the failure was never logged. HyperProbe is an on-call agent for engineering teams. It takes an open incident to a confirmed root cause by dropping read-only probes into your running service and capturing the exact variable state logs don't have. No redeploys, no restarting the app. \n\n📹 Launch Video: https://youtu.be/QtaZrQ8_Uk8\n\n🚧 The Problem\n\nTeam ships faster than ever with agents that write most of our code. This is already shrinking the useful context engineers need to debug AI written code. Not helped by the limited telemetry added in the same code by AI. So when something breaks in prod, the first instinct for engineers is to open logs or thro",
     "industry_sub_vertical": "Runtime instrumentation for AI-native code debugging",
     "canonical_vertical_id": "devtools.observability-instrumentation",
     "vertical_id": "devtools.observability-instrumentation",
@@ -35962,7 +36132,13 @@
     ],
     "directory_synced_at": "2026-07-30T15:57:51.974Z",
     "classified_at": "2026-07-30T15:57:51.974Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110401,
+    "launch_url": "https://www.ycombinator.com/launches/Sif-hyperprobe-on-call-agent-for-engineering-teams",
+    "launch_title": "Hyperprobe: On-call Agent for engineering teams",
+    "launch_created_at": "2026-08-17T15:30:20.732Z",
+    "launch_tagline": "The fastest way for coding agents to debug incidents live in production.",
+    "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
   },
   {
     "slug": "hyperspell",
@@ -42153,6 +42329,87 @@
     }
   },
   {
+    "slug": "lantern-ai",
+    "name": "Lantern AI",
+    "website": "https://www.lantern.md",
+    "yc_profile_url": "https://www.ycombinator.com/companies/lantern-ai",
+    "batch": "Fall 2026",
+    "one_liner": "Turn Your Taste Into Hires",
+    "description_combined": "Turn Your Taste Into Hires\n\nLantern learns what exceptional looks like for your team, pressure-tests the role against the real talent market, then runs the hiring loop: sourcing, inbound applications, interviews, assessments, candidate communication, and offers.",
+    "industry_sub_vertical": "Enterprise talent acquisition automation & recruiting operations",
+    "canonical_vertical_id": "enterprise.hr.recruiting",
+    "vertical_id": "enterprise.hr.recruiting",
+    "vertical_label": "Recruiting & staffing agency operations",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "end_to_end_workflow_automation",
+      "candidate_sourcing_screening",
+      "interview_assessment_automation",
+      "talent_market_intelligence"
+    ],
+    "what_they_sell": "End-to-end autonomous hiring agent that learns a company's hiring preferences and taste, then fully automates the recruitment loop: sourcing candidates, managing inbound applications, conducting interviews, running assessments, communicating with candidates, and generating offers.",
+    "ai_play": "AI agents replace manual, time-intensive hiring workflows (sourcing, screening, interviewing, offer coordination) by learning what 'exceptional' looks like for each team and autonomously executing the full hiring funnel. Agents pressure-test roles against real talent market data to optimize hiring strategy.",
+    "who_pays": "HR teams, talent acquisition leaders, and recruiting operations at mid-market and enterprise companies seeking to reduce time-to-hire and improve hiring quality.",
+    "confidence": 0.82,
+    "rationale": "Lantern is a vertical SaaS product deployed as autonomous AI agents that replace human-driven hiring workflows within a specific vertical (HR/recruiting). The product automates end-to-end job functions (sourcing, screening, interviewing, offers) with agents that learn organizational hiring preferences and execute autonomously. This is a clear fit for vertical-agentic-workflow-saas: end-user-facing SaaS with autonomous agents replacing job functions in a specific vertical, integrated with recruiting tools, differentiated by vertical focus and domain expertise. Not a horizontal copilot (recruiting-specific, not cross-industry); not agent infrastructure (it's the end-product sold to customers, not a runtime/framework). Confidence is high (0.82) due to clear vertical focus and autonomous workflow automation, with minor uncertainty around whether secondary integration with ATS/HRIS platforms might suggest a light agent-infrastructure component.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Human Resources"
+    ],
+    "yc_tags": [
+      "Human Resources",
+      "Recruiting",
+      "HR Tech"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 4,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3085542,
+        "full_name": "Thomas Chan",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Lantern AI. Serial founder with 3 prior recruiting startups, generating 2M+ in sales. Studied at Tsinghua and CUHK.",
+        "linkedin_url": "https://www.linkedin.com/in/thomas-chan-7769281a8/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/677fc2dfc191f204a68b33cac8c49a875c541e64.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABAVI3EJG%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T143014Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHY7Mc0gdZayACdFYvNKN7nF30A%2FDpCXihMzqtDeX3nyAiBCi55WIujjE9SYBW6kj5j%2FgUgOWf%2BOlbtZWeFbtpzV4CrlAwheEAAaDDAwNjIwMTgxMTA3MiIMIa5EkDhZDRn%2FkiPjKsID0doaWv9IqAK1XZQMpfemmAWzvDmOsd7cXXbBiuPOMW%2BAl319pqnBsqqejTuQO47m0P%2Ful2nFnupFkSmLRon5bRsEl5kgdd%2FQHKnvGLd5djDY2T9R1OAAn0eAVTL52tWVBMKYX1k15%2BuKBRj%2FdX68ZG%2BN2ZO18Cjt7CuPO9NIP4w0W%2Fbw4iBvpLkNvr2ABqoVsQZrSkAsrUpBDqiQHWhWuiTxr2YYeNvD91cuurpW6Hz0yse9mR52J8CHjiQyep74M%2FUxeTQQveqU32NOUNb5ElwgD3ORN7V%2BnBfljRNyiNsq%2BZ9PTWuMR165mqTUXg%2FiXsQWTkSf8a9f67tYBOqn26vzWpB%2FX2FfgJvTZyxU4XxvyIRbrLigxHdX7%2FtdP3bXg7fgbU4ZUT28kRDUJM%2FnIyxM8viqrtRH%2BvQL5%2FDApKYz5Yspk0mMJ6NuuUVZ37BQNXdT%2BD2Iz0qc%2Bx9BY8kakiYbmkC0c%2BVGWispNTBcUrq5wYsWOa6iSx7A5RLkhm9OkdVfNxtLitZfccAzBpXWH3d%2BMoXIQOh3QFgspcELe4znkOGY59k2LibiZ0Y0U4Q0jFi3AMZt4oB6GXwxGMrb8EnPMN2wkdQGOqYBPe9JaOWqSUzvd%2BGh5B8p8io8RG5a3NFpxpCHf9pKDClADxGfOMkYB2C1AUMclfgluc19CVIqVGohtdcxPffD71i9Gi%2FTapKaWvOhtW%2Fh5mkp8Dmo94vKVv7vg%2FgKzO%2BbIODzUnZu%2FodCCcQXIHwHPEsISprsjB3hvTUuDDtdoGbQm4R5ycCktS8r3LhI2tk1eelKKegaWmW09J4dg19WsJR0Um%2BhlA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ca55728cd329f5db088aa69ef93f5af344411c6f4b54de5025eb1de96fb1c9b8",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Lantern AI",
+          "href": "https://www.ycombinator.com/companies/lantern-ai"
+        }
+      },
+      {
+        "user_id": 409305,
+        "full_name": "Justin Tang",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder & CTO at Lantern AI.",
+        "linkedin_url": "https://www.linkedin.com/in/justin-wang-lap-tang-5523b9175/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9a64d58063fb0bc67e71e6f2a9d42689591b0f57.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABAVI3EJG%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T143014Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHY7Mc0gdZayACdFYvNKN7nF30A%2FDpCXihMzqtDeX3nyAiBCi55WIujjE9SYBW6kj5j%2FgUgOWf%2BOlbtZWeFbtpzV4CrlAwheEAAaDDAwNjIwMTgxMTA3MiIMIa5EkDhZDRn%2FkiPjKsID0doaWv9IqAK1XZQMpfemmAWzvDmOsd7cXXbBiuPOMW%2BAl319pqnBsqqejTuQO47m0P%2Ful2nFnupFkSmLRon5bRsEl5kgdd%2FQHKnvGLd5djDY2T9R1OAAn0eAVTL52tWVBMKYX1k15%2BuKBRj%2FdX68ZG%2BN2ZO18Cjt7CuPO9NIP4w0W%2Fbw4iBvpLkNvr2ABqoVsQZrSkAsrUpBDqiQHWhWuiTxr2YYeNvD91cuurpW6Hz0yse9mR52J8CHjiQyep74M%2FUxeTQQveqU32NOUNb5ElwgD3ORN7V%2BnBfljRNyiNsq%2BZ9PTWuMR165mqTUXg%2FiXsQWTkSf8a9f67tYBOqn26vzWpB%2FX2FfgJvTZyxU4XxvyIRbrLigxHdX7%2FtdP3bXg7fgbU4ZUT28kRDUJM%2FnIyxM8viqrtRH%2BvQL5%2FDApKYz5Yspk0mMJ6NuuUVZ37BQNXdT%2BD2Iz0qc%2Bx9BY8kakiYbmkC0c%2BVGWispNTBcUrq5wYsWOa6iSx7A5RLkhm9OkdVfNxtLitZfccAzBpXWH3d%2BMoXIQOh3QFgspcELe4znkOGY59k2LibiZ0Y0U4Q0jFi3AMZt4oB6GXwxGMrb8EnPMN2wkdQGOqYBPe9JaOWqSUzvd%2BGh5B8p8io8RG5a3NFpxpCHf9pKDClADxGfOMkYB2C1AUMclfgluc19CVIqVGohtdcxPffD71i9Gi%2FTapKaWvOhtW%2Fh5mkp8Dmo94vKVv7vg%2FgKzO%2BbIODzUnZu%2FodCCcQXIHwHPEsISprsjB3hvTUuDDtdoGbQm4R5ycCktS8r3LhI2tk1eelKKegaWmW09J4dg19WsJR0Um%2BhlA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=82710b17c81f4ade38876a95bbfbfbbdf68749c4d4fe4e27dd0f48e6fbf1fcee",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Lantern AI",
+          "href": "https://www.ycombinator.com/companies/lantern-ai"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-18T14:30:24.774Z",
+    "classified_at": "2026-08-18T14:30:24.774Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "lapis",
     "name": "Lapis",
     "website": "https://www.trylapis.com/",
@@ -42396,7 +42653,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/lato",
     "batch": "Summer 2026",
     "one_liner": "Agent-native research and simulation platform for investors",
-    "description_combined": "Agent-native research and simulation platform for investors\n\nThe best investments come from conviction, and conviction comes from understanding a market deeply: its customers, its competitors, and where it&#x27;s heading.\r\n\r\nToday that understanding is slow and expensive to build. Reaching the right people takes weeks, a commercial study costs $300k+, and each one starts from scratch.\r\n\r\nLATO does this research end-to-end, combining public data and the fund&#x27;s own knowledge with first-hand interviews of a market&#x27;s customers, experts, and operators. This research grounds a simulation of the market to predict how market participants behave.",
+    "description_combined": "Agent-native research and simulation platform for investors\n\nThe best investments come from conviction, and conviction comes from understanding a market deeply: its customers, its competitors, and where it&#x27;s heading.\r\n\r\nToday that understanding is slow and expensive to build. Reaching the right people takes weeks, a commercial study costs $300k+, and each one starts from scratch.\r\n\r\nLATO does this research end-to-end, combining public data and the fund&#x27;s own knowledge with first-hand interviews of a market&#x27;s customers, experts, and operators. This research grounds a simulation of the market to predict how market participants behave.\n\nLATO enables private equity investors to do commercial due diligence in days\n\nThis year alone, private equity deployed over $1 trillion. To get conviction on a deal, investors run commercial diligence - it costs c.$500k and takes weeks.\n\nOur agents source and interview hundreds of experts in any language at scale.\nThey combine this expert knowledge with public and proprietary data to deliver fully traceable reports.\n\nWe already work with leading funds that push the frontier.\n\nIf you are spending too much time and capital on this - schedule a demo at: \n\nWe'd love to show you how the future looks.",
     "industry_sub_vertical": "Venture capital market research and investment due diligence",
     "canonical_vertical_id": "marketing.competitive-intelligence",
     "vertical_id": "marketing.competitive-intelligence",
@@ -42468,7 +42725,13 @@
     ],
     "directory_synced_at": "2026-07-30T16:03:24.563Z",
     "classified_at": "2026-07-30T16:03:24.563Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110614,
+    "launch_url": "https://www.ycombinator.com/launches/Sm6-lato-research-any-company-or-market-in-days",
+    "launch_title": "LATO - Research any company or market in days",
+    "launch_created_at": "2026-08-17T19:00:00.215Z",
+    "launch_tagline": "LATO enables private equity investors to do commercial due diligence in days",
+    "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
   },
   {
     "slug": "lattice-health",
@@ -46981,6 +47244,103 @@
     }
   },
   {
+    "slug": "marker",
+    "name": "Marker",
+    "website": "https://onmarker.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/marker",
+    "batch": "Summer 2026",
+    "one_liner": "AI-native consultancy rebuilding businesses with agents",
+    "description_combined": "AI-native consultancy rebuilding businesses with agents\n\nMarker embeds with companies, learns how their organization actually works, finds the highest-impact problems, and ships custom AI agents into production in weeks via the Marker Command Center. Each agent deepens our understanding, so the next one launches faster.",
+    "industry_sub_vertical": "Enterprise workflow automation via custom AI agents",
+    "canonical_vertical_id": "enterprise.ops.process-automation",
+    "vertical_id": "enterprise.ops.process-automation",
+    "vertical_label": "Cross-industry process automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "ai-forward-consulting",
+    "phenotype_primary_label": "AI-forward consulting / managed service",
+    "phenotype_family": "services",
+    "value_wedge": "labor_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "custom_agent_deployment",
+      "workflow_discovery_automation",
+      "production_agent_orchestration"
+    ],
+    "what_they_sell": "Custom AI agent development and deployment service bundled with consulting. Marker embeds with enterprise clients, discovers high-impact workflows, and ships production-ready agents via their Command Center platform. Revenue model is services-based (implementation, per-agent, or managed service retainer).",
+    "ai_play": "AI agents replace manual, repetitive business processes. Marker uses agents to automate workflow discovery itself (learning how the org works), then deploys domain-specific agents to execute high-impact tasks autonomously. The Command Center is the operational layer enabling rapid agent iteration and deployment.",
+    "who_pays": "Enterprise operations, finance, and business leaders seeking to automate internal workflows without building in-house AI teams.",
+    "confidence": 0.78,
+    "rationale": "Marker is primarily an AI-forward consulting firm (ai-forward-consulting) — they embed with clients, provide strategic guidance on AI adoption, and deliver custom agents as the core service output. Revenue is services-based, not SaaS subscriptions. However, the Command Center platform and emphasis on rapid, repeatable agent deployment suggests secondary characteristics of vertical-agentic-workflow-saas (end-user-facing product automating job functions). The primary phenotype is consulting because the go-to-market is embedded advisory + custom implementation, not a packaged SaaS product. Confidence is 0.78 (not higher) because the Command Center could evolve into a standalone SaaS product, which would shift primary phenotype to vertical-agentic-workflow-saas.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Productivity"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Generative AI",
+      "SaaS",
+      "B2B",
+      "Workflow Automation"
+    ],
+    "business_models": [
+      "BM-04"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA; Remote",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 35831,
+        "full_name": "Richard Berwick",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder of Marker. Previously co-founded Drapr (S20; acquired by Gap Inc.) and Twindom (acquired). UC Berkeley, Business.\n\nEntrepreneur at heart with a hacker brain. I&#x27;m always looking for ways to solve problems in efficient, inexpensive ways -- and I love helping people (and companies) get through difficult situations. If I can create value, I will.",
+        "linkedin_url": "https://www.linkedin.com/in/richard-berwick-93995629/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/feaf807d92184710fb01168ec1224a14a4583a1c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJG5NKQQW%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T143004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCFv4ajaiExryyNnv%2BeZC9IHnEPi5eMe9Iv2osBRQ%2FrTwIhANb0HDgWk9tj9Rpqhjg3KkvXpCttCNeo%2BCV4mreIyMDIKuUDCF4QABoMMDA2MjAxODExMDcyIgyZIzofOWrOuD6yKuoqwgMhLG1Q3mqrq7OCYvLOi3%2Fgxh6caXMBOOndkCxvPjj9EFe8BcNxlXvrP6JqQJ1LxJzpqHSbr8c5ykBL5X5NzdPmBF%2BEJWoLjKCT4UqsbROo62Vz1%2BPnjo4lYr9Em8RjFFeOeoR%2F285D36Grbi8SHCUL2iS0MVq7KqT1BHZsd201%2B2gPTOuRkC3D0E%2FwFTp%2FKor%2FsKKkV69ZqG4JDNy9oyNlerGc1xB798suPFXPi6VNztpCsSAiglFy%2BE1DAGUjNU17YtDzQOOr1Pp6RVqTTi6q%2BOGkQXv8x5zlvnEEF8HsP2bREXxZxVur8vXN4aXr3bOlZkaLD8cLODTvPJI9MTLLK3vXMB%2BdCWwvCjf5MP27o4MhoVbYKZ2tDvs%2FCO90IehpjKaaNZjXhLIc8MJZ9FVecyctf50S663iN%2FCST9lEP4PyYnQY8BwFiPTj7IZ9rh1HZRb7GYGkb1FryQADlQ%2FPu1qP82hPPk8dE5xFsSrnGcQ4Lkiy%2BmTj6YYP45uM1xQ%2FqOUmUqistekF27Haly13BLrxBMWlGXmfVhZpL6%2BTAa84TioPHC8vKYZc8LeKAikLfBgbJ%2FkA%2BNgezfiQ%2FPkQm%2B4w%2FK%2BR1AY6pAFc%2Bwh4AtdPlOHjn4UaolgvZSFpi1SQ%2Fxs0oIT%2Fg4S2p8Bii7dgNmNBlXWVpHnZolqBwXdwNaXANuooNhMxbWPjw4f1ldi%2B3exyL3hF2or4wJ8ZV2qZT2XJXX4QtcY%2FNwAD2x%2FkuizY%2BfTSmEpKhDSyhMQ3MKQdZNA%2F1Ugmu4hREYKea4sFex%2B5%2BDpD6bsYbWSepV8CedDk4odwZvlLGbyRJCgj6g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a96121e45bf0f3ecc17f1471c80f6390ab85be014777a88e5b11be7a4d6b8efc",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Marker",
+          "href": "https://www.ycombinator.com/companies/marker"
+        }
+      },
+      {
+        "user_id": 35832,
+        "full_name": "Will Drevno",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder at Marker. Previously co-founded Drapr (yc s20; acquired by Gap Inc.) and Twindom (acquired). Studied engineering at UC Berkeley.",
+        "linkedin_url": "https://www.linkedin.com/in/will-drevno-0a78832a/",
+        "twitter_url": "https://twitter.com/WillDrevno",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/49050f23e7b38cb215076ab6eaa87155b8076252.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJG5NKQQW%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T143004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCFv4ajaiExryyNnv%2BeZC9IHnEPi5eMe9Iv2osBRQ%2FrTwIhANb0HDgWk9tj9Rpqhjg3KkvXpCttCNeo%2BCV4mreIyMDIKuUDCF4QABoMMDA2MjAxODExMDcyIgyZIzofOWrOuD6yKuoqwgMhLG1Q3mqrq7OCYvLOi3%2Fgxh6caXMBOOndkCxvPjj9EFe8BcNxlXvrP6JqQJ1LxJzpqHSbr8c5ykBL5X5NzdPmBF%2BEJWoLjKCT4UqsbROo62Vz1%2BPnjo4lYr9Em8RjFFeOeoR%2F285D36Grbi8SHCUL2iS0MVq7KqT1BHZsd201%2B2gPTOuRkC3D0E%2FwFTp%2FKor%2FsKKkV69ZqG4JDNy9oyNlerGc1xB798suPFXPi6VNztpCsSAiglFy%2BE1DAGUjNU17YtDzQOOr1Pp6RVqTTi6q%2BOGkQXv8x5zlvnEEF8HsP2bREXxZxVur8vXN4aXr3bOlZkaLD8cLODTvPJI9MTLLK3vXMB%2BdCWwvCjf5MP27o4MhoVbYKZ2tDvs%2FCO90IehpjKaaNZjXhLIc8MJZ9FVecyctf50S663iN%2FCST9lEP4PyYnQY8BwFiPTj7IZ9rh1HZRb7GYGkb1FryQADlQ%2FPu1qP82hPPk8dE5xFsSrnGcQ4Lkiy%2BmTj6YYP45uM1xQ%2FqOUmUqistekF27Haly13BLrxBMWlGXmfVhZpL6%2BTAa84TioPHC8vKYZc8LeKAikLfBgbJ%2FkA%2BNgezfiQ%2FPkQm%2B4w%2FK%2BR1AY6pAFc%2Bwh4AtdPlOHjn4UaolgvZSFpi1SQ%2Fxs0oIT%2Fg4S2p8Bii7dgNmNBlXWVpHnZolqBwXdwNaXANuooNhMxbWPjw4f1ldi%2B3exyL3hF2or4wJ8ZV2qZT2XJXX4QtcY%2FNwAD2x%2FkuizY%2BfTSmEpKhDSyhMQ3MKQdZNA%2F1Ugmu4hREYKea4sFex%2B5%2BDpD6bsYbWSepV8CedDk4odwZvlLGbyRJCgj6g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3af2f3dbede39e9c52f85f6634c63a4bf97c0970ee08beea872e58a15d48621f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Marker",
+          "href": "https://www.ycombinator.com/companies/marker"
+        }
+      },
+      {
+        "user_id": 334251,
+        "full_name": "David Pastewka",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder of Marker. Previously co-founded Drapr (S20), acquired by Gap Inc. UC Berkeley, Business & Computer Science.",
+        "linkedin_url": "https://www.linkedin.com/in/davidpastewka/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b5822d13f95ba42ae92169222efa0670eddc2804.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJG5NKQQW%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T143004Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCFv4ajaiExryyNnv%2BeZC9IHnEPi5eMe9Iv2osBRQ%2FrTwIhANb0HDgWk9tj9Rpqhjg3KkvXpCttCNeo%2BCV4mreIyMDIKuUDCF4QABoMMDA2MjAxODExMDcyIgyZIzofOWrOuD6yKuoqwgMhLG1Q3mqrq7OCYvLOi3%2Fgxh6caXMBOOndkCxvPjj9EFe8BcNxlXvrP6JqQJ1LxJzpqHSbr8c5ykBL5X5NzdPmBF%2BEJWoLjKCT4UqsbROo62Vz1%2BPnjo4lYr9Em8RjFFeOeoR%2F285D36Grbi8SHCUL2iS0MVq7KqT1BHZsd201%2B2gPTOuRkC3D0E%2FwFTp%2FKor%2FsKKkV69ZqG4JDNy9oyNlerGc1xB798suPFXPi6VNztpCsSAiglFy%2BE1DAGUjNU17YtDzQOOr1Pp6RVqTTi6q%2BOGkQXv8x5zlvnEEF8HsP2bREXxZxVur8vXN4aXr3bOlZkaLD8cLODTvPJI9MTLLK3vXMB%2BdCWwvCjf5MP27o4MhoVbYKZ2tDvs%2FCO90IehpjKaaNZjXhLIc8MJZ9FVecyctf50S663iN%2FCST9lEP4PyYnQY8BwFiPTj7IZ9rh1HZRb7GYGkb1FryQADlQ%2FPu1qP82hPPk8dE5xFsSrnGcQ4Lkiy%2BmTj6YYP45uM1xQ%2FqOUmUqistekF27Haly13BLrxBMWlGXmfVhZpL6%2BTAa84TioPHC8vKYZc8LeKAikLfBgbJ%2FkA%2BNgezfiQ%2FPkQm%2B4w%2FK%2BR1AY6pAFc%2Bwh4AtdPlOHjn4UaolgvZSFpi1SQ%2Fxs0oIT%2Fg4S2p8Bii7dgNmNBlXWVpHnZolqBwXdwNaXANuooNhMxbWPjw4f1ldi%2B3exyL3hF2or4wJ8ZV2qZT2XJXX4QtcY%2FNwAD2x%2FkuizY%2BfTSmEpKhDSyhMQ3MKQdZNA%2F1Ugmu4hREYKea4sFex%2B5%2BDpD6bsYbWSepV8CedDk4odwZvlLGbyRJCgj6g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6b3c83c0f1a8e5ab67d042ddf43ab7bdb3bb860744f992a4b5caa8c9146760ea",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Marker",
+          "href": "https://www.ycombinator.com/companies/marker"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-18T14:30:14.382Z",
+    "classified_at": "2026-08-18T14:30:14.382Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "markit",
     "name": "MarkIt",
     "website": "https://markittrade.com",
@@ -47208,7 +47568,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/mass-magnetics",
     "batch": "Summer 2026",
     "one_liner": "USA-made magnetics for aerospace, robotics and defense. ",
-    "description_combined": "USA-made magnetics for aerospace, robotics and defense. \n\nMass Magnetics turns recycled rare-earth scrap into high-performance permanent magnets, made in America. The materials we supply are the backbone of electric motors, sensors, speakers, hard drives, and electronics.\r\nOur process enables DFARS-compliant magnets for defense, aerospace, and industrial manufacturers who demand domestic supply without compromising on quality.\r\nOperations in Greater Boston, MA (Greentown Labs) and Columbus, IN.",
+    "description_combined": "USA-made magnetics for aerospace, robotics and defense. \n\nMass Magnetics turns recycled rare-earth scrap into high-performance permanent magnets, made in America. The materials we supply are the backbone of electric motors, sensors, speakers, hard drives, and electronics.\r\nOur process enables DFARS-compliant magnets for defense, aerospace, and industrial manufacturers who demand domestic supply without compromising on quality.\r\nOperations in Greater Boston, MA (Greentown Labs) and Columbus, IN.\n\nVertically integrated magnet manufacturing for aerospace, robotics and defense.\n\n### TL:DR; Mass Magnetics makes American magnets in minutes.\n\n🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲🧲\n\n\n\nEvery electric motor runs on rare-earth magnets. EVs, drones, robots, wind turbines, guided munitions: nearly all of them are dependent on Chinese magnets. On January 1st, 20270, regulation changes will make it illegal to deliver anything that walks, drives, or flies to US Defense if it contains a magnet produced in covered countries like China. The domestic supply chain meant to replace it doesn't exist yet. Mines take a decade to permit, and the ore they pull up leaves radioactive tailings behind, making permitting magnet mining a nightmare.\n\nWe’re the founders, Eric Silver and Matthew Groll (left and right in the pic below). We’ve known each other since grade school. Sin",
     "industry_sub_vertical": "Defense supply chain magnetics & DFARS-compliant domestic rare-earth materials",
     "canonical_vertical_id": "industrials.defense.supply-chain",
     "vertical_id": "industrials.defense.supply-chain",
@@ -47279,7 +47639,13 @@
     ],
     "directory_synced_at": "2026-08-15T14:19:02.840Z",
     "classified_at": "2026-08-15T14:19:02.840Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110611,
+    "launch_url": "https://www.ycombinator.com/launches/Sm3-mass-magnetics-usa-made-magnets",
+    "launch_title": "Mass Magnetics: USA-made magnets",
+    "launch_created_at": "2026-08-18T14:30:00.079Z",
+    "launch_tagline": "Vertically integrated magnet manufacturing for aerospace, robotics and defense.",
+    "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
   },
   {
     "slug": "mastra",
@@ -51064,7 +51430,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/moving-atoms",
     "batch": "Summer 2026",
     "one_liner": "Virtual Reality for Evaluating Robots (World Models)",
-    "description_combined": "Virtual Reality for Evaluating Robots (World Models)\n\nWe use World Models to evaluate  and train robots. This enables you to test your policy checkpoints easily, as well as augmenting your training dataset. Scaling GPUs is much cheaper than scaling robot arms and humans needed to moniter them.",
+    "description_combined": "Virtual Reality for Evaluating Robots (World Models)\n\nWe use World Models to evaluate  and train robots. This enables you to test your policy checkpoints easily, as well as augmenting your training dataset. Scaling GPUs is much cheaper than scaling robot arms and humans needed to moniter them.\n\nWorld Model Lab for Evaluating Robots.\n\nMoving Atoms is building world models trained on internet scale video: models that accurately predict physical interactions and are conditioned on robot actions. Their first model, Atom 1 already tops DeepMind’s Physics IQ benchmark. Beating NVIDIA’s COSMOS 3.\n\n\n\nWe fine tune the world model to the environments and embodiments relevant to you (where ever you currently run evaluations).\n\nThis lets you check every checkpoint, getting you results in minutes; instead of having to wait days for human evaluations or handling GPU orchestration for inaccurate classical simulations.\n\nWe are onboarding design partners for this today, email: founders@movingatoms.ai\n\nOur long term goal is to use the internets video to solve the data problem. By training exceptional world models, we open the path to so",
     "industry_sub_vertical": "Robot policy evaluation & synthetic training data generation via world models",
     "canonical_vertical_id": "robotics.simulation-digital-twin",
     "vertical_id": "robotics.simulation-digital-twin",
@@ -51136,7 +51502,13 @@
     ],
     "directory_synced_at": "2026-08-12T14:53:42.383Z",
     "classified_at": "2026-08-12T14:53:42.383Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110487,
+    "launch_url": "https://www.ycombinator.com/launches/Sk3-moving-atoms-world-models-for-robots",
+    "launch_title": "Moving Atoms : World Models for Robots",
+    "launch_created_at": "2026-08-17T17:13:14.659Z",
+    "launch_tagline": "World Model Lab for Evaluating Robots.",
+    "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
   },
   {
     "slug": "mspilot",
@@ -51277,6 +51649,88 @@
       "vertical_id": null,
       "industry_sub_vertical": "AI agent security and access control"
     }
+  },
+  {
+    "slug": "multiplier",
+    "name": "Multiplier",
+    "website": "https://multiplier.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/multiplier",
+    "batch": "Spring 2026",
+    "one_liner": "Agent harnesses for asset managers",
+    "description_combined": "Agent harnesses for asset managers\n\nMultiplier helps institutional investors research stocks and manage their portfolios. We&#x27;re live with six hedge funds, and our users spend 4+ hours a day in the platform.\r\n\r\nInvestors who try \"nearly every tool on the market,\" to quote a client of ours, \"wind up with an unwieldy collection of fragmented point solutions.\" Those who focus on building a great setup with general agents are instead \"signing up for a full-time job.\" So we deploy a platform called Multiplier that unifies structured data, unstructured data, AI work, human work, and tacit firm knowledge in one secure, governed, customized application.\r\n\r\nOur first vertical: independent equity funds with $250M-$5B of assets. They know AI is essential for staying relevant, but they don&#x27;t have the time or talent to figure out what to do about it. But once we deploy Multiplier––\"We used to spend 80% of our time gathering information and 20% of our time acting on it,\" said one customer. \"Multiplier has flipped those percentages.\"",
+    "industry_sub_vertical": "Equity research & portfolio management agent harness for independent hedge funds",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "vertical-workflow-agent",
+    "phenotype_primary_label": "Vertical AI workflow agent (AI department for X)",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_orchestration",
+      "rag_structured_unstructured",
+      "research_synthesis",
+      "portfolio_decision_support"
+    ],
+    "what_they_sell": "Unified AI-native research and portfolio management platform for hedge funds that consolidates structured market data, unstructured research, AI agents, and human workflows into a single governed application. Replaces fragmented point-solution stacks (Bloomberg, FactSet, research tools, etc.) with an integrated agent harness that automates information gathering, synthesis, and decision support.",
+    "ai_play": "AI agents autonomously conduct equity research (data aggregation, pattern detection, thesis synthesis) and portfolio analysis, reducing analyst time spent on information gathering from 80% to 20%, freeing human capital for high-judgment investment decisions. Agents integrate firm-specific knowledge, market data, and unstructured research into contextual decision support.",
+    "who_pays": "Independent equity hedge funds ($250M–$5B AUM); research and portfolio management teams seeking to scale analyst productivity without hiring.",
+    "confidence": 0.82,
+    "rationale": "Multiplier is a vertical SaaS agent platform sold to hedge funds as end-users (not a tool for building agents). It automates the core workflow of equity research and portfolio management—information gathering, synthesis, and decision support—using AI agents integrated with structured/unstructured data and firm knowledge. This is a classic vertical-workflow-agent: end-to-end job function automation (research + portfolio ops) within a specific vertical (independent equity funds), with high switching cost via customization and integration. Secondary consideration: could be research-terminal-intel (Bloomberg-style), but Multiplier is agent-first and workflow-automation-focused rather than pure intelligence/analysis product. Confidence 0.82 (not higher because 'agent harness' language suggests some platform/customization capability, but primary value is the pre-built vertical workflow, not a developer tool).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Fintech",
+      "Productivity",
+      "Investing",
+      "Stocks"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 3,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3405246,
+        "full_name": "Ian McInnis",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Princeton Mathematics, 4.0, Shapiro Prize, Behrman Fellow, ΦΒΚ early election, ΣΞ induction & outstanding research award, researcher (check ArXiV), novelist (check nowhere) | Investor and builder of LLM investment systems at Bridgewater Associates, the world&#x27;s largest hedge fund | Classically trained Shakespearean actor\n\n",
+        "linkedin_url": "https://www.linkedin.com/in/imj-mcinnis/",
+        "twitter_url": "https://x.com/imjmcinnis",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9a9bbc8fb17bdf5e1597f1a1aa3638035b3b56b9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAN5NYSYL7%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T142928Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCfHa14EXKSDqUazkJN6Ojeaaj1byP8kpkbweNRnn5OMgIgDutOFGL9%2BhoyjDJEej8ie07yVjFHYi17Yrm4lHfGvrAq5QMIXxAAGgwwMDYyMDE4MTEwNzIiDCB%2F9yudDnTpYjDfnSrCA5Gc3Q76%2FE2XhPXrxVy%2BmjI1n1OjTGpsXAYKqZ26C00EcKj05Kty1DrZhhA1yttajTEDqM8JzKVU1bZzkfeTIb3L5%2BEnrMVYjezXrMVvDWJsoN5AWem5T8u43TC5dOALWcaO3A7f2iUTNw%2BB2Plw%2Fj%2Fbp0GrJAXBBYagcOVLNjAWVtkWzhRthCvR7a76RrBPBCLIoFg70IvG6z1PNJPdZ4S4ryqJnxmOLpKCqt8iJggAds1z0huutfZDQVeR6wLkD%2Fb0ra3%2F%2BVPFviyFJ3LSQ7LL9orAjDRe%2BP3Aq1GVlvH5xpU7I8yzDKPX1X0CUEqDc57TsAbbWNv8Smn5HONvnyjotr%2BTWPU1up4jW8%2FXYONj4oJi0ZhjgRxhbC57kEq5BFYJA5%2BZssAspi0q354qfod%2F1PgnRkxpiITLGFI9Y6xQuaJEVop0oqSOsArBTms%2FbQJkKv900X6KDBasSNIQGHm7ue1G%2F2qMA0xx4khqdH8k1x1lACxEC5lNKq%2FJev3X0GLI1TRm0TkrOeFRtZrBqKIYxXPYqO4fwiv054gk1NnDO7kqiKYyDf2lqroZaccv7p%2F4oZN3Uwhel%2BZXw4D3p0oywTDzvJHUBjqlAe9TCQEatyGcU%2FlvWmXDsK2SXaSuSa5HCWK3c3n54pQQ7z%2FTBpgMnfVSORx6hDGNGzmPO4vB9MUoux7QsxFlpptzvpaPCxn6elnPioeWK9%2FhIcXjZ92KBRDYzmv1OnSDSQUYprWJrCJcX8N1oP2DV30R%2FmEM2pEqGSKHJ5KCmaEHj7PEezL49zi9U4iEXBwq%2B3jENcBUGhBdGFClrkk%2FBS5u76DGeA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=44168c31a65ed613e56ed0acae098c8d76deb469ca6f0ec778a99df3dc8032a1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Multiplier",
+          "href": "https://www.ycombinator.com/companies/multiplier"
+        }
+      },
+      {
+        "user_id": 3276162,
+        "full_name": "Benjamin Finch",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Before WithAI, Ben was the founding researcher and chief of staff at unicorn AI lab Sentient. He oversaw prompt security and multi-agent coordination work and built a million-strong community.\n\nHe received a bachelor&#x27;s and a master&#x27;s in Electrical and Computer Engineering Magna Cum Laude from Princeton, writing acclaimed theses on solar power investment and a novel blockchain design to solve coordination issues in Energy. He grew up in Maryland, Mongolia, Kenya, and Indonesia.",
+        "linkedin_url": "https://www.linkedin.com/in/ben-finch-3a82471b5/",
+        "twitter_url": "https://x.com/btsfinch",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/46d8e5822a34f0ebbfc14618ae6798a9d6de0bbb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAN5NYSYL7%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T142928Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCfHa14EXKSDqUazkJN6Ojeaaj1byP8kpkbweNRnn5OMgIgDutOFGL9%2BhoyjDJEej8ie07yVjFHYi17Yrm4lHfGvrAq5QMIXxAAGgwwMDYyMDE4MTEwNzIiDCB%2F9yudDnTpYjDfnSrCA5Gc3Q76%2FE2XhPXrxVy%2BmjI1n1OjTGpsXAYKqZ26C00EcKj05Kty1DrZhhA1yttajTEDqM8JzKVU1bZzkfeTIb3L5%2BEnrMVYjezXrMVvDWJsoN5AWem5T8u43TC5dOALWcaO3A7f2iUTNw%2BB2Plw%2Fj%2Fbp0GrJAXBBYagcOVLNjAWVtkWzhRthCvR7a76RrBPBCLIoFg70IvG6z1PNJPdZ4S4ryqJnxmOLpKCqt8iJggAds1z0huutfZDQVeR6wLkD%2Fb0ra3%2F%2BVPFviyFJ3LSQ7LL9orAjDRe%2BP3Aq1GVlvH5xpU7I8yzDKPX1X0CUEqDc57TsAbbWNv8Smn5HONvnyjotr%2BTWPU1up4jW8%2FXYONj4oJi0ZhjgRxhbC57kEq5BFYJA5%2BZssAspi0q354qfod%2F1PgnRkxpiITLGFI9Y6xQuaJEVop0oqSOsArBTms%2FbQJkKv900X6KDBasSNIQGHm7ue1G%2F2qMA0xx4khqdH8k1x1lACxEC5lNKq%2FJev3X0GLI1TRm0TkrOeFRtZrBqKIYxXPYqO4fwiv054gk1NnDO7kqiKYyDf2lqroZaccv7p%2F4oZN3Uwhel%2BZXw4D3p0oywTDzvJHUBjqlAe9TCQEatyGcU%2FlvWmXDsK2SXaSuSa5HCWK3c3n54pQQ7z%2FTBpgMnfVSORx6hDGNGzmPO4vB9MUoux7QsxFlpptzvpaPCxn6elnPioeWK9%2FhIcXjZ92KBRDYzmv1OnSDSQUYprWJrCJcX8N1oP2DV30R%2FmEM2pEqGSKHJ5KCmaEHj7PEezL49zi9U4iEXBwq%2B3jENcBUGhBdGFClrkk%2FBS5u76DGeA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=53fc51a7302a3469c3f7a929a8da1ea060612993b7c652a8215f144f6c65ebbc",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Multiplier",
+          "href": "https://www.ycombinator.com/companies/multiplier"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-18T14:29:39.896Z",
+    "classified_at": "2026-08-18T14:29:39.896Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "mundo-ai",
@@ -52339,7 +52793,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/nex",
     "batch": "Summer 2026",
     "one_liner": "Claude Cowork for GTM Automations",
-    "description_combined": "Claude Cowork for GTM Automations\n\nNex turns your GTM goals into complex GTM automations only the world&#x27;s best GTM engineers know to build, across 1000+ integrations. Instead of just chatting, the agent writes code as it works to make workflows deterministic, fast, and cheap to re-run, and delivers real output: a Slack message, an opened PR, or a live structured data table. Built for teams.",
+    "description_combined": "Claude Cowork for GTM Automations\n\nNex turns your GTM goals into complex GTM automations only the world&#x27;s best GTM engineers know to build, across 1000+ integrations. Instead of just chatting, the agent writes code as it works to make workflows deterministic, fast, and cheap to re-run, and delivers real output: a Slack message, an opened PR, or a live structured data table. Built for teams.\n\nAI that builds and runs the complex, high-volume GTM workflows only the world's best GTM engineers know how to build, at the price of a coffee.\n\nTL;DR: Nex is Claude Cowork for high-volume workflows, starting with GTM. Describe a goal, and Nex builds an agent that runs it end to end across 1000+ integrations. The kind of work that would burn your entire weekly limit overnight on Claude or Codex runs on autopilot on Nex, for the price of a coffee, while that coffee brews. Try it at nex.ai/signup.\n\n\n\n👋 Hey friends, we're Nazz and Francisco. We spent years at HubSpot running its three largest customer platforms, and we're backed by HubSpot founder Dharmesh Shah.\n\nThe problem: general-purpose agents aren't built for high-volume GTM\n\nThe best GTM engineers can wire HubSpot, Clay, Outreach, Gong, and Slack into agents that run a revenue team. But run that same work through a general agent and it re-reasons every step, burns your entire ",
     "industry_sub_vertical": "GTM workflow automation for sales ops and revenue ops teams",
     "canonical_vertical_id": "enterprise.ops.process-automation",
     "vertical_id": "enterprise.ops.process-automation",
@@ -52414,7 +52868,13 @@
     "primary_bm": "BM-01",
     "primary_bm_rationale": "Nex is a software product sold to a specific vertical (GTM/sales ops teams) that automates their workflows through an AI agent interface, with primary monetization through SaaS subscription rather than outsourced labor outcomes.",
     "primary_bm_assigned_at": "2026-07-30T19:00:03.045Z",
-    "primary_bm_method": "assign_primary_bm_haiku"
+    "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 111167,
+    "launch_url": "https://www.ycombinator.com/launches/Sv1-nex-claude-cowork-for-high-volume-workflows-starting-with-gtm",
+    "launch_title": "Nex - Claude Cowork for high-volume workflows, starting with GTM",
+    "launch_created_at": "2026-08-17T22:00:00.274Z",
+    "launch_tagline": "AI that builds and runs the complex, high-volume GTM workflows only the world's best GTM engineers know how to build, at the price of a coffee.",
+    "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
   },
   {
     "slug": "nexa-labs",
@@ -67941,7 +68401,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/riften",
     "batch": "Summer 2026",
     "one_liner": "Earned Intelligence for every company. ",
-    "description_combined": "Earned Intelligence for every company. \n\nRiften builds earned intelligence: models that come out of a company’s own work instead of out of a lab.\r\n\r\nOne environment variable points an existing application at Riften instead of OpenAI or Anthropic. Riften routes each request to the least expensive model likely to handle it, using open-weight models we host whenever they are sufficient. Customers lower inference costs before any training begins.\r\n\r\nBecause Riften sits in the request path, real tasks and their outcomes create training evidence the company controls. Riften uses that evidence to improve routing and train private models on open weights around recurring work. Those models earn production traffic by meeting the same bar as the APIs they replace.\r\n\r\nOver time, frontier APIs handle only the tasks that still require them. The rest runs on models the company owns, on infrastructure it controls, inside the applications where the work happens.",
+    "description_combined": "Earned Intelligence for every company. \n\nRiften builds earned intelligence: models that come out of a company’s own work instead of out of a lab.\r\n\r\nOne environment variable points an existing application at Riften instead of OpenAI or Anthropic. Riften routes each request to the least expensive model likely to handle it, using open-weight models we host whenever they are sufficient. Customers lower inference costs before any training begins.\r\n\r\nBecause Riften sits in the request path, real tasks and their outcomes create training evidence the company controls. Riften uses that evidence to improve routing and train private models on open weights around recurring work. Those models earn production traffic by meeting the same bar as the APIs they replace.\r\n\r\nOver time, frontier APIs handle only the tasks that still require them. The rest runs on models the company owns, on infrastructure it controls, inside the applications where the work happens.\n\nCut LLM spend with one endpoint that selects the lowest-cost model that works.\n\nRiften Launch Video\n\n## What Riften does\n\nRiften is an OpenAI- and Anthropic-compatible gateway that routes each LLM request to the lowest-cost model capable of completing it.\n\nConnect your existing providers, change the base URL, and keep the product you already built. Riften works across customer-facing AI products and internal tools, including Claude Code and Codex.\n\nRiften is already removing enterprise-scale model spend from production workloads.\n\n## Why we built it\n\nMost AI products choose a model once and send nearly everything to it.\n\nA documentation lookup, a support classification, and a codebase migration do not require the same intelligence. Yet they are routinely sent to the same frontier model at the same price.\n\nFor customer-facing products, that cost cuts directly into gros",
     "industry_sub_vertical": "Intelligent LLM inference request routing & cost optimization",
     "canonical_vertical_id": "compute.inference-request-routing",
     "vertical_id": "compute.inference-request-routing",
@@ -68000,7 +68460,13 @@
     ],
     "directory_synced_at": "2026-08-05T16:01:04.060Z",
     "classified_at": "2026-08-05T16:01:04.060Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110330,
+    "launch_url": "https://www.ycombinator.com/launches/ShW-riften-route-every-ai-request-build-the-models-your-company-owns",
+    "launch_title": "Riften: Route every AI request. Build the models your company owns.",
+    "launch_created_at": "2026-08-17T15:12:03.010Z",
+    "launch_tagline": "Cut LLM spend with one endpoint that selects the lowest-cost model that works.",
+    "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
   },
   {
     "slug": "rightnow",
@@ -74076,6 +74542,101 @@
       "vertical_id": "devtools.container-orchestration",
       "industry_sub_vertical": "Lightweight VM packaging & portable deployment infrastructure"
     }
+  },
+  {
+    "slug": "snap-poker",
+    "name": "Snap Poker",
+    "website": "https://playsnappoker.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/snap-poker",
+    "batch": "Summer 2026",
+    "one_liner": "The social network for online poker",
+    "description_combined": "The social network for online poker\n\nSnap Poker is the first social poker app, a real-money platform with a feed built in. Players post hands as interactive reels with voiceover and build a following, and we take zero rake because we monetize like a game rather than a casino. We&#x27;re bringing everyone to online poker.",
+    "industry_sub_vertical": "Social gaming & real-money poker platform",
+    "canonical_vertical_id": "consumer.productivity.personal",
+    "vertical_id": "consumer.productivity.personal",
+    "vertical_label": "Personal productivity software",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer AI Application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "social_matching_content_curation",
+    "ai_application_patterns": [
+      "feed_curation",
+      "social_matching",
+      "content_ranking"
+    ],
+    "what_they_sell": "A real-money poker platform with integrated social feed where players post hand replays as interactive reels, build followings, and compete. Monetized via game mechanics (cosmetics, premium features, tournament entry fees) rather than rake.",
+    "ai_play": "AI powers feed ranking, hand-replay recommendations, player matching for games, and social discovery to drive engagement and network effects. Personalized content curation keeps players engaged and encourages viral hand-sharing.",
+    "who_pays": "End-user poker players (consumer subscription + in-app purchases + tournament fees).",
+    "confidence": 0.72,
+    "rationale": "Primary fit is consumer-ai-app: end-user facing, social/gaming product with AI-driven feed curation and discovery. Secondary signal of marketplace-network-ai (two-sided liquidity: players seeking games/opponents), but the core value is the consumer experience and social distribution, not exchange mechanics. No regulated financial product SKU (zero rake model, game-like monetization). AI enables personalization and viral loops, not core underwriting or risk.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Social"
+    ],
+    "yc_tags": [
+      "Consumer",
+      "Gaming",
+      "Social Media"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3762638,
+        "full_name": "Neel Gadde",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-Founder and CRO at CueBench. Previously founding engineer at Nuntius (YC S25)",
+        "linkedin_url": "https://www.linkedin.com/in/neel-gadde-491880377/",
+        "twitter_url": "https://x.com/neelapolitan?s=11",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d2be7502db72b4faa82985dd5181743eabe8a5aa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAL7ZE3VOA%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T142940Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDqsKoHCp%2Ft77ZDOog1LWz2yVmZwZSsdvsC27iRy9S4wQIhAOR99mIjg9AFTjYwPY%2BN54lsVwdT21bbm%2Brxpl7Q7JnOKuUDCF4QABoMMDA2MjAxODExMDcyIgyhCKGv71go5NY5lbAqwgM6ERM6NoL6JfoP51X2zMbWqe9WIUyDt%2BX2%2BtzQsZIgE%2FUmR8fzfTdTyyQhmBsUAQjpK6tyvggDWTHjIXpfLr1XsxNv5E4rfzvBXClzFJmlRDbXNnXftc0mkEDtJFpezTP0T6vj9DmvFbruPC0PqZdtJUHwH4GjmBvOg1WH9TnBh1dUcMi0TXo7kB9q4bKcm8LHIlc%2FE2YudaqdSimi7YWEqg1G%2FWWB0vJ3SLtgt8NXrzM6kGYrWiqiPIMGqrhJ5ye6o28NwdXrvK0HgaNTm1h4As77pkwVMwPXXfS2z9nfWwn%2FQvh15pS13cVg%2Fyz8tne%2FmBQxUzUOoXf8aATGi74DMf14RYbdbacHCm%2FhOH4Gd3v5V2LyAf%2B65hAGmIjbCm745bgN4KcHLUNyxLhqmCJhRZptyNuY3libkTc31ObK72iAR41LLFaCklquEi%2Ft%2FJsN4OB%2BaQEw1SM%2BkR07rE%2BXCVxJwizJTi2sJ5J3eF93Mz2Qi8iWFPWTi6UdatKWKmCjuuk7ZHwWgRvNYSBPsW800eqOIrLqEZBB%2F2%2Ft4LMhwMXe5J9hFUw%2FPFo%2FQNfctcX4PiF%2F0Hzo8kBQRxADj0BiLOUwnbeR1AY6pAHbliZALsP93zHTQBBKAqLjDz7g9oqWfIPfOAS2mKwYaRmAXGlgAWV1moswoexycML29G7hOVxQssiprHgB1Xw%2B3aoj1CAxv0JeMPtIZEF13l%2BewY3Qh%2FZp%2B354iQrWg5fj4oSxXaQKJ2%2B5zrS7Za9Cr%2BFK8%2B9E3SmRbMmiaSAbcnaR7A4oXzzJH5yIe1GmnNpmWTUI3vOp30ZCER3WHu0PvDoXZg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f62476b3ab3af88a956abc527ee6a64a5ed1358b37b23a254fe1e175b58104cf",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Snap Poker",
+          "href": "https://www.ycombinator.com/companies/snap-poker"
+        }
+      },
+      {
+        "user_id": 3791688,
+        "full_name": "Rishan Hemrajani",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-Founder & CTO of CueBench.",
+        "linkedin_url": "https://www.linkedin.com/in/rishan-hemrajani-254bba292",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e3bd268e04f9551b93d77346c5652657d25a2b69.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAL7ZE3VOA%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T142940Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDqsKoHCp%2Ft77ZDOog1LWz2yVmZwZSsdvsC27iRy9S4wQIhAOR99mIjg9AFTjYwPY%2BN54lsVwdT21bbm%2Brxpl7Q7JnOKuUDCF4QABoMMDA2MjAxODExMDcyIgyhCKGv71go5NY5lbAqwgM6ERM6NoL6JfoP51X2zMbWqe9WIUyDt%2BX2%2BtzQsZIgE%2FUmR8fzfTdTyyQhmBsUAQjpK6tyvggDWTHjIXpfLr1XsxNv5E4rfzvBXClzFJmlRDbXNnXftc0mkEDtJFpezTP0T6vj9DmvFbruPC0PqZdtJUHwH4GjmBvOg1WH9TnBh1dUcMi0TXo7kB9q4bKcm8LHIlc%2FE2YudaqdSimi7YWEqg1G%2FWWB0vJ3SLtgt8NXrzM6kGYrWiqiPIMGqrhJ5ye6o28NwdXrvK0HgaNTm1h4As77pkwVMwPXXfS2z9nfWwn%2FQvh15pS13cVg%2Fyz8tne%2FmBQxUzUOoXf8aATGi74DMf14RYbdbacHCm%2FhOH4Gd3v5V2LyAf%2B65hAGmIjbCm745bgN4KcHLUNyxLhqmCJhRZptyNuY3libkTc31ObK72iAR41LLFaCklquEi%2Ft%2FJsN4OB%2BaQEw1SM%2BkR07rE%2BXCVxJwizJTi2sJ5J3eF93Mz2Qi8iWFPWTi6UdatKWKmCjuuk7ZHwWgRvNYSBPsW800eqOIrLqEZBB%2F2%2Ft4LMhwMXe5J9hFUw%2FPFo%2FQNfctcX4PiF%2F0Hzo8kBQRxADj0BiLOUwnbeR1AY6pAHbliZALsP93zHTQBBKAqLjDz7g9oqWfIPfOAS2mKwYaRmAXGlgAWV1moswoexycML29G7hOVxQssiprHgB1Xw%2B3aoj1CAxv0JeMPtIZEF13l%2BewY3Qh%2FZp%2B354iQrWg5fj4oSxXaQKJ2%2B5zrS7Za9Cr%2BFK8%2B9E3SmRbMmiaSAbcnaR7A4oXzzJH5yIe1GmnNpmWTUI3vOp30ZCER3WHu0PvDoXZg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f26ec1a13d936c9396d371db0b877e0114cd874a8a21d07d4588a8a9c824d521",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Snap Poker",
+          "href": "https://www.ycombinator.com/companies/snap-poker"
+        }
+      },
+      {
+        "user_id": 3732725,
+        "full_name": "Dillon Mehta",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder and CEO at CueBench.",
+        "linkedin_url": "https://www.linkedin.com/in/dillon-mehta-49aa2827b/",
+        "twitter_url": "https://x.com/PickleDilll_",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/812fc022db435026c7bee56ba58f916bfd5218ee.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAL7ZE3VOA%2F20260818%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260818T142940Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDqsKoHCp%2Ft77ZDOog1LWz2yVmZwZSsdvsC27iRy9S4wQIhAOR99mIjg9AFTjYwPY%2BN54lsVwdT21bbm%2Brxpl7Q7JnOKuUDCF4QABoMMDA2MjAxODExMDcyIgyhCKGv71go5NY5lbAqwgM6ERM6NoL6JfoP51X2zMbWqe9WIUyDt%2BX2%2BtzQsZIgE%2FUmR8fzfTdTyyQhmBsUAQjpK6tyvggDWTHjIXpfLr1XsxNv5E4rfzvBXClzFJmlRDbXNnXftc0mkEDtJFpezTP0T6vj9DmvFbruPC0PqZdtJUHwH4GjmBvOg1WH9TnBh1dUcMi0TXo7kB9q4bKcm8LHIlc%2FE2YudaqdSimi7YWEqg1G%2FWWB0vJ3SLtgt8NXrzM6kGYrWiqiPIMGqrhJ5ye6o28NwdXrvK0HgaNTm1h4As77pkwVMwPXXfS2z9nfWwn%2FQvh15pS13cVg%2Fyz8tne%2FmBQxUzUOoXf8aATGi74DMf14RYbdbacHCm%2FhOH4Gd3v5V2LyAf%2B65hAGmIjbCm745bgN4KcHLUNyxLhqmCJhRZptyNuY3libkTc31ObK72iAR41LLFaCklquEi%2Ft%2FJsN4OB%2BaQEw1SM%2BkR07rE%2BXCVxJwizJTi2sJ5J3eF93Mz2Qi8iWFPWTi6UdatKWKmCjuuk7ZHwWgRvNYSBPsW800eqOIrLqEZBB%2F2%2Ft4LMhwMXe5J9hFUw%2FPFo%2FQNfctcX4PiF%2F0Hzo8kBQRxADj0BiLOUwnbeR1AY6pAHbliZALsP93zHTQBBKAqLjDz7g9oqWfIPfOAS2mKwYaRmAXGlgAWV1moswoexycML29G7hOVxQssiprHgB1Xw%2B3aoj1CAxv0JeMPtIZEF13l%2BewY3Qh%2FZp%2B354iQrWg5fj4oSxXaQKJ2%2B5zrS7Za9Cr%2BFK8%2B9E3SmRbMmiaSAbcnaR7A4oXzzJH5yIe1GmnNpmWTUI3vOp30ZCER3WHu0PvDoXZg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2e8bc1f510ad52918f139bf336032dcec8a6c3066b65817e7b602d0a6c883750",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Snap Poker",
+          "href": "https://www.ycombinator.com/companies/snap-poker"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-18T14:29:47.968Z",
+    "classified_at": "2026-08-18T14:29:47.968Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "socratix-ai",
@@ -83752,7 +84313,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/trynearby",
     "batch": "Summer 2026",
     "one_liner": "Local creators for local businesses",
-    "description_combined": "Local creators for local businesses\n\nTryNearby connects local businesses with creators who live nearby. Restaurants subscribe monthly and automatically get booked visits from local creators who film, edit, and post a review to the local algorithm. This creates a steady stream of content that compounds into discovery on TikTok, Instagram, and increasingly AI search. Over 100 restaurants and thousands of creators are on the platform across Southern California, with AI agents handling matching, booking, and every creator conversation.",
+    "description_combined": "Local creators for local businesses\n\nTryNearby connects local businesses with creators who live nearby. Restaurants subscribe monthly and automatically get booked visits from local creators who film, edit, and post a review to the local algorithm. This creates a steady stream of content that compounds into discovery on TikTok, Instagram, and increasingly AI search. Over 100 restaurants and thousands of creators are on the platform across Southern California, with AI agents handling matching, booking, and every creator conversation.\n\nWord of mouth at scale for local restaurants\n\nHey everyone,\n\nWe're Yousef, Obaida, and Ahmad, the founders of TryNearby.\n\nYousef co-founded FaZe Clan and spent 15 years creating content for 10M+ followers alongside hundreds of other creators. Ahmad and Obaida co-founded one of the first social media clipping companies, building the infrastructure that tracked billions of views across thousands of videos for creator campaigns. We've watched creator content become the most powerful distribution channel on the internet, and we're bringing it to local businesses.\n\n## TL;DR\n\n84% of small businesses on TikTok say it helped grow their business. Almost every restaurant owner we meet knows that and has no idea how to act on it.\n\nTryNearby handles it. Every month we send a new group of creators who live nearby to visit, film, and post a review,",
     "industry_sub_vertical": "Restaurant social media content automation & local creator matching",
     "canonical_vertical_id": "marketing.social-ops",
     "vertical_id": "marketing.social-ops",
@@ -83809,7 +84370,13 @@
     ],
     "directory_synced_at": "2026-08-12T14:53:33.416Z",
     "classified_at": "2026-08-12T14:53:33.416Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110956,
+    "launch_url": "https://www.ycombinator.com/launches/Src-trynearby-every-local-business-needs-to-be-discoverable-that-150b-market-is-moving-toward-local-creators",
+    "launch_title": "TryNearby: Every local business needs to be discoverable. That $150B market is moving toward local creators.",
+    "launch_created_at": "2026-08-17T18:03:07.676Z",
+    "launch_tagline": "Word of mouth at scale for local restaurants",
+    "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
   },
   {
     "slug": "tryprism",
@@ -86578,7 +87145,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/verdict-machine",
     "batch": "Summer 2026",
     "one_liner": "AI cybersecurity for financial institutions&#x27; digital assets",
-    "description_combined": "AI cybersecurity for financial institutions&#x27; digital assets\n\nVerdict Machine uses AI to understand each financial institution&#x27;s complete on-chain environment, assess its cyber risk and generate tailored controls. The same live model powers transaction prevention, continuous cyber diligence, security posture and cost-efficient wallet screening. Before execution, Verdict Machine evaluates proposed transactions against the institution&#x27;s active policies.\n\nIn our first weeks, we started POCs with asset managers and digital-asset infrastructure providers whose systems move billions of dollars every week for financial institutions. We&#x27;re now in active evaluations with digital-asset teams at some of the world&#x27;s largest banks.\n\nThe founding team launched and led blockchain security at Check Point (NASDAQ: CHKP).",
+    "description_combined": "AI cybersecurity for financial institutions&#x27; digital assets\n\nVerdict Machine uses AI to understand each financial institution&#x27;s complete on-chain environment, assess its cyber risk and generate tailored controls. The same live model powers transaction prevention, continuous cyber diligence, security posture and cost-efficient wallet screening. Before execution, Verdict Machine evaluates proposed transactions against the institution&#x27;s active policies.\n\nIn our first weeks, we started POCs with asset managers and digital-asset infrastructure providers whose systems move billions of dollars every week for financial institutions. We&#x27;re now in active evaluations with digital-asset teams at some of the world&#x27;s largest banks.\n\nThe founding team launched and led blockchain security at Check Point (NASDAQ: CHKP).\n\nAI that understands each institution's complete on-chain environment, assesses its cyber risk, and generates tailored controls to prevent hacks\n\nHey all! We are Dan, Liran, and Isaac. Before Verdict Machine, we launched blockchain security at Check Point (NASDAQ: CHKP).\n\nTL;DR: Blockchain is becoming critical infra for all finance. More than $3.4B in digital assets was stolen in 2025. Verdict Machine is AI cybersecurity for financial institutions' digital assets. We use AI to understand each institution's environment, assess cyber risk and generate tailored controls that prevent hacks.\n\nBuilding for: banks, asset managers, DeFi protocols and infra, companies that use stablecoins or RWAs. If that’s you, email us at founders@verdictmachine.com.\n\n\n\n### Signed is not safe\n\nSophisticated hackers don’t need to compromise a wallet to steal funds. They only need to trick an authorized operator into approving one malicious transaction.\n\nOn-",
     "industry_sub_vertical": "Cryptocurrency & digital asset cyber risk quantification for financial institutions",
     "canonical_vertical_id": "security.risk-quantification",
     "vertical_id": "security.risk-quantification",
@@ -86665,7 +87232,13 @@
     ],
     "directory_synced_at": "2026-08-11T14:55:01.832Z",
     "classified_at": "2026-08-11T14:55:01.832Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 110493,
+    "launch_url": "https://www.ycombinator.com/launches/Sk9-verdict-machine-ai-cybersecurity-for-financial-institutions-digital-assets",
+    "launch_title": "Verdict Machine: AI cybersecurity for financial institutions’ digital assets",
+    "launch_created_at": "2026-08-17T15:00:01.008Z",
+    "launch_tagline": "AI that understands each institution's complete on-chain environment, assesses its cyber risk, and generates tailored controls to prevent hacks",
+    "launch_evaluated_at": "2026-08-18T14:30:55.179Z"
   },
   {
     "slug": "veria-labs",

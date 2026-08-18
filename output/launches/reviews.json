@@ -1,7 +1,769 @@
 {
-  "updated_at": "2026-08-17T14:24:12.899Z",
+  "updated_at": "2026-08-18T14:30:53.820Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 110611,
+      "company_slug": "mass-magnetics",
+      "launch_url": "https://www.ycombinator.com/launches/Sm3-mass-magnetics-usa-made-magnets",
+      "created_at": "2026-08-18T14:30:00.079Z",
+      "classification": {
+        "phenotype_primary_id": "ai-enabled-physical-systems",
+        "vertical_id": "industrials.defense.supply-chain",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.785Z",
+        "launch_id": 110611,
+        "company_slug": "mass-magnetics",
+        "taxonomy": {
+          "conformance_index": 71,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "industrials.defense.supply-chain",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::industrials.defense.supply-chain::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Defense supply chain & prime contracting",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 111172,
+      "company_slug": "epsilla",
+      "launch_url": "https://www.ycombinator.com/launches/Sv6-harnessrouter-open-sourcing-the-world-s-first-unified-interface-for-agent-harnesses-and-the-unified-harness-protocol",
+      "created_at": "2026-08-17T22:23:24.250Z",
+      "classification": {
+        "phenotype_primary_id": "agent-runtime-infra",
+        "vertical_id": "ai-infrastructure.agent-runtime",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.789Z",
+        "launch_id": 111172,
+        "company_slug": "epsilla",
+        "taxonomy": {
+          "conformance_index": 75,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "agent-runtime-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Agent runtime / harness / orchestration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 111167,
+      "company_slug": "nex",
+      "launch_url": "https://www.ycombinator.com/launches/Sv1-nex-claude-cowork-for-high-volume-workflows-starting-with-gtm",
+      "created_at": "2026-08-17T22:00:00.274Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-agentic-workflow-saas",
+        "vertical_id": "enterprise.sales.enablement",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.791Z",
+        "launch_id": 111167,
+        "company_slug": "nex",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.sales.enablement",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.sales.enablement::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Sales enablement & execution",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 110659,
+      "company_slug": "akon-labs",
+      "launch_url": "https://www.ycombinator.com/launches/Smp-akon-labs-we-re-building-the-most-token-efficient-coding-agent-in-the-world",
+      "created_at": "2026-08-17T19:30:00.167Z",
+      "classification": {
+        "phenotype_primary_id": "agent-runtime-infra",
+        "vertical_id": "ai-infrastructure.agent-runtime",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.794Z",
+        "launch_id": 110659,
+        "company_slug": "akon-labs",
+        "taxonomy": {
+          "conformance_index": 72,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "agent-runtime-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Agent runtime / harness / orchestration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 110614,
+      "company_slug": "lato",
+      "launch_url": "https://www.ycombinator.com/launches/Sm6-lato-research-any-company-or-market-in-days",
+      "created_at": "2026-08-17T19:00:00.215Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.ops.process-automation",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.795Z",
+        "launch_id": 110614,
+        "company_slug": "lato",
+        "taxonomy": {
+          "conformance_index": 51,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 7,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.ops.process-automation",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.ops.process-automation::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Cross-industry process automation",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 110956,
+      "company_slug": "trynearby",
+      "launch_url": "https://www.ycombinator.com/launches/Src-trynearby-every-local-business-needs-to-be-discoverable-that-150b-market-is-moving-toward-local-creators",
+      "created_at": "2026-08-17T18:03:07.676Z",
+      "classification": {
+        "phenotype_primary_id": "marketplace-network-ai",
+        "vertical_id": "marketing.social-ops",
+        "business_models": [
+          "BM-07"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.797Z",
+        "launch_id": 110956,
+        "company_slug": "trynearby",
+        "taxonomy": {
+          "conformance_index": 58,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 0,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-07",
+            "vertical_id": "marketing.social-ops",
+            "phenotype_primary_id": "marketplace-network-ai",
+            "cell_key": "BM-07::marketing.social-ops::marketplace-network-ai",
+            "business_model_label": "Marketplace / network",
+            "vertical_label": "Social media management & publishing",
+            "phenotype_label": "Marketplace / exchange / liquidity network"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 110487,
+      "company_slug": "moving-atoms",
+      "launch_url": "https://www.ycombinator.com/launches/Sk3-moving-atoms-world-models-for-robots",
+      "created_at": "2026-08-17T17:13:14.659Z",
+      "classification": {
+        "phenotype_primary_id": "ai-enabled-physical-systems",
+        "vertical_id": "robotics.simulation-digital-twin",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.798Z",
+        "launch_id": 110487,
+        "company_slug": "moving-atoms",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "robotics.simulation-digital-twin",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::robotics.simulation-digital-twin::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Robotic digital twin & offline simulation",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 110407,
+      "company_slug": "carsignal",
+      "launch_url": "https://www.ycombinator.com/launches/Sil-carsignal-the-ai-operating-system-for-auto-shops",
+      "created_at": "2026-08-17T16:30:09.423Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.ops.process-automation",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.799Z",
+        "launch_id": 110407,
+        "company_slug": "carsignal",
+        "taxonomy": {
+          "conformance_index": 56,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.ops.process-automation",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.ops.process-automation::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Cross-industry process automation",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 110401,
+      "company_slug": "hyperprobe",
+      "launch_url": "https://www.ycombinator.com/launches/Sif-hyperprobe-on-call-agent-for-engineering-teams",
+      "created_at": "2026-08-17T15:30:20.732Z",
+      "classification": {
+        "phenotype_primary_id": "agent-observability-evals",
+        "vertical_id": "devtools.observability-instrumentation",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.802Z",
+        "launch_id": 110401,
+        "company_slug": "hyperprobe",
+        "taxonomy": {
+          "conformance_index": 74,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 61,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "devtools.observability-instrumentation",
+            "phenotype_primary_id": "agent-observability-evals",
+            "cell_key": "BM-03::devtools.observability-instrumentation::agent-observability-evals",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Application observability & instrumentation",
+            "phenotype_label": "Agent observability, evals, or safety"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 110330,
+      "company_slug": "riften",
+      "launch_url": "https://www.ycombinator.com/launches/ShW-riften-route-every-ai-request-build-the-models-your-company-owns",
+      "created_at": "2026-08-17T15:12:03.010Z",
+      "classification": {
+        "phenotype_primary_id": "model-optimization-rl",
+        "vertical_id": "compute.inference-request-routing",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.803Z",
+        "launch_id": 110330,
+        "company_slug": "riften",
+        "taxonomy": {
+          "conformance_index": 74,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 64,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "compute.inference-request-routing",
+            "phenotype_primary_id": "model-optimization-rl",
+            "cell_key": "BM-03::compute.inference-request-routing::model-optimization-rl",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Intelligent inference request routing & load balancing",
+            "phenotype_label": "Model Optimization via Reinforcement Learning"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": {
+            "rank": 454,
+            "opportunity_score": 10,
+            "transfer_score": 83
+          },
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+        ]
+      }
+    },
+    {
+      "launch_id": 110493,
+      "company_slug": "verdict-machine",
+      "launch_url": "https://www.ycombinator.com/launches/Sk9-verdict-machine-ai-cybersecurity-for-financial-institutions-digital-assets",
+      "created_at": "2026-08-17T15:00:01.008Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "security.risk-quantification",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-18T14:30:53.805Z",
+        "launch_id": 110493,
+        "company_slug": "verdict-machine",
+        "taxonomy": {
+          "conformance_index": 70,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "security.risk-quantification",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::security.risk-quantification::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Cyber risk quantification & modeling",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 66,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
     {
       "launch_id": 110923,
       "company_slug": "codag",
