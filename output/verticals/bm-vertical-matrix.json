@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-18T14:30:56.016Z",
+  "generated_at": "2026-08-19T14:30:59.305Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1369,
+    "assignment_count": 1376,
     "mapped_verticals": 242,
     "observed_cells": 471,
     "total_verticals": 525,
@@ -70,6 +70,7 @@
         "overshoot",
         "polymorph",
         "projectx",
+        "radiusbrowser",
         "ramain",
         "reasonblocks",
         "redapto",
@@ -883,6 +884,22 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "bootloop",
+        "canary",
+        "docket",
+        "movedot",
+        "propolis",
+        "testerarmy",
+        "velt"
+      ]
+    },
+    {
       "business_model": "BM-10",
       "business_model_label": "Consumer app / prosumer",
       "vertical_id": "healthcare.digital.consumer-wellness",
@@ -944,21 +961,6 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.qa-testing",
-      "vertical_label": "Software QA & test automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "bootloop",
-        "canary",
-        "docket",
-        "movedot",
-        "propolis",
-        "testerarmy"
-      ]
-    },
-    {
       "business_model": "BM-06",
       "business_model_label": "Data / intelligence product",
       "vertical_id": "ai-infrastructure.training-data",
@@ -1001,6 +1003,21 @@
         "regbase",
         "scoop",
         "vulcan-technologies"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "gini",
+        "human-behavior",
+        "joindex",
+        "logical",
+        "pally",
+        "stamp"
       ]
     },
     {
@@ -1072,20 +1089,6 @@
         "lightfield",
         "sammy-labs",
         "vesence"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.ops.knowledge",
-      "vertical_label": "Enterprise knowledge management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "human-behavior",
-        "joindex",
-        "logical",
-        "pally",
-        "stamp"
       ]
     },
     {
@@ -1345,6 +1348,19 @@
       ]
     },
     {
+      "business_model": "BM-07",
+      "business_model_label": "Marketplace / network",
+      "vertical_id": "fintech.banking.exchange",
+      "vertical_label": "Banking & exchange infrastructure",
+      "sector_id": "financial-services",
+      "companies": [
+        "liquid-compute",
+        "pax-markets",
+        "qfex",
+        "stoa"
+      ]
+    },
+    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "fintech.insurance.agent-liability",
@@ -1576,6 +1592,18 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "ai-infrastructure.training-data",
+      "vertical_label": "Training & eval data generation",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "dream",
+        "hilstart",
+        "topological"
+      ]
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "ai-infrastructure.training-data",
@@ -1804,6 +1832,18 @@
       ]
     },
     {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "enterprise.marketing.analytics",
+      "vertical_label": "Marketing analytics & market research",
+      "sector_id": "professional-services",
+      "companies": [
+        "foresight",
+        "studio",
+        "theora"
+      ]
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.marketing.growth",
@@ -1813,18 +1853,6 @@
         "revnu",
         "sherpa",
         "the-prompting-company"
-      ]
-    },
-    {
-      "business_model": "BM-07",
-      "business_model_label": "Marketplace / network",
-      "vertical_id": "fintech.banking.exchange",
-      "vertical_label": "Banking & exchange infrastructure",
-      "sector_id": "financial-services",
-      "companies": [
-        "pax-markets",
-        "qfex",
-        "stoa"
       ]
     },
     {
@@ -1957,6 +1985,18 @@
         "axelrod",
         "tee-time-tommy",
         "zaplar"
+      ]
+    },
+    {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "asimov",
+        "praxis-robotics",
+        "vision-lab"
       ]
     },
     {
@@ -2122,17 +2162,6 @@
       "companies": [
         "cortex-ai",
         "relling"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "ai-infrastructure.training-data",
-      "vertical_label": "Training & eval data generation",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "dream",
-        "topological"
       ]
     },
     {
@@ -2331,17 +2360,6 @@
       "companies": [
         "fuchsia",
         "locke"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "enterprise.marketing.analytics",
-      "vertical_label": "Marketing analytics & market research",
-      "sector_id": "professional-services",
-      "companies": [
-        "foresight",
-        "theora"
       ]
     },
     {
@@ -2738,17 +2756,6 @@
       "companies": [
         "control-seat",
         "steinmetz"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "asimov",
-        "vision-lab"
       ]
     },
     {

@@ -1,7 +1,777 @@
 {
-  "updated_at": "2026-08-18T14:30:53.820Z",
+  "updated_at": "2026-08-19T14:30:57.196Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 111180,
+      "company_slug": "marker",
+      "launch_url": "https://www.ycombinator.com/launches/SvE-marker-ai-native-consultancy-rebuilding-businesses-with-ai-agents",
+      "created_at": "2026-08-19T14:00:01.019Z",
+      "classification": {
+        "phenotype_primary_id": "ai-forward-consulting",
+        "vertical_id": "enterprise.ops.knowledge",
+        "business_models": [
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:46.252Z",
+        "launch_id": 111180,
+        "company_slug": "marker",
+        "taxonomy": {
+          "conformance_index": 72,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-04",
+            "vertical_id": "enterprise.ops.knowledge",
+            "phenotype_primary_id": "ai-forward-consulting",
+            "cell_key": "BM-04::enterprise.ops.knowledge::ai-forward-consulting",
+            "business_model_label": "AI labor / managed service",
+            "vertical_label": "Enterprise knowledge management",
+            "phenotype_label": "AI-forward consulting / managed service"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+        ]
+      }
+    },
+    {
+      "launch_id": 111319,
+      "company_slug": "idler",
+      "launch_url": "https://www.ycombinator.com/launches/SxT-idler-push-the-frontier-of-your-model",
+      "created_at": "2026-08-19T13:16:53.490Z",
+      "classification": {
+        "phenotype_primary_id": "training-data-synthetic",
+        "vertical_id": "ai-infrastructure.training-data",
+        "business_models": [
+          "BM-03",
+          "BM-06"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:46.253Z",
+        "launch_id": 111319,
+        "company_slug": "idler",
+        "taxonomy": {
+          "conformance_index": 54,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 64,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.training-data",
+            "phenotype_primary_id": "training-data-synthetic",
+            "cell_key": "BM-03::ai-infrastructure.training-data::training-data-synthetic",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Training & eval data generation",
+            "phenotype_label": "Training / eval data generation"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 67,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 111317,
+      "company_slug": "grip",
+      "launch_url": "https://www.ycombinator.com/launches/SxR-grip-robotics-for-waste-management",
+      "created_at": "2026-08-19T13:00:00.941Z",
+      "classification": {
+        "phenotype_primary_id": "physical-ai-autonomous-systems",
+        "vertical_id": "industrials.waste",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:46.255Z",
+        "launch_id": 111317,
+        "company_slug": "grip",
+        "taxonomy": {
+          "conformance_index": 77,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "industrials.waste",
+            "phenotype_primary_id": "physical-ai-autonomous-systems",
+            "cell_key": "BM-08::industrials.waste::physical-ai-autonomous-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Waste management & recycling",
+            "phenotype_label": "Physical AI & Autonomous Manufacturing"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 111055,
+      "company_slug": "mentlio",
+      "launch_url": "https://www.ycombinator.com/launches/StD-mentlio-engineering-intelligence-token-optimization-for-the-ai-coding-era",
+      "created_at": "2026-08-18T22:00:00.168Z",
+      "classification": {
+        "phenotype_primary_id": "agent-observability-evals",
+        "vertical_id": "devtools.cost-optimization",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:46.256Z",
+        "launch_id": 111055,
+        "company_slug": "mentlio",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "devtools.cost-optimization",
+            "phenotype_primary_id": "agent-observability-evals",
+            "cell_key": "BM-03::devtools.cost-optimization::agent-observability-evals",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Cloud resource optimization & cost management",
+            "phenotype_label": "Agent observability, evals, or safety"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 111026,
+      "company_slug": "aerogen-systems",
+      "launch_url": "https://www.ycombinator.com/launches/Ssk-aerogen-systems-building-chip-fabs-without-cleanrooms",
+      "created_at": "2026-08-18T21:15:05.234Z",
+      "classification": {
+        "phenotype_primary_id": "ai-enabled-physical-systems",
+        "vertical_id": "industrials.semiconductor",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:46.258Z",
+        "launch_id": 111026,
+        "company_slug": "aerogen-systems",
+        "taxonomy": {
+          "conformance_index": 75,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "industrials.semiconductor",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::industrials.semiconductor::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Semiconductor manufacturing",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 110494,
+      "company_slug": "computable",
+      "launch_url": "https://www.ycombinator.com/launches/SkA-computable-the-exchange-for-physical-compute",
+      "created_at": "2026-08-18T19:00:00.333Z",
+      "classification": {
+        "phenotype_primary_id": "marketplace-network-ai",
+        "vertical_id": "fintech.payments.consumer",
+        "business_models": [
+          "BM-07"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:46.259Z",
+        "launch_id": 110494,
+        "company_slug": "computable",
+        "taxonomy": {
+          "conformance_index": 47,
+          "verdict": "non_conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 29,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-07",
+            "vertical_id": "fintech.payments.consumer",
+            "phenotype_primary_id": "marketplace-network-ai",
+            "cell_key": "BM-07::fintech.payments.consumer::marketplace-network-ai",
+            "business_model_label": "Marketplace / network",
+            "vertical_label": "Consumer payments & rewards",
+            "phenotype_label": "Marketplace / exchange / liquidity network"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "first_occupant_of_cell",
+            "low_taxonomy_conformance"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 111044,
+      "company_slug": "radley",
+      "launch_url": "https://www.ycombinator.com/launches/St2-radley-s26-we-re-building-the-first-full-stack-ai-native-radiology-practice",
+      "created_at": "2026-08-18T16:30:13.266Z",
+      "classification": {
+        "phenotype_primary_id": "ai-native-service-provider",
+        "vertical_id": "healthcare.provider.specialty-practice",
+        "business_models": [
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:46.261Z",
+        "launch_id": 111044,
+        "company_slug": "radley",
+        "taxonomy": {
+          "conformance_index": 48,
+          "verdict": "non_conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 5,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 29,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-04",
+            "vertical_id": "healthcare.provider.specialty-practice",
+            "phenotype_primary_id": "ai-native-service-provider",
+            "cell_key": "BM-04::healthcare.provider.specialty-practice::ai-native-service-provider",
+            "business_model_label": "AI labor / managed service",
+            "vertical_label": "Specialty medical practice operations",
+            "phenotype_label": "AI-Native Service Provider (Outcome-Based)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "first_occupant_of_cell",
+            "low_taxonomy_conformance"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 110619,
+      "company_slug": "zomma",
+      "launch_url": "https://www.ycombinator.com/launches/SmB-zomma-s26-ai-operations-employees-for-finance-back-offices",
+      "created_at": "2026-08-18T16:00:00.082Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.finance.accounting",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:46.262Z",
+        "launch_id": 110619,
+        "company_slug": "zomma",
+        "taxonomy": {
+          "conformance_index": 54,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.finance.accounting",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.finance.accounting::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Finance & accounting automation",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 111289,
+      "company_slug": "velt",
+      "launch_url": "https://www.ycombinator.com/launches/Swz-superflow-ai-qa-agents-for-your-website",
+      "created_at": "2026-08-18T15:55:44.561Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-agentic-workflow-saas",
+        "vertical_id": "ai-infrastructure.qa-testing",
+        "business_models": [
+          "BM-01"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:57.172Z",
+        "launch_id": 111289,
+        "company_slug": "velt",
+        "taxonomy": {
+          "conformance_index": 76,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "ai-infrastructure.qa-testing",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::ai-infrastructure.qa-testing::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Software QA & test automation",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 111169,
+      "company_slug": "libra-robotics",
+      "launch_url": "https://www.ycombinator.com/launches/Sv3-libra-robotics-robots-that-build-solar-farms-together",
+      "created_at": "2026-08-18T15:06:00.036Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "power.asset-maintenance",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:57.175Z",
+        "launch_id": 111169,
+        "company_slug": "libra-robotics",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "power.asset-maintenance",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::power.asset-maintenance::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Power plant & transmission asset maintenance scheduling",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "ranked_gap:rank=374,score=12"
+          ],
+          "cell_was_whitespace": true,
+          "ranked_gap": {
+            "rank": 374,
+            "opportunity_score": 12,
+            "transfer_score": 83
+          },
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 111045,
+      "company_slug": "egoist-machines",
+      "launch_url": "https://www.ycombinator.com/launches/St3-egoist-machines-user-owned-hyper-personalisation-infrastructure-for-web-4-0",
+      "created_at": "2026-08-18T14:58:03.221Z",
+      "classification": {
+        "phenotype_primary_id": "agent-context-data",
+        "vertical_id": "ai-infrastructure.agent-context-web",
+        "business_models": [
+          "BM-03",
+          "BM-06"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-19T14:30:57.177Z",
+        "launch_id": 111045,
+        "company_slug": "egoist-machines",
+        "taxonomy": {
+          "conformance_index": 74,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 64,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-context-web",
+            "phenotype_primary_id": "agent-context-data",
+            "cell_key": "BM-03::ai-infrastructure.agent-context-web::agent-context-data",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent web context & data enrichment",
+            "phenotype_label": "Agent context & web/data enrichment API"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 67,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
     {
       "launch_id": 110611,
       "company_slug": "mass-magnetics",

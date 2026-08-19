@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-18T14:29:27.894Z",
+  "synced_at": "2026-08-19T14:29:26.361Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1265,
+  "company_count": 1268,
   "companies": [
     {
       "slug": "10x",
@@ -1895,16 +1895,16 @@
       "slug": "assemble",
       "name": "Assemble",
       "batch": "Summer 2026",
-      "one_liner": "Agents for Enterprise IT",
+      "one_liner": "AI Coworkers for IT teams",
       "long_description": "Assemble accelerates IT teams by performing development work inside core enterprise systems like ERP, CRM, and HRIS. Our agents help IT teams scope dependencies, build logic, and validate changes across your systems.",
       "website": "https://www.assemble.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -2131,7 +2131,7 @@
       "slug": "atomarine",
       "name": "Atomarine",
       "batch": "Summer 2026",
-      "one_liner": "Off shore nuclear powered data centers at sea.",
+      "one_liner": "Floating nuclear powered data centers at sea.",
       "long_description": "We are building nuclear power delivery ships to power our floating compute barges at sea. Our systems are fully standalone, have better cooling, and avoid all the resource competition that leads to local community opposition. Our centralized manufacturing allows us to deploy anywhere on Earth, four times faster than on land.",
       "website": "https://atomarine.co",
       "industries": [
@@ -2884,7 +2884,7 @@
         "Aviation and Space"
       ],
       "tags": [],
-      "team_size": 5,
+      "team_size": 8,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1770079967
@@ -4097,14 +4097,14 @@
       "name": "CarSignal",
       "batch": "Summer 2026",
       "one_liner": "The Smart Operating System for Auto Shops.",
-      "long_description": "",
+      "long_description": "CarSignal is the AI-native operating system for independent auto repair shops.\r\n\r\nMost shops still run each repair across disconnected management software, scan tools, parts catalogs, service information, texts, spreadsheets, and knowledge kept in technicians’ heads. That fragmentation slows diagnosis, creates duplicate admin, and leaves customers waiting.\r\n\r\nCarSignal connects the full repair process in one system. AI agents research vehicle-specific failure patterns and surface the tests that confirm or rule out each cause. The same system carries each job from booking and intake through inspections, estimates, parts, approvals, payment, and follow-up, so technicians spend less time searching and updating systems and more time fixing cars.",
       "website": "https://www.trycarsignal.com",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
-        "AI",
         "Automotive"
       ],
       "team_size": 2,
@@ -4368,19 +4368,14 @@
       "slug": "cerenovus",
       "name": "Cerenovus",
       "batch": "Summer 2026",
-      "one_liner": "A knowledge company",
-      "long_description": "Cerenovus is a company brain. We aggregate every kind of file a company produces — documents, PDFs, emails, Slack messages, spreadsheets, meeting notes — and convert them into a single markdown knowledge graph with native AI-agent integration. A company's information becomes uniformly readable both by humans and by the AI agents working inside the graph.\r\n\r\nOn top of that foundation, Cerenovus maps the company as a system, drawing connections between the people, processes, and tools that make up real workflows. From that systems map, it infers where operations are inefficient and how to improve them.\r\n\r\nIn practice, this tool will help executives make better decisions. Whenever a leader has to act on a question — how to restructure a team, whether to keep a vendor, or where handoffs between teams are breaking down — Cerenovus will give them an evidence-backed answer in minutes rather than weeks.\r\n\r\nToday, that work is done by consultants, by internal analysts, or by the executive asking around informally. Each of those approaches is slow, partial, and goes stale the moment it is delivered. Cerenovus produces the same answers faster, at a fraction of the cost, and keeps them live as the company evolves.",
+      "one_liner": "AI that finds value creation opportunities across enterprise…",
+      "long_description": "We are building an AI operating partner that reads every record a company produces to find and prioritize value creation opportunities, including costly operational inefficiencies no one is tracking. Cerenovus warns leaders before small problems become expensive and turns weeks of manual investigation into evidence-backed answers in minutes. Every claim links to its source, and every finding is ranked by impact. Companies use it to improve their operations; private equity and advisory firms deploy it across the businesses they own or advise.",
       "website": "https://www.cerenovus.ai/",
       "industries": [
-        "B2B"
-      ],
-      "tags": [
-        "AIOps",
-        "Artificial Intelligence",
         "B2B",
-        "Search",
-        "AI"
+        "Operations"
       ],
+      "tags": [],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -4818,16 +4813,16 @@
       "batch": "Fall 2025",
       "one_liner": "AI agents for your healthcare back-office operations.",
       "long_description": "Clicks Health builds AI agents that automate back-office operations for RCM companies and healthcare providers. Our agents work across EHRs, payer portals, desktop applications, and legacy systems, following existing processes, handling exceptions, and escalating when human judgment is needed. Backed by Y Combinator, Clicks helps teams improve accuracy, shorten turnaround times, and reduce operating costs, with SOC 2 Type II and HIPAA compliance built in.",
-      "website": "https://clickshealth.com/",
+      "website": "https://www.goclicks.ai/",
       "industries": [
         "B2B",
         "Productivity"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Health Tech",
         "Healthcare",
-        "Health Insurance",
-        "AI"
+        "Health Insurance"
       ],
       "team_size": 8,
       "location": "San Francisco, CA, USA",
@@ -6343,8 +6338,8 @@
       "slug": "derya",
       "name": "Derya",
       "batch": "Summer 2026",
-      "one_liner": "AI-Native Logistics Office",
-      "long_description": "Derya is the AI-native logistics office: the one-stop shop that startups, SMEs, and enterprises outsource their entire logistics function to, from booking and coordination through to financing the freight itself. \r\n\r\nOur mission is to rebuild the supply chain from the ground up, turning one of the world’s hardest coordination problems into an AI native system that moves global trade faster, more reliably, and with working capital that no longer sits trapped in transit.",
+      "one_liner": "Agentic Supply Chain Automations",
+      "long_description": "Derya deploys supply chain automations for startups, SMEs, and enterprises that fulfil their entire supply chain function, from prospecting and procurement to distribution of goods.\r\n\r\nOur mission is to rebuild the supply chain from the ground up, turning one of the world’s hardest coordination problems into an AI native system that moves commodities by being integrated into both the supply chain infrastructure and the customer. We work across robotics, commodities, and food & beverages companies; procuring goods and managing various operation functions for them.",
       "website": "http://usederya.com",
       "industries": [
         "B2B",
@@ -6352,10 +6347,10 @@
       ],
       "tags": [
         "AIOps",
-        "Digital Freight Brokerage",
-        "Finance",
         "Logistics",
-        "Supply Chain"
+        "Supply Chain",
+        "Procurement",
+        "Automation"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -7604,9 +7599,10 @@
         "B2B"
       ],
       "tags": [
+        "Education",
         "B2B",
-        "Media",
-        "Advertising",
+        "Entertainment",
+        "Marketing",
         "AI"
       ],
       "team_size": 7,
@@ -8720,6 +8716,28 @@
       "launched_at": 1775192956
     },
     {
+      "slug": "gini",
+      "name": "Gini",
+      "batch": "Summer 2026",
+      "one_liner": "AI coworker in Slack and Teams",
+      "long_description": "Gini is an AI coworker that lives in your Slack and Teams. It has full context on your company, so it can answer questions, join calls, and take real work off your team's plate. Gini also keeps your company wiki and knowledge base up to date automatically, so your team's knowledge never goes stale or walks out the door.",
+      "website": "https://ginicomputer.com/",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "B2B",
+        "Workflow Automation",
+        "Enterprise Software"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1787093671
+    },
+    {
       "slug": "gitcafe",
       "name": "GitCafe",
       "batch": "Summer 2026",
@@ -8961,7 +8979,6 @@
       ],
       "tags": [
         "Developer Tools",
-        "Reinforcement Learning",
         "Open Source"
       ],
       "team_size": 2,
@@ -9012,8 +9029,8 @@
       "slug": "grip",
       "name": "Grip",
       "batch": "Summer 2026",
-      "one_liner": "Physical AI for waste management",
-      "long_description": "Grip is a physical AI company building intelligent robotic systems for waste and recycling. Its technology combines learning-based manipulation and custom hardware to identify and pick objects from messy, constantly changing waste streams. By learning from real-world operating data, including every successful and failed grasp, Grip’s systems become more reliable and adaptable over time. The goal is to help waste operators reduce difficult manual sorting, recover more valuable material, lower contamination, and deploy automation more flexibly across different facilities and waste streams. Ultimately, Grip is building the intelligent manipulation layer for waste infrastructure, making recycling and the circular economy more efficient and scalable.",
+      "one_liner": "Robotics for waste management",
+      "long_description": "Grip is a robotics company building intelligent robotic systems for waste and recycling. Its technology combines learning-based manipulation and custom hardware to identify and pick objects from messy, constantly changing waste streams. By learning from real-world operating data, including every successful and failed grasp, Grip’s systems become more reliable and adaptable over time. The goal is to help waste operators reduce difficult manual sorting, recover more valuable material, lower contamination, and deploy automation more flexibly across different facilities and waste streams. Ultimately, Grip is building the intelligent manipulation layer for waste infrastructure, making recycling and the circular economy more efficient and scalable.",
       "website": "https://www.griprobotics.ai",
       "industries": [
         "Industrials",
@@ -9033,16 +9050,16 @@
       "name": "Grocalo",
       "batch": "Summer 2026",
       "one_liner": "AI brain that runs content for creators",
-      "long_description": "",
+      "long_description": "Grocalo (S26) is an AI brain that runs content for creators. We understand their audiences, using video understanding and deep platform analytics to bottle up the taste behind each creator and personalize and distribute content to creator specific audiences.\r\n\r\nGrocalo generated 2B views and gained 4M followers for our creators in the last 2 months. Our clients include Jimmy O. Yang (Comedian, 11M followers), King Bach (72M followers), Leenda Dong (28M followers), Steven He (30M followers), Sheena Melwani (18M followers), and Jeannie Mai (TV host, 6M followers).\r\n\r\nContent should be personalized and data-driven. We’re developing the most advanced AI brain capable of replicating virality for any given audience. \r\n",
       "website": "https://grocalo.com/",
       "industries": [
         "Consumer",
         "Content"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Entertainment",
-        "Creator Economy",
-        "AI"
+        "Creator Economy"
       ],
       "team_size": 0,
       "location": "Los Angeles, CA, USA",
@@ -9574,6 +9591,26 @@
       "launched_at": 1785348094
     },
     {
+      "slug": "hilstart",
+      "name": "Hilstart",
+      "batch": "Summer 2026",
+      "one_liner": "Autonomous Hardware Testing",
+      "long_description": "We build physical agent harnesses to enable AI to debug, validate, and ship functional hardware and software.",
+      "website": "https://hilstart.io/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Developer Tools",
+        "Hardware"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1787080990
+    },
+    {
       "slug": "hlabs",
       "name": "Hlabs",
       "batch": "Winter 2026",
@@ -9882,8 +9919,8 @@
       "slug": "idler",
       "name": "idler",
       "batch": "Summer 2025",
-      "one_liner": "reinforcement learning environments",
-      "long_description": "idler builds reinforcement learning environments that teach AI models how to do expert-level work.",
+      "one_liner": "Hill-climb any benchmark, for any model, in any domain.",
+      "long_description": "Idler is a frontier data research lab. We build the evals and environments that the world's leading frontier labs use to measure and train their models.",
       "website": "https://idler.ai/",
       "industries": [
         "B2B",
@@ -9892,7 +9929,7 @@
       "tags": [
         "Reinforcement Learning"
       ],
-      "team_size": 13,
+      "team_size": 12,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1749750449
@@ -10912,8 +10949,8 @@
       "slug": "kebra",
       "name": "Kebra",
       "batch": "Summer 2026",
-      "one_liner": "Field Service Companies that run themselves",
-      "long_description": "Field technicians are bad at documenting their jobs, which paralyzes the back office. Kebra ends that.\r\n\r\nWe capture what happens in the field and collect the exact job details the back office needs. Before the truck leaves the driveway, Kebra turns every job into complete notes, filed warranty claims, parts orders, and follow-up sales opportunities.\r\n\r\nOver time, every job feeds your Company Brain, so your best technicians’ expertise never leaves the company.",
+      "one_liner": "Making the field queryable.",
+      "long_description": "Kebra captures what happens in the field and turns it into a live operating memory that AI can query and act on.\r\n\r\nWe deploy AI agents on top of that context to automate the operational and back office work that follows across the systems companies already use.\r\n\r\nEvery job makes the memory richer. We are building the context layer for the physical enterprise, giving software agents the information they need today and physical agents the company specific context they will need tomorrow.",
       "website": "https://kebra.com",
       "industries": [
         "B2B",
@@ -11057,7 +11094,7 @@
       "name": "Khotan (formerly Pollinate)",
       "batch": "Winter 2026",
       "one_liner": "FDE as a platform for rebuilding critical operations in software.",
-      "long_description": "Khotan is the platform for embedded forward-deployed engineers to rebuild critical operations as software and maintain them. It combines business context with the infrastructure agent harnesses need to deploy, share, and maintain each application.\r\n\r\nAcross procurement, supply chain, finance, and operations, we’ve rebuilt the workflows businesses cannot afford to get wrong, from procurement to back office operations.\r\n\r\nLearn more at khotan.com",
+      "long_description": "Khotan is the platform for forward-deployed engineers to rebuild operations as software and maintain them. It combines your context with the infrastructure harnesses need to deploy, share, and maintain each application.\r\n\r\nAcross procurement, supply chain, finance, and operations, we’ve rebuilt the systems businesses cannot afford to get wrong.\r\n\r\nLearn more at khotan.com",
       "website": "https://www.khotan.com/",
       "industries": [
         "B2B",
@@ -11964,11 +12001,33 @@
       "launched_at": 1781215175
     },
     {
+      "slug": "liquid-compute",
+      "name": "Liquid Compute",
+      "batch": "Winter 2025",
+      "one_liner": "Pending CFTC regulation to be the first cash and physically settled…",
+      "long_description": "",
+      "website": "https://www.liquidcompute.com",
+      "industries": [
+        "Fintech",
+        "Banking and Exchange"
+      ],
+      "tags": [
+        "FinOps",
+        "Fintech",
+        "Infrastructure",
+        "AI"
+      ],
+      "team_size": 5,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1740523068
+    },
+    {
       "slug": "litmus-hiring",
       "name": "Litmus",
       "batch": "Summer 2026",
       "one_liner": "Run an async work trial on every engineer you interview.",
-      "long_description": "Litmus is the most accurate read on how an engineer actually builds. We evaluate candidates through async technical assessments built from your own tech context (repos, tickets, and job descriptions), generated from scratch and scoped as real end-to-end features. Candidates work in their own setup with all their tools including AI, while we track and evaluate their process and output. Every submission runs in a sandbox, and grading is tuned to your company across tool fluency, process, and outcome. You get a real read on how someone actually builds, not just how they interview.",
+      "long_description": "Litmus gives back the hours your team burns on interviews, while holding every candidate to your technical bar. It builds assessments from your repos, tickets, and job descriptions, and candidates work through them in their own setup with the tools they actually use. Litmus runs and tests every submission, and grades outcome, process, and tool fluency, down to AI prompting.\r\n\r\nSend assessments async to filter unqualified applicants before an engineer wastes an hour on a call. Or run them live, where Litmus tracks everything candidates say and build, so your engineers can focus on the person instead of taking notes, and the scorecard is written before they leave the call.\r\n\r\nIt's sent 3,000+ assessments on behalf of Neo Scholars, Mercor, Composio, and more. ",
       "website": "https://litmushiring.com/",
       "industries": [
         "B2B",
@@ -12327,8 +12386,8 @@
       "slug": "lumeria",
       "name": "Lumeria",
       "batch": "Summer 2026",
-      "one_liner": "Oura Ring for Skin.",
-      "long_description": "Your skin is yours, but understanding it has never felt that way. Getting answers has meant an appointment, a price, and a long trial-and-error process. We're changing that. Lumeria puts your skin in your own hands: the power to see it, know it, and own its story yourself, at home and on your terms.",
+      "one_liner": "Oura Ring for Skin",
+      "long_description": "The Lumoscope is a multispectral camera that clips onto your phone and scans your skin at home with the same light used in clinics. You see what a mirror can't: a breakout days before it surfaces, and wrinkles changing over time. Our software then reads that history, connects flare-ups to causes you'd never suspect, and matches products to what your own data shows works. \r\n",
       "website": "https://lumeria.skin",
       "industries": [
         "Healthcare",
@@ -12850,17 +12909,17 @@
       "slug": "markit",
       "name": "MarkIt",
       "batch": "Fall 2025",
-      "one_liner": "AI Agents for Trade Compliance - Saving Companies from Tariffs",
-      "long_description": "MarkIt builds AI agents that work directly inside the workflows trade professionals use every day — Excel, PDFs, broker portals, and more. \r\nFrom defensible classification, ACE report audits, and a self-updating system of record, it serves trade professionals end to end with agents intelligent enough to work in the complex environment. \r\n\r\nMarkIt brings reasoning, memory, and automation to global trade compliance, helping Suppliers, Brokers, and OEMs reduce errors, save time, and streamline operations in the growingly intense world of Global Trade.",
+      "one_liner": "Workspaces for cross-border regulatory work",
+      "long_description": "Markit helps teams navigate complex regulatory requirements across markets, bringing research, evidence, collaboration, and decision-making into one place.\r\n\r\nThe goal: accelerate speed to market, strengthen compliance, reduce regulatory risk, and give teams a clearer path from question to decision.\r\n\r\nFrom market entry and product launches to ongoing compliance, Markit is built for the work that happens behind the scenes—and across borders.\r\n\r\nBuilt for the work behind every decision.",
       "website": "https://markittrade.com",
       "industries": [
         "B2B",
-        "Supply Chain and Logistics"
+        "Operations"
       ],
       "tags": [
         "Workflow Automation",
-        "Logistics",
-        "Supply Chain",
+        "Compliance",
+        "Consumer Products",
         "AI"
       ],
       "team_size": 2,
@@ -14214,18 +14273,18 @@
       "name": "Nebula Security",
       "batch": "Summer 2026",
       "one_liner": "Building Mythos for everyone",
-      "long_description": "Nebula Security is an AI-native cybersecurity company founded by world-class hackers.\r\n\r\nNebula Security provides Mythos-level cybersecurity reviews and product security auditing, conducted by our state-of-the-art AI agent and world-class hackers themselves, covering everything from code-level vulnerabilities to architectural weak points.\r\n\r\nWe were the first team to build an nginx RCE and the first to root Android 17. Our co-founders include members of the world’s No. 1 CTF team, DEF CON winners, Black Hat speakers, and PhD in cybersecurity. We have won $400K in bug bounties by exploiting the Linux kernel and Chrome browser.\r\n\r\n“Audited by Nebula Security” is a mark of serious security credibility: a signal to customers, investors, and partners that your product has been reviewed by the world’s best hackers.",
+      "long_description": "Nebula Security is founded by the world’s #1 hacking team.\r\n\r\nWe were the first team to build an nginx RCE and the first to root Android 17. Our co-founders include members of the world’s No. 1 CTF team, DEF CON winners, Black Hat speakers, and PhD in cybersecurity. We have won $400K in bug bounties by exploiting the Linux kernel and Chrome browser.\r\n\r\n“Audited by Nebula Security” is a mark of serious security credibility: a signal to customers, investors, and partners that your product has been reviewed by the world’s best hackers.",
       "website": "https://nebusec.ai",
       "industries": [
         "B2B",
         "Security"
       ],
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Security",
         "Cybersecurity",
-        "Enterprise",
-        "AI"
+        "Enterprise"
       ],
       "team_size": 4,
       "location": "Vancouver, WA, USA; Remote",
@@ -14441,8 +14500,8 @@
       "slug": "nixo",
       "name": "Nixo",
       "batch": "Summer 2025",
-      "one_liner": "Deployment intelligence for forward deployed engineers",
-      "long_description": "​Nixo is the platform FDE teams use to unlock SaaS-level margins from services work. Connect customer conversations, engineering todos, and project delivery in one place to turn your custom work into repeatable leverage.",
+      "one_liner": "Make every FDE on your team capable of moving any account forward.",
+      "long_description": "Scale deployed revenue with the only data layer and agent platform built for how FDEs actually work.\r\n\r\nYour deployment capacity boils down to how many accounts your team can stay on top of. We figured out how you can create more of it with the FDE motion you already have.\r\n\r\nNixo is built on what the best FDE teams already know: when every FDE has a clear view of what was promised, where every account stands, what needs attention next, and what can be reused from past work, the whole team can carry more deployments. Nixo automatically captures the full history and live health of every account from pre-sales through post-go-live, no matter who worked on it last or where the information lives. Our agents use that context to find, scope, and prioritize work across the portfolio, so anyone can move any account forward.\r\n\r\nJoin the hundreds of FDE teams scaling deployment capacity with Nixo and finally unlock SaaS-level margins from your services.",
       "website": "https://withnixo.com/",
       "industries": [
         "B2B"
@@ -15376,7 +15435,7 @@
         "Aviation and Space"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 10,
       "location": "Los Angeles, CA, USA",
       "status": "Active",
       "launched_at": 1736353830
@@ -16462,10 +16521,9 @@
         "Asset Management"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
-        "Investing",
-        "Investments",
-        "AI"
+        "Investing"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -17068,28 +17126,6 @@
       "launched_at": 1780958556
     },
     {
-      "slug": "pluto",
-      "name": "Pluto",
-      "batch": "Winter 2025",
-      "one_liner": "Regulated derivatives exchange",
-      "long_description": "First regulated exchange for compute",
-      "website": "https://www.pluto.trade",
-      "industries": [
-        "Fintech",
-        "Banking and Exchange"
-      ],
-      "tags": [
-        "Artificial Intelligence",
-        "FinOps",
-        "Fintech",
-        "Infrastructure"
-      ],
-      "team_size": 5,
-      "location": "New York City, NY, USA",
-      "status": "Active",
-      "launched_at": 1740523068
-    },
-    {
       "slug": "pocket",
       "name": "Pocket",
       "batch": "Winter 2026",
@@ -17261,8 +17297,8 @@
       "launched_at": 1740746196
     },
     {
-      "slug": "praxis-ai-2",
-      "name": "Praxis AI",
+      "slug": "praxis-robotics",
+      "name": "Praxis Robotics",
       "batch": "Summer 2026",
       "one_liner": "Turns every company into a data vendor ",
       "long_description": "Praxis captures the data physical AI is bottlenecked on: egocentric video, 3D scans, and multimodal capture from inside real industrial and residential environments. Embedded within publicly listed and unicorn-scale conglomerates, we reach 60k workers across 5 continents and 150+ environment types, supplying the real-world training data frontier labs and humanoid companies can't source anywhere else.",
@@ -17836,6 +17872,28 @@
       "launched_at": 1753907556
     },
     {
+      "slug": "radiusbrowser",
+      "name": "Radius",
+      "batch": "Fall 2025",
+      "one_liner": "Code and browse in the same place",
+      "long_description": "Radius is a browser where developers can orchestrate agents from their tabs. Ship 100x from a single place where agents can see, navigate, and act on your workspace.",
+      "website": "https://www.radiusbrowser.com",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Design",
+        "Design Tools"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1762248076
+    },
+    {
       "slug": "radley",
       "name": "Radley",
       "batch": "Summer 2026",
@@ -18201,7 +18259,7 @@
       ],
       "tags": [],
       "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1776112979
     },
@@ -19038,7 +19096,7 @@
         "Healthcare"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1769561054
@@ -20209,28 +20267,6 @@
       "launched_at": 1752778488
     },
     {
-      "slug": "solbrowser",
-      "name": "Sol",
-      "batch": "Fall 2025",
-      "one_liner": "Code and browse in the same place",
-      "long_description": "Sol is a browser where developers can orchestrate agents from their tabs. Ship 100x from a single place where agents can see, navigate, and act on your workspace.",
-      "website": "https://www.solbrowser.com",
-      "industries": [
-        "B2B",
-        "Engineering, Product and Design"
-      ],
-      "tags": [
-        "Artificial Intelligence",
-        "Developer Tools",
-        "Design",
-        "Design Tools"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1762248076
-    },
-    {
       "slug": "solidroad",
       "name": "Solidroad",
       "batch": "Winter 2025",
@@ -20410,8 +20446,8 @@
       "slug": "specific-labs",
       "name": "Specific Labs",
       "batch": "Fall 2025",
-      "one_liner": "Audio and Enterprise Human Data for AI",
-      "long_description": "Specific builds audio and enterprise datasets representative of work inside real-world businesses. The next frontier of AGI is bottlenecked by data that is hard to access, and we make that easier.",
+      "one_liner": "Enterprise Coding Data for AI",
+      "long_description": "Specific builds enterprise datasets representative of work inside real-world businesses. The next frontier of AGI is bottlenecked by data that is hard to access, and we make that easier.",
       "website": "https://withspecific.com",
       "industries": [
         "B2B"
@@ -20582,7 +20618,7 @@
       "batch": "Spring 2026",
       "one_liner": "Code review platform for humans and agents",
       "long_description": "Stage is a new code review platform designed to help engineers better understand and review AI generated code.\r\n\r\nEngineering teams are shipping faster than ever with agents, but now they’re drowning in an endless backlog of PRs to review. Stage reorganizes the code review process around how engineers naturally think, enabling you to review (and merge!) PRs 5x faster. \r\n\r\nUsed by top engineers at Legora, n8n, Branch, and more. ",
-      "website": "https://www.stagereview.app/",
+      "website": "https://www.tryluke.dev/",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
@@ -20949,6 +20985,28 @@
       "launched_at": 1759212406
     },
     {
+      "slug": "studio",
+      "name": "Studio",
+      "batch": "Summer 2026",
+      "one_liner": "Engineer the future",
+      "long_description": "Studio is a simulation lab studying how humans and societies respond to new ideas, and is building the first software models that can accurately predict that response. Instead of creating digital twins of survey respondents, Studio builds live market models of interconnected audience segments from real, traceable consumer-behavior evidence. Our predictions match live KPI outcomes like revenue and sentiment with over 95% accuracy for large consumer-facing brands.",
+      "website": "https://trystudio.ai",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Analytics",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1787114400
+    },
+    {
       "slug": "subimage",
       "name": "SubImage",
       "batch": "Winter 2025",
@@ -21018,7 +21076,8 @@
         "Hard Tech",
         "Computer Vision",
         "Real Estate",
-        "Construction"
+        "Construction",
+        "Infrastructure"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -21270,8 +21329,8 @@
       "slug": "synthetic-sciences",
       "name": "Synthetic Sciences",
       "batch": "Winter 2026",
-      "one_liner": "Foundation Models for Scientific Research",
-      "long_description": "We’re building infrastructure for scientific superintelligence. We develop high-fidelity evaluations and RL environments for long-horizon scientific research, alongside post-training systems and reinforcement-learning methods designed for domains where verification is slow, expensive, and imperfect. We’re starting with ML research, building agents that can form hypotheses, run experiments, learn from failures, and make meaningful progress over long horizons.",
+      "one_liner": "Infrastructure for Autonomous Science",
+      "long_description": "Synthetic Sciences is a research lab building infrastructure for scientific superintelligence. Empirical science is bottlenecked by verification that is slow, expensive, and imperfect. We work on tooling, evals, training environments, algorithms, and models that make autonomous science possible.",
       "website": "https://syntheticsciences.ai/",
       "industries": [
         "B2B",
@@ -21473,7 +21532,7 @@
       "name": "Tarifflo Inc.",
       "batch": "Summer 2026",
       "one_liner": "Supply chain compliance and cost savings",
-      "long_description": "",
+      "long_description": "Tarifflo is the infrastructure layer for modern customs - AI-powered filing, tariff recovery, and customs intelligence on one platform.\r\n\r\nFiling should be free. Legacy ABI software charges you per entry, per user, per module. Brokers charge for every transaction. Tarifflo's filing software costs nothing - file directly with CBP under companies own filer codes.\r\n\r\nWe make money when our clients do. 1 in 8 entries has an error that overpays duty - misclassification, tariff stacking, valuation, origin. Most importers never catch them. Our AI audits your entries, finds the overpayments, and helps file for your refund. \r\n\r\nUnder both is the same engine, live tariff intelligence covering every HTS code, Chapter 99 program, exclusion, and rate change - so the duty you pay going forward is as right as the refunds we recover looking back.",
       "website": "https://www.tarifflo.com",
       "industries": [
         "B2B",
@@ -22353,8 +22412,8 @@
       "slug": "touchy",
       "name": "Touchy",
       "batch": "Summer 2026",
-      "one_liner": "The AI assistant that doesn't fight for your attention",
-      "long_description": "Touchy is your personal AI assistant that lives on your iPhone. It sees what you see and talks to your other apps to take care of work so you can get back to living in the moment.",
+      "one_liner": "AI voice assistant that understands the world around you",
+      "long_description": "Touchy is your personal AI assistant that lives on your iPhone. One button press and you're talking to an assistant that sees what you see, remembers what you tell it, and takes action across 1,000+ apps--so you can get back to living in the moment.",
       "website": "https://touchyapp.com",
       "industries": [
         "Consumer"
@@ -22813,8 +22872,8 @@
       "slug": "tryjanet",
       "name": "Janet AI",
       "batch": "Summer 2025",
-      "one_liner": "The Autonomous Product Management System",
-      "long_description": "Janet AI is the autonomous product management system.\r\n\r\nJanet listens to your Slack channels, email, iMessage, calendar, meetings, in-person conversations, GitHub, and coding agents to autonomously track, update, understand, resolve, and display your company’s work 24/7.\r\n\r\nJanet AI is backed by Y Combinator, Formosa Capital, Paul Graham, Charles Ferguson, and others.\r\n\r\nCheck us out at janet.ai!",
+      "one_liner": "Agents that work 24/7 across the tools you already use",
+      "long_description": "Janet AI lets anyone on your team spin up 24/7 agents that reliably handle workflows across your existing tool stack around the clock. No migrations, no code, no API keys, no technical lift.\r\n\r\nFew clicks to authenticate your tools (Slack, Granola, Google Drive, Notion, X, Salesforce, Linear, etc.) → describe the workflow in plain English → done in under 5 minutes. Get started for free today at janet.ai!\r\n\r\nJanet AI is backed by Y Combinator, Formosa Capital, Paul Graham, Charles Ferguson, and others.",
       "website": "https://janet.ai",
       "industries": [
         "B2B"
