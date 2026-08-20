@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-19T14:30:59.305Z",
+  "generated_at": "2026-08-20T14:33:34.158Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1376,
+    "assignment_count": 1379,
     "mapped_verticals": 242,
-    "observed_cells": 471,
+    "observed_cells": 472,
     "total_verticals": 525,
-    "gap_candidates": 849
+    "gap_candidates": 848
   },
   "observed_cells": [
     {
@@ -835,6 +835,24 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "government.govtech.ops",
+      "vertical_label": "Government operations & GovTech",
+      "sector_id": "government-public",
+      "companies": [
+        "capveon",
+        "caucus",
+        "closure",
+        "code-four",
+        "effigov",
+        "govguard",
+        "lakonia",
+        "verdant",
+        "waypoint-transit"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.agent-observability",
       "vertical_label": "Agent observability & logging",
       "sector_id": "ai-infrastructure",
@@ -864,23 +882,6 @@
         "sourcebot",
         "superglue",
         "weave-3"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "government.govtech.ops",
-      "vertical_label": "Government operations & GovTech",
-      "sector_id": "government-public",
-      "companies": [
-        "caucus",
-        "closure",
-        "code-four",
-        "effigov",
-        "govguard",
-        "lakonia",
-        "verdant",
-        "waypoint-transit"
       ]
     },
     {
@@ -1075,6 +1076,20 @@
         "kugelaudio",
         "pinch",
         "uplift-ai"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "devtools.security-scanning",
+      "vertical_label": "Static & dynamic application security testing",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "casco",
+        "corgea",
+        "parameter",
+        "parameter-fka-hex-security",
+        "veria-labs"
       ]
     },
     {
@@ -1306,19 +1321,6 @@
         "conifer",
         "mentlio",
         "theta"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "devtools.security-scanning",
-      "vertical_label": "Static & dynamic application security testing",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "casco",
-        "corgea",
-        "parameter-fka-hex-security",
-        "veria-labs"
       ]
     },
     {
@@ -4405,6 +4407,16 @@
       "sector_id": "healthcare-life-sciences",
       "companies": [
         "remedy"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "healthcare.provider.behavioral-health",
+      "vertical_label": "Behavioral health & mental health practice operations",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "allia-health"
       ]
     },
     {
