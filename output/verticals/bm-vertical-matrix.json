@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-20T14:33:34.158Z",
+  "generated_at": "2026-08-21T14:32:05.418Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1379,
+    "assignment_count": 1381,
     "mapped_verticals": 242,
     "observed_cells": 472,
     "total_verticals": 525,
@@ -216,6 +216,7 @@
         "aviro",
         "cajal-technologies",
         "cartpole",
+        "coarena",
         "coverage-cat",
         "cuebench",
         "feyn",
@@ -2255,6 +2256,17 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "consumer.finance.investment-advisory",
+      "vertical_label": "Robo-advisory & automated investment management",
+      "sector_id": "consumer",
+      "companies": [
+        "conviction",
+        "opentrade"
+      ]
+    },
+    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "consumer.finance.personal",
@@ -3337,16 +3349,6 @@
       "sector_id": "professional-services",
       "companies": [
         "youlearn"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "consumer.finance.investment-advisory",
-      "vertical_label": "Robo-advisory & automated investment management",
-      "sector_id": "consumer",
-      "companies": [
-        "opentrade"
       ]
     },
     {

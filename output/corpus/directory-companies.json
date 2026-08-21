@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-20T14:32:37.334Z",
+  "synced_at": "2026-08-21T14:31:15.838Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -187,7 +187,7 @@
       "name": "Absurd",
       "batch": "Fall 2025",
       "one_liner": "The Creative OS for AI video",
-      "long_description": "Absurd makes AI brand and performance ads at scale. Our last video for Kalshi (\"Election Day\") did 1M+ views, and our videos average 400K+ organic views.\r\n\r\nTry it at absurd.com",
+      "long_description": "Absurd is an online whiteboard for filmmakers working with AI.\r\n\r\nWe use it for our own work: our Kalshi spot \"Election Day\" did 1M+ views, and our videos average 400K+ organic views.\r\n\r\nTry it at absurd.com",
       "website": "https://absurd.com/",
       "industries": [
         "B2B",
@@ -569,7 +569,7 @@
       "slug": "agnost-ai",
       "name": "Agnost AI",
       "batch": "Summer 2026",
-      "one_liner": "We find where your agents fail & train a better model",
+      "one_liner": "Product Analytics for Conversational Agents",
       "long_description": "Agnost AI reads every conversation a company's AI Agent has with its users to find where it's silently failing and then turns that same data into custom models that run the agent better and cheaper than frontier models.",
       "website": "https://agnost.ai",
       "industries": [
@@ -577,10 +577,10 @@
         "Analytics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Analytics",
-        "Monitoring",
-        "AI"
+        "Monitoring"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -868,16 +868,16 @@
       "name": "Allia Health",
       "batch": "Summer 2026",
       "one_liner": "Clinically Integrated Group for Mental Health ",
-      "long_description": "Allia is the first AI-native clinical group for behavioral health. We bring hundreds of independent practices across all 50 states into one national group that can deliver, measure, and improve care at scale.\r\n\r\nNearly 1,000 therapy and psychiatry practices already run on our free platform, supporting >300,000 patients and nearly 1 million monthly visits. That's our wedge. We activate high-performing practices into our medical group, which now spans ~600 providers and ~70 sites, in-person in 32 states and telehealth in all 50 — with signed contracts with the country's largest health insurance payers.\r\n\r\nBehavioral health is the largest part of healthcare no one has organized: unmeasured, buried in admin, and fragmented across tiny practices. Being one clinically integrated group, powered by a single-instance OS (EHR, CRM, and RCM in one), is what makes care measurable, accountable, and coordinated — efficiently and at scale.",
+      "long_description": "Allia is the first full-stack, AI-native clinical group for mental health. We bring independent practices into one national clinical group that can deliver, measure, and improve care at scale - 600+ providers (350+ therapists, 200+ nurses & doctors, 30+ psychologists) across 70 sites in 32 states, plus telehealth nationwide. Every clinician runs on a single intelligent system of record. And, that intelligence coupled with scale unlocks what no single practice could achieve alone. ",
       "website": "https://allia.health/",
       "industries": [
         "Healthcare",
         "Healthcare Services"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Healthcare",
-        "Mental Health",
-        "AI"
+        "Mental Health"
       ],
       "team_size": 3,
       "location": "New York City, NY, USA",
@@ -1387,6 +1387,26 @@
       "launched_at": 1761948352
     },
     {
+      "slug": "antropi-robotics",
+      "name": "Antropi Robotics",
+      "batch": "Fall 2026",
+      "one_liner": "Autonomous CNC factories for faster hardware",
+      "long_description": "",
+      "website": "https://www.antropi.world/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Robotics",
+        "Manufacturing"
+      ],
+      "team_size": 0,
+      "location": "Bengaluru, KA, India",
+      "status": "Active",
+      "launched_at": 1786284917
+    },
+    {
       "slug": "apollo-atomics-inc",
       "name": "Apollo Atomics, Inc.",
       "batch": "Spring 2026",
@@ -1547,8 +1567,8 @@
       "slug": "archal",
       "name": "Archal",
       "batch": "Summer 2026",
-      "one_liner": "The improvement loop for AI agents",
-      "long_description": "Modern AI agents can send emails, change code repos, and talk with external APIs. Archal verifies your agent takes the right actions, and opens a fix PR when it doesn't.",
+      "one_liner": "API sandboxes, built for AI agents",
+      "long_description": "Archal provisions sandboxes with the API environments your CI, tests, and evals need. Your coding agent can start the sandbox & environments, connect to your API integrations, run tests, and inspect state changes. Sandboxes and environments are startable within seconds and take milliseconds to reset.",
       "website": "https://www.archal.ai/",
       "industries": [
         "B2B",
@@ -1662,7 +1682,7 @@
       "slug": "arga-labs",
       "name": "Arga Labs",
       "batch": "Spring 2026",
-      "one_liner": "Real-world sandboxes to test agents and agent-facing software",
+      "one_liner": "Real-world sandboxes to test and train AI agents",
       "long_description": "We build environments to test your app and agents against the real world.\r\n\r\nDeploy your code/agent into a sandbox that runs against replicas of external services (Stripe, Slack, Google Drive, etc.). Twins support the same APIs, MCP tool calls & SDKs as the real software, and you can spin up thousands of instances in parallel and seed them using natural language. Run real workflows, surface edge cases, and observe how your code/agents actually behave before hitting production.",
       "website": "https://www.argalabs.com/",
       "industries": [
@@ -4469,13 +4489,13 @@
         "Productivity"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "Productivity",
         "Open Source",
-        "AI",
         "AI Assistant"
       ],
-      "team_size": 4,
+      "team_size": 3,
       "location": "Seoul, Seoul, South Korea",
       "status": "Active",
       "launched_at": 1755302445
@@ -4931,6 +4951,29 @@
       "launched_at": 1739862740
     },
     {
+      "slug": "coarena",
+      "name": "CoArena",
+      "batch": "Summer 2026",
+      "one_liner": "Real World Evals and RL Environments for Computer-Use",
+      "long_description": "CoArena is a live arena where anyone can use the world's top AI agents for free, including Fable, Sol, and models not yet released to the public, racing two of them on the same real computer task and judging which one did it better. Every battle becomes something the AI labs can't build themselves, an honest test of their agents on real work, and the data to make them better.",
+      "website": "http://coarena.ai",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "AIOps",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Reinforcement Learning",
+        "Data Labeling"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1782294083
+    },
+    {
       "slug": "coasts",
       "name": "Coasts",
       "batch": "Fall 2025",
@@ -4952,28 +4995,6 @@
       "location": "",
       "status": "Active",
       "launched_at": 1762549706
-    },
-    {
-      "slug": "coasty",
-      "name": "Coasty",
-      "batch": "Summer 2026",
-      "one_liner": "Real World Evals and RL Environments for Computer-Use",
-      "long_description": "Coasty is a computer use agent that officially reached 82.8% on OSWorld, which puts us among the most reliable agents out there. Going through the evaluation process, we realized a better crowdsourced benchmark was needed. So we created Coarena, real-world evals and RL environments for computer-use agents. We run a live arena where people post the computer-use tasks they actually need done, two frontier models race them head-to-head, and humans judge the outcome blind. Every battle produces something labs can't get from a static benchmark, an eval built on real demand instead of a memorized test set.\r\n\r\nMost benchmarks demo well and break the moment a model trains on them. They're fixed, they grade only the final screen, and they miss everything that matters, the run that spent $240 on an \"under $200\" task, the agent that subscribed to three newsletters on the way to checkout, the one that looped for 40 steps and quit. OSWorld and WebArena saturate in months. Ours are parameterized and demand-sourced, so the scores stay honest.\r\n\r\nOn top of the arena we build deterministic RL environments - flights, commerce, CRM, forms that reset bit-for-bit and grade outcome, trajectory, side-effects, and constraints, with per-step failure attribution and a dense reward you can train on. We also grade what nobody else does: whether an agent can be hijacked by instructions hidden in a page, and whether it knows when to stop and ask instead of spending someone's money.",
-      "website": "http://coasty.ai/",
-      "industries": [
-        "B2B"
-      ],
-      "tags": [
-        "AIOps",
-        "Developer Tools",
-        "Reinforcement Learning",
-        "Workflow Automation",
-        "Data Labeling"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1782294083
     },
     {
       "slug": "cocreate",
@@ -5508,6 +5529,23 @@
       "launched_at": 1752301183
     },
     {
+      "slug": "conviction",
+      "name": "Conviction",
+      "batch": "Summer 2025",
+      "one_liner": "Anyone Can Trade",
+      "long_description": "Conviction lets you create and discover trading ideas, then monitors the market and acts on them for you.\r\n\r\nStart with any idea you have - or discover one from traders you follow on X or Reddit - and turn it into a strategy in natural language. Backtest it, paper trade it, deploy it and share what you learn.",
+      "website": "https://convictiontrade.ai",
+      "industries": [
+        "Fintech",
+        "Consumer Finance"
+      ],
+      "tags": [],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1752533752
+    },
+    {
       "slug": "copperlane",
       "name": "Copperlane",
       "batch": "Winter 2026",
@@ -5941,15 +5979,15 @@
       "slug": "daqstra",
       "name": "Daqstra",
       "batch": "Summer 2026",
-      "one_liner": "AI-native orchestration for physical R&D testing",
+      "one_liner": "AI-native test infrastructure for hardware companies",
       "long_description": "Daqstra is the AI-native orchestration layer for physical R&D. It saves engineers in Aerospace, Energy and Robotics hundreds of man hours managing test infrastructure by connecting fragmented test hardware, bringing live and historical test data into one place, and by giving engineers an API to orchestrate their entire test setup. We enable teams to spend less time rebuilding test infrastructure and more time improving the hardware they test.",
       "website": "https://www.daqstra.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Hard Tech",
-        "AI"
+        "Artificial Intelligence",
+        "Hard Tech"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -6022,15 +6060,15 @@
       "slug": "datoric",
       "name": "Datoric",
       "batch": "Summer 2026",
-      "one_liner": "Security-first training data",
-      "long_description": "Datoric provides custom training data for voice models, robotics, and world models. We manage the full process from contributor recruitment and task design to secure collection, quality control, rights management, and delivery.\r\n\r\nOur collection infrastructure is private by design. Voice, robotics, and world-model projects run through separate applications and sites, so contributor pools, task requirements, incentives, and data flows do not mix across modalities. Within each system, customer projects are isolated in private workspaces. Only approved contributors can access assigned tasks, with no public task listings, upload links, or contributor APIs.\r\n\r\nWe also build quality into the collection process instead of relying only on review after the data arrives. Contributors are qualified and matched before they participate, collection requirements are enforced inside each workflow, and early submissions are tested before a project scales. Every sample is then linked to its contributor, consent, usage rights, collection history, and review record.\r\n\r\nDatoric’s mission is to make human-generated training data more secure, reliable, and responsibly sourced from the moment it is created.",
+      "one_liner": "Security-first training data your next model needs",
+      "long_description": "Datoric develops custom datasets for voice models, robotics, and world models, treating research, collection, verification, and production as one continuous process. We work closely with frontier model teams to turn emerging limitations into testable data hypotheses, while running our own experiments ahead of customer demand. This allows us to operationalize validated methods into repeatable collection systems at scale.\r\n\r\nData is collected through private invite-only applications separated by modality, customer, and trust level. Every submission remains linked to the contributor, device, task, session, consent, rights, and processing history that produced it, giving our internal QA and fraud models the context to detect problems that may appear legitimate in the finished file. Each collection reveals new failure cases and quality signals that improve the systems behind the next dataset.\r\n\r\nOnce a collection method is validated, it becomes a reusable data recipe for future custom projects or independently collected, rights-cleared data products. This allows Datoric to turn what is emerging at the frontier into datasets available ahead of broader market demand.\r\n",
       "website": "https://www.datoric.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Data Labeling",
+        "AI",
         "ML"
       ],
       "team_size": 2,
@@ -6320,13 +6358,16 @@
       "name": "Denta",
       "batch": "Summer 2026",
       "one_liner": "Dental Insurance",
-      "long_description": "Denta is the full stack carrier saving employers money and time on dental insurance. In two minutes, you can sign up directly, without dealing with the middlemen who add 25% to the cost.\r\n\r\nI started Denta after building software for my dad's 10 dental practices. In scaling the software business to 16k MRR in 10 weeks, I realized I was working on a small problem in dentistry. Existing software sucks, no doubt, but what dentists complain about even more: insurance.\r\n\r\nDental insurance carriers collect $100B per year in premiums. 25% of that is wasted on administrators, brokers, and c-suite salaries. As the son of a dentist, I will not let these companies burn $25B a year. That money should go to employers via reduced costs, dentists via reimbursements, and patients via more coverage.",
+      "long_description": "Denta is dental insurance. As a full stack carrier, Denta makes insurance 25% cheaper by selling plans directly to employers and processing claims instantly with AI.\r\n\r\nDentistry is my dad's life's work. Over the past 20 years, he went from being a normal dentist to fully owning ten practices. During that time, he put me to work, first answering phones, then building software.\r\n\r\nWhile at Dartmouth, I sold the software to over 210 practices, but the problem felt small. The best software in the world couldn't protect the dentists I sold to or the patients whose calls I answered from the mounting pressure of insurance companies. Everyone knows how bad health insurance is, dental insurance is sadly the same.\r\n\r\nIn the US, dental insurers collect $100B per year in premiums, 25% of which goes to brokers, administrators, and outdated IT systems. Despite the $25B in spend, it still takes insurers three weeks to pay claims with paper checks that Denta can pay electronically in seconds.\r\n\r\nDenta will insure every American, sparing patients and dentists the $25B burden of dealing with legacy carriers.",
       "website": "https://denta.insure",
       "industries": [
         "Fintech",
         "Insurance"
       ],
       "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Healthcare",
         "Health Insurance"
       ],
       "team_size": 1,
@@ -7609,21 +7650,21 @@
       "slug": "familiar",
       "name": "Familiar",
       "batch": "Summer 2026",
-      "one_liner": "World Models for Accurate Humans.",
-      "long_description": "Familiar is breaking down every language barrier.\r\n\r\nSales and Demos, Education, Telehealth, Advertising, Live Shopping, Entertainment.\r\n\r\nFounders An Zhu Liu, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation.\r\n\r\nThey're building world models for accurate humans: understanding, editing, and predicting.\r\n\r\nThey started with video language translation, and they've already built one of the most accurate translators available today, the only one that works in real time. It outperforms industry leaders (ElevenLabs, YouTube, HeyGen, Meta), as shown in Familiar's published benchmarks: https://thefamiliarlab.com/benchmark\r\n\r\n🦋 Content, now in every language. Exactly the same as the original.",
+      "one_liner": "World Models for Accurate Humans. Real-Time Dubbing First.",
+      "long_description": "Familiar is breaking down every language barrier. Live Shopping, Entertainment, Platforms, Education, Broadcasts.\r\n\r\nFounders An Zhu Liu, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation.\r\n\r\nThey're building world models for accurate humans: understanding, editing, and predicting. Dubbing is the first application, not the destination.\r\n\r\nThey started with video language translation, and they've already built one of the most accurate translators available today, the only one that works in real time. Everyone else scaffolds separate models and pre-processing; a world model just understands -- what the speaker means, from voice, person, and scene together. That's why the dub keeps the speaker's own voice, face, and delivery.\r\n\r\nVs ElevenLabs: they lose the laughter, the music, the ambiance -- 270% more background-sound error; ours sounds 27.8% more like you and makes 54.7% fewer translation errors. Vs human translators: 100.3% of their quality -- scalable, real time. Published benchmarks: https://thefamiliarlab.com/benchmark\r\n\r\nThe $14B spent on dubbing every year flips to AI once it's good enough. Live multiplies it.\r\n\r\n🦋 Content in every language. Exactly the same as the original.",
       "website": "https://thefamiliarlab.com",
       "industries": [
-        "B2B"
+        "B2B",
+        "Infrastructure"
       ],
       "tags": [
-        "Education",
+        "Artificial Intelligence",
+        "Generative AI",
         "B2B",
-        "Entertainment",
-        "Marketing",
-        "AI"
+        "Entertainment"
       ],
       "team_size": 7,
-      "location": "San Francisco, CA, USA",
+      "location": "Toronto, ON, Canada",
       "status": "Active",
       "launched_at": 1786578571
     },
@@ -9708,7 +9749,7 @@
       "slug": "hubble-ai",
       "name": "Hubble",
       "batch": "Summer 2026",
-      "one_liner": "The intelligence layer for patient information",
+      "one_liner": "Retrieve records other APIs can't",
       "long_description": "Hubble retrieves complete medical records on behalf of patients using patient-mediated access. Under a patient's HIPAA right of access, they authorize us once and we pull their full history from every provider they've seen (hospitals, clinics, labs, imaging centers), no per-provider integration or IT project required.\r\n\r\nGetting records today still runs on faxes, patient portals, and release-of-information queues, so teams that need medical data wait weeks and get back a pile of unstructured PDFs. Hubble handles the retrieval end to end and returns clean, structured records, turning what used to take weeks into days.\r\n\r\nWe work with teams that live or die on getting patient records fast: legal (personal injury, mass tort, disability), life sciences and research, and anyone building products that need a patient's real medical history to work. Instead of standing up records infrastructure themselves, they use Hubble as the retrieval layer.\r\n\r\nWe're the team behind the AI agents at Grow Therapy and Amazon's One Medical used by millions of patients (Prabha was Grow's first PM building their AI agents, Aaron built the AI infra serving 1M+ clients).",
       "website": "https://hubble.ai/",
       "industries": [
@@ -10299,17 +10340,17 @@
       "name": "Insurf",
       "batch": "Summer 2026",
       "one_liner": "The AI-Native Decision Infrastructure for Health Insurance",
-      "long_description": "Insurf is the AI-native data and decision layer for health insurance. Our first product, Inveto, automatically turns denied healthcare claims into source-cited, physician-attested appeals, recovering revenue practices lose today. Every claim it resolves builds the coverage-decision graph, the proprietary dataset of real payer behavior that powers our next product, Surely, which prices the true cost of a health plan for employers and brokers.",
+      "long_description": "Insurf is the AI-native data and decision layer for health insurance. Our first product, Inveto, automatically turns denied healthcare claims into source-cited, physician-attested appeals, recovering revenue practices lose today. Every claim it resolves builds the coverage-decision graph, the proprietary dataset of real payer behavior that powers our next product, Surely, that predicts what health plans actually cost, saving individuals, families, and companies thousands per employee.",
       "website": "https://www.insurf.io",
       "industries": [
         "Healthcare"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Health Tech",
         "Healthcare",
         "Insurance",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -11312,7 +11353,7 @@
       "name": "Korso",
       "batch": "Spring 2026",
       "one_liner": "The AI-native agency",
-      "long_description": "The AI-native consulting agency to help you ship at startup speeds.",
+      "long_description": "The AI-native engineering team to help you ship at startup speeds.",
       "website": "https://korsoai.com/",
       "industries": [
         "B2B"
@@ -11463,7 +11504,7 @@
       "slug": "lamb-labs",
       "name": "Lamb Labs",
       "batch": "Summer 2026",
-      "one_liner": "World's fastest AI models",
+      "one_liner": "Lightning fast chips with hardcoded AI models",
       "long_description": "Lamb Labs is building custom chips for AI inference and the world's fastest LLM model at the lowest power. We've developed a new post-training technique that converts existing models to a diffusion-based architecture that delivers 2× faster inference on existing GPUs. We then build the hardware, custom silicon chips targeting up to 20,000+ tok/s and a 63× higher intelligence per watt.",
       "website": "http://lamb-labs.com",
       "industries": [
@@ -11824,15 +11865,14 @@
       "slug": "levocred-ai",
       "name": "Levocred AI",
       "batch": "Summer 2026",
-      "one_liner": "The AI analysts for lenders",
+      "one_liner": "The AI analyst for lenders",
       "long_description": "Levocred builds and deploys AI agents inside credit funds, fintechs and banks to automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Live across multiple lending teams, running ~$1Bn in receivables through the platform.",
       "website": "https://levocred.com/",
       "industries": [
         "Fintech"
       ],
       "tags": [
-        "Lending",
-        "Investments"
+        "Enterprise Software"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -13360,7 +13400,7 @@
       "name": "Meteoric",
       "batch": "Summer 2026",
       "one_liner": "Drones that clear clouds over solar farms and weaken hurricanes",
-      "long_description": "Meteoric is building drones that clear clouds over solar farms to increase output and ultimately reduce the intensity of severe storms and hurricanes.",
+      "long_description": "Meteoric is building drones that clear clouds and weaken storms over critical infrastructure like solar farms, airports, defence assets, and ultimately weaken hurricanes.",
       "website": "https://meteoric.earth/",
       "industries": [
         "Industrials",
@@ -14317,14 +14357,14 @@
         "Security"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Security",
         "Cybersecurity",
-        "Enterprise"
+        "Enterprise",
+        "AI"
       ],
       "team_size": 4,
-      "location": "Vancouver, WA, USA; Remote",
+      "location": "San Francisco, CA, USA; Remote",
       "status": "Active",
       "launched_at": 1783007241
     },
@@ -14386,8 +14426,8 @@
       "slug": "neuromorphic",
       "name": "Neuromorphic",
       "batch": "Summer 2026",
-      "one_liner": "Building embodiment agnostic robot brains.",
-      "long_description": "Neuromorphic is building an embodiment-agnostic “brain” that makes robots fast to deploy and easy to manage through natural interfaces like Slack, email, and phone. Our goal is to make deploying robots in wet labs and other physical industries as easy as onboarding a new employee.",
+      "one_liner": "Building robots to automate wetlabs",
+      "long_description": "We are building robots that can work autonomously in existing wet labs. Unlike traditional lab automation, which requires dedicated equipment and fixed workflows, our robot moves between workstations, manipulates existing scientific equipment, transports lab materials, and executes experiments using the same lab infrastructure as a human technician. We make the robots easy to manage through natural interfaces like Slack, email, and phone. Our goal is to make deploying robots in wet labs as easy as onboarding a new employee.",
       "website": "https://www.neuromorphic.vision/",
       "industries": [
         "Industrials",
@@ -15093,19 +15133,19 @@
       "slug": "onecli",
       "name": "OneCLI",
       "batch": "Summer 2026",
-      "one_liner": "The Identity Gateway for AI Agents",
-      "long_description": "OneCLI is a credential isolation gateway for AI agents. Agents see placeholder tokens instead of real API keys and OAuth credentials, the real secrets are injected at the network layer, so a compromised or misbehaving agent can never leak them. \r\n\r\nTeams get per-agent access control, full audit logs, and one-click integrations with Gmail, GitHub, Jira, Slack, and 50+ other apps. OneCLI is open source (2.5K+ GitHub stars, 300K+ downloads), Already the default credential layer for products like NanoClaw.",
+      "one_liner": "Give every employee a secured, sandboxed pro assistant agent",
+      "long_description": "OneCLI is an open source agent harness for teams. Each employee gets their own sandboxed pro assistant agent, connected to their GitHub, Gmail, Notion, Dropbox, or CRM right from the chat/Slack, while the whole workspace runs under one policy your admins control.\r\n\r\nAgents never hold real secrets: the credential is injected at the network layer, per request, after the call is authorized. You can't steal what isn't there.",
       "website": "https://onecli.sh",
       "industries": [
         "B2B",
         "Security"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Security",
         "Open Source",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 0,
       "location": "San Francisco, CA, USA",
@@ -15574,18 +15614,18 @@
       "slug": "os3",
       "name": "OS3",
       "batch": "Summer 2026",
-      "one_liner": "Intelligence and Machines for Physical Labor",
-      "long_description": "Semi-humanoid robots that do real physical labor. Building hardware and training models, each driving the other. Already deploying in hospitality.",
+      "one_liner": "Full Stack Robotics: US-Built Commercial Robots & Video Action Models",
+      "long_description": "We are building robots, including custom actuators and intelligence. Our first model is trained on 150k hours of video data.\r\n\r\nOur first commercial robot, a mobile semi-humanoid priced at $9,995, is already signed for deployments in hospitality and biotech. Our developer version helps startups deploy robots in their own industries, and we already have preorders.\r\n\r\nWe are scaling American robotics while making it accessible to more businesses.",
       "website": "https://os3robotics.com/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Robotics",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -15848,20 +15888,20 @@
       "slug": "pacific",
       "name": "Pacific",
       "batch": "Summer 2026",
-      "one_liner": "Mass-producing and deploying micro data centers for Earth and Space",
+      "one_liner": "Mass-producing and financing micro data center incredibly quickly.",
       "long_description": "We mass-produce modular data centers that deploy on stalled infrastructure projects losing billions per week.\r\n\r\nDelayed infrastructure projects hemorrhage $1B a week in the US alone - Pacific mass-produces modular data centers that deploy on those sites in days and turn their unused power into revenue.\r\n\r\nData centers are stuck for years waiting for power, while delayed construction sites across the world sit on unused interconnects, losing billions of dollars per week in interest on trillions of dollars of debt. Our pods deploy on those sites and generate revenue for them in days. They use diamond wafers in the cooling system so pods run anywhere on earth, even a desert. \r\n\r\nWe'll use the same mechanisms we're building today to deploy compute across the galaxy.\r\n",
       "website": "https://gopacific.ai/",
       "industries": [
         "Industrials"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
         "Robotics",
         "Space Exploration",
-        "Manufacturing"
+        "Manufacturing",
+        "AI"
       ],
-      "team_size": 2,
+      "team_size": 3,
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1786300632
@@ -16143,23 +16183,6 @@
       "launched_at": 1747787326
     },
     {
-      "slug": "parachute",
-      "name": "Parachute",
-      "batch": "Summer 2025",
-      "one_liner": "",
-      "long_description": "",
-      "website": "https://parachute-ai.com",
-      "industries": [
-        "Healthcare",
-        "Healthcare IT"
-      ],
-      "tags": [],
-      "team_size": 2,
-      "location": "New York City, NY, USA",
-      "status": "Active",
-      "launched_at": 1752533752
-    },
-    {
       "slug": "parameter",
       "name": "Parameter",
       "batch": "Winter 2026",
@@ -16375,8 +16398,8 @@
         "Legal",
         "LegalTech"
       ],
-      "team_size": 4,
-      "location": "Bucharest, Romania",
+      "team_size": 6,
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1758491604
     },
@@ -17452,7 +17475,7 @@
       "batch": "Spring 2025",
       "one_liner": "We help you get compliant while you focus on your business.",
       "long_description": "Probo acts like your compliance team. You tell us how you work, and Probo does the rest:\r\n1. Set the right requirements - not overkill\r\n2. Handle docs, risks, controls, evidence\r\n3. Run the audit\r\n4. Keep everything up to date afterward\r\nFounders shouldn’t lose weeks to this stuff. Even one day is too much.\r\n",
-      "website": "https://www.probo.com/",
+      "website": "https://www.probo.com?utm_source=yc-bookface",
       "industries": [
         "B2B",
         "Security"
@@ -17772,16 +17795,16 @@
       "name": "Qlo",
       "batch": "Summer 2026",
       "one_liner": "AI agents that run commercial underwriting",
-      "long_description": "Qlo uses AI agents to run commercial underwriting operations from submission to renewal. Specialized agents handle each operational step, while supervisor agents coordinate the work and communicate with the underwriter.",
+      "long_description": "Qlo uses AI agents to run commercial underwriting operations from submission to renewal. Specialized agents handle each operational step, while supervisor agents coordinate the work and communicate with the underwriter.\r\n\r\nEvery commercial insurance program will be built and operated end to end by AI agents on Qlo.",
       "website": "https://www.getqlo.com/",
       "industries": [
         "Fintech",
         "Insurance"
       ],
       "tags": [
-        "SaaS",
+        "Artificial Intelligence",
         "Insurance",
-        "Enterprise"
+        "Enterprise Software"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -18208,17 +18231,17 @@
       "slug": "redapto",
       "name": "Redapto",
       "batch": "Fall 2025",
-      "one_liner": "Enterprise AI Transformation Platform",
-      "long_description": "",
+      "one_liner": "Intelligence that moves the world",
+      "long_description": "Redapto builds the intelligence that runs the real world, closing the gap between understanding and execution. By combining real-time context, specialized AI agents, and adaptive orchestration, Redapto takes ownership of complex, mission-critical operations from end to end. Acting as an always-on operational brain, it coordinates across people and systems, improves every decision, and grows more capable with every task.",
       "website": "https://www.redapto.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "B2B"
+        "B2B",
+        "AI"
       ],
-      "team_size": 2,
+      "team_size": 7,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1759943597
@@ -19572,11 +19595,11 @@
         "Productivity"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Enterprise",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -20177,12 +20200,12 @@
         "Aviation and Space"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Airlines",
-        "Aerospace",
-        "AI"
+        "Aerospace"
       ],
       "team_size": null,
-      "location": "Warsaw, Masovian Voivodeship, Poland",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783640155
     },
@@ -21283,18 +21306,18 @@
       "slug": "synapse-semiconductor",
       "name": "Synapse Semiconductor",
       "batch": "Summer 2026",
-      "one_liner": "frontier semiconductor research lab reimagining physical AI",
+      "one_liner": "New semiconductors that merge compute and vision",
       "long_description": "We want to push machines to where humans cant go. \r\nPresidential early career award winning Duke Semiconductor ECE Faculty Tania Roy and her past student / VC Associate Sanjeev Chauhan are building a frontier semiconductor research lab. Their focus is on solving physical AI challenges from the semiconductor device level and building products around the moat of impossible to copy innovation. Their first work is on a new vision sensor that can run neural network filters right in the camera pixels and only collect data that machines care about. As physical AI develops, machines needs to understand the world around them if they aim to interact with them.\r\n",
       "website": "https://synapsesemi.org",
       "industries": [
         "Industrials"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Edge Computing Semiconductors",
         "Hard Tech",
         "Robotics",
-        "Defense",
-        "AI"
+        "Defense"
       ],
       "team_size": 2,
       "location": "Durham, NC, USA",
@@ -21459,22 +21482,6 @@
       "location": "Toronto, ON, Canada",
       "status": "Active",
       "launched_at": 1772563423
-    },
-    {
-      "slug": "tallyhq",
-      "name": "Tally",
-      "batch": "Winter 2025",
-      "one_liner": "",
-      "long_description": "",
-      "website": "https://www.tallyhq.com",
-      "industries": [
-        "Fintech"
-      ],
-      "tags": [],
-      "team_size": 1,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1739308183
     },
     {
       "slug": "tamlabs",
@@ -22359,7 +22366,7 @@
         "AI",
         "Industrial"
       ],
-      "team_size": 5,
+      "team_size": 6,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783552199
@@ -22791,20 +22798,20 @@
       "slug": "trustai",
       "name": "TrustAI",
       "batch": "Summer 2026",
-      "one_liner": "Continuous compliance and governance for agents on sensitive systems",
-      "long_description": "TrustAI provides governance for agents that interact with critical systems. We run evals across six domains: Data Privacy, Hallucinations, Permission Compliance, Robustness at Scale, Accountability, and Security. Through comprehensive pentests, we identify key vulnerabilities, suggest solutions, and analyze cost vs time efficiency. ",
+      "one_liner": "The cheapest, fastest lightweight inference. ",
+      "long_description": "Inference has surpassed training as AI’s largest compute cost, accelerated by increasing demand for AI and agents. By using proprietary KV cache transfer tech, TrustAI has cut inference costs by 20% and time by 40% compared to present standards.",
       "website": "https://trytrust.ai",
       "industries": [
         "B2B",
-        "Security"
+        "Infrastructure"
       ],
       "tags": [
-        "B2B",
-        "Compliance",
-        "Security",
-        "AI"
+        "Artificial Intelligence",
+        "Smart Packaging",
+        "Open Source",
+        "Infrastructure"
       ],
-      "team_size": 3,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783378352
@@ -23756,7 +23763,7 @@
       "name": "Vestris",
       "batch": "Summer 2026",
       "one_liner": "AI native platform for real estate closings",
-      "long_description": "",
+      "long_description": "Vestris automates title processing end-to-end, from contract to close, so title shops can close more deals with fewer processors. Title insurance has famously high margins, but slow, manual processing is a constant pain — especially in today's bleeding housing market.",
       "website": "https://vestris.ai/",
       "industries": [
         "Real Estate and Construction",
