@@ -1,106 +1,42 @@
 {
-  "checked_at": "2026-08-21T14:32:04.597Z",
+  "checked_at": "2026-08-22T14:18:51.712Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 11,
-  "new_count": 11,
-  "skipped_count": 919,
+  "checked_count": 4,
+  "new_count": 4,
+  "skipped_count": 926,
   "ingest": {
-    "addedCompanies": 0,
-    "enrichedCompanies": 11
+    "addedCompanies": 1,
+    "enrichedCompanies": 3
   },
   "summary": {
-    "conforming": 4,
-    "partial": 6,
-    "non_conforming": 1,
-    "would_have_predicted": 10,
+    "conforming": 1,
+    "partial": 3,
+    "non_conforming": 0,
+    "would_have_predicted": 3,
     "surprise": 1,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 111487,
-        "company_slug": "trustai",
-        "company_name": "TrustAI",
-        "launch_url": "https://www.ycombinator.com/launches/T0B-trustai-the-fastest-cheapest-inference-powered-by-kv-cache-transfer",
-        "created_at": "2026-08-21T02:30:02.532Z"
+        "launch_id": 111583,
+        "company_slug": "meteoric",
+        "company_name": "Meteoric",
+        "launch_url": "https://www.ycombinator.com/launches/T1j-meteoric-drones-that-clear-clouds-over-solar-farms-and-ultimately-weaken-hurricanes",
+        "created_at": "2026-08-21T20:00:00.552Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.090Z",
-        "launch_id": 111487,
-        "company_slug": "trustai",
+        "evaluated_at": "2026-08-22T14:18:40.408Z",
+        "launch_id": 111583,
+        "company_slug": "meteoric",
         "taxonomy": {
-          "conformance_index": 69,
+          "conformance_index": 54,
           "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 55,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 46,
+              "score": 0,
               "band": "weak"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "ai-infrastructure.agent-security",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::ai-infrastructure.agent-security::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Agent security & authorization",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 61,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 111427,
-        "company_slug": "veltha",
-        "company_name": "Veltha",
-        "launch_url": "https://www.ycombinator.com/launches/SzD-veltha-ai-claims-adjuster-for-regulated-insurance",
-        "created_at": "2026-08-21T01:30:00.652Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.091Z",
-        "launch_id": 111427,
-        "company_slug": "veltha",
-        "taxonomy": {
-          "conformance_index": 65,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
             },
             "vertical_workflow_fit": {
               "score": 75,
@@ -115,25 +51,31 @@
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 29,
-              "band": "weak"
+              "score": 56,
+              "band": "acceptable"
             }
           },
           "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "insurance.claims-property",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::insurance.claims-property::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Property & casualty claims processing",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+            "business_model": "BM-08",
+            "vertical_id": "power.asset-maintenance",
+            "phenotype_primary_id": "robotics-embodied-ai",
+            "cell_key": "BM-08::power.asset-maintenance::robotics-embodied-ai",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Power plant & transmission asset maintenance scheduling",
+            "phenotype_label": "Robotics / embodied / teleoperation"
           }
         },
         "predictor": {
           "predictability_band": "plausible",
-          "signals": [],
+          "signals": [
+            "cell_observed_with_peers"
+          ],
           "cell_was_whitespace": false,
-          "ranked_gap": null,
+          "ranked_gap": {
+            "rank": 373,
+            "opportunity_score": 12,
+            "transfer_score": 83
+          },
           "synthetic_match": null,
           "analog_gap_matches": [],
           "retro_transfer_score": 66,
@@ -147,83 +89,19 @@
     },
     {
       "launch": {
-        "launch_id": 111421,
-        "company_slug": "skymerse",
-        "company_name": "Skymerse",
-        "launch_url": "https://www.ycombinator.com/launches/Sz7-skymerse-autopilot-for-flight-operations",
-        "created_at": "2026-08-20T23:00:00.215Z"
+        "launch_id": 111412,
+        "company_slug": "studio",
+        "company_name": "Studio",
+        "launch_url": "https://www.ycombinator.com/launches/Syy-studio-the-simulation-engine-for-market-behavior",
+        "created_at": "2026-08-21T18:00:00.302Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.093Z",
-        "launch_id": 111421,
-        "company_slug": "skymerse",
+        "evaluated_at": "2026-08-22T14:18:40.410Z",
+        "launch_id": 111412,
+        "company_slug": "studio",
         "taxonomy": {
-          "conformance_index": 76,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 55,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 83,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "industrials.aviation.atc",
-            "phenotype_primary_id": "vertical-workflow-automation-ai",
-            "cell_key": "BM-01::industrials.aviation.atc::vertical-workflow-automation-ai",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Air traffic control & aviation systems",
-            "phenotype_label": "Vertical Workflow Automation Agent"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 67,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 111407,
-        "company_slug": "touchy",
-        "company_name": "Touchy",
-        "launch_url": "https://www.ycombinator.com/launches/Syt-touchy-voice-first-ai-assistant-for-iphone-that-understands-the-world-around-you",
-        "created_at": "2026-08-20T21:00:00.530Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.094Z",
-        "launch_id": 111407,
-        "company_slug": "touchy",
-        "taxonomy": {
-          "conformance_index": 52,
+          "conformance_index": 54,
           "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
@@ -231,138 +109,8 @@
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 3,
+              "score": 5,
               "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 89,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 56,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-10",
-            "vertical_id": "consumer.productivity.personal",
-            "phenotype_primary_id": "consumer-ai-app",
-            "cell_key": "BM-10::consumer.productivity.personal::consumer-ai-app",
-            "business_model_label": "Consumer app / prosumer",
-            "vertical_label": "Personal productivity software",
-            "phenotype_label": "Consumer / prosumer AI application"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 111388,
-        "company_slug": "bernard",
-        "company_name": "Bernard",
-        "launch_url": "https://www.ycombinator.com/launches/Sya-bernard-ai-front-and-back-office-for-appliance-repair-companies",
-        "created_at": "2026-08-20T20:30:00.201Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.096Z",
-        "launch_id": 111388,
-        "company_slug": "bernard",
-        "taxonomy": {
-          "conformance_index": 76,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 90,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "enterprise.ops.process-automation",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::enterprise.ops.process-automation::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Cross-industry process automation",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 111327,
-        "company_slug": "grocalo",
-        "company_name": "Grocalo",
-        "launch_url": "https://www.ycombinator.com/launches/Sxb-grocalo-ai-brain-that-runs-content-for-creators",
-        "created_at": "2026-08-20T19:30:00.407Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.097Z",
-        "launch_id": 111327,
-        "company_slug": "grocalo",
-        "taxonomy": {
-          "conformance_index": 70,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
             },
             "business_model_fit": {
               "score": 70,
@@ -373,89 +121,23 @@
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 44,
-              "band": "weak"
+              "score": 64,
+              "band": "acceptable"
             }
           },
           "cell": {
             "business_model": "BM-01",
-            "vertical_id": "media.content.creator",
+            "vertical_id": "enterprise.marketing.analytics",
             "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::media.content.creator::vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.marketing.analytics::vertical-workflow-agent",
             "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Creator economy & AI content monetization",
+            "vertical_label": "Marketing analytics & market research",
             "phenotype_label": "Vertical AI workflow agent (AI department for X)"
           }
         },
         "predictor": {
           "predictability_band": "plausible",
           "signals": [],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 111315,
-        "company_slug": "noril1",
-        "company_name": "Nori",
-        "launch_url": "https://www.ycombinator.com/launches/SxP-nori-the-1688-humanoid-robot",
-        "created_at": "2026-08-20T18:30:00.323Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.098Z",
-        "launch_id": 111315,
-        "company_slug": "noril1",
-        "taxonomy": {
-          "conformance_index": 56,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 6,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 88,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 73,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-08",
-            "vertical_id": "industrials.robotics.general",
-            "phenotype_primary_id": "robotics-embodied-ai",
-            "cell_key": "BM-08::industrials.robotics.general::robotics-embodied-ai",
-            "business_model_label": "Hardware + software",
-            "vertical_label": "General-purpose robotics intelligence",
-            "phenotype_label": "Robotics / embodied / teleoperation"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
           "cell_was_whitespace": false,
           "ranked_gap": null,
           "synthetic_match": null,
@@ -471,212 +153,17 @@
     },
     {
       "launch": {
-        "launch_id": 111187,
-        "company_slug": "glen",
-        "company_name": "Glen",
-        "launch_url": "https://www.ycombinator.com/launches/SvL-glen-a-shared-learning-layer-for-all-the-agents-in-your-organization",
-        "created_at": "2026-08-20T17:30:00.860Z"
+        "launch_id": 111616,
+        "company_slug": "last-accounting-company",
+        "company_name": "Last Accounting Company",
+        "launch_url": "https://www.ycombinator.com/launches/T2G-the-last-accounting-company-you-ll-ever-need",
+        "created_at": "2026-08-21T17:08:00.094Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.100Z",
-        "launch_id": 111187,
-        "company_slug": "glen",
-        "taxonomy": {
-          "conformance_index": 54,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 3,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 55,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 93,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 71,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.agent-context-web",
-            "phenotype_primary_id": "agent-context-infra",
-            "cell_key": "BM-03::ai-infrastructure.agent-context-web::agent-context-infra",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Agent web context & data enrichment",
-            "phenotype_label": "Agent Context Infrastructure"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 111491,
-        "company_slug": "artie",
-        "company_name": "Artie",
-        "launch_url": "https://www.ycombinator.com/launches/T0F-artie-free-plan-real-time-data-replication-for-0-mo",
-        "created_at": "2026-08-20T16:50:12.222Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.101Z",
-        "launch_id": 111491,
-        "company_slug": "artie",
-        "taxonomy": {
-          "conformance_index": 47,
-          "verdict": "non_conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 3,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 29,
-              "band": "weak"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.agent-context-web",
-            "phenotype_primary_id": "agent-context-infra",
-            "cell_key": "BM-03::ai-infrastructure.agent-context-web::agent-context-infra",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Agent web context & data enrichment",
-            "phenotype_label": "Agent Context Infrastructure"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "cell_observed_with_peers",
-            "low_taxonomy_conformance"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 111310,
-        "company_slug": "agnost-ai",
-        "company_name": "Agnost AI",
-        "launch_url": "https://www.ycombinator.com/launches/SxK-agnost-ai-turn-your-agent-traces-into-a-faster-cheaper-more-accurate-custom-model",
-        "created_at": "2026-08-20T16:00:00.252Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.103Z",
-        "launch_id": 111310,
-        "company_slug": "agnost-ai",
-        "taxonomy": {
-          "conformance_index": 73,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 56,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "ai-infrastructure.agent-observability",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::ai-infrastructure.agent-observability::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Agent observability & logging",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 111422,
-        "company_slug": "qlo",
-        "company_name": "Qlo",
-        "launch_url": "https://www.ycombinator.com/launches/Sz8-qlo-ai-agents-that-run-commercial-underwriting",
-        "created_at": "2026-08-20T15:00:00.451Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-21T14:32:03.109Z",
-        "launch_id": 111422,
-        "company_slug": "qlo",
+        "evaluated_at": "2026-08-22T14:18:40.411Z",
+        "launch_id": 111616,
+        "company_slug": "last-accounting-company",
         "taxonomy": {
           "conformance_index": 80,
           "verdict": "conforming",
@@ -704,19 +191,17 @@
           },
           "cell": {
             "business_model": "BM-01",
-            "vertical_id": "fintech.insurance.underwriting",
+            "vertical_id": "enterprise.finance.accounting",
             "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::fintech.insurance.underwriting::vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.finance.accounting::vertical-workflow-agent",
             "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Insurance underwriting automation",
+            "vertical_label": "Finance & accounting automation",
             "phenotype_label": "Vertical AI workflow agent (AI department for X)"
           }
         },
         "predictor": {
           "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
+          "signals": [],
           "cell_was_whitespace": false,
           "ranked_gap": null,
           "synthetic_match": null,
@@ -726,6 +211,73 @@
           "would_have_been_predicted": true
         },
         "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 111504,
+        "company_slug": "praxos",
+        "company_name": "Praxos",
+        "launch_url": "https://www.ycombinator.com/launches/T0S-praxos-team-messaging-with-built-in-memory",
+        "created_at": "2026-08-21T17:05:12.305Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-22T14:18:50.276Z",
+        "launch_id": 111504,
+        "company_slug": "praxos",
+        "taxonomy": {
+          "conformance_index": 54,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 2,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 80,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "enterprise.ops.knowledge",
+            "phenotype_primary_id": "agent-context-infra",
+            "cell_key": "BM-03::enterprise.ops.knowledge::agent-context-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Enterprise knowledge management",
+            "phenotype_label": "Agent Context Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
       }
     }
   ]

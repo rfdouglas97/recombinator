@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-21T14:32:05.418Z",
+  "generated_at": "2026-08-22T14:18:52.504Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1381,
-    "mapped_verticals": 242,
-    "observed_cells": 472,
+    "assignment_count": 1384,
+    "mapped_verticals": 243,
+    "observed_cells": 473,
     "total_verticals": 525,
-    "gap_candidates": 848
+    "gap_candidates": 847
   },
   "observed_cells": [
     {
@@ -311,6 +311,36 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "6thsense",
+        "almond-2",
+        "congruent",
+        "cosmic-robotics",
+        "edgerun",
+        "efference",
+        "general-trajectory",
+        "inloop-robotics",
+        "intelligence-factory",
+        "lambda-robotics",
+        "lightberry",
+        "neuromorphic",
+        "noril1",
+        "os3",
+        "pave-robotics",
+        "piggy-robotics",
+        "proception-inc",
+        "proprio-robotics",
+        "servo7",
+        "verne-robotics",
+        "waddle-labs"
+      ]
+    },
+    {
       "business_model": "BM-10",
       "business_model_label": "Consumer app / prosumer",
       "vertical_id": "consumer.productivity.personal",
@@ -337,35 +367,6 @@
         "text-ai",
         "touchy",
         "wondering"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "6thsense",
-        "almond-2",
-        "congruent",
-        "cosmic-robotics",
-        "efference",
-        "general-trajectory",
-        "inloop-robotics",
-        "intelligence-factory",
-        "lambda-robotics",
-        "lightberry",
-        "neuromorphic",
-        "noril1",
-        "os3",
-        "pave-robotics",
-        "piggy-robotics",
-        "proception-inc",
-        "proprio-robotics",
-        "servo7",
-        "verne-robotics",
-        "waddle-labs"
       ]
     },
     {
@@ -1859,6 +1860,18 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "cerenovus",
+        "praxos",
+        "savant"
+      ]
+    },
+    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "fintech.insurance.corporate-risk",
@@ -2407,17 +2420,6 @@
       "companies": [
         "a1zap-by-a1base",
         "afterfive"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "enterprise.ops.knowledge",
-      "vertical_label": "Enterprise knowledge management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "cerenovus",
-        "savant"
       ]
     },
     {
@@ -4759,6 +4761,16 @@
       "sector_id": "financial-services",
       "companies": [
         "riskcube"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "insurance.uw-data-intake",
+      "vertical_label": "Underwriting data intake & risk assessment",
+      "sector_id": "financial-services",
+      "companies": [
+        "covera"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-21T14:31:15.838Z",
+  "synced_at": "2026-08-22T14:17:51.443Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1268,
+  "company_count": 1270,
   "companies": [
     {
       "slug": "10x",
@@ -761,8 +761,8 @@
       "slug": "alchemize",
       "name": "Alchemize",
       "batch": "Spring 2026",
-      "one_liner": "Code Review Platform that Simplifies PRs to Ship Faster",
-      "long_description": "Alchemize is a code review platform that helps teams understand PRs and ship faster.\r\n\r\nAgentic coding has 10x’d code output. Teams are opening larger PRs more frequently, but the current tools don’t support this new coding paradigm. \r\n\r\nAlchemize automatically breaks down PRs into guided, understandable reviews. It breaks each PR into manageable, smaller PRs that reveals the original author’s (human or agent) intent. We show where changes begin, how data flows, and which decisions require human judgment.",
+      "one_liner": "Ship more code with confidence",
+      "long_description": "Alchemize helps teams review and test code written by humans and coding agents.\r\n\r\nAgentic coding has 10x’d code output. Teams are opening larger PRs more frequently, but existing review workflows have not kept up.\r\n\r\nAlchemize breaks large changes into smaller, dependency-ordered PRs and guided reviews. It shows the prompts and intent behind agent-written code, then uses browser agents to test affected workflows. Reviewers can quickly understand how a change works, what the agent assumed, and where human judgment is needed. Teams ship faster with more confidence.",
       "website": "https://tryalchemize.com",
       "industries": [
         "B2B",
@@ -2112,7 +2112,7 @@
       "slug": "atlia",
       "name": "Atlia",
       "batch": "Summer 2026",
-      "one_liner": "The first AI-native property management company",
+      "one_liner": "The AI-native property management company",
       "long_description": "We manage short-term rental properties by running operations completely autonomously. By replacing costly human coordination with AI agents, we cut traditional management fees in half so Airbnb hosts take home 10% to 20% more revenue with zero effort. This lets us offer the best owner and guest experiences with the lowest management rates in the country.",
       "website": "https://www.atlia.com",
       "industries": [
@@ -2120,9 +2120,9 @@
         "Housing and Real Estate"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Real Estate",
-        "Big Data",
-        "AI"
+        "Big Data"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -2250,7 +2250,7 @@
       "batch": "Summer 2026",
       "one_liner": "AI-native debt collection",
       "long_description": "Audun automates debt collection.",
-      "website": "https://www.getaudun.com/",
+      "website": "https://audun.co",
       "industries": [
         "Fintech"
       ],
@@ -2260,7 +2260,7 @@
         "Finance",
         "AI"
       ],
-      "team_size": 4,
+      "team_size": 5,
       "location": "Oslo, Oslo, Norway",
       "status": "Active",
       "launched_at": 1786093910
@@ -4304,7 +4304,7 @@
       "slug": "caution",
       "name": "Caution",
       "batch": "Summer 2026",
-      "one_liner": "Hosting platform for software you don't want to get hacked",
+      "one_liner": "Hosting platform for software you don't want to have hacked",
       "long_description": "Caution is a hosting platform for software you can't afford to get hacked. It simplifies and extends confidential compute, and lets developers deploy workloads to secure enclaves in minutes and give customers, auditors, and counterparties cryptographic proof that production is running the exact reviewed source code, build, configuration, and runtime - not an opaque binary controlled by a cloud operator or internal admin.\r\n\r\nConfidential computing hardware exists, but the tooling is too fragmented and incomplete for most teams to use well. Today, attestation often proves only that a binary has a certain hash; it does not prove what source code produced that binary. Building the missing deployment, reproducibility, and verification layer requires specialized security engineering and often locks teams into one cloud or hardware stack. Caution turns that into a simple git-based workflow that builds reproducible enclave images, provisions infrastructure, and lets anyone independently verify what is running.\r\n\r\nWe built Caution after years securing high-risk systems through Distrust, where we worked with hedge funds, custodians, blockchain teams, cloud platforms, and critical grid operators on systems responsible for more than $600B in assets. Again and again, the same problem showed up: teams running mission-critical infrastructure could not reliably prove what was executing in production.\r\n\r\nAs AI, fintech, healthcare, and regulated data collaboration move into the cloud, \"trust us\" is no longer enough. Caution is a general-purpose platform: if it runs on a server, it can run verifiably on Caution. We're starting where trust failures cost the most, but we believe verifiable compute will become the default way software runs, the same way HTTPS became the default way it's served. Infrastructure you can verify, not trust.",
       "website": "https://caution.co",
       "industries": [
@@ -4954,8 +4954,8 @@
       "slug": "coarena",
       "name": "CoArena",
       "batch": "Summer 2026",
-      "one_liner": "Real World Evals and RL Environments for Computer-Use",
-      "long_description": "CoArena is a live arena where anyone can use the world's top AI agents for free, including Fable, Sol, and models not yet released to the public, racing two of them on the same real computer task and judging which one did it better. Every battle becomes something the AI labs can't build themselves, an honest test of their agents on real work, and the data to make them better.",
+      "one_liner": "The biggest crowdsourced benchmark for Computer-Use",
+      "long_description": "CoArena is a live arena where anyone can use the world's top computer-use models racing two of them on the same real computer task and judging which one did it better. Every battle becomes something the AI labs can't build themselves, an honest test of their agents on real work, and the data to make them better.",
       "website": "http://coarena.ai",
       "industries": [
         "B2B",
@@ -5382,9 +5382,9 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Security"
+        "Security",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -5491,7 +5491,7 @@
       "slug": "control-seat",
       "name": "Control Seat",
       "batch": "Summer 2026",
-      "one_liner": "Control and Monitoring of Industrial Operations",
+      "one_liner": "Predictive maintenance on your plant data and sensors.",
       "long_description": "Control Seat builds the hardware and software that helps industrial teams see, understand, and run their operations.\r\n\r\nOur platform creates one clear source of truth across the plant. It connects the systems teams already use, brings control, monitoring, history, and machine health together, and adds an intelligence layer that continuously watches for meaningful changes. Teams can understand what happened, catch problems earlier, and act before they become downtime.\r\n\r\nThe result is fewer surprises, faster decisions, and less time spent piecing together information across disconnected tools.\r\n\r\nWe work with manufacturers, utilities, energy companies, and other industrial operators modernizing existing facilities or building new ones.",
       "website": "https://www.controlseat.com",
       "industries": [
@@ -5751,6 +5751,25 @@
       "launched_at": 1782162197
     },
     {
+      "slug": "covera",
+      "name": "Covera",
+      "batch": "Fall 2026",
+      "one_liner": "AI-native OS for insurance brokers",
+      "long_description": "Covera builds AI agents for insurance brokers. Our ready-to-use agents take over the day-to-day servicing work: submission intake, carrier quoting, quote comparison, claims handling, past-due collections, and account rounding. That means brokers can spend their time advising and selling clients instead of doing data entry. We work with agencies of every size and connect natively to the tools they already use.",
+      "website": "https://www.covera-agents.com/",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "tags": [
+        "AIOps"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1787324338
+    },
+    {
       "slug": "cranston-ai",
       "name": "Cranston AI",
       "batch": "Fall 2025",
@@ -5979,15 +5998,15 @@
       "slug": "daqstra",
       "name": "Daqstra",
       "batch": "Summer 2026",
-      "one_liner": "AI-native test infrastructure for hardware companies",
+      "one_liner": "AI-native test infrastructure to accelerate hardware companies.",
       "long_description": "Daqstra is the AI-native orchestration layer for physical R&D. It saves engineers in Aerospace, Energy and Robotics hundreds of man hours managing test infrastructure by connecting fragmented test hardware, bringing live and historical test data into one place, and by giving engineers an API to orchestrate their entire test setup. We enable teams to spend less time rebuilding test infrastructure and more time improving the hardware they test.",
       "website": "https://www.daqstra.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Hard Tech"
+        "Hard Tech",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -6358,7 +6377,7 @@
       "name": "Denta",
       "batch": "Summer 2026",
       "one_liner": "Dental Insurance",
-      "long_description": "Denta is dental insurance. As a full stack carrier, Denta makes insurance 25% cheaper by selling plans directly to employers and processing claims instantly with AI.\r\n\r\nDentistry is my dad's life's work. Over the past 20 years, he went from being a normal dentist to fully owning ten practices. During that time, he put me to work, first answering phones, then building software.\r\n\r\nWhile at Dartmouth, I sold the software to over 210 practices, but the problem felt small. The best software in the world couldn't protect the dentists I sold to or the patients whose calls I answered from the mounting pressure of insurance companies. Everyone knows how bad health insurance is, dental insurance is sadly the same.\r\n\r\nIn the US, dental insurers collect $100B per year in premiums, 25% of which goes to brokers, administrators, and outdated IT systems. Despite the $25B in spend, it still takes insurers three weeks to pay claims with paper checks that Denta can pay electronically in seconds.\r\n\r\nDenta will insure every American, sparing patients and dentists the $25B burden of dealing with legacy carriers.",
+      "long_description": "Denta is dental insurance. As a full stack carrier, Denta makes insurance 25% cheaper by selling plans directly to employers and processing claims instantly with AI.\r\n\r\nEveryone knows how bad health insurance is, dental insurance is worse. In healthcare, there is a law that insurance companies must spend 80% of premiums on patient care. In dental, where no such law exists, insurance companies spend as low as 60%.\r\n\r\nThe American dental insurance market is $100B/year. It is inevitable that Denta will insure every American and give that $40B back to employers, patients, and dentists.",
       "website": "https://denta.insure",
       "industries": [
         "Fintech",
@@ -6923,6 +6942,26 @@
       "location": "Brisbane, QLD, Australia",
       "status": "Active",
       "launched_at": 1733896630
+    },
+    {
+      "slug": "edgerun",
+      "name": "Edgerun",
+      "batch": "Summer 2026",
+      "one_liner": "Military exoskeletons",
+      "long_description": "Edgerun Industries builds military exoskeletons. Our hip-mounted system assists every step a soldier takes under combat load, so they can travel farther, carry more, and arrive with more energy to fight.",
+      "website": "https://edgerun.com",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "tags": [
+        "Robotics",
+        "Defense"
+      ],
+      "team_size": 8,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1787343759
     },
     {
       "slug": "edotenv",
@@ -8014,7 +8053,7 @@
       "name": "Floracene",
       "batch": "Summer 2026",
       "one_liner": "Vibecode + deploy HIPAA-compliant internal tools, no eng team needed",
-      "long_description": "Floracene lets any healthcare operator describe the internal tool they need and deploy it in one click - connected to production data, with read and write access scoped by the user. Think Lovable or Retool, except purpose-built for the needs of healthcare business that has no engineering team.\r\n\r\nThe bottleneck in healthcare isn't building anymore. Anyone can vibecode an 80% solution in an afternoon, custom to their own workflow, with people already on staff. The tool then dies locally on the builder’s computer, because IT (correctly) won't let anyone deploy a tool touching PHI without first-class authentication and permissioning. Our first design partner had multiple employees who had each built useful tools and dashboards locally, but couldn’t actually share these with coworkers or connect to their core practice data. Within weeks of implementing Floracene, they were able to cut a $12K / month contract for a crappy dashboarding tool and had 4 home-built tools shipped to production.\r\n\r\n~$200B is spent on administrative software in healthcare every year in the US. Tens of thousands of those companies still run core operations on spreadsheets, and we're at the top of the first inning of AI adoption.\r\n\r\nAsaph and Jonah met on the hospitals team at Palantir two years ago, and have each spent the last four years in the plumbing of US healthcare: claims, eligibility, and payor contracting. Asaph was an early PM at Garner. Jonah was a founding engineer at Metriport (YC S22) after starting his own fax-automation startup for fertility clinics.",
+      "long_description": "Floracene lets any healthcare operator describe the internal tool they need and deploy it in one click - connected to production data, with read and write access scoped by the user. Think Lovable or Retool, except purpose-built for the needs of healthcare business that has no engineering team.\r\n\r\nThe bottleneck in healthcare isn't building anymore. Anyone can vibecode an 80% solution in an afternoon, custom to their own workflow, with people already on staff. The tool then dies locally on the builder’s computer, because IT (correctly) won't let anyone deploy a tool touching PHI without first-class authentication and permissioning. Our first design partner had multiple employees who had each built useful tools and dashboards locally, but couldn’t actually share these with coworkers or connect to their core practice data. Within weeks of implementing Floracene, they were able to consolidate their BI tooling into Floracene and shipped 4 net-new to production.\r\n\r\nA staggering ~$200B is spent on administrative software in healthcare every year in the US. Tens of thousands of those companies still run core operations on spreadsheets, and we're at the top of the first inning of AI adoption.\r\n\r\nAsaph and Jonah met on the hospitals team at Palantir two years ago, and have each spent the last four years in the plumbing of US healthcare: claims, eligibility, and payor contracting. Asaph was an early PM at Garner. Jonah was a founding engineer at Metriport (YC S22) after starting his own fax-automation startup for fertility clinics.",
       "website": "https://www.floracene.com/",
       "industries": [
         "Healthcare"
@@ -10340,17 +10379,17 @@
       "name": "Insurf",
       "batch": "Summer 2026",
       "one_liner": "The AI-Native Decision Infrastructure for Health Insurance",
-      "long_description": "Insurf is the AI-native data and decision layer for health insurance. Our first product, Inveto, automatically turns denied healthcare claims into source-cited, physician-attested appeals, recovering revenue practices lose today. Every claim it resolves builds the coverage-decision graph, the proprietary dataset of real payer behavior that powers our next product, Surely, that predicts what health plans actually cost, saving individuals, families, and companies thousands per employee.",
+      "long_description": "Insurf is the AI-native data and decision layer for health insurance. Our model Surely identifies the lowest-cost coverage for anyone, saving individuals, families, and companies thousands per employee. Our product Inveto collects the data from hospitals and clinics that informs Surely.",
       "website": "https://www.insurf.io",
       "industries": [
         "Healthcare"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Health Tech",
         "Healthcare",
         "Insurance",
-        "Automation",
-        "AI"
+        "Automation"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -10627,15 +10666,15 @@
       "slug": "jcode",
       "name": "Jcode",
       "batch": "Summer 2026",
-      "one_liner": "20x more coding agents, 20x more productivity",
-      "long_description": "We make an open source low ram coding agent that enables extreme parallelization for coding tasks. Our coding agent produces SOTA results on coding benchmarks. ",
+      "one_liner": "The harness company",
+      "long_description": "An agent is LLM + harness: We work purely on that second component. We do research to produce the most capable harness for coding, and we also make an open source, terminal based, coding agent product with 18k github stars. ",
       "website": "https://jcode.sh/",
       "industries": [
         "Consumer"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Developer Tools"
+        "Developer Tools",
+        "AI"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -11007,7 +11046,7 @@
       "slug": "kebra",
       "name": "Kebra",
       "batch": "Summer 2026",
-      "one_liner": "Making the field queryable.",
+      "one_liner": "Making the field queryable",
       "long_description": "Kebra captures what happens in the field and turns it into a live operating memory that AI can query and act on.\r\n\r\nWe deploy AI agents on top of that context to automate the operational and back office work that follows across the systems companies already use.\r\n\r\nEvery job makes the memory richer. We are building the context layer for the physical enterprise, giving software agents the information they need today and physical agents the company specific context they will need tomorrow.",
       "website": "https://kebra.com",
       "industries": [
@@ -11015,10 +11054,10 @@
         "Operations"
       ],
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Home Services",
-        "Operations",
-        "AI"
+        "Operations"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -11923,19 +11962,19 @@
       "slug": "libra-robotics",
       "name": "Libra Robotics",
       "batch": "Summer 2026",
-      "one_liner": "Robot squads for solar farm construction",
-      "long_description": "We build collaborative robot squads for solar farm construction.\r\n\r\nHigh labor costs, labor shortages, and unpredictable productivity make infrastructure difficult to build in places that are remote, harsh, or empty. We are building robots to unlock places once considered too difficult to develop. Solar farm is our first proving ground.\r\n\r\nUnlike solutions that automate only one task, or even part of one, we cover the workflow after PV module pallets arrive on-site: transportation, installation, alignment, and fastening. Each robot has a specific role, and fleets can be configured based on each project’s cost and schedule requirements.\r\n\r\nOur robots operate autonomously with remote supervision. One person can supervise 4+ robots through a screen and an e-stop button, without being physically present or teleoperating them. Our robotic fleet has also been tested at night, paving the way for 24/7 operation.\r\n\r\nWe work directly with EPCs through a Robotics-as-a-Service model, requiring no robot purchase or large upfront capital investment. We also work with racking and PV module manufacturers to certify compatibility and give customers confidence in deployment.\r\n\r\nPurpose-built hardware, multimodal sensing, and physical AI software help our robots handle real-world construction uncertainty.",
+      "one_liner": "Robotic crews for large-scale infrastructure construction",
+      "long_description": "We’re building collaborative robotic crews for large-scale infrastructure projects, including solar farms and data centers.\r\n\r\n002C: “002A, 5.3 mm left.”\r\n002B: “002A, you’re running low. Next pallet is on the way.”\r\n002C: “Am I clear to come in?”\r\n002A: “Aligned. Panel released. You’re clear.”\r\n002C: “Fastening.”\r\n002B: “Next load arriving now.”\r\n\r\nThis isn’t a human crew talking. It’s three robots building a utility-scale solar farm together. \r\n\r\nOur AI control system enables specialized robots to collaborate, learn reusable construction skills, like alignment, fastening, and manipulation, and transfer them across workflows, from solar farms to data centers. 🚧 🦺 ",
       "website": "https://www.librabots.com/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
         "Construction",
-        "Energy"
+        "Energy",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -12103,16 +12142,16 @@
       "slug": "litmus-hiring",
       "name": "Litmus",
       "batch": "Summer 2026",
-      "one_liner": "Run an async work trial on every engineer you interview.",
-      "long_description": "Litmus gives back the hours your team burns on interviews, while holding every candidate to your technical bar. It builds assessments from your repos, tickets, and job descriptions, and candidates work through them in their own setup with the tools they actually use. Litmus runs and tests every submission, and grades outcome, process, and tool fluency, down to AI prompting.\r\n\r\nSend assessments async to filter unqualified applicants before an engineer wastes an hour on a call. Or run them live, where Litmus tracks everything candidates say and build, so your engineers can focus on the person instead of taking notes, and the scorecard is written before they leave the call.\r\n\r\nIt's sent 3,000+ assessments on behalf of Neo Scholars, Mercor, Composio, and more. ",
+      "one_liner": "Evals for humans",
+      "long_description": "Litmus is building the most accurate framework for evaluating and benchmarking human capability, starting with software.\r\n\r\nAI will compound small differences in human capability into increasingly large differences in what people can accomplish, while making existing static benchmarks obsolete. Software is already there: AI can hill-climb any output-based evaluation, while the ability to direct it is becoming the defining advantage. \r\n\r\nLitmus applies the same approach we already use for model evals to humans – creating world-like environments, and inspecting trajectory instead of just output.\r\n\r\nEvery knowledge industry will soon face the same problem. We build Litmus to tell you what humans are capable of.\r\n\r\nWe're already helping build frontier technical teams at Mercor, Composio, Neo Scholars, and more.",
       "website": "https://litmushiring.com/",
       "industries": [
-        "B2B",
-        "Recruiting and Talent"
+        "B2B"
       ],
       "tags": [
         "Recruiting",
-        "Talent Acquisition"
+        "Data Engineering",
+        "AI"
       ],
       "team_size": 3,
       "location": "New York City, NY, USA",
@@ -12920,18 +12959,18 @@
       "slug": "marengo",
       "name": "Marengo",
       "batch": "Summer 2026",
-      "one_liner": "Automating engineering design, starting with data centers.",
-      "long_description": "Marengo designs data centers at double the speed and half the cost with AI. We’re working with some of the largest data center builders in the world to improve how design is done today.\r\n\r\nWe're backed by Y Combinator, a16z & Index Venture Scout Funds, as well as investors/angels in OpenAI, Anthropic, SpaceX, and more.\r\n\r\nOur advisors include the former President & CEO of Saipem America ($3B+ P&L), former President of Exyte's Advanced Technology Facilities GBU ($6B+ P&L) and more.",
+      "one_liner": "AI-Native Engineering Firm designing Data Centers ",
+      "long_description": "Marengo designs data centers in half the time and half the cost with AI. We’re working with some of the largest data center builders in the world to improve how design is done today.\r\n\r\nWe're backed by Y Combinator, a16z & Index Venture Scout Funds, as well as investors/angels in OpenAI, Anthropic, SpaceX, and more.\r\n\r\nOur advisors include the former President & CEO of Saipem America ($3B+ P&L), former President of Exyte's Advanced Technology Facilities GBU ($6B+ P&L) and more.",
       "website": "https://marengox.com",
       "industries": [
         "Industrials",
         "Energy"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Design",
         "Energy",
-        "Architecture"
+        "Architecture",
+        "AI"
       ],
       "team_size": 10,
       "location": "San Francisco, CA, USA",
@@ -13250,7 +13289,7 @@
       "tags": [],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
-      "status": "Active",
+      "status": "Inactive",
       "launched_at": 1769123342
     },
     {
@@ -14007,14 +14046,13 @@
       "name": "Mosaic",
       "batch": "Summer 2026",
       "one_liner": "Defining the frontier of multiplayer AI.",
-      "long_description": "Mosaic's main product, Ocean, gives people and their coding agents shared memory across every session, so everyone can understand what happened, why decisions were made, and pick up where someone else left off.\r\n\r\nWe also built Mosaic, a real-time coding environment where multiple people and their agents can work together live. It went viral, defined the multiplayer AI category, and inspired frontier labs like Anthropic.\r\n\r\nTogether, we’re building the infrastructure for people and agents to share context and work together.",
+      "long_description": "Mosaic gives teams and their coding agents shared memory across every session, so everyone can understand what happened, why decisions were made, and pick up where someone else left off.\r\n\r\nWe started as a real-time coding environment where multiple people and their agents can work together live. It went viral, defined the multiplayer AI category, and inspired frontier labs like Anthropic.\r\n\r\nTogether, we’re building the infrastructure for people and agents to share context and work together.",
       "website": "https://mosaic.inc",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Service Mesh",
-        "AI"
+        "Artificial Intelligence"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -14578,7 +14616,7 @@
       "name": "Nixo",
       "batch": "Summer 2025",
       "one_liner": "Make every FDE on your team capable of moving any account forward.",
-      "long_description": "Scale deployed revenue with the only data layer and agent platform built for how FDEs actually work.\r\n\r\nYour deployment capacity boils down to how many accounts your team can stay on top of. We figured out how you can create more of it with the FDE motion you already have.\r\n\r\nNixo is built on what the best FDE teams already know: when everyone has a clear view of what was promised, where every account stands, what needs attention next, and what can be reused from past work, the whole team can carry more deployments. Nixo automatically captures the full history and live health of every account from pre-sales through post-go-live, no matter who worked on it last or where the information lives. Our agents use that context to find, scope, and prioritize work across the portfolio, so anyone can move any account forward.\r\n\r\nJoin the hundreds of FDE teams scaling deployment capacity with Nixo and finally unlock SaaS-level margins from your services.",
+      "long_description": "Scale deployed revenue with the only data layer and agent platform built for how FDEs actually work.\r\n\r\nYour deployment capacity boils down to how many accounts your team can stay on top of. We figured out how you can create more of it with the FDE motion you already have.\r\n\r\nNixo is built on what the best FDE teams already know: when everyone has a clear view of what was promised, where every account stands, what needs attention next, and what can be reused from past work, the whole team can carry more deployments with ease. Nixo automatically captures the full history and live health of every account from pre-sales through post-go-live, no matter who worked on it last or where the information lives. Our agents use that context to find, scope, and prioritize work across the portfolio, so anyone can move any account forward.\r\n\r\nJoin the hundreds of FDE teams scaling deployment capacity with Nixo and finally unlock SaaS-level margins from your services.",
       "website": "https://withnixo.com/",
       "industries": [
         "B2B"
@@ -15614,18 +15652,18 @@
       "slug": "os3",
       "name": "OS3",
       "batch": "Summer 2026",
-      "one_liner": "Full Stack Robotics: US-Built Commercial Robots & Video Action Models",
-      "long_description": "We are building robots, including custom actuators and intelligence. Our first model is trained on 150k hours of video data.\r\n\r\nOur first commercial robot, a mobile semi-humanoid priced at $9,995, is already signed for deployments in hospitality and biotech. Our developer version helps startups deploy robots in their own industries, and we already have preorders.\r\n\r\nWe are scaling American robotics while making it accessible to more businesses.",
+      "one_liner": "Full Stack Robotics: Deploying US-Built Robots & Video Action Models",
+      "long_description": "We are building robots, including custom actuators. Our first model is trained for the robot with 150k hours of video data. \r\n\r\nThe robot, a mobile semi-humanoid priced at $9,995, is already signed for deployments in hospitality and biotech. Our developer version lets anyone deploy robots in their own verticals, and we already have preorders.\r\n\r\nWe are scaling American robotics while making it accessible to more businesses.",
       "website": "https://os3robotics.com/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
         "Robotics",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -16764,8 +16802,8 @@
       "slug": "petrarch",
       "name": "Petrarch",
       "batch": "Summer 2026",
-      "one_liner": "Unlocking enterprise data for tomorrow's economy",
-      "long_description": "",
+      "one_liner": "Internal industrial company data for frontier labs",
+      "long_description": "Petrarch brings internal company data to frontier labs, starting with manufacturing and industrial companies. We source data including codebases, project files, and payments from bankruptcy courts, then de-identify and prepare the data for model training. \r\n",
       "website": "https://petrarch.co/",
       "industries": [
         "B2B"
@@ -17785,7 +17823,7 @@
         "Marketplace",
         "Trading"
       ],
-      "team_size": 10,
+      "team_size": 14,
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1747069734
@@ -17935,7 +17973,7 @@
       "slug": "radley",
       "name": "Radley",
       "batch": "Summer 2026",
-      "one_liner": "AI-native, full-stack radiology practice",
+      "one_liner": "The first AI-native radiology practice",
       "long_description": "Radley is the first AI-native radiology practice. We're acquiring a radiology practice bringing Radley to $4.3M in annualized revenue and rebuilding it with agents from the ground up.\r\n\r\nRadiology is already in crisis: there aren't enough radiologists to interpret 1 in 6 medical scans. In 10 years, that gap is growing to 1 in 3 - 246M scans a year.\r\n\r\nFrom past experience, we know that point solutions won’t cut it. While there is demand (we have $2.2M in contracts to prove it), bottleneck isn't just software, it's outdated systems and slow, inefficient operations. That's why we own the full stack, clinical and operational, end to end.\r\n\r\nWe met at Carbon Health as we scaled operations 31x and expanded to 100+ clinics. Now we're rebuilding radiology.",
       "website": "https://radley.health/",
       "industries": [
@@ -18608,17 +18646,17 @@
       "name": "Rex",
       "batch": "Summer 2026",
       "one_liner": "AI-native BPO for enterprise order-to-cash",
-      "long_description": "Rex is an AI-native service for order to cash. We replace people-heavy operations with AI agents that continuously manage invoices, customers and exceptions.\r\n\r\nOrder to cash is a $60B outsourced function because the work is too messy for traditional automation. Every customer has different context, exceptions do not follow clean rules, and the next step is often buried in emails, portals, handoffs, or someone’s memory. Rex agents run continuously in the background and resolve work to SLA standards so cash keeps moving. We're live with pre-IPO tech companies, managing  >$500m in receivables from F100 companies, cutting manual follow-up cycles from weeks to hours.\r\n\r\nWe founded Rex after spending four years building Sequence, an a16z-backed finance ops platform, from zero to Series A — where we saw firsthand that at-scale, O2C still runs on manual labour.\r\n\r\nRex is the #1 winner of the Vercel AI Accelerator out of 2,500 teams, selected by Guillermo Rauch and leaders from OpenAI, Anthropic, Browserbase and more.",
+      "long_description": "Rex is an AI-native service for order to cash. Rex replace manual operations with AI agents that continuously manage invoices, customers and exceptions.\r\n\r\nOrder to cash is a $60B outsourced function because the work is too messy for traditional automation. Every customer has different context, exceptions do not follow clean rules, and the next step is often buried in emails, portals, handoffs, or someone’s memory. Rex agents run continuously in the background and resolve work to SLA standards so cash keeps moving. We're live with pre-IPO tech companies, managing  >$500m in receivables from F100 companies, cutting manual follow-up cycles from weeks to hours.\r\n\r\nWe founded Rex after spending four years building Sequence, an a16z-backed finance ops platform, from zero to Series A — where we saw firsthand that at-scale, O2C still runs on manual labour.\r\n\r\nRex is the #1 winner of the Vercel AI Accelerator out of 2,500 teams, selected by Guillermo Rauch and leaders from OpenAI, Anthropic, Browserbase and more.",
       "website": "https://www.rex.inc",
       "industries": [
         "B2B",
         "Finance and Accounting"
       ],
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Enterprise",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -21487,7 +21525,7 @@
       "slug": "tamlabs",
       "name": "TamLabs",
       "batch": "Winter 2025",
-      "one_liner": "Agent Teams for Professionals",
+      "one_liner": "Agent teams for complex work",
       "long_description": "TamLabs agent teams deliver professional work products with speed and precision.",
       "website": "https://tamlabs.ai",
       "industries": [
@@ -22872,8 +22910,8 @@
       "slug": "tryjanet",
       "name": "Janet AI",
       "batch": "Summer 2025",
-      "one_liner": "Agents that handle work 24/7 across the tools you already use",
-      "long_description": "Janet AI lets anyone on your team spin up 24/7 agents that reliably handle workflows across your existing tool stack around the clock. No migrations, no code, no API keys, no technical lift.\r\n\r\nUnder the hood, Janet runs on custom orchestration and memory infrastructure we built for 24/7 agent operation. It does the job the same way every run, and continuously learns a map of your company from everything it sees happening in your tools plus your feedback.\r\n\r\nJanet AI is backed by Y Combinator, Formosa Capital, Paul Graham, Charles Ferguson, and others.\r\n\r\nGet started for free today at janet.ai!",
+      "one_liner": "Agents that learn your company and work 24/7",
+      "long_description": "Janet AI lets you deploy reliable, cost-efficient 24/7 agents across every workflow, powered by custom agent memory and decision infrastructure we built for company operations. Janet remembers everything it sees and does across all your tools, and recalls exactly the right context at the moment it's needed.\r\n\r\nConnect your tools and scope permissions in a few clicks, describe your flows in plain English, and always-on agents handle the work, all while learning what's going on across your company.\r\n\r\nJanet AI is backed by Y Combinator, Formosa Capital, Paul Graham, Charles Ferguson, and others.\r\n\r\nCheck us out at janet.ai!",
       "website": "https://janet.ai",
       "industries": [
         "B2B"
