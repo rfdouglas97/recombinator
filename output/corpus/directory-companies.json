@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-22T14:17:51.443Z",
+  "synced_at": "2026-08-23T14:20:12.458Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1270,
+  "company_count": 1271,
   "companies": [
     {
       "slug": "10x",
@@ -2365,7 +2365,7 @@
       "name": "Autostep",
       "batch": "Spring 2026",
       "one_liner": "The P&L for knowledge work",
-      "long_description": "Autostep maps how work actually happens across a company, finds repetitive tasks and bottlenecks, and ranks them by cost and impact. Then it fixes them by building agents inside existing tools, changing the process, or finding the right software.\r\n",
+      "long_description": "Autostep maps how work happens across a company for humans and agents, finds repetitive tasks and bottlenecks, and ranks them by cost and impact. Then it fixes them by building agents inside existing tools, changing the process, or finding the right software.\r\n",
       "website": "https://autostep.ai/",
       "industries": [
         "B2B",
@@ -4489,13 +4489,13 @@
         "Productivity"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "Productivity",
         "Open Source",
+        "AI",
         "AI Assistant"
       ],
-      "team_size": 3,
+      "team_size": 2,
       "location": "Seoul, Seoul, South Korea",
       "status": "Active",
       "launched_at": 1755302445
@@ -5734,16 +5734,16 @@
       "slug": "cova",
       "name": "Cova",
       "batch": "Summer 2026",
-      "one_liner": "AI-Native Home Care Agency",
+      "one_liner": "Financial infrastructure for family caregiving",
       "long_description": "Cova is an AI-native home care agency, licensed in Michigan. We serve Medicaid, LTCI, and private-pay patients; we pay caregivers the highest base rate in the state; and we help unpaid family caregivers get paid through programs they didn't know they qualified for. Our entire operation runs on AI agents, which means less overhead and more value passed directly to the people doing the real work.",
       "website": "https://cova.care/",
       "industries": [
         "Healthcare"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Consumer Health Services",
-        "Healthcare"
+        "Healthcare",
+        "AI"
       ],
       "team_size": 2,
       "location": "Detroit, MI, USA",
@@ -6079,15 +6079,15 @@
       "slug": "datoric",
       "name": "Datoric",
       "batch": "Summer 2026",
-      "one_liner": "Security-first training data your next model needs",
+      "one_liner": "Secure training data shaped by experimentation",
       "long_description": "Datoric develops custom datasets for voice models, robotics, and world models, treating research, collection, verification, and production as one continuous process. We work closely with frontier model teams to turn emerging limitations into testable data hypotheses, while running our own experiments ahead of customer demand. This allows us to operationalize validated methods into repeatable collection systems at scale.\r\n\r\nData is collected through private invite-only applications separated by modality, customer, and trust level. Every submission remains linked to the contributor, device, task, session, consent, rights, and processing history that produced it, giving our internal QA and fraud models the context to detect problems that may appear legitimate in the finished file. Each collection reveals new failure cases and quality signals that improve the systems behind the next dataset.\r\n\r\nOnce a collection method is validated, it becomes a reusable data recipe for future custom projects or independently collected, rights-cleared data products. This allows Datoric to turn what is emerging at the frontier into datasets available ahead of broader market demand.\r\n",
       "website": "https://www.datoric.com",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Data Labeling",
-        "AI",
         "ML"
       ],
       "team_size": 2,
@@ -7046,8 +7046,8 @@
       "slug": "egoist-machines",
       "name": "Egoist Machines",
       "batch": "Summer 2026",
-      "one_liner": "User-owned memory and preferences that work across every AI app",
-      "long_description": "We're building AI Passport, a personal memory layer that works across AI apps. Every AI product you use today keeps its own memory of you: ChatGPT has one, Claude has one, and every AI-powered app is starting to build one too. None of them talk to each other, you can't see most of what they've stored, and you re-explain yourself to each new tool.\r\n\r\nAI Passport replaces those scattered profiles with one card you own. Your preferences, history, and goals live in one place, and new information lands in an inbox where you approve or reject it before it's saved. Apps that want to use your context request a pass, which grants them access to only the categories you allow and can be revoked at any time. Receipts show you exactly which app read what, and when.\r\n\r\nFor a user, this means any AI app can know you from the first message. \r\nFor a business, personalization works in both directions: a storefront can retrieve a customer's taste, sizes, and budget and personalize instantly instead of running an onboarding quiz, and a support organization can keep one memory of each customer across tickets, teams, and agents, so every new case starts with what the company already knows about the person.",
+      "one_liner": "Secure, user-owned context for every AI app",
+      "long_description": "The bottleneck for consumer AI is shifting from the model to the personal context that model uses. \r\n\r\nModels are already capable of completing most tasks for the average user, but consumer AI products still starts cold and have to rebuild an incomplete picture of the same user before they can personalise well. \r\n\r\nWe’re building AI Passport so users can carry the personal context they create through everyday apps into new products, allowing those products to understand them from the first interaction instead of reconstructing the same incomplete picture from scratch. Users decide which parts of their context can move between products, while companies receive better information about their users.\r\n\r\nApps integrate AI Passport through a “Sign in with AI Passport” button, then request specific information for a stated purpose and duration rather than receiving broad, permanent access to everything the Passport holds. The user chooses what to share and can revoke access later, which makes the system particularly useful for sensitive health or financial context that may be valuable for a specific interaction but should not remain available indefinitely.\r\n\r\nTo support this permission model, AI Passport uses our own vector database as its memory backend, built for fast, compact per-user memory and cryptographically enforced access control. \r\n\r\nWe’re building first-party apps that give people reasons to create and use their Passport now, while also integrating it into consumer products with existing audiences across hospitality, travel, finance, and lifestyle.",
       "website": "https://ego.ist/",
       "industries": [
         "Consumer"
@@ -7609,16 +7609,17 @@
       "slug": "experiential-labs",
       "name": "Experiential Labs",
       "batch": "Summer 2026",
-      "one_liner": "Turn your AI spend into a cheaper + better model you own",
-      "long_description": "We build model endpoints for your agent that will always be frontier quality and 50%+ cheaper than any frontier model. This is done by continuously improving smaller models on simulations built from production agent traces. ",
+      "one_liner": "Open source OpenRouter that turns your traffic into a better model",
+      "long_description": "We build the open source OpenRouter for AI budget holders to control model access and usage. We're a team that has earned an ML PhD at Georgia Tech, scaled AutoGPT to 160k GitHub stars, and led a self-driving simulation team at Waabi.",
       "website": "https://experientiallabs.ai",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Infrastructure"
+        "Reinforcement Learning",
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -7689,18 +7690,18 @@
       "slug": "familiar",
       "name": "Familiar",
       "batch": "Summer 2026",
-      "one_liner": "World Models for Accurate Humans. Real-Time Dubbing First.",
-      "long_description": "Familiar is breaking down every language barrier. Live Shopping, Entertainment, Platforms, Education, Broadcasts.\r\n\r\nFounders An Zhu Liu, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation.\r\n\r\nThey're building world models for accurate humans: understanding, editing, and predicting. Dubbing is the first application, not the destination.\r\n\r\nThey started with video language translation, and they've already built one of the most accurate translators available today, the only one that works in real time. Everyone else scaffolds separate models and pre-processing; a world model just understands -- what the speaker means, from voice, person, and scene together. That's why the dub keeps the speaker's own voice, face, and delivery.\r\n\r\nVs ElevenLabs: they lose the laughter, the music, the ambiance -- 270% more background-sound error; ours sounds 27.8% more like you and makes 54.7% fewer translation errors. Vs human translators: 100.3% of their quality -- scalable, real time. Published benchmarks: https://thefamiliarlab.com/benchmark\r\n\r\nThe $14B spent on dubbing every year flips to AI once it's good enough. Live multiplies it.\r\n\r\n🦋 Content in every language. Exactly the same as the original.",
+      "one_liner": "Dubbing is finally good. Audio-Visual Translation.",
+      "long_description": "World models for accurate humans.\r\n🦋 Content in every language. The speakers' performances, preserved. Movies & TV, Broadcasts, Education, Ads, Platforms, Live Shopping.\r\n\r\nFounders An Zhu Liu, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation.\r\n\r\nThey started with video language translation, and they've already built one of the most accurate translators available today, the only one that works in real time. Everyone else scaffolds separate models and pre-processing; a world model just understands -- what the speaker means, from voice, person, and scene together. That's why the dub keeps the speaker's own voice, face, and delivery.\r\n\r\nVs ElevenLabs: they lose the laughter, the music, the ambiance -- 270% more background-sound error -- and ours sounds 27.8% more like you. Vs human translators: 100.3% of their quality -- scalable, real time. Published benchmarks: https://thefamiliarlab.com/benchmark\r\n\r\nThe $14B spent on dubbing every year flips to AI once it's good enough -- most of it movies and TV, the traditional dubbing heartland. Live multiplies it.",
       "website": "https://thefamiliarlab.com",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "B2B",
-        "Entertainment"
+        "Entertainment",
+        "AI"
       ],
       "team_size": 7,
       "location": "Toronto, ON, Canada",
@@ -8859,7 +8860,7 @@
       "name": "Glen",
       "batch": "Summer 2026",
       "one_liner": "Shared learning layer for agents",
-      "long_description": "Glen is unified context for every agent and human on your team. Most MCP tools hand an agent a slice, one Slack thread, a single diff, and leave it to stitch the rest together itself. Glen reads from where your work already lives, code and PRs, issues, docs, and meetings, reconciles it, and gives your agents the full picture instead.\r\n\r\nWith Glen a coding agent knows why a line was written, not just what it says. Ask a PR assistant anything about a change and the clarifying-question relay disappears. Bug bots read the intent behind the code before they comment, so they stop flagging deliberate choices as defects and stop repeating mistakes they already made. A sales agent can coach your head of sales off the full account history, how teammates handle similar calls, what was promised, where the deal stalled, etc. \r\n\r\nAs the work gets done, Glen also distills it into skills and offers them back to the next agent, or person, who hits the same task.",
+      "long_description": "Glen is the layer that unifies every agent your company runs. Glen pulls in agent sessions from Claude Code, Codex and Cursor, plus Slack messages, GitHub prs, tickets, docs and calls. When a new agent picks up a task, Glen finds relevant prior context and injects it in the agents context window to steer it, producing knowledge work that is significantly higher quality, faster and cheaper.\r\n\r\nGlen does more. You can query the original agent behind any line of code, or search every session your org has ever run. It distills what your team does into skills and surfaces the right one automatically. Agents work multiplayer, picking up the style and context of whoever else is on the file. Transcripts are unified across Claude Code, Codex and Cursor, so you can hand a session from one to another mid-task. And Glen can also double as a company brain, from Slack, in app, or by just installing Glen on any agent.",
       "website": "https://www.tryglen.com/",
       "industries": [
         "B2B",
@@ -9789,7 +9790,7 @@
       "name": "Hubble",
       "batch": "Summer 2026",
       "one_liner": "Retrieve records other APIs can't",
-      "long_description": "Hubble retrieves complete medical records on behalf of patients using patient-mediated access. Under a patient's HIPAA right of access, they authorize us once and we pull their full history from every provider they've seen (hospitals, clinics, labs, imaging centers), no per-provider integration or IT project required.\r\n\r\nGetting records today still runs on faxes, patient portals, and release-of-information queues, so teams that need medical data wait weeks and get back a pile of unstructured PDFs. Hubble handles the retrieval end to end and returns clean, structured records, turning what used to take weeks into days.\r\n\r\nWe work with teams that live or die on getting patient records fast: legal (personal injury, mass tort, disability), life sciences and research, and anyone building products that need a patient's real medical history to work. Instead of standing up records infrastructure themselves, they use Hubble as the retrieval layer.\r\n\r\nWe're the team behind the AI agents at Grow Therapy and Amazon's One Medical used by millions of patients (Prabha was Grow's first PM building their AI agents, Aaron built the AI infra serving 1M+ clients).",
+      "long_description": "Hubble is the AI Plaid for healthcare: we use AI to retrieve patient medical records and deliver them to developers through a single API. We're the team behind the AI agents at Grow Therapy and Amazon's One Medical, used by millions of patients (Prabha was Grow's first PM building and scaling their AI agents, and Aaron built the AI infrastructure at One Medical serving 1M+ patients). Companies building in legal, life insurance underwriting, clinical trials, and digital health all need a patient's records to make decisions, but pulling that data out of thousands of EHRs and payors is still slow and manual. Our AI agents retrieve records the way a person would and normalize them into one clean API. We signed our first paying customers within three weeks of launching, all on usage-based pricing. https://hubble.ai",
       "website": "https://hubble.ai/",
       "industries": [
         "Healthcare",
@@ -9952,17 +9953,19 @@
       "slug": "hyperprobe",
       "name": "HyperProbe",
       "batch": "Summer 2026",
-      "one_liner": "Your coding agent writes code. Now let it fix prod too.",
-      "long_description": "If your team uses Cursor, Claude Code, or Codex to ship, you've felt it: the AI is great at writing code, mediocre at debugging it. When something breaks in prod, you're back to grepping logs, adding console.logs, redeploying, and hoping the AI's guess is right.\r\n\r\nHyperProbe fixes this. Your coding agent dynamically drops non-breaking probes into your running services, straight from your IDE. When a probe fires, HyperProbe captures and sanitises the exact variable state, feeding your agent real evidence instead of flat logs. \r\n\r\nThis fixes prod incidents in minutes from the exact same window where agents write code, without ever redeploying to add a print statement. Under 1% CPU overhead. Automatic PII redaction. \r\n\r\nBuilt for backend teams shipping AI-written code today. Install in 60 seconds, see your first investigation in 10 minutes. That's why we call HyperProbe the runtime data layer for AI-native software.\r\n\r\n",
-      "website": "http://hyperprobe.co",
+      "one_liner": "The runtime data layer for agents to monitor and debug apps",
+      "long_description": "With tools like Cursor and Claude Code, writing software is no longer the bottleneck. Debugging is. Agents cannot fix production crashes using logs and traces that were sized for human eyeballs. The gap is missing data.\r\n\r\nHyperProbe allows agents to debug live software autonomously. Our SDK drops non-breaking probes straight into running services to read exact variable states from memory at the moment of failure, instead of reasoning backwards from flat logs.\r\n\r\nZero redeploys. Under 1% CPU overhead. Automatic PII redaction.\r\n\r\nWe turn 4-hour production war rooms into 10-minute automated resolutions. As agents write and operate more of the world's software, HyperProbe is the runtime observability layer that lets them understand what they built.\r\n\r\n",
+      "website": "https://hyperprobe.co",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
       ],
       "tags": [
+        "AIOps",
+        "Artificial Intelligence",
         "Developer Tools",
-        "DevSecOps",
-        "SaaS"
+        "SaaS",
+        "DevOps"
       ],
       "team_size": 8,
       "location": "San Francisco, CA, USA",
@@ -10222,7 +10225,7 @@
       "slug": "inkbox",
       "name": "Inkbox",
       "batch": "Summer 2026",
-      "one_liner": "Let your agents communicate via email, phone, iMessage, & Agent2Agent",
+      "one_liner": "The identity and communication layer for AI agents",
       "long_description": "For your AI agents to behave like teammates, we give them persistent identities with their own email, phone, and iMessage. We also provide them an agent-to-agent channel, so they can communicate for task delegation.",
       "website": "https://inkbox.ai",
       "industries": [
@@ -10230,9 +10233,9 @@
         "Infrastructure"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -11544,7 +11547,7 @@
       "name": "Lamb Labs",
       "batch": "Summer 2026",
       "one_liner": "Lightning fast chips with hardcoded AI models",
-      "long_description": "Lamb Labs is building custom chips for AI inference and the world's fastest LLM model at the lowest power. We've developed a new post-training technique that converts existing models to a diffusion-based architecture that delivers 2× faster inference on existing GPUs. We then build the hardware, custom silicon chips targeting up to 20,000+ tok/s and a 63× higher intelligence per watt.",
+      "long_description": "Lamb Labs is building MPUs (Model Processing Units), custom chips that hardcode LLM weights directly into the chip. Unlike GPUs, which move weights between memory and compute, MPUs keep the model on-chip, targeting up to 20,000+ tok/s and a 63× higher intelligence per watt.\r\n\r\n",
       "website": "http://lamb-labs.com",
       "industries": [
         "B2B"
@@ -12860,7 +12863,7 @@
       "slug": "manifold-2",
       "name": "Manifold",
       "batch": "Summer 2026",
-      "one_liner": "Low-cost, deployment-ready robotic labor for warehouses",
+      "one_liner": "Deployment-ready robotic labor for the supply chain industry ",
       "long_description": "The US Warehouse industry spends $75bn on labor each year. Yet, only 10% of US warehouses have any form of automation, because existing robotics are too expensive and hard to integrate. \r\n\r\nManifold deploys autonomous robots that handle picking, loading / unloading, and palletizing — priced by pick. Integration in hours. No upfront costs. No retrofitting. No need to rebuild the operation around the robot. \r\n\r\nOur mission is to make it easy for any warehouse to adopt robotics.",
       "website": "https://www.manifoldindustries.ai/",
       "industries": [
@@ -15237,15 +15240,15 @@
       "slug": "ooak-data",
       "name": "Ooak Data",
       "batch": "Summer 2026",
-      "one_liner": "We turn company data into RL environnements.",
+      "one_liner": "We turn company data into training data",
       "long_description": "Ooak Data turns internal company data into a training ground where AI agents can be tested on real work.\r\n",
       "website": "https://ooakdata.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Reinforcement Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Reinforcement Learning"
       ],
       "team_size": 5,
       "location": "Paris, Île-de-France, France",
@@ -18499,7 +18502,7 @@
       "batch": "Spring 2026",
       "one_liner": "Run any coding agent harness in the cloud",
       "long_description": "Replicas is a background coding agent that allows you to delegate tasks to Claude Code or Codex from Slack, Linear, GitHub, and more. Each task works inside of a sandboxed virtual machine, allowing teams to heavily parallelize work and burn through tickets.\r\n\r\nReplicas agents output higher quality PRs via feedback loops - each task automatically is notified and fixes CI failures and reads all code reviews. With Environments, engineering teams can configure agents to run their entire codebase locally, verify its work, and provide preview URLs.",
-      "website": "https://tryreplicas.com",
+      "website": "https://replicas.dev",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
@@ -20140,7 +20143,7 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "AI"
+        "Artificial Intelligence"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -20211,7 +20214,7 @@
       "slug": "skillsync",
       "name": "Skillsync",
       "batch": "Winter 2026",
-      "one_liner": "Teleport your context across agents",
+      "one_liner": "Move context across agents and teammates",
       "long_description": "Skillsync lets you push your agents' sessions the way you push code. Everything lands in one searchable place. The best sessions become skills any agent can load. Works across your team!\r\n\r\nToday, all that thinking, what worked, what didn't, and why, is scattered across Claude Code, Codex, Hermes, whatever each engineer prefers. It vanishes when the session closes. Skillsync captures it, so every agent builds like your best engineer. The more your team ships, the smarter your agents get. Engineering culture stops being tribal knowledge. It becomes explicit, shared, and reusable.",
       "website": "https://skillsync.com",
       "industries": [
@@ -20537,6 +20540,28 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1757825190
+    },
+    {
+      "slug": "spectre-intelligence",
+      "name": "Spectre Intelligence",
+      "batch": "Summer 2026",
+      "one_liner": "We are a multi-strategy trading firm that trains AI traders. ",
+      "long_description": "Spectre Intelligence is a neotrading firm. We create AI traders instead of hiring human ones. Currently trading semis + bio.",
+      "website": "https://www.spectreintelligence.ai",
+      "industries": [
+        "Fintech",
+        "Asset Management"
+      ],
+      "tags": [
+        "Biotech",
+        "Investing",
+        "Trading",
+        "Semiconductors"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1787421048
     },
     {
       "slug": "speko",
@@ -24342,13 +24367,13 @@
         "Supply Chain and Logistics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
-        "Supply Chain"
+        "Supply Chain",
+        "AI"
       ],
       "team_size": 2,
-      "location": "London, England, United Kingdom",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1782389037
     },

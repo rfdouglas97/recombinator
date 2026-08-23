@@ -5962,7 +5962,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/archal",
     "batch": "Summer 2026",
     "one_liner": "The eval platform for autonomous software",
-    "description_combined": "The eval platform for autonomous software\n\nArchal lets you test agents and code that touch third-party APIs without hitting the real services. We build working clones of popular SaaS platforms that hold state across requests and behave like the originals, so you catch bugs before your agent does something irreversible in production.",
+    "description_combined": "The eval platform for autonomous software\n\nArchal lets you test agents and code that touch third-party APIs without hitting the real services. We build working clones of popular SaaS platforms that hold state across requests and behave like the originals, so you catch bugs before your agent does something irreversible in production.\n\nTest API integrations without test accounts, rate limits, or messy state.\n\n> TLDR: Create an API sandbox with the environments your CI, tests, and evals need. Your coding agent can start the API sandboxes (e.g Linear, Slack, Datadog), run tests, and inspect state changes. Ask your agent about archal.ai!\n\nHi everyone, I'm Aidan, the founder of Archal. I previously built agent environments at Scale AI and I've been an avid developer for most of my life, which led me to the problem Archal poses to solve.\n\nhttps:/youtu.be/pUfu1RFDYVk\n\nWhat we found\n\nCoding agents are getting much better at writing integrations, but testing those integrations is still painful. Many providers do not offer a usable sandbox, so developers fall back to throwaway accounts, shared test workspaces, or thin mocks. Those options are difficult to reset and make it hard to know whether an agent ",
     "industry_sub_vertical": "Agent testing, evaluation & sandbox infrastructure",
     "canonical_vertical_id": "ai-infrastructure.agent-observability",
     "vertical_id": "ai-infrastructure.agent-observability",
@@ -6027,6 +6027,12 @@
     "primary_bm_rationale": "Archal is an eval platform and infrastructure tool sold to AI developers and builders for testing agents, making it primarily an AI devtools/infrastructure product rather than vertical SaaS or managed service.",
     "primary_bm_assigned_at": "2026-06-05T20:00:24.681Z",
     "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 111649,
+    "launch_url": "https://www.ycombinator.com/launches/T2n-archal-api-sandboxes-built-for-ai-agents",
+    "launch_title": "Archal: API sandboxes, built for AI agents",
+    "launch_created_at": "2026-08-22T21:00:00.317Z",
+    "launch_tagline": "Test API integrations without test accounts, rate limits, or messy state.",
+    "launch_evaluated_at": "2026-08-23T14:20:51.841Z",
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical"
   },
@@ -18648,7 +18654,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/coarena",
     "batch": "Summer 2026",
     "one_liner": "Real World Evals and RL Environments for Computer-Use",
-    "description_combined": "Real World Evals and RL Environments for Computer-Use\n\nCoArena is a live arena where anyone can use the world&#x27;s top AI agents for free, including Fable, Sol, and models not yet released to the public, racing two of them on the same real computer task and judging which one did it better. Every battle becomes something the AI labs can&#x27;t build themselves, an honest test of their agents on real work, and the data to make them better.",
+    "description_combined": "Real World Evals and RL Environments for Computer-Use\n\nCoArena is a live arena where anyone can use the world&#x27;s top AI agents for free, including Fable, Sol, and models not yet released to the public, racing two of them on the same real computer task and judging which one did it better. Every battle becomes something the AI labs can&#x27;t build themselves, an honest test of their agents on real work, and the data to make them better.\n\nWe build the most advanced and biggest benchmark for computer use\n\nWe are officially launching CoArena (YC S26). Released 2 weeks ago, users have doubled every week since, and the arena went from $0 to $60,000 in revenue since. It's a live arena where the world's top Computer-Use models race to finish the same real computer task, and real people judge which one did it better, blind.\n\n\n\n\n\nThe problem\n\nEvery AI lab says their agent is the best at using a computer, and every claim points at a benchmark score. We know those scores well: earlier this year we built the #1 agent on OSWorld (82%). That's exactly how we learned the scores mean very little. Benchmarks are static, agents memorize them, and they say nothing about the messy tasks people actually need done.\n\nWhat we built\n\nOn CoArena, anyone can type a real task (\"find me the cheapest flight,\" \"assembl",
     "industry_sub_vertical": "AI agent evaluation and benchmarking data generation",
     "canonical_vertical_id": "ai-infrastructure.training-data",
     "vertical_id": "ai-infrastructure.training-data",
@@ -18723,6 +18729,12 @@
     "directory_synced_at": "2026-08-21T14:31:34.469Z",
     "classified_at": "2026-08-21T14:31:34.469Z",
     "proposed_phenotype": null,
+    "launch_id": 111689,
+    "launch_url": "https://www.ycombinator.com/launches/T3R-coarena-the-biggest-crowdsourced-benchmark-for-computer-use",
+    "launch_title": "Coarena - The biggest crowdsourced benchmark for Computer-Use",
+    "launch_created_at": "2026-08-22T19:00:00.303Z",
+    "launch_tagline": "We build the most advanced and biggest benchmark for computer use",
+    "launch_evaluated_at": "2026-08-23T14:20:51.841Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -79634,6 +79646,90 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit"
+  },
+  {
+    "slug": "spectre-intelligence",
+    "name": "Spectre Intelligence",
+    "website": "https://www.spectreintelligence.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/spectre-intelligence",
+    "batch": "Summer 2026",
+    "one_liner": "We are a multi-strategy trading firm that trains AI traders. ",
+    "description_combined": "We are a multi-strategy trading firm that trains AI traders. \n\nSpectre Intelligence is a neotrading firm. We create AI traders instead of hiring human ones. Currently trading semis + bio.",
+    "industry_sub_vertical": "AI-native multi-strategy trading firm (equities & derivatives)",
+    "canonical_vertical_id": "fintech.trading.derivatives",
+    "vertical_id": "fintech.wealth.asset-management",
+    "vertical_label": "Asset & wealth management",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "fintech-insurance-ai-product",
+    "phenotype_primary_label": "AI-Native Fintech Product",
+    "phenotype_family": "regulated_product",
+    "value_wedge": "regulated_product",
+    "ai_application": "trading_execution_optimization",
+    "ai_application_patterns": [
+      "autonomous_trading",
+      "multi_strategy_execution",
+      "market_prediction"
+    ],
+    "what_they_sell": "Spectre is itself a trading firm/fund that deploys AI agents as traders instead of hiring human portfolio managers. They take capital (LP/investor money) and execute multi-strategy trading operations autonomously via AI.",
+    "ai_play": "AI traders replace human traders as the core operational engine. AI agents learn market patterns, execute trades autonomously across semis and biotech, and optimize for returns. The AI is not a tool sold to other traders — it IS the trading operation.",
+    "who_pays": "Limited partners, institutional investors, and capital providers funding the trading operation.",
+    "confidence": 0.85,
+    "rationale": "Spectre is a neotrading firm that takes capital and operates as a trading entity. The AI trader is the core SKU — they are not selling software to hedge funds or brokers, they ARE the fund/trading operation. This matches fintech-insurance-ai-product: the startup is the regulated financial product (trading firm/fund), and AI is the differentiator that replaces human traders. Not vertical-workflow-agent (which would be selling trading tools to other funds) and not marketplace-network-ai (no exchange/venue component). High confidence: they explicitly state 'we create AI traders instead of hiring human ones' and operate as a trading firm taking capital.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Asset Management"
+    ],
+    "yc_tags": [
+      "Biotech",
+      "Investing",
+      "Trading",
+      "Semiconductors"
+    ],
+    "business_models": [
+      "BM-05"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1251785,
+        "full_name": "Michelle Li",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder and CEO at Spectre Intelligence, on leave from Harvard (I studied Economics & Biology and was originally class of &#x27;27). Previous research across generative protein language models, bacteriophages, CRISPR Cas9, and more. ISEF grand award winner, RSI and STS scholar.",
+        "linkedin_url": "https://www.linkedin.com/in/michelle-zhiya-li/",
+        "twitter_url": "https://x.com/michellezli",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/32f4686048180527d93f7d6f1a0018c328147f88.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABDVVJXQW%2F20260823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260823T142014Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA4aCXVzLXdlc3QtMiJHMEUCIQCRcGbMY9rJlCElV%2Fe23o7GqtkTZj9LjaKG3hBZ76EEPAIgM%2BpKShCXh0gnN2tqQQe6%2BdEQ4t1w1U8AriTDYKPb6%2F0q7gMI1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDEs7ZwzZyqCCgQS5iCrCA4CHAEW29eIIghlm2vUx59mDQAqdj%2Bml%2Fa6DC5rIVQtNPbjxopIPAu6V7MX1HcWtBwW1B%2BvV8zxKeW6ZYs0B8z3VOSHe%2BG%2FeaWXGKz6feBtFBefS%2BGLnnwbG1mv7mLdbfX9FLTFqzHbvlYEMc7pt2qksS%2By7scLmoTzjDIlQenqXm01pk7FJTJHI4PwVJV%2BAfRRJOGpyFZZqBazA6LvljOtqRKjhhuFzrpCVel9S21V9cr8yAoHmVgsa1oYlLCmsLAfXIxuaFwqLQC3cMwrXbKb5XqT8J2HY2sj8d8MrHOkRph9IpsiqjafxculoNIX%2BzZDLJFgGvtRabHziHIwyzTpnlCnt6PQhh46GogrtcS4BRR7e3gibAiWDBm3dLa7ODE1olfWuUsf7NSOjCA%2FqgpCgVWaVU6oc3VRNHRDgfH3ZTpbmAjeOSq4xUGG8KJlbQVU3luheJQTfgsNMrhJ9j9ELVji3kRm%2BwyXMSkb%2FuL%2FO4jpDWwqo9uxcvHl0eRZKDwuaHiY9AdEBZhOwpdcpui36D54mni0NYjvDbAopRDcFqSZzP4bv2wSEPxIUAhygIXfjXG4NFRIXoF0ifRRS1Qmm0DDL6qvUBjqlAZ3TJfGgW70eWAUa5bEu4FHO31cLlqPEnhrrP2C48IMfU952dCbfF0whZM%2FUWIDqd7IFq6OAqZNBltt0kpM8bXRCEzP5951M%2FIWqTHwnxYVyvoDTVFc7D%2BRWC2I9qts9sULLl4VuJ%2Bsv%2BX6mQyh%2B3ZNOrwK1kzX3v6f%2BJCg81%2Fl7Qpx%2FSj8pxojXwdzFASsKCeCTTsZklgVNhoE7ZW1TaLieAlGYrg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=62a161aff84f81d3964c6f35aaa70318f9d0e49b368aa932581672fab5a47b5c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Spectre Intelligence",
+          "href": "https://www.ycombinator.com/companies/spectre-intelligence"
+        }
+      },
+      {
+        "user_id": 2574740,
+        "full_name": "Joshua Zyzak",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Spectre Capital, CS and EE at Harvard, researched deep-RL controllers for quadruped robots and multimodal LLM-robotics",
+        "linkedin_url": "https://www.linkedin.com/in/josh-zyzak/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3a94186fa13fa1983bac60969d2c2ddafff69b21.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABDVVJXQW%2F20260823%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260823T142014Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA4aCXVzLXdlc3QtMiJHMEUCIQCRcGbMY9rJlCElV%2Fe23o7GqtkTZj9LjaKG3hBZ76EEPAIgM%2BpKShCXh0gnN2tqQQe6%2BdEQ4t1w1U8AriTDYKPb6%2F0q7gMI1%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDEs7ZwzZyqCCgQS5iCrCA4CHAEW29eIIghlm2vUx59mDQAqdj%2Bml%2Fa6DC5rIVQtNPbjxopIPAu6V7MX1HcWtBwW1B%2BvV8zxKeW6ZYs0B8z3VOSHe%2BG%2FeaWXGKz6feBtFBefS%2BGLnnwbG1mv7mLdbfX9FLTFqzHbvlYEMc7pt2qksS%2By7scLmoTzjDIlQenqXm01pk7FJTJHI4PwVJV%2BAfRRJOGpyFZZqBazA6LvljOtqRKjhhuFzrpCVel9S21V9cr8yAoHmVgsa1oYlLCmsLAfXIxuaFwqLQC3cMwrXbKb5XqT8J2HY2sj8d8MrHOkRph9IpsiqjafxculoNIX%2BzZDLJFgGvtRabHziHIwyzTpnlCnt6PQhh46GogrtcS4BRR7e3gibAiWDBm3dLa7ODE1olfWuUsf7NSOjCA%2FqgpCgVWaVU6oc3VRNHRDgfH3ZTpbmAjeOSq4xUGG8KJlbQVU3luheJQTfgsNMrhJ9j9ELVji3kRm%2BwyXMSkb%2FuL%2FO4jpDWwqo9uxcvHl0eRZKDwuaHiY9AdEBZhOwpdcpui36D54mni0NYjvDbAopRDcFqSZzP4bv2wSEPxIUAhygIXfjXG4NFRIXoF0ifRRS1Qmm0DDL6qvUBjqlAZ3TJfGgW70eWAUa5bEu4FHO31cLlqPEnhrrP2C48IMfU952dCbfF0whZM%2FUWIDqd7IFq6OAqZNBltt0kpM8bXRCEzP5951M%2FIWqTHwnxYVyvoDTVFc7D%2BRWC2I9qts9sULLl4VuJ%2Bsv%2BX6mQyh%2B3ZNOrwK1kzX3v6f%2BJCg81%2Fl7Qpx%2FSj8pxojXwdzFASsKCeCTTsZklgVNhoE7ZW1TaLieAlGYrg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2c38bc5fde3315e948d6bbc6f29d61c515862f4cc266c2408ab3432fb098c1ab",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Spectre Intelligence",
+          "href": "https://www.ycombinator.com/companies/spectre-intelligence"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-23T14:20:22.646Z",
+    "classified_at": "2026-08-23T14:20:22.646Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 0.55,
+    "vertical_normalize_method": "yc_subindustry_default",
+    "primary_bm": "BM-05"
   },
   {
     "slug": "speko",

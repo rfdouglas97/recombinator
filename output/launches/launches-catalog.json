@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-08-22T14:18:51.612Z",
-  "count": 1246,
+  "updated_at": "2026-08-23T14:20:51.841Z",
+  "count": 1248,
   "launches": [
+    {
+      "launch_id": 111649,
+      "launch_slug": "T2n-archal-api-sandboxes-built-for-ai-agents",
+      "launch_url": "https://www.ycombinator.com/launches/T2n-archal-api-sandboxes-built-for-ai-agents",
+      "title": "Archal: API sandboxes, built for AI agents",
+      "tagline": "Test API integrations without test accounts, rate limits, or messy state.",
+      "body": "> **TLDR:** Create an API sandbox with the environments your CI, tests, and evals need. Your coding agent can start the API sandboxes (e.g Linear, Slack, Datadog), run tests, and inspect state changes. Ask your agent about archal.ai!\n\nHi everyone, I'm Aidan, the founder of Archal. I previously built agent environments at Scale AI and I've been an avid developer for most of my life, which led me to the problem Archal poses to solve.\n\n[https:/youtu.be/pUfu1RFDYVk](https://youtu.be/pUfu1RFDYVk)\n\n**What we found**\n\nCoding agents are getting much better at writing integrations, but testing those integrations is still painful. Many providers do not offer a usable sandbox, so developers fall back to throwaway accounts, shared test workspaces, or thin mocks. Those options are difficult to reset and make it hard to know whether an agent actually completed a task or only returned a plausible response.\n\nAs Adam Bender at Google put it, “But with 10x more code and 10x more services, integration tests are going to become the most important part of your quality strategy.” (Google, Software engineering is at the tipping point)\n\n**How Archal works**\n\nWith all of this in mind, I built Archal for a starting point of how the next generation of devs will do QA. It's a tool focused on giving agent developers and integration engineers API sandboxes of the SaaS platforms they use in prod pipelines. With Archal, a developer or their coding agent can start a sandbox, run the task, inspect what changed, and reset everything for the next test. We eliminate the need of separate test accounts, thin mocks and stubs, as well as overburdening rate limits on provider-owned sandboxes.\n\n**Our ask**\n\nWe're giving out $20 in Archal credits to each new developer that signs up and starts a sandbox. We’d love for you to give it a try and give us feedback, cheers to making testing easier in the era of coding agents!",
+      "created_at": "2026-08-22T21:00:00.317Z",
+      "total_vote_count": 53,
+      "company_slug": "archal",
+      "company_name": "Archal",
+      "company_website": "https://www.archal.ai/",
+      "company_batch": "Summer 2026",
+      "company_industry": "B2B",
+      "company_id": 31216,
+      "author_name": "Aidan Tiruvan",
+      "scraped_at": "2026-08-23T14:20:50.420Z",
+      "review_summary": {
+        "conformance_index": 56,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 111689,
+      "launch_slug": "T3R-coarena-the-biggest-crowdsourced-benchmark-for-computer-use",
+      "launch_url": "https://www.ycombinator.com/launches/T3R-coarena-the-biggest-crowdsourced-benchmark-for-computer-use",
+      "title": "Coarena - The biggest crowdsourced benchmark for Computer-Use",
+      "tagline": "We build the most advanced and biggest benchmark for computer use",
+      "body": "We are officially launching CoArena (YC S26). Released 2 weeks ago, users have doubled every week since, and the arena went from $0 to $60,000 in revenue since. It's a live arena where the world's top Computer-Use models race to finish the same real computer task, and real people judge which one did it better, blind.\n\n<https://youtu.be/TB_9YMYCWw4>\n\n![uploaded image](/media/?type=post&id=111689&key=user_uploads/1194042/43ddaa95-1f50-4b30-b0a4-9b085433ec3c)\n\n**The problem**\n\nEvery AI lab says their agent is the best at using a computer, and every claim points at a benchmark score. We know those scores well: earlier this year we built the #1 agent on OSWorld (82%). That's exactly how we learned the scores mean very little. Benchmarks are static, agents memorize them, and they say nothing about the messy tasks people actually need done.\n\n**What we built**\n\nOn CoArena, anyone can type a real task (\"find me the cheapest flight,\" \"assemble this expense report\"), watch two anonymous frontier agents race it live, and vote on the winner. Names are revealed only after you vote, so the judging is blind. Every battle becomes a fresh eval no model has ever seen, and the failure cases labs never catch: prompt injection, spending money when it should ask, silent side-effects.\n\n**What the arena has already shown**\n\n\\- Only \\~66% of agent runs finish their task at all 1 in 3 dies to a failure before any score exists\n\n\\- On identical tasks, the best frontier agent completes \\~87% of runs; the worst completes \\~42%\n\n\\- One major frontier model times out in roughly a third of its runs\n\n\\- In \\~7% of battles, human judges ruled that BOTH agents failed\n\n\\- The #1 spot on our leaderboard changed hands three times in three days, real tasks don't saturate\n\n**What you get**\n\nIt's completely free, including models you can't use anywhere else (Fable, Sol, and unreleased previews). Run your real errands with frontier agents, keep whatever they produce, and find out which model is actually best at YOUR kind of work, not the benchmark's.\n\n**Our asks**\n\n1\\. Use it, it's free. Bring your daily work: the flights, the spreadsheets, the research. Two frontier agents will race it, you keep the result, and your vote makes the leaderboard more honest: <https://coarena.ai>\n\n2\\. If you're an AI lab working on computer use or vision, or a robotics company building on vision, we'd love to talk. We can send you sample evals and data today: [founders@coasty.ai](mailto:founders@coasty.ai)",
+      "created_at": "2026-08-22T19:00:00.303Z",
+      "total_vote_count": 38,
+      "company_slug": "coarena",
+      "company_name": "CoArena",
+      "company_website": "http://coarena.ai",
+      "company_batch": "Summer 2026",
+      "company_industry": "B2B",
+      "company_id": 33738,
+      "author_name": "Prateek Jannu",
+      "scraped_at": "2026-08-23T14:20:50.421Z",
+      "review_summary": {
+        "conformance_index": 55,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
     {
       "launch_id": 111583,
       "launch_slug": "T1j-meteoric-drones-that-clear-clouds-over-solar-farms-and-ultimately-weaken-hurricanes",
