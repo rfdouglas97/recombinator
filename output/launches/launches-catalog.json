@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-08-23T14:20:51.841Z",
-  "count": 1248,
+  "updated_at": "2026-08-24T14:38:56.430Z",
+  "count": 1250,
   "launches": [
+    {
+      "launch_id": 111682,
+      "launch_slug": "T3K-mosaic-shared-memory-for-your-team-s-agents",
+      "launch_url": "https://www.ycombinator.com/launches/T3K-mosaic-shared-memory-for-your-team-s-agents",
+      "title": "Mosaic — Shared memory for your team's agents",
+      "tagline": "Sync all your teams' AI agent sessions, in one place.",
+      "body": "**TL;DR**\n\nYour team is running dozens of agents and not one of them knows what the others did. [Mosaic](https://mosaic.inc/) syncs every AI session your team runs - Claude Code, Codex, Cursor and more - into one shared place that any agent can use. \\~2,000 installs and 37 orgs actively syncing.\\\n\\\nIt started as a real-time coding environment where multiple people and their agents work together. We [**went viral**](https://x.com/dorsa_rohani/status/2074963064231952832?s=20), defined the multiplayer AI category, and this direction has since taken off: YC added multiplayer AI to its Request for Startups, and [Anthropic is validating](https://x.com/ClaudeDevs/status/2085817074816070014) the same direction. Then we took the feature users found most valuable — centralized agent sessions — and built the product around it, continuing to lead the category ever since.\\\n\\\nIDE Demo: <https://youtu.be/SQywbNRe2xk>\\\n\\\nAgent session sync demo: <https://youtu.be/QVzn-1vzpsY>\n\n### **The problem**\n\nEvery coding agent session starts from zero. No memory of what happened last session, why a decision was made, or where the last person stopped. Agents run in isolation, so the only handoff between them is ad-hoc glue that breaks the moment a team adds more agents. Teammates constantly redo work they can't see.\n\n**Mosaic** keeps the record of every agent session — what was tried, what changed, and why — and carries it from one session and one teammate to the next. Any teammate or agent picks up exactly where someone else left off instead of starting over.\n\nAs a whole, we believe the way people are thinking about multi-agent systems is wrong, and our direction is being validated in real time. Most systems copy the human org chart — specialized agents passing messages — but that structure only exists because humans can't share memory; the real unit isn't the agent, it's one shared context store every agent reads from and writes to. [Read our memo here](https://mosaic.inc/blog/memo).\n\n![uploaded image](/media/?key=user_uploads/2918134/f7913654-964e-4579-9f66-45d531e3b009)\n\n### Who we are\n\nWe're two engineers who built and deployed multi-agent systems and hit this exact wall every time.\n\n\\- **Dorsa:** worked on frontier ML @ NVIDIA, Tenstorrent and Deep Genomics. A Transformer implementation of hers has [2,400+ stars](https://github.com/DorsaRoh/Machine-Learning) on Github. 11-time hackathon winner and one of Major League Hacking’s youngest [Top 50 Hackers](https://top.mlh.com/2023/profiles/dorsa-rohani) out of 150,000+ hackers worldwide.\n\n\\- **Shubham:** founding engineer @ Beem building multi-agent systems that reason over human intent. A serial hacker at heart, he reverse-engineered 70 campus kiosks at UCSD and chained their compute into a working distributed cloud platform.\n\n### **Our ask**\n\n* **Run multiple coding agents on your team? Try Mosaic and tell us what breaks!**\n* **Intros** to engineering teams where every developer already runs their own agent.\n* Reach us directly: [contact@mosaic.inc](https://mosaic.inc/)\n\nWe built Mosaic because we kept facing this problem ourselves. If you're living it too, we'd love to hear from you.",
+      "created_at": "2026-08-24T14:30:00.125Z",
+      "total_vote_count": 1,
+      "company_slug": "mosaic-inc",
+      "company_name": "Mosaic",
+      "company_website": "https://mosaic.inc",
+      "company_batch": "Summer 2026",
+      "company_industry": "B2B",
+      "company_id": 32201,
+      "author_name": "Dorsa Rohani",
+      "scraped_at": "2026-08-24T14:38:55.146Z",
+      "review_summary": {
+        "conformance_index": 74,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 111814,
+      "launch_slug": "T5S-wondertx-extrapolative-ai-to-unlock-first-in-class-drugs",
+      "launch_url": "https://www.ycombinator.com/launches/T5S-wondertx-extrapolative-ai-to-unlock-first-in-class-drugs",
+      "title": "WonderTx: Extrapolative AI to Unlock First-in-Class Drugs",
+      "tagline": "Reindustrializing our life science ecosystem.",
+      "body": "Our objective is to deliver first-in-class medicines against disease targets that cannot currently be drugged effectively or at all. Therefore, we are building a lights-out wonder drug factory, where AI runs the entire design-make-test loop. Linking superhuman judgment to robotic throughput is the path to reindustrializing our life science ecosystem, not through throwing human labor at the problem.\n\nOur team has been working on this for over a decade, so we know that there has never been a better time to build this system.  Abe co-founded Atomwise, one of the first AI-for-drug-discovery companies.  We raised $220 million; hired 100 people; signed over $5B in total deal value with big pharma companies like Sanofi, Bayer, Eli Lilly, and others; and ran the biggest application of AI to hit discovery in history. Saulo solved the synthesizability problem in generative chemistry AI and wrote structural biology software that remains the standard toolkit (KVFinder; qFit3, STCRDab). Cam co-founded Xbox &amp; Xbox Live (Microsoft) and has been a CEO, CTO, COO, and CPO across AI, biotech, healthcare, and consumer tech. \n\nToday, we see the convergence of critical enabling computational, physical, and economic trend lines. Agentic systems have become proficient orchestrators and tool integrators, as the frontier labs continue to extend the time horizons over which agents can operate; in our own hands, we have already compressed compound selection timelines 10x by replacing manual processes by agentic-run. The algorithmically-accessible chemical space has been growing exponentially for two decades, and the rise of cloud labs enables closing and scaling the design loop. Finally, the looming Big Pharma patent cliff means that the ecosystem is aligned on the value of innovative new assets. \n\nAt WonderTx, we’re beginning by replacing needles with pills. Many drugs, like insulin or Ozempic, are great except you have to inject them. We discover new molecules that you can take as a pill instead. Because the pills operate on biology that has been shown to be effective in people, rather than merely in animal models of disease, we avoid what has historically been the single biggest risk in drug discovery.  This should dramatically increase our probability of success.\n\nThere’s $200B of treatable diseases and validated human biology without a pill because discovery programs lack a tractable chemical starting point, which makes this a zero-shot inference problem.  Because these targets have no training data, off-the-shelf LLMs and other historical interpolative AI approaches are insufficient. Instead, we are building our own extrapolative frontier models that reason beyond their training data. Most critically, we have repeatedly validated our platform on both our own and partner programs. On 4 biologically- and structurally-diverse targets where we had zero training data, we successfully picked binders that were validated experimentally, with confirmation ranging from primary screen hits to crystallographic structures. ",
+      "created_at": "2026-08-24T12:30:00.531Z",
+      "total_vote_count": 1,
+      "company_slug": "wondertx",
+      "company_name": "WonderTx",
+      "company_website": "https://wondertx.ai/",
+      "company_batch": "Summer 2026",
+      "company_industry": "Healthcare",
+      "company_id": 31425,
+      "author_name": "Abraham Heifets",
+      "scraped_at": "2026-08-24T14:38:55.146Z",
+      "review_summary": {
+        "conformance_index": 78,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
     {
       "launch_id": 111649,
       "launch_slug": "T2n-archal-api-sandboxes-built-for-ai-agents",

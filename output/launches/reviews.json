@@ -1,7 +1,143 @@
 {
-  "updated_at": "2026-08-23T14:20:50.477Z",
+  "updated_at": "2026-08-24T14:38:55.197Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 111682,
+      "company_slug": "mosaic-inc",
+      "launch_url": "https://www.ycombinator.com/launches/T3K-mosaic-shared-memory-for-your-team-s-agents",
+      "created_at": "2026-08-24T14:30:00.125Z",
+      "classification": {
+        "phenotype_primary_id": "agent-context-infra",
+        "vertical_id": "ai-infrastructure.agent-runtime",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-24T14:38:55.179Z",
+        "launch_id": 111682,
+        "company_slug": "mosaic-inc",
+        "taxonomy": {
+          "conformance_index": 74,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 61,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "agent-context-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-context-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Agent Context Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 111814,
+      "company_slug": "wondertx",
+      "launch_url": "https://www.ycombinator.com/launches/T5S-wondertx-extrapolative-ai-to-unlock-first-in-class-drugs",
+      "created_at": "2026-08-24T12:30:00.531Z",
+      "classification": {
+        "phenotype_primary_id": "biotech-rd-agent",
+        "vertical_id": "healthcare.pharma.drug-discovery",
+        "business_models": [
+          "BM-09"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-24T14:38:55.180Z",
+        "launch_id": 111814,
+        "company_slug": "wondertx",
+        "taxonomy": {
+          "conformance_index": 78,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-09",
+            "vertical_id": "healthcare.pharma.drug-discovery",
+            "phenotype_primary_id": "biotech-rd-agent",
+            "cell_key": "BM-09::healthcare.pharma.drug-discovery::biotech-rd-agent",
+            "business_model_label": "Biotech / R&D platform",
+            "vertical_label": "Drug discovery & delivery R&D",
+            "phenotype_label": "Biotech / clinical R&D acceleration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
     {
       "launch_id": 111649,
       "company_slug": "archal",

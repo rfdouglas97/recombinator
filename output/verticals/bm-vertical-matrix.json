@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-23T14:20:52.740Z",
+  "generated_at": "2026-08-24T14:38:57.267Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1385,
+    "assignment_count": 1388,
     "mapped_verticals": 243,
     "observed_cells": 474,
     "total_verticals": 525,
@@ -607,6 +607,27 @@
     {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.aviation.space",
+      "vertical_label": "Space & satellite systems",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "beyond-reach-labs",
+        "daivin",
+        "dispatch",
+        "ethos-space-resources",
+        "exosat",
+        "galactic-resource-utilization-space-inc-gru-space",
+        "generalastro",
+        "instinct",
+        "instinct-space",
+        "pacific",
+        "reditus-space",
+        "wardstone"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
       "vertical_id": "industrials.defense.drones",
       "vertical_label": "Defense drone & UAS operations",
       "sector_id": "industrials-defense",
@@ -663,26 +684,6 @@
         "lightsprint",
         "rev1",
         "rovr"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.aviation.space",
-      "vertical_label": "Space & satellite systems",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "beyond-reach-labs",
-        "daivin",
-        "dispatch",
-        "exosat",
-        "galactic-resource-utilization-space-inc-gru-space",
-        "generalastro",
-        "instinct",
-        "instinct-space",
-        "pacific",
-        "reditus-space",
-        "wardstone"
       ]
     },
     {
@@ -887,6 +888,23 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "gini",
+        "human-behavior",
+        "joindex",
+        "logical",
+        "opentag",
+        "pally",
+        "sentient-os",
+        "stamp"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.qa-testing",
@@ -1006,21 +1024,6 @@
         "regbase",
         "scoop",
         "vulcan-technologies"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.ops.knowledge",
-      "vertical_label": "Enterprise knowledge management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "gini",
-        "human-behavior",
-        "joindex",
-        "logical",
-        "pally",
-        "stamp"
       ]
     },
     {

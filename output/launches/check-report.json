@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-23T14:20:51.935Z",
+  "checked_at": "2026-08-24T14:38:56.517Z",
   "source": "https://www.ycombinator.com/launches",
   "checked_count": 2,
   "new_count": 2,
@@ -9,8 +9,8 @@
     "enrichedCompanies": 2
   },
   "summary": {
-    "conforming": 0,
-    "partial": 2,
+    "conforming": 2,
+    "partial": 0,
     "non_conforming": 0,
     "would_have_predicted": 2,
     "surprise": 0,
@@ -19,92 +19,28 @@
   "reviews": [
     {
       "launch": {
-        "launch_id": 111649,
-        "company_slug": "archal",
-        "company_name": "Archal",
-        "launch_url": "https://www.ycombinator.com/launches/T2n-archal-api-sandboxes-built-for-ai-agents",
-        "created_at": "2026-08-22T21:00:00.317Z"
+        "launch_id": 111682,
+        "company_slug": "mosaic-inc",
+        "company_name": "Mosaic",
+        "launch_url": "https://www.ycombinator.com/launches/T3K-mosaic-shared-memory-for-your-team-s-agents",
+        "created_at": "2026-08-24T14:30:00.125Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-08-23T14:20:50.460Z",
-        "launch_id": 111649,
-        "company_slug": "archal",
+        "evaluated_at": "2026-08-24T14:38:55.179Z",
+        "launch_id": 111682,
+        "company_slug": "mosaic-inc",
         "taxonomy": {
-          "conformance_index": 56,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 3,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 98,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 61,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "ai-infrastructure.agent-observability",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::ai-infrastructure.agent-observability::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Agent observability & logging",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 111689,
-        "company_slug": "coarena",
-        "company_name": "CoArena",
-        "launch_url": "https://www.ycombinator.com/launches/T3R-coarena-the-biggest-crowdsourced-benchmark-for-computer-use",
-        "created_at": "2026-08-22T19:00:00.303Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-23T14:20:50.461Z",
-        "launch_id": 111689,
-        "company_slug": "coarena",
-        "taxonomy": {
-          "conformance_index": 55,
-          "verdict": "partial",
+          "conformance_index": 74,
+          "verdict": "conforming",
           "dimensions": {
             "phenotype_alignment": {
               "score": 65,
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 3,
-              "band": "weak"
+              "score": 85,
+              "band": "strong"
             },
             "business_model_fit": {
               "score": 70,
@@ -115,18 +51,18 @@
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 71,
+              "score": 61,
               "band": "acceptable"
             }
           },
           "cell": {
             "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.training-data",
-            "phenotype_primary_id": "agent-observability-evals",
-            "cell_key": "BM-03::ai-infrastructure.training-data::agent-observability-evals",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "agent-context-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-context-infra",
             "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Training & eval data generation",
-            "phenotype_label": "Agent observability, evals, or safety"
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Agent Context Infrastructure"
           }
         },
         "predictor": {
@@ -142,9 +78,71 @@
           "retro_transfer_band": "acceptable",
           "would_have_been_predicted": true
         },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 111814,
+        "company_slug": "wondertx",
+        "company_name": "WonderTx",
+        "launch_url": "https://www.ycombinator.com/launches/T5S-wondertx-extrapolative-ai-to-unlock-first-in-class-drugs",
+        "created_at": "2026-08-24T12:30:00.531Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-24T14:38:55.180Z",
+        "launch_id": 111814,
+        "company_slug": "wondertx",
+        "taxonomy": {
+          "conformance_index": 78,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-09",
+            "vertical_id": "healthcare.pharma.drug-discovery",
+            "phenotype_primary_id": "biotech-rd-agent",
+            "cell_key": "BM-09::healthcare.pharma.drug-discovery::biotech-rd-agent",
+            "business_model_label": "Biotech / R&D platform",
+            "vertical_label": "Drug discovery & delivery R&D",
+            "phenotype_label": "Biotech / clinical R&D acceleration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
       }
     }
   ]
