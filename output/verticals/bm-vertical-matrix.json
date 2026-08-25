@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-24T14:38:57.267Z",
+  "generated_at": "2026-08-25T14:42:13.840Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1388,
+    "assignment_count": 1390,
     "mapped_verticals": 243,
     "observed_cells": 474,
     "total_verticals": 525,
@@ -200,6 +200,7 @@
         "stablebrowse",
         "stillwind",
         "the-hog",
+        "turnstone",
         "unsiloed-ai",
         "upsolve-ai",
         "voygr"
@@ -1277,6 +1278,19 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "compute.inference-latency-optimization",
+      "vertical_label": "Inference latency monitoring & optimization",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "experiential-labs",
+        "onetriangle",
+        "the-token-company",
+        "zeroentropy"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "construction.budget-cost-control",
@@ -1632,18 +1646,6 @@
         "besimple-ai",
         "liva-ai",
         "panels"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "compute.inference-latency-optimization",
-      "vertical_label": "Inference latency monitoring & optimization",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "experiential-labs",
-        "the-token-company",
-        "zeroentropy"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-24T14:37:58.199Z",
+  "synced_at": "2026-08-25T14:41:23.940Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1273,
+  "company_count": 1271,
   "companies": [
     {
       "slug": "10x",
@@ -1179,9 +1179,9 @@
       "slug": "amorphic-labs",
       "name": "Amorphic Labs",
       "batch": "Summer 2026",
-      "one_liner": "Software Commerce Infrastructure for Agents",
-      "long_description": "The next billion software users are AI agents, yet fully autonomous agents remain impossible while every account, bill, and tool still runs through a human. We solve this for both agents and software vendors: vendors use us to let agents sign up and get billed directly, and to improve their agent experience across interfaces like MCP. Agents use us to find, acquire, and pay for what they need, including MCP servers, APIs, datasets, and skills.",
-      "website": "https://www.amorphiclabs.com",
+      "one_liner": "OpenRouter for Agent Capabilities",
+      "long_description": "The next billion software users are AI agents, yet agents still can't act on their own: every paid tool they need runs through a human making accounts, managing API keys, and guessing which provider is best. We are the capability marketplace built for agents: one MCP and one balance through which agents find, pay for, and use APIs, data, skills, other agents, and software at runtime, with every request routed to the best provider based on benchmarks from real tasks and outcome feedback from the agents themselves.",
+      "website": "https://www.agentmuxer.com",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
@@ -1273,22 +1273,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1777434223
-    },
-    {
-      "slug": "andustry",
-      "name": "Andustry",
-      "batch": "Spring 2026",
-      "one_liner": "",
-      "long_description": "Andustry is an AI-native hardware lab.",
-      "website": "http://andustry.com/",
-      "industries": [
-        "Industrials"
-      ],
-      "tags": [],
-      "team_size": 2,
-      "location": "Munich, BY, Germany",
-      "status": "Active",
-      "launched_at": 1773916364
     },
     {
       "slug": "anoria",
@@ -1764,8 +1748,8 @@
         "Engineering, Product and Design"
       ],
       "tags": [],
-      "team_size": 3,
-      "location": "New York City, NY, USA",
+      "team_size": 4,
+      "location": "Los Angeles, CA, USA",
       "status": "Active",
       "launched_at": 1738654022
     },
@@ -4489,10 +4473,10 @@
         "Productivity"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "Productivity",
         "Open Source",
-        "AI",
         "AI Assistant"
       ],
       "team_size": 2,
@@ -5569,7 +5553,7 @@
       "slug": "copycat",
       "name": "CopyCat",
       "batch": "Winter 2025",
-      "one_liner": "AI agents built for insurance. ",
+      "one_liner": "AI agents built for insurance brokers",
       "long_description": "CopyCat builds AI specifically for the commercial insurance industry. We save brokers 5-10hrs hours a week by automating repetitive CSR and Sales tasks.",
       "website": "https://runcopycat.com",
       "industries": [
@@ -5577,8 +5561,8 @@
         "Insurance"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Insurance"
+        "Insurance",
+        "AI"
       ],
       "team_size": 2,
       "location": "Seattle, WA, USA",
@@ -5826,22 +5810,6 @@
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1770673305
-    },
-    {
-      "slug": "crow",
-      "name": "Crow",
-      "batch": "Winter 2026",
-      "one_liner": "",
-      "long_description": "",
-      "website": "https://www.usecrow.ai/",
-      "industries": [
-        "B2B"
-      ],
-      "tags": [],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1768862675
     },
     {
       "slug": "crunched",
@@ -7100,8 +7068,8 @@
       "slug": "ekho-labs",
       "name": "Ekho Labs",
       "batch": "Summer 2026",
-      "one_liner": "Decisions for disrupted freight",
-      "long_description": "When global shipping breaks, companies pay three times: the emergency freight bill, the commitments they miss, and the weeks their teams lose to firefighting. Ekho customers skip all of it - they get days to weeks of warning and the cheapest/fastest move on each shipment and PO. Everyone else reacts to the same news at the same time; Ekho customers act before it.",
+      "one_liner": "World Model for Freight",
+      "long_description": "Ekho predicts the wars, strikes and tariffs that break global shipping, and tells freight teams which shipments are exposed and what to do about them. Predicting escalation is what our team did for eight years before this - now we bring the same engine to logistics.",
       "website": "https://ekholabs.com/",
       "industries": [
         "B2B",
@@ -7899,14 +7867,14 @@
       "name": "Financial Datasets",
       "batch": "Summer 2026",
       "one_liner": "Connect your agent to the stock market ",
-      "long_description": "Financial Datasets is the best way to connect your agent to real-time stock market data: fundamentals, filings, ownership, earnings, KPIs, prices, and more.\r\n\r\nNew data is available within seconds of publication. We are a primary-source provider of financial data. Statements, filings, and disclosures are collected, parsed, and served by us directly.",
+      "long_description": "Financial Datasets gives agents access to real-time global financial data.\r\n\r\nWe index financial data directly from primary sources and make it available through fast, predictable APIs built for machines.\r\n\r\nEarnings, news, fundamentals, KPIs, and more. All searchable within seconds of publication.\r\n\r\nWe're building the default data layer for financial agents doing research at scale.",
       "website": "https://financialdatasets.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
+        "AI",
         "Stocks"
       ],
       "team_size": 1,
@@ -8055,18 +8023,18 @@
       "slug": "floot",
       "name": "Floot",
       "batch": "Summer 2025",
-      "one_liner": "The easiest way for non-coders to build apps with AI.",
-      "long_description": "Floot lets non-coders & entrepreneurs build real web apps that actually work. We’re taking a new approach by building everything from the ground up for AI.\r\n\r\n✨ Try building an app at floot.com\r\n\r\nExisting AI app builders fall short of enabling non-coders to build real, serious apps. They often:\r\n- Break down when building anything more than a prototype or toy app\r\n- Have non-coders stuck with errors they don’t understand\r\n- Require non-coders to handle multiple services designed for developers (e.g. for backend, database, hosting, etc)\r\n\r\nThe fundamental problem: these AI app builders just cobble together existing developer tools and slap AI on top, but these tools were designed for humans and not for AI.\r\n\r\nThe result? Non-coders get excited, start building, hit a wall, and then abandon their projects.\r\n\r\nFloot is purpose-built for AI. Our secret sauce:\r\n\r\n1) Instead of reusing a coding framework designed for humans, we created a specialized framework that dictates how AI should write code and how the code runs on our infrastructure. This allows us to enforce best practices, detect errors earlier, and give the best feedback to the AI. As a result, Floot can write better code and fix issues more effectively.\r\n\r\n2) Floot has the entire tech stack built-in (backend, database, hosting, etc) so building and managing an app feels seamless, especially for non-coders. And because we control every layer of the stack, we can optimize each layer for AI-first coding.\r\n\r\nBecause of this, non-coders can get more done with less time and prompting. They can finally build serious apps that work, instead of getting stuck in frustrating error loops and then abandoning their projects.\r\n\r\nWe also built a highly scalable hosting system directly on AWS so Floot apps can handle real traffic and business demands. This means non-coders can build, deploy, and scale their apps on a single platform seamlessly.\r\n\r\nPlus, Floot is really fun to use! Try building an app at floot.com",
+      "one_liner": "The app platform inside Claude and ChatGPT.",
+      "long_description": "Floot is the layer where vibecoded software runs.\r\n\r\nSaaS is dead. Hundreds of millions of people already spend their day in Claude or ChatGPT - and increasingly, when they need an app, they won't buy one. They'll describe it, and it will exist.\r\n\r\nWe're building the infrastructure that makes that real. When Claude creates an app, it needs somewhere for that app to live: a backend, a database, hosting, a domain, the ability to scale, various services, maybe even to be able to work as a mobile app. Floot is that place - a full stack purpose-built for AI to operate, from a specialized framework that defines how AI writes and runs code, down to scalable hosting on AWS.\r\n\r\nThis means you can now build and ship real apps directly inside Claude and ChatGPT. Connect Floot, and the model you already pay for writes and debugs the code, shows a live preview, and publishes to your own domain. No need to wire up git, vercel, supabase and a dozen other providers. And no AI credits - every message runs on the subscription you already have, because we charge for the platform, not for a token markup.\r\n\r\nWe built Floot this way because we've watched the model layer commoditize - every serious builder writes good code now, including us. The lasting value isn't another agent between you and the model. It's the layer underneath, from wherever people already are. We're building Floot to be the home for all operation software, for the decades where most new software on earth is written by AI.\r\n\r\n✨ Try it: floot.com\r\n",
       "website": "https://floot.com",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "No-code",
-        "Web Development",
-        "AI"
+        "Web Development"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -8537,7 +8505,7 @@
       "slug": "fuse-ai",
       "name": "Fuse AI",
       "batch": "Winter 2025",
-      "one_liner": "#1 AI Platform for Outbound Sales",
+      "one_liner": "Agentic Sales Platform",
       "long_description": "FuseAI is the AI-native sales platform for modern revenue teams.\r\n\r\nBuilt for high-performance outbound, FuseAI consolidates your entire GTM stack - data, enrichment, multi-channel automation, real-time buying signals, and AI-driven execution  into one seamless system.\r\n\r\nWith powerful integrations and intelligent workflows, FuseAI doesn’t just help you run campaigns. It turns every signal into pipeline, and every rep into a top performer.",
       "website": "https://fuseai.com/",
       "industries": [
@@ -10093,10 +10061,10 @@
         "Defense"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
         "Drones",
-        "Swarm Robotics",
-        "AI"
+        "Swarm Robotics"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -10952,7 +10920,7 @@
       "name": "Kara",
       "batch": "Summer 2026",
       "one_liner": "Making Diamond Engineerable",
-      "long_description": "Kara is building diamond semiconductors. We begin with growing ultra-high purity diamond wafers for advanced hardware. Used in data centers, spacecrafts, RF systems, and quantum hardware, our diamond moves heat up to 5× better than copper, helping critical systems run cooler, faster, and more reliably. Diamond has spent centuries as a symbol. We are turning it into infrastructure.",
+      "long_description": "Kara is building diamond semiconductors. \r\n\r\nWe begin with growing ultra-high purity diamond wafers for advanced hardware. Used in data centers, spacecrafts, RF systems, and quantum hardware, our diamond moves heat up to 5× better than copper, helping critical systems run cooler, faster, and more reliably. \r\n\r\nDiamond has spent centuries as a symbol. We are turning it into infrastructure.",
       "website": "https://karalabs.ai/",
       "industries": [
         "Industrials"
@@ -11654,9 +11622,11 @@
         "Human Resources"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Human Resources",
         "Recruiting",
-        "HR Tech"
+        "HR Tech",
+        "Talent Acquisition"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -11890,15 +11860,15 @@
       "batch": "Summer 2026",
       "one_liner": "Fully automated GTM for small business",
       "long_description": "LemonLime runs fully automated sales and marketing for small businesses.\r\n\r\nEvery morning, LemonLime finds you new leads and drafts personalized outreach, prepares branded content, and identifies untapped sales & marketing opportunities.\r\n\r\nAll you have to do is click send.",
-      "website": "https://www.lemonlime.ai/",
+      "website": "https://www.lemonlime.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "Sales",
-        "Marketing"
+        "Marketing",
+        "AI"
       ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
@@ -12018,7 +11988,7 @@
         "E-commerce"
       ],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "Seoul, Seoul, South Korea",
       "status": "Active",
       "launched_at": 1777575492
     },
@@ -12928,15 +12898,18 @@
       "slug": "manufacturingintelligence",
       "name": "HERA",
       "batch": "Summer 2026",
-      "one_liner": "Hera catches thousand dollar errors before they hit the shop floor.",
-      "long_description": "Every custom part starts as a 2D drawing, and every drawing has to be reviewed before manufacturing begins. Today that means senior engineers checking dimensions, tolerances, and GD&T callouts by hand against ASME and ISO standards. It takes days, it bottlenecks release, and errors still slip through to the shop floor, where they become scrap and rework. Hera automates design review. Upload a drawing, get back every violation with the standard it breaks and where. Engineer-to-order manufacturers in aerospace, medical devices, and pressure vessels use Hera to release drawings faster and catch mistakes before they cost real money.",
+      "one_liner": "Hera is the design verification layer for heavy industry.",
+      "long_description": "At Hera, we build tools that help heavy engineering teams bring products to market up to 20× faster. Today, we work with manufacturers of data center ancillary equipment, renewable energy systems, robotics, heat exchangers, power plants and pressure vessels.\r\n",
       "website": "https://www.manufacturingintelligence.org",
       "industries": [
         "Industrials"
       ],
       "tags": [
         "B2B",
-        "Manufacturing"
+        "Design",
+        "3D Printing",
+        "Manufacturing",
+        "Industrial"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -12977,7 +12950,7 @@
         "Architecture",
         "AI"
       ],
-      "team_size": 10,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1786181708
@@ -13099,8 +13072,10 @@
       ],
       "tags": [
         "Hard Tech",
+        "Robotics",
         "Drones",
-        "Manufacturing"
+        "Manufacturing",
+        "Defense"
       ],
       "team_size": 3,
       "location": "Boston, MA, USA",
@@ -13817,16 +13792,18 @@
       "slug": "mochatrade",
       "name": "Mochatrade",
       "batch": "Spring 2026",
-      "one_liner": "US stock perps for Indian traders",
-      "long_description": "Mochatrade lets global traders trade perpetual futures on US stocks with up to 20x leverage. Access 50+ US stocks including TSLA, NVDA, AAPL. Mocha is fully self-custodial and no US brokerage account is needed. Traders on-ramp in local currencies and get professional-grade execution on the world's most liquid equities. Starting with India (140M+ demat account holders), and expanding across other markets.",
+      "one_liner": "US stock trading, unlocked for the globe",
+      "long_description": "Mochatrade lets global traders trade top US stocks using perpetual futures. Access all US stocks including TSLA, NVDA, and AAPL, plus pre-IPO companies and commodities, no US brokerage account needed. Money in and out in local currency (UPI in India), with professional-grade execution on the world's most liquid equities. Starting with India (140M+ demat account holders), expanding across other markets. Backed by Coinfund, Coinbase, and Y Combinator.\r\n\r\n",
       "website": "https://www.mochatrade.com",
       "industries": [
         "Fintech",
         "Consumer Finance"
       ],
-      "tags": [],
+      "tags": [
+        "Consumer Finance"
+      ],
       "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1775162589
     },
@@ -14704,7 +14681,7 @@
       "name": "Nori",
       "batch": "Summer 2026",
       "one_liner": "sub-$2000 humanoid robot you can teach to do anything",
-      "long_description": "We manufacture Nori: A sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have over 300k in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. ",
+      "long_description": "We manufacture Nori: A sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have over $350k+ in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. ",
       "website": "http://norirobotics.com",
       "industries": [
         "Industrials",
@@ -15196,6 +15173,28 @@
       "launched_at": 1783888956
     },
     {
+      "slug": "onetriangle",
+      "name": "OneTriangle",
+      "batch": "Summer 2026",
+      "one_liner": "The cheapest, fastest lightweight inference. ",
+      "long_description": "Inference has surpassed training as AI’s largest compute cost, accelerated by increasing demand for AI and agents. By using proprietary KV cache transfer tech, OneTriangle has cut inference costs by 20% and time by 40% compared to present standards.",
+      "website": "https://onetriangle.ai/",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Smart Packaging",
+        "Open Source",
+        "Infrastructure",
+        "AI"
+      ],
+      "team_size": 4,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1783378352
+    },
+    {
       "slug": "onlook",
       "name": "Onlook",
       "batch": "Winter 2025",
@@ -15398,16 +15397,16 @@
       "batch": "Summer 2026",
       "one_liner": "Model Agnostic Claude Tag",
       "long_description": "OpenTag - is an AI coworker that lives in your Slack and Teams. It has full context on your company, so it can answer questions, join calls, and take real work off your team's plate. OpenTag also keeps your company wiki and knowledge base up to date automatically, so your team's knowledge never goes stale or walks out the door.",
-      "website": "https://tryopentag.com/",
+      "website": "https://www.tryopentag.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
         "AIOps",
+        "Artificial Intelligence",
         "B2B",
         "Workflow Automation",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -15490,26 +15489,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1738206906
-    },
-    {
-      "slug": "operon",
-      "name": "Operon",
-      "batch": "Summer 2026",
-      "one_liner": "Agentic data layer for manufacturing & process industries. ",
-      "long_description": "Operon is the data intelligence layer for heavy industry. We ingest the messy documents a plant runs on (P&IDs, schematics, datasheets, scans) and turn them into one structured, queryable model of the facility.\r\n\r\nOn top of it, engineers query their plant in natural language and build agentic workflows for safety, compliance, and design. \r\n\r\n",
-      "website": "https://operonsolutions.com/en",
-      "industries": [
-        "Industrials"
-      ],
-      "tags": [
-        "Computer Vision",
-        "Manufacturing",
-        "Infrastructure"
-      ],
-      "team_size": 0,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1782593141
     },
     {
       "slug": "optifye-ai",
@@ -17478,15 +17457,15 @@
       "name": "PRINCEPS",
       "batch": "Summer 2026",
       "one_liner": "AI-native insurance company for the compute economy",
-      "long_description": "",
+      "long_description": "PRINCEPS is the first purpose-built insurance company (and MGA) for the trillion-dollar compute buildout. We underwrite SLA, GPU residual value, and outage risk, and price the coverage that unlocks cheaper financing for data centers and neoclouds.",
       "website": "https://princeps.dev",
       "industries": [
         "Fintech",
         "Insurance"
       ],
       "tags": [
-        "Machine Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Machine Learning"
       ],
       "team_size": 3,
       "location": "London, England, United Kingdom",
@@ -17517,8 +17496,8 @@
       "slug": "prized",
       "name": "Prized",
       "batch": "Summer 2026",
-      "one_liner": "Lovable for internal tools",
-      "long_description": "Prized lets non-engineers build, deploy, and share secure internal tools with AI, no engineering required. You don't need to know where the data lives, what APIs to use, or which connectors you need. Just describe what you want (a customer lookup, a dashboard, an approval flow), and Prized builds the tool on top of the right company data inside a governed boundary.\r\n\r\nThe people who feel the pain of missing internal tools most are non-engineers. They understand the workflow best but are blocked by the software layer, so they wait on engineering, duct-tape spreadsheets together, or increasingly rip company data into Claude Code and Cursor with no thought to permissions, sharing, or governance.\r\n\r\nPrized makes security the default, enforced in the infrastructure rather than left to whoever built the tool. Each tool gets access only to the tables and integrations it was explicitly granted, credentials are workspace-scoped so tools can't cross org boundaries, and outbound calls go through a controlled layer. \r\n\r\nAs an employee builds and shares, a teammate forks it and re-points it at their own data, and over time the company builds up a library of governed tools it actually owns.\r\n\r\nHudson was founding engineer at Gander (F24, acquired by Archer), then full-stack at Suno. Marinos studied CS and ME at Stanford and was on the same Gander team.",
+      "one_liner": "A cloud devbox that feels local",
+      "long_description": "Prized is a cloud development environment that feels local on your Mac. \r\n\r\nDevelopers get a dedicated, persistent machine with their repos, dependencies, and tools already configured. \r\n\r\nFiles sync into a real local folder, remote ports appear on localhost, and terminals persist through tmux, so developers and coding agents can keep working even after the laptop closes. \r\n\r\nMachines can be resized or cloned as workloads grow, without rebuilding the development environment.",
       "website": "https://prized.dev",
       "industries": [
         "B2B",
@@ -17526,8 +17505,7 @@
       ],
       "tags": [
         "Developer Tools",
-        "SaaS",
-        "Productivity"
+        "SaaS"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -19480,7 +19458,7 @@
         "Fintech"
       ],
       "tags": [],
-      "team_size": 3,
+      "team_size": 7,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1762196127
@@ -19814,7 +19792,7 @@
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
-      "launched_at": 1785372714
+      "launched_at": 1787571928
     },
     {
       "slug": "sentrial",
@@ -20139,8 +20117,8 @@
       "slug": "sim",
       "name": "Sim",
       "batch": "Spring 2025",
-      "one_liner": "Open source platform to build AI agent workflows",
-      "long_description": "Sim enables fast-growing technical teams to build and deploy AI agent workflows. \r\n\r\n70,000+ developers are already using Sim, integrating with 1000+ apps and LLMs to streamline workflows with AI agents.",
+      "one_liner": "The AI Workspace for Building and Managing AI Agents.",
+      "long_description": "Sim enables fast-growing technical teams to build and deploy AI agent workflows. \r\n\r\n100,000+ developers are already using Sim, integrating with 1000+ apps and LLMs to streamline workflows with AI agents.",
       "website": "https://sim.ai",
       "industries": [
         "B2B"
@@ -20148,7 +20126,7 @@
       "tags": [
         "AI"
       ],
-      "team_size": 6,
+      "team_size": 8,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1746478234
@@ -20742,16 +20720,16 @@
       "slug": "stablebrowse",
       "name": "StableBrowse",
       "batch": "Spring 2026",
-      "one_liner": "Help frontier labs build better models.",
+      "one_liner": "Building the Data Infrastructure layer for Physical AI. ",
       "long_description": "",
       "website": "https://stablebrowse.ai/",
       "industries": [
-        "B2B",
-        "Infrastructure"
+        "Industrials",
+        "Manufacturing and Robotics"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "API"
+        "Robotics",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -21470,7 +21448,7 @@
       "slug": "synthetic-society",
       "name": "Synthetic Society",
       "batch": "Summer 2025",
-      "one_liner": "Synthetic Users to Simulate Real Users",
+      "one_liner": "Synthetic Videos to Simulate Real Users",
       "long_description": "",
       "website": "https://syntheticsociety.ai/",
       "industries": [
@@ -21855,7 +21833,7 @@
       "name": "Tensr",
       "batch": "Summer 2026",
       "one_liner": "Robotic factories that build robots.",
-      "long_description": "Robotic factories that build robotics in the US.\r\n\r\nCurrently operating a 12,000 sqft factory in the Bay Area and actively manufacturing customer orders for some of the largest robotics companies in the US and the International Space Station.\r\n\r\nWe’re a group of Berkeley graduate robotics researchers who previously won a full scale autonomous IndyCar competition at 160mph.",
+      "long_description": "Robotic factories that build robotics in the US. Currently operating a 12,000 sqft factory in the Bay Area and actively manufacturing customer orders for some of the largest robotics companies in the US and the International Space Station.\r\n\r\nWe’re a group of Berkeley graduate robotics researchers who previously won a full scale autonomous IndyCar competition at 160mph.",
       "website": "https://tensr.com/",
       "industries": [
         "Industrials",
@@ -22176,8 +22154,8 @@
       "slug": "theora",
       "name": "Theora",
       "batch": "Summer 2025",
-      "one_liner": "The AI verification layer for trusted clinical trials in India.",
-      "long_description": "Making India the global hub for trusted clinical trials with multimodal AI oversight.\r\n\r\nWe are building an AI chaperone for clinical trials: multimodal AI that verifies protocol-required actions in real time, checks data against source evidence, and flags compliance risks before they compromise the study.\r\n",
+      "one_liner": "Building medical school for AI Agents",
+      "long_description": "Datasets and environments to help healthcare agents succeed at complex tasks.",
       "website": "https://www.theorahq.com",
       "industries": [
         "B2B",
@@ -22527,9 +22505,9 @@
         "Consumer"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Consumer",
         "Productivity",
+        "AI",
         "AI Assistant"
       ],
       "team_size": 3,
@@ -22549,9 +22527,10 @@
         "Banking and Exchange"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
-        "Regtech",
-        "AI"
+        "Compliance",
+        "Regtech"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -22903,28 +22882,6 @@
       "launched_at": 1740509470
     },
     {
-      "slug": "trustai",
-      "name": "TrustAI",
-      "batch": "Summer 2026",
-      "one_liner": "The cheapest, fastest lightweight inference. ",
-      "long_description": "Inference has surpassed training as AI’s largest compute cost, accelerated by increasing demand for AI and agents. By using proprietary KV cache transfer tech, TrustAI has cut inference costs by 20% and time by 40% compared to present standards.",
-      "website": "https://trytrust.ai",
-      "industries": [
-        "B2B",
-        "Infrastructure"
-      ],
-      "tags": [
-        "Artificial Intelligence",
-        "Smart Packaging",
-        "Open Source",
-        "Infrastructure"
-      ],
-      "team_size": 4,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1783378352
-    },
-    {
       "slug": "truthsystems",
       "name": "truthsystems",
       "batch": "Summer 2025",
@@ -23047,6 +23004,24 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1769729252
+    },
+    {
+      "slug": "turnstone",
+      "name": "Turnstone",
+      "batch": "Winter 2026",
+      "one_liner": "Work with agents that already know you",
+      "long_description": "Turnstone is the AI workspace where your agents already know you. Connect your apps (e.g. email, calendar, Slack, Drive) and your local folders. Turnstone turns all of it into your second brain and continuously updates it.\r\n\r\nSpin up agents (e.g. chief of staff, research, GTM) that all share that brain, so you stop re-explaining yourself and start getting real work done.\r\n\r\nIt all lives on your machine and runs on any model you already pay for. Ask your agent once, and it's done.",
+      "website": "https://myturnstone.ai",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1768862675
     },
     {
       "slug": "tweeksio",

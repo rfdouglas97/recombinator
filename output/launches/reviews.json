@@ -1,7 +1,500 @@
 {
-  "updated_at": "2026-08-24T14:38:55.197Z",
+  "updated_at": "2026-08-25T14:42:11.647Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 112080,
+      "company_slug": "omnara",
+      "launch_url": "https://www.ycombinator.com/launches/T9k-omnara-the-api-for-production-ready-agents",
+      "created_at": "2026-08-24T18:26:24.991Z",
+      "classification": {
+        "phenotype_primary_id": "horizontal-copilot-saas",
+        "vertical_id": "enterprise.devtools.productivity",
+        "business_models": [
+          "BM-02"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-25T14:42:11.622Z",
+        "launch_id": 112080,
+        "company_slug": "omnara",
+        "taxonomy": {
+          "conformance_index": 39,
+          "verdict": "non_conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 0,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-02",
+            "vertical_id": "enterprise.devtools.productivity",
+            "phenotype_primary_id": "horizontal-copilot-saas",
+            "cell_key": "BM-02::enterprise.devtools.productivity::horizontal-copilot-saas",
+            "business_model_label": "Horizontal AI SaaS",
+            "vertical_label": "Developer productivity & engineering tools",
+            "phenotype_label": "Horizontal copilot / productivity SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "cell_observed_with_peers",
+            "low_taxonomy_conformance"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 112000,
+      "company_slug": "manifold-2",
+      "launch_url": "https://www.ycombinator.com/launches/T8S-manifold-robotic-labor-for-the-supply-chain-industry",
+      "created_at": "2026-08-24T18:00:00.769Z",
+      "classification": {
+        "phenotype_primary_id": "physical-ai-autonomous-systems",
+        "vertical_id": "robotics.integration-deployment",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-25T14:42:11.624Z",
+        "launch_id": 112000,
+        "company_slug": "manifold-2",
+        "taxonomy": {
+          "conformance_index": 61,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "robotics.integration-deployment",
+            "phenotype_primary_id": "physical-ai-autonomous-systems",
+            "cell_key": "BM-08::robotics.integration-deployment::physical-ai-autonomous-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Robotic system integration & factory deployment",
+            "phenotype_label": "Physical AI & Autonomous Manufacturing"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 111880,
+      "company_slug": "standard-machines",
+      "launch_url": "https://www.ycombinator.com/launches/T6W-standard-machines-teaching-ai-to-design-advanced-chips",
+      "created_at": "2026-08-24T17:21:03.769Z",
+      "classification": {
+        "phenotype_primary_id": "training-data-synthetic",
+        "vertical_id": "devtools.build-optimization",
+        "business_models": [
+          "BM-03",
+          "BM-06"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-25T14:42:11.626Z",
+        "launch_id": 111880,
+        "company_slug": "standard-machines",
+        "taxonomy": {
+          "conformance_index": 70,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "devtools.build-optimization",
+            "phenotype_primary_id": "training-data-synthetic",
+            "cell_key": "BM-03::devtools.build-optimization::training-data-synthetic",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Build pipeline optimization & caching",
+            "phenotype_label": "Training / eval data generation"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 66,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 112046,
+      "company_slug": "sunflower",
+      "launch_url": "https://www.ycombinator.com/launches/T9C-the-sunflower-clinic-of-addiction-medicine-live-in-pa-mi",
+      "created_at": "2026-08-24T16:12:24.013Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "productivity.habit-tracking-routine",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-25T14:42:11.627Z",
+        "launch_id": 112046,
+        "company_slug": "sunflower",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 1,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "productivity.habit-tracking-routine",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::productivity.habit-tracking-routine::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Habit tracking & routine building",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 111293,
+      "company_slug": "audun",
+      "launch_url": "https://www.ycombinator.com/launches/Sx3-audun-ai-native-debt-collection",
+      "created_at": "2026-08-24T16:00:00.405Z",
+      "classification": {
+        "phenotype_primary_id": "ai-native-service-provider",
+        "vertical_id": "lending.collections-recovery",
+        "business_models": [
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-25T14:42:11.629Z",
+        "launch_id": 111293,
+        "company_slug": "audun",
+        "taxonomy": {
+          "conformance_index": 77,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-04",
+            "vertical_id": "lending.collections-recovery",
+            "phenotype_primary_id": "ai-native-service-provider",
+            "cell_key": "BM-04::lending.collections-recovery::ai-native-service-provider",
+            "business_model_label": "AI labor / managed service",
+            "vertical_label": "Collections & delinquency management",
+            "phenotype_label": "AI-Native Service Provider (Outcome-Based)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+        ]
+      }
+    },
+    {
+      "launch_id": 112001,
+      "company_slug": "spectre-intelligence",
+      "launch_url": "https://www.ycombinator.com/launches/T8T-spectre-intelligence-a-neotrading-firm",
+      "created_at": "2026-08-24T15:47:00.614Z",
+      "classification": {
+        "phenotype_primary_id": "fintech-insurance-ai-product",
+        "vertical_id": "fintech.wealth.asset-management",
+        "business_models": [
+          "BM-05"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-25T14:42:11.630Z",
+        "launch_id": 112001,
+        "company_slug": "spectre-intelligence",
+        "taxonomy": {
+          "conformance_index": 55,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-05",
+            "vertical_id": "fintech.wealth.asset-management",
+            "phenotype_primary_id": "fintech-insurance-ai-product",
+            "cell_key": "BM-05::fintech.wealth.asset-management::fintech-insurance-ai-product",
+            "business_model_label": "Fintech / insurance product",
+            "vertical_label": "Asset & wealth management",
+            "phenotype_label": "AI-native fintech or insurance product"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 111298,
+      "company_slug": "vernius-systems-inc",
+      "launch_url": "https://www.ycombinator.com/launches/Sx8-vernius-systems-autonomous-radar-guidance-for-interceptor-drones",
+      "created_at": "2026-08-24T15:00:00.720Z",
+      "classification": {
+        "phenotype_primary_id": "ai-enabled-physical-systems",
+        "vertical_id": "defense.engineering-change",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-25T14:42:11.631Z",
+        "launch_id": 111298,
+        "company_slug": "vernius-systems-inc",
+        "taxonomy": {
+          "conformance_index": 67,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 38,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "defense.engineering-change",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::defense.engineering-change::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Defense engineering change & configuration management",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
     {
       "launch_id": 111682,
       "company_slug": "mosaic-inc",
