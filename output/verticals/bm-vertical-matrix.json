@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-25T14:42:13.840Z",
+  "generated_at": "2026-08-26T14:41:49.054Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1390,
+    "assignment_count": 1392,
     "mapped_verticals": 243,
-    "observed_cells": 474,
+    "observed_cells": 476,
     "total_verticals": 525,
-    "gap_candidates": 846
+    "gap_candidates": 845
   },
   "observed_cells": [
     {
@@ -4689,6 +4689,16 @@
       ]
     },
     {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "most-robotic"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "industrials.robotics.teleop",
@@ -4786,6 +4796,16 @@
       "sector_id": "financial-services",
       "companies": [
         "covera"
+      ]
+    },
+    {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
+      "vertical_id": "insurance.uw-data-intake",
+      "vertical_label": "Underwriting data intake & risk assessment",
+      "sector_id": "financial-services",
+      "companies": [
+        "redoubt-insurance"
       ]
     },
     {

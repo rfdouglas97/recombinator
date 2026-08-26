@@ -1,7 +1,630 @@
 {
-  "updated_at": "2026-08-25T14:42:11.647Z",
+  "updated_at": "2026-08-26T14:41:46.932Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 112249,
+      "company_slug": "floot",
+      "launch_url": "https://www.ycombinator.com/launches/TCT-floot-build-and-run-your-app-with-chatgpt-and-claude-no-ai-credits-needed",
+      "created_at": "2026-08-25T23:52:27.371Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.devtools.productivity",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-26T14:41:46.904Z",
+        "launch_id": 112249,
+        "company_slug": "floot",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 5,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.devtools.productivity",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.devtools.productivity::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Developer productivity & engineering tools",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 112248,
+      "company_slug": "devfast",
+      "launch_url": "https://www.ycombinator.com/launches/TCS-dev-fast-cursor-for-code-review",
+      "created_at": "2026-08-25T23:51:47.650Z",
+      "classification": {
+        "phenotype_primary_id": "horizontal-copilot-saas",
+        "vertical_id": "devtools.code-review-governance",
+        "business_models": [
+          "BM-02"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-26T14:41:46.906Z",
+        "launch_id": 112248,
+        "company_slug": "devfast",
+        "taxonomy": {
+          "conformance_index": 60,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 1,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-02",
+            "vertical_id": "devtools.code-review-governance",
+            "phenotype_primary_id": "horizontal-copilot-saas",
+            "cell_key": "BM-02::devtools.code-review-governance::horizontal-copilot-saas",
+            "business_model_label": "Horizontal AI SaaS",
+            "vertical_label": "Code review & pull request governance",
+            "phenotype_label": "Horizontal copilot / productivity SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 66,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 111999,
+      "company_slug": "opentag",
+      "launch_url": "https://www.ycombinator.com/launches/T8R-opentag-model-agnostic-claude-tag",
+      "created_at": "2026-08-25T22:00:00.175Z",
+      "classification": {
+        "phenotype_primary_id": "horizontal-copilot-saas",
+        "vertical_id": "enterprise.ops.knowledge",
+        "business_models": [
+          "BM-02"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-26T14:41:46.907Z",
+        "launch_id": 111999,
+        "company_slug": "opentag",
+        "taxonomy": {
+          "conformance_index": 75,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-02",
+            "vertical_id": "enterprise.ops.knowledge",
+            "phenotype_primary_id": "horizontal-copilot-saas",
+            "cell_key": "BM-02::enterprise.ops.knowledge::horizontal-copilot-saas",
+            "business_model_label": "Horizontal AI SaaS",
+            "vertical_label": "Enterprise knowledge management",
+            "phenotype_label": "Horizontal copilot / productivity SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 112228,
+      "company_slug": "tensr",
+      "launch_url": "https://www.ycombinator.com/launches/TC8-tensr-robotic-factories-that-build-robots-from-humanoids-to-robots-for-the-international-space-station",
+      "created_at": "2026-08-25T21:00:00.441Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "robotics.integration-deployment",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-26T14:41:46.908Z",
+        "launch_id": 112228,
+        "company_slug": "tensr",
+        "taxonomy": {
+          "conformance_index": 75,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "robotics.integration-deployment",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::robotics.integration-deployment::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Robotic system integration & factory deployment",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_in_gap_list"
+          ],
+          "cell_was_whitespace": true,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 112178,
+      "company_slug": "amorphic-labs",
+      "launch_url": "https://www.ycombinator.com/launches/TBK-agentmuxer-by-amorphic-labs-openrouter-for-agent-capabilities",
+      "created_at": "2026-08-25T19:30:05.588Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.sales.enablement",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-26T14:41:46.909Z",
+        "launch_id": 112178,
+        "company_slug": "amorphic-labs",
+        "taxonomy": {
+          "conformance_index": 76,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.sales.enablement",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.sales.enablement::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Sales enablement & execution",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 112177,
+      "company_slug": "skillsync",
+      "launch_url": "https://www.ycombinator.com/launches/TBJ-skillsync-move-your-context-across-every-coding-agent",
+      "created_at": "2026-08-25T17:29:16.975Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.hr.recruiting",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-26T14:41:46.911Z",
+        "launch_id": 112177,
+        "company_slug": "skillsync",
+        "taxonomy": {
+          "conformance_index": 50,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 98,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 46,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.hr.recruiting",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.hr.recruiting::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Recruiting & staffing agency operations",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 112144,
+      "company_slug": "prized",
+      "launch_url": "https://www.ycombinator.com/launches/TAm-prized-a-cloud-devbox-that-feels-local",
+      "created_at": "2026-08-25T17:00:00.790Z",
+      "classification": {
+        "phenotype_primary_id": "horizontal-copilot-saas",
+        "vertical_id": "enterprise.devtools.productivity",
+        "business_models": [
+          "BM-02"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-26T14:41:46.912Z",
+        "launch_id": 112144,
+        "company_slug": "prized",
+        "taxonomy": {
+          "conformance_index": 36,
+          "verdict": "non_conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 1,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-02",
+            "vertical_id": "enterprise.devtools.productivity",
+            "phenotype_primary_id": "horizontal-copilot-saas",
+            "cell_key": "BM-02::enterprise.devtools.productivity::horizontal-copilot-saas",
+            "business_model_label": "Horizontal AI SaaS",
+            "vertical_label": "Developer productivity & engineering tools",
+            "phenotype_label": "Horizontal copilot / productivity SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "cell_observed_with_peers",
+            "low_taxonomy_conformance"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 112214,
+      "company_slug": "edgerun",
+      "launch_url": "https://www.ycombinator.com/launches/TBu-edgerun-the-10-lb-military-exoskeleton",
+      "created_at": "2026-08-25T16:19:00.453Z",
+      "classification": {
+        "phenotype_primary_id": "ai-enabled-physical-systems",
+        "vertical_id": "industrials.robotics.general",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-26T14:41:46.913Z",
+        "launch_id": 112214,
+        "company_slug": "edgerun",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "industrials.robotics.general",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::industrials.robotics.general::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "General-purpose robotics intelligence",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 112089,
+      "company_slug": "ethos-space-resources",
+      "launch_url": "https://www.ycombinator.com/launches/T9t-ethos-space-resources",
+      "created_at": "2026-08-25T15:00:00.072Z",
+      "classification": {
+        "phenotype_primary_id": "ai-enabled-physical-systems",
+        "vertical_id": "industrials.aviation.space",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-26T14:41:46.914Z",
+        "launch_id": 112089,
+        "company_slug": "ethos-space-resources",
+        "taxonomy": {
+          "conformance_index": 75,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 80,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "industrials.aviation.space",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::industrials.aviation.space::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Space & satellite systems",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
     {
       "launch_id": 112080,
       "company_slug": "omnara",

@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-25T14:41:23.940Z",
+  "synced_at": "2026-08-26T14:41:00.622Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1271,
+  "company_count": 1273,
   "companies": [
     {
       "slug": "10x",
@@ -289,21 +289,21 @@
       "slug": "adentris",
       "name": "Adentris",
       "batch": "Spring 2025",
-      "one_liner": "Real-time AI Compliance for Medical Documentation",
-      "long_description": "Adentris is an AI compliance copilot for hospitals and clinics. We are like Grammarly for doctors, finding and fixing mistakes that lead to denied insurance claims or patient lawsuits. The industry today spends $40B doing this manually. \r\n",
+      "one_liner": "Real-time AI Compliance & Revenue Integrity for Medical Providers",
+      "long_description": "US healthcare providers lose billions every year to denied claims, most of them traced back to documentation and coding gaps no one catches until the payer says no. Adentris is an AI revenue integrity platform that catches them first. Our AI agents read EHR and payer interfaces directly, no API integration required, across five modules: documentation, coding QA, prior authorization, appeals and denials, and discharge summaries. And for providers that don't have their own CDI or billing teams, we run billing as a service on top of the platform.",
       "website": "https://www.adentris.com",
       "industries": [
         "Healthcare",
         "Healthcare IT"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Health Tech",
         "B2B",
         "Compliance",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
-      "team_size": 4,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1745803962
@@ -2555,7 +2555,7 @@
       "slug": "axal",
       "name": "Axal",
       "batch": "Winter 2025",
-      "one_liner": "Service company that designs, sources, and quality-tests custom PCBs",
+      "one_liner": "We design, assemble, and test custom PCBs fast.",
       "long_description": "We help companies get custom PCBs built without having to manage multiple vendors themselves. We review or create PCB designs, find the right manufacturer, coordinate production, inspect and test every board, handle any manufacturing issues, and deliver the finished boards directly to your office.\r\n\r\nOur goal is to reduce manufacturing errors, shorten iteration cycles, and get your boards to you as quickly as possible without compromising on quality.",
       "website": "https://www.axal.ai/",
       "industries": [
@@ -4008,7 +4008,7 @@
       "batch": "Winter 2026",
       "one_liner": "Agentic video editor",
       "long_description": "Cardboard is an agentic video editor for growth/marketing teams and serious creators who need to ship videos consistently. Instead of agencies, long timelines, and infinite review cycles, teams give cardboard a footage + a goal (“3 variants”, “30s hook”, “testimonials”) to get a strong first cut in minutes on which they can iterate quickly.\r\n\r\nMultimodal LLMs can finally reason over footage, and WebGPU/WebCodecs make a real NLE possible in the browser. For the first time, an “AI director” inside a professional editor can be a reality.\r\n\r\nWe have to build two hard things at once: a high-performance editor in the browser and an agentic editor that is reliable for production use cases. Most startups do one; incumbents can’t rebuild their stack without breaking everything.\r\n\r\nSaksham and Ishan met in school and have known each other since 15 years. Saksham was Co-founder/CTO of Iterate AI (backed by EF) and posts content on social media; Ishan has spent ~5yr building memory-heavy, performance-critical browser apps at HackerRank (S11) and deeply understands browsers. He has built Hotspoter (5M+ downloads) when he was 14.\r\n\r\nTogether, we’re unusually suited to build the editor core others avoid.\r\n\r\nVideo is becoming the default distribution channel, and the team that iterates fastest compounds attention. Cardboard becomes the default workspace for video production, the way Canva/Figma became the workspace for design - because it’s collaborative, fast, and does the tedious parts for you.",
-      "website": "https://usecardboard.com",
+      "website": "https://cardboard.ai",
       "industries": [
         "B2B"
       ],
@@ -5004,8 +5004,8 @@
       "slug": "codag",
       "name": "Codag",
       "batch": "Summer 2026",
-      "one_liner": "Log compression for agents.",
-      "long_description": "",
+      "one_liner": "Tool call compression for agents.",
+      "long_description": "Codag compresses tool call outputs before agents read them, which reduces token spend by  20-30% while retaining output accuracy.\r\n\r\nGovern and see analytics on agent dollars across all model providers and internal agents. \r\n ",
       "website": "https://codag.ai/",
       "industries": [
         "B2B",
@@ -6428,12 +6428,14 @@
       "name": "/dev/fast",
       "batch": "Winter 2026",
       "one_liner": "/dev/fast is the AI-native code forge",
-      "long_description": "/dev/fast is the AI-native code forge. Developers use it to drive token cost savings and cut mean time-in-review by 2x.\r\n\r\nLearn more at https://dev.fast",
+      "long_description": "/dev/fast is the AI-native code forge. We're building 'Review', an open-source Cursor for code review.\r\n\r\nThe Review app is designed to give you confidence in your code. Critique interactive visualizations, diffs, and agent traces, all from one interface. \r\n\r\nLearn more at https://dev.fast",
       "website": "https://dev.fast",
       "industries": [
         "B2B"
       ],
-      "tags": [],
+      "tags": [
+        "Developer Tools"
+      ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -7016,15 +7018,17 @@
       "name": "Egoist Machines",
       "batch": "Summer 2026",
       "one_liner": "Secure, user-owned context for every AI app",
-      "long_description": "The bottleneck for consumer AI is shifting from the model to the personal context that model uses. \r\n\r\nModels are already capable of completing most tasks for the average user, but consumer AI products still starts cold and have to rebuild an incomplete picture of the same user before they can personalise well. \r\n\r\nWe’re building AI Passport so users can carry the personal context they create through everyday apps into new products, allowing those products to understand them from the first interaction instead of reconstructing the same incomplete picture from scratch. Users decide which parts of their context can move between products, while companies receive better information about their users.\r\n\r\nApps integrate AI Passport through a “Sign in with AI Passport” button, then request specific information for a stated purpose and duration rather than receiving broad, permanent access to everything the Passport holds. The user chooses what to share and can revoke access later, which makes the system particularly useful for sensitive health or financial context that may be valuable for a specific interaction but should not remain available indefinitely.\r\n\r\nTo support this permission model, AI Passport uses our own vector database as its memory backend, built for fast, compact per-user memory and cryptographically enforced access control. \r\n\r\nWe’re building first-party apps that give people reasons to create and use their Passport now, while also integrating it into consumer products with existing audiences across hospitality, travel, finance, and lifestyle.",
+      "long_description": "Egoist Machines is building the user-owned context layer that will be the unlock for the next generation of consumer AI applications. Our product, AI Passport, lets people carry the personal context they generate in everyday apps into any new product, so it understands them from the first interaction. Tell ChatGPT something and Claude already knows, for example, without any app ever owning your data.\n\nThe bottleneck for consumer AI is shifting from the model to context. Models can already handle most everyday tasks for the average user, but every new app starts cold, forcing users to re-explain themselves and forcing businesses to rebuild profiles of data that already exist.\n\nApps integrate with a \"Sign in with AI Passport\" button, then request specific information for a stated purpose and duration. Users stay in control of what moves between products and can revoke access later, which matters most for sensitive health and financial context. Under the hood, AI Passport runs on our own vector database built for fast, compact per-user memory with cryptographically enforced access control.\n\nWe're building first-party apps that give people a reason to create their Passport today, while integrating it into consumer products with existing audiences of billions.\n\nOur North Star: your context living on your own device, sovereign to you, with every model, app, and agent coming to you.",
       "website": "https://ego.ist/",
       "industries": [
         "Consumer"
       ],
       "tags": [
+        "Artificial Intelligence",
+        "Personalization",
+        "Privacy",
         "Consumer Products",
-        "AI Assistant",
-        "Databases"
+        "AI Assistant"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -7424,8 +7428,9 @@
         "Healthcare"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Healthcare"
+        "Healthcare",
+        "Insurance",
+        "AI"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -9990,7 +9995,7 @@
       "name": "idler",
       "batch": "Summer 2025",
       "one_liner": "Hill-climb any benchmark, for any model, in any domain.",
-      "long_description": "Idler is a frontier data research lab. We build the evals and environments that the world's leading frontier labs use to measure and train their models.",
+      "long_description": "idler is a frontier data research lab. We build the evals and environments that the world's leading frontier labs use to measure and train their models.",
       "website": "https://idler.ai/",
       "industries": [
         "B2B",
@@ -10203,9 +10208,9 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -10265,26 +10270,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1778187883
-    },
-    {
-      "slug": "instance",
-      "name": "Instance",
-      "batch": "Summer 2026",
-      "one_liner": "Automated evals for robot policies",
-      "long_description": "We’re automating robot evaluation– the loop where you wait for your robot to roll out, judge its success, and then reset the scene. We're starting with step one: a success detector that automatically tells you whether your robot actually completed its task along with detailed subtask breakdown. \r\n\r\nWe're MIT computer scientists & friends since middle school, with backgrounds at NASA JPL, SpaceX, and AWS.\r\n\r\nBook a demo with founders@instancelabs.ai.",
-      "website": "https://www.instancelabs.ai/",
-      "industries": [
-        "B2B"
-      ],
-      "tags": [
-        "Artificial Intelligence",
-        "Robotics",
-        "Data Labeling"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1782761102
     },
     {
       "slug": "instaplay",
@@ -10428,22 +10413,22 @@
       "slug": "inth",
       "name": "Inth",
       "batch": "Spring 2026",
-      "one_liner": "Enterprise privacy governance for companies that ship fast",
-      "long_description": "Inth helps fast-moving software teams prevent privacy failures before they reach production.\r\n\r\nPrivacy risk no longer lives in policy docs, dashboards, and questionnaires. It lives in code: consent flows, data deletion, vendors, logs, AI systems, and agent-written changes that move user data every day.\r\n\r\nInth starts with c15t, an open-source consent and privacy SDK with 3M+ npm downloads, used by teams like Zed, Infisical, and Expo. From there, Inth expands into code-native workflows for consent management, data subject requests, policy enforcement, vendor oversight, and audit-ready evidence.\r\n\r\nWe make privacy governance programmable, observable, and compliant by default.",
+      "one_liner": "Monitor and fix product privacy issues before they block growth",
+      "long_description": "Inth monitors your pull requests, codebase and website to catch privacy issues and turns them into fixes and evidence.\r\n\r\nEvery product change you make exposes you to privacy risk. Customers lose trust. Fines and lawsuits are given. Fundraising and customer deals are broken. New market launches halt.\r\n\r\nThe growth you thought you would have slows because privacy compliance is overwhelming and changes with every product update.\r\n\r\nInth is fixing this to help you automate privacy compliance to ship and grow faster.\r\n\r\nInth scans your PRs, website and codebase to catch any privacy risk. It then fixes and evidences them against your product, policies and global privacy laws to automate privacy compliance in every region your customers are in.\r\n\r\nStart a free privacy scan at: inth.com",
       "website": "https://inth.com",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "Compliance",
         "Web Development",
-        "Trust & Safety"
+        "Trust & Safety",
+        "AI"
       ],
       "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1776095941
     },
@@ -12014,6 +11999,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1761343459
+    },
+    {
+      "slug": "lightfield",
+      "name": "Lightfield",
+      "batch": "Fall 2026",
+      "one_liner": "AI that works for in-house legal teams",
+      "long_description": "Lightfield connects to a company’s email, chat, and business systems and does the legal work before it reaches the legal team. It gathers context, applies company policies and past decisions, and presents the completed work to in-house counsel for approval.",
+      "website": "https://trylightfield.ai",
+      "industries": [
+        "B2B",
+        "Legal"
+      ],
+      "tags": [
+        "SaaS",
+        "B2B",
+        "Legal"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786835532
     },
     {
       "slug": "lightsprint",
@@ -14062,6 +14068,26 @@
       "launched_at": 1761590258
     },
     {
+      "slug": "most-robotic",
+      "name": "Most Robotic",
+      "batch": "Summer 2026",
+      "one_liner": "Research lab for physical AI",
+      "long_description": "We're a robotics research lab pushing what's possible with physical AI.\r\n\r\nWe're MIT computer scientists & friends since middle school, with robotics research backgrounds and industry experience at NASA JPL, SpaceX, and AWS.\r\n\r\nEmail founders@mostrobotic.com to learn more.",
+      "website": "https://mostrobotic.com/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Robotics",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1782761102
+    },
+    {
       "slug": "motives",
       "name": "Motives",
       "batch": "Summer 2025",
@@ -14369,7 +14395,7 @@
       "slug": "nebula-security",
       "name": "Nebula Security",
       "batch": "Summer 2026",
-      "one_liner": "Building Mythos for everyone",
+      "one_liner": "Autonomous AI defense system for cyber attack",
       "long_description": "Nebula Security is founded by the world’s #1 hacking team.\r\n\r\nWe were the first team to build an nginx RCE and the first to root Android 17. Our co-founders include members of the world’s No. 1 CTF team, DEF CON winners, Black Hat speakers, and PhD in cybersecurity. We have won $400K in bug bounties by exploiting the Linux kernel and Chrome browser.\r\n\r\n“Audited by Nebula Security” is a mark of serious security credibility: a signal to customers, investors, and partners that your product has been reviewed by the world’s best hackers.",
       "website": "https://nebusec.ai",
       "industries": [
@@ -14392,17 +14418,17 @@
       "slug": "neoncoral",
       "name": "neoncoral",
       "batch": "Spring 2025",
-      "one_liner": "🪸 AI consumer social ",
+      "one_liner": "",
       "long_description": "",
       "website": "http://neoncoral.inc",
       "industries": [
         "Consumer"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Consumer",
         "Social Media",
-        "Social",
-        "AI"
+        "Social"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -14492,7 +14518,7 @@
       "name": "Nex",
       "batch": "Summer 2026",
       "one_liner": "AI GTM Engineer",
-      "long_description": "Nex is the AI GTM engineer that builds and runs the complex, high-volume workflows only the world's best GTM engineers know how to build, across 1000+ integrations. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
+      "long_description": "Nex builds and runs the complex, high-volume GTM workflows that general-purpose agents struggle with. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
       "website": "https://nex.ai",
       "industries": [
         "B2B",
@@ -16595,7 +16621,7 @@
       "slug": "pennant",
       "name": "Pennant",
       "batch": "Summer 2026",
-      "one_liner": "The Corporate Governance OS for Public Markets",
+      "one_liner": "The World Model for Corporate Governance",
       "long_description": "Led by former institutional proxy voters and technologists with a collective 20+ years of experience, Pennant gives institutional investors, public companies, and corporate advisors voting and governance intelligence to act on their own principles at scale.",
       "website": "https://www.getpennant.ai",
       "industries": [
@@ -16603,9 +16629,9 @@
         "Asset Management"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
-        "Investing"
+        "Investing",
+        "AI"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -18120,15 +18146,15 @@
       "name": "Rational",
       "batch": "Summer 2026",
       "one_liner": "AI Employees for Accounting",
-      "long_description": "Rational builds AI coworkers for accounting firms. Our agents onboard themselves to the firm, build a company brain, and do the work, from month-end close to tax prep. In addition, they follow up with clients and communicate with the right members of your team.",
+      "long_description": "Rational builds AI coworkers for in-house accounting teams. Our agents onboard themselves to the firm, build a company brain, and do the work, from month-end close to tax prep. In addition, they follow up and communicate with the right members of your team.",
       "website": "https://rational.to",
       "industries": [
         "B2B",
         "Operations"
       ],
       "tags": [
-        "Enterprise",
-        "AI"
+        "Artificial Intelligence",
+        "Enterprise"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -18309,6 +18335,26 @@
       "location": "Atlanta, GA, USA",
       "status": "Active",
       "launched_at": 1739340612
+    },
+    {
+      "slug": "redoubt-insurance",
+      "name": "Redoubt Insurance",
+      "batch": "Fall 2026",
+      "one_liner": "Commercial insurance agency for small businesses",
+      "long_description": "",
+      "website": "https://www.redoubt.agency",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Insurance"
+      ],
+      "team_size": 0,
+      "location": "",
+      "status": "Active",
+      "launched_at": 1787707764
     },
     {
       "slug": "refresh",
@@ -19661,12 +19707,12 @@
         "Defense"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Drones",
-        "Aerospace"
+        "Defense",
+        "AI"
       ],
-      "team_size": 2,
+      "team_size": 7,
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1768422348
@@ -20238,7 +20284,7 @@
       "name": "Skillsync",
       "batch": "Winter 2026",
       "one_liner": "Move context across agents and teammates",
-      "long_description": "Skillsync lets you push your agents' sessions the way you push code. Everything lands in one searchable place. The best sessions become skills any agent can load. Works across your team!\r\n\r\nToday, all that thinking, what worked, what didn't, and why, is scattered across Claude Code, Codex, Hermes, whatever each engineer prefers. It vanishes when the session closes. Skillsync captures it, so every agent builds like your best engineer. The more your team ships, the smarter your agents get. Engineering culture stops being tribal knowledge. It becomes explicit, shared, and reusable.",
+      "long_description": "Skillsync is a local-first desktop app that frees your context from any single coding agent. Move a full session, including the conversation, reasoning, and tool history, between Claude Code, Codex, Cursor, and any other agent with nothing lost. Keep your skills and memory in one searchable place, accessible from any agent via MCP. And when your team perfects a skill, it syncs to everyone automatically, so you stop digging through Slack threads and zip files to find the version that actually works.\r\n\r\nThe engine that translates sessions across agent formats, txcript, is open source and written in Rust. Say it once, and every agent and teammate has it.",
       "website": "https://skillsync.com",
       "industries": [
         "B2B",
@@ -20688,13 +20734,13 @@
         "Recruiting and Talent"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "HR Tech",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
-      "team_size": 15,
+      "team_size": 50,
       "location": "Leuven, Flanders, Belgium",
       "status": "Active",
       "launched_at": 1737184010
@@ -21393,17 +21439,17 @@
       "name": "Synapse Semiconductor",
       "batch": "Summer 2026",
       "one_liner": "New semiconductors that merge compute and vision",
-      "long_description": "We want to push machines to where humans cant go. \r\nPresidential early career award winning Duke Semiconductor ECE Faculty Tania Roy and her past student / VC Associate Sanjeev Chauhan are building a frontier semiconductor research lab. Their focus is on solving physical AI challenges from the semiconductor device level and building products around the moat of impossible to copy innovation. Their first work is on a new vision sensor that can run neural network filters right in the camera pixels and only collect data that machines care about. As physical AI develops, machines needs to understand the world around them if they aim to interact with them.\r\n",
+      "long_description": "We want to push machines to where humans cant go. \r\nPresidential early career award winning Duke Semiconductor ECE Faculty Tania Roy and Sanjeev Chauhan are building a frontier semiconductor research lab. Their focus is on solving physical AI challenges from the semiconductor device level and building products around the moat of impossible to copy innovation. Their first work is on a new vision sensor that can run neural network filters right in the camera pixels and only collect data that machines care about. As physical AI develops, machines needs to understand the world around them if they aim to interact with them.\r\n",
       "website": "https://synapsesemi.org",
       "industries": [
         "Industrials"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Edge Computing Semiconductors",
         "Hard Tech",
         "Robotics",
-        "Defense"
+        "Defense",
+        "AI"
       ],
       "team_size": 2,
       "location": "Durham, NC, USA",
@@ -21948,13 +21994,13 @@
       "long_description": "Tesora builds frontier AI agents for actuaries at P&C carriers, reinsurers, and MGAs. The agents handle the assembly, pulling the data, running the method, and deploying the rater, while you review the work and make every call. We deploy inside the stack you already run, on your infra and under your IT team's control, with no shared servers and nothing to rip out. Your data never trains our models, or anyone else's. We treat this as a partnership so we stay hands-on until the work is live and holding up in production. That standard runs through our security posture too: SOC 2 Type II certified, with a full audit trail behind every change.\r\n\r\nThe part of the job that matters is actuarial judgment, and we automate everything around it so you get back to the work only you can do. Built by AI technologists and actuaries who want to see this exist and backed by Y Combinator & other top investors.",
       "website": "https://tesora.ai",
       "industries": [
-        "B2B",
-        "Analytics"
+        "Fintech",
+        "Insurance"
       ],
       "tags": [
-        "Artificial Intelligence",
         "API",
-        "Insurance"
+        "Insurance",
+        "AI"
       ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
@@ -22651,7 +22697,7 @@
       "batch": "Spring 2026",
       "one_liner": "Measure freight with security cameras",
       "long_description": "transload helps logistics companies measure shipments using the security cameras they already have. A pallet, a couch, a tire – we capture its true size as it moves through the warehouse.\r\n\r\nFor our customers, 15% of shipments turn out to be bigger than what the sender claimed. Catching those differences is worth ~$50k per site per month in rebillings and improved trailer utilization.",
-      "website": "https://www.transload.io",
+      "website": "https://www.transload.ai",
       "industries": [
         "B2B",
         "Supply Chain and Logistics"
@@ -22802,17 +22848,17 @@
       "slug": "trident",
       "name": "Trident",
       "batch": "Summer 2026",
-      "one_liner": "Agents that find real exploitable vulnerabilities in your company ",
-      "long_description": "Trident is the modern-day pentester. Instead of a slow, expensive report once a year, it's a continuous, agentic pentester that chains vulnerabilities together like a real attacker mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs. Run AI attacks and get fixes.\r\n\r\nGet started today: tridentsecurity.io",
+      "one_liner": "secure everything that ships",
+      "long_description": "Trident is the standard for modern day security. its an agentic pentester that chains vulnerabilities together like a real attacker mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs. Run AI attacks and get fixes.\r\n\r\nGet started today: tridentsecurity.io",
       "website": "https://tridentsecurity.io/",
       "industries": [
         "B2B",
         "Security"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Security",
-        "Cybersecurity",
-        "AI"
+        "Cybersecurity"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -22842,16 +22888,16 @@
       "slug": "trope",
       "name": "Trope",
       "batch": "Summer 2026",
-      "one_liner": "The AI-native ERP system integrator",
-      "long_description": "Trope is the AI-native ERP system integrator.\r\n\r\nWe accelerate months of hourly implementation work with agent-driven, fixed-fee delivery. Instead of leaving customers with a static system, we deploy AI agents that continue running and improving core business operations after go-live.\r\n\r\nTrope combines AI trained on ERP systems with principal consultants who have delivered 200+ implementations over 20 years. Together, they turn consulting services into software, shifting systems integration from one-time implementations to continuous AI-driven operations.",
+      "one_liner": "AI FDE that deploys custom AI agents into ERPs",
+      "long_description": "Trope deploys custom AI agents into ERPs for mid-market companies. Our AI FDE learns each company’s customized ERP and business processes, then builds and deploys the agents needed for their specific workflows.",
       "website": "https://trope.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
