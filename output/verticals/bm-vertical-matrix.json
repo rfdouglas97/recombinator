@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-26T14:41:49.054Z",
+  "generated_at": "2026-08-27T23:34:20.325Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1392,
+    "assignment_count": 1396,
     "mapped_verticals": 243,
-    "observed_cells": 476,
+    "observed_cells": 477,
     "total_verticals": 525,
-    "gap_candidates": 845
+    "gap_candidates": 844
   },
   "observed_cells": [
     {
@@ -140,6 +140,7 @@
         "revion",
         "robby",
         "scout-4",
+        "semble",
         "semble-ai",
         "socratix-ai",
         "stockline",
@@ -1115,6 +1116,20 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.marketing.growth",
+      "vertical_label": "B2B growth marketing automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "minro",
+        "semiotic",
+        "sitefire",
+        "uplane",
+        "veriad"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.security.compliance-audit",
       "vertical_label": "Internal audit & SOX compliance",
       "sector_id": "enterprise-software",
@@ -1340,19 +1355,6 @@
         "conifer",
         "mentlio",
         "theta"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.marketing.growth",
-      "vertical_label": "B2B growth marketing automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "minro",
-        "semiotic",
-        "sitefire",
-        "uplane"
       ]
     },
     {
@@ -2117,6 +2119,18 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "power.asset-maintenance",
+      "vertical_label": "Power plant & transmission asset maintenance scheduling",
+      "sector_id": "energy-climate",
+      "companies": [
+        "libra-robotics",
+        "meteoric",
+        "talos-us"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "realestate.property.management",
@@ -2857,17 +2871,6 @@
       ]
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "power.asset-maintenance",
-      "vertical_label": "Power plant & transmission asset maintenance scheduling",
-      "sector_id": "energy-climate",
-      "companies": [
-        "libra-robotics",
-        "meteoric"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "property.maintenance-work-orders",
@@ -3166,6 +3169,16 @@
       "sector_id": "consumer",
       "companies": [
         "miyagi-labs"
+      ]
+    },
+    {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "career.interview-prep",
+      "vertical_label": "Interview preparation & coaching",
+      "sector_id": "consumer",
+      "companies": [
+        "quippy"
       ]
     },
     {

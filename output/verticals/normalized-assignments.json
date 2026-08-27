@@ -1818,7 +1818,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/agentcard",
     "batch": "Summer 2026",
     "one_liner": "debit cards for AI agents.",
-    "description_combined": "debit cards for AI agents.\n\nAgentcard.sh is a debit card for AI agents. Agents can use Agentcard’s API to issue cards and pay for things online autonomously.\n\nEverything an agent needs to pay for things online\n\nhey everyone, we're Karen and Felipe, and we are building Agentcard: debit cards for AI agents.\n\n# TL;DR\n\nAI agents are finally smart enough to do real things for you. but the second they need to pay for something, they're stuck, and handing an agent your real card (no limits, no controls) is a terrible idea.\n\nso we built Agentcard: give your agent its own debit card: fund a wallet, set a budget, and issue one-time cards that auto-close after a single charge. works with any agent over MCP, the CLI, or our API. its everything an agent needs to pay for things online. here's the lineup:\n\nso we built Agentcard — everything an agent needs to pay for things online. here's the lineup\n\n# the team\n\nKaren (CEO): former CEO @ Atlas (acquired by Remote), then turned down a job at Stripe to build Agent",
+    "description_combined": "debit cards for AI agents.\n\nAgentcard.sh is a debit card for AI agents. Agents can use Agentcard’s API to issue cards and pay for things online autonomously.\n\nEverything an agent needs to pay for things online\n\nhey everyone, we're Karen and Felipe, and we are building Agentcard: debit cards for AI agents.\n\n# TL;DR\n\nAI agents are finally smart enough to do real things for you. but the second they need to pay for something, they're stuck, and handing an agent your real card (no limits, no controls) is a terrible idea.\n\nso we built Agentcard: give your agent its own debit card: fund a wallet, set a budget, and issue one-time cards that auto-close after a single charge. works with any agent over MCP, the CLI, or our API. its everything an agent needs to pay for things online. here's the lineup:\n\nso we built Agentcard — everything an agent needs to pay for things online. here's the lineup\n\n# the team\n\nKaren (CEO): former CEO @ Atlas (acquired by Remote), then turned down a job at Stripe to build Agent\n\nLet agents buy anything online\n\nTL;DR\nBuying online with agents is hard. You can't share your card with your agent, browser automations are broken and slow, and most checkout pages block agents, mistaking them for bots. Agentcard gives companies a solution for storing users' credit cards and completing checkout pages with a 99% success rate.\n\nAsk: building an agent that buys things on behalf of your users? send us a msg: founders@agentcard.sh\n\n\n\nProblem\n\nCompanies building personal AI assistants want to give their users a simple way to buy using agents. Today, they need to 1) create browser automations to navigate online stores, 2) store users' cards, and 3) complete checkout pages. None of this is their main product. And current solutions don't work: agentic protocols for storing cards have an 8% card acceptance rate (i",
     "industry_sub_vertical": "AI agent debit card issuance and autonomous spending infrastructure",
     "canonical_vertical_id": "payments.card-issuing-management",
     "vertical_id": "payments.card-issuing-management",
@@ -1887,12 +1887,12 @@
     "directory_synced_at": "2026-07-30T16:00:23.603Z",
     "classified_at": "2026-07-30T16:00:23.603Z",
     "proposed_phenotype": null,
-    "launch_id": 103608,
-    "launch_url": "https://www.ycombinator.com/launches/Qx6-agentcard-debit-cards-for-ai-agents",
-    "launch_title": "Agentcard: Debit cards for AI agents",
-    "launch_created_at": "2026-06-25T19:25:46.736Z",
-    "launch_tagline": "Everything an agent needs to pay for things online",
-    "launch_evaluated_at": "2026-07-30T16:56:29.919Z",
+    "launch_id": 112244,
+    "launch_url": "https://www.ycombinator.com/launches/TCO-agentcard-cards-for-ai-agents",
+    "launch_title": "Agentcard: Cards for AI agents",
+    "launch_created_at": "2026-08-26T18:00:00.618Z",
+    "launch_tagline": "Let agents buy anything online",
+    "launch_evaluated_at": "2026-08-27T23:34:19.475Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-05"
@@ -21223,7 +21223,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/corsair",
     "batch": "Winter 2025",
     "one_liner": "Integration Layer for AI Agents",
-    "description_combined": "Integration Layer for AI Agents\n\nWhat Corsair is:\r\nCorsair gives you (or your agent) safe access to hundreds of integrations. It natively handles all integration plumbing. The only code you write is the code that's specific to your use case. Your data stays yours.\r\n\r\nWhy we wrote it:\r\nIntegrations make products capable. Integrations are also frustrating to write. If you look at any codebase with integrations, 95% of the code is identical. It's all just basic plumbing. The part of the integration that is unique to a codebase and actually adds value is probably just a few lines. We shouldn't waste time writing and maintaining the 95% for a few lines. The developer community has just accepted that we do. Corsair handles the 95% so you don't have to. It's really hard to get wrong.",
+    "description_combined": "Integration Layer for AI Agents\n\nWhat Corsair is:\r\nCorsair gives you (or your agent) safe access to hundreds of integrations. It natively handles all integration plumbing. The only code you write is the code that's specific to your use case. Your data stays yours.\r\n\r\nWhy we wrote it:\r\nIntegrations make products capable. Integrations are also frustrating to write. If you look at any codebase with integrations, 95% of the code is identical. It's all just basic plumbing. The part of the integration that is unique to a codebase and actually adds value is probably just a few lines. We shouldn't waste time writing and maintaining the 95% for a few lines. The developer community has just accepted that we do. Corsair handles the 95% so you don't have to. It's really hard to get wrong.\n\n10k GitHub stars, 200+ integrations: Open-source integration layer for agents and product UIs.\n\nCorsair is a fully-featured product integration platform with a seamless DX. Build anything, from an agent working across all your integrations to a multi-tenant dashboard for your users to connect to anything.\n\nWebsite | Discord | X | Cal\n\nMost agent integration tools are MCP-only. Corsair is built on a REST API, so the same layer works for agents, backend jobs, and the dashboards your customers actually use.\n\nClosed integration platforms keep your users' tokens on infrastructure you can't inspect or leave. Corsair is open source. Self-host it, or use Corsair Hub if you want us to handle OAuth and webhooks. Your data remains yours either way.\n\nThe more third-party APIs your product touches, the more glue code you write. Corsair gives every integration the same syntax, and we maintain the ",
     "industry_sub_vertical": "Agent integration abstraction & API access layer",
     "phenotype_primary_id": "agent-runtime-infra",
     "phenotype_secondary_id": "open-source-commercial",
@@ -21278,6 +21278,12 @@
       "vertical_id": null,
       "industry_sub_vertical": "AI agent infrastructure & developer tools"
     },
+    "launch_id": 112352,
+    "launch_url": "https://www.ycombinator.com/launches/TE8-corsair-connect-your-users-to-their-apps",
+    "launch_title": "Corsair: Connect your users to their apps",
+    "launch_created_at": "2026-08-27T20:55:14.055Z",
+    "launch_tagline": "10k GitHub stars, 200+ integrations: Open-source integration layer for agents and product UIs.",
+    "launch_evaluated_at": "2026-08-27T23:34:19.475Z",
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-03"
@@ -24429,7 +24435,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/denta",
     "batch": "Summer 2026",
     "one_liner": "The dental practice that runs itself",
-    "description_combined": "The dental practice that runs itself\n\nDenta is the practice management platform that puts dental practices on autopilot. When a dentist starts a new practice, instead of finding an accounting firm, hiring two front desk workers, and then spending their nights posting insurance payments, they use Denta.\r\n\r\nI started Denta to help operate my Dad&#x27;s 10 practices in Iowa. In supporting those, I realized the most painful part was both people and agents having messy access to fragmented data. So I solved for that and now spend my time automating work for dentists!\n\nAutonomous software for a scaling dental group\n\nTL;DR: I’m automating the administrative work of a dental practice. I’m now looking to buy my own and run the first autonomous dental practice.\n\nWhat is Denta? Denta is the all-in-one place for a dental practice to run autonomously\n\n* Context: Denta ingests data from all of the practice’s fragmented software\n* Visibility: Denta provides analytics to help dentists understand their business\n* Automation: Denta runs in the background to handle the admin work the dentist doesn’t want to do\n\nWhy Denta? I’m building Denta because I grew up watching my dad scale his own dental company (from 1 → 10 practices). I want to enable more dentists to do the same.\n\nWhat’s Next?\n\nThe all-in-one Practice Management Software: Currently Denta integrates with 3rd party softwares to surface data and run autonom",
+    "description_combined": "The dental practice that runs itself\n\nDenta is the practice management platform that puts dental practices on autopilot. When a dentist starts a new practice, instead of finding an accounting firm, hiring two front desk workers, and then spending their nights posting insurance payments, they use Denta.\r\n\r\nI started Denta to help operate my Dad&#x27;s 10 practices in Iowa. In supporting those, I realized the most painful part was both people and agents having messy access to fragmented data. So I solved for that and now spend my time automating work for dentists!\n\nAutonomous software for a scaling dental group\n\nTL;DR: I’m automating the administrative work of a dental practice. I’m now looking to buy my own and run the first autonomous dental practice.\n\nWhat is Denta? Denta is the all-in-one place for a dental practice to run autonomously\n\n* Context: Denta ingests data from all of the practice’s fragmented software\n* Visibility: Denta provides analytics to help dentists understand their business\n* Automation: Denta runs in the background to handle the admin work the dentist doesn’t want to do\n\nWhy Denta? I’m building Denta because I grew up watching my dad scale his own dental company (from 1 → 10 practices). I want to enable more dentists to do the same.\n\nWhat’s Next?\n\nThe all-in-one Practice Management Software: Currently Denta integrates with 3rd party softwares to surface data and run autonom\n\nSave time and money on dental insurance\n\nDenta is dental insurance. As a full stack carrier, Denta makes insurance 25% cheaper by selling plans directly to employers and processing claims instantly with AI.\n\nGrowing up in Dentistry → Solving Its Biggest Problem\n\nI grew up in the back office of my dad’s dental practices, spent my high school years answering patient calls, and built software for over 300 dentists during college. I'm now solving the industry's biggest problem: insurance.\n\nThe Waste\n\nEveryone knows how bad health insurance is, dental insurance is worse. In the US, dental insurers collect $100B per year. Despite the $25B of that spent on administration, it still takes insurers three weeks to pay claims with paper checks that Denta can pay electronically in seconds.\n\n\n\nSaving you money\n\nDenta helps startups self fund t",
     "industry_sub_vertical": "Dental practice back-office automation & operations management",
     "canonical_vertical_id": "healthcare.dental.practice",
     "vertical_id": "healthcare.dental.practice",
@@ -24487,12 +24493,12 @@
     "directory_synced_at": "2026-07-30T16:02:24.828Z",
     "classified_at": "2026-07-30T16:02:24.828Z",
     "proposed_phenotype": null,
-    "launch_id": 104948,
-    "launch_url": "https://www.ycombinator.com/launches/RIi-denta-the-dental-practice-that-runs-itself",
-    "launch_title": "Denta - The dental practice that runs itself",
-    "launch_created_at": "2026-07-08T15:34:48.946Z",
-    "launch_tagline": "Autonomous software for a scaling dental group",
-    "launch_evaluated_at": "2026-07-30T16:56:29.917Z",
+    "launch_id": 111300,
+    "launch_url": "https://www.ycombinator.com/launches/SxA-denta-dental-insurance",
+    "launch_title": "Denta 🦷 Dental Insurance",
+    "launch_created_at": "2026-08-26T21:00:00.368Z",
+    "launch_tagline": "Save time and money on dental insurance",
+    "launch_evaluated_at": "2026-08-27T23:34:19.475Z",
     "primary_bm": "BM-01",
     "primary_bm_rationale": "Denta is a software product sold to dental practices for practice management and automation, primarily monetizing through SaaS subscriptions rather than delivering outsourced labor outcomes.",
     "primary_bm_assigned_at": "2026-07-30T18:59:51.700Z",
@@ -26846,7 +26852,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/edviro",
     "batch": "Summer 2026",
     "one_liner": "Energy world models that fix energy waste before it becomes expensive.",
-    "description_combined": "Energy world models that fix energy waste before it becomes expensive.\n\nEdviro helps facilities managers at large buildings save on their energy bills. Facilities managers are overwhelmed with dashboards, alarms, and analytics for hundreds of boilers, HVAC units, and heat pumps across their buildings. Edviro continuously monitors and optimizes buildings using energy world models to detect anomalies, simulate interventions, and suggest the best options to the facilities manager.  Once the changes occur, we create a comprehensive M&V report to ensure savings show up on the bill. \r\n\r\nOur tools also allow institutions to maintain detailed service history & equipment logs, and perform maintenance with AR.  \n\nYour building is wasting energy daily\n\nTL;DR: Edviro helps facilities managers at large buildings save on their energy bills.\n\nFacilities managers are overwhelmed with dashboards, alarms, and analytics for hundreds of boilers, HVAC units, and heat pumps across their buildings. Edviro continuously monitors and optimizes buildings using energy world models to detect anomalies, simulate interventions, and suggest the best options to the facilities manager. In particular, in busy spaces like offices, we utilise Wi-Fi access points or our own occupancy sensors to reduce HVAC usage significantly. Our tools also allow institutions to maintain detailed service histories and equipment logs and to perform maintenance with AR. To date, we've saved clients six figures in multiple buildings. We’re also piloting with a construction company t",
+    "description_combined": "Energy world models that fix energy waste before it becomes expensive.\n\nEdviro helps facilities managers at large buildings save on their energy bills. Facilities managers are overwhelmed with dashboards, alarms, and analytics for hundreds of boilers, HVAC units, and heat pumps across their buildings. Edviro continuously monitors and optimizes buildings using energy world models to detect anomalies, simulate interventions, and suggest the best options to the facilities manager.  Once the changes occur, we create a comprehensive M&V report to ensure savings show up on the bill. \r\n\r\nOur tools also allow institutions to maintain detailed service history & equipment logs, and perform maintenance with AR.  \n\nYour building is wasting energy daily\n\nTL;DR: Edviro helps facilities managers at large buildings save on their energy bills.\n\nFacilities managers are overwhelmed with dashboards, alarms, and analytics for hundreds of boilers, HVAC units, and heat pumps across their buildings. Edviro continuously monitors and optimizes buildings using energy world models to detect anomalies, simulate interventions, and suggest the best options to the facilities manager. In particular, in busy spaces like offices, we utilise Wi-Fi access points or our own occupancy sensors to reduce HVAC usage significantly. Our tools also allow institutions to maintain detailed service histories and equipment logs and to perform maintenance with AR. To date, we've saved clients six figures in multiple buildings. We’re also piloting with a construction company t\n\nAI to operate energy infrastructure\n\n# Edviro: AI that operates energy infrastructure\n\nHi all,\n\nWe’re Hursh and Tanuj, founders of Edviro.\n\nTL;DR: Edviro connects to a facility’s BMS, utility, sensor, equipment, and maintenance systems to build a world model of how the facility behaves. We use that model to detect problems, simulate interventions before anything is changed, and coordinate the best next action. We’re live in 34 facilities, have identified more than $400K in avoidable energy costs, and are now opening our first partnerships with data center operators.\n\n\n\n## The problem\n\nData centers are expected to drive roughly half of U.S. electricity-demand growth through 2030.\n\nThis is usually framed as a problem of producing more electricity. That is only part of it.\n\nPower must be delivered to the right sites, on the time",
     "industry_sub_vertical": "Commercial building energy systems real-time monitoring and anomaly detection",
     "canonical_vertical_id": "data.real-time-data-streaming",
     "vertical_id": "data.real-time-data-streaming",
@@ -26919,12 +26925,12 @@
     "directory_synced_at": "2026-07-30T15:54:08.808Z",
     "classified_at": "2026-07-30T15:54:08.808Z",
     "proposed_phenotype": null,
-    "launch_id": 104853,
-    "launch_url": "https://www.ycombinator.com/launches/RHB-edviro-buildings-are-wasting-money-daily",
-    "launch_title": "Edviro - Buildings are wasting money daily",
-    "launch_created_at": "2026-07-07T15:02:05.737Z",
-    "launch_tagline": "Your building is wasting energy daily",
-    "launch_evaluated_at": "2026-07-30T16:56:29.917Z",
+    "launch_id": 112256,
+    "launch_url": "https://www.ycombinator.com/launches/TCa-edviro-ai-that-operates-energy-infrastructure",
+    "launch_title": "Edviro - AI that operates energy infrastructure",
+    "launch_created_at": "2026-08-26T17:00:00.166Z",
+    "launch_tagline": "AI to operate energy infrastructure",
+    "launch_evaluated_at": "2026-08-27T23:34:19.475Z",
     "primary_bm": "BM-03",
     "primary_bm_rationale": "Edviro sells AI-powered energy monitoring and optimization infrastructure to facilities managers, enabling them to build and operate better building management systems rather than delivering a packaged vertical SaaS solution.",
     "primary_bm_assigned_at": "2026-07-30T18:59:51.700Z",
@@ -28606,7 +28612,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/evergrove",
     "batch": "Summer 2026",
     "one_liner": "Voice agents that accelerate care coordination in workers&#x27; comp",
-    "description_combined": "Voice agents that accelerate care coordination in workers&#x27; comp\n\nWe&#x27;ve built voice agents for the largest work comp managed care orgs and specialist PT networks in the country, making >500K calls annually and accelerating the speed at which they coordinate care. On average, our customers see a 40% increase in workflow completion, 10x decrease in cycle times, and >60% reduction in cost.\r\n\r\nWe think voice agents are the starting point for solving slow and fragmented care coordination in this market. Companies that manage an injured worker&#x27;s care rely on short-staffed contact centres and archaic methods of info exchange: phone, fax, and email. Every delay along the path of care leads to slower rehab of the injured worker, lower throughput for providers, and higher expense for the insurer/employer.",
+    "description_combined": "Voice agents that accelerate care coordination in workers&#x27; comp\n\nWe&#x27;ve built voice agents for the largest work comp managed care orgs and specialist PT networks in the country, making >500K calls annually and accelerating the speed at which they coordinate care. On average, our customers see a 40% increase in workflow completion, 10x decrease in cycle times, and >60% reduction in cost.\r\n\r\nWe think voice agents are the starting point for solving slow and fragmented care coordination in this market. Companies that manage an injured worker&#x27;s care rely on short-staffed contact centres and archaic methods of info exchange: phone, fax, and email. Every delay along the path of care leads to slower rehab of the injured worker, lower throughput for providers, and higher expense for the insurer/employer.\n\nVoice agents that accelerate post-claim care\n\nWe’re keeping this short and sweet. We build voice agents to overcome slow and fragmented care coordination in workers’ comp. Some key points:\n\n1. We’re on track to make >500K calls annually, helping customers get to >60% reduction in cost and 40%+ improvement in workflow completion.\n2. Our customers are some of the largest managed care orgs, specialty networks, and ancillary service providers in the work comp space.\n3. We’re ex-Newfront, where we pioneered agents that were cited in the $1.3B acquisition press release. We’ve spent our careers inside commercial insurance.\n\nOur mission is to have Evergrove agents powering comms between every entity on the post-claim care pathway. If you want to learn more, reach out at sid@evergrovelabs.com.\n\n_“If I had more time I would have written a short",
     "industry_sub_vertical": "Workers' compensation care coordination via voice agents",
     "canonical_vertical_id": "healthcare.payer.care-management",
     "vertical_id": "healthcare.payer.care-management",
@@ -28676,6 +28682,12 @@
     "directory_synced_at": "2026-08-14T14:48:54.348Z",
     "classified_at": "2026-08-14T14:48:54.348Z",
     "proposed_phenotype": null,
+    "launch_id": 112258,
+    "launch_url": "https://www.ycombinator.com/launches/TCc-evergrove-interoperability-for-work-comp",
+    "launch_title": "Evergrove: Interoperability for work comp",
+    "launch_created_at": "2026-08-26T17:30:00.291Z",
+    "launch_tagline": "Voice agents that accelerate post-claim care",
+    "launch_evaluated_at": "2026-08-27T23:34:19.475Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-01"
@@ -37333,7 +37345,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/hop-aero",
     "batch": "Summer 2026",
     "one_liner": "Rocket cargo delivery to contested environments",
-    "description_combined": "Rocket cargo delivery to contested environments\n\nHop Aero is building rocket cargo vehicles that deliver to contested environments hundreds of miles away in minutes. Our rockets fly point-to-point into the most austere locations at hypersonic speeds. Hop Aero&#x27;s goal is to provide the U.S. and allies the asymmetric advantage that deters a future major conflict.\n\nRockets that deliver cargo anywhere on Earth in minutes, including battlefields\n\nTLDR: We’re building rockets that deliver cargo faster than anything else on earth. We already have a $1.25M contract with the US Air Force for delivery to contest environments, and we’ve completed a tethered flight of our small-scale prototype. 🚀🌎\n\nhttps://drive.google.com/file/d/1dI3bRpiuqdShHQ2xHMhqOhPluYQMGS2B\n\n❌ Problem\n\nWhile Jacob was serving in the U.S. Marine Corps, Typhoon Haiyan had just swept through the Philippines. Jacob and his unit were given a clear order: deliver life-saving supplies of medicine and food as soon as possible. Despite working around the clock, the effort was regularly blocked due to aircraft breaking down, flight-critical parts being out of inventory, and pilot fatigue.\n\nSimilarly, when building his previous startup, Matija’s team were given 24 hours’ not",
+    "description_combined": "Rocket cargo delivery to contested environments\n\nHop Aero is building rocket cargo vehicles that deliver to contested environments hundreds of miles away in minutes. Our rockets fly point-to-point into the most austere locations at hypersonic speeds. Hop Aero&#x27;s goal is to provide the U.S. and allies the asymmetric advantage that deters a future major conflict.\n\nRockets that deliver cargo anywhere on Earth in minutes, including battlefields\n\nTLDR: We’re building rockets that deliver cargo faster than anything else on earth. We already have a $1.25M contract with the US Air Force for delivery to contest environments, and we’ve completed a tethered flight of our small-scale prototype. 🚀🌎\n\nhttps://drive.google.com/file/d/1dI3bRpiuqdShHQ2xHMhqOhPluYQMGS2B\n\n❌ Problem\n\nWhile Jacob was serving in the U.S. Marine Corps, Typhoon Haiyan had just swept through the Philippines. Jacob and his unit were given a clear order: deliver life-saving supplies of medicine and food as soon as possible. Despite working around the clock, the effort was regularly blocked due to aircraft breaking down, flight-critical parts being out of inventory, and pilot fatigue.\n\nSimilarly, when building his previous startup, Matija’s team were given 24 hours’ not\n\nHop Aero delivers an autonomous 21st century D-Day\n\nhttps://drive.google.com/file/d/1xqm08Bpwv1LXOsas-oVfZ5rDwp1lNqP8\n\n❌ Problem\n\nWhile Jacob was serving in the U.S. Marine Corps, Typhoon Haiyan had just swept through the Philippines. Jacob and his unit were given a clear order: deliver life-saving supplies of medicine and food as soon as possible. Despite working around the clock, the effort was regularly blocked due to aircraft breaking down, flight-critical parts being out of inventory, and pilot fatigue.\n\nSimilarly, when building his previous startup, Matija’s team were given 24 hours’ notice to deliver a satellite propulsion system to the mission integrator. FedEx and UPS could not guarantee on-time delivery, forcing Matija to make a 23-hour trip to hand-deliver the flight hardware. He spent the flight back thinking that there has to b",
     "industry_sub_vertical": "Defense autonomous cargo delivery to contested environments",
     "canonical_vertical_id": "defense.logistics-distribution",
     "vertical_id": "defense.logistics-distribution",
@@ -37401,12 +37413,12 @@
     "directory_synced_at": "2026-07-30T15:57:22.464Z",
     "classified_at": "2026-07-30T15:57:22.464Z",
     "proposed_phenotype": null,
-    "launch_id": 107889,
-    "launch_url": "https://www.ycombinator.com/launches/S49-hop-aero-rocket-cargo",
+    "launch_id": 112220,
+    "launch_url": "https://www.ycombinator.com/launches/TC0-hop-aero-rocket-cargo",
     "launch_title": "Hop Aero 🚀 Rocket Cargo",
-    "launch_created_at": "2026-07-28T14:33:36.526Z",
-    "launch_tagline": "Rockets that deliver cargo anywhere on Earth in minutes, including battlefields",
-    "launch_evaluated_at": "2026-07-30T16:56:29.909Z",
+    "launch_created_at": "2026-08-26T15:00:00.587Z",
+    "launch_tagline": "Hop Aero delivers an autonomous 21st century D-Day",
+    "launch_evaluated_at": "2026-08-27T23:34:19.475Z",
     "primary_bm": "BM-08",
     "primary_bm_rationale": "Hop Aero is building and selling hardware (rocket cargo vehicles) integrated with software systems for autonomous delivery, with primary monetization through government contracts for physical hardware deployment.",
     "primary_bm_assigned_at": "2026-07-30T18:59:55.954Z",
@@ -69732,6 +69744,74 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "quippy",
+    "name": "Quippy",
+    "website": "https://quippyapp.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/quippy",
+    "batch": "Fall 2026",
+    "one_liner": "Helps build social skills through daily practice",
+    "description_combined": "Helps build social skills through daily practice\n\nQuippy is a daily practice app for your social life. You run short, realistic practice conversations, like pushing back on a boss or talking during a first date, and get line-by-line feedback on what landed and what backfired. The curriculum adapts to each person&#x27;s patterns, reshaping itself around their weak spots, ensuring steady improvement in the conversations that matter most.",
+    "industry_sub_vertical": "Conversational skills coaching for workplace & social scenarios",
+    "canonical_vertical_id": "career.interview-prep",
+    "vertical_id": "career.interview-prep",
+    "vertical_label": "Interview preparation & coaching",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / prosumer AI application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "personalized_learning_feedback",
+    "ai_application_patterns": [
+      "adaptive_curriculum",
+      "conversational_simulation",
+      "real_time_feedback",
+      "behavioral_pattern_analysis"
+    ],
+    "what_they_sell": "Daily social skills practice app with AI-powered conversational simulations and personalized feedback. Users practice realistic scenarios (workplace pushback, dating, etc.) and receive line-by-line analysis of their communication effectiveness.",
+    "ai_play": "AI generates realistic conversational partners, evaluates user responses against social/communication best practices, identifies behavioral patterns and weak spots, and adapts curriculum to focus on areas of improvement. Combines conversational AI, NLP-based feedback generation, and adaptive learning algorithms.",
+    "who_pays": "Individual consumers (prosumers) seeking to improve social and communication skills; likely freemium or subscription model.",
+    "confidence": 0.85,
+    "rationale": "Quippy is a direct consumer-facing AI application targeting personal development and social skills. It fits consumer-ai-app phenotype: end-user subscription product with AI as the core value driver (conversational simulation + adaptive feedback). The AI play is personalized learning and real-time coaching, not infrastructure or B2B workflow automation. Secondary consideration of 'training-data-synthetic' rejected because Quippy is not selling datasets—it's selling the end-user experience. Health & Wellness tag and social focus confirm consumer positioning.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [
+      "AI-Enhanced Learning",
+      "Social",
+      "Health & Wellness"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3767060,
+        "full_name": "Jonathan Li",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder of Quippy. Most recently Head of Product at Luvu (a16z-backed), scaling from $0 to $1.5M ARR in 4 months. Previously APM at Duolingo, delivering $50.4M in ARR growth and helped build features including Video Call with Lily and Duolingo&#x27;s first monolingual English course (280K DAUs in 4 months). Dual degree in CS and Business from the University of Michigan.",
+        "linkedin_url": "https://www.linkedin.com/in/12lijonathan",
+        "twitter_url": "https://x.com/12lijonathan",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6c986fc7b3017b1ec1d0663ac3eb7c6dd932acbc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALKVROMHA%2F20260827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260827T233330Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIQD5didk7eQY3M7k9FCEeOvz%2BP83McrQuTYgR7tC4NktpwIgaKiUyE5t6AeCTAQCTRxZhfzpA2iq5SqLatdSdmRgpE8q5QMIQRAAGgwwMDYyMDE4MTEwNzIiDNjQyQ48Y8R%2FF6nhjSrCA8qe2lBu%2BKdPpXvYez7W4D2DNHcwO36KFHVtSSemJFwyCuiM3DNiOyScKoSLu7uMgDeQKhfJ4%2FmpB6a7Su2nYYUywJ3tfPsdp2S%2BlpHDjZBlCQtwDArx7eRS5YTWW%2BsLhKAQFp3%2FSB90r%2Fjk69vZ3Ex0bc%2Fxtt%2BXSRcMUSDNU758PJJiWvHHLTp4OrdLBj5aB3SLTLzfesDhB%2B6%2F0ff1etsFT%2B%2FINOouJPCbGXCMk%2BgUkuuJB9qje9ApU4OPQuWYunx%2FGud1tHIbKy%2BVAi6re8oXSBny%2BKoziPbfWUUan7hX8LWFgsmus9yAV9Ot7cpA9e1UY8cWFZmftQ30u0SbzNUWX7eaWBnFnkAYt66iVtC5%2BFZQ5EARtuo45fy0EbbKouhMfvL8KfYQkrfzlgci4K%2FV0k2NVMmMroQfLAwial%2F76r3rd2GExf8l8VKwD%2FCKv%2FUtxbDfCC1ZTTHGFqXsalf5bOsPIJyVap8u6NVBI5PvB7i5zQ%2FX17z813UbEVJnGIxe8HzGXAo27oFYFBLDyEP8F3756OrO5dA0qu5VLKc7gl76k9%2BcaDdnNyA8rnC%2BmxtQayQeIPNnLD%2BHl96r66RQqDD1jsPUBjqlAS80SlmdQHlYOgwCVGLB3JdkqlvGSuRdJwcuvTxNysYdhzxXVEUt1SA4UJaZDFtpvUntKHPmRTcllBLWp5L%2BviyCwasOA3mzbMGCBT17cmZNEVJUYUeCj%2BRxcWLjbVbvzqIXGKtFmPoHE5290kRWERVXCKFP3CcJaC6v48e%2BUJ1IhYwIpGsD3Rs7qFKF1seQK6xP%2BEKEVjYk3Y79Pk8%2FyAMl%2BTcKOQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=08538bd1ccb4ec05e84754fd7884f785345ecd5fbe3decc86f95ba30d27c0274",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Quippy",
+          "href": "https://www.ycombinator.com/companies/quippy"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-27T23:33:39.126Z",
+    "classified_at": "2026-08-27T23:33:39.126Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-10"
+  },
+  {
     "slug": "quotain",
     "name": "Quotain",
     "website": "https://quotain.com",
@@ -73747,7 +73827,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/robocurve",
     "batch": "Summer 2026",
     "one_liner": "Evaluating robots in the real world.",
-    "description_combined": "Evaluating robots in the real world.\n\nRobocurve builds open-source tools and independent benchmarks to measure how well robots can do real-world jobs. Instead of relying on unverified demo videos from frontier labs, we score their models on reproducible benchmarks that anyone can trust.\r\n\r\nToday there are no well-run, standardized robotics benchmarks. Labs evaluate in-house, and no independent group has stepped in to run continuous benchmarking as a service. The result is that no one actually knows how good anyone else is, or where the real frontier sits.\r\n\r\nGood benchmarks require operating and maintaining physical hardware and real-world setups. Simulation only goes so far, since models that look strong in sim can show large performance gaps once deployed in the real world. Building real-world benchmarks means coordinating job-domain experts, evals engineering, and hands-on robotics all at once.\r\n\r\nFrontier labs are targeting general-purpose robotics by 2028, yet the field of robotics evals barely exists. Whoever builds the trusted measure of robot capability becomes the reference everyone relies on. We combine backgrounds in AI evals and robotics to build and grow this field as fast as possible. We already shipped v1 of our open-source framework, Inspect Robots, and ran our first pilot scoring a frontier model on a real robot.\n\nWe measure how good AI and robots are in the physical world.\n\nWe’re Jay and Aris, co-founders of Robocurve.\n\nRobots can do karate kicks, cut carrots, and bake bread in demo videos. But how capable are they, really? Robocurve measures how well AI and robots can do real-world tasks. We are a Public Benefit Corporation and our work is open-source.\n\nOur demo video\n\nAsk:\n\n🤖 Visit robocurve.org to get your AI model or robot evaluated\n\n⭐ Inspect Robots is open source (inspectrobots.org). You can use it to evaluate your own models and tell us how it goes.\n\n### Problem\n\nFrontier labs are targeting general-purpose robotics by 2028, yet the field of robotics evals barely exists. Labs evaluate in-house, and no independent group has stepped in to run continuous benchmarking as a service. The result is that no one actually knows how good anyone else is, or where ",
+    "description_combined": "Evaluating robots in the real world.\n\nRobocurve builds open-source tools and independent benchmarks to measure how well robots can do real-world jobs. Instead of relying on unverified demo videos from frontier labs, we score their models on reproducible benchmarks that anyone can trust.\r\n\r\nToday there are no well-run, standardized robotics benchmarks. Labs evaluate in-house, and no independent group has stepped in to run continuous benchmarking as a service. The result is that no one actually knows how good anyone else is, or where the real frontier sits.\r\n\r\nGood benchmarks require operating and maintaining physical hardware and real-world setups. Simulation only goes so far, since models that look strong in sim can show large performance gaps once deployed in the real world. Building real-world benchmarks means coordinating job-domain experts, evals engineering, and hands-on robotics all at once.\r\n\r\nFrontier labs are targeting general-purpose robotics by 2028, yet the field of robotics evals barely exists. Whoever builds the trusted measure of robot capability becomes the reference everyone relies on. We combine backgrounds in AI evals and robotics to build and grow this field as fast as possible. We already shipped v1 of our open-source framework, Inspect Robots, and ran our first pilot scoring a frontier model on a real robot.\n\nWe measure how good AI and robots are in the physical world.\n\nWe’re Jay and Aris, co-founders of Robocurve.\n\nRobots can do karate kicks, cut carrots, and bake bread in demo videos. But how capable are they, really? Robocurve measures how well AI and robots can do real-world tasks. We are a Public Benefit Corporation and our work is open-source.\n\nOur demo video\n\nAsk:\n\n🤖 Visit robocurve.org to get your AI model or robot evaluated\n\n⭐ Inspect Robots is open source (inspectrobots.org). You can use it to evaluate your own models and tell us how it goes.\n\n### Problem\n\nFrontier labs are targeting general-purpose robotics by 2028, yet the field of robotics evals barely exists. Labs evaluate in-house, and no independent group has stepped in to run continuous benchmarking as a service. The result is that no one actually knows how good anyone else is, or where \n\nReal-world evals for robots\n\nHi, I’m Jay, co-founder of Robocurve. We measure and reports what frontier robots can actually do in the real world.\n\nOur launch video \n\nFrontier labs are racing to build general-purpose robots within two years, yet no one knows what today's robots are truly capable of. Demo videos of robots performing narrow, cherry-picked tasks proliferate, but there are no rigorous, continuous, standardized benchmarks for robotics.\n\nRobocurve builds benchmarks for robots and the AI models that control them, to help the world understand how far robotics has come and how fast it's moving. Our benchmarks range from playing Jenga and making a sandwich to constructing a data center.\n\nGeneral-purpose robots could arrive before the end of the decade, with far-reaching implications: accelerated data center buil",
     "industry_sub_vertical": "Robotics capability benchmarking and independent performance evaluation",
     "canonical_vertical_id": "industrials.robotics.general",
     "vertical_id": "industrials.robotics.general",
@@ -73821,12 +73901,12 @@
     "directory_synced_at": "2026-07-30T15:55:20.231Z",
     "classified_at": "2026-07-30T15:55:20.231Z",
     "proposed_phenotype": null,
-    "launch_id": 106984,
-    "launch_url": "https://www.ycombinator.com/launches/RpY-robocurve-real-world-evaluations-of-ai-and-robots",
-    "launch_title": "Robocurve: Real-World Evaluations of AI and Robots",
-    "launch_created_at": "2026-07-23T16:31:44.065Z",
-    "launch_tagline": "We measure how good AI and robots are in the physical world.",
-    "launch_evaluated_at": "2026-07-30T16:56:29.910Z",
+    "launch_id": 112513,
+    "launch_url": "https://www.ycombinator.com/launches/TGj-robocurve-real-world-evaluations-of-physical-ai",
+    "launch_title": "Robocurve — Real-World Evaluations of Physical AI",
+    "launch_created_at": "2026-08-27T20:30:00.743Z",
+    "launch_tagline": "Real-world evals for robots",
+    "launch_evaluated_at": "2026-08-27T23:34:19.475Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -76558,6 +76638,88 @@
     "vertical_normalize_confidence": 0.45,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-07"
+  },
+  {
+    "slug": "semble",
+    "name": "Semble",
+    "website": "https://www.sembleai.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/semble",
+    "batch": "Fall 2025",
+    "one_liner": "The all-in-one software for integrators.",
+    "description_combined": "The all-in-one software for integrators.\n\nSemble is the operating system for your construction business. It&#x27;s a live platform that keeps the office and the field in sync on every project and provides AI agents to run the workflows your business depends on.\r\n\r\nJonathan and Ethan met studying computer science at Stanford. Jonathan worked at Convergint, one of the world&#x27;s largest building system integrators.",
+    "industry_sub_vertical": "Construction integrator field-office workflow automation & AI agent orchestration",
+    "canonical_vertical_id": "enterprise.ops.process-automation",
+    "vertical_id": "enterprise.ops.process-automation",
+    "vertical_label": "Cross-industry process automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agentic_workflow_automation",
+      "field_office_coordination",
+      "project_execution_agents",
+      "domain_document_parsing"
+    ],
+    "what_they_sell": "End-to-end operating system for construction integrators that synchronizes office and field operations via AI agents. Agents autonomously execute project workflows (scheduling, coordination, compliance, documentation) while maintaining real-time sync between office staff and field teams.",
+    "ai_play": "AI agents replace manual project coordination and workflow execution. Agents parse construction documents (specs, blueprints, contracts), coordinate multi-party workflows (procurement, scheduling, compliance), and autonomously execute routine tasks that currently require manual office-to-field communication and data entry.",
+    "who_pays": "Construction system integrators (SMB to mid-market); project managers and operations teams seeking to reduce manual coordination overhead and improve field-office alignment.",
+    "confidence": 0.82,
+    "rationale": "Semble is a vertical SaaS targeting construction integrators with AI agents as the core product differentiator. The platform automates end-to-end project workflows (office-field sync, scheduling, compliance) using autonomous agents — not just providing tools for humans to use. This matches vertical-agentic-workflow-saas: end-user-facing SaaS deploying agents to replace/augment job functions in a specific vertical, with high switching cost via domain integration and workflow lock-in. Secondary phenotype (vertical-workflow-automation-ai) also fits: parsing unstructured domain documents (blueprints, specs) and integrating with construction ERPs. Confidence is high (0.82) because the description explicitly positions AI agents as core to workflow automation, though we lack detail on agent autonomy level and specific ERP integrations.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "SaaS",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 14,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2102863,
+        "full_name": "Jonathan Tyshler",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder and CEO of Semble AI; previously economics and computer science at Stanford.",
+        "linkedin_url": "https://www.linkedin.com/in/jonathan-tyshler",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ff16b999d90c89b3a3c6c4eee71eb9b2a2abbb0d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHEC6BYY4%2F20260827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260827T233307Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJGMEQCIDyhgG%2Fk0ghg940DKCQFJFaEkBxbq6%2BINRJpPz8V9AegAiAcCebew6Z3dWjjnTf0Z9cyrh5Atn1nJhBLQ6PRhfezxCrlAwhBEAAaDDAwNjIwMTgxMTA3MiIMTXaWGIyxmqMCed%2ByKsIDsIlKB28J6A%2F%2FkFtKDplbj45BfZIeFexE5z0YsaKyD4fehdbc%2BFPGLQeE1p4eh89AidBcLpVEiIEz6Kk%2F8s5%2F6IC0kMkfQYciZIUl2CiZcA6ZYV%2BvPRodCaka74Gja%2F2BT%2Bd5KWRRJq4k9kh5R6KryQmJDLgBTQkHPmH6GQxxuvHQuV7jhIPhzTEC64zjSRU6zruibHz1SqQcoyf35E%2BCeCggy0yvPxHokHwItwNg8vtMdAHV%2FRz0ea7mzo5l29U3oACDKbkdCXRAstH0%2BNwVzNYEvPwZZfWq78NQ%2BhJNygP0ZR72UsqfnsfKSkTftPbnWmJHgjGnSd2BOHaxlowPcWLhCmmKzcrp99ppVqYd5%2FqDOhr%2BWNIk0vMCP5InxKHJXmpW%2BnTNjedyb2XOPDjtrybManaSZORr4Xoh9hMilZxhvbsCNYE7U0GaPElPM17h38t6R%2FVRgBUeJTH9XNPQCuIxhoYa7YpOj97Vr%2BR%2BXYvCPdlfudOtzxEL9ys7gsToemgD9Tjm%2BKxYdYKZ3cmD%2BRFKkbTIGDbcika6ZKoMllspnVBYnSaHDw7OgEU3dDRx72udFH1IPFamLf6lwqysesaQMPSOw9QGOqYBDZ84iLqzyDyiRCAczTaE8mIODZnYElBJ7iWaAxk5a%2FA6Zy4NG0y2UG4yneNC1yYi3Tgb9h95CQbhnRsrhyPyOnl7rBqObA96kLl1RUD5Q4DWcITtTfM%2FkAyDVHJAMupppNBbCOdzW5I4KOHVCwdy4Zfk6r%2F3ZTbdsg8LArvaWujBZIxBUhhsYY4b8EuxGoXPG96FPlgBwMZyETmKLAp6kcEQklDbRA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=675b8cb0478e71ae8def305386486fc78d28fb82726c2b315cbb37fe1895a77e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Semble",
+          "href": "https://www.ycombinator.com/companies/semble"
+        }
+      },
+      {
+        "user_id": 2440896,
+        "full_name": "Ethan Boyers",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder and CTO at Semble AI; previously, math and computer science at Stanford. ",
+        "linkedin_url": "https://www.linkedin.com/in/ethan-boyers/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b4788db72e1c296d34594f6bd13193bf1af7fd41.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHEC6BYY4%2F20260827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260827T233307Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJGMEQCIDyhgG%2Fk0ghg940DKCQFJFaEkBxbq6%2BINRJpPz8V9AegAiAcCebew6Z3dWjjnTf0Z9cyrh5Atn1nJhBLQ6PRhfezxCrlAwhBEAAaDDAwNjIwMTgxMTA3MiIMTXaWGIyxmqMCed%2ByKsIDsIlKB28J6A%2F%2FkFtKDplbj45BfZIeFexE5z0YsaKyD4fehdbc%2BFPGLQeE1p4eh89AidBcLpVEiIEz6Kk%2F8s5%2F6IC0kMkfQYciZIUl2CiZcA6ZYV%2BvPRodCaka74Gja%2F2BT%2Bd5KWRRJq4k9kh5R6KryQmJDLgBTQkHPmH6GQxxuvHQuV7jhIPhzTEC64zjSRU6zruibHz1SqQcoyf35E%2BCeCggy0yvPxHokHwItwNg8vtMdAHV%2FRz0ea7mzo5l29U3oACDKbkdCXRAstH0%2BNwVzNYEvPwZZfWq78NQ%2BhJNygP0ZR72UsqfnsfKSkTftPbnWmJHgjGnSd2BOHaxlowPcWLhCmmKzcrp99ppVqYd5%2FqDOhr%2BWNIk0vMCP5InxKHJXmpW%2BnTNjedyb2XOPDjtrybManaSZORr4Xoh9hMilZxhvbsCNYE7U0GaPElPM17h38t6R%2FVRgBUeJTH9XNPQCuIxhoYa7YpOj97Vr%2BR%2BXYvCPdlfudOtzxEL9ys7gsToemgD9Tjm%2BKxYdYKZ3cmD%2BRFKkbTIGDbcika6ZKoMllspnVBYnSaHDw7OgEU3dDRx72udFH1IPFamLf6lwqysesaQMPSOw9QGOqYBDZ84iLqzyDyiRCAczTaE8mIODZnYElBJ7iWaAxk5a%2FA6Zy4NG0y2UG4yneNC1yYi3Tgb9h95CQbhnRsrhyPyOnl7rBqObA96kLl1RUD5Q4DWcITtTfM%2FkAyDVHJAMupppNBbCOdzW5I4KOHVCwdy4Zfk6r%2F3ZTbdsg8LArvaWujBZIxBUhhsYY4b8EuxGoXPG96FPlgBwMZyETmKLAp6kcEQklDbRA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=984d21be2a53fd3553608953270fd4ca1d7cf1fd762eeb4ac8bf73bf8553b995",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Semble",
+          "href": "https://www.ycombinator.com/companies/semble"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-27T23:33:18.638Z",
+    "classified_at": "2026-08-27T23:33:18.638Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 0.55,
+    "vertical_normalize_method": "yc_subindustry_default",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "semble-ai",
@@ -84211,6 +84373,105 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit"
+  },
+  {
+    "slug": "talos-us",
+    "name": "Talos",
+    "website": "https://www.talos-us.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/talos-us",
+    "batch": "Fall 2026",
+    "one_liner": "Predictive maintenance for power infrastructure.",
+    "description_combined": "Predictive maintenance for power infrastructure.\n\nPredictive maintenance for the power grid. ",
+    "industry_sub_vertical": "Power grid transformer & transmission equipment predictive maintenance",
+    "canonical_vertical_id": "power.asset-maintenance",
+    "vertical_id": "power.asset-maintenance",
+    "vertical_label": "Power plant & transmission asset maintenance scheduling",
+    "vertical_sector_id": "energy-climate",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "operational_efficiency",
+    "ai_application": "predictive_maintenance_optimization",
+    "ai_application_patterns": [
+      "predictive_maintenance",
+      "iot_sensor_analysis",
+      "anomaly_detection",
+      "asset_lifecycle_optimization"
+    ],
+    "what_they_sell": "AI-driven predictive maintenance platform for power grid infrastructure that ingests IoT sensor data (voltage, current, temperature, vibration) from transformers, substations, and transmission equipment to forecast equipment failures before they occur.",
+    "ai_play": "Deep learning models trained on historical IoT telemetry and failure patterns enable utilities to shift from reactive/scheduled maintenance to predictive maintenance, reducing unplanned outages, extending asset lifespan, and optimizing maintenance crew dispatch. AI accelerates the ability to detect subtle degradation signals in noisy sensor data that human operators would miss.",
+    "who_pays": "Utility operators, grid operators, and infrastructure asset owners (municipal utilities, regional transmission organizations, private power companies) seeking to reduce downtime, maintenance costs, and grid reliability incidents.",
+    "confidence": 0.82,
+    "rationale": "Talos is building AI-enabled physical infrastructure (power grid assets) where deep learning on IoT sensor data is the core value driver. The phenotype ai-enabled-physical-systems fits because: (1) the core product is operational optimization of existing physical systems (power grid), not a new hardware product; (2) AI is the enabler—deep learning on sensor streams dramatically improves maintenance prediction and asset performance; (3) the wedge is operational_efficiency and cost reduction through predictive rather than reactive maintenance; (4) buyers are infrastructure operators, not software teams. This is distinct from robotics (no embodied control) and from vertical-workflow-agent (not automating a human workflow, but optimizing physical asset health). Confidence is high (0.82) because the fit is clear, though some uncertainty remains around whether they also offer hardware sensors (which would push toward ai-enabled-physical-systems + hardware co-design) vs. pure software integration with existing IoT infrastructure.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Energy"
+    ],
+    "yc_tags": [
+      "Deep Learning",
+      "IoT",
+      "Energy"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 3,
+    "location": "Baltimore, MD, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3578807,
+        "full_name": "Amitav Kohli",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Talos. Currently studying Electrical and Computer Engineering at Carnegie Mellon, where he designs power systems for CMU&#x27;s flagship disaster response snake robots in the Biorobotics Lab. Previously interned at Constellation Energy working on power engineering and predictive maintenance systems.",
+        "linkedin_url": "https://www.linkedin.com/in/amitav-kohli",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2e66d2682bddfe16b77ad76d8757d605b29d390c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALKVROMHA%2F20260827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260827T233339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIQD5didk7eQY3M7k9FCEeOvz%2BP83McrQuTYgR7tC4NktpwIgaKiUyE5t6AeCTAQCTRxZhfzpA2iq5SqLatdSdmRgpE8q5QMIQRAAGgwwMDYyMDE4MTEwNzIiDNjQyQ48Y8R%2FF6nhjSrCA8qe2lBu%2BKdPpXvYez7W4D2DNHcwO36KFHVtSSemJFwyCuiM3DNiOyScKoSLu7uMgDeQKhfJ4%2FmpB6a7Su2nYYUywJ3tfPsdp2S%2BlpHDjZBlCQtwDArx7eRS5YTWW%2BsLhKAQFp3%2FSB90r%2Fjk69vZ3Ex0bc%2Fxtt%2BXSRcMUSDNU758PJJiWvHHLTp4OrdLBj5aB3SLTLzfesDhB%2B6%2F0ff1etsFT%2B%2FINOouJPCbGXCMk%2BgUkuuJB9qje9ApU4OPQuWYunx%2FGud1tHIbKy%2BVAi6re8oXSBny%2BKoziPbfWUUan7hX8LWFgsmus9yAV9Ot7cpA9e1UY8cWFZmftQ30u0SbzNUWX7eaWBnFnkAYt66iVtC5%2BFZQ5EARtuo45fy0EbbKouhMfvL8KfYQkrfzlgci4K%2FV0k2NVMmMroQfLAwial%2F76r3rd2GExf8l8VKwD%2FCKv%2FUtxbDfCC1ZTTHGFqXsalf5bOsPIJyVap8u6NVBI5PvB7i5zQ%2FX17z813UbEVJnGIxe8HzGXAo27oFYFBLDyEP8F3756OrO5dA0qu5VLKc7gl76k9%2BcaDdnNyA8rnC%2BmxtQayQeIPNnLD%2BHl96r66RQqDD1jsPUBjqlAS80SlmdQHlYOgwCVGLB3JdkqlvGSuRdJwcuvTxNysYdhzxXVEUt1SA4UJaZDFtpvUntKHPmRTcllBLWp5L%2BviyCwasOA3mzbMGCBT17cmZNEVJUYUeCj%2BRxcWLjbVbvzqIXGKtFmPoHE5290kRWERVXCKFP3CcJaC6v48e%2BUJ1IhYwIpGsD3Rs7qFKF1seQK6xP%2BEKEVjYk3Y79Pk8%2FyAMl%2BTcKOQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3074d1815edff51b7b0d67a58395181d252ad1ca7e124aedb908f0983bd24f3a",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Talos",
+          "href": "https://www.ycombinator.com/companies/talos-us"
+        }
+      },
+      {
+        "user_id": 3599718,
+        "full_name": "Kevin Hwang",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Talos. Undergraduate researcher at Johns Hopkins School of Medicine, designing transformer-based foundation models for physiological waveforms using 100+ TB of ICU data. Published 3 papers (100+ citations, NeurIPS Workshop) on few-shot GPT-4 prompting for question generation. BS Computer Science & Applied Math at Johns Hopkins.",
+        "linkedin_url": "https://www.linkedin.com/in/kevin-hwang-jh/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3fc2d67cf1bbc75f880d1983e3f94ea3f7c67408.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALKVROMHA%2F20260827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260827T233339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIQD5didk7eQY3M7k9FCEeOvz%2BP83McrQuTYgR7tC4NktpwIgaKiUyE5t6AeCTAQCTRxZhfzpA2iq5SqLatdSdmRgpE8q5QMIQRAAGgwwMDYyMDE4MTEwNzIiDNjQyQ48Y8R%2FF6nhjSrCA8qe2lBu%2BKdPpXvYez7W4D2DNHcwO36KFHVtSSemJFwyCuiM3DNiOyScKoSLu7uMgDeQKhfJ4%2FmpB6a7Su2nYYUywJ3tfPsdp2S%2BlpHDjZBlCQtwDArx7eRS5YTWW%2BsLhKAQFp3%2FSB90r%2Fjk69vZ3Ex0bc%2Fxtt%2BXSRcMUSDNU758PJJiWvHHLTp4OrdLBj5aB3SLTLzfesDhB%2B6%2F0ff1etsFT%2B%2FINOouJPCbGXCMk%2BgUkuuJB9qje9ApU4OPQuWYunx%2FGud1tHIbKy%2BVAi6re8oXSBny%2BKoziPbfWUUan7hX8LWFgsmus9yAV9Ot7cpA9e1UY8cWFZmftQ30u0SbzNUWX7eaWBnFnkAYt66iVtC5%2BFZQ5EARtuo45fy0EbbKouhMfvL8KfYQkrfzlgci4K%2FV0k2NVMmMroQfLAwial%2F76r3rd2GExf8l8VKwD%2FCKv%2FUtxbDfCC1ZTTHGFqXsalf5bOsPIJyVap8u6NVBI5PvB7i5zQ%2FX17z813UbEVJnGIxe8HzGXAo27oFYFBLDyEP8F3756OrO5dA0qu5VLKc7gl76k9%2BcaDdnNyA8rnC%2BmxtQayQeIPNnLD%2BHl96r66RQqDD1jsPUBjqlAS80SlmdQHlYOgwCVGLB3JdkqlvGSuRdJwcuvTxNysYdhzxXVEUt1SA4UJaZDFtpvUntKHPmRTcllBLWp5L%2BviyCwasOA3mzbMGCBT17cmZNEVJUYUeCj%2BRxcWLjbVbvzqIXGKtFmPoHE5290kRWERVXCKFP3CcJaC6v48e%2BUJ1IhYwIpGsD3Rs7qFKF1seQK6xP%2BEKEVjYk3Y79Pk8%2FyAMl%2BTcKOQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=0c39e0c69ad45ac42a7ec8b83811ec5f7e0c33724013d612b151f38fabcc841e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Talos",
+          "href": "https://www.ycombinator.com/companies/talos-us"
+        }
+      },
+      {
+        "user_id": 3099707,
+        "full_name": "Himani Musku",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Founder at Talos. Studied CS at Carnegie Mellon. Previously conducted AI research with MIT Lincoln Laboratory (first-author IEEE paper), UChicago, and Northwestern. ",
+        "linkedin_url": "https://www.linkedin.com/in/himani-musku-55a60a286/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e2201f25b2e1f07058ce917b353fdb3ba521c07c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALKVROMHA%2F20260827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260827T233339Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIQD5didk7eQY3M7k9FCEeOvz%2BP83McrQuTYgR7tC4NktpwIgaKiUyE5t6AeCTAQCTRxZhfzpA2iq5SqLatdSdmRgpE8q5QMIQRAAGgwwMDYyMDE4MTEwNzIiDNjQyQ48Y8R%2FF6nhjSrCA8qe2lBu%2BKdPpXvYez7W4D2DNHcwO36KFHVtSSemJFwyCuiM3DNiOyScKoSLu7uMgDeQKhfJ4%2FmpB6a7Su2nYYUywJ3tfPsdp2S%2BlpHDjZBlCQtwDArx7eRS5YTWW%2BsLhKAQFp3%2FSB90r%2Fjk69vZ3Ex0bc%2Fxtt%2BXSRcMUSDNU758PJJiWvHHLTp4OrdLBj5aB3SLTLzfesDhB%2B6%2F0ff1etsFT%2B%2FINOouJPCbGXCMk%2BgUkuuJB9qje9ApU4OPQuWYunx%2FGud1tHIbKy%2BVAi6re8oXSBny%2BKoziPbfWUUan7hX8LWFgsmus9yAV9Ot7cpA9e1UY8cWFZmftQ30u0SbzNUWX7eaWBnFnkAYt66iVtC5%2BFZQ5EARtuo45fy0EbbKouhMfvL8KfYQkrfzlgci4K%2FV0k2NVMmMroQfLAwial%2F76r3rd2GExf8l8VKwD%2FCKv%2FUtxbDfCC1ZTTHGFqXsalf5bOsPIJyVap8u6NVBI5PvB7i5zQ%2FX17z813UbEVJnGIxe8HzGXAo27oFYFBLDyEP8F3756OrO5dA0qu5VLKc7gl76k9%2BcaDdnNyA8rnC%2BmxtQayQeIPNnLD%2BHl96r66RQqDD1jsPUBjqlAS80SlmdQHlYOgwCVGLB3JdkqlvGSuRdJwcuvTxNysYdhzxXVEUt1SA4UJaZDFtpvUntKHPmRTcllBLWp5L%2BviyCwasOA3mzbMGCBT17cmZNEVJUYUeCj%2BRxcWLjbVbvzqIXGKtFmPoHE5290kRWERVXCKFP3CcJaC6v48e%2BUJ1IhYwIpGsD3Rs7qFKF1seQK6xP%2BEKEVjYk3Y79Pk8%2FyAMl%2BTcKOQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=41f8e7df9b823009ca80209849b89d73465e35f021bfb9fa2e6ec7a5a6e54e3d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Talos",
+          "href": "https://www.ycombinator.com/companies/talos-us"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-27T23:33:49.137Z",
+    "classified_at": "2026-08-27T23:33:49.137Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "tamlabs",
@@ -92712,6 +92973,90 @@
     "vertical_normalize_confidence": 0.75,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-03"
+  },
+  {
+    "slug": "veriad",
+    "name": "Veriad",
+    "website": "https://veriad.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/veriad",
+    "batch": "Winter 2026",
+    "one_liner": "Enterprise marketing agents",
+    "description_combined": "Enterprise marketing agents\n\nVeriad is building marketing agents for enterprises.",
+    "industry_sub_vertical": "Enterprise marketing campaign orchestration & autonomous execution",
+    "canonical_vertical_id": "enterprise.marketing.growth",
+    "vertical_id": "enterprise.marketing.growth",
+    "vertical_label": "B2B growth marketing automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_orchestration",
+      "marketing_automation",
+      "campaign_execution",
+      "multi_channel_coordination"
+    ],
+    "what_they_sell": "End-user-facing SaaS platform deploying autonomous AI agents to automate enterprise marketing workflows—campaign planning, audience segmentation, content generation, channel coordination, performance optimization, and execution across email, social, web, and paid channels.",
+    "ai_play": "AI agents autonomously execute marketing job functions (campaign manager, performance analyst, content strategist) by integrating with marketing stacks (Salesforce, HubSpot, ad platforms), learning brand voice and campaign patterns, and executing multi-step workflows without manual intervention. Reduces time-to-campaign and improves consistency across channels.",
+    "who_pays": "Enterprise marketing teams (CMOs, marketing ops, demand gen leaders) seeking to scale campaign velocity and reduce manual execution overhead.",
+    "confidence": 0.75,
+    "rationale": "Veriad is positioned as 'marketing agents for enterprises'—autonomous agents handling marketing workflows end-to-end. This fits vertical-agentic-workflow-saas: vertical focus (marketing), end-user SaaS product, autonomous agent execution of job functions, integration with vertical-specific tools (marketing platforms), and differentiation via domain expertise and workflow learning. Not a horizontal copilot (too vertical-specific) or agent infrastructure (they are the end-product). Confidence 0.75 due to limited public detail on exact scope (campaign execution vs. advisory vs. full autonomy), but the phenotype is a strong fit for an enterprise marketing agent platform.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "B2B",
+      "Marketing",
+      "Advertising"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "London, England, United Kingdom",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 891759,
+        "full_name": "Rohan Mahendraker",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Rohan is the co-founder and CEO of Veriad. He is a self-taught software engineer and has built and sold compliance software to Fortune 500s. Before Veriad, Rohan was a founding engineer at CoLoop (YC S21), where he built their eval suite and AI agent. ",
+        "linkedin_url": "https://www.linkedin.com/in/rohanmahen/",
+        "twitter_url": "https://x.com/mahendrakerr",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a689f842d39bea432b3837aaa818059e77b62ee8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALKVROMHA%2F20260827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260827T233318Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIQD5didk7eQY3M7k9FCEeOvz%2BP83McrQuTYgR7tC4NktpwIgaKiUyE5t6AeCTAQCTRxZhfzpA2iq5SqLatdSdmRgpE8q5QMIQRAAGgwwMDYyMDE4MTEwNzIiDNjQyQ48Y8R%2FF6nhjSrCA8qe2lBu%2BKdPpXvYez7W4D2DNHcwO36KFHVtSSemJFwyCuiM3DNiOyScKoSLu7uMgDeQKhfJ4%2FmpB6a7Su2nYYUywJ3tfPsdp2S%2BlpHDjZBlCQtwDArx7eRS5YTWW%2BsLhKAQFp3%2FSB90r%2Fjk69vZ3Ex0bc%2Fxtt%2BXSRcMUSDNU758PJJiWvHHLTp4OrdLBj5aB3SLTLzfesDhB%2B6%2F0ff1etsFT%2B%2FINOouJPCbGXCMk%2BgUkuuJB9qje9ApU4OPQuWYunx%2FGud1tHIbKy%2BVAi6re8oXSBny%2BKoziPbfWUUan7hX8LWFgsmus9yAV9Ot7cpA9e1UY8cWFZmftQ30u0SbzNUWX7eaWBnFnkAYt66iVtC5%2BFZQ5EARtuo45fy0EbbKouhMfvL8KfYQkrfzlgci4K%2FV0k2NVMmMroQfLAwial%2F76r3rd2GExf8l8VKwD%2FCKv%2FUtxbDfCC1ZTTHGFqXsalf5bOsPIJyVap8u6NVBI5PvB7i5zQ%2FX17z813UbEVJnGIxe8HzGXAo27oFYFBLDyEP8F3756OrO5dA0qu5VLKc7gl76k9%2BcaDdnNyA8rnC%2BmxtQayQeIPNnLD%2BHl96r66RQqDD1jsPUBjqlAS80SlmdQHlYOgwCVGLB3JdkqlvGSuRdJwcuvTxNysYdhzxXVEUt1SA4UJaZDFtpvUntKHPmRTcllBLWp5L%2BviyCwasOA3mzbMGCBT17cmZNEVJUYUeCj%2BRxcWLjbVbvzqIXGKtFmPoHE5290kRWERVXCKFP3CcJaC6v48e%2BUJ1IhYwIpGsD3Rs7qFKF1seQK6xP%2BEKEVjYk3Y79Pk8%2FyAMl%2BTcKOQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=77de4e10c59f6d8f9bc781efc30c4e816b8bc876681db5657189e7be607f6b93",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Veriad",
+          "href": "https://www.ycombinator.com/companies/veriad"
+        }
+      },
+      {
+        "user_id": 1856834,
+        "full_name": "Anton Muratov",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Anton is the co-founder and Chief Commercial Officer of Veriad. He previously closed 7-figure deals with the largest bank in the US, the largest fashion group in the world, and advised Fortune 500s on regulatory policy. Before Veriad he advised YC startups and 9-figure scale-ups on GTM. In a previous life he was a competitive long-distance runner.",
+        "linkedin_url": "https://www.linkedin.com/in/antonmuratov/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0513900b0effe38e04606f4b39789d6f4a06c8c0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALKVROMHA%2F20260827%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260827T233318Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHgaCXVzLXdlc3QtMiJHMEUCIQD5didk7eQY3M7k9FCEeOvz%2BP83McrQuTYgR7tC4NktpwIgaKiUyE5t6AeCTAQCTRxZhfzpA2iq5SqLatdSdmRgpE8q5QMIQRAAGgwwMDYyMDE4MTEwNzIiDNjQyQ48Y8R%2FF6nhjSrCA8qe2lBu%2BKdPpXvYez7W4D2DNHcwO36KFHVtSSemJFwyCuiM3DNiOyScKoSLu7uMgDeQKhfJ4%2FmpB6a7Su2nYYUywJ3tfPsdp2S%2BlpHDjZBlCQtwDArx7eRS5YTWW%2BsLhKAQFp3%2FSB90r%2Fjk69vZ3Ex0bc%2Fxtt%2BXSRcMUSDNU758PJJiWvHHLTp4OrdLBj5aB3SLTLzfesDhB%2B6%2F0ff1etsFT%2B%2FINOouJPCbGXCMk%2BgUkuuJB9qje9ApU4OPQuWYunx%2FGud1tHIbKy%2BVAi6re8oXSBny%2BKoziPbfWUUan7hX8LWFgsmus9yAV9Ot7cpA9e1UY8cWFZmftQ30u0SbzNUWX7eaWBnFnkAYt66iVtC5%2BFZQ5EARtuo45fy0EbbKouhMfvL8KfYQkrfzlgci4K%2FV0k2NVMmMroQfLAwial%2F76r3rd2GExf8l8VKwD%2FCKv%2FUtxbDfCC1ZTTHGFqXsalf5bOsPIJyVap8u6NVBI5PvB7i5zQ%2FX17z813UbEVJnGIxe8HzGXAo27oFYFBLDyEP8F3756OrO5dA0qu5VLKc7gl76k9%2BcaDdnNyA8rnC%2BmxtQayQeIPNnLD%2BHl96r66RQqDD1jsPUBjqlAS80SlmdQHlYOgwCVGLB3JdkqlvGSuRdJwcuvTxNysYdhzxXVEUt1SA4UJaZDFtpvUntKHPmRTcllBLWp5L%2BviyCwasOA3mzbMGCBT17cmZNEVJUYUeCj%2BRxcWLjbVbvzqIXGKtFmPoHE5290kRWERVXCKFP3CcJaC6v48e%2BUJ1IhYwIpGsD3Rs7qFKF1seQK6xP%2BEKEVjYk3Y79Pk8%2FyAMl%2BTcKOQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=16307fb84ec2a1a85f733c2cecf470749e63c8323df6c3dd8c64be1d572eba32",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Veriad",
+          "href": "https://www.ycombinator.com/companies/veriad"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-27T23:33:29.916Z",
+    "classified_at": "2026-08-27T23:33:29.916Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "veritus",
