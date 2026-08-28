@@ -60472,7 +60472,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/osmaura",
     "batch": "Summer 2026",
     "one_liner": "AI growth engine for law firms.",
-    "description_combined": "AI growth engine for law firms.\n\nOur agents scan the web to deliver new client & cross-selling opportunities for law firm partners.\r\n\r\nEvery day, our customers log onto our platform to see who to contact, why now, and what to say.\r\n\r\nPartners are trained to practice law - not to prospect, sell, and manage pipelines. We&#x27;re here to help them grow while they focus on what they do best.\n\nWe surface new matter opportunities for law firm partners.\n\nTl;dr: We’re building AI agents that surfaces new matter opportunities for law firm partners.\n\n### The problem:\n\nPartners at law firms spend at least 10 hours of every week trying to win new clients. \n\nHowever, they’re limited to corporate contacts within their network. Firms try to help by connecting them with prospects but it’s often unclear which ones are ready to become clients.\n\n### The solution:\n\nAI can give partners a deeper understanding of prospective clients and legal support they might need at the right time.\n\n### What we’re building:\n\nOur agents monitor companies and regulators across the web to surface early signals that a company may soon need counsel and ways to connect with them.\n\nHere’s how it works:\n\n1. Understand the partner: The agents build a profile of the partner usi",
+    "description_combined": "AI growth engine for law firms.\n\nOur agents scan the web to deliver new client & cross-selling opportunities for law firm partners.\r\n\r\nEvery day, our customers log onto our platform to see who to contact, why now, and what to say.\r\n\r\nPartners are trained to practice law - not to prospect, sell, and manage pipelines. We&#x27;re here to help them grow while they focus on what they do best.\n\nWe surface new matter opportunities for law firm partners.\n\nTl;dr: We’re building AI agents that surfaces new matter opportunities for law firm partners.\n\n### The problem:\n\nPartners at law firms spend at least 10 hours of every week trying to win new clients. \n\nHowever, they’re limited to corporate contacts within their network. Firms try to help by connecting them with prospects but it’s often unclear which ones are ready to become clients.\n\n### The solution:\n\nAI can give partners a deeper understanding of prospective clients and legal support they might need at the right time.\n\n### What we’re building:\n\nOur agents monitor companies and regulators across the web to surface early signals that a company may soon need counsel and ways to connect with them.\n\nHere’s how it works:\n\n1. Understand the partner: The agents build a profile of the partner usi\n\nWe help law firms find new clients\n\nOsmaura helps law firms find new clients.\n\nMost law firms still rely almost entirely on referrals to grow. But referrals are unpredictable and can’t reliably bring firms the specific types of clients they want.\n\nOsmaura gives law firms AI agents that understand their work, discover &amp; monitor legal-specific data sources to spot demand for their expertise, and run thoughtful outreach.\n\n\n\nLaw firms are already adopting Osmaura. In four weeks, we went from $0 to $14K MRR.\n\nBusinesses with fewer than 500 employees alone spend $105 billion on legal services in the U.S. each year. Osmaura helps firms proactively pursue the work they are best positioned to win.\n\nFounders Kali and Jity have worked across technology and public policy since high school. Kali built large-scale AI systems for legal",
     "industry_sub_vertical": "Law firm partner business development & pipeline management",
     "canonical_vertical_id": "enterprise.sales.enablement",
     "vertical_id": "enterprise.sales.enablement",
@@ -60544,12 +60544,12 @@
     "directory_synced_at": "2026-07-30T16:15:15.477Z",
     "classified_at": "2026-07-30T16:15:15.477Z",
     "proposed_phenotype": null,
-    "launch_id": 104368,
-    "launch_url": "https://www.ycombinator.com/launches/R9M-osmaura-ai-agents-that-identify-legal-needs",
-    "launch_title": "Osmaura - AI agents that identify legal needs",
-    "launch_created_at": "2026-07-01T14:07:41.499Z",
-    "launch_tagline": "We surface new matter opportunities for law firm partners.",
-    "launch_evaluated_at": "2026-07-30T16:56:29.918Z",
+    "launch_id": 112608,
+    "launch_url": "https://www.ycombinator.com/launches/TIG-osmaura-ai-growth-engine-for-law-firms",
+    "launch_title": "Osmaura: AI growth engine for law firms",
+    "launch_created_at": "2026-08-28T16:34:00.085Z",
+    "launch_tagline": "We help law firms find new clients",
+    "launch_evaluated_at": "2026-08-28T23:23:43.400Z",
     "primary_bm": "BM-01",
     "primary_bm_rationale": "Osmaura is a software platform that law firms subscribe to and use directly to identify opportunities; while it uses AI agents, the primary value delivery is through a SaaS product sold to a vertical (law firms), not through outsourced labor or managed services.",
     "primary_bm_assigned_at": "2026-07-30T19:00:04.602Z",
@@ -69901,6 +69901,86 @@
     "primary_bm": "BM-02"
   },
   {
+    "slug": "quotient-labs",
+    "name": "Quotient Labs",
+    "website": "https://quotientlabs.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/quotient-labs",
+    "batch": "Winter 2026",
+    "one_liner": "Use Claude Code at 47% less cost in one line of installation.",
+    "description_combined": "Use Claude Code at 47% less cost in one line of installation.\n\nQuotient Labs runs on top of Claude Code to reduce token spend, compress context, and optimize tool calls while preserving output quality, without changing how you work. Benchmarked 47% less cost on real, multi-step developer workflows, with no quality loss.",
+    "industry_sub_vertical": "LLM token spend optimization & cost management for Claude Code",
+    "canonical_vertical_id": "devtools.cost-optimization",
+    "vertical_id": "devtools.cost-optimization",
+    "vertical_label": "Cloud resource optimization & cost management",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "edge-inference-runtime",
+    "phenotype_primary_label": "Edge Inference Runtime & Optimization",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "token_compression",
+      "context_optimization",
+      "cost_reduction",
+      "tool_call_optimization"
+    ],
+    "what_they_sell": "Drop-in optimization layer for Claude Code that reduces token spend by 47% through context compression, intelligent token management, and optimized tool routing — without requiring code changes or quality loss.",
+    "ai_play": "Sits between developer applications and Claude API to intercept, compress, and optimize prompts/context before transmission and tool calls after execution. Uses token-efficient context representation and selective tool invocation to maintain output quality while dramatically reducing API costs.",
+    "who_pays": "Engineering teams, AI application builders, and enterprises using Claude Code at scale — buyers are dev leads and platform engineers optimizing LLM spend.",
+    "confidence": 0.75,
+    "rationale": "Quotient Labs is infrastructure-layer optimization software that compresses and routes AI model inputs/outputs to reduce cost and latency. Closest fit is edge-inference-runtime (model compression, device-agnostic runtime, cost optimization without cloud lock-in), though the 'edge' here is logical (optimization layer) rather than physical. Secondary fit is model-optimization-rl (continuous optimization from production signals). Primary wedge is infrastructure_pickaxe (developer tooling that reduces friction/cost). Does NOT fit vertical-workflow-agent (not automating a job function) or horizontal-copilot-saas (not a seat-based productivity tool — it's infrastructure under Claude). Confidence 0.75 because edge-inference-runtime is designed for device deployment, but the core phenotype (infrastructure optimization, model compression, cost reduction) is a strong match.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Productivity"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3146534,
+        "full_name": "Saahil Sundaresan",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Making coding agents cheaper @ Quotient Labs | Stanford CS & Linguistics | formerly at Apple, Amazon\n\nFeel free to reach out for anything! saahil@quotientlabs.com",
+        "linkedin_url": "https://www.linkedin.com/in/saahil-sundaresan/",
+        "twitter_url": "https://x.com/imsaahilsangye",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e304ced8cba2226f90d21d9467a03cf7a0c608de.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAD4ISOVYD%2F20260828%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260828T232255Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAkPnKXlY5LdcR1X%2BI2kHl48QF6%2FhVjf9j4hBAfsVBG%2BAiAbDegTrQ2bPTftZhOIIW%2BVZpHxluac3RV%2Fyd2qkN5pfCrlAwhYEAAaDDAwNjIwMTgxMTA3MiIMkWaps49Ewm9sRVv6KsIDBFlquB42bGtwNaIFlrXm0rWfwUIKpIDSO%2B0CEMVvSK3kPjCgIdfdGMVJATe4HVTxaMWsa3mWGebXuNi4K6jwtX7R5qCHJI7KSMxjGGMW5Yiy6y6y4839IxXCzhU7s8yC3rzili7cKuQMP4Bd59QYIFhRQI%2Bev2PGCESIkjvz6R0uTaF7Jj7Ij5q6S8Ycw7itXW31AD4sVd2y0xUOE8nv8JhU%2BcEg4MAk5PDwTYVA5sO62iK6H92o9DgXCyhQxWEeLPedzZGTiZLD3KfHXo9YIxT%2FpD2U%2F%2FDcZ7bwgzRTNlaIIOLCPdOedIXbpxIgWYoZXU5bQdb478%2F8iJdvh6UIn9BBkUoN8yPtO9lQMRDvpjbyIGIzXvCVhla33%2FQPk%2Fr6jDPfAgMdo1ftz2OYuqp4OL%2FwhRMY7o2ZRl9RDdbirTqdza1%2BFg69lnThpMism%2FqnX27SGrwimJbrpkhFnAAnkNSns5%2FzjfsX8Xpk1zzJmFMe8xFiv5qsexTJR9R3WvxpADt0oykRs2OaEmMluq8a5QaVRnfiT56XTQ%2BwWx2PxQ99Lu0iv6PtGxK9H%2Fti64zC8SUjBLEIBCLFy2QI9zxW31PEMIKkyNQGOqYB8%2Bg4vr%2FnDE%2FkvDTPZa2nE6BHpQYCOu5gSP1j7dp8gXTEJXDHV4UlnlOW3zZ%2BWePJRaL2FPW2t14ToKqS7FGGNDt04JLLFChhXmHHmS49IE35xdYd1dieKxFktWj5v0hHnP0RxjXEATQzZRgbwAhul%2F5VOhg%2FAKrkmiTvt8ilv9nvT%2BofIt4smZKu6QOiHzVObDcL0drW0yqXGpVJwK1w3sqMVv5PhA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2087c4eda663644a2a22b947c9805802b97aae711300070bf7e2edc28668cf1a",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Quotient Labs",
+          "href": "https://www.ycombinator.com/companies/quotient-labs"
+        }
+      },
+      {
+        "user_id": 3141216,
+        "full_name": "Andrew Kuik",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Making coding agents cheaper @ Quotient Labs. Stanford &#x27;26 CS; previously at AWS, Accenture\n\nFeel free to reach out for anything!",
+        "linkedin_url": "https://www.linkedin.com/in/andrew-kuik-109749238/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d99bc8a7e3e1c6722600ee98bfbcdc3508791975.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAD4ISOVYD%2F20260828%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260828T232255Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAkPnKXlY5LdcR1X%2BI2kHl48QF6%2FhVjf9j4hBAfsVBG%2BAiAbDegTrQ2bPTftZhOIIW%2BVZpHxluac3RV%2Fyd2qkN5pfCrlAwhYEAAaDDAwNjIwMTgxMTA3MiIMkWaps49Ewm9sRVv6KsIDBFlquB42bGtwNaIFlrXm0rWfwUIKpIDSO%2B0CEMVvSK3kPjCgIdfdGMVJATe4HVTxaMWsa3mWGebXuNi4K6jwtX7R5qCHJI7KSMxjGGMW5Yiy6y6y4839IxXCzhU7s8yC3rzili7cKuQMP4Bd59QYIFhRQI%2Bev2PGCESIkjvz6R0uTaF7Jj7Ij5q6S8Ycw7itXW31AD4sVd2y0xUOE8nv8JhU%2BcEg4MAk5PDwTYVA5sO62iK6H92o9DgXCyhQxWEeLPedzZGTiZLD3KfHXo9YIxT%2FpD2U%2F%2FDcZ7bwgzRTNlaIIOLCPdOedIXbpxIgWYoZXU5bQdb478%2F8iJdvh6UIn9BBkUoN8yPtO9lQMRDvpjbyIGIzXvCVhla33%2FQPk%2Fr6jDPfAgMdo1ftz2OYuqp4OL%2FwhRMY7o2ZRl9RDdbirTqdza1%2BFg69lnThpMism%2FqnX27SGrwimJbrpkhFnAAnkNSns5%2FzjfsX8Xpk1zzJmFMe8xFiv5qsexTJR9R3WvxpADt0oykRs2OaEmMluq8a5QaVRnfiT56XTQ%2BwWx2PxQ99Lu0iv6PtGxK9H%2Fti64zC8SUjBLEIBCLFy2QI9zxW31PEMIKkyNQGOqYB8%2Bg4vr%2FnDE%2FkvDTPZa2nE6BHpQYCOu5gSP1j7dp8gXTEJXDHV4UlnlOW3zZ%2BWePJRaL2FPW2t14ToKqS7FGGNDt04JLLFChhXmHHmS49IE35xdYd1dieKxFktWj5v0hHnP0RxjXEATQzZRgbwAhul%2F5VOhg%2FAKrkmiTvt8ilv9nvT%2BofIt4smZKu6QOiHzVObDcL0drW0yqXGpVJwK1w3sqMVv5PhA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1c30a084596ac82ed58118c092d934ef238f453016ba407e9748dfbfebffb738",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Quotient Labs",
+          "href": "https://www.ycombinator.com/companies/quotient-labs"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-28T23:23:06.040Z",
+    "classified_at": "2026-08-28T23:23:06.040Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "radiusbrowser",
     "name": "Radius",
     "website": "https://www.radiusbrowser.com",
@@ -70549,7 +70629,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/rational",
     "batch": "Summer 2026",
     "one_liner": "AI Employees for Accounting",
-    "description_combined": "AI Employees for Accounting\n\nRational builds AI coworkers for accounting firms. Our agents onboard themselves to the firm, build a company brain, and do the work, from month-end close to tax prep. In addition, they follow up with clients and communicate with the right members of your team.\n\n24/7 hires to solve the talent shortage within your firm's existing stack\n\nRational builds AI employees for accounting and tax firms. They onboard themselves to your firm, handle real work within your existing tools, and keep a human in control of every decision that matters — so firms can finally say yes to the clients they've been turning away.\n\n\n\n_The problem_\n\nAccounting has an economics problem: demand is there, capacity isn't. Most firms turned away paying clients last year simply because they didn't have the people to do the work, and the talent pool keeps shrinking as accountants leave the profession faster than firms can replace them. More software hasn't fixed this — and a chatbot that summarizes a spreadsheet definitely hasn't. The parts of accounting that actually matter, like judgment, trust, and sign-off, should stay human. Everything around them sh",
+    "description_combined": "AI Employees for Accounting\n\nRational builds AI coworkers for accounting firms. Our agents onboard themselves to the firm, build a company brain, and do the work, from month-end close to tax prep. In addition, they follow up with clients and communicate with the right members of your team.\n\n24/7 hires to solve the talent shortage within your firm's existing stack\n\nRational builds AI employees for accounting and tax firms. They onboard themselves to your firm, handle real work within your existing tools, and keep a human in control of every decision that matters — so firms can finally say yes to the clients they've been turning away.\n\n\n\n_The problem_\n\nAccounting has an economics problem: demand is there, capacity isn't. Most firms turned away paying clients last year simply because they didn't have the people to do the work, and the talent pool keeps shrinking as accountants leave the profession faster than firms can replace them. More software hasn't fixed this — and a chatbot that summarizes a spreadsheet definitely hasn't. The parts of accounting that actually matter, like judgment, trust, and sign-off, should stay human. Everything around them sh\n\nAI employees for in-house accounting teams\n\nRational builds AI employees for in-house accounting teams. They onboard themselves, handle real work within existing tools, and keep a human in control of every decision that matters. \n\nOur AI employees conduct interviews with each role on your team, creating a mental map of your workflows, inefficiencies, and who to route approvals to. After you connect them to your current stack, they simply do the work, 24/7. They learn from every single interaction and become more accurate over time — and their insights are completely isolated for your team. They’re truly your AI employees.\n\nWe’re live with major enterprise customers, including a Fortune Global 100.\n\n\n\nToday, we’re also releasing our Web Playground for early access.\n\nVisit rational.to/book-demo to get access.\n\nNot part of an accountin",
     "industry_sub_vertical": "Accounting firm AI agent automation for month-end close and tax preparation",
     "canonical_vertical_id": "enterprise.finance.accounting",
     "vertical_id": "enterprise.finance.accounting",
@@ -70621,12 +70701,12 @@
     "directory_synced_at": "2026-07-30T16:04:01.733Z",
     "classified_at": "2026-07-30T16:04:01.733Z",
     "proposed_phenotype": null,
-    "launch_id": 106060,
-    "launch_url": "https://www.ycombinator.com/launches/Rae-rational-ai-employees-for-accounting",
-    "launch_title": "Rational: AI Employees for Accounting",
-    "launch_created_at": "2026-07-17T17:45:59.589Z",
-    "launch_tagline": "24/7 hires to solve the talent shortage within your firm's existing stack",
-    "launch_evaluated_at": "2026-07-30T16:56:29.913Z",
+    "launch_id": 112573,
+    "launch_url": "https://www.ycombinator.com/launches/THh-rational-ai-employees-for-accounting",
+    "launch_title": "Rational - AI Employees for Accounting",
+    "launch_created_at": "2026-08-28T16:00:00.566Z",
+    "launch_tagline": "AI employees for in-house accounting teams",
+    "launch_evaluated_at": "2026-08-28T23:23:43.401Z",
     "primary_bm": "BM-01",
     "primary_bm_rationale": "Rational is a vertical AI SaaS product sold to accounting firms that integrates into their existing stack and workflows, rather than a managed service where Rational owns the outcome or employs human labor on behalf of clients.",
     "primary_bm_assigned_at": "2026-07-30T19:00:06.446Z",
@@ -95887,6 +95967,75 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-09"
+  },
+  {
+    "slug": "workers-io",
+    "name": "Workers IO",
+    "website": "https://workers.io",
+    "yc_profile_url": "https://www.ycombinator.com/companies/workers-io",
+    "batch": "Fall 2026",
+    "one_liner": "Deterministic Virtual Machines",
+    "description_combined": "Deterministic Virtual Machines\n\nWorkers IO makes sure everything you ship works. Our platform maps every scenario your software can face in production and verifies each release against all of them in simulation environments, every failure comes back as an exact, replayable run.\r\n\r\nEngineering teams stop chasing bugs and ship at agent speed, with certainty that used to be impossible.",
+    "industry_sub_vertical": "Deterministic simulation & release verification for software engineering teams",
+    "canonical_vertical_id": "ai-infrastructure.qa-testing",
+    "vertical_id": "ai-infrastructure.qa-testing",
+    "vertical_label": "Software QA & test automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent observability, evals, or safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "deterministic_simulation",
+      "scenario_mapping",
+      "failure_replay",
+      "release_verification"
+    ],
+    "what_they_sell": "Platform that deterministically simulates all production scenarios for software releases, verifies correctness against each scenario, and provides exact, replayable failure traces for debugging.",
+    "ai_play": "Uses AI/ML to map the space of possible production scenarios (edge cases, failure modes, load conditions) that software can encounter, then systematically evaluates each release against this exhaustive scenario set in simulation. Enables deterministic verification at scale without manual test case authoring.",
+    "who_pays": "Engineering teams, DevOps, QA leaders at software companies seeking to reduce release risk and accelerate shipping velocity.",
+    "confidence": 0.65,
+    "rationale": "Workers IO is a testing/verification infrastructure product that maps scenarios and evaluates releases against them—closest fit is agent-observability-evals (benchmarks, red-teaming, compliance testing, production monitoring). However, the primary value is deterministic simulation and scenario coverage, not agent-specific observability. The product enables 'agent speed' shipping by removing manual testing friction, but is not itself an agent runtime, agent safety layer, or agent-specific tool. Secondary consideration: could be infrastructure_pickaxe (developer tooling for reliability), but observability-evals better captures the evaluation/verification core. Confidence is moderate (0.65) because the phenotype is adjacent but not a perfect fit—Workers IO is more 'release verification infrastructure' than 'agent safety/evals,' though it serves the same trust-and-quality wedge.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "B2B",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3410079,
+        "full_name": "Chaitanya Choudhary",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Workers IO (YC F26) - Helping teams build reliable software - Prev. Grit, OnDeck - Research Harvard Law",
+        "linkedin_url": "https://www.linkedin.com/in/chaitanyya",
+        "twitter_url": "https://x.com/chaaai",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/29ed0f9255cfb914fff0a4ce79f6f8c0c1224267.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAD4ISOVYD%2F20260828%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260828T232306Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAkPnKXlY5LdcR1X%2BI2kHl48QF6%2FhVjf9j4hBAfsVBG%2BAiAbDegTrQ2bPTftZhOIIW%2BVZpHxluac3RV%2Fyd2qkN5pfCrlAwhYEAAaDDAwNjIwMTgxMTA3MiIMkWaps49Ewm9sRVv6KsIDBFlquB42bGtwNaIFlrXm0rWfwUIKpIDSO%2B0CEMVvSK3kPjCgIdfdGMVJATe4HVTxaMWsa3mWGebXuNi4K6jwtX7R5qCHJI7KSMxjGGMW5Yiy6y6y4839IxXCzhU7s8yC3rzili7cKuQMP4Bd59QYIFhRQI%2Bev2PGCESIkjvz6R0uTaF7Jj7Ij5q6S8Ycw7itXW31AD4sVd2y0xUOE8nv8JhU%2BcEg4MAk5PDwTYVA5sO62iK6H92o9DgXCyhQxWEeLPedzZGTiZLD3KfHXo9YIxT%2FpD2U%2F%2FDcZ7bwgzRTNlaIIOLCPdOedIXbpxIgWYoZXU5bQdb478%2F8iJdvh6UIn9BBkUoN8yPtO9lQMRDvpjbyIGIzXvCVhla33%2FQPk%2Fr6jDPfAgMdo1ftz2OYuqp4OL%2FwhRMY7o2ZRl9RDdbirTqdza1%2BFg69lnThpMism%2FqnX27SGrwimJbrpkhFnAAnkNSns5%2FzjfsX8Xpk1zzJmFMe8xFiv5qsexTJR9R3WvxpADt0oykRs2OaEmMluq8a5QaVRnfiT56XTQ%2BwWx2PxQ99Lu0iv6PtGxK9H%2Fti64zC8SUjBLEIBCLFy2QI9zxW31PEMIKkyNQGOqYB8%2Bg4vr%2FnDE%2FkvDTPZa2nE6BHpQYCOu5gSP1j7dp8gXTEJXDHV4UlnlOW3zZ%2BWePJRaL2FPW2t14ToKqS7FGGNDt04JLLFChhXmHHmS49IE35xdYd1dieKxFktWj5v0hHnP0RxjXEATQzZRgbwAhul%2F5VOhg%2FAKrkmiTvt8ilv9nvT%2BofIt4smZKu6QOiHzVObDcL0drW0yqXGpVJwK1w3sqMVv5PhA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3d8ec1561a6eca79d00b0712ac0265f081f5ab465eb67e576c48cfba7e259b21",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Workers IO",
+          "href": "https://www.ycombinator.com/companies/workers-io"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-28T23:23:14.817Z",
+    "classified_at": "2026-08-28T23:23:14.817Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "woz",

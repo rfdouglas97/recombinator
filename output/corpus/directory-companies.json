@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-27T23:33:07.118Z",
+  "synced_at": "2026-08-28T23:22:55.123Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -948,15 +948,15 @@
       "slug": "almanac",
       "name": "Almanac",
       "batch": "Summer 2026",
-      "one_liner": "The AI that knows your company",
-      "long_description": "Almanac is Hermes with a company brain. You message it in Slack or iMessage; it knows what is happening across your company and can use your accounts to get real tasks done for you. It has a full computer, browser and terminal. It takes your Gmail, Calendar, Attio, GitHub, AI convos, docs and meeting notes and compiles them into a Wiki that keeps itself up to date. It keeps a current understanding of what you’re building, who your customers are, what was decided, and what still needs to happen. It can use websites, run code, create files and take actions across your accounts. If it reaches a login, payment or decision it shouldn’t make alone, it pings you or hands you the live browser. \r\n",
+      "one_liner": "The AI that knows you",
+      "long_description": "Almanac is the agent that knows you. You message it in Slack or iMessage; it knows what is happening across your company and can use your accounts to get real tasks done for you. It has a full computer, browser and terminal. It takes your Gmail, Calendar, Attio, GitHub, AI convos, docs and meeting notes and compiles them into a Wiki that keeps itself up to date. It keeps a current understanding of what you’re building, who your customers are, what was decided, and what still needs to happen. It can use websites, run code, create files and take actions across your accounts. If it reaches a login, payment or decision it shouldn’t make alone, it pings you or hands you the live browser. \r\n",
       "website": "https://usealmanac.com",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Generative AI",
-        "AI",
         "AI Assistant"
       ],
       "team_size": 0,
@@ -1197,34 +1197,11 @@
       "launched_at": 1785536963
     },
     {
-      "slug": "amulet",
-      "name": "Amulet",
-      "batch": "Summer 2026",
-      "one_liner": "High performance file system for agents",
-      "long_description": "Amulet is a high-performance filesystem that gives agent workloads fast access to petabytes of data stored in the cloud. \r\n\r\nWe provide isolated, writable workspaces that mount in under 100 ms and fork without copying data. Work persists across disposable compute, and every workspace can be snapshotted, reproduced, merged, or rolled back. We’re working with agentic automated-research labs, cloud agent providers, and other to bring this infrastructure to data-intensive AI teams.",
-      "website": "https://amulet.so/",
-      "industries": [
-        "B2B",
-        "Infrastructure"
-      ],
-      "tags": [
-        "Developer Tools",
-        "Machine Learning",
-        "Big Data",
-        "Infrastructure",
-        "AI"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1783403722
-    },
-    {
       "slug": "anana",
       "name": "Anana",
       "batch": "Spring 2025",
-      "one_liner": "The agentic system of action for hotel groups and management companies",
-      "long_description": "Anana is an AI-powered platform for hospitality revenue, sales, and operations teams to work together in one place. From investigating group pickup and triaging guest complaints to taking action directly in the tools your team already uses, Anana streamlines the workflows that drive occupancy, guest satisfaction, and revenue growth.",
+      "one_liner": "AI Workspace for Hospitality Commercial Teams",
+      "long_description": "Anana is an AI workspace for hospitality commercial teams. It connects bookings, calls, chats, emails, market intelligence, and hotel knowledge so teams can see demand earlier, understand what is driving it, and take action in the tools they already use. Built for hotel groups and management companies, Anana gives revenue, sales, marketing, and operations teams one place to work from the same commercial context.",
       "website": "https://getanana.com",
       "industries": [
         "B2B"
@@ -2708,7 +2685,7 @@
       "slug": "baud",
       "name": "Baud",
       "batch": "Summer 2026",
-      "one_liner": "AI chips for ultra-fast model training and inference",
+      "one_liner": "AI chips for ultra-fast training and inference",
       "long_description": "Novel AI hardware and developer platform, built from first principles to let companies train, fine-tune, and deploy frontier models with orders of magnitude better performance than incumbents",
       "website": "https://baudlabs.ai",
       "industries": [
@@ -2955,7 +2932,7 @@
       "slug": "billow-ai-labs",
       "name": "Billow AI Labs",
       "batch": "Summer 2026",
-      "one_liner": "AI-native Accounting Firm to Replace the Big-4",
+      "one_liner": "AI-native Accounting Firm that's killing Deloitte",
       "long_description": "Billow handles the work of Accounting and FP&A FTEs keeping teams compliant and audit-ready. We work within existing stacks (NetSuite, Coupa, and 80+ other systems) and complex spreadsheets, chasing down information and coordinating approvals across stakeholders. \r\n\r\nBuilt by repeat founders; Joan built and exited an accounting/ERP platform (45,000 businesses in 4 years) and Phil built Bloomberg's financial “brain” data infrastructure, and as CTO of a trading platform ($1B in volume). Advisors include CFOs, controllers, auditors from publicly-traded biopharma, and a Big-4 Accounting firm. ",
       "website": "https://thebillow.ai/",
       "industries": [
@@ -2985,7 +2962,7 @@
         "Agriculture"
       ],
       "tags": [],
-      "team_size": 4,
+      "team_size": 13,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1740392812
@@ -3001,7 +2978,7 @@
         "Healthcare"
       ],
       "tags": [],
-      "team_size": 4,
+      "team_size": 7,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1774518776
@@ -3621,7 +3598,7 @@
       "slug": "buildbox",
       "name": "Buildbox",
       "batch": "Summer 2026",
-      "one_liner": "Understand how users experience your AI agents",
+      "one_liner": "Agent analytics for real user outcomes",
       "long_description": "Buildbox helps product teams improve the human-agent experience. We analyze user intent, agent behavior, and outcomes to find where users get stuck or lose trust, then turn those findings into ranked, reproducible issues. ",
       "website": "https://heybuildbox.com",
       "industries": [
@@ -3629,9 +3606,9 @@
         "Analytics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Analytics",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -4117,16 +4094,17 @@
       "slug": "carsignal",
       "name": "CarSignal",
       "batch": "Summer 2026",
-      "one_liner": "The Smart Operating System for Auto Shops.",
+      "one_liner": "The AI Operating System for Auto Shops.",
       "long_description": "CarSignal is the AI-native operating system for independent auto repair shops.\r\n\r\nMost shops still run each repair across disconnected management software, scan tools, parts catalogs, service information, texts, spreadsheets, and knowledge kept in technicians’ heads. That fragmentation slows diagnosis, creates duplicate admin, and leaves customers waiting.\r\n\r\nCarSignal connects the full repair process in one system. AI agents research vehicle-specific failure patterns and surface the tests that confirm or rule out each cause. The same system carries each job from booking and intake through inspections, estimates, parts, approvals, payment, and follow-up, so technicians spend less time searching and updating systems and more time fixing cars.",
       "website": "https://www.trycarsignal.com",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
+        "Hardware",
         "SaaS",
         "B2B",
-        "AI",
         "Automotive"
       ],
       "team_size": 2,
@@ -6120,7 +6098,7 @@
         "AI"
       ],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "Bengaluru, KA, India",
       "status": "Active",
       "launched_at": 1785265630
     },
@@ -6385,7 +6363,7 @@
       "slug": "derya",
       "name": "Derya",
       "batch": "Summer 2026",
-      "one_liner": "Agentic Supply Chain Automations",
+      "one_liner": "Agents for Industrial Supply Chains",
       "long_description": "Derya deploys supply chain automations for startups, SMEs, and enterprises that fulfil their entire supply chain function, from prospecting and procurement to distribution of goods.\r\n\r\nOur mission is to rebuild the supply chain from the ground up, turning one of the world’s hardest coordination problems into an AI native system that moves commodities by being integrated into both the supply chain infrastructure and the customer. We work across robotics, commodities, and food & beverages companies; procuring goods and managing various operation functions for them.",
       "website": "http://usederya.com",
       "industries": [
@@ -6719,7 +6697,7 @@
       "slug": "donkey",
       "name": "Donkey",
       "batch": "Summer 2026",
-      "one_liner": "The AI-native trading company: China factory-direct for US importers",
+      "one_liner": "The AI-native trading company: factory prices, delivered, one number",
       "long_description": "Donkey is the modern trading company. We buy straight from Chinese factories and sell delivered to US importers: one USD price to their dock, duty paid, our own inspectors on the factory floor before the factory gets paid.\r\n\r\nMost importers buy through trading companies that mark up every container 15 to 30 percent and never reveal the factory. US customs records are public. Almost nobody reads them, so we arrive already knowing their supply lane. They send one photo of a part they reorder. We name the factory that actually makes it and beat their landed cost in 72 hours, or they keep their supplier.\r\n\r\nWe take title, run the inspection, move the money, and offer credit-insured net-45 terms to qualified buyers. The old trading giants ran this coordination with tens of thousands of people. Our machine runs it with a handful, and every settled order compounds the pricing and reliability data the next one runs on.\r\n\r\nTeam in SF and China, English and Mandarin. Know a US importer buying from China? Send them our way: one photo of a part, and we will name their factory. donkey.trade",
       "website": "https://donkey.trade",
       "industries": [
@@ -7207,17 +7185,17 @@
       "slug": "enact",
       "name": "Enact",
       "batch": "Summer 2026",
-      "one_liner": "The post-training layer for robotics.",
-      "long_description": "Enact generates the data that makes robotics models reliable in the real world. We run the full improvement loop: roll out, find failures, collect targeted data, train, evaluate, and repeat.",
+      "one_liner": "Real-world RL environments for robotics models",
+      "long_description": "Enact creates the physical environments to benchmark and hill climb robotics models on high-value tasks. We find where robots fail, and fix them with our in-house training loop.",
       "website": "https://enact.company",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Reinforcement Learning",
-        "Robotics"
+        "Robotics",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -7360,8 +7338,8 @@
       "slug": "erinys",
       "name": "Erinys",
       "batch": "Summer 2026",
-      "one_liner": "Building the first network of AI-native law firms",
-      "long_description": "Erinys is building the first AI-native plaintiff-side litigation law firm network. We use sophisticated technology to deliver high-quality legal representation faster, more affordably, and to more people.\r\n",
+      "one_liner": "We help lawyers start and scale AI-native law firms.",
+      "long_description": "Erinys provides the technology, intake, back office, and client acquisition needed to launch and scale an AI-native law firm. Lawyers own their firms and make every legal decision; Erinys handles everything around them.",
       "website": "https://erinys.ai",
       "industries": [
         "B2B",
@@ -7382,7 +7360,7 @@
       "name": "Ethos Space Resources",
       "batch": "Summer 2026",
       "one_liner": "We make Silicon on the Moon.",
-      "long_description": "We make Silicon on the Moon. Data centers in space are launch-constrained. Silicon in space removes the constraint. Scales past terawatts.",
+      "long_description": "The Moon will become the next Silicon Valley as compute moves to space. Already, rockets cannot keep up with launch demand. \r\n\r\nWe make silicon from raw materials already present on the Moon, so that power in space can be made in space.\r\n\r\nSilicon on the Moon is how to ascend the Kardashev scale.",
       "website": "https://ethos-space.com",
       "industries": [
         "Industrials",
@@ -7391,9 +7369,9 @@
       "tags": [
         "Hard Tech",
         "Exascale Computing",
-        "3D Printing",
         "Energy",
-        "Aerospace"
+        "Aerospace",
+        "Industrial"
       ],
       "team_size": 2,
       "location": "Los Angeles, CA, USA",
@@ -7463,7 +7441,7 @@
       "slug": "executor",
       "name": "Executor",
       "batch": "Summer 2026",
-      "one_liner": "The open source integration management layer for AI.",
+      "one_liner": "The open source tool gateway",
       "long_description": "Executor.sh is an MCP gateway that allows you to sign in once to all of your integrations and use them with any client.\r\n\r\nWe enable you to connect your agents to anything (MCP, GraphQL, OpenAPI) so regardless of what you're trying to connect agents to you're able to.\r\n\r\nIf you're trying to scale agents to access all of your production services, data, etc, you need Executor as a unified management layer.",
       "website": "https://executor.sh",
       "industries": [
@@ -7542,7 +7520,7 @@
       "slug": "exosat",
       "name": "Exosat",
       "batch": "Summer 2026",
-      "one_liner": "Building a sovereign Starlink",
+      "one_liner": "Building a sovereign alternative to Starlink",
       "long_description": "Exosat is building thousands of low-cost communication satellites to provide a neutral, sovereign alternative to Starlink. By designing our satellites with zero ITAR/EAR-controlled content, we can leverage manufacturers anywhere in the world to produce our satellites at under a tenth of the cost and launch them from other nations to bypass capacity bottlenecks and access equatorial orbits. \r\n\r\nWe're starting off by selling connectivity to device OEMs and network operators, but will eventually use the distributed compute across our constellation to run low-latency inference for robots and autonomous vehicles in remote and rural areas anywhere on the planet.\r\n\r\nWe've already signed hundreds of millions in LOIs to work with operators across Central Asia, Southeast Asia, and the Middle East, booked our first satellite launch next year, and hold an 11,000 satellite filing with the ITU to build the largest comms network outside of the U.S. and China.",
       "website": "https://www.exosat.com",
       "industries": [
@@ -7688,18 +7666,18 @@
       "slug": "familiar",
       "name": "Familiar",
       "batch": "Summer 2026",
-      "one_liner": "Dubbing is finally good. Audio-Visual Translation.",
-      "long_description": "World models for accurate humans.\r\n🦋 Content in every language. The speakers' performances, preserved. Movies & TV, Broadcasts, Education, Ads, Platforms, Live Shopping.\r\n\r\nFounders An Zhu Liu, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation.\r\n\r\nThey started with video language translation, and they've already built one of the most accurate translators available today, the only one that works in real time. Everyone else scaffolds separate models and pre-processing; a world model just understands -- what the speaker means, from voice, person, and scene together. That's why the dub keeps the speaker's own voice, face, and delivery.\r\n\r\nVs ElevenLabs: they lose the laughter, the music, the ambiance -- 270% more background-sound error -- and ours sounds 27.8% more like you. Vs human translators: 100.3% of their quality -- scalable, real time. Published benchmarks: https://thefamiliarlab.com/benchmark\r\n\r\nThe $14B spent on dubbing every year flips to AI once it's good enough -- most of it movies and TV, the traditional dubbing heartland. Live multiplies it.",
+      "one_liner": "Dubbing is Finally Good. Audio-Visual Translation.",
+      "long_description": "World models for accurate humans.\r\n🦋 Content in every language. Performances, preserved. Movies & TV, Micro-dramas, Live Broadcasts, Live Shopping, Corporate & Education, Ads, Creators & Podcasts, Platforms.\r\n\r\nFounders An Zhu Liu, Jibin Song, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation. Since 2021: over 10,000 citations and 100+ papers at ICLR, NeurIPS, CVPR, ECCV, and more.\r\n\r\nThey started with video language translation, and they've already built one of the most accurate translators available today, the only one that works in real time. Everyone else scaffolds separate models and pre-processing; a world model just understands -- what the speaker means, from voice, person, and scene together. That's why the dub keeps the speaker's own voice, face, and delivery.\r\n\r\nVs ElevenLabs: they lose the laughter, the music, the ambiance -- 270% more background-sound error -- and ours sounds 27.8% more like you. Vs human translators: 100.3% of their quality -- scalable, real time. Published benchmarks: https://thefamiliarlab.com/benchmark\r\n\r\nThe $14B spent on dubbing every year flips to AI once it's good enough -- most of it movies and TV, the traditional dubbing heartland. Live multiplies it: a $32 billion market.",
       "website": "https://thefamiliarlab.com",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Generative AI",
         "B2B",
-        "Entertainment",
-        "AI"
+        "Entertainment"
       ],
       "team_size": 7,
       "location": "Toronto, ON, Canada",
@@ -8836,7 +8814,7 @@
       "slug": "glen",
       "name": "Glen",
       "batch": "Summer 2026",
-      "one_liner": "Institutional knowledge for every agent in your company.",
+      "one_liner": "Institutional Learning Layer for Every Agent in Your Company",
       "long_description": "Glen is the layer that unifies every agent your company runs. Glen pulls in agent sessions from Claude Code, Codex and Cursor, plus Slack messages, GitHub prs, tickets, docs and calls. When a new agent picks up a task, Glen finds relevant prior context and injects it in the agents context window to steer it, producing knowledge work that is significantly higher quality, faster and cheaper.\r\n\r\nGlen does more. You can query the original agent behind any line of code, or search every session your org has ever run. It distills what your team does into skills and surfaces the right one automatically. Agents work multiplayer, picking up the style and context of whoever else is on the file. Transcripts are unified across Claude Code, Codex and Cursor, so you can hand a session from one to another mid-task. And Glen can also double as a company brain, from Slack, in app, or by just installing Glen on any agent.\r\n\r\nWe’re building toward a future where memory is no longer the missing piece of intelligence. A future where every agent maintains a lossless and continuous thread of institutional experience enabling the era of the compounding organization and fully unsupervised digital labour.",
       "website": "https://www.tryglen.com/",
       "industries": [
@@ -9166,19 +9144,18 @@
       "slug": "guild",
       "name": "GUILD",
       "batch": "Summer 2026",
-      "one_liner": "Making aerospace parts faster and cheaper for defense",
-      "long_description": "GUILD is making aerospace parts faster and cheaper than today’s defense supply chain. We win defense contracts, automate manufacturing, and deliver to the government's door.\r\n\r\nWe’ve built an AI-native operating model for defense contracting: a company brain that connects requirements, pricing, supplier capability, compliance, manufacturing, finance, and delivery so each contract makes the next one faster and cheaper.",
+      "one_liner": "AI-Native Defense Contractor",
+      "long_description": "GUILD is an AI-Native Defense contractor making aerospace parts faster and cheaper. We win defense contracts, automate manufacturing, and deliver to the government's door.",
       "website": "https://www.guildai.co",
       "industries": [
         "Industrials",
         "Defense"
       ],
       "tags": [
-        "Compliance",
+        "Artificial Intelligence",
         "Manufacturing",
         "Supply Chain",
-        "Defense",
-        "AI"
+        "Defense"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -9646,7 +9623,7 @@
       "slug": "hiloop",
       "name": "hiloop",
       "batch": "Summer 2026",
-      "one_liner": "Autoresearch as a service",
+      "one_liner": "Autoresearch as a service: we solve your hardest measurable problems",
       "long_description": "hiloop helps teams train agents for tasks where general models are not good enough. Give us a task, your current agent or model, and an evaluation. hiloop runs an autoresearch campaign across data, SFT and other post-training methods, continual learning, prompts, tools, harnesses, and systems, then returns the best verified improvement. It runs hosted or in your cloud.\r\n\r\nWe provide the research system around models: persistent memory, full experiment lineage, compute orchestration, and statistical verification. We’re starting with agent and model training, continual learning, and optimization.\r\n\r\nReach out to us for early access at founders@hiloop.ai.",
       "website": "https://hiloop.ai",
       "industries": [
@@ -10278,15 +10255,15 @@
       "name": "Instaplay",
       "batch": "Summer 2026",
       "one_liner": "AI-Native Social Platform, Starting with Games",
-      "long_description": "",
+      "long_description": "Over 25k creators and 100k players are on Instaplay, playing and making games. We work with the leading frontier labs to improve their game generation and coding capabilities. ",
       "website": "https://instaplay.ai",
       "industries": [
         "Consumer",
         "Gaming"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Gaming"
+        "Gaming",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -10338,20 +10315,20 @@
       "slug": "insurf",
       "name": "Insurf",
       "batch": "Summer 2026",
-      "one_liner": "The AI-Native Decision Infrastructure for Health Insurance",
+      "one_liner": "The AI-Native Decision Layer for Health Insurance",
       "long_description": "Insurf is the AI-native data and decision layer for health insurance. Our model Surely identifies the lowest-cost coverage for anyone, saving individuals, families, and companies thousands per employee. Our product Inveto collects the data from hospitals and clinics that informs Surely.",
       "website": "https://www.insurf.io",
       "industries": [
         "Healthcare"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Health Tech",
         "Healthcare",
         "Insurance",
-        "Automation"
+        "Automation",
+        "AI"
       ],
-      "team_size": 2,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1782286226
@@ -10368,8 +10345,8 @@
         "Manufacturing and Robotics"
       ],
       "tags": [],
-      "team_size": 5,
-      "location": "San Francisco, CA, USA",
+      "team_size": 10,
+      "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1777499618
     },
@@ -12029,10 +12006,10 @@
     },
     {
       "slug": "lightsprint",
-      "name": "Lightsprint",
+      "name": "LightSprint",
       "batch": "Spring 2026",
-      "one_liner": "Collaborative product development with cloud agents",
-      "long_description": "Lightsprint is a collaborative platform for software teams to plan visually, preview live and ship with an army of cloud agents. Your whole team, including non-engineers, can now ship end to end reliably.\r\n\r\nThe company is founded by Ben Ong, an AI investor who previously scaled AI products at SEA Group (NYSE: SE) and Temasek ($300B fund), Benedict Chan who was VP Engineering at Chainlink and CTO at BitGo (NYSE:BTGO), and Heng Hong Lee who built Facebook Messenger in 2013 and was Director of Engineering at Fazz (YC S17).",
+      "one_liner": "Software factory for product teams",
+      "long_description": "Lightsprint is a collaborative platform for product teams to plan visually, preview live and ship with an army of cloud agents. Your whole team, including non-engineers, can now ship end to end reliably.\r\n\r\nThe company is founded by Ben Ong, an AI investor who previously scaled AI products at SEA Group (NYSE: SE) and Temasek ($300B fund), Benedict Chan who was VP Engineering at Chainlink and CTO at BitGo (NYSE:BTGO), and Heng Hong Lee who built Facebook Messenger in 2013 and was Director of Engineering at Fazz (YC S17).",
       "website": "https://lightsprint.ai",
       "industries": [
         "B2B",
@@ -12208,7 +12185,7 @@
       "slug": "locke",
       "name": "Locke",
       "batch": "Summer 2026",
-      "one_liner": "Locke is changing the way companies and governments work together.",
+      "one_liner": "AI agents that help companies and governments work together.",
       "long_description": "Locke builds AI agents that help companies and governments work together.\r\n\r\nOur agents also power Locke Government Affairs, the first AI-native government affairs firm.",
       "website": "https://locke.inc",
       "industries": [
@@ -12351,7 +12328,7 @@
       "slug": "luca-iq",
       "name": "Luca IQ",
       "batch": "Summer 2026",
-      "one_liner": "API First Tax Engine for CPAs",
+      "one_liner": "API-first tax engine for CPA firms and developers",
       "long_description": "Luca IQ is an API for deterministic tax calculation and an IRS Authorized e-filing engine - the foundation for accounting firms and fintechs building on tax.",
       "website": "https://lucaiq.com/",
       "industries": [
@@ -12910,7 +12887,7 @@
       "slug": "manufacturingintelligence",
       "name": "HERA",
       "batch": "Summer 2026",
-      "one_liner": "Hera is the design verification layer for heavy industry.",
+      "one_liner": "We make sure every factory in the world builds without mistakes.",
       "long_description": "At Hera, we build tools that help heavy engineering teams bring products to market up to 20× faster. Today, we work with manufacturers of data center ancillary equipment, renewable energy systems, robotics, heat exchangers, power plants and pressure vessels.\r\n",
       "website": "https://www.manufacturingintelligence.org",
       "industries": [
@@ -12950,17 +12927,17 @@
       "name": "Marengo",
       "batch": "Summer 2026",
       "one_liner": "AI-Native Engineering Firm designing Data Centers ",
-      "long_description": "Marengo designs data centers in half the time and half the cost with AI. We’re working with some of the largest data center builders in the world to improve how design is done today.\r\n\r\nWe're backed by Y Combinator, a16z & Index Venture Scout Funds, as well as investors/angels in OpenAI, Anthropic, SpaceX, and more.\r\n\r\nOur advisors include the former President & CEO of Saipem America ($3B+ P&L), former President of Exyte's Advanced Technology Facilities GBU ($6B+ P&L) and more.",
+      "long_description": "Marengo is an AI-native engineering firm designing data centers in half the time and half the cost. We have $4M in design partnerships with two of the world's largest developers ($XB).\r\n\r\nMarengo is backed by YC, Future Planet Capital, undisclosed $2B AUM family office, and other top-tier investors.\r\n\r\nOur advisors include the former President & CEO of Saipem America ($3B+ P&L), former President of Exyte's Advanced Technology Facilities GBU ($6B+ P&L) and more.",
       "website": "https://marengox.com",
       "industries": [
         "Industrials",
         "Energy"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Design",
         "Energy",
-        "Architecture",
-        "AI"
+        "Architecture"
       ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
@@ -13037,7 +13014,7 @@
       "slug": "markov",
       "name": "Markov",
       "batch": "Summer 2026",
-      "one_liner": "Data for computer-use AI",
+      "one_liner": "Expert computer-use data for frontier AI labs",
       "long_description": "Markov sells expert computer-use data to frontier labs. We’ve sold more than 33k+ hours and our open-source datasets have got over 200k+ downloads on hugging face.",
       "website": "https://www.markovstudios.com/",
       "industries": [
@@ -13431,7 +13408,7 @@
       "name": "Meteoric",
       "batch": "Summer 2026",
       "one_liner": "Drones that clear clouds over solar farms and weaken hurricanes",
-      "long_description": "Meteoric is building drones that clear clouds and weaken storms over critical infrastructure like solar farms, airports, defence assets, and ultimately weaken hurricanes.",
+      "long_description": "Meteoric is building drones that clear clouds over solar farms and ultimately weaken severe storms and hurricanes.",
       "website": "https://meteoric.earth/",
       "industries": [
         "Industrials",
@@ -13843,8 +13820,8 @@
       "slug": "moda",
       "name": "Moda",
       "batch": "Winter 2026",
-      "one_liner": "The continual learning layer for AI agents.",
-      "long_description": "Moda is the continual learning layer for AI agents. It turns production agent traces into validated improvements for your agent harness. It surfaces patterns across agent hallucinations, laziness, context loss, and tool call failures, then attributes each issue to a specific layer of the agent harness: prompts, tools, workflows, retrieval, memory, and evals. It also discovers what users are actually trying to do and turns those findings into concrete counterfactuals the team can ship.\r\n\r\nIn the next 10 years, with more AI agents spawning and trying to get PMF, developing an agent that actually works for users is critical. Everyone has access to the same models, thus the ones that win on a product level will be the ones who learn fastest from real usage. Moda is that learning layer.",
+      "one_liner": "Harness Engineering Infrastructure that developers love.",
+      "long_description": "Moda is a harness engineering platform. It turns production traces into verified improvements for your agent harness: prompts, tools, skills, evals, and memory.\r\n\r\nThe infra problems we actually take: transfer what a frontier model learned onto an open-source one without losing performance, and stand up a model router for your own system and task. Same loop both times. Name the layer that broke, ship the change, replay it on old traffic before it goes out. We've built the infrastructure to tackle these harness problems at scale.\r\n\r\nWe do not sell a platform that solves every harness problem. We sell those jobs, on an agent already in production.",
       "website": "https://moda.dev",
       "industries": [
         "B2B",
@@ -14712,7 +14689,7 @@
       "slug": "noril1",
       "name": "Nori",
       "batch": "Summer 2026",
-      "one_liner": "sub-$2000 humanoid robot you can teach to do anything",
+      "one_liner": "American Humanoid which costs 3% of the competition",
       "long_description": "We manufacture Nori: A sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have over $350k+ in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. ",
       "website": "http://norirobotics.com",
       "industries": [
@@ -15097,7 +15074,7 @@
         "Oncology",
         "AI"
       ],
-      "team_size": 4,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1785793252
@@ -15692,17 +15669,17 @@
       "name": "OS3",
       "batch": "Summer 2026",
       "one_liner": "Full Stack Robotics: Deploying US-Built Robots & Video Action Models",
-      "long_description": "We are building robots, including custom actuators. Our first model is trained for the robot with 150k hours of video data. \r\n\r\nThe robot, a mobile semi-humanoid priced, is already signed for deployments in hospitality and biotech. Our developer version lets anyone deploy robots in their own verticals, and we already have preorders.\r\n\r\nWe are scaling American robotics while making it accessible to more businesses.",
+      "long_description": "We are building robots, including custom actuators. Our first model is trained for the robot with 150k hours of video data. \r\n\r\nThe robot, a mobile semi-humanoid priced, is already signed for deployments in hospitality and biotech. Our developer version lets anyone deploy robots in their own verticals, and we are working with startups deploying in hospitals and data centers.\r\n\r\nWe are scaling American robotics while making it accessible to more businesses.",
       "website": "https://os3robotics.com/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
         "Robotics",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -16341,9 +16318,9 @@
       "slug": "paratus-health",
       "name": "Paratus Health",
       "batch": "Winter 2025",
-      "one_liner": "The first healthcare GTM data platform",
-      "long_description": "We’re building the first GTM data platform made for selling into healthcare.\r\n\r\nPreviously built voice agents for outpatient facilities and scaled to 35+ in under a year. Healthcare GTM data is broken - so we’re building what we wish we’d had.",
-      "website": "https://paratushealth.org/",
+      "one_liner": "healthcare AI",
+      "long_description": "Voice agents for outpatient facilities. ",
+      "website": "https://paratushealth.com/",
       "industries": [
         "Healthcare",
         "Healthcare IT"
@@ -16535,15 +16512,15 @@
       "slug": "pax-historia",
       "name": "Pax Historia",
       "batch": "Winter 2026",
-      "one_liner": "The first AI-powered grand strategy platform",
-      "long_description": "Pax Historia is an alternate-history sandbox game where players choose a country, a moment in time, and rewrite the course of history. What if Rome never fell? What if the Soviet Union survived? What if Genghis Khan ruled for another generation?\r\n\r\nWe go beyond history, too. What if aliens invaded Earth? What if you were a college dropout creating a tech startup? The ability to create, edit, and copy custom maps, actors, historical context, and more means that users can play nearly any scenario they can imagine.\r\n\r\nIn the last four months we've organically built a passionate fanbase of tens of thousands of daily active players and we're excited to expand on this early start. Consider joining us to help build vastly better tools for creators and experiences for players.",
+      "one_liner": "The first AI-powered worldbuilding and gameplay platform",
+      "long_description": "Pax Historia is an AI powered sandbox game where players create and upload whatever worlds they can imagine for others to play. What if Rome never fell? What if aliens invaded Earth? What if you were a college dropout creating a tech startup? \r\n\r\nThe ability to create, edit, and copy custom maps, actors, historical context, and more means that users can play nearly any scenario they can imagine.\r\n\r\nWe've organically built a passionate fanbase of tens of thousands of daily active players and we're excited to expand on this early start. Consider joining us to help build vastly better tools for creators and experiences for players.",
       "website": "https://www.paxhistoria.co",
       "industries": [
         "Consumer",
         "Gaming"
       ],
       "tags": [],
-      "team_size": 3,
+      "team_size": 6,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1766621024
@@ -17721,10 +17698,10 @@
         "Manufacturing and Robotics"
       ],
       "tags": [
-        "Robotics",
-        "AI"
+        "Artificial Intelligence",
+        "Robotics"
       ],
-      "team_size": 2,
+      "team_size": 1,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1784630562
@@ -18004,6 +17981,23 @@
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1753907556
+    },
+    {
+      "slug": "quotient-labs",
+      "name": "Quotient Labs",
+      "batch": "Winter 2026",
+      "one_liner": "Use Claude Code at 47% less cost in one line of installation.",
+      "long_description": "Quotient Labs runs on top of Claude Code to reduce token spend, compress context, and optimize tool calls while preserving output quality, without changing how you work. Benchmarked 47% less cost on real, multi-step developer workflows, with no quality loss.",
+      "website": "https://quotientlabs.com",
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "tags": [],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1772518250
     },
     {
       "slug": "radiusbrowser",
@@ -18830,9 +18824,10 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "B2B"
+        "SaaS",
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 2,
       "location": "Boston, MA, USA",
@@ -19047,7 +19042,7 @@
       "slug": "robocurve",
       "name": "Robocurve",
       "batch": "Summer 2026",
-      "one_liner": "Evaluating robots in the real world.",
+      "one_liner": "Real-world evals for robots",
       "long_description": "Robocurve builds open-source tools and independent benchmarks to measure how well robots can do real-world jobs. Instead of relying on unverified demo videos from frontier labs, we score their models on reproducible benchmarks that anyone can trust.\r\n\r\nToday there are no well-run, standardized robotics benchmarks. Labs evaluate in-house, and no independent group has stepped in to run continuous benchmarking as a service. The result is that no one actually knows how good anyone else is, or where the real frontier sits.\r\n\r\nGood benchmarks require operating and maintaining physical hardware and real-world setups. Simulation only goes so far, since models that look strong in sim can show large performance gaps once deployed in the real world. Building real-world benchmarks means coordinating job-domain experts, evals engineering, and hands-on robotics all at once.\r\n\r\nFrontier labs are targeting general-purpose robotics by 2028, yet the field of robotics evals barely exists. Whoever builds the trusted measure of robot capability becomes the reference everyone relies on. We combine backgrounds in AI evals and robotics to build and grow this field as fast as possible. We already shipped v1 of our open-source framework, Inspect Robots, and ran our first pilot scoring a frontier model on a real robot.",
       "website": "https://robocurve.org",
       "industries": [
@@ -19103,8 +19098,8 @@
       "slug": "ronanrx-inc",
       "name": "RonanRx Inc.",
       "batch": "Summer 2026",
-      "one_liner": "We use AI to personalize peptides to your biology",
-      "long_description": "RonanRX helps you personalize GLP-1s like Ozempic, peptides, and other treatments using your labs, wearables, medical history, treatment response, and the latest medical research. Instead of treating the average patient, we continuously personalize your treatment as your body changes.\r\n\r\nWe've built the complete feedback loop for personalized medicine: your health data automatically syncs into one place, AI helps personalize treatment, licensed doctors make prescribing decisions, medications are delivered to your door, and every outcome continuously improves your protocol.\r\n\r\nConnect your health data once. RonanRX automatically syncs your labs, wearables, and medical records into a single AI-powered health profile that helps personalize GLP-1s like Ozempic, peptides, supplements, and other treatments around your biology. If prescribed, your medication is delivered to your door.\r\n\r\nOur founders have built and exited multiple companies, raised over $100M, and previously built a $50M U.S. medical manufacturing business.\r\n\r\nStart with a text at RonanRX.com and become the maximum version of yourself, \r\n\r\n",
+      "one_liner": "Full Stack Pharmaceutical Company for Personalized Peptides and GLP-1s",
+      "long_description": "RonanRX is a full-stack pharmaceutical company, starting with personalized peptides and GLP-1s.\r\n\r\nIn our first 10 weeks, we went from having no pharmacy to being licensed in 33 states. Since launch, we’ve grown 50% week over week.\r\n\r\nWe manufacture the medications ourselves, sell directly to patients, and eliminate the layers of middlemen that make prescription drugs more expensive.\r\n\r\nWhat makes this possible is AI.\r\n\r\nTraditional pharmaceutical companies are built to manufacture one drug for millions of people. RonanRX is purpose-built to personalize treatment for each patient: different biology, different response, different dose.\r\n\r\nPatients come directly to RonanRX or through doctors using our platform. Every patient completes our medical intake, meets with a licensed doctor through our telehealth platform, and receives a personalized prescription when appropriate. From there, we manufacture the medication ourselves and deliver it directly to the patient.\r\n\r\nLabs, wearables, medical history, treatment response, and other health data feed back into the platform so doctors can continuously refine treatment over time.\r\n\r\nBefore AI, doing this for every patient at scale was impossible.\r\n\r\nWe didn't invent the demand we are seeing. 80 Million people are on a GLP-1 and millions more are using Peptides. We're building a better way to manufacture, personalize, prescribe, and deliver them.\r\n\r\nOur founders have built and exited multiple companies, raised more than $100M, built a $50M U.S. medical manufacturing business, and spent years developing peptide therapeutics at companies including Eli Lilly and AbbVie.\r\n\r\nWe’re just getting started with peptides and GLP-1s. Next comes hormone therapy and the rest of personalized medicine.",
       "website": "https://ronanrx.com/",
       "industries": [
         "Healthcare"
@@ -19702,7 +19697,7 @@
       "slug": "screenpipe",
       "name": "screenpipe",
       "batch": "Summer 2026",
-      "one_liner": "AI powered by everything you've seen, said or heard",
+      "one_liner": "Turn your company's computer work into AI agents.",
       "long_description": "screenpipe record and learns how you work and turns it into a searchable memory, documents, and AI agents. Data is stored on your device or where your team choose, open source.",
       "website": "https://screenpipe.com",
       "industries": [
@@ -19980,7 +19975,7 @@
       "slug": "shielded",
       "name": "Shielded",
       "batch": "Summer 2026",
-      "one_liner": "Decision intelligence for the world’s largest supply chains",
+      "one_liner": "The agentic origination desk for supply chain risk.",
       "long_description": "Shielded connects companies’ internal and external data to map market shifts, tariffs, and disruptions directly to suppliers, products, and margins. We turn those impacts into real-time decisions that grow and protect the business. ",
       "website": "https://www.shieldedglobal.com/",
       "industries": [
@@ -20991,7 +20986,7 @@
         "Electronics",
         "AI"
       ],
-      "team_size": 4,
+      "team_size": 3,
       "location": "Zürich, ZH, Switzerland",
       "status": "Active",
       "launched_at": 1740421634
@@ -21348,17 +21343,17 @@
       "slug": "sureform",
       "name": "Sureform",
       "batch": "Spring 2025",
-      "one_liner": "Real-world data for multimodal and embodied AI",
-      "long_description": "We collect high-quality human data, across diverse interactions and environments, to help advance the next generation of multimodal AI and robotics models.",
+      "one_liner": "Real-world data and RL environments for frontier AI",
+      "long_description": "We build post-training datasets and RL environments grounded in real enterprise workflows to advance frontier agents.",
       "website": "https://www.sureformhq.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Marketplace",
         "Robotics",
-        "Data Labeling"
+        "Data Labeling",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -21531,23 +21526,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1744430433
-    },
-    {
-      "slug": "syntropy",
-      "name": "Syntropy",
-      "batch": "Winter 2026",
-      "one_liner": "The agentic coding app for complex tasks.",
-      "long_description": "Syntropy is an autonomous coding agent built for complex long-horizon tasks, that turns a feature description into a fully tested implementation. Instead of babysitting a terminal for hours writing prompts and managing context, just describe what you want, go out for lunch, and come back to a production-ready PR. Syntropy joins your Slack to send you updates, and also supports custom MCP integrations.",
-      "website": "https://syntropy.io",
-      "industries": [
-        "B2B",
-        "Productivity"
-      ],
-      "tags": [],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1772518250
     },
     {
       "slug": "taiga",
@@ -22873,7 +22851,7 @@
       "slug": "trident",
       "name": "Trident",
       "batch": "Summer 2026",
-      "one_liner": "secure everything that ships",
+      "one_liner": "Autonomous offensive security agents. The best defense is offense",
       "long_description": "Trident is the standard for modern day security. its an agentic pentester that chains vulnerabilities together like a real attacker mapping verified attack paths across AWS, Azure, GCP, web apps, and APIs. Run AI attacks and get fixes.\r\n\r\nGet started today: tridentsecurity.io",
       "website": "https://tridentsecurity.io/",
       "industries": [
@@ -23070,7 +23048,13 @@
         "Consumer",
         "Job and Career Services"
       ],
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Marketplace",
+        "Consumer",
+        "Recruiting",
+        "HR Tech"
+      ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -23641,8 +23625,8 @@
       "slug": "veltha",
       "name": "Veltha",
       "batch": "Summer 2026",
-      "one_liner": "AI claims adjuster for regulated insurance",
-      "long_description": "Veltha is an AI co-adjuster. It puts a defensible decision on the adjuster's desk in hours, so carriers save time and fewer claims reach an attorney.\r\n\r\nLearn more at https://veltha.ai",
+      "one_liner": "AI native TPA starting with workers comp",
+      "long_description": "Veltha is the AI native TPA starting with workers comp. We handle claim for insurance providers end to end.\r\n\r\nLearn more at https://veltha.ai",
       "website": "https://veltha.ai/",
       "industries": [
         "Fintech",
@@ -24610,6 +24594,27 @@
       "location": "San Francisco, CA, USA; Remote",
       "status": "Active",
       "launched_at": 1786648812
+    },
+    {
+      "slug": "workers-io",
+      "name": "Workers IO",
+      "batch": "Fall 2026",
+      "one_liner": "Deterministic Virtual Machines",
+      "long_description": "Workers IO makes sure everything you ship works. Our platform maps every scenario your software can face in production and verifies each release against all of them in simulation environments, every failure comes back as an exact, replayable run.\r\n\r\nEngineering teams stop chasing bugs and ship at agent speed, with certainty that used to be impossible.",
+      "website": "https://workers.io",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Developer Tools",
+        "B2B",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786070819
     },
     {
       "slug": "woz",

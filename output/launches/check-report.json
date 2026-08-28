@@ -1,35 +1,35 @@
 {
-  "checked_at": "2026-08-27T23:34:19.564Z",
+  "checked_at": "2026-08-28T23:23:43.504Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 7,
-  "new_count": 7,
-  "skipped_count": 923,
+  "checked_count": 2,
+  "new_count": 2,
+  "skipped_count": 928,
   "ingest": {
     "addedCompanies": 0,
-    "enrichedCompanies": 7
+    "enrichedCompanies": 2
   },
   "summary": {
-    "conforming": 5,
-    "partial": 2,
+    "conforming": 1,
+    "partial": 1,
     "non_conforming": 0,
-    "would_have_predicted": 6,
+    "would_have_predicted": 2,
     "surprise": 0,
-    "predicted": 1
+    "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 112352,
-        "company_slug": "corsair",
-        "company_name": "Corsair",
-        "launch_url": "https://www.ycombinator.com/launches/TE8-corsair-connect-your-users-to-their-apps",
-        "created_at": "2026-08-27T20:55:14.055Z"
+        "launch_id": 112608,
+        "company_slug": "osmaura",
+        "company_name": "Osmaura",
+        "launch_url": "https://www.ycombinator.com/launches/TIG-osmaura-ai-growth-engine-for-law-firms",
+        "created_at": "2026-08-28T16:34:00.085Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-08-27T23:34:18.217Z",
-        "launch_id": 112352,
-        "company_slug": "corsair",
+        "evaluated_at": "2026-08-28T23:23:42.123Z",
+        "launch_id": 112608,
+        "company_slug": "osmaura",
         "taxonomy": {
           "conformance_index": 56,
           "verdict": "partial",
@@ -39,7 +39,7 @@
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 4,
+              "score": 5,
               "band": "weak"
             },
             "business_model_fit": {
@@ -51,18 +51,18 @@
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 73,
+              "score": 71,
               "band": "acceptable"
             }
           },
           "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.agent-runtime",
-            "phenotype_primary_id": "agent-runtime-infra",
-            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Agent runtime & orchestration",
-            "phenotype_label": "Agent runtime / harness / orchestration"
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.sales.enablement",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.sales.enablement::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Sales enablement & execution",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
           }
         },
         "predictor": {
@@ -74,7 +74,7 @@
           "ranked_gap": null,
           "synthetic_match": null,
           "analog_gap_matches": [],
-          "retro_transfer_score": 67,
+          "retro_transfer_score": 69,
           "retro_transfer_band": "acceptable",
           "would_have_been_predicted": true
         },
@@ -85,85 +85,19 @@
     },
     {
       "launch": {
-        "launch_id": 112513,
-        "company_slug": "robocurve",
-        "company_name": "Robocurve",
-        "launch_url": "https://www.ycombinator.com/launches/TGj-robocurve-real-world-evaluations-of-physical-ai",
-        "created_at": "2026-08-27T20:30:00.743Z"
+        "launch_id": 112573,
+        "company_slug": "rational",
+        "company_name": "Rational",
+        "launch_url": "https://www.ycombinator.com/launches/THh-rational-ai-employees-for-accounting",
+        "created_at": "2026-08-28T16:00:00.566Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-08-27T23:34:18.218Z",
-        "launch_id": 112513,
-        "company_slug": "robocurve",
+        "evaluated_at": "2026-08-28T23:23:42.124Z",
+        "launch_id": 112573,
+        "company_slug": "rational",
         "taxonomy": {
-          "conformance_index": 52,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 4,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 55,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 88,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 64,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "industrials.robotics.general",
-            "phenotype_primary_id": "agent-observability-evals",
-            "cell_key": "BM-03::industrials.robotics.general::agent-observability-evals",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "General-purpose robotics intelligence",
-            "phenotype_label": "Agent observability, evals, or safety"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 67,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 111300,
-        "company_slug": "denta",
-        "company_name": "Denta",
-        "launch_url": "https://www.ycombinator.com/launches/SxA-denta-dental-insurance",
-        "created_at": "2026-08-26T21:00:00.368Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-27T23:34:18.220Z",
-        "launch_id": 111300,
-        "company_slug": "denta",
-        "taxonomy": {
-          "conformance_index": 76,
+          "conformance_index": 74,
           "verdict": "conforming",
           "dimensions": {
             "phenotype_alignment": {
@@ -183,18 +117,18 @@
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 71,
+              "score": 63,
               "band": "acceptable"
             }
           },
           "cell": {
             "business_model": "BM-01",
-            "vertical_id": "healthcare.dental.practice",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::healthcare.dental.practice::vertical-workflow-agent",
+            "vertical_id": "enterprise.finance.accounting",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.finance.accounting::vertical-agentic-workflow-saas",
             "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Dental practice operations",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+            "vertical_label": "Finance & accounting automation",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
           }
         },
         "predictor": {
@@ -211,270 +145,6 @@
           "would_have_been_predicted": true
         },
         "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 112244,
-        "company_slug": "agentcard",
-        "company_name": "Agentcard",
-        "launch_url": "https://www.ycombinator.com/launches/TCO-agentcard-cards-for-ai-agents",
-        "created_at": "2026-08-26T18:00:00.618Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-27T23:34:18.222Z",
-        "launch_id": 112244,
-        "company_slug": "agentcard",
-        "taxonomy": {
-          "conformance_index": 73,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 75,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 86,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 71,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-05",
-            "vertical_id": "payments.card-issuing-management",
-            "phenotype_primary_id": "fintech-insurance-ai-product",
-            "cell_key": "BM-05::payments.card-issuing-management::fintech-insurance-ai-product",
-            "business_model_label": "Fintech / insurance product",
-            "vertical_label": "Corporate & prepaid card issuance & controls",
-            "phenotype_label": "AI-native fintech or insurance product"
-          }
-        },
-        "predictor": {
-          "predictability_band": "occupied_first",
-          "signals": [
-            "first_occupant_of_cell"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": {
-            "rank": 433,
-            "opportunity_score": 10,
-            "transfer_score": 83
-          },
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 71,
-          "retro_transfer_band": "strong",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 112258,
-        "company_slug": "evergrove",
-        "company_name": "Evergrove",
-        "launch_url": "https://www.ycombinator.com/launches/TCc-evergrove-interoperability-for-work-comp",
-        "created_at": "2026-08-26T17:30:00.291Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-27T23:34:18.223Z",
-        "launch_id": 112258,
-        "company_slug": "evergrove",
-        "taxonomy": {
-          "conformance_index": 77,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 75,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 93,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 80,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-07",
-            "vertical_id": "healthcare.payer.care-management",
-            "phenotype_primary_id": "marketplace-network-ai",
-            "cell_key": "BM-07::healthcare.payer.care-management::marketplace-network-ai",
-            "business_model_label": "Marketplace / network",
-            "vertical_label": "Care management & population health programs",
-            "phenotype_label": "Marketplace / exchange / liquidity network"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 71,
-          "retro_transfer_band": "strong",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 112256,
-        "company_slug": "edviro",
-        "company_name": "Edviro",
-        "launch_url": "https://www.ycombinator.com/launches/TCa-edviro-ai-that-operates-energy-infrastructure",
-        "created_at": "2026-08-26T17:00:00.166Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-27T23:34:18.226Z",
-        "launch_id": 112256,
-        "company_slug": "edviro",
-        "taxonomy": {
-          "conformance_index": 73,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 75,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 71,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "data.real-time-data-streaming",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::data.real-time-data-streaming::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Real-time data streaming & ingestion",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 71,
-          "retro_transfer_band": "strong",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 112220,
-        "company_slug": "hop-aero",
-        "company_name": "Hop Aero",
-        "launch_url": "https://www.ycombinator.com/launches/TC0-hop-aero-rocket-cargo",
-        "created_at": "2026-08-26T15:00:00.587Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-27T23:34:18.227Z",
-        "launch_id": 112220,
-        "company_slug": "hop-aero",
-        "taxonomy": {
-          "conformance_index": 72,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 75,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 89,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 63,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-08",
-            "vertical_id": "defense.logistics-distribution",
-            "phenotype_primary_id": "physical-ai-autonomous-systems",
-            "cell_key": "BM-08::defense.logistics-distribution::physical-ai-autonomous-systems",
-            "business_model_label": "Hardware + software",
-            "vertical_label": "Defense logistics & military equipment distribution",
-            "phenotype_label": "Physical AI & Autonomous Manufacturing"
-          }
-        },
-        "predictor": {
-          "predictability_band": "predicted",
-          "signals": [
-            "ranked_gap_top50:rank=40"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": {
-            "rank": 40,
-            "opportunity_score": 50,
-            "transfer_score": 89
-          },
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 71,
-          "retro_transfer_band": "strong",
-          "would_have_been_predicted": true
-        },
-        "notes": [
-          "Strong fit: taxonomy conforms and whitespace model would have surfaced this cell."
-        ]
       }
     }
   ]
