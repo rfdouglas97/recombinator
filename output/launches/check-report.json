@@ -1,151 +1,17 @@
 {
-  "checked_at": "2026-08-28T23:23:43.504Z",
+  "checked_at": "2026-08-29T17:30:00.337Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 2,
-  "new_count": 2,
-  "skipped_count": 928,
-  "ingest": {
-    "addedCompanies": 0,
-    "enrichedCompanies": 2
-  },
+  "checked_count": 0,
+  "new_count": 0,
+  "skipped_count": 930,
+  "ingest": null,
   "summary": {
-    "conforming": 1,
-    "partial": 1,
+    "conforming": 0,
+    "partial": 0,
     "non_conforming": 0,
-    "would_have_predicted": 2,
+    "would_have_predicted": 0,
     "surprise": 0,
     "predicted": 0
   },
-  "reviews": [
-    {
-      "launch": {
-        "launch_id": 112608,
-        "company_slug": "osmaura",
-        "company_name": "Osmaura",
-        "launch_url": "https://www.ycombinator.com/launches/TIG-osmaura-ai-growth-engine-for-law-firms",
-        "created_at": "2026-08-28T16:34:00.085Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-28T23:23:42.123Z",
-        "launch_id": 112608,
-        "company_slug": "osmaura",
-        "taxonomy": {
-          "conformance_index": 56,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 5,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 71,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "enterprise.sales.enablement",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::enterprise.sales.enablement::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Sales enablement & execution",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 112573,
-        "company_slug": "rational",
-        "company_name": "Rational",
-        "launch_url": "https://www.ycombinator.com/launches/THh-rational-ai-employees-for-accounting",
-        "created_at": "2026-08-28T16:00:00.566Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-08-28T23:23:42.124Z",
-        "launch_id": 112573,
-        "company_slug": "rational",
-        "taxonomy": {
-          "conformance_index": 74,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 63,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "enterprise.finance.accounting",
-            "phenotype_primary_id": "vertical-agentic-workflow-saas",
-            "cell_key": "BM-01::enterprise.finance.accounting::vertical-agentic-workflow-saas",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Finance & accounting automation",
-            "phenotype_label": "Vertical Agentic Workflow SaaS"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    }
-  ]
+  "reviews": []
 }
