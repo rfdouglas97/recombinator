@@ -56411,6 +56411,88 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "nodus",
+    "name": "Nodus",
+    "website": "https://nodus-swart.vercel.app/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/nodus",
+    "batch": "Fall 2026",
+    "one_liner": "Intelligent execution layer for AI workloads",
+    "description_combined": "Intelligent execution layer for AI workloads\n\nIntelligent execution layer for AI workloads",
+    "industry_sub_vertical": "AI workload execution optimization for multi-agent systems and inference scheduling",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Execution Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "workload_scheduling",
+      "execution_optimization",
+      "compute_routing",
+      "cost_efficiency"
+    ],
+    "what_they_sell": "An intelligent execution layer that optimizes how AI workloads (agents, models, inference jobs) are scheduled, routed, and executed across heterogeneous compute resources (GPUs, CPUs, edge devices, cloud).",
+    "ai_play": "Uses AI/ML to intelligently allocate workloads to optimal compute targets based on latency requirements, cost, model size, and resource availability. Likely employs reinforcement learning or predictive routing to minimize execution time and infrastructure spend.",
+    "who_pays": "AI platform teams, ML ops engineers, enterprises deploying multi-agent systems or high-volume inference workloads seeking to optimize compute utilization and reduce cloud costs.",
+    "confidence": 0.65,
+    "rationale": "Nodus describes itself as an 'intelligent execution layer for AI workloads' — this maps most closely to agent-runtime-infra (orchestration, scheduling, reliability optimization) or edge-inference-runtime (deployment optimization). The vague description and early-stage website make full confidence difficult, but the core value proposition is infrastructure-level optimization of AI execution. Secondary phenotype reflects possible edge/distributed execution focus. Confidence is moderate because the exact scope (agent-specific vs. general inference vs. distributed compute) is unclear from available materials.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1792661,
+        "full_name": "Viswa Kotra",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Nodus (YC F26). Previously at Citadel Securities, Snowflake, Scale AI. ",
+        "linkedin_url": "https://www.linkedin.com/in/viswa-kotra",
+        "twitter_url": "https://x.com/viswa_kotra",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0f2d4b476bbec956abef5900346a59c67258655.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACKLS3RSF%2F20260830%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260830T175323Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDY4n9UgqxYGLybVgHa7%2BVSz2EBMg2Aps5ee71%2FuaM66QIhAIZB9scV%2BkbobRhc%2BEd0wp%2F483J8Y7ICWBoAfVtXikg5Ku4DCIP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxgYHq42MPGEGutQPsqwgPZasSdiZYGkhzy%2BhREnZJN%2F2bcoYXYIYcurdLTI%2FEllXGUgJmxfmXSmLsD%2FRKK4lNxHQhc8AGLy7IqpZkYcKN5xjgDbPkx4WelWzVc6jPETukzYtP7ui7T4FY3tynW8p%2FZ3HXijfZUPnpHF%2BfpiNFvdw1u9IMpPvJqX8x%2FPFJ5BolKeZYBpM8TfCfkNHV82bvSQBGlAjdYSw2oAlulrbGeTlmoL8ow8B36nxEgfN7PlgZH43OfydjwauDWfTUa0B%2FI7kH4PoMSow8C7WKkMRZULXHDs2Fz4sskL3e4hTeBbFOnFqnRc%2BWO%2FlOsaoJl488PB2teDilvY1yj4NIJv57vsMu1Zvmsy5rgV8FmcjU00btI52nv2DmjM4pWhR0UamnTexiVsaksv1Ia%2FV6H9Gjc5OsBoIWiG2vTQgWHC%2B1sTRm0BLtYw0hEQt%2F%2F2VFWaKJ7xZn4i7VSYCzg27Q36AhO96RSsqXLKEvrHNR%2Foh%2FI9MeitlPw76XEbUd40cp%2BnACP%2FAScvsNsgisd%2F3jYKdNHE7a4c1IBV4onHH%2B3WZXGlPOYkPuwPMav0OOMNGiYUU2s4tm%2BO87wngEqBuJYqb1Wy3AwitvR1AY6pAFCoBk9VhovAzIF2QKdAsGUT7jjmYJPQp6NVMqv89hI7PQmExpyoRAtyHit3PNKle526ctCfZjEBr77xjx6wZjqU47rIdQYMmOPQpuH8M%2BaRxdztyn9wgQz64TDl9JrJNxoNqCl3yDacjSeHMEfBzF5X5NQ0KAcF7nxRyuQBpyvrPRhfBo1tUoC9L8%2FptroyUh0KXlVZJbj8AS8ZALpf8NUWTX%2FaA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f1ec35e5d56fb4a93a0078d7c1f7e9473205f2e6db15a68003d3bba1f7589853",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Nodus",
+          "href": "https://www.ycombinator.com/companies/nodus"
+        }
+      },
+      {
+        "user_id": 2410885,
+        "full_name": "Pranav Varshney",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Nodus (YC F26). Previously at Google, Uber, Scale AI, & AWS. ",
+        "linkedin_url": "https://www.linkedin.com/in/pvarshh",
+        "twitter_url": "https://x.com/pvarshh",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0ba07e21403033e8b96bfd650c021bf227174ee.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACKLS3RSF%2F20260830%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260830T175323Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDY4n9UgqxYGLybVgHa7%2BVSz2EBMg2Aps5ee71%2FuaM66QIhAIZB9scV%2BkbobRhc%2BEd0wp%2F483J8Y7ICWBoAfVtXikg5Ku4DCIP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxgYHq42MPGEGutQPsqwgPZasSdiZYGkhzy%2BhREnZJN%2F2bcoYXYIYcurdLTI%2FEllXGUgJmxfmXSmLsD%2FRKK4lNxHQhc8AGLy7IqpZkYcKN5xjgDbPkx4WelWzVc6jPETukzYtP7ui7T4FY3tynW8p%2FZ3HXijfZUPnpHF%2BfpiNFvdw1u9IMpPvJqX8x%2FPFJ5BolKeZYBpM8TfCfkNHV82bvSQBGlAjdYSw2oAlulrbGeTlmoL8ow8B36nxEgfN7PlgZH43OfydjwauDWfTUa0B%2FI7kH4PoMSow8C7WKkMRZULXHDs2Fz4sskL3e4hTeBbFOnFqnRc%2BWO%2FlOsaoJl488PB2teDilvY1yj4NIJv57vsMu1Zvmsy5rgV8FmcjU00btI52nv2DmjM4pWhR0UamnTexiVsaksv1Ia%2FV6H9Gjc5OsBoIWiG2vTQgWHC%2B1sTRm0BLtYw0hEQt%2F%2F2VFWaKJ7xZn4i7VSYCzg27Q36AhO96RSsqXLKEvrHNR%2Foh%2FI9MeitlPw76XEbUd40cp%2BnACP%2FAScvsNsgisd%2F3jYKdNHE7a4c1IBV4onHH%2B3WZXGlPOYkPuwPMav0OOMNGiYUU2s4tm%2BO87wngEqBuJYqb1Wy3AwitvR1AY6pAFCoBk9VhovAzIF2QKdAsGUT7jjmYJPQp6NVMqv89hI7PQmExpyoRAtyHit3PNKle526ctCfZjEBr77xjx6wZjqU47rIdQYMmOPQpuH8M%2BaRxdztyn9wgQz64TDl9JrJNxoNqCl3yDacjSeHMEfBzF5X5NQ0KAcF7nxRyuQBpyvrPRhfBo1tUoC9L8%2FptroyUh0KXlVZJbj8AS8ZALpf8NUWTX%2FaA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=5bbf87e87d04fe647f618d603f6b0b6c8290f74ecdf582fcbb83a0a7723762be",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Nodus",
+          "href": "https://www.ycombinator.com/companies/nodus"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-30T17:53:31.600Z",
+    "classified_at": "2026-08-30T17:53:31.600Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "nomi",
     "name": "Nomi",
     "website": "https://www.nomi.so",
@@ -86764,6 +86846,73 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "the-subvocal-company",
+    "name": "The Subvocal Company",
+    "website": "https://subvocal.company",
+    "yc_profile_url": "https://www.ycombinator.com/companies/the-subvocal-company",
+    "batch": "Fall 2026",
+    "one_liner": "Talk to your computer without talking",
+    "description_combined": "Talk to your computer without talking\n\nWe&#x27;re building a silent speech wearable that lets you talk to your computer at the speed of voice, but silently and completely imperceptibly to everyone around you.",
+    "industry_sub_vertical": "Silent speech interface hardware for hands-free human-computer interaction",
+    "canonical_vertical_id": "ai-infrastructure.voice",
+    "vertical_id": "ai-infrastructure.voice",
+    "vertical_label": "Enterprise voice & speech infrastructure",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "robotics-embodied-ai",
+    "phenotype_primary_label": "Embodied AI / Silent Speech Wearable",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "embodied_control",
+    "ai_application_patterns": [
+      "neural_signal_processing",
+      "silent_speech_recognition",
+      "wearable_inference",
+      "human_computer_interface"
+    ],
+    "what_they_sell": "A wearable device that captures subvocal signals (muscle/neural activity during silent speech) and translates them into computer commands and text input in real-time, enabling hands-free, voice-speed interaction without audible speech.",
+    "ai_play": "AI/ML models trained on subvocal signal patterns (EMG, neural sensors) to decode intent and speech from silent articulation. On-device inference enables low-latency, privacy-preserving command execution. Model must handle individual signal variance and environmental noise robustness.",
+    "who_pays": "End consumers (prosumers, accessibility users, privacy-conscious professionals); potentially enterprise/accessibility markets (accessibility software, secure comms, hands-occupied work environments).",
+    "confidence": 0.72,
+    "rationale": "Primary fit: robotics-embodied-ai (hardware-centric, sensor-driven, on-device AI inference for real-time control). Secondary: consumer-ai-app (end-user prosumer device, personal productivity). Not a pure consumer app—the hardware and sensor fusion are core IP. The AI play is signal decoding and real-time inference on edge hardware, not cloud-dependent. Confidence 0.72 because the phenotype library leans toward robotics/drones/manufacturing; this is consumer wearable BCI, which is adjacent but distinct. However, it fits the embodied_control + physical_system wedge better than any horizontal copilot or agent phenotype.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Consumer Electronics"
+    ],
+    "yc_tags": [
+      "Hard Tech"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2632951,
+        "full_name": "Aarush Yadav",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at The Subvocal Company, CS @ GT",
+        "linkedin_url": "https://www.linkedin.com/in/aarushyadav",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/951410271b2c5b83864ec944840d5067e136a650.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAD5MRLFS7%2F20260830%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260830T175312Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCwZQPDOEPWv3xphya4csRoFilT770UKMm2bG978tKNcwIgYNzeiaV5CTYo4AzXC9YOyZuFpaYxeILtdpXHTSBbdHcq7gMIgv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDBogAb%2BrK3y18GJZWSrCAwRWpTfyfe%2BcRwByytcBNNh5bCiolGQ80dK6xZN5gCMlI9N630UROy7DFjHgeXWdLT%2BAnr8UFUOf6MFR7fHqC3CyogtkjZ%2FHLQd%2BXXAWO2ljObmVfEIbuITV1uvUJAKFvmUlWXUtn7TVnRLvefp3o%2BGClDjxrQJ7dNH2t5fWEIK8m%2BvL5cr8jj7%2F2iufS%2B2y5ZhcLdulU%2FZIrEh59gwgQVzruM%2FasUi3xa%2Ft2j%2F16JeEqbgXyxr3pC1fmq3kW1n6PZgD8he70DL7PEla5lI5ib9KeX1UnG5r1x3DjGGY%2FvGqLZCkjTlb3R%2FhzGujwFctbkZIZ5KU%2BSCkZ07kj8%2F%2FjyXNbF3jouhalF5SM3GDBYIGwrbCnECawEqHpuIMM4YWoqbmHdrVydwsWBqhUtqzwZS5ymkWrPQ14iMHHXWg0uahQPoac27rNb1P%2FwhxeGIsHI3T%2FIhwySsgKNenhoFUuuDAXjr8B4at42LaAGqUYq7WatCX8k2Lx3c%2F1SQ8muklh%2BgqkbtMctwcSexP%2F34hHlVEKdd7aQgKzm5Vg48%2BRlb4aWux%2FDmX5Ub3VKtQdcfEzaXQYPVr2GipQ5Gp5QT21Y4%2FETCSvNHUBjqlARXmBaDE%2Bjo05U8yqV6PVTNQixiTuF2TnYBKDZkPyKuN98uVbBJ0hXP2C6yeeXqvAhwOmf3%2BbYkCbfwrnx%2BZTZf2Gv78J1DnIOCLmU%2FoiW719TejbNcEcrsIbB6VMQowDTYuE4V73lnsggx5tHMJdqtI5dCHiMRhetmtJhFxnBnj8fXgEZbiBsnrEItzC3GWGutLbn%2FDsfXIbWb8SnOrgFXyGojKaA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=0a35531cfea39834a19fe8698e4b9daa99398fea3981a751e92ef430dee582a3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "The Subvocal Company",
+          "href": "https://www.ycombinator.com/companies/the-subvocal-company"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-30T17:53:23.091Z",
+    "classified_at": "2026-08-30T17:53:23.091Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "the-token-company",
