@@ -6725,6 +6725,134 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "asakana",
+    "name": "Asakana",
+    "website": "https://www.asakana.co/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/asakana",
+    "batch": "Fall 2026",
+    "one_liner": "AI order entry for food distributors: emails and texts to ERP",
+    "description_combined": "AI order entry for food distributors: emails and texts to ERP\n\nRestaurants send orders to food distributors by email, text, and photo. Someone at the distributor retypes every one of them into the ERP. Asakana does that entry instead: orders land in the ERP already entered, and anything unclear goes to a person before it goes in. Live at US seafood distributors today, returning 40%+ of order-desk time to selling. Founded by a seafood distributor and a Gemini builder.",
+    "industry_sub_vertical": "Food distributor order entry automation for ERP systems",
+    "canonical_vertical_id": "hospitality.restaurant.ops",
+    "vertical_id": "hospitality.restaurant.ops",
+    "vertical_label": "Restaurant & food service operations",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "order_entry_automation",
+      "multimodal_document_parsing",
+      "erp_integration",
+      "human_in_loop_validation"
+    ],
+    "what_they_sell": "AI agent that autonomously converts incoming customer orders (email, text, photos) into structured ERP entries for food distributors. Unclear or ambiguous orders route to human review before entry.",
+    "ai_play": "Replaces manual order-entry labor by parsing unstructured order formats (text, images, emails) and mapping them to ERP schemas. Multimodal AI (vision + NLP) handles handwritten orders, photos, and natural language. Human-in-loop validation ensures accuracy before database commit.",
+    "who_pays": "Food distributors (seafood, produce, specialty) whose order-desk staff spend 40%+ of time retyping customer orders into ERPs.",
+    "confidence": 0.82,
+    "rationale": "Asakana is a vertical SaaS agent deployed into a specific industry (food distribution) to automate a high-friction, repetitive workflow (order entry). The AI agent integrates with the customer's ERP, learns domain-specific order formats and product catalogs, and executes autonomously with human validation as a safety gate. This is the canonical vertical-agentic-workflow-saas pattern: end-user-facing product, vertical focus, workflow automation, ERP integration, and clear ROI (time recapture). Not a horizontal copilot (too vertical-specific), not infrastructure (it's the end product), not a service provider (they sell software, not outcomes).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Food and Beverage"
+    ],
+    "yc_tags": [
+      "SaaS",
+      "Food & Beverage"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 0,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-08-31T19:49:59.881Z",
+    "classified_at": "2026-08-31T19:49:59.881Z",
+    "proposed_phenotype": null
+  },
+  {
+    "slug": "ascii",
+    "name": "Ascii",
+    "website": "https://box.ascii.dev",
+    "yc_profile_url": "https://www.ycombinator.com/companies/ascii",
+    "batch": "Fall 2026",
+    "one_liner": "The best cloud VMs for billions of agents",
+    "description_combined": "The best cloud VMs for billions of agents\n\n**Problem**\r\n\r\nHumans used to need laptops to do their work. Now they prompt agents instead, and those agents need computers too: always-on, in large quantities, and with unlimited capabilities. \r\n\r\nBuilding and maintaining that yourself is far from trivial.\r\n\r\n**Solution**\r\n\r\nBox provides powerful, simple, permissive Ubuntu VMs in the cloud. In a box, an agent can work for long periods on code or on knowledge work like legal, research, reporting, and auditing.\r\n\r\n**Why Box and not any other cloud VM?**\r\n\r\n1. It is ready out of the box: every box ships with a desktop, chrome, languages, docker, snapshots, and templates, plus a CLI, SDK, API, and control pane for your fleet.\r\n2. It is permissive and paradigm agnostic: any number of agents can use any number of boxes. Agents can run inside or use boxes as an external tool.\r\n3. It is expertly crafted: we manage everything from the individual CPU to the orchestration software, which makes boxes stable, persistent, scalable, and secure.\r\n4. It is the best performance and price in town: our CPUs rank first on HPC benchmarks, and boxes are typically 9x to 18x cheaper than other leading sandboxes.\r\n\r\n**Further notes**\r\n\r\nBoxes are hosted in Europe, which keeps prices low, and more regions are coming. Unless compliance requires it, agents don&#x27;t notice the region they run in.",
+    "industry_sub_vertical": "Agent compute infrastructure for long-running agentic workloads",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Harness / Orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_compute_runtime",
+      "vm_orchestration",
+      "persistent_execution_environment"
+    ],
+    "what_they_sell": "Cloud-hosted Ubuntu VMs optimized for long-running agentic workloads. Pre-configured with desktop, browsers, languages, Docker, snapshots, templates, plus CLI/SDK/API for fleet management. Agents can run inside boxes or use them as external tools.",
+    "ai_play": "Provides the persistent, always-on compute substrate that agentic systems require. Unlike traditional serverless or container platforms, boxes enable stateful, long-duration agent execution with full OS capabilities (desktop, arbitrary software, file persistence). Removes the infrastructure burden from agent builders, allowing them to focus on agent logic rather than VM provisioning, scaling, and orchestration.",
+    "who_pays": "AI/agent platform companies, agentic workflow builders, and enterprises deploying multi-agent systems that need reliable, cost-effective compute infrastructure.",
+    "confidence": 0.85,
+    "rationale": "Ascii is a foundational infrastructure layer for agent execution. It fits agent-runtime-infra because it provides the runtime harness and orchestration substrate (VMs, fleet management, persistence, scaling) that agents depend on. The value is infrastructure-as-a-pickaxe: a low-level tool enabling downstream agent builders. Secondary consideration: could map to edge-inference-runtime if emphasizing on-prem/regional deployment, but primary value is compute orchestration for agents, not model optimization. The company explicitly positions itself as solving the 'agents need computers' problem with permissive, paradigm-agnostic VMs—classic runtime infrastructure play.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "Cloud Computing"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 3,
+    "location": "Remote",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 918787,
+        "full_name": "Anicet Nougaret",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Ascii",
+        "linkedin_url": "https://www.linkedin.com/in/anicet-nougaret-b7846b174",
+        "twitter_url": "https://x.com/AniC_dev",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/898bcdab37aa50608f57c46e0d5c5c3d37cc6d5e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAI22ENRUJ%2F20260831%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260831T194959Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBb%2F4Ewu%2F9e47Wn126lNOFkurLnpz3nh5FtVZPMkPDL1AiAJzeDgGNtMXn23hg%2Bivph09xGLGlzdmeMTrq4uXAJOTSruAwid%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMRIFVAKM%2FFIvmByqxKsIDHMnVBvWqaoQekl3w%2B%2BnNZXRI5sIdYc%2BWDn%2F2j08VgrXCquScJaz9ZR3JO0SJzhPh%2B%2FmL8gjOgPvng6eQpVar7yS7%2FG7SJEeatJ8U8%2FIj%2FitlPEEKoIPkJ7dVNl7fhrE7dRNTZDQbxW6I014wtau2eLmsA4fPEvrTAN6Jngt9ISqdRjr1%2F32H0Kl%2Fk%2F6FsEhgg%2B52hu3vzsbbeuT0oxUTTj21bhunboYpi6KFbHuQUT%2Bj5ldMIA3YgbJKhK1rhHVqegRUpDd00aj3mesbGMxm6XjIrp5jFMTN7DO9w3YGzaUB2nseujSGawR82zGVovPKzWMF1hXQiLjuXYKNASAS92ny%2BqXm1pwbM1RnUACF4MCIEY1C74goHNjS59BHaj5b3lgS%2FUY43v20tUnbwXgEBIgGowpZo4R8QfLsQhQS%2BJv%2FnQLtKTw9W9B%2BxGCELJuWAkiS5S1P277zCQNBBO0FGKGGKtZjooS4wGUZiYHusKMm2U6hcQ0KF1kPSwfQtqNuV1Ls8OFjyVJzBtBy0xpYw3D57%2BUxLIAE%2F%2FU5UyZwAzUO3FNwK9npwhSwbSIHr8LJLNzPYZNRs%2F1%2Foxv7zVgjXXBsMNGx19QGOqYB4QGNk5c73iEUcpeDoDU%2FOWmE0din%2BJHterL%2FAZkMyvkDFRpeTN2oP2g8FedPIheY5Y62O0nAqArbvQWmmQ7AiVrZmGG5QnIj3iS9jqrBtXvZ4JJNOLpXCdlLjX1eI8DOQWeOowuPbeIf8bb4qkVyL5Elh7BrUSPdtHrGxfo3EV3kZaPt%2FXGU6IIQTFS8kZ7Al6A%2FBFzCmcGsoyQIphnlEOgeoEsgVg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=69e14786ccc51601a325953a8db77db9697410155d9986ed39d5282dfff05356",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ascii",
+          "href": "https://www.ycombinator.com/companies/ascii"
+        }
+      },
+      {
+        "user_id": 4016415,
+        "full_name": "Kirill",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "co-founder @ ascii.dev",
+        "linkedin_url": "https://www.linkedin.com/in/luaroncrew/",
+        "twitter_url": "https://x.com/luaroncrew",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c0bbeeba43187ecd6dcc168dce2083337c8861c1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAI22ENRUJ%2F20260831%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260831T194959Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBb%2F4Ewu%2F9e47Wn126lNOFkurLnpz3nh5FtVZPMkPDL1AiAJzeDgGNtMXn23hg%2Bivph09xGLGlzdmeMTrq4uXAJOTSruAwid%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMRIFVAKM%2FFIvmByqxKsIDHMnVBvWqaoQekl3w%2B%2BnNZXRI5sIdYc%2BWDn%2F2j08VgrXCquScJaz9ZR3JO0SJzhPh%2B%2FmL8gjOgPvng6eQpVar7yS7%2FG7SJEeatJ8U8%2FIj%2FitlPEEKoIPkJ7dVNl7fhrE7dRNTZDQbxW6I014wtau2eLmsA4fPEvrTAN6Jngt9ISqdRjr1%2F32H0Kl%2Fk%2F6FsEhgg%2B52hu3vzsbbeuT0oxUTTj21bhunboYpi6KFbHuQUT%2Bj5ldMIA3YgbJKhK1rhHVqegRUpDd00aj3mesbGMxm6XjIrp5jFMTN7DO9w3YGzaUB2nseujSGawR82zGVovPKzWMF1hXQiLjuXYKNASAS92ny%2BqXm1pwbM1RnUACF4MCIEY1C74goHNjS59BHaj5b3lgS%2FUY43v20tUnbwXgEBIgGowpZo4R8QfLsQhQS%2BJv%2FnQLtKTw9W9B%2BxGCELJuWAkiS5S1P277zCQNBBO0FGKGGKtZjooS4wGUZiYHusKMm2U6hcQ0KF1kPSwfQtqNuV1Ls8OFjyVJzBtBy0xpYw3D57%2BUxLIAE%2F%2FU5UyZwAzUO3FNwK9npwhSwbSIHr8LJLNzPYZNRs%2F1%2Foxv7zVgjXXBsMNGx19QGOqYB4QGNk5c73iEUcpeDoDU%2FOWmE0din%2BJHterL%2FAZkMyvkDFRpeTN2oP2g8FedPIheY5Y62O0nAqArbvQWmmQ7AiVrZmGG5QnIj3iS9jqrBtXvZ4JJNOLpXCdlLjX1eI8DOQWeOowuPbeIf8bb4qkVyL5Elh7BrUSPdtHrGxfo3EV3kZaPt%2FXGU6IIQTFS8kZ7Al6A%2FBFzCmcGsoyQIphnlEOgeoEsgVg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ce8e468bf0970024d8236a51b83c9e293d9cbcd00566fedc35c3704a38f2ac84",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ascii",
+          "href": "https://www.ycombinator.com/companies/ascii"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-31T19:50:08.614Z",
+    "classified_at": "2026-08-31T19:50:08.614Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "asendia-ai",
     "name": "Asendia AI",
     "website": "https://asendia.ai/",
@@ -21784,6 +21912,51 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "cyble",
+    "name": "Cyble",
+    "website": "https://cyble.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/cyble",
+    "batch": "Winter 2021",
+    "one_liner": "We just crossed 500K samples analyzed - free for anyone here.",
+    "description_combined": "We just crossed 500K samples analyzed - free for anyone here.\n\nHey all - Cyble (YC W21) here. We've been heads-down on MalwareAnalyzer (): a public malware analysis and threat intelligence platform. Submit a file, a URL, or a hash and get a verdict backed by real evidence. Public analysis is free and unlimited, and no account is required.\n\nWe just crossed 500,000 samples analyzed, which felt like a reasonable excuse to finally post here.\n\nWhat's actually in it\n\nMulti-engine static scanning. Free and open engines (ClamAV, YARA, hash feeds, static tooling) run locally; third-party AV engines run on an isolated in-VPC Windows scanner. The report shows only the engines that actually ran — no padded vendor list.\n\nReal sandbox detonation. We execute the sample, not just scan it. Full behavior capture across process, file, registry and network activity.\n\nInteractive live-VM analysis. Take the wheel mid-detonation: click through installers, dismiss dialogs, trigger the behavior that only fires on user interaction. Choose your guest OS, network mode and engine — and diff two builds side by side.\n\nURL and phishing analysis. Paste a link and get the redirect chain, hosting and verdict without touching it yourself.\n\nQueryable threat-intelligence graph. Pivot from a sample out to infrastructure, families and related samples. Search the whole corpus by content, indicator, MITRE technique or family — then save it as a standing hunt and get notified when something new matches.\n\nATT&amp;CK mapping with receipts. Every technique is attributed to its sourc",
+    "industry_sub_vertical": "Malware analysis and threat intelligence platform for security teams and SOC analysts",
+    "canonical_vertical_id": "security.threat-intel",
+    "vertical_id": "security.threat-intel",
+    "vertical_label": "Threat intelligence & adversary tracking",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent observability, evals, or safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "threat_detection",
+      "behavioral_analysis",
+      "intelligence_synthesis"
+    ],
+    "what_they_sell": "Public malware analysis and threat intelligence platform with multi-engine scanning, sandbox detonation, interactive live-VM analysis, URL/phishing analysis, and queryable threat-intelligence graph with MITRE ATT&CK mapping.",
+    "ai_play": "AI-powered behavioral analysis, automated threat classification, and intelligent pivoting through threat-intelligence graphs to identify malware families, infrastructure relationships, and attack patterns at scale. Machine learning enables real-time detection of novel malware variants and automated attribution to threat actors.",
+    "who_pays": "Security teams, SOC analysts, threat researchers, enterprises, and security vendors needing malware analysis and threat intelligence.",
+    "confidence": 0.65,
+    "rationale": "Cyble is primarily a threat intelligence and malware analysis platform, not a traditional agent infrastructure or observability tool. However, it shares characteristics with agent-observability-evals (behavioral monitoring, safety/threat detection, red-teaming via sandbox execution) and research-terminal-intel (queryable intelligence graph, synthesis of threat data, decision support for security teams). The platform uses AI/ML for threat detection and behavioral analysis, but the core value is the analysis infrastructure and intelligence database, not agent orchestration or evaluation frameworks. Secondary phenotype (research-terminal-intel) is stronger fit given the emphasis on queryable threat-intelligence graph and synthesis of indicators into actionable intelligence. Confidence is moderate (0.65) because Cyble doesn't fit cleanly into existing phenotypes—it's closer to a specialized research/intelligence terminal than agent infrastructure.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "launch_id": 112785,
+    "launch_url": "https://www.ycombinator.com/launches/TL7-malwareanalyzer-static-scanning-real-detonation-an-interactive-live-vm-and-a-threat-graph-you-can-pivot-through",
+    "launch_title": "MalwareAnalyzer: Static scanning, real detonation, an interactive live VM, and a threat graph you can pivot through",
+    "launch_created_at": "2026-08-31T15:04:07.208Z",
+    "launch_tagline": "We just crossed 500K samples analyzed - free for anyone here.",
+    "launch_ingested_at": "2026-08-31T19:50:54.067Z",
+    "classified_at": "2026-08-31T19:50:54.067Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "dailybot",
     "name": "Dailybot",
     "website": "https://www.dailybot.com/",
@@ -31281,6 +31454,77 @@
     "primary_bm_rationale": "Frizzle is a vertical AI SaaS product sold directly to teachers/schools for automated grading and learning analytics, not a managed service or human-in-loop labor model.",
     "primary_bm_assigned_at": "2026-06-05T19:59:14.696Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "frontier-computing",
+    "name": "Frontier Computing",
+    "website": "https://frontier.site",
+    "yc_profile_url": "https://www.ycombinator.com/companies/frontier-computing",
+    "batch": "Summer 2026",
+    "one_liner": "Frontier grows scalable biological brains as an ML training substrate",
+    "description_combined": "Frontier grows scalable biological brains as an ML training substrate\n\nFrontier is first to grow biological brains at scale, serving biological neural nets with substrate-level colocation of memory and compute, enabling highly cost effective training of large parameter count models.\r\n\r\nWhile academia has traditionally been limited to ~1M neurons in vitro, Frontier has built a pathway to scale to 100M+ neurons by circumventing traditional scaling challenges in biological culture, demonstrating this strategy&#x27;s functionality by training a biological brain using this scaling primitive to play Frogger.\r\n\r\nFrontier is now growing exascale compute clusters to produce substrates capable of long-horizon language reasoning while operating at much higher sample efficiencies than traditional architectures, and collocating memory with compute to enable significantly larger parameter counts than would be tractable for training within traditional compute clusters.\n\nWe colocate memory with compute in biological tissue, so you can train larger models at lower cost\n\nTL;DR – We're deploying exascale biocomputing clusters, growing biological systems with memory baked into compute at the substrate level, enabling training of models at parameter counts that would otherwise be inaccessible under traditional GPU architecture-constrained approaches.\n\n\n\nHey all, we're Frontier Computing, and we’re excited to announce that we are growing the first large-scale neuronal tissues for ML training and inference!\n\nFrontier is launching its 500M biological neurone cluster by January 2027, which will be 2500x larger than the next-largest publicly available system in the biocomputing space that companies are currently restricted to building on. \n\nWe'll continue to launch increasingly larger iterations of our substrate to circumvent the challenges of GPU parallelisation ",
+    "industry_sub_vertical": "Biological neural network compute substrate for large-scale model training",
+    "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_label": "GPU infrastructure for model deployment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "compute_substrate_optimization",
+    "ai_application_patterns": [
+      "biological_compute_substrate",
+      "training_infrastructure",
+      "memory_compute_colocation",
+      "sample_efficiency_optimization"
+    ],
+    "what_they_sell": "Scalable biological neural network substrates (100M+ neurons) grown at scale for use as ML training infrastructure. Biological brains serve as alternative compute hardware with integrated memory-compute architecture, enabling cost-effective training of large parameter models.",
+    "ai_play": "Frontier is not building AI models or agents—they are building the physical substrate (biological brains) upon which AI models are trained. The biological system itself replaces silicon-based compute clusters by offering superior sample efficiency, integrated memory-compute colocation, and dramatically lower cost per training operation. This is infrastructure-level innovation that changes the economics of frontier model training.",
+    "who_pays": "AI labs, research institutions, and frontier model training companies (OpenAI-scale operators) seeking alternative compute substrates with better sample efficiency and lower training costs than traditional GPU/TPU clusters.",
+    "confidence": 0.72,
+    "rationale": "Frontier is building physical hardware infrastructure (biological brains) where AI/ML is the primary application domain, not the core product. This maps to ai-enabled-physical-systems: the physical system (biological neural networks) is the product; AI training is the use case that drives R&D and performance optimization. Unlike robotics (embodied_control) or manufacturing (design_manufacturing_control), Frontier's value is in the substrate itself—colocation of memory and compute, sample efficiency, and scalability. The company is solving a hard physics/biology problem to enable better AI training infrastructure. Secondary consideration: could map to infrastructure-optimization-ai (real-time optimization of training efficiency), but the primary value is the novel physical substrate, not optimization of existing infrastructure. Confidence is moderate (0.72) because this is a novel phenotype boundary: Frontier is neither a pure hardware company (no end-user product) nor a pure AI company (no models/agents), but rather hard-tech infrastructure enabling AI. The fit to ai-enabled-physical-systems is strongest because it captures the physical-system-as-enabler pattern.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Hard Tech",
+      "Hardware"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 1,
+    "location": "London, England, United Kingdom",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2627752,
+        "full_name": "Michael Domarkas",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "19 y/o ex-Cambridge natural scientist\n\nprev growing brains in my bedroom\n\nnow growing exascale brains for continual learning",
+        "linkedin_url": "https://www.linkedin.com/in/michael-domarkas",
+        "twitter_url": "https://x.com/MichaelDmrks",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dbc0487122f2a39f809799e732a7b1e3cb67b540.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIJYS3LUJ%2F20260831%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260831T194937Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCGhDrrZcNVdbHIPyVx7Ydb2D5G05ej8BaThikTwaUv8wIhAOKFT1lRLkHDlMWhKZjglRZ7xq2T3DZkBWeKcJUA2TOsKu4DCJ3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgzi9FUgjuT90mdXWiwqwgOSG8RUWEk1bsVrdK3AcokFlZGChIfaoYNXO%2Ff%2Fkn4U%2BFMT25hNCSoNH5PJjP9rCGSxl%2BV5I%2BM21SJUgURM4wuQqL9zWUO4F9bDCvHKDA4PprZ7LX%2BZYzy1TGKysgRBzqKKLnDtbVmY9d8Zma3sjiqbhUwMluQPT2diANHKdATMDPsGNG0ZI56f8K6p6pbc41Z0IZ92o97YF10f8Cm8mfRJnWb8m%2Bzd5fdM48QSQRaItYERDtQb0xlq3NuuHmgzOUEVWw94rvNUjA5au%2BUZJSrn1qLlJytdkyywfeRefcJpFWWsSjHu%2Ftf0oie29FETm59jswDgrvBzTUVUUURbN0wS1tT4tMfTUj9okofWYAaP5TDqHgbygsSRelt4XfaZlI%2Bo7fIlnzU%2BkKwiGqVUwpbw2T%2F7Q%2BybMRjGuY2DQ6Gjh%2BXwPNH3TdkbHBmru8ZsJAyD26Rr4xcgj0EEPenw5yEVMCn%2FMDQYsR6OZRQMqAsZo5yhi%2Bh8MsfcUShPv5v8hCR6mno3S71vhPKT3Qr1jNBQn92ns8us5Pd48yDn2dfcfe2Gnp9k3eJaCO6QZnHtVm5quvTv4MqRVSo%2BE65YQAfPgDAw0rHX1AY6pAENsUYyGfkOwF8fvONwy1CuUuxMWZcGjDYHpkwd7h6eP9XNWVmYKxrhcMcBG9T7JN6X801JtYz7WSDy2HpGP%2B2CmE%2BX%2FOGfit%2FDqDEfz5XxVM2X%2FNu%2B5u2NUD8FpydTJzgm4nx%2FiwrkMNYjFdI0kJvJXOyjNRWJ31TAdzu%2BMzBNLvBAn8c3ErFsiZHjCLBpP3bO1MpsIUwP2FHG4yYxpkjsKNzDJw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e5954761a7642bac572395e41d34c95e8759064fe804a47cf232bf0ddea6844b",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Frontier Computing",
+          "href": "https://www.ycombinator.com/companies/frontier-computing"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-08-31T19:49:48.215Z",
+    "classified_at": "2026-08-31T19:49:48.215Z",
+    "proposed_phenotype": null,
+    "launch_id": 112791,
+    "launch_url": "https://www.ycombinator.com/launches/TLD-frontier-computing-growing-biological-brains-at-scale",
+    "launch_title": "Frontier Computing – Growing biological brains at scale",
+    "launch_created_at": "2026-08-31T17:00:00.185Z",
+    "launch_tagline": "We colocate memory with compute in biological tissue, so you can train larger models at lower cost",
+    "launch_evaluated_at": "2026-08-31T19:50:54.067Z"
   },
   {
     "slug": "fuchsia",
@@ -86016,6 +86260,51 @@
     "primary_bm_rationale": "Trellis is a software platform sold to short-term rental property managers that automates their operations workflow; while it includes AI agents, the primary monetization is SaaS licensing to a vertical market, not outsourced labor or managed services.",
     "primary_bm_assigned_at": "2026-06-05T20:00:03.867Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "trellus",
+    "name": "Trellus",
+    "website": "https://www.trellus.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/trellus",
+    "batch": "Winter 2022",
+    "one_liner": "Run more outbound calls with embedded power and parallel dialing, a live Salesfloor, and real-time coaching in one platform.",
+    "description_combined": "Run more outbound calls with embedded power and parallel dialing, a live Salesfloor, and real-time coaching in one platform.\n\nHey everyone — we're Ajinkya and Craig from Trellus (YC W22).\n\nTL;DR: Trellus combines embedded power and parallel dialing, a collaborative Salesfloor, and live AI coaching in one product. Reps can dial up to five lines from supported CRM, sales-engagement, prospecting, and spreadsheet workflows. Managers can run call blocks, listen to live calls, coach reps, and pull people into private huddles without leaving the floor. Trellus is typically about half the price of Nooks for teams buying a comparable dialing and Salesfloor workflow.\n\n## The problem\n\nOutbound teams usually stitch together a dialer, their CRM or sales-engagement platform, a virtual sales floor, call recording, analytics, and a coaching tool. Reps bounce between tabs. Managers see the call after it is over. Remote call blocks lose the energy and fast feedback of a real sales floor.\n\nWe built Trellus so the list, the call, the team room, and the coaching loop can stay connected.\n\n## What a call block looks like in Trellus\n\n1. A rep opens the workflow they already use in a supported platform such as Salesforce, HubSpot, Apollo, Attio, lemlist, GoHighLevel, or Google Sheets.\n2. Trellus adds one-line power dialing or up to five-line parallel dialing directly to that workflow, so the rep does not have to rebuild the list in a separate dialer.\n3. The team joins a shared Salesfloor to dial together, see who is active, chat, and celebrate wins.\n4. Managers can listen to live calls and coach in the moment. Trellus can a",
+    "industry_sub_vertical": "Outbound sales operations & SDR call execution platform",
+    "canonical_vertical_id": "enterprise.sales.enablement",
+    "vertical_id": "enterprise.sales.enablement",
+    "vertical_label": "Sales enablement & execution",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "call_orchestration",
+      "live_coaching_automation",
+      "sales_workflow_integration"
+    ],
+    "what_they_sell": "Embedded power dialing and parallel dialing platform with live Salesfloor collaboration, real-time AI coaching, and call management integrated directly into CRM/sales-engagement workflows (Salesforce, HubSpot, Apollo, etc.). Reps dial 1-5 lines simultaneously without tab-switching; managers listen live, coach in real-time, and run coordinated call blocks.",
+    "ai_play": "AI-driven live coaching and call optimization: real-time feedback to reps during calls, automated call routing/queuing, and post-call analytics. AI reduces friction in outbound workflows by embedding dialing directly into existing tools and automating coaching loops that typically require manual manager intervention.",
+    "who_pays": "Sales operations teams, call center managers, and outbound-focused enterprises (SDR teams, inside sales, telemarketing operations).",
+    "confidence": 0.75,
+    "rationale": "Trellus is a vertical SaaS product targeting outbound sales/call-center teams. It automates the end-to-end workflow of coordinated dialing, team collaboration, and coaching—replacing manual, fragmented tools (separate dialer + CRM + Salesfloor + coaching). The AI component (live coaching, call optimization) is embedded in the product but secondary to the workflow automation value. Primary phenotype is vertical-agentic-workflow-saas because: (1) it's end-user-facing SaaS sold to sales teams, (2) it automates a specific vertical job function (outbound calling), (3) it integrates with vertical-specific tools (CRM, sales-engagement), and (4) it replaces manual processes with autonomous/semi-autonomous execution. Not horizontal-copilot-saas because it's not cross-industry productivity; not agent-runtime-infra because it's not infrastructure for other agents. Confidence 0.75 due to AI coaching being real-time but not fully autonomous—managers still drive some decisions.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-01"
+    ],
+    "launch_id": 112632,
+    "launch_url": "https://www.ycombinator.com/launches/TIe-trellus-embedded-dialing-salesfloor-and-live-coaching-at-half-the-price-of-nooks",
+    "launch_title": "Trellus: Embedded dialing, Salesfloor, and live coaching at half the price of Nooks",
+    "launch_created_at": "2026-08-31T15:02:02.119Z",
+    "launch_tagline": "Run more outbound calls with embedded power and parallel dialing, a live Salesfloor, and real-time coaching in one platform.",
+    "launch_ingested_at": "2026-08-31T19:50:54.068Z",
+    "classified_at": "2026-08-31T19:50:54.068Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "trident",

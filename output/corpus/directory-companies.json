@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-30T17:53:12.537Z",
+  "synced_at": "2026-08-31T19:49:37.474Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1277,
+  "company_count": 1280,
   "companies": [
     {
       "slug": "10x",
@@ -680,16 +680,17 @@
       "slug": "akon-labs",
       "name": "Akon Labs",
       "batch": "Summer 2026",
-      "one_liner": "Nervous System for AI Agents",
+      "one_liner": "The Github For Coding Agents",
       "long_description": "",
       "website": "https://akonlabs.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Deep Learning",
+        "Artificial Intelligence",
         "Generative AI",
-        "SaaS"
+        "SaaS",
+        "B2B"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -1766,6 +1767,46 @@
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1773098013
+    },
+    {
+      "slug": "asakana",
+      "name": "Asakana",
+      "batch": "Fall 2026",
+      "one_liner": "AI order entry for food distributors: emails and texts to ERP",
+      "long_description": "Restaurants send orders to food distributors by email, text, and photo. Someone at the distributor retypes every one of them into the ERP. Asakana does that entry instead: orders land in the ERP already entered, and anything unclear goes to a person before it goes in. Live at US seafood distributors today, returning 40%+ of order-desk time to selling. Founded by a seafood distributor and a Gemini builder.",
+      "website": "https://www.asakana.co/",
+      "industries": [
+        "Consumer",
+        "Food and Beverage"
+      ],
+      "tags": [
+        "SaaS",
+        "Food & Beverage"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1788189674
+    },
+    {
+      "slug": "ascii",
+      "name": "Ascii",
+      "batch": "Fall 2026",
+      "one_liner": "The best cloud VMs for billions of agents",
+      "long_description": "**Problem**\r\n\r\nHumans used to need laptops to do their work. Now they prompt agents instead, and those agents need computers too: always-on, in large quantities, and with unlimited capabilities. \r\n\r\nBuilding and maintaining that yourself is far from trivial.\r\n\r\n**Solution**\r\n\r\nBox provides powerful, simple, permissive Ubuntu VMs in the cloud. In a box, an agent can work for long periods on code or on knowledge work like legal, research, reporting, and auditing.\r\n\r\n**Why Box and not any other cloud VM?**\r\n\r\n1. It is ready out of the box: every box ships with a desktop, chrome, languages, docker, snapshots, and templates, plus a CLI, SDK, API, and control pane for your fleet.\r\n2. It is permissive and paradigm agnostic: any number of agents can use any number of boxes. Agents can run inside or use boxes as an external tool.\r\n3. It is expertly crafted: we manage everything from the individual CPU to the orchestration software, which makes boxes stable, persistent, scalable, and secure.\r\n4. It is the best performance and price in town: our CPUs rank first on HPC benchmarks, and boxes are typically 9x to 18x cheaper than other leading sandboxes.\r\n\r\n**Further notes**\r\n\r\nBoxes are hosted in Europe, which keeps prices low, and more regions are coming. Unless compliance requires it, agents don't notice the region they run in.",
+      "website": "https://box.ascii.dev",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Developer Tools",
+        "Cloud Computing"
+      ],
+      "team_size": 3,
+      "location": "Remote",
+      "status": "Active",
+      "launched_at": 1788174016
     },
     {
       "slug": "asendia-ai",
@@ -6120,7 +6161,7 @@
         "AI"
       ],
       "team_size": 2,
-      "location": "Bengaluru, KA, India",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1785265630
     },
@@ -7525,8 +7566,8 @@
       "slug": "exonic",
       "name": "Exonic",
       "batch": "Fall 2025",
-      "one_liner": "Unsupervised Biological AI",
-      "long_description": "What if you could train a biological foundation model on... the entire internet?\r\n\r\nExonic is pioneering a new generation of biological foundation models, focused on heterogeneous, unstructured, and noisy datasets.\r\n\r\nOur first application is the design of safer gene therapies.\r\n\r\nIn 2025, we used AI to set a new state of the art in liver cancer targeted gene therapy, validated in vitro in our lab in San Francisco.\r\n\r\nSo far in 2026, we have trained a new model with unprecedented zero-shot generalization on genomic regulatory expression in hold-out biosample datasets. More to be shared soon.\r\n",
+      "one_liner": "Exonic is an AI-native cell and gene therapeutics company. ",
+      "long_description": "We program DNA sequences to be context-aware, unlocking new kinds of genetic therapies.",
       "website": "https://exonic.ai",
       "industries": [
         "Healthcare",
@@ -7873,15 +7914,15 @@
       "name": "Financial Datasets",
       "batch": "Summer 2026",
       "one_liner": "Connect your agent to the stock market ",
-      "long_description": "Financial Datasets gives agents access to real-time global market information.\r\n\r\nWe index the world's markets so agents can search every filing, answer any financial question, and monitor markets in real time.\r\n\r\nFor 40 years, market data was built for humans reading a screen. We are rebuilding it for agents that research every company, all day, across the world.",
+      "long_description": "Financial Datasets is the largest search index for stock market data, built for AI agents.\r\n\r\nWe index the world's markets so agents can search every filing, answer any financial question, and monitor markets in real time.\r\n\r\nFor 40 years, market data was built for humans reading a screen. We are rebuilding it for agents that research every company, all day, across the world.",
       "website": "https://financialdatasets.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
         "Investing",
-        "AI",
         "Stocks"
       ],
       "team_size": 1,
@@ -8457,6 +8498,26 @@
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1754512868
+    },
+    {
+      "slug": "frontier-computing",
+      "name": "Frontier Computing",
+      "batch": "Summer 2026",
+      "one_liner": "Frontier grows scalable biological brains as an ML training substrate",
+      "long_description": "Frontier is first to grow biological brains at scale, serving biological neural nets with substrate-level colocation of memory and compute, enabling highly cost effective training of large parameter count models.\r\n\r\nWhile academia has traditionally been limited to ~1M neurons in vitro, Frontier has built a pathway to scale to 100M+ neurons by circumventing traditional scaling challenges in biological culture, demonstrating this strategy's functionality by training a biological brain using this scaling primitive to play Frogger.\r\n\r\nFrontier is now growing exascale compute clusters to produce substrates capable of long-horizon language reasoning while operating at much higher sample efficiencies than traditional architectures, and collocating memory with compute to enable significantly larger parameter counts than would be tractable for training within traditional compute clusters.",
+      "website": "https://frontier.site",
+      "industries": [
+        "Industrials"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Hard Tech",
+        "Hardware"
+      ],
+      "team_size": 1,
+      "location": "London, England, United Kingdom",
+      "status": "Active",
+      "launched_at": 1788161513
     },
     {
       "slug": "fuchsia",
@@ -9501,7 +9562,7 @@
         "AI"
       ],
       "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "location": "Fresno, CA, USA",
       "status": "Active",
       "launched_at": 1747261239
     },
@@ -10628,14 +10689,14 @@
       "name": "Jcode",
       "batch": "Summer 2026",
       "one_liner": "The harness company",
-      "long_description": "An agent is LLM + harness: We work purely on that second component. We do research to produce the most capable harness for coding, and we also make an open source, terminal based, coding agent product with 18k github stars. ",
+      "long_description": "An agent is LLM + harness: We work purely on that second component. We do research to produce the most capable harness. Our harness has 18k stars on github",
       "website": "https://jcode.sh/",
       "industries": [
         "Consumer"
       ],
       "tags": [
-        "Developer Tools",
-        "AI"
+        "Artificial Intelligence",
+        "Developer Tools"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -11871,7 +11932,7 @@
       "slug": "levocred-ai",
       "name": "Levocred AI",
       "batch": "Summer 2026",
-      "one_liner": "The AI analyst for lenders",
+      "one_liner": "AI Workforce for lenders",
       "long_description": "Levocred builds and deploys AI agents inside credit funds, fintechs and banks to automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Live across multiple lending teams, running ~$1Bn in receivables through the platform.",
       "website": "https://levocred.com/",
       "industries": [
@@ -14179,8 +14240,8 @@
       "slug": "moving-atoms",
       "name": "Moving Atoms",
       "batch": "Summer 2026",
-      "one_liner": "Robot Model Lab.",
-      "long_description": "Moving Atoms is frontier robotics lab. Our goal is to solve robotics, then solve abundance.\r\n\r\nOur first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\n\r\nBy using this model, we can significantly reduce the amount of robot data we need to collect to build our robot model (a world action model).\r\n\r\nOur second core bet is to design our robot model to be micromanaged by LLMs, allow robotics to use the orchestration and planning abilities of LLMs while having the physics, contact and timing be controlled by the robot model (world action model).",
+      "one_liner": "World models that train and test robots in sim, #1 on Physics-IQ",
+      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs check every checkpoint, getting you results in minutes; instead of having to wait days for human evaluations. \r\nIt also lets you simulate unseen and hard to replicate environments.\r\n\r\nA world model good enough to grade robots is a world model good enough to drive one!\r\nOur second core bet is to design our robot model (world action model) to be micromanaged by LLMs, allow robotics to use the orchestration and planning abilities of LLMs while having the physics, contact and timing be controlled by the robot model (world action model).",
       "website": "https://movingatoms.ai/",
       "industries": [
         "Industrials",
@@ -14671,13 +14732,13 @@
       "batch": "Fall 2026",
       "one_liner": "Intelligent execution layer for AI workloads",
       "long_description": "Intelligent execution layer for AI workloads",
-      "website": "https://nodus-swart.vercel.app/",
+      "website": "https://www.nodus-compute.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 2,
       "location": "",
@@ -16155,7 +16216,7 @@
         "Healthcare Services"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1778968383
@@ -16282,7 +16343,7 @@
       "slug": "parameter",
       "name": "Parameter",
       "batch": "Winter 2026",
-      "one_liner": "Agentic Offensive Security at Scale",
+      "one_liner": "Security builds trust. Strengthen both, all on one platform.",
       "long_description": "Parameter builds AI agents that run continuous penetration tests against your apps and infrastructure. Instead of a once-a-year penetration test, Parameter's agents works 24/7 to find and verify critical vulnerabilities so you can prevent them before attackers.\r\n\r\nFormerly Hex Security",
       "website": "https://parameter.ai?utm_source=ycombinator&utm_medium=referral&utm_campaign=parameter-profile",
       "industries": [
@@ -18805,11 +18866,11 @@
         "Infrastructure"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Reinforcement Learning",
         "Open Source",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "team_size": 0,
       "location": "San Francisco, CA, USA",
@@ -18919,19 +18980,19 @@
       "slug": "risklytics",
       "name": "Risklytics",
       "batch": "Summer 2026",
-      "one_liner": "Insurance for the Frontier",
-      "long_description": "Risklytics is a commercial insurance brokerage for frontier tech: robotics, autonomy, data centers, and energy infrastructure. Insurers are writing AI exclusions into standard liability forms, so companies whose products act in the physical world end up holding risk they thought they had transferred. We specialize in that gap, and we know which carriers in the admitted and surplus lines markets will still underwrite it. If you're building anything that moves, lifts, drives, or powers something, we'd like to talk.",
+      "one_liner": "Insurance for Frontier Tech",
+      "long_description": "Risklytics is the insurance company for frontier tech such as physical AI, robotics, and data centers. Companies answer 6 questions and we bind a tailored policy that other insurance companies won’t.",
       "website": "https://www.risklytics.ai/",
       "industries": [
         "Fintech",
         "Insurance"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Machine Learning",
         "B2B",
-        "Insurance"
+        "Insurance",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -19115,7 +19176,7 @@
         "Energy"
       ],
       "tags": [],
-      "team_size": 3,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1769119894
@@ -21607,13 +21668,15 @@
       "slug": "talking-computers",
       "name": "Talking Computers",
       "batch": "Winter 2026",
-      "one_liner": "AI for AI Infrastructure",
-      "long_description": "We deploy fleets of AI Infrastructure Engineers to collaborate over week-long time horizons, run 100s of experiments in parallel, and learn from them to optimize your training/ inference infrastructure to your workloads.\r\n\r\nWe've partnered with companies to speed up their GPU kernels to 6x SOTA, and improved the latency of voice models to twice the competition.\r\n",
+      "one_liner": "Real-time interaction models for voice agents",
+      "long_description": "AI lab building interaction models to make AI symbiotic with humans.\r\n\r\nOur early models sit at the Pareto frontier of intelligence and interactivity, measured by time to first audio token, and enable voice agents that are both highly capable and genuinely human-like",
       "website": "https://talkingcomputers.ai",
       "industries": [
         "B2B"
       ],
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence"
+      ],
       "team_size": 2,
       "location": "Toronto, ON, Canada",
       "status": "Active",
@@ -24951,18 +25014,18 @@
       "slug": "zomma",
       "name": "Zomma",
       "batch": "Summer 2026",
-      "one_liner": "Computer Use Agents for back offices in finance",
-      "long_description": "Zomma builds Computer Use Agents that do the repetitive screen work in finance: logging into portals, pulling reports, reconciling books, and filling forms across systems that will never get an API. Our agents use the same screens your ops team uses today, so there is no integration project. Every action stops for human approval before anything submits. Hedge funds, asset managers, and fintech firms use Zomma for reconciliation, client onboarding, KYC, and investor reporting: the work that was never automatable until now.",
+      "one_liner": "Computer-use agent swarms for financial back offices",
+      "long_description": "Zomma builds Computer Use Agents that do the repetitive screen work in finance: logging into portals, pulling reports, reconciling books, and filling forms across systems that will never get an API. Our agents use the same screens your ops team uses today, so there is no integration project. Every action stops for human approval before anything submits.",
       "website": "https://zommalabs.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Robotic Process Automation",
         "Finance",
         "B2B",
-        "Workflow Automation"
+        "Workflow Automation",
+        "AI"
       ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",

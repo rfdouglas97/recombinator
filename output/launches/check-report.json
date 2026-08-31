@@ -1,17 +1,219 @@
 {
-  "checked_at": "2026-08-30T17:54:00.817Z",
+  "checked_at": "2026-08-31T19:50:54.129Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 0,
-  "new_count": 0,
-  "skipped_count": 930,
-  "ingest": null,
+  "checked_count": 3,
+  "new_count": 3,
+  "skipped_count": 927,
+  "ingest": {
+    "addedCompanies": 2,
+    "enrichedCompanies": 1
+  },
   "summary": {
     "conforming": 0,
-    "partial": 0,
+    "partial": 3,
     "non_conforming": 0,
-    "would_have_predicted": 0,
-    "surprise": 0,
+    "would_have_predicted": 1,
+    "surprise": 2,
     "predicted": 0
   },
-  "reviews": []
+  "reviews": [
+    {
+      "launch": {
+        "launch_id": 112791,
+        "company_slug": "frontier-computing",
+        "company_name": "Frontier Computing",
+        "launch_url": "https://www.ycombinator.com/launches/TLD-frontier-computing-growing-biological-brains-at-scale",
+        "created_at": "2026-08-31T17:00:00.185Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-31T19:50:34.089Z",
+        "launch_id": 112791,
+        "company_slug": "frontier-computing",
+        "taxonomy": {
+          "conformance_index": 55,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "ai-infrastructure.gpu-deploy",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::ai-infrastructure.gpu-deploy::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "GPU infrastructure for model deployment",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 112785,
+        "company_slug": "cyble",
+        "company_name": "Cyble",
+        "launch_url": "https://www.ycombinator.com/launches/TL7-malwareanalyzer-static-scanning-real-detonation-an-interactive-live-vm-and-a-threat-graph-you-can-pivot-through",
+        "created_at": "2026-08-31T15:04:07.208Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-31T19:50:42.280Z",
+        "launch_id": 112785,
+        "company_slug": "cyble",
+        "taxonomy": {
+          "conformance_index": 53,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 0,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 83,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "security.threat-intel",
+            "phenotype_primary_id": "agent-observability-evals",
+            "cell_key": "BM-03::security.threat-intel::agent-observability-evals",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Threat intelligence & adversary tracking",
+            "phenotype_label": "Agent observability, evals, or safety"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 112632,
+        "company_slug": "trellus",
+        "company_name": "Trellus",
+        "launch_url": "https://www.ycombinator.com/launches/TIe-trellus-embedded-dialing-salesfloor-and-live-coaching-at-half-the-price-of-nooks",
+        "created_at": "2026-08-31T15:02:02.119Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-08-31T19:50:53.305Z",
+        "launch_id": 112632,
+        "company_slug": "trellus",
+        "taxonomy": {
+          "conformance_index": 67,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 29,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.sales.enablement",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.sales.enablement::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Sales enablement & execution",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    }
+  ]
 }

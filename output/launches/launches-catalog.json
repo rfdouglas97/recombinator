@@ -1,7 +1,76 @@
 {
-  "updated_at": "2026-08-28T23:23:43.401Z",
-  "count": 1275,
+  "updated_at": "2026-08-31T19:50:54.068Z",
+  "count": 1278,
   "launches": [
+    {
+      "launch_id": 112791,
+      "launch_slug": "TLD-frontier-computing-growing-biological-brains-at-scale",
+      "launch_url": "https://www.ycombinator.com/launches/TLD-frontier-computing-growing-biological-brains-at-scale",
+      "title": "Frontier Computing – Growing biological brains at scale",
+      "tagline": "We colocate memory with compute in biological tissue, so you can train larger models at lower cost",
+      "body": "TL;DR – We're deploying exascale biocomputing clusters, growing biological systems with memory baked into compute at the substrate level, enabling training of models at parameter counts that would otherwise be inaccessible under traditional GPU architecture-constrained approaches.\n\n![uploaded image](/media/?type=post&id=112791&key=user_uploads/2627752/445c283b-feb2-4b6b-9d2c-ab2cf60edc7d)\n\nHey all, we're Frontier Computing, and we’re excited to announce that we are growing the first large-scale neuronal tissues for ML training and inference!\n\nFrontier is launching its 500M biological neurone cluster by January 2027, which will be 2500x larger than the next-largest publicly available system in the biocomputing space that companies are currently restricted to building on. \\\n\\\nWe'll continue to launch increasingly larger iterations of our substrate to circumvent the challenges of GPU parallelisation seen in roofline analysis across computation/computation/memory, colocating memory with compute in biological neurones to circumvent the infra problem of GPU networking for model training and inference, enabling inference time training at scale on biocompute, at much lower cost than traditional GPU approaches.\n\n# **❌** The Problem\n\nBiological brain tissue is already being bought and sold, including being trained for a range of tasks from gaming environments to next-token prediction, but the scaling limits of the underlying wetware have acted a fundamental barrier to useful economic output. \n\nAcademia has previously been unable to exceed a \\~1M neurone scale due to \"the vascularisation problem\", where neurones cannot grow past a geometric limit imposed by insufficient oxygen access in cells that are increasingly far away from active supply.\n\n# **✨** Our solution\n\nFrontier has developed a novel neuronal tissue culture approach to engineer large-scale brain systems that exceed traditional scaling limits of neuronal tissue culture.\n\nThis enables us to scale past traditional wetware substrate sizes, supporting much larger biological neural nets with correspondingly greater parameter counts, increasing the complexity of task environments these systems can represent, and using their larger geometric size to provide physically larger surfaces for I/O and informationally rich encode and decode.\n\nWe provide the substrate, interfacing and cloud infrastructure to enable third parties to train on our systems, taking advantage of the inference-time training capacities of biological neurones, the sample efficiency, the capacity to exist in an abstraction layer above backprop, and the opportunity to perform RL on models in excess of sizes that would be traditionally accessible on GPU hardware due to memory bandwidth issues that we circumvent through colocating memory and compute within neuronal tissues.\n\n## **🏆** What we've achieved so far\n\n\\- We have proven out the first scalable culture system for biocompute, and demonstrated its computational capacities by training our system to play the arcade game Frogger\n\n\\- Demonstrated tail-end capabilities in sample efficiency, with 1 hour of real-time learning producing 92% peak cross rate (over a 25-game sample) in our Frogger environment\n\n\\- Raised a 10M pre-seed round to produce early scale up our team and wetlab work, led by General Catalyst with participation from LocalGlobe, Amino Collective, Kaya, Long Journey Ventures and more angels and firms that we are very excited to have on board\n\n\\- Begun build out of a 100M and a 500M biological neurone system, live EOY 2026\n\n## **🔜** What's next\n\n\\- Demonstrating SOTA task performance of biohybrid models using our larger-scale substrates\n\n\\- Launching our API library to enable our customers to implement their own models and RL environments via our platform\n\n\\- Iterating towards post-neocortex-scale build outs to further enhance computational capacities of biocompute\n\n## **👥** Our Team\n\n[Michael](https://www.linkedin.com/in/michael-domarkas/), CEO, is a Cambridge Natural Scientist who first learnt programming at 8 through C# Unity game development, competed in maths/chess/bio competitions nationally throughout high school, and has been culturing neuronal tissues for the past two years, starting from $20K USD in grant funding at 17 from Emergent Ventures. He has built the first scalable neuronal culture platform for biocomputation and validated performance via reinforcement learning on this substrate.\n\n## **🙏** Asks\n\nJoin the team! We're hiring across the stack for neurobiologists, RL researchers, electrical engineers, and biochemists, accepting both direct applications and referrals. Feel free to get in touch at the link below:\n\n<https://frontier.site/careers>\n\nIf you're interested in working at the _frontier_ of biocomputing and scaling the fundamental wetware primitives humanity has access to, Frontier Computing is building out the leading platform in the space. We’re looking forward to collaborating with you.",
+      "created_at": "2026-08-31T17:00:00.185Z",
+      "total_vote_count": 6,
+      "company_slug": "frontier-computing",
+      "company_name": "Frontier Computing",
+      "company_website": "https://frontier.site",
+      "company_batch": "Summer 2026",
+      "company_industry": "Industrials",
+      "company_id": 30923,
+      "author_name": "Michael Domarkas",
+      "scraped_at": "2026-08-31T19:50:34.067Z",
+      "review_summary": {
+        "conformance_index": 55,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 112785,
+      "launch_slug": "TL7-malwareanalyzer-static-scanning-real-detonation-an-interactive-live-vm-and-a-threat-graph-you-can-pivot-through",
+      "launch_url": "https://www.ycombinator.com/launches/TL7-malwareanalyzer-static-scanning-real-detonation-an-interactive-live-vm-and-a-threat-graph-you-can-pivot-through",
+      "title": "MalwareAnalyzer: Static scanning, real detonation, an interactive live VM, and a threat graph you can pivot through",
+      "tagline": "We just crossed 500K samples analyzed - free for anyone here.",
+      "body": "Hey all - Cyble (YC W21) here. We've been heads-down on MalwareAnalyzer (<https://malwareanalyzer.com>): a public malware analysis and threat intelligence platform. Submit a file, a URL, or a hash and get a verdict backed by real evidence. Public analysis is free and unlimited, and no account is required.\n\nWe just crossed 500,000 samples analyzed, which felt like a reasonable excuse to finally post here.\n\n**What's actually in it**\n\n**Multi-engine static scanning.** Free and open engines (ClamAV, YARA, hash feeds, static tooling) run locally; third-party AV engines run on an isolated in-VPC Windows scanner. The report shows only the engines that actually ran — no padded vendor list.\n\n**Real sandbox detonation.** We execute the sample, not just scan it. Full behavior capture across process, file, registry and network activity.\n\n**Interactive live-VM analysis.** Take the wheel mid-detonation: click through installers, dismiss dialogs, trigger the behavior that only fires on user interaction. Choose your guest OS, network mode and engine — and diff two builds side by side.\n\n**URL and phishing analysis.** Paste a link and get the redirect chain, hosting and verdict without touching it yourself.\n\n**Queryable threat-intelligence graph.** Pivot from a sample out to infrastructure, families and related samples. Search the whole corpus by content, indicator, MITRE technique or family — then save it as a standing hunt and get notified when something new matches.\n\n**ATT&amp;CK mapping with receipts.** Every technique is attributed to its source (static capa rule vs. observed at runtime) with confidence weights, plus rule-set hashes so a report is reproducible.\n\n**Reports that admit what they don't know.** If an analysis tier fails to complete, the report is marked degraded and queued for re-analysis rather than presented as clean coverage. A report with no findings _and_ no degradation notice is a real negative result.\n\n**An API with no key required.**\n\n\\`\\`\\`\n\ncurl -X POST <https://malwareanalyzer.com/v1/submit> \\\\\n\n  -H 'content-type: application/json' \\\\\n\n  -d \"{\\\\\"fileName\\\\\":\\\\\"sample.bin\\\\\",\\\\\"fileBase64\\\\\":\\\\\"$(base64 &lt; sample.bin | tr -d '\\\\n')\\\\\"}\"\n\n\\`\\`\\`\n\nReturns a task id and a report URL. Submissions are unlimited; lookups are capped at 1,000/day per IP.\n\n**Why this might matter even if you're not a security company**\n\nSomeone on your team is eventually going to get a strange attachment, an unsigned installer from a vendor, or a \"recruiter\" link that smells wrong. Drop it in and get an answer in about a minute - better than a Slack thread of guesses.\n\nFree covers submissions and full reports. Premium compute (private analysis, deep URL scans, the AI assistant) runs on credits, and every account starts with a free grant.\n\nHappy to go deep on any of this - the interactive sandbox was by far the hardest part to get right. Feedback, bug reports and \"your report was wrong about my file\" all very welcome.",
+      "created_at": "2026-08-31T15:04:07.208Z",
+      "total_vote_count": 1,
+      "company_slug": "cyble",
+      "company_name": "Cyble",
+      "company_website": "https://cyble.com/",
+      "company_batch": "Winter 2021",
+      "company_industry": "B2B",
+      "company_id": 22781,
+      "author_name": "Beenu Arora",
+      "scraped_at": "2026-08-31T19:50:34.067Z",
+      "review_summary": {
+        "conformance_index": 53,
+        "predictability_band": "surprise",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 112632,
+      "launch_slug": "TIe-trellus-embedded-dialing-salesfloor-and-live-coaching-at-half-the-price-of-nooks",
+      "launch_url": "https://www.ycombinator.com/launches/TIe-trellus-embedded-dialing-salesfloor-and-live-coaching-at-half-the-price-of-nooks",
+      "title": "Trellus: Embedded dialing, Salesfloor, and live coaching at half the price of Nooks",
+      "tagline": "Run more outbound calls with embedded power and parallel dialing, a live Salesfloor, and real-time coaching in one platform.",
+      "body": "\n![uploaded image](/media/?type=post&id=112632&key=user_uploads/832328/f3d998f2-1dec-4aa3-b5ce-2e40154d9dfd)\n\n\n![uploaded image](/media/?type=post&id=112632&key=user_uploads/832328/88403df8-0b92-475b-bde6-87ed22e349db)\n\n\n![uploaded image](/media/?type=post&id=112632&key=user_uploads/832328/fb0a9225-9c8c-4266-8352-9a976fe560e6)\n\nHey everyone — we're Ajinkya and Craig from Trellus (YC W22).\n\n**TL;DR:** Trellus combines embedded power and parallel dialing, a collaborative Salesfloor, and live AI coaching in one product. Reps can dial up to five lines from supported CRM, sales-engagement, prospecting, and spreadsheet workflows. Managers can run call blocks, listen to live calls, coach reps, and pull people into private huddles without leaving the floor. Trellus is typically about half the price of Nooks for teams buying a comparable dialing and Salesfloor workflow.\n\n## The problem\n\nOutbound teams usually stitch together a dialer, their CRM or sales-engagement platform, a virtual sales floor, call recording, analytics, and a coaching tool. Reps bounce between tabs. Managers see the call after it is over. Remote call blocks lose the energy and fast feedback of a real sales floor.\n\nWe built Trellus so the list, the call, the team room, and the coaching loop can stay connected.\n\n## What a call block looks like in Trellus\n\n1. A rep opens the workflow they already use in a supported platform such as Salesforce, HubSpot, Apollo, Attio, lemlist, GoHighLevel, or Google Sheets.\n2. Trellus adds one-line power dialing or up to five-line parallel dialing directly to that workflow, so the rep does not have to rebuild the list in a separate dialer.\n3. The team joins a shared Salesfloor to dial together, see who is active, chat, and celebrate wins.\n4. Managers can listen to live calls and coach in the moment. Trellus can also surface real-time guidance for objections, discovery, pacing, and next steps.\n5. When a conversation needs privacy, a manager can pull a rep or small group into an audio huddle and return them to the shared floor when it is over.\n6. Calls are transcribed and available for team analytics and review after the block.\n\n## One product for the whole calling workflow\n\n* Embedded power dialing and up to five-line parallel dialing\n* Voicemail drops, phone-number rotation, and number-health workflows\n* A live Salesfloor for remote and hybrid call blocks\n* Private manager-rep huddles inside the floor\n* Live listening and real-time coaching\n* Transcripts, call review, scoring, and team analytics\n* Practice conversations with AI roleplay bots\n\nTrellus works on top of the sales tools your team already uses, so reps keep the account context and workflow they know. You get the high-volume dialing and collaborative floor experience without buying a separate product for every step.\n\n## Why we think this matters\n\nNooks helped establish the modern parallel-dialer-plus-salesfloor category. Trellus gives teams that same core buying outcome—more live conversations and a shared place to run call blocks—while adding embedded workflows and live coaching in one product at roughly half the price.\n\nWe are building for sales leaders who want more activity without treating reps like call-center seats, and for reps who want help during the conversation rather than another dashboard after it.\n\n## Our ask\n\nIf your team runs outbound call blocks, try Trellus and tell us where your current workflow breaks. We are especially interested in feedback on embedded dialing, live manager coaching, and how remote teams use private huddles during a floor session.\n\nWatch the [two-minute product walkthrough](https://www.tella.tv/video/2-min-trellus-walkthrough-9b4y).\n\nSee [Trellus for sales teams](https://www.trellus.ai/sales?utm_source=ycombinator&utm_medium=launch&utm_campaign=salesfloor_launch_2026).\n\n[Try Trellus](https://app.trellus.ai/install?utm_source=ycombinator&utm_medium=launch&utm_campaign=salesfloor_launch_2026).\n\n![uploaded image](/media/?type=post&id=112632&key=user_uploads/832328/21b3444b-9071-4e01-bb09-7fa6e8fa525a)\n\n",
+      "created_at": "2026-08-31T15:02:02.119Z",
+      "total_vote_count": 1,
+      "company_slug": "trellus",
+      "company_name": "Trellus",
+      "company_website": "https://www.trellus.ai",
+      "company_batch": "Winter 2022",
+      "company_industry": "B2B",
+      "company_id": 25314,
+      "author_name": "Ajinkya Nene",
+      "scraped_at": "2026-08-31T19:50:34.067Z",
+      "review_summary": {
+        "conformance_index": 67,
+        "predictability_band": "surprise",
+        "verdict": "partial"
+      }
+    },
     {
       "launch_id": 112608,
       "launch_slug": "TIG-osmaura-ai-growth-engine-for-law-firms",

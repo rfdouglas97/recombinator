@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-30T17:54:01.607Z",
+  "generated_at": "2026-08-31T19:50:54.577Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1400,
+    "assignment_count": 1405,
     "mapped_verticals": 243,
-    "observed_cells": 477,
+    "observed_cells": 478,
     "total_verticals": 525,
     "gap_candidates": 844
   },
@@ -27,6 +27,7 @@
         "amulet",
         "approxima",
         "ardent",
+        "ascii",
         "blaxel",
         "bud",
         "butter",
@@ -279,6 +280,7 @@
         "pollen",
         "primer",
         "q2q",
+        "trellus",
         "trycardinal-ai",
         "verbiflow"
       ]
@@ -909,6 +911,22 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "baud",
+        "dipole-labs",
+        "frontier-computing",
+        "lamb-labs",
+        "partcl",
+        "powermatrix",
+        "sygaldry-technologies"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.qa-testing",
@@ -968,21 +986,6 @@
         "codyco",
         "flai",
         "geo-ai"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "baud",
-        "dipole-labs",
-        "lamb-labs",
-        "partcl",
-        "powermatrix",
-        "sygaldry-technologies"
       ]
     },
     {
@@ -2761,6 +2764,17 @@
       "companies": [
         "ronanrx-inc",
         "takecareos"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "hospitality.restaurant.ops",
+      "vertical_label": "Restaurant & food service operations",
+      "sector_id": "consumer",
+      "companies": [
+        "asakana",
+        "elyra"
       ]
     },
     {
@@ -4576,16 +4590,6 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "hospitality.restaurant.ops",
-      "vertical_label": "Restaurant & food service operations",
-      "sector_id": "consumer",
-      "companies": [
-        "elyra"
-      ]
-    },
-    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "hospitality.restaurant.ops",
@@ -5683,6 +5687,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "beesafe-ai"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "security.threat-intel",
+      "vertical_label": "Threat intelligence & adversary tracking",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "cyble"
       ]
     },
     {
