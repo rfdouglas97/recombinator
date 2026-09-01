@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-31T19:50:54.577Z",
+  "generated_at": "2026-09-01T17:34:58.332Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1405,
+    "assignment_count": 1407,
     "mapped_verticals": 243,
     "observed_cells": 478,
     "total_verticals": 525,
@@ -59,6 +59,7 @@
         "locus",
         "lucidic-ai",
         "machine0",
+        "maritime",
         "metis",
         "metorial",
         "minicor",
@@ -2241,6 +2242,17 @@
     {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
+      "vertical_id": "career.freelance-marketplace",
+      "vertical_label": "Freelance project matching & gig work",
+      "sector_id": "consumer",
+      "companies": [
+        "onestop",
+        "rentahuman"
+      ]
+    },
+    {
+      "business_model": "BM-07",
+      "business_model_label": "Marketplace / network",
       "vertical_id": "career.mentorship-matching",
       "vertical_label": "Mentorship & professional networking matching",
       "sector_id": "consumer",
@@ -3167,16 +3179,6 @@
       "sector_id": "transportation-logistics",
       "companies": [
         "robodock"
-      ]
-    },
-    {
-      "business_model": "BM-07",
-      "business_model_label": "Marketplace / network",
-      "vertical_id": "career.freelance-marketplace",
-      "vertical_label": "Freelance project matching & gig work",
-      "sector_id": "consumer",
-      "companies": [
-        "rentahuman"
       ]
     },
     {

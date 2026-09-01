@@ -50203,6 +50203,90 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "maritime",
+    "name": "Maritime",
+    "website": "https://maritime.sh/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/maritime",
+    "batch": "Fall 2026",
+    "one_liner": "The managed cloud for AI agents.",
+    "description_combined": "The managed cloud for AI agents.\n\nMaritime is cloud infrastructure for AI agents. We help companies give every customer an agent running in its own isolated, persistent computer, starting at $1 per agent per month. Maritime handles hosting, scaling, and sleep/wake automatically, so developers can run thousands of agents without managing the infrastructure.",
+    "industry_sub_vertical": "Managed cloud hosting & orchestration for persistent AI agents",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Harness / Orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_hosting",
+      "multi_tenant_isolation",
+      "cost_optimization",
+      "auto_scaling"
+    ],
+    "what_they_sell": "Managed cloud infrastructure platform that hosts, scales, and manages isolated persistent compute environments for AI agents. Provides automatic sleep/wake, multi-tenancy isolation, and per-agent billing starting at $1/month.",
+    "ai_play": "Removes infrastructure friction from agentic deployment by abstracting away container orchestration, scaling, persistence, and cost management. Enables developers to deploy thousands of customer-facing agents without building/maintaining their own Kubernetes clusters or managing compute costs.",
+    "who_pays": "AI application developers, SaaS platforms deploying customer-facing agents, vertical workflow automation companies needing scalable agent hosting.",
+    "confidence": 0.85,
+    "rationale": "Maritime is a pure infrastructure play for agent deployment — analogous to Heroku or Railway but purpose-built for agentic workloads. They solve the operational burden of running persistent, isolated agent instances at scale. This is squarely agent-runtime-infra: they provide the harness/orchestration layer that lets developers focus on agent logic, not infrastructure. The per-agent billing model and automatic scaling are key differentiators. Not agent-context-infra (no data enrichment), not observability (no evals/tracing), not a vertical workflow agent themselves.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "Cloud Computing",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3118952,
+        "full_name": "Maria Gorskikh",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder and CEO at Maritime. Previously a visiting lecturer at MIT and researcher at NANDA",
+        "linkedin_url": "https://www.linkedin.com/in/mariagorskikh/",
+        "twitter_url": "https://x.com/mariagorskikh",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/33a982ecd7c7aa7e52ba5b21b3a7240ee0881408.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACNQLVC2Y%2F20260901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260901T173420Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDs9KOZkEBpyWaj9dpObv3d2GV16xTde5AtSH7sEzTsdQIgF70d3B78vmZPsokple%2FVq8ygza2jtnGK30C4yIWa2ycq7gMIs%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDGHiJnvxSyHsGwYojirCA%2BNCjlXuJ%2BEvFx%2BEbiS6%2B5I1XHtRAxrQ7U3g3nJla%2FkyveB3EryPLusvnoh6f0bW6vz5vJ2L5VjfOVwByDnOLWPhmRtR6KTuoFxLfEkSO6pyuKjkDmMFPL%2BRWWOkOMcARph07NrLYdmnQUEhp%2BbgqLf3RhXVavk3z8P1skxfSDBxCI9%2BUkGRzQbNWEolSEIZHIculgm3yomz%2BY8xykX5vyPQmFfYE66Ada%2FnQ4sb3InsZe6zSzxzficI%2BObIXofC2o2PcG51WbctgvDeiyuWdawIv0ysoPEmY0d6TzXbkfH6N7np2ooELapN7gW0rLkN7exKf4s8Nqx51lOgchfrBR%2FcIljrwevzhlPj%2FlyUDvOGnSfIwzlx3%2FZa5zf4UVK4nFaf3ht8srVQaJpylhKpowwQ0tUnE2ag1zhlLqc1ulWaKmG1PMWWcH4jImO%2Fbdm9YAxf8o%2BBm8xWAc3Mxn5dFLQX7yu92xTEp4%2BKWF1lcSmiagEpRWL6AGZa8Kbs3%2Boa8LoD0%2By%2F6QGJWUFIcHiV%2BwfwgNirOvBMfzLJoFW5Fkt%2Bh1AbAPRzI16HmiStYmFiU%2FmHechY6ivPxsjjJpv%2BWhGHiTDTldzUBjqlAYwN5OgAT%2FYUZs3PSEsygPHFW8fCGx3MuAFXxGZN9eePtsTpIxno8%2BMj6SJPx8Ua5H%2F%2Bon9MWvZEzAF95ueBkF1vRRpEbEl4gquV0HTh1zjoQXqNs6QNYSoYZOBx1A3jvwb8xQJBQdrGIQRKQaN1djDbliTiiT1RnDcSK7RE3VH3cZOllC%2BSMO5xtubiyY2Gp1i%2BOlpoGHtgj%2FP%2Ba%2Bqa9xMLEWkBhg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=42a685461671d3685cba98c48dd1999e504e300617d7a06984696a84f6016d26",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Maritime",
+          "href": "https://www.ycombinator.com/companies/maritime"
+        }
+      },
+      {
+        "user_id": 2682745,
+        "full_name": "Aryaman Shrivastava",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder and CTO at Maritime (YC F26). Researcher at MIT NANDA Lab on AI agent coordination at scale. ",
+        "linkedin_url": "https://linkedin.com/in/aryshriv",
+        "twitter_url": "https://x.com/AryShriv",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1fd69dca86a8ca1c88e42dea655277268f3e64e4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACNQLVC2Y%2F20260901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260901T173420Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDs9KOZkEBpyWaj9dpObv3d2GV16xTde5AtSH7sEzTsdQIgF70d3B78vmZPsokple%2FVq8ygza2jtnGK30C4yIWa2ycq7gMIs%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDGHiJnvxSyHsGwYojirCA%2BNCjlXuJ%2BEvFx%2BEbiS6%2B5I1XHtRAxrQ7U3g3nJla%2FkyveB3EryPLusvnoh6f0bW6vz5vJ2L5VjfOVwByDnOLWPhmRtR6KTuoFxLfEkSO6pyuKjkDmMFPL%2BRWWOkOMcARph07NrLYdmnQUEhp%2BbgqLf3RhXVavk3z8P1skxfSDBxCI9%2BUkGRzQbNWEolSEIZHIculgm3yomz%2BY8xykX5vyPQmFfYE66Ada%2FnQ4sb3InsZe6zSzxzficI%2BObIXofC2o2PcG51WbctgvDeiyuWdawIv0ysoPEmY0d6TzXbkfH6N7np2ooELapN7gW0rLkN7exKf4s8Nqx51lOgchfrBR%2FcIljrwevzhlPj%2FlyUDvOGnSfIwzlx3%2FZa5zf4UVK4nFaf3ht8srVQaJpylhKpowwQ0tUnE2ag1zhlLqc1ulWaKmG1PMWWcH4jImO%2Fbdm9YAxf8o%2BBm8xWAc3Mxn5dFLQX7yu92xTEp4%2BKWF1lcSmiagEpRWL6AGZa8Kbs3%2Boa8LoD0%2By%2F6QGJWUFIcHiV%2BwfwgNirOvBMfzLJoFW5Fkt%2Bh1AbAPRzI16HmiStYmFiU%2FmHechY6ivPxsjjJpv%2BWhGHiTDTldzUBjqlAYwN5OgAT%2FYUZs3PSEsygPHFW8fCGx3MuAFXxGZN9eePtsTpIxno8%2BMj6SJPx8Ua5H%2F%2Bon9MWvZEzAF95ueBkF1vRRpEbEl4gquV0HTh1zjoQXqNs6QNYSoYZOBx1A3jvwb8xQJBQdrGIQRKQaN1djDbliTiiT1RnDcSK7RE3VH3cZOllC%2BSMO5xtubiyY2Gp1i%2BOlpoGHtgj%2FP%2Ba%2Bqa9xMLEWkBhg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=452d0fcfa29a4cd980604c6d8bc0e80979f192c969efe98cc70cd4c04acce0bb",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Maritime",
+          "href": "https://www.ycombinator.com/companies/maritime"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-01T17:34:27.851Z",
+    "classified_at": "2026-09-01T17:34:27.851Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "maritime-fusion",
     "name": "Maritime Fusion",
     "website": "https://maritimefusion.com",
@@ -58745,6 +58829,86 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-02"
+  },
+  {
+    "slug": "onestop",
+    "name": "OneStop",
+    "website": "https://www.askonestop.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/onestop",
+    "batch": "Summer 2025",
+    "one_liner": "The local internet for NYC.",
+    "description_combined": "The local internet for NYC.\n\nOneStop is a local classifieds network for New York City. Find and post local listings. ",
+    "industry_sub_vertical": "Local classifieds & hyperlocal services marketplace",
+    "canonical_vertical_id": "career.freelance-marketplace",
+    "vertical_id": "career.freelance-marketplace",
+    "vertical_label": "Freelance project matching & gig work",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "marketplace-network-ai",
+    "phenotype_primary_label": "Marketplace / Exchange / Liquidity Network",
+    "phenotype_family": "network",
+    "value_wedge": "network_effects",
+    "ai_application": "matching_routing",
+    "ai_application_patterns": [
+      "listing_matching",
+      "local_discovery",
+      "community_network_effects"
+    ],
+    "what_they_sell": "Local classifieds platform for NYC enabling users to post and discover hyperlocal listings (goods, services, community posts) with AI-powered matching and discovery.",
+    "ai_play": "AI improves listing relevance, search ranking, and user-to-listing matching based on location, preferences, and community signals. Likely uses embeddings/semantic search to surface relevant local listings and reduce friction in discovery.",
+    "who_pays": "End users (free or freemium model with premium discovery/posting features); potential future monetization via local business advertising or featured listings.",
+    "confidence": 0.65,
+    "rationale": "OneStop is a two-sided local marketplace (users post, users discover). Primary phenotype is marketplace-network-ai because the core value is the network liquidity and matching of supply/demand in a hyperlocal geography. Secondary phenotype is consumer-ai-app because it's end-user facing and likely monetized via consumer subscriptions or freemium. AI application is matching/routing (connecting users to relevant local listings). Confidence is moderate (0.65) because the description is sparse on AI specifics—unclear if AI is truly core to the MVP or a future enhancement. If AI is primarily used for ranking/discovery (not just basic search), confidence would be higher.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence"
+    ],
+    "business_models": [
+      "BM-07"
+    ],
+    "team_size": 2,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2042048,
+        "full_name": "Max Raven",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-Founder & CEO @ OneStop — Building https://askonestop.com\n\nPrior to Interface, I managed global AI transformation at McKinsey. I studied at MIT with research in data and analytics, where I was also an MIT human rights and technology fellow. ",
+        "linkedin_url": "https://www.linkedin.com/in/ravenmax/",
+        "twitter_url": "https://x.com/maxtheraven",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f854b7f90637268060341948a2452fd3b6067261.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHDI4Q6PI%2F20260901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260901T173411Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCYU1MP%2BCFo81ZXWHKHvaFZtoPuUjivcAzIzOWU4YPvAwIgE%2BkKhEkA4GotS4tT97a7ZG5QIfbZqJtaBMTbCqZwT%2FQq7gMIs%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDI0k2v8zJGfWM5K%2B7irCA26R0JZ1lviPPKhHZb4RLzUhy%2FNiU3DKG353dbd%2BHrB8mDx5Za1mKcraTUH%2BHl4GXeX4q2MFU%2BEX%2BNZePWIJfXNp02zhSvhNK9ZYySilUz8nMFsy6HJ6YbP5iimKOvX%2BabyW2tExE4r3kTGHhQg00W%2FfAabXc2JE%2BTn1AC3KetsrK%2F5ov3GiwSfHkLib7mvwwX1qJ%2BtIqviwIuwOoTWuIAWwm3TLMc6l0GC%2BCCHezcCCkzjl5t%2FYcgd0iGi%2BT8GldZM5tqdioAuL3A%2F90si5n%2BAdVG8FBC3mix1LRoRtVK%2FwW3H0G2nhLvIz8%2BIcukAJFkYBKdj4ZDJZOIerSLuRoNIoe6OPJAP4zfCF%2Fj9Ja7iAZPugbVEg9%2FMVLh84Fgw8HPGrRMEiOWkl5JvyOk0xnHFbv3qNOpHQBKDJE6FGfrLC4Tuq1qv%2FHpNTEPOS5Iv5k01rL%2F33qz2MsJ9LJJ%2BZnbJisI35ti%2FAWnhRLbrvBjkAWV9dywap8AIwEukj5b%2F30A54snbF7TjxAey3VH2mCrpy%2BwZW4ulmweg2XOK22qUtYjHECO5LWWUsX899R%2Bi%2FitlKpEoB%2BO1Fl1clAsCypsGkgDC0ldzUBjqlAd4wf5fCOQDhSAjOTQdeRK%2BQo4r1C6VhLagu5pSCY2SW4shTMeORoTt5Dq59qOrO6R2tIcJd2oJGIoQJrMtgIq9p7m2%2BQAYLir6Mz3BiWmkehZTjWrvzRFQqY2dnwdUAx7eHYJpfDxFxZXCZAl3hqJtg24XMgd8Q1mG6db86tvVHFKWw72y0YEsqpgKb%2B6IidOHeu0bsjtOr900C7mPxFlVqe55Pjg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=08338d7deff55363bf6cc8bbcfd63f109a7fec3b2e1148c858b06edf53886aab",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "OneStop",
+          "href": "https://www.ycombinator.com/companies/onestop"
+        }
+      },
+      {
+        "user_id": 2730146,
+        "full_name": "Peyton Shields",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-Founder & CTO @ OneStop (askonestop.com)\n\nPrior to Interface: Quant Dev at Citadel building real time risk infra and analytics. From low-latency ETL to market simulations for Commodities and Fixed Income.\n\nBefore Citadel I studied Electrical Engineering & Computer Science at MIT where I did both my undergrad and masters with a concentration in distributed and embedded system development.",
+        "linkedin_url": "https://www.linkedin.com/in/peyton-shields",
+        "twitter_url": "https://x.com/peytonshields_",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fd5e0e452ef791fab0b7475d03b6a4bbe26a1380.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHDI4Q6PI%2F20260901%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260901T173411Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCYU1MP%2BCFo81ZXWHKHvaFZtoPuUjivcAzIzOWU4YPvAwIgE%2BkKhEkA4GotS4tT97a7ZG5QIfbZqJtaBMTbCqZwT%2FQq7gMIs%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDI0k2v8zJGfWM5K%2B7irCA26R0JZ1lviPPKhHZb4RLzUhy%2FNiU3DKG353dbd%2BHrB8mDx5Za1mKcraTUH%2BHl4GXeX4q2MFU%2BEX%2BNZePWIJfXNp02zhSvhNK9ZYySilUz8nMFsy6HJ6YbP5iimKOvX%2BabyW2tExE4r3kTGHhQg00W%2FfAabXc2JE%2BTn1AC3KetsrK%2F5ov3GiwSfHkLib7mvwwX1qJ%2BtIqviwIuwOoTWuIAWwm3TLMc6l0GC%2BCCHezcCCkzjl5t%2FYcgd0iGi%2BT8GldZM5tqdioAuL3A%2F90si5n%2BAdVG8FBC3mix1LRoRtVK%2FwW3H0G2nhLvIz8%2BIcukAJFkYBKdj4ZDJZOIerSLuRoNIoe6OPJAP4zfCF%2Fj9Ja7iAZPugbVEg9%2FMVLh84Fgw8HPGrRMEiOWkl5JvyOk0xnHFbv3qNOpHQBKDJE6FGfrLC4Tuq1qv%2FHpNTEPOS5Iv5k01rL%2F33qz2MsJ9LJJ%2BZnbJisI35ti%2FAWnhRLbrvBjkAWV9dywap8AIwEukj5b%2F30A54snbF7TjxAey3VH2mCrpy%2BwZW4ulmweg2XOK22qUtYjHECO5LWWUsX899R%2Bi%2FitlKpEoB%2BO1Fl1clAsCypsGkgDC0ldzUBjqlAd4wf5fCOQDhSAjOTQdeRK%2BQo4r1C6VhLagu5pSCY2SW4shTMeORoTt5Dq59qOrO6R2tIcJd2oJGIoQJrMtgIq9p7m2%2BQAYLir6Mz3BiWmkehZTjWrvzRFQqY2dnwdUAx7eHYJpfDxFxZXCZAl3hqJtg24XMgd8Q1mG6db86tvVHFKWw72y0YEsqpgKb%2B6IidOHeu0bsjtOr900C7mPxFlVqe55Pjg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ac324de9c473011f303fa8b6a03c7b64c06e0aba891002348723931b4b098605",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "OneStop",
+          "href": "https://www.ycombinator.com/companies/onestop"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-01T17:34:20.375Z",
+    "classified_at": "2026-09-01T17:34:20.375Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-07"
   },
   {
     "slug": "onetriangle",

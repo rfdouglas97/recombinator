@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-31T19:49:37.474Z",
+  "synced_at": "2026-09-01T17:34:11.504Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1280,
+  "company_count": 1281,
   "companies": [
     {
       "slug": "10x",
@@ -1251,6 +1251,24 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1777434223
+    },
+    {
+      "slug": "andustry",
+      "name": "Andustry",
+      "batch": "Spring 2026",
+      "one_liner": "",
+      "long_description": "",
+      "website": "http://andustry.com/",
+      "industries": [
+        "Fintech"
+      ],
+      "tags": [
+        "Trading"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1773916364
     },
     {
       "slug": "anoria",
@@ -3190,18 +3208,18 @@
       "slug": "bloomy",
       "name": "Bloomy",
       "batch": "Summer 2026",
-      "one_liner": "AI-driven 1-to-1 learning for every student",
-      "long_description": "Bloomy is the fastest way to teach anything in school. We provide schools with an AI curriculum and teacher to help K-12 students learn faster. Backed by the founders of Clever. ",
+      "one_liner": "AI-native learning for every school",
+      "long_description": "Bloomy is the best way to teach anything in school. We provide schools with an AI-native academic system comprising core and supplemental curriculum, AI teaching, and assessment to help K-12 students learn faster. Backed by the founders of Clever.",
       "website": "https://bloomylearning.com/",
       "industries": [
         "Education"
       ],
       "tags": [
         "AI-Enhanced Learning",
+        "Artificial Intelligence",
         "Education",
         "eLearning",
-        "Personalization",
-        "AI"
+        "Personalization"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -5160,8 +5178,8 @@
       "slug": "collar",
       "name": "Collar",
       "batch": "Fall 2026",
-      "one_liner": "AI for General Partners",
-      "long_description": "Connect your inboxes and conversations to Collar. \r\nGet a proprietary company brain from your past deals, context, and current mandate. Agents then run the entire pre-investment process: inbound and outbound sourcing, diligence, IC memos, and slides, in your fund's voice rather than a generic one. \r\nIt deploys inside your architecture, so every fund owns its platform and its data.",
+      "one_liner": "AI for Investor Relations",
+      "long_description": "Collar (YC F26) is the AI for your investor relations and equity research reports. It reads every filing, transcript and comp, flags what actually changed, and drafts the note. So we want to take the IR stack off your plate: equity research, quarterly reports, filings, and investor updates.",
       "website": "https://usecollarai.com",
       "industries": [
         "B2B"
@@ -6999,7 +7017,7 @@
       "slug": "edviro",
       "name": "Edviro",
       "batch": "Summer 2026",
-      "one_liner": "AI That Operates Energy Infrastructure and Data Centers",
+      "one_liner": "AI That Operates Energy Infrastructure",
       "long_description": "Edviro builds AI that operates energy infrastructure. We connect to meters, HVAC systems, batteries, solar, and other energy equipment and continuously handle the work required to keep them efficient: detecting and diagnosing problems to forecasting demand, simulating fixes, creating work orders, coordinating maintenance, and controlling equipment where authorized. Our energy world models learn how each site behaves, choose the highest-value actions, and verify the results against real operational, meter, and billing data.",
       "website": "https://edviroenergy.com",
       "industries": [
@@ -7304,17 +7322,17 @@
       "name": "Enjamb Labs",
       "batch": "Spring 2026",
       "one_liner": "The AI Workforce for Biopharma",
-      "long_description": "Enjamb puts agents across the entire drug program for biopharma teams, from discovery to FDA approval. Pharma runs on decades of closed legacy systems like Benchling, Veeva, Medidata, and SAS, with no AI layer and no MCP to connect agents to them. \r\n\r\nEnjamb has that connection layer in one platform. Our agents run on top of their existing systems and data, with no migration, and do the work across the whole program: preclinical research, clinical evidence, trial design, statistical programming, and regulatory submissions. \r\n\r\nUsed by over 130 organizations, this is AI tailored for how medicine gets made.",
+      "long_description": "I run Enjamb. We've worked with 130 life science companies, preclinical through phase 3, to deploy AI securely inside the systems they already work in.\r\n\r\nPharma runs on decades of closed software like Benchling, Veeva, Medidata, and SAS. None of it has an AI layer or speaks MCP, so agents cannot reach the systems where the work lives.\r\n\r\nEnjamb is that layer. Our agents run on top of existing systems and data, with no migration, and they reach the lab systems and internal tools no other AI touches. They learn how a team works, then do the work in Slack, in Teams, and in the systems themselves, across preclinical research, clinical evidence, trial design, statistical programming, and regulatory submissions.\r\n\r\nThis is AI tailored for how medicine gets made.",
       "website": "https://www.enjamb.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Biotech",
-        "Automation",
-        "AI"
+        "Automation"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -8116,16 +8134,16 @@
       "name": "Florin",
       "batch": "Summer 2026",
       "one_liner": "Florin is the insurance carrier with zero underwriters",
-      "long_description": "Florin is a full-stack insurance carrier where a model does the underwriting. When a submission comes in, Florin reads the ACORD forms, then investigates the risk on its own: satellite imagery, permits, public records, even the insured's Instagram, and catches exposures that never make it onto the application. It then simulates tens of thousands of ways the policy year could go, prices the risk, and returns a bindable quote in under a minute instead of weeks. The team is ex-Google, Tesla, Amazon, and Terra Firma, and the bet is that a carrier built this way wins on loss ratio, speed, and cost at the same time.",
+      "long_description": "Florin is a full-stack insurance carrier where a model does the underwriting. When a submission comes in, Florin reads the ACORD forms, then investigates the risk on its own: satellite imagery, permits, public records, even the insured's Instagram, and catches exposures that never make it onto the application. It then simulates tens of thousands of ways the policy year could go, prices the risk, and returns a bindable quote in under a minute instead of weeks. The team is ex-Google, Tesla, Amazon, and Terrafirma, and the bet is that a carrier built this way wins on loss ratio, speed, and cost at the same time.",
       "website": "https://florin.inc",
       "industries": [
         "Fintech",
         "Insurance"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
-        "Insurance",
-        "AI"
+        "Insurance"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -10108,10 +10126,10 @@
         "Sales"
       ],
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Sales",
-        "Marketing",
-        "AI"
+        "Marketing"
       ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
@@ -10177,22 +10195,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753378295
-    },
-    {
-      "slug": "incandor",
-      "name": "Incandor",
-      "batch": "Spring 2026",
-      "one_liner": "Behavioral intelligence infrastructure for anti-fraud",
-      "long_description": "Incandor detects fraud on banking and fintech platforms by learning how every user physically behaves — mouse dynamics, keystroke timing, scroll patterns, and on mobile, how they hold their phone. Founded by two Stanford engineers and backed by Y Combinator, Incandor builds a behavioral map of every user on your platform — no fraud labels or historical data required. At the individual level, it identifies account takeovers with >99% accuracy. At the population level, coordinated rings, mule operators, and coerced sessions separate out naturally. Rather than a black-box risk score, fraud teams query the map via a programmable API.",
-      "website": "https://www.incandor.com",
-      "industries": [
-        "B2B"
-      ],
-      "tags": [],
-      "team_size": 0,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1778822795
     },
     {
       "slug": "induction-labs",
@@ -10347,10 +10349,10 @@
         "Gaming"
       ],
       "tags": [
-        "Gaming",
-        "AI"
+        "Artificial Intelligence",
+        "Gaming"
       ],
-      "team_size": 3,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1784188651
@@ -12094,7 +12096,7 @@
       "name": "LightSprint",
       "batch": "Spring 2026",
       "one_liner": "Software factory for product teams",
-      "long_description": "Lightsprint is a collaborative platform for product teams to plan visually, preview live and ship with an army of cloud agents. Your whole team, including non-engineers, can now ship end to end reliably.\r\n\r\nThe company is founded by Ben Ong, an AI investor who previously scaled AI products at SEA Group (NYSE: SE) and Temasek ($300B fund), Benedict Chan who was VP Engineering at Chainlink and CTO at BitGo (NYSE:BTGO), and Heng Hong Lee who built Facebook Messenger in 2013 and was Director of Engineering at Fazz (YC S17).",
+      "long_description": "Lightsprint is a collaborative software factory for product teams to plan visually, preview live and ship with an army of cloud agents. Your whole team, including non-engineers, can now ship end to end reliably.\r\n\r\nThe company is founded by Ben Ong, an AI investor who previously scaled AI products at SEA Group (NYSE: SE) and Temasek ($300B fund), Benedict Chan who was VP Engineering at Chainlink and CTO at BitGo (NYSE:BTGO), and Heng Hong Lee who built Facebook Messenger in 2013 and was Director of Engineering at Fazz (YC S17).",
       "website": "https://lightsprint.ai",
       "industries": [
         "B2B",
@@ -13028,6 +13030,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1786181708
+    },
+    {
+      "slug": "maritime",
+      "name": "Maritime",
+      "batch": "Fall 2026",
+      "one_liner": "The managed cloud for AI agents.",
+      "long_description": "Maritime is cloud infrastructure for AI agents. We help companies give every customer an agent running in its own isolated, persistent computer, starting at $1 per agent per month. Maritime handles hosting, scaling, and sleep/wake automatically, so developers can run thousands of agents without managing the infrastructure.",
+      "website": "https://maritime.sh/",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Developer Tools",
+        "Cloud Computing",
+        "Infrastructure"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1788209179
     },
     {
       "slug": "maritime-fusion",
@@ -15065,7 +15088,7 @@
       "name": "Oddpool",
       "batch": "Spring 2026",
       "one_liner": "Institutional infrastructure for prediction markets",
-      "long_description": "Oddpool is a platform that helps quant funds and trading desks harness the power of prediction markets. We make it easy to access, search, and analyze every venue from one place.\r\n\r\nAvi and Ritesh have been roommates since freshman year at Georgia Tech. Avi has a Master's in ML and saved Microsoft $6M/year by building a more accurate model on half the hardware. Ritesh has a Master's in Distributed Systems and made buy-side trading systems at Bloomberg 40% faster.\r\n\r\nWe started trading prediction markets ourselves but couldn't backtest our strategies because the tooling for this emerging asset class didn't exist. The deeper we went, the more we saw that fragmentation between prediction markets and lack of clean data was going to be a big problem.\r\n\r\nWe launched a prosumer tier and grew to several thousand dollars in MRR within months. Now we're bringing it to institutions, building tooling with the rigor and depth serious desks demand. \r\n\r\nThey're the fastest growing asset class in finance, and CFTC applications for new exchanges keep climbing. Each new venue makes the market bigger, the fragmentation worse, and the unified data layer more valuable. It doesn't exist yet. We're building it.",
+      "long_description": "Oddpool is a platform that helps quant funds and trading desks harness the power of prediction markets.\r\n\r\nAvi and Ritesh have been roommates since freshman year at Georgia Tech. Avi has a Master's in ML and saved Microsoft $6M/year by building a more accurate model on half the hardware. Ritesh has a Master's in Distributed Systems and made buy-side trading systems at Bloomberg 40% faster.",
       "website": "https://www.oddpool.com",
       "industries": [
         "B2B",
@@ -15285,6 +15308,24 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783888956
+    },
+    {
+      "slug": "onestop",
+      "name": "OneStop",
+      "batch": "Summer 2025",
+      "one_liner": "The local internet for NYC.",
+      "long_description": "OneStop is a local classifieds network for New York City. Find and post local listings. ",
+      "website": "https://www.askonestop.com",
+      "industries": [
+        "Consumer"
+      ],
+      "tags": [
+        "Artificial Intelligence"
+      ],
+      "team_size": 2,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1754968088
     },
     {
       "slug": "onetriangle",
@@ -16985,11 +17026,12 @@
       "long_description": "Building open-source general-purpose robots capable of performing unsafe, repetitive or boring tasks.",
       "website": "https://philon.ai/",
       "industries": [
-        "B2B"
+        "Industrials",
+        "Manufacturing and Robotics"
       ],
       "tags": [
-        "Robotics",
-        "AI"
+        "Artificial Intelligence",
+        "Robotics"
       ],
       "team_size": null,
       "location": "San Francisco, CA, USA",
@@ -17515,7 +17557,7 @@
       "slug": "prescience-inc",
       "name": "Prescience, Inc.",
       "batch": "Summer 2026",
-      "one_liner": "Healthcare for the age of abundant intelligence.",
+      "one_liner": "Health insurance for the age of abundant intelligence.",
       "long_description": "Prescience is the preeminent health benefits platform for the world's most ambitious companies. We save employers 20-50% on health insurance while offering best-in-industry health benefits: www.getprescience.com\r\n\r\nAbout us:\r\nPrescience is building a new healthcare system for America. We train AI systems to: create, operate, insure, and deliver healthcare for employer health plans. Prescience Time Machine – an AlphaGo-like system – steers patients towards “Move 37 health trajectories” that deliver dramatic cost savings for employers. Rishab Jain and Aditya Jain, M.D. are serial entrepreneurs and brothers from Harvard & Harvard Medical School with backgrounds in machine learning and medicine. We believe abundant intelligence will bring an opportunity to fundamentally rebuild the $4.5T healthcare industry around proactive (prescient) health and wellness.",
       "website": "https://www.getprescience.com/",
       "industries": [
@@ -22286,24 +22328,6 @@
       "launched_at": 1772525778
     },
     {
-      "slug": "theinterface",
-      "name": "Interface",
-      "batch": "Summer 2025",
-      "one_liner": "Building onestop.sh",
-      "long_description": "We research how the world gets encoded for agents, and build the interfaces they transact through. Our latest work is OneStop — a unified market for AI.",
-      "website": "https://www.theinterface.com",
-      "industries": [
-        "Consumer"
-      ],
-      "tags": [
-        "AI"
-      ],
-      "team_size": 2,
-      "location": "New York City, NY, USA",
-      "status": "Active",
-      "launched_at": 1754968088
-    },
-    {
       "slug": "theora",
       "name": "Theora",
       "batch": "Summer 2025",
@@ -23145,7 +23169,7 @@
       "slug": "tsenta",
       "name": "Tsenta",
       "batch": "Summer 2026",
-      "one_liner": "AI career agent that finds matching jobs and applies for you",
+      "one_liner": "AI career agent that turns your professional footprint into offers",
       "long_description": "Tsenta is an AI career agent that finds matching jobs, tailors your resume, and applies on your behalf.\r\n\r\nWe built it after manually applying to over 3,000 jobs ourselves, so nobody else would have to.\r\n\r\nToday, more than 70,000 job seekers use Tsenta to automate their job search.",
       "website": "https://tsenta.com",
       "industries": [
@@ -23153,11 +23177,11 @@
         "Job and Career Services"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Marketplace",
         "Consumer",
         "Recruiting",
-        "HR Tech"
+        "HR Tech",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -23421,11 +23445,11 @@
         "Marketing"
       ],
       "tags": [
-        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Analytics",
-        "Advertising"
+        "Advertising",
+        "AI"
       ],
       "team_size": 22,
       "location": "San Francisco, CA, USA",
@@ -23553,14 +23577,19 @@
       "slug": "userlens",
       "name": "Userlens",
       "batch": "Spring 2026",
-      "one_liner": "Agents that renew and expand six and seven-figure enterprise software",
-      "long_description": "Companies today are growing faster than ever with smaller teams. We are making it possible for these lean, AI-native companies to manage enterprise deals. \r\n\r\nUserlens is building the AI customer success manager. Our goal is to be the CSM for every customer at every company. \r\n\r\nEvery $1-5M of new revenue requires another CSM hire. Userlens breaks that ceiling. Our agents research accounts, catch churn before it happens, and drive renewals and upsells like a top-tier CSM would. \r\n\r\nWe're at $307K ARR, growing 127% month over month, with 30 customers including Smartly (300M ARR). Over 300 CSMs are on Userlens, and 76% of them use it weekly. \r\n\r\nBuilt by second-time founders who lived this problem at their last startup.",
+      "one_liner": "Let agents talk to your customers",
+      "long_description": "Companies today are growing faster than ever with smaller teams. The best AI-native companies don’t just need more users - they need more of their users becoming power users. Userlens makes it possible for lean teams to drive product adoption proactively, at scale.\r\n\r\nUserlens is building the AI product adoption expert. Our goal is to help every user at every company get more value from the product they already use.\r\n\r\nMost teams still rely on onboarding flows, lifecycle emails, support docs, and reactive CSM outreach. Userlens breaks that ceiling. Lumi watches how users actually use your product, spots when they’re ready for the next feature, workflow, or habit, and nudges them at exactly the right moment.",
       "website": "https://userlens.io",
       "industries": [
         "B2B",
         "Productivity"
       ],
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Productivity",
+        "Enterprise Software",
+        "AI Assistant"
+      ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -24088,19 +24117,19 @@
       "slug": "visibl-semiconductors",
       "name": "Visibl Semiconductors",
       "batch": "Winter 2026",
-      "one_liner": "A faster, lower cost path to custom silicon",
-      "long_description": "Visibl makes custom chip development dramatically faster and lower cost for hardware companies.\r\n\r\nToday, most hardware companies that need a custom chip have bad options: sign a massive contract with an incumbent like Broadcom, pay a traditional design house millions of dollars and wait 18+ months, or keep using off-the-shelf chips and FPGAs that are not optimized for their product's cost, power, performance, size, or manufacturability.\r\n\r\nWe handle the full path from architecture and design through verification, foundry management, and production. That makes custom ASICs accessible to robotics, drones, industrial, IoT, and edge hardware companies that were previously priced out of the market.\r\n\r\nAs more hardware products need differentiated silicon, we think custom chip development should be available to far more companies than it is today.",
+      "one_liner": "Custom silicon for power electronics",
+      "long_description": "Visibl Semiconductors makes custom silicon accessible to hardware companies, starting with power electronics. We are an AI-native custom-silicon design partner that cuts ASIC development cost and timeline on mature nodes, helping teams deliver better performance and lower BOM cost.\r\n\r\nWe work with data-center and AI-infrastructure power, motor drives, industrial automation and robotics, industrial power supplies and conversion, battery systems and e-mobility powertrains, EV charging, solar, energy storage, grid power, HVAC, heat pumps, and appliances.\r\n\r\nV1 boards built from off-the-shelf parts are great for getting to market quickly, but scaling to v2+ volume requires optimizing cost, size, and manufacturability. Visibl folds those parts into custom silicon built around the product: a simpler BOM, reclaimed board space, fewer supply constraints, and automation-ready assembly.\r\n\r\nWe manage the full path from architecture and design through verification, fabrication, packaging, and production-ready silicon, working alongside hardware teams so they do not need an in-house chip team.",
       "website": "https://visiblsemi.com",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Enterprise",
         "Enterprise Software",
-        "Semiconductors",
-        "AI"
+        "Semiconductors"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
