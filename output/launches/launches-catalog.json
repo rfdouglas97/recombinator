@@ -1,7 +1,76 @@
 {
-  "updated_at": "2026-08-31T19:50:54.068Z",
-  "count": 1278,
+  "updated_at": "2026-09-02T17:36:15.564Z",
+  "count": 1281,
   "launches": [
+    {
+      "launch_id": 113565,
+      "launch_slug": "TXh-koliseum-by-kimpton-live-evaluation-arenas-for-ai-models",
+      "launch_url": "https://www.ycombinator.com/launches/TXh-koliseum-by-kimpton-live-evaluation-arenas-for-ai-models",
+      "title": "Koliseum by Kimpton, Live Evaluation Arenas for AI Models",
+      "tagline": "Real-world market interaction environments, starting with financial markets",
+      "body": "Today we're launching **Koliseum** by [Kimpton](https://bookface.ycombinator.com/company/31420), live evaluation arenas for AI models in financial work.\n\n**The problem**\n\nStatic benchmarks are contaminated soon after publication, and simulations reward the assumptions their designers encode. \n\nThis simply isn't acceptable in finance or any other professional industry. A wrong answer or action can be catastrophic and reality eventually shows whether the claim was right. Almost no evaluation waits to find out.\n\n**Koliseum**\n\nBefore Kimpton, we ran a quantitative fund. Backtests never proved alpha; live markets did. Koliseum applies the same test to models: a model commits inside an arena, the record is sealed, and reality supplies the grade.\n\nTwo kinds of arenas:\n\n* **Prediction Arenas** seal a forecast before the outcome exists and score it against consensus, market, and statistical baselines when reality resolves.\n* **Action Arenas** give a model a bounded task and real tools, then verify success from the resulting system state.\n\n![uploaded image](/media/?type=post&id=113565&key=user_uploads/3054189/789d031b-cca8-4596-8921-dbc9f1544cb4)\n\nThe first Prediction Arena is already running. **EarningsBench** seals earnings forecasts for public companies 24 hours before each release and scores them against consensus and a statistical baseline once results are public.\n\nTwo things are already clear: most open-weight models reproduce consensus exactly, and a simple statistical baseline is harder to beat than a leaderboard alone would suggest.\n\nAlong with these developments, we are introducing a new concept in evaluation: **reality-as-a-judge**.\n\n![uploaded image](https://bookface.ycombinator.com/media/?type=post&id=113565&key=user_uploads%2F3054189%2Fc6c1ba2c-4e77-4ebc-be71-675f0abd71a6&variant=large)\n\nMost open-ended evaluations are graded by another model or by a human rubric, so the score inherits the grader's assumptions. In reality-as-a-judge, the grader is the outcome itself.\n\n[More info on Koliseum](https://www.kimpton.ai/koliseum)\n\n[Methodology](https://www.kimpton.ai/methodology)\n\n**Our ask**\n\nReach out if:\n\n* You work on post-training or evals at a lab and want your model in the first private cohort. Results stay private unless you publish them.\n* You run a trading firm or a prediction venue and want models scored on your own resolving questions, or want to co-run a public arena.\n* You have a workflow (any industry!) with a verifiable end state and want it turned into an Action Arena.\n\nor know anyone who does.\n\nWrite to us at [founders@kimpton.ai](mailto:founders@kimpton.ai). Thanks for the support!",
+      "created_at": "2026-09-02T16:01:08.067Z",
+      "total_vote_count": 1,
+      "company_slug": "kimpton",
+      "company_name": "Kimpton",
+      "company_website": "https://kimpton.ai",
+      "company_batch": "Spring 2026",
+      "company_industry": "Fintech",
+      "company_id": 31420,
+      "author_name": "Jack Zumwalt",
+      "scraped_at": "2026-09-02T17:35:54.714Z",
+      "review_summary": {
+        "conformance_index": 56,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 113436,
+      "launch_slug": "TVc-spark-ai-stakeholder-intelligence-for-data-center-permitting",
+      "launch_url": "https://www.ycombinator.com/launches/TVc-spark-ai-stakeholder-intelligence-for-data-center-permitting",
+      "title": "Spark AI: Stakeholder Intelligence for Data Center Permitting",
+      "tagline": "See who decides your permit, and how they'll vote, before you break ground",
+      "body": "Hi everyone, we're [Julia](https://www.linkedin.com/in/wu-julia/) and [Anuj](https://www.linkedin.com/in/anujsaigal/), co-founders of [Spark AI](https://www.sparkhq.ai/).\n\n### **TL;DR**\n\nSee who decides your permit, and how they'll vote, before you break ground\n\nEvery data center in America has to get through a local zoning board before it gets built. We mapped and tracked every jurisdiction, project, and land use regulation in the country, and we just launched Stakeholder Intelligence, a tool that tells you who's deciding your permit, their voting history, and what's likely to happen next. **If you're developing (or powering) data centers, or know someone who is, we want to talk.**\n\n### ❌ The Problem\n\nData centers land next to real communities: people who didn't ask for a giant, humming building showing up in their backyard. A lot of them fight it.\n\nThat fight runs entirely through local politics: county boards, township councils, zoning authorities. Real people with real voting histories, some of whom love solar and hate data centers, some the reverse, and it shifts constantly.\n\n* Data centers are having the roughest time of any large-scale asset class right now. 42% of gigawatt-scale data center projects announced in 2025 have already run into a local moratorium, suspension, legal challenge, or permit denial. That's not an edge case anymore, it's closer to a 50/50 bet.\n* And it's accelerating. Within six months of announcement, \\~24% hit that same wall in 2025, nearly triple 2024's rate (8%) and more than triple 2023's (7%).\n\nFederal and state policy get all the coverage. But the actual bottleneck on AI compute buildout sits in a Tuesday night meeting in a county most people can't find on a map, and almost nobody tracks it systematically. Developers either fly someone out to sit through hours of public comment, or they pay consultants a lot of money to tell them what already happened last month.\n\n### ✅ How Spark Works: Stakeholder Intelligence\n\nStakeholder intelligence surfaces every board member, commissioner, officer’s past decisions, meetings and votes from our databases and web search agents running across the country.\n\n<https://youtu.be/-YclcbrBUh8>\n\n**We watch the game tape for you.** For every authority in the US, you get the meeting video, the transcript, the decision, and our summary of what actually mattered. Topics covered, who said what, what got decided. What used to take someone three hours of watching public comment now takes about thirty seconds of reading.\n\n![uploaded image](/media/?type=post&id=113436&key=user_uploads/307611/076af213-dd78-4d58-acf8-c249244260cb)\n\n**NIMBY tracking.** We score every county in the country on data center permitting posture: moratoriums, zoning rules, sentiment grounded in local news coverage, and utility interconnection posture. That rolls into a tier and a score, so you know before you sign a lease whether you're walking into a fight.\n\n![uploaded image](/media/?type=post&id=113436&key=user_uploads/307611/21ab4ec3-c751-4de6-845a-2cef9e732d7c)\n\n**Alerts.** Ordinances change, moratoriums get proposed, projects move. We tell you when it happens instead of you finding out from a headline.\n\n### Backstory\n\nJulia grew up in and around factories, in the supply chain corridor between Asia and Latin America, before building data and search infrastructure for Apple's Siri team. Anuj spent a decade financing and building energy infrastructure, at the Department of Energy, SunEdison, and EVgo, before founding his last company, Dataherald (YC W21).\n\n![uploaded image](/media/?type=post&id=113436&key=user_uploads/307611/870f82a4-1496-4bc2-b433-a69d13c8ea24)\n\n### Who We Work With\n\nAlphabet (Intersect), NextEra, DE Shaw Renewables, Nodiac, and a set of world class developers and Fortune 500s carrying over 200GW of pipeline between them.\n\n### How You Can Help\n\nIf you or anyone in your network is developing data centers, large or small, we want the intro. We're especially trying to connect with people close to Terawulf, Vantage, Equinix, CyrusOne, and Digital Realty.\n\nReach us at [founders@sparkhq.ai](mailto:founders@sparkhq.ai). Or happy to jump on a call: [**calendar link**](https://calendly.com/d/cyty-zwg-3bb).",
+      "created_at": "2026-09-02T16:01:00.565Z",
+      "total_vote_count": 1,
+      "company_slug": "spark",
+      "company_name": "Spark",
+      "company_website": "https://www.sparkhq.ai",
+      "company_batch": "Winter 2024",
+      "company_industry": "B2B",
+      "company_id": 29438,
+      "author_name": "Anuj Saigal",
+      "scraped_at": "2026-09-02T17:35:54.714Z",
+      "review_summary": {
+        "conformance_index": 48,
+        "predictability_band": "surprise",
+        "verdict": "non_conforming"
+      }
+    },
+    {
+      "launch_id": 113233,
+      "launch_slug": "TSL-vespper-docx-mcp",
+      "launch_url": "https://www.ycombinator.com/launches/TSL-vespper-docx-mcp",
+      "title": "Vespper DOCX MCP",
+      "tagline": "The first SOTA level model to allow agents to edit DOCX documents",
+      "body": "Today we're launching **Vespper DOCX MCP**.\\\n\\\nThe first model fine-tuned specifically for editing Word documents, shipped as an MCP. \\\n\\\nOn our internal benchmark, it lets agents run 3x faster, 2x cheaper, and more accurately than the closest alternative.\\\n\\\nThere are 1.2–1.5B Knowledge workers globally, with Word as the default tool for the majority of them. 150–250M people open/edit a Word doc on a given weekday, and soon there will be an agent alongside each one.\\\n\\\nTry it now: [https://app.vespper.com](https://app.vespper.com/?utm_source=yc_launch)\\\n\\\nRead our technical blog post here: [https://www.vespper.com/blog/launching-vespper-docx-mcp](https://www.vespper.com/blog/launching-vespper-docx-mcp/?utm_source=yc_launch)\\\n\\\n<https://youtu.be/5v570mnPEJQ?si=qLa2xNTLSlp7UyOl>",
+      "created_at": "2026-09-01T17:40:35.005Z",
+      "total_vote_count": 4,
+      "company_slug": "vespper",
+      "company_name": "Vespper",
+      "company_website": "https://vespper.com/?utm_source=ycombinator.com",
+      "company_batch": "Fall 2024",
+      "company_industry": "B2B",
+      "company_id": 30043,
+      "author_name": "Topaz Turkenitz",
+      "scraped_at": "2026-09-02T17:35:54.714Z",
+      "review_summary": {
+        "conformance_index": 55,
+        "predictability_band": "surprise",
+        "verdict": "partial"
+      }
+    },
     {
       "launch_id": 112791,
       "launch_slug": "TLD-frontier-computing-growing-biological-brains-at-scale",

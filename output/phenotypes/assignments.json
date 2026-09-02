@@ -41849,6 +41849,109 @@
     "proposed_phenotype": null
   },
   {
+    "slug": "kimpton",
+    "name": "Kimpton",
+    "website": "https://kimpton.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/kimpton",
+    "batch": "Spring 2026",
+    "one_liner": "Live Evaluation Arenas for Financial Work",
+    "description_combined": "Live Evaluation Arenas for Financial Work\n\nIn investment management, every decision gets graded. The market prints the answer on a date known in advance, and nobody gets to argue with it.\r\n\r\nKimpton is financial AI that answers to reality. Kimpton OS is the AI-native operating system for investment teams: it does the research and hands PMs structured trades. EarningsBench is a public benchmark where models forecast quarterly earnings before companies report and the reported numbers do the scoring. Koliseum is the set of point-in-time financial environments we build from that work, for labs to train and evaluate models on.\r\n\r\nThe whole industry is fighting underperformance. Active managers trail their benchmarks, and capital keeps bleeding into passive. AI was supposed to fix that, but it hasn&#x27;t. Funds either stitch together a dozen point tools or babysit general agents all day, and neither gets them to the trade.\r\n\r\nKimpton OS goes straight to it. It ingests a fund&#x27;s mandate, strategy, and positions, connects to the institutional data the fund already runs on, and returns a structured trade proposal built for that fund. It&#x27;s built to disagree, because consensus is poison for investment decisions. Instead of telling a PM what they want to hear, it surfaces the breaches and risks they&#x27;d otherwise miss.\r\n\r\nThat same work is how we grade AI. Static benchmarks leak into training data. Simulations reward what their authors imagined. A forecast sealed before the outcome exists and scored when the company \n\nReal-world market interaction environments, starting with financial markets\n\nToday we're launching Koliseum by Kimpton, live evaluation arenas for AI models in financial work.\n\nThe problem\n\nStatic benchmarks are contaminated soon after publication, and simulations reward the assumptions their designers encode. \n\nThis simply isn't acceptable in finance or any other professional industry. A wrong answer or action can be catastrophic and reality eventually shows whether the claim was right. Almost no evaluation waits to find out.\n\nKoliseum\n\nBefore Kimpton, we ran a quantitative fund. Backtests never proved alpha; live markets did. Koliseum applies the same test to models: a model commits inside an arena, the record is sealed, and reality supplies the grade.\n\nTwo kinds of arenas:\n\n* Prediction Arenas seal a forecast before the outcome exists and score it against consen",
+    "industry_sub_vertical": "Active asset management AI research and trade generation",
+    "canonical_vertical_id": "fintech.wealth.asset-management",
+    "vertical_id": "fintech.wealth.asset-management",
+    "vertical_label": "Asset & wealth management",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "vertical-workflow-agent",
+    "phenotype_primary_label": "Vertical AI Workflow Agent",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "decision_intelligence",
+    "ai_application": "analysis_synthesis",
+    "ai_application_patterns": [
+      "agentic_research_automation",
+      "trade_generation",
+      "earnings_forecasting",
+      "model_evaluation_arena"
+    ],
+    "what_they_sell": "Kimpton OS: an AI-native operating system for investment teams that automates equity research, earnings forecasting, and trade generation. Ingests fund mandate, strategy, positions, and institutional data; outputs structured trade proposals. EarningsBench: a public benchmark for evaluating financial AI models on real earnings forecasts scored against actual reported results. Koliseum: point-in-time financial environments for training and evaluating models.",
+    "ai_play": "AI agents replace manual equity research workflows and consensus-driven decision-making by autonomously analyzing institutional data, forecasting earnings, and proposing contrarian trades tailored to fund strategy. Agents are trained and evaluated on real market outcomes (earnings surprises, price movements) rather than static benchmarks, creating a closed-loop evaluation arena that grades AI against reality.",
+    "who_pays": "Active asset managers, hedge funds, quantitative research teams, and AI labs seeking to improve model performance on financial forecasting and trade generation.",
+    "confidence": 0.78,
+    "rationale": "Kimpton is primarily a vertical-workflow-agent: it sells autonomous AI agents that automate equity research and trade generation for investment teams (the customer). The agent ingests fund data and returns structured trade proposals, replacing manual research workflows. Secondary phenotype is research-terminal-intel because EarningsBench and Koliseum function as evaluation arenas and datasets for financial AI models—similar to Bloomberg terminals or equity research platforms. The company is NOT a fintech-insurance-ai-product (not taking LP capital or acting as a regulated fund itself) and NOT a marketplace-network-ai (not a trading venue or exchange). The core value is agentic workflow automation for investment teams, with a secondary business in model evaluation infrastructure.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Asset Management"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "B2B",
+      "Investments",
+      "Trading"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 5,
+    "location": "New York City, NY, USA; Remote",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3054189,
+        "full_name": "Jack Zumwalt",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder, CEO @ Kimpton AI (YC P26). Building live evaluation arenas for financial work.\n\nJack ran systematic strategies and managed daily operations of Level III Capital, a quantitative systematic trading firm he co-founded after raising $10M to seed the fund at the age of 22.\n\nPrior to that, he was a detection engineer at Goldman Sachs, writing algorithms to detect malicious threat actors who were trying to cyber attack the investment bank. ",
+        "linkedin_url": "https://www.linkedin.com/in/jack-zumwalt/",
+        "twitter_url": "https://x.com/jackzumwalt",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a585e8e607ecb06564580ecac15424b2a6689fa9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFPB4Q6JQ%2F20260902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260902T173456Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAIaCXVzLXdlc3QtMiJGMEQCIHWfYwjDJPsDciXnM2uOwVfgLY3iupaXoKZE04lXNl3hAiBJ9wvu6qrkpH0Sb1KjEuD0QEDh3odynM1qgqvR2EretyruAwjL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMMUcHE56MMk0vKkE0KsIDZxpMeXlyrO7hhNlCKZgdOtdYHrmjqJC9Q6%2FvE5fAUD3b%2Fkp%2B2R1kAJKUHMO%2BTVGv0hXWeFkIsCdo9YV0duwSVFtr2DjIoRcnoAlnU%2BJIhmYHMBlwrYUNlZHnrUevh5dBzwJAREX%2Bd3rU6yZXan2nhN9LR9IzmA90d6NCYdY4hDBIITevplVbz6LdDtQLgduVsn2sgt6GuGZndkcqY6MUoi5%2BaCiJOLLb2xXA%2B68osfZhZzoslnw4ExASlyzDBiAAQnQG%2FlNGcq0eSjc3Qsk83SafND8r2pzsoDX504uN4FSbDbLIdmeuDq7ENIhLFKU6%2Btz4D8fiPUF8K0R8jALkugin1d7NoMGr3yAB6nMOtsLROCPy6tcg50IVbRuHQvWgFg6%2Byz%2FrQbxwW1F%2F2Sl7YS8TslcJ5P0F72USXcjdjvwXI3532R0nfajL0pgZVODSe1H65toiwbXhZaeSV30ExhhOLNAVfABIgVJtEnoow0f9GKapQCzCzIY%2B%2F49%2BUQ1LKSb6j8pqfwiOFdm4iH6WlitJUPjsFdahpqG2A2fCvygGarkj3Z2W8bTPn6kFwRoIW25Ovz4ZNDVaN2NWM8PwMbs0MLm54dQGOqYBK1rhQ%2FkonXnxIRqHRYFa8mRedBGaQDQRsfpIhl4yWb7EbTP5JOkiiPojh7u8jSQK7ZCg7MieVDQaI6h7YWsisdURKlcVw6dh4cmhHxE%2Bm3GKRZgtZYFi2xVS%2FMi2qP8AUR3VVMXlRzqKZ7MWQPz0PUnCBU3yj4NTYz1GZZ1022GDNuUYuNYtp1WqmeZL%2BSYlpYhlEjwdgdBcCX8R5eD%2BeCve0uVibg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=aceeb74abf91f9ff25b926ab6b3f06efe27b38a0044908abf4ed6bb195a9500a",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kimpton",
+          "href": "https://www.ycombinator.com/companies/kimpton"
+        }
+      },
+      {
+        "user_id": 3486330,
+        "full_name": "Adrian Del Bosque",
+        "title": "Founder/Founding Engineer",
+        "is_active": true,
+        "bio": "Co-founder, Founding Engineer @ Kimpton AI (YC P26). Building live evaluation arenas for financial work.\n\nAdrian was a founding engineer at Level III Capital, a quantitative systematic trading firm, where he built the trading infrastructure. Prior to that, he was a Senior Cloud & Platform Engineer at Vistra, managing the cloud infrastructure behind the monitoring application for its 44,000 megawatt power generation fleet. He began his career at SpaceX as part of the Automation & Controls team.",
+        "linkedin_url": "https://www.linkedin.com/in/adriandelbosque/",
+        "twitter_url": "https://x.com/adriandelb",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7170a9e1b4b9407448c4642c76bf9282ed68d3ff.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFPB4Q6JQ%2F20260902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260902T173456Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAIaCXVzLXdlc3QtMiJGMEQCIHWfYwjDJPsDciXnM2uOwVfgLY3iupaXoKZE04lXNl3hAiBJ9wvu6qrkpH0Sb1KjEuD0QEDh3odynM1qgqvR2EretyruAwjL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMMUcHE56MMk0vKkE0KsIDZxpMeXlyrO7hhNlCKZgdOtdYHrmjqJC9Q6%2FvE5fAUD3b%2Fkp%2B2R1kAJKUHMO%2BTVGv0hXWeFkIsCdo9YV0duwSVFtr2DjIoRcnoAlnU%2BJIhmYHMBlwrYUNlZHnrUevh5dBzwJAREX%2Bd3rU6yZXan2nhN9LR9IzmA90d6NCYdY4hDBIITevplVbz6LdDtQLgduVsn2sgt6GuGZndkcqY6MUoi5%2BaCiJOLLb2xXA%2B68osfZhZzoslnw4ExASlyzDBiAAQnQG%2FlNGcq0eSjc3Qsk83SafND8r2pzsoDX504uN4FSbDbLIdmeuDq7ENIhLFKU6%2Btz4D8fiPUF8K0R8jALkugin1d7NoMGr3yAB6nMOtsLROCPy6tcg50IVbRuHQvWgFg6%2Byz%2FrQbxwW1F%2F2Sl7YS8TslcJ5P0F72USXcjdjvwXI3532R0nfajL0pgZVODSe1H65toiwbXhZaeSV30ExhhOLNAVfABIgVJtEnoow0f9GKapQCzCzIY%2B%2F49%2BUQ1LKSb6j8pqfwiOFdm4iH6WlitJUPjsFdahpqG2A2fCvygGarkj3Z2W8bTPn6kFwRoIW25Ovz4ZNDVaN2NWM8PwMbs0MLm54dQGOqYBK1rhQ%2FkonXnxIRqHRYFa8mRedBGaQDQRsfpIhl4yWb7EbTP5JOkiiPojh7u8jSQK7ZCg7MieVDQaI6h7YWsisdURKlcVw6dh4cmhHxE%2Bm3GKRZgtZYFi2xVS%2FMi2qP8AUR3VVMXlRzqKZ7MWQPz0PUnCBU3yj4NTYz1GZZ1022GDNuUYuNYtp1WqmeZL%2BSYlpYhlEjwdgdBcCX8R5eD%2BeCve0uVibg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ed64d0681694d790eac5a540a9a1b6a50bc6b17e439047eb395b5852473c81fe",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kimpton",
+          "href": "https://www.ycombinator.com/companies/kimpton"
+        }
+      },
+      {
+        "user_id": 3193138,
+        "full_name": "Mauricio Ortiz",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder, CEO @ Kimpton AI (YC P26). Building live evaluation readings for financial work.\n\nMauricio oversaw the entire technical implementation of the investment process, from research to trade execution, at Level III Capital, a quantitative systematic trading firm he co-founded after raising $10M to seed the fund at the age of 21.\n\nPrior to that, he was part of the critical infrastructure team at Goldman Sachs which handled systems for its consumer bank and the Apple Card. ",
+        "linkedin_url": "https://www.linkedin.com/in/ortizmauricio01/",
+        "twitter_url": "https://x.com/ortizmauricio_",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b89b45ec14d8f2262c93fd6385c2635f6e1ccb59.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFPB4Q6JQ%2F20260902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260902T173456Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAIaCXVzLXdlc3QtMiJGMEQCIHWfYwjDJPsDciXnM2uOwVfgLY3iupaXoKZE04lXNl3hAiBJ9wvu6qrkpH0Sb1KjEuD0QEDh3odynM1qgqvR2EretyruAwjL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMMUcHE56MMk0vKkE0KsIDZxpMeXlyrO7hhNlCKZgdOtdYHrmjqJC9Q6%2FvE5fAUD3b%2Fkp%2B2R1kAJKUHMO%2BTVGv0hXWeFkIsCdo9YV0duwSVFtr2DjIoRcnoAlnU%2BJIhmYHMBlwrYUNlZHnrUevh5dBzwJAREX%2Bd3rU6yZXan2nhN9LR9IzmA90d6NCYdY4hDBIITevplVbz6LdDtQLgduVsn2sgt6GuGZndkcqY6MUoi5%2BaCiJOLLb2xXA%2B68osfZhZzoslnw4ExASlyzDBiAAQnQG%2FlNGcq0eSjc3Qsk83SafND8r2pzsoDX504uN4FSbDbLIdmeuDq7ENIhLFKU6%2Btz4D8fiPUF8K0R8jALkugin1d7NoMGr3yAB6nMOtsLROCPy6tcg50IVbRuHQvWgFg6%2Byz%2FrQbxwW1F%2F2Sl7YS8TslcJ5P0F72USXcjdjvwXI3532R0nfajL0pgZVODSe1H65toiwbXhZaeSV30ExhhOLNAVfABIgVJtEnoow0f9GKapQCzCzIY%2B%2F49%2BUQ1LKSb6j8pqfwiOFdm4iH6WlitJUPjsFdahpqG2A2fCvygGarkj3Z2W8bTPn6kFwRoIW25Ovz4ZNDVaN2NWM8PwMbs0MLm54dQGOqYBK1rhQ%2FkonXnxIRqHRYFa8mRedBGaQDQRsfpIhl4yWb7EbTP5JOkiiPojh7u8jSQK7ZCg7MieVDQaI6h7YWsisdURKlcVw6dh4cmhHxE%2Bm3GKRZgtZYFi2xVS%2FMi2qP8AUR3VVMXlRzqKZ7MWQPz0PUnCBU3yj4NTYz1GZZ1022GDNuUYuNYtp1WqmeZL%2BSYlpYhlEjwdgdBcCX8R5eD%2BeCve0uVibg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9ec36af4423fbb2d79d09679541011ad5d1a94553540722c8f29d5412f7f0f3b",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kimpton",
+          "href": "https://www.ycombinator.com/companies/kimpton"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-02T17:35:06.759Z",
+    "classified_at": "2026-09-02T17:35:06.759Z",
+    "proposed_phenotype": null,
+    "launch_id": 113565,
+    "launch_url": "https://www.ycombinator.com/launches/TXh-koliseum-by-kimpton-live-evaluation-arenas-for-ai-models",
+    "launch_title": "Koliseum by Kimpton, Live Evaluation Arenas for AI Models",
+    "launch_created_at": "2026-09-02T16:01:08.067Z",
+    "launch_tagline": "Real-world market interaction environments, starting with financial markets",
+    "launch_evaluated_at": "2026-09-02T17:36:15.563Z"
+  },
+  {
     "slug": "kimpton-ai",
     "name": "Kimpton AI",
     "website": "https://kimpton.ai",
@@ -54782,6 +54885,85 @@
     "proposed_phenotype": null
   },
   {
+    "slug": "nodus-compute",
+    "name": "Nodus Compute",
+    "website": "https://www.nodus-compute.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/nodus-compute",
+    "batch": "Fall 2026",
+    "one_liner": "Intelligent execution layer for AI workloads",
+    "description_combined": "Intelligent execution layer for AI workloads\n\nIntelligent execution layer for AI workloads",
+    "industry_sub_vertical": "AI workload execution optimization for heterogeneous compute resources",
+    "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_label": "GPU infrastructure for model deployment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "edge-inference-runtime",
+    "phenotype_primary_label": "Edge Inference Runtime & Optimization",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "compute_optimization",
+      "workload_routing",
+      "inference_acceleration",
+      "cost_reduction"
+    ],
+    "what_they_sell": "Intelligent execution layer that optimizes AI workload placement, routing, and execution across heterogeneous compute resources (GPUs, CPUs, edge devices, cloud). Likely provides runtime abstraction, automatic hardware selection, and cost/latency optimization for AI inference and training workloads.",
+    "ai_play": "Uses AI/ML to intelligently route and optimize AI workload execution — meta-level optimization where AI improves the efficiency of other AI systems. Likely employs reinforcement learning or predictive models to select optimal hardware, batch sizes, and execution strategies based on workload characteristics and resource availability.",
+    "who_pays": "ML engineers, data scientists, and infrastructure teams at enterprises and AI labs running large-scale inference or training workloads; cloud platforms and GPU providers seeking to optimize utilization.",
+    "confidence": 0.65,
+    "rationale": "Nodus Compute's positioning as an 'intelligent execution layer for AI workloads' suggests infrastructure-level optimization of compute resource allocation and inference deployment. This aligns with edge-inference-runtime (model optimization, device-agnostic deployment) and gpu-accelerated-analytics-infrastructure (compute acceleration, query/workload routing). The 'intelligent' framing implies AI-driven optimization of workload placement and execution. However, confidence is moderate (0.65) because the description is minimal and could also encompass agent orchestration, distributed training optimization, or broader compute abstraction. Without deeper product details (e.g., does it target edge devices, cloud GPUs, or both? Is it a runtime, scheduler, or cost optimizer?), exact phenotype fit is uncertain. Primary fit is edge-inference-runtime if focused on deployment efficiency; secondary fit is gpu-accelerated-analytics-infrastructure if focused on query/workload routing and cost optimization.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1792661,
+        "full_name": "Viswa Kotra",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Nodus Compute (YC F26). Previously at Citadel Securities, Snowflake, Scale AI. ",
+        "linkedin_url": "https://www.linkedin.com/in/viswa-kotra",
+        "twitter_url": "https://x.com/viswa_kotra",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0f2d4b476bbec956abef5900346a59c67258655.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIG6UQWRP%2F20260902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260902T173515Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAIaCXVzLXdlc3QtMiJHMEUCIF0b3L3lM5wIyJ2HKUCWgCdeyVijuHQTPyuj%2BAnKunXjAiEA50mM4PHr2UhxZOPBV4caVaQzKaHzve52Ah7ildT%2BI2kq7gMIy%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDEEIoq0lV2TyQrhJByrCAyuAvcIb%2BldhBZ8ON3Ox2ed3gaK03lLjfixa588NH7UXe5ZgJCoTTpCRloJIsKs2UyPuCtyQDqYv7soN4LWhHyENQQRBE%2BNmJh46zGoiwiTonX2U7AqOXnyMfmujxBJ75D1Wc1txOpzmhn%2F4pCndNYPAHtuZpgIqQ7HNXnQdWN3wgKmq1IlFi3okW0cdOxJ5YRy6xrwA3ZqkETdtzupYTgOXPKLA64eXOLqXZROF%2BVP7GlQutNxdXI5XWWpfC5fgtQ9eKu6ODJilhInvj%2FPIqsJ6K0bppReD5zJmImHrQcB10ah6YFOva37ySnHj8nGNtrTJzdKWNVStqaZPHJh1pDzTToKvAvkkSb1HGMgiBkgdp3BJgCii8z3VC9hiUvyfIFLRAvsSyL09lzJpMCIarQ8WepxuHn8LApHf%2BJifUvnq0PniVKJRuVf6crh0uWVqjjcquj5ugbij6QWgMOisyrkmzgMX5TScdTtI0VFbrbEEx6YuSlCqa%2F%2FmP8RYOmamJ7qF%2BRIuXsMMIzzg9PlyT23PjyU45z3UNzMkrQuFpfU3UTG2pMA6Pcb%2B%2FgX4f8%2BNMehD1HocRx76oFR4jRSUd5ZRYzC6ueHUBjqlARNo2SzW4hv7clv58TSxcrMj3PUn4tROrZhDI9Uc0PGgy2Yd8upnnyVNmXj5f7uWb2Oy0Y7Sx1rp7CvSCIIDNBhfVWqKeakUe69w%2FTWce6V67Qrnq3mXFjNovbs8%2Fm1XJ3WP5Iq3OBSG8pVPA8NKYGoRHTYwKhAaTrbLvCJ2QKEeiv9uuDOzM%2Bd%2FkyXF6AotPTO3JWNhFVwgo5fx9PYCwX%2BnmssztA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1e4dc7427344fd6f325202306192eabe60cac35ee068ccc9ffd83d1c9f4aeb9e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Nodus Compute",
+          "href": "https://www.ycombinator.com/companies/nodus-compute"
+        }
+      },
+      {
+        "user_id": 2410885,
+        "full_name": "Pranav Varshney",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Nodus Compute (YC F26). Previously at Google, Uber, Scale AI, & AWS. ",
+        "linkedin_url": "https://www.linkedin.com/in/pvarshh",
+        "twitter_url": "https://x.com/pvarshh",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a0ba07e21403033e8b96bfd650c021bf227174ee.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIG6UQWRP%2F20260902%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260902T173515Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAIaCXVzLXdlc3QtMiJHMEUCIF0b3L3lM5wIyJ2HKUCWgCdeyVijuHQTPyuj%2BAnKunXjAiEA50mM4PHr2UhxZOPBV4caVaQzKaHzve52Ah7ildT%2BI2kq7gMIy%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDEEIoq0lV2TyQrhJByrCAyuAvcIb%2BldhBZ8ON3Ox2ed3gaK03lLjfixa588NH7UXe5ZgJCoTTpCRloJIsKs2UyPuCtyQDqYv7soN4LWhHyENQQRBE%2BNmJh46zGoiwiTonX2U7AqOXnyMfmujxBJ75D1Wc1txOpzmhn%2F4pCndNYPAHtuZpgIqQ7HNXnQdWN3wgKmq1IlFi3okW0cdOxJ5YRy6xrwA3ZqkETdtzupYTgOXPKLA64eXOLqXZROF%2BVP7GlQutNxdXI5XWWpfC5fgtQ9eKu6ODJilhInvj%2FPIqsJ6K0bppReD5zJmImHrQcB10ah6YFOva37ySnHj8nGNtrTJzdKWNVStqaZPHJh1pDzTToKvAvkkSb1HGMgiBkgdp3BJgCii8z3VC9hiUvyfIFLRAvsSyL09lzJpMCIarQ8WepxuHn8LApHf%2BJifUvnq0PniVKJRuVf6crh0uWVqjjcquj5ugbij6QWgMOisyrkmzgMX5TScdTtI0VFbrbEEx6YuSlCqa%2F%2FmP8RYOmamJ7qF%2BRIuXsMMIzzg9PlyT23PjyU45z3UNzMkrQuFpfU3UTG2pMA6Pcb%2B%2FgX4f8%2BNMehD1HocRx76oFR4jRSUd5ZRYzC6ueHUBjqlARNo2SzW4hv7clv58TSxcrMj3PUn4tROrZhDI9Uc0PGgy2Yd8upnnyVNmXj5f7uWb2Oy0Y7Sx1rp7CvSCIIDNBhfVWqKeakUe69w%2FTWce6V67Qrnq3mXFjNovbs8%2Fm1XJ3WP5Iq3OBSG8pVPA8NKYGoRHTYwKhAaTrbLvCJ2QKEeiv9uuDOzM%2Bd%2FkyXF6AotPTO3JWNhFVwgo5fx9PYCwX%2BnmssztA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3776a9d93ac08b1710dfe64b5ed845e382b275cde1f32da5817dcfaeb9804069",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Nodus Compute",
+          "href": "https://www.ycombinator.com/companies/nodus-compute"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-02T17:35:26.688Z",
+    "classified_at": "2026-09-02T17:35:26.688Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "nomi",
     "name": "Nomi",
     "website": "https://www.nomi.so",
@@ -58304,6 +58486,72 @@
     "primary_bm_rationale": "Orbital Operations delivers satellite defense as a managed service outcome (protecting critical satellites through operational vehicles), not as software sold to a vertical, making it an AI labor / managed service model.",
     "primary_bm_assigned_at": "2026-06-05T19:59:32.914Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "orca-aerospace",
+    "name": "Orca Aerospace",
+    "website": "https://orcaaerospace.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/orca-aerospace",
+    "batch": "Fall 2026",
+    "one_liner": "AI spacecraft operator that lives onboard the vehicle.",
+    "description_combined": "AI spacecraft operator that lives onboard the vehicle.\n\nAt Orca, we are focused on creating the future of spacecraft operations by moving control onto the vehicle. By allowing LLMs to control the satellite using deterministic tooling, we are able to achieve the same holistic, high-quality decisions on \"what\" to do to carry out a mission while maintaining the safety of systems that decide \"how\" to execute it. ",
+    "industry_sub_vertical": "Autonomous spacecraft operations and onboard AI control systems",
+    "canonical_vertical_id": "industrials.aviation.space",
+    "vertical_id": "industrials.aviation.space",
+    "vertical_label": "Space & satellite systems",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "physical-ai-autonomous-systems",
+    "phenotype_primary_label": "Physical AI & Autonomous Manufacturing",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "embodied_control",
+    "ai_application_patterns": [
+      "onboard_agent_runtime",
+      "deterministic_tool_execution",
+      "autonomous_mission_control",
+      "safety_critical_decision_making"
+    ],
+    "what_they_sell": "Onboard AI spacecraft operator: LLM-based autonomous control system deployed directly on satellites that makes high-level mission decisions (\"what\" to do) while delegating low-level execution (\"how\" to do it) to deterministic, safety-critical systems.",
+    "ai_play": "Replaces ground-based mission control for routine spacecraft operations by embedding an agentic AI runtime on the vehicle itself. LLMs handle mission logic, resource optimization, and adaptive decision-making; deterministic tools enforce safety constraints and hardware execution. Reduces latency, increases autonomy, and enables spacecraft to respond to anomalies without ground communication delays.",
+    "who_pays": "Satellite operators, space agencies, commercial space companies, and defense/intelligence agencies seeking autonomous spacecraft with reduced ground-station dependency.",
+    "confidence": 0.85,
+    "rationale": "Orca is building AI-driven autonomous control for physical hardware (satellites). Primary phenotype is physical-ai-autonomous-systems because the core value is embedding AI agents directly into spacecraft to enable autonomous operation and decision-making. Secondary phenotype is agent-runtime-infra because they are building a specialized runtime (LLM + deterministic tooling) that orchestrates agent decisions with safety guarantees. The 'onboard' architecture is distinct from ground-based mission control — this is embodied AI controlling a physical system in real-time with constrained communication. Confidence is high (0.85) because the fit is clear, though the phenotype library does not yet have a space-specific variant; physical-ai-autonomous-systems is the closest existing match.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Aviation and Space"
+    ],
+    "yc_tags": [
+      "AIOps",
+      "Space Exploration",
+      "Satellites"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 4003515,
+        "full_name": "Hakan Chunton",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Orca Aerospace (YC F26); MIT 6-14 MEng &#x27;26 & 16/6-14 SB &#x27;25",
+        "linkedin_url": "https://www.linkedin.com/in/hakan-chunton/",
+        "twitter_url": "",
+        "avatar_url": "/avatars/thumb/missing.png",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Orca Aerospace",
+          "href": "https://www.ycombinator.com/companies/orca-aerospace"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-02T17:35:15.667Z",
+    "classified_at": "2026-09-02T17:35:15.667Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "orchid-ai",
@@ -77796,6 +78044,52 @@
     "launch_evaluated_at": "2026-08-07T14:53:25.647Z"
   },
   {
+    "slug": "spark",
+    "name": "Spark",
+    "website": "https://www.sparkhq.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/spark",
+    "batch": "Winter 2024",
+    "one_liner": "See who decides your permit, and how they'll vote, before you break ground",
+    "description_combined": "See who decides your permit, and how they'll vote, before you break ground\n\nHi everyone, we're Julia and Anuj, co-founders of Spark AI.\n\n### TL;DR\n\nSee who decides your permit, and how they'll vote, before you break ground\n\nEvery data center in America has to get through a local zoning board before it gets built. We mapped and tracked every jurisdiction, project, and land use regulation in the country, and we just launched Stakeholder Intelligence, a tool that tells you who's deciding your permit, their voting history, and what's likely to happen next. If you're developing (or powering) data centers, or know someone who is, we want to talk.\n\n### ❌ The Problem\n\nData centers land next to real communities: people who didn't ask for a giant, humming building showing up in their backyard. A lot of them fight it.\n\nThat fight runs entirely through local politics: county boards, township councils, zoning authorities. Real people with real voting histories, some of whom love solar and hate data centers, some the reverse, and it shifts constantly.\n\n* Data centers are having the roughest time of any large-scale asset class right now. 42% of gigawatt-scale data center projects announced in 2025 have already run into a local moratorium, suspension, legal challenge, or permit denial. That's not an edge case anymore, it's closer to a 50/50 bet.\n* And it's accelerating. Within six months of announcement, \\~24% hit that same wall in 2025, nearly triple 2024's rate (8%) and more than triple 2023's (7%).\n\nFederal and state policy get all the coverage. But the actual bo",
+    "industry_sub_vertical": "Infrastructure permitting & regulatory stakeholder intelligence for data center developers",
+    "canonical_vertical_id": "marketing.competitive-intelligence",
+    "vertical_id": "marketing.competitive-intelligence",
+    "vertical_label": "Competitive intelligence & market research",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "research-terminal-intel",
+    "phenotype_primary_label": "Research / terminal / intelligence product",
+    "phenotype_family": "data_assets",
+    "value_wedge": "decision_intelligence",
+    "ai_application": "analysis_synthesis",
+    "ai_application_patterns": [
+      "stakeholder_mapping",
+      "predictive_voting_analysis",
+      "regulatory_intelligence",
+      "risk_scoring"
+    ],
+    "what_they_sell": "Stakeholder Intelligence platform: mapped jurisdiction database, zoning board member profiles with voting histories, predictive models for permit approval likelihood, and regulatory tracking for data center and large-scale infrastructure projects.",
+    "ai_play": "AI synthesizes public records (voting histories, meeting transcripts, regulatory filings) across thousands of local jurisdictions to build predictive models of board member voting behavior and permit outcomes. Enables developers to forecast approval probability and identify key stakeholders before submission.",
+    "who_pays": "Data center developers, infrastructure operators, real estate investment firms, and project finance teams evaluating site feasibility and regulatory risk.",
+    "confidence": 0.78,
+    "rationale": "Spark is a decision-intelligence terminal for infrastructure permitting. Like Bloomberg terminals for equity research or market intelligence platforms, it aggregates fragmented public data (zoning boards, voting records, regulatory filings) across thousands of local jurisdictions and uses AI to synthesize predictive insights (voting likelihood, stakeholder influence, approval probability). The core value is enabling developers to make better site-selection and strategy decisions before committing capital. This fits research-terminal-intel (decision intelligence for high-stakes capital allocation) better than vertical-workflow-agent (which would be automation software sold to permit applicants). Secondary consideration: could be domain-data-ontology (building a canonical zoning/regulatory knowledge graph), but the primary wedge is decision support, not data infrastructure.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-06"
+    ],
+    "launch_id": 113436,
+    "launch_url": "https://www.ycombinator.com/launches/TVc-spark-ai-stakeholder-intelligence-for-data-center-permitting",
+    "launch_title": "Spark AI: Stakeholder Intelligence for Data Center Permitting",
+    "launch_created_at": "2026-09-02T16:01:00.565Z",
+    "launch_tagline": "See who decides your permit, and how they'll vote, before you break ground",
+    "launch_ingested_at": "2026-09-02T17:36:15.564Z",
+    "classified_at": "2026-09-02T17:36:15.564Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "sparkles",
     "name": "Sparkles",
     "website": "https://sparkles.dev",
@@ -90634,6 +90928,52 @@
     "primary_bm_rationale": "Vesence is a vertical AI SaaS product that law firms purchase and deploy directly within their existing MS Office workflows for contract drafting and review, rather than outsourcing the work to a managed service provider.",
     "primary_bm_assigned_at": "2026-06-05T20:00:06.121Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "vespper",
+    "name": "Vespper",
+    "website": "https://vespper.com/?utm_source=ycombinator.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/vespper",
+    "batch": "Fall 2024",
+    "one_liner": "The first SOTA level model to allow agents to edit DOCX documents",
+    "description_combined": "The first SOTA level model to allow agents to edit DOCX documents\n\nToday we're launching Vespper DOCX MCP.\n\nThe first model fine-tuned specifically for editing Word documents, shipped as an MCP. \n\nOn our internal benchmark, it lets agents run 3x faster, 2x cheaper, and more accurately than the closest alternative.\n\nThere are 1.2–1.5B Knowledge workers globally, with Word as the default tool for the majority of them. 150–250M people open/edit a Word doc on a given weekday, and soon there will be an agent alongside each one.\n\nTry it now: https://app.vespper.com\n\nRead our technical blog post here: https://www.vespper.com/blog/launching-vespper-docx-mcp",
+    "industry_sub_vertical": "Agent document manipulation & workflow tooling",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-workflow-abstraction-infra",
+    "phenotype_primary_label": "Agent Workflow Abstraction Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "workflow_conversion",
+    "ai_application": "workflow_to_api_abstraction",
+    "ai_application_patterns": [
+      "agent_tooling",
+      "document_automation",
+      "model_fine_tuning",
+      "mcp_protocol"
+    ],
+    "what_they_sell": "Vespper DOCX MCP: a fine-tuned, production-grade model shipped as a Model Context Protocol (MCP) server that enables AI agents to reliably read, edit, and manipulate Microsoft Word documents (.docx) at 3x speed and 2x cost efficiency vs. alternatives.",
+    "ai_play": "Vespper solves the critical gap between frontier LLMs and real-world document workflows. By fine-tuning a model specifically for DOCX parsing and editing operations, they enable agents to autonomously handle document-centric work (contract editing, report generation, form filling, compliance document updates) that would otherwise require custom integrations or fallback to human intervention. The MCP protocol makes it a drop-in tool for any agentic framework.",
+    "who_pays": "AI application builders, agentic workflow platforms, and enterprises deploying agents into document-heavy workflows (legal, HR, finance, operations). Secondary: LLM inference platforms and agent orchestration vendors bundling tooling.",
+    "confidence": 0.78,
+    "rationale": "Vespper is infrastructure enabling agents to interact with a legacy, ubiquitous system (Word documents) without custom code. This maps cleanly to agent-workflow-abstraction-infra: converting a human-driven workflow (manual document editing) into a reliable, agent-executable operation via a specialized model + MCP protocol. Secondary fit to agent-runtime-infra is weaker (they're not orchestration or runtime itself, but a specialized tool within it). The fine-tuned model + MCP delivery is a developer-facing infrastructure play, not a vertical SaaS or end-user product. Confidence is high (0.78) because the phenotype fit is clear, but not 0.85+ because Vespper could also be positioned as a narrow 'document-editing model service' if they pivot to licensing the model directly rather than the MCP protocol.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "launch_id": 113233,
+    "launch_url": "https://www.ycombinator.com/launches/TSL-vespper-docx-mcp",
+    "launch_title": "Vespper DOCX MCP",
+    "launch_created_at": "2026-09-01T17:40:35.005Z",
+    "launch_tagline": "The first SOTA level model to allow agents to edit DOCX documents",
+    "launch_ingested_at": "2026-09-02T17:36:15.564Z",
+    "classified_at": "2026-09-02T17:36:15.564Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "vestris",

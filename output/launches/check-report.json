@@ -1,17 +1,219 @@
 {
-  "checked_at": "2026-09-01T17:34:57.549Z",
+  "checked_at": "2026-09-02T17:36:15.658Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 0,
-  "new_count": 0,
-  "skipped_count": 930,
-  "ingest": null,
+  "checked_count": 3,
+  "new_count": 3,
+  "skipped_count": 927,
+  "ingest": {
+    "addedCompanies": 2,
+    "enrichedCompanies": 1
+  },
   "summary": {
     "conforming": 0,
-    "partial": 0,
-    "non_conforming": 0,
-    "would_have_predicted": 0,
-    "surprise": 0,
+    "partial": 2,
+    "non_conforming": 1,
+    "would_have_predicted": 1,
+    "surprise": 2,
     "predicted": 0
   },
-  "reviews": []
+  "reviews": [
+    {
+      "launch": {
+        "launch_id": 113565,
+        "company_slug": "kimpton",
+        "company_name": "Kimpton",
+        "launch_url": "https://www.ycombinator.com/launches/TXh-koliseum-by-kimpton-live-evaluation-arenas-for-ai-models",
+        "created_at": "2026-09-02T16:01:08.067Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-02T17:35:54.749Z",
+        "launch_id": 113565,
+        "company_slug": "kimpton",
+        "taxonomy": {
+          "conformance_index": 56,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 0,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 80,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-07",
+            "vertical_id": "fintech.wealth.asset-management",
+            "phenotype_primary_id": "marketplace-network-ai",
+            "cell_key": "BM-07::fintech.wealth.asset-management::marketplace-network-ai",
+            "business_model_label": "Marketplace / network",
+            "vertical_label": "Asset & wealth management",
+            "phenotype_label": "Marketplace / exchange / liquidity network"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 113436,
+        "company_slug": "spark",
+        "company_name": "Spark",
+        "launch_url": "https://www.ycombinator.com/launches/TVc-spark-ai-stakeholder-intelligence-for-data-center-permitting",
+        "created_at": "2026-09-02T16:01:00.565Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-02T17:36:03.765Z",
+        "launch_id": 113436,
+        "company_slug": "spark",
+        "taxonomy": {
+          "conformance_index": 48,
+          "verdict": "non_conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 38,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-06",
+            "vertical_id": "marketing.competitive-intelligence",
+            "phenotype_primary_id": "research-terminal-intel",
+            "cell_key": "BM-06::marketing.competitive-intelligence::research-terminal-intel",
+            "business_model_label": "Data / intelligence product",
+            "vertical_label": "Competitive intelligence & market research",
+            "phenotype_label": "Research / terminal / intelligence product"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company",
+            "low_taxonomy_conformance"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 113233,
+        "company_slug": "vespper",
+        "company_name": "Vespper",
+        "launch_url": "https://www.ycombinator.com/launches/TSL-vespper-docx-mcp",
+        "created_at": "2026-09-01T17:40:35.005Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-02T17:36:14.227Z",
+        "launch_id": 113233,
+        "company_slug": "vespper",
+        "taxonomy": {
+          "conformance_index": 55,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "agent-workflow-abstraction-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-workflow-abstraction-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Agent Workflow Abstraction Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    }
+  ]
 }

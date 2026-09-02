@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-01T17:34:58.332Z",
+  "generated_at": "2026-09-02T17:36:16.425Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1407,
+    "assignment_count": 1412,
     "mapped_verticals": 243,
     "observed_cells": 478,
     "total_verticals": 525,
@@ -91,6 +91,7 @@
         "trace-so",
         "trelium",
         "truffle-ai",
+        "vespper",
         "wato",
         "zatanna"
       ]
@@ -525,6 +526,28 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.aviation.space",
+      "vertical_label": "Space & satellite systems",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "beyond-reach-labs",
+        "daivin",
+        "dispatch",
+        "ethos-space-resources",
+        "exosat",
+        "galactic-resource-utilization-space-inc-gru-space",
+        "generalastro",
+        "instinct",
+        "instinct-space",
+        "orca-aerospace",
+        "pacific",
+        "reditus-space",
+        "wardstone"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "logistics.supply-chain.ops",
@@ -634,27 +657,6 @@
     {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.aviation.space",
-      "vertical_label": "Space & satellite systems",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "beyond-reach-labs",
-        "daivin",
-        "dispatch",
-        "ethos-space-resources",
-        "exosat",
-        "galactic-resource-utilization-space-inc-gru-space",
-        "generalastro",
-        "instinct",
-        "instinct-space",
-        "pacific",
-        "reditus-space",
-        "wardstone"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
       "vertical_id": "industrials.defense.drones",
       "vertical_label": "Defense drone & UAS operations",
       "sector_id": "industrials-defense",
@@ -671,6 +673,26 @@
         "ornadyne",
         "seeing-systems",
         "splash-inc"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "belvedir",
+        "cactus-compute",
+        "exla",
+        "freesolo",
+        "lilac",
+        "nodus-compute",
+        "openrelay",
+        "pirislabs",
+        "stellon-labs",
+        "tinfoil",
+        "wafer"
       ]
     },
     {
@@ -714,25 +736,6 @@
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "belvedir",
-        "cactus-compute",
-        "exla",
-        "freesolo",
-        "lilac",
-        "openrelay",
-        "pirislabs",
-        "stellon-labs",
-        "tinfoil",
-        "wafer"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.hr.recruiting",
@@ -749,6 +752,25 @@
         "saffron",
         "skillsync",
         "spott"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "fintech.wealth.asset-management",
+      "vertical_label": "Asset & wealth management",
+      "sector_id": "financial-services",
+      "companies": [
+        "autonomous-technologies-group",
+        "ekpa",
+        "finbar",
+        "kelai",
+        "kimpton",
+        "kimpton-ai",
+        "maywood",
+        "powder",
+        "savahq",
+        "wealor"
       ]
     },
     {
@@ -822,24 +844,6 @@
         "leeroo",
         "librar-labs",
         "slashy"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.wealth.asset-management",
-      "vertical_label": "Asset & wealth management",
-      "sector_id": "financial-services",
-      "companies": [
-        "autonomous-technologies-group",
-        "ekpa",
-        "finbar",
-        "kelai",
-        "kimpton-ai",
-        "maywood",
-        "powder",
-        "savahq",
-        "wealor"
       ]
     },
     {
@@ -2526,6 +2530,17 @@
       ]
     },
     {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "enterprise.ops.process-automation",
+      "vertical_label": "Cross-industry process automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "spark",
+        "sureform"
+      ]
+    },
+    {
       "business_model": "BM-12",
       "business_model_label": "Open source + commercial",
       "vertical_id": "enterprise.ops.process-automation",
@@ -4009,16 +4024,6 @@
       "sector_id": "enterprise-software",
       "companies": [
         "almanac"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "sureform"
       ]
     },
     {
