@@ -1,7 +1,77 @@
 {
-  "updated_at": "2026-09-02T17:36:14.248Z",
+  "updated_at": "2026-09-03T17:30:23.953Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 113464,
+      "company_slug": "ultrasonium",
+      "launch_url": "https://www.ycombinator.com/launches/TW4-ultrasoinum-shaping-the-future-of-metal-manufacturing",
+      "created_at": "2026-09-02T19:54:37.419Z",
+      "classification": {
+        "phenotype_primary_id": "ai-enabled-physical-systems",
+        "vertical_id": "industrials.manufacturing.automation",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-03T17:30:23.939Z",
+        "launch_id": 113464,
+        "company_slug": "ultrasonium",
+        "taxonomy": {
+          "conformance_index": 65,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 38,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "industrials.manufacturing.automation",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::industrials.manufacturing.automation::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Manufacturing & logistics automation",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 67,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
     {
       "launch_id": 113565,
       "company_slug": "kimpton",

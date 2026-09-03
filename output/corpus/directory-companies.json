@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-02T17:34:55.846Z",
+  "synced_at": "2026-09-03T17:29:57.388Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -1719,7 +1719,7 @@
       "slug": "armature",
       "name": "Armature",
       "batch": "Spring 2026",
-      "one_liner": "We get your product picked by coding agents, then help improve the…",
+      "one_liner": "We get your product picked by coding agents.",
       "long_description": "Coding agents like Claude Code, Codex and Cursor now decide which tools get installed in a codebase. Armature runs the real agents inside a panel of realistic repositories, measures whether they pick you, and works with your team on the docs, SDK and content changes that make them choose you. Every change is tested on real agent runs before it ships.\r\n\r\nOnce agents use your product, Armature shows you what users do with it through AI, with self-serve MCP analytics and evals that catch regressions before your users see them.",
       "website": "https://armature.tech",
       "industries": [
@@ -1869,14 +1869,19 @@
       "slug": "ashr",
       "name": "Ashr",
       "batch": "Winter 2026",
-      "one_liner": "Automated Multi-Modal Testing for Agents",
-      "long_description": "Ashr is a fully contained test and evals platform that improves AI agents by ensuring accuracy and quality across a wide range of user journeys through your product.\r\n\r\nAshr generates user journeys through your agents’ tool calls, results, and questions. We don’t generate one off tests, we generate large amounts of authentic user stories through your product, and pick up on errors, inconsistencies, and failures that would otherwise take hours of manual testing or get caught by a customer. We also work to ensure agent response quality in line with your business goals by offering custom evaluation metrics.\r\n\r\nAshr works with voice, text, automated website generation, image, file generation, and multimodal. We’re also willing to generate custom input types or make modifications for anyone interested. Currently, we integrate as an SDK, and are proactively working to make our documentation and resources as accessible and easy to use as possible.",
+      "one_liner": "Enterprise post-training, monitoring, and continual learning platform",
+      "long_description": "Ashr Manifold is a self-contained model training, hosting, observability, and continual learning platform for purpose-built open-weight models. \r\n\r\nStartups can use Manifold to post-train and manage fleets of continuously improving open-weight models without having a dedicated research team or infrastructure. Ultimately, this reduces operating costs and allows a greater degree of control over proprietary company knowledge.\r\n\r\nEnterprises can use Manifold to encode institutional judgements and priorities into open-weight models, reduce token costs, and manage every level of the AI life cycle, from data curation, to model serving on weights and infrastructure they own.",
       "website": "https://ashr.io",
       "industries": [
-        "B2B",
-        "Engineering, Product and Design"
+        "B2B"
       ],
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Deep Learning",
+        "Generative AI",
+        "Reinforcement Learning",
+        "Data Engineering"
+      ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -4058,7 +4063,7 @@
         "B2B"
       ],
       "tags": [],
-      "team_size": 5,
+      "team_size": 8,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1768162565
@@ -4723,7 +4728,7 @@
       "name": "Clad Labs",
       "batch": "Fall 2025",
       "one_liner": "AI support done right",
-      "long_description": "",
+      "long_description": "Clad turns Slack, Teams, and email into one organized support queue. Agents investigate and resolve hard tickets the way a dedicated hire would, and every resolved conversation becomes knowledge, written up automatically.",
       "website": "https://useclad.ai",
       "industries": [
         "B2B"
@@ -7610,7 +7615,7 @@
       "slug": "exosat",
       "name": "Exosat",
       "batch": "Summer 2026",
-      "one_liner": "Building a sovereign alternative to Starlink",
+      "one_liner": "Building a neutral and sovereign alternative to Starlink",
       "long_description": "Exosat is building thousands of low-cost communication satellites to provide a neutral, sovereign alternative to Starlink. By designing our satellites with zero ITAR/EAR-controlled content, we can leverage manufacturers anywhere in the world to produce our satellites at under a tenth of the cost and launch them from other nations to bypass capacity bottlenecks and access equatorial orbits. \r\n\r\nWe're starting off by selling connectivity to device OEMs and network operators, but will eventually use the distributed compute across our constellation to run low-latency inference for robots and autonomous vehicles in remote and rural areas anywhere on the planet.\r\n\r\nWe've already signed hundreds of millions in LOIs to work with operators across Central Asia, Southeast Asia, and the Middle East, booked our first satellite launch next year, and hold an 11,000 satellite filing with the ITU to build the largest comms network outside of the U.S. and China.",
       "website": "https://www.exosat.com",
       "industries": [
@@ -7757,17 +7762,17 @@
       "name": "Familiar",
       "batch": "Summer 2026",
       "one_liner": "Real-Time AI Dubbing. Neolab for World Translation.",
-      "long_description": "Audio-visual translation infrastructure for all video, live and recorded -- the first and only that works in real time. World translation: not just changing voice and lips into a new language, but understanding the scene, the sound, and preserving the human.\r\n\r\n🦋 Movies & TV, Micro-dramas, Live Broadcasts, Live Shopping, Corporate & Education, Ads, Creators & Podcasts, Platforms. Day-and-date, in every territory.\r\n\r\nFounders An Zhu Liu, Jibin Song, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation. Since 2021: over 10,000 citations and 100+ papers at ICLR, NeurIPS, CVPR, ECCV, and more.\r\n\r\nTranslation has to be a world model. A translator has to know who's speaking: where every sound in the dense polyphony originates (laughter, layered crowds). Laughter here, a short yell there, a voice from off-screen, someone on screen mouthing words before being interrupted. Everyone else scaffolds separate models and pre-processing; a world model simulates the scene. It's a spatio-temporal reasoner: predicting continuity across frames forces it to internalize 3D geometry, spatial reasoning, and permanence -- of objects, people, and the environment itself. The scene state survives the edit: when the shot pans or cuts away, someone off-screen still exists, still owns their voice, and is still there when the camera comes back. Multiple people, side views, off angles, dense polyphony, fast motion -- the hard cases hold.\r\n\r\nVs ElevenLabs: they lose the laughter, the music, the ambiance -- 270% more background-sound error -- and ours sounds 27.8% more like you. That means no recasting, no ADR, no M&E stems required -- it works from the final mix.\r\n\r\nVs human translators: 100.3% of their quality -- scalable, real time. Published benchmarks: https://thefamiliarlab.com/benchmark",
+      "long_description": "Audio-visual translation infrastructure for all video, live and recorded -- the first and only that works in real time. World translation: not just changing voice and lips into a new language, but understanding the scene, the sound, and preserving the human.\r\n\r\n🦋 Movies & TV, Micro-dramas, Live Broadcasts, Live Shopping, Corporate & Education, Ads, Creators & Podcasts, Platforms. Day-and-date, in every territory.\r\n\r\nFounders An Zhu Liu, Jibin Song, Mingi Kwon, and Xu Zheng lead a team of PhDs, professors, and researchers from the world's top universities who started the field of joint audio-visual human models and co-authored the current state of the art in real-time human animation. Since 2021: over 10,000 citations and 100+ papers at ICLR, NeurIPS, CVPR, ECCV, and more.\r\n\r\nTranslation needs 3D world understanding, permanence of identities. A translator has to know who's speaking: where every sound in the dense polyphony originates (laughter, layered crowds). Laughter here, a short yell there, a voice from off-screen, someone on screen mouthing words before being interrupted. Everyone else scaffolds separate models and pre-processing; a unified model simulates the scene. It's a spatio-temporal reasoner: predicting continuity across frames forces it to internalize 3D geometry, spatial reasoning, and permanence -- of objects, people, and the environment itself. The scene state survives the edit: when the shot pans or cuts away, someone off-screen still exists, still owns their voice, and is still there when the camera comes back. Multiple people, side views, off angles, dense polyphony, fast motion -- the hard cases hold.\r\n\r\nVs ElevenLabs: they lose the laughter, the music, the ambiance -- 270% more background-sound error -- and ours sounds 27.8% more like you. That means no recasting, no ADR, no M&E stems required -- it works from the final mix.\r\n\r\nVs human translators: 100.3% of their quality -- scalable, real time. Published benchmarks: https://thefamiliarlab.com",
       "website": "https://thefamiliarlab.com",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Generative AI",
         "B2B",
-        "Entertainment"
+        "Entertainment",
+        "AI"
       ],
       "team_size": 8,
       "location": "Toronto, ON, Canada",
@@ -9214,7 +9219,7 @@
       "slug": "grocalo",
       "name": "Grocalo",
       "batch": "Summer 2026",
-      "one_liner": "AI brain that runs content for creators",
+      "one_liner": "AI software for creators that runs social content",
       "long_description": "Grocalo (S26) is an AI brain that runs content for creators. We understand their audiences, using video understanding and deep platform analytics to bottle up the taste behind each creator and personalize and distribute content to creator specific audiences.\r\n\r\nGrocalo generated 2B views and gained 4M followers for our creators in the last 2 months. Our clients include Jimmy O. Yang (Comedian, 11M followers), King Bach (72M followers), Leenda Dong (28M followers), Steven He (30M followers), Sheena Melwani (18M followers), and Jeannie Mai (TV host, 6M followers).\r\n\r\nContent should be personalized and data-driven. We’re developing the most advanced AI brain capable of replicating virality for any given audience. \r\n",
       "website": "https://grocalo.com/",
       "industries": [
@@ -9222,11 +9227,11 @@
         "Content"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Entertainment",
-        "Creator Economy"
+        "Creator Economy",
+        "AI"
       ],
-      "team_size": 0,
+      "team_size": 2,
       "location": "Los Angeles, CA, USA",
       "status": "Active",
       "launched_at": 1787022465
@@ -10019,7 +10024,7 @@
       "slug": "hyperprobe",
       "name": "HyperProbe",
       "batch": "Summer 2026",
-      "one_liner": "The runtime data layer for agents to monitor and debug apps",
+      "one_liner": "AI engineer that fixes production issues on its own",
       "long_description": "With tools like Cursor and Claude Code, writing software is no longer the bottleneck. Debugging is. Agents cannot fix production crashes using logs and traces that were sized for human eyeballs. The gap is missing data.\r\n\r\nHyperProbe allows agents to debug live software autonomously. Our SDK drops non-breaking probes straight into running services to read exact variable states from memory at the moment of failure, instead of reasoning backwards from flat logs.\r\n\r\nZero redeploys. Under 1% CPU overhead. Automatic PII redaction.\r\n\r\nWe turn 4-hour production war rooms into 10-minute automated resolutions. As agents write and operate more of the world's software, HyperProbe is the runtime observability layer that lets them understand what they built.\r\n\r\n",
       "website": "https://hyperprobe.co",
       "industries": [
@@ -12399,10 +12404,10 @@
         "Analytics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Data Science",
-        "Data Visualization",
-        "AI"
+        "Data Visualization"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -14277,18 +14282,19 @@
       "slug": "moving-atoms",
       "name": "Moving Atoms",
       "batch": "Summer 2026",
-      "one_liner": "World models that train and test robots in sim, #1 on Physics-IQ",
-      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs check every checkpoint, getting you results in minutes; instead of having to wait days for human evaluations. \r\nIt also lets you simulate unseen and hard to replicate environments.",
+      "one_liner": "Solving the Data Problem in Robotics, #1 on Physics-IQ",
+      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs train their robots using GPUs instead of relying on human collected manual data that is slow and expensive.\r\nIn unseen and hard to replicate environments, this is the only path to getting ANY training data.",
       "website": "https://movingatoms.ai/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
-        "Virtual Reality"
+        "Virtual Reality",
+        "Data Labeling",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -14831,7 +14837,7 @@
       "name": "Nori",
       "batch": "Summer 2026",
       "one_liner": "American Humanoid which costs 3% of the competition",
-      "long_description": "We manufacture Nori: A sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have over $350k+ in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. ",
+      "long_description": "We manufacture Nori: A sub-$2000 bimanual mobile manipulator that can clean rooms, restock shelves, and fold clothes. Nori can handle basic tasks out of the box, and its software lets anyone teach Nori to automate work specific to their home or business. \r\n\r\nNori aims to solve the robotics data bottleneck. By deploying affordable robots to customers around the world, we can gather the diverse data required to train the next generation of generalist robotic policies. Every user of Nori makes Nori smarter.\r\n\r\nSince launching 6 weeks ago we have already deployed our first robot and have over $440k+ in sales.\r\n\r\nWe can bring general-purpose robotics to homes and businesses that could never afford it before. There are 132.7 million households and 8.4 million employer business locations in the U.S. At $1,688 per robot, selling just one Nori to 0.5% of them represents a $1.2B market opportunity in the U.S. alone. ",
       "website": "http://norirobotics.com",
       "industries": [
         "Industrials",
@@ -15733,7 +15739,7 @@
       "slug": "orca-aerospace",
       "name": "Orca Aerospace",
       "batch": "Fall 2026",
-      "one_liner": "AI spacecraft operator that lives onboard the vehicle.",
+      "one_liner": "AI spacecraft operators that lives onboard the vehicle",
       "long_description": "At Orca, we are focused on creating the future of spacecraft operations by moving control onto the vehicle. By allowing LLMs to control the satellite using deterministic tooling, we are able to achieve the same holistic, high-quality decisions on \"what\" to do to carry out a mission while maintaining the safety of systems that decide \"how\" to execute it. ",
       "website": "https://orcaaerospace.com/",
       "industries": [
@@ -15848,7 +15854,7 @@
       "name": "OS3",
       "batch": "Summer 2026",
       "one_liner": "Deploying US-Built Robots & Training Video Action Models",
-      "long_description": "We are deploying the robots we built, including custom actuators. Our first model is trained for the robot with 150k hours of video data. \r\n\r\nThe robot, a mobile semi-humanoid available as Robot as a service, is already signed for deployments in hospitality and biotech. Our developer version lets anyone deploy robots in their own verticals as well, and we are working with startups deploying in hospitals and data centers.\r\n\r\nWe are scaling American robotics while making it accessible to more businesses.",
+      "long_description": "OS3 deploys US-built mobile semi-humanoid robots for repetitive physical work.\r\n\r\nWe designed the robot, custom actuators, model and control stack as one system, then pretrained the model exclusively on 150,000 hours of video data spanning more than 2,000 tasks. Hospitality is our first deployment vertical. Through our Startup Partner program, teams are deploying OS3 robots in biotech, hospitals and data centers.\r\n\r\nOur two-person team built the robot and trained its first model in four months. We are making American robotics accessible to more businesses.",
       "website": "https://os3robotics.com/",
       "industries": [
         "Industrials",
@@ -17236,7 +17242,7 @@
         "AI"
       ],
       "team_size": 2,
-      "location": "Los Angeles, CA, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1759526048
     },
@@ -19057,7 +19063,7 @@
       "slug": "risklytics",
       "name": "Risklytics",
       "batch": "Summer 2026",
-      "one_liner": "Insurance for Frontier Tech",
+      "one_liner": "AI-Native Insurance for Frontier Tech",
       "long_description": "Risklytics is the insurance company for frontier tech such as physical AI, robotics, and data centers. Companies answer 6 questions and we bind a tailored policy that other insurance companies won’t.",
       "website": "https://www.risklytics.ai/",
       "industries": [
@@ -19065,11 +19071,11 @@
         "Insurance"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
         "Machine Learning",
         "B2B",
-        "Insurance",
-        "AI"
+        "Insurance"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -20331,8 +20337,8 @@
       "slug": "sila",
       "name": "Sila",
       "batch": "Winter 2026",
-      "one_liner": "Instant Messaging With Agents",
-      "long_description": "Sila is an instant messaging app that makes agents as simple as messaging your team.",
+      "one_liner": "Message AI Agents",
+      "long_description": "Sila is where you message AI agents to get real work done. Describe your idea or work, and Sila creates the AI agents you message with your team. ",
       "website": "https://silahq.com",
       "industries": [
         "B2B",
@@ -21764,7 +21770,7 @@
       "name": "Talos",
       "batch": "Fall 2026",
       "one_liner": "Predictive maintenance for power infrastructure.",
-      "long_description": "Predictive maintenance for the power grid. ",
+      "long_description": "At Talos, we are building better, more modern predictive maintenance for the power industry with a focus on large transformers. Our devices continuously monitor critical power equipment and detect problems early on using anomaly-detection models. For each fault, we provide detailed analyses of the problem, exactly where and why it happened, as well as next steps teams should take. ",
       "website": "https://www.talos-us.com/",
       "industries": [
         "Industrials",
@@ -22057,8 +22063,8 @@
         "Automation",
         "Industrial"
       ],
-      "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "team_size": 7,
+      "location": "Emeryville, CA, USA",
       "status": "Active",
       "launched_at": 1763065446
     },
@@ -22215,7 +22221,7 @@
       "name": "Sidekick",
       "batch": "Summer 2026",
       "one_liner": "AI agent that handles frontline operations over text",
-      "long_description": "Sidekick is an AI agent that runs frontline operations over text. Workers text problems, photos, or voice memos in any language; it answers from the company's own documents, creates and routes the work order, and syncs with the software the company already runs. No app, no login, works on any phone.\r\n\r\nIt watches connected machine data and texts the right worker when something's drifting wrong, before it becomes downtime. And it compounds: every answer becomes a searchable knowledge base the company owns, so tribal knowledge stops walking out the door when veterans retire.",
+      "long_description": "Sidekick is an AI agent that manages frontline operations over text. Workers text problems, photos, or voice memos in any language; it answers from the company's own documents, creates and routes the work order, and syncs with the software the company already runs. No app, no login, works on any phone. It watches connected machine data and texts the right worker the moment something starts drifting, before it becomes downtime. And it compounds: most of the industrial world runs on undocumented knowledge, and Sidekick is the first thing that documents it as a byproduct of the work itself. Every interaction contributes to a searchable knowledge base the company owns, so tribal knowledge stops walking out the door when veterans retire.",
       "website": "https://textsidekick.com/",
       "industries": [
         "B2B",
@@ -22413,10 +22419,10 @@
         "Manufacturing and Robotics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Machine Learning",
-        "Robotics"
+        "Robotics",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
