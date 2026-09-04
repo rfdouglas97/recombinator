@@ -58971,6 +58971,90 @@
     "vertical_normalize_method": "assignment_explicit"
   },
   {
+    "slug": "onepatch",
+    "name": "OnePatch",
+    "website": "https://onepatch.dev",
+    "yc_profile_url": "https://www.ycombinator.com/companies/onepatch",
+    "batch": "Fall 2026",
+    "one_liner": "Automate on-call at agent-scale.",
+    "description_combined": "Automate on-call at agent-scale.\n\nOnePatch is a forward-deployed AI SRE. It instruments your services, watches how they actually behave in prod, catches incidents, and drives each one to resolution. Think Datadog, except it doesn&#x27;t stop at telling you something broke: it keeps going until the fix is shipped.",
+    "industry_sub_vertical": "AI-driven incident detection and autonomous remediation for SRE teams",
+    "canonical_vertical_id": "devtools.incident-response",
+    "vertical_id": "devtools.incident-response",
+    "vertical_label": "Incident management & on-call orchestration",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "incident_detection_resolution",
+      "autonomous_sre_agent",
+      "production_monitoring_automation",
+      "end_to_end_remediation"
+    ],
+    "what_they_sell": "An AI-native SRE agent that continuously monitors production services, detects incidents in real-time, diagnoses root causes, and autonomously executes fixes (code patches, deployments, rollbacks) without human intervention.",
+    "ai_play": "AI replaces the on-call engineer's manual workflow: instead of humans detecting, triaging, diagnosing, and remediating incidents, an autonomous agent observes production behavior, learns service patterns, and drives incidents to resolution end-to-end. Combines observability (like Datadog) with agentic remediation (beyond alerting).",
+    "who_pays": "Engineering teams, DevOps/SRE organizations, and platform engineering leaders at mid-to-large tech companies seeking to reduce on-call burden and incident resolution time.",
+    "confidence": 0.82,
+    "rationale": "OnePatch is a vertical SaaS product deployed into the DevOps/SRE workflow. It's not infrastructure (not a runtime or observability platform for other agents); it IS the end-product sold to engineering teams. The AI agent is the core SKU — it replaces human on-call engineers by autonomously detecting, diagnosing, and remediating incidents. This is a clear fit for vertical-agentic-workflow-saas (workflow replacement in a specific vertical: SRE). Secondary phenotype agent-observability-evals captures the observability + evaluation component (detecting and assessing incidents), but the primary value is autonomous workflow execution, not just monitoring.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "DevOps",
+      "Automation",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 497538,
+        "full_name": "Shalin Patel",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder and CEO of OnePatch (YC F26)\nOn-call at nine engineering teams across pre-seed to series F,  Waterloo CS.",
+        "linkedin_url": "https://www.linkedin.com/in/shalin1patel/",
+        "twitter_url": "https://x.com/Shalin__Patel",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d251cf11d6bf1f224b823155967110c06e3d6cb9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMBNWZFZU%2F20260904%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260904T172121Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJIMEYCIQD6gkDv2PFaGeopqpID2DOHzaPYpSymzSc14yvfQpfj8gIhAJvkXzFCdhtYjGz8yWvAZuQhL%2FppzSQOGMgETMfM3LTgKu4DCPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxBdNED8eOZCTA5riwqwgPeryA5beO2YkBkfAjtxI02Iqn7zJ3UkgJTLYUNsuHV4fglU7VhOlb7YBUCYZqyCq5VDjK2OuPM1sr3of7G7hbIHAYK9VTlTXvO1eQpKhRK%2BP9gB2sxtX39Ad8O%2F95Bp4pDR4Xbcv14qg%2BC3F4Bgk9og9JlWV3APi2G6jgV4FiCi1cEznhsWB0OhpmbpmDnRL5s%2BRRWbnIrbZqgWobeR6DHfsu973tyTBhnt4K4NxhGXBZ%2FxEnOtmeTau%2Fu%2Bu6Nzq48TF2icrfEXoHGwwaJ1C5e0h8OTBErNHZUwJbd05cH0ToX88Kg7cqy7GyEhlwjeAr0ZBeZNGeVbWP7LZXwwi4aIIERLiEdGfbhXl1Y7dMVYIxLSvjJgNZlWxGeKjYDjxgljLowrl%2F6pJMdTwilsg5HY0g23CM8Q0QfpnZ8vicAGhg23J5JgBOvB8BDECUhiGVQRI982WeyjngXZoSiDDvsj92HItoTnEcfCr461lyDRljJ%2FwGR2po%2BQlnGfOaJpcgZf7KNQ1Zb3Fh0ZQM94YknOc5CG%2FaUBEFQC9vuqvcvceuTy1mVIUgnyy2zizBJ6f8FaGPNzeM4PTa1v6iC%2Brr%2B2Owwh%2FDr1AY6pAHAuEcG%2BxtTUrUvd0%2FOV8J9%2BDcfna71%2BAmebzBEsQ7JAG9NW2wNuurfBvFp9cQuNkKEnYFulEJPhkYSrYvpSyUI3JqYy7UJthjWLeOzBb3jUbpHAHdNLpwg3C2YF%2BB0O1pYmJPN818qRO6Ipmy4XIk14bSD%2Fn9oAz4mmuaLRSsvkutL25i2%2FhiC8QwZoROq7bBQBm%2BfjgkiNJaiQ5d%2BIodF2AoYvQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3aa10c5b253c5673c056ec54c2bab7ec60ce46161ca5c2e2b37b3cadda077a44",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "OnePatch",
+          "href": "https://www.ycombinator.com/companies/onepatch"
+        }
+      },
+      {
+        "user_id": 3222420,
+        "full_name": "Deep Utkarsh",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at OnePatch (YC F26). Previously built GTM agents at Pocus, acquired by Apollo.io. Built AI platform and query compiler at Sigma Computing, including Lookups (VLDB 2022 paper). BS Cognitive Science from Tufts.",
+        "linkedin_url": "https://linkedin.com/in/deepanshuu",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d3e5720bac46c358885356fb1791792bb7f16f0e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMBNWZFZU%2F20260904%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260904T172121Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaCXVzLXdlc3QtMiJIMEYCIQD6gkDv2PFaGeopqpID2DOHzaPYpSymzSc14yvfQpfj8gIhAJvkXzFCdhtYjGz8yWvAZuQhL%2FppzSQOGMgETMfM3LTgKu4DCPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxBdNED8eOZCTA5riwqwgPeryA5beO2YkBkfAjtxI02Iqn7zJ3UkgJTLYUNsuHV4fglU7VhOlb7YBUCYZqyCq5VDjK2OuPM1sr3of7G7hbIHAYK9VTlTXvO1eQpKhRK%2BP9gB2sxtX39Ad8O%2F95Bp4pDR4Xbcv14qg%2BC3F4Bgk9og9JlWV3APi2G6jgV4FiCi1cEznhsWB0OhpmbpmDnRL5s%2BRRWbnIrbZqgWobeR6DHfsu973tyTBhnt4K4NxhGXBZ%2FxEnOtmeTau%2Fu%2Bu6Nzq48TF2icrfEXoHGwwaJ1C5e0h8OTBErNHZUwJbd05cH0ToX88Kg7cqy7GyEhlwjeAr0ZBeZNGeVbWP7LZXwwi4aIIERLiEdGfbhXl1Y7dMVYIxLSvjJgNZlWxGeKjYDjxgljLowrl%2F6pJMdTwilsg5HY0g23CM8Q0QfpnZ8vicAGhg23J5JgBOvB8BDECUhiGVQRI982WeyjngXZoSiDDvsj92HItoTnEcfCr461lyDRljJ%2FwGR2po%2BQlnGfOaJpcgZf7KNQ1Zb3Fh0ZQM94YknOc5CG%2FaUBEFQC9vuqvcvceuTy1mVIUgnyy2zizBJ6f8FaGPNzeM4PTa1v6iC%2Brr%2B2Owwh%2FDr1AY6pAHAuEcG%2BxtTUrUvd0%2FOV8J9%2BDcfna71%2BAmebzBEsQ7JAG9NW2wNuurfBvFp9cQuNkKEnYFulEJPhkYSrYvpSyUI3JqYy7UJthjWLeOzBb3jUbpHAHdNLpwg3C2YF%2BB0O1pYmJPN818qRO6Ipmy4XIk14bSD%2Fn9oAz4mmuaLRSsvkutL25i2%2FhiC8QwZoROq7bBQBm%2BfjgkiNJaiQ5d%2BIodF2AoYvQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=793a6cb7077fa99f511440a6e480b9044fdd2a8b5cf82c5bbfe7cddeb623062d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "OnePatch",
+          "href": "https://www.ycombinator.com/companies/onepatch"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-04T17:21:30.988Z",
+    "classified_at": "2026-09-04T17:21:30.988Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
+  },
+  {
     "slug": "onesignal",
     "name": "OneSignal",
     "website": "https://onesignal.com",
