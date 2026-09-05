@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-04T17:22:00.160Z",
+  "generated_at": "2026-09-05T16:32:16.998Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1413,
+    "assignment_count": 1418,
     "mapped_verticals": 243,
     "observed_cells": 478,
     "total_verticals": 525,
@@ -75,6 +75,7 @@
         "projectx",
         "radiusbrowser",
         "ramain",
+        "reason-machines",
         "reasonblocks",
         "redapto",
         "replicas",
@@ -396,6 +397,7 @@
         "kinter",
         "mesh-2",
         "mod-ai",
+        "nivara",
         "procindex",
         "rational",
         "saldor",
@@ -676,6 +678,27 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.manufacturing.automation",
+      "vertical_label": "Manufacturing & logistics automation",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "antropi-robotics",
+        "bramante",
+        "dawn-industries",
+        "eden-robotics",
+        "neuron-industries",
+        "nox-metals",
+        "parametric",
+        "prototypingio",
+        "remy-ai",
+        "sinter-systems",
+        "twentyfour26",
+        "ultrasonium"
+      ]
+    },
+    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "ai-infrastructure.gpu-deploy",
@@ -713,26 +736,6 @@
         "lightsprint",
         "rev1",
         "rovr"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.manufacturing.automation",
-      "vertical_label": "Manufacturing & logistics automation",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "antropi-robotics",
-        "bramante",
-        "dawn-industries",
-        "eden-robotics",
-        "neuron-industries",
-        "nox-metals",
-        "parametric",
-        "prototypingio",
-        "remy-ai",
-        "twentyfour26",
-        "ultrasonium"
       ]
     },
     {
@@ -1024,6 +1027,21 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.voice",
+      "vertical_label": "Enterprise voice & speech infrastructure",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "bolna-ai",
+        "hopper",
+        "kalpa-labs",
+        "kugelaudio",
+        "pinch",
+        "uplift-ai"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.legal.regulatory-consulting",
@@ -1079,20 +1097,6 @@
         "edotenv",
         "gutgutgoose",
         "monte"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.voice",
-      "vertical_label": "Enterprise voice & speech infrastructure",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "bolna-ai",
-        "kalpa-labs",
-        "kugelaudio",
-        "pinch",
-        "uplift-ai"
       ]
     },
     {
@@ -1509,6 +1513,19 @@
         "atomarine",
         "maritime-fusion",
         "zephyr-fusion"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "dreamscale-labs",
+        "enact",
+        "praxis-ai-2",
+        "robocurve"
       ]
     },
     {
@@ -2032,18 +2049,6 @@
         "asimov",
         "praxis-robotics",
         "vision-lab"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "enact",
-        "praxis-ai-2",
-        "robocurve"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-04T17:21:21.024Z",
+  "synced_at": "2026-09-05T16:30:53.937Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1283,
+  "company_count": 1286,
   "companies": [
     {
       "slug": "10x",
@@ -1461,27 +1461,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1778992825
-    },
-    {
-      "slug": "ara",
-      "name": "Ara",
-      "batch": "Spring 2026",
-      "one_liner": "The Cloud Coding Agent",
-      "long_description": "Ara is the cloud coding agent — an autonomous software engineer for software teams. It watches work in progress, plans the next step, and executes tasks with its own computer, background agents, persistent memory, and reusable skills. Unite your team that uses Claude and Codex and other  coding subscriptions to code together in the browser. Ara turns coding into a closed loop: suggest, act, learn, improve.\r\n\r\n",
-      "website": "https://ara.so",
-      "industries": [
-        "B2B",
-        "Productivity"
-      ],
-      "tags": [
-        "Developer Tools",
-        "Enterprise Software",
-        "Cloud Computing"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1775160352
     },
     {
       "slug": "aravolta",
@@ -3051,7 +3030,7 @@
         "Healthcare"
       ],
       "tags": [],
-      "team_size": 7,
+      "team_size": 9,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1774518776
@@ -5291,7 +5270,7 @@
         "Infrastructure"
       ],
       "tags": [],
-      "team_size": 4,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1768812885
@@ -5607,15 +5586,15 @@
       "name": "CopyCat",
       "batch": "Winter 2025",
       "one_liner": "AI agents built for insurance brokers",
-      "long_description": "CopyCat builds AI specifically for the commercial insurance industry. We save brokers 5-10hrs hours a week by automating repetitive CSR and Sales tasks.",
+      "long_description": "CopyCat builds AI for commercial insurance brokers. It turns carrier quotes and policy documents into branded proposals, quote comparisons, and coverage reviews, and helps teams check policies and review insurance contracts, flagging discrepancies and documenting findings with source references. ",
       "website": "https://runcopycat.com",
       "industries": [
         "Fintech",
         "Insurance"
       ],
       "tags": [
-        "Insurance",
-        "AI"
+        "Artificial Intelligence",
+        "Insurance"
       ],
       "team_size": 2,
       "location": "Seattle, WA, USA",
@@ -6675,15 +6654,15 @@
       "slug": "dock",
       "name": "Dock",
       "batch": "Summer 2026",
-      "one_liner": "Multiplayer workspace for AI teammates and humans",
+      "one_liner": "Multiplayer workspace for agents and humans",
       "long_description": "Dock is a multiplayer agent workspace where you spin up teams of specialized, proactive agents that can do the work of entire departments. They communicate, unblock each other, and manage each other to get work done, so you're not the bottleneck babysitting a dozen chat windows.",
       "website": "https://trydock.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -6885,6 +6864,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1786646316
+    },
+    {
+      "slug": "dreamscale-labs",
+      "name": "Dreamscale Labs",
+      "batch": "Fall 2026",
+      "one_liner": "Running robot brains in the cloud",
+      "long_description": "Dreamscale Labs is building the fastest cloud inference platform for robotics. As complex physical AI models become difficult to fit on expensive on-robot GPUs, we let users offload inference to the cloud and serve them with real-time latency. So far, we've hit 40-50% lower latency than existing neoclouds.\r\n",
+      "website": "https://dreamscalelabs.com",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Robotics",
+        "Infrastructure"
+      ],
+      "team_size": 4,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1788577910
     },
     {
       "slug": "duranium",
@@ -9573,7 +9573,7 @@
         "Hardware"
       ],
       "team_size": 1,
-      "location": "Los Angeles, CA, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1786491305
     },
@@ -9832,6 +9832,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1782199103
+    },
+    {
+      "slug": "hopper",
+      "name": "Hopper",
+      "batch": "Fall 2026",
+      "one_liner": "Fast inference for voice",
+      "long_description": "The best voice model is small, specialized, and yours. Hopper post-trains STT, TTS, and speech LLMs on your production calls, serves them at 100ms to first token (GPT-4.1 is ~700ms), and keeps improving them against your live traffic.",
+      "website": "https://withhopper.com",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Infrastructure",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1788561875
     },
     {
       "slug": "hub",
@@ -11953,13 +11973,15 @@
       "slug": "levocred-ai",
       "name": "Levocred AI",
       "batch": "Summer 2026",
-      "one_liner": "AI Workforce for lenders",
-      "long_description": "Levocred builds and deploys AI agents inside credit funds, fintechs and banks to automate workflows like back-office tasks, portfolio monitoring, compliance and underwriting. Live across multiple lending teams, running ~$1Bn in receivables through the platform.",
+      "one_liner": "Foundation Model for Lenders",
+      "long_description": "Levocred puts AI agents inside lenders. They run the loan book and price new deals; one fund cut time to price from a week to two hours and replaced two analysts' work. \r\nEvery book we price trains a model for the $22T of US loans that never trade. That model becomes the exchange.",
       "website": "https://levocred.com/",
       "industries": [
         "Fintech"
       ],
       "tags": [
+        "Finance",
+        "B2B",
         "Enterprise Software"
       ],
       "team_size": 2,
@@ -13350,7 +13372,7 @@
         "Marketing"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 1,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1778812476
@@ -13612,11 +13634,11 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
-        "LegalTech",
-        "AI"
+        "LegalTech"
       ],
-      "team_size": 1,
+      "team_size": 2,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1753307750
@@ -14282,8 +14304,8 @@
       "slug": "moving-atoms",
       "name": "Moving Atoms",
       "batch": "Summer 2026",
-      "one_liner": "Solving the Data Problem in Robotics, #1 on Physics-IQ",
-      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics, already tops the Physics IQ benchmark.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs train their robots using GPUs instead of relying on human collected manual data that is slow and expensive.\r\nIn unseen and hard to replicate environments, this is the only path to getting ANY training data.",
+      "one_liner": "World Models for training and evaluating robots",
+      "long_description": "Our first model, Atom 1, pre-trained on the internets video, and fine tuned for physics.\r\nIt has been action conditioned, so you can simulate robot actions within it.\r\nThis lets Robot Labs train their robots using GPUs instead of relying on human collected manual data that is slow and expensive.\r\nIn unseen and hard to replicate environments, this is the only path to getting ANY training data.",
       "website": "https://movingatoms.ai/",
       "industries": [
         "Industrials",
@@ -14584,18 +14606,18 @@
       "name": "Neuromorphic",
       "batch": "Summer 2026",
       "one_liner": "Building robots to automate wetlabs",
-      "long_description": "We are building robots that can work autonomously in existing wet labs. Unlike traditional lab automation, which requires dedicated equipment and fixed workflows, our robot moves between workstations, manipulates existing scientific equipment, transports lab materials, and executes experiments using the same lab infrastructure as a human technician. We make the robots easy to manage through natural interfaces like Slack, email, and phone. Our goal is to make deploying robots in wet labs as easy as onboarding a new employee.",
+      "long_description": "We are building robots that can work autonomously in existing wet labs. Unlike traditional lab automation, which requires dedicated equipment and fixed workflows, our robot moves between workstations, manipulates existing scientific equipment, transports lab materials, and executes experiments using the same lab infrastructure as a human technician. We make the robots easy to manage through natural interfaces like Slack, email, and phone. Our goal is to make deploying robots in wet labs as easy as onboarding a new employee, and to accelerate scientific research!",
       "website": "https://www.neuromorphic.vision/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
         "B2B",
-        "Biotech",
-        "AI"
+        "Biotech"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -14729,6 +14751,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1738144366
+    },
+    {
+      "slug": "nivara",
+      "name": "Nivara",
+      "batch": "Fall 2025",
+      "one_liner": "AI agents for the finance back office.",
+      "long_description": "We’re building AI agents for finance teams. They handle repetitive work across email and accounting systems - processing documents, following up on open items, reconciling records, and resolving exceptions while people retain approval and oversight.",
+      "website": "https://getnivara.com/",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "tags": [
+        "B2B",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1761077242
     },
     {
       "slug": "nixo",
@@ -14885,13 +14927,13 @@
         "Healthcare"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Health Tech",
         "Logistics",
-        "Healthcare"
+        "Healthcare",
+        "AI"
       ],
-      "team_size": 2,
+      "team_size": 3,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1761871626
@@ -15310,7 +15352,7 @@
       "slug": "onecli",
       "name": "OneCLI",
       "batch": "Summer 2026",
-      "one_liner": "Give every employee a secured, sandboxed pro assistant agent",
+      "one_liner": "The open source AI teammates for your company.",
       "long_description": "OneCLI is an open source agent harness for teams. Each employee gets their own sandboxed pro assistant agent, connected to their GitHub, Gmail, Notion, Dropbox, or CRM right from the chat/Slack, while the whole workspace runs under one policy your admins control.\r\n\r\nAgents never hold real secrets: the credential is injected at the network layer, per request, after the call is authorized. You can't steal what isn't there.",
       "website": "https://onecli.sh",
       "industries": [
@@ -15896,8 +15938,8 @@
       "slug": "osmaura",
       "name": "Osmaura",
       "batch": "Summer 2026",
-      "one_liner": "AI-native managed legal services for businesses",
-      "long_description": "We are the front door to quality, transparent legal services for businesses. We identify when a company may need legal help, connect it with the right specialized firm, and manage the client experience from intake through future matters.\r\n\r\nWe grew 0 -> 17.5k MRR in less than 5 weeks.\r\n\r\nFor our partner law firms, we're here to help them grow and care for their clients while they focus on what they do best. Lawyers are trained to practice law - not to prospect, sell, and manage clients.",
+      "one_liner": "AI-native client care for corporate law firms",
+      "long_description": "We connect to a firm's internal client and relationship data to surface client engagement, cross selling, upselling, and new client opportunities that a firm is well positioned to take advantage of. We manage the client experience from intake through future matters.\r\n\r\nWe grew 0 -> 17.5k MRR in less than 5 weeks.\r\n\r\nWe're here to help law firms grow and care for their clients while they focus on what they do best. Lawyers are trained to practice law - not to prospect, sell, and manage clients.",
       "website": "https://osmaura.com",
       "industries": [
         "B2B"
@@ -18452,6 +18494,27 @@
       "launched_at": 1750729944
     },
     {
+      "slug": "reason-machines",
+      "name": "Reason Machines",
+      "batch": "Spring 2026",
+      "one_liner": "The coding agent that can access and reason across any machine. ",
+      "long_description": "Billions of machines are left untouched by agents and work individually. We connect them to unlock multiplayer cloud coding agents for work like engineering, math and research.\r\n\r\n",
+      "website": "https://reasonmachines.ai",
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "tags": [
+        "Developer Tools",
+        "Enterprise Software",
+        "Cloud Computing"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1775160352
+    },
+    {
       "slug": "reasonblocks",
       "name": "ReasonBlocks",
       "batch": "Spring 2026",
@@ -19170,8 +19233,8 @@
       "slug": "rivet-design",
       "name": "Rivet",
       "batch": "Fall 2025",
-      "one_liner": "Visual editor to design in production code",
-      "long_description": "Rivet is a visual AI editor for product designers to make UI changes.  Designers ship the changes they make directly to their codebase. \r\n\r\nThe most painful problem for designers today is that their vision doesn't match code.  Rivet replaces slow collaboration between designers and engineers by letting designers just do it themselves. Rivet's editor helps turn product designers into design engineers.\r\n \r\nDesign-led companies in YC are Rivet customers.\r\n\r\nLearn more at rivet.design",
+      "one_liner": "Explore dozens of design directions with your agent",
+      "long_description": "Rivet helps designers explore dozens of directions from their agent.  \r\n\r\nLearn more at rivet.design",
       "website": "https://rivet.design/",
       "industries": [
         "B2B",
@@ -20449,6 +20512,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1786468833
+    },
+    {
+      "slug": "sinter-systems",
+      "name": "Sinter",
+      "batch": "Fall 2026",
+      "one_liner": "Accelerating scaled plastics with additive technologies",
+      "long_description": "Sinter is creating a faster and radically more affordable American plastics pipeline, helping iteration heavy hardware teams evolve from additive prototypes to production parts on week-scale timelines.",
+      "website": "https://sinter.systems",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "3D Printing",
+        "Manufacturing",
+        "Advanced Materials"
+      ],
+      "team_size": 2,
+      "location": "El Segundo, CA, USA",
+      "status": "Active",
+      "launched_at": 1788569774
     },
     {
       "slug": "sira",
@@ -21754,7 +21838,7 @@
       "slug": "talentpluto",
       "name": "Pluto",
       "batch": "Summer 2026",
-      "one_liner": "Voice agent that learns about professionals and makes them searchable",
+      "one_liner": "LinkedIn for agents",
       "long_description": "Resumes made careers readable. LinkedIn made them filterable. Pluto makes them searchable.\r\n\r\nProfessionals spend 10 minutes talking to Pluto's voice agent about what they've done, what they're great at, and what they want next. Pluto turns that into a structured picture of who someone actually is, capturing the competency and intent that resumes and LinkedIn don't.\r\n\r\nWhen companies and AI agents go looking to hire, Pluto makes the right people discoverable.\r\n\r\n25K+ professionals have shared their career context with Pluto, and 50+ companies, including Mercor, Warp, and Rho, use it to find and reach the right people. Long-term, we're building the LinkedIn for agents.\r\n",
       "website": "https://talentpluto.com",
       "industries": [
@@ -21762,7 +21846,7 @@
         "Recruiting and Talent"
       ],
       "tags": [
-        "AI",
+        "Artificial Intelligence",
         "Careers",
         "Conversational AI"
       ],
@@ -22143,26 +22227,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1770866075
-    },
-    {
-      "slug": "terrain",
-      "name": "Terrain",
-      "batch": "Fall 2025",
-      "one_liner": "AI native GTM platform for the physical economy",
-      "long_description": "Terrain is an AI native go-to-market platform for teams selling to the physical economy - contractors, restaurants, etc.",
-      "website": "https://getnivara.com/",
-      "industries": [
-        "B2B",
-        "Sales"
-      ],
-      "tags": [
-        "B2B",
-        "AI"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1761077242
     },
     {
       "slug": "terranox-ai",
@@ -22713,7 +22777,7 @@
       ],
       "tags": [],
       "team_size": 0,
-      "location": "San Francisco, CA, USA",
+      "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1774744766
     },
@@ -22807,7 +22871,7 @@
       "slug": "traceforce",
       "name": "Traceforce",
       "batch": "Summer 2026",
-      "one_liner": "Securing AI native apps directly on devices",
+      "one_liner": "CrowdStrike for AI Agents",
       "long_description": "AI apps such as ChatGPT and Claude have become part of everyone's daily workflow, but they introduce new security risks that traditional security tools weren't built to handle. Security teams at companies from startups to Fortune 500s, are struggling to keep up.\r\n\r\nTraceforce gives a company’s security team visibility of how AI apps are being used across company’s devices, and the ability to detect and prevent security breaches and unsafe actions as early as possible.",
       "website": "https://www.traceforce.ai",
       "industries": [
@@ -23823,7 +23887,7 @@
     {
       "slug": "veltha",
       "name": "Veltha",
-      "batch": "Summer 2026",
+      "batch": "Fall 2026",
       "one_liner": "AI native TPA starting with workers comp",
       "long_description": "Veltha is the AI native TPA starting with workers comp. We handle claim for insurance providers end to end.\r\n\r\nLearn more at https://veltha.ai",
       "website": "https://veltha.ai/",
@@ -23945,13 +24009,16 @@
       "name": "Verdant",
       "batch": "Summer 2026",
       "one_liner": "AI-native planning & permitting software for local gov",
-      "long_description": "Verdant is building the AI infrastructure for local government, and we’re starting with modern planning & permitting software.\r\n\r\nWe help governments write developer-friendly laws, then review permit applications under those rules to build faster.",
+      "long_description": "Verdant is building the AI infrastructure for local government, and we’re starting with the highest volume workflow in local gov that requires judgement: permitting.\r\n\r\nWe are the system of record and the analysis layer on top so every decision a government makes get made on better information, faster. In just two months we've processed 200+ permits and gone from 0 to 4 paid deployments across 4 states.",
       "website": "https://www.verdantapp.com/",
       "industries": [
         "Government"
       ],
       "tags": [
-        "GovTech"
+        "GovTech",
+        "Real Estate",
+        "Construction",
+        "Housing"
       ],
       "team_size": 2,
       "location": "Washington, DC, USA",

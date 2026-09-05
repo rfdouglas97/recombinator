@@ -26452,6 +26452,120 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "dreamscale-labs",
+    "name": "Dreamscale Labs",
+    "website": "https://dreamscalelabs.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/dreamscale-labs",
+    "batch": "Fall 2026",
+    "one_liner": "Running robot brains in the cloud",
+    "description_combined": "Running robot brains in the cloud\n\nDreamscale Labs is building the fastest cloud inference platform for robotics. As complex physical AI models become difficult to fit on expensive on-robot GPUs, we let users offload inference to the cloud and serve them with real-time latency. So far, we&#x27;ve hit 40-50% lower latency than existing neoclouds.\r\n",
+    "industry_sub_vertical": "Cloud inference platform for robotics AI model offloading",
+    "canonical_vertical_id": "industrials.robotics.general",
+    "vertical_id": "industrials.robotics.general",
+    "vertical_label": "General-purpose robotics intelligence",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "edge-inference-runtime",
+    "phenotype_primary_label": "Edge Inference Runtime & Optimization",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "cloud_inference_offloading",
+      "latency_optimization",
+      "real_time_model_serving",
+      "robotics_compute_abstraction"
+    ],
+    "what_they_sell": "Cloud-native inference platform optimized for robotics workloads. Enables robots to offload complex AI model inference to cloud infrastructure while maintaining real-time latency constraints. Abstracts away GPU provisioning, model optimization, and network routing.",
+    "ai_play": "AI inference optimization through intelligent model compression, batching, and network-aware routing. Platform compresses frontier robotics models for cloud serving and optimizes latency through edge-cloud co-design, enabling robots to run sophisticated perception and control models without expensive on-device GPUs.",
+    "who_pays": "Robotics manufacturers, autonomous vehicle companies, industrial automation firms, and robotics startups seeking to deploy complex AI models at scale without capital-intensive per-robot GPU investment.",
+    "confidence": 0.82,
+    "rationale": "Dreamscale Labs is a cloud inference infrastructure layer, not a robotics product or vertical automation tool. They solve the 'model-to-hardware' deployment problem: complex AI models (vision, control) are too large/expensive for on-robot GPUs, so they optimize cloud serving with sub-100ms latency. This is infrastructure-as-a-service for robotics inference. Primary fit is edge-inference-runtime (model optimization + device-agnostic runtime for edge/cloud hybrid). Secondary fit is infrastructure-optimization-ai (real-time latency optimization in distributed networks). Not robotics-embodied-ai (they don't build robots) or ai-enabled-physical-systems (they're not the physical system, they're the compute layer enabling it).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Robotics",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 4,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3499827,
+        "full_name": "Eric Ren",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder @Dreamscale Labs, building fast cloud inference for robotics. \nPrev. AI safety research.",
+        "linkedin_url": "https://linkedin.com/in/e-ren",
+        "twitter_url": "https://x.com/eternaI_entropy",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3f04c2fa639578244fce5c2b020798bddbd1df4d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKIIF6OHP%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163124Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJIMEYCIQCxIILGzvmkrgLXE6t%2Byo%2BPhpkKGzONFP1L96xkmMNZSgIhALFzrz8i0MRd4nZgMA0WgVEMxHfR52dizbK3uuqEApReKuUDCA0QABoMMDA2MjAxODExMDcyIgzyshl6Pm4q9pLEC2wqwgNVORqWPhyjBOuEKo7AqZGpx2L5OMDfMuGJwVjH6djK9uQsdP9pl8iPFa9C8yjh7XhInJRI2VRQfT2J95nmPVlEOdICyAVjNQq6QgxlFJuOtWmuw818PEYYsMZ1KqU7XndG%2FRVbFKT%2FeL7oN7IIe%2FFgWCBFYcdaD6Lt%2Bo1zHlT0bZDrIQyoAeZFq0LcQpHG6RoEEfXL55FdpRtDZSFh3NE9rfF%2Fzq8tlkOzXRjXi4JcscJztoHNKaUkvMdqpgxgiQemnmf966ikbODoJ6aBpbB4Ig9mO2J78buzGaYaBTdQIoOBpsBpPiC%2FNCXiQrSADnQledY%2BOYIcQz6n9i9g53hwxkMSWN7BSxlEXbOc5bZg2IpyHRRI8gyo8JQTBi%2F7zACCbdwFauylEw7cnArYExVgC%2B2UL98kwSGErFKMUm0MBVzKY9684YjWa1IXvX6FYuDIgF8N2ehV8ZAh84dtvJwOi2LM3xDb%2F2o0xvausI4U6GwE2nvWfvhy%2BEcw0iEIwAcbKKf%2F2%2BgxqRZOeUfaO0TBq3IgjP5AR2VKFeSX%2FVyhopqJDaM476zit%2F6B8L%2Fsoa%2BuV2T8uMCubWllANRyNJAwI60wnYzw1AY6pAGDDzKNTuaVoicnTdKpIvj5k0SjnrHzsL10YFbhbOcZdkMRlPFkGcpZ3PZsHDCgYfh5niINsf0m%2BbbKOGxGUOv8hQh316xdskNF%2BH04nxkagCZWtBNXoqchvey8PLVmdx9RSRmM3Oy15SCUo8tr4fCUZns4b1%2FGgwTlTFRt5YW4M2s8n3QGRYnTvO%2Fvdp%2FVIQfznuyKHHTJ9O3SgRw%2BwRNpn36bag%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f178493b8c70ee8c4289e0fba5e6f0cbb4dd08db760af84a487a4208c9bd4305",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Dreamscale Labs",
+          "href": "https://www.ycombinator.com/companies/dreamscale-labs"
+        }
+      },
+      {
+        "user_id": 3612640,
+        "full_name": "Kevin Lin",
+        "title": "Founder/Chief Scientist",
+        "is_active": true,
+        "bio": "Co-founder & Chief Scientist at Dreamscale Labs (YC F26). 2x IChO silvers. Former quant turned roboticist.",
+        "linkedin_url": "https://www.linkedin.com/in/kevin-lin-760945225",
+        "twitter_url": "https://x.com/KDog112358",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3cb1cdd011a18c5f4a990d27be41f778083f05fe.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKIIF6OHP%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163124Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJIMEYCIQCxIILGzvmkrgLXE6t%2Byo%2BPhpkKGzONFP1L96xkmMNZSgIhALFzrz8i0MRd4nZgMA0WgVEMxHfR52dizbK3uuqEApReKuUDCA0QABoMMDA2MjAxODExMDcyIgzyshl6Pm4q9pLEC2wqwgNVORqWPhyjBOuEKo7AqZGpx2L5OMDfMuGJwVjH6djK9uQsdP9pl8iPFa9C8yjh7XhInJRI2VRQfT2J95nmPVlEOdICyAVjNQq6QgxlFJuOtWmuw818PEYYsMZ1KqU7XndG%2FRVbFKT%2FeL7oN7IIe%2FFgWCBFYcdaD6Lt%2Bo1zHlT0bZDrIQyoAeZFq0LcQpHG6RoEEfXL55FdpRtDZSFh3NE9rfF%2Fzq8tlkOzXRjXi4JcscJztoHNKaUkvMdqpgxgiQemnmf966ikbODoJ6aBpbB4Ig9mO2J78buzGaYaBTdQIoOBpsBpPiC%2FNCXiQrSADnQledY%2BOYIcQz6n9i9g53hwxkMSWN7BSxlEXbOc5bZg2IpyHRRI8gyo8JQTBi%2F7zACCbdwFauylEw7cnArYExVgC%2B2UL98kwSGErFKMUm0MBVzKY9684YjWa1IXvX6FYuDIgF8N2ehV8ZAh84dtvJwOi2LM3xDb%2F2o0xvausI4U6GwE2nvWfvhy%2BEcw0iEIwAcbKKf%2F2%2BgxqRZOeUfaO0TBq3IgjP5AR2VKFeSX%2FVyhopqJDaM476zit%2F6B8L%2Fsoa%2BuV2T8uMCubWllANRyNJAwI60wnYzw1AY6pAGDDzKNTuaVoicnTdKpIvj5k0SjnrHzsL10YFbhbOcZdkMRlPFkGcpZ3PZsHDCgYfh5niINsf0m%2BbbKOGxGUOv8hQh316xdskNF%2BH04nxkagCZWtBNXoqchvey8PLVmdx9RSRmM3Oy15SCUo8tr4fCUZns4b1%2FGgwTlTFRt5YW4M2s8n3QGRYnTvO%2Fvdp%2FVIQfznuyKHHTJ9O3SgRw%2BwRNpn36bag%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=fc8ed1f026929503ece88aeb8117141d6b584369278cc1fab2f39118e82dd53d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Dreamscale Labs",
+          "href": "https://www.ycombinator.com/companies/dreamscale-labs"
+        }
+      },
+      {
+        "user_id": 1446496,
+        "full_name": "Antoine Nguyen",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder & CTO at Dreamscale Labs (YC F26). Previously VLA quantization researcher at UTS.",
+        "linkedin_url": "https://linkedin.com/in/antoine-n-633b84200",
+        "twitter_url": "https://x.com/AntoineNeedGPUs",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/65178e94b80417e23e068039b7c0d6457cd4bca5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKIIF6OHP%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163124Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJIMEYCIQCxIILGzvmkrgLXE6t%2Byo%2BPhpkKGzONFP1L96xkmMNZSgIhALFzrz8i0MRd4nZgMA0WgVEMxHfR52dizbK3uuqEApReKuUDCA0QABoMMDA2MjAxODExMDcyIgzyshl6Pm4q9pLEC2wqwgNVORqWPhyjBOuEKo7AqZGpx2L5OMDfMuGJwVjH6djK9uQsdP9pl8iPFa9C8yjh7XhInJRI2VRQfT2J95nmPVlEOdICyAVjNQq6QgxlFJuOtWmuw818PEYYsMZ1KqU7XndG%2FRVbFKT%2FeL7oN7IIe%2FFgWCBFYcdaD6Lt%2Bo1zHlT0bZDrIQyoAeZFq0LcQpHG6RoEEfXL55FdpRtDZSFh3NE9rfF%2Fzq8tlkOzXRjXi4JcscJztoHNKaUkvMdqpgxgiQemnmf966ikbODoJ6aBpbB4Ig9mO2J78buzGaYaBTdQIoOBpsBpPiC%2FNCXiQrSADnQledY%2BOYIcQz6n9i9g53hwxkMSWN7BSxlEXbOc5bZg2IpyHRRI8gyo8JQTBi%2F7zACCbdwFauylEw7cnArYExVgC%2B2UL98kwSGErFKMUm0MBVzKY9684YjWa1IXvX6FYuDIgF8N2ehV8ZAh84dtvJwOi2LM3xDb%2F2o0xvausI4U6GwE2nvWfvhy%2BEcw0iEIwAcbKKf%2F2%2BgxqRZOeUfaO0TBq3IgjP5AR2VKFeSX%2FVyhopqJDaM476zit%2F6B8L%2Fsoa%2BuV2T8uMCubWllANRyNJAwI60wnYzw1AY6pAGDDzKNTuaVoicnTdKpIvj5k0SjnrHzsL10YFbhbOcZdkMRlPFkGcpZ3PZsHDCgYfh5niINsf0m%2BbbKOGxGUOv8hQh316xdskNF%2BH04nxkagCZWtBNXoqchvey8PLVmdx9RSRmM3Oy15SCUo8tr4fCUZns4b1%2FGgwTlTFRt5YW4M2s8n3QGRYnTvO%2Fvdp%2FVIQfznuyKHHTJ9O3SgRw%2BwRNpn36bag%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1927e5d474f0137cba4d9f257753f4c0b8afd9bbd60d3502fef13e7f97c80d6b",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Dreamscale Labs",
+          "href": "https://www.ycombinator.com/companies/dreamscale-labs"
+        }
+      },
+      {
+        "user_id": 2226354,
+        "full_name": "Chris Yoo",
+        "title": "Founder/CPO",
+        "is_active": true,
+        "bio": "Co-founder & CPO at Dreamscale Labs (YC F26). 15x hackathon winner. Youngest CCNA at 13yo.",
+        "linkedin_url": "https://www.linkedin.com/in/chris-yoo",
+        "twitter_url": "https://x.com/pentestduck",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b1bd23643f138ca967c39ecdfe173e5347a12513.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKIIF6OHP%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163124Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJIMEYCIQCxIILGzvmkrgLXE6t%2Byo%2BPhpkKGzONFP1L96xkmMNZSgIhALFzrz8i0MRd4nZgMA0WgVEMxHfR52dizbK3uuqEApReKuUDCA0QABoMMDA2MjAxODExMDcyIgzyshl6Pm4q9pLEC2wqwgNVORqWPhyjBOuEKo7AqZGpx2L5OMDfMuGJwVjH6djK9uQsdP9pl8iPFa9C8yjh7XhInJRI2VRQfT2J95nmPVlEOdICyAVjNQq6QgxlFJuOtWmuw818PEYYsMZ1KqU7XndG%2FRVbFKT%2FeL7oN7IIe%2FFgWCBFYcdaD6Lt%2Bo1zHlT0bZDrIQyoAeZFq0LcQpHG6RoEEfXL55FdpRtDZSFh3NE9rfF%2Fzq8tlkOzXRjXi4JcscJztoHNKaUkvMdqpgxgiQemnmf966ikbODoJ6aBpbB4Ig9mO2J78buzGaYaBTdQIoOBpsBpPiC%2FNCXiQrSADnQledY%2BOYIcQz6n9i9g53hwxkMSWN7BSxlEXbOc5bZg2IpyHRRI8gyo8JQTBi%2F7zACCbdwFauylEw7cnArYExVgC%2B2UL98kwSGErFKMUm0MBVzKY9684YjWa1IXvX6FYuDIgF8N2ehV8ZAh84dtvJwOi2LM3xDb%2F2o0xvausI4U6GwE2nvWfvhy%2BEcw0iEIwAcbKKf%2F2%2BgxqRZOeUfaO0TBq3IgjP5AR2VKFeSX%2FVyhopqJDaM476zit%2F6B8L%2Fsoa%2BuV2T8uMCubWllANRyNJAwI60wnYzw1AY6pAGDDzKNTuaVoicnTdKpIvj5k0SjnrHzsL10YFbhbOcZdkMRlPFkGcpZ3PZsHDCgYfh5niINsf0m%2BbbKOGxGUOv8hQh316xdskNF%2BH04nxkagCZWtBNXoqchvey8PLVmdx9RSRmM3Oy15SCUo8tr4fCUZns4b1%2FGgwTlTFRt5YW4M2s8n3QGRYnTvO%2Fvdp%2FVIQfznuyKHHTJ9O3SgRw%2BwRNpn36bag%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=735dacfc83fb56268c2d1455a5e046dba8fd1ae1fe3673038af0cb3bc05d246e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Dreamscale Labs",
+          "href": "https://www.ycombinator.com/companies/dreamscale-labs"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-05T16:31:35.695Z",
+    "classified_at": "2026-09-05T16:31:35.695Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "drippay",
     "name": "Drip",
     "website": "https://usedrip.ai",
@@ -37767,6 +37881,89 @@
     "launch_created_at": "2026-07-30T18:32:37.080Z",
     "launch_tagline": "Hoplite runs autonomous coding agents in cloud sandboxes. Spin up tasks manually from Slack, Linear, iMessage, or automatically from Sentry.",
     "launch_evaluated_at": "2026-07-31T16:02:01.426Z",
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
+    "slug": "hopper",
+    "name": "Hopper",
+    "website": "https://withhopper.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/hopper",
+    "batch": "Fall 2026",
+    "one_liner": "Fast inference for voice",
+    "description_combined": "Fast inference for voice\n\nThe best voice model is small, specialized, and yours. Hopper post-trains STT, TTS, and speech LLMs on your production calls, serves them at 100ms to first token (GPT-4.1 is ~700ms), and keeps improving them against your live traffic.",
+    "industry_sub_vertical": "Voice model inference optimization & post-training for contact centers",
+    "canonical_vertical_id": "ai-infrastructure.voice",
+    "vertical_id": "ai-infrastructure.voice",
+    "vertical_label": "Enterprise voice & speech infrastructure",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "edge-inference-runtime",
+    "phenotype_primary_label": "Edge Inference Runtime & Optimization",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "voice_model_optimization",
+      "low_latency_inference",
+      "continuous_learning",
+      "production_adaptation"
+    ],
+    "what_they_sell": "Infrastructure layer that post-trains and serves specialized voice models (STT, TTS, speech LLMs) with ultra-low latency (100ms to first token) and continuous improvement from production call data.",
+    "ai_play": "Hopper enables enterprises to deploy custom, domain-optimized voice models at edge speeds by automating post-training on proprietary call data and using production traffic as a continuous feedback loop for model refinement. Replaces reliance on frontier models (GPT-4.1 at 700ms latency) with smaller, faster, specialized models that improve over time.",
+    "who_pays": "Contact centers, voice-first applications, telecom operators, and enterprises running high-volume voice workloads where latency and model customization are critical (customer service, IVR, voice assistants).",
+    "confidence": 0.78,
+    "rationale": "Hopper is primarily an edge inference runtime (100ms latency, model serving, on-prem/edge deployment) with secondary RL/continuous learning characteristics (post-training on production data, live traffic optimization). It fits edge-inference-runtime as the primary phenotype because the core value is fast, optimized model deployment. The model-optimization-rl secondary captures the continuous learning loop from production calls. Not a consumer app, not a vertical SaaS (no end-user workflow automation), not a foundation model (they optimize existing models, not train from scratch). Confidence is high (0.78) because the infrastructure and optimization focus is clear, though the continuous learning aspect is somewhat secondary to the latency/deployment story.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Infrastructure",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 612777,
+        "full_name": "Pavan Katta",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Previously led voice inference and post-training at Salient ($60m series a from a16z, voice). EE @ IIT Madras.",
+        "linkedin_url": "https://www.linkedin.com/in/pavankatta1998/",
+        "twitter_url": "https://x.com/PavanKatta1998",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b574e6a60c5a077b24959ebb5528296ed6bb9cb8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAADWHBDPF%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163135Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJGMEQCIARKFE2IKIqAPRTzENoH2PUvgX3%2FKpl832KBDkHJXAA5AiA0PQ9icEIeG7k220Fl%2BCSGQpCBdKCXA6dqIMh5Ukhf7SrlAwgNEAAaDDAwNjIwMTgxMTA3MiIMh7R2y4Vpg%2Bjtp%2BmpKsIDpEx%2Bh%2FYte1uBr40t9qJmcgC%2FZo%2BpKp9QUllJi6J1LaKEArWFZqAh%2FmhGOF%2Buvq8867UzTQc8uHke0M3IsAmspJH1XX4J7TWBkqCdpPTErYwoI1ltrS1mNA6%2B8yFTQx4zKTn9e%2FQQ%2BLIFPJmLJ2MleXSenAG5RDPXr199O4QxNUjsEpR4pKppQxw6rOqn4BUmB8dwpqgcnGBGYv8lhHBQ5wS43H4NSi1xJFd79YZXlRqAioUawd6PANHE7WuAN7pJFymIvVdSe%2ByeTTtC59AWazvkN44260dU6JCz9fl5poHcyPerD3sRZysLWx%2FZIZdPkFYAyb1yEeQODz4bFiOsP6w5Q9L%2FUtVHpWMjSvd%2Bn1SK4EWU9IcAmLXeB3ZV3dGzwCbQY3yQL6KPNp7JXSXowByhWwFPNQ3akS0mcFtx2JZatv%2B8qKEuARMOwnWeRHzHHBNsn8tenr7LVYpC6yQciwC%2FcERkYEm1BuTN6rv%2B3V2C6DmZ%2BUL314yMTiyVCM56qabqsPYoCIqxBKZU3buBLitf02nRpLbnOUprSJY0Fx%2BSgnPVs4DVwLLZj73SI4PaLXAF5WzeB287rDPzmaZ%2FsIdAMPSM8NQGOqYBhgmFIye%2Fx5TZlDxUt6c%2BKgQRYrGUi4DYdGy9kxOisNIQc7PgR7wSaAvY6iIGWzCqmfpOpEplWRUzjDTdL3oj%2FOYXjINw1G%2FFun7c2gX9ftKtzQORkpYaMt10GOQW6pulVv72dGxsXYi9GHPSu7efLsU1MI2Mf%2F5IXQdGXUDpehKC6eFp5CXE6W5QZjOukQxQVQKii6xUiDxpWiQENbca2E4U92%2BLPQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=88dd0522358910f9e2de360ccd858dfecf4e081982298f60522dc9d26a299c73",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Hopper",
+          "href": "https://www.ycombinator.com/companies/hopper"
+        }
+      },
+      {
+        "user_id": 2168649,
+        "full_name": "Jashwanth Pedapudi",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Hopper. Previously kernels engineer at Meta Reality Labs. Electrical Engineering from IIT Madras.",
+        "linkedin_url": "https://www.linkedin.com/in/jashwanth12/",
+        "twitter_url": "https://x.com/jashwanth_p",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/68915ff570196397487cc4d5d9f4b60d93624720.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAADWHBDPF%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163135Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJGMEQCIARKFE2IKIqAPRTzENoH2PUvgX3%2FKpl832KBDkHJXAA5AiA0PQ9icEIeG7k220Fl%2BCSGQpCBdKCXA6dqIMh5Ukhf7SrlAwgNEAAaDDAwNjIwMTgxMTA3MiIMh7R2y4Vpg%2Bjtp%2BmpKsIDpEx%2Bh%2FYte1uBr40t9qJmcgC%2FZo%2BpKp9QUllJi6J1LaKEArWFZqAh%2FmhGOF%2Buvq8867UzTQc8uHke0M3IsAmspJH1XX4J7TWBkqCdpPTErYwoI1ltrS1mNA6%2B8yFTQx4zKTn9e%2FQQ%2BLIFPJmLJ2MleXSenAG5RDPXr199O4QxNUjsEpR4pKppQxw6rOqn4BUmB8dwpqgcnGBGYv8lhHBQ5wS43H4NSi1xJFd79YZXlRqAioUawd6PANHE7WuAN7pJFymIvVdSe%2ByeTTtC59AWazvkN44260dU6JCz9fl5poHcyPerD3sRZysLWx%2FZIZdPkFYAyb1yEeQODz4bFiOsP6w5Q9L%2FUtVHpWMjSvd%2Bn1SK4EWU9IcAmLXeB3ZV3dGzwCbQY3yQL6KPNp7JXSXowByhWwFPNQ3akS0mcFtx2JZatv%2B8qKEuARMOwnWeRHzHHBNsn8tenr7LVYpC6yQciwC%2FcERkYEm1BuTN6rv%2B3V2C6DmZ%2BUL314yMTiyVCM56qabqsPYoCIqxBKZU3buBLitf02nRpLbnOUprSJY0Fx%2BSgnPVs4DVwLLZj73SI4PaLXAF5WzeB287rDPzmaZ%2FsIdAMPSM8NQGOqYBhgmFIye%2Fx5TZlDxUt6c%2BKgQRYrGUi4DYdGy9kxOisNIQc7PgR7wSaAvY6iIGWzCqmfpOpEplWRUzjDTdL3oj%2FOYXjINw1G%2FFun7c2gX9ftKtzQORkpYaMt10GOQW6pulVv72dGxsXYi9GHPSu7efLsU1MI2Mf%2F5IXQdGXUDpehKC6eFp5CXE6W5QZjOukQxQVQKii6xUiDxpWiQENbca2E4U92%2BLPQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=940673ddfc6de949168eb2384eb8037fdfc9e7838bdeee26f6bcd834076f2153",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Hopper",
+          "href": "https://www.ycombinator.com/companies/hopper"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-05T16:31:46.898Z",
+    "classified_at": "2026-09-05T16:31:46.898Z",
+    "proposed_phenotype": null,
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -56671,6 +56868,89 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "nivara",
+    "name": "Nivara",
+    "website": "https://getnivara.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/nivara",
+    "batch": "Fall 2025",
+    "one_liner": "AI agents for the finance back office.",
+    "description_combined": "AI agents for the finance back office.\n\nWe’re building AI agents for finance teams. They handle repetitive work across email and accounting systems - processing documents, following up on open items, reconciling records, and resolving exceptions while people retain approval and oversight.",
+    "industry_sub_vertical": "Finance back-office automation for document processing, reconciliation, and exception handling",
+    "canonical_vertical_id": "enterprise.finance.accounting",
+    "vertical_id": "enterprise.finance.accounting",
+    "vertical_label": "Finance & accounting automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "document_processing",
+      "exception_resolution",
+      "reconciliation_automation",
+      "email_integration"
+    ],
+    "what_they_sell": "End-user-facing SaaS product deploying autonomous AI agents into finance back-office workflows. Agents integrate with email and accounting systems to autonomously process documents, follow up on open items, reconcile records, and flag exceptions for human approval.",
+    "ai_play": "AI agents replace manual, repetitive finance operations (document intake, data entry, reconciliation, follow-up) while maintaining human oversight and approval gates. Agents learn domain-specific finance workflows and integrate deeply with accounting tools (ERPs, AP/AR systems) to execute end-to-end processes autonomously.",
+    "who_pays": "Finance teams, controllers, CFOs, and accounting operations managers at mid-market and enterprise companies seeking to reduce manual back-office labor and accelerate close cycles.",
+    "confidence": 0.82,
+    "rationale": "Nivara is a vertical SaaS deploying AI agents to automate finance back-office workflows (document processing, reconciliation, exception handling). This is a classic vertical-agentic-workflow-saas play: end-user-facing product, vertical focus (finance operations), autonomous agent execution with human oversight, and integration with domain-specific tools (accounting systems, email). Not a horizontal copilot (too vertical-specific), not agent infrastructure (they ARE the end product), not a consulting service (product-first). High confidence due to clear vertical focus, autonomous agent execution model, and integration with finance-specific systems.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Finance and Accounting"
+    ],
+    "yc_tags": [
+      "B2B",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 153937,
+        "full_name": "Tejas Agarwal",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "ex-Uber, Oracle, UW-Madison| Built Fulfillment Metrics serving 6M+ drivers and 150M+ monthly active users | Previously built Zanzibar - Uber&#x27;s open-source API infrastructure serving 1M+ requests per second.  \n\nPassionate about building great teams, and delivering value to users.",
+        "linkedin_url": "https://linkedin.com/in/tejaswiagarwal",
+        "twitter_url": "https://x.com/teagarwal",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e46308cfd35c99385b69a4ded543643374e8e2a3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE6TZYRH4%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163054Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIBMGM26LoBvPC5GPX5looG0Kbq9W81YrJ9irRF%2BIt9vhAiEAkoN1ovMS%2F4LfekJGbZIV9GznxP1LZ36xccns0znpWDQq5QMIDRAAGgwwMDYyMDE4MTEwNzIiDGg7xDzRZjBRxT2iqCrCA1lFl7bU%2BfXsYSKKGbYCSsnhbL5QUJAlhqaarfPar4V%2BWaRdMwDUqBSKOtovTERluMhL1NTJSs81SdddJptSKb0H%2B7LATklAWNcPg5LZdKKGVWgF48Ogc59K%2BBnQKUpIepMksoS6mshfWkwmtEPpP7ER%2B3HVdt0gr9P9byich%2BUT5ijHWhsU8ZmbcDRFXJApQfxrW4dfvDIka%2BuW9p3tiHOfCOFxYCDUZFexA4P5Rw28xcVsB%2BuHgn%2BC8f5fxZUewFIclRSDhNe4vq4hyHoEPggEDPq3pdiJW%2BiT6HJE0if2mCTco05uAlS2A4hZy6lXBz8Yd6WXki1WYEIPssz044jGSoQ9aoH6JRRseJqiOLhaynmu15Hn%2BN0qAG3oreQkwFutYXoIeT1haYpcUdc4qYHbw%2Bi%2F9QK%2FxkhmpSqSOBGbkYANVbc7lW8Nz0SPrqmxZXfNoy4Os86KAyHCZkK2vIb7ksDfmTtHrjpca5SNvczKXgIzK1afAfXT41b3wVwIwWP38smH22aTUCQI1P5g%2FVFZ8HGem2PIWYanIBCFC%2F%2Beta%2FInVAW2Q2DLHpncHUUbR9Ik2xLsAr0FpC2upAwCS4VJzD0gvDUBjqlAe2kV66EJwsIqnOsCtgGh6IzNlzKWuHHwEcj6aQG2fYrD0lvGTsXO3x0JFYB6uUjYorBw6glGvneGg3Bam3kflQo0dx9kDaj5MVmcXRqSEqOCz1lUBjyR5n9RB%2BEfplGhwaRrnyj1M0%2BoGIyZlBgZ3zzIZpz41ZTNSn8Tb7nOqMz%2FZNFv%2F0xPpu6fWW4FLZ6FiKqijb1xmphc0k16E%2F1BrKHa3heYg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=aabeb5369d57646834b09c3c67f92c33a42059b46b332971266d016ba99d9efd",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Nivara",
+          "href": "https://www.ycombinator.com/companies/nivara"
+        }
+      },
+      {
+        "user_id": 894645,
+        "full_name": "Pankaj Mishra",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "ex-Uber, IIT KGP | Built the platform for Uber for Business & Fulfillment.",
+        "linkedin_url": "https://linkedin.com/in/pkj-m",
+        "twitter_url": "https://x.com/pkj__m",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/94475cd51549c03e2deba9500b055a8f49adcb16.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE6TZYRH4%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163054Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIBMGM26LoBvPC5GPX5looG0Kbq9W81YrJ9irRF%2BIt9vhAiEAkoN1ovMS%2F4LfekJGbZIV9GznxP1LZ36xccns0znpWDQq5QMIDRAAGgwwMDYyMDE4MTEwNzIiDGg7xDzRZjBRxT2iqCrCA1lFl7bU%2BfXsYSKKGbYCSsnhbL5QUJAlhqaarfPar4V%2BWaRdMwDUqBSKOtovTERluMhL1NTJSs81SdddJptSKb0H%2B7LATklAWNcPg5LZdKKGVWgF48Ogc59K%2BBnQKUpIepMksoS6mshfWkwmtEPpP7ER%2B3HVdt0gr9P9byich%2BUT5ijHWhsU8ZmbcDRFXJApQfxrW4dfvDIka%2BuW9p3tiHOfCOFxYCDUZFexA4P5Rw28xcVsB%2BuHgn%2BC8f5fxZUewFIclRSDhNe4vq4hyHoEPggEDPq3pdiJW%2BiT6HJE0if2mCTco05uAlS2A4hZy6lXBz8Yd6WXki1WYEIPssz044jGSoQ9aoH6JRRseJqiOLhaynmu15Hn%2BN0qAG3oreQkwFutYXoIeT1haYpcUdc4qYHbw%2Bi%2F9QK%2FxkhmpSqSOBGbkYANVbc7lW8Nz0SPrqmxZXfNoy4Os86KAyHCZkK2vIb7ksDfmTtHrjpca5SNvczKXgIzK1afAfXT41b3wVwIwWP38smH22aTUCQI1P5g%2FVFZ8HGem2PIWYanIBCFC%2F%2Beta%2FInVAW2Q2DLHpncHUUbR9Ik2xLsAr0FpC2upAwCS4VJzD0gvDUBjqlAe2kV66EJwsIqnOsCtgGh6IzNlzKWuHHwEcj6aQG2fYrD0lvGTsXO3x0JFYB6uUjYorBw6glGvneGg3Bam3kflQo0dx9kDaj5MVmcXRqSEqOCz1lUBjyR5n9RB%2BEfplGhwaRrnyj1M0%2BoGIyZlBgZ3zzIZpz41ZTNSn8Tb7nOqMz%2FZNFv%2F0xPpu6fWW4FLZ6FiKqijb1xmphc0k16E%2F1BrKHa3heYg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=0e9c6f1b1128cb1ac080cd8897cb62bb3f688e9ae7006a9eea49c7ed2b8528cf",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Nivara",
+          "href": "https://www.ycombinator.com/companies/nivara"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-05T16:31:04.187Z",
+    "classified_at": "2026-09-05T16:31:04.187Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
+  },
+  {
     "slug": "nixo",
     "name": "Nixo",
     "website": "https://withnixo.com/",
@@ -71782,6 +72062,90 @@
     "primary_bm": "BM-07"
   },
   {
+    "slug": "reason-machines",
+    "name": "Reason Machines",
+    "website": "https://reasonmachines.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/reason-machines",
+    "batch": "Spring 2026",
+    "one_liner": "The coding agent that can access and reason across any machine. ",
+    "description_combined": "The coding agent that can access and reason across any machine. \n\nBillions of machines are left untouched by agents and work individually. We connect them to unlock multiplayer cloud coding agents for work like engineering, math and research.\r\n\r\n",
+    "industry_sub_vertical": "AI coding agent runtime & distributed machine orchestration",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-workflow-abstraction-infra",
+    "phenotype_primary_label": "Agent Workflow Abstraction Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "workflow_conversion",
+    "ai_application": "workflow_to_api_abstraction",
+    "ai_application_patterns": [
+      "agent_tooling",
+      "multi_machine_coordination",
+      "distributed_execution",
+      "developer_productivity"
+    ],
+    "what_they_sell": "Developer-facing infrastructure enabling AI coding agents to access, coordinate, and reason across distributed machines (local, cloud, on-prem). Converts isolated machine workflows into unified, agent-executable operations. Enables multi-agent collaboration on engineering, math, and research tasks.",
+    "ai_play": "AI agents gain the ability to orchestrate work across machine boundaries—accessing file systems, running computations, coordinating parallel tasks—without custom integration per machine. Agents can reason about distributed state and delegate subtasks across a fleet of machines, unlocking 'multiplayer' agentic workflows for knowledge work.",
+    "who_pays": "Engineering teams, research labs, and enterprises deploying AI coding agents who need agents to operate across heterogeneous, distributed infrastructure without manual orchestration.",
+    "confidence": 0.72,
+    "rationale": "Reason Machines is building infrastructure that abstracts away machine-level complexity and exposes it as agent-executable APIs. This is closest to agent-workflow-abstraction-infra (converting workflows into agent-accessible operations) with secondary alignment to agent-runtime-infra (orchestration across multiple execution contexts). The 'multiplayer cloud coding agents' framing suggests they're solving the distributed execution and coordination problem—enabling agents to reason and act across machine boundaries. Not a vertical SaaS (no end-user product for a specific job function) and not a copilot (not seat-based productivity tool). The developer-tools positioning and focus on unlocking 'untouched machines' for agentic work places them in the infrastructure/abstraction layer.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Productivity"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "Enterprise Software",
+      "Cloud Computing"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1868530,
+        "full_name": "Adi Singh",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "co-founder & ceo @ Reason Machines\nEECS @ UC Berkeley, Cybernetics NTNU\nPrev built a rust based IDE from scratch\n21\n",
+        "linkedin_url": "https://www.linkedin.com/in/adisinghlink",
+        "twitter_url": "https://x.com/xadisingh",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/39dc609171f30d0579beff3ad7feda1e12ddde45.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMHVZOTYM%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163104Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIQC%2BXSBJZn85W7KenYiLo9q2o8HmOtP%2B89LtJNEsVLf79wIgAbPrQpyGQeH7UVelCXxTRjkOId1Aly36EliNi8L2b6Aq5QMIDRAAGgwwMDYyMDE4MTEwNzIiDH%2FvubLRrhfwPZpDjCrCA1xNbv084A%2F3O1ZcBXow8N7G%2BbtqDReSGXh%2FXvGT%2FxWpgg6LG3LoLNpDgKT075jIVr7%2B%2FREOgCLIyN32UbeqKmvwi9bFQgL9QgeRaIL6AVRyTYd2kUFmOj%2BeKoUXpS32utbT8Phrev8T%2BctQO0r8DJD%2BQEEQvmoIWJhB9%2FCfY69hDUoYgG9LF%2B9CjhEs8IQYc4AkJ6X20qEPW%2FANwqncWMGm8rF6oYXFC75VII7nSYrLaNp0UutbgjVbO8BOR8iOU735X%2FgpgqABJUwQFOqFoaUeyx3r3q2KizesC1stlgdBnzo380urNad7WjRuDCnsjO5T5z8HBiEo8aaV2Wb8O%2BFOTu6uOu3l7bpiBd36aMP8GtHlPBpJiFvuPTWNevJH4b67rIo%2B%2Ff7%2BZoK5WAi0fRgRoudfur5QG%2F%2FK8lMVEt%2B5rLBC8HpstC%2BjCNBmc7WcBE3ccPNWstPPynMZihtZPwEYK9oSeJEpHdmbbyu%2F4rqNmfRbWlta%2FTHAtDlOTeU7PC3BzdVCyIPEKss6sDncs45lekMKKORumiBYF%2Frlfur6LZrTljnH9QNzfrR7Zf244YMYZoHeDsRyga0hNoiowvq9ajCXjfDUBjqlATGwhZSbNIvJEgqYA3h6mgKAFVlgHKLpgK2taTuYya4Wzf%2FHm0C090RjTu7PDyD7xXN43lkTOoA%2FNZOTSULTTmGtSBXIEggiQLc4oNEtUyQYGFIic6SU6d%2FrZIFIrZe4oGbRk9ukkq%2FURfjq1x5hiTWJaolYy5pY%2Bk1gq8ZcDqYasoni0cU9TKOwGdgNLXYDV%2FyT9kem%2FA8EZqLcNYKCS0UKqSJnNQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4a526e434c0a8d543876f9bd051df89493eae5b93ddcda48719119c741606ca5",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Reason Machines",
+          "href": "https://www.ycombinator.com/companies/reason-machines"
+        }
+      },
+      {
+        "user_id": 3131989,
+        "full_name": "Sven Myhre",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "co-founder @ Ara (P26)\n-\nWith a background in EECS from UC Berkeley and scaling ML infra in industry, some notable milestones include winning 1st place in the Norwegian AI Championship 2025, having chaired Norway&#x27;s largest AI student org and having ran ultramarathons (100km>).",
+        "linkedin_url": "https://www.linkedin.com/in/svemy/",
+        "twitter_url": "https://x.com/svemyhre",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fe32f68ce79ac76c83594b8ea44b35b153f2e132.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMHVZOTYM%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163104Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJHMEUCIQC%2BXSBJZn85W7KenYiLo9q2o8HmOtP%2B89LtJNEsVLf79wIgAbPrQpyGQeH7UVelCXxTRjkOId1Aly36EliNi8L2b6Aq5QMIDRAAGgwwMDYyMDE4MTEwNzIiDH%2FvubLRrhfwPZpDjCrCA1xNbv084A%2F3O1ZcBXow8N7G%2BbtqDReSGXh%2FXvGT%2FxWpgg6LG3LoLNpDgKT075jIVr7%2B%2FREOgCLIyN32UbeqKmvwi9bFQgL9QgeRaIL6AVRyTYd2kUFmOj%2BeKoUXpS32utbT8Phrev8T%2BctQO0r8DJD%2BQEEQvmoIWJhB9%2FCfY69hDUoYgG9LF%2B9CjhEs8IQYc4AkJ6X20qEPW%2FANwqncWMGm8rF6oYXFC75VII7nSYrLaNp0UutbgjVbO8BOR8iOU735X%2FgpgqABJUwQFOqFoaUeyx3r3q2KizesC1stlgdBnzo380urNad7WjRuDCnsjO5T5z8HBiEo8aaV2Wb8O%2BFOTu6uOu3l7bpiBd36aMP8GtHlPBpJiFvuPTWNevJH4b67rIo%2B%2Ff7%2BZoK5WAi0fRgRoudfur5QG%2F%2FK8lMVEt%2B5rLBC8HpstC%2BjCNBmc7WcBE3ccPNWstPPynMZihtZPwEYK9oSeJEpHdmbbyu%2F4rqNmfRbWlta%2FTHAtDlOTeU7PC3BzdVCyIPEKss6sDncs45lekMKKORumiBYF%2Frlfur6LZrTljnH9QNzfrR7Zf244YMYZoHeDsRyga0hNoiowvq9ajCXjfDUBjqlATGwhZSbNIvJEgqYA3h6mgKAFVlgHKLpgK2taTuYya4Wzf%2FHm0C090RjTu7PDyD7xXN43lkTOoA%2FNZOTSULTTmGtSBXIEggiQLc4oNEtUyQYGFIic6SU6d%2FrZIFIrZe4oGbRk9ukkq%2FURfjq1x5hiTWJaolYy5pY%2Bk1gq8ZcDqYasoni0cU9TKOwGdgNLXYDV%2FyT9kem%2FA8EZqLcNYKCS0UKqSJnNQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1552bd569ba56aa9e94ad9fba6dbca0369fb9c59a32978b4b32fd545a9152586",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Reason Machines",
+          "href": "https://www.ycombinator.com/companies/reason-machines"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-05T16:31:14.294Z",
+    "classified_at": "2026-09-05T16:31:14.294Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "reasonblocks",
     "name": "ReasonBlocks",
     "website": "https://reasonblocks.com/",
@@ -79552,6 +79916,89 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
+  },
+  {
+    "slug": "sinter-systems",
+    "name": "Sinter",
+    "website": "https://sinter.systems",
+    "yc_profile_url": "https://www.ycombinator.com/companies/sinter-systems",
+    "batch": "Fall 2026",
+    "one_liner": "Accelerating scaled plastics with additive technologies",
+    "description_combined": "Accelerating scaled plastics with additive technologies\n\nSinter is creating a faster and radically more affordable American plastics pipeline, helping iteration heavy hardware teams evolve from additive prototypes to production parts on week-scale timelines.",
+    "industry_sub_vertical": "Additive manufacturing platform for scaled plastics production",
+    "canonical_vertical_id": "industrials.manufacturing.automation",
+    "vertical_id": "industrials.manufacturing.automation",
+    "vertical_label": "Manufacturing & logistics automation",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "manufacturing_optimization",
+      "process_automation",
+      "design_iteration_acceleration"
+    ],
+    "what_they_sell": "Additive manufacturing platform and services that accelerate plastics production from prototype to scaled manufacturing. Enables hardware teams to move from iterative additive prototypes to production-grade parts on week-scale timelines instead of months.",
+    "ai_play": "AI optimizes additive manufacturing processes (print parameters, material selection, thermal control, quality prediction) to reduce iteration cycles, improve part quality, and lower per-unit production costs. Machine learning models predict print success, detect defects in real-time, and autonomously adjust process parameters to achieve production-grade tolerances at scale.",
+    "who_pays": "Hardware startups and manufacturers (robotics, consumer electronics, industrial equipment) seeking rapid iteration and scaled production without traditional injection molding capex and lead times.",
+    "confidence": 0.72,
+    "rationale": "Sinter is a physical infrastructure company where AI/ML accelerates manufacturing precision, process optimization, and production efficiency. The core value is the additive manufacturing platform itself, but AI dramatically improves R&D cycles (week-scale iteration), production quality, and cost per part. This fits ai-enabled-physical-systems: hardware/infrastructure where AI is the enabler, not the product. Not robotics-embodied-ai (which focuses on autonomous control of robots/drones), but rather manufacturing infrastructure optimization. Confidence 0.72 due to limited public detail on AI/ML specifics; if Sinter's differentiation is primarily process automation and design optimization via ML, confidence increases to 0.80+.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "3D Printing",
+      "Manufacturing",
+      "Advanced Materials"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "El Segundo, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3253127,
+        "full_name": "Oliver Johnson",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Sinter F26",
+        "linkedin_url": "https://www.linkedin.com/in/oliver-johnson-359252281/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0cc0d38cb27e363b37f0d9380f247f74590029e8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKIIF6OHP%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163114Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJIMEYCIQCxIILGzvmkrgLXE6t%2Byo%2BPhpkKGzONFP1L96xkmMNZSgIhALFzrz8i0MRd4nZgMA0WgVEMxHfR52dizbK3uuqEApReKuUDCA0QABoMMDA2MjAxODExMDcyIgzyshl6Pm4q9pLEC2wqwgNVORqWPhyjBOuEKo7AqZGpx2L5OMDfMuGJwVjH6djK9uQsdP9pl8iPFa9C8yjh7XhInJRI2VRQfT2J95nmPVlEOdICyAVjNQq6QgxlFJuOtWmuw818PEYYsMZ1KqU7XndG%2FRVbFKT%2FeL7oN7IIe%2FFgWCBFYcdaD6Lt%2Bo1zHlT0bZDrIQyoAeZFq0LcQpHG6RoEEfXL55FdpRtDZSFh3NE9rfF%2Fzq8tlkOzXRjXi4JcscJztoHNKaUkvMdqpgxgiQemnmf966ikbODoJ6aBpbB4Ig9mO2J78buzGaYaBTdQIoOBpsBpPiC%2FNCXiQrSADnQledY%2BOYIcQz6n9i9g53hwxkMSWN7BSxlEXbOc5bZg2IpyHRRI8gyo8JQTBi%2F7zACCbdwFauylEw7cnArYExVgC%2B2UL98kwSGErFKMUm0MBVzKY9684YjWa1IXvX6FYuDIgF8N2ehV8ZAh84dtvJwOi2LM3xDb%2F2o0xvausI4U6GwE2nvWfvhy%2BEcw0iEIwAcbKKf%2F2%2BgxqRZOeUfaO0TBq3IgjP5AR2VKFeSX%2FVyhopqJDaM476zit%2F6B8L%2Fsoa%2BuV2T8uMCubWllANRyNJAwI60wnYzw1AY6pAGDDzKNTuaVoicnTdKpIvj5k0SjnrHzsL10YFbhbOcZdkMRlPFkGcpZ3PZsHDCgYfh5niINsf0m%2BbbKOGxGUOv8hQh316xdskNF%2BH04nxkagCZWtBNXoqchvey8PLVmdx9RSRmM3Oy15SCUo8tr4fCUZns4b1%2FGgwTlTFRt5YW4M2s8n3QGRYnTvO%2Fvdp%2FVIQfznuyKHHTJ9O3SgRw%2BwRNpn36bag%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=0575f215b593b28123142a33c28474e2e4dce13757dab6b65be2419013d6b820",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sinter",
+          "href": "https://www.ycombinator.com/companies/sinter-systems"
+        }
+      },
+      {
+        "user_id": 2610661,
+        "full_name": "Justin Kwon",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Founder at Sinter (YC F26) looking to expedite plastics manufacturing. \n\nPreviously Mechatronics at Shinkei Systems working on robotic fish processing and SWE at Manifold Labs working on FSDP model training.",
+        "linkedin_url": "https://www.linkedin.com/in/jkwonn/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d511eba4c11f87cab0595857443c6b824d30507c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKIIF6OHP%2F20260905%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260905T163114Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEQaCXVzLXdlc3QtMiJIMEYCIQCxIILGzvmkrgLXE6t%2Byo%2BPhpkKGzONFP1L96xkmMNZSgIhALFzrz8i0MRd4nZgMA0WgVEMxHfR52dizbK3uuqEApReKuUDCA0QABoMMDA2MjAxODExMDcyIgzyshl6Pm4q9pLEC2wqwgNVORqWPhyjBOuEKo7AqZGpx2L5OMDfMuGJwVjH6djK9uQsdP9pl8iPFa9C8yjh7XhInJRI2VRQfT2J95nmPVlEOdICyAVjNQq6QgxlFJuOtWmuw818PEYYsMZ1KqU7XndG%2FRVbFKT%2FeL7oN7IIe%2FFgWCBFYcdaD6Lt%2Bo1zHlT0bZDrIQyoAeZFq0LcQpHG6RoEEfXL55FdpRtDZSFh3NE9rfF%2Fzq8tlkOzXRjXi4JcscJztoHNKaUkvMdqpgxgiQemnmf966ikbODoJ6aBpbB4Ig9mO2J78buzGaYaBTdQIoOBpsBpPiC%2FNCXiQrSADnQledY%2BOYIcQz6n9i9g53hwxkMSWN7BSxlEXbOc5bZg2IpyHRRI8gyo8JQTBi%2F7zACCbdwFauylEw7cnArYExVgC%2B2UL98kwSGErFKMUm0MBVzKY9684YjWa1IXvX6FYuDIgF8N2ehV8ZAh84dtvJwOi2LM3xDb%2F2o0xvausI4U6GwE2nvWfvhy%2BEcw0iEIwAcbKKf%2F2%2BgxqRZOeUfaO0TBq3IgjP5AR2VKFeSX%2FVyhopqJDaM476zit%2F6B8L%2Fsoa%2BuV2T8uMCubWllANRyNJAwI60wnYzw1AY6pAGDDzKNTuaVoicnTdKpIvj5k0SjnrHzsL10YFbhbOcZdkMRlPFkGcpZ3PZsHDCgYfh5niINsf0m%2BbbKOGxGUOv8hQh316xdskNF%2BH04nxkagCZWtBNXoqchvey8PLVmdx9RSRmM3Oy15SCUo8tr4fCUZns4b1%2FGgwTlTFRt5YW4M2s8n3QGRYnTvO%2Fvdp%2FVIQfznuyKHHTJ9O3SgRw%2BwRNpn36bag%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=cf4cb71ed3ed704a10034ef734e170a7435c7aa80f244d96e1b382c2a33314e5",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sinter",
+          "href": "https://www.ycombinator.com/companies/sinter-systems"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-05T16:31:24.007Z",
+    "classified_at": "2026-09-05T16:31:24.007Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "sira",
@@ -93750,7 +94197,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/verdant",
     "batch": "Summer 2026",
     "one_liner": "AI-native land-use permit management for local gov",
-    "description_combined": "AI-native land-use permit management for local gov\n\nVerdant is building the AI infrastructure for local government, and we’re starting with AI-native end-to-end permitting software that dramatically cuts local government permit review time. \r\n\r\nWe help applicants file complete, compliant applications upfront, then help staff review them - our AI reads documents, plans, and diagrams, then flags issues and drafts the final report. Staff just sign off.\r\n\r\nPandemic-era incumbent contracts are churning because staff are stuck with legacy systems that only intake and track permits – no automation involved. Our end-to-end solution picks up where those systems stop, automating the review itself to fix permitting where it&#x27;s most broken.\n\nModern permitting and planning software for local governments\n\nTL;DR: \n\nVerdant is building the modern tech infrastructure for local government, and we’re starting with end-to-end permitting software that dramatically cuts local government permit review time. \n\nWe help applicants file complete, compliant applications upfront, then help staff review them - our AI reads documents, plans, and diagrams, then flags issues and drafts the final report. \n\nLaunch Video\n \nOur story\n\nWhile studying international politics at Georgetown, I spent three years in and around government (Capitol Hill, then DOJ and Deloitte) and kept hitting the same wall: policy sets direction, but execution is throttled by legacy software. My co-founder Jason has worked in govtech for the past four years researching public benefits automation at Georgetown and building govtech product",
+    "description_combined": "AI-native land-use permit management for local gov\n\nVerdant is building the AI infrastructure for local government, and we’re starting with AI-native end-to-end permitting software that dramatically cuts local government permit review time. \r\n\r\nWe help applicants file complete, compliant applications upfront, then help staff review them - our AI reads documents, plans, and diagrams, then flags issues and drafts the final report. Staff just sign off.\r\n\r\nPandemic-era incumbent contracts are churning because staff are stuck with legacy systems that only intake and track permits – no automation involved. Our end-to-end solution picks up where those systems stop, automating the review itself to fix permitting where it&#x27;s most broken.\n\nModern permitting and planning software for local governments\n\nTL;DR: \n\nVerdant is building the modern tech infrastructure for local government, and we’re starting with end-to-end permitting software that dramatically cuts local government permit review time. \n\nWe help applicants file complete, compliant applications upfront, then help staff review them - our AI reads documents, plans, and diagrams, then flags issues and drafts the final report. \n\nLaunch Video\n \nOur story\n\nWhile studying international politics at Georgetown, I spent three years in and around government (Capitol Hill, then DOJ and Deloitte) and kept hitting the same wall: policy sets direction, but execution is throttled by legacy software. My co-founder Jason has worked in govtech for the past four years researching public benefits automation at Georgetown and building govtech product\n\nHelping American local governments steward American industrial innovation\n\nLocal governments are the backbone of industrial development - through zoning codes, they determine where, when, and how anything gets built.\n\nToday, data centers are landing in cities whose zoning codes never imagined them, and local governments are scrambling to respond. They need months of work before a single line of new code gets drafted - that means comparing their code with other cities, checking for consistency with state law, and more.\n\n\n\nWe built Verdant Code to compress months into days. We automate the sourcing and the analysis so cities spend their time on judgment instead of data retrieval. Long-range planning work that used to take a six-figure consultant engagement now happens in-house as cities intended.\n\n\n\nData center development is a symptom of a larger problem with Amer",
     "industry_sub_vertical": "Local government land-use permit review automation",
     "canonical_vertical_id": "government.govtech.ops",
     "vertical_id": "government.govtech.ops",
@@ -93820,12 +94267,12 @@
     "directory_synced_at": "2026-07-30T16:09:57.770Z",
     "classified_at": "2026-07-30T16:09:57.770Z",
     "proposed_phenotype": null,
-    "launch_id": 104860,
-    "launch_url": "https://www.ycombinator.com/launches/RHI-verdant-helping-cities-process-permits-faster",
-    "launch_title": "Verdant: helping cities process permits faster",
-    "launch_created_at": "2026-07-07T16:56:24.689Z",
-    "launch_tagline": "Modern permitting and planning software for local governments",
-    "launch_evaluated_at": "2026-07-30T16:56:29.917Z",
+    "launch_id": 113860,
+    "launch_url": "https://www.ycombinator.com/launches/TcS-data-center-development-is-broken-we-fix-that",
+    "launch_title": "Data center development is broken. We fix that.",
+    "launch_created_at": "2026-09-04T19:00:00.099Z",
+    "launch_tagline": "Helping American local governments steward American industrial innovation",
+    "launch_evaluated_at": "2026-09-05T16:32:16.096Z",
     "primary_bm": "BM-01",
     "primary_bm_rationale": "Verdant is a vertical AI SaaS product sold to local government customers for permit management workflows, not a defense/critical infrastructure system, making vertical SaaS the primary business model.",
     "primary_bm_assigned_at": "2026-07-30T19:00:12.147Z",
