@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-06T16:42:16.557Z",
+  "generated_at": "2026-09-07T18:36:22.905Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1418,
+    "assignment_count": 1423,
     "mapped_verticals": 243,
     "observed_cells": 478,
     "total_verticals": 525,
@@ -319,6 +319,36 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "consumer.productivity.personal",
+      "vertical_label": "Personal productivity software",
+      "sector_id": "consumer",
+      "companies": [
+        "aleph-lab",
+        "digipals",
+        "dollyglot",
+        "doomersion",
+        "drafted",
+        "everest",
+        "goriff",
+        "heyclicky",
+        "jo",
+        "meteor",
+        "mixy",
+        "moonshot-computer",
+        "neoncoral",
+        "parrot",
+        "pingo",
+        "remix-3",
+        "snap-poker",
+        "tegore",
+        "text-ai",
+        "touchy",
+        "wondering"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.robotics.general",
@@ -346,35 +376,6 @@
         "servo7",
         "verne-robotics",
         "waddle-labs"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "consumer.productivity.personal",
-      "vertical_label": "Personal productivity software",
-      "sector_id": "consumer",
-      "companies": [
-        "aleph-lab",
-        "digipals",
-        "dollyglot",
-        "doomersion",
-        "drafted",
-        "everest",
-        "goriff",
-        "heyclicky",
-        "jo",
-        "meteor",
-        "mixy",
-        "neoncoral",
-        "parrot",
-        "pingo",
-        "remix-3",
-        "snap-poker",
-        "tegore",
-        "text-ai",
-        "touchy",
-        "wondering"
       ]
     },
     {
@@ -407,6 +408,32 @@
       ]
     },
     {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "healthcare.pharma.drug-discovery",
+      "vertical_label": "Drug discovery & delivery R&D",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "anto-biosciences",
+        "b12-labs",
+        "convexia",
+        "ditto-biosciences",
+        "exin-therapeutics",
+        "exonic",
+        "finaldose",
+        "gamgee",
+        "halmos-labs",
+        "infera",
+        "novaflow",
+        "origin-bio",
+        "rasyn",
+        "strand-ai",
+        "tarebio",
+        "uncommon-therapeutics",
+        "wondertx"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.agent-runtime",
@@ -429,31 +456,6 @@
         "synthetic-sciences",
         "tasklet-2",
         "zarna"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "healthcare.pharma.drug-discovery",
-      "vertical_label": "Drug discovery & delivery R&D",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "anto-biosciences",
-        "b12-labs",
-        "convexia",
-        "ditto-biosciences",
-        "exin-therapeutics",
-        "exonic",
-        "finaldose",
-        "gamgee",
-        "infera",
-        "novaflow",
-        "origin-bio",
-        "rasyn",
-        "strand-ai",
-        "tarebio",
-        "uncommon-therapeutics",
-        "wondertx"
       ]
     },
     {
@@ -2112,6 +2114,18 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "media.content.creator",
+      "vertical_label": "Creator economy & AI content monetization",
+      "sector_id": "media-entertainment",
+      "companies": [
+        "grocalo",
+        "mochi",
+        "mochitv"
+      ]
+    },
+    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "payments.cross-border-fx",
@@ -2269,6 +2283,17 @@
       "companies": [
         "realroots",
         "talentpluto"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "compute.inference-request-routing",
+      "vertical_label": "Intelligent inference request routing & load balancing",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "orchestra",
+        "riften"
       ]
     },
     {
@@ -2866,6 +2891,17 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "insurance.fraud-detection",
+      "vertical_label": "Insurance fraud detection & investigation",
+      "sector_id": "financial-services",
+      "companies": [
+        "hesper-ai",
+        "mousecat"
+      ]
+    },
+    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "insurance.quote-comparison",
@@ -2896,17 +2932,6 @@
       "companies": [
         "beluga",
         "tell-if-ai"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "media.content.creator",
-      "vertical_label": "Creator economy & AI content monetization",
-      "sector_id": "media-entertainment",
-      "companies": [
-        "grocalo",
-        "mochitv"
       ]
     },
     {
@@ -3290,16 +3315,6 @@
       "sector_id": "ai-infrastructure",
       "companies": [
         "aravolta"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "compute.inference-request-routing",
-      "vertical_label": "Intelligent inference request routing & load balancing",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "riften"
       ]
     },
     {
@@ -4790,16 +4805,6 @@
       "sector_id": "financial-services",
       "companies": [
         "veltha"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "insurance.fraud-detection",
-      "vertical_label": "Insurance fraud detection & investigation",
-      "sector_id": "financial-services",
-      "companies": [
-        "mousecat"
       ]
     },
     {

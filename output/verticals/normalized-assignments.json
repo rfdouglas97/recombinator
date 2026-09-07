@@ -36027,6 +36027,90 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "halmos-labs",
+    "name": "Halmos Labs",
+    "website": "https://halmoslabs.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/halmos-labs",
+    "batch": "Fall 2026",
+    "one_liner": "Maximum information per experiment, minimum experiments per conclusion",
+    "description_combined": "Maximum information per experiment, minimum experiments per conclusion\n\nHalmos Labs builds automated biotech R&D on the principles of validity and interpretabillity. We run research, and simulations answering open questions ranging from wetlab experiment design to full cancer vaccine manufacturing.",
+    "industry_sub_vertical": "Biotech R&D automation for drug discovery & manufacturing optimization",
+    "canonical_vertical_id": "healthcare.pharma.drug-discovery",
+    "vertical_id": "healthcare.pharma.drug-discovery",
+    "vertical_label": "Drug discovery & delivery R&D",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "biotech-rd-agent",
+    "phenotype_primary_label": "Biotech / clinical R&D acceleration",
+    "phenotype_family": "life_sciences",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "experiment_design_automation",
+      "simulation_optimization",
+      "research_orchestration",
+      "validity_interpretation"
+    ],
+    "what_they_sell": "Automated biotech R&D platform that designs, simulates, and executes experiments (wetlab + computational) to answer research questions with maximum information per experiment and minimum total experiments required. Covers experiment design, manufacturing simulation, and full workflow orchestration for drug discovery and vaccine manufacturing.",
+    "ai_play": "Swarm AI agents orchestrate the full R&D loop: interpret research questions, design optimal experiments, run simulations, synthesize results, and iterate. AI replaces manual experiment design and reduces experimental burden by prioritizing high-information experiments. Interpretability and validity are core — agents explain reasoning and validate conclusions.",
+    "who_pays": "Biotech companies, pharma R&D teams, CROs, and internal research labs seeking to accelerate drug discovery and manufacturing optimization cycles.",
+    "confidence": 0.85,
+    "rationale": "Halmos Labs is a strong fit for biotech-rd-agent: they automate end-to-end R&D workflows (experiment design, simulation, wetlab execution, manufacturing) using agentic AI. The 'swarm AI' and 'maximum information per experiment' language indicates multi-agent orchestration optimizing research efficiency. Secondary fit with ai-research-automation (meta-level: AI conducting primary research with minimal human intervention). Primary phenotype is biotech-rd-agent because the value is domain-specific (biotech/drug discovery) and the workflow is vertical (not general scientific research automation). Confidence 0.85 due to clear R&D automation focus, though exact execution model (fully autonomous vs. human-in-loop) is not fully specified.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare",
+      "Industrial Bio"
+    ],
+    "yc_tags": [
+      "AI-powered Drug Discovery",
+      "Swarm AI",
+      "Biotech"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 3,
+    "location": "Lund, Skåne County, Sweden",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3682661,
+        "full_name": "Mattias Akke",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Halmos Labs. Previously ML research intern at MIT (Gómez-Bombarelli&#x27;s lab) and AstraZeneca, developing frontier models for drug discovery. Published at NeurIPS on Bayesian optimization with LLMs. Research intern at Cambridge in Tuomas Knowles&#x27; group studying protein misfolding diseases. Chaired Kodsport Sverige, Sweden&#x27;s largest competitive programming organization.",
+        "linkedin_url": "https://www.linkedin.com/in/mattias-akke-40a83219a",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e01b9b8a380ee646dee214cd9e121e4c7102388a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEURZJTPD%2F20260907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260907T183542Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJGMEQCIBnY29QX0I7m4J%2FEBT%2Fi6Lm%2BC3pQgyhLu1h%2FFqh1q8P8AiAT7XCmAtxo%2FVF1hR9X6vqsuTyuIlw8jH3pdFbAz8IQKirlAwhEEAAaDDAwNjIwMTgxMTA3MiIMFUzKnKu%2BeK2SVf1rKsID9rIhbi%2FRcxnM705W8qxaRj5KMHmy6uhbE%2BYXpL2KjpiIvqAcqGIg2lvlWagkg58OL14pGHshpXCsh252LNnC4noUZ4kRmQim9VsERgbjcvSMirERvrL3Zug0%2B4cbLAnqfUoG5PIL3sQOqRcBvHyHOAA1ZMPz5vMP0VDh6QOVEFy5O3qcMT%2FW%2F6RV0XPWl1wXWPIo1sQAxh828cDuSjlzxgDhVZh52IgB%2FS71pjiHXBZBCO8PPpzk5MZYliSaE%2FGsnkOAm7Ojy%2FLI%2BVbhwz8L6EaklDfuxWPTwCOM0R5ElQ8nQQST7cBBZ%2B0rvVeXtIIK6OLUnx628WIhOhmAmo7CnpuFjyfnztyQ35uw1hQ4aVs%2Fiipui9r5jmdvHzTN6iDUgImfY1wKiZ1dgghW7nCfy4V%2FXhUZiyA7i6IUeKSGR6AWnOXC6WKlXDjnuAznvgmEpxYRzI5Zp494XpA%2F5Ug%2FTtoTSSDBQyZeXdbNRwNRN50OpsDNc%2FJf0WIPyLhBTlxkfqYutsykvYsyu%2Farid1K48ijnDP9jIU5N1xUK5%2F6rZmltr%2FQ7kBsTcBoW6raNxCdZwVeUyKKY3zzN84FVRfkhOI1MMSF%2FNQGOqYBjG9%2FJwdNisjcobSmvjmfPPx%2FEAPdm%2FtWe%2FzhzgXBA1ZMWiCC6beKRDOAT2VZy7OZiuaDZJ8p2nMC6q4NUwmUCJCDcqMfdgEK8zrXQ8SmmfbqWF9OQ6UrfY5brk4i0TYHE1t8MNZzcP7izpDPEiOuOFddzY8A9a46mH8VLdFBCgJkpaeilN6Kr1cnual6oHrElIpD2r1T5h0PrywCaG1q7zuZR863yQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4afc050055c7c8dc78f2cdb07edbc4e764fca9bcd814662c93a7bd325107c5bf",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Halmos Labs",
+          "href": "https://www.ycombinator.com/companies/halmos-labs"
+        }
+      },
+      {
+        "user_id": 3654952,
+        "full_name": "Linus von Ekensteen Löfgren",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Halmos Labs. Previously Desk Quant at Danske Bank, building pricing algorithms and risk models across all asset classes. Conducted LLM security research at AI Sweden and quantum computing research at Chalmers. MS Engineering Physics and BA Economics from Lund University.",
+        "linkedin_url": "https://www.linkedin.com/in/linusvonekensteen/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/17a47ee26b59bf606fe75eb4b38cf5062197f685.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEURZJTPD%2F20260907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260907T183542Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJGMEQCIBnY29QX0I7m4J%2FEBT%2Fi6Lm%2BC3pQgyhLu1h%2FFqh1q8P8AiAT7XCmAtxo%2FVF1hR9X6vqsuTyuIlw8jH3pdFbAz8IQKirlAwhEEAAaDDAwNjIwMTgxMTA3MiIMFUzKnKu%2BeK2SVf1rKsID9rIhbi%2FRcxnM705W8qxaRj5KMHmy6uhbE%2BYXpL2KjpiIvqAcqGIg2lvlWagkg58OL14pGHshpXCsh252LNnC4noUZ4kRmQim9VsERgbjcvSMirERvrL3Zug0%2B4cbLAnqfUoG5PIL3sQOqRcBvHyHOAA1ZMPz5vMP0VDh6QOVEFy5O3qcMT%2FW%2F6RV0XPWl1wXWPIo1sQAxh828cDuSjlzxgDhVZh52IgB%2FS71pjiHXBZBCO8PPpzk5MZYliSaE%2FGsnkOAm7Ojy%2FLI%2BVbhwz8L6EaklDfuxWPTwCOM0R5ElQ8nQQST7cBBZ%2B0rvVeXtIIK6OLUnx628WIhOhmAmo7CnpuFjyfnztyQ35uw1hQ4aVs%2Fiipui9r5jmdvHzTN6iDUgImfY1wKiZ1dgghW7nCfy4V%2FXhUZiyA7i6IUeKSGR6AWnOXC6WKlXDjnuAznvgmEpxYRzI5Zp494XpA%2F5Ug%2FTtoTSSDBQyZeXdbNRwNRN50OpsDNc%2FJf0WIPyLhBTlxkfqYutsykvYsyu%2Farid1K48ijnDP9jIU5N1xUK5%2F6rZmltr%2FQ7kBsTcBoW6raNxCdZwVeUyKKY3zzN84FVRfkhOI1MMSF%2FNQGOqYBjG9%2FJwdNisjcobSmvjmfPPx%2FEAPdm%2FtWe%2FzhzgXBA1ZMWiCC6beKRDOAT2VZy7OZiuaDZJ8p2nMC6q4NUwmUCJCDcqMfdgEK8zrXQ8SmmfbqWF9OQ6UrfY5brk4i0TYHE1t8MNZzcP7izpDPEiOuOFddzY8A9a46mH8VLdFBCgJkpaeilN6Kr1cnual6oHrElIpD2r1T5h0PrywCaG1q7zuZR863yQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=26a0e50eff402a5d540bdf54e8ec09c3fe2659126c40806a2ee6f5d4a8a5dc2d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Halmos Labs",
+          "href": "https://www.ycombinator.com/companies/halmos-labs"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-07T18:35:52.341Z",
+    "classified_at": "2026-09-07T18:35:52.341Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
+  },
+  {
     "slug": "handoff",
     "name": "Handoff",
     "website": "https://www.handoff.ai/",
@@ -37018,6 +37102,90 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
+  },
+  {
+    "slug": "hesper-ai",
+    "name": "Hesper AI",
+    "website": "https://gethesperai.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/hesper-ai",
+    "batch": "Fall 2026",
+    "one_liner": "AI Claims Investigator for Insurance",
+    "description_combined": "AI Claims Investigator for Insurance\n\nHesper AI builds AI agents that investigate P&C insurance claims end to end.\r\nHesper’s agents read the claim file, detect tampered documents, verify facts, check coverage, flag inconsistencies, and produce an audit-ready case file in minutes, so insurers can check every claim. \r\nWe work with Claims and SIU orgs at Carriers, MGAs and TPAs,",
+    "industry_sub_vertical": "P&C insurance claims fraud detection & investigation",
+    "canonical_vertical_id": "insurance.fraud-detection",
+    "vertical_id": "insurance.fraud-detection",
+    "vertical_label": "Insurance fraud detection & investigation",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "claims_investigation_automation",
+      "fraud_detection_document_analysis",
+      "compliance_audit_trail_generation",
+      "multi_step_claims_processing"
+    ],
+    "what_they_sell": "End-to-end AI claims investigation SaaS deployed as autonomous agents within P&C insurance carriers, MGAs, and TPAs. Agents ingest claim files, detect document tampering, verify facts, check coverage eligibility, flag inconsistencies, and generate audit-ready case files.",
+    "ai_play": "AI agents replace manual claims investigators and SIU (Special Investigation Unit) analysts by automating document review, fraud signal detection, coverage verification, and case file assembly. Reduces investigation time from days to minutes while maintaining compliance and audit trails.",
+    "who_pays": "Claims departments, SIU teams, and compliance officers at P&C insurers, MGAs (Managing General Agents), and TPAs (Third-Party Administrators).",
+    "confidence": 0.82,
+    "rationale": "Hesper is a vertical SaaS deploying autonomous AI agents to replace manual, detail-intensive claims investigation workflows within a specific vertical (P&C insurance). The product is end-user-facing (sold to Claims/SIU orgs), integrates with claims management systems, and automates a high-friction, high-compliance job function. Secondary phenotype (agent-observability-evals) applies because fraud detection and document tampering require evaluation/monitoring capabilities. NOT fintech-insurance-ai-product because Hesper does not take underwriting risk or issue insurance products—it is a software vendor enabling insurers to execute claims faster and more accurately.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Insurance"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Insurance",
+      "Fraud Detection"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 675827,
+        "full_name": "Pankaj Dhariwal",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Hesper AI. Previously Engineering Manager at Nanonets, where he built Flow (Accounts Payable product) from scratch to $200K ARR and scaled the engineering team from 7 to 25. Earlier, first engineer on the Export-Import team at Shipsy, building the global container tracking and ETA prediction system from the ground up. Dual degree in Electronics & Economics from BITS Pilani.",
+        "linkedin_url": "https://www.linkedin.com/in/pankaj-dhariwal/",
+        "twitter_url": "https://x.com/Pankaj_Dhariwal",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5fd48563dab99d3645e4c2b77229cca94318288e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAC4EAIHYJ%2F20260907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260907T183532Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJIMEYCIQDKdQvqavyTSmL9Nf68%2FsxXbTbiRkkMpkR3aRIEcAc1rAIhAOM9YA3PJPJSVVqsf1G2t%2BexEtoFjRlFdNdU8ZaAv7D%2FKuUDCEQQABoMMDA2MjAxODExMDcyIgyKlRDofAMZ5pH%2BBp4qwgO2%2BQZcFvdybeHzPOdzEc6gE1tCj%2ByyP%2BpI96Qh4bVVcLKM%2F7DFpHCg16fjQYG1hCqAYNdFThuSgh9aGiUqmE5DMLx33rAgWLWsEDSW4S5YHSvFhjudUmyp3%2FzkPZObZI93REn9EqmQ0wto7wGNdII%2Bpj5edA5kMoC4rfF3I36N%2FFjmOVAoakkZOfwi%2FHfzwVde1ZAoPhC7q3a%2B3FF7cCmzCsAErAyWtLUzMnHXSZ7nzKpImQax6fvolCMHxMvfoUMNevhsAetkmQjMwYa4x7pkY5q5SY82UTbKGJpKgx1noN9g%2F2hMsHTp63mrJ0o3DPDszm%2BjnpBn0PzkmcvwHSqo1i%2B%2FKeEs4pPGtc%2FhW7cXuRYfDWhoqOAMKdjdZS11uBJupSbjhPcIQEVOYfVOTDmv5jfwiT6l1qDR9iUwQm66mdHe85gUamCRh12mo%2Be8%2FiJvWOuZUtXDN0vUJEauZCgwuGAJIBPKZHeKQRUaVEe2Pk0gyEsGQDSorGj3adlSxQ7FNppKfirrzUhFUtxNnleiWv4%2B%2FWZR5Xorbg%2Bx890FRi4zX8I8uq7igpgrHkLo8tcJ6oQczuSjUpkiJsf6iBT%2BwYAwpoX81AY6pAGl7D7sm50PqYTpe1P00VJ60y%2FdlcW%2FAO%2BdOepqNPCie8%2FkuJluPd%2FKq96hFExXV3CsIo6i80luOAHiNe4UncCCcK5TOViF7Grt1v2PnA5xux7Tk1xlWa4QTmNnh7ZZgMAId5vqlQ%2F%2B1x7fL7mvDk7LRV7JoqxQI7DmSK%2Fgt786dn3vX%2F%2BVwBsMsR%2Fc9%2FGh%2BjfvhLxUleC%2FWsESzTsyifJiQdksoA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=8d8d11c0d4ab843a14738f4875a0b518cc886548791a42818670438fc3b32eac",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Hesper AI",
+          "href": "https://www.ycombinator.com/companies/hesper-ai"
+        }
+      },
+      {
+        "user_id": 559900,
+        "full_name": "NITISH BADU",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Founder at Hesper AI",
+        "linkedin_url": "https://linkedin.com/in/nitish-badu-529b28165/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dc0e4f496a2c6e82dcc46fc9b6a6c00defae8178.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAC4EAIHYJ%2F20260907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260907T183532Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJIMEYCIQDKdQvqavyTSmL9Nf68%2FsxXbTbiRkkMpkR3aRIEcAc1rAIhAOM9YA3PJPJSVVqsf1G2t%2BexEtoFjRlFdNdU8ZaAv7D%2FKuUDCEQQABoMMDA2MjAxODExMDcyIgyKlRDofAMZ5pH%2BBp4qwgO2%2BQZcFvdybeHzPOdzEc6gE1tCj%2ByyP%2BpI96Qh4bVVcLKM%2F7DFpHCg16fjQYG1hCqAYNdFThuSgh9aGiUqmE5DMLx33rAgWLWsEDSW4S5YHSvFhjudUmyp3%2FzkPZObZI93REn9EqmQ0wto7wGNdII%2Bpj5edA5kMoC4rfF3I36N%2FFjmOVAoakkZOfwi%2FHfzwVde1ZAoPhC7q3a%2B3FF7cCmzCsAErAyWtLUzMnHXSZ7nzKpImQax6fvolCMHxMvfoUMNevhsAetkmQjMwYa4x7pkY5q5SY82UTbKGJpKgx1noN9g%2F2hMsHTp63mrJ0o3DPDszm%2BjnpBn0PzkmcvwHSqo1i%2B%2FKeEs4pPGtc%2FhW7cXuRYfDWhoqOAMKdjdZS11uBJupSbjhPcIQEVOYfVOTDmv5jfwiT6l1qDR9iUwQm66mdHe85gUamCRh12mo%2Be8%2FiJvWOuZUtXDN0vUJEauZCgwuGAJIBPKZHeKQRUaVEe2Pk0gyEsGQDSorGj3adlSxQ7FNppKfirrzUhFUtxNnleiWv4%2B%2FWZR5Xorbg%2Bx890FRi4zX8I8uq7igpgrHkLo8tcJ6oQczuSjUpkiJsf6iBT%2BwYAwpoX81AY6pAGl7D7sm50PqYTpe1P00VJ60y%2FdlcW%2FAO%2BdOepqNPCie8%2FkuJluPd%2FKq96hFExXV3CsIo6i80luOAHiNe4UncCCcK5TOViF7Grt1v2PnA5xux7Tk1xlWa4QTmNnh7ZZgMAId5vqlQ%2F%2B1x7fL7mvDk7LRV7JoqxQI7DmSK%2Fgt786dn3vX%2F%2BVwBsMsR%2Fc9%2FGh%2BjfvhLxUleC%2FWsESzTsyifJiQdksoA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=795da590f94deacbf32e7c00a2adf674ced5039ca5fa71f853ff402f0fd9c5c5",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Hesper AI",
+          "href": "https://www.ycombinator.com/companies/hesper-ai"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-07T18:35:42.795Z",
+    "classified_at": "2026-09-07T18:35:42.795Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "hessian",
@@ -53670,6 +53838,74 @@
     "primary_bm": "BM-07"
   },
   {
+    "slug": "mochi",
+    "name": "Mochi",
+    "website": "https://www.mochi.tv/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/mochi",
+    "batch": "Summer 2026",
+    "one_liner": "Watch and create anime",
+    "description_combined": "Watch and create anime\n\nMochi is an app to watch and create anime microdramas: fast paced shows with a cliffhanger every minute. We produce originals with AI, collaborating with writers from Marvel, Cartoon Network, and Toei Animation, and our users can also create in app too - with over 500 episodes created each day from 3,000+ creators.",
+    "industry_sub_vertical": "AI-generated anime content creation & creator monetization platform",
+    "canonical_vertical_id": "media.content.creator",
+    "vertical_id": "media.content.creator",
+    "vertical_label": "Creator economy & AI content monetization",
+    "vertical_sector_id": "media-entertainment",
+    "phenotype_primary_id": "consumer-ai-creation-platform",
+    "phenotype_primary_label": "Consumer AI Creation Platform (Social Distribution)",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "content_generation_curation",
+    "ai_application_patterns": [
+      "generative_content_creation",
+      "user_generated_content_platform",
+      "social_distribution",
+      "creator_monetization"
+    ],
+    "what_they_sell": "Mobile app enabling end-users (prosumers, creators) to watch AI-generated anime microdramas and create their own using AI tools in-app. Monetized via freemium subscriptions, premium creation features, and creator revenue sharing. Platform produces originals with AI (collaborating with professional writers) and enables 3,000+ daily creators to produce 500+ episodes daily.",
+    "ai_play": "AI generation of anime/microdrama content (scriptwriting, animation, visual synthesis) + user-facing AI creation tools that lower barrier to entry for non-professional creators. AI handles production bottlenecks (animation, storyboarding) so creators focus on storytelling. Network effects via social distribution and creator ecosystem.",
+    "who_pays": "End-users (viewers via subscription/ads); creators (via revenue share or premium features); potentially brand/licensing deals for originals.",
+    "confidence": 0.85,
+    "rationale": "Mochi is a consumer-facing platform enabling end-users to create and share AI-powered content (anime microdramas) without coding. Matches consumer-ai-creation-platform archetype: freemium/subscription monetization, social distribution moat, low-code AI tooling, creator revenue sharing. Secondary phenotype (consumer-ai-app) also applies as end-user entertainment product. AI is core to both content production (originals) and user creation tools (lowering friction). Not a vertical SaaS (not B2B workflow automation) and not a horizontal copilot (not productivity/cross-industry). Primary phenotype is the better fit due to emphasis on creator platform and social distribution.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Content"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Consumer"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1027100,
+        "full_name": "Robert Qiu",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "uc berkeley alum, ex-faang. scaled game startup to $200k monthly revenue. launched top 50 nft project with $100m+ trade volume (justin kan, ray chan were holders).",
+        "linkedin_url": "https://linkedin.com/in/robertqiu",
+        "twitter_url": "https://x.com/whatsrobdoing_",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a5dc13e0126d55bbafe8009ec41291fd68368785.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHDACNEKJ%2F20260907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260907T183502Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJHMEUCIFyuK1nODrqmA1B%2Fkcj8Si2V8CtIIXY4xIzI49vZxo11AiEAiMUDlD75MijR3uNC1Z%2F%2Fwt%2FkAotn0yb0D9hwQDKNF%2Fsq5QMIRBAAGgwwMDYyMDE4MTEwNzIiDFSUjnIS148lnJ6pmCrCAyVfFh6rCeqtXSc0wxnvr6IFBp5jHpg9gqYF0jzh8TA4RLLI8YEVTLFG1dZxpUVW53bp9UyWHEczYCUvuLKM2vn3%2FiD3JeduXrvRbEdi9jBJfl78GmK6QXK0ATH%2FlC31OXHFmoV5TGiKtJnmUghNpNNY5UTkPIqoOma4fK%2BOwbNGqNAWmQA7hERYUl571Fz2xIckrSjcC5TpD9fofKP4cDxJs0aqxlVGomsSHV1iEcQNW97V6kpJejMvaZzBaB6FluaMMT0ogaTzJNaFSOglH%2BMW7CVP6iMW%2F1Rl%2BpoHNOA8B%2ByfGK%2BRbrrtTt3lwwbAkA0CkpiSelgeI26yctTp6cyhZ0mHzkDqKDcg9ErRUJQNn2Gf6yjamZoilyYdAPAFXRFbUKGWvY%2Bu%2BGpFEMvBXt6nlmS5K9bQkY3d4g7cr7rHkXaDUxG3BplA0YLRyTzjd1Vl%2FTd0yKntdnCvNH3S5AUIVZwjseoI2OgX4LqkAyqOhg3gxCsuU7Egs3CZf0WldwHlROF%2FgmdKBw1VZfbXLT%2FQoOlyIAysHaZKRrJqDlY9L9dQAnOY1N24Qw01hO4VOEt79eUs3Ehq92LqL2MKK0RY0DDEhfzUBjqlAcZ4%2FJx6gUdKhpq8f8VoaqKCspqXS3CXyKyTR1Ar%2Fc8nxSUcpvoE7j3UZ0Kiqie4fH2Qj6t6Xyut%2FVPhECPH1H7cxotw7lytKzNDEt%2FKVP%2FEnHVXyIVbnp2GixDM3dyqoWdnxA75749L4WW0mDxie0K4AGNww%2FFlJ%2BEYndqtC2kAUB7VcU96qmHOF7OxKcqbKerRw2XTllvJRcY7gY1RwcwXl7xQhg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=5d4d28c11c3a02d3a25c6a089c5527204db22c23a394bf5bdbf64dd97c38bce1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Mochi",
+          "href": "https://www.ycombinator.com/companies/mochi"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-07T18:35:12.131Z",
+    "classified_at": "2026-09-07T18:35:12.131Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-10"
+  },
+  {
     "slug": "mochitv",
     "name": "MOCHI.TV",
     "website": "https://www.mochi.tv/",
@@ -54282,6 +54518,90 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit"
+  },
+  {
+    "slug": "moonshot-computer",
+    "name": "Moonshot",
+    "website": "https://moonshot.computer/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/moonshot-computer",
+    "batch": "Summer 2026",
+    "one_liner": "agents for the rest of us",
+    "description_combined": "agents for the rest of us\n\nWe want to bring AI agents to a billion people.\r\n\r\nTo do this, we believe it needs to be 1. proactive and 2. personal. A billion people already carry the right device, but none of them have the right connector.\r\n\r\nMoonshot is personal intelligence that lives on your iPhone and listens to you 24/7. It continuously builds up a greater understanding of you through constantly listening and building context. It just pays deep attention, the way a good friend does. Through this, Moonshot monitors your conscious and subconscious life, figuring out what you need before you know, reminding you about open loops, identifying life and emotional trends before you recognize it, and covering a lot more of what we gloss over in daily life.\r\n\r\nFor fifty years, software has waited to be asked. We think tools are just good enough to flip this, and the next great software will provide value before asking for something first. We&#x27;re doing it through Moonshot.\r\n\r\nOur thesis is simple: you&#x27;re only living half your life. The half that you actively remember. The other half just evaporates into your subconscious: what you said, felt, promised, and forgot. It&#x27;s the more interesting half, and until now nothing could catch it, making it not actionable.\r\n\r\nMoonshot catches your subconscious half and understands you well enough to take actions on your behalf.\r\n\r\nTake life personally.\r\n\r\nThe iOS app is designed around ambient listening and clear user control. Short microphone chunks are sent s",
+    "industry_sub_vertical": "Personal AI assistant for life context & proactive reminders",
+    "canonical_vertical_id": "consumer.productivity.personal",
+    "vertical_id": "consumer.productivity.personal",
+    "vertical_label": "Personal productivity software",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / prosumer AI application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "personal_assistant",
+    "ai_application_patterns": [
+      "ambient_listening",
+      "context_accumulation",
+      "proactive_task_automation",
+      "life_trend_detection"
+    ],
+    "what_they_sell": "iOS app delivering ambient, always-on personal AI that listens to user speech, builds persistent context about their life, and proactively surfaces reminders, insights, and actions without being asked.",
+    "ai_play": "AI agent that continuously ingests ambient audio context, builds a long-term user model (preferences, commitments, emotional patterns, open loops), and uses that model to predict user needs and take autonomous actions (reminders, suggestions, trend alerts) before the user consciously requests them. Differentiator is proactive, context-aware autonomy rather than reactive chatbot.",
+    "who_pays": "End consumers (iOS users); monetized via freemium subscription or premium features.",
+    "confidence": 0.85,
+    "rationale": "Moonshot is a consumer-facing AI application targeting end-users (not enterprises). Core value is a personal AI assistant that runs on iPhone and uses ambient listening + context accumulation to deliver proactive, personalized life management. Fits consumer-ai-app phenotype: end-user app, subscription-based, AI-powered personal assistant. Secondary patterns (ambient listening, trend detection, autonomous action) are execution details within that archetype. Not vertical-workflow-agent (no B2B workflow automation), not horizontal-copilot-saas (not cross-industry productivity tool sold to teams), not agent-runtime-infra (not infrastructure for other agents). Confidence 0.85 due to clear consumer positioning and proactive personal-assistant model.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [
+      "Consumer",
+      "Productivity",
+      "AI",
+      "AI Assistant"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 3,
+    "location": "Seattle, WA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2384611,
+        "full_name": "Ojas Kandhare",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "goofing",
+        "linkedin_url": "https://www.linkedin.com/in/ojas-kandhare-74b349212/",
+        "twitter_url": "https://x.com/ojaskandy",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5ce3ae32b375e26e931c634c3b08c5c3e3281e32.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEURZJTPD%2F20260907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260907T183522Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJGMEQCIBnY29QX0I7m4J%2FEBT%2Fi6Lm%2BC3pQgyhLu1h%2FFqh1q8P8AiAT7XCmAtxo%2FVF1hR9X6vqsuTyuIlw8jH3pdFbAz8IQKirlAwhEEAAaDDAwNjIwMTgxMTA3MiIMFUzKnKu%2BeK2SVf1rKsID9rIhbi%2FRcxnM705W8qxaRj5KMHmy6uhbE%2BYXpL2KjpiIvqAcqGIg2lvlWagkg58OL14pGHshpXCsh252LNnC4noUZ4kRmQim9VsERgbjcvSMirERvrL3Zug0%2B4cbLAnqfUoG5PIL3sQOqRcBvHyHOAA1ZMPz5vMP0VDh6QOVEFy5O3qcMT%2FW%2F6RV0XPWl1wXWPIo1sQAxh828cDuSjlzxgDhVZh52IgB%2FS71pjiHXBZBCO8PPpzk5MZYliSaE%2FGsnkOAm7Ojy%2FLI%2BVbhwz8L6EaklDfuxWPTwCOM0R5ElQ8nQQST7cBBZ%2B0rvVeXtIIK6OLUnx628WIhOhmAmo7CnpuFjyfnztyQ35uw1hQ4aVs%2Fiipui9r5jmdvHzTN6iDUgImfY1wKiZ1dgghW7nCfy4V%2FXhUZiyA7i6IUeKSGR6AWnOXC6WKlXDjnuAznvgmEpxYRzI5Zp494XpA%2F5Ug%2FTtoTSSDBQyZeXdbNRwNRN50OpsDNc%2FJf0WIPyLhBTlxkfqYutsykvYsyu%2Farid1K48ijnDP9jIU5N1xUK5%2F6rZmltr%2FQ7kBsTcBoW6raNxCdZwVeUyKKY3zzN84FVRfkhOI1MMSF%2FNQGOqYBjG9%2FJwdNisjcobSmvjmfPPx%2FEAPdm%2FtWe%2FzhzgXBA1ZMWiCC6beKRDOAT2VZy7OZiuaDZJ8p2nMC6q4NUwmUCJCDcqMfdgEK8zrXQ8SmmfbqWF9OQ6UrfY5brk4i0TYHE1t8MNZzcP7izpDPEiOuOFddzY8A9a46mH8VLdFBCgJkpaeilN6Kr1cnual6oHrElIpD2r1T5h0PrywCaG1q7zuZR863yQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=737448b573d911fac9d6cddfedf14352ac4570d9cd618a3284515549cf9eb64e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Moonshot",
+          "href": "https://www.ycombinator.com/companies/moonshot-computer"
+        }
+      },
+      {
+        "user_id": 2613840,
+        "full_name": "Tario You",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "mooning",
+        "linkedin_url": "https://www.linkedin.com/in/tario-you",
+        "twitter_url": "https://x.com/deftarioo",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8de95ae9d0f4ced5184d6984735de601565c588c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEURZJTPD%2F20260907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260907T183522Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJGMEQCIBnY29QX0I7m4J%2FEBT%2Fi6Lm%2BC3pQgyhLu1h%2FFqh1q8P8AiAT7XCmAtxo%2FVF1hR9X6vqsuTyuIlw8jH3pdFbAz8IQKirlAwhEEAAaDDAwNjIwMTgxMTA3MiIMFUzKnKu%2BeK2SVf1rKsID9rIhbi%2FRcxnM705W8qxaRj5KMHmy6uhbE%2BYXpL2KjpiIvqAcqGIg2lvlWagkg58OL14pGHshpXCsh252LNnC4noUZ4kRmQim9VsERgbjcvSMirERvrL3Zug0%2B4cbLAnqfUoG5PIL3sQOqRcBvHyHOAA1ZMPz5vMP0VDh6QOVEFy5O3qcMT%2FW%2F6RV0XPWl1wXWPIo1sQAxh828cDuSjlzxgDhVZh52IgB%2FS71pjiHXBZBCO8PPpzk5MZYliSaE%2FGsnkOAm7Ojy%2FLI%2BVbhwz8L6EaklDfuxWPTwCOM0R5ElQ8nQQST7cBBZ%2B0rvVeXtIIK6OLUnx628WIhOhmAmo7CnpuFjyfnztyQ35uw1hQ4aVs%2Fiipui9r5jmdvHzTN6iDUgImfY1wKiZ1dgghW7nCfy4V%2FXhUZiyA7i6IUeKSGR6AWnOXC6WKlXDjnuAznvgmEpxYRzI5Zp494XpA%2F5Ug%2FTtoTSSDBQyZeXdbNRwNRN50OpsDNc%2FJf0WIPyLhBTlxkfqYutsykvYsyu%2Farid1K48ijnDP9jIU5N1xUK5%2F6rZmltr%2FQ7kBsTcBoW6raNxCdZwVeUyKKY3zzN84FVRfkhOI1MMSF%2FNQGOqYBjG9%2FJwdNisjcobSmvjmfPPx%2FEAPdm%2FtWe%2FzhzgXBA1ZMWiCC6beKRDOAT2VZy7OZiuaDZJ8p2nMC6q4NUwmUCJCDcqMfdgEK8zrXQ8SmmfbqWF9OQ6UrfY5brk4i0TYHE1t8MNZzcP7izpDPEiOuOFddzY8A9a46mH8VLdFBCgJkpaeilN6Kr1cnual6oHrElIpD2r1T5h0PrywCaG1q7zuZR863yQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2b4e567ba4068179a567aa4079ac67ad5735848916f60ccf5ba5ec69c19c7d3c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Moonshot",
+          "href": "https://www.ycombinator.com/companies/moonshot-computer"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-07T18:35:32.115Z",
+    "classified_at": "2026-09-07T18:35:32.115Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-10"
   },
   {
     "slug": "moritz",
@@ -61111,6 +61431,97 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-08"
+  },
+  {
+    "slug": "orchestra",
+    "name": "Orchestra",
+    "website": "https://orchestra.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/orchestra",
+    "batch": "Summer 2026",
+    "one_liner": "Self-optimizing neocloud that cuts LLM costs by 100x",
+    "description_combined": "Self-optimizing neocloud that cuts LLM costs by 100x\n\nOrchestra is an inference cloud. We capture your AI work traces, train smaller models, and automatically deploy them (only when they outperform the expensive model you are currently paying for).\r\n\r\nInstead of renting the same frontier model forever, your AI infrastructure gets faster, smarter, and cheaper every time it runs.\r\n\r\nSuppose your product uses Claude for a repetitive legal workflow.\r\n\r\nOrchestra observes successful production runs, learns the specific tools and judgment required for that workflow, and trains a specialized open-weight model.\r\n\r\nOnce that model matches or beats Claude on a held-out evaluation, Orchestra starts routing production traffic to it.\r\n\r\nAs more work is completed, the model keeps improving.\r\n\r\nWe started Orchestra because we believe every company using AI should be accumulating intelligence, not accumulating API bills.\n\nYour AI inference gets smarter and cheaper the more you use it. \n\nWe’re Aamir &amp; Luis and we’re excited to launch our company’s new brand ahead of demo day this week: Orchestra (orchestra.ai) \n\nCompanies move their frontier inference spend to Orchestra, with a single URL swap. We relay their traffic through to the frontier labs, while building evals in the background automatically. These evals allows us to post-train specialist models that replace the frontier, at a fraction of the cost. When our model beats the frontier at your product’s work, we promote it and your bills go down. Then we repeat the loop continuously, forever; your AI inference gets smarter and cheaper the more you use it. \n\nWe’re going straight after the $104B inference market; Anthropic grew 14x YoY but we’ve seen time and time again that start-ups and enterprises are willing to mo",
+    "industry_sub_vertical": "Intelligent inference request routing with automatic model distillation & cost optimization",
+    "canonical_vertical_id": "compute.inference-request-routing",
+    "vertical_id": "compute.inference-request-routing",
+    "vertical_label": "Intelligent inference request routing & load balancing",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "model-optimization-rl",
+    "phenotype_primary_label": "Model Optimization via Reinforcement Learning",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "model_distillation",
+      "continuous_optimization",
+      "cost_reduction",
+      "automated_routing"
+    ],
+    "what_they_sell": "Managed inference platform that observes production AI workloads, automatically trains specialized smaller models via distillation, evaluates them against incumbent frontier models, and intelligently routes traffic to cheaper models when they match or exceed performance.",
+    "ai_play": "Uses production traces and evaluation feedback to drive continuous model optimization loops. Trains domain-specific smaller models that replace expensive frontier model calls. AI-driven routing and A/B testing determines when to switch traffic. Eliminates manual prompt engineering and model selection—automation handles the full optimization cycle.",
+    "who_pays": "AI product teams, enterprises, and SaaS companies with high LLM inference costs (legal workflows, customer support, content generation, etc.). Buyers are engineering/product leaders optimizing cloud spend.",
+    "confidence": 0.78,
+    "rationale": "Orchestra is primarily an infrastructure layer that automates model improvement and cost optimization. The core value is continuous, autonomous optimization of inference costs via distillation and intelligent routing—closest match is model-optimization-rl (RL-driven self-improvement from production data). Secondary phenotype edge-inference-runtime also fits because they're deploying smaller, optimized models to replace expensive frontier calls. NOT a vertical workflow agent (they don't automate a specific job function) or a foundation model (they distill existing models, not train from scratch). The 'self-optimizing' framing and production-feedback loop align with RL-driven optimization. Confidence 0.78 because while model optimization is clear, the phenotype library's RL focus is narrower than Orchestra's broader distillation + routing approach—but it's the best fit available.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Open Source",
+      "AI",
+      "ML"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3647059,
+        "full_name": "Luis Manrique",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Orchestra (YC S26). Previously founding Member of Technical Staff (and founding sales guy) at Gumloop, closing ~$2M in first year. Led Ads ML and also consumer AI as first PM at Instacart&#x27;s Carrot AI. Prior co-founder/CEO at Ones and Zeros (text-to-SQL using transformers). Early at Wildfire (acquired by Google), then 5 years across Google&#x27;s ads ML and programmatic platforms. SVP Solutions at VideoAmp building TV measurement infrastructure.",
+        "linkedin_url": "https://www.linkedin.com/in/luismanrique",
+        "twitter_url": "https://x.com/lluismanrique",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/704197b652568953035fd4d4a70a73910a60a37c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFCE3XQEY%2F20260907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260907T183512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJHMEUCIQCc5GjXpCjXljfCR6o6p%2BQ4m43UU2O%2FmGe2gg97Il5TvgIgQGndQ8gqhQh%2BNTWjWzs5keibSA3xucQVwMkeGN6AoMYq5QMIRBAAGgwwMDYyMDE4MTEwNzIiDEWgzdhYtdAxdn0klCrCA4h%2FttC%2FDLqlibXyKQkwo4Onm%2BN7EHFKsaZxlVYlC2hHvPQKrrRHEhY0AP3Tn%2BRLkrv6AJxEJCpyuBm4bhaMQkFZBgZLgU2bM5q2Rh1597CpF1A5Y8mQMlsUK%2BC0RDDdP2OnPaG4DfQRqUfuMMUJ6hBPnsRPRgQjbOrT3eWH%2FahuBw8iBxY2XcI5%2B8mEkyWMvz4%2BL9HZaGRVOAgG2mHE7m5ImHiTW4DNNAOxSx1oisbIBnfQgOAU6J05B5o9hVNfrO4ALPaDTZnThPZgfDpF6ZUO%2BoISYMLcgUrvTa5MS0IfLJEgFl8y456Jhn1vJnUMVBIHm5VMpFg%2B7WHLJ7ihzauf2ZS%2F7Og6JOdgt3nIa2KGMcqIgEG1JgS%2B6UyTtEpypmzWyAwxnMjVUn9NifWergN%2B%2B%2BrlJZEihVa6AkkTJokmqLaTSoydHgGK4bN3cej0eZuFCJf40x%2FcQOs2LOHy524%2Fww3A24DV0vuYZcFR9O9rQUgJdG1zUiuQDpNoVb0yxAjQDtzRnaPbVrklq5LArC%2BQZYA7rIEPksUiwnmxNxXW4r7yXCFfgROpBylUn3MrUZC936qpZneslO4X7RvjRdagSzDEhfzUBjqlAUYyOhLa6U2NTMXP64gpuRNDgv8tfNqx8lzIaqCSXju2%2FAHpqst9n9Nf0SrZMJ4JcIXdK7OsS%2BXA0%2BTFssVTFuV4ObDfpySfvkjb33LU1LoeAC3SipxMK3dJjmXM%2FTN1QoZ9mmljipnxoPP8SXG%2BEyysYRaddFg1BrSynjS%2B0nppE3BuM58iflkuYpBJALtnRxMo1J9nhblILk3D0Vj18xSSViW%2B%2Bg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=223c6f54f543a4108392fb362e71cca262cee8c2905d6fcf9586fde346fe0ecb",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Orchestra",
+          "href": "https://www.ycombinator.com/companies/orchestra"
+        }
+      },
+      {
+        "user_id": 73303,
+        "full_name": "Aamir Poonawalla",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Orchestra (YC S26). 10 years at Instacart. Built the ads serving and ML infrastructure, auction platform, and experimentation framework. 2nd time YC Founder. MS in Computer Science from Georgia Tech.",
+        "linkedin_url": "https://www.linkedin.com/in/aamir-p-a3575318/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4c9a96d07312de424f0f4d4023f16b6a3238ce54.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFCE3XQEY%2F20260907%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260907T183512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHsaCXVzLXdlc3QtMiJHMEUCIQCc5GjXpCjXljfCR6o6p%2BQ4m43UU2O%2FmGe2gg97Il5TvgIgQGndQ8gqhQh%2BNTWjWzs5keibSA3xucQVwMkeGN6AoMYq5QMIRBAAGgwwMDYyMDE4MTEwNzIiDEWgzdhYtdAxdn0klCrCA4h%2FttC%2FDLqlibXyKQkwo4Onm%2BN7EHFKsaZxlVYlC2hHvPQKrrRHEhY0AP3Tn%2BRLkrv6AJxEJCpyuBm4bhaMQkFZBgZLgU2bM5q2Rh1597CpF1A5Y8mQMlsUK%2BC0RDDdP2OnPaG4DfQRqUfuMMUJ6hBPnsRPRgQjbOrT3eWH%2FahuBw8iBxY2XcI5%2B8mEkyWMvz4%2BL9HZaGRVOAgG2mHE7m5ImHiTW4DNNAOxSx1oisbIBnfQgOAU6J05B5o9hVNfrO4ALPaDTZnThPZgfDpF6ZUO%2BoISYMLcgUrvTa5MS0IfLJEgFl8y456Jhn1vJnUMVBIHm5VMpFg%2B7WHLJ7ihzauf2ZS%2F7Og6JOdgt3nIa2KGMcqIgEG1JgS%2B6UyTtEpypmzWyAwxnMjVUn9NifWergN%2B%2B%2BrlJZEihVa6AkkTJokmqLaTSoydHgGK4bN3cej0eZuFCJf40x%2FcQOs2LOHy524%2Fww3A24DV0vuYZcFR9O9rQUgJdG1zUiuQDpNoVb0yxAjQDtzRnaPbVrklq5LArC%2BQZYA7rIEPksUiwnmxNxXW4r7yXCFfgROpBylUn3MrUZC936qpZneslO4X7RvjRdagSzDEhfzUBjqlAUYyOhLa6U2NTMXP64gpuRNDgv8tfNqx8lzIaqCSXju2%2FAHpqst9n9Nf0SrZMJ4JcIXdK7OsS%2BXA0%2BTFssVTFuV4ObDfpySfvkjb33LU1LoeAC3SipxMK3dJjmXM%2FTN1QoZ9mmljipnxoPP8SXG%2BEyysYRaddFg1BrSynjS%2B0nppE3BuM58iflkuYpBJALtnRxMo1J9nhblILk3D0Vj18xSSViW%2B%2Bg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a51f7427d8c2337e45a307332dfcdd824850c8cbc0f714915556f1427c1d53e6",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Orchestra",
+          "href": "https://www.ycombinator.com/companies/orchestra"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-07T18:35:22.790Z",
+    "classified_at": "2026-09-07T18:35:22.790Z",
+    "proposed_phenotype": null,
+    "launch_id": 114099,
+    "launch_url": "https://www.ycombinator.com/launches/TgJ-orchestra-self-optimizing-inference-cloud-to-cut-your-ai-costs-by-100x",
+    "launch_title": "Orchestra: Self-optimizing inference cloud to cut your AI costs by 100x",
+    "launch_created_at": "2026-09-07T14:00:00.839Z",
+    "launch_tagline": "Your AI inference gets smarter and cheaper the more you use it. ",
+    "launch_evaluated_at": "2026-09-07T18:36:22.008Z",
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "orchid-ai",
