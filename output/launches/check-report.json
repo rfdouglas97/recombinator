@@ -1,45 +1,45 @@
 {
-  "checked_at": "2026-09-07T18:36:22.124Z",
+  "checked_at": "2026-09-08T17:45:14.954Z",
   "source": "https://www.ycombinator.com/launches",
   "checked_count": 1,
   "new_count": 1,
   "skipped_count": 929,
   "ingest": {
-    "addedCompanies": 0,
-    "enrichedCompanies": 1
+    "addedCompanies": 1,
+    "enrichedCompanies": 0
   },
   "summary": {
     "conforming": 1,
     "partial": 0,
     "non_conforming": 0,
-    "would_have_predicted": 1,
-    "surprise": 0,
+    "would_have_predicted": 0,
+    "surprise": 1,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 114099,
-        "company_slug": "orchestra",
-        "company_name": "Orchestra",
-        "launch_url": "https://www.ycombinator.com/launches/TgJ-orchestra-self-optimizing-inference-cloud-to-cut-your-ai-costs-by-100x",
-        "created_at": "2026-09-07T14:00:00.839Z"
+        "launch_id": 113866,
+        "company_slug": "lighthouz-ai",
+        "company_name": "Lighthouz AI",
+        "launch_url": "https://www.ycombinator.com/launches/TcY-lighthouz-ai-ai-to-automate-collections-for-freight-brokers-and-3pls",
+        "created_at": "2026-09-07T20:11:49.454Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-09-07T18:36:20.701Z",
-        "launch_id": 114099,
-        "company_slug": "orchestra",
+        "evaluated_at": "2026-09-08T17:45:13.722Z",
+        "launch_id": 113866,
+        "company_slug": "lighthouz-ai",
         "taxonomy": {
-          "conformance_index": 77,
+          "conformance_index": 78,
           "verdict": "conforming",
           "dimensions": {
             "phenotype_alignment": {
-              "score": 65,
+              "score": 70,
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 75,
+              "score": 85,
               "band": "strong"
             },
             "business_model_fit": {
@@ -47,40 +47,40 @@
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 89,
+              "score": 93,
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 90,
+              "score": 75,
               "band": "strong"
             }
           },
           "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "compute.inference-request-routing",
-            "phenotype_primary_id": "model-optimization-rl",
-            "cell_key": "BM-03::compute.inference-request-routing::model-optimization-rl",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Intelligent inference request routing & load balancing",
-            "phenotype_label": "Model Optimization via Reinforcement Learning"
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.finance.accounting",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.finance.accounting::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Finance & accounting automation",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
           }
         },
         "predictor": {
-          "predictability_band": "plausible",
-          "signals": [],
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
           "cell_was_whitespace": false,
-          "ranked_gap": {
-            "rank": 454,
-            "opportunity_score": 10,
-            "transfer_score": 83
-          },
+          "ranked_gap": null,
           "synthetic_match": null,
           "analog_gap_matches": [],
-          "retro_transfer_score": 71,
-          "retro_transfer_band": "strong",
-          "would_have_been_predicted": true
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
         },
-        "notes": []
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
       }
     }
   ]

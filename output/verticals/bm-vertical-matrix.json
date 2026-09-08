@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-07T18:36:22.905Z",
+  "generated_at": "2026-09-08T17:45:15.599Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1423,
+    "assignment_count": 1425,
     "mapped_verticals": 243,
-    "observed_cells": 478,
+    "observed_cells": 479,
     "total_verticals": 525,
     "gap_candidates": 844
   },
@@ -349,6 +349,36 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.finance.accounting",
+      "vertical_label": "Finance & accounting automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "billow-ai-labs",
+        "bluebook",
+        "cifrato",
+        "clerked",
+        "combinely",
+        "cranston-ai",
+        "eigenpal",
+        "end-close",
+        "finto-de",
+        "fullseam",
+        "kinter",
+        "lighthouz-ai",
+        "mesh-2",
+        "mod-ai",
+        "nivara",
+        "procindex",
+        "rational",
+        "saldor",
+        "tally-2",
+        "zalos",
+        "zomma"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.robotics.general",
@@ -376,35 +406,6 @@
         "servo7",
         "verne-robotics",
         "waddle-labs"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.finance.accounting",
-      "vertical_label": "Finance & accounting automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "billow-ai-labs",
-        "bluebook",
-        "cifrato",
-        "clerked",
-        "combinely",
-        "cranston-ai",
-        "eigenpal",
-        "end-close",
-        "finto-de",
-        "fullseam",
-        "kinter",
-        "mesh-2",
-        "mod-ai",
-        "nivara",
-        "procindex",
-        "rational",
-        "saldor",
-        "tally-2",
-        "zalos",
-        "zomma"
       ]
     },
     {
@@ -3085,6 +3086,16 @@
       "sector_id": "ai-infrastructure",
       "companies": [
         "channel3"
+      ]
+    },
+    {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "ai-infrastructure.agent-runtime",
+      "vertical_label": "Agent runtime & orchestration",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "e1o"
       ]
     },
     {

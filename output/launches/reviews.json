@@ -1,7 +1,77 @@
 {
-  "updated_at": "2026-09-07T18:36:20.718Z",
+  "updated_at": "2026-09-08T17:45:13.740Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 113866,
+      "company_slug": "lighthouz-ai",
+      "launch_url": "https://www.ycombinator.com/launches/TcY-lighthouz-ai-ai-to-automate-collections-for-freight-brokers-and-3pls",
+      "created_at": "2026-09-07T20:11:49.454Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-agentic-workflow-saas",
+        "vertical_id": "enterprise.finance.accounting",
+        "business_models": [
+          "BM-01"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-08T17:45:13.722Z",
+        "launch_id": 113866,
+        "company_slug": "lighthouz-ai",
+        "taxonomy": {
+          "conformance_index": 78,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.finance.accounting",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.finance.accounting::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Finance & accounting automation",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
     {
       "launch_id": 114099,
       "company_slug": "orchestra",
