@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-09T17:30:45.048Z",
+  "generated_at": "2026-09-10T17:31:34.939Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1425,
+    "assignment_count": 1440,
     "mapped_verticals": 243,
     "observed_cells": 479,
     "total_verticals": 525,
@@ -148,6 +148,7 @@
         "semble",
         "semble-ai",
         "socratix-ai",
+        "sona8",
         "stockline",
         "the-company-company",
         "ticket-wallet",
@@ -241,6 +242,7 @@
         "nitrode",
         "olam-labs",
         "ooak-data",
+        "oro-ai",
         "osmosis",
         "physical-turing",
         "polymath",
@@ -260,6 +262,7 @@
       "sector_id": "enterprise-software",
       "companies": [
         "ai-coach",
+        "aisdr",
         "ambral",
         "autumn-ai",
         "caretta",
@@ -268,6 +271,7 @@
         "cohesive",
         "ergo",
         "feldy",
+        "frontrunner",
         "fuse-ai",
         "fuseai",
         "gojiberry-ai",
@@ -306,6 +310,7 @@
         "confident-ai",
         "dimely",
         "fulcrum",
+        "mirrors",
         "moda",
         "parachute",
         "playgent",
@@ -345,7 +350,39 @@
         "tegore",
         "text-ai",
         "touchy",
+        "whip",
         "wondering"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "6thsense",
+        "almond-2",
+        "congruent",
+        "cosmic-robotics",
+        "edgerun",
+        "efference",
+        "general-trajectory",
+        "inloop-robotics",
+        "intelligence-factory",
+        "lambda-robotics",
+        "lightberry",
+        "neuromorphic",
+        "noril1",
+        "os3",
+        "pave-robotics",
+        "piggy-robotics",
+        "proception-inc",
+        "proprio-robotics",
+        "servo7",
+        "shepherd-robotics",
+        "verne-robotics",
+        "waddle-labs"
       ]
     },
     {
@@ -376,36 +413,6 @@
         "tally-2",
         "zalos",
         "zomma"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "6thsense",
-        "almond-2",
-        "congruent",
-        "cosmic-robotics",
-        "edgerun",
-        "efference",
-        "general-trajectory",
-        "inloop-robotics",
-        "intelligence-factory",
-        "lambda-robotics",
-        "lightberry",
-        "neuromorphic",
-        "noril1",
-        "os3",
-        "pave-robotics",
-        "piggy-robotics",
-        "proception-inc",
-        "proprio-robotics",
-        "servo7",
-        "verne-robotics",
-        "waddle-labs"
       ]
     },
     {
@@ -460,6 +467,55 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.support.customer",
+      "vertical_label": "Customer support & contact center",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "acrely",
+        "boom-ai",
+        "bravi",
+        "callab-ai",
+        "calltree",
+        "chert",
+        "leaping-ai",
+        "minimal-ai",
+        "monumint",
+        "outrival-inc",
+        "pathpilot",
+        "riviera",
+        "solidroad",
+        "telemetron-ai",
+        "typewise",
+        "userlens"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.agent-security",
+      "vertical_label": "Agent security & authorization",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "agentic-fabriq",
+        "caution",
+        "clawvisor",
+        "contextfort",
+        "decawork",
+        "deepmark",
+        "fabraix",
+        "golf",
+        "multifactor",
+        "nuntius",
+        "onecli",
+        "salus",
+        "silmaril",
+        "trustai",
+        "truthsystems"
+      ]
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.ops.process-automation",
@@ -484,50 +540,25 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.support.customer",
-      "vertical_label": "Customer support & contact center",
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.devtools.productivity",
+      "vertical_label": "Developer productivity & engineering tools",
       "sector_id": "enterprise-software",
       "companies": [
-        "acrely",
-        "boom-ai",
-        "bravi",
-        "callab-ai",
-        "calltree",
-        "chert",
-        "leaping-ai",
-        "minimal-ai",
-        "monumint",
-        "outrival-inc",
-        "pathpilot",
-        "riviera",
-        "solidroad",
-        "telemetron-ai",
-        "userlens"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.agent-security",
-      "vertical_label": "Agent security & authorization",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "agentic-fabriq",
-        "caution",
-        "clawvisor",
-        "contextfort",
-        "decawork",
-        "fabraix",
-        "golf",
-        "multifactor",
-        "nuntius",
-        "onecli",
-        "salus",
-        "silmaril",
-        "trustai",
-        "truthsystems"
+        "adam",
+        "bitrig",
+        "byteask",
+        "gitdot",
+        "hera-video",
+        "inspector",
+        "oki",
+        "omnara",
+        "prized",
+        "refortifai",
+        "rivet-design",
+        "syntropy",
+        "velum-labs"
       ]
     },
     {
@@ -615,27 +646,6 @@
         "simulithic",
         "synthetic-society",
         "workers-io"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "adam",
-        "bitrig",
-        "gitdot",
-        "hera-video",
-        "inspector",
-        "oki",
-        "omnara",
-        "prized",
-        "refortifai",
-        "rivet-design",
-        "syntropy",
-        "velum-labs"
       ]
     },
     {
@@ -742,6 +752,25 @@
       ]
     },
     {
+      "business_model": "BM-12",
+      "business_model_label": "Open source + commercial",
+      "vertical_id": "enterprise.devtools.productivity",
+      "vertical_label": "Developer productivity & engineering tools",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "a0-dev",
+        "codevisor",
+        "glue",
+        "magnitude",
+        "mlop",
+        "onlook",
+        "openspec",
+        "stagewise",
+        "sublingual",
+        "zenbu-2"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.hr.recruiting",
@@ -814,24 +843,6 @@
         "nao-labs",
         "openprose",
         "proliferate"
-      ]
-    },
-    {
-      "business_model": "BM-12",
-      "business_model_label": "Open source + commercial",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "a0-dev",
-        "glue",
-        "magnitude",
-        "mlop",
-        "onlook",
-        "openspec",
-        "stagewise",
-        "sublingual",
-        "zenbu-2"
       ]
     },
     {
@@ -1187,6 +1198,20 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.provider.specialty-practice",
+      "vertical_label": "Specialty medical practice operations",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "care-gp",
+        "elite",
+        "opalite-health",
+        "play-health",
+        "plena-health"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.defense.surveillance",
@@ -1308,6 +1333,19 @@
         "inkbox",
         "maven",
         "primitive"
+      ]
+    },
+    {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "ai-infrastructure.voice",
+      "vertical_label": "Enterprise voice & speech infrastructure",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "besimple-ai",
+        "liva-ai",
+        "panels",
+        "the-agentic-data-co"
       ]
     },
     {
@@ -1477,19 +1515,6 @@
         "novoflow",
         "scheduling-wizard",
         "trapeze"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.provider.specialty-practice",
-      "vertical_label": "Specialty medical practice operations",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "care-gp",
-        "opalite-health",
-        "play-health",
-        "plena-health"
       ]
     },
     {
@@ -1680,18 +1705,6 @@
         "luel",
         "perfectbit",
         "vassar-robotics"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "ai-infrastructure.voice",
-      "vertical_label": "Enterprise voice & speech infrastructure",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "besimple-ai",
-        "liva-ai",
-        "panels"
       ]
     },
     {
@@ -2441,6 +2454,17 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "enterprise.it.cloud-infra",
+      "vertical_label": "Cloud infrastructure & virtualization",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "byteport",
+        "ravion"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.it.service-management",
@@ -2878,6 +2902,17 @@
       "companies": [
         "control-seat",
         "steinmetz"
+      ]
+    },
+    {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "most-robotic",
+        "superradiant"
       ]
     },
     {
@@ -3969,16 +4004,6 @@
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "enterprise.it.cloud-infra",
-      "vertical_label": "Cloud infrastructure & virtualization",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "byteport"
-      ]
-    },
-    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.legal.contracts",
@@ -4746,16 +4771,6 @@
       "sector_id": "industrials-defense",
       "companies": [
         "83-sciences"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "most-robotic"
       ]
     },
     {

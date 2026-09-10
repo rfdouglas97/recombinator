@@ -1,41 +1,238 @@
 {
-  "checked_at": "2026-09-08T17:45:14.954Z",
+  "checked_at": "2026-09-10T17:31:34.155Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 1,
-  "new_count": 1,
-  "skipped_count": 929,
+  "checked_count": 10,
+  "new_count": 10,
+  "skipped_count": 920,
   "ingest": {
-    "addedCompanies": 1,
-    "enrichedCompanies": 0
+    "addedCompanies": 4,
+    "enrichedCompanies": 6
   },
   "summary": {
-    "conforming": 1,
-    "partial": 0,
+    "conforming": 6,
+    "partial": 4,
     "non_conforming": 0,
-    "would_have_predicted": 0,
-    "surprise": 1,
+    "would_have_predicted": 6,
+    "surprise": 4,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 113866,
-        "company_slug": "lighthouz-ai",
-        "company_name": "Lighthouz AI",
-        "launch_url": "https://www.ycombinator.com/launches/TcY-lighthouz-ai-ai-to-automate-collections-for-freight-brokers-and-3pls",
-        "created_at": "2026-09-07T20:11:49.454Z"
+        "launch_id": 114656,
+        "company_slug": "typewise",
+        "company_name": "Typewise",
+        "launch_url": "https://www.ycombinator.com/launches/TpI-typewise-nova-the-customer-operator-for-fast-growing-teams",
+        "created_at": "2026-09-10T14:10:07.715Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-09-08T17:45:13.722Z",
-        "launch_id": 113866,
-        "company_slug": "lighthouz-ai",
+        "evaluated_at": "2026-09-10T17:31:01.184Z",
+        "launch_id": 114656,
+        "company_slug": "typewise",
         "taxonomy": {
-          "conformance_index": 78,
+          "conformance_index": 56,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 6,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.support.customer",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.support.customer::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Customer support & contact center",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 114523,
+        "company_slug": "okibi",
+        "company_name": "Okibi",
+        "launch_url": "https://www.ycombinator.com/launches/Tn9-okibi-agent-ready-clis",
+        "created_at": "2026-09-10T14:09:32.663Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-10T17:31:01.186Z",
+        "launch_id": 114523,
+        "company_slug": "okibi",
+        "taxonomy": {
+          "conformance_index": 76,
           "verdict": "conforming",
           "dimensions": {
             "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
               "score": 70,
+              "band": "acceptable"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.ops.process-automation",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.ops.process-automation::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Cross-industry process automation",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 114503,
+        "company_slug": "centralcoms",
+        "company_name": "CentralComs",
+        "launch_url": "https://www.ycombinator.com/launches/Tmp-centralcoms-ai-answering-service-for-the-trades",
+        "created_at": "2026-09-10T01:51:06.075Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-10T17:31:01.188Z",
+        "launch_id": 114503,
+        "company_slug": "centralcoms",
+        "taxonomy": {
+          "conformance_index": 58,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 98,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "realestate.property.management",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::realestate.property.management::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Property management operations",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 114496,
+        "company_slug": "ravion",
+        "company_name": "Ravion",
+        "launch_url": "https://www.ycombinator.com/launches/Tmi-ravion-easiest-most-scalable-way-to-use-aws-with-agents",
+        "created_at": "2026-09-10T01:16:17.661Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-10T17:31:11.775Z",
+        "launch_id": 114496,
+        "company_slug": "ravion",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
@@ -47,12 +244,142 @@
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 93,
+              "score": 89,
               "band": "strong"
             },
             "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "enterprise.it.cloud-infra",
+            "phenotype_primary_id": "agent-context-infra",
+            "cell_key": "BM-03::enterprise.it.cloud-infra::agent-context-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Cloud infrastructure & virtualization",
+            "phenotype_label": "Agent Context Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 114335,
+        "company_slug": "torus",
+        "company_name": "Torus",
+        "launch_url": "https://www.ycombinator.com/launches/Tk7-torus-legora-for-the-engineers-who-build-power-plants-refineries-and-data-centers",
+        "created_at": "2026-09-09T20:00:00.280Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-10T17:31:11.777Z",
+        "launch_id": 114335,
+        "company_slug": "torus",
+        "taxonomy": {
+          "conformance_index": 74,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
               "score": 75,
               "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 80,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "manufacturing.product-lifecycle",
+            "phenotype_primary_id": "vertical-workflow-automation-ai",
+            "cell_key": "BM-01::manufacturing.product-lifecycle::vertical-workflow-automation-ai",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Product lifecycle & engineering change management",
+            "phenotype_label": "Vertical Workflow Automation Agent"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 114437,
+        "company_slug": "rational",
+        "company_name": "Rational",
+        "launch_url": "https://www.ycombinator.com/launches/Tll-rational-first-zero-human-accounting-firm",
+        "created_at": "2026-09-09T19:03:11.387Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-10T17:31:11.778Z",
+        "launch_id": 114437,
+        "company_slug": "rational",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 54,
+              "band": "acceptable"
             }
           },
           "cell": {
@@ -62,6 +389,201 @@
             "cell_key": "BM-01::enterprise.finance.accounting::vertical-agentic-workflow-saas",
             "business_model_label": "Vertical AI SaaS",
             "vertical_label": "Finance & accounting automation",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 67,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 114427,
+        "company_slug": "whip",
+        "company_name": "Whip",
+        "launch_url": "https://www.ycombinator.com/launches/Tlb-whip-web-youtube-for-interactive-web-experiences",
+        "created_at": "2026-09-09T17:06:16.672Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-10T17:31:21.077Z",
+        "launch_id": 114427,
+        "company_slug": "whip",
+        "taxonomy": {
+          "conformance_index": 51,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 6,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-10",
+            "vertical_id": "consumer.productivity.personal",
+            "phenotype_primary_id": "consumer-ai-creation-platform",
+            "cell_key": "BM-10::consumer.productivity.personal::consumer-ai-creation-platform",
+            "business_model_label": "Consumer app / prosumer",
+            "vertical_label": "Personal productivity software",
+            "phenotype_label": "Consumer AI Creation Platform (Social Distribution)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 114146,
+        "company_slug": "dock",
+        "company_name": "Dock",
+        "launch_url": "https://www.ycombinator.com/launches/Th4-dock-s26-a-multiplayer-agent-workspace-that-gives-you-a-team-of-proactive-agents-that-feel-like-colleagues-instead-of-chat-boxes",
+        "created_at": "2026-09-09T16:00:00.120Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-10T17:31:21.079Z",
+        "launch_id": 114146,
+        "company_slug": "dock",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::ai-infrastructure.agent-runtime::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 114134,
+        "company_slug": "aisdr",
+        "company_name": "AiSDR",
+        "launch_url": "https://www.ycombinator.com/launches/Tgs-ami-by-aisdr-ai-gtm-agent-that-builds-your-full-outbound-motion",
+        "created_at": "2026-09-09T13:36:03.590Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-10T17:31:32.818Z",
+        "launch_id": 114134,
+        "company_slug": "aisdr",
+        "taxonomy": {
+          "conformance_index": 77,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.sales.enablement",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.sales.enablement::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Sales enablement & execution",
             "phenotype_label": "Vertical Agentic Workflow SaaS"
           }
         },
@@ -80,6 +602,70 @@
         },
         "notes": [
           "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 114338,
+        "company_slug": "frigade",
+        "company_name": "Frigade",
+        "launch_url": "https://www.ycombinator.com/launches/TkA-frigade-assist-api-give-your-ai-agent-the-ability-to-generate-in-product-guides-and-support",
+        "created_at": "2026-09-08T22:26:18.625Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-10T17:31:32.819Z",
+        "launch_id": 114338,
+        "company_slug": "frigade",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 5,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.support.customer",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.support.customer::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Customer support & contact center",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
         ]
       }
     }
