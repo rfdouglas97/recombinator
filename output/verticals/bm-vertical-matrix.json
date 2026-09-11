@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-10T17:31:34.939Z",
+  "generated_at": "2026-09-11T17:30:28.062Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1440,
-    "mapped_verticals": 243,
-    "observed_cells": 479,
+    "assignment_count": 1443,
+    "mapped_verticals": 244,
+    "observed_cells": 480,
     "total_verticals": 525,
-    "gap_candidates": 844
+    "gap_candidates": 843
   },
   "observed_cells": [
     {
@@ -319,6 +319,7 @@
         "scope",
         "sentrial",
         "the-context-company",
+        "thirdlayer",
         "traceroot-ai",
         "traverse"
       ]
@@ -1086,6 +1087,21 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "robotics.integration-deployment",
+      "vertical_label": "Robotic system integration & factory deployment",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "deepaware-ai",
+        "deploy",
+        "forge-robotics",
+        "manifold-2",
+        "origami-robotics",
+        "shiraz-ai"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.agent-context-web",
@@ -1279,20 +1295,6 @@
         "third-chair",
         "vector-legal",
         "withasync"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "robotics.integration-deployment",
-      "vertical_label": "Robotic system integration & factory deployment",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "deepaware-ai",
-        "forge-robotics",
-        "manifold-2",
-        "origami-robotics",
-        "shiraz-ai"
       ]
     },
     {
@@ -3401,6 +3403,16 @@
       "sector_id": "real-estate-construction",
       "companies": [
         "bild-ai"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "construction.document-management",
+      "vertical_label": "Project document & drawing management",
+      "sector_id": "real-estate-construction",
+      "companies": [
+        "sizeless"
       ]
     },
     {

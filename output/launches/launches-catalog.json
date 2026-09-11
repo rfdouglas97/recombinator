@@ -1,7 +1,76 @@
 {
-  "updated_at": "2026-09-10T17:31:34.061Z",
-  "count": 1295,
+  "updated_at": "2026-09-11T17:30:27.135Z",
+  "count": 1298,
   "launches": [
+    {
+      "launch_id": 114670,
+      "launch_slug": "TpW-isengard-industries-inc",
+      "launch_url": "https://www.ycombinator.com/launches/TpW-isengard-industries-inc",
+      "title": "Isengard Industries Inc",
+      "tagline": "AI Weapons of Mass Production",
+      "body": "Hi YC, I’m Francisco, co-founder of Isengard (S26). We build precision-strike and counter-drone systems that allied nations can manufacture on their own soil.\\\n\\\n<https://youtu.be/n2y3hlH-Nus>\n\nWe have $10M in revenue and a $350M pipeline spanning the US Army, Ukraine, and allies globally.\n\nI previously co-founded Terminal Autonomy and scaled it to $60M in revenue in Ukraine. Just weeks ago, its Kyiv factory was hit by a Russian ballistic missiles. [The Guardian ](https://www.theguardian.com/world/2026/jul/30/us-firm-drone-factory-terminal-autonomy-ukraine-russia)article.\n\n**With my family in Ukraine, for me, resilient defense manufacturing is personal.** Isengard designs for affordable, distributed production, giving allies the capacity to build and replenish their own arsenals.\n\nWe call it Weapons of Mass Production.\n\n**Our ask:** Introductions to allied defense procurement teams and manufacturing partners. Contact [hello@isengardindustries.com](mailto:hello@isengardindustries.com).\n\n![uploaded image](/media/?type=post&id=114670&key=user_uploads/3554287/21bb2b9f-c02c-43b6-a778-84a16a1d7414)\n\n",
+      "created_at": "2026-09-10T19:30:05.764Z",
+      "total_vote_count": 3,
+      "company_slug": "isengard-industries-inc",
+      "company_name": "Isengard Industries Inc",
+      "company_website": "http://isengardindustries.com/",
+      "company_batch": "Summer 2026",
+      "company_industry": "Industrials",
+      "company_id": 32781,
+      "author_name": "Francisco Serra-Martins",
+      "scraped_at": "2026-09-11T17:30:14.315Z",
+      "review_summary": {
+        "conformance_index": 56,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 114666,
+      "launch_slug": "TpS-real-swe-a-coding-benchmark-built-from-private-company-codebases",
+      "launch_url": "https://www.ycombinator.com/launches/TpS-real-swe-a-coding-benchmark-built-from-private-company-codebases",
+      "title": "Real-SWE: A coding benchmark built from private company codebases",
+      "tagline": "Can coding agents can do real engineering work on codebases they've never seen?",
+      "body": "![uploaded image](/media/?type=post&id=114666&key=user_uploads/426892/94ad1344-e8cb-4757-8023-59f3ed3e6081)\n\n**TL;DR**\\\nSpecific Labs (YC F25) is launching Real-SWE, a benchmark that evaluates coding agents on real software engineering tasks that engineers performed, using private, out-of-distribution codebases. Public benchmarks are built on open source repos models have already seen. Real-SWE tests whether an agent can do the work inside a company it has never encountered. Leaderboard and task examples at <https://realswe.withspecific.com>\\\n\\\n**Hi, we're Janak and Sid**\\\nOver the past year we've acquired and licensed operational data and codebases from real companies, and one question kept coming up with labs: how do coding agents actually perform on private code? Nobody had a clean way to measure it. So we built one.\n\n**The problem**\\\nEvery major coding benchmark is built on public repos. Models have trained on that code or on code that looks a lot like it. Scores keep climbing, but the number companies care about is different - can this agent land a fix in our billing system, our permissions layer, our customer data pipeline, without having seen any of it before?\n\n**What Real-SWE is**\\\nReal-SWE is a set of tasks pulled from real work engineers did on private company codebases. Examples include an app with 200K+ users, a fintech platform processing 100K+ bank statements, and enterprise sales tools.\n\nEach task gives the agent the codebase and the context an engineer would have had, then checks whether the fix actually works. One example: fix invoice billing so each business charges the right tax and exempt customers aren't taxed. The agent has to work out how the business handles tax, connect the tax provider, and keep invoices consistent.\\\n\\\n**What we found**\n\nAgents that look strong on public benchmarks struggle a lot more when the codebase is one they've never seen.\n\n![uploaded image](/media/?type=post&id=114666&key=user_uploads/426892/5c10421b-da9c-4447-bb76-5cf298a890c9)\n\n\\\n\\\n**The ask**\n\n* If you're at a lab and want your model evaluated, or want the full task set for training, email [janak@withspecific.com](mailto:janak@withspecific.com)\n* If you run a company and would be open to contributing a codebase (we handle anonymization and tasks stay private), reach out",
+      "created_at": "2026-09-10T18:52:18.053Z",
+      "total_vote_count": 9,
+      "company_slug": "specific-labs",
+      "company_name": "Specific Labs",
+      "company_website": "https://withspecific.com",
+      "company_batch": "Fall 2025",
+      "company_industry": "B2B",
+      "company_id": 31009,
+      "author_name": "Janak Sunil",
+      "scraped_at": "2026-09-11T17:30:14.315Z",
+      "review_summary": {
+        "conformance_index": 74,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 114663,
+      "launch_slug": "TpP-sizeless-spatial-ai-for-underground-infrastructure",
+      "launch_url": "https://www.ycombinator.com/launches/TpP-sizeless-spatial-ai-for-underground-infrastructure",
+      "title": "sizeless - Spatial AI for underground infrastructure 🚧",
+      "tagline": "Turn a 10-minute phone video of an open trench into engineering-grade documentation",
+      "body": "Hey everyone 👋\n\nWe're Julius, Cornelius and Roger — the founders of sizeless.\n\n**TL;DR**\n\nsizeless turns a smartphone video of an open trench into the documentation utilities and contractors are legally required to produce: a 3D model, CAD/BIM plans, and the quantities they bill from. Today that takes months and a surveyor. We do it in hours, from a video the crew films themselves.\n\n![uploaded image](/media/?type=post&id=114663&key=user_uploads/1260577/02c85a25-fa1a-43a2-ad56-6e571b257b37)\n\n### **Problem ❌**\n\nEverything under a street — gas, water, power, heat, fiber — must be documented when it is built or repaired. That documentation is still done by hand: schedule a surveyor, drive out, measure with a tape or a GPS rover, write it on paper, go back to the office and draw it. Then the next contractor does the same thing again, for their own pipe, in the same trench.\n\nOur average customer **waits 6 months** for documentation and spends around **$4M a year per German city** on it.\n\nAnd once the trench is backfilled, nobody can check whether the numbers were right. One person's reading, one moment, unrepeatable. That is why crews keep hitting lines that \"aren't there\".\n\n![uploaded image](/media/?type=post&id=114663&key=user_uploads/1260577/f446f4ae-943d-4c83-ba7e-c48b9220eca7)\n\n### **Solution ✅**\n\nThe crew films the open trench with a phone for about 10 minutes. Then:\n\n**Our SLAM engine** builds a metric 3D model from that video — no surveyor, no scanner, and it works without GPS in basements and house connections\n\n**Our vision engine** recognises the components — pipe types, diameters, fittings, couplings — and attributes them\n\n**Our agent** produces what the customer actually files: CAD/BIM, GIS, quantities, and invoice-ready numbers\n\n![uploaded image](/media/?type=post&id=114663&key=user_uploads/1260577/bbaddb8c-abbf-43ad-8866-025cde7bb93b)\n\nThe crew also talks while filming, and that goes into the record:\n\n> _\"There was a gas pipe crossing, so we had to lay this pipe approximately\\\n> 50 cm below it.\"_\n\nNo point cloud and no plan ever captures the _reason_ for a deviation — and once the trench is closed, it is gone for good. That sentence, anchored to the exact position in 3D, is the part nobody else has.\n\n**Where we are:** seven paid pilots in three months, the first converted to an annual contract, working with utilities and contractors on district heating in Germany.\n\n**Why now:** phones do metric 3D capture, reconstruction got cheap, and vision-language models read attributes rather than just detecting boxes. And the long game: construction robots are coming, and nobody holds the training data for what is underground. That is the layer we are building.\n\n### **Ask 💬**\n\n**Intros to utilities, municipal works, or civil and pipeline contractors** - Europe or the US\n\n**Anyone who has sold into municipalities or utilities:** how did you shorten those cycles?\n\n**Founders in construction tech, geospatial or robotics** — would love to compare notes\n\nIf you know someone running a **family construction business**, that is often our fastest door in\n\nYou can reach us at [julius@sizeless.co](mailto:julius@sizeless.co) (commercial) or [cornelius@sizeless.co](mailto:cornelius@sizeless.co) (technical).\n\n### **Team**\n\n**Julius** (CEO) — ex-Chief of Staff to the CEO at Aon.\n\n**Cornelius** (CTO) — PhD in robotics and computer vision at ETH Zürich's Autonomous Systems Lab. Built perception systems for railways, and a wearable navigation system for blind users.\n\n**Roger** (Science lead) — professor of physics &amp; AI. Spent a decade recovering 3D structure from sparse, noisy measurements; in his case, mapping the universe.\n\n_Fun fact: the hardest part of our capture pipeline is not the maths, it is that trenches are wet, muddy, and full of moving excavators — which breaks every off-the-shelf 3D reconstruction method we tried._",
+      "created_at": "2026-09-10T18:00:52.630Z",
+      "total_vote_count": 11,
+      "company_slug": "sizeless",
+      "company_name": "sizeless",
+      "company_website": "https://www.sizeless.co",
+      "company_batch": "Summer 2023",
+      "company_industry": "Real Estate and Construction",
+      "company_id": 28959,
+      "author_name": "Cornelius von Einem",
+      "scraped_at": "2026-09-11T17:30:14.315Z",
+      "review_summary": {
+        "conformance_index": 73,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
     {
       "launch_id": 114656,
       "launch_slug": "TpI-typewise-nova-the-customer-operator-for-fast-growing-teams",

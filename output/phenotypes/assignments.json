@@ -24093,6 +24093,84 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "deploy",
+    "name": "Deploy",
+    "website": "https://deploy-robo.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/deploy",
+    "batch": "Fall 2026",
+    "one_liner": "The generalist robot deployment company.",
+    "description_combined": "The generalist robot deployment company.\n\nDeploy&#x27;s core belief is that robots should be useful. Getting a generalist robot to do real work is fundamentally the same problem across industries. We build everything between the model and the task to bring generalist robots to the businesses that actually need them.",
+    "industry_sub_vertical": "Generalist robot deployment and factory integration platform",
+    "canonical_vertical_id": "robotics.integration-deployment",
+    "vertical_id": "robotics.integration-deployment",
+    "vertical_label": "Robotic system integration & factory deployment",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "robotics-embodied-ai",
+    "phenotype_primary_label": "Robotics / embodied / teleoperation",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "embodied_control",
+    "ai_application_patterns": [
+      "robot_task_execution",
+      "model_to_task_abstraction",
+      "cross_industry_generalization"
+    ],
+    "what_they_sell": "End-to-end robotics deployment platform that bridges generalist AI models (vision, reasoning) to real-world robot task execution across multiple industries. Provides the software/control stack, task abstraction layer, and operational tooling to make generalist robots productive in manufacturing, logistics, and industrial settings.",
+    "ai_play": "Uses foundation models and embodied AI reasoning to enable generalist robots to understand and execute complex, variable real-world tasks without industry-specific retraining. AI handles task interpretation, visual understanding, and adaptive control; Deploy abstracts away hardware/industry specifics so the same model-to-task pipeline works across verticals.",
+    "who_pays": "Manufacturing plants, logistics operators, industrial facilities, and enterprises deploying physical automation at scale.",
+    "confidence": 0.82,
+    "rationale": "Deploy is a robotics-first company building the operational layer (model → task execution) for generalist robots. Primary phenotype is robotics-embodied-ai because they are hardware-centric, focused on real-world physical execution and control. Secondary is ai-enabled-physical-systems because their value is accelerating robot deployment and operational efficiency through AI abstraction. They are NOT a vertical workflow agent (not selling software to operators) nor an agent infrastructure play (not building runtimes for other agents). They are the robot operator/deployer, using AI to make generalist robots work across industries.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Robotics"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3445935,
+        "full_name": "Irene Grace Karot Polson",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Deploying generalist robots at Deploy. Previously Autonomy Engineer at AeroVect, deploying self-driving vehicles at airports, flight data at Airbus. MS Robotics from UPenn, BS Aerospace from IIT Kanpur.",
+        "linkedin_url": "https://www.linkedin.com/in/irene-grace-karot-polson/",
+        "twitter_url": "https://x.com/irenekarrot",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0d0cff2b295376185f768d9e81a3e11d369263c8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFHWXCOQ7%2F20260911%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260911T172938Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDkpRkqORBYxUzW48X3p2S8q0xVS3AwbabP0OwX9jhLtQIgXGWbjLZD%2F2S7ojF8VQVoFcCz9%2Fig5uY%2Fc8eNhXxOVYAq7gMIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDIhZX6rj2sDy486QqyrCA7DCY63gPzBnPShOgK4YK5rtFzf8%2FbYtzja8n7%2FwVbGlGOLdFJZbfVTkJGLBaKTtdSylj7R661LKbpZj6JnjpH49RnfIeT2PrthVvH6gOfodfqS5Gns5k0bjyeztc3JkKAD9124Bgtxj93WYfP5rRJYu18ae0Fj1OB6eQKboGyIHvdr%2F%2BEdVjKXGFS1bDTABlyjjA%2FGNnRcpip%2FLr%2BNMIxGFtkZzPNMuLsNkCYsbimJAnAnyfP6fF4k8cw9%2BxK5x%2Bfikrc6j2zXlw1U8B33q9K7k%2FVRajTD8GP20Dv4OYbZ3aowipPe306yitIcjEEz59pSW7btdDm5YPGW0IKQNcSVhz9jSTNvbTzgifpEebGwqgKl%2FdxGB1sO9PDicAoh4AkdkWvtVaBgL%2FSqhXV%2Fazz2t7%2BQVlkU14WdF4H39u3YSQgDPLW4Tz4PdLM5vM9u%2FbGHY0wiD%2BtC17ClqHte13fuEsimdyydPUG3dopvL5hzj6XPRG4A7ez1chz12dg8TtTW3qzFNr3G5AgPfLjpUdLFJGgQDt96domFZknX7M8uIpDRb0xXtxqlA4KI6rlOYFO1NCg6AUlUWDbFJzLWNnObVKDDw85DVBjqlASJhjz6gBcbjNErI6S%2Bn%2FO32SQGA1R%2BtXhl0Con%2BI9ZDlACehgBJNnqCoandXOhYHQL%2F%2FuZgANV9nvLlqkxvb27qF5Q16ECQTxzpmGtvVMKpmS8b1DYRuJ2eTaj0ae0QuZIp6S5le0r2djI4TG03%2BWjfDTdXRNmv4wMBChZ7TxNk4QjsATLxmjiH8ilX7aIx8uuIbjDPjkcN1DiW1Fxfzxj3qCjy8A%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=196b7c228f999803b3ff9c23be5c39604e4dc0341da791f26a7deaa6ed1c9749",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Deploy",
+          "href": "https://www.ycombinator.com/companies/deploy"
+        }
+      },
+      {
+        "user_id": 3593535,
+        "full_name": "Sahith Reddy Chada",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Deploying generalist robots at Deploy. Research Engineer at Honda Research Institute building vision-language-action models and world models for robotics and autonomous vehicles. MS Robotics from UMn, BTech Aerospace Engineering from IIT Kanpur.",
+        "linkedin_url": "https://www.linkedin.com/in/sahith-reddy-chada",
+        "twitter_url": "https://x.com/sahithchada",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7420ef4a0d182dfb06daee92dc8e49c3fa294297.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFHWXCOQ7%2F20260911%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260911T172938Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDkpRkqORBYxUzW48X3p2S8q0xVS3AwbabP0OwX9jhLtQIgXGWbjLZD%2F2S7ojF8VQVoFcCz9%2Fig5uY%2Fc8eNhXxOVYAq7gMIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDIhZX6rj2sDy486QqyrCA7DCY63gPzBnPShOgK4YK5rtFzf8%2FbYtzja8n7%2FwVbGlGOLdFJZbfVTkJGLBaKTtdSylj7R661LKbpZj6JnjpH49RnfIeT2PrthVvH6gOfodfqS5Gns5k0bjyeztc3JkKAD9124Bgtxj93WYfP5rRJYu18ae0Fj1OB6eQKboGyIHvdr%2F%2BEdVjKXGFS1bDTABlyjjA%2FGNnRcpip%2FLr%2BNMIxGFtkZzPNMuLsNkCYsbimJAnAnyfP6fF4k8cw9%2BxK5x%2Bfikrc6j2zXlw1U8B33q9K7k%2FVRajTD8GP20Dv4OYbZ3aowipPe306yitIcjEEz59pSW7btdDm5YPGW0IKQNcSVhz9jSTNvbTzgifpEebGwqgKl%2FdxGB1sO9PDicAoh4AkdkWvtVaBgL%2FSqhXV%2Fazz2t7%2BQVlkU14WdF4H39u3YSQgDPLW4Tz4PdLM5vM9u%2FbGHY0wiD%2BtC17ClqHte13fuEsimdyydPUG3dopvL5hzj6XPRG4A7ez1chz12dg8TtTW3qzFNr3G5AgPfLjpUdLFJGgQDt96domFZknX7M8uIpDRb0xXtxqlA4KI6rlOYFO1NCg6AUlUWDbFJzLWNnObVKDDw85DVBjqlASJhjz6gBcbjNErI6S%2Bn%2FO32SQGA1R%2BtXhl0Con%2BI9ZDlACehgBJNnqCoandXOhYHQL%2F%2FuZgANV9nvLlqkxvb27qF5Q16ECQTxzpmGtvVMKpmS8b1DYRuJ2eTaj0ae0QuZIp6S5le0r2djI4TG03%2BWjfDTdXRNmv4wMBChZ7TxNk4QjsATLxmjiH8ilX7aIx8uuIbjDPjkcN1DiW1Fxfzxj3qCjy8A%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c83878ebf095d60c1badb1cd167fad2314c9048845cef14037a7891b681f12fe",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Deploy",
+          "href": "https://www.ycombinator.com/companies/deploy"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-11T17:29:47.657Z",
+    "classified_at": "2026-09-11T17:29:47.657Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "deployparagon",
     "name": "Paragon",
     "website": "https://www.runparagon.com",
@@ -40560,7 +40638,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/isengard-industries-inc",
     "batch": "Summer 2026",
     "one_liner": "Mass-produced AI strike systems and Counter-UAS",
-    "description_combined": "Mass-produced AI strike systems and Counter-UAS\n\nIsengard Industries is not another drone company.\r\n\r\nWe build sovereign production: the means for allied nations to make precision-strike and counter-drone systems by the thousand, on their own soil, at a fraction of what the primes charge.\r\n\r\nWe call it Weapons of Mass Production. The Arsenal of Democracy, rebuilt for the drone age.\r\n\r\nMore to come, and only where it helps. You know how to reach us.",
+    "description_combined": "Mass-produced AI strike systems and Counter-UAS\n\nIsengard Industries is not another drone company.\r\n\r\nWe build sovereign production: the means for allied nations to make precision-strike and counter-drone systems by the thousand, on their own soil, at a fraction of what the primes charge.\r\n\r\nWe call it Weapons of Mass Production. The Arsenal of Democracy, rebuilt for the drone age.\r\n\r\nMore to come, and only where it helps. You know how to reach us.\n\nAI Weapons of Mass Production\n\nHi YC, I’m Francisco, co-founder of Isengard (S26). We build precision-strike and counter-drone systems that allied nations can manufacture on their own soil.\n\n\n\nWe have $10M in revenue and a $350M pipeline spanning the US Army, Ukraine, and allies globally.\n\nI previously co-founded Terminal Autonomy and scaled it to $60M in revenue in Ukraine. Just weeks ago, its Kyiv factory was hit by a Russian ballistic missiles. The Guardian article.\n\nWith my family in Ukraine, for me, resilient defense manufacturing is personal. Isengard designs for affordable, distributed production, giving allies the capacity to build and replenish their own arsenals.\n\nWe call it Weapons of Mass Production.\n\nOur ask: Introductions to allied defense procurement teams and manufacturing partners. Contact hello@isengar",
     "industry_sub_vertical": "Defense autonomous strike systems & counter-UAS manufacturing for sovereign production",
     "canonical_vertical_id": "industrials.defense.drones",
     "vertical_id": "industrials.defense.drones",
@@ -40636,7 +40714,13 @@
     "primary_bm": "BM-08",
     "primary_bm_rationale": "Isengard Industries manufactures physical AI-enabled strike and counter-UAS systems combining hardware platforms with autonomous software, positioning them as a hardware + software company delivering sovereign production capabilities.",
     "primary_bm_assigned_at": "2026-07-30T18:59:55.958Z",
-    "primary_bm_method": "assign_primary_bm_haiku"
+    "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 114670,
+    "launch_url": "https://www.ycombinator.com/launches/TpW-isengard-industries-inc",
+    "launch_title": "Isengard Industries Inc",
+    "launch_created_at": "2026-09-10T19:30:05.764Z",
+    "launch_tagline": "AI Weapons of Mass Production",
+    "launch_evaluated_at": "2026-09-11T17:30:27.134Z"
   },
   {
     "slug": "item",
@@ -78513,6 +78597,52 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "sizeless",
+    "name": "sizeless",
+    "website": "https://www.sizeless.co",
+    "yc_profile_url": "https://www.ycombinator.com/companies/sizeless",
+    "batch": "Summer 2023",
+    "one_liner": "Turn a 10-minute phone video of an open trench into engineering-grade documentation",
+    "description_combined": "Turn a 10-minute phone video of an open trench into engineering-grade documentation\n\nHey everyone 👋\n\nWe're Julius, Cornelius and Roger — the founders of sizeless.\n\nTL;DR\n\nsizeless turns a smartphone video of an open trench into the documentation utilities and contractors are legally required to produce: a 3D model, CAD/BIM plans, and the quantities they bill from. Today that takes months and a surveyor. We do it in hours, from a video the crew films themselves.\n\n\n\n### Problem ❌\n\nEverything under a street — gas, water, power, heat, fiber — must be documented when it is built or repaired. That documentation is still done by hand: schedule a surveyor, drive out, measure with a tape or a GPS rover, write it on paper, go back to the office and draw it. Then the next contractor does the same thing again, for their own pipe, in the same trench.\n\nOur average customer waits 6 months for documentation and spends around $4M a year per German city on it.\n\nAnd once the trench is backfilled, nobody can check whether the numbers were right. One person's reading, one moment, unrepeatable. That is why crews keep hitting lines that \"aren't there\".\n\n\n\n### Solution ✅\n\nThe crew films the open trench with a phone for about 10 minutes. Then:\n\nOur SLAM engine builds a metric 3D model from that video — no surveyor, no scanner, and it works without GPS in basements and house connections\n\nOur vision engine recognises the components — pipe types, diameters, fittings, couplings — and attributes them\n\nOur agent produces what the customer actually files: CAD/BIM, GIS, quantities, and invo",
+    "industry_sub_vertical": "Utility infrastructure trench documentation & as-built CAD/BIM generation",
+    "canonical_vertical_id": "construction.document-management",
+    "vertical_id": "construction.document-management",
+    "vertical_label": "Project document & drawing management",
+    "vertical_sector_id": "real-estate-construction",
+    "phenotype_primary_id": "vertical-workflow-automation-ai",
+    "phenotype_primary_label": "Vertical Workflow Automation Agent",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "computer_vision",
+      "3d_reconstruction",
+      "document_generation",
+      "autonomous_surveying"
+    ],
+    "what_they_sell": "Automated utility infrastructure documentation platform that converts smartphone video of open trenches into engineering-grade 3D models, CAD/BIM plans, GIS data, and billing quantities — replacing manual surveyor workflows.",
+    "ai_play": "Computer vision (SLAM + object detection) + agentic document generation. AI reconstructs 3D geometry from video, identifies pipe/utility components and attributes, and autonomously produces regulatory-compliant CAD, BIM, GIS, and invoice documentation that contractors and utilities are legally required to file.",
+    "who_pays": "Utilities, contractors, and municipalities managing infrastructure repair/maintenance workflows; buyers are operations/engineering teams responsible for compliance documentation.",
+    "confidence": 0.82,
+    "rationale": "Sizeless automates an end-to-end, detail-intensive workflow (surveying → documentation → filing) within a specific vertical (utility infrastructure). The core value is replacing manual, time-consuming processes (6-month surveyor cycles, $4M/year per city) with autonomous AI execution. This fits vertical-workflow-automation-ai: domain-specific (utilities/construction), high switching cost (regulatory compliance + integration with GIS/CAD systems), and AI-driven autonomous execution (vision + document generation). Secondary consideration: could map to ai-enabled-physical-systems (hardware + AI optimization), but primary value is workflow automation, not hardware design/manufacturing. Confidence 0.82 due to clear vertical focus and autonomous workflow replacement, though some ambiguity around whether this is primarily a data/documentation tool vs. operational automation.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "Real Estate and Construction"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-01"
+    ],
+    "launch_id": 114663,
+    "launch_url": "https://www.ycombinator.com/launches/TpP-sizeless-spatial-ai-for-underground-infrastructure",
+    "launch_title": "sizeless - Spatial AI for underground infrastructure 🚧",
+    "launch_created_at": "2026-09-10T18:00:52.630Z",
+    "launch_tagline": "Turn a 10-minute phone video of an open trench into engineering-grade documentation",
+    "launch_ingested_at": "2026-09-11T17:30:27.134Z",
+    "classified_at": "2026-09-11T17:30:27.134Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "skillsync",
     "name": "Skillsync",
     "website": "https://skillsync.wiki",
@@ -80044,7 +80174,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/specific-labs",
     "batch": "Fall 2025",
     "one_liner": "Audio and Enterprise Human Data for AI",
-    "description_combined": "Audio and Enterprise Human Data for AI\n\nSpecific builds audio and enterprise datasets representative of work inside real-world businesses. The next frontier of AGI is bottlenecked by data that is hard to access, and we make that easier.",
+    "description_combined": "Audio and Enterprise Human Data for AI\n\nSpecific builds audio and enterprise datasets representative of work inside real-world businesses. The next frontier of AGI is bottlenecked by data that is hard to access, and we make that easier.\n\nCan coding agents can do real engineering work on codebases they've never seen?\n\nTL;DR\nSpecific Labs (YC F25) is launching Real-SWE, a benchmark that evaluates coding agents on real software engineering tasks that engineers performed, using private, out-of-distribution codebases. Public benchmarks are built on open source repos models have already seen. Real-SWE tests whether an agent can do the work inside a company it has never encountered. Leaderboard and task examples at \n\nHi, we're Janak and Sid\nOver the past year we've acquired and licensed operational data and codebases from real companies, and one question kept coming up with labs: how do coding agents actually perform on private code? Nobody had a clean way to measure it. So we built one.\n\nThe problem\nEvery major coding benchmark is built on public repos. Models have trained on that code or on code that looks ",
     "industry_sub_vertical": "Enterprise audio & workplace data curation for AI model training",
     "canonical_vertical_id": "enterprise.ops.knowledge",
     "vertical_id": "enterprise.ops.knowledge",
@@ -80119,7 +80249,13 @@
     "primary_bm": "BM-06",
     "primary_bm_rationale": "Specific Labs primarily monetizes by selling curated enterprise audio datasets to AI model builders, positioning itself as a data/intelligence product provider rather than a labor/managed service.",
     "primary_bm_assigned_at": "2026-07-30T19:00:08.627Z",
-    "primary_bm_method": "assign_primary_bm_haiku"
+    "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 114666,
+    "launch_url": "https://www.ycombinator.com/launches/TpS-real-swe-a-coding-benchmark-built-from-private-company-codebases",
+    "launch_title": "Real-SWE: A coding benchmark built from private company codebases",
+    "launch_created_at": "2026-09-10T18:52:18.053Z",
+    "launch_tagline": "Can coding agents can do real engineering work on codebases they've never seen?",
+    "launch_evaluated_at": "2026-09-11T17:30:27.134Z"
   },
   {
     "slug": "spectre-intelligence",
@@ -86882,6 +87018,88 @@
       "vertical_id": null,
       "industry_sub_vertical": "IP enforcement and licensing monetization for media & entertainment"
     }
+  },
+  {
+    "slug": "thirdlayer",
+    "name": "Thirdlayer",
+    "website": "https://thirdlayer.inc",
+    "yc_profile_url": "https://www.ycombinator.com/companies/thirdlayer",
+    "batch": "Winter 2025",
+    "one_liner": "Continual learning for enterprise AI",
+    "description_combined": "Continual learning for enterprise AI\n\nThirdLayer is the learning and alignment layer for enterprise AI. We continuously ingest and structure messy organizational context, complex operational processes, and siloed, permission-sensitive data, then grade agents against the outcomes each company cares about. Every interaction becomes feedback that helps agents improve over time.\r\n\r\nCompanies use ThirdLayer to power their internal agents or embed it into the AI products they’re building. We give agents the context, evaluations, and learning loops they need to stay aligned with each organization and deliver better outcomes with every run.",
+    "industry_sub_vertical": "Enterprise AI agent learning, evaluation, and continuous improvement infrastructure",
+    "canonical_vertical_id": "ai-infrastructure.agent-observability",
+    "vertical_id": "ai-infrastructure.agent-observability",
+    "vertical_label": "Agent observability & logging",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent observability, evals, and safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "continuous_evaluation",
+      "rl_fine_tuning",
+      "context_retrieval",
+      "agent_alignment"
+    ],
+    "what_they_sell": "A learning and alignment platform that continuously ingests organizational context, evaluates agent performance against company-specific outcomes, and creates feedback loops to improve agent behavior over time. Sold as infrastructure layer to enterprises deploying internal agents or to AI product builders embedding agent capabilities.",
+    "ai_play": "Thirdlayer solves the 'agent drift' problem: agents deployed in enterprises lose alignment as organizational context changes, processes evolve, and permission-sensitive data shifts. They ingest messy, siloed organizational data, structure it for agent consumption, grade agent outputs against real business outcomes, and convert evaluation signals into continuous learning loops (RL-style) that keep agents aligned and improving without manual retraining. This is meta-level AI infrastructure: using AI to make other AI systems better.",
+    "who_pays": "Enterprise AI teams (internal agent deployment), AI product builders (embedding agents into their SaaS), and operations teams managing multi-agent systems.",
+    "confidence": 0.78,
+    "rationale": "Thirdlayer is primarily an agent observability and evaluation platform (agent-observability-evals: tracing, benchmarks, compliance testing, production monitoring). The secondary phenotype (model-optimization-rl) captures their continuous learning loop capability — converting evaluation feedback into RL-driven agent improvement. The company sits at the intersection of context retrieval (ingesting organizational data), evaluation (grading agents), and optimization (learning loops). They are NOT a vertical workflow agent (not automating a specific job function) and NOT a runtime (not orchestrating execution). They are infrastructure that makes agents smarter and more aligned over time. Confidence is 0.78 (not higher) because the 'continual learning' angle is somewhat novel and could warrant a new phenotype, but the core value is clearly observability + evals + feedback loops, which fits the existing library well.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Productivity"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Productivity",
+      "Consumer Products",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1003357,
+        "full_name": "Regina Lin",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Regina is the co-founder & CEO of Dex. She studied Mathematics with a concurrent master&#x27;s in Computational Science at Harvard (dropped out). She previously co-founded Contour AI, a devOps tool for LLM evaluation, helped build the MVP an ecommerce marketplace with 40K+ customers and worked in various tech investment roles.",
+        "linkedin_url": "https://linkedin.com/in/reginaclin",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f1649147745eef3d962393e89474eb2bf7674f49.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAM53L65WI%2F20260911%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260911T172927Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIDeAK9Uumjrx%2Fp%2BzmvawIttXP57zAYSxmXy1rNsQ1L%2FfAiEA%2F3p4zKi5Br8CaH8xb7v%2BSB5%2Be7iO%2ByWQRtJaYDJOWtAq7gMIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDBAh7JDHynNVNqrEdSrCA21HcflSZs9NN4AgNVlpAt7TD0JHWaIP7A8dvbqhIVmtQ6Mb3vWCqwfxlDxXR5UDLcTrbHW6sOdzz4APznqhteM0L77ou9bxUgg6SMsQAaP%2F5A32EUbo7UF%2BUSNbw2kKdFjaeFG2NWDL%2Fif2irGDg3DkASmxN%2FlxD1jwiUlSIaDxOAMcEx8%2FaQi6oduXfg9m6kwNbmz9Rv4Tg0aSw955ti0D9IrtJ88g5PohOqjgM5xgINOISMCyrSGjytRFDK64tDtdXoeTqGj00zEIFnNW4htA20eKic0GfBHHz%2F7L1ZhyN1jRU0m7lPxTnYq4HNeh34c3U9Jk%2Bmmj8HUiGzKkvalGaiSvTWEx57MFXfx%2BSK3rSoLB0b3asebuAoksQlo%2Fjns3G4CANzFSEfRTQYNE7i2zGIbkVeWa2VRTbdBLr%2BEv8dZoinQs9%2B1IeojYhjibbRynbHTHRdhfgLOBfNrSlXFbtAQ6yBGSe0UYttnIQLKHuD7rThSRZ6I31KRQpKi78U1mUax%2FpH8B5Qd2wppYgysA4bKWhM%2FEQ2j6q7W2BH0uZYg0kQMz97gdK2LEHFfnnVjGHchf6LqYfxWd5Pkbfbg%2FpjDv85DVBjqlAUQDaGyZ8C8WMVRrUIvIQFCPuTM8P5e10I73vUsC4kZ5HxNMMSKMXb02dTC46PdolHqrPro9H4TjIvdBbf1TdDEyYQQrdWQtAUUHKMULlfHcZsyz8VUzgUgExk06uIByeU8hRyoo%2FW5Wm7EHvIJVgvbHrQjRy6KJAArbq58xG2y%2FRlvIA5kb6tXk%2F8GWlvR5RUjnbzHL7Ia489HP7TWtEs%2BIiZI3bQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=70ae5f70ad1d3c6d8e77c7cdd9bb3c1ab1f0cccc3bb5ae717cbd2bcd55d85274",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Thirdlayer",
+          "href": "https://www.ycombinator.com/companies/thirdlayer"
+        }
+      },
+      {
+        "user_id": 1733297,
+        "full_name": "Kevin Gu",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder of Dex. Prev Math & Stat at Harvard, quant/ML researcher at Jump Trading, IBM Research, QuantCo, Meta.",
+        "linkedin_url": "https://linkedin.com/in/kevinrgu",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6d133d7e84172b6d4f5f29ea2ad4e7f6663374e4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAM53L65WI%2F20260911%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260911T172927Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIDeAK9Uumjrx%2Fp%2BzmvawIttXP57zAYSxmXy1rNsQ1L%2FfAiEA%2F3p4zKi5Br8CaH8xb7v%2BSB5%2Be7iO%2ByWQRtJaYDJOWtAq7gMIo%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDBAh7JDHynNVNqrEdSrCA21HcflSZs9NN4AgNVlpAt7TD0JHWaIP7A8dvbqhIVmtQ6Mb3vWCqwfxlDxXR5UDLcTrbHW6sOdzz4APznqhteM0L77ou9bxUgg6SMsQAaP%2F5A32EUbo7UF%2BUSNbw2kKdFjaeFG2NWDL%2Fif2irGDg3DkASmxN%2FlxD1jwiUlSIaDxOAMcEx8%2FaQi6oduXfg9m6kwNbmz9Rv4Tg0aSw955ti0D9IrtJ88g5PohOqjgM5xgINOISMCyrSGjytRFDK64tDtdXoeTqGj00zEIFnNW4htA20eKic0GfBHHz%2F7L1ZhyN1jRU0m7lPxTnYq4HNeh34c3U9Jk%2Bmmj8HUiGzKkvalGaiSvTWEx57MFXfx%2BSK3rSoLB0b3asebuAoksQlo%2Fjns3G4CANzFSEfRTQYNE7i2zGIbkVeWa2VRTbdBLr%2BEv8dZoinQs9%2B1IeojYhjibbRynbHTHRdhfgLOBfNrSlXFbtAQ6yBGSe0UYttnIQLKHuD7rThSRZ6I31KRQpKi78U1mUax%2FpH8B5Qd2wppYgysA4bKWhM%2FEQ2j6q7W2BH0uZYg0kQMz97gdK2LEHFfnnVjGHchf6LqYfxWd5Pkbfbg%2FpjDv85DVBjqlAUQDaGyZ8C8WMVRrUIvIQFCPuTM8P5e10I73vUsC4kZ5HxNMMSKMXb02dTC46PdolHqrPro9H4TjIvdBbf1TdDEyYQQrdWQtAUUHKMULlfHcZsyz8VUzgUgExk06uIByeU8hRyoo%2FW5Wm7EHvIJVgvbHrQjRy6KJAArbq58xG2y%2FRlvIA5kb6tXk%2F8GWlvR5RUjnbzHL7Ia489HP7TWtEs%2BIiZI3bQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4a5c35b22affd738b100b8d2d6cc8f635a4f49107c6d3b6c20570740668f29c7",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Thirdlayer",
+          "href": "https://www.ycombinator.com/companies/thirdlayer"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-11T17:29:38.237Z",
+    "classified_at": "2026-09-11T17:29:38.237Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "thomas",

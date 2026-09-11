@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-10T17:28:29.165Z",
+  "synced_at": "2026-09-11T17:29:27.462Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1294,
+  "company_count": 1295,
   "companies": [
     {
       "slug": "10x",
@@ -1200,8 +1200,8 @@
       "name": "Anchorhead",
       "batch": "Winter 2026",
       "one_liner": "Evals for frontier research agents",
-      "long_description": "We build environments and evals for frontier research agents. In these environments, models carry out research engineering work such as optimizing an algorithm, deploying a model, or running experiments to solve a novel problem. A grader scores the agent’s performance, and these scores serve as signals during evaluations.",
-      "website": "https://buildwithglue.com",
+      "long_description": "We build custom evals for product teams, as a service. To build these eval sets, we source domain experts and have them turn their work into original, real world evals.\r\n\r\nFor example, our research engineering experts have create tasks involving optimizing an algorithm, deploying a model, or running experiments to solve a novel problem. A grader scores the agent’s performance, and these scores serve as signals during evaluations.",
+      "website": "https://www.anchorhead.ai",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
@@ -6466,6 +6466,25 @@
       "launched_at": 1782407143
     },
     {
+      "slug": "deploy",
+      "name": "Deploy",
+      "batch": "Fall 2026",
+      "one_liner": "The generalist robot deployment company.",
+      "long_description": "Deploy's core belief is that robots should be useful. Getting a generalist robot to do real work is fundamentally the same problem across industries. We build everything between the model and the task to bring generalist robots to the businesses that actually need them.",
+      "website": "https://deploy-robo.com/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Robotics"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1789089952
+    },
+    {
       "slug": "deployparagon",
       "name": "Paragon",
       "batch": "Winter 2025",
@@ -7316,18 +7335,18 @@
       "slug": "embedder",
       "name": "Embedder",
       "batch": "Summer 2025",
-      "one_liner": "Hardware-Aware AI for Embedded Software Development",
-      "long_description": "Embedder is an AI agent for embedded software. It reads your datasheets and schematics, writes the code, flashes the board, runs the tests, and fixes its own mistakes. Testing is hardware-in-the-loop: Embedder drives the equipment your team already owns (debug probes, logic analyzers, power profilers, oscilloscopes) and validates firmware on real silicon, not just against a compiler. Embedder works with some of the top semiconductor ecosystems in the world, supporting 500+ MCUs and 3,000+ peripherals.",
+      "one_liner": "The Enterprise AI Platform for Embedded Software",
+      "long_description": "Building AI agents for autonomous embedded software development.",
       "website": "https://www.embedder.com",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "Hardware",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 6,
       "location": "San Francisco, CA, USA",
@@ -9071,20 +9090,19 @@
       "slug": "godhands",
       "name": "GodHands",
       "batch": "Fall 2026",
-      "one_liner": "The company knowledge base that updates itself",
-      "long_description": "GodHands is building a living knowledge base for engineering teams, turning the code, docs, and decisions across your stack into a single source of truth that stays accurate as you grow.",
+      "one_liner": "We reconstruct how employees actually work, so nothing breaks when…",
+      "long_description": "GodHands makes employee transitions seamless and ensures that critical knowledge is captured for posterity. We reconstruct any employee’s work in days from the systems where they did it. You can see what depends on them, hand their role over, and keep their work running after they leave. \r\n",
       "website": "https://godhands.dev",
       "industries": [
-        "B2B"
+        "B2B",
+        "Operations"
       ],
       "tags": [
-        "Documents",
-        "Artificial Intelligence",
-        "Developer Tools",
-        "DevOps"
+        "Enterprise",
+        "Operations"
       ],
       "team_size": 2,
-      "location": "Bengaluru, KA, India; Remote",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1777151399
     },
@@ -10930,28 +10948,6 @@
       "launched_at": 1734654585
     },
     {
-      "slug": "joindex",
-      "name": "Dex",
-      "batch": "Winter 2025",
-      "one_liner": "The AI Coworker in Chrome",
-      "long_description": "ThirdLayer is an applied research and product lab building the next interface for human–AI collaboration.\r\n\r\nOur first product is Dex, an AI copilot for the browser. Think Cursor for knowledge work, optimized for speed and embedded directly where you work.\r\n\r\nMost web agents are built for set-and-forget tasks. But real work is fluid and messy—spread across tabs, tools, and evolving decisions. Dex transforms your browser into an intelligent, multimodal workspace that understands your intent through voice, text, and action. It enhances familiar interfaces, automates tedious steps, and removes the friction of handoffs.\r\n\r\nBeneath the surface, Dex is more than a browser agent — it’s a foundation for:\r\n\r\n● Long-term, cross-modal memory grounded in real workflows\r\n● A new interaction layer to replace static UI with a collaborative canvas \r\n● Personalization: understanding how individuals approach tasks and navigate software\r\n\r\nWe're building the infrastructure for adaptive, intent-aware systems that work the way you do.",
-      "website": "https://joindex.com",
-      "industries": [
-        "B2B",
-        "Productivity"
-      ],
-      "tags": [
-        "Artificial Intelligence",
-        "Productivity",
-        "Consumer Products",
-        "AI"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1737217789
-    },
-    {
       "slug": "joinmarble",
       "name": "Marble",
       "batch": "Summer 2026",
@@ -11697,12 +11693,12 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "B2B",
-        "Enterprise",
-        "AI"
+        "Enterprise"
       ],
-      "team_size": 3,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1775188246
@@ -11719,7 +11715,7 @@
         "Analytics"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1747086610
@@ -12393,17 +12389,17 @@
       "name": "Liva AI",
       "batch": "Summer 2025",
       "one_liner": "Audio & Video Data",
-      "long_description": "Speech models trained on internet data still lack realistic results. We solve this by collecting targeted training data for model labs. We hope to create a world where AI feels more human.",
+      "long_description": "Helping to build more socially intelligent AI, starting with voice.",
       "website": "https://www.theliva.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Marketplace",
         "B2B",
         "Data Labeling",
-        "Big Data",
-        "AI"
+        "Big Data"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -13279,20 +13275,20 @@
       "slug": "markit",
       "name": "MarkIt",
       "batch": "Fall 2025",
-      "one_liner": "Workspaces for cross-border regulatory work",
-      "long_description": "Markit helps teams navigate complex regulatory requirements across markets, bringing research, evidence, collaboration, and decision-making into one place.\r\n\r\nThe goal: accelerate speed to market, strengthen compliance, reduce regulatory risk, and give teams a clearer path from question to decision.\r\n\r\nFrom market entry and product launches to ongoing compliance, Markit is built for the work that happens behind the scenes—and across borders.\r\n\r\nBuilt for the work behind every decision.",
+      "one_liner": "Compliance that makes products ready for global markets.",
+      "long_description": "MarkIt is an AI-powered regulatory compliance platform that helps consumer brands launch products in new markets. We review formulations, packaging, and supporting documents against local regulations, identify compliance gaps, and provide the exact changes, regulatory references, and market-ready labels needed before launch. We are initially focused on cosmetics and food products entering the U.S., replacing weeks of manual work across regulatory consultants, spreadsheets, and disconnected vendors with one actionable compliance workflow.\r\n",
       "website": "https://markittrade.com",
       "industries": [
         "B2B",
         "Operations"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Workflow Automation",
         "Compliance",
-        "Consumer Products",
-        "AI"
+        "Consumer Products"
       ],
-      "team_size": 2,
+      "team_size": 4,
       "location": "Atlanta, GA, USA",
       "status": "Active",
       "launched_at": 1759442158
@@ -13802,8 +13798,8 @@
       "slug": "minerva",
       "name": "Minerva",
       "batch": "Spring 2025",
-      "one_liner": "AI native accounting firm",
-      "long_description": "We’re building an AI-native accounting firm where accountants collaborate with intelligent agents to deliver superior financial advisory services. Together, they close the books in a fraction of the time traditional firms require.",
+      "one_liner": "AI native financial institution",
+      "long_description": "We’re making financial services fast and affordable for everyone, starting with accounting.",
       "website": "https://joinminerva.ai",
       "industries": [
         "B2B",
@@ -13827,7 +13823,7 @@
         "Infrastructure"
       ],
       "tags": [],
-      "team_size": 7,
+      "team_size": 8,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1772756028
@@ -13910,7 +13906,7 @@
       "slug": "mireye",
       "name": "Mireye",
       "batch": "Summer 2026",
-      "one_liner": "Infrastructure for Physical World AI Agents",
+      "one_liner": "Search Engine for the Physical World",
       "long_description": "AI agents are starting to act in the real world, but they can't reliably understand it. \r\n\r\nEvery fact about a place has its own silo: land in GIS maps, power in utility portals, people in census tables, policy in county PDFs. All built for humans, none for agents. Underneath, the data is fragmented across thousands of sources, unstructured and complex.\r\n\r\nMireye is building the infrastructure that powers agents to make decisions and act in the real world. One API and MCP to connect agents to the physical world with accurate data enrichment, signals and tools.\r\n\r\nOur mission is to index every inch of the earth, and make it as queryable as the web.",
       "website": "https://www.mireye.com/",
       "industries": [
@@ -13962,7 +13958,7 @@
         "Infrastructure"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1780176393
@@ -14013,7 +14009,7 @@
       "name": "Miyagi Labs",
       "batch": "Winter 2025",
       "one_liner": "AI tutors for exam prep",
-      "long_description": "Miyagi Labs is an AI-powered exam preparation platform built to unlock human intelligence and democratize world-class education globally. We provide students with an elite AI tutor, hyper-personalized study analytics, and an infinite engine of rigorous practice material tailored to exam material.\r\n\r\nWe currently support major standardized exams across North America, Africa, and Asia, including the SAT, ACT, and NYC SHSAT (US), the UTME (Nigeria), the KCSE, KJSEA and KPSEA (Kenya), and the NEET and CAT (India).\r\n\r\nWe’re building the platform we wish we had when studying for exams. We envision a world where students anywhere can come to Miyagi to receive personalized, world-class AI tutoring designed to unlock their full potential.",
+      "long_description": "Miyagi Labs is an AI-powered exam preparation platform built to unlock human intelligence and democratize world-class education globally. We provide students with an elite AI tutor, hyper-personalized study analytics, and an infinite engine of rigorous practice material tailored to exam material.\r\n\r\nWe currently support major standardized exams across North America, Europe, Africa, and Asia, including the SAT, ACT, and NYC SHSAT (US), the UTME (Nigeria), the KCSE, KJSEA and KPSEA (Kenya), the NEET and CAT (India), and the YKS (Turkey).\r\n\r\nWe’re building the platform we wish we had when studying for exams. We envision a world where students anywhere can come to Miyagi to receive personalized, world-class AI tutoring designed to unlock their full potential.",
       "website": "https://miyagilabs.ai",
       "industries": [
         "Education"
@@ -15244,7 +15240,7 @@
       ],
       "tags": [],
       "team_size": 2,
-      "location": "",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1761179954
     },
@@ -15763,7 +15759,7 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "AI"
+        "Artificial Intelligence"
       ],
       "team_size": 2,
       "location": "Seattle, WA, USA",
@@ -16117,8 +16113,8 @@
       "slug": "os3",
       "name": "OS3",
       "batch": "Summer 2026",
-      "one_liner": "Deploying US-Built Humanoid Robots & Training Video Action Models",
-      "long_description": "OS3 deploys US-built mobile semi humanoid robots for repetitive physical work.\r\n\r\nWe designed the robot, custom actuators, model and control stack as one system, then pretrained the model exclusively on 150,000 hours of video data spanning more than 2,000 tasks. Hospitality is our first deployment vertical. Through our Startup Partner program, teams are deploying OS3 robots in biotech, hospitals and data centers.\r\n\r\nOur two-person team built 3 robots and trained its first model in four months. We are making American robotics accessible to more businesses.",
+      "one_liner": "Affordable, intelligent humanoid robots built to deploy at scale",
+      "long_description": "OS3 is building the platform that makes intelligent robots accessible to every business.\r\n\r\nToday, robotics is constrained by two fundamental bottlenecks: hardware is too expensive to deploy at scale, and robots are difficult to train because high-quality robotics data is scarce and costly to collect. \r\n\r\nWe built OS3 to solve both.\r\n\r\nOur two-person team designed and a US-made mobile humanoid robot for a fraction of the cost of commercial alternatives. On the intelligence side, instead of relying on expensive robot-generated training data, we trained our own video-action model on 150,000 hours of real-world video spanning more than 2,000 tasks. Every deployed robot feeds new experience into our reinforcement learning pipeline, self improving robot fleet over time.\r\n\r\nThis creates a robot that can be deployed across industries to automate repetitive, physical work without requiring a new robot or training pipeline for every task. Our robots are already deployed in hotels, with customers now expanding the platform into biotech, hospitals, and data centers, including a wet lab at Stanford.\r\n\r\nOur mission is to do for robotics what Apple did for personal computing: take technology that was once expensive, specialized, and inaccessible and make it powerful and usable at massive scale. We’re building toward a world with billions of intelligent robots, and OS3 is the platform that makes that possible.",
       "website": "https://os3robotics.com/",
       "industries": [
         "Industrials",
@@ -20181,8 +20177,8 @@
       "slug": "selfin",
       "name": "Selfin",
       "batch": "Fall 2025",
-      "one_liner": "Building the first AI Bank",
-      "long_description": "Selfin is developing AI-powered banking. Users can enjoy personalised recommendations and optimisations of their finances by connecting all their financial products on a single platform. ",
+      "one_liner": "Institutional liquidity across prediction markets",
+      "long_description": "Bring us risk. We’ll find the market. Institutional liquidity for event-driven exposure across prediction markets.\r\n",
       "website": "https://selfin.app",
       "industries": [
         "Fintech",
@@ -20191,9 +20187,8 @@
       "tags": [
         "Fintech",
         "Finance",
-        "Consumer",
-        "Consumer Finance",
-        "Neobank"
+        "Investing",
+        "Trading"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -20284,7 +20279,7 @@
       "name": "Sentient OS",
       "batch": "Fall 2026",
       "one_liner": "On-device AI that knows your entire life and does your work overnight.",
-      "long_description": "Nobody's built truly proactive AI, because it requires running inference on your entire life. In the cloud, that's insanely expensive and a privacy nightmare. But not on your own chip.\r\n\r\nEvery night, Sentient's on-device LLM wakes your Mac and understands what's new in your life (email, messages, files, Granola transcripts...), entirely locally, and distills it into a knowledge base.\r\n\r\nYou wake up to your work already prepared: the reply you forgot, drafted from your own context; the subscription you never use renewing tomorrow, caught; the report you promised in the group chat, ready to send. Everything is one click from firing through computer use, and nothing fires until you click.\r\n\r\nOr click your Mac notch anytime and say \"finish this for me.\" Sidekick takes over the thing you were doing with its own cursor while you move on.\r\n\r\nOn-device inference at this scale was supposed to be impossible: devices too slow, and models too dumb. So we built the stack ourselves: a custom LiteRT-LM fork (KV-cache reuse, speculative decoding, custom k-quants) that runs nightly on 8 GB Macs. The user's hardware does ~90% of the compute, and their own ChatGPT or Claude subscription does the rest, so our marginal cost is ~$0, and our servers store nothing.\r\n\r\nWe soft-launched late July with one Reddit post: top of r/macapps, 2,000+ users in 48 hours, $0 marketing. Free and open source for consumers; the same engine on the work stack (Slack, Granola, Linear, Notion) becomes the enterprise business.",
+      "long_description": "Nobody's built truly proactive AI, because it requires running inference on your entire life. In the cloud, that's insanely expensive and a privacy nightmare. But not on your own chip.\r\n\r\nEvery night, Sentient's on-device LLM wakes your Mac and understands what's new in your life (email, messages, files, Granola transcripts...), entirely locally, and distills it into a knowledge base.\r\n\r\nYou wake up to your work already prepared: the reply you forgot, drafted from your own context; the subscription you never use renewing tomorrow, caught; the report you promised in the group chat, ready to send. Everything is one click from firing through computer use, and nothing fires until you click.\r\n\r\nOr click your Mac notch anytime and say \"finish this for me.\" Sidekick takes over the thing you were doing with its own cursor while you move on.\r\n\r\nOn-device inference at this scale was supposed to be impossible: devices too slow, and models too dumb. So we built the stack ourselves: a custom LiteRT-LM fork (KV-cache reuse, speculative decoding, custom k-quants) that runs nightly on 8 GB Macs. The user's hardware does ~90% of the compute, and their own ChatGPT or Claude subscription does the rest, so our marginal cost is ~$0, and our servers store nothing.\r\n\r\nWe soft-launched late July with one Reddit post: top of r/macapps, 2,000+ users in 48 hours, $0 marketing. Free and open source for consumers; the same engine on the work stack (Slack, Granola, Linear, Notion) becomes the enterprise business.\r\n\r\nSentient OS raised ~$1M in pre-seed, backed by YC, Afore, and the a16z Speedrun scout fund.",
       "website": "https://sentient-os.ai",
       "industries": [
         "B2B",
@@ -21109,7 +21104,7 @@
         "SaaS",
         "B2B"
       ],
-      "team_size": 2,
+      "team_size": 6,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1757825190
@@ -22290,14 +22285,20 @@
       "slug": "tenet-industries",
       "name": "Tenet Industries",
       "batch": "Spring 2026",
-      "one_liner": "Low-cost, mass-producible defense systems",
-      "long_description": "Tenet Industries is building low-cost mass-producible defense systems, starting with attack drones.\r\n\r\nWe're using design-for-manufacturing and first principles to reimagine how a defense product is developed and manufactured. We begin with the manufacturing, then solve all the inefficiencies and difficulties in the firmware/software. This allows us to hyperscale production in multiple defense categories such as strike drones, loitering munitions, jammers, radars, etc.\r\n\r\nOur first product is a kamikaze quadcopter. It assembles in two minutes and has half the parts to comparable systems.",
+      "one_liner": "AI-automated PCB assembly factories",
+      "long_description": "Tenet Industries is building AI-automated factories for manufacturing of PCBAs.\r\n\r\nWe're using AI and robotics to build a factory in München for instant-quote, fast-turnaround PCBA manufacturing and electronic manufacturing services.",
       "website": "https://www.tenetindustries.com",
       "industries": [
         "Industrials",
-        "Defense"
+        "Manufacturing and Robotics"
       ],
-      "tags": [],
+      "tags": [
+        "Hardware",
+        "Manufacturing",
+        "Automation",
+        "Electronics",
+        "Industrial"
+      ],
       "team_size": 3,
       "location": "Stockholm, Stockholm County, Sweden",
       "status": "Active",
@@ -22766,6 +22767,28 @@
       "location": "San Francisco, CA, USA; Remote",
       "status": "Active",
       "launched_at": 1748486427
+    },
+    {
+      "slug": "thirdlayer",
+      "name": "Thirdlayer",
+      "batch": "Winter 2025",
+      "one_liner": "Continual learning for enterprise AI",
+      "long_description": "ThirdLayer is the learning and alignment layer for enterprise AI. We continuously ingest and structure messy organizational context, complex operational processes, and siloed, permission-sensitive data, then grade agents against the outcomes each company cares about. Every interaction becomes feedback that helps agents improve over time.\r\n\r\nCompanies use ThirdLayer to power their internal agents or embed it into the AI products they’re building. We give agents the context, evaluations, and learning loops they need to stay aligned with each organization and deliver better outcomes with every run.",
+      "website": "https://thirdlayer.inc",
+      "industries": [
+        "B2B",
+        "Productivity"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Productivity",
+        "Consumer Products",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1737217789
     },
     {
       "slug": "thomas",
@@ -24117,16 +24140,16 @@
       "slug": "velvet",
       "name": "Velvet",
       "batch": "Fall 2025",
-      "one_liner": "Infra and data for interactive AI.",
-      "long_description": "Infra and data for interactive AI.",
+      "one_liner": "World model datasets and research",
+      "long_description": "World model datasets and research",
       "website": "https://velvetlab.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Generative AI",
         "Data Engineering",
-        "AI",
         "Conversational AI"
       ],
       "team_size": 4,
@@ -25061,10 +25084,10 @@
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "B2B",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
