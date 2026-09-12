@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-11T17:30:28.062Z",
+  "generated_at": "2026-09-12T16:44:34.301Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1443,
+    "assignment_count": 1447,
     "mapped_verticals": 244,
     "observed_cells": 480,
     "total_verticals": 525,
@@ -89,6 +89,7 @@
         "superset",
         "sylvian",
         "terminal-use",
+        "tilion",
         "trace-so",
         "trelium",
         "truffle-ai",
@@ -1059,6 +1060,21 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.legal.contracts",
+      "vertical_label": "Contract lifecycle & legal ops",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "chromie",
+        "chromiedev",
+        "lightfield",
+        "sammy-labs",
+        "sigma-2",
+        "vesence"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.legal.regulatory-consulting",
       "vertical_label": "Regulatory consulting (cross-industry)",
       "sector_id": "enterprise-software",
@@ -1155,20 +1171,6 @@
         "parameter",
         "parameter-fka-hex-security",
         "veria-labs"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.legal.contracts",
-      "vertical_label": "Contract lifecycle & legal ops",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "chromie",
-        "chromiedev",
-        "lightfield",
-        "sammy-labs",
-        "vesence"
       ]
     },
     {
@@ -1755,6 +1757,18 @@
         "chiron",
         "clad-labs",
         "willow"
+      ]
+    },
+    {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "content.video-production",
+      "vertical_label": "Video production & post-production workflow",
+      "sector_id": "media-entertainment",
+      "companies": [
+        "flick",
+        "pixley-ai",
+        "vyra"
       ]
     },
     {
@@ -2412,17 +2426,6 @@
       ]
     },
     {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "content.video-production",
-      "vertical_label": "Video production & post-production workflow",
-      "sector_id": "media-entertainment",
-      "companies": [
-        "flick",
-        "pixley-ai"
-      ]
-    },
-    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "data.real-time-data-streaming",
@@ -2442,6 +2445,17 @@
       "companies": [
         "hoplite",
         "smol-machines"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "energy.power.grid",
+      "vertical_label": "Power grid & energy infrastructure",
+      "sector_id": "energy-climate",
+      "companies": [
+        "marengo",
+        "micora"
       ]
     },
     {
@@ -3853,16 +3867,6 @@
       "sector_id": "energy-climate",
       "companies": [
         "madrone"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "energy.power.grid",
-      "vertical_label": "Power grid & energy infrastructure",
-      "sector_id": "energy-climate",
-      "companies": [
-        "marengo"
       ]
     },
     {

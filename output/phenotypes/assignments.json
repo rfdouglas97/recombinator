@@ -51425,6 +51425,73 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "micora",
+    "name": "Micora",
+    "website": "https://micora.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/micora",
+    "batch": "Fall 2026",
+    "one_liner": "Solar farm in a box built anywhere in days",
+    "description_combined": "Solar farm in a box built anywhere in days\n\nMicora is a next-generation robotic energy developer that compresses the timeline from initial design to power generation from years to weeks. Our vertically integrated platform combines purpose-built robotic hardware with proprietary modular energy systems, enabling critical power infrastructure to be designed, manufactured, and deployed at unprecedented speed.\r\n\r\nTraditional energy projects are slow, costly, and built around processes that were never designed for today’s rapidly growing power demands. Micora is rebuilding energy development from the ground up; transforming what has historically been a bespoke, multi-year construction process into a repeatable and scalable manufacturing system.\r\n\r\nAs demand from data centers, advanced manufacturing, and electrification strains existing power infrastructure, the ability to deploy new generation quickly is becoming increasingly valuable. Micora is building the infrastructure platform needed to deliver power wherever and whenever it is needed.",
+    "industry_sub_vertical": "Distributed solar + battery storage deployment infrastructure for data centers and manufacturers",
+    "canonical_vertical_id": "energy.power.grid",
+    "vertical_id": "energy.power.grid",
+    "vertical_label": "Power grid & energy infrastructure",
+    "vertical_sector_id": "energy-climate",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "autonomous_deployment_robotics",
+      "design_optimization",
+      "manufacturing_precision",
+      "supply_chain_coordination"
+    ],
+    "what_they_sell": "Vertically integrated robotic energy systems (solar + storage modules) that compress energy project deployment from years to weeks. Hardware-centric offering: modular, purpose-built robotic platforms that design, manufacture, and autonomously deploy distributed power infrastructure on-site.",
+    "ai_play": "AI accelerates design optimization (site-specific solar layouts, storage sizing), enables autonomous robotic deployment and assembly (reducing manual labor and timeline), and coordinates multi-agent hardware systems (site prep, module placement, electrical integration). AI is the operational enabler that transforms bespoke construction into repeatable, scalable manufacturing and autonomous field execution.",
+    "who_pays": "Data center operators, advanced manufacturers, utilities, and enterprises facing power infrastructure constraints and needing rapid, distributed generation deployment.",
+    "confidence": 0.82,
+    "rationale": "Micora is fundamentally a physical hardware + robotics company where AI is the critical enabler of speed and autonomy. The core value is the physical energy system itself (solar + storage), but AI dramatically improves R&D cycles (design optimization), manufacturing precision (robotic assembly), and autonomous operational control (field deployment without human crews). This matches ai-enabled-physical-systems perfectly: AI accelerates design, manufacturing, and autonomous control of complex physical infrastructure. Secondary phenotype (physical-ai-autonomous-systems) also applies given the emphasis on robotic autonomy and multi-agent hardware coordination. Not a pure robotics play (robotics-embodied-ai) because the robotics is a means to energy infrastructure, not the primary product. Not a vertical workflow agent because they are executing the work themselves (capital-intensive, operational responsibility), not selling software to energy developers.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Energy"
+    ],
+    "yc_tags": [
+      "Energy Storage",
+      "Robotics",
+      "Solar Power",
+      "Construction"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1408286,
+        "full_name": "Frederik (Fredy) Mareels",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Fredy is a co-founder of Micora. Previously, he worked in J.P. Morgan’s Healthcare Investment Banking group and was a founding team member at Pear Suite, an AI-enabled platform and provider network for community health workers (CHWs).",
+        "linkedin_url": "https://www.linkedin.com/in/frederik-mareels",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4fdab93252435eafd388ed9da5f52fe7125f97ed.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAITWTMXWB%2F20260912%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260912T164344Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIDYqo5L%2FPbKUuBQODX%2FblhVux1F9xvDWlkRz1GKpWN16AiEA%2B%2FUaeaWzGnANIIIdGOFRm8Nzttu9WdHMUxYL8L4J0SMq7gMIuf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDNX4MXAQOc78MpmpDirCA4ewLuhlMx5v3ZZQtQi%2F77hMqXzUXTenB7nzo5naWAlm2S38RlKmPxYxjFQFbXnT7fz9hNzZ7Mv87cbhWDCClDABtkx1hvaCF4Z8CmrTHJoPkOymqk8sqrd%2BymUFoXog5IJ7meX6rEZNbvvy9WOQO5Lgf%2FaNXcKAFBKAG7lZ%2BJjxpP2wGtdgpXjHRbu6jXd04mA%2FyOwqKLVKC5ovM0WGlibuYMbueuQix9m56nU48vyeb3rQ6FgvbdTZEzYnC92%2BfTYPLpcvjphmq%2BmJzDT21udCAzC%2BQ7HR18b3RVo3NLKRXyjbNJv6yQkNx17wQe8wbbEZuKr0favdOwabuA5akyY5AyvC%2FNPc5uaPhggdDhtbt4ZBDOusfk4DU7qRChmGfeq3loe%2FTc2wRd57nwpzXJ48k5pcVtqo4czhH0pWzPRIsmcHptkH4DYP9gourdioB2aDGAkhkyPMzS%2BKSZKlRwYcdhqbYc2%2BeZUz5sPeCT8OFxez%2BgOqELl81HylRLnxyjO4leLdSdxJlux2%2BWl8ky2WOS%2FpOL4eQ1dEjoa5IMZEda4u8YAKvcEcOh%2F4eOVxYEl9DG8CrC45%2BD8T8CKMK0ubcDCL%2BJXVBjqlAUucs%2BG9y1B%2BdhdNne1%2BE9kfzKE6%2F7NQ%2BoA1AVHlp4vnbNlzwqZcokYdpcZ2fTXY0erI3DdBR0tkw%2Fa18rheK4RNpsZAG2TdWfJ516rj%2FZHjugQWLmpmOWnziSxon6AGz1Xa9rV8RpoBSYIgc2k5fR02qy03AWn4LAK67h7DahQM8AFMVnZQEo47GUhGuReE%2Bc2HDxfv7Afh7QKopUbi%2FAcppuQ1lg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=5b93769d20ac9371e651c3899fd69837d7f98e4c0999ef006e2b5fee5a62e398",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Micora",
+          "href": "https://www.ycombinator.com/companies/micora"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-12T16:43:55.493Z",
+    "classified_at": "2026-09-12T16:43:55.493Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "milliray",
     "name": "Milliray",
     "website": "https://milliray.com/",
@@ -77863,6 +77930,87 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "sigma-2",
+    "name": "Sigma",
+    "website": "",
+    "yc_profile_url": "https://www.ycombinator.com/companies/sigma-2",
+    "batch": "Fall 2026",
+    "one_liner": "AI Operating System for Mergers & Acquisitions",
+    "description_combined": "AI Operating System for Mergers & Acquisitions",
+    "industry_sub_vertical": "M&A transaction automation and deal lifecycle management",
+    "canonical_vertical_id": "enterprise.legal.contracts",
+    "vertical_id": "enterprise.legal.contracts",
+    "vertical_label": "Contract lifecycle & legal ops",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-workflow-agent",
+    "phenotype_primary_label": "Vertical AI Workflow Agent",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "deal_automation",
+      "document_processing",
+      "workflow_orchestration",
+      "compliance_verification"
+    ],
+    "what_they_sell": "AI-native operating system that automates end-to-end M&A workflows: due diligence document parsing, deal structuring, regulatory compliance checks, closing coordination, and post-close integration tracking.",
+    "ai_play": "Replaces manual, document-intensive M&A processes (contract review, data room management, compliance verification, closing checklists) with autonomous agents that parse unstructured deal documents, extract key terms, flag risks, and coordinate multi-party workflows across legal, finance, and operations teams.",
+    "who_pays": "M&A teams at investment banks, private equity firms, corporate development departments, and deal advisors seeking to compress deal timelines and reduce manual overhead.",
+    "confidence": 0.78,
+    "rationale": "Sigma is a vertical workflow automation platform targeting the M&A vertical. It automates complex, multi-step, document-heavy processes (due diligence, deal structuring, compliance) using AI agents integrated with deal-specific tools and workflows. This fits vertical-workflow-agent: end-to-end job function automation inside one industry (M&A), high switching cost via workflow integration and domain expertise, and sold to operators (deal teams) not as a regulated product. Secondary consideration: could be vertical-agentic-workflow-saas if positioned as end-user SaaS, but 'operating system' language and deal-team focus suggest agent-first automation platform. Confidence 0.78 reflects strong fit to vertical-workflow-agent but some ambiguity on whether it's a full 'operating system' (suggesting broader platform scope) vs. focused workflow automation.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Finance and Accounting"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Finance",
+      "B2B"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2584915,
+        "full_name": "Rushil Knagaram",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder @ Sigma (YCF26). Previously founding GTM hire at USUL (YC S24) and Pump.co (YC S22). Studied Neuroscience at Duke.",
+        "linkedin_url": "https://www.linkedin.com/in/rushil-knagaram/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/02d8291cf572f3423aff30e10517718fa40057b3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAGKQ47K2I%2F20260912%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260912T164355Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDVgSqZX5A491cOFCRJlgaesZ6qgOFgQpJB6LmGyRP5jAIhAL5aWw9TTbrY4Dwh7b1z4uuDo1qXc66vIEBe%2Ffxacbm1Ku4DCLn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgyReyGHuCGBT9HyraEqwgP77J8PBXFJuMOczxhjGYFOCQ6ZYCQ2daD72%2FRY94rTVO1jT6m2pFHcPi%2B8X6JnBROFtf%2FRrh6ZnDFr5TmkSZCEIGEh0teNo2E3aSSCVmNv1LG1jSuKobyBpy%2FXJ%2FXu0peiysJAvik4PdFzjq15O%2BUSAOOfCL3Q4B8OPjg95vZ06nc6lOJcaNEelLQ4%2FVRFUwne%2FvnHqtbThQeP6ZWGCt8Iy5wGbs7ACog%2FjOf9kp5gK2C%2FfEQ7y9rFt8J%2BM%2F5lnXK8dx6fRQfY4a7GPQHRuRNBHwiejW0UWhdD3y%2FgxFEqeKPQl4eg2HFDLmz7VHdTjz8sd8pSJ74AuIBgYc8%2FYHLkiJoshcZp68C4wifpThCJt5mnp7KTnPEN8KU21YGC1mYCe4XufdKrirVpxnV6Q0Yu05KiQisT3S%2B2LGCKVxPzKlAHCZwSmW%2F8XgZwLkLhuzZl0JX0kDJ3ClOLJZynavdYo7%2BckoFBkrWtENGWgdVwEBLueARpmAan5Offhm%2BMKJwvbfeamKW%2BMzyCLVYvSD3U%2BXQ0cKJKb7yIQZFiKJvlZANrzFYPJOov7xdvao80Ysaj85eoSZ2i9cFpMjEOB3X89M0wi%2FiV1QY6pAH3N%2By%2FzzXVkp9E9g3RSTRnvJ0ScHWnYUL751FuH6cgiJ80ru9N7d0JzpkjjHi%2BYRqFLvhEue17fGlcKy5CwZcfYutQRSLOmOvZzWqv6jYiUo3yzpZRgTBKa%2BGLGAdxVPaO9MYcDgwPOhVOcGIESVrk%2Bu2ncF7jM4ELI%2Fi8bcg0MHb3ElYXlhskRlfyJn3rVdPDu10qQ3NeVjYIGZodWWDwpyt7iQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=208cffddbcf33da58dc8386e5f06008fbb958e4c3ad79f13116c3eb1815baf8b",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sigma",
+          "href": "https://www.ycombinator.com/companies/sigma-2"
+        }
+      },
+      {
+        "user_id": 2797579,
+        "full_name": "Param Mehta",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Sigma (YC F26). Previously Founding Engineer at USUL (YC S24), where he demoed production architecture at Palantir DevCon to Fortune 500 CTOs and built the backend powering 33% MoM revenue growth. Before that, Software Engineer at JP Morgan Chase, where he led the Graphite AI Agent platform automating error handling across 4M+ daily transactions. UIUC CS & Stats.",
+        "linkedin_url": "https://www.linkedin.com/in/param-u-mehta/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c201eb58e507e56b7b6315697174a2bd5b4f614c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAGKQ47K2I%2F20260912%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260912T164355Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDVgSqZX5A491cOFCRJlgaesZ6qgOFgQpJB6LmGyRP5jAIhAL5aWw9TTbrY4Dwh7b1z4uuDo1qXc66vIEBe%2Ffxacbm1Ku4DCLn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgyReyGHuCGBT9HyraEqwgP77J8PBXFJuMOczxhjGYFOCQ6ZYCQ2daD72%2FRY94rTVO1jT6m2pFHcPi%2B8X6JnBROFtf%2FRrh6ZnDFr5TmkSZCEIGEh0teNo2E3aSSCVmNv1LG1jSuKobyBpy%2FXJ%2FXu0peiysJAvik4PdFzjq15O%2BUSAOOfCL3Q4B8OPjg95vZ06nc6lOJcaNEelLQ4%2FVRFUwne%2FvnHqtbThQeP6ZWGCt8Iy5wGbs7ACog%2FjOf9kp5gK2C%2FfEQ7y9rFt8J%2BM%2F5lnXK8dx6fRQfY4a7GPQHRuRNBHwiejW0UWhdD3y%2FgxFEqeKPQl4eg2HFDLmz7VHdTjz8sd8pSJ74AuIBgYc8%2FYHLkiJoshcZp68C4wifpThCJt5mnp7KTnPEN8KU21YGC1mYCe4XufdKrirVpxnV6Q0Yu05KiQisT3S%2B2LGCKVxPzKlAHCZwSmW%2F8XgZwLkLhuzZl0JX0kDJ3ClOLJZynavdYo7%2BckoFBkrWtENGWgdVwEBLueARpmAan5Offhm%2BMKJwvbfeamKW%2BMzyCLVYvSD3U%2BXQ0cKJKb7yIQZFiKJvlZANrzFYPJOov7xdvao80Ysaj85eoSZ2i9cFpMjEOB3X89M0wi%2FiV1QY6pAH3N%2By%2FzzXVkp9E9g3RSTRnvJ0ScHWnYUL751FuH6cgiJ80ru9N7d0JzpkjjHi%2BYRqFLvhEue17fGlcKy5CwZcfYutQRSLOmOvZzWqv6jYiUo3yzpZRgTBKa%2BGLGAdxVPaO9MYcDgwPOhVOcGIESVrk%2Bu2ncF7jM4ELI%2Fi8bcg0MHb3ElYXlhskRlfyJn3rVdPDu10qQ3NeVjYIGZodWWDwpyt7iQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d8e868d2d266cb48fbe18f7ae674eca606ce16dd504ea61b43626e45e973e51b",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sigma",
+          "href": "https://www.ycombinator.com/companies/sigma-2"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-12T16:44:06.035Z",
+    "classified_at": "2026-09-12T16:44:06.035Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "sigmanticai",
     "name": "SigmanticAI",
     "website": "https://www.sigmanticai.com",
@@ -87305,6 +87453,116 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "tilion",
+    "name": "Tilion",
+    "website": "https://tilion.dev",
+    "yc_profile_url": "https://www.ycombinator.com/companies/tilion",
+    "batch": "Fall 2026",
+    "one_liner": "Super fast, unblockable browser infra for agents",
+    "description_combined": "Super fast, unblockable browser infra for agents\n\nwe build self-healing browser infrastructure that runs millions of agent operations a day without supervision. \r\n\r\nteams use it for large-scale data collection, agentic workflows, continuous monitoring, and anything else that requires acting on the web at volume.\r\n",
+    "industry_sub_vertical": "Browser automation runtime for agentic workflows",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "browser_automation",
+      "web_interaction_runtime",
+      "self_healing_infrastructure",
+      "high_volume_execution"
+    ],
+    "what_they_sell": "Managed browser infrastructure platform that enables agents to reliably execute web-based tasks at scale (millions of operations daily). Provides self-healing, unblockable browser runtime with built-in reliability, cost optimization, and supervision-free operation.",
+    "ai_play": "Tilion is the execution layer for web-acting agents. While agents handle decision logic and task planning, Tilion solves the critical infrastructure gap: reliable, cost-efficient, scalable browser automation that doesn't require manual intervention or constant monitoring. Enables agents to interact with any web-based system (data collection, form filling, monitoring, workflow execution) without infrastructure brittleness.",
+    "who_pays": "AI teams, automation engineers, and enterprises deploying agentic workflows that require high-volume web interaction (data collection platforms, RPA teams, workflow automation vendors, research/intelligence platforms).",
+    "confidence": 0.82,
+    "rationale": "Tilion is clearly agent infrastructure—specifically a runtime/harness for browser-based agent execution. Primary fit is agent-runtime-infra (runtimes, sandboxes, tool routing, reliability/cost optimization). Secondary fit is agent-context-infra because browser automation often feeds structured web data into agent context. The 'self-healing' and 'unblockable' language suggests reliability and cost optimization (wedge: infrastructure_pickaxe). Not a data enrichment API (agent-context-data) because they're not enriching context; they're providing the execution substrate. Not observability/evals because they're not monitoring or benchmarking agents—they're the infrastructure agents run on.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 4,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2899189,
+        "full_name": "Arman Luthra",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "co-founder and ceo, tilion",
+        "linkedin_url": "https://www.linkedin.com/in/armanluthra/",
+        "twitter_url": "https://x.com/armanluthra_",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/34aec92b369d6bc7f6e6ac16012f97f32cd6b00f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIGVI5OQE%2F20260912%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260912T164326Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEDHUb33188RoWUvXfhqSZRI962JTZg1%2BoXd6%2FMV%2B6KvAiBqD6VWNPfwy48vLsbN42g5jAiGbFhrdnyNiQ8ReO7YYSruAwi5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMB1wc5aKwObLlbiqJKsIDSgD8mHLBoBYG1XmE7sJ%2Fad96BVZTgbENfW6GgRyJlr0fXC%2F5s5QFpcJjA9zc%2BB0kpAJzkkyHd3%2FO3lKIv9oW6lFBhdxSu0tSaJkfc9cQGpX1F1ClV0KU8G7z%2Buo6ir0a2CW%2BwbEKAgpBlGzeXx%2FULSFgnwdDGHeA0useUUsqxvaoWXUykDISV0N2TCLuHaPzvbBWUxDUvW5Ilp%2BNY7sTridUYHprcjgL7b7Oa9iezOzrsSIXo7wfKj2G9Aez%2FpWujzItw102FS3BFolBEel%2Fy9ospsww5DZLs3dNo8DDd685o20PTN2wxIW2%2BpnIVvgoUlYXb8LAPxlN29TrWHxNywfLLZwCWgF0XTFlZzEhJ7r9tOv%2BwQAUX8rcpytJWq37we7WeaSxYmvO5ZjWN3sdzM90V6YrfwvRAXdEl9mBpUSGCx58JWzoMtq%2BZS2mvnegNwf%2B6RD67yHeivozrUQ1Wiq0i3J4VCqSXI%2B5hi%2BEKss%2B36fvpJPRRGq%2FiU1NOdAe1LFQDvQJnaBYWkc%2FtCigYve4K%2F6TZTXRsyopsnTG3QJaF4mLVX3B3%2FV%2Blrd8OmM01pOi52LByfETIBU2TUTJvSAhMI34ldUGOqYBUJoSWzzdUh%2BdhnfmknEMgf%2FTq63CRVmMPyjk9mQVZRp7YSXB0ks6n0BtOOfMmqoxAvA9pld6HMVRjBUEuX0zXtFdoUM6MK6ckV6JmLV7C3PpakxP%2Fphm05tSBMQL%2BGNdpTH4NunBuN0tUrV2bzlabPbNpBTz4ogaFqC%2FJXVox5r4zWlW9Uory1zf796jUFjBgq6QYXi8mC6nFL%2BJ33yacceZsJ%2FVfw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6eced6760410dcc8845d8c4945b565133a8460ce35ba4da1dd46bf0f210a1a32",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Tilion",
+          "href": "https://www.ycombinator.com/companies/tilion"
+        }
+      },
+      {
+        "user_id": 4010260,
+        "full_name": "Md Shahrier Islam Arham",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "co-founder and cto, tilion\n",
+        "linkedin_url": "https://www.linkedin.com/in/shahrierislamarham",
+        "twitter_url": "https://x.com/shahrier_arham",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d5a48ecf444676901358f5877217a054fb4cd8c3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIGVI5OQE%2F20260912%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260912T164326Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEDHUb33188RoWUvXfhqSZRI962JTZg1%2BoXd6%2FMV%2B6KvAiBqD6VWNPfwy48vLsbN42g5jAiGbFhrdnyNiQ8ReO7YYSruAwi5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMB1wc5aKwObLlbiqJKsIDSgD8mHLBoBYG1XmE7sJ%2Fad96BVZTgbENfW6GgRyJlr0fXC%2F5s5QFpcJjA9zc%2BB0kpAJzkkyHd3%2FO3lKIv9oW6lFBhdxSu0tSaJkfc9cQGpX1F1ClV0KU8G7z%2Buo6ir0a2CW%2BwbEKAgpBlGzeXx%2FULSFgnwdDGHeA0useUUsqxvaoWXUykDISV0N2TCLuHaPzvbBWUxDUvW5Ilp%2BNY7sTridUYHprcjgL7b7Oa9iezOzrsSIXo7wfKj2G9Aez%2FpWujzItw102FS3BFolBEel%2Fy9ospsww5DZLs3dNo8DDd685o20PTN2wxIW2%2BpnIVvgoUlYXb8LAPxlN29TrWHxNywfLLZwCWgF0XTFlZzEhJ7r9tOv%2BwQAUX8rcpytJWq37we7WeaSxYmvO5ZjWN3sdzM90V6YrfwvRAXdEl9mBpUSGCx58JWzoMtq%2BZS2mvnegNwf%2B6RD67yHeivozrUQ1Wiq0i3J4VCqSXI%2B5hi%2BEKss%2B36fvpJPRRGq%2FiU1NOdAe1LFQDvQJnaBYWkc%2FtCigYve4K%2F6TZTXRsyopsnTG3QJaF4mLVX3B3%2FV%2Blrd8OmM01pOi52LByfETIBU2TUTJvSAhMI34ldUGOqYBUJoSWzzdUh%2BdhnfmknEMgf%2FTq63CRVmMPyjk9mQVZRp7YSXB0ks6n0BtOOfMmqoxAvA9pld6HMVRjBUEuX0zXtFdoUM6MK6ckV6JmLV7C3PpakxP%2Fphm05tSBMQL%2BGNdpTH4NunBuN0tUrV2bzlabPbNpBTz4ogaFqC%2FJXVox5r4zWlW9Uory1zf796jUFjBgq6QYXi8mC6nFL%2BJ33yacceZsJ%2FVfw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2cee53aa127fcc290c887ab9b30193e0f39fdcd192592ee505e9fbfad849a8b1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Tilion",
+          "href": "https://www.ycombinator.com/companies/tilion"
+        }
+      },
+      {
+        "user_id": 813280,
+        "full_name": "Kazi Fardinul Hoque",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "co-founder and scientist, tilion",
+        "linkedin_url": "https://www.linkedin.com/in/kazi-fardinul-hoque",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fbc8e1b5a2d183a188e9e010c3a1ced2e8e1e04b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIGVI5OQE%2F20260912%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260912T164326Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEDHUb33188RoWUvXfhqSZRI962JTZg1%2BoXd6%2FMV%2B6KvAiBqD6VWNPfwy48vLsbN42g5jAiGbFhrdnyNiQ8ReO7YYSruAwi5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMB1wc5aKwObLlbiqJKsIDSgD8mHLBoBYG1XmE7sJ%2Fad96BVZTgbENfW6GgRyJlr0fXC%2F5s5QFpcJjA9zc%2BB0kpAJzkkyHd3%2FO3lKIv9oW6lFBhdxSu0tSaJkfc9cQGpX1F1ClV0KU8G7z%2Buo6ir0a2CW%2BwbEKAgpBlGzeXx%2FULSFgnwdDGHeA0useUUsqxvaoWXUykDISV0N2TCLuHaPzvbBWUxDUvW5Ilp%2BNY7sTridUYHprcjgL7b7Oa9iezOzrsSIXo7wfKj2G9Aez%2FpWujzItw102FS3BFolBEel%2Fy9ospsww5DZLs3dNo8DDd685o20PTN2wxIW2%2BpnIVvgoUlYXb8LAPxlN29TrWHxNywfLLZwCWgF0XTFlZzEhJ7r9tOv%2BwQAUX8rcpytJWq37we7WeaSxYmvO5ZjWN3sdzM90V6YrfwvRAXdEl9mBpUSGCx58JWzoMtq%2BZS2mvnegNwf%2B6RD67yHeivozrUQ1Wiq0i3J4VCqSXI%2B5hi%2BEKss%2B36fvpJPRRGq%2FiU1NOdAe1LFQDvQJnaBYWkc%2FtCigYve4K%2F6TZTXRsyopsnTG3QJaF4mLVX3B3%2FV%2Blrd8OmM01pOi52LByfETIBU2TUTJvSAhMI34ldUGOqYBUJoSWzzdUh%2BdhnfmknEMgf%2FTq63CRVmMPyjk9mQVZRp7YSXB0ks6n0BtOOfMmqoxAvA9pld6HMVRjBUEuX0zXtFdoUM6MK6ckV6JmLV7C3PpakxP%2Fphm05tSBMQL%2BGNdpTH4NunBuN0tUrV2bzlabPbNpBTz4ogaFqC%2FJXVox5r4zWlW9Uory1zf796jUFjBgq6QYXi8mC6nFL%2BJ33yacceZsJ%2FVfw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=64a1f3656bc6198373e296f211402b43d7ac6662596857c233aa31b4374d943c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Tilion",
+          "href": "https://www.ycombinator.com/companies/tilion"
+        }
+      },
+      {
+        "user_id": 4005998,
+        "full_name": "Abdul Basit Tonmoy",
+        "title": "Founder/CPO",
+        "is_active": true,
+        "bio": "co-founder and cpo, tilion",
+        "linkedin_url": "https://www.linkedin.com/in/abdul-basit-tonmoy/",
+        "twitter_url": "https://x.com/basittonmoy",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/558829018df03fb6d5408d120566d397ba2913af.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIGVI5OQE%2F20260912%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260912T164326Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEDHUb33188RoWUvXfhqSZRI962JTZg1%2BoXd6%2FMV%2B6KvAiBqD6VWNPfwy48vLsbN42g5jAiGbFhrdnyNiQ8ReO7YYSruAwi5%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMB1wc5aKwObLlbiqJKsIDSgD8mHLBoBYG1XmE7sJ%2Fad96BVZTgbENfW6GgRyJlr0fXC%2F5s5QFpcJjA9zc%2BB0kpAJzkkyHd3%2FO3lKIv9oW6lFBhdxSu0tSaJkfc9cQGpX1F1ClV0KU8G7z%2Buo6ir0a2CW%2BwbEKAgpBlGzeXx%2FULSFgnwdDGHeA0useUUsqxvaoWXUykDISV0N2TCLuHaPzvbBWUxDUvW5Ilp%2BNY7sTridUYHprcjgL7b7Oa9iezOzrsSIXo7wfKj2G9Aez%2FpWujzItw102FS3BFolBEel%2Fy9ospsww5DZLs3dNo8DDd685o20PTN2wxIW2%2BpnIVvgoUlYXb8LAPxlN29TrWHxNywfLLZwCWgF0XTFlZzEhJ7r9tOv%2BwQAUX8rcpytJWq37we7WeaSxYmvO5ZjWN3sdzM90V6YrfwvRAXdEl9mBpUSGCx58JWzoMtq%2BZS2mvnegNwf%2B6RD67yHeivozrUQ1Wiq0i3J4VCqSXI%2B5hi%2BEKss%2B36fvpJPRRGq%2FiU1NOdAe1LFQDvQJnaBYWkc%2FtCigYve4K%2F6TZTXRsyopsnTG3QJaF4mLVX3B3%2FV%2Blrd8OmM01pOi52LByfETIBU2TUTJvSAhMI34ldUGOqYBUJoSWzzdUh%2BdhnfmknEMgf%2FTq63CRVmMPyjk9mQVZRp7YSXB0ks6n0BtOOfMmqoxAvA9pld6HMVRjBUEuX0zXtFdoUM6MK6ckV6JmLV7C3PpakxP%2Fphm05tSBMQL%2BGNdpTH4NunBuN0tUrV2bzlabPbNpBTz4ogaFqC%2FJXVox5r4zWlW9Uory1zf796jUFjBgq6QYXi8mC6nFL%2BJ33yacceZsJ%2FVfw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6a67b319c94ca9036460661073708505a38942fa979c2f819d02ee52f7b8b8bd",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Tilion",
+          "href": "https://www.ycombinator.com/companies/tilion"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-12T16:43:35.858Z",
+    "classified_at": "2026-09-12T16:43:35.858Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "tinfoil",
     "name": "Tinfoil",
     "website": "https://tinfoil.sh",
@@ -94137,6 +94395,86 @@
     "primary_bm_rationale": "Vybe is a vertical AI SaaS product sold to enterprises for internal app development, not a managed service or labor replacement—it empowers non-technical users to build and deploy their own AI-powered applications with pre-built integrations and security controls.",
     "primary_bm_assigned_at": "2026-06-05T20:00:09.079Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "vyra",
+    "name": "Vyra",
+    "website": "https://usevyra.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/vyra",
+    "batch": "Fall 2026",
+    "one_liner": "Autonomous video editing for non-editors. Instead of making users…",
+    "description_combined": "Autonomous video editing for non-editors. Instead of making users…",
+    "industry_sub_vertical": "Autonomous video editing for SMB & creator content production",
+    "canonical_vertical_id": "content.video-production",
+    "vertical_id": "content.video-production",
+    "vertical_label": "Video production & post-production workflow",
+    "vertical_sector_id": "media-entertainment",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / Prosumer AI Application",
+    "phenotype_family": "consumer",
+    "value_wedge": "productivity_multiplier",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "video_automation",
+      "content_generation",
+      "workflow_abstraction"
+    ],
+    "what_they_sell": "Autonomous video editing software that transforms raw footage into polished, edited videos without manual editing work. Targets non-professional creators and SMBs who lack video editing expertise or time.",
+    "ai_play": "AI agents autonomously analyze raw video, make editorial decisions (cuts, transitions, pacing, effects), and produce finished output. Replaces manual frame-by-frame editing with end-to-end agentic automation, lowering barrier to professional-quality video production.",
+    "who_pays": "Individual creators, small content teams, SMBs producing marketing/social content, prosumers",
+    "confidence": 0.78,
+    "rationale": "Vyra is a consumer-facing AI automation tool for video editing. Primary fit is consumer-ai-app (end-user prosumer tool with subscription/freemium monetization). Secondary fit is horizontal-copilot-saas (cross-industry productivity multiplier). The AI play is agentic video workflow automation—agents autonomously handle editorial decisions, composition, and output generation. Not a vertical workflow agent (no B2B vertical focus), not a research/terminal product, not a regulated product. Confidence 0.78 reflects strong fit to consumer-ai-app phenotype but incomplete description limiting certainty on exact monetization and feature depth.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Content"
+    ],
+    "yc_tags": [
+      "Video",
+      "Automation",
+      "SMB"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2829833,
+        "full_name": "Caleb Pong",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "prev. freelance video edito",
+        "linkedin_url": "https://www.linkedin.com/in/cjpong",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b359afd93aded35dd99d57eddf8e449566f064e9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOA5QZJKN%2F20260912%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260912T164336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB7BEyZ6rrwtEJsv7aJQCI5jiJ7Jqf3hojRmR61%2FlSpFAiEA86Y5boW6S2j%2BTYJ9QKX48W%2BcJQXLQnSN0p5P35mAP6gq7gMIuf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDKPn6Be%2FTHlZRm2eUyrCA8bFXRFLlegyB9N%2BMYovRoOPZFKPoOnjgK37zcANMFVl4f7toohinfkvOVJZ%2BJCRDr8SyNryfpd4E33qfsM6pe0Ax6I1XWcT%2Fr84TuuDIxfY0eSM4mEQ2GzEDIrtborr8bJLaS%2BrKmAD2P5AwSlipl63UcxeeYAy5lUqzMsmfr5MJQoui7KgDYoDfYpiD8TmoMyBtnqqReJjuGpjb3a7I6i7ES%2BjyHdwhbbCriYVyrcyuc5kG94Lfr5Hj2202yk21YP8iwVAGu0rpiJWErZWe5M9MBfleP0eXeA4Fpdva3DBof5GHSDPE5S0JHkB8OGJP9SBkPe2bHLAg%2FIScyWWKwaZfqPT4xWUaXkeg1mgXpju8N%2FCz0Ylsl18pWU6bZvlmTNWJZ0vBDRFsCSgfLu9ssYfPlsskUB2W0dHfWvQX2TfsjeZyzpwRyzox2CebYEEKrW0yA0wKMTM3OAGfu4flZCgo26u7JIo868H8kCQqmlrAJwB60ee95YlAMtQ%2Fpl2mdM%2Fcg0vqeglhjYGsu3bz7mTQVKB7kGGhZOxtuSi3XmoAGdVxo9QcZBqTgLcvc2RVu2UgpkZPKCIMKOthGcWni6ZZDCM%2BJXVBjqlAUj8JCAdYX6pMbCBgc8tq5qekE0l1RVk%2BI7ZN7%2FQVUPlcm0OI%2FgQsFUwFFzOGbST%2BfJramSOGqstQXhNkX0zReJjG5XDhnBuux8EtIAFt6l59gUGzEkwnBRexRcb2u53l8WbN565v1XHlsU0EYovoqmt0%2F9oCzkQ1JP0PvKf2eeVffsTTzWbxbpP2Xd8EvdI41PIWzgwofQI74UEcYsitkzWlViLBw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=de6d87237d1686bb2d34fe0d545a9049f675ad7b4075d4e0f38f4446fd747617",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Vyra",
+          "href": "https://www.ycombinator.com/companies/vyra"
+        }
+      },
+      {
+        "user_id": 3090217,
+        "full_name": "Sulan Zhang",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "co-founder @ Vyra | creator @sulansart (60k+) | CS + visual arts @ Brown",
+        "linkedin_url": "https://www.linkedin.com/in/sulan-zhang",
+        "twitter_url": "https://x.com/sulansart",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d649abde4994d3239d7b41a0087e99962f140328.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOA5QZJKN%2F20260912%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260912T164336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB7BEyZ6rrwtEJsv7aJQCI5jiJ7Jqf3hojRmR61%2FlSpFAiEA86Y5boW6S2j%2BTYJ9QKX48W%2BcJQXLQnSN0p5P35mAP6gq7gMIuf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDKPn6Be%2FTHlZRm2eUyrCA8bFXRFLlegyB9N%2BMYovRoOPZFKPoOnjgK37zcANMFVl4f7toohinfkvOVJZ%2BJCRDr8SyNryfpd4E33qfsM6pe0Ax6I1XWcT%2Fr84TuuDIxfY0eSM4mEQ2GzEDIrtborr8bJLaS%2BrKmAD2P5AwSlipl63UcxeeYAy5lUqzMsmfr5MJQoui7KgDYoDfYpiD8TmoMyBtnqqReJjuGpjb3a7I6i7ES%2BjyHdwhbbCriYVyrcyuc5kG94Lfr5Hj2202yk21YP8iwVAGu0rpiJWErZWe5M9MBfleP0eXeA4Fpdva3DBof5GHSDPE5S0JHkB8OGJP9SBkPe2bHLAg%2FIScyWWKwaZfqPT4xWUaXkeg1mgXpju8N%2FCz0Ylsl18pWU6bZvlmTNWJZ0vBDRFsCSgfLu9ssYfPlsskUB2W0dHfWvQX2TfsjeZyzpwRyzox2CebYEEKrW0yA0wKMTM3OAGfu4flZCgo26u7JIo868H8kCQqmlrAJwB60ee95YlAMtQ%2Fpl2mdM%2Fcg0vqeglhjYGsu3bz7mTQVKB7kGGhZOxtuSi3XmoAGdVxo9QcZBqTgLcvc2RVu2UgpkZPKCIMKOthGcWni6ZZDCM%2BJXVBjqlAUj8JCAdYX6pMbCBgc8tq5qekE0l1RVk%2BI7ZN7%2FQVUPlcm0OI%2FgQsFUwFFzOGbST%2BfJramSOGqstQXhNkX0zReJjG5XDhnBuux8EtIAFt6l59gUGzEkwnBRexRcb2u53l8WbN565v1XHlsU0EYovoqmt0%2F9oCzkQ1JP0PvKf2eeVffsTTzWbxbpP2Xd8EvdI41PIWzgwofQI74UEcYsitkzWlViLBw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1b63da8f96be9c26b4ca778f7c6b1129d8db71d10763edcbae7b41a03ac8bec9",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Vyra",
+          "href": "https://www.ycombinator.com/companies/vyra"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-12T16:43:44.647Z",
+    "classified_at": "2026-09-12T16:43:44.647Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "waddle-labs",

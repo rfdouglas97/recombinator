@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-11T17:29:27.462Z",
+  "synced_at": "2026-09-12T16:43:26.404Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1295,
+  "company_count": 1299,
   "companies": [
     {
       "slug": "10x",
@@ -3118,8 +3118,8 @@
       "slug": "blaxel",
       "name": "Blaxel",
       "batch": "Spring 2025",
-      "one_liner": "The perpetual sandbox platform",
-      "long_description": "Blaxel is the perpetual sandbox platform for AI agents that need to run code fast.\r\n\r\nUnlike traditional sandboxes that expire or suffer from cold starts, our sandboxes automatically scale to zero after 1s of inactivity and resume in under 25ms with full memory state preserved — allowing you to keep millions of secure sandboxes on standby indefinitely.\r\n\r\nWe also co-locate your agent logic alongside these sandboxes to eliminate network overhead, delivering near-instant latency for end users.",
+      "one_liner": "The infrastructure for autonomous agents",
+      "long_description": "Blaxel is the infrastructure foundation for autonomous agents.\r\n\r\nEngineered for the way agents actually run, Blaxel gives builders deep control over compute (sandboxes), storage (shared filesystem), and networking as built-in infra primitives.\r\n\r\nUnlike traditional sandboxes that expire or suffer from cold starts, our sandboxes automatically scale to zero after 1s of inactivity and resume in under 25ms with full memory state preserved — allowing you to keep millions of secure sandboxes on standby indefinitely.",
       "website": "https://blaxel.ai",
       "industries": [
         "B2B"
@@ -3130,7 +3130,7 @@
         "Cloud Computing",
         "Infrastructure"
       ],
-      "team_size": 8,
+      "team_size": 12,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1745276338
@@ -5014,7 +5014,7 @@
       ],
       "team_size": 2,
       "location": "",
-      "status": "Active",
+      "status": "Inactive",
       "launched_at": 1762549706
     },
     {
@@ -5748,7 +5748,7 @@
         "Consumer"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 7,
       "location": "Los Angeles, CA, USA",
       "status": "Active",
       "launched_at": 1751244737
@@ -10542,7 +10542,7 @@
         "Gaming",
         "AI"
       ],
-      "team_size": 4,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1784188651
@@ -11555,7 +11555,7 @@
       "name": "Klavis AI",
       "batch": "Spring 2025",
       "one_liner": "High Quality Coding & Agentic Data for AI labs",
-      "long_description": "Powering frontier AI labs with complex, long-horizon agentic tool-use data.",
+      "long_description": "Powering frontier AI labs with complex, long-horizon agentic coding and tool-use data.",
       "website": "https://www.klavis.ai/",
       "industries": [
         "B2B"
@@ -12603,7 +12603,7 @@
         "Infrastructure",
         "AI"
       ],
-      "team_size": 5,
+      "team_size": 2,
       "location": "Boston, MA, USA",
       "status": "Active",
       "launched_at": 1785364349
@@ -13380,8 +13380,8 @@
       "slug": "maven",
       "name": "Maven",
       "batch": "Winter 2026",
-      "one_liner": "Payments Infrastructure for Voice Agents",
-      "long_description": "We enable AI voice agents to collect payments over the phone through a single API call, handling card processing and PCI compliance across all payment gateways",
+      "one_liner": "Payments Infrastructure for Conversational Agents",
+      "long_description": "We enable AI chat and voice agents to collect payments through a single API call, handling card processing and PCI compliance across all payment gateways",
       "website": "https://trymaven.com",
       "industries": [
         "B2B",
@@ -13739,6 +13739,28 @@
       "location": "Vienna, Vienna, Austria; Remote",
       "status": "Active",
       "launched_at": 1759440132
+    },
+    {
+      "slug": "micora",
+      "name": "Micora",
+      "batch": "Fall 2026",
+      "one_liner": "Solar farm in a box built anywhere in days",
+      "long_description": "Micora is a next-generation robotic energy developer that compresses the timeline from initial design to power generation from years to weeks. Our vertically integrated platform combines purpose-built robotic hardware with proprietary modular energy systems, enabling critical power infrastructure to be designed, manufactured, and deployed at unprecedented speed.\r\n\r\nTraditional energy projects are slow, costly, and built around processes that were never designed for today’s rapidly growing power demands. Micora is rebuilding energy development from the ground up; transforming what has historically been a bespoke, multi-year construction process into a repeatable and scalable manufacturing system.\r\n\r\nAs demand from data centers, advanced manufacturing, and electrification strains existing power infrastructure, the ability to deploy new generation quickly is becoming increasingly valuable. Micora is building the infrastructure platform needed to deliver power wherever and whenever it is needed.",
+      "website": "https://micora.com",
+      "industries": [
+        "Industrials",
+        "Energy"
+      ],
+      "tags": [
+        "Energy Storage",
+        "Robotics",
+        "Solar Power",
+        "Construction"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1789148682
     },
     {
       "slug": "milliray",
@@ -14750,11 +14772,11 @@
       "slug": "nessie",
       "name": "Nessie",
       "batch": "Fall 2025",
-      "one_liner": "A shared context layer for you, your team, and your agents.",
-      "long_description": "Knowledge work is being restructured by AI. Strategy happens in Claude. Research happens in ChatGPT. Building happens in Claude Code. The people defining the next decade of work are already thinking with AI every day. But none of that thinking compounds. Every session starts from zero. The reasoning behind decisions, the context behind strategies, the evolution of ideas across hundreds of conversations - all of it evaporates.\r\n\r\nNessie is the infrastructure that makes it permanent. We auto-sync AI conversations and agent traces across every major provider - ChatGPT, Claude, Gemini, Perplexity, Claude Code, OpenClaw, Codex, and more - and turn them into a context layer that is queryable, reusable, and shareable by you, your team, and your agents. No browser extension. No manual capture. Your thinking flows in automatically and compounds over time.\r\n\r\nWhere we are going: the AI-native organization runs thousands of agents that are powerful but amnesiac, and Nessie is the layer that integrates what the organization knows, what it has decided, and how its thinking has evolved. Science has journals, law has case law, software has git; AI-native knowledge work has had nothing. We are building it.\r\n\r\nWe are two Yale CS grads and former Amazon engineers. Backed by BoxGroup, Pioneer Fund, Y Combinator, Precursor, and more.\r\n\r\nhttps://nessielabs.com",
+      "one_liner": "The shared context layer for recursive companies - your work, your…",
+      "long_description": "Knowledge work is being restructured by AI. Strategy happens in Claude. Research happens in ChatGPT. Building happens in Claude Code and Codex. Meetings get recorded, notes get written, agents run for hours and leave behind traces nobody reads. The people defining the next decade of work are already thinking with AI every day. But none of that thinking compounds. Every session starts from zero. The reasoning behind decisions, the context behind strategies, the evolution of ideas across hundreds of conversations - all of it evaporates.\r\n\r\nNessie is the infrastructure that makes it permanent. We auto-sync AI conversations and agent traces across every major provider - ChatGPT, Claude, Gemini, Perplexity, Claude Code, Codex, Cursor, OpenClaw, Hermes, and more - alongside meetings, notes, and email from tools like Granola, Read AI, Plaud, and Obsidian. Everything a team produces with AI flows into one place and compounds over time.\r\n\r\nNessie turns that raw, heterogeneous data into an ontology: the live state of a company. Not a static schema but a continuously updated record of what the company knows, what it has decided, who owns what, and how its thinking has evolved, kept current as new work flows in. It is queryable from any agent through our CLI, MCP connector, and plugins, shareable across a team with real permissions, and deployable on-prem for organizations that need it.\r\n\r\nThen the loop closes. Once a company’s state is legible to its agents, every agent run becomes training signal: which skills worked, which failed, which workflows keep repeating. Nessie feeds that signal back as reviewable improvements to the skills, prompts, and processes the team runs on. This is what makes a company recursive: its agents get better from its own history, the people working with them get better too, and the compounding never stops.\r\n\r\nWhere we are going: the AI-native organization runs thousands of agents that are powerful but amnesiac. Nessie is the layer that gives them, a",
       "website": "https://nessielabs.com/",
       "industries": [
-        "Consumer"
+        "B2B"
       ],
       "tags": [],
       "team_size": 3,
@@ -15165,7 +15187,7 @@
         "Healthcare"
       ],
       "tags": [],
-      "team_size": 5,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753390612
@@ -18884,7 +18906,7 @@
         "Deep Learning",
         "Machine Learning"
       ],
-      "team_size": 2,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1784428991
@@ -19153,17 +19175,17 @@
       "name": "Rex",
       "batch": "Summer 2026",
       "one_liner": "AI-native BPO for enterprise order-to-cash",
-      "long_description": "Rex is an AI-native service for order to cash. Rex replace manual operations with AI agents that continuously manage invoices, customers and exceptions.\r\n\r\nOrder to cash is a $60B outsourced function because the work is too messy for traditional automation. Every customer has different context, exceptions do not follow clean rules, and the next step is often buried in emails, portals, handoffs, or someone’s memory. Rex agents run continuously in the background and resolve work to SLA standards so cash keeps moving. We're live with pre-IPO tech companies, managing  >$500m in receivables from F100 companies, cutting manual follow-up cycles from weeks to hours.\r\n\r\nWe founded Rex after spending four years building Sequence, an a16z-backed finance ops platform, from zero to Series A — where we saw firsthand that at-scale, O2C still runs on manual labour.\r\n\r\nRex is the #1 winner of the Vercel AI Accelerator out of 2,500 teams, selected by Guillermo Rauch and leaders from OpenAI, Anthropic, Browserbase and more.",
+      "long_description": "Rex is an AI-native service for order to cash. Rex replaces manual operations with AI agents that continuously manage invoices, customers and exceptions.\r\n\r\nOrder to cash is a $60B outsourced function because the work is too messy for traditional automation. Every customer has different context, exceptions do not follow clean rules, and the next step is often buried in emails, portals, handoffs, or someone’s memory. Rex agents run continuously in the background and resolve work to SLA standards so cash keeps moving. We're live with pre-IPO tech companies, managing  >$500m in receivables from F100 companies, cutting manual follow-up cycles from weeks to hours.\r\n\r\nWe founded Rex after spending four years building Sequence, an a16z-backed finance ops platform, from zero to Series A — where we saw firsthand that at-scale, O2C still runs on manual labour.\r\n\r\nRex is the #1 winner of the Vercel AI Accelerator out of 2,500 teams, selected by Guillermo Rauch and leaders from OpenAI, Anthropic, Browserbase and more.",
       "website": "https://www.rex.inc",
       "industries": [
         "B2B",
         "Finance and Accounting"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Enterprise",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -20566,6 +20588,27 @@
       "launched_at": 1747624073
     },
     {
+      "slug": "sigma-2",
+      "name": "Sigma",
+      "batch": "Fall 2026",
+      "one_liner": "AI Operating System for Mergers & Acquisitions",
+      "long_description": "",
+      "website": "",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Finance",
+        "B2B"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1789180865
+    },
+    {
       "slug": "sigmanticai",
       "name": "SigmanticAI",
       "batch": "Summer 2025",
@@ -20930,15 +20973,15 @@
       "name": "Sona8",
       "batch": "Fall 2026",
       "one_liner": "Voice agents that talk to employees enabling transformations ",
-      "long_description": "Sona8 is a voice agent that talks to every employee in a company about how their work gets done.\r\n\r\nEach employee gets a link and talks to the agent for about 20 minutes. The agent asks follow-up questions, for example why a step is still done by hand or who else is involved. From the conversations we build process maps and a list of the problems\r\npeople described, sorted by site and team.\r\n\r\nThat is the start. We then stay on through the implementation. After each initiative is rolled out, the agent goes back to the employees involved and asks whether it was implemented and what changed in their daily work. The transformation team sees this\r\nafter every rollout step.\r\n\r\nThe result is a project management office that has talked to every employee. That context did not exist before, because nobody had the time to collect it.\r\n\r\nConsulting firms use it to gather ideas at the start of an engagement instead. Transformation and corporate development teams use it to guide the execution of strategic transformation.",
+      "long_description": "Sona8 is a voice agent that talks to every employee in a company about how their work gets done.\r\n\r\nEach employee gets a link and talks to the agent for about 20 minutes. The agent asks follow-up questions, for example why a step is still done by hand or who else is involved. From the conversations we build process maps and a list of the problems people described, sorted by site and team.\r\n\r\nThat is the start. We then stay on through the implementation. After each initiative is rolled out, the agent goes back to the employees involved and asks whether it was implemented and what changed in their daily work. The transformation team sees this after every rollout step.\r\n\r\nThe result is a project management office that has talked to every employee. That context did not exist before, because nobody had the time to collect it.\r\n\r\nConsulting firms use it to gather ideas at the start of an engagement instead. Transformation and corporate development teams use it to guide the execution of strategic transformation.",
       "website": "https://sona8.com",
       "industries": [
         "B2B",
         "Operations"
       ],
       "tags": [
+        "Artificial Intelligence",
         "HR Tech",
-        "AI",
         "Conversational AI"
       ],
       "team_size": 4,
@@ -20985,7 +21028,7 @@
         "Operations",
         "AI"
       ],
-      "team_size": null,
+      "team_size": 1,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1759390917
@@ -22845,6 +22888,26 @@
       "launched_at": 1747795833
     },
     {
+      "slug": "tilion",
+      "name": "Tilion",
+      "batch": "Fall 2026",
+      "one_liner": "Super fast, unblockable browser infra for agents",
+      "long_description": "we build self-healing browser infrastructure that runs millions of agent operations a day without supervision. \r\n\r\nteams use it for large-scale data collection, agentic workflows, continuous monitoring, and anything else that requires acting on the web at volume.\r\n",
+      "website": "https://tilion.dev",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "team_size": 4,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1789207215
+    },
+    {
       "slug": "tinfoil",
       "name": "Tinfoil",
       "batch": "Spring 2025",
@@ -23526,7 +23589,7 @@
         "Recruiting and Talent"
       ],
       "tags": [],
-      "team_size": 4,
+      "team_size": 3,
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1762295048
@@ -24152,7 +24215,7 @@
         "Data Engineering",
         "Conversational AI"
       ],
-      "team_size": 4,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1761236237
@@ -24576,16 +24639,16 @@
       "slug": "vorelios",
       "name": "Vorelios",
       "batch": "Fall 2026",
-      "one_liner": "AI that simulates physics 1000x faster",
+      "one_liner": "A foundation model for engineering physics",
       "long_description": "Engineering is bottlenecked by slow, costly simulations. We're fixing that by building foundation models that learn physics end-to-end and deliver the same results in seconds, at a fraction of the cost.",
       "website": "https://vorelios.com",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -24664,6 +24727,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1745390836
+    },
+    {
+      "slug": "vyra",
+      "name": "Vyra",
+      "batch": "Fall 2026",
+      "one_liner": "Autonomous video editing for non-editors. Instead of making users…",
+      "long_description": "",
+      "website": "https://usevyra.com",
+      "industries": [
+        "Consumer",
+        "Content"
+      ],
+      "tags": [
+        "Video",
+        "Automation",
+        "SMB"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1789166415
     },
     {
       "slug": "waddle-labs",
@@ -24820,7 +24904,7 @@
         "Logistics",
         "Procurement"
       ],
-      "team_size": 5,
+      "team_size": 3,
       "location": "Gurugram, HR, India",
       "status": "Active",
       "launched_at": 1786690936
@@ -25192,7 +25276,7 @@
         "Artificial Intelligence",
         "B2B"
       ],
-      "team_size": 8,
+      "team_size": 3,
       "location": "Stockholm, Stockholm County, Sweden",
       "status": "Active",
       "launched_at": 1784823049
