@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-12T16:43:26.404Z",
+  "synced_at": "2026-09-13T17:13:27.754Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -4048,7 +4048,7 @@
       ],
       "tags": [],
       "team_size": 8,
-      "location": "San Francisco, CA, USA",
+      "location": "Bengaluru, KA, India",
       "status": "Active",
       "launched_at": 1768162565
     },
@@ -6798,27 +6798,6 @@
       "launched_at": 1753649047
     },
     {
-      "slug": "dollyglot",
-      "name": "Dollyglot",
-      "batch": "Winter 2025",
-      "one_liner": "Character.AI with real time video avatars",
-      "long_description": "Dollyglot is like Character.ai but with real time video avatars.\r\nTurn a photo and a voice into a real friend. Speak with Harry Potter about Hogwarts or brainstorm ideas with Elon Musk! ",
-      "website": "https://www.dollyglot.com/",
-      "industries": [
-        "Consumer"
-      ],
-      "tags": [
-        "Generative AI",
-        "Consumer",
-        "Social",
-        "Conversational AI"
-      ],
-      "team_size": 2,
-      "location": "Paris, Île-de-France, France",
-      "status": "Active",
-      "launched_at": 1741300119
-    },
-    {
       "slug": "dome",
       "name": "Dome",
       "batch": "Fall 2025",
@@ -6872,6 +6851,27 @@
       "location": "San Francisco, CA, USA; Remote",
       "status": "Active",
       "launched_at": 1771974925
+    },
+    {
+      "slug": "dotwave",
+      "name": ".Wave",
+      "batch": "Winter 2025",
+      "one_liner": "Continuous inference for streaming AI models",
+      "long_description": ".Wave builds a continuous inference engine for streaming AI models, including full-duplex voice and streaming speech recognition.   \r\n\r\nCustomers bring their models; we integrate and run them, managing execution, session state, and scheduling to reduce end-to-end latency and serving cost per live session.  \r\n\r\nWe use cadenced inference to support more concurrent sessions per GPU while keeping latency low and consistent.",
+      "website": "https://dotwave.ai/",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Generative AI",
+        "B2B",
+        "Infrastructure"
+      ],
+      "team_size": 2,
+      "location": "Paris, Île-de-France, France",
+      "status": "Active",
+      "launched_at": 1741300119
     },
     {
       "slug": "drafted",
@@ -9804,7 +9804,7 @@
       ],
       "tags": [],
       "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1779173686
     },
@@ -10077,7 +10077,7 @@
       "name": "Human Archive",
       "batch": "Winter 2026",
       "one_liner": "Physical AI data lab",
-      "long_description": "Human Archive (YC W26) is building the data infrastructure for physical AI.\r\n\r\nWe design hardware, deploy cameras and sensors globally, and train models that help AI better understand how humans interact with the physical world.\r\n\r\nLeading frontier AI labs trust us for their video, sensor, robot deployment, image, and audio datasets.\r\n\r\nWe have offices in SF, China, and India and are researchers from NYU GRAIL, UPenn GRASP, UC Berkeley, Stanford, Johns Hopkins Robotics, and national robotics champions.\r\n\r\nTo get data, please reach out to raj@humanarchive.ai",
+      "long_description": "Human Archive (YC W26) is building the data and deployments infrastructure for physical AI.\r\n\r\nWe design hardware, deploy cameras and sensors globally, and train models that help AI better understand how humans interact with the physical world.\r\n\r\nLeading frontier AI labs trust us for their video, sensor, robot deployment, image, and audio datasets.\r\n\r\nWe have offices in SF, China, and India and are researchers from NYU GRAIL, UPenn GRASP, UC Berkeley, Stanford, Johns Hopkins Robotics, and national robotics champions.\r\n\r\nTo get data, please reach out to raj@humanarchive.ai",
       "website": "https://www.humanarchive.ai/",
       "industries": [
         "Industrials",
@@ -11758,7 +11758,7 @@
         "AI"
       ],
       "team_size": 0,
-      "location": "London, England, United Kingdom",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1785288921
     },
@@ -12604,7 +12604,7 @@
         "AI"
       ],
       "team_size": 2,
-      "location": "Boston, MA, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1785364349
     },
@@ -18702,8 +18702,8 @@
       "slug": "reasonblocks",
       "name": "ReasonBlocks",
       "batch": "Spring 2026",
-      "one_liner": "The runtime layer that makes AI agents cheaper and more reliable",
-      "long_description": "ReasonBlocks is the runtime layer that makes AI agents cheaper and more reliable. We correct agent reasoning and compress tokens mid-run, with gains compounding across runs. On SWE-Bench pro we have seen a 52% token reduction and 42% accuracy lift.",
+      "one_liner": "Specialized models that make your AI agents cheaper and more reliable.",
+      "long_description": "ReasonBlocks turns your agents’ production traces into specialized models, delivering 10× cheaper inference without sacrificing performance. We handle training, routing, and serving.",
       "website": "https://reasonblocks.com/",
       "industries": [
         "B2B"
@@ -19856,7 +19856,7 @@
         "Industrial"
       ],
       "team_size": 2,
-      "location": "Austin, TX, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783052221
     },

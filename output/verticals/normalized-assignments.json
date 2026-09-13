@@ -26623,6 +26623,90 @@
     "primary_bm": "BM-10"
   },
   {
+    "slug": "dotwave",
+    "name": ".Wave",
+    "website": "https://dotwave.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/dotwave",
+    "batch": "Winter 2025",
+    "one_liner": "Continuous inference for streaming AI models",
+    "description_combined": "Continuous inference for streaming AI models\n\n.Wave builds a continuous inference engine for streaming AI models, including full-duplex voice and streaming speech recognition.   \r\n\r\nCustomers bring their models; we integrate and run them, managing execution, session state, and scheduling to reduce end-to-end latency and serving cost per live session.  \r\n\r\nWe use cadenced inference to support more concurrent sessions per GPU while keeping latency low and consistent.",
+    "industry_sub_vertical": "Real-time streaming inference optimization for voice and speech models",
+    "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_label": "GPU infrastructure for model deployment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "edge-inference-runtime",
+    "phenotype_primary_label": "Edge Inference Runtime & Optimization",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "streaming_inference_optimization",
+      "latency_cost_reduction",
+      "concurrent_session_scaling",
+      "cadenced_execution"
+    ],
+    "what_they_sell": "Managed continuous inference engine optimized for streaming AI models (full-duplex voice, speech recognition, real-time transcription). Customers deploy their own models; .Wave handles execution, session state management, scheduling, and resource allocation to maximize GPU utilization and minimize per-session latency and cost.",
+    "ai_play": "AI infrastructure that optimizes model serving efficiency through cadenced inference scheduling and intelligent session batching. Reduces end-to-end latency while increasing concurrent session throughput per GPU — solving the cost/latency tradeoff in streaming inference workloads.",
+    "who_pays": "AI application builders, voice/speech platforms, and enterprises deploying real-time streaming models at scale (contact centers, voice assistants, live transcription services).",
+    "confidence": 0.82,
+    "rationale": ".Wave is infrastructure-first: they provide a runtime layer for efficient model deployment, not a domain-specific application or vertical SaaS. Primary fit is edge-inference-runtime (model optimization, deployment efficiency, cost reduction on edge/streaming workloads). Secondary fit is infrastructure-optimization-ai (real-time optimization of latency and throughput via intelligent scheduling). The cadenced inference approach is a novel optimization technique that maximizes GPU utilization for concurrent streaming sessions — classic infrastructure pickaxe play. Confidence 0.82 because the phenotype library has edge-inference-runtime but .Wave's focus on streaming/continuous inference and session-level optimization is more specialized than typical edge deployment; however, the core value proposition (model optimization, cost reduction, latency control) aligns cleanly.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Generative AI",
+      "B2B",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "Paris, Île-de-France, France",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1458005,
+        "full_name": "Thomas Minassian",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "CEO.Wave. Our team built Parler-TTS Mini Multilingual, the world’s first fully multilingual open-source text-to-speech model, with 300,000 monthly downloads, and Dollyglot, the first model to turn a photo into a real-time video avatar.",
+        "linkedin_url": "https://linkedin.com/in/thomas-minassian-b25626102",
+        "twitter_url": "https://x.com/thminassian",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3b4cb586d951f5c9e9e241d2265b52891a44a07b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACYH2BMIQ%2F20260913%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260913T171327Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAkaCXVzLXdlc3QtMiJIMEYCIQCaXskOSI83zuB%2BYUn3U%2B40CAnueG5knQLt3lrLhwJT3wIhALkBDHBdMpJazOTSEYtncL0ce9ZZe%2F5KADk5e1LSDEToKu4DCNL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgw50%2F5NaIYiEOi0%2B0wqwgPdaQEAKVSuDThmOqWnOXaKj6VM2syWyTHyktDYSe4TlIeOkQKs%2BzSmmhnpN3Li8RWsJYrYTKsfbQrMRYGUA%2BkSZGisCqYZeflkEYcXKE4yTE0uP122rwimaZX%2FlJ4lLlgtKtjd1%2Fig6MdtU%2FxOFNzo4gPbC9r%2BNJt06B2RED4J%2Bt%2FzA17qIWPF9zXIywQSO6zNGr5eIdwJBBrNxcGQH3BkTIDKME8GD74gnGAtMqRLZ8uV%2FLjhyEmcll4OBRR1RKlwJxNLYK7Hs7hK7XS6BpHZ7pGMq%2FH%2BqsKCW%2Fg5sidm3BNjoiMsB%2FSMKyxwf1sdaWjqxY%2FnIuIPSyWJIKFMXGImctrktTsApFNZtSlee4xAu5w72V04FCm4X%2F4vKxKExfq08ahpxgRSlr%2Fzgy1kyLyGXzpIWyRUvDf5DCSKlMqz8TG3%2BU%2ByDIGnkbTAkPz%2B7Q83ATUbTpsMB5qaDD2qC1WNtCqzD09j7Ilf7Jl0QDIdUyPHp7rx0xpg8lrKRZFrK%2BPRFkVDeGs3P2m1DcLELP%2FOwZXWJ7aruG68yCmeffHfYQfAcEd3nxmzgdziadVLNw%2FNyTQr6IeovdJNxipjUBhxCyow0Kyb1QY6pAED2WAQyhdC2jYp1F22nWIFZ0AZ%2B8qsdgd%2FC4jIUF%2FBvtjhDA1TfK5jYSwCVNoqZ%2BDernycZB%2FpJYamiGP%2BimpIOaP0FjyqDW%2F%2BS1Z0USuQZLy0cgkNFCFrjWmZj%2Fyl6SH5uXP8tYcHmN09QRn0pHeG%2FcfCif4KtlCk9rvzYB5kBiimlsvGfm86I9RrD6y2dvrqdJ9og%2FKX%2FpvXKYQzAYgeGNc%2FjA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2a718ebc8fa67f9206c515d26d71ef12df3736028d45c29e37bb53d053e34f19",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": ".Wave",
+          "href": "https://www.ycombinator.com/companies/dotwave"
+        }
+      },
+      {
+        "user_id": 1646678,
+        "full_name": "Paul-Henri Biojout",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "CTO Dollyglot. Dollyglot is like Character.Ai but with real-time avatars. Turn a photo and a voice into a real friend. With Dollyglot, you could speak with Harry Potter about Hogwarts or brainstorm ideas with Elon Musk! Our team Built Parler-TTS Mini Multilingual, the world&#x27;s first fully multilingual open-source text-to-speech model. ",
+        "linkedin_url": "https://linkedin.com/in/phbiojout",
+        "twitter_url": "https://x.com/PH_BJT",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/55f57ae0118a71774fb96b1871b9a9eaf10dc3b9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACYH2BMIQ%2F20260913%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260913T171327Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAkaCXVzLXdlc3QtMiJIMEYCIQCaXskOSI83zuB%2BYUn3U%2B40CAnueG5knQLt3lrLhwJT3wIhALkBDHBdMpJazOTSEYtncL0ce9ZZe%2F5KADk5e1LSDEToKu4DCNL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgw50%2F5NaIYiEOi0%2B0wqwgPdaQEAKVSuDThmOqWnOXaKj6VM2syWyTHyktDYSe4TlIeOkQKs%2BzSmmhnpN3Li8RWsJYrYTKsfbQrMRYGUA%2BkSZGisCqYZeflkEYcXKE4yTE0uP122rwimaZX%2FlJ4lLlgtKtjd1%2Fig6MdtU%2FxOFNzo4gPbC9r%2BNJt06B2RED4J%2Bt%2FzA17qIWPF9zXIywQSO6zNGr5eIdwJBBrNxcGQH3BkTIDKME8GD74gnGAtMqRLZ8uV%2FLjhyEmcll4OBRR1RKlwJxNLYK7Hs7hK7XS6BpHZ7pGMq%2FH%2BqsKCW%2Fg5sidm3BNjoiMsB%2FSMKyxwf1sdaWjqxY%2FnIuIPSyWJIKFMXGImctrktTsApFNZtSlee4xAu5w72V04FCm4X%2F4vKxKExfq08ahpxgRSlr%2Fzgy1kyLyGXzpIWyRUvDf5DCSKlMqz8TG3%2BU%2ByDIGnkbTAkPz%2B7Q83ATUbTpsMB5qaDD2qC1WNtCqzD09j7Ilf7Jl0QDIdUyPHp7rx0xpg8lrKRZFrK%2BPRFkVDeGs3P2m1DcLELP%2FOwZXWJ7aruG68yCmeffHfYQfAcEd3nxmzgdziadVLNw%2FNyTQr6IeovdJNxipjUBhxCyow0Kyb1QY6pAED2WAQyhdC2jYp1F22nWIFZ0AZ%2B8qsdgd%2FC4jIUF%2FBvtjhDA1TfK5jYSwCVNoqZ%2BDernycZB%2FpJYamiGP%2BimpIOaP0FjyqDW%2F%2BS1Z0USuQZLy0cgkNFCFrjWmZj%2Fyl6SH5uXP8tYcHmN09QRn0pHeG%2FcfCif4KtlCk9rvzYB5kBiimlsvGfm86I9RrD6y2dvrqdJ9og%2FKX%2FpvXKYQzAYgeGNc%2FjA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ee13279b37dae42abe8d7677fe93e9d4b47c512845a4e7b4fe5d6dc164db3a62",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": ".Wave",
+          "href": "https://www.ycombinator.com/companies/dotwave"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-13T17:13:38.610Z",
+    "classified_at": "2026-09-13T17:13:38.610Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "drafted",
     "name": "Drafted",
     "website": "https://www.drafted.ai/",

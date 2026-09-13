@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-12T16:44:34.301Z",
+  "generated_at": "2026-09-13T17:14:07.009Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1447,
+    "assignment_count": 1448,
     "mapped_verticals": 244,
     "observed_cells": 480,
     "total_verticals": 525,
@@ -632,6 +632,27 @@
     {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "belvedir",
+        "cactus-compute",
+        "dotwave",
+        "exla",
+        "freesolo",
+        "lilac",
+        "nodus-compute",
+        "openrelay",
+        "pirislabs",
+        "stellon-labs",
+        "tinfoil",
+        "wafer"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "ai-infrastructure.qa-testing",
       "vertical_label": "Software QA & test automation",
       "sector_id": "enterprise-software",
@@ -711,26 +732,6 @@
         "sinter-systems",
         "twentyfour26",
         "ultrasonium"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "belvedir",
-        "cactus-compute",
-        "exla",
-        "freesolo",
-        "lilac",
-        "nodus-compute",
-        "openrelay",
-        "pirislabs",
-        "stellon-labs",
-        "tinfoil",
-        "wafer"
       ]
     },
     {
