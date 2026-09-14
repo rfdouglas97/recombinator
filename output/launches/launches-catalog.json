@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-09-11T17:30:27.135Z",
-  "count": 1298,
+  "updated_at": "2026-09-14T19:01:40.750Z",
+  "count": 1299,
   "launches": [
+    {
+      "launch_id": 114944,
+      "launch_slug": "Ttw-quotient-labs-stop-overpaying-claude-for-tokens-you-don-t-need",
+      "launch_url": "https://www.ycombinator.com/launches/Ttw-quotient-labs-stop-overpaying-claude-for-tokens-you-don-t-need",
+      "title": "Quotient Labs: Stop overpaying Claude for tokens you don't need",
+      "tagline": "We cut your Claude Code costs by 47% in one line of install. Same models, same workflow, half the price.",
+      "body": "**TLDR**: **Tokenmaxxing is out. Tokenminning is in.** Quotient Labs sits on top of Claude Code and reduces the amount of context you pay for—without changing your models, prompts, projects, or workflow. Across real, multi-step developer workflows, we’ve benchmarked **47% lower token cost with no measured quality loss.** Get started today at <https://www.quotientlabs.com/>.\n\n**The Problem**\n\nCoding agents accumulate a lot of context.\n\nEvery file read, search result, test run, tool output, generated plan, and conversation turn gets added to the session. As the session grows, this history is repeatedly re-read (and re-billed) long after it has stopped being useful in its original form. The result? **You’re overpaying Claude for tokens your agent never needed.**\n\n**Fermat’s Last Token** (our main product) sits on top of Claude Code and optimizes what enters and remains in your model’s context. We do this in four ways:\n\n1. **Faster, more cost-efficient agent tools** that batch operations and return compact, information-dense results.\n2. **Bash output compression** that preserves the useless parts of long command and test outputs while removing the bloat.\n3. **Live text compression** that removes the information-sparse and irrelevant tokens in conversation turns before they ever compound in cost. \n4. **Idle context optimization** that compresses older conversation history as the prompt cache expires (this is more often than you think; only 5 minutes TTL) while preserving the freshest context verbatim.\n\nThe important part: **you keep using Claude Code exactly as you do today.**\n\n**Observability**: See real-time estimated cost and savings down to the session and request level, as well as manage your organizations and users, in the user dashboard: <https://console.quotientlabs.com/>. \n\n**Ready to go in 30 seconds.** Install Fermat, sign in, and continue using Claude Code normally:\n\n**curl -fsSL [https://downloads.quotientlabs.com/fermat/install.sh](https://downloads.quotientlabs.com/fermat/install.sh) | bash &amp;&amp; fermat login**\n\n**Fermat is compatible with both CLI and the VS Code extension.** Your existing projects, prompts, models, integrations, and interface are untouched.\n\nYou can bypass Fermat (if you really want) on a particular chat any time with _claude --vanilla._ You can also fully uninstall in one line with _fermat uninstall_ (though we don’t recommend either :)).\n\n**Our ask**\n\nWe’re looking for devs and engineering teams who use Claude Code heavily, especially on long-running, tool-intensive engineering tasks. \n\nWe’d love to get feedback on where Fermat helps the most, where compression could be better, and any features or changes you’d like to see.\n\nGet started: <https://quotientlabs.com/>\n\nOr message us directly: [founders@quotientlabs.com](mailto:founders@quotientlabs.com)\n\n**Founders**\n\nBefore Quotient Labs, we’ve been at Stanford (BS+MS CS/AI), industry (Apple, AWS, Accenture) and in academia (with multiple publications).\n\n![uploaded image](/media/?type=post&id=114944&key=user_uploads/3146534/39cb7ad4-595a-428f-aa75-7a0570a93673)\n\n",
+      "created_at": "2026-09-14T15:33:54.262Z",
+      "total_vote_count": 1,
+      "company_slug": "quotient-labs",
+      "company_name": "Quotient Labs",
+      "company_website": "https://quotientlabs.com",
+      "company_batch": "Winter 2026",
+      "company_industry": "B2B",
+      "company_id": 31082,
+      "author_name": "Saahil Sundaresan",
+      "scraped_at": "2026-09-14T19:01:39.451Z",
+      "review_summary": {
+        "conformance_index": 54,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
     {
       "launch_id": 114670,
       "launch_slug": "TpW-isengard-industries-inc",

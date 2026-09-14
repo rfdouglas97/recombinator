@@ -9380,6 +9380,73 @@
     }
   },
   {
+    "slug": "aviern",
+    "name": "Aviern",
+    "website": "https://aviern.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/aviern",
+    "batch": "Fall 2026",
+    "one_liner": "Unmanned airplanes for geospatial intelligence",
+    "description_combined": "Unmanned airplanes for geospatial intelligence\n\nAviern builds unmanned airplanes that turn the sky into a geospatial intelligence source. Our fixed-wing aircraft launch, fly, and land from unattended docks along infrastructure corridors, with onboard perception that flags leaks, encroachments, and vegetation risk with no pilot in the loop. We&#x27;re starting with PHMSA-mandated pipeline patrol, where operators still pay helicopter crews to fly their lines up to 26 times a year, and we sell per mile as a service. The same aircraft, docks, and intelligence stack extend to the power grid, rail, borders, and bases.",
+    "industry_sub_vertical": "Infrastructure patrol automation for pipeline & utility operators via autonomous fixed-wing UAS",
+    "canonical_vertical_id": "industrials.defense.drones",
+    "vertical_id": "industrials.defense.drones",
+    "vertical_label": "Defense drone & UAS operations",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "autonomous_inspection",
+      "geospatial_perception",
+      "anomaly_detection",
+      "unattended_operations"
+    ],
+    "what_they_sell": "Autonomous fixed-wing aircraft + docking infrastructure + onboard AI perception as a managed service. Customers pay per-mile for continuous pipeline/infrastructure patrol with automated leak, encroachment, and vegetation risk detection. Replaces expensive helicopter crews and manual inspection workflows.",
+    "ai_play": "Onboard perception (computer vision, anomaly detection) flags infrastructure hazards autonomously with no pilot in the loop. AI enables unattended launch/land cycles and real-time geospatial intelligence synthesis. Dramatically reduces inspection cost and frequency vs. traditional helicopter patrols.",
+    "who_pays": "Pipeline operators (PHMSA-regulated), utilities, rail operators, border/defense agencies — infrastructure owners with mandatory inspection mandates and high helicopter crew costs.",
+    "confidence": 0.85,
+    "rationale": "Aviern is a hardware-centric company where AI is the enabler, not the product. Core value is the autonomous aircraft + dock infrastructure system; AI perception (onboard vision, anomaly detection) accelerates inspection execution and enables unattended operations. Fits ai-enabled-physical-systems (physical infrastructure + AI optimization) better than pure robotics because the primary SKU is the inspection service/platform, not the robot itself. Secondary fit to robotics-embodied-ai is valid (autonomous aircraft, teleoperation-adjacent), but primary phenotype emphasizes the infrastructure-as-a-service model and AI's role in operational autonomy. Confidence 0.85 (not higher because robotics-embodied-ai is also a strong fit; phenotype library may evolve to separate 'autonomous infrastructure inspection' as distinct from general robotics).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Drones"
+    ],
+    "yc_tags": [
+      "Geographic Information System",
+      "Airplanes",
+      "Aerospace",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 4,
+    "location": "Los Angeles, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3391574,
+        "full_name": "Kush Agarwal",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Aviern (YC F26). Taught drone engineering at UCLA and led the autonomous aerial systems club. Previously drone operations at Matter Intelligence and AI agent integration at Fetch.ai. BS Aerospace Engineering from UCLA.",
+        "linkedin_url": "https://www.linkedin.com/in/kushhansagarwal/",
+        "twitter_url": "https://x.com/KushHansAgarwal",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/925de1f71921581a3c17e6c48e22fedbba68eac1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHBED2AM4%2F20260914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260914T190053Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJHMEUCIBeYFAbeQLbVXKXF91vmk%2BVYFTusuE1aNe%2FL9iQ2PYEKAiEA9P2f4PJfORGkPxPFZ9UIQ%2Fd38x%2FNdWPLEthKtZ37SnYq7gMI7P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDEgekYVWs3XijVdDPSrCA7btUNb7MRNRrUDWkwCDsriQEXIiEYPTU8vniKqTwOv6cbauyamj24QAHTVDNtskwqFRgyvsXnA%2FcVLoXNNDLirlwOdlhqeT4CXQXqgu0kGQsqL%2F%2FfMzlzVl%2Fz2ijAqm1a%2BSKHYzVrJhTVRP44brjolmIoERtx3MHINIR34kt6BXvDHLAr6KI2vj5sgFs67PS2QkhPpGtUe2W6rVfEh9%2BjAVMKNDQkOS2biZUD03kRKzORI5kpOoBBbDGnrSo0JUYlAAwy%2Bs6J2crH0WgtySu7RTPEltMbkfLRrXZYDEGiXgHoBdmw9K2Fq5QCexfZsd4OWJV3yivwY2Z5CSTSaOE%2FU%2B%2BcuH7lSX0vZWeqmwOp0FrGKZSuuT2WNWZkuVz2diIlNr1ZKIjRqqhTIDcSo5EqOnp9pCYZi3GVWhj18ZCD4ncdPsCZPJvbdk5Ssqd%2F8W7%2BGaYs9rEPmwBSgjXVnKZRdryGehkuH0RMrU3hxwQXMZqC8LiunjoZ4lafuulr74AVJxLuV1eOhV0jKSFu%2BPy5MJb7xiyuCR1Y9nx81tvSZVwSqbFh%2FE3i2fXOBy97ZgGT752kYvD48FjfAnFgbWGWwjkDDVg6HVBjqlAbvKkyljlQ187S%2BcFB5BHwz1DJuSK1piYZdkKnu8Jlc6T%2BWih123rgFyXTY5tzuxGitxsoRTv1AV7StYKHvYT2dFThRswaNa8l7zBIwat46XipW%2BL0HxQ8UgfEqeJkroeJYnOutVpCWRwX7blQbeNwNprSJZOadyk5gA2KXVzprZWlJlb4XdO53LgTUnSjIX1mw606hDdzuon3AV8pSHs07y4z8ZzQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=851358c0bf7ae24764c16293a3f609b3810b44ebd8ec46144b503c4ed55009d6",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Aviern",
+          "href": "https://www.ycombinator.com/companies/aviern"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-14T19:01:04.198Z",
+    "classified_at": "2026-09-14T19:01:04.198Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "aviro",
     "name": "Aviro",
     "website": "https://www.aviro.ai/",
@@ -55202,6 +55269,119 @@
     "launch_evaluated_at": "2026-07-30T16:56:29.910Z"
   },
   {
+    "slug": "nebusec",
+    "name": "NebuSec",
+    "website": "https://nebusec.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/nebusec",
+    "batch": "Summer 2026",
+    "one_liner": "Autonomous AI defense system for cyber attack",
+    "description_combined": "Autonomous AI defense system for cyber attack\n\nNebuSec is founded by the world’s #1 hacking team.\r\n\r\nWe were the first team to build an nginx RCE and the first to root Android 17. Our co-founders include members of the world’s No. 1 CTF team, DEF CON winners, Black Hat speakers, and PhD in cybersecurity. We have won $400K in bug bounties by exploiting the Linux kernel and Chrome browser.\r\n\r\n“Audited by NebuSec” is a mark of serious security credibility: a signal to customers, investors, and partners that your product has been reviewed by the world’s best hackers.",
+    "industry_sub_vertical": "Autonomous AI-driven threat detection and response for enterprise SOCs",
+    "canonical_vertical_id": "enterprise.security.cyber",
+    "vertical_id": "enterprise.security.cyber",
+    "vertical_label": "Enterprise cybersecurity operations",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-security-control-plane",
+    "phenotype_primary_label": "Agent Security & Access Control Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "threat_detection",
+      "autonomous_response",
+      "security_audit",
+      "vulnerability_assessment"
+    ],
+    "what_they_sell": "Autonomous AI defense system that detects, evaluates, and responds to cyber attacks in real-time. Combines elite hacker expertise (red-team knowledge, exploit patterns, vulnerability research) with agentic AI to autonomously identify attack vectors, assess risk, and execute defensive responses without human intervention.",
+    "ai_play": "AI agents trained on world-class hacker knowledge and exploit patterns autonomously monitor systems, detect anomalies, evaluate threat severity, and trigger or execute defensive actions. The AI layer scales expert-level security analysis (normally done by elite security teams) across enterprise infrastructure. Agents learn from production attack data and continuously improve detection/response.",
+    "who_pays": "Enterprise security teams, CISOs, and DevOps/platform teams managing critical infrastructure. Sold as managed security service or autonomous defense platform.",
+    "confidence": 0.72,
+    "rationale": "NebuSec is building autonomous AI defense infrastructure that detects and responds to cyber threats. Primary fit is agent-security-control-plane (zero-trust threat detection and autonomous response for multi-agent/multi-system environments). Secondary fit is agent-observability-evals (continuous security monitoring, threat evaluation, and red-teaming). The company's core value is elite hacker expertise (threat modeling, exploit knowledge) embedded into AI agents that operate autonomously. This is distinct from traditional SIEM or EDR because it's agentic (autonomous response) and built by world-class security researchers. Confidence is 0.72 because the description emphasizes 'auditing' and 'credibility signal' which could suggest a consulting/audit service, but the core claim is 'autonomous AI defense system' which maps to agent infrastructure for security.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Security"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "B2B",
+      "Security",
+      "Cybersecurity",
+      "Enterprise"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 4,
+    "location": "San Francisco, CA, USA; Remote",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1626290,
+        "full_name": "Eten Zou",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "CEO & Founder @ Nebula Security (YC S26). PhD in Cybersecurity.\nFocus on automated vulnerability research.",
+        "linkedin_url": "https://www.linkedin.com/in/xiaochen-zou-phd-29540b168",
+        "twitter_url": "https://x.com/etenal7",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fc7e2ece960fcf89182b71dd592e494106c00907.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAG3QLBHKW%2F20260914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260914T190034Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJGMEQCIDb9VKh0g4USvm8NDjUGzfz%2F3EzBcfR9bLZ8EPU0UNJjAiBxrG0ME9S0o3Nyhgo14w%2B2MkfBJopOj9rx8ErSqg791SruAwjs%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMSFVzuLUWnpeTe4iFKsID2Zfpx8FpudnBFBGkAU6AFTlmfVz9JtgtqYKpjniHTwqwPmeHdwtskb0EnKUEiMcd1wN5F3DeeoKxymI%2FpSaPWZv2APyr1vSDseD6HRKXJ9qYEKtY36HgNH6DdALYNaVW0BHTtAah0XRy8hJIEPhw%2Beqbi7cRf1qNlNH9y7uX6cKTBWeqcJrC%2BwdJsv26fDGWnw05i33wD2rLZWZkqbDKSABGKd5wOrxMxZ06jUhNVTf1F%2BZ69ojNwCnF%2B0pohdvf%2BR%2Fadr96JKkV8DCcYxz%2BS9i5nMD5s%2FNCRADvWWmhfffaaCfk8KVg24hvZpsoWEShMSGGhLbG9xCPmyGxh%2F8mnIMpNQ3JjcIIywgcH%2BFTZI4yyvE8AkX%2BYjO%2BrAaj%2FZgAbfEoclFYlQVBOOhzckqLXuJRzbI%2FfKpz6rU4%2BcGVmqdx1t%2Bb6K2YjA5GG3fO0SVjNk9vce%2B1Rx7rnj2lTMH54LcWAeFLShAh2puknxgLT0LROBP8kA6KcEasBJOO2x7AY6aIaCguKrY5z4gX3alif0ugt7k%2BOpfVRipWQAxYC6RvVS5und%2Fwf6%2B69W5W0AQR2Cazbs9hBmw98qYIAEoF84uLMNODodUGOqYBP%2BSzrEKRHZ3dom8T%2FNJkgXVay4frHui1fHLpcGQk3gWkxNvzR8AOc0Y4dBbRuVJTV3%2FodHNOnLh4oo5INKBo2KulixYX7e7d2qMoNGyx1jfV45O4roeeL7KoDHdqDYJyEtjvcaKqMI1Zb%2FbzIM1%2BdASwPt9rrJ5DcVTUKyhIsfHj%2BOWzFwRN1z7BeuJ%2BE57flmL5v8yBVXI6SgiE%2F3ji1h9EDDQTGQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c2b55eae859d00527c9ca20409201007a7945d472b2bf7601717485fc973bb74",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "NebuSec",
+          "href": "https://www.ycombinator.com/companies/nebusec"
+        }
+      },
+      {
+        "user_id": 3676420,
+        "full_name": "Yuan Tan",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Nebula Security (YC S26). Black Hat USA speaker. PhD dropout in System Security with experience in DARPA-funded fundamental research on program analysis.",
+        "linkedin_url": "https://www.linkedin.com/in/yuantan1/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/da759eb576807bd53522ad4e38bb45e06f4c0862.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAG3QLBHKW%2F20260914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260914T190034Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJGMEQCIDb9VKh0g4USvm8NDjUGzfz%2F3EzBcfR9bLZ8EPU0UNJjAiBxrG0ME9S0o3Nyhgo14w%2B2MkfBJopOj9rx8ErSqg791SruAwjs%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMSFVzuLUWnpeTe4iFKsID2Zfpx8FpudnBFBGkAU6AFTlmfVz9JtgtqYKpjniHTwqwPmeHdwtskb0EnKUEiMcd1wN5F3DeeoKxymI%2FpSaPWZv2APyr1vSDseD6HRKXJ9qYEKtY36HgNH6DdALYNaVW0BHTtAah0XRy8hJIEPhw%2Beqbi7cRf1qNlNH9y7uX6cKTBWeqcJrC%2BwdJsv26fDGWnw05i33wD2rLZWZkqbDKSABGKd5wOrxMxZ06jUhNVTf1F%2BZ69ojNwCnF%2B0pohdvf%2BR%2Fadr96JKkV8DCcYxz%2BS9i5nMD5s%2FNCRADvWWmhfffaaCfk8KVg24hvZpsoWEShMSGGhLbG9xCPmyGxh%2F8mnIMpNQ3JjcIIywgcH%2BFTZI4yyvE8AkX%2BYjO%2BrAaj%2FZgAbfEoclFYlQVBOOhzckqLXuJRzbI%2FfKpz6rU4%2BcGVmqdx1t%2Bb6K2YjA5GG3fO0SVjNk9vce%2B1Rx7rnj2lTMH54LcWAeFLShAh2puknxgLT0LROBP8kA6KcEasBJOO2x7AY6aIaCguKrY5z4gX3alif0ugt7k%2BOpfVRipWQAxYC6RvVS5und%2Fwf6%2B69W5W0AQR2Cazbs9hBmw98qYIAEoF84uLMNODodUGOqYBP%2BSzrEKRHZ3dom8T%2FNJkgXVay4frHui1fHLpcGQk3gWkxNvzR8AOc0Y4dBbRuVJTV3%2FodHNOnLh4oo5INKBo2KulixYX7e7d2qMoNGyx1jfV45O4roeeL7KoDHdqDYJyEtjvcaKqMI1Zb%2FbzIM1%2BdASwPt9rrJ5DcVTUKyhIsfHj%2BOWzFwRN1z7BeuJ%2BE57flmL5v8yBVXI6SgiE%2F3ji1h9EDDQTGQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=223184f22fe4b281983ac454b2f04de31ea37d6d309ac6ad69ba86479685869f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "NebuSec",
+          "href": "https://www.ycombinator.com/companies/nebusec"
+        }
+      },
+      {
+        "user_id": 3676409,
+        "full_name": "Frank Wu",
+        "title": "Founder/Security Research Lead",
+        "is_active": true,
+        "bio": "Founder of Nebula Security (YC S26). Black Hat USA speaker and DEF CON finalist with r3kapig, the world&#x27;s No. 1 hacking team in 2025. He led the DARPA AIxCC automated program repair team and shipped end-to-end RCE/LPE exploit chains on Chrome, Firefox, Linux, and Android. He pwned Google&#x27;s kernelCTF multiple times with zero-days, and has published research at top academic venues such as USENIX Security and NDSS. Ph.D. dropout.",
+        "linkedin_url": "https://www.linkedin.com/in/yifan-wu-cs",
+        "twitter_url": "https://x.com/FrankOverF1ow",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/54eba66a2435edef35054374d3e93dbb8d0af4ba.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAG3QLBHKW%2F20260914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260914T190034Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJGMEQCIDb9VKh0g4USvm8NDjUGzfz%2F3EzBcfR9bLZ8EPU0UNJjAiBxrG0ME9S0o3Nyhgo14w%2B2MkfBJopOj9rx8ErSqg791SruAwjs%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMSFVzuLUWnpeTe4iFKsID2Zfpx8FpudnBFBGkAU6AFTlmfVz9JtgtqYKpjniHTwqwPmeHdwtskb0EnKUEiMcd1wN5F3DeeoKxymI%2FpSaPWZv2APyr1vSDseD6HRKXJ9qYEKtY36HgNH6DdALYNaVW0BHTtAah0XRy8hJIEPhw%2Beqbi7cRf1qNlNH9y7uX6cKTBWeqcJrC%2BwdJsv26fDGWnw05i33wD2rLZWZkqbDKSABGKd5wOrxMxZ06jUhNVTf1F%2BZ69ojNwCnF%2B0pohdvf%2BR%2Fadr96JKkV8DCcYxz%2BS9i5nMD5s%2FNCRADvWWmhfffaaCfk8KVg24hvZpsoWEShMSGGhLbG9xCPmyGxh%2F8mnIMpNQ3JjcIIywgcH%2BFTZI4yyvE8AkX%2BYjO%2BrAaj%2FZgAbfEoclFYlQVBOOhzckqLXuJRzbI%2FfKpz6rU4%2BcGVmqdx1t%2Bb6K2YjA5GG3fO0SVjNk9vce%2B1Rx7rnj2lTMH54LcWAeFLShAh2puknxgLT0LROBP8kA6KcEasBJOO2x7AY6aIaCguKrY5z4gX3alif0ugt7k%2BOpfVRipWQAxYC6RvVS5und%2Fwf6%2B69W5W0AQR2Cazbs9hBmw98qYIAEoF84uLMNODodUGOqYBP%2BSzrEKRHZ3dom8T%2FNJkgXVay4frHui1fHLpcGQk3gWkxNvzR8AOc0Y4dBbRuVJTV3%2FodHNOnLh4oo5INKBo2KulixYX7e7d2qMoNGyx1jfV45O4roeeL7KoDHdqDYJyEtjvcaKqMI1Zb%2FbzIM1%2BdASwPt9rrJ5DcVTUKyhIsfHj%2BOWzFwRN1z7BeuJ%2BE57flmL5v8yBVXI6SgiE%2F3ji1h9EDDQTGQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7e92dcb259f854495d207b486dbffcf795c378b81df8c75c913b53f98300f8ca",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "NebuSec",
+          "href": "https://www.ycombinator.com/companies/nebusec"
+        }
+      },
+      {
+        "user_id": 3680004,
+        "full_name": "Xiaochuan Yu",
+        "title": "Founder/VP of Vulnerability Research",
+        "is_active": true,
+        "bio": "Founder at Nebula Security (YC S26). Hacked into iPhone, Chrome, Firefox, Safari, QEMU, and various things in your daily life. DEFCON finalist for 3 consecutive years. $200k+ Bug Bounty in Chrome. Core member of r3kapig, the #1 hacking team in the world in 2025, on CTFTime. M.S. from UC San Diego. Research published at USENIX Security, BlackHat USA. Ph.D. droped out. ",
+        "linkedin_url": "https://www.linkedin.com/in/xiaochuan-yu-3103a5297",
+        "twitter_url": "https://x.com/Nyaaaaa_ovo",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8c980e06818698012626c4e85e58e70351bf6003.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAG3QLBHKW%2F20260914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260914T190034Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJGMEQCIDb9VKh0g4USvm8NDjUGzfz%2F3EzBcfR9bLZ8EPU0UNJjAiBxrG0ME9S0o3Nyhgo14w%2B2MkfBJopOj9rx8ErSqg791SruAwjs%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMSFVzuLUWnpeTe4iFKsID2Zfpx8FpudnBFBGkAU6AFTlmfVz9JtgtqYKpjniHTwqwPmeHdwtskb0EnKUEiMcd1wN5F3DeeoKxymI%2FpSaPWZv2APyr1vSDseD6HRKXJ9qYEKtY36HgNH6DdALYNaVW0BHTtAah0XRy8hJIEPhw%2Beqbi7cRf1qNlNH9y7uX6cKTBWeqcJrC%2BwdJsv26fDGWnw05i33wD2rLZWZkqbDKSABGKd5wOrxMxZ06jUhNVTf1F%2BZ69ojNwCnF%2B0pohdvf%2BR%2Fadr96JKkV8DCcYxz%2BS9i5nMD5s%2FNCRADvWWmhfffaaCfk8KVg24hvZpsoWEShMSGGhLbG9xCPmyGxh%2F8mnIMpNQ3JjcIIywgcH%2BFTZI4yyvE8AkX%2BYjO%2BrAaj%2FZgAbfEoclFYlQVBOOhzckqLXuJRzbI%2FfKpz6rU4%2BcGVmqdx1t%2Bb6K2YjA5GG3fO0SVjNk9vce%2B1Rx7rnj2lTMH54LcWAeFLShAh2puknxgLT0LROBP8kA6KcEasBJOO2x7AY6aIaCguKrY5z4gX3alif0ugt7k%2BOpfVRipWQAxYC6RvVS5und%2Fwf6%2B69W5W0AQR2Cazbs9hBmw98qYIAEoF84uLMNODodUGOqYBP%2BSzrEKRHZ3dom8T%2FNJkgXVay4frHui1fHLpcGQk3gWkxNvzR8AOc0Y4dBbRuVJTV3%2FodHNOnLh4oo5INKBo2KulixYX7e7d2qMoNGyx1jfV45O4roeeL7KoDHdqDYJyEtjvcaKqMI1Zb%2FbzIM1%2BdASwPt9rrJ5DcVTUKyhIsfHj%2BOWzFwRN1z7BeuJ%2BE57flmL5v8yBVXI6SgiE%2F3ji1h9EDDQTGQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a543c4e337707bd741ffb40b98d4fc997c3befd335d592311347cfc2314065be",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "NebuSec",
+          "href": "https://www.ycombinator.com/companies/nebusec"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-14T19:00:44.390Z",
+    "classified_at": "2026-09-14T19:00:44.390Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "neoncoral",
     "name": "neoncoral",
     "website": "http://neoncoral.inc",
@@ -62742,6 +62922,102 @@
     }
   },
   {
+    "slug": "papaya",
+    "name": "Papaya",
+    "website": "https://papaya.fyi/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/papaya",
+    "batch": "Fall 2026",
+    "one_liner": "Continuous optimization for AI agents",
+    "description_combined": "Continuous optimization for AI agents\n\nPapaya is the optimization engine for AI agents. Engineers don&#x27;t have time to continually improve the agents they&#x27;ve shipped — the context bloat, overly chatty subagents, and broken tool calls sit in production traces nobody reads quietly hurting agent efficiency. With Papaya they connect their agent directly via SDK, get actionable recommendations on how to improve quality, latency, and cost, and the ones they approve are pushed to production as pull requests.\r\n\r\nPapaya runs 200+ research-backed analyses across context, prompts, prompt caching, subagents, and tool calls. Every recommendation is ranked by impact and comes with the production runs that produced it — typically a 10%+ quality improvement on the first workflow analysis.",
+    "industry_sub_vertical": "AI agent production optimization and performance analytics",
+    "canonical_vertical_id": "ai-infrastructure.agent-observability",
+    "vertical_id": "ai-infrastructure.agent-observability",
+    "vertical_label": "Agent observability & logging",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent observability, evals, or safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "agent_optimization",
+      "production_monitoring",
+      "automated_improvement"
+    ],
+    "what_they_sell": "SDK-integrated optimization engine that continuously analyzes production agent traces and delivers actionable, ranked recommendations for improving quality, latency, and cost. Approved recommendations are automatically deployed as pull requests.",
+    "ai_play": "Uses research-backed analyses (200+ optimization patterns) to automatically identify inefficiencies in agent context, prompts, caching, subagents, and tool calls. Converts observability data into continuous improvement loops without manual engineering effort.",
+    "who_pays": "Engineering teams and platform teams operating AI agents in production; buyers are DevOps, platform engineers, and AI infrastructure leads.",
+    "confidence": 0.82,
+    "rationale": "Papaya is primarily an agent observability and optimization product — it monitors production agent behavior, identifies quality/cost/latency issues, and recommends fixes. This maps cleanly to agent-observability-evals (tracing, benchmarks, production monitoring). Secondary phenotype model-optimization-rl captures the continuous improvement loop aspect (automated optimization from production signals). The product sits in the agent infrastructure stack, not as a vertical workflow agent or end-user product. High confidence because the core value is observability + automated optimization recommendations for agents already in production.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "AIOps",
+      "Artificial Intelligence",
+      "B2B",
+      "Enterprise Software",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2135001,
+        "full_name": "Macy Mody",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-Founder & CEO at Papaya (YC F26). Previously led GTM and Ops at SafeBase from $0-10M ARR and through its acquisition. Also built analytics products at HqO and managed investments for Amex Digital Labs. UMich undergrad and HBS MBA.",
+        "linkedin_url": "https://www.linkedin.com/in/macy-berg/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/570e127be1ea69af0971fe4c5f2a81e394bae22b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHBED2AM4%2F20260914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260914T190044Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJHMEUCIBeYFAbeQLbVXKXF91vmk%2BVYFTusuE1aNe%2FL9iQ2PYEKAiEA9P2f4PJfORGkPxPFZ9UIQ%2Fd38x%2FNdWPLEthKtZ37SnYq7gMI7P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDEgekYVWs3XijVdDPSrCA7btUNb7MRNRrUDWkwCDsriQEXIiEYPTU8vniKqTwOv6cbauyamj24QAHTVDNtskwqFRgyvsXnA%2FcVLoXNNDLirlwOdlhqeT4CXQXqgu0kGQsqL%2F%2FfMzlzVl%2Fz2ijAqm1a%2BSKHYzVrJhTVRP44brjolmIoERtx3MHINIR34kt6BXvDHLAr6KI2vj5sgFs67PS2QkhPpGtUe2W6rVfEh9%2BjAVMKNDQkOS2biZUD03kRKzORI5kpOoBBbDGnrSo0JUYlAAwy%2Bs6J2crH0WgtySu7RTPEltMbkfLRrXZYDEGiXgHoBdmw9K2Fq5QCexfZsd4OWJV3yivwY2Z5CSTSaOE%2FU%2B%2BcuH7lSX0vZWeqmwOp0FrGKZSuuT2WNWZkuVz2diIlNr1ZKIjRqqhTIDcSo5EqOnp9pCYZi3GVWhj18ZCD4ncdPsCZPJvbdk5Ssqd%2F8W7%2BGaYs9rEPmwBSgjXVnKZRdryGehkuH0RMrU3hxwQXMZqC8LiunjoZ4lafuulr74AVJxLuV1eOhV0jKSFu%2BPy5MJb7xiyuCR1Y9nx81tvSZVwSqbFh%2FE3i2fXOBy97ZgGT752kYvD48FjfAnFgbWGWwjkDDVg6HVBjqlAbvKkyljlQ187S%2BcFB5BHwz1DJuSK1piYZdkKnu8Jlc6T%2BWih123rgFyXTY5tzuxGitxsoRTv1AV7StYKHvYT2dFThRswaNa8l7zBIwat46XipW%2BL0HxQ8UgfEqeJkroeJYnOutVpCWRwX7blQbeNwNprSJZOadyk5gA2KXVzprZWlJlb4XdO53LgTUnSjIX1mw606hDdzuon3AV8pSHs07y4z8ZzQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=914662c990c2c0accda46e5d4653cfc0c5a3c48357fb2619483fcffab3ef9c4c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Papaya",
+          "href": "https://www.ycombinator.com/companies/papaya"
+        }
+      },
+      {
+        "user_id": 48440,
+        "full_name": "Niyaz Puzhikkunnath",
+        "title": "Founder/CPO",
+        "is_active": true,
+        "bio": "Founder at Papaya. Previously Sr. SDE at Amazon for several years building large-scale ML systems across Computer Vision, Classification, LLMs/Agents. Early engineer at Zovi.com (acquired by Myntra), where he built the front-end architecture and internal analytics as one of the first employees.",
+        "linkedin_url": "https://linkedin.com/in/niyazpk",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/104b41ff2bd7bbe701b32887f45470ba3e89badd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHBED2AM4%2F20260914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260914T190044Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJHMEUCIBeYFAbeQLbVXKXF91vmk%2BVYFTusuE1aNe%2FL9iQ2PYEKAiEA9P2f4PJfORGkPxPFZ9UIQ%2Fd38x%2FNdWPLEthKtZ37SnYq7gMI7P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDEgekYVWs3XijVdDPSrCA7btUNb7MRNRrUDWkwCDsriQEXIiEYPTU8vniKqTwOv6cbauyamj24QAHTVDNtskwqFRgyvsXnA%2FcVLoXNNDLirlwOdlhqeT4CXQXqgu0kGQsqL%2F%2FfMzlzVl%2Fz2ijAqm1a%2BSKHYzVrJhTVRP44brjolmIoERtx3MHINIR34kt6BXvDHLAr6KI2vj5sgFs67PS2QkhPpGtUe2W6rVfEh9%2BjAVMKNDQkOS2biZUD03kRKzORI5kpOoBBbDGnrSo0JUYlAAwy%2Bs6J2crH0WgtySu7RTPEltMbkfLRrXZYDEGiXgHoBdmw9K2Fq5QCexfZsd4OWJV3yivwY2Z5CSTSaOE%2FU%2B%2BcuH7lSX0vZWeqmwOp0FrGKZSuuT2WNWZkuVz2diIlNr1ZKIjRqqhTIDcSo5EqOnp9pCYZi3GVWhj18ZCD4ncdPsCZPJvbdk5Ssqd%2F8W7%2BGaYs9rEPmwBSgjXVnKZRdryGehkuH0RMrU3hxwQXMZqC8LiunjoZ4lafuulr74AVJxLuV1eOhV0jKSFu%2BPy5MJb7xiyuCR1Y9nx81tvSZVwSqbFh%2FE3i2fXOBy97ZgGT752kYvD48FjfAnFgbWGWwjkDDVg6HVBjqlAbvKkyljlQ187S%2BcFB5BHwz1DJuSK1piYZdkKnu8Jlc6T%2BWih123rgFyXTY5tzuxGitxsoRTv1AV7StYKHvYT2dFThRswaNa8l7zBIwat46XipW%2BL0HxQ8UgfEqeJkroeJYnOutVpCWRwX7blQbeNwNprSJZOadyk5gA2KXVzprZWlJlb4XdO53LgTUnSjIX1mw606hDdzuon3AV8pSHs07y4z8ZzQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9f68608b886b27f03114544b10f29baed7528ad687e2d05a2584ebabb1f4dacb",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Papaya",
+          "href": "https://www.ycombinator.com/companies/papaya"
+        }
+      },
+      {
+        "user_id": 3166801,
+        "full_name": "Faiz Vadakkumpadath",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Papaya (YC F26). Previously Senior Data Engineer at Amazon for 10 years, leading teams for the enterprise data lake. Earlier scaled Vodafone&#x27;s MPESA mobile money system in Africa from 25 to 200 tps at IBM. Co-founded OpenReporting, a SaaS financial reporting tool.",
+        "linkedin_url": "https://www.linkedin.com/in/vpfaiz",
+        "twitter_url": "https://x.com/vpfaiz",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cfa4f0888a12e8d75c59b3bd551968fc62ced0d5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHBED2AM4%2F20260914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260914T190044Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJHMEUCIBeYFAbeQLbVXKXF91vmk%2BVYFTusuE1aNe%2FL9iQ2PYEKAiEA9P2f4PJfORGkPxPFZ9UIQ%2Fd38x%2FNdWPLEthKtZ37SnYq7gMI7P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDEgekYVWs3XijVdDPSrCA7btUNb7MRNRrUDWkwCDsriQEXIiEYPTU8vniKqTwOv6cbauyamj24QAHTVDNtskwqFRgyvsXnA%2FcVLoXNNDLirlwOdlhqeT4CXQXqgu0kGQsqL%2F%2FfMzlzVl%2Fz2ijAqm1a%2BSKHYzVrJhTVRP44brjolmIoERtx3MHINIR34kt6BXvDHLAr6KI2vj5sgFs67PS2QkhPpGtUe2W6rVfEh9%2BjAVMKNDQkOS2biZUD03kRKzORI5kpOoBBbDGnrSo0JUYlAAwy%2Bs6J2crH0WgtySu7RTPEltMbkfLRrXZYDEGiXgHoBdmw9K2Fq5QCexfZsd4OWJV3yivwY2Z5CSTSaOE%2FU%2B%2BcuH7lSX0vZWeqmwOp0FrGKZSuuT2WNWZkuVz2diIlNr1ZKIjRqqhTIDcSo5EqOnp9pCYZi3GVWhj18ZCD4ncdPsCZPJvbdk5Ssqd%2F8W7%2BGaYs9rEPmwBSgjXVnKZRdryGehkuH0RMrU3hxwQXMZqC8LiunjoZ4lafuulr74AVJxLuV1eOhV0jKSFu%2BPy5MJb7xiyuCR1Y9nx81tvSZVwSqbFh%2FE3i2fXOBy97ZgGT752kYvD48FjfAnFgbWGWwjkDDVg6HVBjqlAbvKkyljlQ187S%2BcFB5BHwz1DJuSK1piYZdkKnu8Jlc6T%2BWih123rgFyXTY5tzuxGitxsoRTv1AV7StYKHvYT2dFThRswaNa8l7zBIwat46XipW%2BL0HxQ8UgfEqeJkroeJYnOutVpCWRwX7blQbeNwNprSJZOadyk5gA2KXVzprZWlJlb4XdO53LgTUnSjIX1mw606hDdzuon3AV8pSHs07y4z8ZzQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f74cc30b2af7047f169249151083df413db6696ebd371dcbef160c1954f49611",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Papaya",
+          "href": "https://www.ycombinator.com/companies/papaya"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-14T19:00:53.062Z",
+    "classified_at": "2026-09-14T19:00:53.062Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "paper-instruments",
     "name": "Paper Instruments",
     "website": "https://www.paperinstruments.com/",
@@ -69822,7 +70098,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/quotient-labs",
     "batch": "Winter 2026",
     "one_liner": "Use Claude Code at 47% less cost in one line of installation.",
-    "description_combined": "Use Claude Code at 47% less cost in one line of installation.\n\nQuotient Labs runs on top of Claude Code to reduce token spend, compress context, and optimize tool calls while preserving output quality, without changing how you work. Benchmarked 47% less cost on real, multi-step developer workflows, with no quality loss.",
+    "description_combined": "Use Claude Code at 47% less cost in one line of installation.\n\nQuotient Labs runs on top of Claude Code to reduce token spend, compress context, and optimize tool calls while preserving output quality, without changing how you work. Benchmarked 47% less cost on real, multi-step developer workflows, with no quality loss.\n\nWe cut your Claude Code costs by 47% in one line of install. Same models, same workflow, half the price.\n\nTLDR: Tokenmaxxing is out. Tokenminning is in. Quotient Labs sits on top of Claude Code and reduces the amount of context you pay for—without changing your models, prompts, projects, or workflow. Across real, multi-step developer workflows, we’ve benchmarked 47% lower token cost with no measured quality loss. Get started today at .\n\nThe Problem\n\nCoding agents accumulate a lot of context.\n\nEvery file read, search result, test run, tool output, generated plan, and conversation turn gets added to the session. As the session grows, this history is repeatedly re-read (and re-billed) long after it has stopped being useful in its original form. The result? You’re overpaying Claude for tokens your agent never needed.\n\nFermat’s Last Token (our main product) sits on top of Claude Code and optimizes ",
     "industry_sub_vertical": "LLM token spend optimization & cost management for Claude Code",
     "canonical_vertical_id": "devtools.cost-optimization",
     "vertical_id": "devtools.cost-optimization",
@@ -69890,7 +70166,13 @@
     ],
     "directory_synced_at": "2026-08-28T23:23:06.040Z",
     "classified_at": "2026-08-28T23:23:06.040Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 114944,
+    "launch_url": "https://www.ycombinator.com/launches/Ttw-quotient-labs-stop-overpaying-claude-for-tokens-you-don-t-need",
+    "launch_title": "Quotient Labs: Stop overpaying Claude for tokens you don't need",
+    "launch_created_at": "2026-09-14T15:33:54.262Z",
+    "launch_tagline": "We cut your Claude Code costs by 47% in one line of install. Same models, same workflow, half the price.",
+    "launch_evaluated_at": "2026-09-14T19:01:40.750Z"
   },
   {
     "slug": "radiusbrowser",
@@ -73999,6 +74281,86 @@
       "vertical_id": null,
       "industry_sub_vertical": "AI-native software holding company / portfolio automation"
     }
+  },
+  {
+    "slug": "roma",
+    "name": "Roma",
+    "website": "https://roma.app",
+    "yc_profile_url": "https://www.ycombinator.com/companies/roma",
+    "batch": "Fall 2026",
+    "one_liner": "The AI task app that gets to work for you.",
+    "description_combined": "The AI task app that gets to work for you.\n\nRoma is the task app where AI gets to work for you. Simply type or say anything - an idea, a thought, a bunch of different things you need to remember - and Roma starts the work from your pocket.\r\n\r\nIt&#x27;s connected to your calendar, your email, your files, so it knows what to do next before you even ask.",
+    "industry_sub_vertical": "AI-powered personal task capture and execution for individual consumers",
+    "canonical_vertical_id": "consumer.productivity.personal",
+    "vertical_id": "consumer.productivity.personal",
+    "vertical_label": "Personal productivity software",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "horizontal-copilot-saas",
+    "phenotype_primary_label": "Horizontal copilot / productivity SaaS",
+    "phenotype_family": "horizontal_saas",
+    "value_wedge": "productivity_multiplier",
+    "ai_application": "copilot_assistant",
+    "ai_application_patterns": [
+      "task_automation",
+      "context_retrieval",
+      "natural_language_task_parsing",
+      "calendar_email_integration"
+    ],
+    "what_they_sell": "Mobile-first AI task management app that converts natural language input (voice or text) into actionable tasks, integrated with calendar, email, and file systems.",
+    "ai_play": "AI agent understands user intent from freeform input, retrieves context from connected productivity tools (calendar, email, files), and autonomously executes or schedules tasks without explicit step-by-step instructions.",
+    "who_pays": "Individual consumers and prosumers seeking to offload task capture, prioritization, and execution to an AI assistant.",
+    "confidence": 0.78,
+    "rationale": "Roma is a consumer-facing productivity copilot that uses AI to understand intent from natural language and automate task management by integrating with existing productivity infrastructure. Primary phenotype is horizontal-copilot-saas (cross-industry, seat-based, productivity multiplier) because it targets broad consumer/prosumer use cases. Secondary phenotype consumer-ai-app acknowledges the direct-to-consumer distribution and subscription model. The AI play is context-aware task automation: Roma's differentiation is that it knows the user's calendar, email, and files, so it can infer what to do next without explicit instructions — this is agentic context retrieval + task execution, not just a writing or sales copilot. Confidence is 0.78 (not higher) because Roma could also be positioned as a consumer AI creation platform if it enables users to build custom workflows, but the description emphasizes task automation for the user, not user-created AI experiences.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [
+      "Consumer",
+      "Productivity",
+      "AI Assistant"
+    ],
+    "business_models": [
+      "BM-02"
+    ],
+    "team_size": 3,
+    "location": "",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 38750,
+        "full_name": "Tobias Eichenwald",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Currently Co-Founder of Milo (F26). Previously Co-Founder of Senic (YC S13), which we sold to GIRA. Programmer and designer. 3x Red Dot Award winner. Passionate long-distance runner. Love to sketch. https://www.tobiaseichenwald.com/",
+        "linkedin_url": "https://www.linkedin.com/in/tobias-eichenwald-86a8902a",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bb5d3313e0b9ed803777def82eef8ea4e09e10cc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALMZEQ7L4%2F20260914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260914T190104Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJHMEUCIBwWCfIV1iFL%2FmSbL7Mxo%2FB7iV6wlXvPImSX%2BaGvrGzpAiEA1lhc61XGlQ75SSSKQRo9U%2FxPhAB4HVQErUTXAfaVyb4q7gMI7P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDLT7c2UzemzVxpSCdSrCA9YyGR%2BcPYuz0H3E7gaCqrNlPpD09mgoOFLN5iYV%2F2De4fncljEx6Apd%2FzLpPdh5JDzC0pUiLpljR5T9w15YpMWMD3nJiC1Fm%2FhYDgf9nhNV5D%2FTHGfSvTrDYBDYXanjs5hnw8kY4bHUV67hYsrv0R%2FEjxEgurK49l7aj%2FJ7HkS4r5s71AElquBYWezzpKTjPSewqgmmIhmBc9xGpz8lF1EDbzO8ZFxo2BQw6t%2Fl4U30xRmhycaxJ84i3IqeIJp%2F1h9XMpASkH9SQif%2BrINrrUH2%2FEuJoiqBc1v8m8WSFMB3BE8jO1EyhvO3NGgSxdazWr49IY455H8djeqGkROQ6BgboImnCnEQGmik0iSEwq1aAMV%2Ba3q2AcpD2Zzo1K%2BSQd1f%2F4xwC6KUtrbZqZLUQjLGu38ESP4Umyb2xh20zIATNQ4wj6h5DJI01pKkIQUuJq8hPO15IHFWz5V4wmFXy4bWKamYC0IUveEYQghvxIG36s6cGUi45j5JoaukQ0OHtVVcY9KCi0JXPw3Tnwu010WI3JgmZpLNDNmMWkW2IsIshVD8LRUjx0vF2crsxrE%2BoFkrYYv8AS1%2BfsnafU31QKNuQzDVg6HVBjqlATBc6uSHmFZrJ2wV23Fwf4TAgeb91CgwqrwmDSJq1%2F42nxll3bmFF1QeEiX13GGnfLf62VL3chcboTM2Wktl8HfBUEf0ErXUPaognmPw6THcTa1Rxd1d6OFiCg4GCwfyx0T%2Bnc0zhp1i7kYGYn5n8N%2FzUCwQUOYt894rCN%2Bg8of3ckm5B0ch8QeK8aVXGO9jY6ZpELKtK8PHO%2FvlZp8mgrgfRjMGCw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=5a80c137a3079633fff57894ba4dedf2920e1604f37027e644b368eed92dfc82",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Roma",
+          "href": "https://www.ycombinator.com/companies/roma"
+        }
+      },
+      {
+        "user_id": 3699419,
+        "full_name": "Cody Osborne",
+        "title": "Founder/.",
+        "is_active": true,
+        "bio": "Building something new at YC (F26). Writer, director, and entrepreneur with nearly two decades of experience in brand marketing and creative. Previously agency creative at Goodby Silverstein & Partners and 72andSunny, in-house director at Dropbox, and co-founder of The Goondocks, an award-winning creative studio.",
+        "linkedin_url": "https://www.linkedin.com/in/a-cody-osborne-3845b54/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e549315d85d54fca6f69b31a030e491588d58a7d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALMZEQ7L4%2F20260914%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260914T190104Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECMaCXVzLXdlc3QtMiJHMEUCIBwWCfIV1iFL%2FmSbL7Mxo%2FB7iV6wlXvPImSX%2BaGvrGzpAiEA1lhc61XGlQ75SSSKQRo9U%2FxPhAB4HVQErUTXAfaVyb4q7gMI7P%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDLT7c2UzemzVxpSCdSrCA9YyGR%2BcPYuz0H3E7gaCqrNlPpD09mgoOFLN5iYV%2F2De4fncljEx6Apd%2FzLpPdh5JDzC0pUiLpljR5T9w15YpMWMD3nJiC1Fm%2FhYDgf9nhNV5D%2FTHGfSvTrDYBDYXanjs5hnw8kY4bHUV67hYsrv0R%2FEjxEgurK49l7aj%2FJ7HkS4r5s71AElquBYWezzpKTjPSewqgmmIhmBc9xGpz8lF1EDbzO8ZFxo2BQw6t%2Fl4U30xRmhycaxJ84i3IqeIJp%2F1h9XMpASkH9SQif%2BrINrrUH2%2FEuJoiqBc1v8m8WSFMB3BE8jO1EyhvO3NGgSxdazWr49IY455H8djeqGkROQ6BgboImnCnEQGmik0iSEwq1aAMV%2Ba3q2AcpD2Zzo1K%2BSQd1f%2F4xwC6KUtrbZqZLUQjLGu38ESP4Umyb2xh20zIATNQ4wj6h5DJI01pKkIQUuJq8hPO15IHFWz5V4wmFXy4bWKamYC0IUveEYQghvxIG36s6cGUi45j5JoaukQ0OHtVVcY9KCi0JXPw3Tnwu010WI3JgmZpLNDNmMWkW2IsIshVD8LRUjx0vF2crsxrE%2BoFkrYYv8AS1%2BfsnafU31QKNuQzDVg6HVBjqlATBc6uSHmFZrJ2wV23Fwf4TAgeb91CgwqrwmDSJq1%2F42nxll3bmFF1QeEiX13GGnfLf62VL3chcboTM2Wktl8HfBUEf0ErXUPaognmPw6THcTa1Rxd1d6OFiCg4GCwfyx0T%2Bnc0zhp1i7kYGYn5n8N%2FzUCwQUOYt894rCN%2Bg8of3ckm5B0ch8QeK8aVXGO9jY6ZpELKtK8PHO%2FvlZp8mgrgfRjMGCw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=10faf7e25751d4b92af41ef989e43f59279ef7231ea008cb77b7fd3984e46aa3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Roma",
+          "href": "https://www.ycombinator.com/companies/roma"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-14T19:01:12.413Z",
+    "classified_at": "2026-09-14T19:01:12.413Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "ronanrx-inc",

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-13T17:14:07.009Z",
+  "generated_at": "2026-09-14T19:01:41.674Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1448,
+    "assignment_count": 1452,
     "mapped_verticals": 244,
-    "observed_cells": 480,
+    "observed_cells": 481,
     "total_verticals": 525,
     "gap_candidates": 843
   },
@@ -313,6 +313,7 @@
         "fulcrum",
         "mirrors",
         "moda",
+        "papaya",
         "parachute",
         "playgent",
         "rubric-ai",
@@ -586,6 +587,28 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.defense.drones",
+      "vertical_label": "Defense drone & UAS operations",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "9-mothers-corporation",
+        "aice",
+        "albacore-inc",
+        "aviern",
+        "earendil-robotics",
+        "greypoint-industries",
+        "impact-drones",
+        "isengard-industries-inc",
+        "maquoketa-research",
+        "notus-autonomous-systems",
+        "ornadyne",
+        "seeing-systems",
+        "splash-inc"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "logistics.supply-chain.ops",
@@ -690,27 +713,6 @@
         "tandem-2",
         "tenor",
         "trope"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.defense.drones",
-      "vertical_label": "Defense drone & UAS operations",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "9-mothers-corporation",
-        "aice",
-        "albacore-inc",
-        "earendil-robotics",
-        "greypoint-industries",
-        "impact-drones",
-        "isengard-industries-inc",
-        "maquoketa-research",
-        "notus-autonomous-systems",
-        "ornadyne",
-        "seeing-systems",
-        "splash-inc"
       ]
     },
     {
@@ -1406,6 +1408,19 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "consumer.productivity.personal",
+      "vertical_label": "Personal productivity software",
+      "sector_id": "consumer",
+      "companies": [
+        "chiron",
+        "clad-labs",
+        "roma",
+        "willow"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "content.video-production",
@@ -1746,18 +1761,6 @@
         "axiom",
         "freeport-markets",
         "misprint"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "consumer.productivity.personal",
-      "vertical_label": "Personal productivity software",
-      "sector_id": "consumer",
-      "companies": [
-        "chiron",
-        "clad-labs",
-        "willow"
       ]
     },
     {
@@ -4148,6 +4151,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "crosslayer-labs"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "enterprise.security.cyber",
+      "vertical_label": "Enterprise cybersecurity operations",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "nebusec"
       ]
     },
     {

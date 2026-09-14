@@ -1,7 +1,78 @@
 {
-  "updated_at": "2026-09-13T17:14:05.226Z",
+  "updated_at": "2026-09-14T19:01:39.506Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 114944,
+      "company_slug": "quotient-labs",
+      "launch_url": "https://www.ycombinator.com/launches/Ttw-quotient-labs-stop-overpaying-claude-for-tokens-you-don-t-need",
+      "created_at": "2026-09-14T15:33:54.262Z",
+      "classification": {
+        "phenotype_primary_id": "edge-inference-runtime",
+        "vertical_id": "devtools.cost-optimization",
+        "business_models": [
+          "BM-03",
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-14T19:01:39.488Z",
+        "launch_id": 114944,
+        "company_slug": "quotient-labs",
+        "taxonomy": {
+          "conformance_index": 54,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 3,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "devtools.cost-optimization",
+            "phenotype_primary_id": "edge-inference-runtime",
+            "cell_key": "BM-03::devtools.cost-optimization::edge-inference-runtime",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Cloud resource optimization & cost management",
+            "phenotype_label": "Edge Inference Runtime & Optimization"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 66,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
     {
       "launch_id": 114670,
       "company_slug": "isengard-industries-inc",
