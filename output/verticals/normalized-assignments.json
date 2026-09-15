@@ -1723,6 +1723,76 @@
     "vertical_normalize_method": "assignment_explicit"
   },
   {
+    "slug": "agent-37",
+    "name": "Agent 37",
+    "website": "https://www.agent37.com/cloud",
+    "yc_profile_url": "https://www.ycombinator.com/companies/agent-37",
+    "batch": "Fall 2026",
+    "one_liner": "Persistent sandboxes for agents like hermes, openclaw, claude code",
+    "description_combined": "Persistent sandboxes for agents like hermes, openclaw, claude code\n\n* Ready to Use Instantly: Skip the complex server setup. It comes pre loaded with top AI Agents (like Claude Code and Hermes) so your agents can start working immediately.\r\n\r\n* Keep Your Work Safe: Unlike other systems that delete everything when they finish a task, these sandboxes remember your files, code, and settings forever until you delete them.\r\n\r\n* Pay Only for What You Use: Stop paying for idle servers. You pay a tiny fee to store your files, but you only pay for compute power during the exact minutes your AI is actively running.\r\n\r\n* Zero Infrastructure Headaches: You don’t need to be a senior DevOps engineer or manage complex cloud networks. One simple command handles the entire backend for you.\r\n\r\n* Connect to Any App: Allow your AI agents to securely log into and interact with everyday tools like Slack, Gmail, and GitHub in just a few clicks.",
+    "industry_sub_vertical": "Persistent sandbox environments for AI agent deployment and execution",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Harness / Orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_sandbox_runtime",
+      "persistent_execution_environment",
+      "tool_integration_routing",
+      "compute_cost_optimization"
+    ],
+    "what_they_sell": "Persistent, pre-configured sandbox environments for AI agents (Claude Code, Hermes, etc.) with built-in tool integrations (Slack, Gmail, GitHub), stateful file storage, and pay-per-compute pricing. Eliminates infrastructure setup friction for developers deploying agentic workflows.",
+    "ai_play": "Removes DevOps/infrastructure barriers to agent deployment by providing a managed runtime harness. Agents can persist state across sessions, access external tools via secure integrations, and execute reliably without developers managing servers or orchestration layers. Compute-efficient billing (pay only during active execution) reduces operational cost vs. always-on infrastructure.",
+    "who_pays": "AI/ML engineers, startup founders, and development teams building agentic applications who need fast, low-friction agent deployment without infrastructure expertise.",
+    "confidence": 0.82,
+    "rationale": "Agent 37 is a developer-facing infrastructure layer that provides runtime harness, sandboxing, tool routing (Slack, Gmail, GitHub integrations), and cost optimization for AI agents. This maps directly to agent-runtime-infra: 'Runtimes, sandboxes, auth layers, tool routing, reliability/cost optimization for agents.' The persistent storage (unlike ephemeral sandboxes) and pre-loaded agent support (Claude Code, Hermes) are core differentiators. Secondary consideration of agent-context-infra (data enrichment) is weaker—the focus is runtime/orchestration, not context preparation. Confidence 0.82 reflects strong fit to agent-runtime-infra phenotype.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "SaaS",
+      "B2B",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 0,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 316679,
+        "full_name": "VISHNU KRISHNAPRASAD",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Agent 37. Previously Senior Software Engineer at Amazon and Engineering Manager at Quantcast. Founded Real Voxel and Dota2Connect. Began career at ThoughtWorks, progressing from Application Developer to Senior Consultant. Master&#x27;s in Information Science Management from Carnegie Mellon University.",
+        "linkedin_url": "https://www.linkedin.com/in/vishnukrishnaprasad/",
+        "twitter_url": "https://x.com/an_engineer_log",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/af07909e3a573c596618d0c014a2af0d27690338.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJ3PQWBDE%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T175537Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJHMEUCIQCafCGKYRQhGsCM3IQZ4sV7r5tnNI%2BF30XJBJvJtZQZfwIgEI5vi0Xl2JcEYfhXmooG%2FjiExAQmitfShYcgADF1hngq5QMIAxAAGgwwMDYyMDE4MTEwNzIiDHy6TSBxlXb%2BfBP0wirCAwuW9pEDtvZ79at1rxLq0y4hWQ%2FLkMvXG9DDC0OFCDDnI381YSlNuTjN5fsYQZnSupZMUF5iTbv9ErRuDX6%2BLzoGljf%2Fmg0CfsxECdk1za90HZFTuCPTl%2BEDYOfsl3mfeCbQy9L616CeF6%2BGxzvrDz6pzc9Igwh6FLcdBQcvB5RaPwFpB%2BS%2Fb4VRRTtrmyhR14kmk1cCbjmyK7E8m2t78OJt8ZhgMKGwmQCbuF0z%2BdirjAYek7ib8P7zmLM9wacctZKvjjEqynhvxdPfR8t7pXhfe%2BYYnKaPYY5ammZEY3Dz8SnLcsKSc2CuNTNUmPJ0nXnc9Bs2ZKfHN%2BtL1zBxo1dvHXkhaXL9Vg3tp2Q9S6YKxu5PMKdG%2FVDiTNmkdCFTVMFPZJNucC32gH9R7A0a0UqxA1Eowm07jOCrS5lHs4c29Wl23FbjF0mC%2FWQ4osBbN0MKDHsCn5LMnBeEoEQ7Jq%2FVojV7jma2oatPj51dEmvKrSz33MYIa7%2FecC%2BfLUN87ViwaGD7ypI3hkYp3qHnOln7jsv7braUNPwmcscZyQREB7j0EB%2BfoYXgWfRHuhvcM7K9hHbVLMcCC1g0eLUiIlbBCTDfiqbVBjqlATypl8k5NaWideYh3IYHIyTOrraKH5BNwuf1HkjuEPJjDfzsLvfBGYXZw1CkO7u%2FqRaylltJ%2Bmhn9H0%2BSBBhNIuT8RDJfy2ZMbLcCQHygZgWXfNzxfARgZE84AY78pKZpzpRKzbV%2FX8j4wO1K%2B2Fo8hhSMd30eo9%2FKvS48aEe84E4cPR9TU1tfDLOP9a1zAMkIOPgangfkITFcIKEckgy0fkuo%2BnQg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=232a536c4abf53208f39c1df72686f45e30c6837a29a4102657e07e9e4a33cee",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Agent 37",
+          "href": "https://www.ycombinator.com/companies/agent-37"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-15T17:55:45.406Z",
+    "classified_at": "2026-09-15T17:55:45.406Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "agent-fm",
     "name": "Agent FM",
     "website": "https://www.agentfm.ai/",
@@ -5260,6 +5330,72 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-10"
+  },
+  {
+    "slug": "antinuous",
+    "name": "Antinuous",
+    "website": "https://www.antinuous.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/antinuous",
+    "batch": "Spring 2026",
+    "one_liner": "Autonomous research agents for R&D and education",
+    "description_combined": "Autonomous research agents for R&D and education\n\nAntinuous is building autonomous research agents to help people in research, development, discovery, and knowledge work do faster, more accurate research end to end without a human in the loop.\r\n\r\nWe believe humans should be able to ask a single question, and no matter how simple or complex, agents should look at the question, break it down, research the answer, test new ideas, simulate new environments, and repeat autonomously using as much or little compute as necessary elastically.",
+    "industry_sub_vertical": "Autonomous research agent infrastructure for R&D discovery workflows",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "ai-research-automation",
+    "phenotype_primary_label": "AI-native research labs",
+    "phenotype_family": "rd_tooling",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "autonomous_research_execution",
+      "hypothesis_testing_automation",
+      "multi_step_discovery_orchestration",
+      "simulation_environment_management"
+    ],
+    "what_they_sell": "Autonomous research agents that execute end-to-end R&D workflows without human intervention — breaking down research questions, conducting literature/data research, designing and running simulations/experiments, iterating on hypotheses, and synthesizing findings.",
+    "ai_play": "AI agents autonomously conduct primary research by orchestrating multi-step workflows (question decomposition, information retrieval, experimental design, simulation, iteration) that traditionally require human researchers. Agents elastically scale compute for simulation and testing, eliminating manual bottlenecks in discovery cycles.",
+    "who_pays": "Research institutions, biotech/pharma R&D teams, materials science labs, academic researchers, and enterprises with knowledge-intensive discovery workflows seeking to compress research timelines and reduce human researcher overhead.",
+    "confidence": 0.82,
+    "rationale": "Antinuous directly matches ai-research-automation: they deploy agentic AI to automate scientific research and discovery with minimal human intervention. The core value is autonomous execution of research workflows (hypothesis generation, testing, simulation, iteration) — not just assisting human researchers with tools. This is meta-level AI application (AI discovering insights or accelerating R&D) across research and education domains. Secondary consideration of vertical-workflow-agent was rejected because they are not selling software to enable researchers to do research faster; they ARE the autonomous research execution layer itself. Confidence is high (0.82) because the description explicitly emphasizes 'end to end without a human in the loop' and autonomous iteration, which is the defining characteristic of ai-research-automation.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1949529,
+        "full_name": "Ricardo Nunez",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Building Antinuous, the autonomous research platform",
+        "linkedin_url": "https://www.linkedin.com/in/ricardonunez-01/",
+        "twitter_url": "https://x.com/ricardo_nunez",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d6eaff66e537b191eaa0f53843f157926a732b98.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEIT65JBA%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T175516Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJHMEUCICAMmtH4mO%2FilKKQ6Z10GoshAjLYHg98ytMX7qCJpiPbAiEA0jG7tB0KcssrE4jtlxeiG5q1AztMJdx5999pcfs5AJ0q5QMIAxAAGgwwMDYyMDE4MTEwNzIiDONlkEGA2JnDyYEO8irCA%2Ba0wqy%2Bbj%2FMXQlfdC82T2oLb8aN0Svhy3t3qr2PlUcX%2FWPBner5TSK1byfyNyzaK7Kn25kM7sklNrNCb%2FeT%2Bv%2FhgcPfMwCsqFN3cPLBXhnU6tHlD0HrOQbKifhFRNI0DINaBKZR36vNfa0FkjmNdNQCXbwZbog3y0O20auMyj2%2FhuYwMRnObjPssRSmzwpR8bdyd4ILZisNF89l8P8m7Nsi9qhGVslJWZYzhaPH3UFXpw6NxKXimiRHfo8CREbkWGf54Egj%2BTtLDlP7gBRyGqN42PBGb4tH0VJWLCARrXGCm55FQEThSB96IKtFyoTez1pVky4VqUrTPUS9jKK1qSaRsZNi1n%2BAryS%2FVVjodOJcHW4UDnA%2BO2fYD1UrDFC7LbtaklX9qRJQxVrsfwUg32cAtglL61eJqNfQo9D3Uc2kLr70PDVvE0OLuSnEZlzU23EWENVwDIRSQ4a32wQxILJBTNArYrCe8sLyMitwbY4%2B31NYUuYlZ3USkVo%2BdhwFg%2Bkzzn1eGXv80%2Fa2bd%2F0t%2B9fpEKlnBZY0Zkac1yfbZQVRXyGhVZMCDN6l6yLKDc8pYrGJfQ2sxI5KoW3nHXkpfCPPjDfiqbVBjqlAQfJiCzIS5xPoHaPEXqDaZ%2BVbqTixl6uyBEyomMIrcXbloUaEGb2pxQyKxYTS9TDvRJyDhZjqtf%2F4WCOJ8pOcSnzRSM2uvqFXQJCfFgFXZBvM%2F4NRO7M3UuL02ZzMQ4v1ndQqKCj5r9nYIrmFGe9sARD0pZVtJpxeq7BwbwW%2FGECXKpQbxWAWBfwrdOxfrV6IyHZy1640ZsdR05fw5iyHdkNc6ztBg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4aa5a6fae5ea182a1ea0251a463b2436ff119307c6b1230d25c82138ca7cc665",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Antinuous",
+          "href": "https://www.ycombinator.com/companies/antinuous"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-15T17:55:26.068Z",
+    "classified_at": "2026-09-15T17:55:26.068Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
   },
   {
     "slug": "anto-biosciences",
@@ -39986,6 +40122,75 @@
     "launch_evaluated_at": "2026-08-19T14:30:58.475Z",
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "ignition-benefits",
+    "name": "Ignition Benefits",
+    "website": "https://www.ignitionbenefits.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/ignition-benefits",
+    "batch": "Fall 2026",
+    "one_liner": "The AI-Native Benefits Brokerage",
+    "description_combined": "The AI-Native Benefits Brokerage\n\nIgnition is an AI-native employee benefits brokerage for companies with under 200 employees. Health insurance is one of the largest line items these companies carry, and employers absorb 15 to 40% rate increases year after year without ever seeing their own numbers. We have rebuilt the sales and back office to be AI-first. This market represents about $500B of market cap, and those businesses have not fundamentally changed in over 50 years. While scaling Plated, I wore every HR hat from doing payroll myself, to managing a PEO, to eventually hiring an employee benefits broker on our way to 1,500 employees. We wasted over $4M on benefits over 5 years, and I&#x27;m building Ignition to help companies under 200 employees avoid making my mistakes.",
+    "industry_sub_vertical": "Employee benefits plan comparison & rate negotiation for SMBs",
+    "canonical_vertical_id": "insurance.quote-comparison",
+    "vertical_id": "insurance.quote-comparison",
+    "vertical_label": "Insurance quote generation & rate shopping",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_procurement_automation",
+      "benefits_optimization",
+      "cost_negotiation",
+      "policy_analysis"
+    ],
+    "what_they_sell": "AI-native benefits brokerage platform that automates employee benefits procurement, plan comparison, and renewal negotiation for SMBs (under 200 employees). Replaces traditional human brokers with autonomous agents that analyze company health data, model plan options, and negotiate rates with insurers.",
+    "ai_play": "AI agents replace manual broker work: parsing health claims data, comparing plan options across carriers, identifying cost-saving opportunities, and automating renewal negotiations. Agents learn company-specific utilization patterns and use that to drive better outcomes. Core value is reducing the 15-40% annual rate increases SMBs typically absorb by automating the diligence and negotiation work that traditional brokers do manually.",
+    "who_pays": "SMB employers (under 200 employees) paying for benefits administration and procurement; may also take commission/spread from insurers on negotiated rates.",
+    "confidence": 0.78,
+    "rationale": "Ignition is an end-user-facing SaaS product deployed to SMB employers to automate a vertical-specific workflow (benefits procurement and renewal). The AI agents replace human brokers by autonomously analyzing claims, comparing plans, and negotiating rates. This fits vertical-agentic-workflow-saas (0.78 confidence) because: (1) it's a SaaS product sold directly to end-users (employers), (2) agents execute the core job function (benefits brokerage), (3) it's vertical-specific (SMB benefits), and (4) switching cost is high (data lock-in, agent training on company health patterns). Secondary phenotype is ai-native-service-provider (0.65) because Ignition may also take contractual/financial responsibility for outcomes (rate negotiation, cost savings guarantees), blurring the line between software vendor and service provider. Primary phenotype is stronger because the go-to-market is SaaS subscription to employers, not outcome-based service fees.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Insurance"
+    ],
+    "yc_tags": [
+      "Health Insurance",
+      "Insurance",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 8,
+    "location": "Los Angeles, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 765651,
+        "full_name": "Nick Taranto",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Ignition Benefits. Previously founded Plated, the first American meal kit company (sold to Albertsons for $300M in 2017). Former US Marine Corps. MBA from Harvard; BA from Dartmouth. While scaling Plated, I wore every HR hat from doing payroll myself, to managing a PEO, to eventually hiring an employee benefits broker on our way to 1,500 employees. We wasted over $4M on benefits over 5 years, and I&#x27;m building Ignition to help companies under 200 employees avoid making my mistakes.",
+        "linkedin_url": "https://www.linkedin.com/in/nicktaranto/",
+        "twitter_url": "https://x.com/NickTaranto",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1209c5db63442d35b218d6481da25e2839987b74.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANMIEQKU7%2F20260915%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260915T175526Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDoaCXVzLXdlc3QtMiJFMEMCHxe0RbgJcj9QNfwVGtuq8t7ZAguOTSIU965OMVHVpG0CIArQCktdpttpinuc%2BELPqZxn4kT3FSDPrK8MWZ%2B970JmKuUDCAMQABoMMDA2MjAxODExMDcyIgwC35MxkvsxDYjiSV8qwgOhgHJKojytSnzS3%2Bq6n%2F%2BbWJZC6KOrd3rITt%2BM%2B5yEya1ByKpR2l5qSpPbIMqYX8b5bclw6gqVMQG1CCqEWyAS%2B5eBIVf1DvEP4j3qdGKWyT48kYvJkcgFJxqubMJ%2BuRDejGmwarI3z9MhZ3SljT0Qh5YSQqVwqI4a4RLAbbUOOrCNFK4m9s5JDNe0zWyhE7bPGjoPcmoU6us%2FZpN9H0sc6%2Bv4kIUijbNQukkq9T4YQMD912%2F%2BirFEKHIUe%2BkrUEyefgc33LDwd0xDY62PNzavgSnkXPBlbm%2Fdg9NOTOIRY%2FQDxTM3ORn354Qq8%2BVFDmd3OgLi%2BOc1yOxToSdrPldvHHrDLtHlIgblGojjJlB%2FQKVQen%2BpRcsok8lCgwPDPl5MFHdShm8KG0VCAYF6F5HaGD%2Bgkc5EPuRwTbeKM7vckgmqVKozjjf4jh5EIKVdSbDQ%2B6KFuptrahAj3Gn1Wbez3dxu1AaC%2Bdyn2%2BPDdv9QcU2FXYUiyqK9N%2Fp8a88Sz7MWUiozkBXn0W4GnfufQ6FIKXrNV3V7tgfhgWPbFA1iOC9JpUMW%2FAhW%2FdxMz4DI1L3cmVzwlPZsk5t%2BbNcMEe7ZZ%2Bkw4Iqm1QY6pwFbqTvVq4rqSptsjngwg0DEMoh5cykhEcYdNEkq2xnh5%2FDNs254WKviSI6XlWV%2BJOm50h%2Fn2NkiBOgWMqmLm1d84uDtQ14WX6cXrdgcgvPxzxn2CWwl27gVWfg0nROASlAzffxXWO1CenZqAkHuxp5KSyglAPwFU1UOCcrSzHNZcCVQwG3qWbO%2BTreHE6rq56TbEbqXUA9tCRC7UfZXHPYdAaJ18SExmg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b0a2a67a30d3cfebde619bff9923a5932b37249e9cbb3aac0a6e53830b231c28",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ignition Benefits",
+          "href": "https://www.ycombinator.com/companies/ignition-benefits"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-15T17:55:36.955Z",
+    "classified_at": "2026-09-15T17:55:36.955Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "illume-labs",

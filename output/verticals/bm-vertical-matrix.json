@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-14T19:01:41.674Z",
+  "generated_at": "2026-09-15T17:56:13.358Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1452,
+    "assignment_count": 1455,
     "mapped_verticals": 244,
     "observed_cells": 481,
     "total_verticals": 525,
@@ -20,6 +20,7 @@
       "sector_id": "ai-infrastructure",
       "companies": [
         "21st",
+        "agent-37",
         "agent-fm",
         "agentmail",
         "akon-labs",
@@ -1016,6 +1017,21 @@
       ]
     },
     {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "ai-infrastructure.training-data",
+      "vertical_label": "Training & eval data generation",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "antinuous",
+        "arcten",
+        "delineate",
+        "edotenv",
+        "gutgutgoose",
+        "monte"
+      ]
+    },
+    {
       "business_model": "BM-06",
       "business_model_label": "Data / intelligence product",
       "vertical_id": "ai-infrastructure.training-data",
@@ -1132,20 +1148,6 @@
         "parsewise",
         "surface-labs",
         "wildcard"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "ai-infrastructure.training-data",
-      "vertical_label": "Training & eval data generation",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "arcten",
-        "delineate",
-        "edotenv",
-        "gutgutgoose",
-        "monte"
       ]
     },
     {
@@ -2966,6 +2968,17 @@
       "companies": [
         "acolite",
         "fernstone"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "insurance.quote-comparison",
+      "vertical_label": "Insurance quote generation & rate shopping",
+      "sector_id": "financial-services",
+      "companies": [
+        "ignition-benefits",
+        "kinro"
       ]
     },
     {
@@ -4861,16 +4874,6 @@
       "sector_id": "financial-services",
       "companies": [
         "veltha"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "insurance.quote-comparison",
-      "vertical_label": "Insurance quote generation & rate shopping",
-      "sector_id": "financial-services",
-      "companies": [
-        "kinro"
       ]
     },
     {
