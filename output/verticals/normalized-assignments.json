@@ -34400,6 +34400,90 @@
     "primary_bm": "BM-09"
   },
   {
+    "slug": "gbrainio",
+    "name": "gbrain.io",
+    "website": "https://gbrain.io",
+    "yc_profile_url": "https://www.ycombinator.com/companies/gbrainio",
+    "batch": "Spring 2026",
+    "one_liner": "A personal or team assistant that works while you sleep",
+    "description_combined": "A personal or team assistant that works while you sleep\n\nLike ChatGPT or Claude, but it runs in the cloud, remembers everything you give it, and comes loaded with skills. Hand it a job tonight and read the answer in the morning. Use it on your own, or with your whole team.",
+    "industry_sub_vertical": "Asynchronous task automation & knowledge worker productivity",
+    "canonical_vertical_id": "enterprise.ops.process-automation",
+    "vertical_id": "enterprise.ops.knowledge",
+    "vertical_label": "Enterprise knowledge management",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "horizontal-copilot-saas",
+    "phenotype_primary_label": "Horizontal copilot / productivity SaaS",
+    "phenotype_family": "horizontal_saas",
+    "value_wedge": "productivity_multiplier",
+    "ai_application": "copilot_assistant",
+    "ai_application_patterns": [
+      "async_task_execution",
+      "persistent_context_memory",
+      "skill_composition",
+      "batch_processing"
+    ],
+    "what_they_sell": "Cloud-based AI assistant that executes long-running tasks asynchronously. Users submit jobs (research, analysis, writing, automation) and retrieve results later. Persists context across sessions, maintains team-shared memory, and bundles pre-built skills for common workflows.",
+    "ai_play": "Extends copilot model from synchronous chat to asynchronous batch execution. AI handles complex multi-step tasks without real-time user interaction, leveraging persistent memory and skill libraries to reduce manual prompting and context loss. Enables 'fire and forget' workflows that run overnight or in background.",
+    "who_pays": "Individual knowledge workers and small-to-medium teams seeking productivity gains; users who benefit from async execution (researchers, analysts, content creators, operations teams).",
+    "confidence": 0.72,
+    "rationale": "gbrain.io is a horizontal productivity tool (not vertical-specific) that augments human work across job functions. Core positioning is async AI assistant with persistent memory and skills — distinct from real-time copilots (Copilot, Claude) by execution model and team collaboration. Fits horizontal-copilot-saas archetype: cross-industry, seat-based, productivity multiplier. Secondary consideration: could map to agent-runtime-infra if emphasizing orchestration/skill routing, but primary value is end-user productivity, not infrastructure. Confidence 0.72 due to ambiguity around whether 'skills' imply custom workflow agents (vertical-workflow-agent) vs. pre-built productivity templates; description suggests latter.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Productivity"
+    ],
+    "yc_tags": [
+      "Workflow Automation",
+      "Automation",
+      "AI Assistant"
+    ],
+    "business_models": [
+      "BM-02"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1967,
+        "full_name": "Brad Gessler",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Cofounder & CEO Gbrain.io, P26. Cofounder & CTO of Poll Everywhere, S08. More at https://bradgessler.com/",
+        "linkedin_url": "https://www.linkedin.com/in/bradgessler/",
+        "twitter_url": "https://twitter.com/bradgessler",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8ed81cee17af9f19a6939a40140c4c7b3cb210d7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABPNOYWZ5%2F20260916%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260916T175649Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLXdlc3QtMiJHMEUCIQDEP9nBd7grePoD2ZYkN7JevZDVD%2Fx7dB2BD1xdyWPehQIgDo1GQg%2FAffkuGWEIUTXqEsx2E7oSffX7vumtZUgWx8Uq5QMIGxAAGgwwMDYyMDE4MTEwNzIiDDJgpg4ACtdZ0sIt9yrCA8ddQV18kNI3bNRCXqZesvm67H%2BFWUr2qWxTgud%2F38g99HTDLc%2FQVe9w2jZN7MtoDx7fqRJ8a3VWNH4%2Bg%2FUMoguj46PJBDnELBlrdbOHdW1Y3efbKkzRpk1XsKM8yXsSDuuQ5pn9%2FkV5db74HEq%2B8rpxeagEKLantE%2BQAKo9V8vOO41gN92mBGaYg2mqrQkZqvZYyrqPj9EjiItpRMu1MaDHiu%2BWL9OAkS%2Bc2jkTLNoQHQiOf5YznpHP2cycIOHbsEyzWMkKaopwLFsk98X69cZxgNuF68mS5Ic4QhWV56mAwnDPgTZD0hslkLe1Erx0od2GQHBlv%2BXEciX0MzeDiLfDBbibR4p7S3Z6CWC%2BW3VaxrjWVKMkkMkx43ShXnOm8U1sH%2FpWJ44Rz8c%2BZUZfAmvnP4iZTAdo8kwrjhDSvTsHEDrU%2B7CTpCsoDU9s%2B0FW2TKrrh%2BTpzPyknTJFAs2u50u3DDE8o6sMyuQ%2BvIWJ6MDWSwq0AUldjn04GQl3Hwd5oFy8T5%2Fqnlujc1u4Dvpvv4gDY1TonpWKchuPVOgwIbG7gAdoYXIJKXdr8R5%2BPQL87Q7gpZX2mUu0lsev7leTse0GDDmrKvVBjqlAUb6rW0mops0Ud8cbKUbxW1QcenGNz72xl6lRuOzWeVp%2B728gTwOupRg8Na5%2F2FGndL2yveXT88OtU%2F96a%2BzhkF06ka3wH03uM%2BwgrdOdEX5xxzM5KC3X0ZgkhBaJZlwIUQyWMdEuGAPD1BglNpXjW7NkvpAYIuc5VjF%2Ff2bQ6kxMSlMvkl27kKuLnUHK2QMd38NoaEMRQH2KOg4wFcbrfZaC3cnog%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=0fd1f319424e9d0d7262a4ef231e23952fd75d50ced261bb1207fdb25989f31e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "gbrain.io",
+          "href": "https://www.ycombinator.com/companies/gbrainio"
+        }
+      },
+      {
+        "user_id": 1432803,
+        "full_name": "Jamison Mercurio",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder at Gbrain.io (P26). Previously co-founder and CEO of Mango Health (YC W24, AI mental health). Former Meta iOS and web engineer (Messenger Video Chat + Facebook News). Princeton CS Class of 2020.",
+        "linkedin_url": "https://linkedin.com/in/jamison-mercurio",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a1e44f6d608ba967b54443148f9451fee30087c2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABPNOYWZ5%2F20260916%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260916T175649Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFIaCXVzLXdlc3QtMiJHMEUCIQDEP9nBd7grePoD2ZYkN7JevZDVD%2Fx7dB2BD1xdyWPehQIgDo1GQg%2FAffkuGWEIUTXqEsx2E7oSffX7vumtZUgWx8Uq5QMIGxAAGgwwMDYyMDE4MTEwNzIiDDJgpg4ACtdZ0sIt9yrCA8ddQV18kNI3bNRCXqZesvm67H%2BFWUr2qWxTgud%2F38g99HTDLc%2FQVe9w2jZN7MtoDx7fqRJ8a3VWNH4%2Bg%2FUMoguj46PJBDnELBlrdbOHdW1Y3efbKkzRpk1XsKM8yXsSDuuQ5pn9%2FkV5db74HEq%2B8rpxeagEKLantE%2BQAKo9V8vOO41gN92mBGaYg2mqrQkZqvZYyrqPj9EjiItpRMu1MaDHiu%2BWL9OAkS%2Bc2jkTLNoQHQiOf5YznpHP2cycIOHbsEyzWMkKaopwLFsk98X69cZxgNuF68mS5Ic4QhWV56mAwnDPgTZD0hslkLe1Erx0od2GQHBlv%2BXEciX0MzeDiLfDBbibR4p7S3Z6CWC%2BW3VaxrjWVKMkkMkx43ShXnOm8U1sH%2FpWJ44Rz8c%2BZUZfAmvnP4iZTAdo8kwrjhDSvTsHEDrU%2B7CTpCsoDU9s%2B0FW2TKrrh%2BTpzPyknTJFAs2u50u3DDE8o6sMyuQ%2BvIWJ6MDWSwq0AUldjn04GQl3Hwd5oFy8T5%2Fqnlujc1u4Dvpvv4gDY1TonpWKchuPVOgwIbG7gAdoYXIJKXdr8R5%2BPQL87Q7gpZX2mUu0lsev7leTse0GDDmrKvVBjqlAUb6rW0mops0Ud8cbKUbxW1QcenGNz72xl6lRuOzWeVp%2B728gTwOupRg8Na5%2F2FGndL2yveXT88OtU%2F96a%2BzhkF06ka3wH03uM%2BwgrdOdEX5xxzM5KC3X0ZgkhBaJZlwIUQyWMdEuGAPD1BglNpXjW7NkvpAYIuc5VjF%2Ff2bQ6kxMSlMvkl27kKuLnUHK2QMd38NoaEMRQH2KOg4wFcbrfZaC3cnog%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6793ecf044ebbaecc91e1911f053d2d677fabe2f01a84295234f2dee060649b7",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "gbrain.io",
+          "href": "https://www.ycombinator.com/companies/gbrainio"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-16T17:56:59.367Z",
+    "classified_at": "2026-09-16T17:56:59.367Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 0.55,
+    "vertical_normalize_method": "yc_subindustry_default",
+    "primary_bm": "BM-02"
+  },
+  {
     "slug": "general-aviation",
     "name": "General Aviation",
     "website": "https://generalaviation.com",
@@ -64461,6 +64545,58 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "paceline-bio",
+    "name": "Paceline Bio",
+    "website": "https://paceline.bio/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/paceline-bio",
+    "batch": "Fall 2025",
+    "one_liner": "Accelerating clinical ops for biotech & pharma",
+    "description_combined": "Accelerating clinical ops for biotech & pharma\n\nPaceline Bio runs the research and clinical ops layer behind biotech and pharma company who want to move fast, starting with biospecimen collection, logistics, and storage. We&#x27;re built to get you from scope to signature in just one session so you can accelerate your programs today.",
+    "industry_sub_vertical": "Biotech & pharma clinical operations automation for biospecimen logistics and trial initiation",
+    "canonical_vertical_id": "healthcare.pharma.clinical-dev",
+    "vertical_id": "healthcare.pharma.clinical-dev",
+    "vertical_label": "Biopharma clinical development & regulatory",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "biotech-rd-agent",
+    "phenotype_primary_label": "Biotech / clinical R&D acceleration",
+    "phenotype_family": "life_sciences",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "workflow_automation",
+      "logistics_optimization",
+      "clinical_ops_coordination"
+    ],
+    "what_they_sell": "AI-powered clinical operations platform that automates biospecimen collection, logistics, storage, and compliance workflows for biotech and pharma companies. Reduces time from project scope to execution signature through autonomous coordination of multi-party clinical workflows.",
+    "ai_play": "AI agents orchestrate end-to-end biospecimen workflows (collection protocols, cold-chain logistics, regulatory compliance, storage management) that typically require manual coordination across multiple vendors and regulatory checkpoints. Agents handle document processing, compliance verification, and logistics routing to compress timelines from weeks to single sessions.",
+    "who_pays": "Biotech and pharma R&D operations teams, clinical trial sponsors, and program managers seeking to accelerate trial initiation and reduce operational friction.",
+    "confidence": 0.78,
+    "rationale": "Paceline Bio fits biotech-rd-agent phenotype: they accelerate clinical R&D workflows using AI to automate complex, multi-party biospecimen and logistics operations. The core value is reducing time-to-execution in regulated biotech workflows. Secondary consideration: could map to vertical-workflow-agent if positioned as 'clinical ops software sold to biotech', but the description emphasizes 'running the ops layer' and acceleration of internal R&D processes, suggesting they are closer to an operational service/platform than a pure software tool. Confidence 0.78 reflects strong fit to biotech R&D acceleration but some ambiguity about whether they are a service provider (ai-native-service-provider) vs. SaaS platform — description suggests SaaS/platform model ('built to get you from scope to signature').",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [
+      "AI-powered Drug Discovery",
+      "Biotech",
+      "Drug discovery",
+      "Biotechnology"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 3,
+    "location": "Boulder, CO, USA",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-09-16T17:56:49.021Z",
+    "classified_at": "2026-09-16T17:56:49.021Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
   },
   {
     "slug": "pacific",
