@@ -1,17 +1,280 @@
 {
-  "checked_at": "2026-09-16T17:57:28.364Z",
+  "checked_at": "2026-09-17T17:57:20.364Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 0,
-  "new_count": 0,
-  "skipped_count": 930,
-  "ingest": null,
+  "checked_count": 4,
+  "new_count": 4,
+  "skipped_count": 926,
+  "ingest": {
+    "addedCompanies": 1,
+    "enrichedCompanies": 3
+  },
   "summary": {
-    "conforming": 0,
-    "partial": 0,
+    "conforming": 2,
+    "partial": 2,
     "non_conforming": 0,
-    "would_have_predicted": 0,
-    "surprise": 0,
+    "would_have_predicted": 3,
+    "surprise": 1,
     "predicted": 0
   },
-  "reviews": []
+  "reviews": [
+    {
+      "launch": {
+        "launch_id": 115844,
+        "company_slug": "anana",
+        "company_name": "Anana",
+        "launch_url": "https://www.ycombinator.com/launches/U8S-anana-ai-workspace-for-hospitality-commercial-teams",
+        "created_at": "2026-09-17T17:08:38.633Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-17T17:57:10.661Z",
+        "launch_id": 115844,
+        "company_slug": "anana",
+        "taxonomy": {
+          "conformance_index": 50,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 38,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.ops.process-automation",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.ops.process-automation::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Cross-industry process automation",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 67,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 115774,
+        "company_slug": "nanograb",
+        "company_name": "Nanograb",
+        "launch_url": "https://www.ycombinator.com/launches/U7K-nanograb-deliver-mrna-to-any-cell-with-ai",
+        "created_at": "2026-09-17T15:45:22.879Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-17T17:57:19.468Z",
+        "launch_id": 115774,
+        "company_slug": "nanograb",
+        "taxonomy": {
+          "conformance_index": 56,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 5,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-09",
+            "vertical_id": "healthcare.pharma.drug-discovery",
+            "phenotype_primary_id": "biotech-rd-agent",
+            "cell_key": "BM-09::healthcare.pharma.drug-discovery::biotech-rd-agent",
+            "business_model_label": "Biotech / R&D platform",
+            "vertical_label": "Drug discovery & delivery R&D",
+            "phenotype_label": "Biotech / clinical R&D acceleration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 115741,
+        "company_slug": "conviction",
+        "company_name": "Conviction",
+        "launch_url": "https://www.ycombinator.com/launches/U6n-conviction-trading-desk-in-your-pocket",
+        "created_at": "2026-09-16T23:25:03.321Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-17T17:57:19.469Z",
+        "launch_id": 115741,
+        "company_slug": "conviction",
+        "taxonomy": {
+          "conformance_index": 74,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "consumer.finance.investment-advisory",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::consumer.finance.investment-advisory::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Robo-advisory & automated investment management",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 115486,
+        "company_slug": "papaya",
+        "company_name": "Papaya",
+        "launch_url": "https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents",
+        "created_at": "2026-09-16T18:04:02.706Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-17T17:57:19.470Z",
+        "launch_id": 115486,
+        "company_slug": "papaya",
+        "taxonomy": {
+          "conformance_index": 77,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-observability",
+            "phenotype_primary_id": "agent-observability-evals",
+            "cell_key": "BM-03::ai-infrastructure.agent-observability::agent-observability-evals",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent observability & logging",
+            "phenotype_label": "Agent observability, evals, or safety"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    }
+  ]
 }

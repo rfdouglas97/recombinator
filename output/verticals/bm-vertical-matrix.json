@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-16T17:57:29.180Z",
+  "generated_at": "2026-09-17T17:57:20.849Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1457,
+    "assignment_count": 1466,
     "mapped_verticals": 244,
-    "observed_cells": 481,
+    "observed_cells": 482,
     "total_verticals": 525,
     "gap_candidates": 843
   },
@@ -30,6 +30,7 @@
         "ardent",
         "ascii",
         "blaxel",
+        "boat",
         "bud",
         "butter",
         "cascade",
@@ -43,6 +44,7 @@
         "daridev",
         "dedalus-labs",
         "deepgrove",
+        "dexto",
         "dialogus",
         "epsilla",
         "executor",
@@ -436,7 +438,9 @@
         "gamgee",
         "halmos-labs",
         "infera",
+        "nanograb",
         "novaflow",
+        "nxtcure-labs",
         "origin-bio",
         "rasyn",
         "strand-ai",
@@ -544,6 +548,29 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "logistics.supply-chain.ops",
+      "vertical_label": "Supply chain & procurement operations",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "bizmark",
+        "comena",
+        "haladir",
+        "kanava-ai",
+        "khotan",
+        "korso",
+        "lark-2",
+        "lumari",
+        "pollinate",
+        "qomplement",
+        "salespatriot",
+        "spaceflow-technologies-inc",
+        "waybill",
+        "whitespace"
+      ]
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.devtools.productivity",
@@ -607,28 +634,6 @@
         "ornadyne",
         "seeing-systems",
         "splash-inc"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "logistics.supply-chain.ops",
-      "vertical_label": "Supply chain & procurement operations",
-      "sector_id": "transportation-logistics",
-      "companies": [
-        "bizmark",
-        "comena",
-        "haladir",
-        "kanava-ai",
-        "khotan",
-        "korso",
-        "lumari",
-        "pollinate",
-        "qomplement",
-        "salespatriot",
-        "spaceflow-technologies-inc",
-        "waybill",
-        "whitespace"
       ]
     },
     {
@@ -758,6 +763,26 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "fintech.wealth.asset-management",
+      "vertical_label": "Asset & wealth management",
+      "sector_id": "financial-services",
+      "companies": [
+        "autonomous-technologies-group",
+        "ekpa",
+        "finbar",
+        "kelai",
+        "kimpton",
+        "kimpton-ai",
+        "maywood",
+        "oasive",
+        "powder",
+        "savahq",
+        "wealor"
+      ]
+    },
+    {
       "business_model": "BM-12",
       "business_model_label": "Open source + commercial",
       "vertical_id": "enterprise.devtools.productivity",
@@ -793,25 +818,6 @@
         "saffron",
         "skillsync",
         "spott"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "fintech.wealth.asset-management",
-      "vertical_label": "Asset & wealth management",
-      "sector_id": "financial-services",
-      "companies": [
-        "autonomous-technologies-group",
-        "ekpa",
-        "finbar",
-        "kelai",
-        "kimpton",
-        "kimpton-ai",
-        "maywood",
-        "powder",
-        "savahq",
-        "wealor"
       ]
     },
     {
@@ -1140,6 +1146,21 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "security.compliance-automation",
+      "vertical_label": "Compliance automation & evidence collection",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "archon",
+        "complydo",
+        "hickory-and-company",
+        "logosguard",
+        "panoptive",
+        "probo"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.agent-context-web",
       "vertical_label": "Agent web context & data enrichment",
       "sector_id": "ai-infrastructure",
@@ -1317,20 +1338,6 @@
         "third-chair",
         "vector-legal",
         "withasync"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "security.compliance-automation",
-      "vertical_label": "Compliance automation & evidence collection",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "archon",
-        "complydo",
-        "logosguard",
-        "panoptive",
-        "probo"
       ]
     },
     {
@@ -2089,6 +2096,18 @@
         "asimov",
         "praxis-robotics",
         "vision-lab"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "insurance.quote-comparison",
+      "vertical_label": "Insurance quote generation & rate shopping",
+      "sector_id": "financial-services",
+      "companies": [
+        "copycat-ai",
+        "ignition-benefits",
+        "kinro"
       ]
     },
     {
@@ -2975,17 +2994,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "insurance.quote-comparison",
-      "vertical_label": "Insurance quote generation & rate shopping",
-      "sector_id": "financial-services",
-      "companies": [
-        "ignition-benefits",
-        "kinro"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "manufacturing.quality-compliance",
       "vertical_label": "Quality control & regulatory compliance",
       "sector_id": "industrials-defense",
@@ -3776,6 +3784,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "nimbic-ai"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "devtools.documentation-generation",
+      "vertical_label": "Technical documentation & API docs automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "peritai"
       ]
     },
     {

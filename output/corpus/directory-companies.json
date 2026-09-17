@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-16T17:56:39.312Z",
+  "synced_at": "2026-09-17T17:55:27.335Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1305,
+  "company_count": 1310,
   "companies": [
     {
       "slug": "10x",
@@ -25,7 +25,7 @@
         "Healthcare"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1736138044
@@ -1811,26 +1811,6 @@
       "launched_at": 1788189674
     },
     {
-      "slug": "ascii",
-      "name": "Ascii",
-      "batch": "Fall 2026",
-      "one_liner": "The best cloud VMs for billions of agents",
-      "long_description": "**Problem**\r\n\r\nHumans used to need laptops to do their work. Now they prompt agents instead, and those agents need computers too: always-on, in large quantities, and with unlimited capabilities. \r\n\r\nBuilding and maintaining that yourself is far from trivial.\r\n\r\n**Solution**\r\n\r\nBox provides powerful, simple, permissive Ubuntu VMs in the cloud. In a box, an agent can work for long periods on code or on knowledge work like legal, research, reporting, and auditing.\r\n\r\n**Why Box and not any other cloud VM?**\r\n\r\n1. It is ready out of the box: every box ships with a desktop, chrome, languages, docker, snapshots, and templates, plus a CLI, SDK, API, and control pane for your fleet.\r\n2. It is permissive and paradigm agnostic: any number of agents can use any number of boxes. Agents can run inside or use boxes as an external tool.\r\n3. It is expertly crafted: we manage everything from the individual CPU to the orchestration software, which makes boxes stable, persistent, scalable, and secure.\r\n4. It is the best performance and price in town: our CPUs rank first on HPC benchmarks, and boxes are typically 9x to 18x cheaper than other leading sandboxes.\r\n\r\n**Further notes**\r\n\r\nBoxes are hosted in Europe, which keeps prices low, and more regions are coming. Unless compliance requires it, agents don't notice the region they run in.",
-      "website": "https://box.ascii.dev",
-      "industries": [
-        "B2B",
-        "Infrastructure"
-      ],
-      "tags": [
-        "Developer Tools",
-        "Cloud Computing"
-      ],
-      "team_size": 3,
-      "location": "Paris, Île-de-France, France; Remote",
-      "status": "Active",
-      "launched_at": 1788174016
-    },
-    {
       "slug": "asendia-ai",
       "name": "Asendia AI",
       "batch": "Spring 2026",
@@ -2563,7 +2543,7 @@
         "Reinforcement Learning"
       ],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1746601065
     },
@@ -3365,6 +3345,26 @@
       "launched_at": 1758933765
     },
     {
+      "slug": "boat",
+      "name": "Boat",
+      "batch": "Fall 2026",
+      "one_liner": "The best cloud VMs for billions of agents",
+      "long_description": "**Problem**\r\n\r\nHumans used to need laptops to do their work. Now they prompt agents instead, and those agents need computers too: always-on, in large quantities, and with unlimited capabilities. \r\n\r\nBuilding and maintaining that yourself is far from trivial.\r\n\r\n**Solution**\r\n\r\nBoat provides powerful, simple, permissive Ubuntu VMs in the cloud. In a sandbox, an agent can work for long periods on code or on knowledge work like legal, research, reporting, and auditing.\r\n\r\n**Why Boat and not any other cloud VM?**\r\n\r\n1. It is ready out of the box: every sandbox ships with a desktop, chrome, languages, docker, snapshots, and templates, plus a CLI, SDK, API, and control pane for your fleet.\r\n2. It is permissive and paradigm agnostic: any number of agents can use any number of sandboxes. Agents can run inside or use sandboxes as an external tool.\r\n3. It is expertly crafted: we manage everything from the individual CPU to the orchestration software, which makes sandboxes stable, persistent, scalable, and secure.\r\n4. It is the best performance and price in town: our CPUs rank first on HPC benchmarks, and sandboxes are typically 9x to 18x cheaper than other leading sandboxes.\r\n\r\n**Further notes**\r\n\r\nSandboxes are hosted in Europe, which keeps prices low, and more regions are coming. Unless compliance requires it, agents don't notice the region they run in.",
+      "website": "https://boat.dev",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Developer Tools",
+        "Cloud Computing"
+      ],
+      "team_size": 3,
+      "location": "Paris, Île-de-France, France; Remote",
+      "status": "Active",
+      "launched_at": 1788174016
+    },
+    {
       "slug": "bolna-ai",
       "name": "Bolna AI",
       "batch": "Fall 2025",
@@ -3846,8 +3846,8 @@
       "slug": "cactus-compute",
       "name": "Cactus Compute",
       "batch": "Summer 2025",
-      "one_liner": "Tiny Edge AI For Tiny Devices",
-      "long_description": "On-device AI for phones, wearables, smart home, robots and small robots:\r\n- Cactus Needle: 14MB agentic LLM for tiny devices\r\n- Cactus Engine: fastest runtime for tiny devices\r\n- Cactus Hybrid: post-trained models fall back to cloud",
+      "one_liner": "Automation Foundation Models For Tiny Devices",
+      "long_description": "On-device AI for phones, wearables, smart home, robots and small robots: \r\n- 2bit\r\n- 8-29MB\r\n- up to 4k tokens/sec decode speed",
       "website": "https://www.cactuscompute.com/",
       "industries": [
         "B2B",
@@ -5537,18 +5537,18 @@
       "name": "Context.dev",
       "batch": "Summer 2026",
       "one_liner": "We give AI agents realtime web context via API",
-      "long_description": "Context.dev gives AI agents structured data from any website through a single API.\r\n\r\nWe help developers build smarter agents & products that depend on accurate, fresh web data.\r\n\r\nIf you need structured data from the internet, you need Context.dev\r\n\r\nProud to power agentic products at Mintlify, Super, Vizzy, Klarna, and 400+ other companies. ",
+      "long_description": "Context.dev gives AI agents structured data from any website through a single API.\r\n\r\nWe help developers build smarter agents & products that depend on accurate, fresh web data.\r\n\r\nIf you need structured data from the internet, you need Context.dev\r\n\r\nProud to power agentic products at Mintlify, Super, Vizzy, Klarna, and 600+ other companies. ",
       "website": "https://context.dev",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
+        "Artificial Intelligence",
         "B2B",
-        "AI",
         "APIs"
       ],
-      "team_size": 1,
+      "team_size": 6,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1780323126
@@ -5670,19 +5670,19 @@
       "launched_at": 1768253497
     },
     {
-      "slug": "copycat",
-      "name": "CopyCat",
+      "slug": "copycat-ai",
+      "name": "CopyCat AI",
       "batch": "Winter 2025",
-      "one_liner": "AI agents built for insurance brokers",
-      "long_description": "CopyCat builds AI for commercial insurance brokers. It turns carrier quotes and policy documents into branded proposals, quote comparisons, and coverage reviews, and helps teams check policies and review insurance contracts, flagging discrepancies and documenting findings with source references. ",
+      "one_liner": "AI for Commercial Insurance Agencies",
+      "long_description": "CopyCat builds AI for commercial, personal & benefits insurance brokers. It turns carrier quotes and policy documents into branded proposals, quote comparisons, and coverage reviews, and helps teams check policies and review insurance contracts, flagging discrepancies and documenting findings with source references. ",
       "website": "https://runcopycat.com",
       "industries": [
         "Fintech",
         "Insurance"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Insurance"
+        "Insurance",
+        "AI"
       ],
       "team_size": 2,
       "location": "Seattle, WA, USA",
@@ -6625,6 +6625,29 @@
       "launched_at": 1771920641
     },
     {
+      "slug": "dexto",
+      "name": "Dexto",
+      "batch": "Winter 2025",
+      "one_liner": "AWS for AI Agents",
+      "long_description": "Dexto makes it easy for developers to integrate AI agents into any software application. We do this by exposing agents as simple APIs that can be called from anywhere. Developers have used Dexto to add customer support agents into WhatsApp and analytics agents into Slack.",
+      "website": "https://www.dexto.ai/",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Generative AI",
+        "Infrastructure",
+        "AI Assistant"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1740509470
+    },
+    {
       "slug": "dialogus",
       "name": "Dialogus",
       "batch": "Summer 2026",
@@ -7123,7 +7146,7 @@
       "name": "Edgerun",
       "batch": "Summer 2026",
       "one_liner": "Military exoskeletons",
-      "long_description": "Edgerun builds powered legs that double a soldier's range. Started this year. $100M+ in Ukrainian LOIs, requested by the most combat-experienced infantry on Earth. Our work is just beginning.",
+      "long_description": "Edgerun builds military exoskeletons. The first product is a 10-pound hip system that fits over existing kit and doubles a soldier’s range. Since April 2026, Edgerun built over a dozen iterations of their product through continuous field tests with Ukrainian fighters and secured $150M+ in LOIs. Founder David Venegas previously co-founded Durin (autonomous mining robotics) and worked at Stoke Space (at 19) and Hadrian. He is a high-school dropout, state-championship runner, adventure athlete, and pilot. Edgerun is a Y Combinator company backed by General H.R. McMaster, Cyan Banister, Joshua Steinman and Jason Miller. edgerun.com",
       "website": "https://edgerun.com",
       "industries": [
         "Industrials",
@@ -8102,7 +8125,7 @@
       "name": "Financial Datasets",
       "batch": "Summer 2026",
       "one_liner": "Connect your agents to the stock market ",
-      "long_description": "Financial Datasets is the largest search index for stock market data, built for AI agents.\r\n\r\nWe index the world's markets so agents can search every filing, answer any financial question, and monitor markets in real time.\r\n\r\nFor 40 years, market data was built for humans reading a screen. We are rebuilding it for agents that research every company, all day, across the world.",
+      "long_description": "Financial Datasets is an applied AI research lab building search and data infrastructure for agents, starting with financial markets.\r\n\r\nWe turn filings, company disclosures, and market data into structured, searchable information - helping agents find relevant facts, answer financial questions, and monitor markets in real time.\r\n\r\nFor 40 years, market data was built for people reading screens. We're rebuilding it for agents that research every company, all day, across the world.",
       "website": "https://financialdatasets.ai/",
       "industries": [
         "B2B"
@@ -8175,7 +8198,7 @@
       ],
       "tags": [],
       "team_size": 4,
-      "location": "",
+      "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1736800806
     },
@@ -9759,7 +9782,7 @@
       "batch": "Fall 2026",
       "one_liner": "Force-sensing wristband for training robotic AI",
       "long_description": "Every serious robotics lab is bottlenecked on the same thing: demonstration data. The field has converged on egocentric video and hand pose as the substrate, and both are now cheap to collect at scale. What neither of them contains is force. A video of someone picking up an egg and a video of someone picking up a rock are nearly identical in pixel space and nearly identical in joint angles. They differ almost entirely in a quantity nobody is recording. Policies trained without it learn geometry and inherit no sense of touch.\r\n\r\nHemlock closes that gap at the source. Our device, the Bracelet, is a wrist-worn surface EMG band that reads the electrical activity of the forearm muscles that actually drive the hand, which means it recovers contraction force directly rather than inferring it from motion. This distinction is the whole thesis: force cannot be reconstructed downstream of kinematics, because a hand squeezing hard isometrically and a hand resting can occupy the identical pose. Muscle signal is the only non-invasive channel that separates them.",
-      "website": "https://hemlock.info",
+      "website": "https://hemlock.inc",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
@@ -9933,6 +9956,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1778615142
+    },
+    {
+      "slug": "hickory-and-company",
+      "name": "Hickory & Company",
+      "batch": "Fall 2026",
+      "one_liner": "Hickory offers agentic compliance and BSA for banks and fintechs",
+      "long_description": "",
+      "website": "https://hickory.co",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "tags": [
+        "Fintech",
+        "SaaS",
+        "Compliance"
+      ],
+      "team_size": 3,
+      "location": "Salt Lake City, UT, USA",
+      "status": "Active",
+      "launched_at": 1789596685
     },
     {
       "slug": "hillclimb",
@@ -10441,12 +10485,12 @@
         "Consumer"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Digital Health",
         "Health & Wellness",
+        "AI",
         "AI Assistant"
       ],
-      "team_size": 4,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1776207717
@@ -10653,8 +10697,8 @@
       "slug": "instinct-xyz",
       "name": "Instinct",
       "batch": "Winter 2026",
-      "one_liner": "Trade your instinct",
-      "long_description": "We believe in the next generation of finance where everyone around the world can access the global market and liquidity from the tip of their hands. \r\n\r\nWe are building the best mobile trading app that will enable this vision. \r\n\r\nHyperliquid is the house of all finance, Instinct is the app of all finance. \r\n\r\nHyperliquid.",
+      "one_liner": "Trade with superhuman instinct",
+      "long_description": "Capital allocation is becoming a more important part of individual economic life.\r\nFinance is moving toward a global, onchain, 24/7 future with thousands of markets trading at once.\r\n\r\nThe asset management industry is built around the scarcity of financial expertise and the cost of organizing people around capital. \r\n\r\nInstitutions cover global markets by employing analysts, researchers, and quants around the clock. \r\n\r\nAI turns this organizational capacity into software.\r\n\r\nInstinct is building the harness for this transition.\r\n\r\nInstinct is a proactive team of agents that searches thousands of markets, investigates opportunities, and operates 24/7. The individual becomes the portfolio manager, Instinct becomes the investment firm operating around them.\r\n\r\nAs institutional advantages become widely accessible, the edge concentrates in each trader’s worldview, judgment, and bets. \r\n\r\nThe first one-person investment firm managing $1 billion will emerge within two years.\r\n\r\nIt will run on Instinct.",
       "website": "https://instinct.xyz",
       "industries": [
         "Fintech"
@@ -11990,6 +12034,26 @@
       "launched_at": 1755281037
     },
     {
+      "slug": "lark-2",
+      "name": "Lark",
+      "batch": "Fall 2026",
+      "one_liner": "Lark - Specialized agents for wholesale distributors",
+      "long_description": "Lark builds specialized AI agents that automate manual workflows for wholesale distributors. Our agents work with existing ERP systems, learning from each distributor’s historical data and the team’s decisions. Together, these agents can run a distributor’s entire operation.",
+      "website": "https://trylark.ai",
+      "industries": [
+        "Industrials"
+      ],
+      "tags": [
+        "B2B",
+        "Supply Chain",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1789595493
+    },
+    {
       "slug": "last-accounting-company",
       "name": "Last Accounting Company",
       "batch": "Summer 2026",
@@ -12477,13 +12541,13 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Marketplace",
         "B2B",
         "Data Labeling",
-        "Big Data",
-        "AI"
+        "Big Data"
       ],
-      "team_size": 4,
+      "team_size": 6,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753401226
@@ -14038,11 +14102,11 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
         "B2B",
-        "DevOps"
+        "DevOps",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -15097,14 +15161,14 @@
       "name": "Nodus Compute",
       "batch": "Fall 2026",
       "one_liner": "Intelligent Cloud for AI workloads",
-      "long_description": "Intelligent execution layer for AI workloads",
+      "long_description": "Intelligent Cloud for AI workloads",
       "website": "https://www.nodus-compute.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Infrastructure",
-        "AI"
+        "Artificial Intelligence",
+        "Infrastructure"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -15388,6 +15452,26 @@
       "launched_at": 1754692935
     },
     {
+      "slug": "nxtcure-labs",
+      "name": "Nxtcure Labs",
+      "batch": "Fall 2026",
+      "one_liner": "The full-stack AI CRO for drug discovery.",
+      "long_description": "Reinventing medicine from lab to drug discovery.\r\nNxtCure CRO- an AI-native, full-stack CRO built to take therapeutics from discovery to market faster.\r\nNxtCure Cancer- the all-in-one mobile platform guiding patients through the cancer journey.\r\nWe’re building the operating system for the future of medicine.",
+      "website": "https://nxtcure.com",
+      "industries": [
+        "Healthcare",
+        "Therapeutics"
+      ],
+      "tags": [
+        "Health Tech",
+        "Healthcare"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1789623428
+    },
+    {
       "slug": "o11",
       "name": "o11",
       "batch": "Winter 2026",
@@ -15408,6 +15492,27 @@
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1765258468
+    },
+    {
+      "slug": "oasive",
+      "name": "Oasive",
+      "batch": "Fall 2026",
+      "one_liner": "Automating research, valuation, and reporting for the bond market",
+      "long_description": "Oasive helps bond investors decide what to buy and sell, and why. It unifies research, screening, analysis, valuation, and reporting in one platform, automating work that today takes teams of analysts. Live today across MBS and macro research, with municipal bonds, rates, ABS, and corporates next.",
+      "website": "https://www.oasive.ai",
+      "industries": [
+        "Fintech",
+        "Asset Management"
+      ],
+      "tags": [
+        "FinOps",
+        "Fintech",
+        "Investments"
+      ],
+      "team_size": 1,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1786078729
     },
     {
       "slug": "octapulse",
@@ -16492,7 +16597,7 @@
       "batch": "Summer 2026",
       "one_liner": "Mass-producing and financing micro data center incredibly quickly.",
       "long_description": "We mass-produce modular data centers that deploy on stalled infrastructure projects losing billions per week.\r\n\r\nDelayed infrastructure projects hemorrhage $1B a week in the US alone - Pacific mass-produces modular data centers that deploy on those sites in days and turn their unused power into revenue.\r\n\r\nData centers are stuck for years waiting for power, while delayed construction sites across the world sit on unused interconnects, losing billions of dollars per week in interest on trillions of dollars of debt. Our pods deploy on those sites and generate revenue for them in days. They use diamond wafers in the cooling system so pods run anywhere on earth, even a desert. \r\n\r\nWe'll use the same mechanisms we're building today to deploy compute across the galaxy.\r\n",
-      "website": "https://gopacific.ai/",
+      "website": "https://pacific.space",
       "industries": [
         "Industrials"
       ],
@@ -16503,7 +16608,7 @@
         "Manufacturing",
         "AI"
       ],
-      "team_size": 3,
+      "team_size": 6,
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1786300632
@@ -17308,6 +17413,24 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1768534230
+    },
+    {
+      "slug": "peritai",
+      "name": "Perit.AI",
+      "batch": "Fall 2026",
+      "one_liner": "Expert-led data and RL platform for AI labs",
+      "long_description": "",
+      "website": "https://www.perit.ai/",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Data Labeling"
+      ],
+      "team_size": 47,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1789597716
     },
     {
       "slug": "permitify",
@@ -18523,7 +18646,7 @@
       "name": "Quotient Labs",
       "batch": "Winter 2026",
       "one_liner": "Use Claude Code at 47% less cost in one line of installation.",
-      "long_description": "Quotient Labs runs on top of Claude Code to reduce token spend, compress context, and optimize tool calls while preserving output quality, without changing how you work. Benchmarked 47% less cost on real, multi-step developer workflows, with no quality loss.",
+      "long_description": "You shouldn't be paying Fable prices when 88% of your token usage is tool I/O. \r\nQuotient Labs runs on top of Claude Code to reduce token spend, compress context, and optimize tool calls while preserving output quality. Same models, same workflow, no changes to how you work. Benchmarked 47% less cost on real, multi-step developer workflows, with no quality loss.",
       "website": "https://quotientlabs.com",
       "industries": [
         "B2B",
@@ -19132,13 +19255,15 @@
       "name": "Replicas",
       "batch": "Spring 2026",
       "one_liner": "Run any coding agent harness in the cloud",
-      "long_description": "Replicas is a background coding agent that allows you to delegate tasks to Claude Code or Codex from Slack, Linear, GitHub, and more. Each task works inside of a sandboxed virtual machine, allowing teams to heavily parallelize work and burn through tickets.\r\n\r\nReplicas agents output higher quality PRs via feedback loops - each task automatically is notified and fixes CI failures and reads all code reviews. With Environments, engineering teams can configure agents to run their entire codebase locally, verify its work, and provide preview URLs.",
+      "long_description": "Replicas is a cloud coding agent that allows you to delegate tasks to Claude Code or Codex from the app, Slack, Linear, and more. Each task works inside of a sandboxed virtual machine, allowing teams to heavily parallelize work and burn through tickets.\r\n\r\nReplicas agents output higher quality PRs via feedback loops - each task automatically is notified and fixes CI failures and reads all code reviews. With Environments, engineering teams can configure agents to run their entire codebase locally, verify its work, and provide preview URLs.",
       "website": "https://replicas.dev",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
       ],
-      "tags": [],
+      "tags": [
+        "Developer Tools"
+      ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -20760,7 +20885,7 @@
       "name": "Sila",
       "batch": "Winter 2026",
       "one_liner": "Agent Messaging Platform",
-      "long_description": "Sila is a messaging platform where you text agents to get work done. Describe your idea or task with a message and Sila creates agents that you and your team message together to build and run your company.",
+      "long_description": "Sila is where you create and message agents with your team to do work",
       "website": "https://silahq.com",
       "industries": [
         "B2B",
@@ -20768,7 +20893,7 @@
       ],
       "tags": [],
       "team_size": 2,
-      "location": "New York City, NY, USA",
+      "location": "",
       "status": "Active",
       "launched_at": 1772231466
     },
@@ -20833,8 +20958,8 @@
       "slug": "simulithic",
       "name": "Simulithic",
       "batch": "Fall 2026",
-      "one_liner": "Simulate how any product change will perform before shipping.",
-      "long_description": "We build simulations of your real users, grounded in your session data, so you can predict how any product change will perform before you ship it.",
+      "one_liner": "User simulations for production monitoring.",
+      "long_description": "Simulithic continuously uses your production product like your real users do. We learn representative user journeys and run agents across different devices, browsers, account states, and environments to find failures that traditional automated tests miss. When something breaks, we reproduce it and alert engineering before they hear about it from a customer.",
       "website": "https://simulithic.com",
       "industries": [
         "B2B",
@@ -22525,8 +22650,8 @@
       "slug": "tepali",
       "name": "Tepali",
       "batch": "Winter 2026",
-      "one_liner": "AI operating system for modern medspas",
-      "long_description": "Tepali is the AI-native operating system for medspas. We replace fragmented software and manual work with a single system of record powered by AI agents that handle front desk, patient documentation, and lead conversion.",
+      "one_liner": "AI EMR for medspas & wellness clinics",
+      "long_description": "Tepali is the AI EMR for medspas & wellness clinics. Front desk, charting, point of sale, and marketing in one system, with an AI employee that books new leads, charts every appointment, and brings past clients back.",
       "website": "https://tepali.com",
       "industries": [
         "B2B"
@@ -22695,7 +22820,7 @@
     {
       "slug": "the-company-company",
       "name": "The Company Company",
-      "batch": "Spring 2026",
+      "batch": "Fall 2026",
       "one_liner": "The last agent your company will ever need.",
       "long_description": "The Company Company builds the agent and the infrastructure to run companies.",
       "website": "https://www.thecompany.company",
@@ -23571,29 +23696,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783447220
-    },
-    {
-      "slug": "truffle-ai",
-      "name": "Truffle AI",
-      "batch": "Winter 2025",
-      "one_liner": "AWS for AI Agents",
-      "long_description": "Truffle AI makes it easy for developers to integrate AI agents into any software application. We do this by exposing agents as simple APIs that can be called from anywhere. Developers have used Truffle to add customer support agents into WhatsApp and analytics agents into Slack.",
-      "website": "https://www.trytruffle.ai/",
-      "industries": [
-        "B2B",
-        "Engineering, Product and Design"
-      ],
-      "tags": [
-        "Artificial Intelligence",
-        "Developer Tools",
-        "Generative AI",
-        "Infrastructure",
-        "AI Assistant"
-      ],
-      "team_size": 2,
-      "location": "Bengaluru, KA, India",
-      "status": "Active",
-      "launched_at": 1740509470
     },
     {
       "slug": "truthsystems",
@@ -24552,16 +24654,20 @@
       "slug": "vesence",
       "name": "Vesence",
       "batch": "Spring 2025",
-      "one_liner": "Cursor for Lawyers. Agentic AI in MS Office.",
-      "long_description": "Vesence is building Cursor for Lawyers.\r\n\r\nAlready rolled out firm-wide with a first major law firm. We launched in February.\r\n\r\nImagine programming in Apple Notes. No linting, no cursor, you are on your own. That is how it is for many lawyers to draft and review contracts in Microsoft Word. We are here to change that.",
+      "one_liner": "AI for High-Stakes Work",
+      "long_description": "Vesence is building AI for High-Stakes Work.\r\n\r\nAlready rolled out at law firms, investment funds, consultants, and where details matters the most.\r\n\r\nVesence is a browser-based desktop where professionals work alongside agents to review work, send emails, manage their calendar, and edit decks, documents and spreadsheets.",
       "website": "https://vesence.com",
       "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Finance",
         "B2B",
         "Legal"
       ],
-      "tags": [],
-      "team_size": 2,
-      "location": "Stockholm, Stockholm County, Sweden",
+      "team_size": 10,
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1747133222
     },
