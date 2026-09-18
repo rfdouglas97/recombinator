@@ -1,7 +1,76 @@
 {
-  "updated_at": "2026-09-17T17:57:20.301Z",
-  "count": 1303,
+  "updated_at": "2026-09-18T17:30:05.282Z",
+  "count": 1306,
   "launches": [
+    {
+      "launch_id": 115448,
+      "launch_slug": "U24-dreamscale-labs-running-robot-brains-in-the-cloud",
+      "launch_url": "https://www.ycombinator.com/launches/U24-dreamscale-labs-running-robot-brains-in-the-cloud",
+      "title": "Dreamscale Labs: Running robot brains in the cloud",
+      "tagline": "The fastest cloud inference platform for robotics.",
+      "body": "**TL;DR: We're 40-50% faster than existing cloud providers in serving frontier robot AI models, e.g. DreamZero, MolmoAct2.**\n\n<https://www.youtube.com/watch?v=jVqvJFBRcd0>\n\n\\[1x speed, autonomous\\]\n\nDSL is building the fastest cloud inference platform for robotics. We let you deploy physical AI without needing expensive local GPUs.\n\nRobot foundation models are growing more and more computationally expensive. The latest frontier of robotics no longer fits feasibly on local GPUs. Compute costs keep soaring amidst a global LPDDR shortage; NVIDIA just doubled the prices of Jetsons in July.\n\n**We're taking a contrarian bet that the future is moving inference _off the robot_ and _into the cloud._**\n\n![uploaded image](/media/?type=post&id=115448&key=user_uploads/3499827/4ca20fc9-00a8-4043-bc43-d51b8b5d0cbf)\n\nHow do we do this? We work across the full stack of robot inference to push latency down:\n\n* Model-level architectural adjustments for faster inference\n* Kernel-level optimizations to maximally leverage server-grade GPUs\n* Network-level optimizations for fast and reliable transport over the cloud\n* Region-specific compute allocation to ensure the shortest physical distance between the servers and our customers' robots\n\nThese optimizations enable us to be **8% faster** than NVIDIA's implementation **at half the GPU count** (320ms vs 350ms, for DreamZero 14B).\n\n![uploaded image](/media/?type=post&id=115448&key=user_uploads/3499827/69393040-ca17-41cd-a1fb-cd5d70176921)\n\nFurthermore, something we noticed for robotics companies with fast R&amp;D cycles was that their GPUs had long idle periods with concentrated bursts of inference traffic. We're one of the first companies in the world to offer on-demand pricing for physical AI inference, giving users more flexibility with the cost.\n\nWe're already working closely with a range of early partners across deployment, research and evaluation. In full FDE spirit, we collaborate with our customers to custom-fit inference stacks that address their unique deployment challenges. We help you get your robot AI to deployment faster.\n\nOur mission is to democratize access to frontier physical intelligence, and we believe cloud is the way forward. You can read our thesis here:\n\n•⁠ ⁠<http://dreamscalelabs.com/blog/why>\n\n\\\n**Our ask:** Reach out at [founders@dreamscalelabs.com](mailto:founders@dreamscalelabs.com) !",
+      "created_at": "2026-09-17T23:00:00.159Z",
+      "total_vote_count": 35,
+      "company_slug": "dreamscale-labs",
+      "company_name": "Dreamscale Labs",
+      "company_website": "https://dreamscalelabs.com",
+      "company_batch": "Fall 2026",
+      "company_industry": "Industrials",
+      "company_id": 35850,
+      "author_name": "Chris Yoo",
+      "scraped_at": "2026-09-18T17:29:45.636Z",
+      "review_summary": {
+        "conformance_index": 41,
+        "predictability_band": "surprise",
+        "verdict": "non_conforming"
+      }
+    },
+    {
+      "launch_id": 115915,
+      "launch_slug": "U9b-hybrd-turn-your-ai-agent-into-a-fitness-coach",
+      "launch_url": "https://www.ycombinator.com/launches/U9b-hybrd-turn-your-ai-agent-into-a-fitness-coach",
+      "title": "HYBRD: turn your AI agent into a fitness coach",
+      "tagline": "Connect wearables, understand training history, send plans to smartwatches",
+      "body": "Lifters, runners, triathletes, cyclists: you can now turn your personal AI agent into a fitness coach with HYBRD. Once you connect to the HYBRD MCP, your AI agent will be able to: \n\n* Access and understand all your historical training data\n* Use that data to make workouts and training plans\n* Push those recommendations to your device (watch and/or phone) so you can execute the workouts\n\n**To get set up, just paste this into Claude / Muse / Instinct:** \n\nset up <https://hybrd.com/resources/mcp-setup/skill.md> \\\n\\\nMillions of athletes already build training plans inside their favorite AI tool. But those tools have no access to wearable data, no memory from one session to the next, and no way to get a workout from the chat window onto an athlete's watch. HYBRD MCP closes that gap.\n\nThe first thing you should try with HYBRD MCP is to ask something like: \n\n* Across all my runs, when did I have the best ratio between grade adjusted pace and heart rate?\n* What was my most consistent phase ever? \n* What was the difference between my Napa Marathon prep and Boston Marathon prep?\n\nThen have it write you a training plan for your next goal: \n\n* Using the workouts I did most consistently, come up with a plan for Ironman California\n* Help me ramp back up to what I used to lift while maintaining my running volume\n* I’m traveling and will only have access to hotel gyms for a while, modify my current training plan\n\nHYBRD will write those workouts back to your wearable and phone, so you just have to click “start” and you’ll get guided through the plan\n\nYou can also use our companion mobile app to make tracking lifting easy, or track your runs using your phone’s GPS if you don’t have a smartwatch. \n\nHYBRD will manage your wearables connection, be a system of record for your training plan / completed workouts, and steer LLMs towards giving better fitness coaching\n\nThe experience gets especially magical with tools like Muse or Instinct, which can proactively check the local weather, block off time on your calendar, order the right fueling for you etc. \n\nSleep, recovery and nutrition data support are coming in the next few days. \n\nWe have a few thousand athletes on HYBRD so far, check out what they’re doing with it below: \n\n![uploaded image](/media/?type=post&id=115915&key=user_uploads/1315661/ba90bd48-3082-495a-97de-a5b4bcb80d5d)\n\n![uploaded image](/media/?type=post&id=115915&key=user_uploads/1315661/cd6fc55c-c6e3-4cd1-9adc-89e6e0429da4)\n\n![uploaded image](/media/?type=post&id=115915&key=user_uploads/1315661/df460c1b-8fe8-46bf-b60c-6b13ebbdebd8)\n\n![uploaded image](/media/?type=post&id=115915&key=user_uploads/1315661/1fa83022-70ae-49cd-8c18-613955ff486b)\n\n![uploaded image](/media/?type=post&id=115915&key=user_uploads/1315661/e99327d7-3a83-4373-8ce7-e1948cd1e8d3)\n\n![uploaded image](/media/?type=post&id=115915&key=user_uploads/1315661/9a2561b4-c0b7-4d60-822b-05f0184ee4df)\n\n",
+      "created_at": "2026-09-17T20:41:16.655Z",
+      "total_vote_count": 5,
+      "company_slug": "hybrd",
+      "company_name": "HYBRD",
+      "company_website": "https://www.hybrd.com/",
+      "company_batch": "Fall 2024",
+      "company_industry": "Consumer",
+      "company_id": 30064,
+      "author_name": "Mats Terwiesch",
+      "scraped_at": "2026-09-18T17:29:45.636Z",
+      "review_summary": {
+        "conformance_index": 57,
+        "predictability_band": "surprise",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 115489,
+      "launch_slug": "U2j-memorable-graph-procedural-memory-for-ai-agents-stop-re-teaching-your-agents",
+      "launch_url": "https://www.ycombinator.com/launches/U2j-memorable-graph-procedural-memory-for-ai-agents-stop-re-teaching-your-agents",
+      "title": "Memorable: graph procedural memory for AI agents. Stop re-teaching your agents!",
+      "tagline": "Memorable gives AI agents procedural memory so they stop re-deriving the same workflow every time — cutting tool calls 60% and latency 40%.",
+      "body": "# **_| TL;DR:_** Memorable records the tool calls an agent made to run a task, reuses that workflow on similar tasks instead of re-deriving through reasoning from scratch. –60% tool calls, –40% latency.\n\n<https://youtu.be/3m9I1zHSMPk>\n\n**Memorable turns agent reasoning into a graph search problem.**\n\n1. We **capture your agents' traces** and store them as a lightweight graph.\n2. When a similar prompt arrives, we **extrapolate a workflow with a graph search.**\n3. We **inject a short pointer** (50 to 100 tokens) into the prompt.\n\n![uploaded image](/media/?type=post&id=115489&key=user_uploads/2164442/8a549d1f-423e-4011-90b8-d8e0145a1323)\n\n# **So the agent runs deterministically instead of re-deriving a plan every. single. time.**\n\n### **_Forget tokenmaxxing._**\n\n**We're graph-first and anti-text so you SAVE time, tokens, and money.**\n\n* **–60% tool calls** and **–40% latency** on [**QM's**](https://github.com/yc-software/qm) benchmarks\n* **–20% turns** in [**Gbrain**](https://github.com/garrytan/gbrain) bench, ran [**GStack’s**](https://github.com/garrytan/gstack) /investigate skill with **–98% tokens**\n\n**Do your agents need procedural memory?**\n\n* Memorable is for anyone running agents that do the same work more than once.\n* We've built for **coding, support, ops, research, company brain, and browser/computer-use agents.**\n* If you find yourself repeatedly having to correct or guide your agents, they need procedural memory!\n\n### **Imagine a world where your agents don’t reason.**\n\n* Most agent memory layers store facts using text: preferences, docs, past chats, while Memorable stores procedures: the steps an agent takes to achieve an outcome.\n* We are able to encode this graphically using nodes and edges, making it incredibly agent-friendly and token-efficient, allowing most agents to skip the preliminary planning step altogether.\n\n**Try Memorable, your agent will onboard you!**\n\n```\nnpx memorable-cli\ncurl -fsSL https://memorable.sh/install.sh | sh\n```\n\n* Compatible with **Claude Code, Codex, Cursor, and Claude Cowork**\n* You can try it out live in [**QM**](https://github.com/yc-software/qm) and [**Gbrain**](https://github.com/garrytan/gbrain) (thanks [**@Joshua France**](https://bookface.ycombinator.com/user/211454) &amp;\n\n  [**@Garry Tan**](https://bookface.ycombinator.com/user/678)!)\n* Procedures live encrypted in your own cloud, or run entirely local.\n\n![uploaded image](/media/?type=post&id=115489&key=user_uploads/2164442/59c2f411-3d34-482a-ba18-a03e14ecc4e2)\n\n**Memorable Team**\n\n* [**Nikhil Krishnaswamy**](https://bookface.ycombinator.com/user/2164442) \\[Stanford CS\\]: created an iOS MCP interning at AGI Inc, research published in COLM and IEEE\n* [**Advaiyt Sane**](https://bookface.ycombinator.com/user/3250603) \\[Carnegie Mellon CS\\]: built dev tools at Nvidia that create 50k AV tests a month\n\n**We are looking for design partners!**\n\n* Would love to chat with teams **deploying agents at volume** (high tool-call or token spend, repeated workflows) willing to **pilot as design partners.**\n* Open to **custom harness and framework integrations** for your interesting use cases\n\nEmail [info@memorable.sh](mailto:info@memorable.sh) and we'll spend a day solving your memory problems with you, plus:\n\n* LIFETIME of Memorable Pro FREE\n* Reach out to us about anything agent memory-related, whether or not you use Memorable :)\n\nand grab a slot: [**cal.com/team/memorable/30**](http://cal.com/team/memorable/30)\n\n[website](https://memorable.sh) | [docs](https://memorable.sh/docs) | [try memorable](https://memorable.sh)\n\nLet's build something Memorable!",
+      "created_at": "2026-09-17T19:00:00.406Z",
+      "total_vote_count": 5,
+      "company_slug": "memorable",
+      "company_name": "Memorable",
+      "company_website": "https://www.memorable.sh/",
+      "company_batch": "Summer 2027",
+      "company_industry": "B2B",
+      "company_id": 36906,
+      "author_name": "Nikhil Krishnaswamy",
+      "scraped_at": "2026-09-18T17:29:45.636Z",
+      "review_summary": {
+        "conformance_index": 48,
+        "predictability_band": "surprise",
+        "verdict": "non_conforming"
+      }
+    },
     {
       "launch_id": 115844,
       "launch_slug": "U8S-anana-ai-workspace-for-hospitality-commercial-teams",

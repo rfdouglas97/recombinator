@@ -1882,6 +1882,89 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "agent-relay",
+    "name": "Agent Relay",
+    "website": "https://agentrelay.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/agent-relay",
+    "batch": "Fall 2026",
+    "one_liner": "The infrastructure to run coding agents for your team",
+    "description_combined": "The infrastructure to run coding agents for your team\n\nAgent Relay helps software teams work better with coding agents, and helps those agents work better as a team. It gives Claude Code, Codex, OpenCode, and custom agents shared messaging, session history, and access to tools like GitHub, Linear, and Slack. Teams can see what every agent is doing, run checked and resumable workflows, and step in when human judgment is needed. Run it in our cloud, locally, or on your own hardware.",
+    "industry_sub_vertical": "Coding agent orchestration & multi-agent coordination infrastructure",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "multi_agent_coordination",
+      "workflow_resumability",
+      "human_in_loop_checkpoints",
+      "tool_integration_routing"
+    ],
+    "what_they_sell": "Infrastructure platform enabling multiple coding agents (Claude Code, Codex, OpenCode, custom) to collaborate via shared messaging, session history, and unified tool access (GitHub, Linear, Slack). Provides observability, workflow checkpointing, and human override capabilities. Deployable on Agent Relay cloud, on-prem, or local hardware.",
+    "ai_play": "Solves multi-agent coordination and reliability for coding workflows. Agents need shared context, tool routing, resumable execution, and human supervision — Agent Relay provides the orchestration layer that lets teams run swarms of coding agents safely and transparently.",
+    "who_pays": "Engineering teams, dev leads, and platform engineers managing AI-assisted coding workflows; companies adopting multiple coding agents and needing coordination infrastructure.",
+    "confidence": 0.85,
+    "rationale": "Agent Relay is a developer-facing infrastructure layer for agent orchestration and observability. Primary fit is agent-runtime-infra (runtime, tool routing, reliability, multi-agent coordination). Secondary fit is agent-observability-evals (tracing, monitoring, human checkpoints). Not a vertical workflow agent (not automating a specific job function for end-users) and not a copilot (not a seat-based productivity tool). Core value is the runtime harness enabling safe, coordinated multi-agent execution with human oversight — classic infrastructure pickaxe for the agentic era.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "Swarm AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 50118,
+        "full_name": "Will Washburn",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Agent Relay (YC F26). Previously spent nearly 14 years building Tailwind, a SAAS that helps SMBs with their marketing. Led the engineering team and company to Series B, 50K+ paying customers, 1M+ users, eight-figure ARR, and 60+ people.",
+        "linkedin_url": "https://www.linkedin.com/in/willwashburn/",
+        "twitter_url": "https://www.x.com/willwashburn/",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/efe4cdae0af5c22d84fc43200a16f0065e005482.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALLSUSJNH%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172842Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH8YoP6mPWig5i0Ek5JUti1b%2FuOAC9vS93rbrvx%2FJ1GZAiEAoOJmLQtGsESKm1PQoEsdJ6a2F4KF%2BRhn8DxahDFypVMq5QMIShAAGgwwMDYyMDE4MTEwNzIiDHPV%2BJTbZichWeYuTirCA4RAUlA8t98ZBm%2FkFQOkbUOmqMa6sgIeG1lDAiT2YOFINM247SyWhQmnPEIJwiP03R54B76nt06BHRRRPIyIZFHbCTcojZgf80Ufb0Ud4t4v%2FYMbO0ZeA5%2BXiM2FlHJRshGskltdoVC2fWlcaUYN8TsvIFgZYUpu2uJ0XFeq%2F72%2BONEoi1cDSYIt%2FA0FZSYETv6dxr4W2mrLGoh3bhsqm9ptuW9Ti%2BvnGwvFMZxrYrmoY%2F8dRw9PYprc9qjTFM9xcTPeNE3eWP5%2BVmfLRqyr4BxF6IQ8aXByy1pPE3O6n5duTqf%2BPlbUSibuiAb6oUn5OP7Bsy8vT7DrK4TbpLLUMXzwEaDjPeobdVjHwbA6DXmVmLgmjeSUDxDw76dvWPqnITtlvwixC4n7WCd13RY9uGDmLDCEhDB8PVGde5QjCgmAtkXBsF191%2FSyrUSVitAYlmr6cAlNSA8fWfvBdS4x2uWAnQH6%2BAx%2BvYxHbDde1q2a%2FYfNOSpWHAMpNjAIkxRI63DkNCI4w3dFqJnP8vEETvM2fbrlN4zKprg%2B4vwMV0Q7cfRo4nVLggMs7MOaqMkfBx8ZkLJNdRtosAmPl09cc5AQcDDq3rXVBjqlAXmaDXq7dsdCs0WaXM5VFOudid8sHsJ16%2B7vtB86I%2BSZ8QHd6E6WVOYor%2FPdmDYouJxw6hFkyop%2Bzsu9dThvr5T0HJuJyFEMD4idVPfF9Q%2BhiLKMEgHMeVHKUNQXFqULuKffL6CWAE%2FEYbSGa0XT%2BJ2mSiJGcBZz4uhXr2bXm5g9zB38Gec4D00WjPcjr9Tlhm7tdMoLzUDYoa3XL0LNxKsaSSpTMw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=415071e041a325b4294a141559935abc1195a3c07a7598637273c9eedb89a75e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Agent Relay",
+          "href": "https://www.ycombinator.com/companies/agent-relay"
+        }
+      },
+      {
+        "user_id": 50117,
+        "full_name": "Khaliq Gant",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Agent Relay. Previously Founding Engineer at Nango (W23) and Lead Engineer at Overview (W19). Cornell & Columbia grad. Former collegiate basketball player. Was paralyzed from neck down, fought way back to be able to walk again. ",
+        "linkedin_url": "https://www.linkedin.com/in/khaliqgant/",
+        "twitter_url": "https://x.com/khaliqgant",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6ffbf3a452a716aa224b41a276d64c2534501ec2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALLSUSJNH%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172842Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH8YoP6mPWig5i0Ek5JUti1b%2FuOAC9vS93rbrvx%2FJ1GZAiEAoOJmLQtGsESKm1PQoEsdJ6a2F4KF%2BRhn8DxahDFypVMq5QMIShAAGgwwMDYyMDE4MTEwNzIiDHPV%2BJTbZichWeYuTirCA4RAUlA8t98ZBm%2FkFQOkbUOmqMa6sgIeG1lDAiT2YOFINM247SyWhQmnPEIJwiP03R54B76nt06BHRRRPIyIZFHbCTcojZgf80Ufb0Ud4t4v%2FYMbO0ZeA5%2BXiM2FlHJRshGskltdoVC2fWlcaUYN8TsvIFgZYUpu2uJ0XFeq%2F72%2BONEoi1cDSYIt%2FA0FZSYETv6dxr4W2mrLGoh3bhsqm9ptuW9Ti%2BvnGwvFMZxrYrmoY%2F8dRw9PYprc9qjTFM9xcTPeNE3eWP5%2BVmfLRqyr4BxF6IQ8aXByy1pPE3O6n5duTqf%2BPlbUSibuiAb6oUn5OP7Bsy8vT7DrK4TbpLLUMXzwEaDjPeobdVjHwbA6DXmVmLgmjeSUDxDw76dvWPqnITtlvwixC4n7WCd13RY9uGDmLDCEhDB8PVGde5QjCgmAtkXBsF191%2FSyrUSVitAYlmr6cAlNSA8fWfvBdS4x2uWAnQH6%2BAx%2BvYxHbDde1q2a%2FYfNOSpWHAMpNjAIkxRI63DkNCI4w3dFqJnP8vEETvM2fbrlN4zKprg%2B4vwMV0Q7cfRo4nVLggMs7MOaqMkfBx8ZkLJNdRtosAmPl09cc5AQcDDq3rXVBjqlAXmaDXq7dsdCs0WaXM5VFOudid8sHsJ16%2B7vtB86I%2BSZ8QHd6E6WVOYor%2FPdmDYouJxw6hFkyop%2Bzsu9dThvr5T0HJuJyFEMD4idVPfF9Q%2BhiLKMEgHMeVHKUNQXFqULuKffL6CWAE%2FEYbSGa0XT%2BJ2mSiJGcBZz4uhXr2bXm5g9zB38Gec4D00WjPcjr9Tlhm7tdMoLzUDYoa3XL0LNxKsaSSpTMw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=64f3d7b7ee37088405e79be6a208547a5948ba46b60883e983653cf405ceacb8",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Agent Relay",
+          "href": "https://www.ycombinator.com/companies/agent-relay"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-18T17:28:50.862Z",
+    "classified_at": "2026-09-18T17:28:50.862Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "agentcard",
     "name": "Agentcard",
     "website": "https://agentcard.sh",
@@ -5726,6 +5809,92 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-08"
+  },
+  {
+    "slug": "applied-kinetics",
+    "name": "Applied Kinetics",
+    "website": "https://appliedkinetics.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/applied-kinetics",
+    "batch": "Fall 2026",
+    "one_liner": "AI for the industries that power America. ",
+    "description_combined": "AI for the industries that power America. \n\nApplied Kinetics builds and deploys specialized AI employees to handle the coordination work behind America&#x27;s energy and data center buildout. Our agents chase suppliers, track equipment approvals and delivery dates, and flag delays so project teams can keep critical equipment moving without hunting for updates across emails and spreadsheets.",
+    "industry_sub_vertical": "Energy and data center infrastructure procurement coordination",
+    "canonical_vertical_id": "logistics.supply-chain.ops",
+    "vertical_id": "logistics.supply-chain.ops",
+    "vertical_label": "Supply chain & procurement operations",
+    "vertical_sector_id": "transportation-logistics",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "supplier_coordination_agents",
+      "procurement_tracking_automation",
+      "multi_source_context_aggregation",
+      "delay_detection_alerting"
+    ],
+    "what_they_sell": "AI agents that autonomously manage procurement coordination workflows for energy and data center infrastructure projects — tracking supplier communications, equipment approvals, delivery dates, and flagging delays across fragmented email/spreadsheet systems.",
+    "ai_play": "Replaces manual coordination work (email hunting, spreadsheet updates, supplier chasing) with autonomous agents that aggregate context from multiple sources, maintain real-time project state, and proactively alert teams to risks. AI handles the high-friction, detail-intensive coordination that slows capital-intensive infrastructure projects.",
+    "who_pays": "Project managers, procurement teams, and operations leads at energy companies and data center operators managing complex, multi-supplier buildouts.",
+    "confidence": 0.82,
+    "rationale": "Applied Kinetics is a vertical SaaS deploying AI agents to automate end-to-end procurement coordination workflows within a specific vertical (energy/data center infrastructure). The core value is autonomous agent execution of supplier tracking, approval management, and delay detection — replacing manual, fragmented coordination work. This is distinct from horizontal copilots (not cross-industry productivity) and from agent infrastructure (they sell the end-product to operators, not the runtime). Secondary phenotype (agent-context-infra) applies because a critical part of their value is aggregating and structuring context from disparate sources (emails, spreadsheets, supplier systems) into actionable agent inputs. Confidence is high (0.82) because the description clearly indicates autonomous agent deployment in a vertical workflow, but not perfect because the description doesn't explicitly confirm ERP/tool integration depth or switching cost mechanisms.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Supply Chain and Logistics"
+    ],
+    "yc_tags": [
+      "B2B",
+      "Supply Chain",
+      "Procurement",
+      "Energy",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2724300,
+        "full_name": "Rohit Naras",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder @ Applied Kinetics (YC F26) | ex-Crusoe AI Infra | Georgia Tech Computer Engineering",
+        "linkedin_url": "https://www.linkedin.com/in/rohitnaras",
+        "twitter_url": "https://x.com/rohitnaras",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e6d25a574b334c6d11ff32e261be39b41d2caa8a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALLSUSJNH%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172908Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH8YoP6mPWig5i0Ek5JUti1b%2FuOAC9vS93rbrvx%2FJ1GZAiEAoOJmLQtGsESKm1PQoEsdJ6a2F4KF%2BRhn8DxahDFypVMq5QMIShAAGgwwMDYyMDE4MTEwNzIiDHPV%2BJTbZichWeYuTirCA4RAUlA8t98ZBm%2FkFQOkbUOmqMa6sgIeG1lDAiT2YOFINM247SyWhQmnPEIJwiP03R54B76nt06BHRRRPIyIZFHbCTcojZgf80Ufb0Ud4t4v%2FYMbO0ZeA5%2BXiM2FlHJRshGskltdoVC2fWlcaUYN8TsvIFgZYUpu2uJ0XFeq%2F72%2BONEoi1cDSYIt%2FA0FZSYETv6dxr4W2mrLGoh3bhsqm9ptuW9Ti%2BvnGwvFMZxrYrmoY%2F8dRw9PYprc9qjTFM9xcTPeNE3eWP5%2BVmfLRqyr4BxF6IQ8aXByy1pPE3O6n5duTqf%2BPlbUSibuiAb6oUn5OP7Bsy8vT7DrK4TbpLLUMXzwEaDjPeobdVjHwbA6DXmVmLgmjeSUDxDw76dvWPqnITtlvwixC4n7WCd13RY9uGDmLDCEhDB8PVGde5QjCgmAtkXBsF191%2FSyrUSVitAYlmr6cAlNSA8fWfvBdS4x2uWAnQH6%2BAx%2BvYxHbDde1q2a%2FYfNOSpWHAMpNjAIkxRI63DkNCI4w3dFqJnP8vEETvM2fbrlN4zKprg%2B4vwMV0Q7cfRo4nVLggMs7MOaqMkfBx8ZkLJNdRtosAmPl09cc5AQcDDq3rXVBjqlAXmaDXq7dsdCs0WaXM5VFOudid8sHsJ16%2B7vtB86I%2BSZ8QHd6E6WVOYor%2FPdmDYouJxw6hFkyop%2Bzsu9dThvr5T0HJuJyFEMD4idVPfF9Q%2BhiLKMEgHMeVHKUNQXFqULuKffL6CWAE%2FEYbSGa0XT%2BJ2mSiJGcBZz4uhXr2bXm5g9zB38Gec4D00WjPcjr9Tlhm7tdMoLzUDYoa3XL0LNxKsaSSpTMw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a32e4f9f3e119bad8144517601fb1b6f58bf76bd7327a912508f79e095883178",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Applied Kinetics",
+          "href": "https://www.ycombinator.com/companies/applied-kinetics"
+        }
+      },
+      {
+        "user_id": 3088791,
+        "full_name": "Adhik Durga",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder @ Applied Kinetics (YC F26) | ex-IBM AI Agents | Computer Engineering @ Georgia Tech",
+        "linkedin_url": "https://linkedin.com/in/adhikdurga",
+        "twitter_url": "https://x.com/ajdurga999",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b24e5b3d4f708487d8942aa0fd219b2c7b92c645.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALLSUSJNH%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172908Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH8YoP6mPWig5i0Ek5JUti1b%2FuOAC9vS93rbrvx%2FJ1GZAiEAoOJmLQtGsESKm1PQoEsdJ6a2F4KF%2BRhn8DxahDFypVMq5QMIShAAGgwwMDYyMDE4MTEwNzIiDHPV%2BJTbZichWeYuTirCA4RAUlA8t98ZBm%2FkFQOkbUOmqMa6sgIeG1lDAiT2YOFINM247SyWhQmnPEIJwiP03R54B76nt06BHRRRPIyIZFHbCTcojZgf80Ufb0Ud4t4v%2FYMbO0ZeA5%2BXiM2FlHJRshGskltdoVC2fWlcaUYN8TsvIFgZYUpu2uJ0XFeq%2F72%2BONEoi1cDSYIt%2FA0FZSYETv6dxr4W2mrLGoh3bhsqm9ptuW9Ti%2BvnGwvFMZxrYrmoY%2F8dRw9PYprc9qjTFM9xcTPeNE3eWP5%2BVmfLRqyr4BxF6IQ8aXByy1pPE3O6n5duTqf%2BPlbUSibuiAb6oUn5OP7Bsy8vT7DrK4TbpLLUMXzwEaDjPeobdVjHwbA6DXmVmLgmjeSUDxDw76dvWPqnITtlvwixC4n7WCd13RY9uGDmLDCEhDB8PVGde5QjCgmAtkXBsF191%2FSyrUSVitAYlmr6cAlNSA8fWfvBdS4x2uWAnQH6%2BAx%2BvYxHbDde1q2a%2FYfNOSpWHAMpNjAIkxRI63DkNCI4w3dFqJnP8vEETvM2fbrlN4zKprg%2B4vwMV0Q7cfRo4nVLggMs7MOaqMkfBx8ZkLJNdRtosAmPl09cc5AQcDDq3rXVBjqlAXmaDXq7dsdCs0WaXM5VFOudid8sHsJ16%2B7vtB86I%2BSZ8QHd6E6WVOYor%2FPdmDYouJxw6hFkyop%2Bzsu9dThvr5T0HJuJyFEMD4idVPfF9Q%2BhiLKMEgHMeVHKUNQXFqULuKffL6CWAE%2FEYbSGa0XT%2BJ2mSiJGcBZz4uhXr2bXm5g9zB38Gec4D00WjPcjr9Tlhm7tdMoLzUDYoa3XL0LNxKsaSSpTMw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e735e3d9c5c1a53d55cd6da2ccd5a9b611054a56745df52e6434d2add0070346",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Applied Kinetics",
+          "href": "https://www.ycombinator.com/companies/applied-kinetics"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-18T17:29:19.069Z",
+    "classified_at": "2026-09-18T17:29:19.070Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "approxima",
@@ -16511,6 +16680,84 @@
     "primary_bm": "BM-04"
   },
   {
+    "slug": "cashew-labs",
+    "name": "Cashew Labs",
+    "website": "https://cashew-labs.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/cashew-labs",
+    "batch": "Spring 2025",
+    "one_liner": "Recursive self improving harnesses and models",
+    "description_combined": "Recursive self improving harnesses and models\n\nCashew Labs builds open source tools for recursive self improvement. Their tools enable self-modifying interfaces and LLMs that post-train themselves.",
+    "industry_sub_vertical": "LLM self-improvement and recursive post-training infrastructure",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "model-optimization-rl",
+    "phenotype_primary_label": "Model Optimization via Reinforcement Learning",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "rl_fine_tuning",
+    "ai_application_patterns": [
+      "recursive_self_improvement",
+      "post_training_automation",
+      "model_self_modification"
+    ],
+    "what_they_sell": "Open-source tools and frameworks enabling LLMs and AI systems to autonomously improve themselves through recursive self-modification and post-training loops without manual retraining or prompt engineering.",
+    "ai_play": "Automates model improvement by enabling LLMs to modify their own weights, behaviors, and interfaces based on performance feedback. Eliminates manual fine-tuning and enables continuous self-directed optimization from production data and evaluation signals.",
+    "who_pays": "AI labs, model builders, enterprises deploying frontier models; potential commercial layer via hosted optimization services or enterprise licensing.",
+    "confidence": 0.72,
+    "rationale": "Cashew Labs' core offering—recursive self-improvement harnesses for LLMs—maps most closely to model-optimization-rl (automated model improvement via feedback loops) with secondary fit to open-source-commercial (OSS tools with potential commercial monetization). The 'self-modifying interfaces' and 'post-train themselves' language indicates RL-driven or feedback-based optimization loops rather than infrastructure or agent orchestration. Primary buyer is likely AI researchers and model builders seeking to automate the optimization cycle. Confidence is 0.72 rather than higher because the exact mechanism (RL vs. other optimization) is not explicitly stated, and the commercial model (pure OSS vs. hosted service) is unclear.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1626108,
+        "full_name": "Michael Kronovet",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder of Cashew Labs. ML engineer. Formerly led Palantir&#x27;s work with the US State Department.\n\nLearn more about me here: https://michaelkronovet.com",
+        "linkedin_url": "https://www.linkedin.com/in/michael-kronovet/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/be71119d379863b8883b84eeab247146aeba4587.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOBD4SUWP%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172801Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICUi5WQTfYEDw7RtYy6yzF14A%2F0hdnD5U6zaLAZvr9RwAiEA%2BQzVtypK9iDPT0CY1R37CYyj5z9XQHKlobDyuwJcRrYq5QMIShAAGgwwMDYyMDE4MTEwNzIiDKpmohe3Xh7putGmCCrCA3%2BeRal9aTZsUg%2FqCr4xMzHBQn5aD8%2Fm9ouYCZHlPwI%2FDZNqk1wEG%2FB%2BBRevUFvb5p4oEjHoyIJhVcbqX%2B5cuZ9n61MFvV3vc2Z6ky39hhOR1JltKmqn88kVVxiNWGQ88a7E35snYu5eR1X7v4t1zx5n2ND5wPOHvdi5nzu03w3Jpcv2tGLXqhLx82E64tDBm5eS7XKLPIuXtk3ThyADGHhtQq05I9lkV9QETj15%2FrG39DYRr%2FPJgdHJY49kHdVJByRU9u7rfIofIfXUdYNul%2F7cf%2BvTEi3H%2F1OfsgKMItPzwnfW%2BquycxhIre6ndqxeJRW8tBBPXIzgwsRQX9P8MiZtETegUqmvOt3g0Xd0wJnhi5oPXb3Q0Eo1aFGrgc5bWnuwGp7nM9e2QrUcG9JfFxMhnXnJkxyOtg%2B69K3ttySglv0jaGBIwt0hJUXpXfCTv%2Bfxs4vERkiSNcSveWJaMxZP8Hs9pWkBIXH%2BVVjLKBRTqSMBZITvaBYTKwYvJZ9IzfgG9qaoXXrQM0mAXtWVyDvm7rD1PSAsvZe0%2BHwfEVqeZfJgw4Hc5LB1K726cmnki817h6v9XPX50lD%2BTh0BE0hfPDDp3rXVBjqlASp8qidIdB2bn2nOgiuetezdQjX0wNiCZwqISkGtVZh9uiQuvQfT2PUynwLREl%2FaJdw7HW8Dfv23gnUdKkQ1TldGoaI4XC3VNinNKhdW%2Fxoy6o%2BRdQSQtOQuyx7PcMJii1kFwYVZUBIdFBukoQsdgU9mUiXnThLzE%2F3XBu81NZkWW3d%2Bo%2FJYi5f6LWWZhQ1VZplf31EfFPc7Ki%2BFdza%2BYE7guo5f8g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=329463a71dd09ad12a49c296533212000beff54d92028faa0c21cf01a12591b6",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Cashew Labs",
+          "href": "https://www.ycombinator.com/companies/cashew-labs"
+        }
+      },
+      {
+        "user_id": 1184840,
+        "full_name": "Tanishq Kancharla",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder of Libretto. Product engineer.",
+        "linkedin_url": "https://www.linkedin.com/in/tanishq-k/",
+        "twitter_url": "https://x.com/tanishqk",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f807e2733141770c3d05b4a98368c37b79778f0c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOBD4SUWP%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172801Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICUi5WQTfYEDw7RtYy6yzF14A%2F0hdnD5U6zaLAZvr9RwAiEA%2BQzVtypK9iDPT0CY1R37CYyj5z9XQHKlobDyuwJcRrYq5QMIShAAGgwwMDYyMDE4MTEwNzIiDKpmohe3Xh7putGmCCrCA3%2BeRal9aTZsUg%2FqCr4xMzHBQn5aD8%2Fm9ouYCZHlPwI%2FDZNqk1wEG%2FB%2BBRevUFvb5p4oEjHoyIJhVcbqX%2B5cuZ9n61MFvV3vc2Z6ky39hhOR1JltKmqn88kVVxiNWGQ88a7E35snYu5eR1X7v4t1zx5n2ND5wPOHvdi5nzu03w3Jpcv2tGLXqhLx82E64tDBm5eS7XKLPIuXtk3ThyADGHhtQq05I9lkV9QETj15%2FrG39DYRr%2FPJgdHJY49kHdVJByRU9u7rfIofIfXUdYNul%2F7cf%2BvTEi3H%2F1OfsgKMItPzwnfW%2BquycxhIre6ndqxeJRW8tBBPXIzgwsRQX9P8MiZtETegUqmvOt3g0Xd0wJnhi5oPXb3Q0Eo1aFGrgc5bWnuwGp7nM9e2QrUcG9JfFxMhnXnJkxyOtg%2B69K3ttySglv0jaGBIwt0hJUXpXfCTv%2Bfxs4vERkiSNcSveWJaMxZP8Hs9pWkBIXH%2BVVjLKBRTqSMBZITvaBYTKwYvJZ9IzfgG9qaoXXrQM0mAXtWVyDvm7rD1PSAsvZe0%2BHwfEVqeZfJgw4Hc5LB1K726cmnki817h6v9XPX50lD%2BTh0BE0hfPDDp3rXVBjqlASp8qidIdB2bn2nOgiuetezdQjX0wNiCZwqISkGtVZh9uiQuvQfT2PUynwLREl%2FaJdw7HW8Dfv23gnUdKkQ1TldGoaI4XC3VNinNKhdW%2Fxoy6o%2BRdQSQtOQuyx7PcMJii1kFwYVZUBIdFBukoQsdgU9mUiXnThLzE%2F3XBu81NZkWW3d%2Bo%2FJYi5f6LWWZhQ1VZplf31EfFPc7Ki%2BFdza%2BYE7guo5f8g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=8ecd7ce20ef4298fccdacc9ef3488827a4f2c47e4d2525725347ad903da78781",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Cashew Labs",
+          "href": "https://www.ycombinator.com/companies/cashew-labs"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-18T17:28:09.642Z",
+    "classified_at": "2026-09-18T17:28:09.642Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "catchback-cards",
     "name": "CatchBack Cards",
     "website": "https://catchbackcards.com",
@@ -23848,6 +24095,91 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "darwin",
+    "name": "Darwin",
+    "website": "https://thesislabs.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/darwin",
+    "batch": "Fall 2025",
+    "one_liner": "Humanoid robots",
+    "description_combined": "Humanoid robots\n\nDarwin is building general-purpose humanoid robots for real-world work. Our first robot, Darwin One, will learn from real-world experience and continuously improve as AI moves from the screen into the physical world. First deployments begin in early 2027.",
+    "industry_sub_vertical": "General-purpose humanoid robot platform for autonomous industrial labor automation",
+    "canonical_vertical_id": "industrials.robotics.general",
+    "vertical_id": "industrials.robotics.general",
+    "vertical_label": "General-purpose robotics intelligence",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "physical-ai-autonomous-systems",
+    "phenotype_primary_label": "Physical AI & Autonomous Manufacturing",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "embodied_control",
+    "ai_application_patterns": [
+      "embodied_learning",
+      "continuous_improvement",
+      "multi_task_autonomy",
+      "real_world_adaptation"
+    ],
+    "what_they_sell": "General-purpose humanoid robots (Darwin One) capable of autonomous execution of real-world work tasks with continuous learning from deployment experience.",
+    "ai_play": "AI enables the robot to learn from real-world interactions, improve task execution over time, and generalize across multiple work domains without explicit reprogramming. Foundation models + embodied learning allow the robot to adapt to novel environments and tasks autonomously.",
+    "who_pays": "Industrial operators, manufacturers, logistics companies, and commercial enterprises seeking to automate labor-intensive, dexterous, or hazardous work tasks.",
+    "confidence": 0.85,
+    "rationale": "Darwin is building hardware-centric autonomous systems where AI (embodied learning, continuous improvement, multi-task generalization) is the core differentiator enabling the robot to work autonomously in real-world environments. This is distinct from robotics-embodied-ai (which focuses on sensing, teleoperation, and hardware co-design) because Darwin's primary value is the autonomous execution capability powered by AI learning loops. physical-ai-autonomous-systems is the best fit: hardware-first, AI-driven autonomy, deployed for end-to-end task execution in manufacturing/commercial contexts. Secondary phenotype (ai-enabled-physical-systems) also applies because AI accelerates the robot's capability development and operational performance.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Machine Learning",
+      "Robotics",
+      "AI"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 455353,
+        "full_name": "Sergio Charles",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Building intelligent humanoid robots. Prev: AI R&D at Google X, NVIDIA, and Stanford AI Lab, working with Chelsea Finn on autonomous RL for robotics and Andrew Ng on computer vision. Stanford B.S. Math & CS, M.S. Stats.",
+        "linkedin_url": "https://www.linkedin.com/in/sergio-charles-5a8052134/",
+        "twitter_url": "https://x.com/eigentopology",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ba455346463b0d6acae18a8bcd3d2bba294bfdb5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALOVKOGH4%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172817Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDPutIchQleHSn5WlFKzR9DBk8iKeTHOhHC0Lv8QtEGpQIgUHFFz7VP0uIQLy3b9W1WNuiDPPA8i1%2BASZ%2BFlS7JBZMq5QMIShAAGgwwMDYyMDE4MTEwNzIiDLQhVe5yDZrtOPzO8SrCA4lB0kp10lWzmW21QzKXmnb%2B0Q5gwYHrwMkiVAIFUkHrE6vKyev0mbFLVuMGpGCdQy%2BqTNalNsNGGIxeg6ws6CN5EEYRzSBVUjgzIceq02%2BJYcCUP3S0Q1LcnT8Auykdffo9JqGg8Q1HEAyD%2FVThpwkvXFddE4RsEtr8i8WBFLKXdy3MGuA75l5lpVnIss42xyd2y%2BJGDlB9AxwMsNWCXxDVr%2BX8Fb8hcMJ1C8kyP8sMKqhteBea1199gMOIWlpzzKRN1wvKAu%2Ft1ZerH1tWQu4Kbj3D%2Bsvz5IY1AMu5jldcFXT1%2Bso%2Fev0bABqyPnlUrWHBOV5xRTjFefGehPcOnO0hz%2BAfek5WEbaLZ1H7dSZE2K5pF9%2BFYtoX8HQgMw3qwbO8M9cNluUioMmJ3TE2Guyn1SZZS9bSAOOHBG7KqXvGNC2pxLkC4w5iWNDCFLwB4kZjl0CKSHjUjBzvR6SqBN1mAI9Ay5fB%2FxGdRBrBvKV2kJ2unPo%2B1fFUZUz%2F5eFwcXEXAPp71NoAG6TtKVHXsZVimvHVT4q0yochqugZzHxd%2BQ3ALMIn0%2BQ4ZJV5NeAsMCF6f5s7D1vF9OuQTlxTAzfdcDDr3rXVBjqlAfvrk%2Fq0F8xQ36STj8DGfsydG4edEBWiC1G4h%2B0krUa9jIE1MPwvRhKJ9j1BhgfjbujCoCytLi9Aw47DAK%2Bs2%2B2UpyMNIEOFJCAuyqUyMJNML6LnlHsXl70npWIWpE72vi%2F2bVc2kG7UdTRuc2x3X2MS8NawAv6PNzlXdRtL1Z7L0Wk0L5NWmHlt4g24OQj%2B%2FXiDsWPS9USP48L%2BKqQhSb%2BKnyE1Pw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=51de1d2fc137d0b97dcef3b67e59c447d996c05fb863d7491fcd05f71344951f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Darwin",
+          "href": "https://www.ycombinator.com/companies/darwin"
+        }
+      },
+      {
+        "user_id": 1021038,
+        "full_name": "Luigi Charles",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Building Westworld. Previously founded a fintech payments startup, scaling volume from zero to billions. Columbia CS & Math.",
+        "linkedin_url": "https://www.linkedin.com/in/luigicharles",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ca6e645d2ffabef7f901b4d6e1aec82d02f81657.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALOVKOGH4%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172817Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDPutIchQleHSn5WlFKzR9DBk8iKeTHOhHC0Lv8QtEGpQIgUHFFz7VP0uIQLy3b9W1WNuiDPPA8i1%2BASZ%2BFlS7JBZMq5QMIShAAGgwwMDYyMDE4MTEwNzIiDLQhVe5yDZrtOPzO8SrCA4lB0kp10lWzmW21QzKXmnb%2B0Q5gwYHrwMkiVAIFUkHrE6vKyev0mbFLVuMGpGCdQy%2BqTNalNsNGGIxeg6ws6CN5EEYRzSBVUjgzIceq02%2BJYcCUP3S0Q1LcnT8Auykdffo9JqGg8Q1HEAyD%2FVThpwkvXFddE4RsEtr8i8WBFLKXdy3MGuA75l5lpVnIss42xyd2y%2BJGDlB9AxwMsNWCXxDVr%2BX8Fb8hcMJ1C8kyP8sMKqhteBea1199gMOIWlpzzKRN1wvKAu%2Ft1ZerH1tWQu4Kbj3D%2Bsvz5IY1AMu5jldcFXT1%2Bso%2Fev0bABqyPnlUrWHBOV5xRTjFefGehPcOnO0hz%2BAfek5WEbaLZ1H7dSZE2K5pF9%2BFYtoX8HQgMw3qwbO8M9cNluUioMmJ3TE2Guyn1SZZS9bSAOOHBG7KqXvGNC2pxLkC4w5iWNDCFLwB4kZjl0CKSHjUjBzvR6SqBN1mAI9Ay5fB%2FxGdRBrBvKV2kJ2unPo%2B1fFUZUz%2F5eFwcXEXAPp71NoAG6TtKVHXsZVimvHVT4q0yochqugZzHxd%2BQ3ALMIn0%2BQ4ZJV5NeAsMCF6f5s7D1vF9OuQTlxTAzfdcDDr3rXVBjqlAfvrk%2Fq0F8xQ36STj8DGfsydG4edEBWiC1G4h%2B0krUa9jIE1MPwvRhKJ9j1BhgfjbujCoCytLi9Aw47DAK%2Bs2%2B2UpyMNIEOFJCAuyqUyMJNML6LnlHsXl70npWIWpE72vi%2F2bVc2kG7UdTRuc2x3X2MS8NawAv6PNzlXdRtL1Z7L0Wk0L5NWmHlt4g24OQj%2B%2FXiDsWPS9USP48L%2BKqQhSb%2BKnyE1Pw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e7273f46974a624ee1b2293d47db857fb04b658cedcc0cb3c7df1f77c9ba6daa",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Darwin",
+          "href": "https://www.ycombinator.com/companies/darwin"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-18T17:28:25.056Z",
+    "classified_at": "2026-09-18T17:28:25.056Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
+  },
+  {
     "slug": "datafruit",
     "name": "Datafruit",
     "website": "https://datafruit.ai/",
@@ -27407,7 +27739,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/dreamscale-labs",
     "batch": "Fall 2026",
     "one_liner": "Running robot brains in the cloud",
-    "description_combined": "Running robot brains in the cloud\n\nDreamscale Labs is building the fastest cloud inference platform for robotics. As complex physical AI models become difficult to fit on expensive on-robot GPUs, we let users offload inference to the cloud and serve them with real-time latency. So far, we&#x27;ve hit 40-50% lower latency than existing neoclouds.\r\n",
+    "description_combined": "Running robot brains in the cloud\n\nDreamscale Labs is building the fastest cloud inference platform for robotics. As complex physical AI models become difficult to fit on expensive on-robot GPUs, we let users offload inference to the cloud and serve them with real-time latency. So far, we&#x27;ve hit 40-50% lower latency than existing neoclouds.\r\n\n\nThe fastest cloud inference platform for robotics.\n\nTL;DR: We're 40-50% faster than existing cloud providers in serving frontier robot AI models, e.g. DreamZero, MolmoAct2.\n\n\n\n\\[1x speed, autonomous\\]\n\nDSL is building the fastest cloud inference platform for robotics. We let you deploy physical AI without needing expensive local GPUs.\n\nRobot foundation models are growing more and more computationally expensive. The latest frontier of robotics no longer fits feasibly on local GPUs. Compute costs keep soaring amidst a global LPDDR shortage; NVIDIA just doubled the prices of Jetsons in July.\n\nWe're taking a contrarian bet that the future is moving inference _off the robot_ and _into the cloud._\n\n\n\nHow do we do this? We work across the full stack of robot inference to push latency down:\n\n* Model-level architectural adjustments for faster infere",
     "industry_sub_vertical": "Cloud inference platform for robotics AI model offloading",
     "canonical_vertical_id": "industrials.robotics.general",
     "vertical_id": "industrials.robotics.general",
@@ -27510,6 +27842,12 @@
     "directory_synced_at": "2026-09-05T16:31:35.695Z",
     "classified_at": "2026-09-05T16:31:35.695Z",
     "proposed_phenotype": null,
+    "launch_id": 115448,
+    "launch_url": "https://www.ycombinator.com/launches/U24-dreamscale-labs-running-robot-brains-in-the-cloud",
+    "launch_title": "Dreamscale Labs: Running robot brains in the cloud",
+    "launch_created_at": "2026-09-17T23:00:00.159Z",
+    "launch_tagline": "The fastest cloud inference platform for robotics.",
+    "launch_evaluated_at": "2026-09-18T17:30:05.281Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -40115,6 +40453,55 @@
     "primary_bm": "BM-05"
   },
   {
+    "slug": "hybrd",
+    "name": "HYBRD",
+    "website": "https://www.hybrd.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/hybrd",
+    "batch": "Fall 2024",
+    "one_liner": "Connect wearables, understand training history, send plans to smartwatches",
+    "description_combined": "Connect wearables, understand training history, send plans to smartwatches\n\nLifters, runners, triathletes, cyclists: you can now turn your personal AI agent into a fitness coach with HYBRD. Once you connect to the HYBRD MCP, your AI agent will be able to: \n\n* Access and understand all your historical training data\n* Use that data to make workouts and training plans\n* Push those recommendations to your device (watch and/or phone) so you can execute the workouts\n\nTo get set up, just paste this into Claude / Muse / Instinct: \n\nset up  \n\nMillions of athletes already build training plans inside their favorite AI tool. But those tools have no access to wearable data, no memory from one session to the next, and no way to get a workout from the chat window onto an athlete's watch. HYBRD MCP closes that gap.\n\nThe first thing you should try with HYBRD MCP is to ask something like: \n\n* Across all my runs, when did I have the best ratio between grade adjusted pace and heart rate?\n* What was my most consistent phase ever? \n* What was the difference between my Napa Marathon prep and Boston Marathon prep?\n\nThen have it write you a training plan for your next goal: \n\n* Using the workouts I did most consistently, come up with a plan for Ironman California\n* Help me ramp back up to what I used to lift while maintaining my running volume\n* I’m traveling and will only have access to hotel gyms for a while, modify my current training plan\n\nHYBRD will write those workouts back to your wearable and phone, so you just have to click “start” and you’ll get guided through the ",
+    "industry_sub_vertical": "Athlete training plan generation & wearable device sync",
+    "canonical_vertical_id": "productivity.habit-tracking-routine",
+    "vertical_id": "productivity.habit-tracking-routine",
+    "vertical_label": "Habit tracking & routine building",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer AI Application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "personal_assistant",
+    "ai_application_patterns": [
+      "rag",
+      "wearable_integration",
+      "personalized_coaching",
+      "agentic_planning"
+    ],
+    "what_they_sell": "MCP (Model Context Protocol) integration layer that connects wearables (smartwatches, fitness trackers) to AI agents (Claude, Muse, Instinct), enabling athletes to query historical training data, generate personalized workout plans, and push those plans back to their devices for execution.",
+    "ai_play": "HYBRD acts as a data bridge and agentic planning layer. It gives AI agents access to an athlete's complete training history (runs, lifts, cycling, etc.) via RAG, enabling the agent to understand patterns, answer comparative questions about performance, and generate contextually-aware training plans. The agent then writes those plans back to wearables, closing the loop from chat to execution. AI replaces manual plan-building and eliminates context loss between sessions.",
+    "who_pays": "Individual athletes (lifters, runners, triathletes, cyclists) who use AI tools (Claude, Muse, Instinct) and own wearables. Freemium or subscription model likely.",
+    "confidence": 0.82,
+    "rationale": "HYBRD is a consumer-facing AI application that enhances personal productivity and fitness outcomes. It fits consumer-ai-app because: (1) end-user facing (athletes, not B2B); (2) AI is the core value (agents can now understand training context and plan autonomously); (3) wearable integration is the distribution moat, not technical lock-in; (4) monetized via subscription or freemium. Secondary consideration: could be agent-context-data (wearable data enrichment API), but HYBRD is selling the end-user experience, not the API to developers. The MCP is the delivery mechanism, not the product. Confidence is high (0.82) because the phenotype is clear, but slightly reduced because HYBRD's long-term positioning (B2B API vs. consumer app) is not yet fully defined.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-10"
+    ],
+    "launch_id": 115915,
+    "launch_url": "https://www.ycombinator.com/launches/U9b-hybrd-turn-your-ai-agent-into-a-fitness-coach",
+    "launch_title": "HYBRD: turn your AI agent into a fitness coach",
+    "launch_created_at": "2026-09-17T20:41:16.655Z",
+    "launch_tagline": "Connect wearables, understand training history, send plans to smartwatches",
+    "launch_ingested_at": "2026-09-18T17:30:05.282Z",
+    "classified_at": "2026-09-18T17:30:05.282Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-10"
+  },
+  {
     "slug": "hyper-4",
     "name": "Hyper",
     "website": "https://heyhyper.ai",
@@ -41337,6 +41724,89 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.92,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "inflection-space-systems",
+    "name": "Inflection Space Systems",
+    "website": "https://inflection-space.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/inflection-space-systems",
+    "batch": "Fall 2026",
+    "one_liner": "Hyperscaling space manufacturing",
+    "description_combined": "Hyperscaling space manufacturing\n\nInflection is building the industrial capacity to manufacture tens of thousands of spacecraft per year for next generation commercial and government space applications. Imagine a factory that looks like an Amazon fulfillment center instead of a NASA clean room.",
+    "industry_sub_vertical": "Hyperscaled spacecraft manufacturing and satellite production",
+    "canonical_vertical_id": "industrials.aviation.space",
+    "vertical_id": "industrials.aviation.space",
+    "vertical_label": "Space & satellite systems",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-enabled physical infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "manufacturing_automation",
+      "production_optimization",
+      "supply_chain_coordination"
+    ],
+    "what_they_sell": "Hyperscaled spacecraft manufacturing capacity and operational infrastructure — tens of thousands of satellites per year using factory automation, robotics, and AI-driven production control instead of traditional aerospace clean-room processes.",
+    "ai_play": "AI optimizes manufacturing precision, production scheduling, quality control, and supply-chain coordination across high-volume satellite assembly lines. AI enables real-time defect detection, robotic arm coordination, inventory management, and predictive maintenance — transforming aerospace from low-volume, high-touch to high-volume, software-controlled production.",
+    "who_pays": "Commercial space operators (satellite constellation companies), government/defense agencies (space force, DoD), and telecom/infrastructure providers seeking satellite capacity.",
+    "confidence": 0.78,
+    "rationale": "Inflection is a physical manufacturing company where AI is a critical enabler of the core value proposition: hyperscaling spacecraft production. The company's competitive moat is operational execution (factory design, robotics, automation, supply chain) accelerated by AI-driven manufacturing control and optimization. This fits ai-enabled-physical-systems: the physical system (satellite factory) is the product; AI dramatically improves R&D cycles, production efficiency, and operational performance. Not a pure robotics play (robotics-embodied-ai) because the value is the manufactured output (satellites), not the robots themselves. Not a vertical workflow agent because they are not selling software to other manufacturers — they ARE the manufacturer executing the work.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Aviation and Space"
+    ],
+    "yc_tags": [
+      "Satellites",
+      "Manufacturing",
+      "Defense"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": null,
+    "location": "Los Angeles, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2135107,
+        "full_name": "Alex Lisso",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder of Inflection Space Systems. Background in spacecraft engineering spanning design, manufacturing, test, and operations. LEO, GEO, and Lunar orbits. Millennium Space Systems, Rocket Lab, Planet Labs, and Interlune. Likes sci-fi, powerlifting, and the beach. Hail libertas!",
+        "linkedin_url": "https://www.linkedin.com/in/alexander-lisso-1bbb99b8",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6c8ade6ac64de453d61f765a8bc2f1038f4e8e99.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOLYWNM4N%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172859Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCUXMep584XfOKRsv2mjL%2FeUbAhjeAOamEfMahQPKtMlAIhAKWCRlwwcNUZg%2FVQKXIilXoB2ynOcci8uXoiFpzDczRRKuUDCEoQABoMMDA2MjAxODExMDcyIgyIebzLrGdtpMPblbcqwgM%2FH99y%2FLTmmzk1b5JTySsce1t9xaSvDEgWvAFtLZNlmQBQ4JBKOA9OBOnnQcHSAbfYibzKZqKMOiAdOnOr1b6wlx17eux8UcnGkrpna1wNKWvlHuVWZyHJfZjhEJsd0tOAO%2FJXPsMI94vC0m%2Fff1E61GW5kx90Cvae5Qr%2B%2FcREC7Nvh7rrZCtUaXioOf2%2B6absXVkMbMOy2SWi%2BP%2FtUvF4Y8doZFYhp82wvnKKH4%2BrRtTfND5%2B6jZdrHreXic71j9RPRQBlAQVV8YEeulkJ7sUnNNB9IAo0zf4zcDyXQdx8ERKDGvF7GCtJiv7Jwf0OiZ2rMxyZZq%2BvhSXLg7BifoXA9QL9ZN7JjDOKHbRyJ%2Bcj1HiZE1DmedEbEAvyHDd85vx7q5nwR0UEVmMK%2B62a1%2FZ%2FpY6ldy2xIbv7E8qVrC8mvekWiPvcmy1x0WEwcXuIIQftd%2FbXlzS0QQA6C9bcaZgmjaru9nI7n6Hp9N1TSeMioc7ovQPXCKRLc6vL%2BkRwL0u9XNKSdKVdiCgmurL1VsO1Cy1vagFwNJlAHfwvDac2NjjHb73XgJHBReDh2kbqhAmu%2FWerNvpne3ZeVjuViAr3iAw6d611QY6pAEIkbMjznfl5FOjXMeeYAMzMGQyANQPLgjU7k2QxoW9uanPTIh4vVe7lsd62BOEPsOzW7ky4wqAyEkFRnD8snwPC4p4qcN7cWsSr5SrJBhGvhm5%2Bdu9CsIulmolLs%2FB6H%2BBTRQe1O2GnA0k%2FJPwkwOp0s0DbUCUEr2K9cZw2usegmMh7%2FrcEiGkFDe%2BWfYfoXphiEPEuD7NNzpi%2ByWKKew8oXEKUA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7265ab135af8899be8785e867703929d42fb6f65f51cd02d41e3e7c883d70f3a",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Inflection Space Systems",
+          "href": "https://www.ycombinator.com/companies/inflection-space-systems"
+        }
+      },
+      {
+        "user_id": 2951855,
+        "full_name": "Matt Hanley",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Matt is the co-founder and CTO of Inflection Space Systems. \n\nBefore Inflection, Matt was at Loft Orbital helping them scale up their satellite integration and test by implementing new technologies and automation. Before that, he spent 4 years at Rocket Lab building out their space systems division, most notably shepherding the Lunar Photon spacecraft to the Moon. \n\nMatt holds a BS and MS degree in Mechanical Engineering from the University of Colorado Boulder.",
+        "linkedin_url": "https://www.linkedin.com/in/matthewdhanley/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/653a11856978788cdb05d518409fc3503bec6de3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOLYWNM4N%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172859Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCUXMep584XfOKRsv2mjL%2FeUbAhjeAOamEfMahQPKtMlAIhAKWCRlwwcNUZg%2FVQKXIilXoB2ynOcci8uXoiFpzDczRRKuUDCEoQABoMMDA2MjAxODExMDcyIgyIebzLrGdtpMPblbcqwgM%2FH99y%2FLTmmzk1b5JTySsce1t9xaSvDEgWvAFtLZNlmQBQ4JBKOA9OBOnnQcHSAbfYibzKZqKMOiAdOnOr1b6wlx17eux8UcnGkrpna1wNKWvlHuVWZyHJfZjhEJsd0tOAO%2FJXPsMI94vC0m%2Fff1E61GW5kx90Cvae5Qr%2B%2FcREC7Nvh7rrZCtUaXioOf2%2B6absXVkMbMOy2SWi%2BP%2FtUvF4Y8doZFYhp82wvnKKH4%2BrRtTfND5%2B6jZdrHreXic71j9RPRQBlAQVV8YEeulkJ7sUnNNB9IAo0zf4zcDyXQdx8ERKDGvF7GCtJiv7Jwf0OiZ2rMxyZZq%2BvhSXLg7BifoXA9QL9ZN7JjDOKHbRyJ%2Bcj1HiZE1DmedEbEAvyHDd85vx7q5nwR0UEVmMK%2B62a1%2FZ%2FpY6ldy2xIbv7E8qVrC8mvekWiPvcmy1x0WEwcXuIIQftd%2FbXlzS0QQA6C9bcaZgmjaru9nI7n6Hp9N1TSeMioc7ovQPXCKRLc6vL%2BkRwL0u9XNKSdKVdiCgmurL1VsO1Cy1vagFwNJlAHfwvDac2NjjHb73XgJHBReDh2kbqhAmu%2FWerNvpne3ZeVjuViAr3iAw6d611QY6pAEIkbMjznfl5FOjXMeeYAMzMGQyANQPLgjU7k2QxoW9uanPTIh4vVe7lsd62BOEPsOzW7ky4wqAyEkFRnD8snwPC4p4qcN7cWsSr5SrJBhGvhm5%2Bdu9CsIulmolLs%2FB6H%2BBTRQe1O2GnA0k%2FJPwkwOp0s0DbUCUEr2K9cZw2usegmMh7%2FrcEiGkFDe%2BWfYfoXphiEPEuD7NNzpi%2ByWKKew8oXEKUA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e5256441c3ce4f96d9d0bcacb67ba2ae1c01d5c3cfc6c00da9b615fe2fb8f4c3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Inflection Space Systems",
+          "href": "https://www.ycombinator.com/companies/inflection-space-systems"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-18T17:29:07.795Z",
+    "classified_at": "2026-09-18T17:29:07.795Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "inkbox",
@@ -42607,6 +43077,90 @@
     },
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical",
+    "primary_bm": "BM-08"
+  },
+  {
+    "slug": "invertix",
+    "name": "Invertix",
+    "website": "https://www.invertix.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/invertix",
+    "batch": "Fall 2026",
+    "one_liner": "Energy Superintelligence, AI that runs energy operations.",
+    "description_combined": "Energy Superintelligence, AI that runs energy operations.\n\nThe next constraint is not intelligence, it is the energy cost of running it.\r\nWe deploy custom AI models inside energy companies that ingest SCADA data, work orders, and grid topology,  operational data no public model has seen, grounded in physics-informed neural networks and differentiable grid simulators. \r\nThis creates a flywheel: more operator data → better process understanding → more efficient operations → cheaper energy → cheaper AI → more deployment → more data. \r\n\r\nhttps://www.youtube.com/watch?v=0uDH6pMn5OE\r\n\r\nAI compute doubles every 2.2 years. Data center demand grows from 415 to 945 TWh by 2030. Without near-zero energy cost, AI remains limited by human infrastructure. We are the layer that runs AI at zero energy cost.\r\nEnergy is a $10 trillion market. The infrastructure layer doesn&#x27;t exist yet. \r\nWe are building it.",
+    "industry_sub_vertical": "Grid operations optimization & real-time SCADA-driven dispatch",
+    "canonical_vertical_id": "energy.power.grid",
+    "vertical_id": "energy.power.grid",
+    "vertical_label": "Power grid & energy infrastructure",
+    "vertical_sector_id": "energy-climate",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "operational_efficiency",
+    "ai_application": "real_time_optimization",
+    "ai_application_patterns": [
+      "physics_informed_neural_networks",
+      "scada_data_ingestion",
+      "grid_simulation_optimization",
+      "energy_cost_reduction"
+    ],
+    "what_they_sell": "Custom AI models deployed on-premise inside energy companies that ingest SCADA data, work orders, and grid topology to optimize energy operations in real-time. Models are grounded in physics-informed neural networks and differentiable grid simulators trained on proprietary operational data.",
+    "ai_play": "AI dramatically accelerates energy operations efficiency and reduces computational cost of running AI itself by optimizing grid dispatch, demand forecasting, and equipment maintenance. Creates a flywheel: operational data → better process understanding → more efficient operations → cheaper energy → cheaper AI compute → more deployment.",
+    "who_pays": "Energy companies (utilities, grid operators, solar/renewable operators, data centers) seeking to optimize operational efficiency and reduce energy costs.",
+    "confidence": 0.78,
+    "rationale": "Invertix is building AI-enabled physical infrastructure where the core value is optimizing energy grid operations and reducing AI compute costs. Primary phenotype is ai-enabled-physical-systems because the company's core offering is AI that accelerates design optimization and autonomous operational control of physical energy infrastructure (grids, solar, data centers). Secondary phenotype is infrastructure-optimization-ai because they're embedding AI into the operational layer to maximize throughput, minimize latency, and adapt to variable conditions in real-time. The physics-informed neural networks and differentiable simulators are domain-specific technical moats. Not vertical-workflow-agent (they're not selling software tools to energy operators; they're deploying embedded AI that runs operations autonomously). Not fintech/regulated-product (no financial SKU). Confidence 0.78 due to clear physical infrastructure + AI optimization fit, though the 'infrastructure layer' positioning suggests potential future pivot toward horizontal energy-AI platform.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Energy"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Generative AI",
+      "Solar Power"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 8,
+    "location": "Munich, BY, Germany",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2057026,
+        "full_name": "Joseph Perrotta",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Invertix (YC F26). Ex pro volleyball player, at 18 sold more than $17M of houses, Previously at Cubbit, where he helped raise over $25M. Studied Economics and AI and dropped out.",
+        "linkedin_url": "https://www.linkedin.com/in/joseph-perrottaa",
+        "twitter_url": "https://x.com/josephperrotta_?s=11",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f8641de9ffc4afcdcb7fbf52dc6729833d31b658.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACM7P3N34%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172834Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHKhzuX0HZa%2BE6kI6tb4MkYtbtXk6aQtkyGs6R5qkOm%2BAiB%2BeM8T7dJQUyDwgBQfs41wBNz6gZntgeiuRYX6%2BckYjSrlAwhKEAAaDDAwNjIwMTgxMTA3MiIM0ynaJie%2B8PZ6hH14KsIDzH2G2lD%2B5glVCBkcdnaW9VIUbCHLUE%2FovMt53T%2F8ePcfnBkeTFhNxJwb2T%2Fq%2FHtz0DMpk%2FolmvymCuIPYCQzlHP8Gx7LHHTe62SECOPSdZ%2BmJJsPfiyE4kBhDhMDNZHF440XztK%2BqmRY6%2BBD8npvna29x0YYWmQkIywLvEkh7nU9fxBKjX4J0fHX%2FCswBcQNYR%2FgaO6W0aQo9Llv3BzgxMzev69ltgG16cUH2Wbrzg6yjYVn1WPjMKGfk8vfqjrU1MYXcklH%2B5p9Yr10th9l21Mik%2B9HnlaWPsXe%2FiZdGyswzdd%2B%2BklFm20J4AZxY9DohBxdwGXN9UxriGetS%2BvfP1ZsiwD9WrCKqJyLVbEOM%2BIWOh%2BKFQCRvwe5xDmmemJ73EV8xfK8Fi67%2BBx1oLMIekL152FByRhyMbD77URmhl4ClO27YXXFHiAB8hmG5nhWQAzNbC%2FfXBEsjyGf1vImbZ9BvgSGvyx3UU8u8upVjlPyLKFxZl%2FGIyR6uBdNDRwoTaf6ZRBOSNj%2FatimtvB4V6j6oP8wJQUbHqR4aEANfikMWfLBnWhABOxANkJHiPiPp2FVDbJje8V4TzX%2BPpbTarfqMOnetdUGOqYBpehmgAZeRXxQ%2F9wUWCnGQcystvO5HVehbY0%2BSGmrzpkHf33z0cu2boV94oAqztF5tPPt4%2FjmIf7AwtSKcFfZ0OUtYMeReC%2BoFe51PbKNf8Cmb9OKR0%2FObzD%2BRGUlB0N5wGCIIpcpbPyn3p8qpeVwJQcRRc2QQPPM3HYzTq0MrckevuS8yitRo10Lq22vUjTYe1xT2zgQYuDrjLBhPcUri7f8oA6rOw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=151e0d06b751bee301b58211556441293ee1504ea95bef312c0fb214732346f9",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Invertix",
+          "href": "https://www.ycombinator.com/companies/invertix"
+        }
+      },
+      {
+        "user_id": 2234234,
+        "full_name": "Kaan Durmaz",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder & CTO at Invertix. Previously worked in computer vision, differential privacy and ai for chemistry. ",
+        "linkedin_url": "https://www.linkedin.com/in/kdurmaz/",
+        "twitter_url": "https://x.com/kdurmazx",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/10d5b8de02bf9f107b54e83c71a918e7f3a4fee5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACM7P3N34%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172834Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHKhzuX0HZa%2BE6kI6tb4MkYtbtXk6aQtkyGs6R5qkOm%2BAiB%2BeM8T7dJQUyDwgBQfs41wBNz6gZntgeiuRYX6%2BckYjSrlAwhKEAAaDDAwNjIwMTgxMTA3MiIM0ynaJie%2B8PZ6hH14KsIDzH2G2lD%2B5glVCBkcdnaW9VIUbCHLUE%2FovMt53T%2F8ePcfnBkeTFhNxJwb2T%2Fq%2FHtz0DMpk%2FolmvymCuIPYCQzlHP8Gx7LHHTe62SECOPSdZ%2BmJJsPfiyE4kBhDhMDNZHF440XztK%2BqmRY6%2BBD8npvna29x0YYWmQkIywLvEkh7nU9fxBKjX4J0fHX%2FCswBcQNYR%2FgaO6W0aQo9Llv3BzgxMzev69ltgG16cUH2Wbrzg6yjYVn1WPjMKGfk8vfqjrU1MYXcklH%2B5p9Yr10th9l21Mik%2B9HnlaWPsXe%2FiZdGyswzdd%2B%2BklFm20J4AZxY9DohBxdwGXN9UxriGetS%2BvfP1ZsiwD9WrCKqJyLVbEOM%2BIWOh%2BKFQCRvwe5xDmmemJ73EV8xfK8Fi67%2BBx1oLMIekL152FByRhyMbD77URmhl4ClO27YXXFHiAB8hmG5nhWQAzNbC%2FfXBEsjyGf1vImbZ9BvgSGvyx3UU8u8upVjlPyLKFxZl%2FGIyR6uBdNDRwoTaf6ZRBOSNj%2FatimtvB4V6j6oP8wJQUbHqR4aEANfikMWfLBnWhABOxANkJHiPiPp2FVDbJje8V4TzX%2BPpbTarfqMOnetdUGOqYBpehmgAZeRXxQ%2F9wUWCnGQcystvO5HVehbY0%2BSGmrzpkHf33z0cu2boV94oAqztF5tPPt4%2FjmIf7AwtSKcFfZ0OUtYMeReC%2BoFe51PbKNf8Cmb9OKR0%2FObzD%2BRGUlB0N5wGCIIpcpbPyn3p8qpeVwJQcRRc2QQPPM3HYzTq0MrckevuS8yitRo10Lq22vUjTYe1xT2zgQYuDrjLBhPcUri7f8oA6rOw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=46c7942a3cb9b45f9de9f0c3be6341e6a5085004aa69e1f06128218bbce97177",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Invertix",
+          "href": "https://www.ycombinator.com/companies/invertix"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-18T17:28:42.871Z",
+    "classified_at": "2026-09-18T17:28:42.871Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-08"
   },
   {
@@ -53386,6 +53940,55 @@
     "primary_bm": "BM-04"
   },
   {
+    "slug": "memorable",
+    "name": "Memorable",
+    "website": "https://www.memorable.sh/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/memorable",
+    "batch": "Summer 2027",
+    "one_liner": "Memorable gives AI agents procedural memory so they stop re-deriving the same workflow every time — cutting tool calls 60% and latency 40%.",
+    "description_combined": "Memorable gives AI agents procedural memory so they stop re-deriving the same workflow every time — cutting tool calls 60% and latency 40%.\n\n# _| TL;DR:_ Memorable records the tool calls an agent made to run a task, reuses that workflow on similar tasks instead of re-deriving through reasoning from scratch. –60% tool calls, –40% latency.\n\n\n\nMemorable turns agent reasoning into a graph search problem.\n\n1. We capture your agents' traces and store them as a lightweight graph.\n2. When a similar prompt arrives, we extrapolate a workflow with a graph search.\n3. We inject a short pointer (50 to 100 tokens) into the prompt.\n\n\n\n# So the agent runs deterministically instead of re-deriving a plan every. single. time.\n\n### _Forget tokenmaxxing._\n\nWe're graph-first and anti-text so you SAVE time, tokens, and money.\n\n* –60% tool calls and –40% latency on QM's benchmarks\n* –20% turns in Gbrain bench, ran GStack’s /investigate skill with –98% tokens\n\nDo your agents need procedural memory?\n\n* Memorable is for anyone running agents that do the same work more than once.\n* We've built for coding, support, ops, research, company brain, and browser/computer-use agents.\n* If you find yourself repeatedly having to correct or guide your agents, they need procedural memory!\n\n### Imagine a world where your agents don’t reason.\n\n* Most agent memory layers store facts using text: preferences, docs, past chats, while Memorable stores procedures: the steps an agent takes to achieve an outcome.\n* We are able to encode this graphically using nodes and edges, making it incredibly agent-friendly and token-efficient, allowing most agents to skip the",
+    "industry_sub_vertical": "Agent procedural memory & execution trace optimization",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent runtime / harness / orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "procedural_memory",
+      "workflow_caching",
+      "token_optimization",
+      "latency_reduction"
+    ],
+    "what_they_sell": "A procedural memory layer for AI agents that captures and reuses agent execution traces (tool call sequences) as lightweight graphs. When similar tasks arrive, the system injects a short workflow pointer (50-100 tokens) instead of forcing agents to re-derive plans from scratch.",
+    "ai_play": "Memorable optimizes agent execution by converting reasoning into graph search. Instead of agents re-deriving workflows via LLM reasoning every time, they retrieve and reuse proven execution paths from past traces. This cuts tool calls by ~60%, latency by ~40%, and token consumption by up to 98% on specific benchmarks — enabling agents to run deterministically and efficiently at scale.",
+    "who_pays": "AI platform teams, agent builders, and enterprises deploying multi-turn agentic workflows (coding, support, ops, research, browser automation). Buyers are engineering leads optimizing agent cost and latency.",
+    "confidence": 0.78,
+    "rationale": "Memorable is agent infrastructure that optimizes runtime execution and cost. Primary fit is agent-runtime-infra (orchestration, reliability, cost optimization for agents). Secondary fit is model-optimization-rl (using past execution data to improve future agent behavior without retraining). The core value is reducing token spend and latency through procedural memory — a cost/performance optimization layer for existing agent systems. Not a new phenotype needed; fits cleanly into the agent infrastructure family as a specialized optimization wedge.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "launch_id": 115489,
+    "launch_url": "https://www.ycombinator.com/launches/U2j-memorable-graph-procedural-memory-for-ai-agents-stop-re-teaching-your-agents",
+    "launch_title": "Memorable: graph procedural memory for AI agents. Stop re-teaching your agents!",
+    "launch_created_at": "2026-09-17T19:00:00.406Z",
+    "launch_tagline": "Memorable gives AI agents procedural memory so they stop re-deriving the same workflow every time — cutting tool calls 60% and latency 40%.",
+    "launch_ingested_at": "2026-09-18T17:30:05.282Z",
+    "classified_at": "2026-09-18T17:30:05.282Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "memory-store",
     "name": "Memory Store",
     "website": "https://memory.store",
@@ -54084,6 +54687,72 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-08"
+  },
+  {
+    "slug": "method",
+    "name": "Method",
+    "website": "https://withmethod.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/method",
+    "batch": "Spring 2025",
+    "one_liner": "Agents that improve",
+    "description_combined": "Agents that improve\n\nMethod turns repeated work into workflows your coding agent can run, check, and improve.",
+    "industry_sub_vertical": "Developer workflow automation & agent integration infrastructure",
+    "canonical_vertical_id": "enterprise.devtools.productivity",
+    "vertical_id": "enterprise.devtools.productivity",
+    "vertical_label": "Developer productivity & engineering tools",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-workflow-abstraction-infra",
+    "phenotype_primary_label": "Agent Workflow Abstraction Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "workflow_conversion",
+    "ai_application": "workflow_to_api_abstraction",
+    "ai_application_patterns": [
+      "workflow_capture",
+      "agent_tooling",
+      "continuous_improvement"
+    ],
+    "what_they_sell": "Developer-facing infrastructure that converts repeated manual workflows into autonomous agent-executable operations. Agents can run, validate, and iteratively improve workflows without custom integration.",
+    "ai_play": "AI agents learn and abstract human workflows into reliable, reusable operations. The platform enables agents to capture workflow patterns, execute them autonomously, and self-improve through feedback loops.",
+    "who_pays": "Engineering teams, platform builders, and developers deploying agentic systems who need to convert legacy or manual processes into agent-native operations.",
+    "confidence": 0.75,
+    "rationale": "Method's core value is converting 'repeated work into workflows your coding agent can run, check, and improve' — this is workflow abstraction and conversion for agent consumption. The phenotype agent-workflow-abstraction-infra (Libretto-like) is the closest fit: it converts human-driven workflows into agent-executable APIs/operations. Secondary signals: developer GTM (B2B, engineering focus), continuous improvement loop (agents learn and refine), and agent tooling. Not a vertical SaaS (no industry focus), not a copilot (not seat-based productivity), not observability (not tracing/evals). Confidence 0.75 due to limited public detail on exact execution model, but the 'workflow → agent operation' abstraction is clear.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 1,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2429328,
+        "full_name": "Ryan Prendergast",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder, Method\n\nryan-prendergast.com",
+        "linkedin_url": "https://www.linkedin.com/in/rprendergast",
+        "twitter_url": "https://x.com/ryan_prend",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/34c9e5ae3595f9871f6ab130895036b907dec89f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKFWQ5P2W%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172809Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBXmTXcqHG5qyTdzqp%2B1MiHRx0ithSE66b2oiAzCyO5YAiEA5Dwx6%2FghiurUOigIThC%2BvEh%2FL9UpRPxm9NvqYtO4Vp8q5QMIShAAGgwwMDYyMDE4MTEwNzIiDI%2F3F03HhlOdNR%2BjdirCAzC6qVuMObRVDLPkFSmxdzfCfGZ4%2Ft%2BW6nN223dxKbQ7wGEZmZgNwDwU5ghX5GXmcrlqyB4VKJkW5%2BnUeGYzesQMRCb2C1mhXtCLbPc8hrxh%2FlByWJeuaxfYCjZDL1EofH7YxR9puznXoMNSI89POpD5HDATBXYT8Dj627ZkuOuxNY4RLHDyYkSgZObPjzhtYTsnFsx9nl8xe2yF%2BEiISH1OCzDUFmIJLfXU5LE9dyw8S3gIgqiGyfmelIdYPx9NVeM9jvx4bhD7Mqm%2FaPowBhbv33rvE8Rx5T4vXR3YODLIKvH1%2BbjwQYJ9K9Imnl%2B7o%2FeGdj91C%2BzSju7ew5fczW30Uhgpd6gU6wfJTq01kec6wubZy1SDyaMhxjJwGJgnSKeAyqFSXrC%2FGWaDQwK0ZEIZlo8%2BqbKiaf3jJVkED4wm9KkssyUKMasnrgzNPjTr0NN42671OG8DJI1HWBqpJG%2F%2Bpk7mk72RNIAV%2F%2FwX%2F5OLFmOEt0FAZzosuYDwZ9WyFQbo3ZpIDi6CyBj2GjvworkooWzAJse3o6FsDKK87nUXzeA5X%2BidgkB7%2FNO7oZGdkSwmTI6vt88fOIkUETBY4c%2B%2BnTDp3rXVBjqlAavJIhhxrpHuQpen%2BN%2FrqeT4V1gVrOn6pINjAPeUofymbFt7CpS08iwt3DGQhI6EO8O6QMmUX%2By4v6a1K1HoE3CxklASdJu0nLAFnXJrd6nnQDDesnardgLwDyhBQ9HjYpcU4R3oxHWRrdBBOr2eE3gRHKLYpA%2Bn7HMpKP4NnderCJLK6RshMBWTak2EcBmMBJDmd4%2FXAfCQkrHS8s3E02txdUEojg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d666e6fdcdb02657ca835fd41050be70804eac05df1719cdb714d53629ce20fe",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Method",
+          "href": "https://www.ycombinator.com/companies/method"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-18T17:28:17.141Z",
+    "classified_at": "2026-09-18T17:28:17.141Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 0.55,
+    "vertical_normalize_method": "yc_subindustry_default",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "metis",
@@ -77615,6 +78284,88 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "rivereditor",
+    "name": "River",
+    "website": "https://meetriver.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/rivereditor",
+    "batch": "Fall 2026",
+    "one_liner": "The AI desktop.",
+    "description_combined": "The AI desktop.\n\nAI made software engineers 100x more productive. We&#x27;re bringing that same transformation to knowledge workers with the AI desktop.",
+    "industry_sub_vertical": "Knowledge worker productivity and task automation for analysts, managers, and researchers",
+    "canonical_vertical_id": "enterprise.ops.knowledge",
+    "vertical_id": "enterprise.ops.knowledge",
+    "vertical_label": "Enterprise knowledge management",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "horizontal-copilot-saas",
+    "phenotype_primary_label": "Horizontal copilot / productivity SaaS",
+    "phenotype_family": "horizontal_saas",
+    "value_wedge": "productivity_multiplier",
+    "ai_application": "copilot_assistant",
+    "ai_application_patterns": [
+      "agentic_desktop_automation",
+      "cross_domain_workflow_assistance",
+      "knowledge_worker_augmentation"
+    ],
+    "what_they_sell": "An AI-native desktop environment that augments knowledge workers (analysts, managers, researchers, etc.) with autonomous AI agents capable of executing multi-step tasks, integrating with existing tools, and automating routine cognitive work.",
+    "ai_play": "Extends the productivity gains that AI brought to software engineers (via Copilot, etc.) to non-technical knowledge workers by embedding agentic AI into the desktop itself. AI agents learn workflows, parse documents, integrate with SaaS tools, and execute tasks autonomously—reducing manual effort and context-switching.",
+    "who_pays": "Knowledge workers and their employers (seat-based SaaS subscription); buyers are productivity/operations teams and individual contributors seeking efficiency gains.",
+    "confidence": 0.75,
+    "rationale": "River positions itself as 'the AI desktop'—a horizontal, cross-industry productivity tool that brings AI-driven automation to knowledge workers broadly (not vertical-specific). This aligns with horizontal-copilot-saas: seat-based, cross-industry, productivity-focused. The 'AI desktop' framing suggests agentic capabilities (task automation, tool integration) beyond simple copilot chat, but the core value proposition remains horizontal productivity augmentation. Secondary consideration: could trend toward agent-runtime-infra if the product becomes a platform for building/deploying agents, but current positioning is end-user-facing SaaS.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Productivity"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Productivity"
+    ],
+    "business_models": [
+      "BM-02"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 40803,
+        "full_name": "Brian Joseff",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at River (YC F26). Previously founder at Bedrock (2020-2023). Neuroscience researcher at Stanford School of Medicine. Founding team at Progressly (acquired by Box). BA Economics from Dartmouth. Semi-pro soccer stint.",
+        "linkedin_url": "https://linkedin.com/in/brianjoseff",
+        "twitter_url": "HTTPS://x.com/brianjoseff",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dda43679e799220dfe3472916cbb05518bf99736.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKFWQ5P2W%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172851Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBXmTXcqHG5qyTdzqp%2B1MiHRx0ithSE66b2oiAzCyO5YAiEA5Dwx6%2FghiurUOigIThC%2BvEh%2FL9UpRPxm9NvqYtO4Vp8q5QMIShAAGgwwMDYyMDE4MTEwNzIiDI%2F3F03HhlOdNR%2BjdirCAzC6qVuMObRVDLPkFSmxdzfCfGZ4%2Ft%2BW6nN223dxKbQ7wGEZmZgNwDwU5ghX5GXmcrlqyB4VKJkW5%2BnUeGYzesQMRCb2C1mhXtCLbPc8hrxh%2FlByWJeuaxfYCjZDL1EofH7YxR9puznXoMNSI89POpD5HDATBXYT8Dj627ZkuOuxNY4RLHDyYkSgZObPjzhtYTsnFsx9nl8xe2yF%2BEiISH1OCzDUFmIJLfXU5LE9dyw8S3gIgqiGyfmelIdYPx9NVeM9jvx4bhD7Mqm%2FaPowBhbv33rvE8Rx5T4vXR3YODLIKvH1%2BbjwQYJ9K9Imnl%2B7o%2FeGdj91C%2BzSju7ew5fczW30Uhgpd6gU6wfJTq01kec6wubZy1SDyaMhxjJwGJgnSKeAyqFSXrC%2FGWaDQwK0ZEIZlo8%2BqbKiaf3jJVkED4wm9KkssyUKMasnrgzNPjTr0NN42671OG8DJI1HWBqpJG%2F%2Bpk7mk72RNIAV%2F%2FwX%2F5OLFmOEt0FAZzosuYDwZ9WyFQbo3ZpIDi6CyBj2GjvworkooWzAJse3o6FsDKK87nUXzeA5X%2BidgkB7%2FNO7oZGdkSwmTI6vt88fOIkUETBY4c%2B%2BnTDp3rXVBjqlAavJIhhxrpHuQpen%2BN%2FrqeT4V1gVrOn6pINjAPeUofymbFt7CpS08iwt3DGQhI6EO8O6QMmUX%2By4v6a1K1HoE3CxklASdJu0nLAFnXJrd6nnQDDesnardgLwDyhBQ9HjYpcU4R3oxHWRrdBBOr2eE3gRHKLYpA%2Bn7HMpKP4NnderCJLK6RshMBWTak2EcBmMBJDmd4%2FXAfCQkrHS8s3E02txdUEojg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=dbfb2ca2be05d018a3817e9187c48aa24bfb87a6c3b028f0788e03dbc65ad7e0",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "River",
+          "href": "https://www.ycombinator.com/companies/rivereditor"
+        }
+      },
+      {
+        "user_id": 956498,
+        "full_name": "Chandler Supple",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder @ River (YC F26). Prev. SWE @ Roboflow (YC S20), Z Fellows, co-founder @ Outwork, UC Berkeley CS dropout",
+        "linkedin_url": "https://www.linkedin.com/in/chandlersupple/",
+        "twitter_url": "https://x.com/ChandlerSupple",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bdfc1d7c9ed5c7eb723f80e791714b8a6686d043.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKFWQ5P2W%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172851Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBXmTXcqHG5qyTdzqp%2B1MiHRx0ithSE66b2oiAzCyO5YAiEA5Dwx6%2FghiurUOigIThC%2BvEh%2FL9UpRPxm9NvqYtO4Vp8q5QMIShAAGgwwMDYyMDE4MTEwNzIiDI%2F3F03HhlOdNR%2BjdirCAzC6qVuMObRVDLPkFSmxdzfCfGZ4%2Ft%2BW6nN223dxKbQ7wGEZmZgNwDwU5ghX5GXmcrlqyB4VKJkW5%2BnUeGYzesQMRCb2C1mhXtCLbPc8hrxh%2FlByWJeuaxfYCjZDL1EofH7YxR9puznXoMNSI89POpD5HDATBXYT8Dj627ZkuOuxNY4RLHDyYkSgZObPjzhtYTsnFsx9nl8xe2yF%2BEiISH1OCzDUFmIJLfXU5LE9dyw8S3gIgqiGyfmelIdYPx9NVeM9jvx4bhD7Mqm%2FaPowBhbv33rvE8Rx5T4vXR3YODLIKvH1%2BbjwQYJ9K9Imnl%2B7o%2FeGdj91C%2BzSju7ew5fczW30Uhgpd6gU6wfJTq01kec6wubZy1SDyaMhxjJwGJgnSKeAyqFSXrC%2FGWaDQwK0ZEIZlo8%2BqbKiaf3jJVkED4wm9KkssyUKMasnrgzNPjTr0NN42671OG8DJI1HWBqpJG%2F%2Bpk7mk72RNIAV%2F%2FwX%2F5OLFmOEt0FAZzosuYDwZ9WyFQbo3ZpIDi6CyBj2GjvworkooWzAJse3o6FsDKK87nUXzeA5X%2BidgkB7%2FNO7oZGdkSwmTI6vt88fOIkUETBY4c%2B%2BnTDp3rXVBjqlAavJIhhxrpHuQpen%2BN%2FrqeT4V1gVrOn6pINjAPeUofymbFt7CpS08iwt3DGQhI6EO8O6QMmUX%2By4v6a1K1HoE3CxklASdJu0nLAFnXJrd6nnQDDesnardgLwDyhBQ9HjYpcU4R3oxHWRrdBBOr2eE3gRHKLYpA%2Bn7HMpKP4NnderCJLK6RshMBWTak2EcBmMBJDmd4%2FXAfCQkrHS8s3E02txdUEojg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=76694b195188177682cdfe0b85c1b718832042ce239bae3414613c21475d9578",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "River",
+          "href": "https://www.ycombinator.com/companies/rivereditor"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-18T17:28:59.317Z",
+    "classified_at": "2026-09-18T17:28:59.317Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-02"
+  },
+  {
     "slug": "rivet-design",
     "name": "Rivet",
     "website": "https://rivet.design/",
@@ -82998,6 +83749,90 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-08"
+  },
+  {
+    "slug": "sintropix",
+    "name": "Sintropix",
+    "website": "https://sintropix.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/sintropix",
+    "batch": "Fall 2026",
+    "one_liner": "Autonomous accounting platform for global companies",
+    "description_combined": "Autonomous accounting platform for global companies\n\nAutonomous accounting platform for global companies. We close your books and give you financial clarity while you run your business. ",
+    "industry_sub_vertical": "Autonomous financial close & accounting operations for global enterprises",
+    "canonical_vertical_id": "enterprise.finance.accounting",
+    "vertical_id": "enterprise.finance.accounting",
+    "vertical_label": "Finance & accounting automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "autonomous_accounting_agents",
+      "financial_close_automation",
+      "multi_entity_reconciliation",
+      "journal_entry_generation"
+    ],
+    "what_they_sell": "End-user-facing SaaS platform deploying autonomous AI agents to automate the financial close process for global companies. Agents handle journal entries, reconciliations, consolidations, and book closing without manual intervention.",
+    "ai_play": "AI agents autonomously execute accounting workflows (transaction matching, account reconciliation, period-end close, multi-entity consolidation) that traditionally require scarce, expensive accountants. Agents integrate with ERPs and GL systems, learn company-specific accounting policies, and execute close cycles end-to-end with audit trails.",
+    "who_pays": "CFOs, controllers, and accounting operations teams at mid-market and enterprise companies with complex, multi-entity accounting needs.",
+    "confidence": 0.82,
+    "rationale": "Sintropix is a vertical SaaS deploying autonomous AI agents to replace manual accounting labor in the financial close function. This is a classic vertical-agentic-workflow-saas play: end-user-facing product (not infrastructure), vertical focus (accounting), autonomous agent execution (not copilot), and high switching cost via ERP integration and domain expertise. The company sells the finished product to accounting teams, not tools to enable other vendors. Confidence is high (0.82) because the positioning is clear, but slightly discounted because we lack detail on agent autonomy level and integration breadth.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Finance and Accounting"
+    ],
+    "yc_tags": [
+      "Fintech",
+      "B2B",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "Santiago, Santiago Metropolitan Region, Chile",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3532201,
+        "full_name": "Alfonso Márquez de la Plata",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-Founder & CEO at Sintropix (YC F26). Previously Director of Product at Toku (YC S21).",
+        "linkedin_url": "https://www.linkedin.com/in/alfonsompm",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b44cf936bcc27e5dd7a8ffe91e48539d896afadd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALLSUSJNH%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172825Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH8YoP6mPWig5i0Ek5JUti1b%2FuOAC9vS93rbrvx%2FJ1GZAiEAoOJmLQtGsESKm1PQoEsdJ6a2F4KF%2BRhn8DxahDFypVMq5QMIShAAGgwwMDYyMDE4MTEwNzIiDHPV%2BJTbZichWeYuTirCA4RAUlA8t98ZBm%2FkFQOkbUOmqMa6sgIeG1lDAiT2YOFINM247SyWhQmnPEIJwiP03R54B76nt06BHRRRPIyIZFHbCTcojZgf80Ufb0Ud4t4v%2FYMbO0ZeA5%2BXiM2FlHJRshGskltdoVC2fWlcaUYN8TsvIFgZYUpu2uJ0XFeq%2F72%2BONEoi1cDSYIt%2FA0FZSYETv6dxr4W2mrLGoh3bhsqm9ptuW9Ti%2BvnGwvFMZxrYrmoY%2F8dRw9PYprc9qjTFM9xcTPeNE3eWP5%2BVmfLRqyr4BxF6IQ8aXByy1pPE3O6n5duTqf%2BPlbUSibuiAb6oUn5OP7Bsy8vT7DrK4TbpLLUMXzwEaDjPeobdVjHwbA6DXmVmLgmjeSUDxDw76dvWPqnITtlvwixC4n7WCd13RY9uGDmLDCEhDB8PVGde5QjCgmAtkXBsF191%2FSyrUSVitAYlmr6cAlNSA8fWfvBdS4x2uWAnQH6%2BAx%2BvYxHbDde1q2a%2FYfNOSpWHAMpNjAIkxRI63DkNCI4w3dFqJnP8vEETvM2fbrlN4zKprg%2B4vwMV0Q7cfRo4nVLggMs7MOaqMkfBx8ZkLJNdRtosAmPl09cc5AQcDDq3rXVBjqlAXmaDXq7dsdCs0WaXM5VFOudid8sHsJ16%2B7vtB86I%2BSZ8QHd6E6WVOYor%2FPdmDYouJxw6hFkyop%2Bzsu9dThvr5T0HJuJyFEMD4idVPfF9Q%2BhiLKMEgHMeVHKUNQXFqULuKffL6CWAE%2FEYbSGa0XT%2BJ2mSiJGcBZz4uhXr2bXm5g9zB38Gec4D00WjPcjr9Tlhm7tdMoLzUDYoa3XL0LNxKsaSSpTMw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=010a29d7b3788ebbfe4fb52a6966f51768e24741ac2ca160b4d2c8626aaa6f8c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sintropix",
+          "href": "https://www.ycombinator.com/companies/sintropix"
+        }
+      },
+      {
+        "user_id": 3665700,
+        "full_name": "Borja Marquez de la Plata",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-Founder/CTO at Sintropix (YC F26).",
+        "linkedin_url": "https://www.linkedin.com/in/borja-marquez-de-la-plata-873a43220",
+        "twitter_url": "https://x.com/BorjaMpm",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/767076b4677e04e4118458f6c5ea35dd12c6dd45.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALLSUSJNH%2F20260918%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260918T172825Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH8YoP6mPWig5i0Ek5JUti1b%2FuOAC9vS93rbrvx%2FJ1GZAiEAoOJmLQtGsESKm1PQoEsdJ6a2F4KF%2BRhn8DxahDFypVMq5QMIShAAGgwwMDYyMDE4MTEwNzIiDHPV%2BJTbZichWeYuTirCA4RAUlA8t98ZBm%2FkFQOkbUOmqMa6sgIeG1lDAiT2YOFINM247SyWhQmnPEIJwiP03R54B76nt06BHRRRPIyIZFHbCTcojZgf80Ufb0Ud4t4v%2FYMbO0ZeA5%2BXiM2FlHJRshGskltdoVC2fWlcaUYN8TsvIFgZYUpu2uJ0XFeq%2F72%2BONEoi1cDSYIt%2FA0FZSYETv6dxr4W2mrLGoh3bhsqm9ptuW9Ti%2BvnGwvFMZxrYrmoY%2F8dRw9PYprc9qjTFM9xcTPeNE3eWP5%2BVmfLRqyr4BxF6IQ8aXByy1pPE3O6n5duTqf%2BPlbUSibuiAb6oUn5OP7Bsy8vT7DrK4TbpLLUMXzwEaDjPeobdVjHwbA6DXmVmLgmjeSUDxDw76dvWPqnITtlvwixC4n7WCd13RY9uGDmLDCEhDB8PVGde5QjCgmAtkXBsF191%2FSyrUSVitAYlmr6cAlNSA8fWfvBdS4x2uWAnQH6%2BAx%2BvYxHbDde1q2a%2FYfNOSpWHAMpNjAIkxRI63DkNCI4w3dFqJnP8vEETvM2fbrlN4zKprg%2B4vwMV0Q7cfRo4nVLggMs7MOaqMkfBx8ZkLJNdRtosAmPl09cc5AQcDDq3rXVBjqlAXmaDXq7dsdCs0WaXM5VFOudid8sHsJ16%2B7vtB86I%2BSZ8QHd6E6WVOYor%2FPdmDYouJxw6hFkyop%2Bzsu9dThvr5T0HJuJyFEMD4idVPfF9Q%2BhiLKMEgHMeVHKUNQXFqULuKffL6CWAE%2FEYbSGa0XT%2BJ2mSiJGcBZz4uhXr2bXm5g9zB38Gec4D00WjPcjr9Tlhm7tdMoLzUDYoa3XL0LNxKsaSSpTMw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=53f49102e2b6784a5282b7ba2599d4368b75fe163e0d08e39460e0f749fff1df",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sintropix",
+          "href": "https://www.ycombinator.com/companies/sintropix"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-18T17:28:33.865Z",
+    "classified_at": "2026-09-18T17:28:33.865Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "sira",

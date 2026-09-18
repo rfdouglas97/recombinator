@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-17T17:57:20.849Z",
+  "generated_at": "2026-09-18T17:30:06.078Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1466,
+    "assignment_count": 1477,
     "mapped_verticals": 244,
     "observed_cells": 482,
     "total_verticals": 525,
@@ -22,6 +22,7 @@
         "21st",
         "agent-37",
         "agent-fm",
+        "agent-relay",
         "agentmail",
         "akon-labs",
         "amika",
@@ -63,6 +64,7 @@
         "lucidic-ai",
         "machine0",
         "maritime",
+        "memorable",
         "metis",
         "metorial",
         "minicor",
@@ -228,6 +230,7 @@
         "aviro",
         "cajal-technologies",
         "cartpole",
+        "cashew-labs",
         "coarena",
         "coverage-cat",
         "cuebench",
@@ -330,6 +333,38 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "6thsense",
+        "almond-2",
+        "congruent",
+        "cosmic-robotics",
+        "darwin",
+        "edgerun",
+        "efference",
+        "general-trajectory",
+        "inloop-robotics",
+        "intelligence-factory",
+        "lambda-robotics",
+        "lightberry",
+        "neuromorphic",
+        "noril1",
+        "os3",
+        "pave-robotics",
+        "piggy-robotics",
+        "proception-inc",
+        "proprio-robotics",
+        "servo7",
+        "shepherd-robotics",
+        "verne-robotics",
+        "waddle-labs"
+      ]
+    },
+    {
       "business_model": "BM-10",
       "business_model_label": "Consumer app / prosumer",
       "vertical_id": "consumer.productivity.personal",
@@ -361,37 +396,6 @@
       ]
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "6thsense",
-        "almond-2",
-        "congruent",
-        "cosmic-robotics",
-        "edgerun",
-        "efference",
-        "general-trajectory",
-        "inloop-robotics",
-        "intelligence-factory",
-        "lambda-robotics",
-        "lightberry",
-        "neuromorphic",
-        "noril1",
-        "os3",
-        "pave-robotics",
-        "piggy-robotics",
-        "proception-inc",
-        "proprio-robotics",
-        "servo7",
-        "shepherd-robotics",
-        "verne-robotics",
-        "waddle-labs"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.finance.accounting",
@@ -416,6 +420,7 @@
         "procindex",
         "rational",
         "saldor",
+        "sintropix",
         "tally-2",
         "zalos",
         "zomma"
@@ -554,6 +559,7 @@
       "vertical_label": "Supply chain & procurement operations",
       "sector_id": "transportation-logistics",
       "companies": [
+        "applied-kinetics",
         "bizmark",
         "comena",
         "haladir",
@@ -568,6 +574,29 @@
         "spaceflow-technologies-inc",
         "waybill",
         "whitespace"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.aviation.space",
+      "vertical_label": "Space & satellite systems",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "beyond-reach-labs",
+        "daivin",
+        "dispatch",
+        "ethos-space-resources",
+        "exosat",
+        "galactic-resource-utilization-space-inc-gru-space",
+        "generalastro",
+        "inflection-space-systems",
+        "instinct",
+        "instinct-space",
+        "orca-aerospace",
+        "pacific",
+        "reditus-space",
+        "wardstone"
       ]
     },
     {
@@ -590,28 +619,6 @@
         "rivet-design",
         "syntropy",
         "velum-labs"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.aviation.space",
-      "vertical_label": "Space & satellite systems",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "beyond-reach-labs",
-        "daivin",
-        "dispatch",
-        "ethos-space-resources",
-        "exosat",
-        "galactic-resource-utilization-space-inc-gru-space",
-        "generalastro",
-        "instinct",
-        "instinct-space",
-        "orca-aerospace",
-        "pacific",
-        "reditus-space",
-        "wardstone"
       ]
     },
     {
@@ -821,6 +828,25 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "gbrainio",
+        "gini",
+        "human-behavior",
+        "joindex",
+        "logical",
+        "opentag",
+        "pally",
+        "rivereditor",
+        "sentient-os",
+        "stamp"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "marketing.content-ops",
@@ -858,6 +884,24 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "enterprise.devtools.productivity",
+      "vertical_label": "Developer productivity & engineering tools",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "atlasgrid",
+        "hardware-intelligence",
+        "method",
+        "pgdog",
+        "scott-ai",
+        "shortkit",
+        "sourcebot",
+        "superglue",
+        "weave-3"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.ops.knowledge",
@@ -873,24 +917,6 @@
         "leeroo",
         "librar-labs",
         "slashy"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.ops.knowledge",
-      "vertical_label": "Enterprise knowledge management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "gbrainio",
-        "gini",
-        "human-behavior",
-        "joindex",
-        "logical",
-        "opentag",
-        "pally",
-        "sentient-os",
-        "stamp"
       ]
     },
     {
@@ -926,23 +952,6 @@
         "roark",
         "sazabi",
         "uselemma"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "atlasgrid",
-        "hardware-intelligence",
-        "pgdog",
-        "scott-ai",
-        "shortkit",
-        "sourcebot",
-        "superglue",
-        "weave-3"
       ]
     },
     {
@@ -1835,6 +1844,18 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "energy.power.grid",
+      "vertical_label": "Power grid & energy infrastructure",
+      "sector_id": "energy-climate",
+      "companies": [
+        "invertix",
+        "marengo",
+        "micora"
+      ]
+    },
+    {
       "business_model": "BM-10",
       "business_model_label": "Consumer app / prosumer",
       "vertical_id": "enterprise.devtools.productivity",
@@ -2475,17 +2496,6 @@
       ]
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "energy.power.grid",
-      "vertical_label": "Power grid & energy infrastructure",
-      "sector_id": "energy-climate",
-      "companies": [
-        "marengo",
-        "micora"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.finance.order-to-cash",
@@ -3033,6 +3043,17 @@
       "companies": [
         "unifold",
         "zavo"
+      ]
+    },
+    {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "productivity.habit-tracking-routine",
+      "vertical_label": "Habit tracking & routine building",
+      "sector_id": "consumer",
+      "companies": [
+        "hybrd",
+        "napkin-math"
       ]
     },
     {
@@ -5384,16 +5405,6 @@
       "sector_id": "energy-climate",
       "companies": [
         "condor-energy"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "productivity.habit-tracking-routine",
-      "vertical_label": "Habit tracking & routine building",
-      "sector_id": "consumer",
-      "companies": [
-        "napkin-math"
       ]
     },
     {
