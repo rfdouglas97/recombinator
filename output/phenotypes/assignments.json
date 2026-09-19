@@ -42759,6 +42759,71 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "kailash-labs",
+    "name": "Kailash Labs",
+    "website": "https://www.kailashlabs.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/kailash-labs",
+    "batch": "Fall 2026",
+    "one_liner": "A factory for small and specialized video reasoning models",
+    "description_combined": "A factory for small and specialized video reasoning models\n\nThe world generates petabytes of video every day, and almost none of it is readable to machines.  Frontier VLMs that can unlock this (like Gemini) are too expensive to run at the volume real industries have, too generic for any single task, and can&#x27;t be deployed on-prem where sensitive video lives.\r\n\r\nWe are building an auto vision factory: take video plus a customer&#x27;s objective, distill a frontier model, and post-train a small open model that is SOTA on that one task and serve it blazingly fast. Our first product, Marlin, is a 2B-parameter open-weights video VLM that matches Gemini-2.5-flash on dense captioning and temporal grounding at a fraction of the cost. ",
+    "industry_sub_vertical": "Video model distillation & on-prem edge inference optimization",
+    "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_label": "GPU infrastructure for model deployment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "foundation-model-domain-infrastructure",
+    "phenotype_primary_label": "Domain-Specific Foundation Models as Infrastructure",
+    "phenotype_family": "ai_infrastructure",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "model_distillation",
+      "video_reasoning",
+      "edge_deployment",
+      "task_specialization"
+    ],
+    "what_they_sell": "Specialized, distilled video reasoning models (small, open-weights, task-optimized) deployed on-prem or edge. Auto-distillation pipeline that takes customer video + objective, fine-tunes frontier VLM knowledge into a 2B-parameter SOTA model for that specific task (e.g., dense captioning, temporal grounding). First product: Marlin, a 2B video VLM matching Gemini-2.5-flash performance at fraction of cost.",
+    "ai_play": "Knowledge distillation from frontier models (Gemini, etc.) into specialized, deployable, cost-efficient models. Solves the 'frontier model too expensive / too generic / can't deploy on-prem' problem for video-heavy industries. AI is the core product: model optimization, task-specific fine-tuning, and inference acceleration.",
+    "who_pays": "Enterprises with large video datasets requiring on-prem or edge inference (security, manufacturing, autonomous systems, media, healthcare imaging). Buyers: ML/data engineering teams, infrastructure teams.",
+    "confidence": 0.78,
+    "rationale": "Kailash Labs is building specialized foundation models (video VLMs) trained/distilled for specific domains and tasks, then serving them as reusable inference infrastructure. This maps to foundation-model-domain-infrastructure (domain-specific models as SaaS/licensing infra) + edge-inference-runtime (on-prem, edge-optimized deployment). Primary phenotype is foundation-model-domain-infrastructure because the core value is the learned, distilled model itself (video reasoning expertise compressed into 2B params). Secondary is edge-inference-runtime because deployment efficiency and on-prem capability are critical differentiators. Not vertical-workflow-agent (they're not automating a workflow for a specific vertical); not agent-runtime-infra (not orchestrating agents). Confidence 0.78 because the model distillation + edge deployment angle is clear, but the go-to-market (SaaS licensing vs. one-time model sales vs. managed service) is not fully specified in the description.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Analytics"
+    ],
+    "yc_tags": [
+      "Deep Learning",
+      "Edge Computing Semiconductors"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "Bengaluru, KA, India",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2326582,
+        "full_name": "shubham sharma",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Kailash Labs. Previously visiting researcher at KAIST working on robot learning and long-term memory for decision-making agents. Published at NeurIPS (spotlight) on offline RL during research at Tsinghua. Aerospace Engineering from IIT Bombay.",
+        "linkedin_url": "https://www.linkedin.com/in/shubh-am-sharma/",
+        "twitter_url": "https://x.com/happyypablo?s=11",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b9159802a0bf905460372aec0622850ce7fa0e26.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFW2WF5HP%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T170014Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHsA9y0%2BBniHr2ZDVmUJJw%2BYvhZmTO3OrlvXFAeszscbAiEAy4%2BHQRKLgmomTfL7CJ%2BVelh5nrVVdoEzWcg2fUTv1rEq5QMIXRAAGgwwMDYyMDE4MTEwNzIiDMbuPpnjm4ySdDQfiirCAyDEDTG1J96feNRsUBw0qE4nqHyq52EZOjlogo9DgL%2Bdc5svvvAKa%2FdGlV%2Bv9tkn4fIZeJAjswOvANwKsh617ynbvzE%2Fq7t2rk3fc6TUe2GuT3rE8CHQerftu2PPyT1GrVvX8aOnycsub%2B2thKOiscsSDao%2Fxqn1wGb18bmZz3jJpFaJSt%2Bsyyyk%2F4Uew38NICxDOJ%2FH2RXzm1K809JXRqqoSNvXv9R%2Fw%2FiN0WJ2PhmWz%2B14Zg5Yj6ERCkHUVykPEXIubksdzQ8CN%2Bxr%2B9DysZOa2E9eUdlvK3aEphXO410ReJq%2BdX262laTl9OQ4DaBrJRCm3F33YsiaZAMoq8HB2%2BFWcwc5ZjGqfBoer3FFTkwm3iOONjbXAxnqAKsWCtcDez9z22XqqxlQlIo89TdbRcjIKlU1ouBBPcv8foxAQBpfZUM95Hy37Q3N6Q2%2FVrTPitq1ZoIJiyfu2%2BF32mgIHES9QTkv7Dhu0mJoTd9MOCTE0Gm8gyR1ujj1OuSGhoEhfRn0uQS9a8CyWwI6lX0%2Bgsno5NqC%2FD9fsqTFb4uR0%2BoYA5l3diKBmAmMj0q%2BCpkhiIpHLVC4rcBzgqu3giwogoLXDCD87nVBjqlAZw1A8J2ipxqDZsJSFWaZM4Wq9F9JTrewiH7w6h4lTKp1nM%2F2OR8wosl8mAzSsfXYw8KfnOTPsi1Yl5GYEwzNykJt9LjtMfj5m9XwvxFzmWL7Ow3lnJF2S2bDK6yRlrR28S7sr8rJ2s75j4J%2BXSeUB9TYvKsXjaospxYwuVNhD9NgrVuw2gRIv5MUxCgprS7QUt73lUVOy2G%2B6GRbb0XsqGN2o%2FI4w%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=50475f570ce2b2c13a8e0448804d9f8f0f34d8e06bd2c6b4b357b213b3825998",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kailash Labs",
+          "href": "https://www.ycombinator.com/companies/kailash-labs"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-19T17:00:26.041Z",
+    "classified_at": "2026-09-19T17:00:26.041Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "kairos",
     "name": "Kairos",
     "website": "https://www.withkairos.co/",
@@ -79706,6 +79771,101 @@
     "launch_evaluated_at": "2026-08-13T14:56:08.460Z"
   },
   {
+    "slug": "shire-intelligence",
+    "name": "Shire Intelligence",
+    "website": "https://shireintelligence.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/shire-intelligence",
+    "batch": "Fall 2026",
+    "one_liner": "Shire uses CCTV to run restaurants in real time.",
+    "description_combined": "Shire uses CCTV to run restaurants in real time.\n\nShire is an AI floor manager for full-service restaurants, running on the cameras they already have. It sees what a great manager sees: a guest ready to order, a table waiting on the check, a four-top that needs clearing, a server that is double booked. Then it acts, alerting staff in the moment and seating each new party with the server who has room. A POS only knows what gets typed into it. Shire knows what is happening in the room, so wait-time quotes, staffing, and pricing run on real turn times.",
+    "industry_sub_vertical": "Full-service restaurant floor operations & autonomous server allocation",
+    "canonical_vertical_id": "hospitality.restaurant.ops",
+    "vertical_id": "hospitality.restaurant.ops",
+    "vertical_label": "Restaurant & food service operations",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "real_time_perception",
+      "agent_alerting",
+      "workflow_optimization",
+      "operational_intelligence"
+    ],
+    "what_they_sell": "AI floor manager SaaS that runs on existing restaurant CCTV to autonomously manage table operations, server allocation, guest seating, and order/payment workflows in real-time.",
+    "ai_play": "Computer vision + agentic reasoning replaces manual floor manager oversight. AI perceives table state (ready to order, waiting on check, needs clearing), server capacity (double-booked), and guest flow in real-time, then autonomously alerts staff and optimizes seating/routing. Enables dynamic wait-time quotes, staffing decisions, and pricing based on actual turn times rather than POS data alone.",
+    "who_pays": "Full-service restaurant operators (GMs, operations teams) seeking to reduce labor friction, improve table turns, and optimize server utilization without hiring additional floor managers.",
+    "confidence": 0.82,
+    "rationale": "Shire is a vertical SaaS product deployed to restaurants as end-users. The AI agents autonomously execute floor management workflows (seating, alerting, optimization) that would normally require a human manager. This is distinct from agent infrastructure (they don't sell the orchestration layer) and from horizontal copilots (highly vertical, restaurant-specific). The CCTV perception + agentic decision-making + real-time staff alerting fits the vertical-agentic-workflow-saas phenotype: autonomous agents replace or augment a specific job function (floor management) within a vertical (restaurants). High switching cost via operational integration and workflow learning.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Food and Beverage"
+    ],
+    "yc_tags": [
+      "Deep Learning",
+      "Food Tech"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 4,
+    "location": "Myrtle Beach, SC, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3074299,
+        "full_name": "Cameron Kuperman",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder @ Shire Intelligence",
+        "linkedin_url": "https://www.linkedin.com/in/cameron-kuperman",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/be63cc665b0c3fb3250323017c7c25d10b76a0e4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANU5UHQZK%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T165954Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDa3YtpcOBRL9CjvlXpIJZshkCdnPrkMohYIQ6CLf1GcgIgXx632wZUpKOAVD9OtGuF7Mmv9R9CiI8sLQ0gH3UvTuIq5QMIXxAAGgwwMDYyMDE4MTEwNzIiDF%2Bis%2BPTotRoqK3KPCrCA%2F5oRpVAsl8NX7VBuqJ8D0e4BiFmVW5yNA1oj0z%2FyveEOLefBM2LcK2hVKg9IcKh7EEPECbK3kntDcQ4weUQS6LcMPLUBJiRfUYN9dQqnQaE34%2BMxFCkQ%2FHhfJGUhwIpdbodU%2Fj45kZAsl5hNq3YS2kTJZQiclENUbaCHnORJYqe5veMgxzyRKveTczf5Ff6XYCogIMmxWEivJbwymwXffS%2F02Z0nvPPGItsWPVQJ%2B2qeR1gAxHv08xkoi3r%2FVdOJ%2BZtQaVnqivu6u3up0cKZ9cbCwAUGNa0eICk6KNBgPgjEZLJWXe5IK%2B43JmEC84%2BJWy%2FAoKDXBw0scG%2B7ydTn3hzf6dsUOuKuSJjf%2B4cCAHTwALpZ0aZuwhUOiZQkWmDf1HTFKMCrY6IcHgNUAxM2tnEc6XEtSEH60v%2BIYOXjn%2FRs0OcoIhblpOxeKo5TWeyLFiaVL9DdC1eRN509cpx%2BX%2Fi83YYZpADGw5oMtw%2F4sE%2F2xQTbLNh4WA1UdL%2B%2FTLtcz0V%2FjptNAKq8Qn%2F4BFa4ursKn53DYY%2BsX%2Fj%2Bm0Fvhj1%2B5NZxEl5irgQoVHVEEMM92Klz%2FIAtF8iyN0GoSxRojdQHDCms7rVBjqlAc24xjip7TjZkkW2Lo889ymIc5ys%2BpdPKaHqbjJAH2Ck3%2BbHUsp2i%2BbUz%2FgYctBPLCuEpNIeM4ruBfsAoKyIKBFENxpSaffQHSRXUy9jA16bvV63CFgf1vzqk4ySfGabM7hgYV5rkogPPgxMxWKBT%2FQVJWx2GwUmlP%2FZ4RzmYQUV6qh2%2BpwAk5YAIuNbgjpGWZWIpMZusqG750XPnXw2rC%2F7zyr%2FeA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a2b86e596e5a1ab6f58c15cfff8803a67d529179ac827a099bbc0c35d3cc5fcd",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Shire Intelligence",
+          "href": "https://www.ycombinator.com/companies/shire-intelligence"
+        }
+      },
+      {
+        "user_id": 3018981,
+        "full_name": "Harshith Guduru",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Shire Intelligence (YC F26). \n\nPrevious SWE intern @ Walmart Global Tech and Bastazo. Published RL cybersecurity research and Graph cancer research to Nature. Double major in CS and EE at Duke.",
+        "linkedin_url": "https://www.linkedin.com/in/harshith-guduru",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cd503a039ca9f2441428f76d5a005ba89a728d23.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANU5UHQZK%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T165954Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDa3YtpcOBRL9CjvlXpIJZshkCdnPrkMohYIQ6CLf1GcgIgXx632wZUpKOAVD9OtGuF7Mmv9R9CiI8sLQ0gH3UvTuIq5QMIXxAAGgwwMDYyMDE4MTEwNzIiDF%2Bis%2BPTotRoqK3KPCrCA%2F5oRpVAsl8NX7VBuqJ8D0e4BiFmVW5yNA1oj0z%2FyveEOLefBM2LcK2hVKg9IcKh7EEPECbK3kntDcQ4weUQS6LcMPLUBJiRfUYN9dQqnQaE34%2BMxFCkQ%2FHhfJGUhwIpdbodU%2Fj45kZAsl5hNq3YS2kTJZQiclENUbaCHnORJYqe5veMgxzyRKveTczf5Ff6XYCogIMmxWEivJbwymwXffS%2F02Z0nvPPGItsWPVQJ%2B2qeR1gAxHv08xkoi3r%2FVdOJ%2BZtQaVnqivu6u3up0cKZ9cbCwAUGNa0eICk6KNBgPgjEZLJWXe5IK%2B43JmEC84%2BJWy%2FAoKDXBw0scG%2B7ydTn3hzf6dsUOuKuSJjf%2B4cCAHTwALpZ0aZuwhUOiZQkWmDf1HTFKMCrY6IcHgNUAxM2tnEc6XEtSEH60v%2BIYOXjn%2FRs0OcoIhblpOxeKo5TWeyLFiaVL9DdC1eRN509cpx%2BX%2Fi83YYZpADGw5oMtw%2F4sE%2F2xQTbLNh4WA1UdL%2B%2FTLtcz0V%2FjptNAKq8Qn%2F4BFa4ursKn53DYY%2BsX%2Fj%2Bm0Fvhj1%2B5NZxEl5irgQoVHVEEMM92Klz%2FIAtF8iyN0GoSxRojdQHDCms7rVBjqlAc24xjip7TjZkkW2Lo889ymIc5ys%2BpdPKaHqbjJAH2Ck3%2BbHUsp2i%2BbUz%2FgYctBPLCuEpNIeM4ruBfsAoKyIKBFENxpSaffQHSRXUy9jA16bvV63CFgf1vzqk4ySfGabM7hgYV5rkogPPgxMxWKBT%2FQVJWx2GwUmlP%2FZ4RzmYQUV6qh2%2BpwAk5YAIuNbgjpGWZWIpMZusqG750XPnXw2rC%2F7zyr%2FeA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a230900f1594c359f93502c4ad8b87295b9b745eb068bed916efe95bafea5396",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Shire Intelligence",
+          "href": "https://www.ycombinator.com/companies/shire-intelligence"
+        }
+      },
+      {
+        "user_id": 3133566,
+        "full_name": "Alex Tabaku",
+        "title": "Founder/CFO",
+        "is_active": true,
+        "bio": "Founder @ Shire Intelligence",
+        "linkedin_url": "https://www.linkedin.com/in/alex-tabaku",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2d1f6273711d0c1ba4d6540113c81a3e255e9aca.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANU5UHQZK%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T165954Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDa3YtpcOBRL9CjvlXpIJZshkCdnPrkMohYIQ6CLf1GcgIgXx632wZUpKOAVD9OtGuF7Mmv9R9CiI8sLQ0gH3UvTuIq5QMIXxAAGgwwMDYyMDE4MTEwNzIiDF%2Bis%2BPTotRoqK3KPCrCA%2F5oRpVAsl8NX7VBuqJ8D0e4BiFmVW5yNA1oj0z%2FyveEOLefBM2LcK2hVKg9IcKh7EEPECbK3kntDcQ4weUQS6LcMPLUBJiRfUYN9dQqnQaE34%2BMxFCkQ%2FHhfJGUhwIpdbodU%2Fj45kZAsl5hNq3YS2kTJZQiclENUbaCHnORJYqe5veMgxzyRKveTczf5Ff6XYCogIMmxWEivJbwymwXffS%2F02Z0nvPPGItsWPVQJ%2B2qeR1gAxHv08xkoi3r%2FVdOJ%2BZtQaVnqivu6u3up0cKZ9cbCwAUGNa0eICk6KNBgPgjEZLJWXe5IK%2B43JmEC84%2BJWy%2FAoKDXBw0scG%2B7ydTn3hzf6dsUOuKuSJjf%2B4cCAHTwALpZ0aZuwhUOiZQkWmDf1HTFKMCrY6IcHgNUAxM2tnEc6XEtSEH60v%2BIYOXjn%2FRs0OcoIhblpOxeKo5TWeyLFiaVL9DdC1eRN509cpx%2BX%2Fi83YYZpADGw5oMtw%2F4sE%2F2xQTbLNh4WA1UdL%2B%2FTLtcz0V%2FjptNAKq8Qn%2F4BFa4ursKn53DYY%2BsX%2Fj%2Bm0Fvhj1%2B5NZxEl5irgQoVHVEEMM92Klz%2FIAtF8iyN0GoSxRojdQHDCms7rVBjqlAc24xjip7TjZkkW2Lo889ymIc5ys%2BpdPKaHqbjJAH2Ck3%2BbHUsp2i%2BbUz%2FgYctBPLCuEpNIeM4ruBfsAoKyIKBFENxpSaffQHSRXUy9jA16bvV63CFgf1vzqk4ySfGabM7hgYV5rkogPPgxMxWKBT%2FQVJWx2GwUmlP%2FZ4RzmYQUV6qh2%2BpwAk5YAIuNbgjpGWZWIpMZusqG750XPnXw2rC%2F7zyr%2FeA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=5f806e115d3d64091c95c27b6c10015c47fc2948ab361454c824fe1b758e64b3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Shire Intelligence",
+          "href": "https://www.ycombinator.com/companies/shire-intelligence"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-19T17:00:05.320Z",
+    "classified_at": "2026-09-19T17:00:05.320Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "shofo",
     "name": "Shofo",
     "website": "https://shofo.ai/",
@@ -84577,6 +84737,86 @@
     "primary_bm_rationale": "Stratum's primary value delivery is as government-critical infrastructure that replaces core adjudication workflows for permits, licenses, patents, and benefits claims—essential government functions—rather than as a vertical SaaS product sold to a commercial market.",
     "primary_bm_assigned_at": "2026-07-30T19:00:08.592Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "streamline-systems",
+    "name": "Streamline Systems",
+    "website": "https://streamlinesystems.ltd/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/streamline-systems",
+    "batch": "Fall 2026",
+    "one_liner": "Precision navigation for UAVs operating without GPS. ",
+    "description_combined": "Precision navigation for UAVs operating without GPS. \n\nStreamline Systems is building the replacement for GPS. \r\n\r\nSatellite positioning has become the single point of failure for almost every modern system, both military and civil. We&#x27;ve built the replacement. A drop-in module that integrates with existing Ardupilot, INAV and PX4 flight controllers, with demonstrated satellite-independent autonomous flight and GPS handoff. We&#x27;re currently working with commercial and military end users to deploy the capability.",
+    "industry_sub_vertical": "Defense drone & UAS GPS-independent navigation systems",
+    "canonical_vertical_id": "industrials.defense.drones",
+    "vertical_id": "industrials.defense.drones",
+    "vertical_label": "Defense drone & UAS operations",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "autonomous_navigation_control",
+    "ai_application_patterns": [
+      "inertial_navigation",
+      "sensor_fusion",
+      "autonomous_flight_control"
+    ],
+    "what_they_sell": "Drop-in navigation module for UAVs that enables autonomous flight without GPS dependency. Integrates with existing flight controllers (Ardupilot, INAV, PX4) and provides satellite-independent positioning, navigation, and handoff capabilities.",
+    "ai_play": "AI/ML-driven sensor fusion and inertial navigation algorithms that replace GPS-dependent positioning. The system likely uses neural networks or learned models to fuse IMU, compass, barometer, and other onboard sensors to maintain accurate position and heading estimates during GPS-denied operations. AI enables autonomous flight control without external positioning infrastructure.",
+    "who_pays": "Commercial and military UAV operators, defense contractors, autonomous delivery companies, and government agencies requiring GPS-independent autonomous systems.",
+    "confidence": 0.75,
+    "rationale": "Streamline Systems is building hardware-centric autonomous navigation technology where AI (sensor fusion, inertial navigation algorithms) is the core enabler of the physical capability. This fits ai-enabled-physical-systems: the primary value is the physical UAV system itself, but AI dramatically improves autonomous operation, reliability, and removes dependency on external infrastructure. Not robotics-embodied-ai (which focuses on embodied control and hardware co-design) but rather infrastructure optimization for autonomous systems. The company is selling a module/component that integrates into existing flight stacks, positioning it as infrastructure for autonomous UAV operations rather than a complete robotic platform.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Defense"
+    ],
+    "yc_tags": [
+      "Autonomous Delivery",
+      "Drones",
+      "Navigation"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2263217,
+        "full_name": "Gabriel Poraj",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Streamline Systems. Previously Senior Software Developer at Torus, a p2p protocol for AI agent swarms. Founded a content agency that scaled faceless creators to billions of views across 10 languages using custom Premiere Pro automation. Studying Aerospace/Information Engineering at Cambridge.",
+        "linkedin_url": "https://www.linkedin.com/in/gabriel-poraj-14b756246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dbf98b516cac723e95939bac13f5e3a3f12e5e30.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEEJKJGK2%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T170005Z&X-Amz-Expires=3048&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDwllH1CE1dFyxNrHMdVzAvZwekgtBGXH9lqFT0cQEpqwIhANow99yVH8SMZodbRNo9u56nF2oEbnxRgCSPqnOjCn2BKuUDCF0QABoMMDA2MjAxODExMDcyIgwzRh6akin7w2QsT8YqwgNNG%2FWkd0h677smAW3BoXKocb04kU9UCVR35krirWjMMryiH%2B1R2TFFNVkzV1ONU%2B7mE9TbvzVL2q7JuikTdBsvffiwwl0xVsxfayUYAU%2BvNw79nX99AqVUIyzlEbT4e%2BJTOYFXNI44AfrZ1sEVDLjnf5qlb8Pi7gOhAT1JMN%2FxNbADORtnMKvBEUftCZ1tN8K1Q0%2F5Cfbq%2B%2FVdRPqihIzfQx8ZymN6be7YUnyLBgh3Dq46HEWzk98qM7EVh6ZhiMdp82V68YFmTeTcR5OaYl70FmRFI5S%2FZJUsSTjf5ckDJ8LladAo75ZAZAHYhyFysP1uSIxQtzqm7iWQyNY6%2FBgxUw49%2BoDZNUNxrKIarHP%2BfF7vyvGrDxsLOOfX6fNg9sk6xs0FxDT9Af27ErQm2fdEsbMBcif45Y7ZlX2Dv4SJ1ERxb8V%2FKwFmSYS2zHZSGV2waCdSPdJC%2Fsop5JSAocP%2Bbyn7CGHcNqoLf6f9TIw3dIxy%2F8F9ozjVatDU3AjXcr5r%2BiN5PJBJqb1rBSvOkINqw7unrcqiK7BCaXwgagQNTNNIjDwPuayOWeozJFGg%2B5f48EG4p8XQH1ghf5YkzCghVi4wne651QY6pAEtOXM%2BPU7IcnGmgQCdSpaBnjBlp2nO7rCeWBQxABXIPhLKwVULFHWk7EX1UdMRuHvNHZ5hAE3BcBZw%2FWgJgQwyU0qRoTE7m0EdFHkXbhONoHfEnKvvkOk%2FJIqV%2BSQ1L7O%2FskjkBY5BV5QTM%2BGyGPxhTNKA38vrdqkHeGFazp5CxYmbOf1fjosinExxy3rWEfOvMzfeSMGQmQQ4D%2BLc8Z8rCtzsMg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3a2f4644b462676f5e0f9754750b214e8df9ddff0de0c7e5ca000421f1fea247",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Streamline Systems",
+          "href": "https://www.ycombinator.com/companies/streamline-systems"
+        }
+      },
+      {
+        "user_id": 3651924,
+        "full_name": "Charlie Jessett",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Founder, COO Streamline Systems \nCambridge Graduate - 3rd in Cohort \nRAF Reservist ",
+        "linkedin_url": "https://www.linkedin.com/in/charlie-jessett-194142278/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f06eb1fdfd945ab9bc205f46aba0a63ed5b3e155.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEEJKJGK2%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T170005Z&X-Amz-Expires=3048&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJT%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDwllH1CE1dFyxNrHMdVzAvZwekgtBGXH9lqFT0cQEpqwIhANow99yVH8SMZodbRNo9u56nF2oEbnxRgCSPqnOjCn2BKuUDCF0QABoMMDA2MjAxODExMDcyIgwzRh6akin7w2QsT8YqwgNNG%2FWkd0h677smAW3BoXKocb04kU9UCVR35krirWjMMryiH%2B1R2TFFNVkzV1ONU%2B7mE9TbvzVL2q7JuikTdBsvffiwwl0xVsxfayUYAU%2BvNw79nX99AqVUIyzlEbT4e%2BJTOYFXNI44AfrZ1sEVDLjnf5qlb8Pi7gOhAT1JMN%2FxNbADORtnMKvBEUftCZ1tN8K1Q0%2F5Cfbq%2B%2FVdRPqihIzfQx8ZymN6be7YUnyLBgh3Dq46HEWzk98qM7EVh6ZhiMdp82V68YFmTeTcR5OaYl70FmRFI5S%2FZJUsSTjf5ckDJ8LladAo75ZAZAHYhyFysP1uSIxQtzqm7iWQyNY6%2FBgxUw49%2BoDZNUNxrKIarHP%2BfF7vyvGrDxsLOOfX6fNg9sk6xs0FxDT9Af27ErQm2fdEsbMBcif45Y7ZlX2Dv4SJ1ERxb8V%2FKwFmSYS2zHZSGV2waCdSPdJC%2Fsop5JSAocP%2Bbyn7CGHcNqoLf6f9TIw3dIxy%2F8F9ozjVatDU3AjXcr5r%2BiN5PJBJqb1rBSvOkINqw7unrcqiK7BCaXwgagQNTNNIjDwPuayOWeozJFGg%2B5f48EG4p8XQH1ghf5YkzCghVi4wne651QY6pAEtOXM%2BPU7IcnGmgQCdSpaBnjBlp2nO7rCeWBQxABXIPhLKwVULFHWk7EX1UdMRuHvNHZ5hAE3BcBZw%2FWgJgQwyU0qRoTE7m0EdFHkXbhONoHfEnKvvkOk%2FJIqV%2BSQ1L7O%2FskjkBY5BV5QTM%2BGyGPxhTNKA38vrdqkHeGFazp5CxYmbOf1fjosinExxy3rWEfOvMzfeSMGQmQQ4D%2BLc8Z8rCtzsMg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9f2a1b9b1d003b4e5a686963f5e03a6562e505579743baeebff64aed9c009766",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Streamline Systems",
+          "href": "https://www.ycombinator.com/companies/streamline-systems"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-19T17:00:13.942Z",
+    "classified_at": "2026-09-19T17:00:13.942Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "structured-ai",
@@ -96157,6 +96397,89 @@
     "primary_bm_rationale": "VoiceOS is a software product sold to knowledge workers for productivity workflows, monetized as a SaaS subscription rather than as a managed service or labor outsourcing.",
     "primary_bm_assigned_at": "2026-06-05T20:00:06.028Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "volaren-inc",
+    "name": "Volaren Inc.",
+    "website": "https://www.volaren.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/volaren-inc",
+    "batch": "Fall 2026",
+    "one_liner": "Democratizing investing. Volaren collapses the hedge fund model and…",
+    "description_combined": "Democratizing investing. Volaren collapses the hedge fund model and…\n\nEvery great investment starts as an idea about the world. Institutions have teams of analysts turning those ideas into positions. Volaren is that team, processing data through fundamentals and quantitative models that can be personalized with AI.\r\n\r\nTurn your views into trades, portfolios, and strategies, or co-invest alongside top traders and hedge funds. Volaren stays with you from there, showing you what&#x27;s actually driving each position and what it means for your next move.",
+    "industry_sub_vertical": "Retail investor portfolio construction & co-investment marketplace",
+    "canonical_vertical_id": "fintech.wealth.asset-management",
+    "vertical_id": "fintech.wealth.asset-management",
+    "vertical_label": "Asset & wealth management",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "marketplace-network-ai",
+    "phenotype_primary_label": "Marketplace / Network / Liquidity",
+    "phenotype_family": "network",
+    "value_wedge": "network_effects",
+    "ai_application": "matching_routing",
+    "ai_application_patterns": [
+      "portfolio_construction_ai",
+      "trade_idea_synthesis",
+      "co_investment_matching",
+      "personalized_quantitative_modeling"
+    ],
+    "what_they_sell": "A two-sided marketplace and investment platform that enables retail investors to convert investment theses into personalized portfolios and strategies, while simultaneously enabling them to co-invest alongside institutional traders and hedge funds. Core product: AI-powered portfolio construction, fundamental + quantitative analysis, and strategy execution with transparency into position drivers.",
+    "ai_play": "AI processes market data, fundamentals, and quantitative signals to synthesize investment ideas into executable trades and portfolios. Personalization layer allows retail users to encode their own views and risk preferences. Matching algorithm routes retail capital to institutional traders/funds for co-investment, creating network liquidity. AI also provides explainability (what's driving each position) to reduce information asymmetry between retail and institutional investors.",
+    "who_pays": "Retail investors seeking democratized access to institutional-grade portfolio construction and co-investment opportunities; potentially institutional traders/funds seeking retail co-investment capital and distribution.",
+    "confidence": 0.72,
+    "rationale": "Volaren is fundamentally a two-sided marketplace: retail investors on one side, institutional traders/hedge funds on the other, connected via AI-driven portfolio matching and co-investment routing. The 'collapse the hedge fund model' positioning suggests they're creating a liquidity network and matching venue, not selling software to hedge funds or acting as a regulated fund themselves. AI is the matching and synthesis engine, not the core SKU. Secondary phenotype (horizontal-copilot-saas) applies to the retail-facing copilot aspect (AI helping users turn ideas into trades), but the primary value is network liquidity and matching. Does NOT fit fintech-insurance-ai-product because Volaren is not taking underwriting/credit/fund-management risk directly—they're the platform/venue. Does NOT fit vertical-workflow-agent because they're not selling tools to institutional operators; they're the marketplace itself.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Asset Management"
+    ],
+    "yc_tags": [
+      "Fintech",
+      "Marketplace",
+      "Finance",
+      "Creator Economy",
+      "AI"
+    ],
+    "business_models": [
+      "BM-07"
+    ],
+    "team_size": 2,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2699061,
+        "full_name": "Akshat Mittal",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Volaren Inc. Previously signal researcher on the Equity Alpha team at Goldman Sachs Asset Management. Developed alternative risk metrics and supported trading at Low Tide Capital Management. One of the first team members at David Protein, pre-launch, working on growth primarily. Studying Statistics and Economics at UChicago (top 5% of class). 2nd in international economics competition in high school.",
+        "linkedin_url": "https://www.linkedin.com/in/mittal-akshat",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a8cb2dbd4aff6af7c4753f0c38b7fde2f43c4499.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANU5UHQZK%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T165944Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDa3YtpcOBRL9CjvlXpIJZshkCdnPrkMohYIQ6CLf1GcgIgXx632wZUpKOAVD9OtGuF7Mmv9R9CiI8sLQ0gH3UvTuIq5QMIXxAAGgwwMDYyMDE4MTEwNzIiDF%2Bis%2BPTotRoqK3KPCrCA%2F5oRpVAsl8NX7VBuqJ8D0e4BiFmVW5yNA1oj0z%2FyveEOLefBM2LcK2hVKg9IcKh7EEPECbK3kntDcQ4weUQS6LcMPLUBJiRfUYN9dQqnQaE34%2BMxFCkQ%2FHhfJGUhwIpdbodU%2Fj45kZAsl5hNq3YS2kTJZQiclENUbaCHnORJYqe5veMgxzyRKveTczf5Ff6XYCogIMmxWEivJbwymwXffS%2F02Z0nvPPGItsWPVQJ%2B2qeR1gAxHv08xkoi3r%2FVdOJ%2BZtQaVnqivu6u3up0cKZ9cbCwAUGNa0eICk6KNBgPgjEZLJWXe5IK%2B43JmEC84%2BJWy%2FAoKDXBw0scG%2B7ydTn3hzf6dsUOuKuSJjf%2B4cCAHTwALpZ0aZuwhUOiZQkWmDf1HTFKMCrY6IcHgNUAxM2tnEc6XEtSEH60v%2BIYOXjn%2FRs0OcoIhblpOxeKo5TWeyLFiaVL9DdC1eRN509cpx%2BX%2Fi83YYZpADGw5oMtw%2F4sE%2F2xQTbLNh4WA1UdL%2B%2FTLtcz0V%2FjptNAKq8Qn%2F4BFa4ursKn53DYY%2BsX%2Fj%2Bm0Fvhj1%2B5NZxEl5irgQoVHVEEMM92Klz%2FIAtF8iyN0GoSxRojdQHDCms7rVBjqlAc24xjip7TjZkkW2Lo889ymIc5ys%2BpdPKaHqbjJAH2Ck3%2BbHUsp2i%2BbUz%2FgYctBPLCuEpNIeM4ruBfsAoKyIKBFENxpSaffQHSRXUy9jA16bvV63CFgf1vzqk4ySfGabM7hgYV5rkogPPgxMxWKBT%2FQVJWx2GwUmlP%2FZ4RzmYQUV6qh2%2BpwAk5YAIuNbgjpGWZWIpMZusqG750XPnXw2rC%2F7zyr%2FeA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6c14458f096bd35b5c185ed60d10b124935a5a800dad8e4e1a9fe69a8db37f64",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Volaren Inc.",
+          "href": "https://www.ycombinator.com/companies/volaren-inc"
+        }
+      },
+      {
+        "user_id": 3534379,
+        "full_name": "Martin Pestana",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Volaren Inc. \n- Previously at Goldman Sachs, Investment Banking Division.\n- Previously at AQR Capital Management in quantitative trading. \n- Applied Math and Economics at University of Chicago.",
+        "linkedin_url": "https://www.linkedin.com/in/martin-pestana/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dd546aeacae8f950fb8624fbfba8e9e7fc2a9c30.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANU5UHQZK%2F20260919%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260919T165944Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDa3YtpcOBRL9CjvlXpIJZshkCdnPrkMohYIQ6CLf1GcgIgXx632wZUpKOAVD9OtGuF7Mmv9R9CiI8sLQ0gH3UvTuIq5QMIXxAAGgwwMDYyMDE4MTEwNzIiDF%2Bis%2BPTotRoqK3KPCrCA%2F5oRpVAsl8NX7VBuqJ8D0e4BiFmVW5yNA1oj0z%2FyveEOLefBM2LcK2hVKg9IcKh7EEPECbK3kntDcQ4weUQS6LcMPLUBJiRfUYN9dQqnQaE34%2BMxFCkQ%2FHhfJGUhwIpdbodU%2Fj45kZAsl5hNq3YS2kTJZQiclENUbaCHnORJYqe5veMgxzyRKveTczf5Ff6XYCogIMmxWEivJbwymwXffS%2F02Z0nvPPGItsWPVQJ%2B2qeR1gAxHv08xkoi3r%2FVdOJ%2BZtQaVnqivu6u3up0cKZ9cbCwAUGNa0eICk6KNBgPgjEZLJWXe5IK%2B43JmEC84%2BJWy%2FAoKDXBw0scG%2B7ydTn3hzf6dsUOuKuSJjf%2B4cCAHTwALpZ0aZuwhUOiZQkWmDf1HTFKMCrY6IcHgNUAxM2tnEc6XEtSEH60v%2BIYOXjn%2FRs0OcoIhblpOxeKo5TWeyLFiaVL9DdC1eRN509cpx%2BX%2Fi83YYZpADGw5oMtw%2F4sE%2F2xQTbLNh4WA1UdL%2B%2FTLtcz0V%2FjptNAKq8Qn%2F4BFa4ursKn53DYY%2BsX%2Fj%2Bm0Fvhj1%2B5NZxEl5irgQoVHVEEMM92Klz%2FIAtF8iyN0GoSxRojdQHDCms7rVBjqlAc24xjip7TjZkkW2Lo889ymIc5ys%2BpdPKaHqbjJAH2Ck3%2BbHUsp2i%2BbUz%2FgYctBPLCuEpNIeM4ruBfsAoKyIKBFENxpSaffQHSRXUy9jA16bvV63CFgf1vzqk4ySfGabM7hgYV5rkogPPgxMxWKBT%2FQVJWx2GwUmlP%2FZ4RzmYQUV6qh2%2BpwAk5YAIuNbgjpGWZWIpMZusqG750XPnXw2rC%2F7zyr%2FeA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=29212f8e043aad30482ccca0cb956b4b6e835fc71720b747bdd8d8a71a69e077",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Volaren Inc.",
+          "href": "https://www.ycombinator.com/companies/volaren-inc"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-19T16:59:54.540Z",
+    "classified_at": "2026-09-19T16:59:54.540Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "voltair",

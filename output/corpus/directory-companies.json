@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-18T17:28:01.205Z",
+  "synced_at": "2026-09-19T16:59:44.131Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1317,
+  "company_count": 1321,
   "companies": [
     {
       "slug": "10x",
@@ -2859,15 +2859,15 @@
       "slug": "belvedir",
       "name": "Belvedir",
       "batch": "Summer 2026",
-      "one_liner": "Custom model factory for cheaper, better, faster AI",
-      "long_description": "Belvedir makes it cheap and easy for anyone to make custom AI. We collect your agent traces through our SDK and autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. \r\n\r\nOur customers have seen 10x reductions in inference costs and 2x increases on benchmark scores.\r\n\r\nCustom AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.",
+      "one_liner": "The custom AI model factory.",
+      "long_description": "Belvedir makes it cheap and easy for anyone to make custom AI models. We autonomously collect your data via trace SDK / app MCP / CUA agents and autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. \r\n\r\nOur customers have seen 10x reductions in inference costs and 2x increases on benchmark scores.\r\n\r\nCustom AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.",
       "website": "https://belvedir.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Machine Learning"
+        "Machine Learning",
+        "AI"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -5683,10 +5683,15 @@
       "long_description": "Conviction lets you create and discover trading ideas, then monitors the market and acts on them for you.\r\n\r\nStart with any idea you have - or discover one from traders you follow on X or Reddit - and turn it into a strategy in natural language. Backtest it, paper trade it, deploy it and share what you learn.",
       "website": "https://convictiontrade.ai",
       "industries": [
-        "Fintech",
-        "Consumer Finance"
+        "Fintech"
       ],
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Fintech",
+        "Crypto / Web3",
+        "Consumer Finance",
+        "Stocks"
+      ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -6211,16 +6216,16 @@
       "batch": "Fall 2025",
       "one_liner": "Humanoid robots",
       "long_description": "Darwin is building general-purpose humanoid robots for real-world work. Our first robot, Darwin One, will learn from real-world experience and continuously improve as AI moves from the screen into the physical world. First deployments begin in early 2027.",
-      "website": "https://thesislabs.ai",
+      "website": "https://darwinrobotics.ai",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Machine Learning",
-        "Robotics",
-        "AI"
+        "Robotics"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -11272,6 +11277,26 @@
       "launched_at": 1761873494
     },
     {
+      "slug": "kailash-labs",
+      "name": "Kailash Labs",
+      "batch": "Fall 2026",
+      "one_liner": "A factory for small and specialized video reasoning models",
+      "long_description": "The world generates petabytes of video every day, and almost none of it is readable to machines.  Frontier VLMs that can unlock this (like Gemini) are too expensive to run at the volume real industries have, too generic for any single task, and can't be deployed on-prem where sensitive video lives.\r\n\r\nWe are building an auto vision factory: take video plus a customer's objective, distill a frontier model, and post-train a small open model that is SOTA on that one task and serve it blazingly fast. Our first product, Marlin, is a 2B-parameter open-weights video VLM that matches Gemini-2.5-flash on dense captioning and temporal grounding at a fraction of the cost. ",
+      "website": "https://www.kailashlabs.com/",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "tags": [
+        "Deep Learning",
+        "Edge Computing Semiconductors"
+      ],
+      "team_size": 2,
+      "location": "Bengaluru, KA, India",
+      "status": "Active",
+      "launched_at": 1789754590
+    },
+    {
       "slug": "kairos",
       "name": "Kairos",
       "batch": "Spring 2025",
@@ -11713,7 +11738,7 @@
       "slug": "kita",
       "name": "Kita",
       "batch": "Winter 2026",
-      "one_liner": "Automate credit assessment for lenders in emerging markets",
+      "one_liner": "Underwrite borrowers around the world in minutes",
       "long_description": "In emerging markets, open finance is still nascent. Most of the population is traditionally unbanked, banking APIs don’t exist, and a borrower’s financial history lives in documents: e-wallet records, bank statements, utility bills, and more. Because this data is unstructured, credit and risk teams are forced into manual review. This slows decisioning, increases costs, and caps lending volume. \r\n\r\nKita is the AI platform for global lending operations. We help lenders in emerging markets automate application completion, document verification, and underwriting from messy financial documents — using AI to extract fraud-checked data and localized risk signals that power faster, better credit decisions.\r\n\r\nUnder the hood, Kita is a learning engine. We link document-level signals to repayment outcomes, allowing our models to continuously improve fraud detection and risk assessment over time. This creates a compounding advantage for lenders as their distinct underwriting decisions feed back into the system.\r\n\r\nWe’re Carmel and Rhea. We met before Stanford and have been building together ever since. Carmel is from Manila, is a repeat founder, and spent three years in product at Apple. Rhea has a research background in computer vision and received the highest honor in Stanford Computer Science. Together, we combine deep local context with strong technical execution to build the infrastructure that expands access to credit in emerging markets.",
       "website": "https://www.kita.ai/",
       "industries": [
@@ -11823,16 +11848,16 @@
       "slug": "korso",
       "name": "Korso",
       "batch": "Spring 2026",
-      "one_liner": "The AI-native agency",
-      "long_description": "The AI-native engineering team to help you ship at startup speeds.",
+      "one_liner": "The last assistant you'll need",
+      "long_description": "",
       "website": "https://korsoai.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
         "SaaS",
-        "Consumer",
-        "Social"
+        "B2B",
+        "AI Assistant"
       ],
       "team_size": 3,
       "location": "Irvine, CA, USA",
@@ -12344,10 +12369,10 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "Sales",
-        "Marketing",
-        "AI"
+        "Marketing"
       ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
@@ -13532,7 +13557,7 @@
       "name": "Markov",
       "batch": "Summer 2026",
       "one_liner": "Expert computer-use data for frontier AI labs",
-      "long_description": "Markov sells expert computer-use data to frontier labs. We’ve sold more than 33k+ hours and our open-source datasets have got over 200k+ downloads on hugging face.",
+      "long_description": "Markov builds expert computer-use datasets for frontier AI labs. Our datasets include screen recordings + mouse/keyboard actions of professionals using CAD, design and enterprise software.\r\n\r\nWe work with the top AI labs and we’ve gotten more than 350k downloads on HuggingFace. Our long-term goal is to be the full stack platform for computer-use AI, starting with data and then the infrastructure to train and deploy computer-use models.\r\n\r\nDev and Harish are technical co-founders. Dev studied aerospace engineering at IIT Madras and was the youngest team member at Sarvam - India’s top AI lab. Harish is an Emergent Ventures grantee and his prior robotics work was featured in top national publications.",
       "website": "https://www.markovstudios.com/",
       "industries": [
         "B2B",
@@ -14006,8 +14031,7 @@
       "tags": [
         "Energy Storage",
         "Robotics",
-        "Solar Power",
-        "Construction"
+        "Solar Power"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -15619,7 +15643,7 @@
       "team_size": 1,
       "location": "San Francisco, CA, USA",
       "status": "Active",
-      "launched_at": 1786078729
+      "launched_at": 1789659235
     },
     {
       "slug": "octapulse",
@@ -20856,6 +20880,26 @@
       "launched_at": 1786517990
     },
     {
+      "slug": "shire-intelligence",
+      "name": "Shire Intelligence",
+      "batch": "Fall 2026",
+      "one_liner": "Shire uses CCTV to run restaurants in real time.",
+      "long_description": "Shire is an AI floor manager for full-service restaurants, running on the cameras they already have. It sees what a great manager sees: a guest ready to order, a table waiting on the check, a four-top that needs clearing, a server that is double booked. Then it acts, alerting staff in the moment and seating each new party with the server who has room. A POS only knows what gets typed into it. Shire knows what is happening in the room, so wait-time quotes, staffing, and pricing run on real turn times.",
+      "website": "https://shireintelligence.com/",
+      "industries": [
+        "Consumer",
+        "Food and Beverage"
+      ],
+      "tags": [
+        "Deep Learning",
+        "Food Tech"
+      ],
+      "team_size": 4,
+      "location": "Myrtle Beach, SC, USA",
+      "status": "Active",
+      "launched_at": 1789786177
+    },
+    {
       "slug": "shofo",
       "name": "Shofo",
       "batch": "Winter 2026",
@@ -20952,7 +20996,7 @@
       "slug": "sigma-2",
       "name": "Sigma",
       "batch": "Fall 2026",
-      "one_liner": "AI Operating System for Mergers & Acquisitions",
+      "one_liner": "Lakehouse-as-a-Service (LaaS) for pre and post-acquisition",
       "long_description": "",
       "website": "",
       "industries": [
@@ -20960,9 +21004,9 @@
         "Finance and Accounting"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Finance",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -21337,8 +21381,8 @@
       "slug": "solva",
       "name": "Solva",
       "batch": "Summer 2025",
-      "one_liner": "Automates insurance claims and stops incorrect payouts",
-      "long_description": "The domain specific AI for claims that gives leading insurers clarity and speed on the most complex claims",
+      "one_liner": "Building the new superintelligence for insurance",
+      "long_description": "Insurance is 7% of worldwide GDP and we’re building the infrastructure for how the world takes risk",
       "website": "https://solvatechnology.com",
       "industries": [
         "Fintech",
@@ -21404,13 +21448,13 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "Enterprise",
         "Enterprise Software",
-        "Operations",
-        "AI"
+        "Operations"
       ],
-      "team_size": 1,
+      "team_size": null,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1759390917
@@ -22013,6 +22057,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1747936990
+    },
+    {
+      "slug": "streamline-systems",
+      "name": "Streamline Systems",
+      "batch": "Fall 2026",
+      "one_liner": "Precision navigation for UAVs operating without GPS. ",
+      "long_description": "Streamline Systems is building the replacement for GPS. \r\n\r\nSatellite positioning has become the single point of failure for almost every modern system, both military and civil. We've built the replacement. A drop-in module that integrates with existing Ardupilot, INAV and PX4 flight controllers, with demonstrated satellite-independent autonomous flight and GPS handoff. We're currently working with commercial and military end users to deploy the capability.",
+      "website": "https://streamlinesystems.ltd/",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "tags": [
+        "Autonomous Delivery",
+        "Drones",
+        "Navigation"
+      ],
+      "team_size": 2,
+      "location": "",
+      "status": "Active",
+      "launched_at": 1789759565
     },
     {
       "slug": "structured-ai",
@@ -23965,9 +24030,9 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
-      "team_size": 2,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1768862675
@@ -24965,6 +25030,29 @@
       "launched_at": 1748319646
     },
     {
+      "slug": "volaren-inc",
+      "name": "Volaren Inc.",
+      "batch": "Fall 2026",
+      "one_liner": "Democratizing investing. Volaren collapses the hedge fund model and…",
+      "long_description": "Every great investment starts as an idea about the world. Institutions have teams of analysts turning those ideas into positions. Volaren is that team, processing data through fundamentals and quantitative models that can be personalized with AI.\r\n\r\nTurn your views into trades, portfolios, and strategies, or co-invest alongside top traders and hedge funds. Volaren stays with you from there, showing you what's actually driving each position and what it means for your next move.",
+      "website": "https://www.volaren.ai",
+      "industries": [
+        "Fintech",
+        "Asset Management"
+      ],
+      "tags": [
+        "Fintech",
+        "Marketplace",
+        "Finance",
+        "Creator Economy",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1787328882
+    },
+    {
       "slug": "voltair",
       "name": "Voltair",
       "batch": "Winter 2026",
@@ -25001,16 +25089,16 @@
       "slug": "vorelios",
       "name": "Vorelios",
       "batch": "Fall 2026",
-      "one_liner": "A foundation model for engineering physics",
+      "one_liner": "A Foundation Model for Industrial Physics Simulation",
       "long_description": "Engineering is bottlenecked by slow, costly simulations. We're fixing that by building foundation models that learn physics end-to-end and deliver the same results in seconds, at a fraction of the cost.",
       "website": "https://vorelios.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
