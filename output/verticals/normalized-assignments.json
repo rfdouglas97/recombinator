@@ -31404,6 +31404,91 @@
     "primary_bm": "BM-02"
   },
   {
+    "slug": "faraday",
+    "name": "Faraday",
+    "website": "https://faradaycompute.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/faraday",
+    "batch": "Fall 2026",
+    "one_liner": "Industrial aOS between humans, agents, and robots",
+    "description_combined": "Industrial aOS between humans, agents, and robots",
+    "industry_sub_vertical": "Manufacturing workflow orchestration for human-robot-agent task coordination",
+    "canonical_vertical_id": "robotics.human-robot-collaboration",
+    "vertical_id": "robotics.human-robot-collaboration",
+    "vertical_label": "Human-robot task scheduling & workflow orchestration",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "physical-ai-autonomous-systems",
+    "phenotype_primary_label": "Physical AI & Autonomous Manufacturing",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "multi_agent_orchestration",
+      "human_robot_coordination",
+      "autonomous_control"
+    ],
+    "what_they_sell": "Industrial operating system (aOS) that orchestrates workflows across human operators, AI agents, and robotic systems in manufacturing and industrial environments. Enables real-time coordination, task delegation, and autonomous execution across heterogeneous hardware and human teams.",
+    "ai_play": "AI agents serve as the coordination layer between human workers and robotic systems, enabling autonomous task execution, dynamic workflow routing, and adaptive control. Agents interpret high-level manufacturing goals, decompose them into executable robot commands, and handle exception handling and human handoff.",
+    "who_pays": "Manufacturing operations teams, factory managers, industrial automation integrators, and OEMs seeking to scale production with mixed human-robot workflows.",
+    "confidence": 0.78,
+    "rationale": "Faraday's positioning as an 'industrial aOS' for humans, agents, and robots maps most directly to physical-ai-autonomous-systems (hardware-centric AI for autonomous control and multi-agent coordination). Secondary fit to agent-runtime-infra reflects the orchestration/runtime layer managing agent-to-robot task execution. The company is building infrastructure for autonomous manufacturing control, not selling a vertical SaaS or a regulated product. High confidence due to explicit robotics + AI agents + manufacturing focus, though exact product scope (pure orchestration vs. end-to-end autonomy) is inferred from limited description.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Robotics",
+      "B2B",
+      "Manufacturing",
+      "Enterprise Software"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1518911,
+        "full_name": "Datta Kaligotla",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder at Faraday\n\nSolving the hardest problems with the greatest people\n\nFounding Eng @ Handshake AI Enterprise\nEngineering @ Microsoft, Endeavor, Boeing\nQuant @ Pretium Capital",
+        "linkedin_url": "https://linkedin.com/in/datta-kaligotla-b2a0b712a",
+        "twitter_url": "https://x.com/Dattakaligotla",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2d8067b3e603a1a32029f5f66e30e31e32e85808.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAC26QDSO5%2F20260920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260920T171708Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDQ%2FmgyzgIpSu0UB%2FDS1eyO8MiUlOTmfRgjkVEwxy4XkgIgQ2%2BXHzMnH7Iz1vSPcDH3YizQ%2FrWh7%2FmhekgVri2P66Mq5QMIehAAGgwwMDYyMDE4MTEwNzIiDMjER7DBfU6ThBNNgyrCAwFNRrPuTypa3m%2BNE3Wu18J3UJoUccqfHl8OlvBpJqaRlpOvT5KhhWKngyW1Vc6%2Bnd5sHKTp32IIVNASvUsvopBgjCQ1CdJI4FHes4QOSbowPXfSEy%2FbY9q393v0bt5XH9Xz5o3tSBIGXHkmfpE9b0nTr499R71NAwjcneLhzcO9y4KC7zpMIvOvQJvTM9eYCH1rwrvtdiCtTlAvpMI%2Fe1skNHdV4avIp0113mlJSmjauYWQ2tTm6oNx4wWsOPM6kO7sHZjB1LxZI4Wx%2F3sFTmIhYE9mnJe%2BSGaM5dyHro97aiiNV8dlFPLkQn9qFnp8hoIiMpXU1NDiKCr%2BhgYFpEYVcc1tNszBhTmi%2FfRBw5dtJZmL80NtlPYp%2FAc2yqllSNJifbt6mY4h1P%2F2MuumMI2NpwIRrRu0L5D2B%2B4rHrqGGH26NDLnTkbWqFP69MZsdXs1SEZfBenYLfdGzRS5u0Tfg4phrFOcRGU8CYp3meuqfSTLAK0EFjn%2FwK6KbmLguz3aJ9BVY2o18jRUkJKbWTRaPMV6M165L9lQSuiBwftZdYgrK036jcLh2HbfS%2BKGKT7SbkJU0xOnuqFEQxkgUcTqQTCOnMDVBjqlAeEDvBUewCuCnKA%2F1WTYUitYmRSSRAr7WVTy9mPh8x9rbW2H7EwaXMd9plIK%2BYSeDQRdSDfU1twv%2BbikpNAMyW%2BBKuApUBNJecdFCagfEhgxquLJv%2BYRcKkZodzwXxexbkfhC5ev5CetprqhS9pimFh1tz9gySUYEcD0IPebiInufNiHljF513yel%2F%2Bw%2F9hoGa7MzjAls46UgfVX5kmnLTDKceKCbA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=44b98b711221d2e444a25cb79a08af0c5b4043101705e77c7816878024bb1452",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Faraday",
+          "href": "https://www.ycombinator.com/companies/faraday"
+        }
+      },
+      {
+        "user_id": 3675557,
+        "full_name": "Oscar Rangel",
+        "title": "Co-Founder",
+        "is_active": true,
+        "bio": "Co-Founder at Faraday. Previously built systems for factories powering a $2B+ steel manufacturer (worthington steel), shipped medical devices for a $100B+ company (Stryker), and worked on projects for NASA austronats.",
+        "linkedin_url": "https://www.linkedin.com/in/oscar-rangel",
+        "twitter_url": "https://x.com/oscarrangelmora",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/821bac69e02067b2b3f58a5c4df05546e8881c37.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAC26QDSO5%2F20260920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260920T171708Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDQ%2FmgyzgIpSu0UB%2FDS1eyO8MiUlOTmfRgjkVEwxy4XkgIgQ2%2BXHzMnH7Iz1vSPcDH3YizQ%2FrWh7%2FmhekgVri2P66Mq5QMIehAAGgwwMDYyMDE4MTEwNzIiDMjER7DBfU6ThBNNgyrCAwFNRrPuTypa3m%2BNE3Wu18J3UJoUccqfHl8OlvBpJqaRlpOvT5KhhWKngyW1Vc6%2Bnd5sHKTp32IIVNASvUsvopBgjCQ1CdJI4FHes4QOSbowPXfSEy%2FbY9q393v0bt5XH9Xz5o3tSBIGXHkmfpE9b0nTr499R71NAwjcneLhzcO9y4KC7zpMIvOvQJvTM9eYCH1rwrvtdiCtTlAvpMI%2Fe1skNHdV4avIp0113mlJSmjauYWQ2tTm6oNx4wWsOPM6kO7sHZjB1LxZI4Wx%2F3sFTmIhYE9mnJe%2BSGaM5dyHro97aiiNV8dlFPLkQn9qFnp8hoIiMpXU1NDiKCr%2BhgYFpEYVcc1tNszBhTmi%2FfRBw5dtJZmL80NtlPYp%2FAc2yqllSNJifbt6mY4h1P%2F2MuumMI2NpwIRrRu0L5D2B%2B4rHrqGGH26NDLnTkbWqFP69MZsdXs1SEZfBenYLfdGzRS5u0Tfg4phrFOcRGU8CYp3meuqfSTLAK0EFjn%2FwK6KbmLguz3aJ9BVY2o18jRUkJKbWTRaPMV6M165L9lQSuiBwftZdYgrK036jcLh2HbfS%2BKGKT7SbkJU0xOnuqFEQxkgUcTqQTCOnMDVBjqlAeEDvBUewCuCnKA%2F1WTYUitYmRSSRAr7WVTy9mPh8x9rbW2H7EwaXMd9plIK%2BYSeDQRdSDfU1twv%2BbikpNAMyW%2BBKuApUBNJecdFCagfEhgxquLJv%2BYRcKkZodzwXxexbkfhC5ev5CetprqhS9pimFh1tz9gySUYEcD0IPebiInufNiHljF513yel%2F%2Bw%2F9hoGa7MzjAls46UgfVX5kmnLTDKceKCbA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=49a209e44930657298c03772854f54c3f11eec62aa9a82fa73f81a4736977702",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Faraday",
+          "href": "https://www.ycombinator.com/companies/faraday"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-20T17:17:16.407Z",
+    "classified_at": "2026-09-20T17:17:16.407Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
+  },
+  {
     "slug": "fastshot",
     "name": "Fastshot",
     "website": "https://www.fastshot.ai/",
@@ -36853,6 +36938,90 @@
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-10"
+  },
+  {
+    "slug": "graypass",
+    "name": "GrayPass",
+    "website": "https://www.graypass.org",
+    "yc_profile_url": "https://www.ycombinator.com/companies/graypass",
+    "batch": "Fall 2026",
+    "one_liner": "Verify that the expected person is in control before key actions.",
+    "description_combined": "Verify that the expected person is in control before key actions.\n\nLogin tells you who signed in. GrayPass verifies the expected person is still in control before consequential actions happen. We use cognitive biometrics like typing rhythm, cursor movement, scrolling, and response timing alongside session and device context to continuously establish assurance.\r\n\r\nBefore actions like approving a payment, changing admin permissions, exporting sensitive data, or letting an AI agent act on someone’s behalf, GrayPass returns allow, challenge, hold, or deny and produces signed proof tied to that action.",
+    "industry_sub_vertical": "Continuous authentication & behavioral verification for agent authorization",
+    "canonical_vertical_id": "ai-infrastructure.agent-security",
+    "vertical_id": "ai-infrastructure.agent-security",
+    "vertical_label": "Agent security & authorization",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-security-control-plane",
+    "phenotype_primary_label": "Agent Security & Access Control Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "continuous_authentication_verification",
+    "ai_application_patterns": [
+      "behavioral_biometrics",
+      "continuous_assurance",
+      "risk_scoring",
+      "access_control"
+    ],
+    "what_they_sell": "Continuous authentication and behavioral verification infrastructure that validates user identity before high-stakes actions (payments, permission changes, data exports, agent delegation). Uses cognitive biometrics (typing rhythm, cursor movement, scrolling, response timing) + session/device context to return allow/challenge/hold/deny decisions with cryptographic proof.",
+    "ai_play": "AI-driven behavioral biometric analysis and risk scoring replaces static authentication (passwords, MFA) with continuous, context-aware identity assurance. Enables safe delegation of actions to AI agents by verifying the human operator remains in control before consequential operations.",
+    "who_pays": "Enterprise security/identity teams, platform operators managing multi-user access, organizations deploying AI agents that need to verify human authorization before autonomous action.",
+    "confidence": 0.78,
+    "rationale": "GrayPass is infrastructure for securing agent-delegated actions and continuous user verification. Primary fit is agent-security-control-plane (zero-trust auth, fine-grained access control, audit trails for agent actions). Secondary consideration: could map to agent-observability-evals (safety/compliance testing), but the core value is access control + authentication, not observability. The behavioral biometrics + continuous assurance model is distinct from traditional IAM and directly solves the 'how do we safely let agents act on behalf of users' problem. Confidence 0.78 because while the agent-security phenotype is strong, GrayPass is also a general-purpose continuous authentication platform (not exclusively agent-focused), but the YC positioning emphasizes agent delegation as a key use case.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Biometrics",
+      "Identity",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "Toronto, ON, Canada",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1531836,
+        "full_name": "Arav Mathur",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder/CEO at GrayPass (YC F26). Waterloo Computer Science. Built a fashion app that reached 3K users in 4 weeks. Built AI systems for Stan ($40M ARR). Now building the internet’s first trust company, making human agency legible online.",
+        "linkedin_url": "https://www.linkedin.com/in/aravmathur/",
+        "twitter_url": "https://x.com/aravmathur23",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3300153991887ad18729345201bab993f61afee2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKKLGHYJX%2F20260920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260920T171651Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIDEsJLPxA3aQxyi5ooHzPNRmxYfI8t5CQxmC8stjrPPWAiEA319JURH50a99qlgZK2wCLCg8bXNQ017szWK5aAlaJRoq5QMIehAAGgwwMDYyMDE4MTEwNzIiDH0rORm6CnK7CNmiairCA90x8awBEoJgyKX3Xfe2AN7LJpUeS%2B4zX1JwbVo7p5ccbw8n7d%2BOdT18ZaD2b8q1%2Fq53Xh4zlx4wE3VezhRpeI%2BCZ79Dl69dVYjXrkd7h99OrgubX2Ih%2FAdFt2AFY2%2BTegSx1pQAxqXC8eJe2VfcEMGtFCuftqFG4HMkh%2FRDr3psxUwix5IOufmBEnziGPq0zVtxz8o1F2JZ8BEdEndLW5o7qH0IbInPgCxzAAkSHNxz87%2BefqeOEahsvPYLJe4HAm6D5Z5sKnXQKsKQzg0XdmPyM5bMB3rz3CZ%2FjOo4WS5AvSf08%2BtlHIKsD1HMlsYjvoZXKP5FFy9LLJaw9L0opkBW5dF75gEMwruv3b%2BhuzhAuvNJAq3Nx1Mnk9UM7wBLY7BmAUb8ggfF0y6xlqyYLoiWo8WW6O9zksoVpkfkid2Z3lTWaVpqmAmF9O5eASF4vdTGNr4TxNKpod1%2F62IYp%2B0xXM7FWeA%2BrON429ugNg8UOaV6OMBjUR7RAgl5ya1zVE0Yv%2Bs5yGUvRJ2oAJVRCs%2B3AG%2FcsfvubhKSXSnyhzwKETX6aYc08nkfgp%2F9PKemub6LZ3BxLeVchduWLhmYkiNrezDKnMDVBjqlAUATUZOB5ML5B2epEOuwtjnmOp9Gllrl0d1TzxNTeJl5Uz1%2Ff9aug3gzEg1Uf4vyOHHsvIk5WH5ZV8X%2BqoWcNqu4deE4JZRxtKe0yPuSoY6iExu3ec9xb71qkzr6tIf0KwfPmTVs4o5cvnchTeTIaOfP7Yckp7HUUTeql7ygZhXhZAg8pn9TP%2BVP%2Fn9bpWnSe5Jna4G%2F5yR%2BIMQv61l7A0B6kmArxQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c99750af94902397eda573d5b84502ed33ca899f79594fdb3d39f80311d0c31c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "GrayPass",
+          "href": "https://www.ycombinator.com/companies/graypass"
+        }
+      },
+      {
+        "user_id": 3483494,
+        "full_name": "Aditya Ranjan",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Founder/COO @ GrayPass (YC F26) | Making human agency legible.",
+        "linkedin_url": "https://www.linkedin.com/in/ad1tyaranjan",
+        "twitter_url": "https://x.com/ad1tyaranjan",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fdf5b6e06af9375cb8bc6e94648303ce942a314f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKKLGHYJX%2F20260920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260920T171651Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIDEsJLPxA3aQxyi5ooHzPNRmxYfI8t5CQxmC8stjrPPWAiEA319JURH50a99qlgZK2wCLCg8bXNQ017szWK5aAlaJRoq5QMIehAAGgwwMDYyMDE4MTEwNzIiDH0rORm6CnK7CNmiairCA90x8awBEoJgyKX3Xfe2AN7LJpUeS%2B4zX1JwbVo7p5ccbw8n7d%2BOdT18ZaD2b8q1%2Fq53Xh4zlx4wE3VezhRpeI%2BCZ79Dl69dVYjXrkd7h99OrgubX2Ih%2FAdFt2AFY2%2BTegSx1pQAxqXC8eJe2VfcEMGtFCuftqFG4HMkh%2FRDr3psxUwix5IOufmBEnziGPq0zVtxz8o1F2JZ8BEdEndLW5o7qH0IbInPgCxzAAkSHNxz87%2BefqeOEahsvPYLJe4HAm6D5Z5sKnXQKsKQzg0XdmPyM5bMB3rz3CZ%2FjOo4WS5AvSf08%2BtlHIKsD1HMlsYjvoZXKP5FFy9LLJaw9L0opkBW5dF75gEMwruv3b%2BhuzhAuvNJAq3Nx1Mnk9UM7wBLY7BmAUb8ggfF0y6xlqyYLoiWo8WW6O9zksoVpkfkid2Z3lTWaVpqmAmF9O5eASF4vdTGNr4TxNKpod1%2F62IYp%2B0xXM7FWeA%2BrON429ugNg8UOaV6OMBjUR7RAgl5ya1zVE0Yv%2Bs5yGUvRJ2oAJVRCs%2B3AG%2FcsfvubhKSXSnyhzwKETX6aYc08nkfgp%2F9PKemub6LZ3BxLeVchduWLhmYkiNrezDKnMDVBjqlAUATUZOB5ML5B2epEOuwtjnmOp9Gllrl0d1TzxNTeJl5Uz1%2Ff9aug3gzEg1Uf4vyOHHsvIk5WH5ZV8X%2BqoWcNqu4deE4JZRxtKe0yPuSoY6iExu3ec9xb71qkzr6tIf0KwfPmTVs4o5cvnchTeTIaOfP7Yckp7HUUTeql7ygZhXhZAg8pn9TP%2BVP%2Fn9bpWnSe5Jna4G%2F5yR%2BIMQv61l7A0B6kmArxQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9b6ee9a4a2d22d68ec75f91cec44ce5f2c19abead25e396c3d27cc49fa62dcfa",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "GrayPass",
+          "href": "https://www.ycombinator.com/companies/graypass"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-20T17:16:59.748Z",
+    "classified_at": "2026-09-20T17:16:59.748Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "grazemate",
@@ -99773,6 +99942,92 @@
     "vertical_normalize_confidence": 0.65,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-12"
+  },
+  {
+    "slug": "viraj-aero",
+    "name": "Viraj Aero",
+    "website": "https://www.viraj-aero.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/viraj-aero",
+    "batch": "Fall 2026",
+    "one_liner": "Next generation engines for aircraft and data centers",
+    "description_combined": "Next generation engines for aircraft and data centers",
+    "industry_sub_vertical": "Next-generation aerospace propulsion systems for aircraft and data center thermal management",
+    "canonical_vertical_id": "industrials.aviation.space",
+    "vertical_id": "industrials.aviation.space",
+    "vertical_label": "Space & satellite systems",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "design_optimization",
+      "thermal_simulation",
+      "manufacturing_precision",
+      "autonomous_control"
+    ],
+    "what_they_sell": "Next-generation engines for aircraft and data centers with AI-driven design optimization and operational control",
+    "ai_play": "AI accelerates engine design cycles, thermal efficiency optimization, and autonomous operational control. Likely uses ML for aerodynamic/thermodynamic simulation, predictive maintenance, and real-time performance tuning to improve fuel efficiency and reduce cooling costs.",
+    "who_pays": "Aircraft OEMs, airlines, data center operators, cloud infrastructure providers",
+    "confidence": 0.72,
+    "rationale": "Viraj Aero is building physical hardware (engines) where AI is a core enabler of R&D acceleration, design optimization, and operational performance—not the primary product itself. This fits ai-enabled-physical-systems: the core value is the engine (physical system), but AI dramatically improves design cycles, manufacturing precision, and autonomous control. Not robotics-embodied-ai (which focuses on robots/drones/teleoperation) or biotech-rd-agent (life sciences). The 'hard tech' tag and aerospace focus confirm hardware-first positioning with AI as accelerant.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Aviation and Space"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Energy",
+      "Aerospace",
+      "ClimateTech",
+      "AI"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": null,
+    "location": "Toulouse, Occitanie, France",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2942294,
+        "full_name": "Joseph Risson",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "",
+        "linkedin_url": "https://www.linkedin.com/in/joseph-risson/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/604f2efb1df27fd1115f060ac04dbd2caab078db.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEOHQSCGQ%2F20260920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260920T171659Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD46nTcm3GRzWaROM5oJcP64A7Hde46zbh1yO5vaGCc%2FQIhAOAnBd7SlbaMOH7cfpSsDURJMapkLFzGLk1TQAnMTY3kKuUDCHkQABoMMDA2MjAxODExMDcyIgzfG46SQdDSsEPrFKsqwgNe7Hj0DSMHVhh56CuZwoHkWuZaRwid8OjEEAZwRdj%2Bw%2Flvuc0pfYr9fFO%2BIvL1ZsKqbWVPEz8WtShtnYzHQE9h77sgGCcGfGY3h9PMvREkukRcxsdwTtdpvDxan0kWi7TfELXMmjoUtZsnPfzLszQQWu0LYx000JheqUDu05Bz6S9zgMKvk5qqcV7QN3tDtUHH93cpi4SHchEiaZL0vHbN%2FBuo%2FjRfj%2B2V%2FgrE%2FZPJaNrWdd3ZV3W7cHLKG9hBLldHZGoFc6SbEQJRuvSn5eP7n%2F2cNQ6en2G7MPu4Lm5j4tstml5Bf8dV1zPbhT6ts76L7lZAwfZEYvdsLtCPZbl54OVuFXtc%2FF%2Fk2ZEY4lPMTIwdkmgJCBbG3qbV4kxFiqJnh%2FEFWMo7%2FdQGoRDcyn2yZMOZREb1NhU5Qee9VoUIyjuEckGOXJokXU%2Fw3zL%2BrGbdeD3qGUvFeKksE9Hv7lJmxSjn581HYUL1luYPL%2Bux3jfzplqMNP2YokqkqsFkSUcuqkHewVlYMqOxfWYBgaXJcEwklPtpiwWH7EnrZ53DiG%2Fp3Dgr%2Fco3KN4UXXYOdvbJYlvnumSpAW%2BociscWKvyg7QwhYbA1QY6pAGFVE9N%2BcyACEhH4I8Y6wTutaY1tLlHw0CLLuci7FY0ypka0ynLS1XLdrvcWLj%2BnauHPbJKYnsFq73%2BZRYKTn1g0Ft3hEUERCsGoiZhd4LEGIwFV%2BfpChbfdyFuwy8aH%2Bk3dLowW%2FmSgEsq9E%2BXIRE2D5%2F18QwoD4cCvyl7tPIbaXTFRcJY20WJ%2F3tYJ53NEeT4KW9g6vYKmNnMs6HiTBwBKC79lg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3b4108d2eb162bb2fa050710b83362a3fbea9fc4351d1e3f1a8f23dc2b75bc89",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Viraj Aero",
+          "href": "https://www.ycombinator.com/companies/viraj-aero"
+        }
+      },
+      {
+        "user_id": 2942250,
+        "full_name": "Mathilde BOUILLOUX",
+        "title": "Founder/-",
+        "is_active": true,
+        "bio": "Co-Founder at Viraj Aero",
+        "linkedin_url": "https://www.linkedin.com/in/mathilde-bouilloux/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fb412b64e24d99aac836eb58fe0b575fee5130e1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEOHQSCGQ%2F20260920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260920T171659Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD46nTcm3GRzWaROM5oJcP64A7Hde46zbh1yO5vaGCc%2FQIhAOAnBd7SlbaMOH7cfpSsDURJMapkLFzGLk1TQAnMTY3kKuUDCHkQABoMMDA2MjAxODExMDcyIgzfG46SQdDSsEPrFKsqwgNe7Hj0DSMHVhh56CuZwoHkWuZaRwid8OjEEAZwRdj%2Bw%2Flvuc0pfYr9fFO%2BIvL1ZsKqbWVPEz8WtShtnYzHQE9h77sgGCcGfGY3h9PMvREkukRcxsdwTtdpvDxan0kWi7TfELXMmjoUtZsnPfzLszQQWu0LYx000JheqUDu05Bz6S9zgMKvk5qqcV7QN3tDtUHH93cpi4SHchEiaZL0vHbN%2FBuo%2FjRfj%2B2V%2FgrE%2FZPJaNrWdd3ZV3W7cHLKG9hBLldHZGoFc6SbEQJRuvSn5eP7n%2F2cNQ6en2G7MPu4Lm5j4tstml5Bf8dV1zPbhT6ts76L7lZAwfZEYvdsLtCPZbl54OVuFXtc%2FF%2Fk2ZEY4lPMTIwdkmgJCBbG3qbV4kxFiqJnh%2FEFWMo7%2FdQGoRDcyn2yZMOZREb1NhU5Qee9VoUIyjuEckGOXJokXU%2Fw3zL%2BrGbdeD3qGUvFeKksE9Hv7lJmxSjn581HYUL1luYPL%2Bux3jfzplqMNP2YokqkqsFkSUcuqkHewVlYMqOxfWYBgaXJcEwklPtpiwWH7EnrZ53DiG%2Fp3Dgr%2Fco3KN4UXXYOdvbJYlvnumSpAW%2BociscWKvyg7QwhYbA1QY6pAGFVE9N%2BcyACEhH4I8Y6wTutaY1tLlHw0CLLuci7FY0ypka0ynLS1XLdrvcWLj%2BnauHPbJKYnsFq73%2BZRYKTn1g0Ft3hEUERCsGoiZhd4LEGIwFV%2BfpChbfdyFuwy8aH%2Bk3dLowW%2FmSgEsq9E%2BXIRE2D5%2F18QwoD4cCvyl7tPIbaXTFRcJY20WJ%2F3tYJ53NEeT4KW9g6vYKmNnMs6HiTBwBKC79lg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2673ec339a571a4ab5061c369a885a94b962184a620a17fc82966c80693fffe3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Viraj Aero",
+          "href": "https://www.ycombinator.com/companies/viraj-aero"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-20T17:17:08.226Z",
+    "classified_at": "2026-09-20T17:17:08.226Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "visibl-semiconductors",
