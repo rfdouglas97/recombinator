@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-20T17:17:44.374Z",
+  "generated_at": "2026-09-21T19:03:16.216Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1484,
+    "assignment_count": 1486,
     "mapped_verticals": 244,
     "observed_cells": 483,
     "total_verticals": 525,
@@ -1627,6 +1627,19 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "insurance.quote-comparison",
+      "vertical_label": "Insurance quote generation & rate shopping",
+      "sector_id": "financial-services",
+      "companies": [
+        "copycat-ai",
+        "decent-com",
+        "ignition-benefits",
+        "kinro"
+      ]
+    },
+    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "logistics.supply-chain.ops",
@@ -2138,18 +2151,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "insurance.quote-comparison",
-      "vertical_label": "Insurance quote generation & rate shopping",
-      "sector_id": "financial-services",
-      "companies": [
-        "copycat-ai",
-        "ignition-benefits",
-        "kinro"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "lending.underwriting-automation",
       "vertical_label": "Underwriting automation & document verification",
       "sector_id": "financial-services",
@@ -2265,6 +2266,18 @@
         "centralcoms",
         "crow",
         "realpact"
+      ]
+    },
+    {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "research.ai-rd",
+      "vertical_label": "AI research & development labs",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "asterlab",
+        "bryel",
+        "induction-labs"
       ]
     },
     {
@@ -3092,17 +3105,6 @@
       "companies": [
         "atlia",
         "pares-ai"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "research.ai-rd",
-      "vertical_label": "AI research & development labs",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "asterlab",
-        "induction-labs"
       ]
     },
     {

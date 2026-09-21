@@ -14076,6 +14076,57 @@
     "vertical_normalize_method": "assignment_explicit"
   },
   {
+    "slug": "bryel",
+    "name": "Bryel",
+    "website": "https://www.bryel.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/bryel",
+    "batch": "Fall 2026",
+    "one_liner": "Devin for AI Research Engineering",
+    "description_combined": "Devin for AI Research Engineering",
+    "industry_sub_vertical": "AI research engineering automation for ML teams",
+    "canonical_vertical_id": "research.ai-rd",
+    "vertical_id": "research.ai-rd",
+    "vertical_label": "AI research & development labs",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "ai-research-automation",
+    "phenotype_primary_label": "AI-native research labs",
+    "phenotype_family": "rd_tooling",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "agent_research_execution",
+      "autonomous_experimentation",
+      "ml_workflow_automation"
+    ],
+    "what_they_sell": "Agentic AI platform that automates research engineering workflows — code generation, experiment design, hyperparameter tuning, and result synthesis for ML/AI researchers and teams.",
+    "ai_play": "Deploys autonomous agents to replace manual research engineering tasks (boilerplate code, experiment iteration, result analysis). Agents autonomously design and execute experiments, reducing researcher time-to-insight and enabling faster iteration cycles.",
+    "who_pays": "AI research teams, ML engineers, academic labs, AI companies optimizing R&D velocity.",
+    "confidence": 0.75,
+    "rationale": "Bryel positions itself as 'Devin for AI Research Engineering' — an agent-driven automation platform for research workflows. This maps directly to ai-research-automation: agentic AI conducting primary research (experiment design, code generation, result synthesis) with minimal human intervention. The phenotype emphasizes meta-level AI application (AI improving AI research) and autonomous execution of research tasks. Secondary consideration: could be agent-runtime-infra if positioned as a research-specific orchestration layer, but the primary value is automating the research process itself, not just providing runtime infrastructure. Confidence 0.75 due to limited public detail on exact scope (research-only vs. broader engineering automation), but 'Devin for AI Research' strongly signals autonomous research agent execution.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "B2B",
+      "AI"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-09-21T19:02:47.078Z",
+    "classified_at": "2026-09-21T19:02:47.078Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
+  },
+  {
     "slug": "bubble-lab",
     "name": "Bubble Lab",
     "website": "https://bubblelab.ai/",
@@ -24632,6 +24683,92 @@
     "launch_evaluated_at": "2026-08-13T14:56:08.460Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit"
+  },
+  {
+    "slug": "decent-com",
+    "name": "Decent",
+    "website": "https://decent.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/decent-com",
+    "batch": "Fall 2026",
+    "one_liner": "Continuous optimization for employer health plans.",
+    "description_combined": "Continuous optimization for employer health plans.\n\nDecent is an AI-native health insurance brokerage. We quote every available option, like Kayak for health plans, and then monitor and act on claims data continuously to make your plan better and cheaper year-round.",
+    "industry_sub_vertical": "Employer health plan quote generation, comparison & continuous optimization",
+    "canonical_vertical_id": "insurance.quote-comparison",
+    "vertical_id": "insurance.quote-comparison",
+    "vertical_label": "Insurance quote generation & rate shopping",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "plan_comparison_automation",
+      "claims_analysis_optimization",
+      "continuous_monitoring_agents",
+      "cost_reduction_workflow"
+    ],
+    "what_they_sell": "AI-native health insurance brokerage platform that automates plan selection, comparison, and ongoing optimization for employers. Continuously monitors claims data and market options to recommend and execute plan changes that reduce costs and improve coverage year-round.",
+    "ai_play": "AI agents autonomously quote all available health plans (Kayak-style comparison), analyze employer claims patterns in real-time, identify cost-saving opportunities, and execute plan switches or adjustments without manual broker intervention. Replaces traditional broker labor with agentic workflows.",
+    "who_pays": "Employers (mid-market and enterprise) seeking to reduce health insurance costs and administrative overhead; brokers/consultants seeking to scale advisory capacity.",
+    "confidence": 0.75,
+    "rationale": "Decent is primarily a vertical SaaS product (employer health plan optimization) with agentic automation at its core. The AI agents handle continuous plan comparison, claims analysis, and optimization recommendations — replacing manual broker work. Secondary phenotype (ai-native-service-provider) applies if Decent takes contingency/outcome-based revenue (e.g., % of savings), but primary positioning is software-as-a-service sold to employers. High confidence in vertical-agentic-workflow-saas because: (1) end-user-facing SaaS product, (2) vertical focus (employer health), (3) autonomous agents executing workflows (quoting, monitoring, optimization), (4) replaces human broker labor. Not fintech-insurance-ai-product because Decent does not take underwriting risk or act as the insurer itself — it brokers/optimizes existing plans.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Insurance"
+    ],
+    "yc_tags": [
+      "AIOps",
+      "Fintech",
+      "Health Tech",
+      "B2B",
+      "Health Insurance"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 103060,
+        "full_name": "Nick Soman",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Decent. Previously founded Decent, Inc., a venture-backed health plan administrator (acquired by Nice Healthcare). EIR at Foundation Capital. Growth Product Lead at Gusto. PM on Kindle at Amazon. Founded LikeBright/Reveal (acquired by Napster). Stanford BA, Harvard MBA.",
+        "linkedin_url": "https://www.linkedin.com/in/nicksoman",
+        "twitter_url": "https://x.com/nicksoman",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/892ff653167fc0e506db11c8156b3343dfcf9cdb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAB2L4ZUNU%2F20260921%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260921T190226Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAEMd0EZ9lIqxbZuSaNIKk3rvUguPWxGlcAL%2FV%2BzF8UqAiEAwklKCxi8SDdJbg76xw%2BCdIjr5pce%2Br%2FZMBrj%2Bc4dKpwq7gMIlP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDFvikVELvrY%2FeqagYyrCA4lxubek43iGrPih5S7OaI7NYWz4l9GzzoXyzXFnCv1x8CJJ0wPAYuyCgEQJDx%2F86NNXa61gvccgCuFwIjpKzxzqHkYqXFuk3rnZ6CbSnwN0A9oMCN%2Fes6UiQb7F4f6xys11HDDiogaONKzTPAzOf1VU2Nh9p2HohMGCL2DWfzPNTU7MPPsLjjG4lAWR%2BQG3E9G8cj5Gr1YuHJypX3PHfQys2Wz2BJrXhUOywMPh6cD0iu%2FON6iHDZXTyK%2BSfuYvGbt6vqKwb%2FMWIuJJrubhmH7t2M%2Bet%2F%2B8XWBDygGhYjTvZ5M9%2BfzPinzQtfq9wDMtDukanhPTUl%2FjND12vbiaO%2FjD5zajIegBkQS8mxZ7er3jNDgheJGC6E0kG8AuwbRNOFCxUp0W6dzx6d5iEF9km5cwNWWU9A8TML8xOLAESefqJQhXamHvNxpF5sFM9Nm6DfrsII2p3ZeHtg7ir%2B8%2Fo3MXdGed%2BG0t1gBOBEVJ3fEjknp%2BAsEyDv627tsKFhKCAaUgsrnR40%2FNhbQxbKUuAgvUZ%2Fv18carx6RwU%2FaaJDh2oxhsgcPvYxeJWtcCDVHb44kbiHcEtG6ff94ooR3UaroXqTDt%2BsXVBjqlAdEkZifOv%2BAlN8%2BvKQZ%2Fd2%2BGx6luCUFZ2AcFj0PuLzj2CjoFxbd%2FIqBhxS%2BG2T3msPrzNI8WTbiDs2BSQdwoyNfDDAtqp%2FTZZ0cNz8VUfgHHzAR1s0rbZKwu%2BatuHDGm%2F%2FxgHJatsdSqKEW%2BPnj1Whr0Wf1pkI5aXgCxk7GuHrn%2FJzS7CRW5VrBoHvblB7CvAwLzn4eT6GQGaUwjmuOqmIDtqXFgBA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ac4c02f1abf989f73cadd0448773061079774d0bfa15e91f812e5f5f3639b139",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Decent",
+          "href": "https://www.ycombinator.com/companies/decent-com"
+        }
+      },
+      {
+        "user_id": 3997688,
+        "full_name": "Andrew Budker",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Decent. Previously Director of Software Engineering at Meta, where he led Metamate (Meta&#x27;s internal AI assistant and Agent Platform) and built deep learning computer vision systems shipping in Oculus. Before Meta, engineering manager at Amazon for 5 years and engineer at Microsoft. BS Applied Mathematics from UCLA.",
+        "linkedin_url": "https://www.linkedin.com/in/abudker/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3c54e3f9459c5e31c2a1e41256f5afacccf1e02d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAB2L4ZUNU%2F20260921%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260921T190226Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAEMd0EZ9lIqxbZuSaNIKk3rvUguPWxGlcAL%2FV%2BzF8UqAiEAwklKCxi8SDdJbg76xw%2BCdIjr5pce%2Br%2FZMBrj%2Bc4dKpwq7gMIlP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDFvikVELvrY%2FeqagYyrCA4lxubek43iGrPih5S7OaI7NYWz4l9GzzoXyzXFnCv1x8CJJ0wPAYuyCgEQJDx%2F86NNXa61gvccgCuFwIjpKzxzqHkYqXFuk3rnZ6CbSnwN0A9oMCN%2Fes6UiQb7F4f6xys11HDDiogaONKzTPAzOf1VU2Nh9p2HohMGCL2DWfzPNTU7MPPsLjjG4lAWR%2BQG3E9G8cj5Gr1YuHJypX3PHfQys2Wz2BJrXhUOywMPh6cD0iu%2FON6iHDZXTyK%2BSfuYvGbt6vqKwb%2FMWIuJJrubhmH7t2M%2Bet%2F%2B8XWBDygGhYjTvZ5M9%2BfzPinzQtfq9wDMtDukanhPTUl%2FjND12vbiaO%2FjD5zajIegBkQS8mxZ7er3jNDgheJGC6E0kG8AuwbRNOFCxUp0W6dzx6d5iEF9km5cwNWWU9A8TML8xOLAESefqJQhXamHvNxpF5sFM9Nm6DfrsII2p3ZeHtg7ir%2B8%2Fo3MXdGed%2BG0t1gBOBEVJ3fEjknp%2BAsEyDv627tsKFhKCAaUgsrnR40%2FNhbQxbKUuAgvUZ%2Fv18carx6RwU%2FaaJDh2oxhsgcPvYxeJWtcCDVHb44kbiHcEtG6ff94ooR3UaroXqTDt%2BsXVBjqlAdEkZifOv%2BAlN8%2BvKQZ%2Fd2%2BGx6luCUFZ2AcFj0PuLzj2CjoFxbd%2FIqBhxS%2BG2T3msPrzNI8WTbiDs2BSQdwoyNfDDAtqp%2FTZZ0cNz8VUfgHHzAR1s0rbZKwu%2BatuHDGm%2F%2FxgHJatsdSqKEW%2BPnj1Whr0Wf1pkI5aXgCxk7GuHrn%2FJzS7CRW5VrBoHvblB7CvAwLzn4eT6GQGaUwjmuOqmIDtqXFgBA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=46ab2f18b07331a8a6bd08745e7f1c56eb424986b6e07ee393e085312b0fe6b1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Decent",
+          "href": "https://www.ycombinator.com/companies/decent-com"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-21T19:02:36.125Z",
+    "classified_at": "2026-09-21T19:02:36.125Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "decentro",
