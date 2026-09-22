@@ -1,7 +1,144 @@
 {
-  "updated_at": "2026-09-21T19:03:14.221Z",
+  "updated_at": "2026-09-22T17:55:58.835Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 116233,
+      "company_slug": "deepmark",
+      "launch_url": "https://www.ycombinator.com/launches/UEj-deepmark-reinventing-trust-in-voice",
+      "created_at": "2026-09-22T16:00:00.415Z",
+      "classification": {
+        "phenotype_primary_id": "agent-security-control-plane",
+        "vertical_id": "ai-infrastructure.agent-security",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-22T17:55:58.814Z",
+        "launch_id": 116233,
+        "company_slug": "deepmark",
+        "taxonomy": {
+          "conformance_index": 79,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-security",
+            "phenotype_primary_id": "agent-security-control-plane",
+            "cell_key": "BM-03::ai-infrastructure.agent-security::agent-security-control-plane",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent security & authorization",
+            "phenotype_label": "Agent Security & Access Control Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 116242,
+      "company_slug": "coverage-cat",
+      "launch_url": "https://www.ycombinator.com/launches/UEs-shop-for-umbrella-insurance-via-your-personal-agent-muse-instinct-openclaw-hermes-etc",
+      "created_at": "2026-09-22T15:38:06.824Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "ai-infrastructure.training-data",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-22T17:55:58.815Z",
+        "launch_id": 116242,
+        "company_slug": "coverage-cat",
+        "taxonomy": {
+          "conformance_index": 53,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 5,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 61,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "ai-infrastructure.training-data",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::ai-infrastructure.training-data::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Training & eval data generation",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
     {
       "launch_id": 115448,
       "company_slug": "dreamscale-labs",

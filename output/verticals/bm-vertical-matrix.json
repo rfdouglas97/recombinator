@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-21T19:03:16.216Z",
+  "generated_at": "2026-09-22T17:56:01.005Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1486,
-    "mapped_verticals": 244,
-    "observed_cells": 483,
+    "assignment_count": 1491,
+    "mapped_verticals": 245,
+    "observed_cells": 485,
     "total_verticals": 525,
-    "gap_candidates": 843
+    "gap_candidates": 842
   },
   "observed_cells": [
     {
@@ -467,6 +467,7 @@
         "dreach",
         "flowtel",
         "gpt",
+        "grep-ai",
         "kairos",
         "lua-global-inc",
         "mesmer",
@@ -774,6 +775,26 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "gbrain",
+        "gbrainio",
+        "gini",
+        "human-behavior",
+        "joindex",
+        "logical",
+        "opentag",
+        "pally",
+        "rivereditor",
+        "sentient-os",
+        "stamp"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "fintech.wealth.asset-management",
@@ -829,25 +850,6 @@
         "saffron",
         "skillsync",
         "spott"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.ops.knowledge",
-      "vertical_label": "Enterprise knowledge management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "gbrainio",
-        "gini",
-        "human-behavior",
-        "joindex",
-        "logical",
-        "opentag",
-        "pally",
-        "rivereditor",
-        "sentient-os",
-        "stamp"
       ]
     },
     {
@@ -2835,6 +2837,17 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "freight.load-matching",
+      "vertical_label": "Load matching & capacity optimization",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "maximal",
+        "truemile"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.payer.care-management",
       "vertical_label": "Care management & population health programs",
       "sector_id": "healthcare-life-sciences",
@@ -3906,6 +3919,16 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "ecommerce.personalization-engine",
+      "vertical_label": "On-site personalization & recommendation",
+      "sector_id": "retail-commerce",
+      "companies": [
+        "cyclon"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ecommerce.personalization-engine",
@@ -4463,16 +4486,6 @@
       "sector_id": "transportation-logistics",
       "companies": [
         "transload"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "freight.load-matching",
-      "vertical_label": "Load matching & capacity optimization",
-      "sector_id": "transportation-logistics",
-      "companies": [
-        "maximal"
       ]
     },
     {
@@ -5713,6 +5726,16 @@
       "sector_id": "industrials-defense",
       "companies": [
         "pairio"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "robotics.motion-planning",
+      "vertical_label": "Robotic motion planning & collision avoidance",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "asim-group"
       ]
     },
     {
