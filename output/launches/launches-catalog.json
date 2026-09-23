@@ -1,7 +1,30 @@
 {
-  "updated_at": "2026-09-22T17:56:00.040Z",
-  "count": 1308,
+  "updated_at": "2026-09-23T18:15:58.470Z",
+  "count": 1309,
   "launches": [
+    {
+      "launch_id": 116412,
+      "launch_slug": "UHc-spur-testing-infrastructure-for-your-mobile-apps",
+      "launch_url": "https://www.ycombinator.com/launches/UHc-spur-testing-infrastructure-for-your-mobile-apps",
+      "title": "Spur - testing infrastructure for your mobile apps",
+      "tagline": "test and validate your mobile apps in plain english.",
+      "body": "hey everyone 👋 we're Sneha and Anushka, co-founders of [Spur](https://www.spurtest.com/).\n\n### **TL;DR** Spur is building the validation infrastructure for software teams. We started with web testing, and today we're launching native app testing across iOS and Android.\n\nSpur is building the validation infrastructure for software teams. We started with web testing, and today we're launching native app testing across iOS and Android.\n\nSpur's agents test your apps the way real users do. You define the behavior you want to test in natural language, and Spur figures out how to execute and validate it across iOS and Android, native interactions, and web views.\n\nTeams at HelloFresh, Nextdoor, DocuSign, Bilt, Alo Yoga, and Abercrombie are already using Spur for testing across their digital experience – on websites and on their apps.\n\n**Our Ask:** If you’re building and maintaining a mobile app, we'd love to help you test it.\\\nBook a demo:[ https://spurtest.com/book-a-demo](https://spurtest.com/book-a-demo)\n\n## **The problem**\n\nSoftware is getting generated faster than ever: features that used to take days to build are now generated in minutes. But - once the feature exists, someone still has to figure out whether it actually works.\n\nThat validation process hasn't sped up at the same rate.\n\nIf you’re shipping mobile apps, this gets even harder. The same product flow often turns into separate automation for ios and android. Teams maintain the tests, the device infrastructure they run on, and the CI setup around them.\n\nAnd as your product changes, your automation has to change with it.\n\n## **The solution**\n\n1. **Natural Language allows you to define the “intent” of a test:**\n\n   Most test automation describes exactly _how_ to use an application.\n\n   _Find this element. Tap it. Wait for another element. Enter text. Assert a value._\n\n   That makes the test tightly coupled to the implementation. Spur tests describe what the user should be able _to do_ instead.\n\n   _Add an item to cart, apply a promo code, and complete checkout with Apple Pay._\n\n   The test captures the intent of the flow. Spur figures out how to execute it against the application in front of it. This means the same test can keep working across platforms or ui changes, because the thing you’re testing - the user behavior - hasn’t changed.\n2. **Spur runs the infrastructure too**\n\n   You upload the builds and choose what you want to validate. Spur handles the environment those tests execute in and runs them on our infrastructure. That means mobile testing becomes much closer to:\n\n   _build → upload → validate_\n\n   instead of becoming its own infrastructure project.\n\n   Tests can run as part of a release, against a pull request, on a schedule, or whenever an engineer wants to validate a change.\n\n   ![uploaded image](/media/?type=post&id=116412&key=user_uploads/700570/52f7df91-1940-4f7c-a2df-4299adbee3e3)\n\n3. **Built for engineers and agents**\n\n   As more software is written by coding agents, we think validation also needs to become something agents can use directly.\n\n   MCP is a first-class interface to Spur. A coding agent can make a change, ask Spur to validate the relevant user flows, inspect the result, fix what failed, and run the validation again.\n\n   So the loop starts to look like:\n\n   _generate → validate → fix → validate → ship_\n\n   Humans can define the intent, using anything as context (tickets, figma files, PRDs, your codebase). Agents can continuously check whether the software still satisfies it.\n\n   ![uploaded image](/media/?type=post&id=116412&key=user_uploads/700570/1438d0de-f515-48cf-8f6c-4c478e4a7dba)\n\n\n## **Why we built this**\n\nWe've spent the last few years building testing infrastructure for large software teams.\n\nOne thing has become increasingly clear: writing software is becoming dramatically easier, while proving that software works is still slow and expensive.\n\nWe think the gap between software generation and our ability to validate it is only going to widen.\n\nThe future of testing isn't maintaining more and more scripts. Validation needs to become more intelligent, adaptive, and be able to keep up with the rate at which software is changing.\n\nThat's what we're building at Spur.\n\nIf you're building or maintaining a mobile app, we'd love to work with you: <https://spurtest.com/book-a-demo>.",
+      "created_at": "2026-09-23T15:09:11.428Z",
+      "total_vote_count": 13,
+      "company_slug": "spur",
+      "company_name": "Spur",
+      "company_website": "https://www.spurtest.com/",
+      "company_batch": "Summer 2024",
+      "company_industry": "B2B",
+      "company_id": 29474,
+      "author_name": "Anushka Nijhawan",
+      "scraped_at": "2026-09-23T18:15:48.221Z",
+      "review_summary": {
+        "conformance_index": 79,
+        "predictability_band": "surprise",
+        "verdict": "conforming"
+      }
+    },
     {
       "launch_id": 116233,
       "launch_slug": "UEj-deepmark-reinventing-trust-in-voice",

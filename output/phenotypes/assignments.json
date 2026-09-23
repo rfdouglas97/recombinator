@@ -2218,6 +2218,72 @@
     }
   },
   {
+    "slug": "ageospatial",
+    "name": "Ageospatial",
+    "website": "https://ageospatial.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/ageospatial",
+    "batch": "Fall 2026",
+    "one_liner": "Helping insurance companies value risk on properties remotely.",
+    "description_combined": "Helping insurance companies value risk on properties remotely.",
+    "industry_sub_vertical": "Property risk assessment data intake for insurance underwriting",
+    "canonical_vertical_id": "insurance.uw-data-intake",
+    "vertical_id": "insurance.uw-data-intake",
+    "vertical_label": "Underwriting data intake & risk assessment",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "ai-native-regulated-product",
+    "phenotype_primary_label": "AI-Native Regulated Financial/Insurance Product",
+    "phenotype_family": "regulated_product",
+    "value_wedge": "regulated_product",
+    "ai_application": "risk_underwriting",
+    "ai_application_patterns": [
+      "computer_vision_property_analysis",
+      "remote_risk_scoring",
+      "underwriting_automation",
+      "claims_prevention"
+    ],
+    "what_they_sell": "AI-powered remote property risk valuation and underwriting platform for insurance carriers. Uses computer vision and geospatial analysis to assess property condition, hazard exposure, and risk factors without requiring in-person inspections.",
+    "ai_play": "Computer vision + geospatial AI replaces or augments costly manual property inspections. Enables insurers to underwrite policies faster, reduce claims by identifying high-risk properties early, and scale risk assessment across portfolios without field adjuster bottlenecks. AI-driven risk scoring becomes a core SKU differentiator for insurers.",
+    "who_pays": "Property & casualty insurance carriers, underwriters, and risk assessment teams seeking to reduce inspection costs and improve underwriting accuracy.",
+    "confidence": 0.78,
+    "rationale": "Ageospatial is building AI-native insurance product infrastructure where computer vision and geospatial analysis directly improve underwriting decisions and risk pricing. The company is not selling software to insurers; it is enabling insurers to embed AI-driven risk assessment into their core underwriting SKU. This fits ai-native-regulated-product because: (1) AI is the core differentiator in how risk is scored and priced, (2) the buyer is a regulated financial institution (insurer) whose core business is risk underwriting, (3) AI changes the economics and speed of underwriting. Secondary consideration: could map to vertical-workflow-agent if positioned as 'underwriting workflow automation software sold to insurers,' but the emphasis on remote risk valuation and the direct impact on insurance SKU (pricing, coverage decisions) suggests the primary phenotype is the regulated product layer.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Insurance"
+    ],
+    "yc_tags": [
+      "Computer Vision",
+      "Insurance",
+      "AI"
+    ],
+    "business_models": [
+      "BM-05"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA; Remote",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2973429,
+        "full_name": "Maaz Sheikh",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Maaz has been making maps since he was 6. His superpower is having a spatial-memory, he can draw a 1 km-resolution world map from memory and was ranked top 100 in the world on GeoGuessr. He was hired at 19 to support wartime and natural-disaster decisions from satellite imagery and at 21 analyzed drones in the Arctic to study whether food could grow there if the ice melted. He spent 7 years building geospatial software for insurance, energy and governments.",
+        "linkedin_url": "https://www.linkedin.com/in/maazhsheikh/",
+        "twitter_url": "https://x.com/maazinsf",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5b2709e2ef464249284afc8292d11ab5ebfe04ba.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE666J266%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181436Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD%2BpT4lu7lyu8DAsmMra8kswPjylbId0Mj2VL8FR0%2B97AIgbU2pQ1rqi2kM7kMZxtLwv0eATGZOoh0v5SNZHQLyvEgq7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDFDtBlzfQ%2BFSR%2BfbKCrCA83GxeRytoZ6chdNf21cnbyA%2Bd8tVJgFKKO3VFkIIDIzjrh40k6eVBHqvPjhUJvPqj8WKCBVLLnOUyiU8QcoJ%2B3aI%2FesrPwUw399SJdeMAGuV4Jg5C7QQUw8KYno7SN4ynt2d1jO9JhbILTSc1%2F%2BEdXKn%2BZ03ZvxN24oY%2FxwJfGcsIz7kT2LlyBF6mLG0vVibHUxwbYEMpM99QhDLYOCzrdX%2FjeVel3iYmNFnULfHXZ2HoUh94l%2BI1vZAQ45M4nYrTO3r65Tgzrbe1EY04me3%2Fw99dBw%2FkJjbza8a%2Bu%2Bk019ofbcIo%2BjSK%2FTO36CJ%2BqRcn2jLSWgU%2Fvei6a4%2FBHBDXn8w2Hp%2BjxYWcf5H8eIhoRKJkfcEcVQaFLWvjoDXnHC3ASt%2BJBxb9tDjllgDgRfX491B76yLnd4lcsibrRhWJszZ0Mrv5snxtCkFOdiJe0H1p7oLqhYKpksIpoKMA5DacFR6y1o1BIPfoUsL63l6BD09tFiHF2hGsU8fA%2BBfQXOX51hAGIGBT%2Bki6ULQe4W8uE2hxdmQtpMV1EkVHHeg4KF%2BaGXTuQjoa6g%2FxzUv8%2BCZS9RjHuMJi8%2FdWmRXamAUAqv%2FjCGp9DVBjqlATFDzjLOyrW2uzaEiH8IAtd3VmN1VRE%2FksbTJPff8T8DkRkjNADZkOunp4HiqedvuWymxM21P0RLh4kbaAfr2xO7WIYBOQxR3ejG7NZ96fvw3twCMmuXOef1DEaf%2FcD0yeOb4HfmlHGKh4p6s5I74kqd4WDNMjQieONvTgjo11sjmsrmDjFc86qAu9srKR2hR8u%2BnWVuztJ%2BAbuIxM%2BvWWkj1MjiIg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=662f08cfa751e939186354dd6b02f7af836bfc429e1e11a4cac88a6862abfffe",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ageospatial",
+          "href": "https://www.ycombinator.com/companies/ageospatial"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-23T18:14:47.313Z",
+    "classified_at": "2026-09-23T18:14:47.313Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "agnost-ai",
     "name": "Agnost AI",
     "website": "https://agnost.ai",
@@ -3074,6 +3140,86 @@
     "primary_bm_rationale": "Alchemize primarily monetizes as a software product automating customs workflows for importers, not as a managed service or human-in-loop labor replacement.",
     "primary_bm_assigned_at": "2026-06-05T19:58:49.112Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "alder",
+    "name": "Alder",
+    "website": "https://meetalder.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/alder",
+    "batch": "Fall 2025",
+    "one_liner": "AI employees for finance, starting with accounts receivable. ",
+    "description_combined": "AI employees for finance, starting with accounts receivable. \n\nWe’re building AI employees for finance teams. They handle repetitive work across email and accounting systems - processing documents, following up on open items, reconciling records, and resolving exceptions while people retain approval and oversight.",
+    "industry_sub_vertical": "Accounts receivable automation via AI agents",
+    "canonical_vertical_id": "enterprise.finance.order-to-cash",
+    "vertical_id": "enterprise.finance.order-to-cash",
+    "vertical_label": "Order-to-cash & billing operations",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agentic_automation",
+      "document_processing",
+      "exception_resolution",
+      "email_integration"
+    ],
+    "what_they_sell": "End-user-facing SaaS product deploying autonomous AI agents to automate accounts receivable workflows (document processing, follow-ups, reconciliation, exception handling) within finance teams. Agents integrate with email and accounting systems, execute tasks autonomously, and escalate exceptions to humans for approval.",
+    "ai_play": "AI agents replace manual, repetitive AR tasks (invoice processing, payment follow-ups, record reconciliation) while maintaining human oversight and approval gates. Agents learn domain workflows and integrate with existing accounting infrastructure (ERPs, email) to execute end-to-end AR processes autonomously.",
+    "who_pays": "Finance teams and CFOs at mid-market and enterprise companies seeking to reduce AR headcount and accelerate cash collection cycles.",
+    "confidence": 0.85,
+    "rationale": "Alder is a vertical SaaS deploying autonomous AI agents to replace human-driven AR workflows. It is NOT a horizontal copilot (not cross-industry productivity) and NOT a consulting service (not outcome-based or managed service). It is the end-product sold to finance teams, with agents handling specific job functions (AR processing, follow-ups, reconciliation) within a single vertical (finance/accounting). The agent integrates with existing tools (email, accounting systems) and executes tasks autonomously with human approval gates — classic vertical agentic workflow SaaS pattern. High confidence match to vertical-agentic-workflow-saas.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Finance and Accounting"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "B2B"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 153937,
+        "full_name": "Tejas Agarwal",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "ex-Uber, Oracle, UW-Madison| Built Fulfillment Metrics serving 6M+ drivers and 150M+ monthly active users | Previously built Zanzibar - Uber&#x27;s open-source API infrastructure serving 1M+ requests per second.  \n\nPassionate about building great teams, and delivering value to users.",
+        "linkedin_url": "https://linkedin.com/in/tejaswiagarwal",
+        "twitter_url": "https://x.com/teagarwal",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e46308cfd35c99385b69a4ded543643374e8e2a3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE666J266%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181410Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD%2BpT4lu7lyu8DAsmMra8kswPjylbId0Mj2VL8FR0%2B97AIgbU2pQ1rqi2kM7kMZxtLwv0eATGZOoh0v5SNZHQLyvEgq7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDFDtBlzfQ%2BFSR%2BfbKCrCA83GxeRytoZ6chdNf21cnbyA%2Bd8tVJgFKKO3VFkIIDIzjrh40k6eVBHqvPjhUJvPqj8WKCBVLLnOUyiU8QcoJ%2B3aI%2FesrPwUw399SJdeMAGuV4Jg5C7QQUw8KYno7SN4ynt2d1jO9JhbILTSc1%2F%2BEdXKn%2BZ03ZvxN24oY%2FxwJfGcsIz7kT2LlyBF6mLG0vVibHUxwbYEMpM99QhDLYOCzrdX%2FjeVel3iYmNFnULfHXZ2HoUh94l%2BI1vZAQ45M4nYrTO3r65Tgzrbe1EY04me3%2Fw99dBw%2FkJjbza8a%2Bu%2Bk019ofbcIo%2BjSK%2FTO36CJ%2BqRcn2jLSWgU%2Fvei6a4%2FBHBDXn8w2Hp%2BjxYWcf5H8eIhoRKJkfcEcVQaFLWvjoDXnHC3ASt%2BJBxb9tDjllgDgRfX491B76yLnd4lcsibrRhWJszZ0Mrv5snxtCkFOdiJe0H1p7oLqhYKpksIpoKMA5DacFR6y1o1BIPfoUsL63l6BD09tFiHF2hGsU8fA%2BBfQXOX51hAGIGBT%2Bki6ULQe4W8uE2hxdmQtpMV1EkVHHeg4KF%2BaGXTuQjoa6g%2FxzUv8%2BCZS9RjHuMJi8%2FdWmRXamAUAqv%2FjCGp9DVBjqlATFDzjLOyrW2uzaEiH8IAtd3VmN1VRE%2FksbTJPff8T8DkRkjNADZkOunp4HiqedvuWymxM21P0RLh4kbaAfr2xO7WIYBOQxR3ejG7NZ96fvw3twCMmuXOef1DEaf%2FcD0yeOb4HfmlHGKh4p6s5I74kqd4WDNMjQieONvTgjo11sjmsrmDjFc86qAu9srKR2hR8u%2BnWVuztJ%2BAbuIxM%2BvWWkj1MjiIg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ad95d77d5aa7c81899823b023df131255ecd804d1252ad174399b0765066ce2d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Alder",
+          "href": "https://www.ycombinator.com/companies/alder"
+        }
+      },
+      {
+        "user_id": 894645,
+        "full_name": "Pankaj Mishra",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "ex-Uber, IIT KGP | Built the platform for Uber for Business & Fulfillment.",
+        "linkedin_url": "https://linkedin.com/in/pkj-m",
+        "twitter_url": "https://x.com/pkj__m",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/94475cd51549c03e2deba9500b055a8f49adcb16.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE666J266%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181410Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD%2BpT4lu7lyu8DAsmMra8kswPjylbId0Mj2VL8FR0%2B97AIgbU2pQ1rqi2kM7kMZxtLwv0eATGZOoh0v5SNZHQLyvEgq7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDFDtBlzfQ%2BFSR%2BfbKCrCA83GxeRytoZ6chdNf21cnbyA%2Bd8tVJgFKKO3VFkIIDIzjrh40k6eVBHqvPjhUJvPqj8WKCBVLLnOUyiU8QcoJ%2B3aI%2FesrPwUw399SJdeMAGuV4Jg5C7QQUw8KYno7SN4ynt2d1jO9JhbILTSc1%2F%2BEdXKn%2BZ03ZvxN24oY%2FxwJfGcsIz7kT2LlyBF6mLG0vVibHUxwbYEMpM99QhDLYOCzrdX%2FjeVel3iYmNFnULfHXZ2HoUh94l%2BI1vZAQ45M4nYrTO3r65Tgzrbe1EY04me3%2Fw99dBw%2FkJjbza8a%2Bu%2Bk019ofbcIo%2BjSK%2FTO36CJ%2BqRcn2jLSWgU%2Fvei6a4%2FBHBDXn8w2Hp%2BjxYWcf5H8eIhoRKJkfcEcVQaFLWvjoDXnHC3ASt%2BJBxb9tDjllgDgRfX491B76yLnd4lcsibrRhWJszZ0Mrv5snxtCkFOdiJe0H1p7oLqhYKpksIpoKMA5DacFR6y1o1BIPfoUsL63l6BD09tFiHF2hGsU8fA%2BBfQXOX51hAGIGBT%2Bki6ULQe4W8uE2hxdmQtpMV1EkVHHeg4KF%2BaGXTuQjoa6g%2FxzUv8%2BCZS9RjHuMJi8%2FdWmRXamAUAqv%2FjCGp9DVBjqlATFDzjLOyrW2uzaEiH8IAtd3VmN1VRE%2FksbTJPff8T8DkRkjNADZkOunp4HiqedvuWymxM21P0RLh4kbaAfr2xO7WIYBOQxR3ejG7NZ96fvw3twCMmuXOef1DEaf%2FcD0yeOb4HfmlHGKh4p6s5I74kqd4WDNMjQieONvTgjo11sjmsrmDjFc86qAu9srKR2hR8u%2BnWVuztJ%2BAbuIxM%2BvWWkj1MjiIg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6bfc99af751b1d198548638b9f96b91e6edcd4a97175f02ad448d6c3c3353416",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Alder",
+          "href": "https://www.ycombinator.com/companies/alder"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-23T18:14:19.242Z",
+    "classified_at": "2026-09-23T18:14:19.242Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "aleph-lab",
@@ -28314,6 +28460,101 @@
     "launch_evaluated_at": "2026-07-30T16:56:29.915Z"
   },
   {
+    "slug": "elimentary",
+    "name": "Elimentary",
+    "website": "https://www.elimentary.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/elimentary",
+    "batch": "Fall 2026",
+    "one_liner": "Agents that run middle/back-office operations for Private Capital",
+    "description_combined": "Agents that run middle/back-office operations for Private Capital\n\nElimentary’s is building AI agents that can run middle/back-office operations for private capital managers, starting with structured credit. Most private capital managers focus primarily on sourcing and capital deployment. Meanwhile post-investment operations receive step-child treatment. While AUMs have increased exponentially over the last decade, operations continue to be painfully supported by humans using spreadsheets and emails. Things have started to break leading to investment write-offs, fines, penalties, and sometimes lost LP relationships. \r\n\r\nOur agents can run these operations (borrowing base calcs, cracking loan tapes, NAV calculations, etc.) end to end autonomously. For one of our customers, our agents cut a 20-hour ops process to 30 minutes. It saved 90% of the manual hours, translating to $150k in annual savings.",
+    "industry_sub_vertical": "Private capital post-investment operations (NAV calculations, borrowing base management, loan tape analysis)",
+    "canonical_vertical_id": "lending.portfolio-analytics",
+    "vertical_id": "lending.portfolio-analytics",
+    "vertical_label": "Loan portfolio analytics & performance monitoring",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "document_parsing_automation",
+      "financial_calculation_agents",
+      "end_to_end_process_automation",
+      "spreadsheet_elimination"
+    ],
+    "what_they_sell": "SaaS platform deploying autonomous AI agents to automate middle/back-office operations for private capital managers (structured credit funds, PE firms). Agents autonomously execute borrowing base calculations, loan tape analysis, NAV calculations, and other post-investment operational workflows that currently require manual spreadsheet work and email coordination.",
+    "ai_play": "AI agents replace manual, document-intensive operational processes by parsing loan documents, financial statements, and borrowing agreements; performing complex financial calculations; and coordinating multi-step workflows autonomously. Reduces 20-hour manual processes to 30 minutes, eliminating spreadsheet dependency and human error in high-stakes financial operations.",
+    "who_pays": "Private capital managers (hedge funds, structured credit funds, PE firms, asset managers) whose operations teams currently handle post-investment management and compliance reporting.",
+    "confidence": 0.85,
+    "rationale": "Elimentary is a vertical SaaS product sold to private capital managers as an end-user-facing platform. The AI agents are the core product, not a tool sold to operators of other businesses. They automate a specific vertical workflow (post-investment operations in structured credit) with high switching cost via domain expertise and integration with fund accounting systems. This is distinct from vertical-workflow-agent (which would be agents sold to help operators manage their own workflows) — Elimentary IS the operational solution itself. The company takes no contractual/financial responsibility for outcomes (not a service provider), but rather sells autonomous workflow automation as SaaS. Confidence is high (0.85) because the fit to vertical-agentic-workflow-saas is strong: end-user SaaS, autonomous agents, vertical focus, workflow replacement, and seat/usage-based monetization model.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Asset Management"
+    ],
+    "yc_tags": [
+      "FinOps",
+      "Enterprise"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 5,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2760758,
+        "full_name": "Yogesh Gorjilla",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder & CEO at Elimentary. Previously with UBS, Goldman Sachs, Flipkart and Jupiter. Built and scaled a Pay Later product to 10 million users and $1 billion in loan book. Extensive experience across Fintech, Credit and Capital Markets.",
+        "linkedin_url": "https://www.linkedin.com/in/yogeshgorjilla/",
+        "twitter_url": "https://x.com/yogeshgorjilla",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1123dc46fada21a132ee082bac897950e170688f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALKKSU3T3%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181456Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBLKGEHiI158IRsCruSMlyo9GgdD0CIdiA%2BuXcDmcM9fAiEAjzC2h9r71%2BgraTcA3fJxl1m3RDeT9bF30HfpBTOCCoUq7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDKuvPAQEgxqR0AobwCrCA%2BSHY66wBGTnxHZ3x1uQCQIBzTcqmMnc8JdCAJ%2B2polw4Cc18XucoW0pLC1AalxhtNNVxPNoSV8p1ZF5JH%2FUrRJKxAc3PSyAJpAAkKOtzIfQuRYjZOkObF5VVFccr8sapHhBB60JAc3K8wfBstequ%2FKM8N7tKKH3DM2v7nIRezvzBIPcCNAbXy3VgjWlAd5WzuV6KmSkOO4MRf6yEIB4kHh%2FNnGFTOOt3gN79%2B4G1RS0%2FdyxJB1YvVRFYjBw1n41zpz0Dya3yR2%2FmqxHeNx0ZpSGRvCFNtXUmeikLlOTy60iHO381qp7DTvHn0zHccfIIFivfTbkfpcAF%2BmYdkTvDLHlqq6NxNPp6rY6WO0PIljqYeWovlE0LepbEcGBWdlVuYIfgNQz55noG2pZi0Pwh%2BGVzOvJXUvTEZrf4p3TtNXJ9TcVJktEoiAh0b5YsCAa5jQDgVQTkZD2lWvqW50xkSWYd4YZCbnmXV2NiHNvyK0IpW9VGUGsIwyx1fusiZ0SzzzmoMKFJxtrf3M%2FLT%2FQnQGMBcdKQJhv%2BjHxUra3C5ga2zUdV76dNhlSF2wwB%2BBL7d%2FFs%2FiodmxcvWufBGQ%2BPG2ryzCbp9DVBjqlASi6x2XIJpSxFgbR81gab3K6LKoPwiuzK5bM%2F0HQVWPheiy%2FbBn5sCJLZvPKY3y4ujlI1zKCloGDqJ4ThQdw3uQy3Q3aeifvzmPrFVjIUt8vzVvrKEFrIzCGn%2B5%2Bkoytbgmc1GlhlHEO9KO%2FiSUpJHYSk%2BZqWlC%2F3iZDlFFNIUjGl0myPJwLoEztNjHT1u2F1MmvBLbiX%2F3t5qxtTnHtjITDDqyqtQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=98972e66b784b802b3edde2eb72671813eb5c68945a2e06d5ee342d496757ded",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Elimentary",
+          "href": "https://www.ycombinator.com/companies/elimentary"
+        }
+      },
+      {
+        "user_id": 2760773,
+        "full_name": "Mannat Saini",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder at Elimentary. Previously engineering @ Goldman Sachs, Jefferies, Oracle and Flipkart. Built and scaled multiple credit products to ~20 million users and $1 billion loan book.",
+        "linkedin_url": "https://www.linkedin.com/in/mannatsaini/",
+        "twitter_url": "https://x.com/MannatSaini09",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5c8ef7bd04ef6bdb1d92e2f5a9ad8545c78c363e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALKKSU3T3%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181456Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBLKGEHiI158IRsCruSMlyo9GgdD0CIdiA%2BuXcDmcM9fAiEAjzC2h9r71%2BgraTcA3fJxl1m3RDeT9bF30HfpBTOCCoUq7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDKuvPAQEgxqR0AobwCrCA%2BSHY66wBGTnxHZ3x1uQCQIBzTcqmMnc8JdCAJ%2B2polw4Cc18XucoW0pLC1AalxhtNNVxPNoSV8p1ZF5JH%2FUrRJKxAc3PSyAJpAAkKOtzIfQuRYjZOkObF5VVFccr8sapHhBB60JAc3K8wfBstequ%2FKM8N7tKKH3DM2v7nIRezvzBIPcCNAbXy3VgjWlAd5WzuV6KmSkOO4MRf6yEIB4kHh%2FNnGFTOOt3gN79%2B4G1RS0%2FdyxJB1YvVRFYjBw1n41zpz0Dya3yR2%2FmqxHeNx0ZpSGRvCFNtXUmeikLlOTy60iHO381qp7DTvHn0zHccfIIFivfTbkfpcAF%2BmYdkTvDLHlqq6NxNPp6rY6WO0PIljqYeWovlE0LepbEcGBWdlVuYIfgNQz55noG2pZi0Pwh%2BGVzOvJXUvTEZrf4p3TtNXJ9TcVJktEoiAh0b5YsCAa5jQDgVQTkZD2lWvqW50xkSWYd4YZCbnmXV2NiHNvyK0IpW9VGUGsIwyx1fusiZ0SzzzmoMKFJxtrf3M%2FLT%2FQnQGMBcdKQJhv%2BjHxUra3C5ga2zUdV76dNhlSF2wwB%2BBL7d%2FFs%2FiodmxcvWufBGQ%2BPG2ryzCbp9DVBjqlASi6x2XIJpSxFgbR81gab3K6LKoPwiuzK5bM%2F0HQVWPheiy%2FbBn5sCJLZvPKY3y4ujlI1zKCloGDqJ4ThQdw3uQy3Q3aeifvzmPrFVjIUt8vzVvrKEFrIzCGn%2B5%2Bkoytbgmc1GlhlHEO9KO%2FiSUpJHYSk%2BZqWlC%2F3iZDlFFNIUjGl0myPJwLoEztNjHT1u2F1MmvBLbiX%2F3t5qxtTnHtjITDDqyqtQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7f51572270d75bc520d68b2d6c5cf5a79e5ae71ef3fc2e151e6e6b174d7c9e1f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Elimentary",
+          "href": "https://www.ycombinator.com/companies/elimentary"
+        }
+      },
+      {
+        "user_id": 3181292,
+        "full_name": "Manoj Sarda",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Founder at Elimentary. Ex-founder at Skit.ai - voice AI automation for debt collection started in 2018. Led product at largest neo-bank of India - Jupiter.Money. IIT grad.",
+        "linkedin_url": "https://www.linkedin.com/in/manojsarda/",
+        "twitter_url": "https://x.com/smr_rad",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e4bb8ed4cfdb409be381c4c3905353c623cbdfce.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALKKSU3T3%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181456Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBLKGEHiI158IRsCruSMlyo9GgdD0CIdiA%2BuXcDmcM9fAiEAjzC2h9r71%2BgraTcA3fJxl1m3RDeT9bF30HfpBTOCCoUq7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDKuvPAQEgxqR0AobwCrCA%2BSHY66wBGTnxHZ3x1uQCQIBzTcqmMnc8JdCAJ%2B2polw4Cc18XucoW0pLC1AalxhtNNVxPNoSV8p1ZF5JH%2FUrRJKxAc3PSyAJpAAkKOtzIfQuRYjZOkObF5VVFccr8sapHhBB60JAc3K8wfBstequ%2FKM8N7tKKH3DM2v7nIRezvzBIPcCNAbXy3VgjWlAd5WzuV6KmSkOO4MRf6yEIB4kHh%2FNnGFTOOt3gN79%2B4G1RS0%2FdyxJB1YvVRFYjBw1n41zpz0Dya3yR2%2FmqxHeNx0ZpSGRvCFNtXUmeikLlOTy60iHO381qp7DTvHn0zHccfIIFivfTbkfpcAF%2BmYdkTvDLHlqq6NxNPp6rY6WO0PIljqYeWovlE0LepbEcGBWdlVuYIfgNQz55noG2pZi0Pwh%2BGVzOvJXUvTEZrf4p3TtNXJ9TcVJktEoiAh0b5YsCAa5jQDgVQTkZD2lWvqW50xkSWYd4YZCbnmXV2NiHNvyK0IpW9VGUGsIwyx1fusiZ0SzzzmoMKFJxtrf3M%2FLT%2FQnQGMBcdKQJhv%2BjHxUra3C5ga2zUdV76dNhlSF2wwB%2BBL7d%2FFs%2FiodmxcvWufBGQ%2BPG2ryzCbp9DVBjqlASi6x2XIJpSxFgbR81gab3K6LKoPwiuzK5bM%2F0HQVWPheiy%2FbBn5sCJLZvPKY3y4ujlI1zKCloGDqJ4ThQdw3uQy3Q3aeifvzmPrFVjIUt8vzVvrKEFrIzCGn%2B5%2Bkoytbgmc1GlhlHEO9KO%2FiSUpJHYSk%2BZqWlC%2F3iZDlFFNIUjGl0myPJwLoEztNjHT1u2F1MmvBLbiX%2F3t5qxtTnHtjITDDqyqtQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1f588cca45bd8d57679d0908853dc6068b3c4e308a3c99835910d1c4b4adff99",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Elimentary",
+          "href": "https://www.ycombinator.com/companies/elimentary"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-23T18:15:07.712Z",
+    "classified_at": "2026-09-23T18:15:07.712Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "elip-ai",
     "name": "Elip AI",
     "website": "https://www.tryelip.ai/",
@@ -41107,6 +41348,87 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "insforge-instacloud",
+    "name": "InsForge (InstaCloud)",
+    "website": "https://insforge.dev/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/insforge-instacloud",
+    "batch": "Spring 2026",
+    "one_liner": "The agent-native serverless cloud",
+    "description_combined": "The agent-native serverless cloud\n\nInstaCloud is the agent-native serverless cloud: deploy any code or service instantly, with automatic scaling and zero DevOps required.",
+    "industry_sub_vertical": "Agent-native serverless compute platform for agentic workflow deployment",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_deployment",
+      "serverless_scaling",
+      "devops_automation"
+    ],
+    "what_they_sell": "Agent-native serverless cloud platform enabling developers to deploy agentic code and services with automatic scaling, zero DevOps overhead, and built-in agent lifecycle management.",
+    "ai_play": "Abstracts away infrastructure complexity for agent developers by providing a purpose-built runtime that handles agent deployment, scaling, isolation, and resource optimization automatically. Enables agents to be deployed as easily as functions, with built-in support for tool calling, state management, and multi-agent orchestration.",
+    "who_pays": "AI/ML engineers, startup founders building agents, enterprises deploying agentic workflows at scale.",
+    "confidence": 0.75,
+    "rationale": "InsForge positions itself as 'agent-native serverless cloud' — a runtime/infrastructure layer optimized for deploying and scaling agent workloads. This maps clearly to agent-runtime-infra (runtimes, sandboxes, orchestration, cost optimization for agents). The 'zero DevOps' positioning and automatic scaling suggest infrastructure-as-a-service for agents. Secondary phenotype edge-inference-runtime is weaker fit but relevant if they optimize for edge/on-prem deployment. Confidence 0.75 because the description is minimal and doesn't explicitly confirm agent-specific features (tool routing, multi-agent coordination, observability), but the 'agent-native' framing and serverless positioning strongly align with agent runtime infrastructure.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "DevSecOps",
+      "Cloud Computing",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 6,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 967495,
+        "full_name": "Hang Huang",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder & CEO at InsForge (YC P26). Ex-Amazon PM, Yale MBA. Former professional League of Legends player.",
+        "linkedin_url": "https://linkedin.com/in/hang-huang-oliver",
+        "twitter_url": "https://x.com/hanghuang_",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2058201598004fe3b3a6453fb39790a037aa9afc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANRVPITBS%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181419Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCnjdot8Y7BI5E3WQ1yoA601nvl50%2BcFwT4Nu0L6WlWFgIgKzr3m%2Bu0pdsbOzF0KGIE8XTNapsor1wyzR4tK91oI%2B4q7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDLr7HYDXd21y74rJMyrCA8Uf0E84EDLzm%2FfiPwq9fVnR76IRTTA3sfvSHmT8faibS4cXNMKWzhJtG2WIod9pT5wRD5tRekuxvTtaCeHq7hALZQ8acWQu9eSByMSPLrgFxP%2BW2o48rmXebmMX7eAmJ%2FNUxJYbu2fCG%2BdVWDdnbllWmS7f9t3ohhnVSKl9sV%2BGzefaaDNapAthiz6UxalFqmyl7KtDmNf1q44pSBe%2BV9NmyDZpMlzlWsYTGk%2BAhSq8%2FXxBWi0qCXqmOE7yIdTV31QXpqB16tLzJ8HO6Sb6%2F8ufmSAiFfjt0QWID4qosmsi2mzXTW1ciE9WgwkyERAyOZFpNTZ9SCoaEftiCKwVaPdCps494C3HTPb19JPCOpBhPxigVoBTUNUum6NFTgswi8o8HdHzT8Bxv7679em15tomA%2BlY0s%2Fo6fCebVoZVUZuQFY8qI%2B0ZiIyIc4Hmz3yuUVG5dOyrkQZs6aqEylbFfDbK%2BOaKqII6P5M%2B0s1DqxktufPIYlMUW3tvyrVwahs1HRO9uZBhJqs6NBJFF2uhOT30zHDWlOyEzOMjoDGpjPtczx%2BUFXu%2FjWr20SeTIsWiUnM4TwH3DJPb5WgoP6sTpLGADCbp9DVBjqlAao5PE5Tvt%2Fp3coSkWbeNMM5HY888%2B89qAlYwWwaqgkqLdPj1A7u3hYQ6eVS4FNrDg85Enj6rYUaSRF5cTIEUQLVRB%2BL4THzVoBZRN6V10Qk%2FNXJcpCOin9Xr%2FfOi2VV8OvcseDp5ssLA8sG7l0ItiBn2NDKZMjMMhmX0Laumey0e5RDYHeQzd7UK2JzV8GUIjU6likGOM1WdRK%2FyPXLU8qUNepT4g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a88afd3d1b4b8af0324e15b6fc12f248ff1e355abe5f1d46bafe924a94ffec18",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "InsForge (InstaCloud)",
+          "href": "https://www.ycombinator.com/companies/insforge-instacloud"
+        }
+      },
+      {
+        "user_id": 2376097,
+        "full_name": "Tony Chang",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder & CTO at InsForge. Previously Software Engineer at Databricks(Networking Infra). \nInterned @ Meta(Ads ML Infra) & Amazon(Backend Infra) \n\nHackathon Addict :) 10x Wins + 9x judge",
+        "linkedin_url": "https://www.linkedin.com/in/tony-chang-0430/",
+        "twitter_url": "https://x.com/tonychang430",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d9ae957713ee880ded3c7c44a66eb2110e1fd999.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANRVPITBS%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181419Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCnjdot8Y7BI5E3WQ1yoA601nvl50%2BcFwT4Nu0L6WlWFgIgKzr3m%2Bu0pdsbOzF0KGIE8XTNapsor1wyzR4tK91oI%2B4q7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDLr7HYDXd21y74rJMyrCA8Uf0E84EDLzm%2FfiPwq9fVnR76IRTTA3sfvSHmT8faibS4cXNMKWzhJtG2WIod9pT5wRD5tRekuxvTtaCeHq7hALZQ8acWQu9eSByMSPLrgFxP%2BW2o48rmXebmMX7eAmJ%2FNUxJYbu2fCG%2BdVWDdnbllWmS7f9t3ohhnVSKl9sV%2BGzefaaDNapAthiz6UxalFqmyl7KtDmNf1q44pSBe%2BV9NmyDZpMlzlWsYTGk%2BAhSq8%2FXxBWi0qCXqmOE7yIdTV31QXpqB16tLzJ8HO6Sb6%2F8ufmSAiFfjt0QWID4qosmsi2mzXTW1ciE9WgwkyERAyOZFpNTZ9SCoaEftiCKwVaPdCps494C3HTPb19JPCOpBhPxigVoBTUNUum6NFTgswi8o8HdHzT8Bxv7679em15tomA%2BlY0s%2Fo6fCebVoZVUZuQFY8qI%2B0ZiIyIc4Hmz3yuUVG5dOyrkQZs6aqEylbFfDbK%2BOaKqII6P5M%2B0s1DqxktufPIYlMUW3tvyrVwahs1HRO9uZBhJqs6NBJFF2uhOT30zHDWlOyEzOMjoDGpjPtczx%2BUFXu%2FjWr20SeTIsWiUnM4TwH3DJPb5WgoP6sTpLGADCbp9DVBjqlAao5PE5Tvt%2Fp3coSkWbeNMM5HY888%2B89qAlYwWwaqgkqLdPj1A7u3hYQ6eVS4FNrDg85Enj6rYUaSRF5cTIEUQLVRB%2BL4THzVoBZRN6V10Qk%2FNXJcpCOin9Xr%2FfOi2VV8OvcseDp5ssLA8sG7l0ItiBn2NDKZMjMMhmX0Laumey0e5RDYHeQzd7UK2JzV8GUIjU6likGOM1WdRK%2FyPXLU8qUNepT4g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=036dbccb155a61a76be8e078bf8744541826d2e8884744b76af9a9db84d911e8",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "InsForge (InstaCloud)",
+          "href": "https://www.ycombinator.com/companies/insforge-instacloud"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-23T18:14:27.712Z",
+    "classified_at": "2026-09-23T18:14:27.712Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "inspector",
     "name": "Inspector",
     "website": "https://www.tryinspector.com",
@@ -42577,6 +42899,84 @@
     "launch_created_at": "2026-09-10T19:30:05.764Z",
     "launch_tagline": "AI Weapons of Mass Production",
     "launch_evaluated_at": "2026-09-11T17:30:27.134Z"
+  },
+  {
+    "slug": "isoquant",
+    "name": "isoquant",
+    "website": "https://isoquant.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/isoquant",
+    "batch": "Fall 2026",
+    "one_liner": "Self-optimizing inference cloud for faster, cheaper AI",
+    "description_combined": "Self-optimizing inference cloud for faster, cheaper AI",
+    "industry_sub_vertical": "Inference optimization & cost reduction for LLM and vision model serving",
+    "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_label": "GPU infrastructure for model deployment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "edge-inference-runtime",
+    "phenotype_primary_label": "Edge Inference Runtime & Optimization",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "inference_optimization",
+      "cost_reduction",
+      "latency_minimization",
+      "self_tuning_systems"
+    ],
+    "what_they_sell": "Managed inference cloud platform that autonomously optimizes AI model deployment for speed and cost. Likely uses AI/ML to dynamically route queries, compress models, select optimal hardware, and adapt inference strategies based on workload patterns.",
+    "ai_play": "Self-optimizing inference layer: AI agents or RL-driven systems continuously monitor inference performance, cost, and latency — then automatically adjust model quantization, batching, routing, and hardware allocation without manual intervention. Replaces manual DevOps tuning with autonomous optimization.",
+    "who_pays": "ML engineers, platform teams, and enterprises running inference-heavy workloads (LLM APIs, vision models, recommendation systems) seeking to reduce inference costs and latency without sacrificing model quality.",
+    "confidence": 0.72,
+    "rationale": "Isoquant's positioning as 'self-optimizing inference cloud' maps directly to edge-inference-runtime (efficient deployment, cost optimization, model compression) with secondary alignment to gpu-accelerated-analytics-infrastructure (compute acceleration). The 'self-optimizing' language suggests autonomous tuning via AI/RL rather than manual configuration — a key differentiator. Primary buyer is infrastructure/platform teams, not end-users. Confidence is moderate (0.72) because the description lacks detail on whether optimization is rule-based, ML-driven, or agentic; 'self-optimizing' implies AI-native but could also mean heuristic-based auto-scaling.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 355672,
+        "full_name": "Aniket Deshpande",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder & CEO at Agent FM · Previously Applied AI at Meta Superintelligence Labs",
+        "linkedin_url": "https://linkedin.com/in/anideshp",
+        "twitter_url": "https://x.com/anideshp",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e07e9d9585f2f737ad4192980033d6bfb18882be.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAASZUQKT4%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181507Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBH3AD36kmkzetObVMDpHjx2bYcaYsOLNvKjIlakrO6CAiEArfRdsoSZG0QF9ivAVC88Iu1Vnwbspudmqqz5ih%2BhO78q7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDFb%2BeFSKR7NS6wrGrirCA0UZt6UB%2B2bxi8IakcEBrXn5MqDKUq0mcg6PIVR1zgRbCz%2BWkGX38I4wnYey%2BMiKDwiSMezCVbzUkm9F6f7ukG5OCgT07ZTO4fUeaQBJbPCfKp5z6XrcXSGpiw0K1jDq9yX0BFjwzrBeBKmxZF22XceHUu2LPquDHCmOdoR0zevTAPpGNYOnDUESEQOFiQGgtbKVsLLnYAh7PKQfHx1i%2FoT3FF4tDoCZ7zZDhAgvyZgN02nKbOfZdX4B0mE9wS8fN8JumV23QvLDrd03UBdMyKbVZRPY7i%2ByqvQXeS6%2FtPlmGqy1DhjMs5QyYeFDXzsCpo44Z7h4qLWoMHjBMUUnjIg2dg6KqFqsCkJso2tFdprh1pg%2FFcramHSe8fkk2T5h9tcwpA%2Fo8bNdFBgsin%2Bx%2BVVQSEl9o1M6o4yC%2Be5k5AoM%2BYKwgN9Df5W%2Bh3p2EP%2FYw5Qzw73y7YgCMqfPQYZIaPCg9y7d7rAaVUa%2Fgf1Ge9EjGCEKurueQA56wIKitwAh6fC0SV4TybSs4ltfrpHFDVNMIKbBoJPYKs93Bj2x9UraRXrLAJ1dtuKLD53oAOAMZwsqa2r1OHCV3vdYKGNfmKU9rDCcp9DVBjqlAefnlLqD56hvViLB9%2BqLLtdMeiYd6ccebixMH1WlowTJPtGjl0elX%2F90sTXhPgghQ2vjTFwRXntF0eoosbB8BHnjRKCQ%2FbuIiSQRwNYbuvM2nImCfJB%2B4p2O40gu8fMXUwbYqlqDTLx9%2FX3GjOjx7MhJ%2BnuaEeORu5KVCjsVEHH27zHkItw%2FuoYGlcnwxn4i3Rx%2BWZ9dsEwLWnPyWAqidHmGFrc8Yg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=289b05607c04cb94fd3973f62b289552abdbe4e82385d255c8331294ec64758c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "isoquant",
+          "href": "https://www.ycombinator.com/companies/isoquant"
+        }
+      },
+      {
+        "user_id": 606411,
+        "full_name": "Mugdhaa Patankar",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "co-founder & cto at isoquant · previously snowflake, twitch, aws",
+        "linkedin_url": "https://linkedin.com/in/mugdhaa-patankar",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cc8dfabe29ed3019f42417501588ddf2af32354e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAASZUQKT4%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181507Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBH3AD36kmkzetObVMDpHjx2bYcaYsOLNvKjIlakrO6CAiEArfRdsoSZG0QF9ivAVC88Iu1Vnwbspudmqqz5ih%2BhO78q7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDFb%2BeFSKR7NS6wrGrirCA0UZt6UB%2B2bxi8IakcEBrXn5MqDKUq0mcg6PIVR1zgRbCz%2BWkGX38I4wnYey%2BMiKDwiSMezCVbzUkm9F6f7ukG5OCgT07ZTO4fUeaQBJbPCfKp5z6XrcXSGpiw0K1jDq9yX0BFjwzrBeBKmxZF22XceHUu2LPquDHCmOdoR0zevTAPpGNYOnDUESEQOFiQGgtbKVsLLnYAh7PKQfHx1i%2FoT3FF4tDoCZ7zZDhAgvyZgN02nKbOfZdX4B0mE9wS8fN8JumV23QvLDrd03UBdMyKbVZRPY7i%2ByqvQXeS6%2FtPlmGqy1DhjMs5QyYeFDXzsCpo44Z7h4qLWoMHjBMUUnjIg2dg6KqFqsCkJso2tFdprh1pg%2FFcramHSe8fkk2T5h9tcwpA%2Fo8bNdFBgsin%2Bx%2BVVQSEl9o1M6o4yC%2Be5k5AoM%2BYKwgN9Df5W%2Bh3p2EP%2FYw5Qzw73y7YgCMqfPQYZIaPCg9y7d7rAaVUa%2Fgf1Ge9EjGCEKurueQA56wIKitwAh6fC0SV4TybSs4ltfrpHFDVNMIKbBoJPYKs93Bj2x9UraRXrLAJ1dtuKLD53oAOAMZwsqa2r1OHCV3vdYKGNfmKU9rDCcp9DVBjqlAefnlLqD56hvViLB9%2BqLLtdMeiYd6ccebixMH1WlowTJPtGjl0elX%2F90sTXhPgghQ2vjTFwRXntF0eoosbB8BHnjRKCQ%2FbuIiSQRwNYbuvM2nImCfJB%2B4p2O40gu8fMXUwbYqlqDTLx9%2FX3GjOjx7MhJ%2BnuaEeORu5KVCjsVEHH27zHkItw%2FuoYGlcnwxn4i3Rx%2BWZ9dsEwLWnPyWAqidHmGFrc8Yg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=67c794ff5e2f3895bf9e660aff004992f56a6a13abeb5da4852eff033829c8e1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "isoquant",
+          "href": "https://www.ycombinator.com/companies/isoquant"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-23T18:15:17.509Z",
+    "classified_at": "2026-09-23T18:15:17.509Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "item",
@@ -52057,6 +52457,86 @@
     "launch_created_at": "2026-08-18T14:30:00.079Z",
     "launch_tagline": "Vertically integrated magnet manufacturing for aerospace, robotics and defense.",
     "launch_evaluated_at": "2026-08-18T14:30:55.178Z"
+  },
+  {
+    "slug": "masterpiece",
+    "name": "Masterpiece",
+    "website": "https://masterpiecelabs.xyz/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/masterpiece",
+    "batch": "Spring 2026",
+    "one_liner": "Working capital for data companies training frontier AI",
+    "description_combined": "Working capital for data companies training frontier AI\n\nWe believe AI will be one of humanity’s next great masterpieces. Building it will require financial infrastructure as ambitious as the companies creating it. We&#x27;re founders backed by Y Combinator building the financial rails underpinning the AI data economy.\r\n\r\nMasterpiece provides short term working capital to data vendors that sell training data, evaluation work, and reinforcement learning environments to frontier AI labs.\r\n\r\nA major financing gap exists in this market. Data vendors often need to pay contributors and fund operations before a lab has completed QA, accepted the work, and paid the invoice. This creates a 30 to 90 day cash gap between when vendors incur costs and when they receive payment. Legacy invoice lenders have little visibility into how to underwrite these assets.\r\n\r\nMasterpiece closes that gap by advancing capital against high quality lab contracts and invoices. Vendors can use the capital to scale delivery, pay contributors, and fund growth, then repay masterpiece when the lab payment arrives.",
+    "industry_sub_vertical": "AI data vendor working capital & invoice financing",
+    "canonical_vertical_id": "fintech.lending.business",
+    "vertical_id": "fintech.lending.business",
+    "vertical_label": "Business lending & credit",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "fintech-insurance-ai-product",
+    "phenotype_primary_label": "AI-Native Regulated Financial Product",
+    "phenotype_family": "regulated_product",
+    "value_wedge": "regulated_product",
+    "ai_application": "risk_underwriting",
+    "ai_application_patterns": [
+      "invoice_underwriting",
+      "contract_analysis",
+      "vendor_credit_scoring"
+    ],
+    "what_they_sell": "Short-term working capital (invoice financing / factoring) for data vendors selling training data, evaluation work, and RL environments to frontier AI labs. Advances capital against lab contracts and invoices, closing the 30-90 day cash gap between vendor cost incurrence and lab payment.",
+    "ai_play": "AI-driven underwriting of non-traditional assets (AI lab contracts and data vendor invoices). Legacy invoice lenders lack visibility into data vendor creditworthiness and lab payment reliability. Masterpiece uses AI to analyze lab contracts, vendor track records, payment history, and data quality signals to automate credit decisioning and risk scoring — enabling faster approvals and better pricing than traditional invoice factoring.",
+    "who_pays": "Data vendors (training data providers, labeling companies, RL environment builders) needing working capital to scale operations and pay contributors before lab payment arrives.",
+    "confidence": 0.75,
+    "rationale": "Masterpiece is a regulated financial product (invoice financing / working capital lending) where AI is the core SKU differentiator. The company takes credit/underwriting risk directly (not a software vendor to lenders). AI enables underwriting of a novel, high-friction asset class (AI lab contracts) that legacy lenders cannot evaluate. This fits fintech-insurance-ai-product: the startup IS the lender/financial product, AI changes how credit decisions are made, and the buyer is the data vendor (not a bank or broker). Confidence is 0.75 (not higher) because the description emphasizes the financing product more than the AI underwriting mechanism — but the AI play is clear and material to the business model.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech",
+      "Credit and Lending"
+    ],
+    "yc_tags": [
+      "Crypto / Web3",
+      "Lending",
+      "AI"
+    ],
+    "business_models": [
+      "BM-05"
+    ],
+    "team_size": 3,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 963292,
+        "full_name": "Benjamin Nguyen",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder, CEO at Masterpiece (YC P26).",
+        "linkedin_url": "https://www.linkedin.com/in/benjaminnguyen206/",
+        "twitter_url": "https://x.com/bennewgen",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0c6e70c59e29634c884dbbc9f775b8a75f602fdb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJI5XSD6C%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181428Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDn7Y7cqFmgYwZssMGN%2BHZY3xNOx2FxF4O1EXbuNoLUlwIhAOWxJuA1QUpy1NXGJl3Dh3n38BgbG6bgsGR1C7pNg8QuKu4DCMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwKRgTJ%2FUenNeeU8SwqwgNRXLw1uRr7W6%2Bocvt45lvg4%2FlqBzOguIyxH%2B0F3iUXRW%2B4TRVwclN68%2Bj615osUF3ERW9wnwcuVRPbRuLjhR9F7ol8tzcBXarGLrH%2F5nAyKySxnhRu1jLOMJSU%2BF0f27GnSAw17lPZnasSKgI%2FMPF%2BPMX3QzqH%2Bq3Uks7ZxIvg%2BYDe0oQSJElWW8weNpAXmLLnwlqTjODdhjTIGhcyE2oeOFQnRQvWcuiZrcCYQCDsSpj1Gh1zdRC699Lf5ijZ82sBlRi3fB14upXxj7HBjwjiHsTYEyBWOm6gAWsg1N9HhbUO6NIcFCuXykClx0E%2Fp%2Fu4YHCiRX07D12R4rUK9EVL06fk4uvZutNGOrllsHQ90qZpa3GT4y7mddaO7E8zx6Rv0B9HCMhaIDWeNe1ABuBSiXGMa6ns1flGSs2R3%2BF1T9wAgWvEh673g1%2Bom756LOqqmboumKKKBm2MDnx7Qzmt0hTUx78fL5rVNwFM1nfxFk%2BhwNlwPDaYraFZYlW%2FTlC9KZdQV094J1jj%2FFRvDgqgnfWmWLYQdymkCBWZU8YKRrAdRPOnGtZtLykLRxsbOeLkfSk2cE2QDdPkvVyd8sSfyrwwnKfQ1QY6pAE%2BZzWo9nKl8kfvgEb3b5BxzD0UlYPLuKXyYkzeByXJ30Rn%2FR2H0AFcY7NJCn23LQRMNmlgowZZzjYJOkdPPxCmaTYYpcIKtFVoDowxrj%2BvXngBGjVSTUGsKCK%2Bl%2BYv9oqtSJtnDwWJOlf7wbl72Up6HJQPXQIZ9uf%2FjLeXXFBV1v%2Bt8%2FNyPkJXoVAZW5cGqty5M3YjOspShiFrK2Jtx5gtLfHe1A%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=eafffb2369ad663a6c58e273517fea7003ff8728e564c11a5e0a5634b67e90a6",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Masterpiece",
+          "href": "https://www.ycombinator.com/companies/masterpiece"
+        }
+      },
+      {
+        "user_id": 3172853,
+        "full_name": "Vivek Yanamadula",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder, CTO @ Masterpiece | Ex-AWS, B.A./M.S. CS @ Columbia University",
+        "linkedin_url": "https://www.linkedin.com/in/vivekyy/",
+        "twitter_url": "https://x.com/VivekYanamadula",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9b32f2075335bce0e5463e0c1417ce7866b5ef09.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJI5XSD6C%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181428Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDn7Y7cqFmgYwZssMGN%2BHZY3xNOx2FxF4O1EXbuNoLUlwIhAOWxJuA1QUpy1NXGJl3Dh3n38BgbG6bgsGR1C7pNg8QuKu4DCMP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwKRgTJ%2FUenNeeU8SwqwgNRXLw1uRr7W6%2Bocvt45lvg4%2FlqBzOguIyxH%2B0F3iUXRW%2B4TRVwclN68%2Bj615osUF3ERW9wnwcuVRPbRuLjhR9F7ol8tzcBXarGLrH%2F5nAyKySxnhRu1jLOMJSU%2BF0f27GnSAw17lPZnasSKgI%2FMPF%2BPMX3QzqH%2Bq3Uks7ZxIvg%2BYDe0oQSJElWW8weNpAXmLLnwlqTjODdhjTIGhcyE2oeOFQnRQvWcuiZrcCYQCDsSpj1Gh1zdRC699Lf5ijZ82sBlRi3fB14upXxj7HBjwjiHsTYEyBWOm6gAWsg1N9HhbUO6NIcFCuXykClx0E%2Fp%2Fu4YHCiRX07D12R4rUK9EVL06fk4uvZutNGOrllsHQ90qZpa3GT4y7mddaO7E8zx6Rv0B9HCMhaIDWeNe1ABuBSiXGMa6ns1flGSs2R3%2BF1T9wAgWvEh673g1%2Bom756LOqqmboumKKKBm2MDnx7Qzmt0hTUx78fL5rVNwFM1nfxFk%2BhwNlwPDaYraFZYlW%2FTlC9KZdQV094J1jj%2FFRvDgqgnfWmWLYQdymkCBWZU8YKRrAdRPOnGtZtLykLRxsbOeLkfSk2cE2QDdPkvVyd8sSfyrwwnKfQ1QY6pAE%2BZzWo9nKl8kfvgEb3b5BxzD0UlYPLuKXyYkzeByXJ30Rn%2FR2H0AFcY7NJCn23LQRMNmlgowZZzjYJOkdPPxCmaTYYpcIKtFVoDowxrj%2BvXngBGjVSTUGsKCK%2Bl%2BYv9oqtSJtnDwWJOlf7wbl72Up6HJQPXQIZ9uf%2FjLeXXFBV1v%2Bt8%2FNyPkJXoVAZW5cGqty5M3YjOspShiFrK2Jtx5gtLfHe1A%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=909ea467f1af7802d3dbcb9ea8acaae849d66865f67e4361d5d33b9ebe271c59",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Masterpiece",
+          "href": "https://www.ycombinator.com/companies/masterpiece"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-23T18:14:36.783Z",
+    "classified_at": "2026-09-23T18:14:36.783Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "mastra",
@@ -66761,6 +67241,73 @@
     "primary_bm_rationale": "Pelica primarily monetizes as a software product sold to value-based care organizations (a specific vertical), with AI copilots embedded in their platform that teams use directly; while the copilots perform work, the core value delivery is the SaaS platform itself, not outsourced labor or managed services.",
     "primary_bm_assigned_at": "2026-07-30T19:00:04.489Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "pendulum-robotics",
+    "name": "Pendulum Robotics",
+    "website": "https://pendulumrobotics.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/pendulum-robotics",
+    "batch": "Fall 2026",
+    "one_liner": "Quick-turn, purpose-built motors & actuators for all",
+    "description_combined": "Quick-turn, purpose-built motors & actuators for all\n\nWe design and manufacture high-mix drone motors and robotic actuators in LA.\r\n\r\nDJI, Apple, and Ford don&#x27;t settle for OTS components. Likewise, the teams that win the Western robotics market will build seamless machines from tightly integrated software and hardware. \r\n\r\nPendulum Robotics designs motors and actuators around your robot&#x27;s unique form factor and mission - then we rapidly bring them to life with proprietary software and tooling geared for high-mix machining and assembly. Our first factory in LA can create thousands of motors per month up to 200mm OD.\r\n\r\nWe&#x27;re doing for motion components what 3D printing has done for structural components. Hardware teams that can build and iterate at the speed of software will create elegant, reliable, ROI-positive robots and win massive markets.",
+    "industry_sub_vertical": "Custom motion components manufacturing for OEM robotics integrators",
+    "canonical_vertical_id": "industrials.robotics.general",
+    "vertical_id": "industrials.robotics.general",
+    "vertical_label": "General-purpose robotics intelligence",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "hardware_optimization",
+      "manufacturing_automation",
+      "rapid_iteration"
+    ],
+    "what_they_sell": "Custom-designed, high-mix drone motors and robotic actuators manufactured in-house with proprietary software and tooling for rapid iteration and production scaling.",
+    "ai_play": "Proprietary software and AI-driven design optimization enable rapid motor/actuator customization to specific robot form factors and missions. AI accelerates design cycles, optimizes manufacturing precision, and enables high-mix production at scale without traditional tooling delays.",
+    "who_pays": "OEM robotics teams, drone manufacturers, and autonomous systems integrators (e.g., DJI, Apple, Ford) seeking custom motion components with fast iteration cycles.",
+    "confidence": 0.78,
+    "rationale": "Pendulum is a hardware manufacturer (not a software vendor or service provider) building physical actuators and motors. The core value is the physical product itself—custom motors optimized for specific robot missions. AI/software is the enabler: proprietary design software accelerates customization, manufacturing software optimizes production precision and high-mix capability, and rapid iteration cycles are powered by integrated software-hardware co-design. This fits ai-enabled-physical-systems: AI dramatically improves R&D cycles, production efficiency, and system performance, but the primary SKU is the physical motor/actuator, not the software. Not robotics-embodied-ai (which is about robots/drones as end products) or ai-enabled-physical-systems applied to energy/transport—this is component-level hardware optimization.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Robotics",
+      "Drones",
+      "Manufacturing",
+      "Electronics"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "Los Angeles, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1253977,
+        "full_name": "Jon Facer",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Pendulum Robotics. ",
+        "linkedin_url": "https://www.linkedin.com/in/jon-facer-a88341145/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5613a845c13d368aec637282de95932c4733fa86.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAG7RGRYTV%2F20260923%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260923T181447Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIF4KxKbgcKHTrhyriK2JHuL4sNN81fRofxu%2FJCXGS%2FURAiEA5bR%2ByzvmzdQ3YtBbeSvgE5SuwCPqXTCLlJCla6f6p8kq7gMIw%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDAHpqx0mLzyybv3%2FsCrCAzWvYgRuC12pA2jbXw8Rlc8S9ZN11LYEiZVDFIRw%2B1WETMtskDS%2BHXf1mpiCRDVx66nHc%2F%2BeBjqAy%2Bsr0RBfKiUJrPHRwYMyujNUY7Y2KCTTkQOPwUWmYEuD8c3Q5rRGdcTG2iAb2cxE9UL1Iz92PdKlnwex9SLJ8sa%2F3Mle6Ke8mTqNP205ZOCEL3u1R3TuwC1qasN32swQp24rlFzNm%2FPcpwaBofgDRiDW90PLT3Ynqlht99Tbw9YTttP7zOwINl4qztnyvCoVrYQST7%2FwrZhz2UaXNNPJmLS7Tv5kYiNZflKSGAnDs8XLpy94aqhZvNXncPCKZuEu9oDvesmRPOBSFcd9D2zY6oj%2F4gWLCYH1Y89rz2u9GNxt43YiRB7k2TwmkDV6LNtqNLkAXEbvZCvSVX%2FkH5cqlFiaBdeGR9Vw9npBjFXQtsAv0ybmgg3Va%2BolYg6%2BMBW4M4ry9KV7y4fUQYtF57mU1iqU8S9IqTurbR8eOownpgQrcwct8enaW5yGnd8JipQxyP0bOiDZ%2BW%2F2Z7b4eAh%2BtL72iIXGmIwUskzvlbx3PpPgF2sbKCLZ9D0uUohUnmuQP%2FIoLLu1ITWHFjCcp9DVBjqlAQ1j4jdZf0uuOFgNMzLfFj7TAf9vCYXddkqZ4lL4vu0nfPaFqH8ODHaMcO26WlkVmnKr0BMcTzYI0%2B1n0HgOoLcXHS2lqbCUvHWEvsMs8z0tMLzagcL1d3KoE9ZkGC6ASqS3iikybMOJxX3Mten35vMsmW9S3diWIZm16KeDjYb%2BhHK1aCqUF99NO9c8IfRNCKF035DqqGYBzy1LkBsn5TRiLD%2F5jg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e39649e4d1ef850d54e82665c0d54f36ae68cb87b2aee98eb7cfdbe500d58342",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Pendulum Robotics",
+          "href": "https://www.ycombinator.com/companies/pendulum-robotics"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-23T18:14:56.556Z",
+    "classified_at": "2026-09-23T18:14:56.556Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "pennant",
@@ -83871,6 +84418,51 @@
     "primary_bm_rationale": "Spott is a software product sold to recruiting firms as a vertical-specific ATS/CRM platform; while it includes AI agents, the primary monetization is licensing the software to the vertical, not outsourcing recruiting outcomes as a managed service.",
     "primary_bm_assigned_at": "2026-06-05T19:59:50.893Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "spur",
+    "name": "Spur",
+    "website": "https://www.spurtest.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/spur",
+    "batch": "Summer 2024",
+    "one_liner": "test and validate your mobile apps in plain english.",
+    "description_combined": "test and validate your mobile apps in plain english.\n\nhey everyone 👋 we're Sneha and Anushka, co-founders of Spur.\n\n### TL;DR Spur is building the validation infrastructure for software teams. We started with web testing, and today we're launching native app testing across iOS and Android.\n\nSpur is building the validation infrastructure for software teams. We started with web testing, and today we're launching native app testing across iOS and Android.\n\nSpur's agents test your apps the way real users do. You define the behavior you want to test in natural language, and Spur figures out how to execute and validate it across iOS and Android, native interactions, and web views.\n\nTeams at HelloFresh, Nextdoor, DocuSign, Bilt, Alo Yoga, and Abercrombie are already using Spur for testing across their digital experience – on websites and on their apps.\n\nOur Ask: If you’re building and maintaining a mobile app, we'd love to help you test it.\nBook a demo: https://spurtest.com/book-a-demo\n\n## The problem\n\nSoftware is getting generated faster than ever: features that used to take days to build are now generated in minutes. But - once the feature exists, someone still has to figure out whether it actually works.\n\nThat validation process hasn't sped up at the same rate.\n\nIf you’re shipping mobile apps, this gets even harder. The same product flow often turns into separate automation for ios and android. Teams maintain the tests, the device infrastructure they run on, and the CI setup around them.\n\nAnd as your product changes, your automatio",
+    "industry_sub_vertical": "AI-powered mobile and web app testing automation for software teams",
+    "canonical_vertical_id": "ai-infrastructure.qa-testing",
+    "vertical_id": "ai-infrastructure.qa-testing",
+    "vertical_label": "Software QA & test automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent observability, evals, or safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "test_automation",
+      "cross_platform_validation",
+      "natural_language_test_generation"
+    ],
+    "what_they_sell": "AI-powered mobile and web app testing infrastructure. Teams define test cases in plain English; Spur's agents autonomously execute and validate behavior across iOS, Android, native interactions, and web views without manual test maintenance.",
+    "ai_play": "Replaces manual test automation and cross-platform test maintenance. AI agents interpret natural language test specifications, execute them across device/OS combinations, and validate outcomes—eliminating the need for separate iOS/Android test suites and reducing test engineering overhead as product changes.",
+    "who_pays": "Engineering and QA teams at software companies shipping mobile and web products (HelloFresh, Nextdoor, DocuSign, etc.).",
+    "confidence": 0.72,
+    "rationale": "Spur is a validation/testing infrastructure product where AI agents execute test scenarios autonomously. This fits agent-observability-evals (trust_and_quality, evaluation_monitoring) because the core value is ensuring software correctness and reliability through AI-driven test execution and validation. While not traditional observability (tracing/monitoring), it serves the same buyer (engineering/QA) and solves the same problem: confidence in production behavior. The natural language → test execution pattern is agentic evaluation. Secondary consideration: could map to horizontal-copilot-saas (productivity multiplier for QA), but the product is more specialized infrastructure for validation than a general productivity tool. Confidence 0.72 reflects strong fit to evaluation/validation domain but some ambiguity around whether this is 'observability' vs. 'testing infrastructure'—both are trust_and_quality wedges.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "launch_id": 116412,
+    "launch_url": "https://www.ycombinator.com/launches/UHc-spur-testing-infrastructure-for-your-mobile-apps",
+    "launch_title": "Spur - testing infrastructure for your mobile apps",
+    "launch_created_at": "2026-09-23T15:09:11.428Z",
+    "launch_tagline": "test and validate your mobile apps in plain english.",
+    "launch_ingested_at": "2026-09-23T18:15:58.469Z",
+    "classified_at": "2026-09-23T18:15:58.469Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "squid",

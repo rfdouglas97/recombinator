@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-22T17:56:01.005Z",
+  "generated_at": "2026-09-23T18:15:59.442Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1491,
-    "mapped_verticals": 245,
-    "observed_cells": 485,
+    "assignment_count": 1499,
+    "mapped_verticals": 246,
+    "observed_cells": 486,
     "total_verticals": 525,
-    "gap_candidates": 842
+    "gap_candidates": 841
   },
   "observed_cells": [
     {
@@ -54,6 +54,7 @@
         "herdr",
         "indexable",
         "insforge",
+        "insforge-instacloud",
         "invo",
         "keyframe-labs",
         "keystroke",
@@ -355,6 +356,7 @@
         "noril1",
         "os3",
         "pave-robotics",
+        "pendulum-robotics",
         "piggy-robotics",
         "proception-inc",
         "proprio-robotics",
@@ -603,6 +605,29 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "belvedir",
+        "cactus-compute",
+        "dotwave",
+        "exla",
+        "freesolo",
+        "isoquant",
+        "kailash-labs",
+        "lilac",
+        "nodus-compute",
+        "openrelay",
+        "pirislabs",
+        "stellon-labs",
+        "tinfoil",
+        "wafer"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.defense.drones",
@@ -628,23 +653,23 @@
     {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
+      "sector_id": "enterprise-software",
       "companies": [
-        "belvedir",
-        "cactus-compute",
-        "dotwave",
-        "exla",
-        "freesolo",
-        "kailash-labs",
-        "lilac",
-        "nodus-compute",
-        "openrelay",
-        "pirislabs",
-        "stellon-labs",
-        "tinfoil",
-        "wafer"
+        "ashr",
+        "autosana",
+        "chronicle-labs",
+        "instance",
+        "kashikoi",
+        "lark",
+        "perfectbit-inc",
+        "qualgent",
+        "simantic",
+        "simulithic",
+        "spur",
+        "synthetic-society",
+        "workers-io"
       ]
     },
     {
@@ -689,27 +714,6 @@
         "stilta",
         "tamlabs",
         "wayco"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.qa-testing",
-      "vertical_label": "Software QA & test automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "ashr",
-        "autosana",
-        "chronicle-labs",
-        "instance",
-        "kashikoi",
-        "lark",
-        "perfectbit-inc",
-        "qualgent",
-        "simantic",
-        "simulithic",
-        "synthetic-society",
-        "workers-io"
       ]
     },
     {
@@ -1911,6 +1915,18 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.finance.order-to-cash",
+      "vertical_label": "Order-to-cash & billing operations",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "alder",
+        "drippay",
+        "rex-inc"
+      ]
+    },
+    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "enterprise.hr.recruiting",
@@ -2527,17 +2543,6 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.finance.order-to-cash",
-      "vertical_label": "Order-to-cash & billing operations",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "drippay",
-        "rex-inc"
-      ]
-    },
-    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "enterprise.it.cloud-infra",
@@ -3030,6 +3035,28 @@
       "companies": [
         "acolite",
         "fernstone"
+      ]
+    },
+    {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
+      "vertical_id": "insurance.uw-data-intake",
+      "vertical_label": "Underwriting data intake & risk assessment",
+      "sector_id": "financial-services",
+      "companies": [
+        "ageospatial",
+        "redoubt-insurance"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "lending.portfolio-analytics",
+      "vertical_label": "Loan portfolio analytics & performance monitoring",
+      "sector_id": "financial-services",
+      "companies": [
+        "elimentary",
+        "levocred-ai"
       ]
     },
     {
@@ -4371,6 +4398,16 @@
     {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
+      "vertical_id": "fintech.lending.business",
+      "vertical_label": "Business lending & credit",
+      "sector_id": "financial-services",
+      "companies": [
+        "masterpiece"
+      ]
+    },
+    {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
       "vertical_id": "fintech.lending.consumer",
       "vertical_label": "Consumer lending & credit",
       "sector_id": "financial-services",
@@ -4979,16 +5016,6 @@
       ]
     },
     {
-      "business_model": "BM-05",
-      "business_model_label": "Fintech / insurance product",
-      "vertical_id": "insurance.uw-data-intake",
-      "vertical_label": "Underwriting data intake & risk assessment",
-      "sector_id": "financial-services",
-      "companies": [
-        "redoubt-insurance"
-      ]
-    },
-    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "lending.collections-recovery",
@@ -5036,16 +5063,6 @@
       "sector_id": "financial-services",
       "companies": [
         "zolvo"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "lending.portfolio-analytics",
-      "vertical_label": "Loan portfolio analytics & performance monitoring",
-      "sector_id": "financial-services",
-      "companies": [
-        "levocred-ai"
       ]
     },
     {

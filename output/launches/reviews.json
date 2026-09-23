@@ -1,7 +1,77 @@
 {
-  "updated_at": "2026-09-22T17:55:58.835Z",
+  "updated_at": "2026-09-23T18:15:57.042Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 116412,
+      "company_slug": "spur",
+      "launch_url": "https://www.ycombinator.com/launches/UHc-spur-testing-infrastructure-for-your-mobile-apps",
+      "created_at": "2026-09-23T15:09:11.428Z",
+      "classification": {
+        "phenotype_primary_id": "agent-observability-evals",
+        "vertical_id": "ai-infrastructure.qa-testing",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-23T18:15:57.020Z",
+        "launch_id": 116412,
+        "company_slug": "spur",
+        "taxonomy": {
+          "conformance_index": 79,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.qa-testing",
+            "phenotype_primary_id": "agent-observability-evals",
+            "cell_key": "BM-03::ai-infrastructure.qa-testing::agent-observability-evals",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Software QA & test automation",
+            "phenotype_label": "Agent observability, evals, or safety"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
     {
       "launch_id": 116233,
       "company_slug": "deepmark",

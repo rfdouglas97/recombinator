@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-22T17:54:43.047Z",
+  "synced_at": "2026-09-23T18:14:10.113Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1330,
+  "company_count": 1332,
   "companies": [
     {
       "slug": "10x",
@@ -469,27 +469,6 @@
       "launched_at": 1789425415
     },
     {
-      "slug": "agent-fm",
-      "name": "Agent FM",
-      "batch": "Summer 2026",
-      "one_liner": "One group chat to hear and steer your coding agents.",
-      "long_description": "Agent FM is a desktop app that gives engineers one group chat to hear and steer their coding agents. Instead of manually bouncing between different claude code and codex sessions, and combing through walls of text to monitor agents, engineers just tune in to Agent FM. Agents share important progress updates, blockers, assumptions, and decisions in the group chat. Engineers get live text and audio updates and respond right from the chat.",
-      "website": "https://www.agentfm.ai/",
-      "industries": [
-        "B2B",
-        "Engineering, Product and Design"
-      ],
-      "tags": [
-        "Artificial Intelligence",
-        "Developer Tools",
-        "Productivity"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1785890886
-    },
-    {
       "slug": "agent-relay",
       "name": "Agent Relay",
       "batch": "Fall 2026",
@@ -606,6 +585,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1778010009
+    },
+    {
+      "slug": "ageospatial",
+      "name": "Ageospatial",
+      "batch": "Fall 2026",
+      "one_liner": "Helping insurance companies value risk on properties remotely.",
+      "long_description": "",
+      "website": "https://ageospatial.com/",
+      "industries": [
+        "Fintech",
+        "Insurance"
+      ],
+      "tags": [
+        "Computer Vision",
+        "Insurance",
+        "AI"
+      ],
+      "team_size": 1,
+      "location": "San Francisco, CA, USA; Remote",
+      "status": "Active",
+      "launched_at": 1790148781
     },
     {
       "slug": "agnost-ai",
@@ -800,6 +800,26 @@
       "location": "Philadelphia, PA, USA",
       "status": "Active",
       "launched_at": 1753760756
+    },
+    {
+      "slug": "alder",
+      "name": "Alder",
+      "batch": "Fall 2025",
+      "one_liner": "AI employees for finance, starting with accounts receivable. ",
+      "long_description": "We’re building AI employees for finance teams. They handle repetitive work across email and accounting systems - processing documents, following up on open items, reconciling records, and resolving exceptions while people retain approval and oversight.",
+      "website": "https://meetalder.com/",
+      "industries": [
+        "B2B",
+        "Finance and Accounting"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "B2B"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1761077242
     },
     {
       "slug": "aleph-lab",
@@ -1029,7 +1049,7 @@
       "slug": "alter",
       "name": "Alter",
       "batch": "Summer 2025",
-      "one_liner": "Secure access control and authorization platform for agent workflows",
+      "one_liner": "Privileged Access Management for AI Agents",
       "long_description": "Alter is a zero-trust identity and access control platform purpose-built for AI agents. It wraps every tool call in strong authentication, fine-grained authorization, and real-time guardrails, so agents can move fast without breaking things.\r\n\r\nEach request is verified at the parameter level, authorized against granular policies, executed with least-privilege access, and fully audited in real time. Unsafe actions, whether it’s a rogue DROP TABLE or a payment above policy limits, are blocked before they touch production. Behind the scenes, Alter manages credentials, issuing ephemeral, scope-narrowed access for every interaction, then rotating or expiring it in seconds. The result: no long-lived secrets, no blind spots, and no surprises in audit.\r\n\r\nWith Alter, teams can move fast on AI agent initiatives while staying fully compliant with SOC 2, HIPAA, GDPR, and internal security standards. A CISO-ready dashboard delivers real-time visibility, detailed audit logs, and compliance-ready controls, removing silos, eliminating excessive permissions, and providing complete oversight of every agent workflow.",
       "website": "https://alterauth.com",
       "industries": [
@@ -1588,27 +1608,6 @@
       "launched_at": 1776709029
     },
     {
-      "slug": "archer",
-      "name": "Archer",
-      "batch": "Spring 2026",
-      "one_liner": "Global payouts for the workforce powering AI",
-      "long_description": "Archer is the financial infrastructure for the AI data economy.\r\n\r\nWe’re building global payouts, stablecoin banking, and yield infrastructure for the companies supplying data to frontier AI labs.\r\n\r\nAs demand for high-quality data grows, millions of contributors around the world are generating, labeling, validating, and improving the datasets that power modern AI systems. Yet the financial infrastructure behind these platforms remains slow, fragmented, and expensive.\r\n\r\nArcher enables data marketplaces, AI labor platforms, and reinforcement learning environment providers to onboard workers globally, pay contributors instantly, and earn yield on idle balances.\r\n\r\nToday, companies use Archer to manage contributor earnings, global payouts, and treasury operations across hundreds of countries and payment corridors.\r\n\r\nWe believe the next generation of AI companies will need purpose-built financial infrastructure. Just as cloud providers became the backbone of software, Archer is building the financial layer for the global workforce powering artificial intelligence.",
-      "website": "https://archermoney.com/",
-      "industries": [
-        "Fintech",
-        "Payments"
-      ],
-      "tags": [
-        "Crypto / Web3",
-        "Neobank",
-        "AI"
-      ],
-      "team_size": 4,
-      "location": "New York City, NY, USA",
-      "status": "Active",
-      "launched_at": 1776977656
-    },
-    {
       "slug": "archon",
       "name": "Archon",
       "batch": "Winter 2025",
@@ -2079,7 +2078,7 @@
         "B2B"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 6,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1778617120
@@ -3336,7 +3335,8 @@
         "B2B"
       ],
       "tags": [
-        "AI"
+        "Artificial Intelligence",
+        "Conversational AI"
       ],
       "team_size": 10,
       "location": "San Francisco, CA, USA",
@@ -3756,27 +3756,6 @@
       "launched_at": 1737490708
     },
     {
-      "slug": "buildbox",
-      "name": "Buildbox",
-      "batch": "Fall 2026",
-      "one_liner": "Agent analytics for real user outcomes",
-      "long_description": "Buildbox helps product teams improve the human-agent experience. We analyze user intent, agent behavior, and outcomes to find where users get stuck or lose trust, then turn those findings into ranked, reproducible issues. ",
-      "website": "https://heybuildbox.com",
-      "industries": [
-        "B2B",
-        "Analytics"
-      ],
-      "tags": [
-        "Analytics",
-        "Enterprise Software",
-        "AI"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1785235599
-    },
-    {
       "slug": "burnt",
       "name": "burnt",
       "batch": "Summer 2025",
@@ -3852,7 +3831,7 @@
       "slug": "bystreet",
       "name": "Bystreet",
       "batch": "Winter 2025",
-      "one_liner": "Your partner for hotel ownership data. ",
+      "one_liner": "Connect with hoteliers around the world.",
       "long_description": "Identify and connect with the owners and key decision-makers behind 300,000+ hotels globally. Our customers include the world's leading hospitality firms: Marriott International, Choice Hotels, Wyndham Hotels & Resorts, Hotel Equities, and more. ",
       "website": "http://www.bystreet.com",
       "industries": [
@@ -5751,7 +5730,7 @@
         "Credit and Lending"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1768253497
@@ -6176,7 +6155,7 @@
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
-      "launched_at": 1787610815
+      "launched_at": 1790095817
     },
     {
       "slug": "daivin",
@@ -7493,6 +7472,26 @@
       "launched_at": 1783109218
     },
     {
+      "slug": "elimentary",
+      "name": "Elimentary",
+      "batch": "Fall 2026",
+      "one_liner": "Agents that run middle/back-office operations for Private Capital",
+      "long_description": "Elimentary’s is building AI agents that can run middle/back-office operations for private capital managers, starting with structured credit. Most private capital managers focus primarily on sourcing and capital deployment. Meanwhile post-investment operations receive step-child treatment. While AUMs have increased exponentially over the last decade, operations continue to be painfully supported by humans using spreadsheets and emails. Things have started to break leading to investment write-offs, fines, penalties, and sometimes lost LP relationships. \r\n\r\nOur agents can run these operations (borrowing base calcs, cracking loan tapes, NAV calculations, etc.) end to end autonomously. For one of our customers, our agents cut a 20-hour ops process to 30 minutes. It saved 90% of the manual hours, translating to $150k in annual savings.",
+      "website": "https://www.elimentary.com",
+      "industries": [
+        "Fintech",
+        "Asset Management"
+      ],
+      "tags": [
+        "FinOps",
+        "Enterprise"
+      ],
+      "team_size": 5,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1790147820
+    },
+    {
       "slug": "elip-ai",
       "name": "Elip AI",
       "batch": "Winter 2025",
@@ -8140,7 +8139,7 @@
       "name": "Fastshot",
       "batch": "Fall 2025",
       "one_liner": "Lovable for mobile apps",
-      "long_description": "Fastshot is a no-code mobile development platform.\r\nOur mission is to \"Democratize mobile app creation with AI\"\r\nAnyone can develop a mobile app from idea to App Stores within minutes just by chatting with AI.\r\n\r\n",
+      "long_description": "Fastshot is a no-code mobile development platform.\r\nOur mission is to \"Democratize mobile app creation with AI\"\r\nAnyone can develop a mobile app from idea to App Stores within minutes just by chatting with AI. Start at https://fastshot.ai/ai-app-builder\r\n\r\n",
       "website": "https://www.fastshot.ai/",
       "industries": [
         "B2B",
@@ -8566,8 +8565,8 @@
       "slug": "flowscope",
       "name": "flowscope",
       "batch": "Spring 2026",
-      "one_liner": "AI-native consulting to map and automate business processes",
-      "long_description": "flowscope is an AI-native transformation firm that deploys agents to map, optimize, and automate companies’ processes end to end without human intervention; doing what consulting firms charge millions for at a fraction of the cost and time.",
+      "one_liner": "AI implementation firm that maps and automates business processes",
+      "long_description": "flowscope is an AI implementation firm that deploys agents to map, optimize, and automate companies’ processes end to end",
       "website": "https://flowscope.com",
       "industries": [
         "B2B"
@@ -9983,14 +9982,14 @@
         "Construction"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Construction",
         "B2B",
         "Workflow Automation",
-        "Architecture"
+        "Architecture",
+        "AI"
       ],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1760131149
     },
@@ -10856,17 +10855,22 @@
       "launched_at": 1774801488
     },
     {
-      "slug": "insforge",
-      "name": "InsForge",
+      "slug": "insforge-instacloud",
+      "name": "InsForge (InstaCloud)",
       "batch": "Spring 2026",
-      "one_liner": "The agent-native AWS",
-      "long_description": "InsForge is the agent-native AWS: cloud infrastructure that AI coding agents can understand, operate, and recover from end to end.",
+      "one_liner": "The agent-native serverless cloud",
+      "long_description": "InstaCloud is the agent-native serverless cloud: deploy any code or service instantly, with automatic scaling and zero DevOps required.",
       "website": "https://insforge.dev/",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
       ],
-      "tags": [],
+      "tags": [
+        "Developer Tools",
+        "DevSecOps",
+        "Cloud Computing",
+        "Infrastructure"
+      ],
       "team_size": 6,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -11223,6 +11227,24 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1782404945
+    },
+    {
+      "slug": "isoquant",
+      "name": "isoquant",
+      "batch": "Fall 2026",
+      "one_liner": "Self-optimizing inference cloud for faster, cheaper AI",
+      "long_description": "",
+      "website": "https://isoquant.ai/",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1785890886
     },
     {
       "slug": "item",
@@ -12703,10 +12725,10 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Machine Learning",
         "Cloud Computing",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA; Remote",
@@ -13007,12 +13029,12 @@
         "Finance and Accounting"
       ],
       "tags": [
+        "Artificial Intelligence",
         "B2B",
         "API",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
-      "team_size": 2,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1785364349
@@ -13605,10 +13627,10 @@
         "Energy"
       ],
       "tags": [
+        "Artificial Intelligence",
+        "Construction",
         "Design",
-        "Energy",
-        "Architecture",
-        "AI"
+        "Energy"
       ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
@@ -13762,6 +13784,27 @@
       "location": "Boston, MA, USA",
       "status": "Active",
       "launched_at": 1786735839
+    },
+    {
+      "slug": "masterpiece",
+      "name": "Masterpiece",
+      "batch": "Spring 2026",
+      "one_liner": "Working capital for data companies training frontier AI",
+      "long_description": "We believe AI will be one of humanity’s next great masterpieces. Building it will require financial infrastructure as ambitious as the companies creating it. We're founders backed by Y Combinator building the financial rails underpinning the AI data economy.\r\n\r\nMasterpiece provides short term working capital to data vendors that sell training data, evaluation work, and reinforcement learning environments to frontier AI labs.\r\n\r\nA major financing gap exists in this market. Data vendors often need to pay contributors and fund operations before a lab has completed QA, accepted the work, and paid the invoice. This creates a 30 to 90 day cash gap between when vendors incur costs and when they receive payment. Legacy invoice lenders have little visibility into how to underwrite these assets.\r\n\r\nMasterpiece closes that gap by advancing capital against high quality lab contracts and invoices. Vendors can use the capital to scale delivery, pay contributors, and fund growth, then repay masterpiece when the lab payment arrives.",
+      "website": "https://masterpiecelabs.xyz/",
+      "industries": [
+        "Fintech",
+        "Credit and Lending"
+      ],
+      "tags": [
+        "Crypto / Web3",
+        "Lending",
+        "AI"
+      ],
+      "team_size": 3,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1776977656
     },
     {
       "slug": "mastra",
@@ -14380,19 +14423,19 @@
       "slug": "mirrors",
       "name": "Mirrors",
       "batch": "Fall 2026",
-      "one_liner": "Catch and fix AI agent regressions before they reach production",
-      "long_description": "Mirrors provides regression testing for AI agents.\r\n\r\nTeams shipping agents constantly change prompts, models, and tools, and there's no way to test any of it. Agents call bespoke internal tools and APIs no test framework can reproduce, so most teams ship on vibes.\r\n\r\nMirrors rebuilds the tools your agent calls from your own production traces, then replays real sessions against every change before it merges. You see which tool calls changed, which arguments moved, and where state landed differently. And when something fails, we tell you whether your agent regressed or something upstream moved.\r\n\r\nBuilt for teams whose agents take irreversible actions. Refunds, record updates, outbound email.\r\n\r\nRuns in your CI on every PR.",
+      "one_liner": "Fix your AI agent's errors at runtime, so they never happen twice",
+      "long_description": "Your agent worked fine yesterday. Today it loops, drops context, or calls a tool with the wrong arguments, and you find out from a user.\r\n\r\nTeams shipping AI agents change prompts, models, and tools constantly, and the same failures keep coming back in production: context loss, loops, broken tool calls, regressions after a refactor.\r\n\r\nMirrors learns from your agent's production traces. It captures what worked and what failed in real sessions, then delivers the fix at runtime. Instead of waiting for someone to notice a regression and patch it by hand, the fix is applied automatically, so the same error never happens twice.\r\n\r\nBuilt for teams whose agents do things they can't undo, like issuing refunds, updating customer records, or sending outbound email.",
       "website": "https://www.runmirrors.com",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
+        "AIOps",
         "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
-        "B2B",
-        "DevOps"
+        "B2B"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -14712,7 +14755,7 @@
         "AI Assistant"
       ],
       "team_size": 3,
-      "location": "Seattle, WA, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783572660
     },
@@ -15384,26 +15427,6 @@
       "launched_at": 1738144366
     },
     {
-      "slug": "nivara",
-      "name": "Nivara",
-      "batch": "Fall 2025",
-      "one_liner": "AI agents for the finance back office.",
-      "long_description": "We’re building AI agents for finance teams. They handle repetitive work across email and accounting systems - processing documents, following up on open items, reconciling records, and resolving exceptions while people retain approval and oversight.",
-      "website": "https://getnivara.com/",
-      "industries": [
-        "B2B",
-        "Finance and Accounting"
-      ],
-      "tags": [
-        "B2B",
-        "AI"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1761077242
-    },
-    {
       "slug": "nixo",
       "name": "Nixo",
       "batch": "Summer 2025",
@@ -15591,16 +15614,17 @@
       "slug": "notte",
       "name": "Notte",
       "batch": "Summer 2025",
-      "one_liner": "Reliable Web Agents for Enterprise",
-      "long_description": "Nottelabs offers a platform to build and deploy enterprise-grade browser agents. We help companies cut costs and save time by automating repetitive tasks. Unlike others, we provide agents, tools, and infrastructure through a single API, making us the fastest path to reliable web AI agents in production.",
+      "one_liner": "Browser infra for AI agents: sessions, auth, proxies, payments",
+      "long_description": "Notte is cloud browser infrastructure for AI agents. Sessions with live view and replays, residential proxies, stealth and CAPTCHA solving, authenticated profiles with account creation and 2FA, payments in the browser, and serverless functions that run next to the browser, all through one API",
       "website": "https://www.notte.cc/",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
-        "Automation",
-        "AI"
+        "API",
+        "Automation"
       ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
@@ -16253,10 +16277,10 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "team_size": 2,
-      "location": "Seattle, WA, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783565051
     },
@@ -16650,18 +16674,18 @@
       "slug": "osseus",
       "name": "Osseus",
       "batch": "Summer 2026",
-      "one_liner": "The frontier data platform for health and biological AI",
-      "long_description": "In an era of cheap intelligence, the most important application of AI will be to improving human health, globally. Osseus provides off-the-shelf or custom medical and biological datasets and RL environments to frontier labs.\r\n\r\nWe work with hospitals and clinics to provide our EHR and deploy AI models within clinical workflows, with models from both our frontier lab partners and our own research.",
+      "one_liner": "The frontier data platform for aligned health and biological AI",
+      "long_description": "In an era of cheap intelligence, the most important application of AI will be to improving human health, globally. Osseus is building the frontier medical AI lab, starting with the clinical datasets, evaluations, and reinforcement learning environments that help AI labs train more capable, aligned, and safe models.\r\n\r\nWe work with hospitals and clinics to provide our EHR and deploy AI models within clinical workflows, with models from both our frontier lab partners and our own research.",
       "website": "https://osseus.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
         "Artificial Intelligence",
-        "Robotics",
         "B2B",
         "Biotech",
-        "Healthcare"
+        "Healthcare",
+        "Data Engineering"
       ],
       "team_size": 2,
       "location": "",
@@ -17564,6 +17588,29 @@
       "launched_at": 1746945144
     },
     {
+      "slug": "pendulum-robotics",
+      "name": "Pendulum Robotics",
+      "batch": "Fall 2026",
+      "one_liner": "Quick-turn, purpose-built motors & actuators for all",
+      "long_description": "We design and manufacture high-mix drone motors and robotic actuators in LA.\r\n\r\nDJI, Apple, and Ford don't settle for OTS components. Likewise, the teams that win the Western robotics market will build seamless machines from tightly integrated software and hardware. \r\n\r\nPendulum Robotics designs motors and actuators around your robot's unique form factor and mission - then we rapidly bring them to life with proprietary software and tooling geared for high-mix machining and assembly. Our first factory in LA can create thousands of motors per month up to 200mm OD.\r\n\r\nWe're doing for motion components what 3D printing has done for structural components. Hardware teams that can build and iterate at the speed of software will create elegant, reliable, ROI-positive robots and win massive markets.",
+      "website": "https://pendulumrobotics.com",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Hard Tech",
+        "Robotics",
+        "Drones",
+        "Manufacturing",
+        "Electronics"
+      ],
+      "team_size": 2,
+      "location": "Los Angeles, CA, USA",
+      "status": "Active",
+      "launched_at": 1790141770
+    },
+    {
       "slug": "pennant",
       "name": "Pennant",
       "batch": "Summer 2026",
@@ -18440,7 +18487,7 @@
         "Developer Tools",
         "Infrastructure"
       ],
-      "team_size": 3,
+      "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1745261196
@@ -19802,7 +19849,7 @@
         "Infrastructure"
       ],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "Boston, MA, USA",
       "status": "Active",
       "launched_at": 1783408799
     },
@@ -20265,14 +20312,20 @@
       "slug": "runanywhere",
       "name": "RunAnywhere",
       "batch": "Winter 2026",
-      "one_liner": "The default way of running on-device AI at Scale",
-      "long_description": "Edge AI is inevitable, but shipping it is painful: every device class behaves differently, runtimes vary, models are huge, and performance collapses under memory/power constraints. RunAnywhere turns that into an enterprise-ready workflow: one SDK to run models on-device, plus a control plane to manage models, enforce policies, and measure outcomes across thousands of devices.",
+      "one_liner": "Fastest inference anywhere: open models on-prem, hosted or on-device",
+      "long_description": "RunAnywhere runs open-weight models at full speed wherever a company needs them. Wally is our inference stack for open models: serverless inference, BYOC, or on-prem, so code and data never leave their network. One command puts a Wally-served model inside Claude Code, DeepSeek Harness, OpenCode, Hermes, OpenClaw, etc. When a model fits on the device, the same tooling runs it locally through our open-source SDKs for iOS, Android, macOS, Windows, Linux, and web, built on kernels written by our agentic harness for Apple and Qualcomm silicon (10K+ GitHub stars).",
       "website": "https://www.runanywhere.ai/",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Open Source",
+        "Infrastructure",
+        "AI"
+      ],
       "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -20961,13 +21014,13 @@
         "Manufacturing and Robotics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
         "Robotics",
         "Manufacturing",
-        "Automation",
-        "AI"
+        "Automation"
       ],
-      "team_size": 3,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1789000982
@@ -21210,7 +21263,7 @@
       "name": "Sila",
       "batch": "Winter 2026",
       "one_liner": "Agent Messaging Platform",
-      "long_description": "Sila is messaging built natively to use agents with your team. Fast, reliable, agent messaging for free, around the world.",
+      "long_description": "Sila is the messaging platform where people, teams, and agents do work. Fast, reliable, free agent messaging, available around the world.",
       "website": "https://silahq.com",
       "industries": [
         "B2B",
@@ -22078,8 +22131,8 @@
       "slug": "stillwind",
       "name": "Stillwind",
       "batch": "Winter 2025",
-      "one_liner": "Electrical Engineering Components Compaion",
-      "long_description": "Stillwind builds AI tools for electrical engineers to aide them in the repetitive parts of the process, primarily component search, cross referencing and simple circuitry. ",
+      "one_liner": "PCB component librarian",
+      "long_description": "Stillwind is a fractional librarian for startups. Customers give us the parts they want to put into designs and we give them footprints, symbols and 3d models made from the manufacturers datasheet.",
       "website": "https://stillwind.ai",
       "industries": [
         "B2B",
@@ -22087,8 +22140,8 @@
       ],
       "tags": [
         "AIOps",
-        "Electronics",
-        "AI"
+        "Artificial Intelligence",
+        "Electronics"
       ],
       "team_size": 3,
       "location": "Zürich, ZH, Switzerland",
@@ -22517,9 +22570,9 @@
         "Consumer"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Consumer",
-        "Entertainment"
+        "Entertainment",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -24454,13 +24507,13 @@
         "Marketing"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "B2B",
         "Analytics",
-        "Advertising",
-        "AI"
+        "Advertising"
       ],
-      "team_size": 22,
+      "team_size": 26,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1759250646
@@ -24720,7 +24773,7 @@
         "Legal"
       ],
       "tags": [],
-      "team_size": 5,
+      "team_size": 7,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1771526564
@@ -25652,7 +25705,7 @@
       "slug": "wedge",
       "name": "Wedge",
       "batch": "Summer 2025",
-      "one_liner": "Palantir for Healthcare AI Agents",
+      "one_liner": "AI Employees for Healthcare",
       "long_description": "The Operating System for Health AI: we deploy, govern, and scale AI agents across healthcare organizations.",
       "website": "https://www.wedge.health",
       "industries": [
