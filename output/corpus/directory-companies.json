@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-23T18:14:10.113Z",
+  "synced_at": "2026-09-24T18:09:08.729Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1332,
+  "company_count": 1333,
   "companies": [
     {
       "slug": "10x",
@@ -581,7 +581,7 @@
         "Infrastructure"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": null,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1778010009
@@ -591,16 +591,16 @@
       "name": "Ageospatial",
       "batch": "Fall 2026",
       "one_liner": "Helping insurance companies value risk on properties remotely.",
-      "long_description": "",
+      "long_description": "Ageospatial helps insurers value the risk on their properties remotely using satellite imagery.\r\n\r\n97% of commercial properties are never physically inspected because it's too slow and expensive. So insurers price risk based on what the client or broker tells them, and about half the time at least one of those records is wrong. The result is mispricing, fraud, and an estimated $36B in premium leakage every year in the US alone, which gets exposed the moment a disaster hits.\r\n\r\nUpload a list of addresses and their GeoAI reads satellite and street-level imagery, maps, real-time data, public records and the insurer's own data to determine what's really there, which natural and human hazards surround it, what changed over time, and which properties are worth inspecting. Each property becomes a living record that underwriting, claims and pricing teams can trace from past to present. Ageospatial deploys inside carriers and MGAs as an AI-native service, so insurers get outcomes delivered.",
       "website": "https://ageospatial.com/",
       "industries": [
         "Fintech",
         "Insurance"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Computer Vision",
-        "Insurance",
-        "AI"
+        "Insurance"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA; Remote",
@@ -666,7 +666,7 @@
       ],
       "tags": [],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "Paris, Île-de-France, France",
       "status": "Active",
       "launched_at": 1775067317
     },
@@ -2760,7 +2760,7 @@
       ],
       "tags": [],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1769120993
     },
@@ -2906,7 +2906,7 @@
       ],
       "tags": [],
       "team_size": 5,
-      "location": "San Francisco, CA, USA",
+      "location": "Bengaluru, KA, India",
       "status": "Active",
       "launched_at": 1779852780
     },
@@ -6141,16 +6141,16 @@
       "name": "Cyclon",
       "batch": "Fall 2026",
       "one_liner": "a phone where AI is the interface",
-      "long_description": "We’re building a new kind of personal device.",
+      "long_description": "Cyclon is rebuilding the phone around AI. Instead of opening apps and tapping through screens, you tell your phone what you want and it does it for you. With one touch, you can spin up AI agents to control your phone or handle tasks in the background. AI isn’t just inside an app - it’s the phone itself.",
       "website": "https://cyclon.ai/",
       "industries": [
         "Consumer",
         "Consumer Electronics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
-        "Consumer",
-        "AI"
+        "Consumer"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -6535,7 +6535,7 @@
     {
       "slug": "definite",
       "name": "Definite",
-      "batch": "Summer 2026",
+      "batch": "Fall 2026",
       "one_liner": "Build everyday back-office agents on one live model of your books",
       "long_description": "Definite is where finance teams build everyday back-office agents on one live model of their books. We plug into your ERP, ledger, payroll, and payments read-only and compile everything into one clean model that stays current as money moves. Your back-office team then builds agents on top in plain English. We never write back and we never move money. The agents are yours, the plumbing is ours.\r\n\r\nWe met in first year computer science at Waterloo and interned at Meta, Optiver, and BitGo. At Optiver they ran an n8n hackathon and the interns automated basically nothing. It couldn't talk to the systems that mattered. When we pitched banks and fintechs on agents, they kept telling us the same thing. The agent isn't the hard part, getting clean data out of their systems is.\r\n\r\nRight now, automating anything in a back office means engineers hand-stitching data from a dozen sources in different formats on different schedules. Tools like n8n and Workato assume your data is already clean and joined. In finance it never is. So the teams with the most repetitive work and smallest budgets get nothing.\r\n\r\nThe hard part is the compiler. Every source gets cleaned, matched, and joined into one live model of transactions, invoices, vendors, and payments, and it has to stay right as money lands every day. \r\n\r\nEveryone throws engineers at this. We're doing it once so nobody has to again. Every back office is getting agents eventually. Whoever owns the data they read from owns the thing all of them depend on, and eventually the books themselves. That's what we're building.\r\n",
       "website": "https://www.usedefinite.com",
@@ -8897,11 +8897,11 @@
         "Industrials"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
-        "Hardware"
+        "Hardware",
+        "AI"
       ],
-      "team_size": 1,
+      "team_size": 3,
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1788161513
@@ -9045,14 +9045,14 @@
         "Legal"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
         "Legal",
         "HR Tech",
-        "Immigration"
+        "Immigration",
+        "AI"
       ],
       "team_size": 3,
-      "location": "Vancouver, BC, Canada",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1737265835
     },
@@ -9906,18 +9906,18 @@
       "slug": "hebbian-robotics",
       "name": "Hebbian Robotics",
       "batch": "Summer 2026",
-      "one_liner": "APIs for robotics data teams to verify data quality for model training",
-      "long_description": "Hebbian Robotics builds APIs for robotics data teams to verify data quality for model training.  \r\n\r\nOur customers use us to build quality control pipelines in just a few lines of code, with custom models 10x faster and 8x cheaper than general foundation models. \r\n\r\nhttps://hebbianrobotics.com/\r\nhttps://github.com/Hebbian-Robotics/hflow",
+      "one_liner": "Automate Data Evaluations for Physical AI and Robotics",
+      "long_description": "Hebbian Robotics automates data evaluation for physical AI and robotics.\r\n\r\nOur customers use us to build quality control pipelines in just a few lines of code, with custom models 10x faster and 8x cheaper than general foundation models. \r\n\r\nhttps://hebbianrobotics.com/\r\nhttps://github.com/Hebbian-Robotics/hflow",
       "website": "https://hebbianrobotics.com/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Robotics",
         "Data Science",
         "Data Engineering",
-        "AI",
         "Databases"
       ],
       "team_size": 2,
@@ -10850,7 +10850,7 @@
       ],
       "tags": [],
       "team_size": 4,
-      "location": "San Francisco, CA, USA",
+      "location": "BY, Germany",
       "status": "Active",
       "launched_at": 1774801488
     },
@@ -12089,7 +12089,7 @@
       ],
       "tags": [],
       "team_size": 1,
-      "location": "San Francisco, CA, USA",
+      "location": "Paris, Île-de-France, France",
       "status": "Active",
       "launched_at": 1775508388
     },
@@ -13554,6 +13554,28 @@
       "launched_at": 1766166166
     },
     {
+      "slug": "mantle-2",
+      "name": "Mantle",
+      "batch": "Fall 2026",
+      "one_liner": "The pit crew for deployed machines and robots.",
+      "long_description": "Mantle is a full-stack field service company that deploys, fixes and maintains machines for the companies that build them. We're not a marketplace or software tool, we own uptime directly to provide better, more reliable service without burdening your engineers on support calls. \r\n\r\n$500B+ a year is spent to keep machines running in the US, we're coming for all of it.\r\n",
+      "website": "",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Robotics",
+        "Industrial"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1790190684
+    },
+    {
       "slug": "manufact",
       "name": "Manufact",
       "batch": "Summer 2025",
@@ -13602,12 +13624,11 @@
       "slug": "maquoketa-research",
       "name": "Maquoketa Research",
       "batch": "Spring 2026",
-      "one_liner": "The intelligence layer for drones",
+      "one_liner": "Automated LiveOps for Game Studios",
       "long_description": "",
       "website": "https://www.maquoketa.net",
       "industries": [
-        "Industrials",
-        "Defense"
+        "B2B"
       ],
       "tags": [],
       "team_size": 5,
@@ -14669,7 +14690,7 @@
       ],
       "tags": [],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "Melbourne, VIC, Australia",
       "status": "Active",
       "launched_at": 1775918136
     },
@@ -16717,7 +16738,7 @@
       "name": "Outlit",
       "batch": "Winter 2025",
       "one_liner": "Protect and Grow Long-tail Revenue ",
-      "long_description": "Outlit helps B2B SaaS companies grow revenue across their long tail. \r\n\r\nOutlit catches churn risks early and uncovers expansion opportunities in every account, turning missed customer signals into retained and expanded revenue.",
+      "long_description": "Outlit helps companies grow revenue across their long tail. \r\n\r\nOutlit catches churn risks early and uncovers expansion opportunities in every account, turning missed customer signals into retained and expanded revenue.",
       "website": "https://outlit.ai/",
       "industries": [
         "B2B"
@@ -17622,9 +17643,9 @@
         "Asset Management"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Fintech",
-        "Investing",
-        "AI"
+        "Investing"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -17951,17 +17972,17 @@
       "slug": "physical-turing",
       "name": "Physical Turing",
       "batch": "Summer 2025",
-      "one_liner": "Evaluating humanoids in the real world",
-      "long_description": "Physical Turing rolls out humanoids in the real world and captures failures for benchmarking and post-training.\r\n\r\nWe procure, staff, and operate a wide range of target environments for real-world rollouts, helping robot makers, model companies, and enterprises continuously evaluate where humanoids succeed, where they fail, and what needs to improve before each deployment.",
+      "one_liner": "Next generation robot deployer",
+      "long_description": "Physical Turing is a neo robot deployer. Our hardware-agnostic operating system lets us deploy any robot fast, and every deployment produces the real-world data we use to train our own intelligence.\r\n\r\nWe're starting by automating industrial inspection and security tasks, which have historically had labor shortages due to their safety risks.",
       "website": "https://physicalturing.ai/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Robotics",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -22510,13 +22531,13 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "Consumer",
         "B2B",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
-      "team_size": 3,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1772696752
@@ -24523,7 +24544,7 @@
       "name": "Uplift AI",
       "batch": "Summer 2025",
       "one_liner": "Foundational Voice Models for regional languages",
-      "long_description": "We build Voice Models for regional languages (like Urdu, Bengali, Greek etc) and make them available through simple APIs and SDKs. \r\nDevelopers use us to create Voice-first digital experiences (eg. Voice eCommerce, Voice Banking, Voice AI Tutors etc).\r\n\r\nWe gather our own data, develop our own labelling tools, train our own models, and design our own voice infra. This fully integrated approach enables us to offer the best models and the best developer experience for regional languages.\r\n\r\n---\r\n\r\nPeople who would previously never use certain digital services (like online ordering), actually use the service when they are given an intuitive Voice based interface.\r\nWe believe that Voice Interfaces will onboard 100s of millions of new users onto digital services; and double the addressable market for technology companies. \r\nUplift AI will provide the best models to create these Voice Interfaces for 60% of the world's population that only speaks their regional language and represents 42 trillion dollars in GDP.\r\n",
+      "long_description": "We build Voice Models for regional languages (like Urdu, Bengali, Greek etc) and make them available through simple APIs and SDKs. \r\nDevelopers use us to create Voice-first digital experiences (eg. Voice eCommerce, Voice Banking, Voice AI Tutors etc).\r\n\r\nWe gather our own data, develop our own labelling tools, train our own models, and design our own voice infra. This fully integrated approach enables us to offer the best models and the best developer experience for regional languages.\r\n\r\n---\r\n\r\nPeople who would previously never use certain digital services (like online ordering), actually use the service when they are given an intuitive Voice based interface.\r\nWe believe that Voice Interfaces will onboard 100s of millions of new users onto digital services; and double the addressable market for technology companies. \r\nUplift AI will provide the best models to create these Voice Interfaces for 60% of the world's population that only speaks their regional language and represents 42 trillion dollars in GDP.",
       "website": "https://upliftai.org/",
       "industries": [
         "B2B"
@@ -25344,16 +25365,16 @@
       "slug": "vorelios",
       "name": "Vorelios",
       "batch": "Fall 2026",
-      "one_liner": "A Foundation Model for Industrial Physics Simulation",
+      "one_liner": "A foundation model for engineering physics",
       "long_description": "Engineering is bottlenecked by slow, costly simulations. We're fixing that by building foundation models that learn physics end-to-end and deliver the same results in seconds, at a fraction of the cost.",
       "website": "https://vorelios.com",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -26067,17 +26088,17 @@
       "slug": "zenbu-2",
       "name": "Zenbu",
       "batch": "Spring 2026",
-      "one_liner": "The extensible IDE for coding agents",
-      "long_description": "Zenbu is an extensible IDE for orchestrating coding agents. Shape it around exactly how you and your team work.",
+      "one_liner": "The browser for agentic development",
+      "long_description": "https://github.com/zenbu-labs/terminal-browser",
       "website": "https://www.zenbu.dev/",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "Open Source"
+        "Open Source",
+        "AI"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA; Remote",

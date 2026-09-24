@@ -1,7 +1,76 @@
 {
-  "updated_at": "2026-09-23T18:15:58.470Z",
-  "count": 1309,
+  "updated_at": "2026-09-24T18:09:57.126Z",
+  "count": 1312,
   "launches": [
+    {
+      "launch_id": 116844,
+      "launch_slug": "UOa-prism-lightning-fast-inference-for-coding-agents",
+      "launch_url": "https://www.ycombinator.com/launches/UOa-prism-lightning-fast-inference-for-coding-agents",
+      "title": "Prism: Lightning fast inference for coding agents",
+      "tagline": "Making tokens abundant for everyone.",
+      "body": "Hello everyone,\n\nWe’re Alex and Rajit, and we’re excited to launch Prism.\n\n**TL;DR:** Prism is an inference cloud for open source LLMs. We use agents to optimize our deployments for cost, latency, and throughput (we serve DeepSeek V4.1 Flash at 547 tok/s).\n\n<https://youtu.be/Tp8_JO_IvX4>\n\n## The Problem\n\nOpen source models just got really good. DeepSeek was almost a quarter of all traffic on OpenRouter last week.\n\nWe spoke to developers building coding agents, personal AI assistants, and code review software, and we asked what the biggest bottleneck was in adopting open source models.\n\nThe answer: there is a token shortage. Existing providers either don’t have enough capacity, are too slow, or aren’t reliable enough.\n\n## Meet Prism:\n\nIntroducing Prism: lightning fast inference for coding agents. We have three core ideas.\n\n1. Custom deployments for every model\n\nWe use agents to optimize our deployments for latency, cost, and throughput. Here’s Deepseek V4.1 Flash running on Prism vs other major providers for the same coding task.\n\n![uploaded image](/media/?type=post&id=116844&key=user_uploads/551584/62819c55-2169-4734-927b-8a0a1765e57b)\n\n2. Price tokens like electricity\n\nPG&amp;E charges less for off-peak usage. Token providers should do the same. And not every LLM request is urgent. We can charge less for requests with a wider scheduling window.\n\n3. Enable companies to develop personal intelligence\n\nFor domain-specific tasks, teams are adding adapters onto base models. Most providers require them to pay GPU costs, host, and run the model themselves. We offer serverless LoRA inference along with dedicated deployments.\n\n## Ask\n\nWe’ve spoken to\n\n1. teams who are doing more than six figures a month in frontier lab spend\n2. teams whose inference providers slow down their products \n3. teams who are considering post-training their own models but don’t want to pay constant GPU costs\n\nIf those descriptions sound like you, book a call with us to see how we can help [cal.com/team/prismai/demo](http://cal.com/team/prismai/demo).",
+      "created_at": "2026-09-24T17:21:40.950Z",
+      "total_vote_count": 1,
+      "company_slug": "prism",
+      "company_name": "Prism",
+      "company_website": "https://prisminference.com",
+      "company_batch": "Spring 2025",
+      "company_industry": "B2B",
+      "company_id": 30492,
+      "author_name": "Rajit Khanna",
+      "scraped_at": "2026-09-24T18:09:45.863Z",
+      "review_summary": {
+        "conformance_index": 73,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 116594,
+      "launch_slug": "UKY-yuma-voice-your-ai-support-agent-now-answers-the-phone",
+      "launch_url": "https://www.ycombinator.com/launches/UKY-yuma-voice-your-ai-support-agent-now-answers-the-phone",
+      "title": "Yuma Voice: Your AI support agent now answers the phone",
+      "tagline": "AI phone support for brands. Resolves requests and takes real actions, with a unified, single Handbook to define the rules for your AI agents across every channel.",
+      "body": "👋 We are Yuma, YC W23, and since 2023, We have automated millions of customer conversations for retail &amp; ecommerce brands.\n\nToday we're launching Yuma Voice. The same AI agent that handles your email, chat, and WhatsApp can now answer your phone!\n\nThis one took many, many months of work and iteration from the whole team. I'm very proud to finally put it in your hands :)\n\n**Why we built it**\n\nWe have spent years teaching AI agents how to actually resolve customer requests: understand the problem, follow the brand's policies, look things up, and take the right action.\n\nWe wanted to bring all of that to the phone. But making seamless at the same time.\n\nVoice is a totally different beast. It has to be fast, accurate, and personable. One awkward pause or misunderstanding, and the customer hears it immediately. But the hardest part was making it as capable as the rest of our agents.\n\nA customer calls at 11pm to skip her next delivery. Yuma picks up, finds her subscription, confirms the change, updates it during the call, and tells her when the next delivery will arrive.\n\nThat's the experience we've been working toward.\n\n**What it does**\n\n* **Takes real actions during the call.** Update an address, cancel an order, process a return, or change a subscription while the customer is still on the line.\n* **Uses everything you've already configured.** Same knowledge, same processes, same guardrails as your existing Yuma agents. Nothing to retrain or duplicate.\n* **Speaks 30+ languages.** It can follow the customer even when they switch languages mid-call.\n* **Works on your phone number and your website.** Connect your existing telephony or add a browser call button.\n* **Hands over when it should.** You decide when to transfer to a human or collect an email for follow-up. Recordings and transcripts give your team the context.\n* **Lets you start small.** Run it after hours, on weekends, or on a portion of calls. Listen to the conversations and expand when you're comfortable.\n\nIt plugs into the helpdesk and ecommerce tools you already use, with voice conversations alongside the rest of your support activity.\n\n**Try it yourself**\n\n☎️ [Call Emily, our live demo](https://yuma.ai/voice-demo).\n\nShe handles support for Daybreak Coffee, our fictional demo store. Pick a sample customer on the page, ask to skip a shipment or change a subscription, and see how she handles it.\n\nYou can call directly from your browser. It’s that easy!\n\nPlease try it and give me blunt feedback. That's why we're launching here :)\n\n**Looking for**\n\nAre you running a retail brand with phone support, or thinking about offering it?\n\nWe would love to help you connect Yuma Voice, set up your first processes, and review the results together. Contact Guillaume, the founder below, or [book a demo](https://yuma.ai/voice-ai-agent).\n\nAnd if you know a brand whose team spends too much time handling repetitive calls, send them our way 👀\n\nContact Guillaume, the founder at g-voice-ai-launch@yuma.ai for priority setup.\n\n**What else does Yuma do?**\n\nYuma brings your entire customer service operation into a single platform. Email, chat, social, WhatsApp, and now voice, with AI agents handling both inbound and outbound conversations across every channel.\n\nWhether customers contact you or your agents reach out first, it all runs through Yuma. A single Handbook defines the rules, and a single tool lets you manage the full customer experience.\n\nYuma is AI for CX infrastructure.\n\n![uploaded image](/media/?type=post&id=116594&key=user_uploads/37163/9dbfb2d6-b738-4f4f-9c3b-ebe6a3213fd1)\n\n",
+      "created_at": "2026-09-23T21:00:25.732Z",
+      "total_vote_count": 3,
+      "company_slug": "yuma-ai",
+      "company_name": "Yuma AI",
+      "company_website": "https://yuma.ai",
+      "company_batch": "Winter 2023",
+      "company_industry": "B2B",
+      "company_id": 28417,
+      "author_name": "Guillaume Luccisano",
+      "scraped_at": "2026-09-24T18:09:45.863Z",
+      "review_summary": {
+        "conformance_index": 76,
+        "predictability_band": "surprise",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 116240,
+      "launch_slug": "UEq-oasive-find-better-bonds-to-buy",
+      "launch_url": "https://www.ycombinator.com/launches/UEq-oasive-find-better-bonds-to-buy",
+      "title": "Oasive: Find better bonds to buy",
+      "tagline": "See which bonds are rich or cheap and decide what to buy",
+      "body": "**TL;DR: [Oasive](http://www.oasive.ai)** **helps bond investors find better bonds to buy. Compare investments and test trade ideas in minutes with proprietary models and a team of AI analysts.**\n\n<https://youtu.be/HlMWxuHhlo8>\n\nHi, I'm Anaïs, founder of [Oasive](http://www.oasive.ai). I worked on Wells Fargo's $350B mortgage-backed securities (MBS) portfolio, then as a portfolio manager on Google Treasury's $17B MBS/ABS portfolio, before leading product strategy across Google's consumer AI products.\n\nI'm building [Oasive](http://www.oasive.ai) to help more fixed income investors find value and act on it.\n\n**The problem**\n\nFinding an attractive trade is only the start. Is it really cheap, what could change that, and does it improve the portfolio? Answering those questions means going back and forth between research, market data, models and spreadsheets.\n\n**What we built**\n\n[Oasive](http://www.oasive.ai) helps you uncover opportunities you might otherwise miss, compare investments and test the risks before putting on a trade. Macro and Rates Research and our MBS Platform are live today:\n\n* **Macro and Rates Research:** Which Treasury maturities look cheap, and is there a curve trade worth putting on? Use our proprietary valuation models to compare maturities, curve trades and butterflies. Check how many Fed cuts are priced in, dig into market moves and economic releases, and keep exploring with unlimited chats and follow-ups.\n* **MBS Platform:** Which MBS pools look attractive, and why? Use proprietary prepayment models and collateral analysis to spot relative value and test investment ideas. If rates fall 1%, what happens to your portfolio? Change rate and prepayment assumptions to see the impact on spreads, duration and value across your holdings.\n\n_Municipals, ABS, and corporates are next._\n\n[Oasive](http://www.oasive.ai) is already used across 15+ institutional desks at global banks, asset managers with $100B+ in AUM, and Fortune 500 treasury teams.\n\n**Try it**\n\nStart your Macro and Rates Research free trial or request an MBS demo at <https://oasive.ai/join> — free and paid plans available.\n\n**Our ask**\n\nKnow portfolio managers, traders or analysts on fixed-income desks? I’d love an introduction. Email [anais@oasive.ai](mailto:anais@oasive.ai)\n\n![uploaded image](/media/?key=user_uploads/2395902/0db02b4c-6fd1-4d3d-b1cc-6c6df9dce469)\n\n",
+      "created_at": "2026-09-23T20:00:00.098Z",
+      "total_vote_count": 12,
+      "company_slug": "oasive",
+      "company_name": "Oasive",
+      "company_website": "https://www.oasive.ai",
+      "company_batch": "Fall 2026",
+      "company_industry": "Fintech",
+      "company_id": 35396,
+      "author_name": "Anaïs Howland",
+      "scraped_at": "2026-09-24T18:09:45.863Z",
+      "review_summary": {
+        "conformance_index": 56,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
     {
       "launch_id": 116412,
       "launch_slug": "UHc-spur-testing-infrastructure-for-your-mobile-apps",
