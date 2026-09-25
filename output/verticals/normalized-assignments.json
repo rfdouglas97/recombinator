@@ -40985,6 +40985,88 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "hue",
+    "name": "Hue",
+    "website": "https://hue.run/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/hue",
+    "batch": "Fall 2026",
+    "one_liner": "Test agents in realistic worlds built from production usage",
+    "description_combined": "Test agents in realistic worlds built from production usage\n\nHue turns production usage of agents into repeatable tests that preserve the tools, data, and state behind the real run. As AI agents take on real work, their behavior depends increasingly on the nuances of the world around them. With Hue, teams can test and improve their agents under conditions that mimic real usage.",
+    "industry_sub_vertical": "AI agent testing and evaluation infrastructure",
+    "canonical_vertical_id": "ai-infrastructure.qa-testing",
+    "vertical_id": "ai-infrastructure.qa-testing",
+    "vertical_label": "Software QA & test automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent observability, evals, or safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "agent_testing",
+      "production_replay",
+      "behavioral_validation",
+      "regression_detection"
+    ],
+    "what_they_sell": "A platform that converts production agent executions into repeatable, isolated test cases that preserve the full execution context (tools, data, state, external dependencies). Teams can replay real-world scenarios, validate agent behavior under production conditions, and detect regressions without re-running against live systems.",
+    "ai_play": "As agents become autonomous decision-makers in production, testing shifts from unit tests to behavioral validation under realistic conditions. Hue solves the critical gap: agents behave differently in production than in sandboxes because they interact with real tools, APIs, and data. By capturing and replaying production runs, teams can test agent robustness, safety, and consistency without the cost/risk of live execution. This is essential for regulated and high-stakes agent deployments.",
+    "who_pays": "AI engineering teams, platform teams, and enterprises deploying autonomous agents in production (financial services, operations, customer service). Buyers are VP Eng, AI leads, and QA/reliability teams responsible for agent quality and safety.",
+    "confidence": 0.82,
+    "rationale": "Hue is a direct fit for agent-observability-evals: it provides testing, benchmarking, and production monitoring for agents. The core value is enabling teams to validate agent behavior under realistic conditions by replaying production scenarios. This is distinct from general observability (which monitors live agents) — Hue focuses on creating repeatable test environments from production data. The phenotype family (agent_infrastructure) and wedge (trust_and_quality) are correct. Secondary phenotype could be agent-context-infra (since it captures and structures production context for replay), but primary fit is stronger on the evals/testing side.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3905409,
+        "full_name": "Aneesh Kethini",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder & CEO of Hue\n\nSecond AI PM at Datadog, built and launched Datadog&#x27;s AI SRE. Prev QT at SIG.",
+        "linkedin_url": "https://www.linkedin.com/in/aneeshkethini/",
+        "twitter_url": "https://x.com/aneeshkethini",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/96b37194848c8e110be870d79303e5fd2db1c5af.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEGOJN2V7%2F20260925%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260925T181302Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECoaCXVzLXdlc3QtMiJIMEYCIQCqZZUYnZ5V0vF8TvnsR5OOjH6Py8P3qAjJzRczGjuyDgIhALNah1ymWuUxEbTirK0Jm5x5nky0JaSy3WD%2BhUxYBp82Ku4DCPP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxvjVq%2FyX1I40edfNsqwgNhzszb020hORiBku9ZK9i9UkM0%2Bg52Ko9kT0jTb9oog3mmHG96bIUwSk2xSKsvyEI%2F5cGonSR6dv5Ilur%2F0du17S%2Bp04IvUEB%2FiPOMwG0KgkqzAcMtbI7y%2BgEYrVNvNZQmk53zzVt0vEtPNJ2Saj4gquHr1nQPBko9b3CdgqNZM%2BwngDqEUjmRXxppcR%2BZazr%2BcOoQ5%2BqnLluOvZo7fWlBHBywAnZtgt0CzWkAc5TeMZLdfyP8eDHu1Yg36t1HI3P2Pz6yepBT3nD%2BRWKiI5dTsuk8dtkqKO04nm0WiMgC7MpTF2qDLaN9Vmf6K0LVQ2AfLC5HiKEH7s7VvkinKnnpZX1ZOlP4M5WCrfOdo6hdO%2F5J9E2WOscW7R5F4FioJUV03C1xDwXE%2FiCdokkbHNw7EM4BoK3s3TjoyjcwiPKEJfRMNqWWj69pwNA07RegclU%2BzWgzM9E5bLinJUgGvUhG%2BgkBfOrBaAEH%2F2TGWnGw3G2z%2BXtrC44vueRGxavqPRs3QpHhC3YLmVflovcFXepwF32cO%2BWHSO7GnHDObVSThMEyvjRU6kl4WM1z%2FoJiNa7goMunHNs3%2FsTn3dUn%2BcE54%2Bsw2%2FHa1QY6pAGgOJPBZ1EFrk5lHKWvYiKENcDUlPcYXgILJSm6KG1S5DZ3oHxRJknvRCPY5AYtVy87MfcxHDXDU0EBMxp0kvnWp2mht3Od59ZgvGGsB9UMeV6jIhza8wFj3zceAmbcfjEZzzRV3xTsK70mCmlIdHsRNb4IU1q1WpXU7ddCa8IgTaCQE8P1FJbYmFGlH6RLcFnIqUZ8kqIPz3vrYA6%2FswCUf11x5Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=031cb8131f0509f47e5bd9d8e0487423c6438630344f7b7d94fb077ec38f7cd1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Hue",
+          "href": "https://www.ycombinator.com/companies/hue"
+        }
+      },
+      {
+        "user_id": 1000179,
+        "full_name": "Josh Le",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder & CTO at Hue\n\nPrev engineering at Apple, Gusto (W12), August, Wayfair, SendBlue (S23), Sixtyfour (X25)\n\nKP fellow",
+        "linkedin_url": "https://www.linkedin.com/in/joshua-d-le",
+        "twitter_url": "https://x.com/joshuadle",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e8ce0a5fd1991d93d61addff18156dbb146d3b3d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEGOJN2V7%2F20260925%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260925T181302Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECoaCXVzLXdlc3QtMiJIMEYCIQCqZZUYnZ5V0vF8TvnsR5OOjH6Py8P3qAjJzRczGjuyDgIhALNah1ymWuUxEbTirK0Jm5x5nky0JaSy3WD%2BhUxYBp82Ku4DCPP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgxvjVq%2FyX1I40edfNsqwgNhzszb020hORiBku9ZK9i9UkM0%2Bg52Ko9kT0jTb9oog3mmHG96bIUwSk2xSKsvyEI%2F5cGonSR6dv5Ilur%2F0du17S%2Bp04IvUEB%2FiPOMwG0KgkqzAcMtbI7y%2BgEYrVNvNZQmk53zzVt0vEtPNJ2Saj4gquHr1nQPBko9b3CdgqNZM%2BwngDqEUjmRXxppcR%2BZazr%2BcOoQ5%2BqnLluOvZo7fWlBHBywAnZtgt0CzWkAc5TeMZLdfyP8eDHu1Yg36t1HI3P2Pz6yepBT3nD%2BRWKiI5dTsuk8dtkqKO04nm0WiMgC7MpTF2qDLaN9Vmf6K0LVQ2AfLC5HiKEH7s7VvkinKnnpZX1ZOlP4M5WCrfOdo6hdO%2F5J9E2WOscW7R5F4FioJUV03C1xDwXE%2FiCdokkbHNw7EM4BoK3s3TjoyjcwiPKEJfRMNqWWj69pwNA07RegclU%2BzWgzM9E5bLinJUgGvUhG%2BgkBfOrBaAEH%2F2TGWnGw3G2z%2BXtrC44vueRGxavqPRs3QpHhC3YLmVflovcFXepwF32cO%2BWHSO7GnHDObVSThMEyvjRU6kl4WM1z%2FoJiNa7goMunHNs3%2FsTn3dUn%2BcE54%2Bsw2%2FHa1QY6pAGgOJPBZ1EFrk5lHKWvYiKENcDUlPcYXgILJSm6KG1S5DZ3oHxRJknvRCPY5AYtVy87MfcxHDXDU0EBMxp0kvnWp2mht3Od59ZgvGGsB9UMeV6jIhza8wFj3zceAmbcfjEZzzRV3xTsK70mCmlIdHsRNb4IU1q1WpXU7ddCa8IgTaCQE8P1FJbYmFGlH6RLcFnIqUZ8kqIPz3vrYA6%2FswCUf11x5Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4a0c3194935fabceff4a4a5536765afbda4a28c45af7766762125be3cc2aa9a7",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Hue",
+          "href": "https://www.ycombinator.com/companies/hue"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-25T18:13:11.417Z",
+    "classified_at": "2026-09-25T18:13:11.417Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "human-archive",
     "name": "Human Archive",
     "website": "https://www.humanarchive.ai/",
@@ -76618,6 +76700,55 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "raycaster",
+    "name": "Raycaster",
+    "website": "https://eval.raycaster.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/raycaster",
+    "batch": "Fall 2024",
+    "one_liner": "Frontier agents struggle in drug development; open models crush on cost",
+    "description_combined": "Frontier agents struggle in drug development; open models crush on cost\n\nTL;DR: Everyone is trying to use AI for drug _discovery_ (finding molecules), but 90% of actual pharma time and money gets burned in drug _development_ - people digging through messy SharePoint, Veeva, fixing conflicting batch records (often scanned), updating clinical protocols, and answering FDA audit letters with 20 redline versions and siloed email threads with colleagues.\n\n\n\nWe built Biopharma Bench 0.1: 12 complete, reconstructed drug companies, 71 multi-hour tasks, and 752 ground-truth checks audited by industry veterans to see what happens when you actually put frontier AI into an employee’s seat.\n\n> One interesting finding: DeepSeek V4.1 Flash matched GPT-6 Sol on the actual work (57.0% vs 54.3%) at a sixth of the cost ($0.11 vs $0.64 per task). Meanwhile Claude Opus 5, #2 overall at 63.8%, didn't fully pass a single task.\n\nCheck out the interactive traces &amp; leaderboard: \nRead the deep-dive blog post: \nJoin the discussion on Hacker News: \n\n### Backstory\n\nHey everyone! We’re the team behind Raycaster ().\n\nWe first started building AI agents for regulated industries like biopharma because we see the inevitable wave of knowledge work getting handled by AI systems with human oversight (definitely not fear-mongering, but in a super exciting way!).\n\nOver the last few months, our major focus has been helping frontier AI labs globally hillclimb capabilities in underserved industries such as biopharma, energy, data centers, among others.\n\nVery quickly, we noticed somethin",
+    "industry_sub_vertical": "Biopharma workflow evaluation datasets for frontier AI model benchmarking",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "training-data-synthetic",
+    "phenotype_primary_label": "Training / eval data generation",
+    "phenotype_family": "data_assets",
+    "value_wedge": "data_asset",
+    "ai_application": "dataset_creation",
+    "ai_application_patterns": [
+      "benchmark_dataset",
+      "domain_specific_evals",
+      "task_reconstruction",
+      "regulated_workflow_testing"
+    ],
+    "what_they_sell": "Biopharma Bench: a curated, audited evaluation dataset of 12 reconstructed drug companies with 71 multi-hour realistic tasks and 752 ground-truth checks. Enables frontier AI labs and model builders to benchmark and optimize LLM/agent performance on actual pharma workflows (document management, protocol updates, FDA audit response, batch record reconciliation).",
+    "ai_play": "Raycaster solves the 'eval gap' for regulated industries: frontier labs lack realistic, audited benchmarks to test agent capabilities on knowledge-work tasks that matter in biopharma. By reconstructing actual drug development workflows (messy SharePoint, Veeva, scanned batch records, clinical protocols, FDA correspondence) with expert validation, Raycaster enables model builders to hillclimb on real-world pharma complexity and cost-efficiency tradeoffs (e.g., DeepSeek V4.1 Flash vs. GPT-6 Sol performance/cost).",
+    "who_pays": "Frontier AI labs (OpenAI, Anthropic, DeepSeek, etc.), model builders, and potentially pharma companies benchmarking internal agent deployments.",
+    "confidence": 0.78,
+    "rationale": "Raycaster is primarily a curated, domain-specific evaluation dataset provider with expert auditing. The core product is Biopharma Bench—a benchmark dataset for testing LLM/agent performance on realistic pharma workflows. This fits training-data-synthetic (domain-specific corpora, benchmark datasets) as primary phenotype. Secondary phenotype is agent-observability-evals because they provide tracing, benchmarks, and red-teaming for agents in regulated workflows. They are NOT building agents themselves or selling a vertical SaaS product; they are enabling others (AI labs, model builders) to evaluate and optimize agents on pharma tasks. The 'hillclimbing capabilities' language and focus on helping frontier labs optimize models on underserved industries confirms they are a data/eval infrastructure play, not a vertical automation product.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "launch_id": 116908,
+    "launch_url": "https://www.ycombinator.com/launches/UPc-biopharma-bench-0-1-evaluating-ai-on-autonomous-drug-development",
+    "launch_title": "Biopharma Bench 0.1 – Evaluating AI on Autonomous Drug Development",
+    "launch_created_at": "2026-09-25T17:16:44.511Z",
+    "launch_tagline": "Frontier agents struggle in drug development; open models crush on cost",
+    "launch_ingested_at": "2026-09-25T18:13:49.391Z",
+    "classified_at": "2026-09-25T18:13:49.391Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "reacher",
     "name": "Reacher",
     "website": "https://reacherapp.com/",
@@ -78719,6 +78850,75 @@
     "launch_evaluated_at": "2026-07-30T16:56:29.909Z",
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "rhem-labs",
+    "name": "Rhem Labs",
+    "website": "https://rhem.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/rhem-labs",
+    "batch": "Fall 2026",
+    "one_liner": "Home care technology for aging parents and their families",
+    "description_combined": "Home care technology for aging parents and their families\n\nRhem is building the connected hardware and data platform for care at home. ",
+    "industry_sub_vertical": "Connected home monitoring and care coordination platform for aging adults",
+    "canonical_vertical_id": "healthcare.home-health",
+    "vertical_id": "healthcare.home-health",
+    "vertical_label": "Home health & post-acute care",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "sensor_data_aggregation",
+      "autonomous_monitoring",
+      "predictive_health_alerts",
+      "hardware_coordination"
+    ],
+    "what_they_sell": "Connected hardware platform + data/analytics layer for in-home monitoring and care coordination for aging adults. Likely includes wearables, environmental sensors, and a mobile/web dashboard for families and caregivers.",
+    "ai_play": "AI processes sensor streams (motion, vital signs, environmental data) to detect anomalies, predict health events, and automate alerts to family members and care providers. AI may also optimize hardware power/connectivity and learn individual behavioral baselines for personalized monitoring.",
+    "who_pays": "Adult children managing aging parents' care; potentially home health agencies and senior living operators as B2B2C channel.",
+    "confidence": 0.72,
+    "rationale": "Rhem is building connected hardware + data platform for home care. This is primarily a physical-systems play (sensors, devices, home infrastructure) where AI accelerates monitoring, anomaly detection, and predictive health insights. Secondary consumer angle (families using the app) suggests consumer-ai-app as secondary phenotype. Not a pure robotics/embodied-AI play (no autonomous physical manipulation described), but fits ai-enabled-physical-systems as the core: hardware is the product, AI is the operational/analytical enabler. Confidence 0.72 due to limited public detail on AI specifics; if they're primarily a hardware distributor without significant AI analytics, confidence drops; if they're building proprietary ML for health prediction, confidence rises to 0.80+.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare",
+      "Consumer Health and Wellness"
+    ],
+    "yc_tags": [
+      "Robotics",
+      "Health & Wellness",
+      "Consumer Products"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1690205,
+        "full_name": "Jacob Shen",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder and CEO of Rhem Labs. Previously Founding Engineer at Mattoboard. Researcher at Berkeley AI Research Lab, designing scalable autonomous driving systems. CS & DS @ UC Berkeley.",
+        "linkedin_url": "https://linkedin.com/in/jacobshenn",
+        "twitter_url": "https://x.com/jacobshenn",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7ca561b3c3e92baf0165872ddf890095c47ccc12.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAEXLLEB5R%2F20260925%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260925T181252Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjECoaCXVzLXdlc3QtMiJHMEUCIQCByVcGisj93Te6Chj%2FI7Fz%2BKBKybumhwMTu1a4DBMjuwIgKmKOZxt0%2BRyDB2Cbot3etsYmeh%2FY%2FmDeMBaH1D8w7FAq7gMI8%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDPZHo3eH8FWa59QMjSrCAxyn09Hkj%2BNkNfSsipwCM4YyTqQh8hzGXxjG%2FY2XK2dF1CEPzLJNridCI5aPbK2ucn5ZvsytEissbVe9gSDcx6sPBz7gLD%2BsEtYNKVfGV62WQbFCat7I8mF5mcpg9rNRCEAwNZ2mgGdbRYOxiwUfYO8kG5qEbo9GG5BitZyPgbCLYle%2F3IZhF1%2FZd31mNe40v7ieKZPFJEJeEn4rWBXeUeUv0d3TDQBFc4M3ek2FqzzOMr02vq%2FGhyWnmc%2FN%2FuIeaDUvr3Rsbtk%2Fk5ofiHQRgbBfLJV1JkPiuJksTK%2BJvROgiuU8YBuppB1sy0O%2BEx%2BlIiN4GDAL%2BZUnMdZYl7bGIL63mk%2BB9GAXoZccQafvHmmCzasVWmtkN2JzAtgRJOmMuMYXLxFbLE4UZd6TglKfMg0Ek1AZUz6iMfZe8jZ7pk2gTpWqVja%2BqfgGA2rcABcS5LuSVr1kWF5pgUyIGCR8AQ2t7Bj4672p7CeDTQHhqaLf2Fs1zqPFcxu10j1h4uEw5BR59bSQomhQ2s5P86xfXluwGhfvZfOahaAky6bIHCCXyy%2FkbSaSTw82A7sm7kNsHH3rVskdRDlfqFBPbsb1zm7s0TDI8drVBjqlAaLUDnwpvvbOUBKRwWyHcPjncZjnpFJdTVLZ8je4bldefDQtj%2FUG%2BUzl%2BU48HL5KT5FgOY6t%2FldX4V4JC1j6MWz%2BsYr5FzD9yK9c0aLpuLrpxtjLo6TctU7AvmtSJpNr09Zawl2dtCPm9%2BN6tOaPRxIrCQGPn8Nb4O%2BlbVR%2FsqYDI5Fq9ueDyuHqoZvhhucJabnGKmA56fWKY%2FGOragGEUFOAaGu0g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=44c674b5dbe205157dbbc637a37a6313545d19a7163f834bc8b44b5f884770c1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Rhem Labs",
+          "href": "https://www.ycombinator.com/companies/rhem-labs"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-25T18:13:02.132Z",
+    "classified_at": "2026-09-25T18:13:02.132Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "rhizome-ai",

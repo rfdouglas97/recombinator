@@ -1,167 +1,37 @@
 {
-  "checked_at": "2026-09-24T18:09:57.226Z",
+  "checked_at": "2026-09-25T18:13:49.568Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 3,
-  "new_count": 3,
-  "skipped_count": 927,
+  "checked_count": 1,
+  "new_count": 1,
+  "skipped_count": 929,
   "ingest": {
     "addedCompanies": 1,
-    "enrichedCompanies": 2
+    "enrichedCompanies": 0
   },
   "summary": {
-    "conforming": 2,
+    "conforming": 0,
     "partial": 1,
     "non_conforming": 0,
-    "would_have_predicted": 2,
+    "would_have_predicted": 0,
     "surprise": 1,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 116844,
-        "company_slug": "prism",
-        "company_name": "Prism",
-        "launch_url": "https://www.ycombinator.com/launches/UOa-prism-lightning-fast-inference-for-coding-agents",
-        "created_at": "2026-09-24T17:21:40.950Z"
+        "launch_id": 116908,
+        "company_slug": "raycaster",
+        "company_name": "Raycaster",
+        "launch_url": "https://www.ycombinator.com/launches/UPc-biopharma-bench-0-1-evaluating-ai-on-autonomous-drug-development",
+        "created_at": "2026-09-25T17:16:44.511Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-09-24T18:09:45.896Z",
-        "launch_id": 116844,
-        "company_slug": "prism",
+        "evaluated_at": "2026-09-25T18:13:48.615Z",
+        "launch_id": 116908,
+        "company_slug": "raycaster",
         "taxonomy": {
-          "conformance_index": 73,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 75,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 86,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 71,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "marketing.content-ops",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::marketing.content-ops::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Content operations & asset management",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 71,
-          "retro_transfer_band": "strong",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 116594,
-        "company_slug": "yuma-ai",
-        "company_name": "Yuma AI",
-        "launch_url": "https://www.ycombinator.com/launches/UKY-yuma-voice-your-ai-support-agent-now-answers-the-phone",
-        "created_at": "2026-09-23T21:00:25.732Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-09-24T18:09:55.875Z",
-        "launch_id": 116594,
-        "company_slug": "yuma-ai",
-        "taxonomy": {
-          "conformance_index": 76,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 55,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 96,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 75,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "enterprise.support.customer",
-            "phenotype_primary_id": "vertical-agentic-workflow-saas",
-            "cell_key": "BM-01::enterprise.support.customer::vertical-agentic-workflow-saas",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Customer support & contact center",
-            "phenotype_label": "Vertical Agentic Workflow SaaS"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "unclassified_new_company"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 116240,
-        "company_slug": "oasive",
-        "company_name": "Oasive",
-        "launch_url": "https://www.ycombinator.com/launches/UEq-oasive-find-better-bonds-to-buy",
-        "created_at": "2026-09-23T20:00:00.098Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-09-24T18:09:55.877Z",
-        "launch_id": 116240,
-        "company_slug": "oasive",
-        "taxonomy": {
-          "conformance_index": 56,
+          "conformance_index": 53,
           "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
@@ -169,11 +39,11 @@
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 5,
+              "score": 2,
               "band": "weak"
             },
             "business_model_fit": {
-              "score": 70,
+              "score": 55,
               "band": "acceptable"
             },
             "ontology_completeness": {
@@ -186,19 +56,19 @@
             }
           },
           "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "fintech.wealth.asset-management",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::fintech.wealth.asset-management::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Asset & wealth management",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.training-data",
+            "phenotype_primary_id": "training-data-synthetic",
+            "cell_key": "BM-03::ai-infrastructure.training-data::training-data-synthetic",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Training & eval data generation",
+            "phenotype_label": "Training / eval data generation"
           }
         },
         "predictor": {
-          "predictability_band": "plausible",
+          "predictability_band": "surprise",
           "signals": [
-            "cell_observed_with_peers"
+            "unclassified_new_company"
           ],
           "cell_was_whitespace": false,
           "ranked_gap": null,
@@ -206,10 +76,11 @@
           "analog_gap_matches": [],
           "retro_transfer_score": 69,
           "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
+          "would_have_been_predicted": false
         },
         "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
         ]
       }
     }

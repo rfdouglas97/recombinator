@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-24T18:09:58.041Z",
+  "generated_at": "2026-09-25T18:13:50.134Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1501,
+    "assignment_count": 1504,
     "mapped_verticals": 246,
-    "observed_cells": 486,
+    "observed_cells": 487,
     "total_verticals": 525,
     "gap_candidates": 841
   },
@@ -255,6 +255,7 @@
         "physical-turing",
         "polymath",
         "qokedas",
+        "raycaster",
         "refresh",
         "the-llm-data-company",
         "trim",
@@ -629,6 +630,29 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "ashr",
+        "autosana",
+        "chronicle-labs",
+        "hue",
+        "instance",
+        "kashikoi",
+        "lark",
+        "perfectbit-inc",
+        "qualgent",
+        "simantic",
+        "simulithic",
+        "spur",
+        "synthetic-society",
+        "workers-io"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.defense.drones",
@@ -649,28 +673,6 @@
         "seeing-systems",
         "splash-inc",
         "streamline-systems"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.qa-testing",
-      "vertical_label": "Software QA & test automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "ashr",
-        "autosana",
-        "chronicle-labs",
-        "instance",
-        "kashikoi",
-        "lark",
-        "perfectbit-inc",
-        "qualgent",
-        "simantic",
-        "simulithic",
-        "spur",
-        "synthetic-society",
-        "workers-io"
       ]
     },
     {
@@ -4605,6 +4607,16 @@
       "sector_id": "healthcare-life-sciences",
       "companies": [
         "cova"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "healthcare.home-health",
+      "vertical_label": "Home health & post-acute care",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "rhem-labs"
       ]
     },
     {

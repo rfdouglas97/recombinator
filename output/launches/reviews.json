@@ -1,7 +1,78 @@
 {
-  "updated_at": "2026-09-24T18:09:55.897Z",
+  "updated_at": "2026-09-25T18:13:48.627Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 116908,
+      "company_slug": "raycaster",
+      "launch_url": "https://www.ycombinator.com/launches/UPc-biopharma-bench-0-1-evaluating-ai-on-autonomous-drug-development",
+      "created_at": "2026-09-25T17:16:44.511Z",
+      "classification": {
+        "phenotype_primary_id": "training-data-synthetic",
+        "vertical_id": "ai-infrastructure.training-data",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-25T18:13:48.615Z",
+        "launch_id": 116908,
+        "company_slug": "raycaster",
+        "taxonomy": {
+          "conformance_index": 53,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 2,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.training-data",
+            "phenotype_primary_id": "training-data-synthetic",
+            "cell_key": "BM-03::ai-infrastructure.training-data::training-data-synthetic",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Training & eval data generation",
+            "phenotype_label": "Training / eval data generation"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
     {
       "launch_id": 116844,
       "company_slug": "prism",
