@@ -59558,6 +59558,74 @@
     "primary_bm": "BM-05"
   },
   {
+    "slug": "musicarena",
+    "name": "MusicArena",
+    "website": "https://musicarena.io/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/musicarena",
+    "batch": "Summer 2026",
+    "one_liner": "The crowdsourced benchmark for AI-generated music and music production",
+    "description_combined": "The crowdsourced benchmark for AI-generated music and music production\n\nhttps://musicarena.io/",
+    "industry_sub_vertical": "Music AI model evaluation & benchmarking datasets",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent observability, evals, or safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "benchmark_dataset_creation",
+      "crowdsourced_evaluation",
+      "music_generation_evals",
+      "quality_scoring"
+    ],
+    "what_they_sell": "A crowdsourced benchmarking platform that collects human evaluations of AI-generated music across multiple dimensions (quality, creativity, production fidelity, style adherence). Provides standardized eval datasets and scoring frameworks for music AI model developers.",
+    "ai_play": "Solves the critical evaluation gap in music generation AI: models need reliable, diverse human-in-the-loop benchmarks to measure quality and safety. MusicArena crowdsources evaluation labor and aggregates judgments into canonical benchmark datasets that music AI labs use to validate and compare models.",
+    "who_pays": "Music AI model builders (startups, research labs, major music tech platforms), music production tool companies, and potentially music AI infrastructure providers needing eval datasets.",
+    "confidence": 0.72,
+    "rationale": "MusicArena is primarily an evaluation/benchmarking platform (agent-observability-evals family) that uses crowdsourcing to generate standardized eval datasets for music generation models. Secondary phenotype is training-data-synthetic because the crowdsourced evaluations become reusable benchmark assets. Not a consumer app (no end-user music creation); not a vertical workflow agent (doesn't automate music production for studios). Core value is providing trusted, diverse evaluation data and quality scoring for AI music models — classic eval infrastructure play.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Music",
+      "Crowdsourcing",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": -1,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3041908,
+        "full_name": "Kevin Yao",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-Founder at Catapult (YC S26). UCLA dropout. Previously ML and robotics research at Berkeley & UCLA. CoRL 2026, AIME, USNCO National Qualifier, Science Olympiad medalist.",
+        "linkedin_url": "https://www.linkedin.com/in/kevinyao05/",
+        "twitter_url": "https://x.com/truekyt",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6b8f9e448bffb8c0d943b9076a1772de16fd6644.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIORDTTW2%2F20260926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260926T173620Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJIMEYCIQC7QwbSC%2BJpxzctVYNlLuDfl%2Fi%2FT5XC1b51sw7GCrFkawIhAKRGyZ6VL%2FO9x2M%2BP5DRilxF%2F04tvWSfliyGrnoPLQYIKuUDCAoQABoMMDA2MjAxODExMDcyIgw1PZOqBhOIzEURdaAqwgMhGQ2LCRC1O524zf2aoavfLCEyCVAnItoTSlXzHXoz03bR4cz6egT7fN6JTlJ6LyrDbVc%2B7u7L2SHqUF6YYOlNAJYB4BLlruuCg0TfyTfSXdSA0FWqC4e3M%2F0QZFJTwEqRhWam657BFszG78yP7jLm4jWblz5jvcBwQ5F%2BPmKRsRiosGItGjtyr8Mq0IEuKLkfgksHzvt6Vbo5%2Bux0I0bctE2tuT%2FnVHjf7TDe65z%2FT0Sin1WUC6zjGUvB8096h1jV6NCX7gHO8jPCz5etg1KEk0XIItm26ja8nlcvvMNJ%2Bvr%2F%2BpZ1WRI0zjBgYUaW3QbOOk7S5C3PK5DdwgsviWGukyrJKzO4nxLg9arv2flN7mSgXH9CR2NDdO2vetO4Tmxs3FJMOApMfQvXFLUMEH2k0Kg3p0nRoPC6qzY8p%2Fg4O9Gl6rQligeZkYJh4chUa7MMdH6YHy0mY3WbC%2FiHeqU2axnDH4B2lIVyHZN4NAL4aCgYwXjUg2IVikIQowdA4F6kCUHXePeHuY61yqEd18K1NQ7tsWtfdFUo5DIs31Xq4%2Fiow5qZAWoGkkksQqQFCUwhAP8p7n7FhmP4lAib6JKBYjQwp%2Bbf1QY6pAFM54ME6LNP%2B%2F00xOz7Z8mRzkMKxy4TdR%2FebOfVfdUqTXiE9RoM7M8vsb9HGb0rSohSiyFmVD774zJIAe97N1pR56dP7g6eGwxYNjajkTZYLp90S%2B58OY7KeSOiWudpDh562n7JczmsDAswDkO9XvlpVGzeEimfOi%2F9rbZgeYuZw5SfyBEO66JmeKqf4V0coHwIYMWWbuaCYWDhBJJZImZ%2B1v4iBQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=67552d562bddf0dd9bdb91be197a3631c31c694d3ba79f40847ae6577c48f94c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "MusicArena",
+          "href": "https://www.ycombinator.com/companies/musicarena"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-26T17:36:29.362Z",
+    "classified_at": "2026-09-26T17:36:29.362Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "mutiny",
     "name": "Mutiny",
     "website": "https://www.mutinyhq.com",
@@ -64222,6 +64290,75 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "openhack",
+    "name": "OpenHack",
+    "website": "https://openhack.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/openhack",
+    "batch": "Fall 2026",
+    "one_liner": "Always-on AI security engineer",
+    "description_combined": "Always-on AI security engineer\n\nOpenHack is an always on AI Security Engineer. OpenHack understands your business, system design and developer intent like a real security engineer. It ingests all this context to find the hardest vulnerabilities through AI codebase scanning, AI pentesting and Supply Chain Security. It verifies and prioritizes vulnerabilities automatically, and filters out false positives like a real security engineer drastically reducing overhead.",
+    "industry_sub_vertical": "AI-powered application security scanning & vulnerability detection for engineering teams",
+    "canonical_vertical_id": "devtools.security-scanning",
+    "vertical_id": "devtools.security-scanning",
+    "vertical_label": "Static & dynamic application security testing",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent Observability, Evals, or Safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "autonomous_security_scanning",
+      "vulnerability_verification_filtering",
+      "context_aware_threat_detection",
+      "false_positive_reduction"
+    ],
+    "what_they_sell": "An always-on AI security engineer that autonomously scans codebases, performs pentesting, and analyzes supply chain security. The AI ingests business context, system design, and developer intent to identify vulnerabilities with high precision, verify findings, prioritize them, and filter false positives—reducing security team overhead.",
+    "ai_play": "AI replaces manual vulnerability scanning and triage by understanding business context and developer intent like a human security engineer. Autonomous agents conduct continuous codebase analysis, pentesting, and supply-chain threat detection while dramatically reducing false-positive noise that wastes security team time.",
+    "who_pays": "Engineering and security teams at mid-market and enterprise software companies seeking to reduce vulnerability discovery and triage overhead.",
+    "confidence": 0.72,
+    "rationale": "OpenHack is primarily a security evaluation and monitoring tool—it scans, tests, verifies, and filters vulnerabilities autonomously. This maps well to agent-observability-evals (trust_and_quality, evaluation_monitoring). Secondary phenotype is vertical-workflow-agent because it automates the security engineer workflow (scanning → verification → prioritization → triage) for development teams. The AI play is autonomous threat detection with context awareness and false-positive filtering, which is distinct from generic SAST/DAST tools because it uses agent reasoning to understand intent and reduce noise. Confidence is 0.72 because the primary value is evaluation/filtering (not pure infrastructure), but it could also be framed as a vertical security automation agent.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Security"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "DevSecOps",
+      "Cybersecurity"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 318539,
+        "full_name": "Ananay Arora",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder/CEO at OpenHack (YC F26)",
+        "linkedin_url": "https://linkedin.com/in/ananay",
+        "twitter_url": "https://twitter.com/ananayarora",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d72b9a8183ee048345720aed35bf764c7239d713.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIORDTTW2%2F20260926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260926T173629Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJIMEYCIQC7QwbSC%2BJpxzctVYNlLuDfl%2Fi%2FT5XC1b51sw7GCrFkawIhAKRGyZ6VL%2FO9x2M%2BP5DRilxF%2F04tvWSfliyGrnoPLQYIKuUDCAoQABoMMDA2MjAxODExMDcyIgw1PZOqBhOIzEURdaAqwgMhGQ2LCRC1O524zf2aoavfLCEyCVAnItoTSlXzHXoz03bR4cz6egT7fN6JTlJ6LyrDbVc%2B7u7L2SHqUF6YYOlNAJYB4BLlruuCg0TfyTfSXdSA0FWqC4e3M%2F0QZFJTwEqRhWam657BFszG78yP7jLm4jWblz5jvcBwQ5F%2BPmKRsRiosGItGjtyr8Mq0IEuKLkfgksHzvt6Vbo5%2Bux0I0bctE2tuT%2FnVHjf7TDe65z%2FT0Sin1WUC6zjGUvB8096h1jV6NCX7gHO8jPCz5etg1KEk0XIItm26ja8nlcvvMNJ%2Bvr%2F%2BpZ1WRI0zjBgYUaW3QbOOk7S5C3PK5DdwgsviWGukyrJKzO4nxLg9arv2flN7mSgXH9CR2NDdO2vetO4Tmxs3FJMOApMfQvXFLUMEH2k0Kg3p0nRoPC6qzY8p%2Fg4O9Gl6rQligeZkYJh4chUa7MMdH6YHy0mY3WbC%2FiHeqU2axnDH4B2lIVyHZN4NAL4aCgYwXjUg2IVikIQowdA4F6kCUHXePeHuY61yqEd18K1NQ7tsWtfdFUo5DIs31Xq4%2Fiow5qZAWoGkkksQqQFCUwhAP8p7n7FhmP4lAib6JKBYjQwp%2Bbf1QY6pAFM54ME6LNP%2B%2F00xOz7Z8mRzkMKxy4TdR%2FebOfVfdUqTXiE9RoM7M8vsb9HGb0rSohSiyFmVD774zJIAe97N1pR56dP7g6eGwxYNjajkTZYLp90S%2B58OY7KeSOiWudpDh562n7JczmsDAswDkO9XvlpVGzeEimfOi%2F9rbZgeYuZw5SfyBEO66JmeKqf4V0coHwIYMWWbuaCYWDhBJJZImZ%2B1v4iBQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=dbd03e6a9046950982daacf2e5c0b254429196174e83b65e9c9102f468a532ce",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "OpenHack",
+          "href": "https://www.ycombinator.com/companies/openhack"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-26T17:36:37.987Z",
+    "classified_at": "2026-09-26T17:36:37.987Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "openintake",
     "name": "OpenIntake",
     "website": "https://www.openintake.ai/",
@@ -64978,6 +65115,61 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "opera",
+    "name": "OpEra",
+    "website": "https://operatechnologies.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/opera",
+    "batch": "Fall 2026",
+    "one_liner": "Automated operations research (OR) lab",
+    "description_combined": "Automated operations research (OR) lab\n\nOpera (YC F26) is an automated operations research lab applying mathematics and AI to optimize operations for retail, logistics, manufacturing, agriculture and more, delivering solutions for VP of Operations, supply chain leaders, plant managers and COOs to improve efficiency and decision-making.",
+    "industry_sub_vertical": "Supply chain optimization & operations research for retail, logistics, manufacturing, and agriculture",
+    "canonical_vertical_id": "logistics.supply-chain.ops",
+    "vertical_id": "logistics.supply-chain.ops",
+    "vertical_label": "Supply chain & procurement operations",
+    "vertical_sector_id": "transportation-logistics",
+    "phenotype_primary_id": "vertical-workflow-automation-ai",
+    "phenotype_primary_label": "Vertical Workflow Automation Agent",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "operations_optimization",
+      "constraint_solving",
+      "decision_automation",
+      "multi_stakeholder_coordination"
+    ],
+    "what_they_sell": "Automated operations research platform that applies mathematical optimization and AI to solve complex operational problems (routing, scheduling, inventory, capacity planning, resource allocation) across retail, logistics, manufacturing, and agriculture. Delivers actionable recommendations and autonomous execution to operations leaders.",
+    "ai_play": "Replaces manual OR analysis and spreadsheet-driven decision-making with AI-driven constraint solving and optimization. AI agents parse operational data (inventory, demand, capacity, constraints), formulate optimization problems, and recommend or execute decisions autonomously. Reduces time-to-insight from weeks to hours and eliminates human bottlenecks in supply chain planning.",
+    "who_pays": "VP of Operations, Supply Chain Directors, Plant Managers, COOs at mid-market and enterprise retail, logistics, manufacturing, and agricultural companies.",
+    "confidence": 0.78,
+    "rationale": "OpEra is a vertical workflow automation agent targeting operations-heavy industries. Core value is automating end-to-end optimization workflows (demand planning, routing, scheduling, resource allocation) that are currently manual, spreadsheet-driven, or rely on expensive external consultants. AI/ML enables autonomous constraint solving and decision-making at scale. Fits vertical-workflow-automation-ai because: (1) solves specific job function (operations optimization) across multiple verticals; (2) integrates with existing ERP/planning tools; (3) high switching cost via domain expertise and workflow integration; (4) sold as SaaS to operations teams. Secondary consideration: could be infrastructure-optimization-ai if positioned as real-time operational control layer, but primary positioning is vertical SaaS for operations leaders, not infrastructure for platform operators.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Supply Chain and Logistics"
+    ],
+    "yc_tags": [
+      "Logistics",
+      "Manufacturing",
+      "Supply Chain",
+      "Operations",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-09-26T17:36:57.350Z",
+    "classified_at": "2026-09-26T17:36:57.350Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "operand",
@@ -75168,6 +75360,71 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "pumpgtm",
+    "name": "PumpGTM",
+    "website": "https://pumpgtm.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/pumpgtm",
+    "batch": "Spring 2026",
+    "one_liner": "Find and engage with desperate buyers across LinkedIn, Email, and X",
+    "description_combined": "Find and engage with desperate buyers across LinkedIn, Email, and X\n\nYour favorite AI&#x27;s favorite GTM tooling\r\n\r\nWe connect your LinkedIn, Email, and X and find you leads and get you sales while you sleep",
+    "industry_sub_vertical": "AI-powered lead discovery and intent-based buyer engagement across LinkedIn, Email, and X",
+    "canonical_vertical_id": "marketing.demand-gen",
+    "vertical_id": "marketing.demand-gen",
+    "vertical_label": "Demand generation & lead scoring",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "horizontal-copilot-saas",
+    "phenotype_primary_label": "Horizontal Copilot / Productivity SaaS",
+    "phenotype_family": "horizontal_saas",
+    "value_wedge": "productivity_multiplier",
+    "ai_application": "copilot_assistant",
+    "ai_application_patterns": [
+      "lead_discovery_automation",
+      "multi_channel_outreach",
+      "buyer_intent_detection",
+      "autonomous_engagement"
+    ],
+    "what_they_sell": "AI-powered GTM automation platform that discovers high-intent buyers across LinkedIn, Email, and X, then autonomously engages them with personalized outreach and sales sequences.",
+    "ai_play": "AI agents autonomously identify 'desperate buyers' (high-intent signals) across multiple channels and execute multi-touch outreach campaigns without manual intervention. Replaces manual lead research, list building, and initial outreach workflows with agentic automation.",
+    "who_pays": "Sales teams, GTM leaders, and growth-focused B2B companies seeking to automate lead discovery and early-stage engagement.",
+    "confidence": 0.75,
+    "rationale": "PumpGTM is a horizontal, cross-industry sales productivity tool that uses AI to automate lead discovery and engagement across multiple channels. It fits horizontal-copilot-saas because it's a seat-based SaaS tool sold to sales/marketing teams across industries (not vertical-specific). The AI application is autonomous outreach and intent detection, which is a productivity multiplier for GTM workflows. Secondary consideration: could be vertical-agentic-workflow-saas if they position as 'sales agent replacement,' but current positioning suggests a tool/copilot for sales teams rather than a fully autonomous sales agent. Confidence is 0.75 (not higher) because the 'autonomous engagement while you sleep' language hints at agentic autonomy, which could push toward vertical-agentic-workflow-saas, but the multi-channel, horizontal nature and GTM focus align better with horizontal copilot.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Marketing"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-02"
+    ],
+    "team_size": 5,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 118028,
+        "full_name": "Namanyay Goel",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Making the most advanced AI for SaaS companies to increase usage, retention, and expansion.\n\nCoding since 13. Sharing AI engineering lessons to 4M+ readers on my blog.",
+        "linkedin_url": "https://www.linkedin.com/in/namanyayg/",
+        "twitter_url": "https://x.com/NamanyayG",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/87963b49263c85b8fa1ee8aa21298b1931a56877.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAH7R3KLEJ%2F20260926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260926T173612Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJHMEUCIQCXUE988aK5o0i%2BIsk0XDDlnXcvHw%2FXLior0PBlpmaakQIgSlnyDI4NvKj7j%2B5CysMJ5QpJafWWspJMTiwVU7GSut4q5QMIChAAGgwwMDYyMDE4MTEwNzIiDA1aJzBbnqY5wopWbSrCAwzxYGDsLWzUYewuaCt40bf5c72sy%2BQA3YVH9udwevo%2BH4o4gPhQ5xYBEkIiMxXVF9GjGhSMtS%2B5N9uMnlF4XEcvHIqZnaAl9zZQ11RWn1uPaUG0BbqkhbJdPrM%2B4KsPup4qz5ggKX2ETVQ3Gg9yClLdKgchgcC2Ln7KERr%2BC7db7lOrxyBKVWEtVLCozGJUHicK81fmrPh7EaHcI7YhV%2FkXTtG89CefVbgQ3lRIQYFLU7vFm4aO66caxaRlL1rjPAcfVU97mAj94%2BSXklIXH7ANb6%2Bg8T4vfsmYsHIn%2BT20bKZlnfv%2FlrIsYx69Ss%2B7Z3%2FYBnjCdQi0w15K11qAMso4cuGmQsb696dJ2%2F25xfkUGhqXO2d3FXIDJ6xq%2FQpt41lD4c2w6bpCf2e98OHd9nHimIPWlAxC0VqKyLzgcSAieboCOa2JmL%2FaX19XdslY%2Bb4x8JgInCAOR5EpcRQPBuAQ9145C4zCuV85pzVrYfsvSsRQTRAYUwRerM3TMpiwfCXQqUfao5AnstQ%2FHifpRFjqkQi53cJ68DNIam%2BibvsTq9I2zAcSrpUmCienjlyvqisS8igB9M9lCULJF7IpuNfCcDCX%2FN%2FVBjqlATeRtSAoE54oIzCMw9kACEv%2BHWV%2Bkp1LkWrpuWJNujXbLOzQZWiJwXAZr%2F2czXc%2FSCAW91G1qmBGxYgsqSM5pzJMXolQqqSb1uaqK1jesJO3bc0lVBwniGl%2BNoD2ybvkbP%2BTBZKa7f7aZcwFQE25JQQyxaM6FMNpbOZe%2FAWa2n8ux54225r4lUmVZZz6h%2FYulpoNsTz7atOBSfeZByTddGyp4bPdJw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d5e0a21daadeb8cb319e4cfea009d83b68e6740a31f9355696640ae4d4e3811d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "PumpGTM",
+          "href": "https://www.ycombinator.com/companies/pumpgtm"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-26T17:36:20.805Z",
+    "classified_at": "2026-09-26T17:36:20.805Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-02"
   },
   {
     "slug": "q2q",
@@ -87545,6 +87802,90 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
+  },
+  {
+    "slug": "spine",
+    "name": "Spine",
+    "website": "https://www.joinspine.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/spine",
+    "batch": "Fall 2026",
+    "one_liner": "We run benefits, payroll & compliance for startups, for free",
+    "description_combined": "We run benefits, payroll & compliance for startups, for free\n\nSpine runs benefits, payroll, and compliance for startups for free.\r\n\r\nWe do the work by giving teams dedicated senior HR and benefits specialists who operate on top of their existing HRIS (Rippling, Deel, Gusto, ADP). We help companies find better-fit, more cost-effective health plans - reducing healthcare costs by around 10% on average - while running payroll, handling compliance, managing open enrollment, and supporting employees directly in Slack.\r\n\r\n30+ startups already use Spine to lower healthcare costs and take hours of back-office work off their teams. \r\nLearn more at joinspine.co.",
+    "industry_sub_vertical": "Benefits administration & payroll operations for startups",
+    "canonical_vertical_id": "enterprise.hr.workforce",
+    "vertical_id": "enterprise.hr.workforce",
+    "vertical_label": "HR & workforce management",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "ai-native-service-provider",
+    "phenotype_primary_label": "AI-Native Service Provider (Outcome-Based)",
+    "phenotype_family": "services",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "benefits_optimization",
+      "compliance_automation",
+      "payroll_execution",
+      "cost_reduction_agent"
+    ],
+    "what_they_sell": "End-to-end HR operations as a managed service: benefits administration, payroll processing, compliance management, and employee support. Monetized via cost savings (10% healthcare cost reduction) and contingency/outcome-based fees, not SaaS seats.",
+    "ai_play": "AI-powered HR specialists and benefits agents operate autonomously on top of existing HRIS platforms (Rippling, Deel, Gusto, ADP). Agents handle plan optimization, payroll execution, compliance workflows, open enrollment, and employee support in Slack—replacing manual HR work and reducing healthcare costs through algorithmic plan matching and negotiation.",
+    "who_pays": "Startup CFOs and HR leaders seeking to eliminate back-office HR burden and reduce benefits costs without hiring dedicated HR staff.",
+    "confidence": 0.78,
+    "rationale": "Spine is a service provider (not software vendor) that takes contractual responsibility for HR outcomes and uses AI agents to execute the work autonomously. Revenue model is outcome-based (cost savings, managed service fees) not SaaS subscriptions. Primary phenotype is ai-native-service-provider because they ARE the service provider delivering results. Secondary is vertical-agentic-workflow-saas because the product surface (Slack integration, HRIS overlay) resembles vertical SaaS, but the business model and risk assumption are service-based. Confidence 0.78 reflects strong fit to service-provider archetype but some ambiguity around whether they'll evolve toward pure SaaS licensing.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Human Resources"
+    ],
+    "yc_tags": [
+      "Human Resources",
+      "Insurance",
+      "SMB"
+    ],
+    "business_models": [
+      "BM-04"
+    ],
+    "team_size": 0,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 4019904,
+        "full_name": "Onur Kardesler",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "We run benefits, compliance and people ops for startups for free.\n\nCo-Founder at Spine. Previously Firefly (2017), a digital car top advertising platform backed by top-tier VCs. MBA from INSEAD, engineering degrees from EPFL and Koç University.",
+        "linkedin_url": "https://www.linkedin.com/in/onurkardesler/",
+        "twitter_url": "https://x.com/okardesler",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5d7e3f8169107ec5d8756a7702a5b8006379f49b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAH7R3KLEJ%2F20260926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260926T173638Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJHMEUCIQCXUE988aK5o0i%2BIsk0XDDlnXcvHw%2FXLior0PBlpmaakQIgSlnyDI4NvKj7j%2B5CysMJ5QpJafWWspJMTiwVU7GSut4q5QMIChAAGgwwMDYyMDE4MTEwNzIiDA1aJzBbnqY5wopWbSrCAwzxYGDsLWzUYewuaCt40bf5c72sy%2BQA3YVH9udwevo%2BH4o4gPhQ5xYBEkIiMxXVF9GjGhSMtS%2B5N9uMnlF4XEcvHIqZnaAl9zZQ11RWn1uPaUG0BbqkhbJdPrM%2B4KsPup4qz5ggKX2ETVQ3Gg9yClLdKgchgcC2Ln7KERr%2BC7db7lOrxyBKVWEtVLCozGJUHicK81fmrPh7EaHcI7YhV%2FkXTtG89CefVbgQ3lRIQYFLU7vFm4aO66caxaRlL1rjPAcfVU97mAj94%2BSXklIXH7ANb6%2Bg8T4vfsmYsHIn%2BT20bKZlnfv%2FlrIsYx69Ss%2B7Z3%2FYBnjCdQi0w15K11qAMso4cuGmQsb696dJ2%2F25xfkUGhqXO2d3FXIDJ6xq%2FQpt41lD4c2w6bpCf2e98OHd9nHimIPWlAxC0VqKyLzgcSAieboCOa2JmL%2FaX19XdslY%2Bb4x8JgInCAOR5EpcRQPBuAQ9145C4zCuV85pzVrYfsvSsRQTRAYUwRerM3TMpiwfCXQqUfao5AnstQ%2FHifpRFjqkQi53cJ68DNIam%2BibvsTq9I2zAcSrpUmCienjlyvqisS8igB9M9lCULJF7IpuNfCcDCX%2FN%2FVBjqlATeRtSAoE54oIzCMw9kACEv%2BHWV%2Bkp1LkWrpuWJNujXbLOzQZWiJwXAZr%2F2czXc%2FSCAW91G1qmBGxYgsqSM5pzJMXolQqqSb1uaqK1jesJO3bc0lVBwniGl%2BNoD2ybvkbP%2BTBZKa7f7aZcwFQE25JQQyxaM6FMNpbOZe%2FAWa2n8ux54225r4lUmVZZz6h%2FYulpoNsTz7atOBSfeZByTddGyp4bPdJw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=910f47d4993d6c114e981cdc9a73483ca5ffe9ecc223e034aaa4ad043c46da10",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Spine",
+          "href": "https://www.ycombinator.com/companies/spine"
+        }
+      },
+      {
+        "user_id": 4028056,
+        "full_name": "Ece Cokar",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-Founder at Spine. Previously co-founded Feed (2021). Oxford-trained lawyer.",
+        "linkedin_url": "https://www.linkedin.com/in/ece-cokar-48319037/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/416353a147f113f6930149f3b714166576009e88.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAH7R3KLEJ%2F20260926%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260926T173638Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJHMEUCIQCXUE988aK5o0i%2BIsk0XDDlnXcvHw%2FXLior0PBlpmaakQIgSlnyDI4NvKj7j%2B5CysMJ5QpJafWWspJMTiwVU7GSut4q5QMIChAAGgwwMDYyMDE4MTEwNzIiDA1aJzBbnqY5wopWbSrCAwzxYGDsLWzUYewuaCt40bf5c72sy%2BQA3YVH9udwevo%2BH4o4gPhQ5xYBEkIiMxXVF9GjGhSMtS%2B5N9uMnlF4XEcvHIqZnaAl9zZQ11RWn1uPaUG0BbqkhbJdPrM%2B4KsPup4qz5ggKX2ETVQ3Gg9yClLdKgchgcC2Ln7KERr%2BC7db7lOrxyBKVWEtVLCozGJUHicK81fmrPh7EaHcI7YhV%2FkXTtG89CefVbgQ3lRIQYFLU7vFm4aO66caxaRlL1rjPAcfVU97mAj94%2BSXklIXH7ANb6%2Bg8T4vfsmYsHIn%2BT20bKZlnfv%2FlrIsYx69Ss%2B7Z3%2FYBnjCdQi0w15K11qAMso4cuGmQsb696dJ2%2F25xfkUGhqXO2d3FXIDJ6xq%2FQpt41lD4c2w6bpCf2e98OHd9nHimIPWlAxC0VqKyLzgcSAieboCOa2JmL%2FaX19XdslY%2Bb4x8JgInCAOR5EpcRQPBuAQ9145C4zCuV85pzVrYfsvSsRQTRAYUwRerM3TMpiwfCXQqUfao5AnstQ%2FHifpRFjqkQi53cJ68DNIam%2BibvsTq9I2zAcSrpUmCienjlyvqisS8igB9M9lCULJF7IpuNfCcDCX%2FN%2FVBjqlATeRtSAoE54oIzCMw9kACEv%2BHWV%2Bkp1LkWrpuWJNujXbLOzQZWiJwXAZr%2F2czXc%2FSCAW91G1qmBGxYgsqSM5pzJMXolQqqSb1uaqK1jesJO3bc0lVBwniGl%2BNoD2ybvkbP%2BTBZKa7f7aZcwFQE25JQQyxaM6FMNpbOZe%2FAWa2n8ux54225r4lUmVZZz6h%2FYulpoNsTz7atOBSfeZByTddGyp4bPdJw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3d9ed27f5e4009ee2ec2239ffe8c9c69c156a736aa0093dad5bafa8691aeec1f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Spine",
+          "href": "https://www.ycombinator.com/companies/spine"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-26T17:36:46.884Z",
+    "classified_at": "2026-09-26T17:36:46.884Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-04"
   },
   {
     "slug": "spine-ai",

@@ -1,88 +1,17 @@
 {
-  "checked_at": "2026-09-25T18:13:49.568Z",
+  "checked_at": "2026-09-26T17:37:26.899Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 1,
-  "new_count": 1,
-  "skipped_count": 929,
-  "ingest": {
-    "addedCompanies": 1,
-    "enrichedCompanies": 0
-  },
+  "checked_count": 0,
+  "new_count": 0,
+  "skipped_count": 930,
+  "ingest": null,
   "summary": {
     "conforming": 0,
-    "partial": 1,
+    "partial": 0,
     "non_conforming": 0,
     "would_have_predicted": 0,
-    "surprise": 1,
+    "surprise": 0,
     "predicted": 0
   },
-  "reviews": [
-    {
-      "launch": {
-        "launch_id": 116908,
-        "company_slug": "raycaster",
-        "company_name": "Raycaster",
-        "launch_url": "https://www.ycombinator.com/launches/UPc-biopharma-bench-0-1-evaluating-ai-on-autonomous-drug-development",
-        "created_at": "2026-09-25T17:16:44.511Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-09-25T18:13:48.615Z",
-        "launch_id": 116908,
-        "company_slug": "raycaster",
-        "taxonomy": {
-          "conformance_index": 53,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 2,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 55,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 89,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 71,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.training-data",
-            "phenotype_primary_id": "training-data-synthetic",
-            "cell_key": "BM-03::ai-infrastructure.training-data::training-data-synthetic",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Training & eval data generation",
-            "phenotype_label": "Training / eval data generation"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "unclassified_new_company"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
-        ]
-      }
-    }
-  ]
+  "reviews": []
 }

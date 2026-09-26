@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-25T18:13:50.134Z",
+  "generated_at": "2026-09-26T17:37:27.752Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1504,
+    "assignment_count": 1509,
     "mapped_verticals": 246,
-    "observed_cells": 487,
+    "observed_cells": 489,
     "total_verticals": 525,
-    "gap_candidates": 841
+    "gap_candidates": 839
   },
   "observed_cells": [
     {
@@ -247,6 +247,7 @@
         "lyon",
         "mangodesk",
         "markov",
+        "musicarena",
         "nitrode",
         "olam-labs",
         "ooak-data",
@@ -535,6 +536,31 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "logistics.supply-chain.ops",
+      "vertical_label": "Supply chain & procurement operations",
+      "sector_id": "transportation-logistics",
+      "companies": [
+        "applied-kinetics",
+        "bizmark",
+        "comena",
+        "haladir",
+        "kanava-ai",
+        "khotan",
+        "korso",
+        "lark-2",
+        "lumari",
+        "opera",
+        "pollinate",
+        "qomplement",
+        "salespatriot",
+        "spaceflow-technologies-inc",
+        "waybill",
+        "whitespace"
+      ]
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.ops.process-automation",
@@ -580,30 +606,6 @@
         "reditus-space",
         "viraj-aero",
         "wardstone"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "logistics.supply-chain.ops",
-      "vertical_label": "Supply chain & procurement operations",
-      "sector_id": "transportation-logistics",
-      "companies": [
-        "applied-kinetics",
-        "bizmark",
-        "comena",
-        "haladir",
-        "kanava-ai",
-        "khotan",
-        "korso",
-        "lark-2",
-        "lumari",
-        "pollinate",
-        "qomplement",
-        "salespatriot",
-        "spaceflow-technologies-inc",
-        "waybill",
-        "whitespace"
       ]
     },
     {
@@ -1106,6 +1108,21 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "devtools.security-scanning",
+      "vertical_label": "Static & dynamic application security testing",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "casco",
+        "corgea",
+        "openhack",
+        "parameter",
+        "parameter-fka-hex-security",
+        "veria-labs"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "enterprise.legal.contracts",
@@ -1206,20 +1223,6 @@
         "mentlio",
         "quotient-labs",
         "theta"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "devtools.security-scanning",
-      "vertical_label": "Static & dynamic application security testing",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "casco",
-        "corgea",
-        "parameter",
-        "parameter-fka-hex-security",
-        "veria-labs"
       ]
     },
     {
@@ -4162,6 +4165,16 @@
     {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
+      "vertical_id": "enterprise.hr.workforce",
+      "vertical_label": "HR & workforce management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "spine"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.legal.contracts",
       "vertical_label": "Contract lifecycle & legal ops",
       "sector_id": "enterprise-software",
@@ -5277,6 +5290,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "characterquilt"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "marketing.demand-gen",
+      "vertical_label": "Demand generation & lead scoring",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "pumpgtm"
       ]
     },
     {
