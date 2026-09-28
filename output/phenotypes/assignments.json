@@ -3148,7 +3148,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/alder",
     "batch": "Fall 2025",
     "one_liner": "AI employees for finance, starting with accounts receivable. ",
-    "description_combined": "AI employees for finance, starting with accounts receivable. \n\nWe’re building AI employees for finance teams. They handle repetitive work across email and accounting systems - processing documents, following up on open items, reconciling records, and resolving exceptions while people retain approval and oversight.",
+    "description_combined": "AI employees for finance, starting with accounts receivable. \n\nWe’re building AI employees for finance teams. They handle repetitive work across email and accounting systems - processing documents, following up on open items, reconciling records, and resolving exceptions while people retain approval and oversight.\n\nAlder finds out why your cash is stuck and gets it moving\n\nHey everyone, I'm Tejas, founder of Alder. 👋\n\nTL;DR: Alder is an AI employee for accounts receivable. It works your receivables like a great AR hire: it finds out why a payment is stuck, follows up with the right person, and gets it moving. Nothing goes to your customer without your OK. \n\nOur ask: if your team spends time chasing invoices and getting paid, send them to us. We'll work them for you, free for two weeks. Book 30 minutes at meetalder.com/demo or email founders@meetalder.com.\n\nInvoices don't get refused. They get stuck.\n\nIn the US, 43% of B2B invoice value is overdue at any given time, and another 5% gets written off. Most of it is stuck.\n\n\\- A PO number is missing, so the invoice can't be approved\n\n\\- The customer's AP portal rejected it, and the notice went to an inbox nobody",
     "industry_sub_vertical": "Accounts receivable automation via AI agents",
     "canonical_vertical_id": "enterprise.finance.order-to-cash",
     "vertical_id": "enterprise.finance.order-to-cash",
@@ -3219,7 +3219,13 @@
     ],
     "directory_synced_at": "2026-09-23T18:14:19.242Z",
     "classified_at": "2026-09-23T18:14:19.242Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 117263,
+    "launch_url": "https://www.ycombinator.com/launches/UVL-alder-the-ai-employee-that-gets-you-paid",
+    "launch_title": "Alder: the AI employee that gets you paid",
+    "launch_created_at": "2026-09-28T19:35:48.904Z",
+    "launch_tagline": "Alder finds out why your cash is stuck and gets it moving",
+    "launch_evaluated_at": "2026-09-28T20:23:18.707Z"
   },
   {
     "slug": "aleph-lab",
@@ -36966,6 +36972,86 @@
     }
   },
   {
+    "slug": "habu",
+    "name": "HABU",
+    "website": "https://buildhabu.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/habu",
+    "batch": "Fall 2026",
+    "one_liner": "Like Crosby, but for real estate development",
+    "description_combined": "Like Crosby, but for real estate development\n\nHABU is an AI-native real estate development firm that helps real estate investors deploy capital to build housing faster, at lower cost, and with higher yield. \r\n\r\nWe&#x27;re building an internal AI-native operating system that completes 90%+ of development tasks at 95% faster processing speeds while delivering the same outcomes customers expect externally: high yield, low risk projects. We&#x27;re selling the outcome, not the inputs to the outcome. \r\n\r\nDevelopers are service providers for white-collar investors: they find land, construct buildings, and operate and sell them for a profit. Our customers don&#x27;t care how the projects are sourced or managed, only that they are completed on time and produce the forecasted returns. \r\n\r\nWe use agentic workflows, geospatial analysis and mapping, and development-specific workflow automation to manage the end-to-end process. The result is 5x more projects per FTE compared to a non-AI developer, 20% faster project schedules, and 10-15% lower total project costs. \r\n\r\nWe&#x27;re *not* long term property owners, strictly the service provider (fee/merchant developer).\r\n\r\n$160B was deployed into multifamily in 2025 and $534B into commercial real estate overall. Developers naturally have high operating margins and we are building to be the most operationally and capital efficient developer in the country. \r\n\r\nStarting first with multifamily in Phoenix and then expanding nationally.  ",
+    "industry_sub_vertical": "AI-native multifamily & commercial real estate development operations (land acquisition, permitting, construction management, asset disposition)",
+    "canonical_vertical_id": "realestate.construction.field",
+    "vertical_id": "realestate.construction.field",
+    "vertical_label": "Construction field & project operations",
+    "vertical_sector_id": "real-estate-construction",
+    "phenotype_primary_id": "ai-native-service-provider",
+    "phenotype_primary_label": "AI-Native Service Provider (Outcome-Based)",
+    "phenotype_family": "services",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agentic_workflow_automation",
+      "geospatial_analysis",
+      "project_orchestration",
+      "risk_optimization"
+    ],
+    "what_they_sell": "End-to-end real estate development services (land acquisition, permitting, construction management, asset disposition) sold on outcome basis (fixed fee or profit-share per project). Customers (institutional investors, REITs, family offices) pay for completed projects with forecasted returns, not for software or labor inputs.",
+    "ai_play": "Internal AI-native operating system automates 90%+ of development workflows (site analysis, permitting workflows, contractor coordination, cost estimation, timeline optimization, risk assessment) using agentic AI, geospatial mapping, and domain-specific automation. AI enables 5x project throughput per FTE, 20% faster schedules, and 10-15% lower costs — allowing HABU to deliver superior returns while maintaining developer-grade margins.",
+    "who_pays": "Institutional real estate investors, REITs, family offices, and capital allocators seeking to deploy multifamily and commercial real estate capital with lower execution risk and faster time-to-return.",
+    "confidence": 0.92,
+    "rationale": "HABU is a service provider (not a software vendor) that takes contractual and financial responsibility for end-to-end real estate development execution. They sell outcomes (completed projects, forecasted returns) not software seats. AI is the internal operational lever enabling them to execute at software-like margins and scale. This is the canonical fit for ai-native-service-provider: outcome-based revenue, autonomous agent execution, and replacement of traditional labor-intensive service delivery. Secondary phenotype (vertical-workflow-automation-ai) captures the agentic workflow automation layer, but primary is service provider because HABU IS the developer taking risk and delivering the service, not selling tools to developers.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Real Estate and Construction"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Real Estate",
+      "Housing"
+    ],
+    "business_models": [
+      "BM-04"
+    ],
+    "team_size": 2,
+    "location": "Phoenix, AZ, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1280882,
+        "full_name": "Bryan Tharalson",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "CEO/Cofounder at HABU, building AI-native real estate development. Previously a multifamily developer managing $80M+ of build-to-rent and commercial. Top-ranked grad in the Master&#x27;s of Real Estate Development program from ASU. Before that, long career in sales & GTM leadership, ee#5 and sales hire#1 at Mutiny (YC &#x27;18). Double undergrad of economics and sustainability. Started first company at age 23 doing environment remediation (redeveloping brownfield sites).  ",
+        "linkedin_url": "https://www.linkedin.com/in/bryantharalson/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8f526c2f44aff332100f7004be408e66792213b9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAP2FJF6JI%2F20260928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260928T202211Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHUaCXVzLXdlc3QtMiJHMEUCIQCofUrH7x%2F601UPlStj5asurehn%2FE%2B3QuBIvtt1fG9vsQIgKErKcPk8uISCyQQ4gNcGMilmv2nAajtgnGf2tmM%2FRJgq5QMIPRAAGgwwMDYyMDE4MTEwNzIiDCXTrGfnhMN8pKX3birCA9x9AJLlj7mqi50cEiPwOqOo6naksPdXQIbEiYVRrItdN4krn4vsV%2Bn4zz7%2BqOZvVDyk9ITbe7DIbnHHCqnxyvkG3nedGcUd6Y%2BvUklVohLuaE9hoBx%2BqFK2ClN7A%2FplRDFD%2FrEReEdOgiv8%2FFzFGHS8xfbDDsABENR2uV0QK1TVzz0N4suZD238CwPopWzAfezmJLAfEptoJdrOfy%2BnmOn7KsOOyVyaUUrdtfhbNUoFrHC9VbmS0vG0ZIRxieKKLEcYCCc5YuI2s%2FqbLBs5Etub4MwIv1jMOYDgivGpxRWjKX0zSLRf0Z3iDHOUrYxgZXYecIt5b4EMXTQVChulHhhffbq4uY%2FzugGYqMfOoDJq3DeiSdqwTKjrVw6G4WHxcwvt2C0y41u8MJ%2FwsUt0f5uOJCjxWi0NtFMaFcrb%2BBbDhzy4%2FHFVeaGW1v7Q6ni20gur8SP%2Fld9yzazK1D5hnHyGkffP%2BLLyAZETmIUBS8ApoWmgbldtOgEg6JdNwoLc8oMrQ%2FN9Bow8yZHNH5WA4aXyGrlPKF5QuQBKLv7KUBtfd8tTZwZAixQvTn0Je%2BYUwVzhxgeJWuuDMx9fBVQxohshFDDsl%2BvVBjqlAZO%2FRwhqSlEcFbeu5nj%2FQRK0%2FRMUsbAy8AkqVExyta3teEXBLRYLLYMGsh084SA5oLgndzXLrEIJBfN24ZdKCiIgsUJRMgrSyGOnZIkQ0u8j%2F8GPtt2IGi65LcG91aojIDMXgO4aqLbYAi%2F54cw21nMzMq%2BNS2YDytB8NUy6AA1Ps%2F3od7v2fIxdKaxE01H53hR%2BXm0Un569XgCKQlqgZhbIp0Tn0g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=8112a6892927c1f54e21724a003af4cb3a871a1afa82269c0473d401929f9e65",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "HABU",
+          "href": "https://www.ycombinator.com/companies/habu"
+        }
+      },
+      {
+        "user_id": 680227,
+        "full_name": "Junhao Chen",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "CTO/Cofounder at HABU, building AI-native real estate development. Previously at Meta, where I led an internal AI Ops Solutions team working across global operations, product, and policy, building systems that improved how Meta sourced, measured, and scaled data for AI products. Before that, worked in technology consulting at Accenture and managed aviation logistics and operations in the U.S. Navy. Immigrant, Navy veteran, and first-generation college graduate.",
+        "linkedin_url": "https://www.linkedin.com/in/junhchen",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/31bca6d5626d235ffeffe6da227e18cc6d89dec4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAP2FJF6JI%2F20260928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260928T202211Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHUaCXVzLXdlc3QtMiJHMEUCIQCofUrH7x%2F601UPlStj5asurehn%2FE%2B3QuBIvtt1fG9vsQIgKErKcPk8uISCyQQ4gNcGMilmv2nAajtgnGf2tmM%2FRJgq5QMIPRAAGgwwMDYyMDE4MTEwNzIiDCXTrGfnhMN8pKX3birCA9x9AJLlj7mqi50cEiPwOqOo6naksPdXQIbEiYVRrItdN4krn4vsV%2Bn4zz7%2BqOZvVDyk9ITbe7DIbnHHCqnxyvkG3nedGcUd6Y%2BvUklVohLuaE9hoBx%2BqFK2ClN7A%2FplRDFD%2FrEReEdOgiv8%2FFzFGHS8xfbDDsABENR2uV0QK1TVzz0N4suZD238CwPopWzAfezmJLAfEptoJdrOfy%2BnmOn7KsOOyVyaUUrdtfhbNUoFrHC9VbmS0vG0ZIRxieKKLEcYCCc5YuI2s%2FqbLBs5Etub4MwIv1jMOYDgivGpxRWjKX0zSLRf0Z3iDHOUrYxgZXYecIt5b4EMXTQVChulHhhffbq4uY%2FzugGYqMfOoDJq3DeiSdqwTKjrVw6G4WHxcwvt2C0y41u8MJ%2FwsUt0f5uOJCjxWi0NtFMaFcrb%2BBbDhzy4%2FHFVeaGW1v7Q6ni20gur8SP%2Fld9yzazK1D5hnHyGkffP%2BLLyAZETmIUBS8ApoWmgbldtOgEg6JdNwoLc8oMrQ%2FN9Bow8yZHNH5WA4aXyGrlPKF5QuQBKLv7KUBtfd8tTZwZAixQvTn0Je%2BYUwVzhxgeJWuuDMx9fBVQxohshFDDsl%2BvVBjqlAZO%2FRwhqSlEcFbeu5nj%2FQRK0%2FRMUsbAy8AkqVExyta3teEXBLRYLLYMGsh084SA5oLgndzXLrEIJBfN24ZdKCiIgsUJRMgrSyGOnZIkQ0u8j%2F8GPtt2IGi65LcG91aojIDMXgO4aqLbYAi%2F54cw21nMzMq%2BNS2YDytB8NUy6AA1Ps%2F3od7v2fIxdKaxE01H53hR%2BXm0Un569XgCKQlqgZhbIp0Tn0g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=64452dc9c4ed0b9aa5267f746983f2acfe83cebc4c0b48fc88c2cde7515bf022",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "HABU",
+          "href": "https://www.ycombinator.com/companies/habu"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-28T20:22:21.914Z",
+    "classified_at": "2026-09-28T20:22:21.914Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "haladir",
     "name": "Haladir",
     "website": "https://www.haladir.com/",
@@ -42500,7 +42586,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/invertix",
     "batch": "Fall 2026",
     "one_liner": "Energy Superintelligence, AI that runs energy operations.",
-    "description_combined": "Energy Superintelligence, AI that runs energy operations.\n\nThe next constraint is not intelligence, it is the energy cost of running it.\r\nWe deploy custom AI models inside energy companies that ingest SCADA data, work orders, and grid topology,  operational data no public model has seen, grounded in physics-informed neural networks and differentiable grid simulators. \r\nThis creates a flywheel: more operator data → better process understanding → more efficient operations → cheaper energy → cheaper AI → more deployment → more data. \r\n\r\nhttps://www.youtube.com/watch?v=0uDH6pMn5OE\r\n\r\nAI compute doubles every 2.2 years. Data center demand grows from 415 to 945 TWh by 2030. Without near-zero energy cost, AI remains limited by human infrastructure. We are the layer that runs AI at zero energy cost.\r\nEnergy is a $10 trillion market. The infrastructure layer doesn&#x27;t exist yet. \r\nWe are building it.",
+    "description_combined": "Energy Superintelligence, AI that runs energy operations.\n\nThe next constraint is not intelligence, it is the energy cost of running it.\r\nWe deploy custom AI models inside energy companies that ingest SCADA data, work orders, and grid topology,  operational data no public model has seen, grounded in physics-informed neural networks and differentiable grid simulators. \r\nThis creates a flywheel: more operator data → better process understanding → more efficient operations → cheaper energy → cheaper AI → more deployment → more data. \r\n\r\nhttps://www.youtube.com/watch?v=0uDH6pMn5OE\r\n\r\nAI compute doubles every 2.2 years. Data center demand grows from 415 to 945 TWh by 2030. Without near-zero energy cost, AI remains limited by human infrastructure. We are the layer that runs AI at zero energy cost.\r\nEnergy is a $10 trillion market. The infrastructure layer doesn&#x27;t exist yet. \r\nWe are building it.\n\nBuilding AI agents to operate the world's energy infrastructure and data centers\n\nHey YC, we’re Joseph and Kaan.\n\nWe’re building Energy Superintelligence: swarms of coordinated AI agents to operate energy infrastructure and data centers, carrying out work across entire organizations.\n\nEnergy is one of the bottlenecks to scaling intelligence. Our vision is agents coordinating humans and other agents to operate, maintain, and build energy infrastructure worldwide, with applications extending to data centers.\n\n\n\nHow we got here\n\nWe reached out to roughly 5,000 people in energy and had over 400 conversations. The same problem kept appearing: people were manually connecting fragmented data, investigating faults, and coordinating work across departments.\n\nWhat we’re building\n\nOur engineers work inside energy companies to map their data, workflows, responsibilities, and operat",
     "industry_sub_vertical": "Grid operations optimization & real-time SCADA-driven dispatch",
     "canonical_vertical_id": "energy.power.grid",
     "vertical_id": "energy.power.grid",
@@ -42572,7 +42658,13 @@
     ],
     "directory_synced_at": "2026-09-18T17:28:42.871Z",
     "classified_at": "2026-09-18T17:28:42.871Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 116072,
+    "launch_url": "https://www.ycombinator.com/launches/UC8-invertix-energy-superintelligence",
+    "launch_title": "Invertix: Energy Superintelligence",
+    "launch_created_at": "2026-09-28T07:00:00.116Z",
+    "launch_tagline": "Building AI agents to operate the world's energy infrastructure and data centers",
+    "launch_evaluated_at": "2026-09-28T20:23:18.708Z"
   },
   {
     "slug": "inviscid-ai",
@@ -52625,7 +52717,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/masterpiece",
     "batch": "Spring 2026",
     "one_liner": "Working capital for data companies training frontier AI",
-    "description_combined": "Working capital for data companies training frontier AI\n\nWe believe AI will be one of humanity’s next great masterpieces. Building it will require financial infrastructure as ambitious as the companies creating it. We&#x27;re founders backed by Y Combinator building the financial rails underpinning the AI data economy.\r\n\r\nMasterpiece provides short term working capital to data vendors that sell training data, evaluation work, and reinforcement learning environments to frontier AI labs.\r\n\r\nA major financing gap exists in this market. Data vendors often need to pay contributors and fund operations before a lab has completed QA, accepted the work, and paid the invoice. This creates a 30 to 90 day cash gap between when vendors incur costs and when they receive payment. Legacy invoice lenders have little visibility into how to underwrite these assets.\r\n\r\nMasterpiece closes that gap by advancing capital against high quality lab contracts and invoices. Vendors can use the capital to scale delivery, pay contributors, and fund growth, then repay masterpiece when the lab payment arrives.",
+    "description_combined": "Working capital for data companies training frontier AI\n\nWe believe AI will be one of humanity’s next great masterpieces. Building it will require financial infrastructure as ambitious as the companies creating it. We&#x27;re founders backed by Y Combinator building the financial rails underpinning the AI data economy.\r\n\r\nMasterpiece provides short term working capital to data vendors that sell training data, evaluation work, and reinforcement learning environments to frontier AI labs.\r\n\r\nA major financing gap exists in this market. Data vendors often need to pay contributors and fund operations before a lab has completed QA, accepted the work, and paid the invoice. This creates a 30 to 90 day cash gap between when vendors incur costs and when they receive payment. Legacy invoice lenders have little visibility into how to underwrite these assets.\r\n\r\nMasterpiece closes that gap by advancing capital against high quality lab contracts and invoices. Vendors can use the capital to scale delivery, pay contributors, and fund growth, then repay masterpiece when the lab payment arrives.\n\nWorking capital for data companies training frontier AI\n\nTLDR: Masterpiece finances the AI data economy. We provide short-duration, invoice-backed loans to AI data vendors while their work is in QA review and they wait through Net 30–90 payment terms. We advance capital against expected payments from frontier labs, giving vendors the working capital to keep operating and producing data for the frontier labs.\n\nLaunch Video: \n\nProblem\n\nFor AI data vendors, financing frontier AI demand is broken:\n\n* Vendors front the costs: They pay contributors and fund delivery before labs finish QA, accept the work, and pay.\n* Cash is locked up for 30–90 days: QA reviews and payment terms create a major working-capital gap just as vendors need cash to take on more work.\n* Legacy lenders don’t understand AI data: Traditional invoice lenders lack the context to un",
     "industry_sub_vertical": "AI data vendor working capital & invoice financing",
     "canonical_vertical_id": "fintech.lending.business",
     "vertical_id": "fintech.lending.business",
@@ -52696,7 +52788,13 @@
     ],
     "directory_synced_at": "2026-09-23T18:14:36.783Z",
     "classified_at": "2026-09-23T18:14:36.783Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 116872,
+    "launch_url": "https://www.ycombinator.com/launches/UP2-masterpiece-invoice-backed-loans-for-data-companies-selling-to-the-frontier-labs",
+    "launch_title": "Masterpiece: Invoice-backed loans for data companies selling to the frontier labs",
+    "launch_created_at": "2026-09-28T14:56:34.449Z",
+    "launch_tagline": "Working capital for data companies training frontier AI",
+    "launch_evaluated_at": "2026-09-28T20:23:18.707Z"
   },
   {
     "slug": "mastra",
@@ -55927,6 +56025,51 @@
     "launch_evaluated_at": "2026-08-04T16:11:35.017Z"
   },
   {
+    "slug": "momentic",
+    "name": "Momentic",
+    "website": "https://momentic.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/momentic",
+    "batch": "Winter 2024",
+    "one_liner": "Point Mo at your app. Get back the bug report, with repro steps, logs, and a video replay of each one.",
+    "description_combined": "Point Mo at your app. Get back the bug report, with repro steps, logs, and a video replay of each one.\n\nTL;DR: Mo is an AI QA engineer. Give it any app (web, iOS, or Android) and a goal, and it launches hundreds of agents that bug-bash every nook and cranny of your app the way your team would before a release. You get one report: what was tested, what failed, repro steps, logs, and a video replay of each bug. We’re giving every sign up $250 in free credits at momentic.ai.\n\nLaunch video: \n\nHey YC, we're Wei-Wei and Jeff. We launched Momentic here in YC W24 as AI-powered end-to-end testing, and teams like Notion, Whatnot, and Retool run their test suites on it today. Today we're launching Mo.\n\nThe problem\n\nClaude Code, Cursor, and Devin made writing code super easy. Testing is still the bottleneck. Over the past two years, our customers kept telling us: \"I don't want another script to write and maintain\" and \"Now I'm paying double, for QA and for a testing tool we have to use.\" No one asked for another testing framework to learn. All they wanted was no bugs.\n\nHow Mo works\n\n1. Point Mo at your app and tell it what to test, in plain English: \"bug bash the checkout flow.\"\n2. Mo launches hundreds of agents in parallel on our hosted browsers and emulators/simulators. They click through the app just like a QA engineer would and cover every edge case, every nook and cranny.\n3. Every bug report has repro steps, logs, screenshots, and a video replay. File a ticket or hand it to your coding agent to fix.\n\n\n\nHere's one from this week. Mo hit Search on GitHub's Pull requests page without tou",
+    "industry_sub_vertical": "AI-powered end-to-end testing automation for web and mobile applications",
+    "canonical_vertical_id": "ai-infrastructure.qa-testing",
+    "vertical_id": "ai-infrastructure.qa-testing",
+    "vertical_label": "Software QA & test automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent Observability, Evals, or Safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "automated_testing",
+      "bug_detection",
+      "observability_generation"
+    ],
+    "what_they_sell": "Mo: an AI QA agent platform that autonomously tests web, iOS, and Android applications by launching hundreds of parallel agents to systematically explore app flows, identify bugs, and generate detailed bug reports with repro steps, logs, screenshots, and video replays.",
+    "ai_play": "Replaces manual QA engineering and test script maintenance with autonomous agentic testing. Mo agents behave like human QA engineers—clicking, exploring edge cases, and discovering bugs—without requiring teams to write or maintain test code. Generates comprehensive observability (video, logs, repro steps) for each bug found.",
+    "who_pays": "Engineering and QA teams at software companies (web, mobile app developers); customers include Notion, Whatnow, Retool.",
+    "confidence": 0.75,
+    "rationale": "Momentic is primarily an agent-observability-evals product: it deploys autonomous agents to systematically test applications, detect bugs, and generate detailed observability (logs, video, repro steps) for quality assurance. Secondary phenotype is vertical-agentic-workflow-saas because Mo is an end-user-facing SaaS product that deploys AI agents to replace/augment the QA engineer job function. The core value is autonomous testing + comprehensive bug observability, not just monitoring or safety—agents actively explore and discover issues. Confidence is 0.75 (not higher) because the product sits at the intersection of testing automation and observability; it could also be framed as a specialized vertical workflow agent for QA, but agent-observability-evals is the stronger fit given the emphasis on bug detection, tracing, and detailed observability generation.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "launch_id": 117199,
+    "launch_url": "https://www.ycombinator.com/launches/UUJ-momentic-mo-the-ai-qa-engineer-that-finds-bugs-before-your-users-do",
+    "launch_title": "Momentic: Mo, the AI QA engineer that finds bugs before your users do",
+    "launch_created_at": "2026-09-28T16:00:11.921Z",
+    "launch_tagline": "Point Mo at your app. Get back the bug report, with repro steps, logs, and a video replay of each one.",
+    "launch_ingested_at": "2026-09-28T20:23:18.707Z",
+    "classified_at": "2026-09-28T20:23:18.707Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "monarcha",
     "name": "Monarcha",
     "website": "https://monarcha.ai",
@@ -57403,7 +57546,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/musicarena",
     "batch": "Summer 2026",
     "one_liner": "The crowdsourced benchmark for AI-generated music and music production",
-    "description_combined": "The crowdsourced benchmark for AI-generated music and music production\n\nhttps://musicarena.io/",
+    "description_combined": "The crowdsourced benchmark for AI-generated music and music production\n\nhttps://musicarena.io/\n\n The crowdsourced benchmark for AI systems that make music\n\nPaucis verbis:\n\nThe idea is simple: give two systems the same music task, listen to what they make, and vote for the better result.\n\nWe’re starting with AI agents producing music inside a DAW.\n\nGive two agents the same task, watch them work, listen to the finished tracks, and vote for the winner.\n\n\n\nWhy start with LLMs?\n\nMost existing AI music benchmarks focus on models that generate audio end-to-end.\n\nWe think there’s another category that’s going to become increasingly important: general-purpose models that can hear music, reason about it, and operate the same creative tools humans use.\n\nFrontier models are already becoming much better at computer use, and we expect audio to increasingly become a native modality as well.\n\nToday, these agents are largely operating through tool calls/compu",
     "industry_sub_vertical": "Music AI model evaluation & benchmarking datasets",
     "canonical_vertical_id": "ai-infrastructure.training-data",
     "vertical_id": "ai-infrastructure.training-data",
@@ -57459,7 +57602,13 @@
     ],
     "directory_synced_at": "2026-09-26T17:36:29.362Z",
     "classified_at": "2026-09-26T17:36:29.362Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 117104,
+    "launch_url": "https://www.ycombinator.com/launches/USm-musicarena-the-arena-for-ai-music-making",
+    "launch_title": "🎵 MusicArena - the arena for AI music-making 🎵",
+    "launch_created_at": "2026-09-28T14:55:16.503Z",
+    "launch_tagline": " The crowdsourced benchmark for AI systems that make music",
+    "launch_evaluated_at": "2026-09-28T20:23:18.708Z"
   },
   {
     "slug": "mutiny",
@@ -84612,7 +84761,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/spine",
     "batch": "Fall 2026",
     "one_liner": "We run benefits, payroll & compliance for startups, for free",
-    "description_combined": "We run benefits, payroll & compliance for startups, for free\n\nSpine runs benefits, payroll, and compliance for startups for free.\r\n\r\nWe do the work by giving teams dedicated senior HR and benefits specialists who operate on top of their existing HRIS (Rippling, Deel, Gusto, ADP). We help companies find better-fit, more cost-effective health plans - reducing healthcare costs by around 10% on average - while running payroll, handling compliance, managing open enrollment, and supporting employees directly in Slack.\r\n\r\n30+ startups already use Spine to lower healthcare costs and take hours of back-office work off their teams. \r\nLearn more at joinspine.co.",
+    "description_combined": "We run benefits, payroll & compliance for startups, for free\n\nSpine runs benefits, payroll, and compliance for startups for free.\r\n\r\nWe do the work by giving teams dedicated senior HR and benefits specialists who operate on top of their existing HRIS (Rippling, Deel, Gusto, ADP). We help companies find better-fit, more cost-effective health plans - reducing healthcare costs by around 10% on average - while running payroll, handling compliance, managing open enrollment, and supporting employees directly in Slack.\r\n\r\n30+ startups already use Spine to lower healthcare costs and take hours of back-office work off their teams. \r\nLearn more at joinspine.co.\n\nBenefits, people ops, and compliance. Off your plate.\n\nHey everyone 👋 We’re Onur and Ece, founders of Spine (F26). We previously founded companies together with over $1B in value, and Spine is the company we wish we’d had while building them.\n\nWe run benefits, people ops, and compliance for startups for free.\n\nInstead of giving founders another piece of software to manage, we give every company dedicated senior HR and benefits specialists who actually do the work, on top of the HRIS they already use — Rippling, Deel, Gusto, ADP, and others.\n\n### TL;DR\n\n* Dedicated senior HR + benefits specialists working directly with your team in Slack\n* Works on top of the HRIS you already use \n* We implement better-fit, more cost-effective health plans and have reduced healthcare costs by around 15% on average\n* We run open enrollment, benefits administrat",
     "industry_sub_vertical": "Benefits administration & payroll operations for startups",
     "canonical_vertical_id": "enterprise.hr.workforce",
     "vertical_id": "enterprise.hr.workforce",
@@ -84684,7 +84833,13 @@
     ],
     "directory_synced_at": "2026-09-26T17:36:46.884Z",
     "classified_at": "2026-09-26T17:36:46.884Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 117007,
+    "launch_url": "https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free",
+    "launch_title": "Spine: We run HR backoffice & benefits for startups, for free",
+    "launch_created_at": "2026-09-28T20:00:00.217Z",
+    "launch_tagline": "Benefits, people ops, and compliance. Off your plate.",
+    "launch_evaluated_at": "2026-09-28T20:23:18.706Z"
   },
   {
     "slug": "spine-ai",
@@ -92679,7 +92834,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/traceforce",
     "batch": "Summer 2026",
     "one_liner": "Securing AI native apps directly on devices",
-    "description_combined": "Securing AI native apps directly on devices\n\nAI apps such as ChatGPT and Claude have become part of everyone&#x27;s daily workflow, but they introduce new security risks that traditional security tools weren&#x27;t built to handle. Security teams at companies from startups to Fortune 500s, are struggling to keep up.\r\n\r\nTraceforce gives a company’s security team visibility of how AI apps are being used across company’s devices, and the ability to detect and prevent security breaches and unsafe actions as early as possible.\n\nCompany-wide security monitoring for AI apps\n\n# \\*\\*\\*\\*\n\nTL;DR: AI agents are quietly pulling secrets off your employees' laptops — and your security gateway can't see it. Traceforce installs in under 5 minutes and gives you a full inventory of every AI app, MCP, and skill running on every device, then lets you block the dangerous stuff in real time. Built by the ex-Clumio engineering team. Already deployed at a 500+ person company and in PoCs with Fortune 500s. Try it free at www.traceforce.ai.\n\nThe incident that started this\nAt our last company, an AI coding agent running on a developer's laptop scraped what looked like database credentials and pushed them straight into a public GitHub repo. It took us _weeks_ to investigate, rotate credentials, and clean up the fallout. We got lucky — they were dev-environment creds, so no custome",
+    "description_combined": "Securing AI native apps directly on devices\n\nAI apps such as ChatGPT and Claude have become part of everyone&#x27;s daily workflow, but they introduce new security risks that traditional security tools weren&#x27;t built to handle. Security teams at companies from startups to Fortune 500s, are struggling to keep up.\r\n\r\nTraceforce gives a company’s security team visibility of how AI apps are being used across company’s devices, and the ability to detect and prevent security breaches and unsafe actions as early as possible.\n\nCompany-wide security monitoring for AI apps\n\n# \\*\\*\\*\\*\n\nTL;DR: AI agents are quietly pulling secrets off your employees' laptops — and your security gateway can't see it. Traceforce installs in under 5 minutes and gives you a full inventory of every AI app, MCP, and skill running on every device, then lets you block the dangerous stuff in real time. Built by the ex-Clumio engineering team. Already deployed at a 500+ person company and in PoCs with Fortune 500s. Try it free at www.traceforce.ai.\n\nThe incident that started this\nAt our last company, an AI coding agent running on a developer's laptop scraped what looked like database credentials and pushed them straight into a public GitHub repo. It took us _weeks_ to investigate, rotate credentials, and clean up the fallout. We got lucky — they were dev-environment creds, so no custome\n\nKnow where every AI token goes\n\nTL;DR: TraceGraph turns every AI interaction in your company into a fully queryable graph linking users, apps, models, MCPs, and tokens. You can ask questions in plain English, slice the data any way you want, and build agentic workflows on top of it out of the box. Try it free at traceforce.ai.\n\n👋 Hi YC, we're Xia and Varun\n\nWe're the founders of Traceforce (S26), and we're building security and visibility for AI agents running on company devices. We previously built one of the world’s most scalable cyber-resillience systems at Clumio.\n\n🔥 The problem\n\nAI usage is exploding, but the data about it is stuck in billing totals and static dashboards. When you want to know which team's agents are burning tokens, which MCPs get called most, or who is using AI in ways that don't fit policy, you ",
     "industry_sub_vertical": "AI application usage monitoring and endpoint data loss prevention",
     "canonical_vertical_id": "security.endpoint-protection",
     "vertical_id": "security.endpoint-protection",
@@ -92754,12 +92909,12 @@
     "directory_synced_at": "2026-07-30T16:07:01.448Z",
     "classified_at": "2026-07-30T16:07:01.448Z",
     "proposed_phenotype": null,
-    "launch_id": 107460,
-    "launch_url": "https://www.ycombinator.com/launches/RxE-traceforce-catch-risky-agent-actions-your-security-gateway-will-never-spot",
-    "launch_title": "Traceforce — Catch risky agent actions your security gateway will never spot",
-    "launch_created_at": "2026-07-28T16:50:42.184Z",
-    "launch_tagline": "Company-wide security monitoring for AI apps",
-    "launch_evaluated_at": "2026-07-30T16:56:29.909Z",
+    "launch_id": 117100,
+    "launch_url": "https://www.ycombinator.com/launches/USi-traceforce-tracegraph-ask-anything-about-your-company-s-ai-usage",
+    "launch_title": "Traceforce TraceGraph – Ask anything about your company's AI usage",
+    "launch_created_at": "2026-09-28T14:55:58.682Z",
+    "launch_tagline": "Know where every AI token goes",
+    "launch_evaluated_at": "2026-09-28T20:23:18.708Z",
     "primary_bm": "BM-03",
     "primary_bm_rationale": "Traceforce is developer/security infrastructure that enables other companies to monitor and control AI applications on their endpoints, selling to security teams as a foundational tool rather than as a vertical-specific workflow solution.",
     "primary_bm_assigned_at": "2026-07-30T19:00:10.192Z",
@@ -94814,6 +94969,72 @@
     "launch_tagline": "Customer service that runs itself, so you can keep building.",
     "launch_ingested_at": "2026-09-10T17:31:34.059Z",
     "classified_at": "2026-09-10T17:31:34.059Z",
+    "proposed_phenotype": null
+  },
+  {
+    "slug": "ufoai",
+    "name": "UFO.ai",
+    "website": "https://ufo.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/ufoai",
+    "batch": "Fall 2026",
+    "one_liner": "Next-generation agent operating system",
+    "description_combined": "Next-generation agent operating system\n\nUFO is the operating platform for your business built by the creators of Github Copilot and Perplexity Computer. \r\n\r\nUFO learns your company, goals, tools, and workflows. UFO builds what your team needs to keep work moving.",
+    "industry_sub_vertical": "Enterprise agent operating system for cross-functional workflow automation",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime Infrastructure / Operating System",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_orchestration",
+      "workflow_learning",
+      "multi_tool_integration",
+      "autonomous_task_execution"
+    ],
+    "what_they_sell": "A horizontal agent operating system that learns company workflows, integrates with existing tools, and autonomously executes business processes across departments. Positioned as a universal agent runtime that adapts to any company's unique workflows and tool stack.",
+    "ai_play": "AI learns organizational context (goals, tools, workflows, team structure) and builds autonomous agents that execute work without human intervention. The system continuously adapts to company needs and generates new agent capabilities on-demand. Core differentiation is learning-based workflow adaptation rather than pre-built vertical templates.",
+    "who_pays": "Enterprise operations teams, CIOs, and department heads seeking to automate cross-functional workflows without custom integration or vertical lock-in.",
+    "confidence": 0.72,
+    "rationale": "UFO positions itself as a horizontal 'operating system' for agents — a runtime platform that learns workflows and orchestrates autonomous execution across any company's tools. This maps primarily to agent-runtime-infra (orchestration, tool routing, workflow execution) with secondary characteristics of vertical-workflow-automation-ai (learns and automates specific workflows). The founding team (Github Copilot, Perplexity) signals deep AI/agent expertise. However, the description lacks specificity on whether they target horizontal productivity (like copilots) or vertical automation. The 'learns your company' language suggests adaptive workflow automation rather than a pure infrastructure layer, which elevates secondary phenotype fit. Confidence is moderate (0.72) because the positioning is intentionally broad and horizontal — it could evolve into vertical SaaS, horizontal copilot, or pure infrastructure depending on go-to-market focus.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "SaaS",
+      "B2B",
+      "Automation",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA; Remote",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3809162,
+        "full_name": "Marshall Kiely",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "ufo.ai previously: Perplexity finance lead, quant finance, founding AI eng Notable Health, ML @ Mixpanel. Princeton PhD comp bio – first author Nature and Science papers.",
+        "linkedin_url": "https://www.linkedin.com/in/marshall-ai",
+        "twitter_url": "https://x.com/flyingobjectai",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f218102f85d8ffd4cce6ca5b165387dc4030481d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAA4FYP4L5%2F20260928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260928T202232Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHUaCXVzLXdlc3QtMiJIMEYCIQD9jAQl3QdEyC5B86b1oaVJn15N%2BsbT3w3ywIAuJreK2gIhAPMyUHS%2Fbmos0WnqXn08iahiPhur4Pta3f338RibMrzjKuUDCD0QABoMMDA2MjAxODExMDcyIgxm0t2lDwXlK2tm9iEqwgMv%2FK8kVvyIBskX59xeLlc%2B064sLj%2BBKieJmcxAY3dk2%2FrCVRoxkhvwfc05APs2%2FtlcNyePb0bFSSFbNfLevDCOrrasddA3Vu3RqFqjeudbkA6%2F8vmA0%2BHVs6bubJ6n27l0Rklvc7BLwkCUAhPO6HQffTxcrDmnhJp1Hxp67HRRXeGoyyJwnmbFkQb%2BxKtG9%2B0mWqNQ7OVeU1WhoKgXYMYjkmWBL%2FknRBnRQ5Mh%2BkpRIP34GzHHEcWCRovHVhZK%2Fl6CnHYZ0MZxKx1JBMVXFTQ%2FCyKPHsC2FOhs2Z5swwkKSA4jo2sy8DA4sJZTQdEuFNbd5x3RtZLJNJ3Mn1yQh3Rr6z4LYOcYXwgtWoSzZI3xrZ1H4IH%2BdTGtMoWnP2zlDu4%2FE29yTu%2FLgTnvGA%2FgG2DrfM45tpqjgG%2BLxjVQ%2BrKi8KNJpwzNK96MGs8p4AHw0%2F5vJUXvQKOf72MBjNn7X9kMcrjnilPYSTPIiAj79J72YWvXLk1eDRYuPZRSAEP3N7FEAcrlz7%2BL0LKrcc0q5%2B0t%2FN7nJ9qS22MgBCDg%2FABzsZu%2FaCiLWtwP33SIaDUUHJQr9t2dvBDpA0frB%2FfnFk1FUGUw65fr1QY6pAEK%2BgY5iWrbzDY6cFkMd2CN7YE6lzXgMWUKOUe2Gtg7QGT%2B3FCcr%2BTb6lKaK3qCO6fsYjbWV%2Buao7bBm%2BjX4MLOdlsdQZ7Un6nYW%2FbvCd9rs8CbWJx1Jhqe%2BAlco8Hj8b7THPSHp47gdCiWFegodqaG2qJHMpFGDbmBR1vSAkpLe3LhEcH%2BjsQzq6X9Z7eFw68iaP5L7Kzrp5Spxy9%2FAblxmP%2BVOA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3a989e0ba8130fab27f61ef64d9d3be2d88695ddbe3da31a96e12f3f8fd07003",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "UFO.ai",
+          "href": "https://www.ycombinator.com/companies/ufoai"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-28T20:22:41.563Z",
+    "classified_at": "2026-09-28T20:22:41.563Z",
     "proposed_phenotype": null
   },
   {
@@ -97938,6 +98159,104 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "vexo",
+    "name": "Vexo",
+    "website": "https://www.vexoai.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/vexo",
+    "batch": "Fall 2026",
+    "one_liner": "An AI bracelet that remembers your day and acts before you ask.",
+    "description_combined": "An AI bracelet that remembers your day and acts before you ask.\n\nEvery AI today waits for a prompt. Vexo already has the context: the restaurant a friend mentioned, the intro you promised, the idea you had on a walk. It turns what it hears into private memories and acts on them, booking the table, sending the follow-up, and ordering the groceries through the apps you already use.\r\n\r\nIt&#x27;s a woven bracelet with a microphone and health sensors. No screen, and nothing to open.\r\n\r\nVexo never keeps your audio. Only you can see your memories, and you can delete them anytime.",
+    "industry_sub_vertical": "Consumer AI wearable for ambient task automation and personal memory management",
+    "canonical_vertical_id": "ecommerce.personalization-engine",
+    "vertical_id": "ecommerce.personalization-engine",
+    "vertical_label": "On-site personalization & recommendation",
+    "vertical_sector_id": "retail-commerce",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / prosumer AI application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "personal_assistant",
+    "ai_application_patterns": [
+      "context_awareness",
+      "proactive_task_automation",
+      "ambient_listening",
+      "memory_retrieval"
+    ],
+    "what_they_sell": "A wearable AI bracelet with microphone and health sensors that passively captures ambient context (conversations, mentions, ideas) and proactively executes tasks (booking reservations, sending follow-ups, ordering groceries) without explicit prompts. Privacy-first: audio is not retained; only user-owned memories are stored.",
+    "ai_play": "AI shifts from reactive (wait for prompt) to proactive (act on ambient context). The core innovation is continuous context capture + memory synthesis + autonomous task execution across third-party apps (restaurants, messaging, shopping). Reduces friction by eliminating the need to explicitly ask the AI to do something—it infers intent from overheard context and acts.",
+    "who_pays": "End consumers / prosumers willing to wear always-on wearable hardware for ambient AI assistance and task automation.",
+    "confidence": 0.78,
+    "rationale": "Vexo is a consumer-facing AI product (primary: consumer-ai-app) with a hardware/embodied component (secondary: robotics-embodied-ai). It's not a vertical workflow agent (no B2B), not a copilot SaaS (no seat-based productivity tool), and not a research terminal. The phenotype fit is consumer AI application because the end-user is the buyer and the value is personal productivity/convenience. The secondary tag (robotics-embodied-ai) reflects the hardware integration (wearable sensors, microphone, form factor), though the AI is the primary differentiator, not the hardware itself. Confidence is moderate (0.78) because while the consumer AI phenotype is clear, the wearable/embodied aspect is less central to the YC phenotype library's focus on software-first business models.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Consumer Electronics"
+    ],
+    "yc_tags": [
+      "AI-Enhanced Learning",
+      "Hardware",
+      "Productivity",
+      "Conversational AI",
+      "AI Assistant"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1123245,
+        "full_name": "Haris Malik",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Previously at Tesla and K-Scale Labs (W24). CS at UofT",
+        "linkedin_url": "https://www.linkedin.com/in/haris-malik-/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5cc8502c04b3dcc19ddc914e04a34e496d067ac5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJANOY3JE%2F20260928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260928T202222Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHUaCXVzLXdlc3QtMiJHMEUCIQCmnSmPl72TcTkTaoPCp%2FhGIV5aQgeB8my6phgBQhK%2FiQIgWY2vCI97mBH6Q9NKXp%2B8qYdNNzcNDTD7Qp2s%2FjB5j0Aq5QMIPRAAGgwwMDYyMDE4MTEwNzIiDGB5RuWdOX6MXDgMiirCA9eSwf7vpJ8soO0iOZrBGzx45ud%2FxQwGk7ylmZJoS%2F7Rm5RzU6bEiY3qmmDkY2Bgarljq88h5sKlanPQEUc8baFe1hvFCfggMMihzSwEex4PJh6PFsFypG3kxKHvy6szLk4Jd2iiTbVasv0SfaVulcxqPSN76GpPLBSL6UGrKWSgaEr7puvfFXYFFOCAysBS434zAZQOg0LYQaZztLvaWImN2nL7XHpOTGLhWS4OQZYUEraaJxfAN%2BKjAmDMHzHq4iDX4cz7u5jihX3Y0G%2FMKbikS4vq5ummCTuxjWU5WxouC%2B0L8Xk8YCfxExKSZnsYBsLQJAtTfqMlrpSuuiog%2FNy8Thy%2BoMYeMTT0qy30Mvksz%2BP1FCseGFIXO%2FhtYdAV8kEchHKOv8CRBliNN%2FYI7dyxztilBk2xcGNli4Pc4bHRZ4LNp%2FQk53A0vp5azwL78SBNDaQNPieK6ppm2R5%2B3131voa4PBrvtlljFVXLEiJygV0EKUK%2F8DCIzhvFlJA7i9%2BW9MT83bAjmuVw1gH%2BsnB%2BJRvQx0IOzGuzSfGyqXzlRYHUZF7kNoSGUKtrC2yjWLgaDLh1Q%2FQFMRoO%2BOOvh39EhzD9l%2BvVBjqlAf0%2FYDQm3pDgJtRxEZnvFF9TFAfVGezUJuHPLox%2FJgorg1lZxDbF3rOJhpROH09b9MYN2cgC6qxBCahefD7lOse2sIGdFa3xatY1g%2BBEouimDvA5T8wP2%2FMvrn7yVpgefSGN8i0nkJXesWpIuUARrd4hPlLG0CTnwD0sGWo71ZzGCHAjq3T2s9EMymKwjeSKSV2xzIWc%2BXJO0CvE3rfY%2B2g7%2BgcZkA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=eed57820900135a5e9951dd9d2431ce7e51d0fe7d8935195c39d4934de17e7cd",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Vexo",
+          "href": "https://www.ycombinator.com/companies/vexo"
+        }
+      },
+      {
+        "user_id": 4000265,
+        "full_name": "Farqaleet Kiani",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Previously at Tesla, AMD, GM, Geotab & Molex. Mechatronics @ McMaster",
+        "linkedin_url": "https://www.linkedin.com/in/kianif/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9e575490b71f75836ac606155eb4306155eed93a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJANOY3JE%2F20260928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260928T202222Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHUaCXVzLXdlc3QtMiJHMEUCIQCmnSmPl72TcTkTaoPCp%2FhGIV5aQgeB8my6phgBQhK%2FiQIgWY2vCI97mBH6Q9NKXp%2B8qYdNNzcNDTD7Qp2s%2FjB5j0Aq5QMIPRAAGgwwMDYyMDE4MTEwNzIiDGB5RuWdOX6MXDgMiirCA9eSwf7vpJ8soO0iOZrBGzx45ud%2FxQwGk7ylmZJoS%2F7Rm5RzU6bEiY3qmmDkY2Bgarljq88h5sKlanPQEUc8baFe1hvFCfggMMihzSwEex4PJh6PFsFypG3kxKHvy6szLk4Jd2iiTbVasv0SfaVulcxqPSN76GpPLBSL6UGrKWSgaEr7puvfFXYFFOCAysBS434zAZQOg0LYQaZztLvaWImN2nL7XHpOTGLhWS4OQZYUEraaJxfAN%2BKjAmDMHzHq4iDX4cz7u5jihX3Y0G%2FMKbikS4vq5ummCTuxjWU5WxouC%2B0L8Xk8YCfxExKSZnsYBsLQJAtTfqMlrpSuuiog%2FNy8Thy%2BoMYeMTT0qy30Mvksz%2BP1FCseGFIXO%2FhtYdAV8kEchHKOv8CRBliNN%2FYI7dyxztilBk2xcGNli4Pc4bHRZ4LNp%2FQk53A0vp5azwL78SBNDaQNPieK6ppm2R5%2B3131voa4PBrvtlljFVXLEiJygV0EKUK%2F8DCIzhvFlJA7i9%2BW9MT83bAjmuVw1gH%2BsnB%2BJRvQx0IOzGuzSfGyqXzlRYHUZF7kNoSGUKtrC2yjWLgaDLh1Q%2FQFMRoO%2BOOvh39EhzD9l%2BvVBjqlAf0%2FYDQm3pDgJtRxEZnvFF9TFAfVGezUJuHPLox%2FJgorg1lZxDbF3rOJhpROH09b9MYN2cgC6qxBCahefD7lOse2sIGdFa3xatY1g%2BBEouimDvA5T8wP2%2FMvrn7yVpgefSGN8i0nkJXesWpIuUARrd4hPlLG0CTnwD0sGWo71ZzGCHAjq3T2s9EMymKwjeSKSV2xzIWc%2BXJO0CvE3rfY%2B2g7%2BgcZkA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7afdb3163eabe0c2905f5e167961746c90e5f021a7e8fe8abff3ef2dd95092ba",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Vexo",
+          "href": "https://www.ycombinator.com/companies/vexo"
+        }
+      },
+      {
+        "user_id": 2442542,
+        "full_name": "Vikram Narra",
+        "title": "Founder/CPO",
+        "is_active": true,
+        "bio": "Previously Amazon and Shopify. CS at UofT.",
+        "linkedin_url": "https://www.linkedin.com/in/vikramnarra/",
+        "twitter_url": "https://x.com/vikramnarra13",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6c9885b6926300ac6a9b730e83aec0269861b5e1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJANOY3JE%2F20260928%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260928T202222Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHUaCXVzLXdlc3QtMiJHMEUCIQCmnSmPl72TcTkTaoPCp%2FhGIV5aQgeB8my6phgBQhK%2FiQIgWY2vCI97mBH6Q9NKXp%2B8qYdNNzcNDTD7Qp2s%2FjB5j0Aq5QMIPRAAGgwwMDYyMDE4MTEwNzIiDGB5RuWdOX6MXDgMiirCA9eSwf7vpJ8soO0iOZrBGzx45ud%2FxQwGk7ylmZJoS%2F7Rm5RzU6bEiY3qmmDkY2Bgarljq88h5sKlanPQEUc8baFe1hvFCfggMMihzSwEex4PJh6PFsFypG3kxKHvy6szLk4Jd2iiTbVasv0SfaVulcxqPSN76GpPLBSL6UGrKWSgaEr7puvfFXYFFOCAysBS434zAZQOg0LYQaZztLvaWImN2nL7XHpOTGLhWS4OQZYUEraaJxfAN%2BKjAmDMHzHq4iDX4cz7u5jihX3Y0G%2FMKbikS4vq5ummCTuxjWU5WxouC%2B0L8Xk8YCfxExKSZnsYBsLQJAtTfqMlrpSuuiog%2FNy8Thy%2BoMYeMTT0qy30Mvksz%2BP1FCseGFIXO%2FhtYdAV8kEchHKOv8CRBliNN%2FYI7dyxztilBk2xcGNli4Pc4bHRZ4LNp%2FQk53A0vp5azwL78SBNDaQNPieK6ppm2R5%2B3131voa4PBrvtlljFVXLEiJygV0EKUK%2F8DCIzhvFlJA7i9%2BW9MT83bAjmuVw1gH%2BsnB%2BJRvQx0IOzGuzSfGyqXzlRYHUZF7kNoSGUKtrC2yjWLgaDLh1Q%2FQFMRoO%2BOOvh39EhzD9l%2BvVBjqlAf0%2FYDQm3pDgJtRxEZnvFF9TFAfVGezUJuHPLox%2FJgorg1lZxDbF3rOJhpROH09b9MYN2cgC6qxBCahefD7lOse2sIGdFa3xatY1g%2BBEouimDvA5T8wP2%2FMvrn7yVpgefSGN8i0nkJXesWpIuUARrd4hPlLG0CTnwD0sGWo71ZzGCHAjq3T2s9EMymKwjeSKSV2xzIWc%2BXJO0CvE3rfY%2B2g7%2BgcZkA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2e82d3f17e222a589e4cbd0c6dac5c4dc36594396f9a4557aacc7e97b02952ad",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Vexo",
+          "href": "https://www.ycombinator.com/companies/vexo"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-28T20:22:32.006Z",
+    "classified_at": "2026-09-28T20:22:32.006Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "vibeflow",
     "name": "VibeFlow",
     "website": "https://vibeflow.ai/",
@@ -98335,7 +98654,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/volaren-inc",
     "batch": "Fall 2026",
     "one_liner": "Democratizing investing. Volaren collapses the hedge fund model and…",
-    "description_combined": "Democratizing investing. Volaren collapses the hedge fund model and…\n\nEvery great investment starts as an idea about the world. Institutions have teams of analysts turning those ideas into positions. Volaren is that team, processing data through fundamentals and quantitative models that can be personalized with AI.\r\n\r\nTurn your views into trades, portfolios, and strategies, or co-invest alongside top traders and hedge funds. Volaren stays with you from there, showing you what&#x27;s actually driving each position and what it means for your next move.",
+    "description_combined": "Democratizing investing. Volaren collapses the hedge fund model and…\n\nEvery great investment starts as an idea about the world. Institutions have teams of analysts turning those ideas into positions. Volaren is that team, processing data through fundamentals and quantitative models that can be personalized with AI.\r\n\r\nTurn your views into trades, portfolios, and strategies, or co-invest alongside top traders and hedge funds. Volaren stays with you from there, showing you what&#x27;s actually driving each position and what it means for your next move.\n\nDescribe an investment thesis or strategy in plain English and Volaren's AI analysts research, build, and backtest it for you.\n\nTL;DR: Volaren is putting a hedge fund in your pocket. You describe a thesis, a strategy, or a view of the world in plain English, and Volaren's AI analysts do the research, build it, and backtest it for you. Try it at .\n\nDEMO: \n\nThe problem\n\nInstitutions turn a view of the world into real positions using teams of analysts and expensive tooling like Bloomberg and Capital IQ. Everyone else does it by hand, or does not do it at all. The data and the methods already exist, but nobody had built the product that puts them in the hands of small teams and active retailers investing their own money.\n\nWhat Volaren does\n\nYou tell Volaren a thesis, a strategy, or a view of the world in plain English, and its agents go do the research for you. They handle all the heavy lifting of the analysis, and the",
     "industry_sub_vertical": "Retail investor portfolio construction & co-investment marketplace",
     "canonical_vertical_id": "fintech.wealth.asset-management",
     "vertical_id": "fintech.wealth.asset-management",
@@ -98409,7 +98728,13 @@
     ],
     "directory_synced_at": "2026-09-19T16:59:54.540Z",
     "classified_at": "2026-09-19T16:59:54.540Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 116145,
+    "launch_url": "https://www.ycombinator.com/launches/UDJ-volaren-research-operating-system-for-small-teams-and-active-retail-investors",
+    "launch_title": "Volaren: research operating system for small teams and active retail investors",
+    "launch_created_at": "2026-09-28T16:24:00.151Z",
+    "launch_tagline": "Describe an investment thesis or strategy in plain English and Volaren's AI analysts research, build, and backtest it for you.",
+    "launch_evaluated_at": "2026-09-28T20:23:18.707Z"
   },
   {
     "slug": "voltair",

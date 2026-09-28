@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-27T18:02:56.703Z",
+  "generated_at": "2026-09-28T20:23:19.644Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1509,
+    "assignment_count": 1513,
     "mapped_verticals": 246,
-    "observed_cells": 489,
+    "observed_cells": 490,
     "total_verticals": 525,
     "gap_candidates": 839
   },
@@ -99,6 +99,7 @@
         "trace-so",
         "trelium",
         "truffle-ai",
+        "ufoai",
         "vespper",
         "wato",
         "zatanna"
@@ -561,6 +562,30 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "ashr",
+        "autosana",
+        "chronicle-labs",
+        "hue",
+        "instance",
+        "kashikoi",
+        "lark",
+        "momentic",
+        "perfectbit-inc",
+        "qualgent",
+        "simantic",
+        "simulithic",
+        "spur",
+        "synthetic-society",
+        "workers-io"
+      ]
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.ops.process-automation",
@@ -629,29 +654,6 @@
         "stellon-labs",
         "tinfoil",
         "wafer"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.qa-testing",
-      "vertical_label": "Software QA & test automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "ashr",
-        "autosana",
-        "chronicle-labs",
-        "hue",
-        "instance",
-        "kashikoi",
-        "lark",
-        "perfectbit-inc",
-        "qualgent",
-        "simantic",
-        "simulithic",
-        "spur",
-        "synthetic-society",
-        "workers-io"
       ]
     },
     {
@@ -2549,6 +2551,17 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "ecommerce.personalization-engine",
+      "vertical_label": "On-site personalization & recommendation",
+      "sector_id": "retail-commerce",
+      "companies": [
+        "cyclon",
+        "vexo"
+      ]
+    },
+    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "enterprise.it.cloud-infra",
@@ -3960,16 +3973,6 @@
       "sector_id": "retail-commerce",
       "companies": [
         "pango"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "ecommerce.personalization-engine",
-      "vertical_label": "On-site personalization & recommendation",
-      "sector_id": "retail-commerce",
-      "companies": [
-        "cyclon"
       ]
     },
     {
@@ -5650,6 +5653,16 @@
       "sector_id": "real-estate-construction",
       "companies": [
         "avoice"
+      ]
+    },
+    {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "realestate.construction.field",
+      "vertical_label": "Construction field & project operations",
+      "sector_id": "real-estate-construction",
+      "companies": [
+        "habu"
       ]
     },
     {

@@ -1,17 +1,554 @@
 {
-  "checked_at": "2026-09-27T18:02:56.195Z",
+  "checked_at": "2026-09-28T20:23:18.822Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 0,
-  "new_count": 0,
-  "skipped_count": 930,
-  "ingest": null,
+  "checked_count": 8,
+  "new_count": 8,
+  "skipped_count": 922,
+  "ingest": {
+    "addedCompanies": 1,
+    "enrichedCompanies": 7
+  },
   "summary": {
-    "conforming": 0,
-    "partial": 0,
-    "non_conforming": 0,
-    "would_have_predicted": 0,
-    "surprise": 0,
+    "conforming": 4,
+    "partial": 3,
+    "non_conforming": 1,
+    "would_have_predicted": 4,
+    "surprise": 2,
     "predicted": 0
   },
-  "reviews": []
+  "reviews": [
+    {
+      "launch": {
+        "launch_id": 117007,
+        "company_slug": "spine",
+        "company_name": "Spine",
+        "launch_url": "https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free",
+        "created_at": "2026-09-28T20:00:00.217Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-28T20:23:08.517Z",
+        "launch_id": 117007,
+        "company_slug": "spine",
+        "taxonomy": {
+          "conformance_index": 76,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-04",
+            "vertical_id": "enterprise.hr.workforce",
+            "phenotype_primary_id": "ai-native-service-provider",
+            "cell_key": "BM-04::enterprise.hr.workforce::ai-native-service-provider",
+            "business_model_label": "AI labor / managed service",
+            "vertical_label": "HR & workforce management",
+            "phenotype_label": "AI-Native Service Provider (Outcome-Based)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 117263,
+        "company_slug": "alder",
+        "company_name": "Alder",
+        "launch_url": "https://www.ycombinator.com/launches/UVL-alder-the-ai-employee-that-gets-you-paid",
+        "created_at": "2026-09-28T19:35:48.904Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-28T20:23:08.519Z",
+        "launch_id": 117263,
+        "company_slug": "alder",
+        "taxonomy": {
+          "conformance_index": 68,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.finance.order-to-cash",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.finance.order-to-cash::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Order-to-cash & billing operations",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 116145,
+        "company_slug": "volaren-inc",
+        "company_name": "Volaren Inc.",
+        "launch_url": "https://www.ycombinator.com/launches/UDJ-volaren-research-operating-system-for-small-teams-and-active-retail-investors",
+        "created_at": "2026-09-28T16:24:00.151Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-28T20:23:08.521Z",
+        "launch_id": 116145,
+        "company_slug": "volaren-inc",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-07",
+            "vertical_id": "fintech.wealth.asset-management",
+            "phenotype_primary_id": "marketplace-network-ai",
+            "cell_key": "BM-07::fintech.wealth.asset-management::marketplace-network-ai",
+            "business_model_label": "Marketplace / network",
+            "vertical_label": "Asset & wealth management",
+            "phenotype_label": "Marketplace / exchange / liquidity network"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 117199,
+        "company_slug": "momentic",
+        "company_name": "Momentic",
+        "launch_url": "https://www.ycombinator.com/launches/UUJ-momentic-mo-the-ai-qa-engineer-that-finds-bugs-before-your-users-do",
+        "created_at": "2026-09-28T16:00:11.921Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-28T20:23:17.219Z",
+        "launch_id": 117199,
+        "company_slug": "momentic",
+        "taxonomy": {
+          "conformance_index": 71,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 48,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.qa-testing",
+            "phenotype_primary_id": "agent-observability-evals",
+            "cell_key": "BM-03::ai-infrastructure.qa-testing::agent-observability-evals",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Software QA & test automation",
+            "phenotype_label": "Agent observability, evals, or safety"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 116872,
+        "company_slug": "masterpiece",
+        "company_name": "Masterpiece",
+        "launch_url": "https://www.ycombinator.com/launches/UP2-masterpiece-invoice-backed-loans-for-data-companies-selling-to-the-frontier-labs",
+        "created_at": "2026-09-28T14:56:34.449Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-28T20:23:17.221Z",
+        "launch_id": 116872,
+        "company_slug": "masterpiece",
+        "taxonomy": {
+          "conformance_index": 41,
+          "verdict": "non_conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 1,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 80,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-05",
+            "vertical_id": "fintech.lending.business",
+            "phenotype_primary_id": "fintech-insurance-ai-product",
+            "cell_key": "BM-05::fintech.lending.business::fintech-insurance-ai-product",
+            "business_model_label": "Fintech / insurance product",
+            "vertical_label": "Business lending & credit",
+            "phenotype_label": "AI-native fintech or insurance product"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "ranked_gap_top50:rank=1",
+            "low_taxonomy_conformance"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": {
+            "rank": 1,
+            "opportunity_score": 66,
+            "transfer_score": 69
+          },
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 117100,
+        "company_slug": "traceforce",
+        "company_name": "Traceforce",
+        "launch_url": "https://www.ycombinator.com/launches/USi-traceforce-tracegraph-ask-anything-about-your-company-s-ai-usage",
+        "created_at": "2026-09-28T14:55:58.682Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-28T20:23:17.222Z",
+        "launch_id": 117100,
+        "company_slug": "traceforce",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "security.endpoint-protection",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::security.endpoint-protection::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Endpoint detection & response (EDR)",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "ranked_gap:rank=389,score=11"
+          ],
+          "cell_was_whitespace": true,
+          "ranked_gap": {
+            "rank": 389,
+            "opportunity_score": 11,
+            "transfer_score": 89
+          },
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 117104,
+        "company_slug": "musicarena",
+        "company_name": "MusicArena",
+        "launch_url": "https://www.ycombinator.com/launches/USm-musicarena-the-arena-for-ai-music-making",
+        "created_at": "2026-09-28T14:55:16.503Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-28T20:23:17.224Z",
+        "launch_id": 117104,
+        "company_slug": "musicarena",
+        "taxonomy": {
+          "conformance_index": 55,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.training-data",
+            "phenotype_primary_id": "agent-observability-evals",
+            "cell_key": "BM-03::ai-infrastructure.training-data::agent-observability-evals",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Training & eval data generation",
+            "phenotype_label": "Agent observability, evals, or safety"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 116072,
+        "company_slug": "invertix",
+        "company_name": "Invertix",
+        "launch_url": "https://www.ycombinator.com/launches/UC8-invertix-energy-superintelligence",
+        "created_at": "2026-09-28T07:00:00.116Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-28T20:23:17.225Z",
+        "launch_id": 116072,
+        "company_slug": "invertix",
+        "taxonomy": {
+          "conformance_index": 79,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "energy.power.grid",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::energy.power.grid::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Power grid & energy infrastructure",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    }
+  ]
 }
