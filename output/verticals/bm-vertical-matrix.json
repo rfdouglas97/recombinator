@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-28T20:23:19.644Z",
+  "generated_at": "2026-09-29T19:07:31.585Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1513,
+    "assignment_count": 1519,
     "mapped_verticals": 246,
-    "observed_cells": 490,
+    "observed_cells": 492,
     "total_verticals": 525,
     "gap_candidates": 839
   },
@@ -32,6 +32,7 @@
         "ascii",
         "blaxel",
         "boat",
+        "boxesdev",
         "bud",
         "butter",
         "cascade",
@@ -229,6 +230,7 @@
       "sector_id": "ai-infrastructure",
       "companies": [
         "afterquery",
+        "archangel-health",
         "aviro",
         "cajal-technologies",
         "cartpole",
@@ -972,6 +974,22 @@
       ]
     },
     {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "ai-infrastructure.agent-context-web",
+      "vertical_label": "Agent web context & data enrichment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "alpha-research",
+        "bystreet",
+        "clean",
+        "clodo",
+        "helixdb",
+        "overstand-labs",
+        "paratus-health"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "ai-infrastructure.gpu-deploy",
@@ -1004,6 +1022,22 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.legal.contracts",
+      "vertical_label": "Contract lifecycle & legal ops",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "chromie",
+        "chromiedev",
+        "lightfield",
+        "neomatter",
+        "sammy-labs",
+        "sigma-2",
+        "vesence"
+      ]
+    },
+    {
       "business_model": "BM-10",
       "business_model_label": "Consumer app / prosumer",
       "vertical_id": "healthcare.digital.consumer-wellness",
@@ -1017,21 +1051,6 @@
         "layers",
         "lucis",
         "lumeria"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "ai-infrastructure.agent-context-web",
-      "vertical_label": "Agent web context & data enrichment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "alpha-research",
-        "bystreet",
-        "clodo",
-        "helixdb",
-        "overstand-labs",
-        "paratus-health"
       ]
     },
     {
@@ -1122,21 +1141,6 @@
         "parameter",
         "parameter-fka-hex-security",
         "veria-labs"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.legal.contracts",
-      "vertical_label": "Contract lifecycle & legal ops",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "chromie",
-        "chromiedev",
-        "lightfield",
-        "sammy-labs",
-        "sigma-2",
-        "vesence"
       ]
     },
     {
@@ -4326,6 +4330,16 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "enterprise.support.customer",
+      "vertical_label": "Customer support & contact center",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "lapel"
+      ]
+    },
+    {
       "business_model": "BM-07",
       "business_model_label": "Marketplace / network",
       "vertical_id": "enterprise.support.customer",
@@ -4653,6 +4667,16 @@
       "sector_id": "healthcare-life-sciences",
       "companies": [
         "adialante"
+      ]
+    },
+    {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "healthcare.medtech.hospital-procurement",
+      "vertical_label": "Hospital procurement & medical device contracting",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "conus"
       ]
     },
     {

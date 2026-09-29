@@ -1,7 +1,289 @@
 {
-  "updated_at": "2026-09-28T20:23:17.249Z",
+  "updated_at": "2026-09-29T19:07:30.184Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 117440,
+      "company_slug": "runanywhere",
+      "launch_url": "https://www.ycombinator.com/launches/UYC-wally-by-runanywhere-the-fastest-inference-for-open-frontier-models",
+      "created_at": "2026-09-29T18:59:15.687Z",
+      "classification": {
+        "phenotype_primary_id": "agent-runtime-infra",
+        "vertical_id": "compute.edge-gpu-deployment",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-29T19:07:30.172Z",
+        "launch_id": 117440,
+        "company_slug": "runanywhere",
+        "taxonomy": {
+          "conformance_index": 72,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "compute.edge-gpu-deployment",
+            "phenotype_primary_id": "agent-runtime-infra",
+            "cell_key": "BM-03::compute.edge-gpu-deployment::agent-runtime-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Edge & on-device GPU inference deployment",
+            "phenotype_label": "Agent runtime / harness / orchestration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 66,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+        ]
+      }
+    },
+    {
+      "launch_id": 117228,
+      "company_slug": "habu",
+      "launch_url": "https://www.ycombinator.com/launches/UUm-habu-the-ai-native-real-estate-developer",
+      "created_at": "2026-09-29T18:00:00.173Z",
+      "classification": {
+        "phenotype_primary_id": "ai-native-service-provider",
+        "vertical_id": "realestate.construction.field",
+        "business_models": [
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-29T19:07:30.174Z",
+        "launch_id": 117228,
+        "company_slug": "habu",
+        "taxonomy": {
+          "conformance_index": 55,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 5,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-04",
+            "vertical_id": "realestate.construction.field",
+            "phenotype_primary_id": "ai-native-service-provider",
+            "cell_key": "BM-04::realestate.construction.field::ai-native-service-provider",
+            "business_model_label": "AI labor / managed service",
+            "vertical_label": "Construction field & project operations",
+            "phenotype_label": "AI-Native Service Provider (Outcome-Based)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 117160,
+      "company_slug": "agent-37",
+      "launch_url": "https://www.ycombinator.com/launches/UTg-agent37-host-any-agent-harness",
+      "created_at": "2026-09-29T17:00:00.120Z",
+      "classification": {
+        "phenotype_primary_id": "agent-runtime-infra",
+        "vertical_id": "ai-infrastructure.agent-runtime",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-29T19:07:30.174Z",
+        "launch_id": 117160,
+        "company_slug": "agent-37",
+        "taxonomy": {
+          "conformance_index": 80,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "agent-runtime-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Agent runtime / harness / orchestration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 116579,
+      "company_slug": "ageospatial",
+      "launch_url": "https://www.ycombinator.com/launches/UKJ-ageospatial-pricing-the-risk-of-every-property-infrastructure-and-land-on-earth-from-satellites",
+      "created_at": "2026-09-29T16:00:00.089Z",
+      "classification": {
+        "phenotype_primary_id": "fintech-insurance-ai-product",
+        "vertical_id": "insurance.uw-data-intake",
+        "business_models": [
+          "BM-05"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-09-29T19:07:30.175Z",
+        "launch_id": 116579,
+        "company_slug": "ageospatial",
+        "taxonomy": {
+          "conformance_index": 68,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-05",
+            "vertical_id": "insurance.uw-data-intake",
+            "phenotype_primary_id": "fintech-insurance-ai-product",
+            "cell_key": "BM-05::insurance.uw-data-intake::fintech-insurance-ai-product",
+            "business_model_label": "Fintech / insurance product",
+            "vertical_label": "Underwriting data intake & risk assessment",
+            "phenotype_label": "AI-native fintech or insurance product"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": {
+            "rank": 256,
+            "opportunity_score": 30,
+            "transfer_score": 83
+          },
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
     {
       "launch_id": 117007,
       "company_slug": "spine",

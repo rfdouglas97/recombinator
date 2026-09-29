@@ -1,7 +1,99 @@
 {
-  "updated_at": "2026-09-28T20:23:18.708Z",
-  "count": 1321,
+  "updated_at": "2026-09-29T19:07:30.944Z",
+  "count": 1325,
   "launches": [
+    {
+      "launch_id": 117440,
+      "launch_slug": "UYC-wally-by-runanywhere-the-fastest-inference-for-open-frontier-models",
+      "launch_url": "https://www.ycombinator.com/launches/UYC-wally-by-runanywhere-the-fastest-inference-for-open-frontier-models",
+      "title": "Wally by RunAnywhere: The fastest inference for open frontier models",
+      "tagline": "Open-weight frontier models at real-time speed for voice and agent products, live on day one. Serverless, BYOC or on-prem.",
+      "body": "Hi, we're Sanchit and Shubham, co-founders of RunAnywhere (W26), and we're launching Wally: our inference stack for open frontier models, hosted on our GPUs or deployed on yours.\n\n<https://youtu.be/m_T2Diow3_M>\n\n**TL;DR:** Wally serves GLM-5.3 Flash at 380 tokens per second with a 274 ms first token, faster than any endpoint on Artificial Analysis (Sep 28, 2026). New models land on day zero: Xiaomi's MiMo-V2.6-Pro was ready to serve about 8 hours after its weights dropped, and runs at 3x the speed of Xiaomi's own API (Artificial Analysis, Sep 21, 2026). The same stack deploys on-prem/BYOC at the same speed. [Sign up](https://runwally.com) and get $5 in free credits.\n\n## The problem\n\nFrontier models are slow and expensive, and you feel it most in products that run a model in a loop. A voice agent has a few hundred milliseconds before a turn feels broken. A coding agent waits for the first token on every tool call, dozens of times per task.\n\n## How Wally works\n\nWally is our inference stack for open frontier models: our own kernels, speculative decoding, and prefill kept off the decode path so a long prompt never stalls someone else's stream. We tune it per model and per traffic pattern. It runs in two places.\n\n**Hosted by us.** An OpenAI-compatible endpoint on our own GPUs, so anything that takes a base URL and a key works unchanged. Standard per-token pricing. Live today:\n\n* **GLM-5.3 Flash:** 380 tok/s\n* **DeepSeek V4.1 Flash:** 615 tok/s\n* **Qwen3.8-27B:** 485 tok/s\n* **MiMo-V2.6-Pro:** 320 tok/s\n* **GLM-5.3 Max:** 790 tok/s\n\n**Deployed for you.** The same stack on GPUs you own, in your cloud account, or on a dedicated instance we run. Same speed, your own models and fine-tunes, your traffic stays in your environment, and at token-heavy volumes it costs less than paying per token.\n\n## New models on day zero\n\nMiMo-V2.6-Pro, the top open-weights model on Artificial Analysis (Sep 21, 2026), was ready and running 3x faster than anyone else in 8 hours after Xiaomi published the weights.\n\n## The numbers\n\nArtificial Analysis lists 19 providers serving the same GLM-5.3 Flash weights (Sep 24, 2026), and Wally is 8.6x faster than Z.ai. Same model; the only difference is how it's served. Ours: 380 tok/s and a 274 ms first token, measured the same way.\n\n![uploaded image](/media/?type=post&id=117440&key=user_uploads/725397/e68127c0-8f31-4fe8-bbe2-44f587f09e67)\n\n## Beyond the benchmark\n\nBenchmarks don't always match reality, so we ran a real prompt on four providers, three times: GLM-5.3 Flash in the same OpenCode harness on Wally, Nebius, Fireworks and Z.ai, all building a game at once.\n\n<https://youtu.be/yc-KVBwuWC0>\n\n![uploaded image](/media/?type=post&id=117440&key=user_uploads/725397/eaf90b9c-3be5-405a-9177-cca618fe81ea)\n\nThe same model reasons more or less on the same prompt from run to run, on every provider, so finish times look close even when the work isn't. Tokens per second of wall clock is the stable number: Wally 213, Nebius 149, Fireworks 68, Z.ai 47, averaged across the runs.\n\n## Get started\n\nPaste this into your coding agent:\n\n```\nset up https://runanywhere.ai/SKILL.md\n```\n\nWorks with Claude Code, Claude Desktop and OpenCode. $5 free on signup, no card. Standard per-token pricing after that.\n\n## Why we built it\n\nWe spent nine months making open models fast on phones and laptops, with our own inference engines for Apple and Qualcomm chips ([runanywhere-sdks](https://github.com/RunanywhereAI/runanywhere-sdks?utm_source=launchyc&utm_medium=post&utm_campaign=wally-launch), 10K+ GitHub stars). Our users kept needing models too big for the device, and nobody served open frontier models fast enough for a real-time loop. None of our work was specific to phones, so we pointed it at data-center GPUs.\n\n## Our ask\n\n* **If you run a voice or agent product and latency or the inference bill hurts,** email [founders@runanywhere.ai](mailto:founders@runanywhere.ai) and we'll make it faster.\n* **If a customer has asked you for on-prem,** intro us. We deploy on their GPUs.\n* **Try it** and tell us what broke: [runwally.com](https://www.runwally.com/)\n\n[Docs](https://docs.runanywhere.ai/?utm_source=launchyc&utm_medium=post&utm_campaign=wally-launch) · [X @RunAnywhereAI](https://x.com/RunAnywhereAI)",
+      "created_at": "2026-09-29T18:59:15.687Z",
+      "total_vote_count": 0,
+      "company_slug": "runanywhere",
+      "company_name": "RunAnywhere",
+      "company_website": "https://www.runanywhere.ai/",
+      "company_batch": "Winter 2026",
+      "company_industry": "B2B",
+      "company_id": 31088,
+      "author_name": "Sanchit Monga",
+      "scraped_at": "2026-09-29T19:07:30.151Z",
+      "review_summary": {
+        "conformance_index": 72,
+        "predictability_band": "occupied_first",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 117228,
+      "launch_slug": "UUm-habu-the-ai-native-real-estate-developer",
+      "launch_url": "https://www.ycombinator.com/launches/UUm-habu-the-ai-native-real-estate-developer",
+      "title": "HABU - The AI-Native Real Estate Developer",
+      "tagline": "We build apartment buildings 20% faster and 15% cheaper by running the entire development process on AI",
+      "body": "Hello, World 👋 We're **Bryan** and **Jun**, co-founders of **HABU**.\n\n**TL;DR:** HABU is an AI-native real estate development firm that helps real estate investors deploy capital to build housing faster, at lower cost, and with higher yield. \n\nInstitutional Investors (investment firms, family offices, high-net-worth individuals) hire us to find land, construct an apartment building, operate it and then sell it. Every step of that process runs on an AI operating system we built ourselves instead of the legacy process of Excel files, PDFs, emails, and a surprisingly high amount of manual knowledge work that the rest of the industry still uses.\n\nWe are **the developer**. Not a SaaS product. The actual developer. We work for institutional investors to go build physical assets and we get paid to do it on their behalf.\n\n<https://www.youtube.com/watch?v=DKP0P6RK9X4>\n\n**🏗️ What a developer actually does**\n\nReal estate development has historically been an opaque industry and generally not well understood. Here’s how it works. White-collar investors like investment funds, private equity, family offices, etc., deploy about **$160B a year** into multifamily projects. They can either buy one that already operates (—> call a broker) or build a new one from the ground up (—> call a developer). A developer finds the land, gets the permits, hires the architect and builder, manages construction, and delivers a finished building.\n\nThat’s where we fit in. HABU is not a software product for developers. **We are the developer.** \n\n**❌ The Problem**\n\nNew housing has never been slower or more expensive to build. The high cost of new housing increases everyone's cost of living while also making it hard to finance a project. \n\nA single apartment project involves 700+ discrete internal tasks and over 1,000+ hours of manual desk work: pulling data from a dozen public databases by hand, calling brokers, architects, engineers, and lawyers for quotes, and tracking it all in spreadsheets, word docs, and even physical paper.  \n\nThe biggest technological jump for commercial real estate over the past 40 years was Excel. Seriously, Excel! \n\n**🤖 How HABU works**\n\nWe built an internal AI-native operating system that completes projects up to 10-20% faster, lowers total project costs by 10-15%, and lets us manage 5x more projects per development manager. The end-to-end process is automated and autonomously ran:\n\n![uploaded image](/media/?key=user_uploads/1280882/4abab095-10ec-442f-8d93-b2fd3cd8bfbb)\n\n**💵 We are not long term property owners**. Just the service provider. That keeps us extremely capital light, operationally efficient, and lets us scale in a way that legacy developers could never do.\n\n**👫 The Team**\n\n**Bryan**- worked on $310M+ of projects (industrial, datacenter land, and mostly multifamily). Top-ranked grad in the Master’s of Real Estate Development (MRED) program at ASU. Long career in sales leadership at VC-backed startups like Mutiny: employee #5, raised $75M from YC, Sequoia, Insight, Tiger Global, Cowboy Ventures, Uncork, etc. Started first company at age 23 redeveloping brownfield sites and environmental remediation. Double-undergrad of Economics and Sustainability. \\\n**Jun**  spent 4.5 years at Meta building AI data systems used across global operations and product teams. Previously managed aviation logistics and complex supply chains in the U.S. Navy and led enterprise transformation work at Accenture. Technical builder with experience taking AI products from 0 to production. M.S. in Analytics. Immigrant, Navy veteran, and first gen college graduate.\n\n**🙏 Our Ask**\n\n* Know an investment firm, family office, or high-net-worth individual (founders, VCs, executives) looking to invest in real estate? Introduce us.\n* Own land in Phoenix? Let's talk.\n* Interested in working for HABU and building the future of buildings? Hit up Bryan or Jun!\n\n👉 [www.buildhabu.com](http://www.buildhabu.com)",
+      "created_at": "2026-09-29T18:00:00.173Z",
+      "total_vote_count": 3,
+      "company_slug": "habu",
+      "company_name": "HABU",
+      "company_website": "https://buildhabu.com",
+      "company_batch": "Fall 2026",
+      "company_industry": "Real Estate and Construction",
+      "company_id": 37533,
+      "author_name": "Bryan Tharalson",
+      "scraped_at": "2026-09-29T19:07:30.152Z",
+      "review_summary": {
+        "conformance_index": 55,
+        "predictability_band": "occupied_first",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 117160,
+      "launch_slug": "UTg-agent37-host-any-agent-harness",
+      "launch_url": "https://www.ycombinator.com/launches/UTg-agent37-host-any-agent-harness",
+      "title": "Agent37: Host any agent harness",
+      "tagline": "Agent sandboxes that are 94% lower compute cost ",
+      "body": "Hi everyone, I'm Vishnu, founder of Agent37.\n\n**TL;DR:** Agent37 hosts any agent harness (Hermes, OpenClaw, Claude Code, Codex, or your own) so you can give each customer their own agent in an isolated sandbox, for over 95% less than most sandbox providers charge.\n\n![uploaded image](/media/?type=post&id=117160&key=user_uploads/316679/28b659ef-29c9-4364-849c-04dc75b73de9)\n\n\\\n**The problem**\n\nEvery team building an AI agent product needs the same thing underneath it: a private, always-on computer for each agent that keeps its files, wakes when someone messages it, and costs almost nothing while idle. Today there are two ways to get one, and both are bad.\n\nSome teams do it by hand. Chris Nguyen at ETEC+ used to spin up a VPS with a Hermes agent on it for each client and email it over, more than 30 times. Others build it themselves. Wes Merrill at Boon spent close to six months building a provisioning pipeline on Render. In his words: \"it was not fun.\"\n\nEither way, the time goes into plumbing instead of the product.\n\n**What we built**\n\n* Pick a template for any popular agent harness, or bring your own Docker image.\n* Each agent gets its own sandbox with persistent files, a browser, and Gmail, Slack, Notion, GitHub and 1,000+ other apps through Composio.\n* Every customer's agent is fully isolated from everyone else's.\n* Billing is per minute. An idle sandbox only costs its disk.\n* Our open-source starter kit is a white-label app with sign-up, an agent per customer, chat, files and integrations. Rebrand it and launch your own Instinct-style product in your niche.\n\n**What customers have done with it**\n\nBoon writes grant applications for nonprofits. They gave every client their own Hermes agent in 3 days. Their cost per agent went from $85/month to $4.94/month on equivalent hardware.\n\nETEC+ builds agents for Australian support, sales and ops teams. Chris's brief going in: \"Ideally I just want to sell, and not do any backend.\" Six days after picking up our starter kit, they had a branded product where clients sign up, pay, and get an always-on agent, and they moved their 30+ existing clients onto it.\n\n**Our ask**\n\nIf you've built an agent that works and you want to sell it to more than one customer, try us at [agent37.com](http://agent37.com). You get $2,500 in sandbox credits, worth over $50,000 of uptime on most other sandbox providers. And if you know someone who could use this, please send them our way.\n\n**About us:** Our goal is to make running agents affordable for everyone in the world. ",
+      "created_at": "2026-09-29T17:00:00.120Z",
+      "total_vote_count": 0,
+      "company_slug": "agent-37",
+      "company_name": "Agent 37",
+      "company_website": "https://www.agent37.com/cloud",
+      "company_batch": "Fall 2026",
+      "company_industry": "B2B",
+      "company_id": 34893,
+      "author_name": "VISHNU KRISHNAPRASAD",
+      "scraped_at": "2026-09-29T19:07:30.152Z",
+      "review_summary": {
+        "conformance_index": 80,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 116579,
+      "launch_slug": "UKJ-ageospatial-pricing-the-risk-of-every-property-infrastructure-and-land-on-earth-from-satellites",
+      "launch_url": "https://www.ycombinator.com/launches/UKJ-ageospatial-pricing-the-risk-of-every-property-infrastructure-and-land-on-earth-from-satellites",
+      "title": "Ageospatial - pricing the risk of every property, infrastructure and land on Earth from satellites",
+      "tagline": "know the assets that you insure in the physical world",
+      "body": "**TL;DR: insurers cover buildings, land and infrastructure they've never seen. we look at every one of them from space and tell them what they're really insuring and how risky it is.**\n\n<https://youtu.be/IoGyUfGMV94>\n\n![uploaded image](/media/?type=post&id=116579&key=user_uploads/2973429/b3467b52-ec9a-41b2-881c-6f84b0f0ba29)\n\n**the problem**\n\n* 97% of commercial properties are never inspected. it's too slow and too expensive to send someone.\n* so insurers rely on what they're told such as forms filled in by owners and brokers and half the time, at least one detail is wrong.\n* wrong info means wrong prices, fraud, and money lost. insured disaster losses passed $100B in 2025. in the US alone, insurers lose $36B a year to underpriced policies.\n\n**how it works**\n\n* give us a list of addresses, type one in, or click anywhere on the map\n* our AI reads satellite images, street-view, maps, public records, internal and live data\n* for each asset it tells you: what it really is, what hazards surround it, what changed, and whether it's worth inspecting\n* every asset gets a record that updates over time, and those records make the AI better at finding other risky ones\n* we set it up inside the insurer’s systems with our own engineers, so they get outcomes without hiring anyone\n\n**who am I** [@Maaz Sheikh](https://bookface.ycombinator.com/user/2973429)\n\n* I've been obsessed with maps since I was 6. I can draw the world map from memory\n* I was top 100 globally on GeoGuessr\n* modded video games and added location data to them as a teen, made money on mods\n* went to college at 17, studied Geomatics Engineering (CS + Geography)\n* hired at 19 to support decisions during wars and disasters using satellite imagery, worked on some of the largest crises of our time\n* went to the arctic to see if we can grow food where permafrost melts using drone imagery, lived in a container at -22°F\n* freelanced for large clients in insurance, energy and government\n\n[ageospatial.com](http://ageospatial.com)\n\n![uploaded image](/media/?type=post&id=116579&key=user_uploads/2973429/ed2be0a7-c6a8-4406-8120-da1b616fc0ad)\n\n![uploaded image](/media/?type=post&id=116579&key=user_uploads/2973429/e7f5d214-9e00-4ec2-b7f0-70bbde642b15)\n\n![uploaded image](/media/?type=post&id=116579&key=user_uploads/2973429/1abf4461-f8dc-405f-a184-300713a629a4)\n\n",
+      "created_at": "2026-09-29T16:00:00.089Z",
+      "total_vote_count": 1,
+      "company_slug": "ageospatial",
+      "company_name": "Ageospatial",
+      "company_website": "https://ageospatial.com/",
+      "company_batch": "Fall 2026",
+      "company_industry": "Fintech",
+      "company_id": 37468,
+      "author_name": "Maaz Sheikh",
+      "scraped_at": "2026-09-29T19:07:30.152Z",
+      "review_summary": {
+        "conformance_index": 68,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
     {
       "launch_id": 117007,
       "launch_slug": "URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free",

@@ -1729,7 +1729,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/agent-37",
     "batch": "Fall 2026",
     "one_liner": "Persistent sandboxes for agents like hermes, openclaw, claude code",
-    "description_combined": "Persistent sandboxes for agents like hermes, openclaw, claude code\n\n* Ready to Use Instantly: Skip the complex server setup. It comes pre loaded with top AI Agents (like Claude Code and Hermes) so your agents can start working immediately.\r\n\r\n* Keep Your Work Safe: Unlike other systems that delete everything when they finish a task, these sandboxes remember your files, code, and settings forever until you delete them.\r\n\r\n* Pay Only for What You Use: Stop paying for idle servers. You pay a tiny fee to store your files, but you only pay for compute power during the exact minutes your AI is actively running.\r\n\r\n* Zero Infrastructure Headaches: You don’t need to be a senior DevOps engineer or manage complex cloud networks. One simple command handles the entire backend for you.\r\n\r\n* Connect to Any App: Allow your AI agents to securely log into and interact with everyday tools like Slack, Gmail, and GitHub in just a few clicks.",
+    "description_combined": "Persistent sandboxes for agents like hermes, openclaw, claude code\n\n* Ready to Use Instantly: Skip the complex server setup. It comes pre loaded with top AI Agents (like Claude Code and Hermes) so your agents can start working immediately.\r\n\r\n* Keep Your Work Safe: Unlike other systems that delete everything when they finish a task, these sandboxes remember your files, code, and settings forever until you delete them.\r\n\r\n* Pay Only for What You Use: Stop paying for idle servers. You pay a tiny fee to store your files, but you only pay for compute power during the exact minutes your AI is actively running.\r\n\r\n* Zero Infrastructure Headaches: You don’t need to be a senior DevOps engineer or manage complex cloud networks. One simple command handles the entire backend for you.\r\n\r\n* Connect to Any App: Allow your AI agents to securely log into and interact with everyday tools like Slack, Gmail, and GitHub in just a few clicks.\n\nAgent sandboxes that are 94% lower compute cost \n\nHi everyone, I'm Vishnu, founder of Agent37.\n\nTL;DR: Agent37 hosts any agent harness (Hermes, OpenClaw, Claude Code, Codex, or your own) so you can give each customer their own agent in an isolated sandbox, for over 95% less than most sandbox providers charge.\n\n\n\n\nThe problem\n\nEvery team building an AI agent product needs the same thing underneath it: a private, always-on computer for each agent that keeps its files, wakes when someone messages it, and costs almost nothing while idle. Today there are two ways to get one, and both are bad.\n\nSome teams do it by hand. Chris Nguyen at ETEC+ used to spin up a VPS with a Hermes agent on it for each client and email it over, more than 30 times. Others build it themselves. Wes Merrill at Boon spent close to six months building a provisioning pipel",
     "industry_sub_vertical": "Persistent sandbox environments for AI agent deployment and execution",
     "canonical_vertical_id": "ai-infrastructure.agent-runtime",
     "vertical_id": "ai-infrastructure.agent-runtime",
@@ -1788,6 +1788,12 @@
     "directory_synced_at": "2026-09-15T17:55:45.406Z",
     "classified_at": "2026-09-15T17:55:45.406Z",
     "proposed_phenotype": null,
+    "launch_id": 117160,
+    "launch_url": "https://www.ycombinator.com/launches/UTg-agent37-host-any-agent-harness",
+    "launch_title": "Agent37: Host any agent harness",
+    "launch_created_at": "2026-09-29T17:00:00.120Z",
+    "launch_tagline": "Agent sandboxes that are 94% lower compute cost ",
+    "launch_evaluated_at": "2026-09-29T19:07:30.944Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -2307,7 +2313,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/ageospatial",
     "batch": "Fall 2026",
     "one_liner": "Helping insurance companies value risk on properties remotely.",
-    "description_combined": "Helping insurance companies value risk on properties remotely.",
+    "description_combined": "Helping insurance companies value risk on properties remotely.\n\nknow the assets that you insure in the physical world\n\nTL;DR: insurers cover buildings, land and infrastructure they've never seen. we look at every one of them from space and tell them what they're really insuring and how risky it is.\n\n\n\n\n\nthe problem\n\n* 97% of commercial properties are never inspected. it's too slow and too expensive to send someone.\n* so insurers rely on what they're told such as forms filled in by owners and brokers and half the time, at least one detail is wrong.\n* wrong info means wrong prices, fraud, and money lost. insured disaster losses passed $100B in 2025. in the US alone, insurers lose $36B a year to underpriced policies.\n\nhow it works\n\n* give us a list of addresses, type one in, or click anywhere on the map\n* our AI reads satellite images, street-view, maps, public records, internal and live data\n* for each asset",
     "industry_sub_vertical": "Property risk assessment data intake for insurance underwriting",
     "canonical_vertical_id": "insurance.uw-data-intake",
     "vertical_id": "insurance.uw-data-intake",
@@ -2365,6 +2371,12 @@
     "directory_synced_at": "2026-09-23T18:14:47.313Z",
     "classified_at": "2026-09-23T18:14:47.313Z",
     "proposed_phenotype": null,
+    "launch_id": 116579,
+    "launch_url": "https://www.ycombinator.com/launches/UKJ-ageospatial-pricing-the-risk-of-every-property-infrastructure-and-land-on-earth-from-satellites",
+    "launch_title": "Ageospatial - pricing the risk of every property, infrastructure and land on Earth from satellites",
+    "launch_created_at": "2026-09-29T16:00:00.089Z",
+    "launch_tagline": "know the assets that you insure in the physical world",
+    "launch_evaluated_at": "2026-09-29T19:07:30.944Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-05"
@@ -6553,6 +6565,72 @@
     "launch_evaluated_at": "2026-08-23T14:20:51.841Z",
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "archangel-health",
+    "name": "Archangel Health",
+    "website": "https://www.archangelhealth.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/archangel-health",
+    "batch": "Fall 2026",
+    "one_liner": "Infra to make AI safe enough to practice medicine",
+    "description_combined": "Infra to make AI safe enough to practice medicine\n\nArchangel Health builds the infrastructure to post-train and evaluate medical AI: RL environments inside real de-identified EHRs, physician-verified training data, and benchmarks that test clinical reasoning on hard cases. Frontier labs and medical AI companies use it today, and we&#x27;re now moving toward post-training open-source models for health systems on their own data and their own physicians&#x27; judgment",
+    "industry_sub_vertical": "Medical AI post-training and evaluation infrastructure for frontier labs and health systems",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent observability, evals, or safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "clinical_reasoning_benchmarking",
+      "rl_environment_generation",
+      "physician_verified_training_data",
+      "medical_model_safety_evaluation"
+    ],
+    "what_they_sell": "Infrastructure for post-training and evaluating medical AI models: RL environments built from de-identified EHR data, physician-verified training datasets, and clinical reasoning benchmarks that stress-test AI on hard medical cases. Enables frontier labs and medical AI companies to safely deploy models; expanding to support health systems fine-tuning open-source models on their own data.",
+    "ai_play": "Archangel solves the critical safety and validation gap in medical AI by providing domain-specific evaluation infrastructure. They generate synthetic RL environments from real clinical data (de-identified EHRs) and curate physician-verified training data, enabling AI labs to rigorously test clinical reasoning before deployment. This shifts medical AI from 'black-box model' to 'validated, benchmarked clinical tool,' reducing regulatory and liability risk.",
+    "who_pays": "Frontier AI labs (OpenAI, Anthropic, Google DeepMind), medical AI startups, health systems deploying AI internally",
+    "confidence": 0.78,
+    "rationale": "Archangel is primarily an evaluation and safety infrastructure play (agent-observability-evals: 0.75 match) — they build benchmarks, red-teaming environments, and compliance testing for medical AI models. Secondary fit is training-data-synthetic (0.65 match) because they generate RL environments and curate physician-verified datasets. The phenotype is NOT vertical-workflow-agent (they don't automate a clinical workflow for end-users) or biotech-rd-agent (they don't conduct research; they enable others to). The core value is trust, safety, and evaluation — classic observability-evals wedge. Confidence is 0.78 because the fit is strong but the secondary data-generation component is material enough to warrant mention.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [
+      "Health Tech"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2543069,
+        "full_name": "Tej Patel",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Archangel Health. Previously scaled SimCare AI (YC S24) from [XXX]K to [X]M ARR as Chief of Staff. AI Fellow at Define Ventures. Founded Hippocampi, deploying clinical AI agents in private-practice clinics. Led ML research at Cedars-Sinai, first-authoring a patent-pending GNN for hematoma prediction (IEEE). Published neuroimmunology research at CSUN on myelin-regenerating compounds. BS Neuroscience & Philosophy UC Berkeley.",
+        "linkedin_url": "https://www.linkedin.com/in/tej-patel-873b952a8/",
+        "twitter_url": "https://x.com/tej_xp",
+        "avatar_url": "/avatars/thumb/missing.png",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Archangel Health",
+          "href": "https://www.ycombinator.com/companies/archangel-health"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-29T19:06:44.453Z",
+    "classified_at": "2026-09-29T19:06:44.453Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "archer",
@@ -13775,6 +13853,90 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "boxesdev",
+    "name": "Boxes.dev",
+    "website": "https://boxes.dev",
+    "yc_profile_url": "https://www.ycombinator.com/companies/boxesdev",
+    "batch": "Fall 2026",
+    "one_liner": "Cloud development environments for AI coding",
+    "description_combined": "Cloud development environments for AI coding\n\nPort your development environment to the cloud. Give every coding agent on its own cloud computer, bring your Codex or Claude subscription, start agents from Slack and Linear, and manage them from your desktop, phone, or terminal.",
+    "industry_sub_vertical": "AI coding agent cloud runtime & environment orchestration",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Harness / Orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_runtime_provisioning",
+      "multi_agent_isolation",
+      "cloud_compute_abstraction",
+      "workflow_triggering"
+    ],
+    "what_they_sell": "Cloud-hosted development environments (sandboxed compute instances) where AI coding agents run autonomously. Each agent gets its own isolated cloud computer with configurable resources. Agents are triggered from Slack/Linear, managed via desktop/mobile/CLI, and can use customer-provided LLM subscriptions (Codex, Claude, etc.).",
+    "ai_play": "Solves the operational bottleneck of running multiple autonomous coding agents at scale. Provides reliable, cost-optimized runtime isolation, credential management, and lifecycle orchestration so teams can deploy and manage fleets of coding agents without managing infrastructure directly.",
+    "who_pays": "AI engineering teams, AI labs, and development teams building or deploying autonomous coding agents. Secondary: enterprises adopting agentic development workflows.",
+    "confidence": 0.78,
+    "rationale": "Boxes.dev is a runtime harness for AI agents — it provides the infrastructure layer (sandboxed cloud compute, agent lifecycle management, multi-agent orchestration, credential/subscription routing) that enables coding agents to run reliably and at scale. This is a classic agent-runtime-infra play: the company is not building the agents themselves, but the operational substrate agents run on. The Slack/Linear triggers and desktop/mobile management are orchestration UX, not the core value. Confidence is 0.78 (not higher) because the product description emphasizes 'development environments' and 'bring your own LLM,' which could suggest a developer tool for humans building agents rather than pure agent runtime infrastructure — but the core claim ('give every coding agent its own cloud computer') and the trigger/management model strongly indicate this is agent-runtime-focused.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "B2B",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 195662,
+        "full_name": "Nick Bushak",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder @ Boxes.dev. Before Boxes.dev, Nick founded Gem, a recruiting CRM used by most high growth tech companies, and led engineering teams at Facebook.",
+        "linkedin_url": "https://www.linkedin.com/in/nbushak",
+        "twitter_url": "https://x.com/nbushak",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c8077d76b0095c03374d14f85c0ef44ecef325d5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAGRJQEJPN%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190616Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH3Xzi1AxHc21LPmyGBC98Uptoabb4s6suSFpbsfpEFUAiEAwH3WLSYJjO5jxs1mfTnG5j1jfGWfXRG5QsqeK8V0%2Fucq5QMIUxAAGgwwMDYyMDE4MTEwNzIiDID70o53lEaWZ%2BN1SSrCA5yvcazYkNix8DOVNKxFucPkJe0AnoAUYgt3CShIaI%2FW4MQsgvrsQbw8x8l%2BcfIS8TAw6nVK2w9DGnSbOfWF9%2BdnPWNHvhAT2wa5YcOqap8gYRX75LtCMpzCQkXhIPp%2BWHmCqWhH8sxeYhRKETtZ%2B7cmV5ulNEc77mspZaM2Eosxvyiz7lKfqBIzQ3dfmeawsIFLpmC5xCzKpQjs%2BK4LXzqJn05OrC9MvNvjaKLulg3zohkh0nHoKMua15xHPGiI7%2FE%2BhhF5zK5gV7jCleqaegCg3GusKRIdV6WImntdObjNZeEhBZ3Km%2B6lYU3DIghGU%2BGcBV9rXbevZTHqXe8AgcEPsfeNsZplgMjkJkmLThHN%2F2fc98cmXV3xqTj1ju6HhS2tnr69ZVcElcTI%2B5XIZmGdoo%2FhVQSCf14kow5yuTjJnX42RP%2BAsqsOdY5bNLG%2BWHAH7Q0oMb6ny1Wur42V3%2F%2FoF4p98ZyseT7dratiBsNJbQObi1q%2FLjIkyM3252ncw3OPL5ZvyhdRGZbq4HB%2FyHCFE2utVbfqHDUvlDP1setRNpJKrtyOqeOuM8ojuoYkDSbfKhBY2RYC8AaQ8OBvgYEz2DCulfDVBjqlAfzcQQl%2BP2q9uxE6MuHjNpzUpNWhdtdcDO5pc8Hrg7wB1sDx6RAxAIUJbEKqvMfksGBXe55DW4LgVEDjUvz0r4p%2FBPsB5lBi2ACNXadLllME01ZzpuX%2BwVFTXD83jVQZEQFzT%2Fht3bSX0UFkxI593B7A%2Fx4oaX7lJWm75hMS8AqywMku3CNwz5b1iwrb6v0dRBJs4UOOib7CpTrXKSGtqWIBKmdV8w%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=606d2150ea87c1bbdf9d4b8c98b380011f5f7f10b769f79b68a346bd60431f81",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Boxes.dev",
+          "href": "https://www.ycombinator.com/companies/boxesdev"
+        }
+      },
+      {
+        "user_id": 295276,
+        "full_name": "Drew Regitsky",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Previously first engineer/employee at Gem (YC S17). MIT &#x27;10.",
+        "linkedin_url": "https://www.linkedin.com/in/drewregitsky",
+        "twitter_url": "https://x.com/drewregitsky",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6a55342e78c82eea0a6abb34451b7f5c184ca3d2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAGRJQEJPN%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190616Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIH3Xzi1AxHc21LPmyGBC98Uptoabb4s6suSFpbsfpEFUAiEAwH3WLSYJjO5jxs1mfTnG5j1jfGWfXRG5QsqeK8V0%2Fucq5QMIUxAAGgwwMDYyMDE4MTEwNzIiDID70o53lEaWZ%2BN1SSrCA5yvcazYkNix8DOVNKxFucPkJe0AnoAUYgt3CShIaI%2FW4MQsgvrsQbw8x8l%2BcfIS8TAw6nVK2w9DGnSbOfWF9%2BdnPWNHvhAT2wa5YcOqap8gYRX75LtCMpzCQkXhIPp%2BWHmCqWhH8sxeYhRKETtZ%2B7cmV5ulNEc77mspZaM2Eosxvyiz7lKfqBIzQ3dfmeawsIFLpmC5xCzKpQjs%2BK4LXzqJn05OrC9MvNvjaKLulg3zohkh0nHoKMua15xHPGiI7%2FE%2BhhF5zK5gV7jCleqaegCg3GusKRIdV6WImntdObjNZeEhBZ3Km%2B6lYU3DIghGU%2BGcBV9rXbevZTHqXe8AgcEPsfeNsZplgMjkJkmLThHN%2F2fc98cmXV3xqTj1ju6HhS2tnr69ZVcElcTI%2B5XIZmGdoo%2FhVQSCf14kow5yuTjJnX42RP%2BAsqsOdY5bNLG%2BWHAH7Q0oMb6ny1Wur42V3%2F%2FoF4p98ZyseT7dratiBsNJbQObi1q%2FLjIkyM3252ncw3OPL5ZvyhdRGZbq4HB%2FyHCFE2utVbfqHDUvlDP1setRNpJKrtyOqeOuM8ojuoYkDSbfKhBY2RYC8AaQ8OBvgYEz2DCulfDVBjqlAfzcQQl%2BP2q9uxE6MuHjNpzUpNWhdtdcDO5pc8Hrg7wB1sDx6RAxAIUJbEKqvMfksGBXe55DW4LgVEDjUvz0r4p%2FBPsB5lBi2ACNXadLllME01ZzpuX%2BwVFTXD83jVQZEQFzT%2Fht3bSX0UFkxI593B7A%2Fx4oaX7lJWm75hMS8AqywMku3CNwz5b1iwrb6v0dRBJs4UOOib7CpTrXKSGtqWIBKmdV8w%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=0a479ea67368839d99d430ab5f1b91e943ebc86fca7e37708505b882b11b0358",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Boxes.dev",
+          "href": "https://www.ycombinator.com/companies/boxesdev"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-29T19:06:25.535Z",
+    "classified_at": "2026-09-29T19:06:25.535Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "bramante",
     "name": "Bramante",
     "website": "https://www.bramantebio.com",
@@ -19072,6 +19234,118 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "clean",
+    "name": "Clean",
+    "website": "http://tryclean.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/clean",
+    "batch": "Fall 2026",
+    "one_liner": "We tell sellers exactly when a company is ready to buy.",
+    "description_combined": "We tell sellers exactly when a company is ready to buy.\n\nClean watches your market and finds your buyers from what companies actually do: customs shipments, permits, loans and supplier switches. Not just ads or web clicks.",
+    "industry_sub_vertical": "B2B sales intelligence & buyer intent detection via real-world company signals",
+    "canonical_vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_label": "Agent web context & data enrichment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-context-data",
+    "phenotype_primary_label": "Agent Context & Web/Data Enrichment API",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "data_access",
+    "ai_application": "context_retrieval",
+    "ai_application_patterns": [
+      "behavioral_intent_detection",
+      "structured_data_extraction",
+      "real_time_signal_aggregation",
+      "buyer_readiness_scoring"
+    ],
+    "what_they_sell": "B2B sales intelligence platform that monitors real-world company signals (customs shipments, permits, loans, supplier changes) to identify when prospects are ready to buy. Provides sellers with actionable buyer intent data and timing.",
+    "ai_play": "Deep learning models extract and correlate behavioral signals from unstructured data sources (regulatory filings, supply chain events, financial transactions) to predict buyer readiness with higher accuracy than traditional intent signals (web clicks, ads). AI transforms raw operational events into structured, scored buyer profiles.",
+    "who_pays": "Sales development teams, account executives, and revenue operations leaders at B2B SaaS and enterprise sales organizations seeking high-intent prospect lists.",
+    "confidence": 0.75,
+    "rationale": "Clean is primarily an agent-context-data play: it crawls, extracts, and structures real-world behavioral signals (customs, permits, loans, supplier switches) to feed into sales workflows. The deep learning component enriches raw data into actionable context. Secondary fit with research-terminal-intel (Bloomberg-style intelligence for sales teams). Not a vertical-workflow-agent because they don't automate the sales process itself—they provide enriched context/data that sellers consume. Not a horizontal-copilot because the product is data/intelligence, not a productivity multiplier. Confidence 0.75 due to strong data-enrichment fit but some ambiguity around whether they also provide agent-driven outreach automation.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Deep Learning",
+      "SaaS"
+    ],
+    "business_models": [
+      "BM-06"
+    ],
+    "team_size": 5,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2964872,
+        "full_name": "Pavan Kumar Naguvanahalli Yashavantha",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder @ Clean. 2x founder. Prev. Head of Community @ Cliqk, growing it to 10k+ users, 300k in revenue & 28M+ views. Enterprise Sales @ Cisco at 18. Ex. UCSD.",
+        "linkedin_url": "https://www.linkedin.com/in/pavankumarny",
+        "twitter_url": "https://x.com/PavanKumarNY",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1709bb7a17b250665f94ce6378d6e0285ab98aa5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADZG76J6O%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190625Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCP4YE7YAXzNBYlBKRUI7DXyWwbBmfEv8X8NI95cYwxdwIhANFQ5YrLErBzdyaKgwug5IaDl%2BTmxzB9lrA%2BpUH%2BYcVhKuUDCFQQABoMMDA2MjAxODExMDcyIgztgWOPQSCyXxcbfT8qwgNjG2FzM9hqpGUNBxDlEw0J81aMjarHd%2BHDnnRF417PMH8kbdn7ETGTqaK0ukiKILVONQ4%2FSTcdn3Wjp1Wga2cEoo%2BtVqGTEhhVKcJuLpEJsMTLTvclbevV%2BhLqelrE2mBF5guV6VBmmpnuCNFXYUhAhfWtnnDHJMofFD%2BZhQRWatyovdyOQNOGkrfphY%2FFld%2B6mbJTGilwaF2UxO%2FUZ%2BvPTJXxj6JhX7j1ODr8YEeURBL%2BCqjd7QYnWIstQVTXLLC%2FwKQhJn33FQwpU%2FBrj5AowhsYZDoRyZ9Cz0wZIfxXUOn%2B76fmqokzfOrmD3rJUZaXDxxOPtreTcVRiQv5agYT1%2Fu2c7feQfJxNlnLaq7Q0GkpX%2Fh74k%2FmtFL7QU8psgvltkRfQWyaobxzf2fSgw%2FwZD7cqmBioSPSBuhr7ZW%2FogvDv0gztFp2QHU6x8LXqmeF9BWuxvxkVwI3U1%2B1HJTuIIBmB86jow28JgH1u8vrl2z9ssj5Jzdxgq%2F4Awm7E%2BVAn7Sb30FLJyNOPn%2BauwG9XTxjxEtWaf%2Bsz5MAwD1pljloZaShHAF0SsqoxA466KkBe77gHKERlpWHWvVEWjZvHfIwsJXw1QY6pAFNJsPljy0XebA8RWwyRXug0B3xbcmReS4ySqSGLzmns6zmw5ud21afy4CLjggoX94AP3Wqq7QvwB4u3Em%2BrPwC9XhHjcp8jjC7WRwwZUO7TfFismg7CQT333Aerl4YD47KDxTlhO2cfA94kZpwKGjOOhm2eqoxjlL8EaM%2FC8WeT8rqdNXNUrC6Vpra%2FSLATGAkOmM%2BkfiLcRbugH6eKT9He7exyA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=fc71c323ce878e704f52d84a14c27d4f4bb851ce0538ba9eaf6bcd56e360f369",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Clean",
+          "href": "https://www.ycombinator.com/companies/clean"
+        }
+      },
+      {
+        "user_id": 3147882,
+        "full_name": "Tejas Gupta",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Founder at Clean (YC F26). Previously ML Engineer at Todd Agriscience, where he built the AI platform that anchored a $40M raise and served 6k+ farmers. Founded DocIQ (100+ users, 20 paying customers in weeks). Won HackHarvard 2025. CS @ Arizona State.",
+        "linkedin_url": "https://www.linkedin.com/in/tejasguptax7/",
+        "twitter_url": "https://x.com/TejasGupta67820",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/85d83627ad813d38c1c3bfdc662902b9cd6e673b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADZG76J6O%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190625Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCP4YE7YAXzNBYlBKRUI7DXyWwbBmfEv8X8NI95cYwxdwIhANFQ5YrLErBzdyaKgwug5IaDl%2BTmxzB9lrA%2BpUH%2BYcVhKuUDCFQQABoMMDA2MjAxODExMDcyIgztgWOPQSCyXxcbfT8qwgNjG2FzM9hqpGUNBxDlEw0J81aMjarHd%2BHDnnRF417PMH8kbdn7ETGTqaK0ukiKILVONQ4%2FSTcdn3Wjp1Wga2cEoo%2BtVqGTEhhVKcJuLpEJsMTLTvclbevV%2BhLqelrE2mBF5guV6VBmmpnuCNFXYUhAhfWtnnDHJMofFD%2BZhQRWatyovdyOQNOGkrfphY%2FFld%2B6mbJTGilwaF2UxO%2FUZ%2BvPTJXxj6JhX7j1ODr8YEeURBL%2BCqjd7QYnWIstQVTXLLC%2FwKQhJn33FQwpU%2FBrj5AowhsYZDoRyZ9Cz0wZIfxXUOn%2B76fmqokzfOrmD3rJUZaXDxxOPtreTcVRiQv5agYT1%2Fu2c7feQfJxNlnLaq7Q0GkpX%2Fh74k%2FmtFL7QU8psgvltkRfQWyaobxzf2fSgw%2FwZD7cqmBioSPSBuhr7ZW%2FogvDv0gztFp2QHU6x8LXqmeF9BWuxvxkVwI3U1%2B1HJTuIIBmB86jow28JgH1u8vrl2z9ssj5Jzdxgq%2F4Awm7E%2BVAn7Sb30FLJyNOPn%2BauwG9XTxjxEtWaf%2Bsz5MAwD1pljloZaShHAF0SsqoxA466KkBe77gHKERlpWHWvVEWjZvHfIwsJXw1QY6pAFNJsPljy0XebA8RWwyRXug0B3xbcmReS4ySqSGLzmns6zmw5ud21afy4CLjggoX94AP3Wqq7QvwB4u3Em%2BrPwC9XhHjcp8jjC7WRwwZUO7TfFismg7CQT333Aerl4YD47KDxTlhO2cfA94kZpwKGjOOhm2eqoxjlL8EaM%2FC8WeT8rqdNXNUrC6Vpra%2FSLATGAkOmM%2BkfiLcRbugH6eKT9He7exyA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f482727c4786686f8e2f113c346dbc2c08d7bbc57e61bf68516ec7f3adf41aa4",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Clean",
+          "href": "https://www.ycombinator.com/companies/clean"
+        }
+      },
+      {
+        "user_id": 2916283,
+        "full_name": "Pratham Patel",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Clean (YC F26). Previously built Lokus (5K+ users in 24 hours). Research intern at Dhirubhai Ambani University, where he built RL pipelines using GRPO that achieved 20% higher accuracy than PPO for medical LLM question-answering. At DAIICT, built an LLM self-correction framework using PPO that improved math reasoning accuracy by 60% on GSM8K benchmarks. BS Computer Science at Gannon University.",
+        "linkedin_url": "https://www.linkedin.com/in/prathampatel2618/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2ee5c460c9461319041cb066a292adbdf10cd021.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADZG76J6O%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190625Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCP4YE7YAXzNBYlBKRUI7DXyWwbBmfEv8X8NI95cYwxdwIhANFQ5YrLErBzdyaKgwug5IaDl%2BTmxzB9lrA%2BpUH%2BYcVhKuUDCFQQABoMMDA2MjAxODExMDcyIgztgWOPQSCyXxcbfT8qwgNjG2FzM9hqpGUNBxDlEw0J81aMjarHd%2BHDnnRF417PMH8kbdn7ETGTqaK0ukiKILVONQ4%2FSTcdn3Wjp1Wga2cEoo%2BtVqGTEhhVKcJuLpEJsMTLTvclbevV%2BhLqelrE2mBF5guV6VBmmpnuCNFXYUhAhfWtnnDHJMofFD%2BZhQRWatyovdyOQNOGkrfphY%2FFld%2B6mbJTGilwaF2UxO%2FUZ%2BvPTJXxj6JhX7j1ODr8YEeURBL%2BCqjd7QYnWIstQVTXLLC%2FwKQhJn33FQwpU%2FBrj5AowhsYZDoRyZ9Cz0wZIfxXUOn%2B76fmqokzfOrmD3rJUZaXDxxOPtreTcVRiQv5agYT1%2Fu2c7feQfJxNlnLaq7Q0GkpX%2Fh74k%2FmtFL7QU8psgvltkRfQWyaobxzf2fSgw%2FwZD7cqmBioSPSBuhr7ZW%2FogvDv0gztFp2QHU6x8LXqmeF9BWuxvxkVwI3U1%2B1HJTuIIBmB86jow28JgH1u8vrl2z9ssj5Jzdxgq%2F4Awm7E%2BVAn7Sb30FLJyNOPn%2BauwG9XTxjxEtWaf%2Bsz5MAwD1pljloZaShHAF0SsqoxA466KkBe77gHKERlpWHWvVEWjZvHfIwsJXw1QY6pAFNJsPljy0XebA8RWwyRXug0B3xbcmReS4ySqSGLzmns6zmw5ud21afy4CLjggoX94AP3Wqq7QvwB4u3Em%2BrPwC9XhHjcp8jjC7WRwwZUO7TfFismg7CQT333Aerl4YD47KDxTlhO2cfA94kZpwKGjOOhm2eqoxjlL8EaM%2FC8WeT8rqdNXNUrC6Vpra%2FSLATGAkOmM%2BkfiLcRbugH6eKT9He7exyA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=5c51af8926d69a7bbca04a401b3a310b2576293d238323df0632d7fbd0611db4",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Clean",
+          "href": "https://www.ycombinator.com/companies/clean"
+        }
+      },
+      {
+        "user_id": 3158345,
+        "full_name": "Clarissa Saputra",
+        "title": "Founder/CPO",
+        "is_active": true,
+        "bio": "Co-founder at Clean (YC F26). International Physics Olympiad (IPhO) and Asian Physics Olympiad (APhO). Prev. Ruangguru. AAAI 2026. Existential Robotics Lab.",
+        "linkedin_url": "https://www.linkedin.com/in/clarisssaans/",
+        "twitter_url": "https://x.com/0xcl4r",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/28e08248909d68b44f7f52a48e1856eca7f96faa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADZG76J6O%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190625Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCP4YE7YAXzNBYlBKRUI7DXyWwbBmfEv8X8NI95cYwxdwIhANFQ5YrLErBzdyaKgwug5IaDl%2BTmxzB9lrA%2BpUH%2BYcVhKuUDCFQQABoMMDA2MjAxODExMDcyIgztgWOPQSCyXxcbfT8qwgNjG2FzM9hqpGUNBxDlEw0J81aMjarHd%2BHDnnRF417PMH8kbdn7ETGTqaK0ukiKILVONQ4%2FSTcdn3Wjp1Wga2cEoo%2BtVqGTEhhVKcJuLpEJsMTLTvclbevV%2BhLqelrE2mBF5guV6VBmmpnuCNFXYUhAhfWtnnDHJMofFD%2BZhQRWatyovdyOQNOGkrfphY%2FFld%2B6mbJTGilwaF2UxO%2FUZ%2BvPTJXxj6JhX7j1ODr8YEeURBL%2BCqjd7QYnWIstQVTXLLC%2FwKQhJn33FQwpU%2FBrj5AowhsYZDoRyZ9Cz0wZIfxXUOn%2B76fmqokzfOrmD3rJUZaXDxxOPtreTcVRiQv5agYT1%2Fu2c7feQfJxNlnLaq7Q0GkpX%2Fh74k%2FmtFL7QU8psgvltkRfQWyaobxzf2fSgw%2FwZD7cqmBioSPSBuhr7ZW%2FogvDv0gztFp2QHU6x8LXqmeF9BWuxvxkVwI3U1%2B1HJTuIIBmB86jow28JgH1u8vrl2z9ssj5Jzdxgq%2F4Awm7E%2BVAn7Sb30FLJyNOPn%2BauwG9XTxjxEtWaf%2Bsz5MAwD1pljloZaShHAF0SsqoxA466KkBe77gHKERlpWHWvVEWjZvHfIwsJXw1QY6pAFNJsPljy0XebA8RWwyRXug0B3xbcmReS4ySqSGLzmns6zmw5ud21afy4CLjggoX94AP3Wqq7QvwB4u3Em%2BrPwC9XhHjcp8jjC7WRwwZUO7TfFismg7CQT333Aerl4YD47KDxTlhO2cfA94kZpwKGjOOhm2eqoxjlL8EaM%2FC8WeT8rqdNXNUrC6Vpra%2FSLATGAkOmM%2BkfiLcRbugH6eKT9He7exyA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d0205fda57963b09e817a20a59965f6df84e999c7e50521b6186abc1f6b1c7e7",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Clean",
+          "href": "https://www.ycombinator.com/companies/clean"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-29T19:06:35.301Z",
+    "classified_at": "2026-09-29T19:06:35.301Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-06"
+  },
+  {
     "slug": "clerked",
     "name": "Clerked",
     "website": "https://clerked.ai",
@@ -21988,6 +22262,102 @@
     "launch_evaluated_at": "2026-07-30T16:56:29.916Z",
     "vertical_normalize_confidence": 0.92,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "conus",
+    "name": "CONUS",
+    "website": "https://www.conus-med.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/conus",
+    "batch": "Fall 2026",
+    "one_liner": "The AI knowledge layer for medical devices",
+    "description_combined": "The AI knowledge layer for medical devices\n\nCONUS is the AI knowledge layer for surgery, connecting medical device manufacturers with hospitals. We bring product information, hospital protocols and medical research together, helping doctors and sales reps find answers in seconds.\r\n\r\nWe already work with leading manufacturers including Johnson & Johnson, Stryker and Zimmer Biomet. Our long-term ambition is to let hospitals select and order implants from all manufacturers on one platform: Amazon for implants, embedded in the surgical workflow.",
+    "industry_sub_vertical": "Surgical device selection & procurement workflow integration",
+    "canonical_vertical_id": "healthcare.medtech.hospital-procurement",
+    "vertical_id": "healthcare.medtech.hospital-procurement",
+    "vertical_label": "Hospital procurement & medical device contracting",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "domain-data-ontology",
+    "phenotype_primary_label": "Domain Data Ontology / Knowledge Layer",
+    "phenotype_family": "data_assets",
+    "value_wedge": "structured_knowledge",
+    "ai_application": "knowledge_representation",
+    "ai_application_patterns": [
+      "rag_medical_knowledge",
+      "product_protocol_matching",
+      "surgical_workflow_integration"
+    ],
+    "what_they_sell": "AI-powered knowledge layer that unifies medical device product information, hospital surgical protocols, and clinical research into a searchable, context-aware system. Enables surgeons and sales reps to find device compatibility, protocol compliance, and clinical evidence in seconds during surgical planning and procurement.",
+    "ai_play": "AI retrieval-augmented generation (RAG) system that ingests fragmented device specs, hospital protocols, and medical literature, then surfaces the most relevant product-protocol-evidence combinations in real-time. Reduces manual lookup time and improves device selection accuracy by embedding domain ontology (device taxonomy, surgical procedure mappings, compatibility rules) into the retrieval layer.",
+    "who_pays": "Medical device manufacturers (J&J, Stryker, Zimmer Biomet) as primary revenue; hospitals and surgical centers as secondary (eventual marketplace model).",
+    "confidence": 0.78,
+    "rationale": "CONUS is primarily a domain-data-ontology play: they're building a structured knowledge layer that canonicalizes device information, hospital protocols, and clinical research into a unified, queryable system. The AI application is RAG + semantic matching to surface relevant device-protocol pairs. Secondary phenotype is vertical-workflow-agent because the long-term vision (Amazon for implants embedded in surgical workflow) implies autonomous agent-driven procurement and device selection. However, current product is knowledge infrastructure, not yet autonomous workflow execution. Confidence is 0.78 (not higher) because the marketplace/autonomous ordering component is future-state; today they are primarily a knowledge layer vendor to device manufacturers.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Healthcare"
+    ],
+    "business_models": [
+      "BM-06"
+    ],
+    "team_size": 3,
+    "location": "Cologne, NRW, Germany",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3347806,
+        "full_name": "Vincent Paffrath",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Former PhD researcher on generative and agentic AI with ETH Zurich. Part of the core team driving GenAI adoption across Bosch, from strategy to company-wide rollout. Previously in healthcare strategy consulting.",
+        "linkedin_url": "https://www.linkedin.com/in/vincent-paffrath",
+        "twitter_url": "https://x.com/vincentpaffrath",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/37208f211b79d80cadf4e2809047690091e4af08.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADZG76J6O%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190654Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCP4YE7YAXzNBYlBKRUI7DXyWwbBmfEv8X8NI95cYwxdwIhANFQ5YrLErBzdyaKgwug5IaDl%2BTmxzB9lrA%2BpUH%2BYcVhKuUDCFQQABoMMDA2MjAxODExMDcyIgztgWOPQSCyXxcbfT8qwgNjG2FzM9hqpGUNBxDlEw0J81aMjarHd%2BHDnnRF417PMH8kbdn7ETGTqaK0ukiKILVONQ4%2FSTcdn3Wjp1Wga2cEoo%2BtVqGTEhhVKcJuLpEJsMTLTvclbevV%2BhLqelrE2mBF5guV6VBmmpnuCNFXYUhAhfWtnnDHJMofFD%2BZhQRWatyovdyOQNOGkrfphY%2FFld%2B6mbJTGilwaF2UxO%2FUZ%2BvPTJXxj6JhX7j1ODr8YEeURBL%2BCqjd7QYnWIstQVTXLLC%2FwKQhJn33FQwpU%2FBrj5AowhsYZDoRyZ9Cz0wZIfxXUOn%2B76fmqokzfOrmD3rJUZaXDxxOPtreTcVRiQv5agYT1%2Fu2c7feQfJxNlnLaq7Q0GkpX%2Fh74k%2FmtFL7QU8psgvltkRfQWyaobxzf2fSgw%2FwZD7cqmBioSPSBuhr7ZW%2FogvDv0gztFp2QHU6x8LXqmeF9BWuxvxkVwI3U1%2B1HJTuIIBmB86jow28JgH1u8vrl2z9ssj5Jzdxgq%2F4Awm7E%2BVAn7Sb30FLJyNOPn%2BauwG9XTxjxEtWaf%2Bsz5MAwD1pljloZaShHAF0SsqoxA466KkBe77gHKERlpWHWvVEWjZvHfIwsJXw1QY6pAFNJsPljy0XebA8RWwyRXug0B3xbcmReS4ySqSGLzmns6zmw5ud21afy4CLjggoX94AP3Wqq7QvwB4u3Em%2BrPwC9XhHjcp8jjC7WRwwZUO7TfFismg7CQT333Aerl4YD47KDxTlhO2cfA94kZpwKGjOOhm2eqoxjlL8EaM%2FC8WeT8rqdNXNUrC6Vpra%2FSLATGAkOmM%2BkfiLcRbugH6eKT9He7exyA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3c87b279e60f14abb7c58b5c2409f84c3857815a1d7c789dc603688733c4ac2d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "CONUS",
+          "href": "https://www.ycombinator.com/companies/conus"
+        }
+      },
+      {
+        "user_id": 3356259,
+        "full_name": "Maximilian Becker",
+        "title": "Founder/CPO",
+        "is_active": true,
+        "bio": "Industrial engineer and former AI researcher at ETH Zurich. Joined Cleansort as engineer #10 and helped scale it from prototype-stage startup to 50+ employees, building across hardware, manufacturing and automation software.",
+        "linkedin_url": "https://www.linkedin.com/in/maximilian-becker-koeln/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c28ba1ae4660614a8e46e2a6d647434c5ad18fb0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADZG76J6O%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190654Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCP4YE7YAXzNBYlBKRUI7DXyWwbBmfEv8X8NI95cYwxdwIhANFQ5YrLErBzdyaKgwug5IaDl%2BTmxzB9lrA%2BpUH%2BYcVhKuUDCFQQABoMMDA2MjAxODExMDcyIgztgWOPQSCyXxcbfT8qwgNjG2FzM9hqpGUNBxDlEw0J81aMjarHd%2BHDnnRF417PMH8kbdn7ETGTqaK0ukiKILVONQ4%2FSTcdn3Wjp1Wga2cEoo%2BtVqGTEhhVKcJuLpEJsMTLTvclbevV%2BhLqelrE2mBF5guV6VBmmpnuCNFXYUhAhfWtnnDHJMofFD%2BZhQRWatyovdyOQNOGkrfphY%2FFld%2B6mbJTGilwaF2UxO%2FUZ%2BvPTJXxj6JhX7j1ODr8YEeURBL%2BCqjd7QYnWIstQVTXLLC%2FwKQhJn33FQwpU%2FBrj5AowhsYZDoRyZ9Cz0wZIfxXUOn%2B76fmqokzfOrmD3rJUZaXDxxOPtreTcVRiQv5agYT1%2Fu2c7feQfJxNlnLaq7Q0GkpX%2Fh74k%2FmtFL7QU8psgvltkRfQWyaobxzf2fSgw%2FwZD7cqmBioSPSBuhr7ZW%2FogvDv0gztFp2QHU6x8LXqmeF9BWuxvxkVwI3U1%2B1HJTuIIBmB86jow28JgH1u8vrl2z9ssj5Jzdxgq%2F4Awm7E%2BVAn7Sb30FLJyNOPn%2BauwG9XTxjxEtWaf%2Bsz5MAwD1pljloZaShHAF0SsqoxA466KkBe77gHKERlpWHWvVEWjZvHfIwsJXw1QY6pAFNJsPljy0XebA8RWwyRXug0B3xbcmReS4ySqSGLzmns6zmw5ud21afy4CLjggoX94AP3Wqq7QvwB4u3Em%2BrPwC9XhHjcp8jjC7WRwwZUO7TfFismg7CQT333Aerl4YD47KDxTlhO2cfA94kZpwKGjOOhm2eqoxjlL8EaM%2FC8WeT8rqdNXNUrC6Vpra%2FSLATGAkOmM%2BkfiLcRbugH6eKT9He7exyA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=fa1a15ca6b7ad3e97c928028671204d40792df41ad83114a57acf65998ec3bf2",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "CONUS",
+          "href": "https://www.ycombinator.com/companies/conus"
+        }
+      },
+      {
+        "user_id": 3356311,
+        "full_name": "Alexander Schulz",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Electrical engineer from RWTH Aachen, Germany. Built high-speed electronics and embedded software for biomedical instruments at Miltenyi Biotec, one of Europe’s largest biotech companies scaled to 5,000+ employees.",
+        "linkedin_url": "https://www.linkedin.com/in/alexander-schulz-k%C3%B6ln/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d5c84862244b9555e4b8fe425b5c4b2c6eaad6bd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADZG76J6O%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190654Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCP4YE7YAXzNBYlBKRUI7DXyWwbBmfEv8X8NI95cYwxdwIhANFQ5YrLErBzdyaKgwug5IaDl%2BTmxzB9lrA%2BpUH%2BYcVhKuUDCFQQABoMMDA2MjAxODExMDcyIgztgWOPQSCyXxcbfT8qwgNjG2FzM9hqpGUNBxDlEw0J81aMjarHd%2BHDnnRF417PMH8kbdn7ETGTqaK0ukiKILVONQ4%2FSTcdn3Wjp1Wga2cEoo%2BtVqGTEhhVKcJuLpEJsMTLTvclbevV%2BhLqelrE2mBF5guV6VBmmpnuCNFXYUhAhfWtnnDHJMofFD%2BZhQRWatyovdyOQNOGkrfphY%2FFld%2B6mbJTGilwaF2UxO%2FUZ%2BvPTJXxj6JhX7j1ODr8YEeURBL%2BCqjd7QYnWIstQVTXLLC%2FwKQhJn33FQwpU%2FBrj5AowhsYZDoRyZ9Cz0wZIfxXUOn%2B76fmqokzfOrmD3rJUZaXDxxOPtreTcVRiQv5agYT1%2Fu2c7feQfJxNlnLaq7Q0GkpX%2Fh74k%2FmtFL7QU8psgvltkRfQWyaobxzf2fSgw%2FwZD7cqmBioSPSBuhr7ZW%2FogvDv0gztFp2QHU6x8LXqmeF9BWuxvxkVwI3U1%2B1HJTuIIBmB86jow28JgH1u8vrl2z9ssj5Jzdxgq%2F4Awm7E%2BVAn7Sb30FLJyNOPn%2BauwG9XTxjxEtWaf%2Bsz5MAwD1pljloZaShHAF0SsqoxA466KkBe77gHKERlpWHWvVEWjZvHfIwsJXw1QY6pAFNJsPljy0XebA8RWwyRXug0B3xbcmReS4ySqSGLzmns6zmw5ud21afy4CLjggoX94AP3Wqq7QvwB4u3Em%2BrPwC9XhHjcp8jjC7WRwwZUO7TfFismg7CQT333Aerl4YD47KDxTlhO2cfA94kZpwKGjOOhm2eqoxjlL8EaM%2FC8WeT8rqdNXNUrC6Vpra%2FSLATGAkOmM%2BkfiLcRbugH6eKT9He7exyA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3f79ada6faf2c7f59dc27e1f79facf116935185071104d87146a2a0e8451fb88",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "CONUS",
+          "href": "https://www.ycombinator.com/companies/conus"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-29T19:07:04.128Z",
+    "classified_at": "2026-09-29T19:07:04.128Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-06"
   },
   {
     "slug": "convexia",
@@ -38368,7 +38738,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/habu",
     "batch": "Fall 2026",
     "one_liner": "Like Crosby, but for real estate development",
-    "description_combined": "Like Crosby, but for real estate development\n\nHABU is an AI-native real estate development firm that helps real estate investors deploy capital to build housing faster, at lower cost, and with higher yield. \r\n\r\nWe&#x27;re building an internal AI-native operating system that completes 90%+ of development tasks at 95% faster processing speeds while delivering the same outcomes customers expect externally: high yield, low risk projects. We&#x27;re selling the outcome, not the inputs to the outcome. \r\n\r\nDevelopers are service providers for white-collar investors: they find land, construct buildings, and operate and sell them for a profit. Our customers don&#x27;t care how the projects are sourced or managed, only that they are completed on time and produce the forecasted returns. \r\n\r\nWe use agentic workflows, geospatial analysis and mapping, and development-specific workflow automation to manage the end-to-end process. The result is 5x more projects per FTE compared to a non-AI developer, 20% faster project schedules, and 10-15% lower total project costs. \r\n\r\nWe&#x27;re *not* long term property owners, strictly the service provider (fee/merchant developer).\r\n\r\n$160B was deployed into multifamily in 2025 and $534B into commercial real estate overall. Developers naturally have high operating margins and we are building to be the most operationally and capital efficient developer in the country. \r\n\r\nStarting first with multifamily in Phoenix and then expanding nationally.  ",
+    "description_combined": "Like Crosby, but for real estate development\n\nHABU is an AI-native real estate development firm that helps real estate investors deploy capital to build housing faster, at lower cost, and with higher yield. \r\n\r\nWe&#x27;re building an internal AI-native operating system that completes 90%+ of development tasks at 95% faster processing speeds while delivering the same outcomes customers expect externally: high yield, low risk projects. We&#x27;re selling the outcome, not the inputs to the outcome. \r\n\r\nDevelopers are service providers for white-collar investors: they find land, construct buildings, and operate and sell them for a profit. Our customers don&#x27;t care how the projects are sourced or managed, only that they are completed on time and produce the forecasted returns. \r\n\r\nWe use agentic workflows, geospatial analysis and mapping, and development-specific workflow automation to manage the end-to-end process. The result is 5x more projects per FTE compared to a non-AI developer, 20% faster project schedules, and 10-15% lower total project costs. \r\n\r\nWe&#x27;re *not* long term property owners, strictly the service provider (fee/merchant developer).\r\n\r\n$160B was deployed into multifamily in 2025 and $534B into commercial real estate overall. Developers naturally have high operating margins and we are building to be the most operationally and capital efficient developer in the country. \r\n\r\nStarting first with multifamily in Phoenix and then expanding nationally.  \n\nWe build apartment buildings 20% faster and 15% cheaper by running the entire development process on AI\n\nHello, World 👋 We're Bryan and Jun, co-founders of HABU.\n\nTL;DR: HABU is an AI-native real estate development firm that helps real estate investors deploy capital to build housing faster, at lower cost, and with higher yield. \n\nInstitutional Investors (investment firms, family offices, high-net-worth individuals) hire us to find land, construct an apartment building, operate it and then sell it. Every step of that process runs on an AI operating system we built ourselves instead of the legacy process of Excel files, PDFs, emails, and a surprisingly high amount of manual knowledge work that the rest of the industry still uses.\n\nWe are the developer. Not a SaaS product. The actual developer. We work for institutional investors to go build physical assets and we get paid to do it on their be",
     "industry_sub_vertical": "AI-native multifamily & commercial real estate development operations (land acquisition, permitting, construction management, asset disposition)",
     "canonical_vertical_id": "realestate.construction.field",
     "vertical_id": "realestate.construction.field",
@@ -38440,6 +38810,12 @@
     "directory_synced_at": "2026-09-28T20:22:21.914Z",
     "classified_at": "2026-09-28T20:22:21.914Z",
     "proposed_phenotype": null,
+    "launch_id": 117228,
+    "launch_url": "https://www.ycombinator.com/launches/UUm-habu-the-ai-native-real-estate-developer",
+    "launch_title": "HABU - The AI-Native Real Estate Developer",
+    "launch_created_at": "2026-09-29T18:00:00.173Z",
+    "launch_tagline": "We build apartment buildings 20% faster and 15% cheaper by running the entire development process on AI",
+    "launch_evaluated_at": "2026-09-29T19:07:30.944Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-04"
@@ -48854,6 +49230,89 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-01"
+  },
+  {
+    "slug": "lapel",
+    "name": "Lapel",
+    "website": "https://lapel.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/lapel",
+    "batch": "Spring 2025",
+    "one_liner": "Bringing hospitality to the internet.",
+    "description_combined": "Bringing hospitality to the internet.\n\nGreat service means knowing your customers and making every interaction count. Online, that gets harder as a company grows. Customer context is scattered across systems, leaving teams to piece it together.\r\n\r\nLapel unifies that data into a real-time picture of every account and helps teams turn what they know into coordinated action across the customer journey. The result is faster decisions, more proactive service, and interactions that feel more personal. We call it hospitality at scale.\r\n\r\nLearn more at lapel.com.",
+    "industry_sub_vertical": "Customer Success & Account Management Operations for B2B SaaS",
+    "canonical_vertical_id": "enterprise.support.customer",
+    "vertical_id": "enterprise.support.customer",
+    "vertical_label": "Customer support & contact center",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-context-infra",
+    "phenotype_primary_label": "Agent Context Infrastructure",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "data_access",
+    "ai_application": "context_retrieval",
+    "ai_application_patterns": [
+      "customer_data_unification",
+      "real_time_context_enrichment",
+      "workflow_coordination"
+    ],
+    "what_they_sell": "A unified customer context platform that aggregates fragmented customer data (CRM, support tickets, usage logs, interaction history) into a real-time, AI-queryable knowledge layer. Enables CS/sales/support teams to access a single source of truth for every account and coordinate proactive, personalized actions across the customer journey.",
+    "ai_play": "AI agents and copilots can query unified customer context to make faster, more informed decisions (e.g., identifying churn risk, recommending next actions, automating outreach). The platform solves the 'context explosion' problem: teams need rich customer context but can't manually stitch it together at scale. AI makes that stitching automatic and actionable.",
+    "who_pays": "Customer Success, Sales, and Support leaders at B2B SaaS companies seeking to improve retention, expansion, and service quality.",
+    "confidence": 0.72,
+    "rationale": "Lapel is primarily a context infrastructure play — unifying scattered customer data into a real-time, AI-ready format. This maps cleanly to agent-context-infra: they're solving the 'context explosion' problem by compressing and structuring customer data for agent/AI consumption. Secondary phenotype (vertical-agentic-workflow-saas) applies if they're also deploying autonomous agents to execute CS workflows (e.g., auto-outreach, churn prevention). The 'hospitality at scale' framing suggests they're enabling teams to act on unified context, which is the core value of context infrastructure. Not a pure vertical SaaS (they're not replacing the CS job) but a data/context layer that powers better CS decisions and potentially agentic workflows.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Customer Success",
+      "Sales",
+      "Customer Support",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 15,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 585552,
+        "full_name": "Nikolas Huebecker",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Building software that sets a new standard for service on the internet. Previously founded Onward (S23) and led the product team at Midjourney.",
+        "linkedin_url": "https://linkedin.com/in/nhuebecker",
+        "twitter_url": "https://twitter.com/nhuebecker",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ef44a20ef66e139d70f61bd9105335f3c81bb25e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABMQOIOUG%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190607Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHTIn%2BJ%2FzAomYcqmQ2W7Bg%2BP8fG8qF1dQ%2BIohlbzVtRZAiEA9GcDuHMfOEKE%2Bb1RS%2Fb%2BEOJj8iD7%2F2Zdmd6W7tXdsdEq5QMIVBAAGgwwMDYyMDE4MTEwNzIiDNbjU1z3ouhPMWS1TSrCA1APR2x7lw1wW3rPSJ1K%2FBs59kl2i7SGp3%2BL1Z8%2F8XIXx%2BGP0lgMD1qYz7prGxFb46d47c88yhmyB2DrCF4aswOG%2BbSex%2FYDYhnCRkixwc5IyoFCgor0CQdZpE6hHkORq%2Fk6KI4aXh9Go%2F0b93O0xoqAED3Mks%2FyePZGSW4reOGe46ZPkAc8OKts4dNceEiwpba78Rs%2Bv1CAG0Anba9UAiDvVM5jaipDHfCIwE2P7KBVAxDFPM0Bg5RYMm%2FtZA%2BW2p7cxCezVcS66qjmQOpjL72C%2BqCkx0tuQJr1JiE6IDRhurOGV3eM35%2BXqH6XT8LpLSUV5E64mnCtqN66c4GHHuVNDUPdtj8%2FgKP9iswmWOUmF1nbTJ%2FyLeANNyRrz1r50%2Bg%2BwkH2UYbR%2FD1Yb%2BDE7%2BacuhJbsLobU0ekt5%2BA8v9jNEjokr5HDLl51MfWDBIoSKtBmOM69foE5Z2IFT2jP5uAHA3mix%2BrChAqT66YWoIji8qOq9Ab9%2BlTZRyOe5YP2XFjqS4ZWopEcYpULwv6UAQwQUhMXWhNQEcE3uSmt%2FmC9A7LP%2BqW%2B1A6axv60vu6WzugSzphoPW3WWwGegZ2B4niFzCxlfDVBjqlAZeR6S3HtQoLw7PmPQeSaOFIBoZSJ%2BqUFiXz1np%2FVz3doIACKsmMcMjeBYdIroXctiSf2WWq7c33wU16JlTmQDTU79tpY3BD0D%2FZUaE4B99ZJLKtdrDFAvXDQYEfmk%2BzQhu6muJeFZRVcK50YPSqgRbuUDDoA1tkB2CHmmWDUV0guMoOWX7mL5AUQAQBIDqa%2F8OE0wjvacdVj76XqURD9Wpi8J%2Ba%2BQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=614cd6af2109dc041dd51b420bce090732da022b46da5685e5297c3f5208a252",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Lapel",
+          "href": "https://www.ycombinator.com/companies/lapel"
+        }
+      },
+      {
+        "user_id": 233084,
+        "full_name": "Coleman Oates",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Building software that sets a new standard for service on the internet. Previously founded Onward (S23) and scaled hospitality at Chick-fil-A.",
+        "linkedin_url": "https://linkedin.com/in/colemanoates",
+        "twitter_url": "https://twitter.com/colemanoates",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e3e5b52afcf936597f28bb647589e9b760495861.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABMQOIOUG%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190607Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHTIn%2BJ%2FzAomYcqmQ2W7Bg%2BP8fG8qF1dQ%2BIohlbzVtRZAiEA9GcDuHMfOEKE%2Bb1RS%2Fb%2BEOJj8iD7%2F2Zdmd6W7tXdsdEq5QMIVBAAGgwwMDYyMDE4MTEwNzIiDNbjU1z3ouhPMWS1TSrCA1APR2x7lw1wW3rPSJ1K%2FBs59kl2i7SGp3%2BL1Z8%2F8XIXx%2BGP0lgMD1qYz7prGxFb46d47c88yhmyB2DrCF4aswOG%2BbSex%2FYDYhnCRkixwc5IyoFCgor0CQdZpE6hHkORq%2Fk6KI4aXh9Go%2F0b93O0xoqAED3Mks%2FyePZGSW4reOGe46ZPkAc8OKts4dNceEiwpba78Rs%2Bv1CAG0Anba9UAiDvVM5jaipDHfCIwE2P7KBVAxDFPM0Bg5RYMm%2FtZA%2BW2p7cxCezVcS66qjmQOpjL72C%2BqCkx0tuQJr1JiE6IDRhurOGV3eM35%2BXqH6XT8LpLSUV5E64mnCtqN66c4GHHuVNDUPdtj8%2FgKP9iswmWOUmF1nbTJ%2FyLeANNyRrz1r50%2Bg%2BwkH2UYbR%2FD1Yb%2BDE7%2BacuhJbsLobU0ekt5%2BA8v9jNEjokr5HDLl51MfWDBIoSKtBmOM69foE5Z2IFT2jP5uAHA3mix%2BrChAqT66YWoIji8qOq9Ab9%2BlTZRyOe5YP2XFjqS4ZWopEcYpULwv6UAQwQUhMXWhNQEcE3uSmt%2FmC9A7LP%2BqW%2B1A6axv60vu6WzugSzphoPW3WWwGegZ2B4niFzCxlfDVBjqlAZeR6S3HtQoLw7PmPQeSaOFIBoZSJ%2BqUFiXz1np%2FVz3doIACKsmMcMjeBYdIroXctiSf2WWq7c33wU16JlTmQDTU79tpY3BD0D%2FZUaE4B99ZJLKtdrDFAvXDQYEfmk%2BzQhu6muJeFZRVcK50YPSqgRbuUDDoA1tkB2CHmmWDUV0guMoOWX7mL5AUQAQBIDqa%2F8OE0wjvacdVj76XqURD9Wpi8J%2Ba%2BQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=eeefb5dcdd2eec28b1a44d908a2cb2bcb177bcbb9c0046ce86cec176dfb7d694",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Lapel",
+          "href": "https://www.ycombinator.com/companies/lapel"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-29T19:06:16.183Z",
+    "classified_at": "2026-09-29T19:06:16.183Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "lapis",
@@ -60435,6 +60894,90 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
+  },
+  {
+    "slug": "neomatter",
+    "name": "Neomatter",
+    "website": "https://neomatter.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/neomatter",
+    "batch": "Fall 2026",
+    "one_liner": "AI that works for in-house legal teams",
+    "description_combined": "AI that works for in-house legal teams\n\nNeomatter connects to a company’s email, chat, and business systems and does the legal work before it reaches the legal team. It gathers context, applies company policies and past decisions, and presents the completed work to in-house counsel for approval.",
+    "industry_sub_vertical": "In-house legal operations & contract pre-processing automation",
+    "canonical_vertical_id": "enterprise.legal.contracts",
+    "vertical_id": "enterprise.legal.contracts",
+    "vertical_label": "Contract lifecycle & legal ops",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_context_enrichment",
+      "policy_application_automation",
+      "legal_document_triage",
+      "human_in_loop_approval"
+    ],
+    "what_they_sell": "End-user-facing SaaS product that deploys autonomous AI agents into in-house legal departments. Agents connect to email, chat, and business systems to autonomously triage, contextualize, and pre-process legal work (contract review, policy application, decision synthesis) before presenting to in-house counsel for final approval.",
+    "ai_play": "AI agents reduce legal team toil by automating pre-work: gathering context from multiple systems, applying company policies and precedent, and structuring information for counsel review. Agents learn from past decisions and company-specific legal frameworks, enabling faster turnaround and higher consistency without replacing human judgment on final decisions.",
+    "who_pays": "In-house legal teams and general counsel at mid-market and enterprise companies seeking to increase throughput and reduce manual legal operations work.",
+    "confidence": 0.82,
+    "rationale": "Neomatter is a vertical SaaS product deployed directly to end-user legal teams (not a tool sold to legal vendors). The core value is autonomous agent execution of repetitive legal workflows (triage, context gathering, policy application) with human approval as the final gate. This matches vertical-agentic-workflow-saas: vertical focus (legal), autonomous agent execution, and integration with domain-specific tools (email, chat, business systems). Secondary phenotype agent-context-infra applies because the agents' primary function is enriching raw communications with structured legal context (policies, precedent, company decisions) before counsel review. High confidence due to clear vertical focus, agentic autonomy, and human-in-loop approval model.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Legal"
+    ],
+    "yc_tags": [
+      "SaaS",
+      "B2B",
+      "Legal"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1633544,
+        "full_name": "Luke Wagner",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Cancelled my plans for med school to move to San Francisco and co-found Neomatter (F26).",
+        "linkedin_url": "https://linkedin.com/in/lukedwagner",
+        "twitter_url": "https://x.com/lukedwagner12",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9a2c49f5763a3e6526cc53dbfe11bf14250aef0c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKXPYUXFS%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190644Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGZuZwhKAiqpLryHPKQIVZa0e4gIF5g3ZfUgUJN8HklAAiBNAXA0wZiUZ%2FzGnwfKIMmpUw7OZnmsO%2Bq8gTIJq6nBLirlAwhUEAAaDDAwNjIwMTgxMTA3MiIMmerNj0bi7coRYkpgKsIDO0ft2R6fExBYsCwU6CQeVQPOMUbr12hDIudN%2Fr5tMIMn2nXkEgQR7ynmKtjdHs38gZoXQCmbiC2e1f0OT18odDPzXkgzU0CpJkzptH4s%2B4amu%2Fr2T1uYd2qJ9ykAmtmUpRzc5cP83P%2Fg0eyRqniVAE49MwXYELUszdc052i3jWlJbevM6hMmZnr0JaTrVtjN5PXuomRixzfcOp%2BD0F9B7sy5zKNmADcJjVOrbgMgOtTV2JZ7a8rd8zRqRrqfqTkyxoDccIXEn%2B%2BsQrLyEtWkPS0XOlWf%2FONRUCBHK%2FTzypHwkPPFBPFffkeZ9COClZ2K6p9owk08DsJ99qyIC3ooy7CAiKnaMMRAlxbs5VYjVL2JfK7gB1HPct0ew9o1ZyZGTGMA%2BusQulBiJxuWnoaAx30%2F1hIThaXTh9T%2FUU7HVefombFsCYyHl3NfbrXtzm7Fu5TZOchPq8Gy3fzNFUYSKTnMo20v%2BUnTaLtgtp90LPQ%2F5WykmjLp7407OEBtkUIwFflJK4rK%2FlHTGWXVq5PIwNEyaGq2JxzVdatIZ3jBR71YwxpTbzK1vP4xsCj%2Beos39moZia1GvOjRbe36f%2ByrQzfPMLCV8NUGOqYBZq%2B2lZ7MKm7eMMxy0m9FcxRHeLO1IgF0pg8J1uviqpad5Q5Z81oPfewHhrcfECv6DdMdMw4TAMl59Vj6f78TmAgXIzWJgLGqP8zBuRxqOyXTT1d2vJofI2jlwBA6%2FR8n2%2FRuQOfjULAOP38pjbg2wl6pdb3s3OzQRq3VnkuYjyfbCszBZo8Maf4FxAfIBMQE4os6p7e%2BDsd5Bw2KoOf2nHOdxDG20Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=74c72023c2608df19460e12c8edcfe6e7edc188d2054b467b1a4af8897d8dbf8",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Neomatter",
+          "href": "https://www.ycombinator.com/companies/neomatter"
+        }
+      },
+      {
+        "user_id": 1374397,
+        "full_name": "Luke Mainwaring",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder and CTO at Neomatter, Inc. Previously CTO at DAHLIA Intelligence where we built an agentic personal assistant for students. BCS in Computer Science, dropped out.",
+        "linkedin_url": "https://linkedin.com/in/luke-mainwaring-850a34203",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/76cc9fa283e84cee7b035d8b118d6292ad7d445c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAKXPYUXFS%2F20260929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260929T190644Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGZuZwhKAiqpLryHPKQIVZa0e4gIF5g3ZfUgUJN8HklAAiBNAXA0wZiUZ%2FzGnwfKIMmpUw7OZnmsO%2Bq8gTIJq6nBLirlAwhUEAAaDDAwNjIwMTgxMTA3MiIMmerNj0bi7coRYkpgKsIDO0ft2R6fExBYsCwU6CQeVQPOMUbr12hDIudN%2Fr5tMIMn2nXkEgQR7ynmKtjdHs38gZoXQCmbiC2e1f0OT18odDPzXkgzU0CpJkzptH4s%2B4amu%2Fr2T1uYd2qJ9ykAmtmUpRzc5cP83P%2Fg0eyRqniVAE49MwXYELUszdc052i3jWlJbevM6hMmZnr0JaTrVtjN5PXuomRixzfcOp%2BD0F9B7sy5zKNmADcJjVOrbgMgOtTV2JZ7a8rd8zRqRrqfqTkyxoDccIXEn%2B%2BsQrLyEtWkPS0XOlWf%2FONRUCBHK%2FTzypHwkPPFBPFffkeZ9COClZ2K6p9owk08DsJ99qyIC3ooy7CAiKnaMMRAlxbs5VYjVL2JfK7gB1HPct0ew9o1ZyZGTGMA%2BusQulBiJxuWnoaAx30%2F1hIThaXTh9T%2FUU7HVefombFsCYyHl3NfbrXtzm7Fu5TZOchPq8Gy3fzNFUYSKTnMo20v%2BUnTaLtgtp90LPQ%2F5WykmjLp7407OEBtkUIwFflJK4rK%2FlHTGWXVq5PIwNEyaGq2JxzVdatIZ3jBR71YwxpTbzK1vP4xsCj%2Beos39moZia1GvOjRbe36f%2ByrQzfPMLCV8NUGOqYBZq%2B2lZ7MKm7eMMxy0m9FcxRHeLO1IgF0pg8J1uviqpad5Q5Z81oPfewHhrcfECv6DdMdMw4TAMl59Vj6f78TmAgXIzWJgLGqP8zBuRxqOyXTT1d2vJofI2jlwBA6%2FR8n2%2FRuQOfjULAOP38pjbg2wl6pdb3s3OzQRq3VnkuYjyfbCszBZo8Maf4FxAfIBMQE4os6p7e%2BDsd5Bw2KoOf2nHOdxDG20Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c92e8f2cdc907a2b5c56ae45601c3fa31ce789cdc3c26e087601f9db12fadb4c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Neomatter",
+          "href": "https://www.ycombinator.com/companies/neomatter"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-29T19:06:54.601Z",
+    "classified_at": "2026-09-29T19:06:54.601Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "neoncoral",
@@ -81491,7 +82034,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/runanywhere",
     "batch": "Winter 2026",
     "one_liner": "The default way of running on-device AI at Scale",
-    "description_combined": "The default way of running on-device AI at Scale\n\nEdge AI is inevitable, but shipping it is painful: every device class behaves differently, runtimes vary, models are huge, and performance collapses under memory/power constraints. RunAnywhere turns that into an enterprise-ready workflow: one SDK to run models on-device, plus a control plane to manage models, enforce policies, and measure outcomes across thousands of devices.",
+    "description_combined": "The default way of running on-device AI at Scale\n\nEdge AI is inevitable, but shipping it is painful: every device class behaves differently, runtimes vary, models are huge, and performance collapses under memory/power constraints. RunAnywhere turns that into an enterprise-ready workflow: one SDK to run models on-device, plus a control plane to manage models, enforce policies, and measure outcomes across thousands of devices.\n\nOpen-weight frontier models at real-time speed for voice and agent products, live on day one. Serverless, BYOC or on-prem.\n\nHi, we're Sanchit and Shubham, co-founders of RunAnywhere (W26), and we're launching Wally: our inference stack for open frontier models, hosted on our GPUs or deployed on yours.\n\n\n\nTL;DR: Wally serves GLM-5.3 Flash at 380 tokens per second with a 274 ms first token, faster than any endpoint on Artificial Analysis (Sep 28, 2026). New models land on day zero: Xiaomi's MiMo-V2.6-Pro was ready to serve about 8 hours after its weights dropped, and runs at 3x the speed of Xiaomi's own API (Artificial Analysis, Sep 21, 2026). The same stack deploys on-prem/BYOC at the same speed. Sign up and get $5 in free credits.\n\n## The problem\n\nFrontier models are slow and expensive, and you feel it most in products that run a model in a loop. A voice agent has a few hundred milliseconds before a turn feels ",
     "industry_sub_vertical": "Edge AI runtime & on-device model orchestration platform",
     "canonical_vertical_id": "compute.edge-gpu-deployment",
     "vertical_id": "compute.edge-gpu-deployment",
@@ -81538,6 +82081,12 @@
       "vertical_id": "ai-infrastructure.agent-runtime",
       "industry_sub_vertical": "Edge AI runtime & on-device model orchestration platform"
     },
+    "launch_id": 117440,
+    "launch_url": "https://www.ycombinator.com/launches/UYC-wally-by-runanywhere-the-fastest-inference-for-open-frontier-models",
+    "launch_title": "Wally by RunAnywhere: The fastest inference for open frontier models",
+    "launch_created_at": "2026-09-29T18:59:15.687Z",
+    "launch_tagline": "Open-weight frontier models at real-time speed for voice and agent products, live on day one. Serverless, BYOC or on-prem.",
+    "launch_evaluated_at": "2026-09-29T19:07:30.944Z",
     "vertical_normalize_confidence": 0.92,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-03"
