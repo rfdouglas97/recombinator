@@ -1,7 +1,76 @@
 {
-  "updated_at": "2026-09-29T19:07:30.944Z",
-  "count": 1325,
+  "updated_at": "2026-09-30T18:50:54.442Z",
+  "count": 1328,
   "launches": [
+    {
+      "launch_id": 117439,
+      "launch_slug": "UYB-precip-know-exactly-when-it-ll-rain-down-to-the-minute",
+      "launch_url": "https://www.ycombinator.com/launches/UYB-precip-know-exactly-when-it-ll-rain-down-to-the-minute",
+      "title": "Precip - Know exactly when it'll rain, down to the minute",
+      "tagline": "The most accurate rain forecast in the US. 85% better than Apple Weather.",
+      "body": "**Hey, we're Jesse and Michael. We were sick of weather apps being wrong so we built a better one.**\n\nToday we're launching the next iteration of Precip. It’s anchored on our own minute-by-minute rainfall forecast which is the most accurate in the US. \n\n<https://youtu.be/q2jSqBh8sk4>\n\nIt all started with a gap most people don't know exists: accurate weather history. \n\nWe first ran into it a decade ago, while building a farming data-science startup in YC. \n\nMost weather providers just show you the last forecast and call it history. \n\nWe do it differently. \n\nWe use high-resolution radar to measure what actually fell. \n\nThe result is 60% better rainfall measurements than just using NOAA's HRRR analysis.\n\nToday we're introducing the next evolution of Precip: our own minute-by-minute rainfall forecast. Instead of a false alarm about rain that never shows up, or getting drenched without warning, Precip tells you when the storm will hit your precise location, how intense it'll be, and how long it'll last, right on your lock screen.\n\nAnd it's not just guessing. Our benchmarks show Precip's minute-by-minute forecast is the most accurate in the US by a large margin: 85% more accurate than Apple Weather and 52% more accurate than Google Weather.\n\n![uploaded image](/media/?type=post&id=117439&key=user_uploads/5724/e3eba11a-751f-45a7-9402-4faafee56141)\n\nHere's what we found doing the research: There are dozens of published \"state of the art\" models that couldn't beat simple, non-deep-learning approaches, even ones from journals like Nature. None of the \"foundation model\" approaches shipped by the big players worked either. \n\nThe reason is twofold: low-quality training data (this is why we had to start with the most accurate history) and the wrong model architecture for this specific problem.\n\nSo if you're like us and don't want to get caught in the rain, download Precip: the first truly exceptional weather app since we lost DarkSky. <https://link.precip.ai/get-precip>\n\nAnd if you're building your own product and want the best weather data, check out our API where you can pull data directly or connect your tools via MCP. <https://api-docs.precip.ai>",
+      "created_at": "2026-09-30T18:31:29.713Z",
+      "total_vote_count": 4,
+      "company_slug": "precip",
+      "company_name": "Precip",
+      "company_website": "https://precip.ai",
+      "company_batch": "Winter 2024",
+      "company_industry": "Consumer",
+      "company_id": 29247,
+      "author_name": "Jesse Vollmar",
+      "scraped_at": "2026-09-30T18:50:23.414Z",
+      "review_summary": {
+        "conformance_index": 54,
+        "predictability_band": "surprise",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 117458,
+      "launch_slug": "UYU-ace-from-automat-it-s-instinct-but-for-work",
+      "launch_url": "https://www.ycombinator.com/launches/UYU-ace-from-automat-it-s-instinct-but-for-work",
+      "title": "Ace from Automat: it's instinct, but for work",
+      "tagline": "Hire an AI teammate with its own computer, phone number, inbox, and logins. It works inside the tools you already use and hands back finished work, not status updates.",
+      "body": "Hi! Lucas here from Automat. Stoked to share what the team's been heads-down on: Ace. It's instinct, but for work. **The TL;DR: you can now hire an AI teammate.**\n\nEvery team we talk to wants AI teammates, but doesn't know how to actually put one to work. Maybe you've tried homebrewing OpenClaw or Hermes. The two usual options both whiff: traditional automation (UiPath) makes you sign up for a months-long integration project before it does one useful thing, and AI \"assistants\" hand you a wall of text, and you still go do the work yourself.\n\n**Ace is different.** You onboard it like any new hire, and it shows up where the work happens:\n\n• Forward it an email or cc its own inbox, and the draft lands in your Drive with the judgment calls left as comments.\n\n• @Ace in Slack after a call, and the summary + action items land on the opportunity.\n\n• Text it between meetings (\"move Thursday to Friday and tell them why\"), and it updates the invite, emails everyone, and confirms.\n\n• Ping it in a doc comment, or have it make a call on its own line.\n\nWhat comes back is finished work: CRM updated, email sent, invoice reconciled. When it hits a real fork in the road, it hands you the open questions instead of guessing.\n\n**Why trust it?** We spent two years automating high-volume work in mortgage, lending, and insurance, where a wrong answer is a compliance problem. Ace pairs a deterministic engine for must-be-identical work with AI for the fuzzy stuff. Every run is logged step by step, you set what needs approval, and you can revoke access like any employee's. SOC 2, encrypted credentials, role-based access.\n\n\"I really tried hard not to like this product, and I'm in love.\" — Asa Block, COO, Near Space Labs\n\n\"It's a no-brainer… Monday to Friday you won't believe how much more stuff you get done.\" — Jack Miller, President &amp; CEO, T3 Sixty\n\n## Our asks 🙏\n\n• Try Ace: One month free with unlimited usage for the YC community only. Sign up here:(<https://runautomat.com/workforce>) Use the promo code: ACEYC30\n\n• Intros: Know a team drowning in admin across a dozen systems? Send them our way.\n\n• We're hiring! <https://runautomat.com/careers#roles>",
+      "created_at": "2026-09-30T16:33:11.033Z",
+      "total_vote_count": 0,
+      "company_slug": "automat",
+      "company_name": "Automat",
+      "company_website": "https://www.runautomat.com/",
+      "company_batch": "Winter 2023",
+      "company_industry": "B2B",
+      "company_id": 28414,
+      "author_name": "Lucas Ochoa",
+      "scraped_at": "2026-09-30T18:50:23.414Z",
+      "review_summary": {
+        "conformance_index": 53,
+        "predictability_band": "surprise",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 117462,
+      "launch_slug": "UYY-networkocean-floating-solar-data-centers",
+      "launch_url": "https://www.ycombinator.com/launches/UYY-networkocean-floating-solar-data-centers",
+      "title": "NetworkOcean: Floating solar data centers",
+      "tagline": "We build floating solar data centers to cut time-to-power by 10x",
+      "body": "### **TLDR:** \n\nFloating solar will soon be the fastest, most sustainable way to deploy data centers. Bypass interconnection queues, HV equipment delays, turbine backlogs, and public moratoriums. Our 2030 target is 1 GW/wk.\n\n#### Launch video:\n<https://www.youtube.com/watch?v=KaDyk7WOpzk>\n\n#### Whitepaper:\n<https://networkocean.io/whitepaper>\n\nSolar is already at 700 GW/yr scale. Solar is the only technology that can match AGI timelines. \n\n![uploaded image](/media/?type=post&id=117462&key=user_uploads/1647914/857054e6-c943-465f-83b4-7aaff5634538)\n\nLast week, NetworkOcean made history as the 1st to run a customer AI workload from the ocean, powered by solar.\\\n\\\nWe went from paper to deployed in the water in 53 days.\n\n#### Asks:\n\nShare the launch on X: <https://x.com/SamMendel00/status/2104964421474820352?s=20>\n\nAnd on LinkedIn: <https://lnkd.in/p/g5nDJi4g>\n\nAnd share the NetworkOcean showcase tomorrow (9/29/26) to relevant investors and founders:\n\n<https://luma.com/yjz5lw0r>\n\n \n\n_ad mare_\n\n_founders@networkocean.io_",
+      "created_at": "2026-09-30T00:24:09.713Z",
+      "total_vote_count": 118,
+      "company_slug": "networkocean",
+      "company_name": "NetworkOcean",
+      "company_website": "https://networkocean.io/",
+      "company_batch": "Summer 2024",
+      "company_industry": "Industrials",
+      "company_id": 29663,
+      "author_name": "Eric Kim",
+      "scraped_at": "2026-09-30T18:50:23.414Z",
+      "review_summary": {
+        "conformance_index": 34,
+        "predictability_band": "surprise",
+        "verdict": "non_conforming"
+      }
+    },
     {
       "launch_id": 117440,
       "launch_slug": "UYC-wally-by-runanywhere-the-fastest-inference-for-open-frontier-models",

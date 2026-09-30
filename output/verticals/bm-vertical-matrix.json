@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-29T19:07:31.585Z",
+  "generated_at": "2026-09-30T18:50:55.386Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1519,
-    "mapped_verticals": 246,
-    "observed_cells": 492,
+    "assignment_count": 1529,
+    "mapped_verticals": 247,
+    "observed_cells": 494,
     "total_verticals": 525,
-    "gap_candidates": 839
+    "gap_candidates": 838
   },
   "observed_cells": [
     {
@@ -101,6 +101,7 @@
         "trelium",
         "truffle-ai",
         "ufoai",
+        "useterse",
         "vespper",
         "wato",
         "zatanna"
@@ -261,6 +262,7 @@
         "qokedas",
         "raycaster",
         "refresh",
+        "tensortest",
         "the-llm-data-company",
         "trim",
         "velvet",
@@ -393,6 +395,7 @@
         "neoncoral",
         "parrot",
         "pingo",
+        "precip",
         "remix-3",
         "snap-poker",
         "tegore",
@@ -468,6 +471,7 @@
       "vertical_label": "Agent runtime & orchestration",
       "sector_id": "ai-infrastructure",
       "companies": [
+        "automat",
         "clarm",
         "closera",
         "dock",
@@ -974,6 +978,23 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "baud",
+        "dipole-labs",
+        "frontier-computing",
+        "lamb-labs",
+        "networkocean",
+        "partcl",
+        "powermatrix",
+        "sygaldry-technologies"
+      ]
+    },
+    {
       "business_model": "BM-06",
       "business_model_label": "Data / intelligence product",
       "vertical_id": "ai-infrastructure.agent-context-web",
@@ -990,22 +1011,6 @@
       ]
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "baud",
-        "dipole-labs",
-        "frontier-computing",
-        "lamb-labs",
-        "partcl",
-        "powermatrix",
-        "sygaldry-technologies"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.qa-testing",
@@ -1019,6 +1024,22 @@
         "propolis",
         "testerarmy",
         "velt"
+      ]
+    },
+    {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "ai-infrastructure.training-data",
+      "vertical_label": "Training & eval data generation",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "datoric",
+        "deepreach-inc",
+        "design-arena",
+        "dydema",
+        "human-archive",
+        "sciloop",
+        "shofo"
       ]
     },
     {
@@ -1081,21 +1102,6 @@
         "edotenv",
         "gutgutgoose",
         "monte"
-      ]
-    },
-    {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "ai-infrastructure.training-data",
-      "vertical_label": "Training & eval data generation",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "datoric",
-        "deepreach-inc",
-        "design-arena",
-        "human-archive",
-        "sciloop",
-        "shofo"
       ]
     },
     {
@@ -2121,6 +2127,18 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.provider.clinical-documentation",
+      "vertical_label": "Clinical documentation & coding optimization",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "adentris",
+        "ascenix",
+        "voquill"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.provider.prior-authorization",
       "vertical_label": "Prior authorization & utilization review",
       "sector_id": "healthcare-life-sciences",
@@ -2308,6 +2326,18 @@
         "asterlab",
         "bryel",
         "induction-labs"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "robotics.quality-inspection",
+      "vertical_label": "Robotic quality inspection & defect detection",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "advanced-metal-research",
+        "hundred",
+        "salem-robotics-inc"
       ]
     },
     {
@@ -2920,17 +2950,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.provider.clinical-documentation",
-      "vertical_label": "Clinical documentation & coding optimization",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "adentris",
-        "voquill"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.provider.credentialing",
       "vertical_label": "Provider credentialing & payer enrollment",
       "sector_id": "healthcare-life-sciences",
@@ -3234,17 +3253,6 @@
       "companies": [
         "mbodi-ai",
         "zeon-systems"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "robotics.quality-inspection",
-      "vertical_label": "Robotic quality inspection & defect detection",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "advanced-metal-research",
-        "salem-robotics-inc"
       ]
     },
     {
@@ -4197,6 +4205,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "legalos"
+      ]
+    },
+    {
+      "business_model": "BM-12",
+      "business_model_label": "Open source + commercial",
+      "vertical_id": "enterprise.marketing.growth",
+      "vertical_label": "B2B growth marketing automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "openseo"
       ]
     },
     {
@@ -5377,6 +5395,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "stormy-ai"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "marketing.sales-enablement",
+      "vertical_label": "Sales enablement & collateral management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "moda-2"
       ]
     },
     {

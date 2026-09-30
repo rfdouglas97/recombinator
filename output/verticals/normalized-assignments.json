@@ -7622,6 +7622,89 @@
     "primary_bm": "BM-01"
   },
   {
+    "slug": "ascenix",
+    "name": "Ascenix",
+    "website": "https://www.ascenix.co/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/ascenix",
+    "batch": "Fall 2026",
+    "one_liner": "Clinical intelligence layer for skilled nursing facilities.",
+    "description_combined": "Clinical intelligence layer for skilled nursing facilities.\n\nAscenix is the all-in-one incident platform that turns unstructured EHR data into automated reporting, reimbursement recovery, compliance flagging, and clinical insight. We’re already live in 50 homes and scaling across North America. We connect to systems like PointClickCare and analyze the notes nurses already write, adapting to any note structure and any compliance or reporting requirement.\r\n\r\nWe help teams identify documentation gaps, uncover missed revenue opportunities and spot emerging resident risks, while reducing time spent reviewing charts and building spreadsheets. Our goal is to improve residents’ quality of life by helping care homes reach their full clinical, financial and operational potential.",
+    "industry_sub_vertical": "Skilled nursing facility clinical documentation & reimbursement optimization",
+    "canonical_vertical_id": "healthcare.provider.clinical-documentation",
+    "vertical_id": "healthcare.provider.clinical-documentation",
+    "vertical_label": "Clinical documentation & coding optimization",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "ehr_parsing_rag",
+      "compliance_flagging_automation",
+      "revenue_cycle_extraction",
+      "clinical_risk_detection"
+    ],
+    "what_they_sell": "End-user SaaS platform deployed in skilled nursing facilities that autonomously extracts clinical, financial, and compliance insights from unstructured EHR notes. Agents parse nurse documentation, identify reimbursement gaps, flag compliance violations, and surface resident risk signals—eliminating manual chart review and spreadsheet building.",
+    "ai_play": "AI agents fine-tuned on SNF-specific EHR structures and compliance requirements (CMS, state regulations) to transform raw clinical notes into structured, actionable intelligence. RAG + domain ontology enables adaptation to any note format and any reporting requirement. Agents autonomously execute compliance checks, revenue recovery workflows, and clinical escalations without human intervention.",
+    "who_pays": "Skilled nursing facility administrators, compliance officers, and finance teams seeking to reduce manual documentation review, recover missed reimbursement, and improve regulatory compliance.",
+    "confidence": 0.82,
+    "rationale": "Ascenix is a vertical SaaS product deployed directly to SNF end-users (not a software vendor to vendors). The core offering is autonomous AI agents that replace manual, detail-intensive workflows: chart review, compliance flagging, revenue identification, and risk detection. The product integrates with existing EHR systems (PointClickCare) and learns domain-specific workflows. This is a textbook vertical-agentic-workflow-saas play. Secondary phenotype (domain-data-ontology) reflects the SNF-specific compliance and clinical schema layer that enables adaptation across note structures and regulatory requirements. High confidence due to clear vertical focus, autonomous agent execution, and end-user SaaS monetization model.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare",
+      "Healthcare IT"
+    ],
+    "yc_tags": [
+      "Digital Health",
+      "Healthcare IT"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 7,
+    "location": "Toronto, ON, Canada",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2282911,
+        "full_name": "Rishi Mehta",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Lived in a retirement home to found Ascenix (YC F26). Previously founded Fallyx. Fellow at Pareto Holdings and Emergent Ventures grantee at George Mason University. Alumni of Johns Hopkins CTY and The Knowledge Society.",
+        "linkedin_url": "https://www.linkedin.com/in/rishi-mehta-12b569140/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/17b4476b8d84b14a5717e456cfbbca6ea6d122fa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFADLLT7X%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184910Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCStgqKQA9EjzUfcfsau1u1OVO6MWU3uKhL%2B5vXLU2rQgIhAJ8mi7vQ3mokFEougLzhRuOHdHAp5RSC190PAxkAxPADKuUDCGwQABoMMDA2MjAxODExMDcyIgxWPPnHMYNn6Ocgkq8qwgMpAA%2FydpE0qsQdLyJFHmciy6FPyvijsn12wo6tnC2IKzLNrgB6ZR4gcO2VDYnxJAlEY%2FYaFC8OHB7R8lqFC0Wr1znw3s8dBVuYlqmzB2lbtvz3M2io9jPc2mCt4E83Flpblpb3NWiP328nN9fKf5GYwbsDTngij6OoDd%2BXnx%2BqswTt3NFBRjwW5wRNIBxBLSoh45WWkFF%2Bran%2BuTA0nqG2BTriQY6yQDNG8eht87HDiAxXifw8oQOXiHYlSGc44FhSd1vY7n5ecKvEYXzOgAi%2FZtkbunWQjs8PyoWZ2M9ANtECb3XfsEobSB0UrAOjpxcAltXMtgElXl0q1YU4nSuiiFJfYq8HrcgA3ufg4ujSRp4rhbKEOx1xD7tBp0rSWQwlyph7FgcCqvNnrMLc4Bc7ElmhunuAeeG4QRs8%2FBXhkcBy3%2BC97jAb0x6qoC9CZGfgIvUPZYBkLOzbyK74ayWn13iAnaYZMMbx4ggO0NVaWeLoGuMO766sMjCNMmffyB0k8c7F3bywtWDDkbeSG8t74kJV6Hw%2B9QvkYvPOYJ7bOm081%2BA55oCqFtt2MmTOMO%2Ff1XbhndlVW1XxcBNC0W6pZTQw2q711QY6pAFEAyavA%2FZ%2BYtLScrrz7QO2x9W9%2BwnaAcPiYfuBjP%2FNXXNkpuxs7ASDUKEj8rGLpz4YSjfk9KqLapdJOnRH4cXw%2Bo88F77QMIcyMigKcCquw7vwxmy7MdFGgqb9QsJKGK%2FsvPCu4%2B8yTqhuyYUr9l%2B52xlCp%2BhaBXufoS%2F1YSY1e%2BIUBkOTmK%2FAQLQpfacmY7rrerv9yIWuLvKgzNwvcXpzuWXbHA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=39b73bc83043db2667ce086a03f862c728bba4dd49e6d5e793ed38702493e167",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ascenix",
+          "href": "https://www.ycombinator.com/companies/ascenix"
+        }
+      },
+      {
+        "user_id": 320011,
+        "full_name": "Ayaan Esmail",
+        "title": "Founder/President",
+        "is_active": true,
+        "bio": "Founder/President at Ascenix. Previously founded Fallyx. Fellow at Pareto Holdings. Studied Health Science at Western University before leaving to live in a retirement home. Early research experience in nanotechnology at Myant Inc. and medical research at University Health Network&#x27;s Wilson Center.",
+        "linkedin_url": "https://www.linkedin.com/in/ayaan-esmail/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cf0f07cb789c7866c9dd960658e89520933ffb82.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFADLLT7X%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184910Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCStgqKQA9EjzUfcfsau1u1OVO6MWU3uKhL%2B5vXLU2rQgIhAJ8mi7vQ3mokFEougLzhRuOHdHAp5RSC190PAxkAxPADKuUDCGwQABoMMDA2MjAxODExMDcyIgxWPPnHMYNn6Ocgkq8qwgMpAA%2FydpE0qsQdLyJFHmciy6FPyvijsn12wo6tnC2IKzLNrgB6ZR4gcO2VDYnxJAlEY%2FYaFC8OHB7R8lqFC0Wr1znw3s8dBVuYlqmzB2lbtvz3M2io9jPc2mCt4E83Flpblpb3NWiP328nN9fKf5GYwbsDTngij6OoDd%2BXnx%2BqswTt3NFBRjwW5wRNIBxBLSoh45WWkFF%2Bran%2BuTA0nqG2BTriQY6yQDNG8eht87HDiAxXifw8oQOXiHYlSGc44FhSd1vY7n5ecKvEYXzOgAi%2FZtkbunWQjs8PyoWZ2M9ANtECb3XfsEobSB0UrAOjpxcAltXMtgElXl0q1YU4nSuiiFJfYq8HrcgA3ufg4ujSRp4rhbKEOx1xD7tBp0rSWQwlyph7FgcCqvNnrMLc4Bc7ElmhunuAeeG4QRs8%2FBXhkcBy3%2BC97jAb0x6qoC9CZGfgIvUPZYBkLOzbyK74ayWn13iAnaYZMMbx4ggO0NVaWeLoGuMO766sMjCNMmffyB0k8c7F3bywtWDDkbeSG8t74kJV6Hw%2B9QvkYvPOYJ7bOm081%2BA55oCqFtt2MmTOMO%2Ff1XbhndlVW1XxcBNC0W6pZTQw2q711QY6pAFEAyavA%2FZ%2BYtLScrrz7QO2x9W9%2BwnaAcPiYfuBjP%2FNXXNkpuxs7ASDUKEj8rGLpz4YSjfk9KqLapdJOnRH4cXw%2Bo88F77QMIcyMigKcCquw7vwxmy7MdFGgqb9QsJKGK%2FsvPCu4%2B8yTqhuyYUr9l%2B52xlCp%2BhaBXufoS%2F1YSY1e%2BIUBkOTmK%2FAQLQpfacmY7rrerv9yIWuLvKgzNwvcXpzuWXbHA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=293c06cce4a64af74632d5ec7a374db45bce87e5cc96a8d58b6ce507b94397d4",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ascenix",
+          "href": "https://www.ycombinator.com/companies/ascenix"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-30T18:49:20.057Z",
+    "classified_at": "2026-09-30T18:49:20.057Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
+  },
+  {
     "slug": "ascii",
     "name": "Ascii",
     "website": "https://box.ascii.dev",
@@ -9565,6 +9648,55 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.65,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "automat",
+    "name": "Automat",
+    "website": "https://www.runautomat.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/automat",
+    "batch": "Winter 2023",
+    "one_liner": "Hire an AI teammate with its own computer, phone number, inbox, and logins. It works inside the tools you already use and hands back finished work, not status updates.",
+    "description_combined": "Hire an AI teammate with its own computer, phone number, inbox, and logins. It works inside the tools you already use and hands back finished work, not status updates.\n\nHi! Lucas here from Automat. Stoked to share what the team's been heads-down on: Ace. It's instinct, but for work. The TL;DR: you can now hire an AI teammate.\n\nEvery team we talk to wants AI teammates, but doesn't know how to actually put one to work. Maybe you've tried homebrewing OpenClaw or Hermes. The two usual options both whiff: traditional automation (UiPath) makes you sign up for a months-long integration project before it does one useful thing, and AI \"assistants\" hand you a wall of text, and you still go do the work yourself.\n\nAce is different. You onboard it like any new hire, and it shows up where the work happens:\n\n• Forward it an email or cc its own inbox, and the draft lands in your Drive with the judgment calls left as comments.\n\n• @Ace in Slack after a call, and the summary + action items land on the opportunity.\n\n• Text it between meetings (\"move Thursday to Friday and tell them why\"), and it updates the invite, emails everyone, and confirms.\n\n• Ping it in a doc comment, or have it make a call on its own line.\n\nWhat comes back is finished work: CRM updated, email sent, invoice reconciled. When it hits a real fork in the road, it hands you the open questions instead of guessing.\n\nWhy trust it? We spent two years automating high-volume work in mortgage, lending, and insurance, where a wrong answer is a compliance problem. Ace pairs a deterministic engine for must-be-identical work with AI for the fuzzy stuff. Every run is logged step by step, you set what need",
+    "industry_sub_vertical": "Agentic workflow automation for enterprise operations and finance teams",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_tooling",
+      "multi_tool_integration",
+      "deterministic_fuzzy_hybrid",
+      "audit_logging"
+    ],
+    "what_they_sell": "AI teammate agent deployed as a SaaS product that integrates with existing enterprise tools (email, Slack, CRM, calendar, docs, phone). The agent autonomously executes workflows (email drafting, meeting scheduling, CRM updates, invoice reconciliation) and returns finished work rather than status updates or summaries.",
+    "ai_play": "Automat combines deterministic automation (for compliance-critical, must-be-identical work) with AI reasoning (for fuzzy judgment calls). The agent operates across multiple channels (email, Slack, phone, docs) with its own identity and credentials, learning workflows like a new hire. Audit logging and step-by-step tracing enable compliance in regulated domains (mortgage, lending, insurance). Hands back open questions rather than guessing on fork-in-the-road decisions.",
+    "who_pays": "Enterprise operations, finance, and lending teams seeking to automate high-volume, multi-tool workflows without months-long RPA integration projects.",
+    "confidence": 0.82,
+    "rationale": "Automat is a horizontal-but-focused agentic workflow SaaS that deploys AI agents to replace or augment human job functions (email handling, scheduling, CRM updates, reconciliation) across multiple verticals. Primary phenotype is vertical-agentic-workflow-saas because it's an end-user-facing SaaS product selling autonomous agents that integrate with existing tools and execute workflows autonomously. Secondary phenotype is agent-runtime-infra because Automat also provides the underlying agent runtime, multi-tool orchestration, and deterministic-fuzzy hybrid execution engine. The company's domain expertise in mortgage, lending, and insurance (compliance-heavy, high-volume work) and emphasis on audit logging and deterministic execution for regulated workflows support the vertical-agentic-workflow-saas classification. Confidence is 0.82 (not higher) because Automat positions itself as a horizontal 'AI teammate' product, not explicitly vertical-specific, but the phenotype library's vertical-agentic-workflow-saas definition allows for cross-vertical deployment with vertical-specific expertise.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-01"
+    ],
+    "launch_id": 117458,
+    "launch_url": "https://www.ycombinator.com/launches/UYU-ace-from-automat-it-s-instinct-but-for-work",
+    "launch_title": "Ace from Automat: it's instinct, but for work",
+    "launch_created_at": "2026-09-30T16:33:11.033Z",
+    "launch_tagline": "Hire an AI teammate with its own computer, phone number, inbox, and logins. It works inside the tools you already use and hands back finished work, not status updates.",
+    "launch_ingested_at": "2026-09-30T18:50:54.441Z",
+    "classified_at": "2026-09-30T18:50:54.441Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "automax-ai",
@@ -28800,6 +28932,57 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "dydema",
+    "name": "Dydema",
+    "website": "https://dydema.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/dydema",
+    "batch": "Fall 2026",
+    "one_liner": "The model company for neurotech.",
+    "description_combined": "The model company for neurotech.\n\nA data-first model company for neurotech. We collect brain data for others, and use it to build toward general models of the brain.",
+    "industry_sub_vertical": "Neurotechnology brain data collection and curation for AI model training",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "curated-domain-dataset-provider",
+    "phenotype_primary_label": "Curated Domain Dataset Provider",
+    "phenotype_family": "data_assets",
+    "value_wedge": "data_asset",
+    "ai_application": "dataset_creation",
+    "ai_application_patterns": [
+      "domain_data_collection",
+      "neuroscience_foundation_models",
+      "brain_data_curation"
+    ],
+    "what_they_sell": "Proprietary brain/neural datasets collected and curated for neurotech AI model training, plus foundational models trained on brain data that can be licensed to downstream neurotech companies and research labs.",
+    "ai_play": "Dydema is building dual value: (1) a curated, high-quality brain dataset moat by collecting neural data at scale with expert validation, and (2) general foundation models of brain function trained on that proprietary data. These models become reusable inference infrastructure for neurotech startups and researchers, replacing manual neuroscience expertise with scalable AI-driven brain modeling and prediction.",
+    "who_pays": "Neurotech startups, neuroscience research labs, pharma/biotech companies developing brain-computer interfaces or neural therapeutics, medical device manufacturers.",
+    "confidence": 0.72,
+    "rationale": "Dydema is primarily a data collection and curation business (curated-domain-dataset-provider) — they collect brain data, validate it, and license it to AI model builders. Secondary phenotype (foundation-model-domain-infrastructure) captures their ambition to build general brain models as reusable infrastructure. The company sits at the intersection of data assets and scientific infrastructure: they're not selling a vertical SaaS or agent, but rather the foundational data and models that enable downstream neurotech innovation. High confidence in primary phenotype; secondary reflects their stated goal of 'general models of the brain' as a licensable product.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Neurotechnology",
+      "Neuroinformatics",
+      "AI"
+    ],
+    "business_models": [
+      "BM-06"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-09-30T18:49:46.404Z",
+    "classified_at": "2026-09-30T18:49:46.404Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-06"
+  },
+  {
     "slug": "e1o",
     "name": "E1O",
     "website": "https://e1o.com",
@@ -41792,6 +41975,91 @@
     "vertical_normalize_confidence": 0.65,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-07"
+  },
+  {
+    "slug": "hundred",
+    "name": "Hundred",
+    "website": "http://hundred.systems/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/hundred",
+    "batch": "Fall 2026",
+    "one_liner": "100% automated inspection for consumer electronics parts",
+    "description_combined": "100% automated inspection for consumer electronics parts\n\nHundred is an automated inspection system for consumer electronics parts. We help factories cut waste and prevent line-down issues by catching sub-millimeter cosmetic defects before parts reach the assembly line.\r\n\r\nDesigns change so fast that traditional vision models can&#x27;t keep up, meaning factories still rely on manual inspection, literally people checking parts under microscopes to sort out bad parts. Human inspectors miss ~15% of defects which can turn a finished device into scrap.\r\n\r\nDefects cost U.S. discrete manufacturers $45 billion a year, and Erica saw this problem firsthand designing hardware at Meta, Google, and Magic Leap. She met Imani at Columbia&#x27;s admitted-students day in 2017, and later met Iris through mutual friends in the Bay Area. Imani spent the last five years at Twitch building software that handles billions of requests a day, and Iris worked in Quant at Citadel before pivoting to research machine learning methods on 3D meshes and other structured data at Imperial College London. Now the team is building Hundred because manual inspection shouldn&#x27;t exist in 2026.",
+    "industry_sub_vertical": "Consumer electronics parts defect detection & automated optical inspection",
+    "canonical_vertical_id": "robotics.quality-inspection",
+    "vertical_id": "robotics.quality-inspection",
+    "vertical_label": "Robotic quality inspection & defect detection",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "computer_vision",
+      "defect_detection",
+      "manufacturing_automation"
+    ],
+    "what_they_sell": "Automated optical inspection (AOI) hardware + software system deployed on factory assembly lines to detect sub-millimeter cosmetic defects in consumer electronics parts in real-time before assembly.",
+    "ai_play": "Computer vision + 3D mesh learning models that adapt to rapidly changing part designs without retraining, replacing manual microscope-based human inspection. AI handles design variation and defect classification at scale; hardware integration enables inline deployment.",
+    "who_pays": "Electronics manufacturers (OEMs, contract manufacturers, Tier-1 suppliers) seeking to reduce scrap, prevent line-down events, and eliminate labor-intensive manual inspection bottlenecks.",
+    "confidence": 0.82,
+    "rationale": "Hundred is a hardware-centric company deploying AI (computer vision + 3D learning) to automate a critical manufacturing process (defect detection). The core value is the physical inspection system itself (optics, hardware, integration), but AI dramatically improves accuracy, speed, and adaptability to design changes. This fits ai-enabled-physical-systems: AI is the enabler that makes the hardware system work at scale and precision, not the primary product. Not robotics-embodied-ai (no autonomous control or teleoperation). Not vertical-workflow-agent (not selling software to operators; selling integrated hardware+software system deployed on their line). Confidence 0.82 due to clear hardware-first positioning and manufacturing context.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Hardware",
+      "Machine Learning",
+      "Computer Vision",
+      "Industrial"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3535016,
+        "full_name": "Erica Diaz",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Erica is co-founder and CEO of Hundred (YC F26).\nPreviously spent 5.5+ years at Meta, Google, and Magic Leap designing hardware for consumer electronics, and resolving issues on the ground with vendors in China and Mexico.\n\nColumbia University, BS Mechanical Engineering.",
+        "linkedin_url": "https://www.linkedin.com/in/erica-diaz1/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5ec31907973b972abef2c8b6371b1ae58f453c85.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJGJDUS5H%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184902Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCKpi23aiJEFgcivFkoDDZUFHzimvX4BzWWzxn5%2FLbxpQIgOS%2FJTRx072xwz9AzD2PYmNGLtb%2F57R2NdDwYbwZ4eLoq5QMIbBAAGgwwMDYyMDE4MTEwNzIiDD9zeUyFfm4HiPH6bCrCAzA565EopbLrq9%2FN6f%2BvHrmAHq686cA6WTpG3rlyHGCvu3Vl9QAf9ZekZjzaszige7KrbLUJOgkBbm7wHZmTiA02EKbpAK10cqnxr7MXcuIhXlyTL5AGpEsDktTS3UkbZs059VcPMMK%2Bw2WXHLhB73l5ZeMa%2B1GBoiD3vBXcQ3ST8F9aBYiNrC%2FrLuFQqFTL70Zwxc9uGM5N8pDDZ06pUGp3pNFAMsBTNycldhzhpeG%2Bh8KJ5DwFyBu22DVvkEJPlmnJ6TFk7G9r1HQYQslQAJE5dSipPZ6VNvK7pjeEbQzhtYZd%2FX8%2BBXDdyxL04xne0FMoRTE90M3x7p8zt%2Fz%2FgL0CpLzx7vUIe1OLbCo4G%2BamuRdlyd7jQyrApiimFXhphSnZuy8wBUXVYBV2yDArHasOT6a%2FwgztO3eQe%2B4wC3%2Bo8fecl6z6BMcgMKKIVEh%2B86hvgYa%2FVDHF%2Fni6%2BLTWwbUqEkQtfa6l2af%2Fz1v5Cluxd1P8RCjtA3ht%2BdmS4sijbOsly6etBZ%2BpzvuWBqm%2BW4l%2F1O%2BiDGq0xx7NbYBPrD%2BAanyWgGpHDW91xlb%2BUk0Pxtyu20aJ2knLqSYtPFI3psLD%2BjDbrvXVBjqlAXT52TG88YmGWdnPKQQYn7hsg1PgKd8rn7vSPVNKJ4r2EZkwJOjdLc5Dsqn3raeOltpHdGndFXzHTA0L8lzPDOeYw6JpMcLx%2BSNoC%2B4hFRsBAZjfoX5IAiwMmxXfvE2oRrvA9W0NZKpftVyuRv8BqMBkNLFZu3Sed%2FbJ9DqjTpCM64scMmV0P6JIsPA1GHAeBOeNFHfz%2BQvsiq87a%2BgO%2BBWtQVKYzw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c25bfd8b4a764eb008f0f841562f0ec79a3cf812b6026e9e4b5b49135543b773",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Hundred",
+          "href": "https://www.ycombinator.com/companies/hundred"
+        }
+      },
+      {
+        "user_id": 4149004,
+        "full_name": "Iris Liao",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder and CTO of Hundred (YC F26).\nPreviously Quantitative Researcher at Citadel.\nSpent the last year researching machine learning methods on 3D meshes and other structured data. \n\nMSc Applied Mathematics, Imperial College London\nBA Mathematics, Columbia University",
+        "linkedin_url": "https://www.linkedin.com/in/iris-liao-03b041152",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e8c56193fe88be22d7e68840f5171512f9f41919.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJGJDUS5H%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184902Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCKpi23aiJEFgcivFkoDDZUFHzimvX4BzWWzxn5%2FLbxpQIgOS%2FJTRx072xwz9AzD2PYmNGLtb%2F57R2NdDwYbwZ4eLoq5QMIbBAAGgwwMDYyMDE4MTEwNzIiDD9zeUyFfm4HiPH6bCrCAzA565EopbLrq9%2FN6f%2BvHrmAHq686cA6WTpG3rlyHGCvu3Vl9QAf9ZekZjzaszige7KrbLUJOgkBbm7wHZmTiA02EKbpAK10cqnxr7MXcuIhXlyTL5AGpEsDktTS3UkbZs059VcPMMK%2Bw2WXHLhB73l5ZeMa%2B1GBoiD3vBXcQ3ST8F9aBYiNrC%2FrLuFQqFTL70Zwxc9uGM5N8pDDZ06pUGp3pNFAMsBTNycldhzhpeG%2Bh8KJ5DwFyBu22DVvkEJPlmnJ6TFk7G9r1HQYQslQAJE5dSipPZ6VNvK7pjeEbQzhtYZd%2FX8%2BBXDdyxL04xne0FMoRTE90M3x7p8zt%2Fz%2FgL0CpLzx7vUIe1OLbCo4G%2BamuRdlyd7jQyrApiimFXhphSnZuy8wBUXVYBV2yDArHasOT6a%2FwgztO3eQe%2B4wC3%2Bo8fecl6z6BMcgMKKIVEh%2B86hvgYa%2FVDHF%2Fni6%2BLTWwbUqEkQtfa6l2af%2Fz1v5Cluxd1P8RCjtA3ht%2BdmS4sijbOsly6etBZ%2BpzvuWBqm%2BW4l%2F1O%2BiDGq0xx7NbYBPrD%2BAanyWgGpHDW91xlb%2BUk0Pxtyu20aJ2knLqSYtPFI3psLD%2BjDbrvXVBjqlAXT52TG88YmGWdnPKQQYn7hsg1PgKd8rn7vSPVNKJ4r2EZkwJOjdLc5Dsqn3raeOltpHdGndFXzHTA0L8lzPDOeYw6JpMcLx%2BSNoC%2B4hFRsBAZjfoX5IAiwMmxXfvE2oRrvA9W0NZKpftVyuRv8BqMBkNLFZu3Sed%2FbJ9DqjTpCM64scMmV0P6JIsPA1GHAeBOeNFHfz%2BQvsiq87a%2BgO%2BBWtQVKYzw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=8d09773e14349c7b472b94bddf92120cc518906b1e74d07f4728df3e77ceeccf",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Hundred",
+          "href": "https://www.ycombinator.com/companies/hundred"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-30T18:49:10.259Z",
+    "classified_at": "2026-09-30T18:49:10.259Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "huscarl",
@@ -58366,6 +58634,76 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "moda-2",
+    "name": "Moda",
+    "website": "",
+    "yc_profile_url": "https://www.ycombinator.com/companies/moda-2",
+    "batch": "Fall 2026",
+    "one_liner": "Fully editable slides, designs and video.",
+    "description_combined": "Fully editable slides, designs and video.",
+    "industry_sub_vertical": "Sales collateral generation & enablement for marketing teams",
+    "canonical_vertical_id": "marketing.sales-enablement",
+    "vertical_id": "marketing.sales-enablement",
+    "vertical_label": "Sales enablement & collateral management",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "horizontal-copilot-saas",
+    "phenotype_primary_label": "Horizontal copilot / productivity SaaS",
+    "phenotype_family": "horizontal_saas",
+    "value_wedge": "productivity_multiplier",
+    "ai_application": "copilot_assistant",
+    "ai_application_patterns": [
+      "content_generation",
+      "design_automation",
+      "video_editing"
+    ],
+    "what_they_sell": "AI-powered design and video creation platform enabling marketers and sales teams to generate, edit, and customize slides, designs, and video content at scale without design expertise.",
+    "ai_play": "AI generates initial design/video assets and enables non-designers to iterate and customize layouts, copy, and visual elements through natural editing interfaces. Reduces time-to-content and eliminates dependency on design resources.",
+    "who_pays": "Marketing teams, sales enablement leaders, and content creators at mid-market and enterprise companies seeking faster collateral production.",
+    "confidence": 0.72,
+    "rationale": "Moda is a horizontal, cross-industry productivity tool (slides, designs, video) sold to marketing and sales functions. It fits horizontal-copilot-saas because it augments creative workflows across industries with AI-assisted content generation and editing. Not vertical (not specific to one industry), not a regulated product, not infrastructure. The 'fully editable' positioning suggests AI generates initial assets but users retain control—classic copilot pattern. Confidence 0.72 due to limited detail on exact AI mechanism and target buyer persona, but horizontal SaaS positioning is clear.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Marketing"
+    ],
+    "yc_tags": [
+      "AI-Enhanced Learning",
+      "Design",
+      "Sales",
+      "Video",
+      "Marketing"
+    ],
+    "business_models": [
+      "BM-02"
+    ],
+    "team_size": 6,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 421690,
+        "full_name": "John Holliman",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "CTO/founder at Moda, Previously founding engineer and CTO of Dover, MIT meng & sb",
+        "linkedin_url": "https://www.linkedin.com/in/jhhiii/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b8428c9ff8861d39dd171ce2f674b1f5ab9aaff8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAD35NN2QT%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184946Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIDdlCPr6s2vi29X0EsMVPzQEL1iHA%2Boe%2BY9EYi8QuppnAiEAkFl7CZMTjWhJgoXgildcuA583yjL0XlJpAxKwpYjM6Uq5QMIbBAAGgwwMDYyMDE4MTEwNzIiDKWNS3pFiJPk72CSgSrCAyuyHPfK5NPptMisiO8ZSpoBN2Fp8ajgk6EPm5i8wRuUM9MbonDjehojPVA5hRibJ8U0vl%2B0RHrwNksYgJIGeLQ4cxVqgtMpOCRmoGWZXXCVeJnfydyE1wfj1SUuNLt6dYyL2tu4cNyDwPmVS%2B8ypA52%2BiVDgOAm4ObKNrnsB4hoYjx8l2Gjj3%2B0RFPTjhWd%2FaWjv6BtoMOEjoo%2BwbY33axS8U7KmVvRC5zgl9bLtJ7RTaI%2FhPTRDjeCKvLeJ1eeyzyB4%2B0CcZ7pN3lTqsiSokdYKQ2HOs3wKcwoMNFAMVOggXYthF2in6%2BjF3L1BlOL%2FNEc0Np1c4JJP%2BdMd3LCA0%2FgprG0BpQG7xcjdqAgF4QPEILdw0UWWTuyrOpkzLwYK3KtvD9j1hA98KbFlooSQWADmUBHtclCgDzpjyQ5gSTmlbDXBTQ239trcSbN6kAbqnh4kKJKcio1PQVF97wCIn4MbnQhIM%2FCcGuWMG09NOUGhmlF9OLsjTV7NWeaeSMffB7sUt80ir6UXJ7bdr%2FTsbI%2FWdqNfuY4VZxXu05RTyv9yfDfOLfeV8xsKyjofOzLm5ZGWo2lbI5oqQx0We02kvckKTDarvXVBjqlAbNpENZOmd6Lvq3zvONv7%2FLd%2F%2Fz4dryindgdXTBFtz2iKHXtH6RcIl3hDAJ7jUq6wxEdgS7eQ6p%2FGv30J92xlynJeOkD%2FLpIFpy%2FtpVe4AUSnc3EeRFDk%2Fq3LagpwMWtXhfLv6YnyMJKQEZ0gn%2BcobeCnio45TDk8g3KdALA6ADpW%2FWVIjnAHZExr3x09Vfp4rqqAVyC%2FWNR7PdvXUSt4dSlmmVfZw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=295912c2a2b28c74fde2066ddc7f8c82a736d5ceb252aa6e67cb56dff9d4030c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Moda",
+          "href": "https://www.ycombinator.com/companies/moda-2"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-30T18:49:54.577Z",
+    "classified_at": "2026-09-30T18:49:54.577Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-02"
+  },
+  {
     "slug": "modelence",
     "name": "Modelence",
     "website": "https://modelence.com",
@@ -61249,6 +61587,54 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "networkocean",
+    "name": "NetworkOcean",
+    "website": "https://networkocean.io/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/networkocean",
+    "batch": "Summer 2024",
+    "one_liner": "We build floating solar data centers to cut time-to-power by 10x",
+    "description_combined": "We build floating solar data centers to cut time-to-power by 10x\n\n### TLDR: \n\nFloating solar will soon be the fastest, most sustainable way to deploy data centers. Bypass interconnection queues, HV equipment delays, turbine backlogs, and public moratoriums. Our 2030 target is 1 GW/wk.\n\n#### Launch video:\n\n\n#### Whitepaper:\n\n\nSolar is already at 700 GW/yr scale. Solar is the only technology that can match AGI timelines. \n\n\n\nLast week, NetworkOcean made history as the 1st to run a customer AI workload from the ocean, powered by solar.\n\nWe went from paper to deployed in the water in 53 days.\n\n#### Asks:\n\nShare the launch on X: \n\nAnd on LinkedIn: \n\nAnd share the NetworkOcean showcase tomorrow (9/29/26) to relevant investors and founders:\n\n\n\n \n\n_ad mare_\n\n_founders@networkocean.io_",
+    "industry_sub_vertical": "Floating solar data center infrastructure for AI compute deployment",
+    "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_label": "GPU infrastructure for model deployment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "site_optimization",
+      "deployment_automation",
+      "resource_allocation"
+    ],
+    "what_they_sell": "Floating solar data center infrastructure deployed at scale to eliminate interconnection delays and power constraints for AI workloads. Combines modular floating solar arrays, containerized compute, and rapid deployment logistics to deliver operational data centers in weeks rather than years.",
+    "ai_play": "AI optimizes site selection, floating platform design, solar array configuration, thermal management, and grid integration. AI accelerates the design-to-deployment cycle and enables autonomous operational control of distributed floating data centers. AI also optimizes power allocation across customer workloads and predicts maintenance needs.",
+    "who_pays": "AI labs, cloud providers, and enterprises needing immediate, sustainable compute capacity without grid interconnection delays. Primary buyers: frontier model companies, GPU-intensive AI infrastructure operators.",
+    "confidence": 0.78,
+    "rationale": "NetworkOcean is building physical infrastructure (floating solar data centers) where AI is the enabler of rapid design optimization, deployment automation, and operational efficiency — not the core product. The company's competitive advantage is speed-to-power (53 days paper-to-deployed) and scalability (1 GW/wk target), both enabled by AI-driven site optimization, modular design, and autonomous logistics. This fits ai-enabled-physical-systems (primary: physical hardware + AI acceleration) and infrastructure-optimization-ai (secondary: real-time operational optimization of power delivery and compute allocation). Not a pure infrastructure play because they own/operate the physical systems; not a vertical SaaS because they are the infrastructure provider, not a software vendor. Confidence 0.78 due to limited public detail on AI's specific role in their stack, but the phenotype fit is strong.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "Industrials"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-08"
+    ],
+    "launch_id": 117462,
+    "launch_url": "https://www.ycombinator.com/launches/UYY-networkocean-floating-solar-data-centers",
+    "launch_title": "NetworkOcean: Floating solar data centers",
+    "launch_created_at": "2026-09-30T00:24:09.713Z",
+    "launch_tagline": "We build floating solar data centers to cut time-to-power by 10x",
+    "launch_ingested_at": "2026-09-30T18:50:54.442Z",
+    "classified_at": "2026-09-30T18:50:54.442Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "neuromorphic",
@@ -65417,6 +65803,75 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "openseo",
+    "name": "OpenSEO",
+    "website": "https://openseo.so/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/openseo",
+    "batch": "Fall 2026",
+    "one_liner": "Open source alternative to Semrush and Ahrefs",
+    "description_combined": "Open source alternative to Semrush and Ahrefs\n\nConnect to your AI Agent in 2 minutes.\r\n\r\nGet expert level advice tailored to your business backed by real data like keyword search traffic, backlinks, and technical audits of your site.\r\n\r\nHere are some good skills to start with:\r\n\r\n/seo-audit What 1-2 changes to your website will drive more traffic?\r\n/keyword-research Find topics worth writing about?\r\n/competitor-analysis Understand your competitors’ SEO strategy.",
+    "industry_sub_vertical": "SEO data & competitive intelligence for AI agents and content teams",
+    "canonical_vertical_id": "marketing.competitive-intelligence",
+    "vertical_id": "enterprise.marketing.growth",
+    "vertical_label": "B2B growth marketing automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "open-source-commercial",
+    "phenotype_primary_label": "Open-source core + commercial layer",
+    "phenotype_family": "developer_gtm",
+    "value_wedge": "developer_adoption",
+    "ai_application": "context_retrieval",
+    "ai_application_patterns": [
+      "rag_enrichment",
+      "agent_tooling",
+      "data_api",
+      "competitive_intelligence"
+    ],
+    "what_they_sell": "Open-source SEO data API and agent-native toolkit (keyword research, backlink analysis, technical audits, competitor intelligence) that integrates directly into AI agents and workflows. Commercial layer: hosted SaaS, premium data enrichment, and enterprise integrations.",
+    "ai_play": "Provides structured SEO context (search volume, backlink profiles, technical metrics, competitor strategies) as a data API that AI agents can consume natively. Agents use this context to generate expert-level SEO recommendations, content strategies, and audit reports without manual research. Positions as the 'Semrush/Ahrefs for agents' — agents can call SEO skills (/seo-audit, /keyword-research, /competitor-analysis) to autonomously advise on traffic growth.",
+    "who_pays": "AI agent builders, marketing automation platforms, content teams, SEO agencies, and in-house marketing ops teams deploying agents for content strategy and competitive analysis.",
+    "confidence": 0.78,
+    "rationale": "Primary fit: open-source-commercial (OSS core + commercial monetization). Secondary fit: agent-context-data (provides structured SEO/competitive data as context API for agents). The core value is an open-source SEO toolkit with agent-native APIs, monetized via hosted SaaS and premium features. AI agents are the primary distribution and use case — agents call SEO skills to generate recommendations. Not a vertical SaaS (doesn't automate a full job function) and not a copilot (doesn't augment human work directly). Confidence 0.78 reflects strong fit to open-source-commercial + agent-context-data, but some ambiguity around whether the agent integration is primary product or secondary distribution channel.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Marketing"
+    ],
+    "yc_tags": [
+      "Open Source",
+      "Marketing",
+      "SEO"
+    ],
+    "business_models": [
+      "BM-12"
+    ],
+    "team_size": 2,
+    "location": "Boston, MA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 475238,
+        "full_name": "Ben Senescu",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Building OpenSEO. Prev. Senior SWE at Klaviyo.",
+        "linkedin_url": "https://www.linkedin.com/in/bensenescu/",
+        "twitter_url": "https://x.com/bensenescu",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c60beebb7c0a1370bd1ebb2c85047797c20a2d7f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMAC6LDZL%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184927Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCC5ZYUbzeP%2BfIPEYWuZbn6cv1cr5qw%2BOxxglSgrgY1agIhAIu1lkXx9ZEN%2BPJ7bFb4DdoSSDtlKWN6vFp09CGGjj6dKuUDCGwQABoMMDA2MjAxODExMDcyIgxmovKnMvoxn2VZEOUqwgNsH6jlds4SRtMkQ4wEWtqAlG6E9l5fR%2FdE4a%2BGwuoiAnBFWaN49QA%2Bq1EQ9W5S%2BIQRavrOIgd7jOsBYbo4wx%2BaKPf29208A%2FdgEpsCGhoYkinCI07FqYACuK0xmenugH7NL302aBH%2Fro5FRnHH61qaxvlHgkopuY0ngvL2aKqbAelCFAswcLKiDWIK16%2FR4ZncEPXeg%2BLYsLSXFkpDO7ZhY6mvGLDOqV70YVlzcdSxtRxuOxl7pBo4hcXerWMea8MEvR%2Bt4%2BNC%2BHpqSbfh%2FNAM2VhJlHXtiNDoIPvjQdebOgTu9fhpbFGosAiCxojSRScepORjqff01C7OAghHvMdtInFuCsXtWQbMv9xwSTf53I0oMA8Uw2sS62wf%2BW4GslCmdTmzpYBKIqkgck0Cg6xx3YSnceMxqLRlDfDSyJ9MTsUhHGas28xo9PvdDMCXHKSJ%2FhYCk%2FaizO5Abbff0sw2iefbaYznXpjb%2B3zpb%2FHstPFgtRhQ%2BLKA0GKJ4b3n4pQidUVL%2Ff9NmJdTS4AojHe5ug5npQ8KYOJiM3UJZhYCeI8lxnkNwA8vbcXxPbmTevoBEgmn25kKBvp4uoSaN90RXiAwxa711QY6pAEwC3DK2S0HBWeGXvfm%2BUCC6QqAGt6FwQLt11G%2FVIcZutImk%2BM8lg8VLhQ9DjFYIPEY0gNDHUSF0KigkN2wTuDe8ksL98V2RlPbB%2B4XAw07Z2P6GgVvaKXAqjiimJ%2FWaBAVE9QkqsRD8bCe20RWnv3h120Ao4bhU7lJ6WeApUYtMxBTpqlHppJcM%2BrbhVyDp8OfgyyBL1R7DtwwNJW0Fav3x57vjA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=0a6b174bf55115f702ae969a27a94888aa27792e14292af1820406c20a990a81",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "OpenSEO",
+          "href": "https://www.ycombinator.com/companies/openseo"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-30T18:49:37.154Z",
+    "classified_at": "2026-09-30T18:49:37.154Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 0.55,
+    "vertical_normalize_method": "yc_subindustry_default",
+    "primary_bm": "BM-12"
   },
   {
     "slug": "openspec",
@@ -74399,6 +74854,54 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
+  },
+  {
+    "slug": "precip",
+    "name": "Precip",
+    "website": "https://precip.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/precip",
+    "batch": "Winter 2024",
+    "one_liner": "The most accurate rain forecast in the US. 85% better than Apple Weather.",
+    "description_combined": "The most accurate rain forecast in the US. 85% better than Apple Weather.\n\nHey, we're Jesse and Michael. We were sick of weather apps being wrong so we built a better one.\n\nToday we're launching the next iteration of Precip. It’s anchored on our own minute-by-minute rainfall forecast which is the most accurate in the US. \n\n\n\nIt all started with a gap most people don't know exists: accurate weather history. \n\nWe first ran into it a decade ago, while building a farming data-science startup in YC. \n\nMost weather providers just show you the last forecast and call it history. \n\nWe do it differently. \n\nWe use high-resolution radar to measure what actually fell. \n\nThe result is 60% better rainfall measurements than just using NOAA's HRRR analysis.\n\nToday we're introducing the next evolution of Precip: our own minute-by-minute rainfall forecast. Instead of a false alarm about rain that never shows up, or getting drenched without warning, Precip tells you when the storm will hit your precise location, how intense it'll be, and how long it'll last, right on your lock screen.\n\nAnd it's not just guessing. Our benchmarks show Precip's minute-by-minute forecast is the most accurate in the US by a large margin: 85% more accurate than Apple Weather and 52% more accurate than Google Weather.\n\n\n\nHere's what we found doing the research: There are dozens of published \"state of the art\" models that couldn't beat simple, non-deep-learning approaches, even ones from journals like Nature. None of the \"foundation model\" approaches shipped by the big players worked either. \n",
+    "industry_sub_vertical": "Consumer weather forecasting & hyperlocal precipitation prediction",
+    "canonical_vertical_id": "consumer.productivity.personal",
+    "vertical_id": "consumer.productivity.personal",
+    "vertical_label": "Personal productivity software",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / prosumer AI application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "predictive_forecasting",
+    "ai_application_patterns": [
+      "time_series_forecasting",
+      "radar_data_fusion",
+      "hyperlocal_prediction"
+    ],
+    "what_they_sell": "Mobile weather app with minute-by-minute rainfall forecasts for precise user location, delivered via lock-screen notifications. Monetized via freemium subscription (premium features, ad-free, extended forecasts).",
+    "ai_play": "AI/ML models trained on high-resolution radar data and historical observations to generate hyperlocal, minute-by-minute precipitation forecasts. Core differentiation is superior accuracy (85% better than Apple Weather) via proprietary data ingestion (radar measurements vs. NOAA analysis) and model selection (non-deep-learning approaches outperforming foundation models). AI enables real-time prediction at granular spatial/temporal resolution that traditional weather APIs cannot match.",
+    "who_pays": "End consumers (iOS/Android users) via freemium subscriptions, premium tiers, or potential B2B licensing to weather-dependent verticals (agriculture, events, logistics).",
+    "confidence": 0.82,
+    "rationale": "Precip is a consumer-facing mobile app delivering AI-powered weather forecasts. Primary phenotype is consumer-ai-app: end-user subscription product with AI as core value driver. The AI play is predictive forecasting (time-series models on radar + historical data) rather than agentic automation or copilot assistance. Founders explicitly note that simple, non-deep-learning models outperformed foundation models, indicating a domain-specific ML optimization approach rather than LLM-based reasoning. Secondary consideration of research-terminal-intel (weather intelligence for professionals) is weaker because primary GTM is consumer app, not B2B intelligence platform. Confidence 0.82 reflects clear consumer phenotype fit but some uncertainty around monetization model (freemium vs. subscription vs. B2B licensing).",
+    "method": "launch_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-10"
+    ],
+    "launch_id": 117439,
+    "launch_url": "https://www.ycombinator.com/launches/UYB-precip-know-exactly-when-it-ll-rain-down-to-the-minute",
+    "launch_title": "Precip - Know exactly when it'll rain, down to the minute",
+    "launch_created_at": "2026-09-30T18:31:29.713Z",
+    "launch_tagline": "The most accurate rain forecast in the US. 85% better than Apple Weather.",
+    "launch_ingested_at": "2026-09-30T18:50:54.440Z",
+    "classified_at": "2026-09-30T18:50:54.440Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-10"
   },
   {
     "slug": "prescience-inc",
@@ -93922,6 +94425,104 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "tensortest",
+    "name": "TensorTest",
+    "website": "https://www.tensortest.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/tensortest",
+    "batch": "Winter 2026",
+    "one_liner": "Evals, RL environments and training data for creative tasks",
+    "description_combined": "Evals, RL environments and training data for creative tasks\n\nTensorTest (formerly Ritivel) builds evaluations, reinforcement-learning environments, and expert training data for AI labs developing creative agents, starting with video editing.\r\n\r\nAn agent can produce a valid video file without delivering an edit that meets the client’s brief. Labs need reliable ways to measure creative quality, identify failures, and give agents feedback they can learn from.\r\n\r\nOur first benchmark, TimelineBench, gives agents client video-editing jobs with raw footage, audio, and a brief. It evaluates the finished work using a verifier calibrated on thousands of blind judgments from professional editors. Across 16 agents we tested, the best passed only 26.8% of jobs. Most failures came down to creative craft rather than broken output.\r\n\r\nWe offer labs private evaluations to identify where their models fail, training environments that use our verifier’s scores as rewards, and expert-created training data, including professional editing demonstrations, preference pairs, and grading rubrics. These offerings connect evaluation to training: identify what an agent gets wrong, provide feedback on its attempts, and supply examples of better work.\r\n\r\nOur team comes from IIT Bombay and has trained language models and built agentic systems at Microsoft Research.",
+    "industry_sub_vertical": "AI model evaluation and training data for creative agents",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "training-data-synthetic",
+    "phenotype_primary_label": "Training / eval data generation",
+    "phenotype_family": "data_assets",
+    "value_wedge": "data_asset",
+    "ai_application": "dataset_creation",
+    "ai_application_patterns": [
+      "eval_benchmarking",
+      "rl_environment_design",
+      "expert_demonstration_curation",
+      "preference_pair_labeling"
+    ],
+    "what_they_sell": "Evaluations (TimelineBench), RL training environments with reward signals, and curated expert training data (professional editing demos, preference pairs, grading rubrics) for creative AI agents.",
+    "ai_play": "Solves the 'creative quality measurement' problem: agents can produce technically valid outputs (valid video files) without meeting creative briefs. TensorTest provides verifier-calibrated benchmarks to measure creative craft, identify failure modes, and supply reward signals for RL training and expert examples for supervised fine-tuning.",
+    "who_pays": "AI labs and frontier model developers building creative agents (video editing, design, content generation).",
+    "confidence": 0.85,
+    "rationale": "Primary fit is training-data-synthetic: TensorTest's core offerings are expert-curated training data (professional editing demos, preference pairs, rubrics) and synthetic RL environments with calibrated reward signals. Secondary fit is agent-observability-evals: TimelineBench is a domain-specific evaluation benchmark that identifies where creative agents fail. The company bridges both phenotypes—they evaluate to identify failure modes, then supply training data and RL environments to close those gaps. This is a data-asset play (wedge: data_asset) targeting AI labs building agentic systems, not end-users. Confidence is high (0.85) because the description explicitly positions them as providing 'evaluations, RL environments, and expert training data' to AI labs.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "B2B",
+      "Data Labeling"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 939300,
+        "full_name": "Pavan Kalyan (a.k.a PK) Tankala",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Cofounder and CEO @ Ritivel. \nPrev. @ Microsoft Research focused on training language models. \nGraduated from IIT Bombay with Btech + Mtech in Electrical+AI. \nPublished @ Neurips, ACL, Interspeech.",
+        "linkedin_url": "https://www.linkedin.com/in/tankalapavankalyan/",
+        "twitter_url": "https://x.com/tpavankalyan23",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1c77d98c0bc9179eed8778598c8f30a73ec265ba.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJTNKZLY6%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184853Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDYIo3ZGOS%2FiSMky%2FO2lg%2FyG%2FFMURuZAZYJS2OcRvPjjAIgPm%2FlsLVrQQdJ%2F2p2Ar4ZU339FZkna0W%2BkYXkdRyH6AYq5QMIbBAAGgwwMDYyMDE4MTEwNzIiDAhKae5ClcpIlaHx%2FyrCA04uHDiLtxfLbYYe8Htl6QqqGn7DtPc8RpxRJ4VfyGJcUzizP9PVfrcfcDxDbGL8my%2F5nCPbksmyAtysskHlaC1FFexjy4jj91oOQJN8bGA54gKGI45CkClzWdIcbCYeyClUqoYD7wLLVSj89bA8I75%2Bjj8LcGV36VqjNWjOCLcH1F4gTd6yrAkibylP3bkMAF5EifqsaR9n0KOCGp9Ojw5ekTaOEyiv0Z225VwzmWN%2BWTcRHg505%2BTFQq2E2uEfwGoNHfqmCgYOe9EOH2S0CLq48jhvpE1LUlCl%2Fs%2Ftk2aGPS7TU0a%2BcoV3vKZPnKbaGkGixW8xqKMQXeNHXQPHDHnlgyvzS7vk7rlHND%2FBbtQlG3FjK42sPG06%2FnhXcfXzDS9PI7OBsO%2BhoYF4qLo0zdURmqxaTTHRPaC%2Fjx%2FVzy0B3EDKTGk2wLvv5Yq6UUvMAxHMhjbA0qU4CTUEmylKztVrFQJk2Xz%2FrytFY9KabjnP3PRLyzgHUYMR1%2FdCDA2%2FukZKd6F08a62YJN4ewKU0k2ih0NulXkWljwP3EthIceKxz%2FJK%2FmkL7Fi6VvQ8w0tSuyUQ71X2xuAWTTK06mRz%2FZGAzDcrvXVBjqlAeswif2Ta19N6AZClOiw2kEF%2FWiHhovtV7wCSUjUzAsIHHqEleMQ7XiHI6PU2YyDA5soyNI1dzssKFkUUXVcDfiBBNmJ%2F%2BEVhwTSlnadWfmPIAKOler%2BEqDEmef7ygknDlmV14cNADtMIagaasdEu50eIwUq6qgmSOdnQSDGA1LIeODdmHEndAvCdsFBuNh%2BHwFON7Ny1v2BEJtj%2BYKIiIp1dZnJOw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c03d103c790022ee103037b558b770ef5aa4d6978e798d9e1e4ca69116f5c0ad",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "TensorTest",
+          "href": "https://www.ycombinator.com/companies/tensortest"
+        }
+      },
+      {
+        "user_id": 2779196,
+        "full_name": "Nirmit Arora",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder and CTO @ Ritivel. Prev @ Microsoft Research focused on making agentic systems safe. ",
+        "linkedin_url": "https://www.linkedin.com/in/nirmitarora",
+        "twitter_url": "https://x.com/NirmitArora26",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3fc19dad7b2d51a113e38f3a00002d8716a82df6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJTNKZLY6%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184853Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDYIo3ZGOS%2FiSMky%2FO2lg%2FyG%2FFMURuZAZYJS2OcRvPjjAIgPm%2FlsLVrQQdJ%2F2p2Ar4ZU339FZkna0W%2BkYXkdRyH6AYq5QMIbBAAGgwwMDYyMDE4MTEwNzIiDAhKae5ClcpIlaHx%2FyrCA04uHDiLtxfLbYYe8Htl6QqqGn7DtPc8RpxRJ4VfyGJcUzizP9PVfrcfcDxDbGL8my%2F5nCPbksmyAtysskHlaC1FFexjy4jj91oOQJN8bGA54gKGI45CkClzWdIcbCYeyClUqoYD7wLLVSj89bA8I75%2Bjj8LcGV36VqjNWjOCLcH1F4gTd6yrAkibylP3bkMAF5EifqsaR9n0KOCGp9Ojw5ekTaOEyiv0Z225VwzmWN%2BWTcRHg505%2BTFQq2E2uEfwGoNHfqmCgYOe9EOH2S0CLq48jhvpE1LUlCl%2Fs%2Ftk2aGPS7TU0a%2BcoV3vKZPnKbaGkGixW8xqKMQXeNHXQPHDHnlgyvzS7vk7rlHND%2FBbtQlG3FjK42sPG06%2FnhXcfXzDS9PI7OBsO%2BhoYF4qLo0zdURmqxaTTHRPaC%2Fjx%2FVzy0B3EDKTGk2wLvv5Yq6UUvMAxHMhjbA0qU4CTUEmylKztVrFQJk2Xz%2FrytFY9KabjnP3PRLyzgHUYMR1%2FdCDA2%2FukZKd6F08a62YJN4ewKU0k2ih0NulXkWljwP3EthIceKxz%2FJK%2FmkL7Fi6VvQ8w0tSuyUQ71X2xuAWTTK06mRz%2FZGAzDcrvXVBjqlAeswif2Ta19N6AZClOiw2kEF%2FWiHhovtV7wCSUjUzAsIHHqEleMQ7XiHI6PU2YyDA5soyNI1dzssKFkUUXVcDfiBBNmJ%2F%2BEVhwTSlnadWfmPIAKOler%2BEqDEmef7ygknDlmV14cNADtMIagaasdEu50eIwUq6qgmSOdnQSDGA1LIeODdmHEndAvCdsFBuNh%2BHwFON7Ny1v2BEJtj%2BYKIiIp1dZnJOw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=325faff4d8ca69b07d64bcbac0e4719ed9abd1963be4bb744da9f2fbeb61d423",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "TensorTest",
+          "href": "https://www.ycombinator.com/companies/tensortest"
+        }
+      },
+      {
+        "user_id": 2979021,
+        "full_name": "Gunin Gupta",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Cofounder and CBO @ Ritivel. \nPrev. @ AT Kearney focused on sustainability and energy process industries.\nGraduated with a bachelor&#x27;s from IIT Bombay.",
+        "linkedin_url": "https://www.linkedin.com/in/guningupta/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/492637c609ab817e2febf7aa88286156cb2f269e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJTNKZLY6%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184853Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDYIo3ZGOS%2FiSMky%2FO2lg%2FyG%2FFMURuZAZYJS2OcRvPjjAIgPm%2FlsLVrQQdJ%2F2p2Ar4ZU339FZkna0W%2BkYXkdRyH6AYq5QMIbBAAGgwwMDYyMDE4MTEwNzIiDAhKae5ClcpIlaHx%2FyrCA04uHDiLtxfLbYYe8Htl6QqqGn7DtPc8RpxRJ4VfyGJcUzizP9PVfrcfcDxDbGL8my%2F5nCPbksmyAtysskHlaC1FFexjy4jj91oOQJN8bGA54gKGI45CkClzWdIcbCYeyClUqoYD7wLLVSj89bA8I75%2Bjj8LcGV36VqjNWjOCLcH1F4gTd6yrAkibylP3bkMAF5EifqsaR9n0KOCGp9Ojw5ekTaOEyiv0Z225VwzmWN%2BWTcRHg505%2BTFQq2E2uEfwGoNHfqmCgYOe9EOH2S0CLq48jhvpE1LUlCl%2Fs%2Ftk2aGPS7TU0a%2BcoV3vKZPnKbaGkGixW8xqKMQXeNHXQPHDHnlgyvzS7vk7rlHND%2FBbtQlG3FjK42sPG06%2FnhXcfXzDS9PI7OBsO%2BhoYF4qLo0zdURmqxaTTHRPaC%2Fjx%2FVzy0B3EDKTGk2wLvv5Yq6UUvMAxHMhjbA0qU4CTUEmylKztVrFQJk2Xz%2FrytFY9KabjnP3PRLyzgHUYMR1%2FdCDA2%2FukZKd6F08a62YJN4ewKU0k2ih0NulXkWljwP3EthIceKxz%2FJK%2FmkL7Fi6VvQ8w0tSuyUQ71X2xuAWTTK06mRz%2FZGAzDcrvXVBjqlAeswif2Ta19N6AZClOiw2kEF%2FWiHhovtV7wCSUjUzAsIHHqEleMQ7XiHI6PU2YyDA5soyNI1dzssKFkUUXVcDfiBBNmJ%2F%2BEVhwTSlnadWfmPIAKOler%2BEqDEmef7ygknDlmV14cNADtMIagaasdEu50eIwUq6qgmSOdnQSDGA1LIeODdmHEndAvCdsFBuNh%2BHwFON7Ny1v2BEJtj%2BYKIiIp1dZnJOw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b504945387d000fdf722072a7eaf8fa04ac5583d4315007ad13a5d375419b04e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "TensorTest",
+          "href": "https://www.ycombinator.com/companies/tensortest"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-30T18:49:02.221Z",
+    "classified_at": "2026-09-30T18:49:02.221Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "tensr",
     "name": "Tensr",
     "website": "https://tensr.com/",
@@ -100486,6 +101087,89 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "useterse",
+    "name": "Terse",
+    "website": "https://www.useterse.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/useterse",
+    "batch": "Fall 2026",
+    "one_liner": "Durable state for AI agents",
+    "description_combined": "Durable state for AI agents\n\nWe build infrastructure to power agentic systems such as software factories, multiplayer agent frameworks and agent coordination.",
+    "industry_sub_vertical": "Durable state management for multi-agent coordination and fault tolerance",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Harness / Orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "state_persistence",
+      "agent_coordination",
+      "workflow_durability"
+    ],
+    "what_they_sell": "Infrastructure API/SDK that provides durable state management for multi-agent systems, enabling reliable coordination, persistence, and recovery across distributed agentic workflows (software factories, multiplayer agent frameworks).",
+    "ai_play": "Solves the critical reliability gap in agentic systems: agents need persistent, consistent state across distributed execution, retries, and multi-agent coordination. Terse abstracts away state management complexity so developers can focus on agent logic rather than building custom durability layers.",
+    "who_pays": "AI/ML platform teams, software factories, agent framework builders, and enterprises deploying multi-agent systems that require fault tolerance and coordination.",
+    "confidence": 0.78,
+    "rationale": "Terse is clearly agent infrastructure (not a vertical application or end-user product). The focus on 'durable state' and 'agent coordination' maps directly to agent-runtime-infra's core value: reliability and orchestration for agentic systems. Secondary consideration: agent-context-infra (if they also handle context enrichment), but primary signal is state/durability/coordination, not context retrieval. Confidence 0.78 (not higher because 'durable state' is a specific sub-layer; could warrant a new phenotype if they're uniquely focused on state machines vs. general orchestration, but agent-runtime-infra is broad enough to encompass this).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "API",
+      "Infrastructure",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 213528,
+        "full_name": "Thomas Elias Karatzas",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Terse AI. Previously Staff Engineer at Apple for 7 years, working on Siri and Apple Intelligence. Earlier founded Know Your VC (acquired by RateMyInvestor). Software Engineering degree from McGill University.",
+        "linkedin_url": "https://www.linkedin.com/in/thomas-karatzas-a3015a94/",
+        "twitter_url": "https://x.com/karatzas_thomas",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8dad0537303f1f75e956ab8e949aa67c25a10c1a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMAC6LDZL%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184920Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCC5ZYUbzeP%2BfIPEYWuZbn6cv1cr5qw%2BOxxglSgrgY1agIhAIu1lkXx9ZEN%2BPJ7bFb4DdoSSDtlKWN6vFp09CGGjj6dKuUDCGwQABoMMDA2MjAxODExMDcyIgxmovKnMvoxn2VZEOUqwgNsH6jlds4SRtMkQ4wEWtqAlG6E9l5fR%2FdE4a%2BGwuoiAnBFWaN49QA%2Bq1EQ9W5S%2BIQRavrOIgd7jOsBYbo4wx%2BaKPf29208A%2FdgEpsCGhoYkinCI07FqYACuK0xmenugH7NL302aBH%2Fro5FRnHH61qaxvlHgkopuY0ngvL2aKqbAelCFAswcLKiDWIK16%2FR4ZncEPXeg%2BLYsLSXFkpDO7ZhY6mvGLDOqV70YVlzcdSxtRxuOxl7pBo4hcXerWMea8MEvR%2Bt4%2BNC%2BHpqSbfh%2FNAM2VhJlHXtiNDoIPvjQdebOgTu9fhpbFGosAiCxojSRScepORjqff01C7OAghHvMdtInFuCsXtWQbMv9xwSTf53I0oMA8Uw2sS62wf%2BW4GslCmdTmzpYBKIqkgck0Cg6xx3YSnceMxqLRlDfDSyJ9MTsUhHGas28xo9PvdDMCXHKSJ%2FhYCk%2FaizO5Abbff0sw2iefbaYznXpjb%2B3zpb%2FHstPFgtRhQ%2BLKA0GKJ4b3n4pQidUVL%2Ff9NmJdTS4AojHe5ug5npQ8KYOJiM3UJZhYCeI8lxnkNwA8vbcXxPbmTevoBEgmn25kKBvp4uoSaN90RXiAwxa711QY6pAEwC3DK2S0HBWeGXvfm%2BUCC6QqAGt6FwQLt11G%2FVIcZutImk%2BM8lg8VLhQ9DjFYIPEY0gNDHUSF0KigkN2wTuDe8ksL98V2RlPbB%2B4XAw07Z2P6GgVvaKXAqjiimJ%2FWaBAVE9QkqsRD8bCe20RWnv3h120Ao4bhU7lJ6WeApUYtMxBTpqlHppJcM%2BrbhVyDp8OfgyyBL1R7DtwwNJW0Fav3x57vjA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=fe3701cba89de8a1e875acbabe10d3c095dc8474b16076c93cd984a43dbc80e6",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Terse",
+          "href": "https://www.ycombinator.com/companies/useterse"
+        }
+      },
+      {
+        "user_id": 4004194,
+        "full_name": "Olivier Simard-Morissette",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at Terse AI (YC F26). Previously Principal Software Engineer at Pigeon (YC W23) and Senior Software Engineer at Squarespace and The New York Times. ",
+        "linkedin_url": "https://www.linkedin.com/in/olism/",
+        "twitter_url": "https://x.com/oliviersm199?s=11",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d54e4534691360fc80d558e0622c9457684b7278.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMAC6LDZL%2F20260930%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260930T184920Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCC5ZYUbzeP%2BfIPEYWuZbn6cv1cr5qw%2BOxxglSgrgY1agIhAIu1lkXx9ZEN%2BPJ7bFb4DdoSSDtlKWN6vFp09CGGjj6dKuUDCGwQABoMMDA2MjAxODExMDcyIgxmovKnMvoxn2VZEOUqwgNsH6jlds4SRtMkQ4wEWtqAlG6E9l5fR%2FdE4a%2BGwuoiAnBFWaN49QA%2Bq1EQ9W5S%2BIQRavrOIgd7jOsBYbo4wx%2BaKPf29208A%2FdgEpsCGhoYkinCI07FqYACuK0xmenugH7NL302aBH%2Fro5FRnHH61qaxvlHgkopuY0ngvL2aKqbAelCFAswcLKiDWIK16%2FR4ZncEPXeg%2BLYsLSXFkpDO7ZhY6mvGLDOqV70YVlzcdSxtRxuOxl7pBo4hcXerWMea8MEvR%2Bt4%2BNC%2BHpqSbfh%2FNAM2VhJlHXtiNDoIPvjQdebOgTu9fhpbFGosAiCxojSRScepORjqff01C7OAghHvMdtInFuCsXtWQbMv9xwSTf53I0oMA8Uw2sS62wf%2BW4GslCmdTmzpYBKIqkgck0Cg6xx3YSnceMxqLRlDfDSyJ9MTsUhHGas28xo9PvdDMCXHKSJ%2FhYCk%2FaizO5Abbff0sw2iefbaYznXpjb%2B3zpb%2FHstPFgtRhQ%2BLKA0GKJ4b3n4pQidUVL%2Ff9NmJdTS4AojHe5ug5npQ8KYOJiM3UJZhYCeI8lxnkNwA8vbcXxPbmTevoBEgmn25kKBvp4uoSaN90RXiAwxa711QY6pAEwC3DK2S0HBWeGXvfm%2BUCC6QqAGt6FwQLt11G%2FVIcZutImk%2BM8lg8VLhQ9DjFYIPEY0gNDHUSF0KigkN2wTuDe8ksL98V2RlPbB%2B4XAw07Z2P6GgVvaKXAqjiimJ%2FWaBAVE9QkqsRD8bCe20RWnv3h120Ao4bhU7lJ6WeApUYtMxBTpqlHppJcM%2BrbhVyDp8OfgyyBL1R7DtwwNJW0Fav3x57vjA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=37bc6108aa87d1e0b6a7dba0c18e535f4a82661d21ed226078460593f1c3e0ed",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Terse",
+          "href": "https://www.ycombinator.com/companies/useterse"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-09-30T18:49:27.689Z",
+    "classified_at": "2026-09-30T18:49:27.689Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "valctrl",

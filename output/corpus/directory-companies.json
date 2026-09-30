@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-29T19:06:07.175Z",
+  "synced_at": "2026-09-30T18:48:52.665Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1348,
+  "company_count": 1354,
   "companies": [
     {
       "slug": "10x",
@@ -1369,7 +1369,7 @@
       "name": "antimattr",
       "batch": "Fall 2026",
       "one_liner": "voice-first hardware interface for human-agent interaction",
-      "long_description": "antimattr builds a voice-first hardware interface for human-agent interaction that includes a ring and a pair of earphones. Designed to make more of your voice, the ring can record and summarise your conversations, capture thoughts on the go, or control your agents. The earphones use proprietary voice isolation technology to block out background noise entirely, so you can take a clear call from a loud pub or dictate with real accuracy.\r\n\r\nReserve early access at https://www.antimattr.one/project-mnemosyne\r\n[use code YC at checkout]",
+      "long_description": "antimattr builds a voice-first hardware interface for human-agent interaction that includes a ring and a pair of earphones. Designed to make more of your voice, the ring can record and summarise your conversations, capture thoughts on the go, or control your agents. The earphones use proprietary voice isolation technology to block out background noise entirely, so you can take a clear call from a loud pub or dictate with real accuracy.",
       "website": "https://www.antimattr.one/project-mnemosyne",
       "industries": [
         "Consumer",
@@ -1378,7 +1378,8 @@
       "tags": [
         "Artificial Intelligence",
         "Hardware",
-        "Consumer"
+        "Consumer",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -1869,6 +1870,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1788189674
+    },
+    {
+      "slug": "ascenix",
+      "name": "Ascenix",
+      "batch": "Fall 2026",
+      "one_liner": "Clinical intelligence layer for skilled nursing facilities.",
+      "long_description": "Ascenix is the all-in-one incident platform that turns unstructured EHR data into automated reporting, reimbursement recovery, compliance flagging, and clinical insight. We’re already live in 50 homes and scaling across North America. We connect to systems like PointClickCare and analyze the notes nurses already write, adapting to any note structure and any compliance or reporting requirement.\r\n\r\nWe help teams identify documentation gaps, uncover missed revenue opportunities and spot emerging resident risks, while reducing time spent reviewing charts and building spreadsheets. Our goal is to improve residents’ quality of life by helping care homes reach their full clinical, financial and operational potential.",
+      "website": "https://www.ascenix.co/",
+      "industries": [
+        "Healthcare",
+        "Healthcare IT"
+      ],
+      "tags": [
+        "Digital Health",
+        "Healthcare IT"
+      ],
+      "team_size": 7,
+      "location": "Toronto, ON, Canada",
+      "status": "Active",
+      "launched_at": 1790728301
     },
     {
       "slug": "asendia-ai",
@@ -2916,15 +2937,15 @@
       "slug": "belvedir",
       "name": "Belvedir",
       "batch": "Summer 2026",
-      "one_liner": "The custom AI model factories",
+      "one_liner": "Your custom AI model factory",
       "long_description": "Belvedir makes it cheap and easy for anyone to make custom AI models. We autonomously collect your data via trace SDK / app MCP / CUA agents and autonomously train custom models + harnesses + routers, privately deploy them, and recursively improve them as they are used. \r\n\r\nOur customers have seen 10x reductions in inference costs and 2x increases on benchmark scores.\r\n\r\nCustom AI models are going to win. Belvedir is the infrastructure needed to make trillions of them.",
       "website": "https://belvedir.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Machine Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Machine Learning"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -5843,8 +5864,8 @@
         "Insurance"
       ],
       "tags": [
-        "Insurance",
-        "AI"
+        "Artificial Intelligence",
+        "Insurance"
       ],
       "team_size": 2,
       "location": "Seattle, WA, USA",
@@ -6474,7 +6495,7 @@
       "name": "Decent",
       "batch": "Fall 2026",
       "one_liner": "Continuous optimization for employer health plans.",
-      "long_description": "Decent is an AI-native health insurance brokerage. We quote every available option, like Kayak for health plans, and then monitor and act on claims data continuously to make your plan better and cheaper year-round.",
+      "long_description": "Decent is an AI-native health insurance brokerage. We make your health plan better year-round, not just once a year.",
       "website": "https://decent.com",
       "industries": [
         "Fintech",
@@ -6496,20 +6517,21 @@
       "slug": "dedalus-labs",
       "name": "Dedalus Labs",
       "batch": "Summer 2025",
-      "one_liner": "Compute substrate for AI agents",
-      "long_description": "The fastest persistent computer for agents. Host long-running, stateful agents that never sleep in <50ms. ",
+      "one_liner": "Persistent computers for AI agents",
+      "long_description": "Dedalus Labs builds persistent compute for AI agents. Our flagship product, Dedalus Machines, gives agents isolated computers where they can run software, keep files and state, and do useful work over time.\r\n\r\nWe build across virtualization, distributed storage, networking, scheduling, and orchestration. Our goal is to make persistent compute dependable and straightforward to use through APIs and developer tools, so developers can build agents that work with real software and maintain a working environment across sessions.",
       "website": "https://www.dedaluslabs.ai/",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
-        "Workflow Automation",
-        "DevOps"
+        "DevOps",
+        "Cloud Computing",
+        "Infrastructure",
+        "AI"
       ],
-      "team_size": 10,
+      "team_size": 8,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1756399069
@@ -7287,6 +7309,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1757191317
+    },
+    {
+      "slug": "dydema",
+      "name": "Dydema",
+      "batch": "Fall 2026",
+      "one_liner": "The model company for neurotech.",
+      "long_description": "A data-first model company for neurotech. We collect brain data for others, and use it to build toward general models of the brain.",
+      "website": "https://dydema.com/",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Neurotechnology",
+        "Neuroinformatics",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1790760468
     },
     {
       "slug": "e1o",
@@ -8079,7 +8121,7 @@
         "ML"
       ],
       "team_size": 4,
-      "location": "San Francisco, CA, USA",
+      "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1777849866
     },
@@ -8248,7 +8290,7 @@
         "AI Assistant"
       ],
       "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "location": "Thessaloniki, Greece",
       "status": "Active",
       "launched_at": 1759962128
     },
@@ -8415,10 +8457,10 @@
     },
     {
       "slug": "finbar",
-      "name": "finbar",
+      "name": "Finbar",
       "batch": "Winter 2025",
-      "one_liner": "The AI investment analyst",
-      "long_description": "finbar is the AI investment analyst used by several top-20 (AUM) hedge funds. It automates financial modelling, research, and data analysis so multi-million-dollar decisions can be made 100x faster.",
+      "one_liner": "Financial intelligence for every investor",
+      "long_description": "Finbar is high-quality financial data and intelligence, used by several of the world's largest hedge funds. It automates financial modelling, research, and data analysis so multi-million-dollar decisions can be made 100x faster.\r\n\r\nFinbar maintains its own dataset of worldwide company filings, presentations, transcripts, and more, delivering clean data from these fundamental sources within minutes of release. This data is available via web, Excel add-in, API, and MCP. \r\n\r\nOur services include: company primers and prebuilt models; AI tools for analysts to create their own research; Excel tools to build financial models in minutes and update them in seconds; API streams to integrate our worldwide data into any programmatic or agentic system.",
       "website": "https://finbar.com",
       "industries": [
         "Fintech"
@@ -9355,7 +9397,7 @@
         "Finance and Accounting"
       ],
       "tags": [],
-      "team_size": 4,
+      "team_size": 20,
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1768976472
@@ -9566,7 +9608,7 @@
         "GovTech"
       ],
       "team_size": 0,
-      "location": "San Francisco, CA, USA",
+      "location": "Chicago, IL, USA",
       "status": "Active",
       "launched_at": 1776807232
     },
@@ -10585,6 +10627,29 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753843448
+    },
+    {
+      "slug": "hundred",
+      "name": "Hundred",
+      "batch": "Fall 2026",
+      "one_liner": "100% automated inspection for consumer electronics parts",
+      "long_description": "Hundred is an automated inspection system for consumer electronics parts. We help factories cut waste and prevent line-down issues by catching sub-millimeter cosmetic defects before parts reach the assembly line.\r\n\r\nDesigns change so fast that traditional vision models can't keep up, meaning factories still rely on manual inspection, literally people checking parts under microscopes to sort out bad parts. Human inspectors miss ~15% of defects which can turn a finished device into scrap.\r\n\r\nDefects cost U.S. discrete manufacturers $45 billion a year, and Erica saw this problem firsthand designing hardware at Meta, Google, and Magic Leap. She met Imani at Columbia's admitted-students day in 2017, and later met Iris through mutual friends in the Bay Area. Imani spent the last five years at Twitch building software that handles billions of requests a day, and Iris worked in Quant at Citadel before pivoting to research machine learning methods on 3D meshes and other structured data at Imperial College London. Now the team is building Hundred because manual inspection shouldn't exist in 2026.",
+      "website": "http://hundred.systems/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "Machine Learning",
+        "Computer Vision",
+        "Industrial"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1790785673
     },
     {
       "slug": "huscarl",
@@ -12411,17 +12476,17 @@
       "slug": "lapel",
       "name": "Lapel",
       "batch": "Spring 2025",
-      "one_liner": "Bringing hospitality to the internet.",
-      "long_description": "Great service means knowing your customers and making every interaction count. Online, that gets harder as a company grows. Customer context is scattered across systems, leaving teams to piece it together.\r\n\r\nLapel unifies that data into a real-time picture of every account and helps teams turn what they know into coordinated action across the customer journey. The result is faster decisions, more proactive service, and interactions that feel more personal. We call it hospitality at scale.\r\n\r\nLearn more at lapel.com.",
+      "one_liner": "Infrastructure to power every customer interaction.",
+      "long_description": "Lapel is bringing hospitality to the internet.\r\n\r\nGreat service means knowing your customers and making every interaction count. Online, that gets harder as a company grows. Customer context is scattered across systems, leaving teams to piece it together.\r\n\r\nLapel unifies that data into a real-time picture of every account and helps teams turn what they know into coordinated action across the customer journey. The result is faster decisions, more proactive service, and interactions that feel personal at scale. We call it hospitality at scale.\r\n\r\nLearn more at lapel.com.",
       "website": "https://lapel.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Customer Success",
         "Sales",
-        "Customer Support",
-        "AI"
+        "Customer Support"
       ],
       "team_size": 15,
       "location": "San Francisco, CA, USA",
@@ -12480,14 +12545,14 @@
       "batch": "Fall 2026",
       "one_liner": "Lark - Specialized agents for wholesale distributors",
       "long_description": "Lark builds specialized AI agents that automate manual workflows for wholesale distributors. Our agents work with existing ERP systems, learning from each distributor’s historical data and the team’s decisions. Together, these agents can run a distributor’s entire operation.",
-      "website": "https://trylark.ai",
+      "website": "https://larkagents.com",
       "industries": [
         "Industrials"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Supply Chain"
+        "Supply Chain",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -14365,7 +14430,7 @@
         "Robotics",
         "Solar Power"
       ],
-      "team_size": 3,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1789148682
@@ -14525,7 +14590,7 @@
       "name": "Mirabelle",
       "batch": "Winter 2026",
       "one_liner": "Your robot chef",
-      "long_description": "We build the personal robot chef.\r\n\r\nMirabelle chops, cooks, and serves fresh meals on demand, so you can eat well every day without spending a minute in the kitchen.\r\n\r\nWhy now: vision AI is finally good enough to give a machine the eyes of a private chef. And humans gathering around a good meal will always be one of life's best moments.",
+      "long_description": "We build the personal robot chef.\r\n\r\nMirabelle chops, cooks, and serves fresh meals on demand, so you can eat well every day without spending hours in the kitchen.",
       "website": "https://meetmirabelle.com",
       "industries": [
         "Consumer",
@@ -14773,6 +14838,29 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1769121297
+    },
+    {
+      "slug": "moda-2",
+      "name": "Moda",
+      "batch": "Fall 2026",
+      "one_liner": "Fully editable slides, designs and video.",
+      "long_description": "",
+      "website": "",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "tags": [
+        "AI-Enhanced Learning",
+        "Design",
+        "Sales",
+        "Video",
+        "Marketing"
+      ],
+      "team_size": 6,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1790709958
     },
     {
       "slug": "modelence",
@@ -15386,7 +15474,7 @@
       "batch": "Fall 2026",
       "one_liner": "AI that works for in-house legal teams",
       "long_description": "Neomatter connects to a company’s email, chat, and business systems and does the legal work before it reaches the legal team. It gathers context, applies company policies and past decisions, and presents the completed work to in-house counsel for approval.",
-      "website": "https://neomatter.ai",
+      "website": "https://neomatter.com",
       "industries": [
         "B2B",
         "Legal"
@@ -16508,6 +16596,27 @@
       "launched_at": 1758664179
     },
     {
+      "slug": "openseo",
+      "name": "OpenSEO",
+      "batch": "Fall 2026",
+      "one_liner": "Open source alternative to Semrush and Ahrefs",
+      "long_description": "Connect to your AI Agent in 2 minutes.\r\n\r\nGet expert level advice tailored to your business backed by real data like keyword search traffic, backlinks, and technical audits of your site.\r\n\r\nHere are some good skills to start with:\r\n\r\n/seo-audit What 1-2 changes to your website will drive more traffic?\r\n/keyword-research Find topics worth writing about?\r\n/competitor-analysis Understand your competitors’ SEO strategy.",
+      "website": "https://openseo.so/",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "tags": [
+        "Open Source",
+        "Marketing",
+        "SEO"
+      ],
+      "team_size": 2,
+      "location": "Boston, MA, USA",
+      "status": "Active",
+      "launched_at": 1790725906
+    },
+    {
       "slug": "openspec",
       "name": "OpenSpec",
       "batch": "Winter 2026",
@@ -16786,10 +16895,10 @@
       ],
       "tags": [
         "AI-powered Drug Discovery",
-        "Biotech",
-        "AI"
+        "Artificial Intelligence",
+        "Biotech"
       ],
-      "team_size": 4,
+      "team_size": 8,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1770167044
@@ -18760,7 +18869,7 @@
         "Cybersecurity"
       ],
       "team_size": 6,
-      "location": "Paris, Île-de-France, France",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1747978784
     },
@@ -20184,29 +20293,6 @@
       "launched_at": 1783123197
     },
     {
-      "slug": "ritivel",
-      "name": "Ritivel",
-      "batch": "Winter 2026",
-      "one_liner": "AI-native platform for Life-Sciences Documentation ",
-      "long_description": "Ritivel is an AI-native workspace for regulatory and medical writing teams at life sciences companies. Our AI agents draft CTDs, CSRs, INDs, and BLAs in minutes instead of weeks, helping drugs reach patients faster.\r\n\r\nEvery month a drug is delayed from reaching the market costs pharma companies ~$45M in lost revenue and more importantly, delays treatment for thousands of patients who need it. Yet regulatory teams are stuck in a painful, months-long process: synthesizing thousands of pages of clinical data, hunting through SharePoint folders for the right documents, chasing colleagues for missing inputs, and manually drafting submissions.\r\n\r\nRitivel deploys AI agents that transform how regulatory teams work. Our agents generate comprehensive first drafts directly in Microsoft Word, following FDA formatting requirements and pulling from your existing clinical data and prior submissions. Every data point includes citations linked back to the original source, so reviewers can verify with one click. Connected to SharePoint and Veeva, our agents automatically source the right documents. Integrated with Outlook, they handle reminder emails and follow-ups automatically.\r\n\r\nWe're engineers who previously built AI copilots at Microsoft Research. After 50+ conversations with pharma professionals, we discovered the critical bottleneck in regulatory submissions and built Ritivel to solve it. ",
-      "website": "https://www.ritivel.com",
-      "industries": [
-        "Healthcare",
-        "Healthcare IT"
-      ],
-      "tags": [
-        "Generative AI",
-        "Compliance",
-        "Enterprise Software",
-        "Regtech",
-        "Biotechnology"
-      ],
-      "team_size": 3,
-      "location": "Bengaluru, KA, India",
-      "status": "Active",
-      "launched_at": 1768402832
-    },
-    {
       "slug": "river-markets",
       "name": "River Markets",
       "batch": "Spring 2026",
@@ -21275,18 +21361,18 @@
       "name": "Shepherd Robotics",
       "batch": "Fall 2026",
       "one_liner": "Robots for high skilled labor powering AI infrastructure",
-      "long_description": "Shepherd Robotics builds general purpose robots for skilled physical work across AI infrastructure and advanced manufacturing. Our robots are powered by robot foundation models and use modular, flexible hardware designed to adapt to different environments and tasks.\r\nWe train our systems on a combination of real world and simulation data so they can learn complex manipulation skills and generalize across workflows. We are starting with tasks such as data center construction and operations, cable and wire manufacturing, wire harness assembly, kitting, and factory packaging, where traditional automation struggles with variability, dexterity, and changing environments.",
+      "long_description": "Shepherd Robotics builds general purpose robots for skilled physical work across AI infrastructure and advanced manufacturing. Our robots are powered by robot foundation models and use modular, flexible hardware designed to adapt to different environments and tasks. We train our systems on a combination of real world and simulation data so they can learn complex manipulation skills and generalize across workflows. We also provide integration into customers’ existing workflows, starting with data center construction and operations, electrical manufacturing and testing, and electronics manufacturing, where traditional automation struggles with variability, dexterity, and changing environments. ",
       "website": "https://shepherdrobotics.ai/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hardware",
         "Robotics",
         "Manufacturing",
-        "Automation"
+        "Automation",
+        "AI"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -21531,7 +21617,7 @@
       "name": "Sila",
       "batch": "Winter 2026",
       "one_liner": "Agentic Whatsapp",
-      "long_description": "Sila is an agentic WhatsApp where messaging is built for teams and agents to get work done in the same conversations. Free, instant, team and agent messaging available around the world.\r\n",
+      "long_description": "Sila is an agentic WhatsApp where messaging is built for teams and agents to get work done in the same conversations. Instant team and agent messaging available around the world. Our mission is to bring super intelligence to everyone globally.",
       "website": "https://silahq.com",
       "industries": [
         "B2B",
@@ -22574,7 +22660,7 @@
         "Navigation"
       ],
       "team_size": 2,
-      "location": "",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1789759565
     },
@@ -23027,7 +23113,7 @@
       ],
       "tags": [],
       "team_size": 1,
-      "location": "San Francisco, CA, USA",
+      "location": "Adelaide, SA, Australia",
       "status": "Active",
       "launched_at": 1760645046
     },
@@ -23335,6 +23421,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Acquired",
       "launched_at": 1738629191
+    },
+    {
+      "slug": "tensortest",
+      "name": "TensorTest",
+      "batch": "Winter 2026",
+      "one_liner": "Evals, RL environments and training data for creative tasks",
+      "long_description": "TensorTest (formerly Ritivel) builds evaluations, reinforcement-learning environments, and expert training data for AI labs developing creative agents, starting with video editing.\r\n\r\nAn agent can produce a valid video file without delivering an edit that meets the client’s brief. Labs need reliable ways to measure creative quality, identify failures, and give agents feedback they can learn from.\r\n\r\nOur first benchmark, TimelineBench, gives agents client video-editing jobs with raw footage, audio, and a brief. It evaluates the finished work using a verifier calibrated on thousands of blind judgments from professional editors. Across 16 agents we tested, the best passed only 26.8% of jobs. Most failures came down to creative craft rather than broken output.\r\n\r\nWe offer labs private evaluations to identify where their models fail, training environments that use our verifier’s scores as rewards, and expert-created training data, including professional editing demonstrations, preference pairs, and grading rubrics. These offerings connect evaluation to training: identify what an agent gets wrong, provide feedback on its attempts, and supply examples of better work.\r\n\r\nOur team comes from IIT Bombay and has trained language models and built agentic systems at Microsoft Research.",
+      "website": "https://www.tensortest.com",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Data Labeling"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1768402832
     },
     {
       "slug": "tensr",
@@ -24968,6 +25074,27 @@
       "launched_at": 1775157268
     },
     {
+      "slug": "useterse",
+      "name": "Terse",
+      "batch": "Fall 2026",
+      "one_liner": "Durable state for AI agents",
+      "long_description": "We build infrastructure to power agentic systems such as software factories, multiplayer agent frameworks and agent coordination.",
+      "website": "https://www.useterse.ai/",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "API",
+        "Infrastructure",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1790745772
+    },
+    {
       "slug": "valctrl",
       "name": "ValCtrl",
       "batch": "Spring 2026",
@@ -26010,7 +26137,7 @@
       ],
       "tags": [],
       "team_size": 0,
-      "location": "San Francisco, CA, USA",
+      "location": "Paris, Île-de-France, France",
       "status": "Active",
       "launched_at": 1779951603
     },
@@ -26026,11 +26153,11 @@
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "B2B",
-        "Analytics",
-        "AI"
+        "Analytics"
       ],
-      "team_size": 14,
+      "team_size": 16,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1738683202
