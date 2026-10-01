@@ -1,120 +1,53 @@
 {
-  "checked_at": "2026-09-30T18:50:54.542Z",
+  "checked_at": "2026-10-01T19:15:53.795Z",
   "source": "https://www.ycombinator.com/launches",
   "checked_count": 3,
   "new_count": 3,
   "skipped_count": 927,
   "ingest": {
-    "addedCompanies": 3,
-    "enrichedCompanies": 0
+    "addedCompanies": 0,
+    "enrichedCompanies": 3
   },
   "summary": {
-    "conforming": 0,
-    "partial": 2,
-    "non_conforming": 1,
-    "would_have_predicted": 0,
-    "surprise": 3,
+    "conforming": 2,
+    "partial": 1,
+    "non_conforming": 0,
+    "would_have_predicted": 2,
+    "surprise": 0,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 117439,
-        "company_slug": "precip",
-        "company_name": "Precip",
-        "launch_url": "https://www.ycombinator.com/launches/UYB-precip-know-exactly-when-it-ll-rain-down-to-the-minute",
-        "created_at": "2026-09-30T18:31:29.713Z"
+        "launch_id": 117908,
+        "company_slug": "mecha-health",
+        "company_name": "Mecha Health",
+        "launch_url": "https://www.ycombinator.com/launches/Ufk-mecha-wayfinder-locating-any-finding-anywhere-in-any-medical-image",
+        "created_at": "2026-10-01T18:37:27.462Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-09-30T18:50:32.804Z",
-        "launch_id": 117439,
-        "company_slug": "precip",
+        "evaluated_at": "2026-10-01T19:15:52.493Z",
+        "launch_id": 117908,
+        "company_slug": "mecha-health",
         "taxonomy": {
-          "conformance_index": 54,
-          "verdict": "partial",
+          "conformance_index": 72,
+          "verdict": "conforming",
           "dimensions": {
             "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 3,
-              "band": "weak"
-            },
-            "business_model_fit": {
               "score": 70,
               "band": "acceptable"
             },
-            "ontology_completeness": {
-              "score": 91,
+            "vertical_workflow_fit": {
+              "score": 85,
               "band": "strong"
             },
-            "thesis_coherence": {
-              "score": 64,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-10",
-            "vertical_id": "consumer.productivity.personal",
-            "phenotype_primary_id": "consumer-ai-app",
-            "cell_key": "BM-10::consumer.productivity.personal::consumer-ai-app",
-            "business_model_label": "Consumer app / prosumer",
-            "vertical_label": "Personal productivity software",
-            "phenotype_label": "Consumer / prosumer AI application"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "unclassified_new_company"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 67,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 117458,
-        "company_slug": "automat",
-        "company_name": "Automat",
-        "launch_url": "https://www.ycombinator.com/launches/UYU-ace-from-automat-it-s-instinct-but-for-work",
-        "created_at": "2026-09-30T16:33:11.033Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-09-30T18:50:43.696Z",
-        "launch_id": 117458,
-        "company_slug": "automat",
-        "taxonomy": {
-          "conformance_index": 53,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 4,
-              "band": "weak"
-            },
             "business_model_fit": {
-              "score": 70,
+              "score": 55,
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 91,
+              "score": 93,
               "band": "strong"
             },
             "thesis_coherence": {
@@ -123,19 +56,19 @@
             }
           },
           "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "ai-infrastructure.agent-runtime",
-            "phenotype_primary_id": "vertical-agentic-workflow-saas",
-            "cell_key": "BM-01::ai-infrastructure.agent-runtime::vertical-agentic-workflow-saas",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Agent runtime & orchestration",
-            "phenotype_label": "Vertical Agentic Workflow SaaS"
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.medical-imaging",
+            "phenotype_primary_id": "foundation-model-domain-infrastructure",
+            "cell_key": "BM-03::ai-infrastructure.medical-imaging::foundation-model-domain-infrastructure",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Medical imaging AI infrastructure",
+            "phenotype_label": "Domain-Specific Foundation Models as Infrastructure"
           }
         },
         "predictor": {
-          "predictability_band": "surprise",
+          "predictability_band": "occupied_first",
           "signals": [
-            "unclassified_new_company"
+            "first_occupant_of_cell"
           ],
           "cell_was_whitespace": false,
           "ranked_gap": null,
@@ -146,64 +79,62 @@
           "would_have_been_predicted": false
         },
         "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
         ]
       }
     },
     {
       "launch": {
-        "launch_id": 117462,
-        "company_slug": "networkocean",
-        "company_name": "NetworkOcean",
-        "launch_url": "https://www.ycombinator.com/launches/UYY-networkocean-floating-solar-data-centers",
-        "created_at": "2026-09-30T00:24:09.713Z"
+        "launch_id": 117886,
+        "company_slug": "finbar",
+        "company_name": "Finbar",
+        "launch_url": "https://www.ycombinator.com/launches/UfO-finbar-financial-intelligence-for-every-investor",
+        "created_at": "2026-10-01T14:29:23.427Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-09-30T18:50:53.212Z",
-        "launch_id": 117462,
-        "company_slug": "networkocean",
+        "evaluated_at": "2026-10-01T19:15:52.495Z",
+        "launch_id": 117886,
+        "company_slug": "finbar",
         "taxonomy": {
-          "conformance_index": 34,
-          "verdict": "non_conforming",
+          "conformance_index": 61,
+          "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
-              "score": 7,
-              "band": "weak"
+              "score": 70,
+              "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 6,
+              "score": 2,
               "band": "weak"
             },
             "business_model_fit": {
-              "score": 55,
+              "score": 70,
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 89,
+              "score": 96,
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 44,
-              "band": "weak"
+              "score": 90,
+              "band": "strong"
             }
           },
           "cell": {
-            "business_model": "BM-08",
-            "vertical_id": "ai-infrastructure.gpu-deploy",
-            "phenotype_primary_id": "ai-enabled-physical-systems",
-            "cell_key": "BM-08::ai-infrastructure.gpu-deploy::ai-enabled-physical-systems",
-            "business_model_label": "Hardware + software",
-            "vertical_label": "GPU infrastructure for model deployment",
-            "phenotype_label": "AI-enabled physical infrastructure"
+            "business_model": "BM-01",
+            "vertical_id": "fintech.wealth.asset-management",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::fintech.wealth.asset-management::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Asset & wealth management",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
           }
         },
         "predictor": {
-          "predictability_band": "surprise",
+          "predictability_band": "plausible",
           "signals": [
-            "unclassified_new_company",
-            "low_taxonomy_conformance"
+            "cell_observed_with_peers"
           ],
           "cell_was_whitespace": false,
           "ranked_gap": null,
@@ -211,11 +142,75 @@
           "analog_gap_matches": [],
           "retro_transfer_score": 69,
           "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
+          "would_have_been_predicted": true
         },
         "notes": [
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
         ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 117853,
+        "company_slug": "combinely",
+        "company_name": "Combinely",
+        "launch_url": "https://www.ycombinator.com/launches/Uer-combinely-ai-coworker-for-accountants",
+        "created_at": "2026-10-01T14:29:05.984Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-01T19:15:52.496Z",
+        "launch_id": 117853,
+        "company_slug": "combinely",
+        "taxonomy": {
+          "conformance_index": 74,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 54,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.finance.accounting",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.finance.accounting::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Finance & accounting automation",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 67,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
       }
     }
   ]

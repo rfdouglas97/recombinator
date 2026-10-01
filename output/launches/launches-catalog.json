@@ -1,7 +1,76 @@
 {
-  "updated_at": "2026-09-30T18:50:54.442Z",
-  "count": 1328,
+  "updated_at": "2026-10-01T19:15:53.677Z",
+  "count": 1331,
   "launches": [
+    {
+      "launch_id": 117908,
+      "launch_slug": "Ufk-mecha-wayfinder-locating-any-finding-anywhere-in-any-medical-image",
+      "launch_url": "https://www.ycombinator.com/launches/Ufk-mecha-wayfinder-locating-any-finding-anywhere-in-any-medical-image",
+      "title": "Mecha Wayfinder: locating any finding, anywhere, in any medical image.",
+      "tagline": "Meet Mecha Wayfinder! It locates any finding anywhere in any medical image by inspecting our foundation models, like giving the model an “MRI.”",
+      "body": "# Mecha Wayfinder\n\nOne of the most important challenges for next generation foundation models in radiology is the ability to locate any type of pathology in across anatomies and modalities.\n\nWe’ve recently had a bit of research breakthrough on this, and today we’re introducing Mecha Wayfinder, a new tool for locating findings in medical images.\n\nTraditional systems like segmentation models are too restrictive for the task we’re trying to solve. Grad-CAM weights and upsamples a late convolutional feature map, which can leave localization spatially coarse and obscure boundaries.\n\nWayfinder takes a different approach. Think of giving the underlying AI an “MRI”: a way to inspect where the model looks, requiring zero human annotations.\n\nThe part we’re so excited about is that this approach scales with only images and reports. As we train better underlying systems, we expect Wayfinder to improve too.\n\nYou can learn all about it in our latest blog post linked below:\\\n<https://www.mecha-health.ai/blog/Locating-Any-Pathology-Anywhere-in-All-Types-of-Medical-Images>\n\n<https://youtu.be/CDkv4uWWpjw>",
+      "created_at": "2026-10-01T18:37:27.462Z",
+      "total_vote_count": 2,
+      "company_slug": "mecha-health",
+      "company_name": "Mecha Health",
+      "company_website": "https://www.mecha-health.ai/",
+      "company_batch": "Winter 2025",
+      "company_industry": "Healthcare",
+      "company_id": 30251,
+      "author_name": "Ayodeji Ijishakin",
+      "scraped_at": "2026-10-01T19:15:52.463Z",
+      "review_summary": {
+        "conformance_index": 72,
+        "predictability_band": "occupied_first",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 117886,
+      "launch_slug": "UfO-finbar-financial-intelligence-for-every-investor",
+      "launch_url": "https://www.ycombinator.com/launches/UfO-finbar-financial-intelligence-for-every-investor",
+      "title": "Finbar: Financial intelligence for every investor",
+      "tagline": "Financial data and AI tools trusted by the world's largest hedge funds",
+      "body": "**Finbar is financial data and intelligence for the AI age.**\n\nWe’re super excited to announce our first public launch. Give us a go if you’re interested in: worldwide company fundamental data (incl. via API/MCP), AI tools for data analysis and investment research, prebuilt models, an Excel add-in for building + updating custom models, and more.\n\n**Get started at [https://finbar.com](https://finbar.com).** Read on if you're interested in how we're differentiated, and why some of the biggest investors in the world rely on us for their research processes.\n\n<https://youtu.be/1jK1pUDtK3E>\n\n**---**\n\nHi! Ed and Robin here, here to announce the first general availability of Finbar. **Our mission is to give every investor (and agent) the best data and tools to conduct high-quality financial research.**\n\n_A brief recap of our journey_. We started with a single product - **reliably updating any financial model within 5 minutes of market release, without any mistakes**. Seems niche? It was - but it meant we could truly stand out to customers, solving a real burning problem that those who haven't worked in hedge funds just don't really 'get'. Over Q2 earnings season, we handled 150,000 model updates, meaning our clients (including several of the world's largest hedge funds) could go into every market-open with all of their models ready.\n\nDeveloping this product turned out to be a problem that seemed simple but actually was fiendishly difficult (not least for the data reasons discussed below). Doing so, however, has meant building some truly unique financial data and infrastructure, which we've since deployed in many other products - and now available to all investors.\n\nTwo key parts to what we do:\n\n**I. We're building the best fundamental financial dataset**\n\nUnderlying everything is our proprietary data. **We collect and ingest millions of documents across thousands of companies worldwide**: reports, presentations, transcripts. You might be surprised this is not a solved problem already. But almost all providers lack at least one of: a) breadth, b) quality, and/or c) speed. All three have been necessary to serve our clients, hence the need to build our own. And yes, we're including players like Factset, S&amp;P and Bloomberg in this (we're often explicitly evaluated against them by our institutional clients).  \n\nSome snippets to illustrate the point:\n\n    1) _The most important fundamental datapoints are often not in 10Qs/10Ks, and rarely in a fully-structured format._ Think segment organic growth in presentation charts, conference call remarks on forward guidance, Pillar 3 banking disclosures, and a million other company-specific datapoints.\n\n    2) _>1/2 of our customers invest outside of the US._ International markets have much less structured data availability than the US, often not even a central repository, and it is where arguably there is more edge from strong fundamental data (these two facts may well be corollary)\n\n    3) _Financial data is exceptionally messy on the tail end_ - which is often also where the insights live. Understanding nuances around restatements, accounting regime changes, mergers and divestments, and all the other insane things companies do to produce messy data (sometimes on purpose) is bread-and-butter in our design. It causes many nights of hair-pulling but is the only way to actually produce great data that investors trust.\n\n**II. We're building the best financial toolkit for the AI age**\n\nUpon this data foundation is a whole range of Finbar products, built on the knowledge and experience of what professional investors actually need. This includes:\n\n* Machine-readable versions of millions of worldwide company documents\n* Fundamental time-series and datapoints on thousands of line items\n* Company primers and financial metadata\n* Prebuilt public company model XLSXs\n* A web platform for AI-automated financial data analysis, modelling, and report-writing\n* An Excel add-in to update any analyst model in seconds, and build any custom model in minutes\n* MCP and APIs to expose our fundamental data to programmatic and agentic users\n\nAnd we already have a long list of items in development with institutional partners, including macro data, supply chains, newsflow, privates and more.\n\n\\---\n\nThere’s still so much more we’ve got planned, but we’re genuinely so excited to start giving every investor the tools they need to make intelligent decisions in the AI age. So thanks for reading, and **head to [https://finbar.com](https://finbar.com) to try us out**. We’re looking forward to your thoughts!",
+      "created_at": "2026-10-01T14:29:23.427Z",
+      "total_vote_count": 2,
+      "company_slug": "finbar",
+      "company_name": "Finbar",
+      "company_website": "https://finbar.com",
+      "company_batch": "Winter 2025",
+      "company_industry": "Fintech",
+      "company_id": 30253,
+      "author_name": "Edward Huang",
+      "scraped_at": "2026-10-01T19:15:52.463Z",
+      "review_summary": {
+        "conformance_index": 61,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 117853,
+      "launch_slug": "Uer-combinely-ai-coworker-for-accountants",
+      "launch_url": "https://www.ycombinator.com/launches/Uer-combinely-ai-coworker-for-accountants",
+      "title": "Combinely - AI Coworker for Accountants",
+      "tagline": "AI coworker that joins your firm like an employee to run end-to-end accounting workflows.",
+      "body": "Hey everyone, we're **Tom &amp; Arthur**, co-founders of **Combinely.**\n\n### **TL;DR**\n\nAI is raising client expectations faster than accounting firms can adapt. Accountants are under pressure to deliver more complex work, faster, while still doing the basic work by hand.\n\nBuilt by an ex-Deloitte/Google team, **Combinely is an AI coworker that takes on entire workflows** across bookkeeping, tax, and audit.\n\n**Watch the 60-second demo:** <https://youtu.be/aBbsXgrhKt4>\n\n### **Problem**\n\n**Accounting software got faster. The work didn’t go away.**\n\nData still comes in messy. Someone still has to collect it, structure it, check it, and move it between systems.\n\n**AI is raising the bar.**\n\nClients expect more, faster. Accountants need to move to higher-value work, while the basic work still has to get done.\n\n### **Solution**\n\nAn AI accountant that works like an employee, carrying work through to completion.\n\n* Uses the same tools, learning your clients and firm standards.\n* Works across bookkeeping, tax, and audit.\n\n#### **The impact**\n\n* **Doubles firm capacity,** not individual productivity.\n* Gives people **their time back** from work no human should still do.\n* Lets firms **win revenue they couldn't before**, jobs once too small or crowded out.\n\nIf the above resonates, reach out to [tom@combinely.ai](mailto:tom@combinely.ai) or book a call. Thank you!",
+      "created_at": "2026-10-01T14:29:05.984Z",
+      "total_vote_count": 0,
+      "company_slug": "combinely",
+      "company_name": "Combinely",
+      "company_website": "https://combinely.ai",
+      "company_batch": "Spring 2025",
+      "company_industry": "B2B",
+      "company_id": 30461,
+      "author_name": "Tom Invernizzi",
+      "scraped_at": "2026-10-01T19:15:52.463Z",
+      "review_summary": {
+        "conformance_index": 74,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
     {
       "launch_id": 117439,
       "launch_slug": "UYB-precip-know-exactly-when-it-ll-rain-down-to-the-minute",
