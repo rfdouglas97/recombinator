@@ -1,42 +1,42 @@
 {
-  "checked_at": "2026-10-01T19:15:53.795Z",
+  "checked_at": "2026-10-02T18:58:44.553Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 3,
-  "new_count": 3,
-  "skipped_count": 927,
+  "checked_count": 2,
+  "new_count": 2,
+  "skipped_count": 928,
   "ingest": {
-    "addedCompanies": 0,
-    "enrichedCompanies": 3
+    "addedCompanies": 1,
+    "enrichedCompanies": 1
   },
   "summary": {
-    "conforming": 2,
-    "partial": 1,
+    "conforming": 0,
+    "partial": 2,
     "non_conforming": 0,
-    "would_have_predicted": 2,
-    "surprise": 0,
+    "would_have_predicted": 1,
+    "surprise": 1,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 117908,
-        "company_slug": "mecha-health",
-        "company_name": "Mecha Health",
-        "launch_url": "https://www.ycombinator.com/launches/Ufk-mecha-wayfinder-locating-any-finding-anywhere-in-any-medical-image",
-        "created_at": "2026-10-01T18:37:27.462Z"
+        "launch_id": 117942,
+        "company_slug": "venta-ai",
+        "company_name": "Venta AI",
+        "launch_url": "https://www.ycombinator.com/launches/UgI-venta-ai-reengage-turn-your-dead-leads-into-pipeline",
+        "created_at": "2026-10-02T14:28:15.537Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-01T19:15:52.493Z",
-        "launch_id": 117908,
-        "company_slug": "mecha-health",
+        "evaluated_at": "2026-10-02T18:58:43.091Z",
+        "launch_id": 117942,
+        "company_slug": "venta-ai",
         "taxonomy": {
-          "conformance_index": 72,
-          "verdict": "conforming",
+          "conformance_index": 54,
+          "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
+              "score": 3,
+              "band": "weak"
             },
             "vertical_workflow_fit": {
               "score": 85,
@@ -47,28 +47,28 @@
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 93,
+              "score": 91,
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 56,
-              "band": "acceptable"
+              "score": 48,
+              "band": "weak"
             }
           },
           "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.medical-imaging",
-            "phenotype_primary_id": "foundation-model-domain-infrastructure",
-            "cell_key": "BM-03::ai-infrastructure.medical-imaging::foundation-model-domain-infrastructure",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Medical imaging AI infrastructure",
-            "phenotype_label": "Domain-Specific Foundation Models as Infrastructure"
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.sales.enablement",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.sales.enablement::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Sales enablement & execution",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
           }
         },
         "predictor": {
-          "predictability_band": "occupied_first",
+          "predictability_band": "surprise",
           "signals": [
-            "first_occupant_of_cell"
+            "unclassified_new_company"
           ],
           "cell_was_whitespace": false,
           "ranked_gap": null,
@@ -79,63 +79,62 @@
           "would_have_been_predicted": false
         },
         "notes": [
-          "Taxonomy conforms; company is first occupant — not predictable as whitespace but valid niche."
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
         ]
       }
     },
     {
       "launch": {
-        "launch_id": 117886,
-        "company_slug": "finbar",
-        "company_name": "Finbar",
-        "launch_url": "https://www.ycombinator.com/launches/UfO-finbar-financial-intelligence-for-every-investor",
-        "created_at": "2026-10-01T14:29:23.427Z"
+        "launch_id": 117920,
+        "company_slug": "kimpton",
+        "company_name": "Kimpton",
+        "launch_url": "https://www.ycombinator.com/launches/Ufw-evalrouter-by-kimpton-one-api-for-ai-evaluation",
+        "created_at": "2026-10-01T21:50:20.304Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-01T19:15:52.495Z",
-        "launch_id": 117886,
-        "company_slug": "finbar",
+        "evaluated_at": "2026-10-02T18:58:43.093Z",
+        "launch_id": 117920,
+        "company_slug": "kimpton",
         "taxonomy": {
-          "conformance_index": 61,
+          "conformance_index": 56,
           "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 2,
+              "score": 0,
               "band": "weak"
             },
+            "vertical_workflow_fit": {
+              "score": 80,
+              "band": "strong"
+            },
             "business_model_fit": {
-              "score": 70,
+              "score": 55,
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 96,
+              "score": 89,
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 90,
-              "band": "strong"
+              "score": 71,
+              "band": "acceptable"
             }
           },
           "cell": {
-            "business_model": "BM-01",
+            "business_model": "BM-07",
             "vertical_id": "fintech.wealth.asset-management",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::fintech.wealth.asset-management::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
+            "phenotype_primary_id": "marketplace-network-ai",
+            "cell_key": "BM-07::fintech.wealth.asset-management::marketplace-network-ai",
+            "business_model_label": "Marketplace / network",
             "vertical_label": "Asset & wealth management",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+            "phenotype_label": "Marketplace / exchange / liquidity network"
           }
         },
         "predictor": {
           "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
+          "signals": [],
           "cell_was_whitespace": false,
           "ranked_gap": null,
           "synthetic_match": null,
@@ -147,70 +146,6 @@
         "notes": [
           "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
         ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 117853,
-        "company_slug": "combinely",
-        "company_name": "Combinely",
-        "launch_url": "https://www.ycombinator.com/launches/Uer-combinely-ai-coworker-for-accountants",
-        "created_at": "2026-10-01T14:29:05.984Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-01T19:15:52.496Z",
-        "launch_id": 117853,
-        "company_slug": "combinely",
-        "taxonomy": {
-          "conformance_index": 74,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 93,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 54,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "enterprise.finance.accounting",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::enterprise.finance.accounting::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Finance & accounting automation",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 67,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
       }
     }
   ]
