@@ -49738,6 +49738,87 @@
     }
   },
   {
+    "slug": "linklane",
+    "name": "LinkLane",
+    "website": "https://linklane.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/linklane",
+    "batch": "Winter 2027",
+    "one_liner": "AI-powered freight brokerage. Quote, book, and track loads in seconds.",
+    "description_combined": "AI-powered freight brokerage. Quote, book, and track loads in seconds.\n\nLinkLane helps businesses move freight with a click. Anyone can get a quote and book instantly, while our AI agents find the carrier, negotiate the rate, and manage every load from pickup to delivery. Trucking is a nearly $1 trillion market still run by call centers of brokers working the phones. We&#x27;re bringing the Amazon experience to freight, making shipping cheaper and easier for every business.",
+    "industry_sub_vertical": "AI-powered freight brokerage marketplace for shipper quoting and carrier load assignment",
+    "canonical_vertical_id": "logistics.freight.brokerage",
+    "vertical_id": "logistics.freight.brokerage",
+    "vertical_label": "Freight brokerage & logistics",
+    "vertical_sector_id": "transportation-logistics",
+    "phenotype_primary_id": "marketplace-network-ai",
+    "phenotype_primary_label": "Marketplace / exchange / liquidity network",
+    "phenotype_family": "network",
+    "value_wedge": "network_effects",
+    "ai_application": "matching_routing",
+    "ai_application_patterns": [
+      "agent_matching",
+      "dynamic_pricing",
+      "load_optimization",
+      "carrier_negotiation"
+    ],
+    "what_they_sell": "Two-sided freight marketplace: shippers get instant quotes and booking; carriers get load assignments. AI agents autonomously negotiate rates, match loads to carriers, and manage execution end-to-end.",
+    "ai_play": "AI agents replace manual broker call-center workflows by autonomously finding optimal carrier matches, negotiating rates in real-time, and coordinating pickup-to-delivery logistics. Agents act as the 'broker' layer, compressing what traditionally takes hours of phone calls into seconds.",
+    "who_pays": "Shippers (SMBs, enterprises) pay per load or subscription; carriers pay for load access or commission. Two-sided unit economics.",
+    "confidence": 0.82,
+    "rationale": "LinkLane is fundamentally a two-sided marketplace (shippers ↔ carriers) with AI as the matching and negotiation engine. Primary phenotype is marketplace-network-ai because the core value is liquidity matching and network effects, not a regulated financial product or pure vertical SaaS. Secondary phenotype (vertical-agentic-workflow-saas) captures the agent-driven automation of broker workflows. The AI agents negotiate rates and coordinate logistics autonomously, replacing traditional broker labor. This is distinct from a pure vertical-workflow-agent (which would be software sold TO brokers) because LinkLane IS the broker/marketplace operator taking contractual responsibility for load execution.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Supply Chain and Logistics"
+    ],
+    "yc_tags": [
+      "Digital Freight Brokerage",
+      "Marketplace",
+      "Workflow Automation"
+    ],
+    "business_models": [
+      "BM-07"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2669943,
+        "full_name": "Christopher Ruaño",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Building the future of freight at LinkLane (YC W27). Most recently studied and researched economics & computer science at Harvard.",
+        "linkedin_url": "https://www.linkedin.com/in/christopher-ruano/",
+        "twitter_url": "https://x.com/chris_ruano_",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7c8bed0196ea10515d9afd7894a9da506bcd6d80.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANMPERC76%2F20261004%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261004T175757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAIaCXVzLXdlc3QtMiJHMEUCIBwDbMkk1P8CU5sHuq3ZBrBzhpBqWoKbFJesbqJVBH%2F%2BAiEA5ZcrCYNFpnC7hZXZ%2Bmx4kdOQs0OHsU%2BxfQSRKrZNgKsq7gMIy%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDBP4RrQhGq%2BtJDDzCirCA1MF5X4GoiRvuUW5iJkhqyB3kcEpReBTOFStRtg53pQAVTt6PrrAWZDYvZVU0TiebwjhwUg3pTEIkZ6%2BkRmwARvLyneq7cBpELRBcjmnpgOWzbgRbdY403oL6xavwdDT5c3mBitQS0oQZyrR5b2vR9DQfDasYpnsZIj5PavJwYlXsWRXJ84ckn1WJQycLJBnzkT%2BFSnLPT2oSSqJjBONopLQlWChS5LtmREa6SS%2FXmaltAHrzgJmBGIsNNoezn5klU7yyiU31%2FAnV30QHx%2Fz5pWNk4oe%2F0khQZY9mpKnPphFTEdwoprMtOMf7VG1Mk%2BdTAlzyw37siRIn3H%2BKt9p2gPFzVj2yZaSGna9zy70TCJ1jmbu8UDkDxjfb%2BIxVTfRQa5g2lVcTTG%2BQFMlDkSR%2FDsmpz5P%2BXxpXWKsrgH7wnAcH59s9ZaeGlkOFTfkccAFkLt0FE2CkSUtshdtqeNzDsKfqbYpajcdBJ4FjmYacrw23OSBUKmwQJYJusxNMcmVtPACA1VHRPFJvfcHehlSdFnaMM3trpD0Nk59t%2FG1myJvhs9Gk2zNpo9dUH1TtuPXG%2B8cEZ807qKLScEsfIjYuIME1TCfpYrWBjqlAYY3s2uzhsDaVR2sYSLfckVmnsj6tZQvc5DEefQWOeTij3%2B7%2F3g2hwVGc%2BV6kmclC941xPqWZZQgxtINAxkjoXhnKx%2F%2F2jMHhOzaqASteQ8ussdbaYgyjPdbG6XjmtN3LflxeX2MJ3L2Lqo0%2FRMTnkxF%2FK4Y4z4jbBj%2BKQhBSQ1mq2KXX6v46Oa8002JK3Nv9vxFA6%2FuFoEUEnlwdk04j58uPSybeQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f7905927e6149c32492b28b917294fb0386a39d1dcf25081d7b721077f5d0a25",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "LinkLane",
+          "href": "https://www.ycombinator.com/companies/linklane"
+        }
+      },
+      {
+        "user_id": 3615040,
+        "full_name": "Patryk Wekwejt",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Patryk Wekwejt is the co-founder and COO of LinkLane. Harvard College &#x27;26. Previously a scientist.",
+        "linkedin_url": "https://www.linkedin.com/in/patrykwekwejt/",
+        "twitter_url": "https://x.com/wekwejtpatryk",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1f54b94c127051660bbfc6b9ce8e6d021b54e163.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECANMPERC76%2F20261004%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261004T175757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAIaCXVzLXdlc3QtMiJHMEUCIBwDbMkk1P8CU5sHuq3ZBrBzhpBqWoKbFJesbqJVBH%2F%2BAiEA5ZcrCYNFpnC7hZXZ%2Bmx4kdOQs0OHsU%2BxfQSRKrZNgKsq7gMIy%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDBP4RrQhGq%2BtJDDzCirCA1MF5X4GoiRvuUW5iJkhqyB3kcEpReBTOFStRtg53pQAVTt6PrrAWZDYvZVU0TiebwjhwUg3pTEIkZ6%2BkRmwARvLyneq7cBpELRBcjmnpgOWzbgRbdY403oL6xavwdDT5c3mBitQS0oQZyrR5b2vR9DQfDasYpnsZIj5PavJwYlXsWRXJ84ckn1WJQycLJBnzkT%2BFSnLPT2oSSqJjBONopLQlWChS5LtmREa6SS%2FXmaltAHrzgJmBGIsNNoezn5klU7yyiU31%2FAnV30QHx%2Fz5pWNk4oe%2F0khQZY9mpKnPphFTEdwoprMtOMf7VG1Mk%2BdTAlzyw37siRIn3H%2BKt9p2gPFzVj2yZaSGna9zy70TCJ1jmbu8UDkDxjfb%2BIxVTfRQa5g2lVcTTG%2BQFMlDkSR%2FDsmpz5P%2BXxpXWKsrgH7wnAcH59s9ZaeGlkOFTfkccAFkLt0FE2CkSUtshdtqeNzDsKfqbYpajcdBJ4FjmYacrw23OSBUKmwQJYJusxNMcmVtPACA1VHRPFJvfcHehlSdFnaMM3trpD0Nk59t%2FG1myJvhs9Gk2zNpo9dUH1TtuPXG%2B8cEZ807qKLScEsfIjYuIME1TCfpYrWBjqlAYY3s2uzhsDaVR2sYSLfckVmnsj6tZQvc5DEefQWOeTij3%2B7%2F3g2hwVGc%2BV6kmclC941xPqWZZQgxtINAxkjoXhnKx%2F%2F2jMHhOzaqASteQ8ussdbaYgyjPdbG6XjmtN3LflxeX2MJ3L2Lqo0%2FRMTnkxF%2FK4Y4z4jbBj%2BKQhBSQ1mq2KXX6v46Oa8002JK3Nv9vxFA6%2FuFoEUEnlwdk04j58uPSybeQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e6f82dede927cd9b75dd202d61cdf789396a87e3180ae9d31ed6ff475515cf2e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "LinkLane",
+          "href": "https://www.ycombinator.com/companies/linklane"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-04T17:58:05.075Z",
+    "classified_at": "2026-10-04T17:58:05.075Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "linzumi",
     "name": "Linzumi",
     "website": "https://linzumi.com",

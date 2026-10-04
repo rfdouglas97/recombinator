@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-03T17:44:52.177Z",
+  "synced_at": "2026-10-04T17:57:56.904Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -200,7 +200,7 @@
         "Marketing",
         "Advertising"
       ],
-      "team_size": 6,
+      "team_size": 10,
       "location": "Los Angeles, CA, USA",
       "status": "Active",
       "launched_at": 1760446134
@@ -1770,7 +1770,7 @@
         "Defense"
       ],
       "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1778901342
     },
@@ -6071,11 +6071,11 @@
         "Legal"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
-        "Legal",
-        "AI"
+        "Legal"
       ],
-      "team_size": 6,
+      "team_size": 7,
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1746120512
@@ -7924,24 +7924,6 @@
       "location": "Los Angeles, CA, USA",
       "status": "Active",
       "launched_at": 1787528961
-    },
-    {
-      "slug": "everest",
-      "name": "Everest",
-      "batch": "Fall 2025",
-      "one_liner": "",
-      "long_description": "",
-      "website": "https://everestagi.com/",
-      "industries": [
-        "Consumer"
-      ],
-      "tags": [
-        "B2B"
-      ],
-      "team_size": null,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1756073155
     },
     {
       "slug": "evergrove",
@@ -9822,18 +9804,18 @@
       "slug": "guild",
       "name": "GUILD",
       "batch": "Summer 2026",
-      "one_liner": "AI-Native Defense Contractor",
-      "long_description": "GUILD is an AI-Native Defense contractor making aerospace parts faster and cheaper. We win defense contracts, automate manufacturing, and deliver to the government's door.",
+      "one_liner": "Making Defense Manufacturing Faster and Cheaper",
+      "long_description": "GUILD is an AI-Native Defense prime making aerospace parts faster and cheaper. We win defense contracts, automate manufacturing, and deliver to the government's door.",
       "website": "https://www.guildai.co",
       "industries": [
         "Industrials",
         "Defense"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Manufacturing",
         "Supply Chain",
-        "Defense"
+        "Defense",
+        "AI"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -11970,7 +11952,7 @@
         "API"
       ],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "Los Angeles, CA, USA",
       "status": "Active",
       "launched_at": 1774290085
     },
@@ -12921,6 +12903,27 @@
       "launched_at": 1779230895
     },
     {
+      "slug": "linklane",
+      "name": "LinkLane",
+      "batch": "Winter 2027",
+      "one_liner": "AI-powered freight brokerage. Quote, book, and track loads in seconds.",
+      "long_description": "LinkLane helps businesses move freight with a click. Anyone can get a quote and book instantly, while our AI agents find the carrier, negotiate the rate, and manage every load from pickup to delivery. Trucking is a nearly $1 trillion market still run by call centers of brokers working the phones. We're bringing the Amazon experience to freight, making shipping cheaper and easier for every business.",
+      "website": "https://linklane.ai/",
+      "industries": [
+        "B2B",
+        "Supply Chain and Logistics"
+      ],
+      "tags": [
+        "Digital Freight Brokerage",
+        "Marketplace",
+        "Workflow Automation"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1791055548
+    },
+    {
       "slug": "linzumi",
       "name": "Linzumi",
       "batch": "Spring 2026",
@@ -12979,7 +12982,7 @@
         "AI"
       ],
       "team_size": 3,
-      "location": "New York City, NY, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1783537104
     },
@@ -13930,7 +13933,7 @@
         "Data Engineering"
       ],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "Bengaluru, KA, India",
       "status": "Active",
       "launched_at": 1782277833
     },
@@ -14612,12 +14615,12 @@
       "slug": "mirrors",
       "name": "Mirrors",
       "batch": "Fall 2026",
-      "one_liner": "Fix your AI agent's errors at runtime, so they never happen twice",
-      "long_description": "Your agent worked fine yesterday. Today it loops, drops context, or calls a tool with the wrong arguments, and you find out from a user.\r\n\r\nTeams shipping AI agents change prompts, models, and tools constantly, and the same failures keep coming back in production: context loss, loops, broken tool calls, regressions after a refactor.\r\n\r\nMirrors learns from your agent's production traces. It captures what worked and what failed in real sessions, then delivers the fix at runtime. Instead of waiting for someone to notice a regression and patch it by hand, the fix is applied automatically, so the same error never happens twice.\r\n\r\nBuilt for teams whose agents do things they can't undo, like issuing refunds, updating customer records, or sending outbound email.",
+      "one_liner": "Steer AI agents in real time using lessons from production runs",
+      "long_description": "Production agents handle many different customer workflows. Currently, when one handles a situation badly, an engineer reads the trace and patches the prompt. The next situation needs another exception. Soon, improving the agent becomes a recurring engineering job, and the prompt keeps growing.\r\n\r\nMirrors finds patterns in past runs and feedback. Engineers review guidance for a specific situation and preview where it would apply. Mirrors then delivers that guidance while the agent works, inside the team’s existing setup. The team can check whether the change improved the outcome.\r\n\r\nWe’re building Mirrors for engineering teams running customer-facing agents across varied workflows, so they can improve behavior without hardcoding every lesson in the global prompt.",
       "website": "https://www.runmirrors.com",
       "industries": [
         "B2B",
-        "Infrastructure"
+        "Engineering, Product and Design"
       ],
       "tags": [
         "AIOps",
@@ -16038,18 +16041,18 @@
       "slug": "o11",
       "name": "o11",
       "batch": "Winter 2026",
-      "one_liner": "The AI Data Warehouse For Financial Firms",
-      "long_description": "o11 is the AI data warehouse for financial firms. The largest firms build a moat around their data. Today, they pay engineers $200k a year each to spend years organizing/maintaining disconnected sources in a legacy data warehouse. The business intelligence that results is the key unlock, but it's time effort and money that would be better spent elsewhere.\r\n\r\no11 brings a custom ontology and data model to firms of any size allowing them to unify CRM, email, files, data rooms, market data, M365, etc. all in one place. We help firms architect their own data warehouse, and then from their AI maintains it. No engineers, no legacy solutions, no complex migration. o11 is built for security and complex permissions from the ground up allowing it to safely connect directly into any agent including Claude, ChatGPT, and Copilot.\r\n\r\nLeverage your proprietary data -- it's the deal, relationship, and business intelligence that makes your firm special",
+      "one_liner": "AI account managers for consumer/self-serve apps",
+      "long_description": "o11 is the AI account manager for consumer and self-serve applications, helping teams treat every customer like a flagship client. It brings email and iMessage conversations together, suggests personal replies, and turns customer signals into timely follow-ups. Teams can tailor each persona’s voice and review response plans before turning them on.",
       "website": "https://o11.ai",
       "industries": [
         "B2B",
-        "Finance and Accounting"
+        "Sales"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
-        "Finance",
         "B2B",
-        "AI"
+        "Customer Success"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -19456,7 +19459,7 @@
       ],
       "tags": [],
       "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "location": "Cairo, Cairo Governorate, Egypt",
       "status": "Active",
       "launched_at": 1780001140
     },
@@ -25261,7 +25264,7 @@
         "B2B"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 15,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1770142827
