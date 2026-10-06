@@ -935,6 +935,57 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "acyclic",
+    "name": "Acyclic Labs",
+    "website": "https://acyclic.dev",
+    "yc_profile_url": "https://www.ycombinator.com/companies/acyclic",
+    "batch": "Fall 2026",
+    "one_liner": "building infra for scaling agent swarms efficiently",
+    "description_combined": "building infra for scaling agent swarms efficiently",
+    "industry_sub_vertical": "Multi-agent swarm orchestration & scaling infrastructure",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Harness / Orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "multi_agent_coordination",
+      "swarm_scaling",
+      "resource_optimization"
+    ],
+    "what_they_sell": "Infrastructure layer for deploying, scaling, and orchestrating multi-agent swarms efficiently. Likely open-source core (agent framework/runtime) with commercial hosting, managed services, or enterprise features.",
+    "ai_play": "Enables developers and enterprises to run large numbers of coordinated AI agents at scale without building custom orchestration. Solves agent scheduling, resource allocation, inter-agent communication, and cost optimization for swarm deployments.",
+    "who_pays": "AI/ML engineers, platform teams, enterprises building multi-agent systems; secondary: hosted/managed service buyers.",
+    "confidence": 0.78,
+    "rationale": "Acyclic's focus on 'scaling agent swarms efficiently' maps directly to agent-runtime-infra (orchestration, reliability, cost optimization). The 'Open Source' tag suggests an OSS-first GTM with potential commercial layer, fitting open-source-commercial as secondary. 'Swarm AI' indicates multi-agent coordination rather than single-agent tooling. No evidence of vertical SaaS, regulated products, or domain-specific data—this is pure infrastructure for agent developers.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Swarm AI",
+      "Open Source"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "London, England, United Kingdom",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-10-06T19:18:56.426Z",
+    "classified_at": "2026-10-06T19:18:56.426Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "adam",
     "name": "Adam",
     "website": "https://adam.new/",
@@ -21119,7 +21170,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/collar",
     "batch": "Fall 2026",
     "one_liner": "The platform for AI-native private market investors.",
-    "description_combined": "The platform for AI-native private market investors.\n\nConnect your inboxes and conversations to Collar. \r\nGet a proprietary company brain from your past deals, context, and current mandate. Agents then run the entire pre-investment process: inbound and outbound sourcing, diligence, IC memos, and slides, in your fund&#x27;s voice rather than a generic one. \r\nIt deploys inside your architecture, so every fund owns its platform and its data.",
+    "description_combined": "The platform for AI-native private market investors.\n\nConnect your inboxes and conversations to Collar. \r\nGet a proprietary company brain from your past deals, context, and current mandate. Agents then run the entire pre-investment process: inbound and outbound sourcing, diligence, IC memos, and slides, in your fund&#x27;s voice rather than a generic one. \r\nIt deploys inside your architecture, so every fund owns its platform and its data.\n\nFind the right investors. Prepare for earnings. Answer analyst questions live with approved company information.\n\nCollar is the AI for public company investor relations.\n\nIR teams must know the whole company, its investors and the market. That knowledge lives across spreadsheets, emails, transcripts, teams and data providers.\n\nCollar turns mess into momentum. \n\nTurns company context into a live teleprompter for the CEO\nCollar's teleprompter surfaces the right figure, commitment or approved line the moment a question lands. Management answers with precision on every earnings call.\n\nTurns repeat questions into instant answers\nCollar's Q&amp;A bot lives on your IR website and answers investor questions from your filings, transcripts and approved messaging. Anything sensitive goes to IR’s inbox first.\n\nTurns memory into meetings that matter\nCollar remembers every investor relationship since your IPO. It s",
     "industry_sub_vertical": "Private equity and venture capital deal sourcing, diligence, and investment memo automation",
     "canonical_vertical_id": "enterprise.ops.process-automation",
     "vertical_id": "enterprise.ops.process-automation",
@@ -21190,6 +21241,12 @@
     "directory_synced_at": "2026-07-30T16:18:43.542Z",
     "classified_at": "2026-07-30T16:18:43.542Z",
     "proposed_phenotype": null,
+    "launch_id": 117940,
+    "launch_url": "https://www.ycombinator.com/launches/UgG-collar-the-ai-for-public-company-investor-relations",
+    "launch_title": "Collar: The AI for public company Investor Relations",
+    "launch_created_at": "2026-10-06T18:00:00.095Z",
+    "launch_tagline": "Find the right investors. Prepare for earnings. Answer analyst questions live with approved company information.",
+    "launch_evaluated_at": "2026-10-06T19:20:01.591Z",
     "vertical_normalize_confidence": 0.55,
     "vertical_normalize_method": "yc_subindustry_default",
     "primary_bm": "BM-01"
@@ -49216,6 +49273,89 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "ladderai",
+    "name": "Ladder",
+    "website": "https://ladderai.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/ladderai",
+    "batch": "Winter 2025",
+    "one_liner": "AI personal assistant for in-home sales",
+    "description_combined": "AI personal assistant for in-home sales\n\nLadder is an AI personal assistant for in-home sales. It takes notes on the in-person conversation and helps reps close more deals, improve with each pitch, and deliver and generate more leads.",
+    "industry_sub_vertical": "Home services sales rep coaching and close-rate optimization",
+    "canonical_vertical_id": "enterprise.sales.enablement",
+    "vertical_id": "enterprise.sales.enablement",
+    "vertical_label": "Sales enablement & execution",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "horizontal-copilot-saas",
+    "phenotype_primary_label": "Horizontal copilot / productivity SaaS",
+    "phenotype_family": "horizontal_saas",
+    "value_wedge": "productivity_multiplier",
+    "ai_application": "copilot_assistant",
+    "ai_application_patterns": [
+      "real_time_conversation_analysis",
+      "deal_closing_optimization",
+      "sales_coaching_automation"
+    ],
+    "what_they_sell": "Seat-based SaaS copilot that listens to in-home sales conversations in real-time, generates contextual notes, surfaces closing tactics, and provides post-call coaching to improve rep performance and close rates.",
+    "ai_play": "AI transcribes and analyzes live sales conversations to extract deal signals, suggest next steps, and coach reps on pitch improvement. Reduces manual note-taking friction and accelerates rep ramp-up through continuous feedback loops.",
+    "who_pays": "Home services companies (HVAC, solar, roofing, plumbing contractors) and their sales teams seeking to improve close rates and rep productivity.",
+    "confidence": 0.72,
+    "rationale": "Ladder is primarily a horizontal copilot (real-time sales assistant for any in-home sales rep) with secondary vertical focus on home services. It fits horizontal-copilot-saas because it's a seat-based productivity tool that augments human sales reps across a broad job function (closing deals, note-taking, coaching). The secondary phenotype (vertical-agentic-workflow-saas) reflects that it's gaining traction in a specific vertical (home services) where the workflow is well-defined and the AI can be tuned to that domain. Primary confidence is 0.72 because while it's clearly a copilot, the home-services vertical focus and autonomous coaching loop suggest some secondary agentic workflow characteristics, but the primary value is still human-in-the-loop sales enablement.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Sales",
+      "Sales Enablement",
+      "Home Services"
+    ],
+    "business_models": [
+      "BM-02"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2345302,
+        "full_name": "David Tondreau",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "David is the co-founder and CEO of Maive.\n\nHe started his career as a manufacturing engineer at Rolls-Royce where he once uncovered quality issues due to missing paperwork that stopped production for a week. After obtaining a Masters in Engineering from UC Berkeley, David spent five years at Dexterity AI, a unicorn robotics startup. He began as a software engineer and ended as a senior manager leading product engineering.\n\nDavid holds 15 patents spanning robotics and aerospace engineering.",
+        "linkedin_url": "https://www.linkedin.com/in/david-tondreau/",
+        "twitter_url": "https://x.com/dtond_",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/377edb2eb54840075b45a85e3ba5653e6f54e9f2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAG7VH2COB%2F20261006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261006T191832Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaCXVzLXdlc3QtMiJIMEYCIQDlfOpiaepjMHxjKz2Ot%2BUsPcAMojtUXCKU4cgekQuJrAIhAIHGa1jmu54OxCySAtBdS7JJWCDcgUuVFyBMUeZXF60JKu4DCPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgyrNaDtIIlP4Mj6d1kqwgP6nqoiIvbxb6omCTDgsMxPlkx227Ayp4j1tF6Vx96ejdPrLbxtoDxj2JXBkrnca8sIDUrzi1GbjObsALCAfLISU3WdjVqM6Y5TU31V%2BGAaPSKxjKL8UNd2Byq0skroUyL%2BBjw4l2hlJgeZAA1OV5UE4Wg9kKmRST43zPq3OAcMVipjEGMKnCDoougDe%2FfW%2BWj%2BWRM8PXwRteqE5rscy1XMhqIr2e9Mc8huuq4lvQXVrLbhsaA0PqW1SfEwqlBP6vnVDVEytpJPoKhZyjFWZuKi2RazBCXybAwjhm4uWvB0sIePvYyuguTQEOv5lZVhkUr0ar1cnm3DmS7qRhATP4tQJcdc0tePSpmSBOfB4fUSCScwLfPHEEk13NhYbLEN64h%2F95IBeYRBXLJ%2Bv30BqYe1EAcay%2BbUZ40NuzXjcrejv9xiJJWig7d%2FzCk5XbHS9kdwC01hfbaPj6Dfv4STnuXKwHXxMPb27awNHgi3n8ZJVbXteH6okcJtpvJHSBP9XDukKNb4lDwixmqdg8Zz8r9aRaSOPyT4uKvj%2BNWOZlRiMNMg9g8B%2BpOYnE8uR7Qop3JRY4LUo1USEA7%2BO4fUGAkg0bgwvP6U1gY6pAHSlkRCsNn1rn%2BegmaH1NmzJvsQoKb6rAABZbAr7Dv3vyKisQe7s%2F3f1uD5G5%2BgdnKMPeheVXCm871EK2D6PCdFMTD6bODoWZC4rk7VT1hOXx2SXZOL3rvU9oBE9RqYzLBYe6BnijTdew%2FNqjmyYoPZ9qMH357Ig4j0v81CHzh13I%2F2U%2FicOUtznJE4c7o0lHcPYmEFeK4FXqxR4ta4PD2Y0B1zhQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=17932323d55b4e141a734b346a7264ca1c2e47bf6ac38900bf62188741ee748a",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ladder",
+          "href": "https://www.ycombinator.com/companies/ladderai"
+        }
+      },
+      {
+        "user_id": 833145,
+        "full_name": "Will Cray",
+        "title": "Founder/President",
+        "is_active": true,
+        "bio": "Will is the co-founder and President of Ladder.\n\nPreviously, Will was the Machine Learning and Computer Vision tech lead at Dexterity, a unicorn robotics company. Before Dexterity, Will founded his own computer vision and machine learning startup while pursuing a Master’s in Machine Learning at UT Austin. He started his career at Intel as a software engineer on their autonomous driving platform.\n\nAt 13, Will founded a business repairing broken Xbox 360’s and selling them on eBay.",
+        "linkedin_url": "https://www.linkedin.com/in/willcray/",
+        "twitter_url": "https://x.com/willcloudcray",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2fdb4087948afd44093fa92333e9f80b4fa6e29a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAG7VH2COB%2F20261006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261006T191832Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaCXVzLXdlc3QtMiJIMEYCIQDlfOpiaepjMHxjKz2Ot%2BUsPcAMojtUXCKU4cgekQuJrAIhAIHGa1jmu54OxCySAtBdS7JJWCDcgUuVFyBMUeZXF60JKu4DCPz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgyrNaDtIIlP4Mj6d1kqwgP6nqoiIvbxb6omCTDgsMxPlkx227Ayp4j1tF6Vx96ejdPrLbxtoDxj2JXBkrnca8sIDUrzi1GbjObsALCAfLISU3WdjVqM6Y5TU31V%2BGAaPSKxjKL8UNd2Byq0skroUyL%2BBjw4l2hlJgeZAA1OV5UE4Wg9kKmRST43zPq3OAcMVipjEGMKnCDoougDe%2FfW%2BWj%2BWRM8PXwRteqE5rscy1XMhqIr2e9Mc8huuq4lvQXVrLbhsaA0PqW1SfEwqlBP6vnVDVEytpJPoKhZyjFWZuKi2RazBCXybAwjhm4uWvB0sIePvYyuguTQEOv5lZVhkUr0ar1cnm3DmS7qRhATP4tQJcdc0tePSpmSBOfB4fUSCScwLfPHEEk13NhYbLEN64h%2F95IBeYRBXLJ%2Bv30BqYe1EAcay%2BbUZ40NuzXjcrejv9xiJJWig7d%2FzCk5XbHS9kdwC01hfbaPj6Dfv4STnuXKwHXxMPb27awNHgi3n8ZJVbXteH6okcJtpvJHSBP9XDukKNb4lDwixmqdg8Zz8r9aRaSOPyT4uKvj%2BNWOZlRiMNMg9g8B%2BpOYnE8uR7Qop3JRY4LUo1USEA7%2BO4fUGAkg0bgwvP6U1gY6pAHSlkRCsNn1rn%2BegmaH1NmzJvsQoKb6rAABZbAr7Dv3vyKisQe7s%2F3f1uD5G5%2BgdnKMPeheVXCm871EK2D6PCdFMTD6bODoWZC4rk7VT1hOXx2SXZOL3rvU9oBE9RqYzLBYe6BnijTdew%2FNqjmyYoPZ9qMH357Ig4j0v81CHzh13I%2F2U%2FicOUtznJE4c7o0lHcPYmEFeK4FXqxR4ta4PD2Y0B1zhQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7fb1396d73185521b20a77468f0ef8757e310648d893bdb5e4bb57dd90dc1c1d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Ladder",
+          "href": "https://www.ycombinator.com/companies/ladderai"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-06T19:18:41.112Z",
+    "classified_at": "2026-10-06T19:18:41.112Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-02"
+  },
+  {
     "slug": "lakonia",
     "name": "Lakonia",
     "website": "https://lakonia.us.com",
@@ -51740,6 +51880,55 @@
     },
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical",
+    "primary_bm": "BM-03"
+  },
+  {
+    "slug": "linc",
+    "name": "Linc.",
+    "website": "https://withlinc.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/linc",
+    "batch": "Summer 2023",
+    "one_liner": "Linc is an AI-native process intelligence platform that captures workflows and unwritten business rules, identifies where AI can create value, and provides the context to redesign processes and build agents.",
+    "description_combined": "Linc is an AI-native process intelligence platform that captures workflows and unwritten business rules, identifies where AI can create value, and provides the context to redesign processes and build agents.\n\nTL;DR: Linc turns workflow recordings, AI interviews, and existing operational knowledge into SOPs, process maps, and prioritized improvements. That knowledge becomes a shared memory your team can query and build on for future transformation projects. We're live in 20+ enterprises.\n\nLearn more at: \n\nLaunch Video: \n\nWhy we built this\n\nWe started by deploying AI agents for enterprises and spent more time scoping them than building them. Much of what we needed was tribal knowledge: people knew which rules applied to a particular customer or vendor, but those rules had never been written down.\n\nWe’d miss those details during scoping and only uncover them when implementation got stuck. We built Linc to capture that knowledge during discovery and keep building on it.\n\nWhat Linc does\n\n* Scout combines workflow recordings with AI interviews to capture steps, decisions, business rules, and handoffs.\n* Linc generates draft SOPs and process maps in minutes, including the exceptions captured during discovery.\n* Architect uses that evidence to rank opportunities for AI, automation, and process improvement.\n\nTeams can also bring in existing process documents, meeting transcripts, and system logs to add context to what employees record and explain.\n\nFor example, a recording might show someone routing a case to a manager. The interview can uncover the approval rule behind that decision. Linc brings both into the process documentation.\n\nA shared memory for future projects\n\nWe think of Linc as",
+    "industry_sub_vertical": "Enterprise process intelligence & workflow discovery for AI agent scoping",
+    "canonical_vertical_id": "enterprise.ops.knowledge",
+    "vertical_id": "enterprise.ops.knowledge",
+    "vertical_label": "Enterprise knowledge management",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-context-infra",
+    "phenotype_primary_label": "Agent Context Infrastructure",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "workflow_conversion",
+    "ai_application": "workflow_to_api_abstraction",
+    "ai_application_patterns": [
+      "workflow_capture_and_structuring",
+      "business_rule_extraction",
+      "process_documentation_generation",
+      "agent_readiness_assessment"
+    ],
+    "what_they_sell": "AI-native process intelligence platform that captures unstructured workflows (video recordings, AI interviews, transcripts, logs) and converts them into structured SOPs, process maps, business rules, and prioritized agent opportunities. Serves as a shared knowledge repository for enterprises to discover, document, and optimize processes before building agents.",
+    "ai_play": "AI agents (Scout, Architect) conduct workflow interviews, extract decision logic and exceptions from recordings and documents, generate process documentation automatically, and rank automation opportunities. Transforms tribal knowledge into machine-readable context that downstream agents can consume. Solves the 'context explosion' and 'discovery friction' problems: enterprises waste time scoping agent projects because critical business rules are undocumented; Linc captures and structures that context upfront.",
+    "who_pays": "Enterprise operations, process improvement, and transformation teams (COOs, process managers, automation leads) who need to scope and prioritize AI agent deployments across workflows.",
+    "confidence": 0.72,
+    "rationale": "Linc is primarily a workflow-to-context infrastructure layer: it captures messy, unstructured operational knowledge (recordings, interviews, logs) and converts it into structured, semantically dense process documentation and business rules that agents can consume. This fits agent-context-infra (data preparation for agent consumption) more than vertical-workflow-agent (which sells agents to end-users). Secondary phenotype is vertical-workflow-automation-ai because Linc also helps enterprises identify and prioritize which workflows to automate with agents. The company is not itself deploying agents to execute workflows; it's enabling enterprises to discover, document, and prepare workflows for agent automation. Value wedge is workflow_conversion (turning unstructured processes into machine-readable APIs/context); ai_application is workflow_to_api_abstraction (converting human workflows into structured, agent-executable operations).",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "launch_id": 119635,
+    "launch_url": "https://www.ycombinator.com/launches/V7b-linc-the-discovery-layer-for-enterprise-ai",
+    "launch_title": "Linc: The discovery layer for enterprise AI",
+    "launch_created_at": "2026-10-06T17:10:15.549Z",
+    "launch_tagline": "Linc is an AI-native process intelligence platform that captures workflows and unwritten business rules, identifies where AI can create value, and provides the context to redesign processes and build agents.",
+    "launch_ingested_at": "2026-10-06T19:20:01.592Z",
+    "classified_at": "2026-10-06T19:20:01.592Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
   },
   {
@@ -75558,6 +75747,89 @@
     "primary_bm": "BM-10"
   },
   {
+    "slug": "preload",
+    "name": "Preload",
+    "website": "",
+    "yc_profile_url": "https://www.ycombinator.com/companies/preload",
+    "batch": "Fall 2026",
+    "one_liner": "Motor cortex for physical AI",
+    "description_combined": "Motor cortex for physical AI",
+    "industry_sub_vertical": "Robotics motor control SDK for embodied AI systems",
+    "canonical_vertical_id": "enterprise.devtools.productivity",
+    "vertical_id": "enterprise.ops.process-automation",
+    "vertical_label": "Cross-industry process automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "physical-ai-autonomous-systems",
+    "phenotype_primary_label": "Physical AI & Autonomous Manufacturing",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "motor_control_optimization",
+      "real_time_autonomous_coordination",
+      "embodied_ai_inference"
+    ],
+    "what_they_sell": "Motor cortex infrastructure for physical AI systems — a control plane that coordinates real-time motor commands, sensory feedback loops, and autonomous decision-making for robots and physical automation systems. Likely a runtime/SDK enabling low-latency, high-precision motor control for embodied AI agents.",
+    "ai_play": "Replaces manual motor control programming and enables autonomous physical systems to execute complex, real-world tasks with learned motor policies. AI inference layer translates high-level goals into precise motor commands with minimal latency.",
+    "who_pays": "Robotics companies, autonomous manufacturing platforms, hardware startups building embodied AI systems, and enterprises deploying autonomous physical infrastructure.",
+    "confidence": 0.75,
+    "rationale": "Preload's 'motor cortex for physical AI' positioning maps directly to the physical AI / autonomous systems phenotype. The neurotechnology + robotics + AI tags suggest they're building infrastructure (not a consumer robot or end-product) that serves as the control/coordination layer for autonomous physical systems. This is analogous to agent-runtime-infra but for embodied/motor control rather than software agents. Secondary phenotype (ai-enabled-physical-systems) also fits if they're optimizing hardware design/manufacturing. Confidence is 0.75 (not higher) because the description is minimal and 'motor cortex' could also imply a novel neurotechnology approach rather than pure software/AI infrastructure — but the B2B + AI tags suggest infrastructure play.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Neurotechnology",
+      "Robotics",
+      "B2B",
+      "AI"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 381888,
+        "full_name": "Surya Pandiaraju",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Preload (YC F26). PhD candidate at Johns Hopkins BME, Waterloo BME grad\n\nPreviously worked at\n- Sonera Magnetics\n- iota Biosciences\n- NeuroPace\n- Paradromics",
+        "linkedin_url": "https://www.linkedin.com/in/surya-p/",
+        "twitter_url": "https://x.com/suryapandiaraju",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/95201c893d1f3656184fcdb882986fe24c589cc0.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFP4R2F2T%2F20261006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261006T191856Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaCXVzLXdlc3QtMiJHMEUCIQCkFpFtI6HwGKsxrAs%2BV5TaTmFK7eVwW%2FSEC3FYJ4KC5AIgAa6nD0tOYux5ZdrPeEfCWy7WoED%2B2MgnlWXAjXDBFyAq7gMI%2FP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDD1JFO6%2FYyuP%2BGRiOCrCAwoIUS0c%2F7Td8akIpMlERZlFinjTrOi8e0vQmMffVgQWFPli%2BUP9w5l%2FSUXaN4bxCSrlZdz7Y8hzEHtGDcpTq5fYQIWWRjBgkob3FbYV9CU79%2FLzAMEaqEDOT3s%2FXNCEPUalqEQrixqM2%2F2Wpx0eGPguNYm86T5BY4UsfX0HW3Yguy1bXrXX4iahrAx%2BIkC105i%2Bq05WaUrQ4Jhi6FBkqr4Jruwdunf8HMol6XachXKBB3zVu1avq4bwCfdUTVGsNRzAflKsOTYUMYuSPoxpWccCevi8F%2FUSsupBTRcUV4i0hvwbxWhVt4msMqhqEvCbqYCNbfS%2FJb6ygmj76iUI%2FhATIIKnuxQC6B8Vqi2tVwKNur0jyhJaAEXyJWh4BNwpE9zHIilNiB2PBcvFwjgyYe9G0r7TiZ%2F8IH2HQlU1zRU1XloB8%2FBfm7SCOUnIUTuPuJkqL%2BGnnVUfyukbPlCh1PVlSqL0b%2FkzRGPs5hlpVOSKARpxTGT4dIDGzXyasD3Qi%2FRAIljXqsCh9NeSiY5TJ%2BiO30mUYVHgzNgsihENT9LuQal5VI6G4%2FH3YYp7J9ib193EhQl1h2eexRe64ttPMe4nLDC8%2FpTWBjqlAVRBVx%2B%2Bv2wsbk9weDnaVM%2FJQRJI%2FUTByW5IeUxsUjEhSuo76GaoOzGXUsFtu%2Byw1RCYYCETOWmg7og4%2FNBfCHDT65ohAP8nf3NHcXLHVnsyk4PRXN9YxVaSST6d%2FLAmD6HVCKlpqLUxN2gStM0LnLdjCDjW6tkiPNGpdAJYDhh%2BKrgir2WG1hYTr%2Boy0P5TP9GQYWEbcHCFeQrcPGhVlhkEnMeWdA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=85d5e3d07748c8012e3b4c0c3ef0f407d6a23038370a37e80926bc4ca89ee6ee",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Preload",
+          "href": "https://www.ycombinator.com/companies/preload"
+        }
+      },
+      {
+        "user_id": 3611501,
+        "full_name": "Runming (Tony) Wang",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Preload (YC F26). Biomedical Engineering PhD candidate at Johns Hopkins School of Medicine. Developed the first brain application of the Freeform Stimulator platform for focal cortical modulation. Performs animal neurosurgeries and fabricates neural recording and stimulation hardware. Previously conducted research at Emory/Georgia Tech on motor-unit coordination using EMG and motion tracking. BS in Neuroscience from Emory.",
+        "linkedin_url": "https://www.linkedin.com/in/runming-wang-090030139/",
+        "twitter_url": "https://x.com/RunmingW",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ba42b95280466fb10ddc011831ed7863ed708916.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAFP4R2F2T%2F20261006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261006T191856Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaCXVzLXdlc3QtMiJHMEUCIQCkFpFtI6HwGKsxrAs%2BV5TaTmFK7eVwW%2FSEC3FYJ4KC5AIgAa6nD0tOYux5ZdrPeEfCWy7WoED%2B2MgnlWXAjXDBFyAq7gMI%2FP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDD1JFO6%2FYyuP%2BGRiOCrCAwoIUS0c%2F7Td8akIpMlERZlFinjTrOi8e0vQmMffVgQWFPli%2BUP9w5l%2FSUXaN4bxCSrlZdz7Y8hzEHtGDcpTq5fYQIWWRjBgkob3FbYV9CU79%2FLzAMEaqEDOT3s%2FXNCEPUalqEQrixqM2%2F2Wpx0eGPguNYm86T5BY4UsfX0HW3Yguy1bXrXX4iahrAx%2BIkC105i%2Bq05WaUrQ4Jhi6FBkqr4Jruwdunf8HMol6XachXKBB3zVu1avq4bwCfdUTVGsNRzAflKsOTYUMYuSPoxpWccCevi8F%2FUSsupBTRcUV4i0hvwbxWhVt4msMqhqEvCbqYCNbfS%2FJb6ygmj76iUI%2FhATIIKnuxQC6B8Vqi2tVwKNur0jyhJaAEXyJWh4BNwpE9zHIilNiB2PBcvFwjgyYe9G0r7TiZ%2F8IH2HQlU1zRU1XloB8%2FBfm7SCOUnIUTuPuJkqL%2BGnnVUfyukbPlCh1PVlSqL0b%2FkzRGPs5hlpVOSKARpxTGT4dIDGzXyasD3Qi%2FRAIljXqsCh9NeSiY5TJ%2BiO30mUYVHgzNgsihENT9LuQal5VI6G4%2FH3YYp7J9ib193EhQl1h2eexRe64ttPMe4nLDC8%2FpTWBjqlAVRBVx%2B%2Bv2wsbk9weDnaVM%2FJQRJI%2FUTByW5IeUxsUjEhSuo76GaoOzGXUsFtu%2Byw1RCYYCETOWmg7og4%2FNBfCHDT65ohAP8nf3NHcXLHVnsyk4PRXN9YxVaSST6d%2FLAmD6HVCKlpqLUxN2gStM0LnLdjCDjW6tkiPNGpdAJYDhh%2BKrgir2WG1hYTr%2Boy0P5TP9GQYWEbcHCFeQrcPGhVlhkEnMeWdA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=cb9801f9814726ef5c19dd7968f0c660183601c79670f8783f7769a7f6066f5d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Preload",
+          "href": "https://www.ycombinator.com/companies/preload"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-06T19:19:04.390Z",
+    "classified_at": "2026-10-06T19:19:04.390Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 0.55,
+    "vertical_normalize_method": "yc_subindustry_default",
+    "primary_bm": "BM-08"
+  },
+  {
     "slug": "prescience-inc",
     "name": "Prescience, Inc.",
     "website": "https://www.getprescience.com/",
@@ -80970,7 +81242,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/rhem-labs",
     "batch": "Fall 2026",
     "one_liner": "Home care technology for aging parents and their families",
-    "description_combined": "Home care technology for aging parents and their families\n\nRhem is building the connected hardware and data platform for care at home. ",
+    "description_combined": "Home care technology for aging parents and their families\n\nRhem is building the connected hardware and data platform for care at home. \n\nRhem handles everything that doesn’t need a pair of hands, while keeping you in the loop.\n\n## TLDR:\n\nAging at home has a visibility problem. Small changes in health and routine can go unnoticed for weeks or months, until the first obvious sign is something serious. Rhem is a tabletop robot that helps families see those changes earlier, while giving parents the everyday support they need to stay independent longer. Rhem was designed with older adults in mind, but it’s for anyone who wants help getting things done and staying on top of their health.\n\nPreorders are open now at \n\n\n\n## \n\n## The Problem\n\nAt some point, you start paying attention to your parents differently.\n\nMaybe there was a scare. Maybe Mom missed an appointment. Maybe Dad sounds more tired. Or maybe nothing happened at all. You just start wondering whether everything is as fine as they say.\n\nIf you don’t live with ",
     "industry_sub_vertical": "Connected home monitoring and care coordination platform for aging adults",
     "canonical_vertical_id": "healthcare.home-health",
     "vertical_id": "healthcare.home-health",
@@ -81028,6 +81300,12 @@
     "directory_synced_at": "2026-09-25T18:13:02.132Z",
     "classified_at": "2026-09-25T18:13:02.132Z",
     "proposed_phenotype": null,
+    "launch_id": 117929,
+    "launch_url": "https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents",
+    "launch_title": "Rhem Labs: Health assistant robots for your parents",
+    "launch_created_at": "2026-10-06T16:00:00.079Z",
+    "launch_tagline": "Rhem handles everything that doesn’t need a pair of hands, while keeping you in the loop.",
+    "launch_evaluated_at": "2026-10-06T19:20:01.593Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-08"
@@ -82496,7 +82774,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/roma",
     "batch": "Fall 2026",
     "one_liner": "The AI task app that gets to work for you.",
-    "description_combined": "The AI task app that gets to work for you.\n\nRoma is the task app where AI gets to work for you. Simply type or say anything - an idea, a thought, a bunch of different things you need to remember - and Roma starts the work from your pocket.\r\n\r\nIt&#x27;s connected to your calendar, your email, your files, so it knows what to do next before you even ask.",
+    "description_combined": "The AI task app that gets to work for you.\n\nRoma is the task app where AI gets to work for you. Simply type or say anything - an idea, a thought, a bunch of different things you need to remember - and Roma starts the work from your pocket.\r\n\r\nIt&#x27;s connected to your calendar, your email, your files, so it knows what to do next before you even ask.\n\nWe're reinventing the to-do list so it does the work for you.\n\nTL;DR: Roma is the to-do list that does itself. It's the original productivity tool reinvented. The task list you already keep, remade so the tasks actually get done.\n\n\n\n### The original\n\nFrom pen and paper to apps on a phone, the to-do list has stood the test of time. It's the original productivity tool, and the one tool everyone has used at least once.\n\nYou can't say that about many things, especially as technology advances. But whether you have one task or seventeen, there's a to-do list in your head, in your pocket, or on your desk right now.\n\nSince the beginning, all to-do lists have made the same promise: write the task down so you can stop worrying about it. The catch is that you always have to come back and do it yourself. So the tasks pile up.\n\n### The problem\n\nWhen AI became smar",
     "industry_sub_vertical": "AI-powered personal task capture and execution for individual consumers",
     "canonical_vertical_id": "consumer.productivity.personal",
     "vertical_id": "consumer.productivity.personal",
@@ -82568,6 +82846,12 @@
     "directory_synced_at": "2026-09-14T19:01:12.413Z",
     "classified_at": "2026-09-14T19:01:12.413Z",
     "proposed_phenotype": null,
+    "launch_id": 117892,
+    "launch_url": "https://www.ycombinator.com/launches/UfU-roma-the-to-do-list-that-does-itself",
+    "launch_title": "Roma: The to-do list that does itself",
+    "launch_created_at": "2026-10-06T14:00:02.142Z",
+    "launch_tagline": "We're reinventing the to-do list so it does the work for you.",
+    "launch_evaluated_at": "2026-10-06T19:20:01.593Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-02"
@@ -83611,6 +83895,76 @@
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-03"
+  },
+  {
+    "slug": "saccade",
+    "name": "Saccade",
+    "website": "https://saccade.health",
+    "yc_profile_url": "https://www.ycombinator.com/companies/saccade",
+    "batch": "Fall 2026",
+    "one_liner": "World&#x27;s Earliest Test for Alzheimer&#x27;s Biomarkers",
+    "description_combined": "World&#x27;s Earliest Test for Alzheimer&#x27;s Biomarkers\n\nAlzheimer&#x27;s testing today is bottlenecked around the onset of symptoms, when the damage is already done. Current treatments, including the FDA-approved drugs released in 2024, don&#x27;t reverse the disease; they only slow it down. Earlier detection means earlier intervention.\r\n\r\nEye movement changes linked to Alzheimer&#x27;s surface sooner than any other biomarker, up to 15 years before symptoms appear.\r\n\r\nWe deliver a 15-minute VR assessment delivered to patients in longevity clinics:\r\n• Tasks: patients perform visual tasks designed by neurologists to trigger a distinct oculomotor response in people with Alzheimer&#x27;s or on its path\r\n• Hardware: our patent-pending attachment connects to any VR headset on the market and captures these eye movement patterns.\r\n• Analysis: the patterns are compared against our ML model to produce a risk analysis.\r\n\r\nOnce classified, patients can access new interventions, such as the FDA-approved drugs. They&#x27;re also referred to longevity practices, neurology practices or both, depending on their stage of decline.\r\n\r\nTesting for the earliest biomarkers allows the earliest possible intervention. In some cases, that slows the disease enough that patients outlive the onset of symptoms and never face memory loss in their lifetime.",
+    "industry_sub_vertical": "Neurodegenerative disease early detection via biomarker screening devices",
+    "canonical_vertical_id": "healthcare.medtech.devices",
+    "vertical_id": "healthcare.medtech.devices",
+    "vertical_label": "Medical devices & diagnostics",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "biotech-rd-agent",
+    "phenotype_primary_label": "Biotech / clinical R&D acceleration",
+    "phenotype_family": "life_sciences",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "biomarker_detection",
+      "predictive_risk_scoring",
+      "clinical_workflow_automation"
+    ],
+    "what_they_sell": "A 15-minute VR-based clinical assessment tool (hardware + software) that detects Alzheimer's biomarkers via eye-movement analysis up to 15 years before symptom onset. Delivered to longevity clinics and neurology practices as a diagnostic/screening product.",
+    "ai_play": "ML model trained on oculomotor patterns to classify Alzheimer's risk from eye-tracking data captured during VR neurological tasks. AI enables early biomarker detection that was previously impossible, unlocking earlier intervention windows and better patient outcomes.",
+    "who_pays": "Longevity clinics, neurology practices, health systems, and potentially direct-to-consumer via clinical partnerships.",
+    "confidence": 0.75,
+    "rationale": "Saccade is a biotech/clinical tool that uses AI (ML-based pattern recognition on eye-tracking data) to accelerate early detection of Alzheimer's biomarkers. This fits biotech-rd-agent because: (1) it accelerates clinical R&D and patient stratification workflows, (2) it enables earlier intervention by detecting disease 15 years pre-symptom, (3) it's hardware + software + ML model deployed in clinical settings. Secondary consideration: could be positioned as a regulated diagnostic product (similar to fintech-insurance-ai-product but for clinical diagnostics), but the primary value is R&D acceleration and clinical workflow enablement, not a direct insurance/financial SKU. Confidence 0.75 (not higher because it's primarily a diagnostic tool/device rather than a full R&D automation platform, but it clearly fits the biotech acceleration archetype).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare",
+      "Consumer Health and Wellness"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Hardware",
+      "Machine Learning",
+      "B2B",
+      "Healthcare"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2316918,
+        "full_name": "Shreyas Bhardwaj",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Saccade. Prev built medical devices for hospitals; soft robotics researcher",
+        "linkedin_url": "https://www.linkedin.com/in/bhardwajshreyas/",
+        "twitter_url": "https://x.com/shreyasbhardwj",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/60555f50c4d0f03a61fcc2d5ac9eb26a042d362a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOYUJUSF4%2F20261006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261006T191913Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaCXVzLXdlc3QtMiJHMEUCIQDOhVF5KcZutZkAWyDPZ5rmUNa4J6wrUcQQ1%2BgA1AczIgIgdyuAyYRGGvfzwuXdeVoEvxXR7l2ztNu45UkLNy8SghIq7gMI%2FP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDMjv3UuUpzKQG2NaYirCAySnUXI6UCaYsw04flERvcVnJLOKrZ8jgVtYAMb62tOLvmriTpYT2%2F1snJ4JzyhSWzm9DepSLkkh0l7TFmVQpNuMQUaPCAjQ53E2RjtEiimAC%2FQoVaDfmWL5gvFXUD5ASnW0zGFrQIC8tWBwQ2pNcGq%2B4E0I87sG1M3aAW%2FcA1tPpDBCTv3kdIC8aliOcZSkSY%2BbgzhJl735%2Bw8YRCUrOLJd90kJRdNYFkHn%2BZ1X6wg0uJPui5GVxNEaalTdNHIVRz9MNoFZ9a%2BqtByPNnG9Pa82lRktneMQIAfpoEFm3t56colznarTspPj8xOzRwzQRXLvWSUz9IwUWmQhY8YZEvL56M%2BBAziRg4Awt4hzoa5okbDWbycC%2FPdG8peK7lGzZrmmugcuFJsmYCIyDhaDGYRIMFXS%2BjZiFEMpOdW6xeoJsIyiz9OMC%2FaC1fOmICYdbGDRlAbG1sZAiExo9XvO1Ddxaufvh0dDghQqYDdS9a84J17MMwKfZYyU1BjSP0Ir%2B5CzO3wgXKJg7IM6bzaTayG%2FvqBpJ7lFLf2ilBEgRMMJX%2B1P%2B61J3eMpXjRAiCTzHWD4jCZXijXqNRzHOe4OOB7K2zC9%2FpTWBjqlAXA0uk9a7DFnlEnHW0rR5aeC7SAGlyrcikE2FA9nmDUHLMRw0cd7nel1eXd2LNJGfXNvNhqAGvE9Eh9bsiG9352DauQRCeYzV8EsDEEKSa3saTfLNYTTrD%2Bo7vspcYkgAQCA9FeQEW9%2Bg9%2FNjEhZFiWvQJ9ksXINvkyNrsJKaykHbMnVmaQrCk%2FI%2BRh55OFxTQK0VC%2B2fgg1kxSNCHSdTUOmpAN4IA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a558d5c64d049c6ee16602db71299afafec42c13fc12daa43738b65e442abb4d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Saccade",
+          "href": "https://www.ycombinator.com/companies/saccade"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-06T19:19:23.078Z",
+    "classified_at": "2026-10-06T19:19:23.078Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
   },
   {
     "slug": "saffron",
@@ -94549,6 +94903,70 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "teaflask",
+    "name": "Teaflask",
+    "website": "https://teaflask.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/teaflask",
+    "batch": "Spring 2026",
+    "one_liner": "Make your product AI native by tomorrow.",
+    "description_combined": "Make your product AI native by tomorrow.\n\nTeaflask is the AI layer for software companies. It lets any SaaS company put an agent inside its product that carries out tasks for its users, with the controls enterprises require. Customers go live in a day, without a rebuild.\r\n\r\nCalling a model is the easy part of shipping an in-product agent. The hard part is everything around it: streaming, crash recovery, scaling, guardrails, interfaces that match the product, and knowledge that stays current as the code changes. Teaflask handles all of it with no backend changes, and gives product teams visibility into how their users actually use the product.",
+    "industry_sub_vertical": "In-product agent runtime for SaaS platforms",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_runtime_harness",
+      "crash_recovery_reliability",
+      "streaming_optimization",
+      "guardrail_enforcement"
+    ],
+    "what_they_sell": "Embedded agent runtime layer that SaaS companies deploy inside their product to enable autonomous task execution for end-users. Handles streaming, fault tolerance, scaling, knowledge sync, and guardrails without requiring backend rewrites. Ships in ~1 day.",
+    "ai_play": "Abstracts away the operational complexity of running reliable, scalable agents in production. Teaflask is the 'harness' that lets product teams focus on UX and domain logic while the platform handles reliability, cost optimization, and compliance controls.",
+    "who_pays": "SaaS product teams (PMs, engineers) at mid-market and enterprise software companies seeking to add agentic capabilities without major re-architecture.",
+    "confidence": 0.82,
+    "rationale": "Teaflask is a classic agent-runtime-infra play: it provides the orchestration, reliability, and operational layer (streaming, crash recovery, scaling, guardrails) that sits between a model and end-user-facing product. The 'no backend changes' positioning and emphasis on visibility/observability also aligns with agent-observability-evals as a secondary phenotype. It is NOT a vertical workflow agent (not automating a specific job function) and NOT a copilot (not a standalone productivity tool). It is infrastructure for embedding agents into existing SaaS products.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1978093,
+        "full_name": "Ragav Sachdeva",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder of Teaflask | PhD at Oxford | Ex- Nvidia, Google, Microsoft",
+        "linkedin_url": "https://www.linkedin.com/in/ragavsachdeva",
+        "twitter_url": "https://x.com/ragavsachdeva",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ce4841c2cda8d8e28dbfbbabffc9ab425b0668c4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHJXLKMWQ%2F20261006%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261006T191841Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDMaCXVzLXdlc3QtMiJHMEUCIQCp9%2Bmeu82rXN59UcY5SCDBtoR%2F9JOrsY2VK0uErWM4kQIgIUxHV%2F51BO1lu89GZwGRmwjdpUgnzknGsBcYwSjhdR4q7gMI%2FP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDEnwMGZZN4IWs4MS2CrCAyEo36bf9oE%2Bd7vxHqnxgkm6gdePNKhQ5R%2FdpMIrqgViO0g6oPP9HSA5UdmrJ8LQsN8nK0MQSHuRNw3h2nD4B8utxWVcDosVyukklUwZJVY%2BQvfyI3sJDVwGZiyy6lYWfnXy6SBIIxqvXdE0aQIAEImq2SYsWuvJx2dk7NOzMooQsLJc8xyRud3ZBFjJKeZNTvwo6kZ9zMu0gx0LtMZwjzaSACo23mwLzBw0oY96GVuTffEATyhKJRi5LZdsTuNEcK2DFrIiMIq%2BFpeOprn6EEZS6wPSkSPtONloYL5emh3jC4UNr2iEOysCk%2BlW9t0Tdb3uvQjSzKTepuT8O530Df8B8gjgWcPbHaCEa8EIEvuBL%2F8jWw3TpnUAmjxwXW3arBu4lEcPLN2gvZAy0T7pGD8SeMN%2BxdCqkfxjNsAwc2EKoX%2F9f%2BOcL767Vpfp6cqQNL2Bo7fZLZNnwuu3INmMKn5MKQAIvrF5OgrWgXE2qcSG%2BnRGV9uyfzp1nbOH%2BxUKXDBp3oJYGbrJFXCHQZRq8BdNP4PCg%2BhXIHX5MyfVHHsnJMBiV6Z0nILuDAGnkhktyfhubyNXl06HX2ZVd%2BhbhY%2BXSTCp%2FpTWBjqlAdCkjWs3Uk8LMdsrcW9gS4mWjjaRy5hmY4jQXfWasAFd9LbsPApmB5lmD82fG1Iyb9DLJOjPg51Abj9v8zr7lkPrRtFxB5WCN%2B9c77RUu2G4NLnQm1LfWqZhi1DCTbItHRqAU5LgzMofkxkEO3uhtoZodSrDN%2FkVnWS4zVTxdrXLKJMICKAxAFax9DeH74RsS8Qvn%2B5c1OpIZFFTsD9JLuQQO9k%2BfQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=091a0b2b6c2500f176a18e1b2cf7b0991a26d1e91e0e44638f36c61943a7eedc",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Teaflask",
+          "href": "https://www.ycombinator.com/companies/teaflask"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-06T19:18:49.255Z",
+    "classified_at": "2026-10-06T19:18:49.255Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "tectoai",
     "name": "TectoAI",
     "website": "https://www.tecto.ai/",
@@ -99982,6 +100400,58 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.65,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "trylatent",
+    "name": "Latent",
+    "website": "http://runlatent.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/trylatent",
+    "batch": "Fall 2026",
+    "one_liner": "Catch wrong LLM answers before your customers do",
+    "description_combined": "Catch wrong LLM answers before your customers do\n\nLatent catches wrong or unsupported LLM answers before they reach your users. Instead of running a second model to check every output, it reads the model&#x27;s own internal state as it generates, so every request is verified with no added latency, no extra inference cost, and nothing leaving your deployment. Teams running LLMs in production, in finance, legal, healthcare and customer support, get a review queue of the answers most likely to be wrong, calibrated to their own model and traffic, with a plain explanation of why each one was flagged.",
+    "industry_sub_vertical": "LLM output verification & hallucination detection for regulated enterprises",
+    "canonical_vertical_id": "ai-infrastructure.agent-observability",
+    "vertical_id": "ai-infrastructure.agent-observability",
+    "vertical_label": "Agent observability & logging",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent observability, evals, or safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "hallucination_detection",
+      "output_verification",
+      "confidence_calibration",
+      "internal_state_analysis"
+    ],
+    "what_they_sell": "Real-time LLM output verification infrastructure that reads model internal states during generation to flag incorrect or unsupported answers before they reach users. Provides a prioritized review queue with explainability, zero added latency, and no extra inference cost.",
+    "ai_play": "Instead of running expensive secondary verification models or external fact-checking, Latent analyzes the LLM's own internal activations and confidence signals during token generation to detect hallucinations and errors. This enables production LLM deployments in high-stakes domains (finance, legal, healthcare, support) to maintain quality gates without doubling inference cost or latency.",
+    "who_pays": "Engineering and compliance teams at enterprises running LLMs in production, particularly in regulated industries (financial services, legal, healthcare, customer support) where wrong answers carry regulatory or reputational risk.",
+    "confidence": 0.85,
+    "rationale": "Latent is a safety/quality infrastructure layer for LLM production systems. It fits agent-observability-evals (tracing, benchmarks, compliance testing, production monitoring for agents) because it monitors LLM outputs in production, flags quality issues, and provides explainability for compliance. The core value is trust and quality assurance, not agent orchestration or context enrichment. Secondary consideration: could map to agent-security-control-plane (trust layer), but Latent's focus is output correctness/hallucination, not access control. Confidence is high (0.85) because the phenotype alignment is clear, though Latent is more narrowly focused on a single quality problem (hallucination detection) than the full breadth of observability/evals.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Security"
+    ],
+    "yc_tags": [
+      "Fraud Detection",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-10-06T19:19:13.651Z",
+    "classified_at": "2026-10-06T19:19:13.651Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "trynearby",

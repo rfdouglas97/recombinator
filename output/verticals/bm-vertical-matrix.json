@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-05T21:27:06.732Z",
+  "generated_at": "2026-10-06T19:20:02.572Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1541,
+    "assignment_count": 1548,
     "mapped_verticals": 247,
-    "observed_cells": 494,
+    "observed_cells": 495,
     "total_verticals": 525,
-    "gap_candidates": 838
+    "gap_candidates": 837
   },
   "observed_cells": [
     {
@@ -20,6 +20,7 @@
       "sector_id": "ai-infrastructure",
       "companies": [
         "21st",
+        "acyclic",
         "agent-37",
         "agent-fm",
         "agent-relay",
@@ -95,6 +96,7 @@
         "spine-ai",
         "superset",
         "sylvian",
+        "teaflask",
         "terminal-use",
         "tilion",
         "trace-so",
@@ -375,7 +377,8 @@
         "the-context-company",
         "thirdlayer",
         "traceroot-ai",
-        "traverse"
+        "traverse",
+        "trylatent"
       ]
     },
     {
@@ -1082,6 +1085,22 @@
       ]
     },
     {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "enterprise.sales.enablement",
+      "vertical_label": "Sales enablement & execution",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "amorphic-labs",
+        "cuckoo-labs",
+        "fixture",
+        "ladderai",
+        "peppr-ai",
+        "quotain",
+        "salesgraph"
+      ]
+    },
+    {
       "business_model": "BM-10",
       "business_model_label": "Consumer app / prosumer",
       "vertical_id": "healthcare.digital.consumer-wellness",
@@ -1186,21 +1205,6 @@
         "regbase",
         "scoop",
         "vulcan-technologies"
-      ]
-    },
-    {
-      "business_model": "BM-02",
-      "business_model_label": "Horizontal AI SaaS",
-      "vertical_id": "enterprise.sales.enablement",
-      "vertical_label": "Sales enablement & execution",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "amorphic-labs",
-        "cuckoo-labs",
-        "fixture",
-        "peppr-ai",
-        "quotain",
-        "salesgraph"
       ]
     },
     {
@@ -1515,6 +1519,19 @@
         "deeptrace",
         "onepatch",
         "sonarly"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "enterprise.ops.knowledge",
+      "vertical_label": "Enterprise knowledge management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "cerenovus",
+        "linc",
+        "praxos",
+        "savant"
       ]
     },
     {
@@ -2027,15 +2044,15 @@
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "enterprise.ops.knowledge",
-      "vertical_label": "Enterprise knowledge management",
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "enterprise.ops.process-automation",
+      "vertical_label": "Cross-industry process automation",
       "sector_id": "enterprise-software",
       "companies": [
-        "cerenovus",
-        "praxos",
-        "savant"
+        "philon",
+        "photonium",
+        "preload"
       ]
     },
     {
@@ -2702,17 +2719,6 @@
       "companies": [
         "adaptional",
         "altrina"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "philon",
-        "photonium"
       ]
     },
     {
@@ -4717,6 +4723,16 @@
       "sector_id": "healthcare-life-sciences",
       "companies": [
         "adialante"
+      ]
+    },
+    {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "healthcare.medtech.devices",
+      "vertical_label": "Medical devices & diagnostics",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "saccade"
       ]
     },
     {

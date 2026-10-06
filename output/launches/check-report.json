@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-05T21:27:05.892Z",
+  "checked_at": "2026-10-06T19:20:01.701Z",
   "source": "https://www.ycombinator.com/launches",
   "checked_count": 4,
   "new_count": 4,
@@ -10,100 +10,36 @@
   },
   "summary": {
     "conforming": 1,
-    "partial": 3,
-    "non_conforming": 0,
-    "would_have_predicted": 3,
-    "surprise": 1,
+    "partial": 0,
+    "non_conforming": 3,
+    "would_have_predicted": 0,
+    "surprise": 4,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 117722,
-        "company_slug": "halmos-labs",
-        "company_name": "Halmos Labs",
-        "launch_url": "https://www.ycombinator.com/launches/Uck-halmos-labs-intelligent-experiment-design",
-        "created_at": "2026-10-05T17:00:00.106Z"
+        "launch_id": 117940,
+        "company_slug": "collar",
+        "company_name": "Collar",
+        "launch_url": "https://www.ycombinator.com/launches/UgG-collar-the-ai-for-public-company-investor-relations",
+        "created_at": "2026-10-06T18:00:00.095Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-05T21:26:55.301Z",
-        "launch_id": 117722,
-        "company_slug": "halmos-labs",
+        "evaluated_at": "2026-10-06T19:19:50.255Z",
+        "launch_id": 117940,
+        "company_slug": "collar",
         "taxonomy": {
-          "conformance_index": 77,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 93,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 71,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-09",
-            "vertical_id": "healthcare.pharma.drug-discovery",
-            "phenotype_primary_id": "biotech-rd-agent",
-            "cell_key": "BM-09::healthcare.pharma.drug-discovery::biotech-rd-agent",
-            "business_model_label": "Biotech / R&D platform",
-            "vertical_label": "Drug discovery & delivery R&D",
-            "phenotype_label": "Biotech / clinical R&D acceleration"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 119173,
-        "company_slug": "invofox",
-        "company_name": "Invofox",
-        "launch_url": "https://www.ycombinator.com/launches/V09-invofox-turn-any-document-into-structured-validated-json",
-        "created_at": "2026-10-05T16:32:42.567Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-05T21:27:04.571Z",
-        "launch_id": 119173,
-        "company_slug": "invofox",
-        "taxonomy": {
-          "conformance_index": 56,
-          "verdict": "partial",
+          "conformance_index": 48,
+          "verdict": "non_conforming",
           "dimensions": {
             "phenotype_alignment": {
               "score": 65,
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 2,
+              "score": 6,
               "band": "weak"
             },
             "business_model_fit": {
@@ -111,7 +47,74 @@
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 89,
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 29,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.ops.process-automation",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.ops.process-automation::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Cross-industry process automation",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "cell_observed_with_peers",
+            "low_taxonomy_conformance"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 119635,
+        "company_slug": "linc",
+        "company_name": "Linc.",
+        "launch_url": "https://www.ycombinator.com/launches/V7b-linc-the-discovery-layer-for-enterprise-ai",
+        "created_at": "2026-10-06T17:10:15.549Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-06T19:20:00.316Z",
+        "launch_id": 119635,
+        "company_slug": "linc",
+        "taxonomy": {
+          "conformance_index": 74,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
               "band": "strong"
             },
             "thesis_coherence": {
@@ -121,11 +124,11 @@
           },
           "cell": {
             "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.agent-context-web",
+            "vertical_id": "enterprise.ops.knowledge",
             "phenotype_primary_id": "agent-context-infra",
-            "cell_key": "BM-03::ai-infrastructure.agent-context-web::agent-context-infra",
+            "cell_key": "BM-03::enterprise.ops.knowledge::agent-context-infra",
             "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Agent web context & data enrichment",
+            "vertical_label": "Enterprise knowledge management",
             "phenotype_label": "Agent Context Infrastructure"
           }
         },
@@ -143,42 +146,41 @@
           "would_have_been_predicted": false
         },
         "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
           "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
         ]
       }
     },
     {
       "launch": {
-        "launch_id": 118447,
-        "company_slug": "decent-com",
-        "company_name": "Decent",
-        "launch_url": "https://www.ycombinator.com/launches/UoR-decent-your-health-plan-should-get-better-year-round-not-just-once-a-year",
-        "created_at": "2026-10-05T16:00:00.081Z"
+        "launch_id": 117929,
+        "company_slug": "rhem-labs",
+        "company_name": "Rhem Labs",
+        "launch_url": "https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents",
+        "created_at": "2026-10-06T16:00:00.079Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-05T21:27:04.572Z",
-        "launch_id": 118447,
-        "company_slug": "decent-com",
+        "evaluated_at": "2026-10-06T19:20:00.318Z",
+        "launch_id": 117929,
+        "company_slug": "rhem-labs",
         "taxonomy": {
-          "conformance_index": 67,
-          "verdict": "partial",
+          "conformance_index": 48,
+          "verdict": "non_conforming",
           "dimensions": {
             "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
+              "score": 1,
+              "band": "weak"
             },
             "vertical_workflow_fit": {
               "score": 85,
               "band": "strong"
             },
             "business_model_fit": {
-              "score": 70,
+              "score": 55,
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 88,
+              "score": 86,
               "band": "strong"
             },
             "thesis_coherence": {
@@ -188,55 +190,56 @@
           },
           "cell": {
             "business_model": "BM-01",
-            "vertical_id": "insurance.quote-comparison",
+            "vertical_id": "healthcare.home-health",
             "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::insurance.quote-comparison::vertical-workflow-agent",
+            "cell_key": "BM-01::healthcare.home-health::vertical-workflow-agent",
             "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Insurance quote generation & rate shopping",
+            "vertical_label": "Home health & post-acute care",
             "phenotype_label": "Vertical AI workflow agent (AI department for X)"
           }
         },
         "predictor": {
-          "predictability_band": "plausible",
+          "predictability_band": "surprise",
           "signals": [
-            "cell_observed_with_peers"
+            "cell_in_gap_list",
+            "low_taxonomy_conformance"
           ],
-          "cell_was_whitespace": false,
+          "cell_was_whitespace": true,
           "ranked_gap": null,
           "synthetic_match": null,
           "analog_gap_matches": [],
-          "retro_transfer_score": 66,
+          "retro_transfer_score": 64,
           "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
+          "would_have_been_predicted": false
         },
         "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
         ]
       }
     },
     {
       "launch": {
-        "launch_id": 117558,
-        "company_slug": "grep-ai",
-        "company_name": "Grep AI",
-        "launch_url": "https://www.ycombinator.com/launches/Ua6-grep-ai-self-improving-agents-that-get-smarter-and-cheaper-at-the-same-task",
-        "created_at": "2026-10-05T14:00:00.178Z"
+        "launch_id": 117892,
+        "company_slug": "roma",
+        "company_name": "Roma",
+        "launch_url": "https://www.ycombinator.com/launches/UfU-roma-the-to-do-list-that-does-itself",
+        "created_at": "2026-10-06T14:00:02.142Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-05T21:27:04.574Z",
-        "launch_id": 117558,
-        "company_slug": "grep-ai",
+        "evaluated_at": "2026-10-06T19:20:00.320Z",
+        "launch_id": 117892,
+        "company_slug": "roma",
         "taxonomy": {
-          "conformance_index": 54,
-          "verdict": "partial",
+          "conformance_index": 34,
+          "verdict": "non_conforming",
           "dimensions": {
             "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
+              "score": 1,
+              "band": "weak"
             },
             "vertical_workflow_fit": {
-              "score": 3,
+              "score": 4,
               "band": "weak"
             },
             "business_model_fit": {
@@ -248,35 +251,36 @@
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 64,
-              "band": "acceptable"
+              "score": 44,
+              "band": "weak"
             }
           },
           "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "ai-infrastructure.agent-runtime",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::ai-infrastructure.agent-runtime::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Agent runtime & orchestration",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+            "business_model": "BM-02",
+            "vertical_id": "consumer.productivity.personal",
+            "phenotype_primary_id": "horizontal-copilot-saas",
+            "cell_key": "BM-02::consumer.productivity.personal::horizontal-copilot-saas",
+            "business_model_label": "Horizontal AI SaaS",
+            "vertical_label": "Personal productivity software",
+            "phenotype_label": "Horizontal copilot / productivity SaaS"
           }
         },
         "predictor": {
-          "predictability_band": "plausible",
+          "predictability_band": "surprise",
           "signals": [
-            "cell_observed_with_peers"
+            "cell_observed_with_peers",
+            "low_taxonomy_conformance"
           ],
           "cell_was_whitespace": false,
           "ranked_gap": null,
           "synthetic_match": null,
           "analog_gap_matches": [],
-          "retro_transfer_score": 67,
+          "retro_transfer_score": 69,
           "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
+          "would_have_been_predicted": false
         },
         "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
         ]
       }
     }
