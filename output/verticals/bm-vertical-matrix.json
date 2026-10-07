@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-06T19:20:02.572Z",
+  "generated_at": "2026-10-07T19:43:50.728Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1548,
-    "mapped_verticals": 247,
-    "observed_cells": 495,
+    "assignment_count": 1550,
+    "mapped_verticals": 248,
+    "observed_cells": 496,
     "total_verticals": 525,
     "gap_candidates": 837
   },
@@ -917,6 +917,24 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "baud",
+        "dipole-labs",
+        "frontier-computing",
+        "lamb-labs",
+        "networkocean",
+        "partcl",
+        "powermatrix",
+        "sygaldry-technologies",
+        "zettascale-computing"
+      ]
+    },
+    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "enterprise.devtools.productivity",
@@ -985,23 +1003,6 @@
         "roark",
         "sazabi",
         "uselemma"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "baud",
-        "dipole-labs",
-        "frontier-computing",
-        "lamb-labs",
-        "networkocean",
-        "partcl",
-        "powermatrix",
-        "sygaldry-technologies"
       ]
     },
     {
@@ -3983,6 +3984,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "dailybot"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "devtools.infrastructure-as-code",
+      "vertical_label": "Infrastructure-as-code authoring & policy enforcement",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "resin-technologies"
       ]
     },
     {

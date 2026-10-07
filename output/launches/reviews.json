@@ -1,7 +1,421 @@
 {
-  "updated_at": "2026-10-06T19:20:00.341Z",
+  "updated_at": "2026-10-07T19:43:48.595Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 115477,
+      "company_slug": "veltha",
+      "launch_url": "https://www.ycombinator.com/launches/U2X-veltha-ai-native-tpa-for-workers-comp",
+      "created_at": "2026-10-07T18:00:00.115Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "insurance.claims-property",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-07T19:43:39.331Z",
+        "launch_id": 115477,
+        "company_slug": "veltha",
+        "taxonomy": {
+          "conformance_index": 67,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 38,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "insurance.claims-property",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::insurance.claims-property::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Property & casualty claims processing",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 120163,
+      "company_slug": "resin-technologies",
+      "launch_url": "https://www.ycombinator.com/launches/VG7-resin-codex-for-electronics",
+      "created_at": "2026-10-07T17:00:00.135Z",
+      "classification": {
+        "phenotype_primary_id": "agent-workflow-abstraction-infra",
+        "vertical_id": "devtools.infrastructure-as-code",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-07T19:43:39.334Z",
+        "launch_id": 120163,
+        "company_slug": "resin-technologies",
+        "taxonomy": {
+          "conformance_index": 64,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 38,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "devtools.infrastructure-as-code",
+            "phenotype_primary_id": "agent-workflow-abstraction-infra",
+            "cell_key": "BM-03::devtools.infrastructure-as-code::agent-workflow-abstraction-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Infrastructure-as-code authoring & policy enforcement",
+            "phenotype_label": "Agent Workflow Abstraction Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 120562,
+      "company_slug": "zettascale-computing",
+      "launch_url": "https://www.ycombinator.com/launches/VMY-xpu-grasshopper-an-ai-chip-designed-for-the-era-of-recursive-self-improvement",
+      "created_at": "2026-10-07T16:33:31.723Z",
+      "classification": {
+        "phenotype_primary_id": "ai-enabled-physical-systems",
+        "vertical_id": "ai-infrastructure.gpu-deploy",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-07T19:43:48.572Z",
+        "launch_id": 120562,
+        "company_slug": "zettascale-computing",
+        "taxonomy": {
+          "conformance_index": 40,
+          "verdict": "non_conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 4,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 6,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "ai-infrastructure.gpu-deploy",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::ai-infrastructure.gpu-deploy::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "GPU infrastructure for model deployment",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company",
+            "low_taxonomy_conformance"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 119338,
+      "company_slug": "bryel",
+      "launch_url": "https://www.ycombinator.com/launches/V2o-bryel-building-your-in-house-frontier-ai-lab",
+      "created_at": "2026-10-07T16:00:00.171Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "research.ai-rd",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-07T19:43:48.574Z",
+        "launch_id": 119338,
+        "company_slug": "bryel",
+        "taxonomy": {
+          "conformance_index": 72,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "research.ai-rd",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::research.ai-rd::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "AI research & development labs",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 119735,
+      "company_slug": "trellus",
+      "launch_url": "https://www.ycombinator.com/launches/V9D-trellus-from-call-list-to-callback-inside-attio-and-gohighlevel",
+      "created_at": "2026-10-07T14:16:07.449Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "enterprise.sales.enablement",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-07T19:43:48.576Z",
+        "launch_id": 119735,
+        "company_slug": "trellus",
+        "taxonomy": {
+          "conformance_index": 70,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.sales.enablement",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::enterprise.sales.enablement::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Sales enablement & execution",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 120295,
+      "company_slug": "flowscope",
+      "launch_url": "https://www.ycombinator.com/launches/VIF-flowscope-your-in-house-ai-process-consultant",
+      "created_at": "2026-10-07T01:44:43.327Z",
+      "classification": {
+        "phenotype_primary_id": "ai-forward-consulting",
+        "vertical_id": "enterprise.ops.process-automation",
+        "business_models": [
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-07T19:43:48.576Z",
+        "launch_id": 120295,
+        "company_slug": "flowscope",
+        "taxonomy": {
+          "conformance_index": 72,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-04",
+            "vertical_id": "enterprise.ops.process-automation",
+            "phenotype_primary_id": "ai-forward-consulting",
+            "cell_key": "BM-04::enterprise.ops.process-automation::ai-forward-consulting",
+            "business_model_label": "AI labor / managed service",
+            "vertical_label": "Cross-industry process automation",
+            "phenotype_label": "AI-forward consulting / managed service"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
     {
       "launch_id": 117940,
       "company_slug": "collar",

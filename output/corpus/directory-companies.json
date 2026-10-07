@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-06T19:18:32.671Z",
+  "synced_at": "2026-10-07T19:42:59.967Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1361,
+  "company_count": 1362,
   "companies": [
     {
       "slug": "10x",
@@ -222,7 +222,7 @@
         "Operations"
       ],
       "team_size": 3,
-      "location": "New York City, NY, USA",
+      "location": "Philadelphia, PA, USA",
       "status": "Active",
       "launched_at": 1747166393
     },
@@ -2112,11 +2112,11 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Robotic Process Automation",
         "Health Tech",
         "B2B",
-        "Automation",
-        "AI"
+        "Automation"
       ],
       "team_size": 6,
       "location": "San Francisco, CA, USA",
@@ -2729,8 +2729,8 @@
       "slug": "axal",
       "name": "Axal",
       "batch": "Winter 2025",
-      "one_liner": "We design, assemble, and test custom PCBs fast.",
-      "long_description": "We help companies get custom PCBs built without having to manage multiple vendors themselves. We review or create PCB designs, find the right manufacturer, coordinate production, inspect and test every board, handle any manufacturing issues, and deliver the finished boards directly to your office.\r\n\r\nOur goal is to reduce manufacturing errors, shorten iteration cycles, and get your boards to you as quickly as possible without compromising on quality.",
+      "one_liner": "We assemble PCBs in under 48 hours for quantities under 10",
+      "long_description": "Axal is a quick-turn PCB assembly shop in San Francisco. Samai and Nand build every board themselves, and both are IPC certified. For quantities under 10, we assemble boards in under 48 hours. Order online in 2 minutes at axal.ai.\r\n\r\nSend us your board files and we handle the parts, bare boards, assembly, inspection, and delivery. ",
       "website": "https://www.axal.ai/",
       "industries": [
         "Industrials",
@@ -5428,8 +5428,11 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
+        "Generative AI",
         "Finance",
-        "AI"
+        "Enterprise",
+        "Operations"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -6054,14 +6057,18 @@
       "name": "Covera",
       "batch": "Fall 2026",
       "one_liner": "AI-native OS for insurance brokers",
-      "long_description": "Covera builds AI agents for insurance brokers. Our ready-to-use agents take over the day-to-day servicing work: submission intake, carrier quoting, quote comparison, claims handling, past-due collections, and account rounding. That means brokers can spend their time advising and selling clients instead of doing data entry. We work with agencies of every size and connect natively to the tools they already use.",
-      "website": "https://www.covera-agents.com/",
+      "long_description": "Covera is the AI-native operating system for independent P&C insurance agencies. It lives inside the agency's AMS and inbox and runs agentic AI workflows across the whole client journey, from the first email to the next renewal. Producers quote first and win more business; CSRs and account managers stop retyping data.\r\n\r\nSubmissions, for producers: every new request becomes a ready file, one click keys every carrier portal for a first quote during the call, quotes come back side by side, and binding updates the AMS with no double entry.\r\n\r\nServicing, for CSRs and account managers: answers about any account with their source, COIs and follow-ups drafted, renewal reminders 90, 60 and 30 days out with remarketing when premiums jump, and coverage gaps across the book turned into cross-sell leads.\r\n\r\nAgencies using Covera go from lead to quote in 5 minutes, save 10 hours a week per user and win 20% more deals against competitors. Every action is reviewed by the agency team and logged for E&O. Works with Applied Epic, AMS360, QQCatalyst, HawkSoft, EZLynx, Momentum, Gmail and Outlook.\r\n\r\nBuilt by the founders of Simio (conversational AI, acquired in 2024).",
+      "website": "https://www.covera-agents.com/?utm_source=ycombinator&utm_medium=company_profile&utm_campaign=yc_f26",
       "industries": [
         "Fintech",
         "Insurance"
       ],
       "tags": [
-        "AIOps"
+        "AIOps",
+        "SaaS",
+        "B2B",
+        "Insurance",
+        "AI Assistant"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -6555,8 +6562,14 @@
       "industries": [
         "B2B"
       ],
-      "tags": [],
-      "team_size": 4,
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Collaboration",
+        "Design Tools",
+        "No-code"
+      ],
+      "team_size": 6,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1778970590
@@ -10059,18 +10072,18 @@
       "slug": "hebbian-robotics",
       "name": "Hebbian Robotics",
       "batch": "Summer 2026",
-      "one_liner": "Automate Data Evaluations for Physical AI and Robotics",
-      "long_description": "Hebbian Robotics automates data evaluation for physical AI and robotics.\r\n\r\nOur customers use us to build quality control pipelines in just a few lines of code, with custom models 10x faster and 8x cheaper than general foundation models. \r\n\r\nhttps://hebbianrobotics.com/\r\nhttps://github.com/Hebbian-Robotics/hflow",
+      "one_liner": "Foundational infrastructure for Physical AI",
+      "long_description": "Hebbian Robotics builds open source foundational infrastructure for Physical AI to develop robots that extend what humanity can do, for the benefit of the communities they serve.",
       "website": "https://hebbianrobotics.com/",
       "industries": [
         "Industrials",
         "Manufacturing and Robotics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Robotics",
         "Data Science",
         "Data Engineering",
+        "AI",
         "Databases"
       ],
       "team_size": 2,
@@ -10647,7 +10660,7 @@
       "name": "Hundred",
       "batch": "Fall 2026",
       "one_liner": "100% automated inspection for consumer electronics parts",
-      "long_description": "Hundred is an automated inspection system for consumer electronics parts. We help factories cut waste and prevent line-down issues by catching sub-millimeter cosmetic defects before parts reach the assembly line.\r\n\r\nDesigns change so fast that traditional vision models can't keep up, meaning factories still rely on manual inspection, literally people checking parts under microscopes to sort out bad parts. Human inspectors miss ~15% of defects which can turn a finished device into scrap.\r\n\r\nDefects cost U.S. discrete manufacturers $45 billion a year, and Erica saw this problem firsthand designing hardware at Meta, Google, and Magic Leap. She met Imani at Columbia's admitted-students day in 2017, and later met Iris through mutual friends in the Bay Area. Imani spent the last five years at Twitch building software that handles billions of requests a day, and Iris worked in Quant at Citadel before pivoting to research machine learning methods on 3D meshes and other structured data at Imperial College London. Now the team is building Hundred because manual inspection shouldn't exist in 2026.",
+      "long_description": "Hundred is an automated inspection system for the components that make up consumer devices like phones, smartwatches, and laptops. Hundred helps factories cut waste and prevent line-down issues by catching sub-millimeter cosmetic defects before parts reach the assembly line. \r\n\r\nIn the consumer electronics industry, designs change so fast that traditional machine vision can't keep up, forcing factories to rely on manual inspection, literally people checking parts under microscopes to sort out bad parts. Human inspectors miss roughly 15% of defects, and a single bad part can turn a finished device into scrap. Hundred is replacing manual inspection with an imaging rig that scans an entire shipping tray of parts at once. \r\n\r\nThe Hundred rig blocks ambient light and uses varied controlled lighting configurations to detect defects smaller than 100µm on a range of materials. The controlled environment means Hundred only needs to scan a single good part before it can find defects, categorize them, and assess their severity accurately.\r\n\r\nDefects cost U.S. discrete manufacturers $45 billion a year, a problem Hundred's CEO, Erica, saw firsthand as a mechanical engineer designing devices at Meta, Google, and Magic Leap. She met Imani, Hundred's CPO, at Columbia University's admitted-students day in 2017 and Imani went on to spend five years at Twitch building software that handles billions of requests a day. Erica later met Iris, Hundred's CTO, in the Bay Area. Iris worked as a quant at Citadel before pivoting to study at Imperial College London where she researched machine learning on 3D meshes and other structured data. Together, they're building Hundred because manual inspection shouldn't still exist in 2026.",
       "website": "http://hundred.systems/",
       "industries": [
         "Industrials",
@@ -14687,17 +14700,17 @@
       "batch": "Fall 2026",
       "one_liner": "Steer AI agents in real time using lessons from production runs",
       "long_description": "Production agents handle many different customer workflows. Currently, when one handles a situation badly, an engineer reads the trace and patches the prompt. The next situation needs another exception. Soon, improving the agent becomes a recurring engineering job, and the prompt keeps growing.\r\n\r\nMirrors finds patterns in past runs and feedback. Engineers review guidance for a specific situation and preview where it would apply. Mirrors then delivers that guidance while the agent works, inside the team’s existing setup. The team can check whether the change improved the outcome.\r\n\r\nWe’re building Mirrors for engineering teams running customer-facing agents across varied workflows, so they can improve behavior without hardcoding every lesson in the global prompt.",
-      "website": "https://www.runmirrors.com",
+      "website": "https://www.mirrors.dev",
       "industries": [
         "B2B",
         "Engineering, Product and Design"
       ],
       "tags": [
         "AIOps",
-        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -16725,10 +16738,10 @@
       ],
       "tags": [
         "AIOps",
-        "Artificial Intelligence",
         "B2B",
         "Workflow Automation",
-        "Enterprise Software"
+        "Enterprise Software",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -18287,15 +18300,15 @@
       "slug": "petrichor-bio",
       "name": "Petrichor Bio",
       "batch": "Fall 2026",
-      "one_liner": "Wet labs for AI",
-      "long_description": "Wet labs for AI Agents to run real experiments, collect the data, and get better at biology.",
+      "one_liner": "Wet lab infrastructure that turns AI experiments into training data.",
+      "long_description": "Real biology requires a wet lab, and building one takes years and a team most AI companies don't have. Petrichor runs their experiments at scale and sends back the dense, clean data their models need to learn from.",
       "website": "https://petrichorbio.com/",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Deep Learning"
+        "Deep Learning",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -18705,8 +18718,8 @@
       "slug": "pollen",
       "name": "Pollen",
       "batch": "Winter 2026",
-      "one_liner": "AI agents that automate customer success",
-      "long_description": "Pollen is building AI agents that autonomously improve retention. Pollen monitors every customer account to detect back-tested churn and upsell signals by connecting to your communications, support tickets, product usage, and CRM. Then, Pollen tells your team exactly which accounts need attention today and decides what to do next.",
+      "one_liner": "AI employees trained on your firm's workflows.",
+      "long_description": "Pollen gives firms an AI employee trained on their exact workflows.",
       "website": "https://www.pollen.cx/",
       "industries": [
         "B2B",
@@ -19601,16 +19614,16 @@
       "name": "Rasyn",
       "batch": "Summer 2026",
       "one_liner": "Making chemicals 100,000x faster",
-      "long_description": "We builds foundational AI models for chemistry. Almost nothing you buy is a single chemical. Products like datacenter coolant, GPU thermal paste, paint, and glue are formulations, which are mixtures of around ten ingredients each, and demand for them has grown quickly because of AI and EVs.\r\n\r\nDesigning a new formulation is essentially a search problem, because there are more possible mixtures than anyone could ever test, and none of them can be predicted in advance. As a result, bringing a single formulation to market today takes three to five years of trial and error in a lab.\r\n\r\nOur models predict how a mixture will behave far faster than the standard methods used today, which lets us design new formulations in weeks rather than years, at a fraction of the cost. To prove this, we used them to invent three chemicals that never existed before, including a PFAS-free coolant for datacenters, and we have since synthesized and patented all three.\r\n\r\nWe are already working with some of the largest manufacturers to design formulations for them, and we are building our own lab to generate the data that will train our next models.",
+      "long_description": "We build foundational AI models for chemistry. Almost nothing you buy is a single chemical. Products like datacenter coolant, GPU thermal paste, paint, and glue are formulations, which are mixtures of around ten ingredients each, and demand for them has grown quickly because of AI and EVs.\r\n\r\nDesigning a new formulation is essentially a search problem, because there are more possible mixtures than anyone could ever test, and none of them can be predicted in advance. As a result, bringing a single formulation to market today takes three to five years of trial and error in a lab.\r\n\r\nOur models predict how a mixture will behave far faster than the standard methods used today, which lets us design new formulations in weeks rather than years, at a fraction of the cost. To prove this, we used them to invent three chemicals that never existed before, including a PFAS-free coolant for datacenters, and we have since synthesized and patented all three.\r\n\r\nWe are already working with some of the largest manufacturers to design formulations for them, and we are building our own lab to generate the data that will train our next models.",
       "website": "https://www.rasyn.ai/",
       "industries": [
         "Healthcare"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Deep Learning",
         "Biotech",
-        "Manufacturing"
+        "Manufacturing",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -19840,14 +19853,14 @@
       "batch": "Fall 2026",
       "one_liner": "Commercial insurance for small businesses",
       "long_description": "Redoubt is a commercial insurance agency for small businesses. We believe our customers are our most important business partners, and they deserve our full attention. Machines can already handle the boring parts, the next step is to continually learn from experience. ",
-      "website": "https://www.redoubt.agency",
+      "website": "https://www.redoubt.insure",
       "industries": [
         "Fintech",
         "Insurance"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Insurance"
+        "Insurance",
+        "AI"
       ],
       "team_size": 0,
       "location": "Salt Lake City, UT, USA",
@@ -20061,6 +20074,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1773355936
+    },
+    {
+      "slug": "resin-technologies",
+      "name": "Resin Technologies",
+      "batch": "Fall 2026",
+      "one_liner": "Resin helps engineers design electronics faster and more reliably",
+      "long_description": "Resin is an AI-native ECAD tool. It lets engineers:\r\n- research designs\r\n- generate schematics\r\n- generate any symbols/footprints\r\n- route simple to complex boards\r\n\r\n",
+      "website": "https://resineda.com/",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Hardware",
+        "Electronics"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1791317892
     },
     {
       "slug": "ressl-ai",
@@ -22603,7 +22637,7 @@
         "Recruiting and Talent"
       ],
       "tags": [],
-      "team_size": 5,
+      "team_size": 7,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1773415057
@@ -23401,7 +23435,7 @@
       "batch": "Summer 2026",
       "one_liner": "The BlackRock of collectibles",
       "long_description": "tash is building the investment platform for sports and trading cards. We create professionally constructed portfolios of iconic, investment-grade cards, giving investors exposure to the asset class without the hassle of selecting, buying, storing, and selling individual cards.\r\n\r\nTrading card investing remains fragmented, opaque, and difficult to access. tash is building the infrastructure to make the asset class simpler, more transparent, and professionally managed. We are currently pursuing SEC qualification to launch regulated investment offerings backed by trading cards.",
-      "website": "https://www.tash.cards/",
+      "website": "https://www.tradetash.com",
       "industries": [
         "Consumer"
       ],
@@ -25814,19 +25848,19 @@
       "slug": "viraj-aero",
       "name": "Viraj Aero",
       "batch": "Fall 2026",
-      "one_liner": "Next generation engines for aircraft and data centers",
+      "one_liner": "Next generation gas turbines for data centers & aviation",
       "long_description": "",
       "website": "https://www.viraj-aero.com/",
       "industries": [
         "Industrials",
-        "Aviation and Space"
+        "Energy"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hard Tech",
         "Energy",
         "Aerospace",
-        "ClimateTech",
-        "AI"
+        "ClimateTech"
       ],
       "team_size": null,
       "location": "Toulouse, Occitanie, France",
