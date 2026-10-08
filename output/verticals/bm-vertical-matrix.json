@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-07T19:43:50.728Z",
+  "generated_at": "2026-10-08T19:41:06.169Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1550,
+    "assignment_count": 1558,
     "mapped_verticals": 248,
-    "observed_cells": 496,
+    "observed_cells": 498,
     "total_verticals": 525,
-    "gap_candidates": 837
+    "gap_candidates": 836
   },
   "observed_cells": [
     {
@@ -105,6 +105,7 @@
         "ufoai",
         "useterse",
         "vespper",
+        "voyager",
         "wato",
         "zatanna"
       ]
@@ -306,10 +307,46 @@
         "pollen",
         "primer",
         "q2q",
+        "quivly-ai",
         "trellus",
         "trycardinal-ai",
         "venta-ai",
         "verbiflow"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.agent-observability",
+      "vertical_label": "Agent observability & logging",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "activeloop",
+        "agnost-ai",
+        "archal",
+        "arga-labs",
+        "bentolabs-ai",
+        "buildbox",
+        "cambioml",
+        "codag",
+        "confident-ai",
+        "databuddy",
+        "dimely",
+        "fulcrum",
+        "mirrors",
+        "moda",
+        "papaya",
+        "parachute",
+        "playgent",
+        "rubric-ai",
+        "runrl",
+        "scope",
+        "sentrial",
+        "the-context-company",
+        "thirdlayer",
+        "traceroot-ai",
+        "traverse",
+        "trylatent"
       ]
     },
     {
@@ -345,40 +382,6 @@
         "silica",
         "verne-robotics",
         "waddle-labs"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.agent-observability",
-      "vertical_label": "Agent observability & logging",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "activeloop",
-        "agnost-ai",
-        "archal",
-        "arga-labs",
-        "bentolabs-ai",
-        "buildbox",
-        "cambioml",
-        "codag",
-        "confident-ai",
-        "dimely",
-        "fulcrum",
-        "mirrors",
-        "moda",
-        "papaya",
-        "parachute",
-        "playgent",
-        "rubric-ai",
-        "runrl",
-        "scope",
-        "sentrial",
-        "the-context-company",
-        "thirdlayer",
-        "traceroot-ai",
-        "traverse",
-        "trylatent"
       ]
     },
     {
@@ -842,6 +845,25 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "baud",
+        "dipole-labs",
+        "frontier-computing",
+        "lamb-labs",
+        "lucebox",
+        "networkocean",
+        "partcl",
+        "powermatrix",
+        "sygaldry-technologies",
+        "zettascale-computing"
+      ]
+    },
+    {
       "business_model": "BM-12",
       "business_model_label": "Open source + commercial",
       "vertical_id": "enterprise.devtools.productivity",
@@ -914,24 +936,6 @@
         "nao-labs",
         "openprose",
         "proliferate"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "baud",
-        "dipole-labs",
-        "frontier-computing",
-        "lamb-labs",
-        "networkocean",
-        "partcl",
-        "powermatrix",
-        "sygaldry-technologies",
-        "zettascale-computing"
       ]
     },
     {
@@ -2225,6 +2229,18 @@
       ]
     },
     {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "most-robotic",
+        "primordiant",
+        "superradiant"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "lending.underwriting-automation",
@@ -2354,6 +2370,18 @@
         "asterlab",
         "bryel",
         "induction-labs"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "research.ai-rd",
+      "vertical_label": "AI research & development labs",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "autoresearch-inc",
+        "hiloop",
+        "tokenless"
       ]
     },
     {
@@ -3053,17 +3081,6 @@
       ]
     },
     {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "most-robotic",
-        "superradiant"
-      ]
-    },
-    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.waste",
@@ -3215,17 +3232,6 @@
       "companies": [
         "atlia",
         "pares-ai"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "research.ai-rd",
-      "vertical_label": "AI research & development labs",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "hiloop",
-        "tokenless"
       ]
     },
     {
@@ -5077,6 +5083,16 @@
       ]
     },
     {
+      "business_model": "BM-12",
+      "business_model_label": "Open source + commercial",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "uxduck"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "industrials.robotics.teleop",
@@ -5494,6 +5510,16 @@
       "sector_id": "financial-services",
       "companies": [
         "agentcard"
+      ]
+    },
+    {
+      "business_model": "BM-05",
+      "business_model_label": "Fintech / insurance product",
+      "vertical_id": "payments.fraud-detection-prevention",
+      "vertical_label": "Real-time fraud detection & transaction blocking",
+      "sector_id": "financial-services",
+      "companies": [
+        "finic"
       ]
     },
     {

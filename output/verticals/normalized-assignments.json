@@ -9881,6 +9881,92 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "autoresearch-inc",
+    "name": "Autoresearch, Inc.",
+    "website": "https://autoresearch.inc",
+    "yc_profile_url": "https://www.ycombinator.com/companies/autoresearch-inc",
+    "batch": "Summer 2026",
+    "one_liner": "Autoresearch as a service: we solve your hardest measurable problems",
+    "description_combined": "Autoresearch as a service: we solve your hardest measurable problems\n\nAutoresearch helps teams train agents for tasks where general models are not good enough. Give us a task, your current agent or model, and an evaluation. Autoresearch runs an autoresearch campaign across data, SFT and other post-training methods, continual learning, prompts, tools, harnesses, and systems, then returns the best verified improvement. It runs hosted or in your cloud.\r\n\r\nWe provide the research system around models: persistent memory, full experiment lineage, compute orchestration, and statistical verification. We’re starting with agent and model training, continual learning, and optimization.\r\n\r\nReach out to us for early access at founders@autoresearch.inc.",
+    "industry_sub_vertical": "AI model and agent optimization research platform",
+    "canonical_vertical_id": "research.ai-rd",
+    "vertical_id": "research.ai-rd",
+    "vertical_label": "AI research & development labs",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "model-optimization-rl",
+    "phenotype_primary_label": "Model Optimization via Reinforcement Learning",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "rl_fine_tuning",
+    "ai_application_patterns": [
+      "automated_hyperparameter_tuning",
+      "continual_learning_optimization",
+      "experiment_lineage_tracking",
+      "statistical_verification"
+    ],
+    "what_they_sell": "Hosted or on-prem autoresearch platform that automates agent and model optimization by running systematic campaigns across data curation, SFT, post-training methods, continual learning, prompts, tools, and system harnesses. Returns verified best improvements with full experiment lineage and statistical validation.",
+    "ai_play": "Eliminates manual prompt engineering and hyperparameter tuning by deploying autonomous research workflows that systematically explore optimization space, measure improvements against user-provided evaluations, and converge on production-ready agent/model configurations. Persistent memory and experiment tracking enable reproducible, incremental improvements.",
+    "who_pays": "ML/AI teams, agent builders, and enterprises training domain-specific models or agents where general models underperform; buyers are ML engineers, research teams, and product teams optimizing agent performance.",
+    "confidence": 0.78,
+    "rationale": "Autoresearch is a meta-level AI optimization platform: it uses agentic workflows to automate the research process of improving other models/agents. Primary fit is model-optimization-rl (automated improvement via RL-driven loops from evaluation feedback), with secondary fit to agent-observability-evals (experiment tracking, statistical verification, benchmarking). The core value is automating the R&D cycle for model/agent training—reducing manual tuning and enabling continuous optimization. Not a research lab itself (ai-research-automation) but infrastructure enabling teams to run research campaigns. Confidence 0.78 due to strong alignment with RL optimization and experiment automation, though the platform spans SFT, data, and prompting (broader than pure RL).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Developer Tools",
+      "Machine Learning",
+      "Reinforcement Learning",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1714115,
+        "full_name": "Karan Brar",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Autoresearch, Inc. Previously ML at Reducto, Head of ML Infra at DynamoAI.",
+        "linkedin_url": "https://www.linkedin.com/in/brarkaran",
+        "twitter_url": "https://x.com/deepmatmul",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e596ed985a539262821de87d80ea418725ab7a90.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADCIYWXWB%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T193915Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJHMEUCIQCONbckqoBO5Q02%2B5HiQoGm4JTgn9yR4i%2F3TJ%2FHUux9sgIgYyfhXDbaPF5jqDX2EJrwXbtTMv3o3rSWNnooF25H46Eq5QMILRAAGgwwMDYyMDE4MTEwNzIiDNIrnUO5U0%2FoqD90qirCA6HFOl%2Br9o%2FjDaUcpdMfA9jE52Ujt0RmN6%2FFfCKMTjvWVfF6kAjAsNErnDwcBfEOAB801R6%2BA0QplLuXM1R8im8Q47HO7bWucTl40HcFBjIcQ4BdNQ2U62KuZIOB9%2Btlm0Ka7DQrIUzmWZ2vG8%2BnPFBgKOYh%2Fo0qVa9K5yy8XOCY74uNixAUNvYnVctuUtXf6ldc%2B%2BQ05o2663rSsEgAUaQbWu0hXO0AvVxlxnqmwZzwjWCIhcwxiVQvLBZ1xgoErjofmv1emPt9vXe8qwTT444nzuIskzzB26SRVAZiAo9cvoJoTBbRtH65LPrYSP4eAV4Sxz9v7lzsgiarvVvEi9PvwlI9CXW8Ub9v2IDmXftjscQJ2vr5HPUFLx%2Fh7Je6H6BhvaM1D%2Baz9xentDz1Ox1hbLXiJaSvk52FGEG4WhxpOgpPOh21o7AQDg37ZBveuYB8%2BN5ppBovQEt5NRxLQ1i14zzhCMDhUzBvGyWwZI17Rk9KeQabn0McgqFD52v02%2FbNDZLX5oIl2DmMI67%2BH2W%2BigklUqvD%2BJ9lWfwLTtsgE6NIH1hbbtZkJ1mb6bmS4YSzI7tHqwxN8%2BerC9L5D%2BvsnzCz35%2FWBjqlAXBGRjqO77fF22UUC%2F9JG5SncrmdOjh0Ofl00XD8paqFu1d2j83eE8ZP2RwIRXp%2FGKC72v9%2BP8aPoe1RpFCzc6i1caXoq5yKK%2BmCXj2f1%2F%2BGZ5eCf1Hw5RDbu625l7TEpcxNVutMB6n73NLz8d%2FrT3R8BGrhrcGOKJE46BWG47nrYXs3XT%2BHfrMxeTqxsDRQ0SDggQ%2FQyfVbbg2c2HzWrbFF5LNwkA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1c5213eddd412fbc4d775832f4cbc7acde46cb656f09d07ec447f44aa8af3e3a",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Autoresearch, Inc.",
+          "href": "https://www.ycombinator.com/companies/autoresearch-inc"
+        }
+      },
+      {
+        "user_id": 1597736,
+        "full_name": "Thomas Boser",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder at hiloop. Previously engineer at Reducto, founding engineer at Crosswise, senior ML engineer at Discord, ML at Sentropy & SoFi.",
+        "linkedin_url": "https://linkedin.com/in/tboser",
+        "twitter_url": "https://x.com/thomasboser",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7c1d2d3062a34b6d55d2d4e7aef55e887853400b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADCIYWXWB%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T193915Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJHMEUCIQCONbckqoBO5Q02%2B5HiQoGm4JTgn9yR4i%2F3TJ%2FHUux9sgIgYyfhXDbaPF5jqDX2EJrwXbtTMv3o3rSWNnooF25H46Eq5QMILRAAGgwwMDYyMDE4MTEwNzIiDNIrnUO5U0%2FoqD90qirCA6HFOl%2Br9o%2FjDaUcpdMfA9jE52Ujt0RmN6%2FFfCKMTjvWVfF6kAjAsNErnDwcBfEOAB801R6%2BA0QplLuXM1R8im8Q47HO7bWucTl40HcFBjIcQ4BdNQ2U62KuZIOB9%2Btlm0Ka7DQrIUzmWZ2vG8%2BnPFBgKOYh%2Fo0qVa9K5yy8XOCY74uNixAUNvYnVctuUtXf6ldc%2B%2BQ05o2663rSsEgAUaQbWu0hXO0AvVxlxnqmwZzwjWCIhcwxiVQvLBZ1xgoErjofmv1emPt9vXe8qwTT444nzuIskzzB26SRVAZiAo9cvoJoTBbRtH65LPrYSP4eAV4Sxz9v7lzsgiarvVvEi9PvwlI9CXW8Ub9v2IDmXftjscQJ2vr5HPUFLx%2Fh7Je6H6BhvaM1D%2Baz9xentDz1Ox1hbLXiJaSvk52FGEG4WhxpOgpPOh21o7AQDg37ZBveuYB8%2BN5ppBovQEt5NRxLQ1i14zzhCMDhUzBvGyWwZI17Rk9KeQabn0McgqFD52v02%2FbNDZLX5oIl2DmMI67%2BH2W%2BigklUqvD%2BJ9lWfwLTtsgE6NIH1hbbtZkJ1mb6bmS4YSzI7tHqwxN8%2BerC9L5D%2BvsnzCz35%2FWBjqlAXBGRjqO77fF22UUC%2F9JG5SncrmdOjh0Ofl00XD8paqFu1d2j83eE8ZP2RwIRXp%2FGKC72v9%2BP8aPoe1RpFCzc6i1caXoq5yKK%2BmCXj2f1%2F%2BGZ5eCf1Hw5RDbu625l7TEpcxNVutMB6n73NLz8d%2FrT3R8BGrhrcGOKJE46BWG47nrYXs3XT%2BHfrMxeTqxsDRQ0SDggQ%2FQyfVbbg2c2HzWrbFF5LNwkA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=8cee5c395ee3defaca22f7276f5ea13e7481f52e00329e5084d4f0271d0e3882",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Autoresearch, Inc.",
+          "href": "https://www.ycombinator.com/companies/autoresearch-inc"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-08T19:39:25.027Z",
+    "classified_at": "2026-10-08T19:39:25.027Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "autosana",
     "name": "Autosana",
     "website": "https://autosana.ai",
@@ -11322,7 +11408,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/b12-labs",
     "batch": "Summer 2025",
     "one_liner": "Chemical Copilot for Pharma and Biotech",
-    "description_combined": "Chemical Copilot for Pharma and Biotech\n\nb12 is an AI copilot that plans how to create and test new molecules for chemists. We're like a GPS for chemistry, helping pharma companies plan the recipes for new drugs, accelerating early-stage drug discovery from years to months. \r\nAndres built the first AI agent that can autonomously think and make molecules in a robotic lab, published in Nature Machine Intelligence (750+ citations), and won the best paper award at the NeurIPS AI for Science conference.\r\nZlatko is a 3x National Chemistry Olympiad champion, competed at IChO level, and medicinal chemist who has worked at Roche and leading lab robotics companies. He has an extensive network of hundreds of chemists across Europe.\r\nWe are publishing a groundbreaking paper in Nature demonstrating our AI's ability to optimally plan chemical recipes. We run paid pilots with big pharma companies showing that our platform planned a set of experiments that achieved full conversion in a single attempt, eliminating the usual 8-12 iteration cycle.",
+    "description_combined": "Chemical Copilot for Pharma and Biotech\n\nb12 is an AI copilot that plans how to create and test new molecules for chemists. We're like a GPS for chemistry, helping pharma companies plan the recipes for new drugs, accelerating early-stage drug discovery from years to months. \r\nAndres built the first AI agent that can autonomously think and make molecules in a robotic lab, published in Nature Machine Intelligence (750+ citations), and won the best paper award at the NeurIPS AI for Science conference.\r\nZlatko is a 3x National Chemistry Olympiad champion, competed at IChO level, and medicinal chemist who has worked at Roche and leading lab robotics companies. He has an extensive network of hundreds of chemists across Europe.\r\nWe are publishing a groundbreaking paper in Nature demonstrating our AI's ability to optimally plan chemical recipes. We run paid pilots with big pharma companies showing that our platform planned a set of experiments that achieved full conversion in a single attempt, eliminating the usual 8-12 iteration cycle.\n\nAI Chemistry Foundry - from a molecule on a screen to a compound in a vial\n\nTL;DR:\n\nAI can design a molecule in seconds, but making it can still take a chemist weeks. b12 Foundry turns a molecule on a screen into a compound in a vial, in a fraction of the time it would take a chemist. A combination of state-of-the-art AI agents plans the route, designs the experiments and runs them on robots in our partner lab, so you get your molecules, and clean data including failed reactions, without needing a lab of your own. Last year we launched here as a chemistry copilot. Today we work with several large companies, across pharma, flavor and fragrance, energy and biotech industries and universities, and the Foundry is actively making molecules for clients.\n\n#### ❌ The problem:\n\nAI designs molecules faster than anyone can make them:\n\n* AI models can now design a molecule in",
     "industry_sub_vertical": "AI-powered chemical synthesis planning and molecular design for early-stage drug discovery",
     "phenotype_primary_id": "biotech-rd-agent",
     "phenotype_secondary_id": "ai-enabled-physical-systems",
@@ -11374,6 +11460,12 @@
       "vertical_id": null,
       "industry_sub_vertical": "Early-stage drug discovery and molecular design"
     },
+    "launch_id": 120586,
+    "launch_url": "https://www.ycombinator.com/launches/VMw-b12-foundry-we-make-the-molecules-ai-designs",
+    "launch_title": "b12 Foundry - We Make the Molecules AI Designs",
+    "launch_created_at": "2026-10-08T13:52:26.985Z",
+    "launch_tagline": "AI Chemistry Foundry - from a molecule on a screen to a compound in a vial",
+    "launch_evaluated_at": "2026-10-08T19:41:05.354Z",
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-09"
@@ -25098,6 +25190,77 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "databuddy",
+    "name": "Databuddy",
+    "website": "https://www.databuddy.cc",
+    "yc_profile_url": "https://www.ycombinator.com/companies/databuddy",
+    "batch": "Fall 2026",
+    "one_liner": "AI Data Analyst for fast-growing teams",
+    "description_combined": "AI Data Analyst for fast-growing teams\n\nDatabuddy gives you your very own data analyst, always watching over your data, combining all your context to investigate and paint a full picture on every product issue that emerges in real-time; conversion drops, user frustration and churn.\r\n\r\nIt makes your product better without needing to have you look at a dashboard and spend hours figuring out the why. one click to install or switch from any dated analytics provider.",
+    "industry_sub_vertical": "Product analytics & observability via AI agent",
+    "canonical_vertical_id": "ai-infrastructure.agent-observability",
+    "vertical_id": "ai-infrastructure.agent-observability",
+    "vertical_label": "Agent observability & logging",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-context-infra",
+    "phenotype_primary_label": "Agent Context Infrastructure",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "data_access",
+    "ai_application": "context_retrieval",
+    "ai_application_patterns": [
+      "agentic_analytics",
+      "real_time_investigation",
+      "context_compression",
+      "multi_source_synthesis"
+    ],
+    "what_they_sell": "An AI agent that continuously monitors product data (conversion, churn, user behavior) across multiple sources and autonomously investigates anomalies in real-time, synthesizing context into actionable insights without manual dashboard review.",
+    "ai_play": "Replaces manual data exploration and SQL querying by deploying an autonomous agent that ingests raw product events, metrics, and user context, compresses them into token-efficient summaries, and proactively surfaces root causes (e.g., 'conversion drop caused by checkout latency spike in EU region'). AI handles the 'context explosion' problem: product teams have rich telemetry but lack time to investigate; Databuddy's agent does the investigation autonomously.",
+    "who_pays": "Product managers, data teams, and growth leaders at fast-growing B2B SaaS companies seeking real-time product observability without hiring a dedicated analyst.",
+    "confidence": 0.72,
+    "rationale": "Databuddy is primarily an agent-context-infra play: it solves the 'context explosion' problem by compressing and synthesizing multi-source product data (events, metrics, user behavior) into dense, actionable context that an AI agent can consume and investigate autonomously. The agent is the delivery mechanism, but the core value is preparing external data (product telemetry, logs, user signals) for agent consumption. Secondary horizontal-copilot-saas positioning is valid (seat-based productivity tool for product teams), but the primary phenotype reflects the infrastructure layer: data ingestion → compression → agent-ready context → autonomous investigation. Not a pure vertical-workflow-agent because it's not automating a specific job function (like 'equity research'); it's enabling real-time product observability via agentic data synthesis. Confidence is 0.72 (not higher) because the product could also be positioned as a horizontal copilot if the emphasis is on 'replacing the analyst role' rather than 'preparing context for agents'; however, the description emphasizes autonomous investigation ('always watching', 'one click to install') which aligns more with agent-context-infra.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Analytics"
+    ],
+    "yc_tags": [
+      "B2B",
+      "Analytics",
+      "Data Engineering",
+      "Infrastructure",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA; Remote",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2755916,
+        "full_name": "Issa Nassar",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Building the coolest analytics platform that handles your analytics for you.",
+        "linkedin_url": "https://www.linkedin.com/in/issanassar",
+        "twitter_url": "https://x.com/izadoesdev",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/91c0735889e9859c7981c36fd71679fb069d9050.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABYTNNQWZ%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T194002Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJIMEYCIQCN3cIEeCJuV1G9hNOWARsgD7XDQ%2Bdz9G5ddllMzlG0BwIhAPjtsz3fl%2Fw4U4%2FkC78yDcR%2Blz%2FOm0QWMTGvLrsnSLPaKuUDCC0QABoMMDA2MjAxODExMDcyIgwBMsj3Uk0zmuiTLyEqwgP1ruiznTL%2BmMNEF2Ce3h1%2FmEN2CvDWNXplYYM3Xg4DaFYtP%2Buc3aoGHlUtUGcatMLo2PEHCI1YUk1Y6GSRh5OQFOf6WXZZsd6f4pQgBc5q5n0VtkQnf7izks979pjqDsSNXaFppwimmQNTSj6YoeMTKC9Jp7%2FZQC8FWBdJK0ZK61CiFrN6A1nCydnpyn1LJiGGdVxrJtTHretrP6f%2FLGO2KqCWvP0%2BMVhyPWO2a4x7lI6vZ4SKr%2BlzakXTUjpaoPpeHGcgjnkSOyvGi%2BPpTEnEHjyrr8T6isqZXJYFqaBAzePszrJR3bk4lL1b6caXFW8t8A0oqX9%2FLADvyyLxxxyU8wylbVkUXkAMqbvkvyRajuh75UXodm1FzJYKwsVKu0GW%2FMM7AlkTxcEOgySkIIt0SfTccjZvir1ONPMBMxdwDiSC3L0pIX4cSs1fxDj2snVD3WG6phYW89tE22XlpCqA68suHLFs0ePn%2Fo1E9vmWxnJnkWtS6kFatbRCGebXBcg%2B1NoIBy2ztBvOCCNkcq0NohM%2FS3pX6KyeDDC8FTpAuTrfrxWrV2VN%2Bct8E2jPVglB7OVsHrWU0lpXro2ZXSp20E4ws9%2Bf1gY6pAGjbJdjRcgcLXtGOqhXDwuwmBS6ZqRCM0elKYbZVUpgYms6ypq7pMFqZ7S8PHF%2Bar3JnvTyMGSJAlPSYgn4wAIxO77kC6xIo%2BanBKErNPRdaYsogwaqDFeWw%2F6zqEnl8QYIxB7vQ05dNp5pVaRvkfwaqmUbLaOj1ZBiZblhylkwb46KPZJdpyI9AxGduOwZoayK%2FlRls%2B%2BcUgeCQYAxW%2B7sKn008g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=2ab5acf49d110291d19796597104b9ab5ecaf9c8104c999a0d4a03dacee7f0b8",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Databuddy",
+          "href": "https://www.ycombinator.com/companies/databuddy"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-08T19:40:12.834Z",
+    "classified_at": "2026-10-08T19:40:12.835Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "datafruit",
     "name": "Datafruit",
     "website": "https://datafruit.ai/",
@@ -33454,6 +33617,55 @@
     "launch_evaluated_at": "2026-10-01T19:15:53.677Z",
     "vertical_normalize_confidence": 0.65,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "finic",
+    "name": "Finic",
+    "website": "https://www.finic.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/finic",
+    "batch": "Winter 2023",
+    "one_liner": "Real-time risk decisions at 1/100th the cost of Sonnet 5.5",
+    "description_combined": "Real-time risk decisions at 1/100th the cost of Sonnet 5.5\n\nHey everyone 👋 I'm Jason, CEO of Finic. Today we're launching Grayson, the first universal decision model trained to catch fraud, abuse, and financial crimes in real time.\n\nTL;DR: Send Grayson any context (logins, transactions, case notes, call transcripts) and a set of questions. Get back a calibrated probability for every answer in under 150ms. On fraud and risk benchmarks it's as accurate as Claude Sonnet 5.5 at 1/100th the cost, and it beats Jev. Zero data retention by default. Request API access and get $25 in free credit.\n\n\n\n### ❌ The problem\n\nI joined Robinhood pre-IPO and built our fraud investigations platform, along with some of our most critical authentication controls. I saw the same problem over and over: many risk decisions need human-level judgment, but they come up so often that paying a human (or an AI agent) to make them is financially unworkable.\n\n* Should this new device require step-up authentication?\n* Should we allow this transaction, or block it?\n* Should this ticket go to fraud, or to customer support?\n* Does this call log show signs the customer is being scammed?\n* Is this fraud?\n\nToday, teams answer these with some mix of:\n\n* Rules that are brittle and get gamed the week after they ship\n* Custom ML models that take months, need labeled data, and have to be retrained every time a question or data source changes\n* Frontier LLMs that take seconds, cost dollars per thousand calls, return prose you have to parse, and are confidently wrong\n* Humans or ag",
+    "industry_sub_vertical": "Real-time fraud & abuse decisioning for fintech platforms and payment processors",
+    "canonical_vertical_id": "payments.fraud-detection-prevention",
+    "vertical_id": "payments.fraud-detection-prevention",
+    "vertical_label": "Real-time fraud detection & transaction blocking",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "regulated-ai-decisioning-product",
+    "phenotype_primary_label": "AI-Native Regulated Decisioning Product",
+    "phenotype_family": "regulated_product",
+    "value_wedge": "regulated_product",
+    "ai_application": "risk_underwriting",
+    "ai_application_patterns": [
+      "fraud_detection",
+      "real_time_decisioning",
+      "cost_optimization",
+      "rag"
+    ],
+    "what_they_sell": "Grayson: a specialized decision model API that ingests transaction/user context (logins, transactions, case notes, call transcripts) and returns calibrated risk probabilities for fraud, abuse, and financial crime decisions in <150ms. Priced per API call at 1/100th the cost of frontier LLMs while matching Sonnet 5.5 accuracy. Zero data retention by default.",
+    "ai_play": "Domain-optimized inference model (not a generic LLM) trained specifically on fraud/risk benchmarks. Replaces expensive frontier LLM calls and brittle rule engines with a fast, accurate, cost-efficient decisioning layer. AI enables real-time, high-volume risk decisions at software margins instead of human or LLM-per-call economics.",
+    "who_pays": "Fintech platforms, neobanks, payment processors, and regulated financial institutions (Robinhood-like operators) whose risk/compliance teams need to make high-volume fraud and authentication decisions in real time.",
+    "confidence": 0.85,
+    "rationale": "Finic is a B2B SaaS platform selling an AI-powered decisioning product to regulated financial institutions. The core SKU is the Grayson model API—a specialized, cost-optimized inference layer for fraud/risk classification. This is NOT a vertical workflow agent (not automating a multi-step workflow for analysts) and NOT a fintech product (Finic is not taking underwriting risk or acting as a bank/insurer). It IS a regulated decisioning product: embedded AI that replaces manual rules and expensive LLM calls in real-time risk workflows. Buyers are risk/compliance teams at fintech and financial services companies. Confidence is high (0.85) because the positioning, use cases, and buyer profile align clearly with regulated-ai-decisioning-product.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "Fintech"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-05"
+    ],
+    "launch_id": 120575,
+    "launch_url": "https://www.ycombinator.com/launches/VMl-grayson-a-universal-decision-model-for-fraud-risk-and-financial-crimes",
+    "launch_title": "Grayson: A universal decision model for fraud, risk, and financial crimes",
+    "launch_created_at": "2026-10-07T20:23:18.171Z",
+    "launch_tagline": "Real-time risk decisions at 1/100th the cost of Sonnet 5.5",
+    "launch_ingested_at": "2026-10-08T19:41:05.354Z",
+    "classified_at": "2026-10-08T19:41:05.354Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-05"
   },
   {
     "slug": "finto-de",
@@ -53027,6 +53239,89 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
+  },
+  {
+    "slug": "lucebox",
+    "name": "Lucebox",
+    "website": "https://www.lucebox.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/lucebox",
+    "batch": "Winter 2027",
+    "one_liner": "Self-improving inference workstation",
+    "description_combined": "Self-improving inference workstation\n\nLucebox makes workstations for local AI inference. They&#x27;re private, always-on machines that arrive with Lucebox&#x27;s inference engine installed and tuned, so developers point Claude Code, Codex or OpenCode on their own hardware. Lucebox is building toward a new category of self-improving personal AI computers that learn from the work you do every day, training small models on your own context until they&#x27;re faster and better than the cloud at your tasks. The engine is open source, with 2.9K stars on GitHub and 95K+ downloads on Hugging Face.",
+    "industry_sub_vertical": "Edge GPU inference runtime for local model deployment",
+    "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_label": "GPU infrastructure for model deployment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "edge-inference-runtime",
+    "phenotype_primary_label": "Edge Inference Runtime & Optimization",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "edge_inference",
+      "model_compression",
+      "local_adaptation",
+      "self_improving_models"
+    ],
+    "what_they_sell": "Hardware workstations (always-on local machines) bundled with Lucebox's open-source inference engine, pre-tuned for efficient local model execution. Developers deploy Claude, Codex, or other models on their own hardware without cloud dependency. The engine learns from user context over time, training smaller, task-specific models that outperform cloud alternatives for the user's specific workflows.",
+    "ai_play": "Lucebox solves the 'cloud inference cost and latency' problem by enabling efficient local inference on consumer-grade hardware. AI play: (1) model optimization/quantization to run frontier models locally, (2) continuous on-device fine-tuning via RL/adaptation loops that make small models task-specific and faster than cloud, (3) privacy-first inference without data leaving the device. The 'self-improving' angle is the key differentiator — the workstation learns your patterns and trains custom models that beat cloud latency and cost.",
+    "who_pays": "Developers, engineers, AI researchers, and prosumers who want private, low-latency AI inference without cloud vendor lock-in or recurring API costs. Secondary: enterprises with data-sensitive workflows (finance, healthcare, defense) requiring on-prem inference.",
+    "confidence": 0.78,
+    "rationale": "Lucebox is primarily an edge-inference-runtime company: they're building hardware + software infrastructure to deploy and optimize AI models locally, solving model compression, device compatibility, and cost optimization without cloud lock-in. Secondary phenotype is open-source-commercial because the inference engine is open-source (2.9K GitHub stars, 95K+ HF downloads) with commercial hardware monetization. The 'self-improving' aspect (on-device fine-tuning, context adaptation) adds a model-optimization-rl flavor, but that's a feature within the primary edge-inference phenotype, not a separate primary. Not consumer-ai-app because Lucebox is selling infrastructure/tools to developers, not end-user applications. Not ai-enabled-physical-systems because the hardware is a commodity vehicle for the inference software, not a novel physical system itself.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Consumer Electronics"
+    ],
+    "yc_tags": [
+      "Hardware",
+      "Open Source"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "Milan, Lombardy, Italy",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 588754,
+        "full_name": "Alessandro Puppo",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Building Lucebox, P25 Alum",
+        "linkedin_url": "https://www.linkedin.com/in/alessandro-puppo/",
+        "twitter_url": "https://x.com/pupposandro",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6b0c17a7ec88b4d1a4ba7966429ea37247401e0c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOUCYHIFF%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T194012Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJGMEQCIF0oTxBtsul%2Fy8GlqbbgguLRKGOmN8%2FodfR8BrClpreLAiA9b9y6Dr9DLPDF%2Fr6Ep%2FU14j0MyX4e4PG8avb8hQDLjirlAwgsEAAaDDAwNjIwMTgxMTA3MiIMER%2FvDiiPCR8DoQeNKsID9V3FHLDDAoy0JwAIg6nEPl8SWTadlaPeg7MpN%2B3oAAA1GR3IiC0pQrvQHUDEXViBih2114ZrAJKqPt5O6bqLwvy90LYngU0QnnpVnBkkCcVV%2FACUPYOkHgvd6zLqaXyNOsAkAg4LNhTnacAIz7wE3d7X1ROJJ73h7Ykg%2BVKUbM3iTpwdjMbMWmAIssrWUkNA%2BYFHIFS0Lq%2F9iBhi%2FTp9y9XKtiW16TPKlz4PfoN26fqvC2tzxaCQXhaN7rTfdOsZ9xbTJ3cbTkwpOfAelH4dkc%2B1FgydnL2ANB4I8Nb%2FqSLvrxBbBmGIDmJUeTBiUmwOSpYKx1X0m0LdlE8YHvNw3%2BMYUmlhr7nZQ4HougfGt%2Br61Sk%2BR6JNyq3%2FaU4%2BJn2iWVAE1wCz95WhZCFiGl5K4utTJ8lXyNO4g5a3ca5qv7XwLaFJe4ey9Qxd2Gk1a%2ByOjhxibNyVYaF7KA7qqysDYzshPTPJZJp4mo0HA4%2FePAgTM1LIlqSiuvytliVoNuFhE6Yru4HiUei3nBQWudNEl69RGv%2Fhd8M%2B7MnV5wHgwym0j3bo6PtqUEifV20dNlohNPCKvUrSARna5rd38iJzjrKqMLPfn9YGOqYBLLnjinkCIqbaL%2FIOTwQTollWwMKopKwKHZMExqG7eYcFtmCyI3MLt9SlK3Z8qCyQ2roaJ4xPHereX8KQolD8DOhN7uMoSXUGf%2BrwnaGVgZnrfrg%2BYLnoN8xSWYt6crPvHSAfFDd2yCQp%2BFdKz84C1Q%2F2DmOSutvlnZBOhhCOTlkcT2E6Gv%2FceJ8q7UhrWZZMn2voh9fAbE5p2bCf2zzb9MlgWn6vEg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=05e1891ff0e5bcd0e5c9ebcfbe84d33fefe1938d95e9eba5dbd200e1c5405688",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Lucebox",
+          "href": "https://www.ycombinator.com/companies/lucebox"
+        }
+      },
+      {
+        "user_id": 595681,
+        "full_name": "Davide Cifarelli",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Speeding up inference and computers. Researcher with published papers in high energy physics.",
+        "linkedin_url": "https://www.linkedin.com/in/davide-cifarelli/",
+        "twitter_url": "https://x.com/davideciffa",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7e8397f4dd14713e64fa4b014ff56501cb04c46d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOUCYHIFF%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T194012Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJGMEQCIF0oTxBtsul%2Fy8GlqbbgguLRKGOmN8%2FodfR8BrClpreLAiA9b9y6Dr9DLPDF%2Fr6Ep%2FU14j0MyX4e4PG8avb8hQDLjirlAwgsEAAaDDAwNjIwMTgxMTA3MiIMER%2FvDiiPCR8DoQeNKsID9V3FHLDDAoy0JwAIg6nEPl8SWTadlaPeg7MpN%2B3oAAA1GR3IiC0pQrvQHUDEXViBih2114ZrAJKqPt5O6bqLwvy90LYngU0QnnpVnBkkCcVV%2FACUPYOkHgvd6zLqaXyNOsAkAg4LNhTnacAIz7wE3d7X1ROJJ73h7Ykg%2BVKUbM3iTpwdjMbMWmAIssrWUkNA%2BYFHIFS0Lq%2F9iBhi%2FTp9y9XKtiW16TPKlz4PfoN26fqvC2tzxaCQXhaN7rTfdOsZ9xbTJ3cbTkwpOfAelH4dkc%2B1FgydnL2ANB4I8Nb%2FqSLvrxBbBmGIDmJUeTBiUmwOSpYKx1X0m0LdlE8YHvNw3%2BMYUmlhr7nZQ4HougfGt%2Br61Sk%2BR6JNyq3%2FaU4%2BJn2iWVAE1wCz95WhZCFiGl5K4utTJ8lXyNO4g5a3ca5qv7XwLaFJe4ey9Qxd2Gk1a%2ByOjhxibNyVYaF7KA7qqysDYzshPTPJZJp4mo0HA4%2FePAgTM1LIlqSiuvytliVoNuFhE6Yru4HiUei3nBQWudNEl69RGv%2Fhd8M%2B7MnV5wHgwym0j3bo6PtqUEifV20dNlohNPCKvUrSARna5rd38iJzjrKqMLPfn9YGOqYBLLnjinkCIqbaL%2FIOTwQTollWwMKopKwKHZMExqG7eYcFtmCyI3MLt9SlK3Z8qCyQ2roaJ4xPHereX8KQolD8DOhN7uMoSXUGf%2BrwnaGVgZnrfrg%2BYLnoN8xSWYt6crPvHSAfFDd2yCQp%2BFdKz84C1Q%2F2DmOSutvlnZBOhhCOTlkcT2E6Gv%2FceJ8q7UhrWZZMn2voh9fAbE5p2bCf2zzb9MlgWn6vEg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7270fc2b6d000e5650f54b2d9b12a93f16c3c1c484ee6074a4a899534d7554c9",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Lucebox",
+          "href": "https://www.ycombinator.com/companies/lucebox"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-08T19:40:24.396Z",
+    "classified_at": "2026-10-08T19:40:24.396Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "lucent",
@@ -76136,6 +76431,107 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "primordiant",
+    "name": "Primordiant (Formerly SuperRadiant)",
+    "website": "https://primordiant.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/primordiant",
+    "batch": "Fall 2026",
+    "one_liner": "Embodied Scientific Intelligence",
+    "description_combined": "Embodied Scientific Intelligence\n\nEvery instance of intelligence occurring in nature is embodied. Scientific intelligence is no different. We are building general-purpose robotic experimentalists: systems that unite scientific reasoning and physical action to iterate toward discovery by observing, hypothesizing and experimenting.",
+    "industry_sub_vertical": "Autonomous scientific research robotics for pharma and materials discovery",
+    "canonical_vertical_id": "industrials.robotics.general",
+    "vertical_id": "industrials.robotics.general",
+    "vertical_label": "General-purpose robotics intelligence",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-research-automation",
+    "phenotype_primary_label": "AI-Native Research Labs",
+    "phenotype_family": "rd_tooling",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "embodied_reasoning",
+      "autonomous_experimentation",
+      "hypothesis_generation",
+      "physical_iteration"
+    ],
+    "what_they_sell": "General-purpose robotic experimentalists that autonomously conduct scientific research by combining reasoning, hypothesis generation, and physical experimentation. Systems that observe, hypothesize, and iterate toward discovery without human intervention.",
+    "ai_play": "AI agents that integrate scientific reasoning (hypothesis formation, experimental design) with embodied robotic control to autonomously execute research workflows. The system learns from physical observations and adapts experimental protocols in real-time, compressing R&D cycles by orders of magnitude.",
+    "who_pays": "Pharma R&D labs, biotech companies, materials science researchers, energy companies, academic research institutions seeking to accelerate discovery timelines and reduce manual experimentation labor.",
+    "confidence": 0.85,
+    "rationale": "Primordiant is building autonomous AI-driven research labs where embodied agents (robots) conduct primary scientific discovery with minimal human intervention. This is a meta-level AI application: AI discovering better materials, drugs, or energy solutions. Primary phenotype is ai-research-automation (agentic AI automating scientific research), with secondary phenotype robotics-embodied-ai (physical embodiment + control). The company's core value is NOT the robot hardware itself, but the AI reasoning layer that makes the robot an autonomous experimentalist. Distinct from vertical-workflow-agent because they're not selling tools to researchers—they're conducting research autonomously. Confidence 0.85 (not 0.95) because early-stage description lacks detail on specific domain focus, monetization model, or customer traction.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Robotics",
+      "Energy",
+      "Advanced Materials",
+      "Biotechnology"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3125500,
+        "full_name": "Owen Tower",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Primordiant (formerly SuperRadiant). PhD in Physics from Brown, where he invented novel algorithms to discover phase transitions in random-field Ising models, in addition to using micro and nanofluidics to study analogous system experimentally. Research experience at NASA JPL and CERN/LHC. Trained in nanofabrication, microfluidics, and ML methods including PINNs and reinforcement learning.",
+        "linkedin_url": "https://www.linkedin.com/in/owen-tower-270630133?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "twitter_url": "https://x.com/owentower1",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/70a067e2bb7ef406f9c749791c05d5312086e47e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALBVLLUZO%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T193933Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJGMEQCIBZ0kVJSYbROvH1J7wOfgK7pZGCsyiGllPvaoRiizAyIAiAoZcQ6vAiUEpFihTz2%2FZb5YktYcu%2BRXVRa411MVk8FqirlAwgtEAAaDDAwNjIwMTgxMTA3MiIM2mahYnOMsJm8SULuKsIDUIaAnpeFFWVy%2Fhv7Tq5QjGxo9WSbJzydCDgNu2rXAeoJP3G7WnblVvQD76BVpBmbF1gYmqk5Wo1dWhtkDrOWEu%2FMB26SJjGN9BBuuy3Kn0M9brvazAghtJwgFY%2BER%2BRSeaFaBJd8FHlL1howibaB4QDKrOX9tEVyqqftv1kPSMIRTXoMUomrHZfuL%2FaRxL2HZ%2FX534EwBHBut7pGB7Qtq1yWenXm3F0AgWTs9rTAgG2Y53OUmIUuLIvdDnPftyc9p4iGBzuZisXUtIhIFvecf2XCbMrrpykQMTuvR8EEBW%2F4rs6HS0ndZvJHnArycloqXit0luenjNX0NDez4z7lzLBglwFXlrP7buFCHoPK99jsMjJW77T3uzp%2F8aqVBmpr4cd9U2tPkc%2FQYH66kkbV6dP0fOXgnHAeJLja%2B5RzXxk2TDs0l9mFq5jFtUoKv7t67v%2FfQTUWIS3sy7YbG5QDvMSJDcyEYTWgkE4H0iyMJ62B2aUUDgLmyvQFccTD5Lh7GVAxwTEOMuKlnza7cH%2BN%2FAI9JFwFaveOSNqGP1aL8wV2izB8uPb1MMYeICnqch2eJkTvh2urleTqjLEfMFVxO23TMLPfn9YGOqYBUbRJooOcQD6LV6S9ILdkB1vAp3YNCy1VEXgrVx1Is%2B1ZHS3DYRTrMcWTPVmh01Ou3UeKlWZNx%2BQPWhINkowUtknf54WYo7nOK1vERtSNEtg%2BGKwj5avjCSkHC02ECqdZilFMxly4CU6bmQPuoNCxamF0F3lurJKeu45M4Nm9ZYbjIO3GNBh1DP7%2BdzVM8JKsJkI1p1enW3eAhTfAHBuMitLZ%2Fu17cQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=fcd56089f3c782a774d655048975b337d91c5fdecb380bcf931cf5796442585b",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Primordiant (Formerly SuperRadiant)",
+          "href": "https://www.ycombinator.com/companies/primordiant"
+        }
+      },
+      {
+        "user_id": 3083156,
+        "full_name": "Cooper Niu",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "PhD candidate in Physics at Brown University. Created ALBERT, an autonomous AI particle physicist that proposes, verifies, and iteratively refines physics theories; given pre-1990 data, it recovered the top quark&#x27;s mass and properties in under an hour. Previously researched neutrinos at Fermilab on the NOvA experiment. Featured in APS Physics Magazine: https://physics.aps.org/articles/v19/119",
+        "linkedin_url": "https://www.linkedin.com/in/cooper-niu",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9ff31e1e94545e82247fe8f4a13b65e32eceda53.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALBVLLUZO%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T193933Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJGMEQCIBZ0kVJSYbROvH1J7wOfgK7pZGCsyiGllPvaoRiizAyIAiAoZcQ6vAiUEpFihTz2%2FZb5YktYcu%2BRXVRa411MVk8FqirlAwgtEAAaDDAwNjIwMTgxMTA3MiIM2mahYnOMsJm8SULuKsIDUIaAnpeFFWVy%2Fhv7Tq5QjGxo9WSbJzydCDgNu2rXAeoJP3G7WnblVvQD76BVpBmbF1gYmqk5Wo1dWhtkDrOWEu%2FMB26SJjGN9BBuuy3Kn0M9brvazAghtJwgFY%2BER%2BRSeaFaBJd8FHlL1howibaB4QDKrOX9tEVyqqftv1kPSMIRTXoMUomrHZfuL%2FaRxL2HZ%2FX534EwBHBut7pGB7Qtq1yWenXm3F0AgWTs9rTAgG2Y53OUmIUuLIvdDnPftyc9p4iGBzuZisXUtIhIFvecf2XCbMrrpykQMTuvR8EEBW%2F4rs6HS0ndZvJHnArycloqXit0luenjNX0NDez4z7lzLBglwFXlrP7buFCHoPK99jsMjJW77T3uzp%2F8aqVBmpr4cd9U2tPkc%2FQYH66kkbV6dP0fOXgnHAeJLja%2B5RzXxk2TDs0l9mFq5jFtUoKv7t67v%2FfQTUWIS3sy7YbG5QDvMSJDcyEYTWgkE4H0iyMJ62B2aUUDgLmyvQFccTD5Lh7GVAxwTEOMuKlnza7cH%2BN%2FAI9JFwFaveOSNqGP1aL8wV2izB8uPb1MMYeICnqch2eJkTvh2urleTqjLEfMFVxO23TMLPfn9YGOqYBUbRJooOcQD6LV6S9ILdkB1vAp3YNCy1VEXgrVx1Is%2B1ZHS3DYRTrMcWTPVmh01Ou3UeKlWZNx%2BQPWhINkowUtknf54WYo7nOK1vERtSNEtg%2BGKwj5avjCSkHC02ECqdZilFMxly4CU6bmQPuoNCxamF0F3lurJKeu45M4Nm9ZYbjIO3GNBh1DP7%2BdzVM8JKsJkI1p1enW3eAhTfAHBuMitLZ%2Fu17cQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=699ad98fb9e4fe364cbf6f3e7a68f06834002a7448db25a625afe85323f5d065",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Primordiant (Formerly SuperRadiant)",
+          "href": "https://www.ycombinator.com/companies/primordiant"
+        }
+      },
+      {
+        "user_id": 2759626,
+        "full_name": "Benedict Quartey",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at SuperRadiant. PhD in Computer Science from Brown University where I researched generally capable, verifiable robots and spatial world models. Previously developed AI systems that combined learning, reasoning, and planning for long-horizon autonomy at the Boston Dynamics Robotics & AI Institute.",
+        "linkedin_url": "https://www.linkedin.com/in/benedictquartey",
+        "twitter_url": "https://x.com/Benedict_Q",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a1b9e290e4926a87fa1477ca9d2d8d77e235d399.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALBVLLUZO%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T193933Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJGMEQCIBZ0kVJSYbROvH1J7wOfgK7pZGCsyiGllPvaoRiizAyIAiAoZcQ6vAiUEpFihTz2%2FZb5YktYcu%2BRXVRa411MVk8FqirlAwgtEAAaDDAwNjIwMTgxMTA3MiIM2mahYnOMsJm8SULuKsIDUIaAnpeFFWVy%2Fhv7Tq5QjGxo9WSbJzydCDgNu2rXAeoJP3G7WnblVvQD76BVpBmbF1gYmqk5Wo1dWhtkDrOWEu%2FMB26SJjGN9BBuuy3Kn0M9brvazAghtJwgFY%2BER%2BRSeaFaBJd8FHlL1howibaB4QDKrOX9tEVyqqftv1kPSMIRTXoMUomrHZfuL%2FaRxL2HZ%2FX534EwBHBut7pGB7Qtq1yWenXm3F0AgWTs9rTAgG2Y53OUmIUuLIvdDnPftyc9p4iGBzuZisXUtIhIFvecf2XCbMrrpykQMTuvR8EEBW%2F4rs6HS0ndZvJHnArycloqXit0luenjNX0NDez4z7lzLBglwFXlrP7buFCHoPK99jsMjJW77T3uzp%2F8aqVBmpr4cd9U2tPkc%2FQYH66kkbV6dP0fOXgnHAeJLja%2B5RzXxk2TDs0l9mFq5jFtUoKv7t67v%2FfQTUWIS3sy7YbG5QDvMSJDcyEYTWgkE4H0iyMJ62B2aUUDgLmyvQFccTD5Lh7GVAxwTEOMuKlnza7cH%2BN%2FAI9JFwFaveOSNqGP1aL8wV2izB8uPb1MMYeICnqch2eJkTvh2urleTqjLEfMFVxO23TMLPfn9YGOqYBUbRJooOcQD6LV6S9ILdkB1vAp3YNCy1VEXgrVx1Is%2B1ZHS3DYRTrMcWTPVmh01Ou3UeKlWZNx%2BQPWhINkowUtknf54WYo7nOK1vERtSNEtg%2BGKwj5avjCSkHC02ECqdZilFMxly4CU6bmQPuoNCxamF0F3lurJKeu45M4Nm9ZYbjIO3GNBh1DP7%2BdzVM8JKsJkI1p1enW3eAhTfAHBuMitLZ%2Fu17cQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=5d4e6fa1dc130f613cf5901cfc243caf6acb75a5a654eecd03ef8cc922234ef4",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Primordiant (Formerly SuperRadiant)",
+          "href": "https://www.ycombinator.com/companies/primordiant"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-08T19:39:42.441Z",
+    "classified_at": "2026-10-08T19:39:42.441Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
+  },
+  {
     "slug": "princeps",
     "name": "PRINCEPS",
     "website": "https://princeps.dev",
@@ -78136,6 +78532,95 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-10"
+  },
+  {
+    "slug": "quivly-ai",
+    "name": "Quivly AI",
+    "website": "https://www.quivly.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/quivly-ai",
+    "batch": "Fall 2026",
+    "one_liner": "AI agents that run onboarding, adoption, and renewals",
+    "description_combined": "AI agents that run onboarding, adoption, and renewals\n\nQuivly is the agentic workspace for everything after the sale. Our agents turn kickoff calls into launch plans, chase blockers, catch risk and expansion signals, and have the full account story ready at renewal. With Quivly, companies are able to take their customers live in 7 days instead of 30, and then grow revenue from these customers by 4.3x on avg.\n\nGet your customers live in 7 days instead of 30, then expand them by 4.3x\n\nHi YC, we're Chandrika and Tanay, co-founders of Quivly.\n\nTL;DR: Quivly is the AI workforce for everything after the sale, especially for companies with usage-based pricing. Our agents turn kickoff calls into launch plans, chase blockers, catch risk and expansion signals, and have the full account story ready at renewal. \n\nWith Quivly, companies are able to take their customers live in 7 days instead of 30, and then grow revenue from these customers by 4.3x on avg.\n\n\n\nEveryone rings the gong when the deal closes. But that's when the real work starts. The work after the sale is scattered across Slack threads, spreadsheets, calls, tickets, and someone's memory. Quivly brings it together and turns it into outcomes.\n\nOne account, one year with Quivly\n\nAs one customer put it: “Traditional custo",
+    "industry_sub_vertical": "Customer Success & Renewal Automation for B2B SaaS",
+    "canonical_vertical_id": "enterprise.sales.enablement",
+    "vertical_id": "enterprise.sales.enablement",
+    "vertical_label": "Sales enablement & execution",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_orchestration",
+      "document_parsing",
+      "workflow_automation",
+      "risk_detection"
+    ],
+    "what_they_sell": "SaaS platform deploying autonomous AI agents to manage post-sale customer success workflows: onboarding, adoption tracking, blocker resolution, renewal management, and expansion signal detection. Agents parse kickoff calls, generate launch plans, track implementation blockers, and synthesize account health for renewal conversations.",
+    "ai_play": "AI agents replace manual customer success coordinator work by autonomously orchestrating onboarding timelines, identifying at-risk accounts, and surfacing expansion opportunities. Reduces time-to-value from 30 days to 7 days and increases customer lifetime value by 4.3x through proactive risk and revenue signal detection.",
+    "who_pays": "VP/Director of Customer Success, VP of Revenue Operations at B2B SaaS companies with complex onboarding and high-touch renewal cycles.",
+    "confidence": 0.82,
+    "rationale": "Quivly is a vertical SaaS product targeting customer success teams with autonomous AI agents that execute end-to-end workflows (onboarding, adoption, renewals). This is a clear fit for vertical-agentic-workflow-saas: end-user-facing product, vertical focus (B2B SaaS CS), agents autonomously execute job functions, high switching cost via workflow integration and domain knowledge. Not a horizontal copilot (CS-specific, not cross-industry). Not agent infrastructure (they ARE the end product). Confidence 0.82 due to clear vertical focus and autonomous execution model; slight uncertainty only on whether secondary phenotype (domain-data-ontology for CS playbooks) should be flagged.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "SaaS",
+      "Enterprise Software",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 4,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1833192,
+        "full_name": "Chandrika Maheshwari",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder/CEO at Quivly AI. Previously founded Pull, a fintech company with a payroll-linked lending product. Ex-Plaid, Docusign, Google, Bain & Co. and MIT grad",
+        "linkedin_url": "https://www.linkedin.com/in/chandrikamaheshwari/",
+        "twitter_url": "https://x.com/Chandrika633",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2b79d37f1db9bc0c6d8f8de68cbef41f2afc2c7f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJGTOEC3G%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T193942Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJHMEUCIFLo0abOYMGbC6UoZyiS2NRweVBd8ZyX0KyRl2DonXq6AiEA%2B7VSpsf0O5xTIzaVLiEF%2BA3JNNzkRhJoehHlFlDlpu0q5QMILRAAGgwwMDYyMDE4MTEwNzIiDDM%2BEtIJfh3sF9hd4CrCA8JxoZn6a3WkueGec9btYU0ti5tyt4H3iaR0yYj1iLjdLWEItbYtuminVaUv%2Bm9SeVYVg4WA6r0vuN2fNray6QuLdMI2jhdA%2BlarTduInt5NhMnmEzzL1KZi2rLpjOFA7rvEmr9KEQm%2FFzIdWLgROpfpsdanLBkXyPwBZo4zfZd%2FkF6MsEJFw0EZ8ySAQzH6hV7aJVLaaj4UrlER43hrttbL90RUlUuy0va70QBTnf0jltpUnQzKCgKVxgRjKV3LLEXxysnA6CrLm87N79w5xoUNNJmZBSznlE56JVngiWnCPckD0KFq3AmeH36%2BF8t95L9ywAyJpPjT6txp0RAg9wuZ7soJlDqgWCFC282vSbJ5taLXPjwGwzukduYi84%2FNACjhUBon5ehWJSFmN%2FdB8jEULjxmgo5ntM%2B%2B8I6N8tf5rVBS1SXHrihtUu7F%2FhWUATTKGIUI8Lq%2Fv5k4uyYcR0glDD2RgwT5ZsyZuJDtFFTYFD9TYfpHhcOswyyBzPjBrx%2FlLTFDXcqEFQ5FdjLUB%2FgEMSAgYP%2FjImtAYBdJhN0tkRzqP%2FNHgjXDsVDVZPMfol9jvdPE4D%2BLOlZytGPzpjxsijC035%2FWBjqlAcyEWNpAXC%2BPqf4W4I%2FasTrmklZcjmKCeYi6iuuNo%2BXLDlH74DmLOZ2OdkeyxD8hH4OUKYQ4b9SSqVKXUERbbMJX758LnmDQkmnsbM6BCEPdT50yAQz6WIH0S%2BSlhid9AbwyXY9i1TiQpSX3S1GHlor5dO0vK9WfBxJMwGU%2FBnYOz4EHTZKVz%2FkO9%2BJCdTN0MWSDGCZdTuBmX5wY0QlL%2BU%2BHMeGECQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=85d3aa4b02634542f378a587053c2c55ecb582fca459559b8ca7be86ade659e3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Quivly AI",
+          "href": "https://www.ycombinator.com/companies/quivly-ai"
+        }
+      },
+      {
+        "user_id": 78328,
+        "full_name": "Tanay Agrawal",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder and CTO at Quivly AI. Previously founding PM at Atlan, scaling 0→$2M ARR and 200 enterprise customers across 50 countries. Earlier founding engineer at Atlan, solo-built a data collection app to 200K downloads and 30K DAU in 6 weeks. Led pricing and billing infrastructure at JP Morgan Payments supporting $2B annual volume. MS Product Management from Carnegie Mellon, BS CS from Manipal.",
+        "linkedin_url": "https://www.linkedin.com/in/tanayagrawal19/",
+        "twitter_url": "https://x.com/tanayagrawal19",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/153895247ab65b17900140be2124d44746497a61.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJGTOEC3G%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T193942Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJHMEUCIFLo0abOYMGbC6UoZyiS2NRweVBd8ZyX0KyRl2DonXq6AiEA%2B7VSpsf0O5xTIzaVLiEF%2BA3JNNzkRhJoehHlFlDlpu0q5QMILRAAGgwwMDYyMDE4MTEwNzIiDDM%2BEtIJfh3sF9hd4CrCA8JxoZn6a3WkueGec9btYU0ti5tyt4H3iaR0yYj1iLjdLWEItbYtuminVaUv%2Bm9SeVYVg4WA6r0vuN2fNray6QuLdMI2jhdA%2BlarTduInt5NhMnmEzzL1KZi2rLpjOFA7rvEmr9KEQm%2FFzIdWLgROpfpsdanLBkXyPwBZo4zfZd%2FkF6MsEJFw0EZ8ySAQzH6hV7aJVLaaj4UrlER43hrttbL90RUlUuy0va70QBTnf0jltpUnQzKCgKVxgRjKV3LLEXxysnA6CrLm87N79w5xoUNNJmZBSznlE56JVngiWnCPckD0KFq3AmeH36%2BF8t95L9ywAyJpPjT6txp0RAg9wuZ7soJlDqgWCFC282vSbJ5taLXPjwGwzukduYi84%2FNACjhUBon5ehWJSFmN%2FdB8jEULjxmgo5ntM%2B%2B8I6N8tf5rVBS1SXHrihtUu7F%2FhWUATTKGIUI8Lq%2Fv5k4uyYcR0glDD2RgwT5ZsyZuJDtFFTYFD9TYfpHhcOswyyBzPjBrx%2FlLTFDXcqEFQ5FdjLUB%2FgEMSAgYP%2FjImtAYBdJhN0tkRzqP%2FNHgjXDsVDVZPMfol9jvdPE4D%2BLOlZytGPzpjxsijC035%2FWBjqlAcyEWNpAXC%2BPqf4W4I%2FasTrmklZcjmKCeYi6iuuNo%2BXLDlH74DmLOZ2OdkeyxD8hH4OUKYQ4b9SSqVKXUERbbMJX758LnmDQkmnsbM6BCEPdT50yAQz6WIH0S%2BSlhid9AbwyXY9i1TiQpSX3S1GHlor5dO0vK9WfBxJMwGU%2FBnYOz4EHTZKVz%2FkO9%2BJCdTN0MWSDGCZdTuBmX5wY0QlL%2BU%2BHMeGECQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e43911497f734ce9b1be38a1a3eb8b43a5215b9bb819c5dbee579723db033390",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Quivly AI",
+          "href": "https://www.ycombinator.com/companies/quivly-ai"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-08T19:39:52.678Z",
+    "classified_at": "2026-10-08T19:39:52.678Z",
+    "proposed_phenotype": null,
+    "launch_id": 120590,
+    "launch_url": "https://www.ycombinator.com/launches/VN0-quivly-ai-agents-that-run-everything-after-the-sale-from-onboarding-to-renewal",
+    "launch_title": "Quivly: AI agents that run everything after the sale, from onboarding to renewal",
+    "launch_created_at": "2026-10-08T19:34:00.127Z",
+    "launch_tagline": "Get your customers live in 7 days instead of 30, then expand them by 4.3x",
+    "launch_evaluated_at": "2026-10-08T19:41:05.353Z",
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "quotain",
@@ -102622,6 +103107,74 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "uxduck",
+    "name": "UXDuck",
+    "website": "https://uxduck.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/uxduck",
+    "batch": "Fall 2026",
+    "one_liner": "Android for drones",
+    "description_combined": "Android for drones\n\nStarting with a modern interface for drones that users can build on and adapt. \r\n\r\nWorks with planes, copters, rovers, boats and submarines.",
+    "industry_sub_vertical": "Autonomous vehicle operating system platform for multi-modal robotics (drones, planes, rovers, boats, submarines)",
+    "canonical_vertical_id": "industrials.robotics.general",
+    "vertical_id": "industrials.robotics.general",
+    "vertical_label": "General-purpose robotics intelligence",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "open-source-commercial",
+    "phenotype_primary_label": "Open-source core + commercial layer",
+    "phenotype_family": "developer_gtm",
+    "value_wedge": "developer_adoption",
+    "ai_application": "autonomous_control_orchestration",
+    "ai_application_patterns": [
+      "os_abstraction_layer",
+      "hardware_agnostic_runtime",
+      "autonomous_vehicle_control"
+    ],
+    "what_they_sell": "A modular, extensible operating system for autonomous vehicles (drones, planes, rovers, boats, submarines) that abstracts hardware complexity and provides a unified developer platform for building and deploying autonomous behaviors. Monetized via open-source adoption + commercial licensing, managed services, or enterprise support.",
+    "ai_play": "AI agents and autonomous control systems built on UXDuck's OS can coordinate multi-sensor fusion, real-time decision-making, and fleet orchestration without reimplementing low-level hardware drivers. The OS becomes the substrate for agentic autonomy across heterogeneous vehicle types.",
+    "who_pays": "Drone manufacturers, autonomous vehicle startups, defense/industrial robotics teams, enterprise fleet operators, and developers building autonomous applications.",
+    "confidence": 0.72,
+    "rationale": "UXDuck is positioned as 'Android for drones'—a developer-friendly, hardware-agnostic OS layer that abstracts complexity and enables third-party innovation. This maps to open-source-commercial (OSS core + commercial monetization) as primary phenotype. Secondary phenotype is ai-enabled-physical-systems because the OS enables AI-driven autonomous control and optimization of physical hardware. The company is not itself an AI product, but rather infrastructure that accelerates AI/autonomous applications on drones and vehicles. High developer-adoption wedge; confidence tempered by limited visibility into AI-specific features vs. pure OS/middleware play.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Drones"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Developer Tools",
+      "Hardware"
+    ],
+    "business_models": [
+      "BM-12"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 358054,
+        "full_name": "Ben Butterworth",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "12th employee at Helsing (~£18B AI defence company) - built C2 and edge AI applications. Then became tech lead at stealth defense startup, joining as SWE #1. Scaled company to 70 people and 1000+ drones/month, used operationally with success. Works closely with soldiers from various countries. CS from Imperial College London and MIT.",
+        "linkedin_url": "https://www.linkedin.com/in/bbutterworth/",
+        "twitter_url": "https://x.com/uxduck",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6b4029349a6239928e59b2168cf35bf117b2c105.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABYTNNQWZ%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T193925Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJIMEYCIQCN3cIEeCJuV1G9hNOWARsgD7XDQ%2Bdz9G5ddllMzlG0BwIhAPjtsz3fl%2Fw4U4%2FkC78yDcR%2Blz%2FOm0QWMTGvLrsnSLPaKuUDCC0QABoMMDA2MjAxODExMDcyIgwBMsj3Uk0zmuiTLyEqwgP1ruiznTL%2BmMNEF2Ce3h1%2FmEN2CvDWNXplYYM3Xg4DaFYtP%2Buc3aoGHlUtUGcatMLo2PEHCI1YUk1Y6GSRh5OQFOf6WXZZsd6f4pQgBc5q5n0VtkQnf7izks979pjqDsSNXaFppwimmQNTSj6YoeMTKC9Jp7%2FZQC8FWBdJK0ZK61CiFrN6A1nCydnpyn1LJiGGdVxrJtTHretrP6f%2FLGO2KqCWvP0%2BMVhyPWO2a4x7lI6vZ4SKr%2BlzakXTUjpaoPpeHGcgjnkSOyvGi%2BPpTEnEHjyrr8T6isqZXJYFqaBAzePszrJR3bk4lL1b6caXFW8t8A0oqX9%2FLADvyyLxxxyU8wylbVkUXkAMqbvkvyRajuh75UXodm1FzJYKwsVKu0GW%2FMM7AlkTxcEOgySkIIt0SfTccjZvir1ONPMBMxdwDiSC3L0pIX4cSs1fxDj2snVD3WG6phYW89tE22XlpCqA68suHLFs0ePn%2Fo1E9vmWxnJnkWtS6kFatbRCGebXBcg%2B1NoIBy2ztBvOCCNkcq0NohM%2FS3pX6KyeDDC8FTpAuTrfrxWrV2VN%2Bct8E2jPVglB7OVsHrWU0lpXro2ZXSp20E4ws9%2Bf1gY6pAGjbJdjRcgcLXtGOqhXDwuwmBS6ZqRCM0elKYbZVUpgYms6ypq7pMFqZ7S8PHF%2Bar3JnvTyMGSJAlPSYgn4wAIxO77kC6xIo%2BanBKErNPRdaYsogwaqDFeWw%2F6zqEnl8QYIxB7vQ05dNp5pVaRvkfwaqmUbLaOj1ZBiZblhylkwb46KPZJdpyI9AxGduOwZoayK%2FlRls%2B%2BcUgeCQYAxW%2B7sKn008g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b931abf7ea01ab8dcb4c70bc24d0ebbb0b18ac7d2127619303decdc4982cbf30",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "UXDuck",
+          "href": "https://www.ycombinator.com/companies/uxduck"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-08T19:39:33.689Z",
+    "classified_at": "2026-10-08T19:39:33.689Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-12"
+  },
+  {
     "slug": "valctrl",
     "name": "ValCtrl",
     "website": "https://valctrl.com",
@@ -105490,6 +106043,81 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.92,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "voyager",
+    "name": "Voyager",
+    "website": "https://voyager.so",
+    "yc_profile_url": "https://www.ycombinator.com/companies/voyager",
+    "batch": "Fall 2026",
+    "one_liner": "Open harness for video and other creative work.",
+    "description_combined": "Open harness for video and other creative work.\n\nMost AI tools are built for coding. Voyager is designed to get the best creative results from models like Opus, Astra and DeepSeek.\r\n\r\nIt comes bundled with free motion graphics, music and video editing tools - or, it can drive Blender, DaVinci Resolve, After Effects, Ableton and 100+ others.\r\n\r\nFrom the team behind Moda (moda.app, 100k+ users).\n\nVoyager runs on your computer and lets you use models like Astra, Opus, and DeepSeek to steer 100+ AI image/video models and creative tools.\n\nVoyager is an open harness for video, music, games, and graphics.\n\nIt’s like Codex, but for creative work.\n\nVoyager runs on your computer and lets you use models like Astra, Opus, and DeepSeek to steer 100+ AI image/video models and creative tools like Blender, DaVinci Resolve, Ableton, and Unity.\n\nWe’re the team behind Moda, a design tool loved by 100k+ people.\n\nWe’ve had a front-row seat as models have gotten extremely capable - and can handle complex work across storyboarding, video gen, sound design, editing, and finding archival footage. Voyager enables people to do this all from one place: no juggling API keys, providers, and apps.\n\n\n\n# How it works\n\n1\\. Download Voyager at voyager.so and connect the tools, models, and subscriptions you already use.\n\n2\\. Describe what you want to do ",
+    "industry_sub_vertical": "AI agent orchestration for creative production workflows",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Harness / Orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_harness",
+      "creative_workflow_automation",
+      "tool_integration",
+      "multimodal_execution"
+    ],
+    "what_they_sell": "Open-source/commercial harness that orchestrates AI models (Opus, Astra, DeepSeek) for creative workflows. Bundles motion graphics, music, and video editing tools; integrates with Blender, DaVinci Resolve, After Effects, Ableton, and 100+ creative applications. Enables AI agents to drive end-to-end video and creative production without manual intervention.",
+    "ai_play": "Voyager abstracts creative tools into a unified agent-executable interface, allowing frontier LLMs and multimodal models to autonomously plan, generate, and edit video/motion graphics/audio. Solves the 'creative tool fragmentation' problem: models can reason about creative intent but lack standardized APIs to control professional creative software. Voyager is the orchestration layer that translates model outputs into tool commands across the creative stack.",
+    "who_pays": "Creative agencies, in-house marketing teams, video production studios, content creators, design-forward SaaS companies automating video/motion content generation.",
+    "confidence": 0.75,
+    "rationale": "Voyager is primarily an agent runtime/harness (agent-runtime-infra) — it's infrastructure that enables AI models to orchestrate and control creative tools. The core value is the abstraction layer that converts model outputs into reliable, multi-tool workflows. Secondary phenotype is horizontal-copilot-saas because it also functions as a productivity tool for creative professionals. The 'open harness' positioning and tool-agnostic design (works with 100+ apps) strongly align with agent orchestration infrastructure. Confidence is 0.75 (not higher) because the product straddles infrastructure and horizontal SaaS; positioning as 'harness' leans infrastructure, but GTM may emphasize end-user creative productivity.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Marketing"
+    ],
+    "yc_tags": [
+      "Design",
+      "Video",
+      "Marketing"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 6,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 421690,
+        "full_name": "John Holliman",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "CTO/founder at Moda, Previously founding engineer and CTO of Dover, MIT meng & sb",
+        "linkedin_url": "https://www.linkedin.com/in/jhhiii/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b8428c9ff8861d39dd171ce2f674b1f5ab9aaff8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAI7MZJOJN%2F20261008%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261008T193952Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGQaCXVzLXdlc3QtMiJGMEQCIAawvzEyTXre4zE0%2BQRErIoLwo8ZqhUuMs2spb%2BuyLKCAiBunF7j9IQTOCFPKvV%2FiXB0BOMuwnXFbtSkGGko60g6bCrlAwgsEAAaDDAwNjIwMTgxMTA3MiIM0atLftIinEuPgisDKsIDbC8SMtU4vvQ2HViRrfMl73x1f5%2FesHdge2PprpGht%2B11A3Qv5hit9PN0zy5X2FAJG7GaYKD0H4tn8bLAcrvC8GEvIPZBjHJ4N6I7kiffxPZpUQ316AQDHJsCf8WJNcSEM6xr9xWkd%2B3rbkcAVX%2Ftnto5%2BozybSvBWEjBmhNXX1f9IoD0Qs%2FMd5bzq%2BfmzesRZonVctvuo0mChDwgZr3OR7G2%2BTx%2BezabQJJPnPc2gTduM3hLdq5r44rggFe%2BgNcNPYdJuk30bAddG6Sn4cU8BuzaGm0N8E5FahZYMYBoO8S8aiHd0UVneWlkDb%2BoKb8qeVr6BSI7FcuRBilSEeLKYpfhZ1RRBh3lTHiHwXGykh98vPSsttqX%2FdyFmdJlmAWSps8LIA8BgEyu3lHxjYwni48pxAlMKSh5YDEJoDw5sVphsVKNr0Bu%2B85BU%2B9toJ8HJY486w9mVGHNeCHANzB1tRsWTOf5bLvi63iO45Zk9jyB43EhwmExJRtsovaVq9FG7Ihm%2BQWyHo%2BqM%2BnK2ww%2B5LTavwsbKznzkLlay%2Ffw6z8sNbuI7rf4XvWdQSwdcFn5B8pEwSDlytaW9Q7EmKZaoJkSMLPfn9YGOqYBEoSk6xr2aqqpbvF8oXJicD3CdGVrNzvSnNozNxzbhQZwfcjLFwNr%2B1Kuwfv6A%2Fbce3kOJgB7l8LEojDSu81N%2F6c3E7qr1joo7VWurtUbI9rGR4udB5S1IFGgmkn0A4SQsfPBUBQHZ59GoYwS%2FunIUEv2DE4TC6trQwZ9mYNqopD0F%2F8RU%2BKEbwUIoxCmFi8c9QDVktxyKt0vtBaPYVIuSJJPDJby5Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=40f05bb761c0c6345843a703932c1091afbce840e7451f53310f9ee283ee1889",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Voyager",
+          "href": "https://www.ycombinator.com/companies/voyager"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-08T19:40:02.248Z",
+    "classified_at": "2026-10-08T19:40:02.248Z",
+    "proposed_phenotype": null,
+    "launch_id": 117923,
+    "launch_url": "https://www.ycombinator.com/launches/Ufz-voyager-ai-harness-for-video-and-creative-work",
+    "launch_title": "Voyager: AI harness for video and creative work",
+    "launch_created_at": "2026-10-08T18:04:25.814Z",
+    "launch_tagline": "Voyager runs on your computer and lets you use models like Astra, Opus, and DeepSeek to steer 100+ AI image/video models and creative tools.",
+    "launch_evaluated_at": "2026-10-08T19:41:05.354Z",
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "voygr",

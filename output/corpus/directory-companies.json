@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-07T19:42:59.967Z",
+  "synced_at": "2026-10-08T19:39:15.649Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1362,
+  "company_count": 1366,
   "companies": [
     {
       "slug": "10x",
@@ -552,16 +552,15 @@
       "slug": "agentin-ai",
       "name": "Agentin AI",
       "batch": "Winter 2025",
-      "one_liner": "AI Agents that automate enterprise software processes",
-      "long_description": "At Agentin AI, we build Agents that move data and take actions across enterprise systems, like Salesforce, NetSuite and SAP. These agents are difficult to build because each enterprise heavily customizes their systems but we solved that by training our Agents to learn and adapt from failures, applying reinforcement learning techniques we developed.",
+      "one_liner": "Foundational model research",
+      "long_description": "",
       "website": "https://www.agentin.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Reinforcement Learning",
-        "Enterprise",
-        "AI"
+        "Artificial Intelligence",
+        "Reinforcement Learning"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -1748,7 +1747,7 @@
         "B2B"
       ],
       "tags": [],
-      "team_size": 4,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1771902214
@@ -2455,6 +2454,29 @@
       "launched_at": 1764806109
     },
     {
+      "slug": "autoresearch-inc",
+      "name": "Autoresearch, Inc.",
+      "batch": "Summer 2026",
+      "one_liner": "Autoresearch as a service: we solve your hardest measurable problems",
+      "long_description": "Autoresearch helps teams train agents for tasks where general models are not good enough. Give us a task, your current agent or model, and an evaluation. Autoresearch runs an autoresearch campaign across data, SFT and other post-training methods, continual learning, prompts, tools, harnesses, and systems, then returns the best verified improvement. It runs hosted or in your cloud.\r\n\r\nWe provide the research system around models: persistent memory, full experiment lineage, compute orchestration, and statistical verification. We’re starting with agent and model training, continual learning, and optimization.\r\n\r\nReach out to us for early access at founders@autoresearch.inc.",
+      "website": "https://autoresearch.inc",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Machine Learning",
+        "Reinforcement Learning",
+        "Infrastructure"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1785348094
+    },
+    {
       "slug": "autosana",
       "name": "Autosana",
       "batch": "Summer 2025",
@@ -3062,7 +3084,7 @@
         "Aviation and Space"
       ],
       "tags": [],
-      "team_size": 8,
+      "team_size": 15,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1770079967
@@ -3537,12 +3559,12 @@
       "batch": "Winter 2026",
       "one_liner": "Dynamically pricing the whole economy. ",
       "long_description": "Booko helps businesses that sell bookable time slots make more money by dynamically pricing their time. Unlike physical inventory, unsold time slots disappear forever, yet most time-slot-based businesses still rely on static pricing. We integrate with existing booking systems to adjust prices and incentives based on historical utilization, availability, and demand. Early customers see ~20% revenue uplift by selling time that would have otherwise gone unsold.",
-      "website": "https://bookoapp.com",
+      "website": "https://booko.com",
       "industries": [
         "B2B"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1769199393
@@ -6408,6 +6430,29 @@
       "launched_at": 1762476616
     },
     {
+      "slug": "databuddy",
+      "name": "Databuddy",
+      "batch": "Fall 2026",
+      "one_liner": "AI Data Analyst for fast-growing teams",
+      "long_description": "Databuddy gives you your very own data analyst, always watching over your data, combining all your context to investigate and paint a full picture on every product issue that emerges in real-time; conversion drops, user frustration and churn.\r\n\r\nIt makes your product better without needing to have you look at a dashboard and spend hours figuring out the why. one click to install or switch from any dated analytics provider.",
+      "website": "https://www.databuddy.cc",
+      "industries": [
+        "B2B",
+        "Analytics"
+      ],
+      "tags": [
+        "B2B",
+        "Analytics",
+        "Data Engineering",
+        "Infrastructure",
+        "AI"
+      ],
+      "team_size": 1,
+      "location": "San Francisco, CA, USA; Remote",
+      "status": "Active",
+      "launched_at": 1791412796
+    },
+    {
       "slug": "datafruit",
       "name": "Datafruit",
       "batch": "Summer 2025",
@@ -7732,7 +7777,7 @@
       "slug": "embedder",
       "name": "Embedder",
       "batch": "Summer 2025",
-      "one_liner": "The Enterprise AI Platform for Embedded Software",
+      "one_liner": "Hardware-Aware AI for Embedded Software",
       "long_description": "Building AI agents for autonomous embedded software development.",
       "website": "https://www.embedder.com",
       "industries": [
@@ -7740,10 +7785,10 @@
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Hardware",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "team_size": 6,
       "location": "San Francisco, CA, USA",
@@ -10381,29 +10426,6 @@
       "launched_at": 1759385382
     },
     {
-      "slug": "hiloop",
-      "name": "hiloop",
-      "batch": "Summer 2026",
-      "one_liner": "Autoresearch as a service: we solve your hardest measurable problems",
-      "long_description": "hiloop helps teams train agents for tasks where general models are not good enough. Give us a task, your current agent or model, and an evaluation. hiloop runs an autoresearch campaign across data, SFT and other post-training methods, continual learning, prompts, tools, harnesses, and systems, then returns the best verified improvement. It runs hosted or in your cloud.\r\n\r\nWe provide the research system around models: persistent memory, full experiment lineage, compute orchestration, and statistical verification. We’re starting with agent and model training, continual learning, and optimization.\r\n\r\nReach out to us for early access at founders@hiloop.ai.",
-      "website": "https://hiloop.ai",
-      "industries": [
-        "B2B",
-        "Infrastructure"
-      ],
-      "tags": [
-        "Artificial Intelligence",
-        "Developer Tools",
-        "Machine Learning",
-        "Reinforcement Learning",
-        "Infrastructure"
-      ],
-      "team_size": 2,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1785348094
-    },
-    {
       "slug": "hilstart",
       "name": "Hilstart",
       "batch": "Summer 2026",
@@ -10489,8 +10511,8 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -10515,7 +10537,7 @@
         "Infrastructure",
         "AI"
       ],
-      "team_size": 10,
+      "team_size": 40,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1773429014
@@ -12235,11 +12257,10 @@
       "long_description": "Korso is an intuitive AI assistant that can work alongside you on your computer. It can operate apps, conduct research, and guide you when you are stuck, all by voice",
       "website": "https://korsoai.com/",
       "industries": [
-        "B2B"
+        "Consumer"
       ],
       "tags": [
         "SaaS",
-        "B2B",
         "AI Assistant"
       ],
       "team_size": 3,
@@ -12532,10 +12553,10 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Customer Success",
         "Sales",
-        "Customer Support"
+        "Customer Support",
+        "AI"
       ],
       "team_size": 14,
       "location": "San Francisco, CA, USA",
@@ -13291,6 +13312,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1785364349
+    },
+    {
+      "slug": "lucebox",
+      "name": "Lucebox",
+      "batch": "Winter 2027",
+      "one_liner": "Self-improving inference workstation",
+      "long_description": "Lucebox makes workstations for local AI inference. They're private, always-on machines that arrive with Lucebox's inference engine installed and tuned, so developers point Claude Code, Codex or OpenCode on their own hardware. Lucebox is building toward a new category of self-improving personal AI computers that learn from the work you do every day, training small models on your own context until they're faster and better than the cloud at your tasks. The engine is open source, with 2.9K stars on GitHub and 95K+ downloads on Hugging Face.",
+      "website": "https://www.lucebox.com/",
+      "industries": [
+        "Consumer",
+        "Consumer Electronics"
+      ],
+      "tags": [
+        "Hardware",
+        "Open Source"
+      ],
+      "team_size": 2,
+      "location": "Milan, Lombardy, Italy",
+      "status": "Active",
+      "launched_at": 1791469959
     },
     {
       "slug": "lucent",
@@ -14396,16 +14437,16 @@
       "slug": "meteor",
       "name": "Meteor",
       "batch": "Summer 2025",
-      "one_liner": "An AI-Native Browser",
-      "long_description": "Meet Meteor: a Chrome-alternative that can actually do your work for you.\r\n\r\nWith agents getting better by the day (literally), we realize that it’s time to automate the boring, tedious work.\r\n\r\nWe use your browser session to empower agents to act like your personal assistants (ex. book a calendar, find cheaper flights, buy clothes on amazon etc.)\r\n\r\nSome of Meteor’s features:\r\n\r\n- Chat with any page\r\n- Integrate with popular apps like Gmail, Google Calendar, Twitter etc.\r\n- Browser agent to autonomously navigate the web and perform tasks\r\n- More coming soon!\r\n\r\nWe're excited to usher in a new era of browsing.",
-      "website": "https://browse.dev",
+      "one_liner": "We provide hedge funds with information they can trade on",
+      "long_description": "Meteor Labs is a research company focused on providing a granular view of the data center supply chain.\r\n\r\nWe track upstream of the major data center buildout to understand the OEMs winning the market, the bottlenecks, and supply chain links.\r\n\r\nOur expertise in browser agents and AI helps us source this information from esoteric public filings across the web.",
+      "website": "https://meteorlabs.ai",
       "industries": [
-        "Consumer"
+        "B2B"
       ],
       "tags": [
         "Artificial Intelligence",
-        "Consumer",
-        "AI Assistant"
+        "Big Data",
+        "Data Engineering"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -14911,29 +14952,6 @@
       "launched_at": 1769121297
     },
     {
-      "slug": "moda-2",
-      "name": "Moda",
-      "batch": "Fall 2026",
-      "one_liner": "Fully editable slides, designs and video.",
-      "long_description": "",
-      "website": "",
-      "industries": [
-        "B2B",
-        "Marketing"
-      ],
-      "tags": [
-        "AI-Enhanced Learning",
-        "Design",
-        "Sales",
-        "Video",
-        "Marketing"
-      ],
-      "team_size": 6,
-      "location": "New York City, NY, USA",
-      "status": "Active",
-      "launched_at": 1790709958
-    },
-    {
       "slug": "modelence",
       "name": "Modelence",
       "batch": "Summer 2025",
@@ -15432,8 +15450,8 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 8,
       "location": "San Francisco, CA, USA",
@@ -15601,7 +15619,7 @@
       "slug": "netter",
       "name": "Netter",
       "batch": "Spring 2026",
-      "one_liner": "AI native Palantir for mid market.",
+      "one_liner": "AI agents for data science (enterprise)",
       "long_description": "Netter (YC P26) helps companies regain control over their data, so teams can pilot their activities with high precision.\r\n\r\nMost companies are sitting on years of valuable data, spread across different formats and disconnected tools that don't talk to each other.\r\n\r\nNetter brings technical capacity to companies that don't have an army of data engineers, and tackles their most complex data challenges.\r\n\r\n- A nursing home group was chasing unpaid invoices manually across disconnected tools. Netter centralized the collection workflows, automated reminders, real-time visibility, task routing.\r\n- A retail chain had years of loyalty card data sitting unused. Netter cross-referenced it with public demographic data to build precise customer segments and trigger the right promotions to the right people.\r\n",
       "website": "https://netter.ai",
       "industries": [
@@ -15739,7 +15757,7 @@
         "Aerospace",
         "Telecommunications"
       ],
-      "team_size": 2,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1775260036
@@ -16933,7 +16951,7 @@
         "Space Exploration",
         "Satellites"
       ],
-      "team_size": 3,
+      "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1788312802
@@ -17768,7 +17786,7 @@
         "Digital Health",
         "Healthcare IT"
       ],
-      "team_size": 2,
+      "team_size": 4,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1739954707
@@ -18492,7 +18510,7 @@
         "Consumer"
       ],
       "tags": [],
-      "team_size": 5,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753741789
@@ -18941,6 +18959,29 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1773121787
+    },
+    {
+      "slug": "primordiant",
+      "name": "Primordiant (Formerly SuperRadiant)",
+      "batch": "Fall 2026",
+      "one_liner": "Embodied Scientific Intelligence",
+      "long_description": "Every instance of intelligence occurring in nature is embodied. Scientific intelligence is no different. We are building general-purpose robotic experimentalists: systems that unite scientific reasoning and physical action to iterate toward discovery by observing, hypothesizing and experimenting.",
+      "website": "https://primordiant.com",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Robotics",
+        "Energy",
+        "Advanced Materials",
+        "Biotechnology"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1788918386
     },
     {
       "slug": "princeps",
@@ -19424,6 +19465,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1787760832
+    },
+    {
+      "slug": "quivly-ai",
+      "name": "Quivly AI",
+      "batch": "Fall 2026",
+      "one_liner": "AI agents that run onboarding, adoption, and renewals",
+      "long_description": "Quivly is the agentic workspace for everything after the sale. Our agents turn kickoff calls into launch plans, chase blockers, catch risk and expansion signals, and have the full account story ready at renewal. With Quivly, companies are able to take their customers live in 7 days instead of 30, and then grow revenue from these customers by 4.3x on avg.",
+      "website": "https://www.quivly.ai/",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "SaaS",
+        "Enterprise Software",
+        "AI"
+      ],
+      "team_size": 4,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1791438593
     },
     {
       "slug": "quotain",
@@ -23054,29 +23115,6 @@
       "launched_at": 1775225049
     },
     {
-      "slug": "superradiant",
-      "name": "SuperRadiant",
-      "batch": "Fall 2026",
-      "one_liner": "Embodied Scientific Intelligence",
-      "long_description": "Every instance of intelligence occurring in nature is embodied. Scientific intelligence is no different. We are building general-purpose robotic experimentalists: systems that unite scientific reasoning and physical action to iterate toward discovery by observing, hypothesizing and experimenting.",
-      "website": "https://superradiant.co",
-      "industries": [
-        "Industrials",
-        "Manufacturing and Robotics"
-      ],
-      "tags": [
-        "Robotics",
-        "Energy",
-        "Advanced Materials",
-        "AI",
-        "Biotechnology"
-      ],
-      "team_size": 3,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1788918386
-    },
-    {
       "slug": "superset",
       "name": "Superset",
       "batch": "Spring 2026",
@@ -25321,6 +25359,27 @@
       "launched_at": 1790745772
     },
     {
+      "slug": "uxduck",
+      "name": "UXDuck",
+      "batch": "Fall 2026",
+      "one_liner": "Android for drones",
+      "long_description": "Starting with a modern interface for drones that users can build on and adapt. \r\n\r\nWorks with planes, copters, rovers, boats and submarines.",
+      "website": "https://uxduck.com",
+      "industries": [
+        "Industrials",
+        "Drones"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "Hardware"
+      ],
+      "team_size": 1,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1791414783
+    },
+    {
       "slug": "valctrl",
       "name": "ValCtrl",
       "batch": "Spring 2026",
@@ -25522,8 +25581,8 @@
       "slug": "velvet",
       "name": "Velvet",
       "batch": "Fall 2025",
-      "one_liner": "Conversational datasets and models",
-      "long_description": "Conversational datasets and models",
+      "one_liner": "Expressive conversational AI",
+      "long_description": "Expressive conversational AI",
       "website": "https://velvetlab.ai",
       "industries": [
         "B2B"
@@ -26047,6 +26106,27 @@
       "location": "",
       "status": "Active",
       "launched_at": 1768576763
+    },
+    {
+      "slug": "voyager",
+      "name": "Voyager",
+      "batch": "Fall 2026",
+      "one_liner": "Open harness for video and other creative work.",
+      "long_description": "Most AI tools are built for coding. Voyager is designed to get the best creative results from models like Opus, Astra and DeepSeek.\r\n\r\nIt comes bundled with free motion graphics, music and video editing tools - or, it can drive Blender, DaVinci Resolve, After Effects, Ableton and 100+ others.\r\n\r\nFrom the team behind Moda (moda.app, 100k+ users).",
+      "website": "https://voyager.so",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "tags": [
+        "Design",
+        "Video",
+        "Marketing"
+      ],
+      "team_size": 6,
+      "location": "New York City, NY, USA",
+      "status": "Active",
+      "launched_at": 1790709958
     },
     {
       "slug": "voygr",

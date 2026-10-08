@@ -1,7 +1,282 @@
 {
-  "updated_at": "2026-10-07T19:43:48.595Z",
+  "updated_at": "2026-10-08T19:41:04.342Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 120590,
+      "company_slug": "quivly-ai",
+      "launch_url": "https://www.ycombinator.com/launches/VN0-quivly-ai-agents-that-run-everything-after-the-sale-from-onboarding-to-renewal",
+      "created_at": "2026-10-08T19:34:00.127Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-agentic-workflow-saas",
+        "vertical_id": "enterprise.sales.enablement",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-08T19:40:53.395Z",
+        "launch_id": 120590,
+        "company_slug": "quivly-ai",
+        "taxonomy": {
+          "conformance_index": 71,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 48,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "enterprise.sales.enablement",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::enterprise.sales.enablement::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Sales enablement & execution",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 117923,
+      "company_slug": "voyager",
+      "launch_url": "https://www.ycombinator.com/launches/Ufz-voyager-ai-harness-for-video-and-creative-work",
+      "created_at": "2026-10-08T18:04:25.814Z",
+      "classification": {
+        "phenotype_primary_id": "agent-runtime-infra",
+        "vertical_id": "ai-infrastructure.agent-runtime",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-08T19:40:53.397Z",
+        "launch_id": 117923,
+        "company_slug": "voyager",
+        "taxonomy": {
+          "conformance_index": 52,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 4,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "agent-runtime-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Agent runtime / harness / orchestration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 120586,
+      "company_slug": "b12-labs",
+      "launch_url": "https://www.ycombinator.com/launches/VMw-b12-foundry-we-make-the-molecules-ai-designs",
+      "created_at": "2026-10-08T13:52:26.985Z",
+      "classification": {
+        "phenotype_primary_id": "biotech-rd-agent",
+        "vertical_id": "healthcare.pharma.drug-discovery",
+        "business_models": [
+          "BM-09"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-08T19:40:53.398Z",
+        "launch_id": 120586,
+        "company_slug": "b12-labs",
+        "taxonomy": {
+          "conformance_index": 75,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-09",
+            "vertical_id": "healthcare.pharma.drug-discovery",
+            "phenotype_primary_id": "biotech-rd-agent",
+            "cell_key": "BM-09::healthcare.pharma.drug-discovery::biotech-rd-agent",
+            "business_model_label": "Biotech / R&D platform",
+            "vertical_label": "Drug discovery & delivery R&D",
+            "phenotype_label": "Biotech / clinical R&D acceleration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 120575,
+      "company_slug": "finic",
+      "launch_url": "https://www.ycombinator.com/launches/VMl-grayson-a-universal-decision-model-for-fraud-risk-and-financial-crimes",
+      "created_at": "2026-10-07T20:23:18.171Z",
+      "classification": {
+        "phenotype_primary_id": "regulated-ai-decisioning-product",
+        "vertical_id": "payments.fraud-detection-prevention",
+        "business_models": [
+          "BM-05"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-08T19:41:04.325Z",
+        "launch_id": 120575,
+        "company_slug": "finic",
+        "taxonomy": {
+          "conformance_index": 75,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-05",
+            "vertical_id": "payments.fraud-detection-prevention",
+            "phenotype_primary_id": "regulated-ai-decisioning-product",
+            "cell_key": "BM-05::payments.fraud-detection-prevention::regulated-ai-decisioning-product",
+            "business_model_label": "Fintech / insurance product",
+            "vertical_label": "Real-time fraud detection & transaction blocking",
+            "phenotype_label": "AI-Native Regulated Decisioning Product"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "ranked_gap:rank=369,score=13"
+          ],
+          "cell_was_whitespace": true,
+          "ranked_gap": {
+            "rank": 369,
+            "opportunity_score": 13,
+            "transfer_score": 83
+          },
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
     {
       "launch_id": 115477,
       "company_slug": "veltha",
