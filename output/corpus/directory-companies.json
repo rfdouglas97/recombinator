@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-08T19:39:15.649Z",
+  "synced_at": "2026-10-09T19:14:24.961Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1366,
+  "company_count": 1368,
   "companies": [
     {
       "slug": "10x",
@@ -246,8 +246,8 @@
       "slug": "acyclic",
       "name": "Acyclic Labs",
       "batch": "Fall 2026",
-      "one_liner": "building infra for scaling agent swarms efficiently",
-      "long_description": "",
+      "one_liner": "Agent swarms that make long-running tasks exponentially faster",
+      "long_description": "Acyclic builds the infrastructure for agent swarms: open-source primitives for running agents in parallel, and a managed agents platform that runs swarms for you. Complex, long-running tasks are split across many agents, each working in its own instant fork of the workspace, and finish in a fraction of the time.\n\nWe built Acyclic because we believe there are huge gains to be had in how agents are run, beyond the models themselves. Agents can already do real work, but they still do it one step at a time, so complex tasks take hours or days. Running them as swarms is an infrastructure problem: isolating each agent, dividing the work, and merging the results without conflicts. Today, teams use Acyclic to run heavy document-processing pipelines in minutes instead of hours.\n\nAt Cambridge, we researched ML and auto-parallelising compilers, and then we built multi-agent systems in production: Ram as a Palantir FDE for pharma clients, shipping systems for clinical trial design, and Varun leading agent architecture at Tracelight for Big 4 accounting firms. We kept asking the same question: the agents were good enough, so why couldn't we run thousands of them at once to make everything faster and cheaper? Acyclic is our answer.",
       "website": "https://acyclic.dev",
       "industries": [
         "B2B",
@@ -1134,9 +1134,9 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
-      "team_size": 5,
+      "team_size": 9,
       "location": "Mexico City, CDMX, Mexico",
       "status": "Active",
       "launched_at": 1750622964
@@ -2164,8 +2164,8 @@
       "slug": "astro",
       "name": "Astro",
       "batch": "Winter 2025",
-      "one_liner": "The world’s first AI energy developer",
-      "long_description": "Astro finds and buys land for new renewable energy projects, secures grid connections at minimal cost, and sells these development-ready projects to larger energy companies. Founded by Alex Fuster, a former Citadel energy trader, Astro's AI models identify profitable grid connections that eliminate the surprise costs causing 80-90% of renewable projects to fail. With the U.S. needing 2,000 gigawatts of new power generation by 2035 for AI data centers and electrification, Astro unlocks development opportunities that traditional methods consistently miss.",
+      "one_liner": "Power-ready land for AI data centers",
+      "long_description": "Astro develops power-ready land for AI data centers. Power is now the bottleneck for new data centers, and Astro’s models find the sites that have it. Founder Alex Fuster traded grid congestion at Citadel across US power markets, predicting where the grid would run out of room.",
       "website": "https://www.astroenergy.ai/",
       "industries": [
         "Industrials",
@@ -2979,16 +2979,16 @@
       "slug": "belvedir",
       "name": "Belvedir",
       "batch": "Summer 2026",
-      "one_liner": "The custom AI model factory",
+      "one_liner": "The autonomous AI model factory",
       "long_description": "Custom AI models are going to win. Belvedir is the infrastructure needed to make trillions of them. We autonomously collect raw data, train models, privately deploy them, and recursively improve them as they are used. \r\n\r\nOur customers have seen 10x reductions in inference costs and 2x increases on benchmark scores.\r\n",
       "website": "https://belvedir.ai/",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Machine Learning",
-        "Reinforcement Learning",
-        "AI"
+        "Reinforcement Learning"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -3874,7 +3874,7 @@
       "tags": [],
       "team_size": 6,
       "location": "San Francisco, CA, USA",
-      "status": "Active",
+      "status": "Acquired",
       "launched_at": 1737490708
     },
     {
@@ -5536,6 +5536,27 @@
       "launched_at": 1759460278
     },
     {
+      "slug": "composal",
+      "name": "Composal",
+      "batch": "Fall 2026",
+      "one_liner": "Swarms of agents acting like users to find bugs before release",
+      "long_description": "Check features, not code. Composal sends a swarm of agents to use your product like your users do. They test real flows and edge cases to show you what works, what breaks, and if it’s ready to ship.",
+      "website": "https://composal.ai",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "DevSecOps",
+        "Cloud Computing"
+      ],
+      "team_size": 3,
+      "location": "London, England, United Kingdom",
+      "status": "Active",
+      "launched_at": 1791500162
+    },
+    {
       "slug": "compresr",
       "name": "Compresr",
       "batch": "Winter 2026",
@@ -5692,16 +5713,16 @@
       "name": "Conntour",
       "batch": "Winter 2025",
       "one_liner": "Query mission-critical video",
-      "long_description": "Conntour enables organizations to query video - from security cameras, body cams, and drones.\r\n\r\nUsers can search past footage (“Find a man with tattoos on his left arm”), configure real-time alerts (“Notify me if someone climbs over the wall”), and extract data (“How many pickup trucks entered yesterday?”).\r\n\r\nUnlike traditional video analytics solutions, which are limited to fixed parameters (like a weapon, bag, or car color), Conntour supports an unlimited range of highly specific scenarios described in plain language. This enables a single human to monitor thousands of cameras, or find a specific moment in minutes instead of days.\r\n\r\nWhat makes the technology unique is its ability to process video at scale, fully on-prem, with minimal hardware requirements.\r\n\r\nConntour is backed by top-tier investors including General Catalyst and Y Combinator, selected for the first-ever Palantir Fellowship, and advised by Bob Flores - former CTO of the CIA.",
+      "long_description": "Conntour enables government agencies to query video - from security cameras, body cams, and drones.\r\n\r\nUsers can search past footage (“Find a man with tattoos on his left arm”), configure real-time alerts (“Notify me if someone climbs over the wall”), and extract data (“How many pickup trucks entered yesterday?”).\r\n\r\nUnlike traditional video analytics solutions, which are limited to fixed parameters (like a weapon, bag, or car color), Conntour supports an unlimited range of highly specific scenarios described in plain language. This enables a single human to monitor thousands of cameras, or find a specific moment in minutes instead of days.\r\n\r\nWhat makes Conntour's technology unique is its ability to process video at scale, fully on-premises, with minimal hardware requirements.\r\n\r\nConntour is backed by top-tier investors including General Catalyst and Y Combinator, selected for the first-ever Palantir Fellowship, and advised by Bob Flores - former CTO of the CIA.",
       "website": "https://www.conntour.com/",
       "industries": [
         "Industrials",
         "Defense"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Computer Vision",
-        "Defense"
+        "Defense",
+        "AI"
       ],
       "team_size": 20,
       "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
@@ -6411,8 +6432,8 @@
       "slug": "darwin",
       "name": "Darwin",
       "batch": "Fall 2025",
-      "one_liner": "Humanoid robots",
-      "long_description": "Darwin is building general-purpose humanoid robots for real-world work. Our first robot, Darwin One, will learn from real-world experience and continuously improve as AI moves from the screen into the physical world. First deployments begin in early 2027.",
+      "one_liner": "Robots to build civilization",
+      "long_description": "Darwin Robotics creates general-purpose robots to build and maintain the machines civilization runs on.\r\n\r\nWe're starting with AI infrastructure, where skilled technicians perform a long tail of physical work across assembly, installation, commissioning, and maintenance. Our robots learn new tasks from demonstrations rather than being explicitly programmed for each workflow.\r\n\r\nFirst deployments are planned for early 2027.",
       "website": "https://darwinrobotics.ai",
       "industries": [
         "Industrials",
@@ -7194,7 +7215,7 @@
         "Productivity",
         "Data Visualization"
       ],
-      "team_size": 4,
+      "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753649047
@@ -9344,8 +9365,8 @@
       "slug": "general-instinct",
       "name": "General Instinct",
       "batch": "Spring 2026",
-      "one_liner": "Inference Infrastructure for Physical AI",
-      "long_description": "",
+      "one_liner": "Deployment infrastructure for Physical AI",
+      "long_description": "Making robot post-training and deployment scalable.",
       "website": "https://general-instinct.com/",
       "industries": [
         "Industrials",
@@ -9785,16 +9806,16 @@
       "slug": "grep-ai",
       "name": "Grep AI",
       "batch": "Fall 2026",
-      "one_liner": "AI agents that automate high-stakes knowledge work you can't afford…",
-      "long_description": "Grep AI is the fastest way to create, optimize, and deploy agents for high-stakes, research-intensive knowledge work you can't afford to get wrong. Our agents are used by both prosumers and global enterprises such as Airwallex, IG, Worldpay, and Citizens Bank.",
+      "one_liner": "Self-improving agents that automate tedious operational work",
+      "long_description": "Grep AI is the fastest way to create, optimize, and deploy agents for tedious, complex operational work that slows down your business. Our self-improving agents learn from every run, making them smarter and cheaper as you scale. IG.com a global retail brokerage used our agents to review compliance alerts and now 80% of their customers onboad without manual intervention, doubling first trades and propelling them to a FTSE 100 company. \r\n\r\nCustomers including Airwallex, Worldpay, Citizens Bank, FV Bank and Shopmonkey have used our agents to automate over 250,000 of operational work across compliance, onboarding, underwriting, corporate due diligence, document verification, merchant categorization, market and competitive research, rev ops and much more.\r\n\r\nWe founded Grep AI after experiencing firsthand how manual workflows can prevent a business from growing when we ran the platform team at Brex. We're now on a mission to rid businesses of tedious, repetitive so their employees can focus on the most high leverage tasks that matter.",
       "website": "https://grep.ai",
       "industries": [
         "B2B",
         "Productivity"
       ],
       "tags": [
-        "Fintech",
-        "AI"
+        "Artificial Intelligence",
+        "Fintech"
       ],
       "team_size": 6,
       "location": "San Francisco, CA, USA",
@@ -10531,11 +10552,11 @@
         "Infrastructure"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Robotics",
         "Crowdsourcing",
         "Big Data",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "team_size": 40,
       "location": "San Francisco, CA, USA",
@@ -10851,7 +10872,7 @@
         "Insurance",
         "AI"
       ],
-      "team_size": 8,
+      "team_size": 12,
       "location": "Los Angeles, CA, USA",
       "status": "Active",
       "launched_at": 1789432184
@@ -14128,7 +14149,7 @@
       "slug": "maven",
       "name": "Maven",
       "batch": "Winter 2026",
-      "one_liner": "Payments Infrastructure for Conversational Agents",
+      "one_liner": "Payments for Conversational Agents",
       "long_description": "We enable AI chat and voice agents to collect payments through a single API call, handling card processing and PCI compliance across all payment gateways",
       "website": "https://trymaven.com",
       "industries": [
@@ -14739,8 +14760,8 @@
       "slug": "mirrors",
       "name": "Mirrors",
       "batch": "Fall 2026",
-      "one_liner": "Steer AI agents in real time using lessons from production runs",
-      "long_description": "Production agents handle many different customer workflows. Currently, when one handles a situation badly, an engineer reads the trace and patches the prompt. The next situation needs another exception. Soon, improving the agent becomes a recurring engineering job, and the prompt keeps growing.\r\n\r\nMirrors finds patterns in past runs and feedback. Engineers review guidance for a specific situation and preview where it would apply. Mirrors then delivers that guidance while the agent works, inside the team’s existing setup. The team can check whether the change improved the outcome.\r\n\r\nWe’re building Mirrors for engineering teams running customer-facing agents across varied workflows, so they can improve behavior without hardcoding every lesson in the global prompt.",
+      "one_liner": "Give AI agents the right instructions at the right moment",
+      "long_description": "Production agents handle many different customer workflows. Currently, when one handles a situation badly, an engineer reads the trace and patches the prompt. The next situation needs another exception. Soon, improving the agent becomes a recurring engineering job, and the prompt keeps growing.\r\n\r\nMirrors finds patterns in past runs. Engineers review guidance for a specific situation and preview where it would apply. Mirrors then delivers that guidance while the agent works, inside the team’s existing setup. The team can check whether the change improved the outcome.\r\n\r\nWe’re building Mirrors for engineering teams running customer-facing agents across varied workflows, so they can improve behavior without hardcoding every lesson in the global prompt.",
       "website": "https://www.mirrors.dev",
       "industries": [
         "B2B",
@@ -14748,10 +14769,10 @@
       ],
       "tags": [
         "AIOps",
+        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -18673,7 +18694,7 @@
         "API",
         "AI"
       ],
-      "team_size": 0,
+      "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1791218821
@@ -21431,15 +21452,15 @@
       "slug": "semble",
       "name": "Semble",
       "batch": "Fall 2025",
-      "one_liner": "The all-in-one software for integrators.",
-      "long_description": "Semble is the #1 software for integrators. Takeoffs, design, quoting, scheduling, field operations, inventory, and invoicing. All powered by AI.\r\n\r\nJonathan and Ethan met studying computer science at Stanford. Jonathan worked at Convergint, one of the world's largest building system integrators.",
+      "one_liner": "Takeoffs, design, and field work. Powered by AI.",
+      "long_description": "Takeoffs, design, and field work. Powered by AI. Mark up plans. Organize documents. Collaborate on PDFs. Keep crews moving.\r\n\r\nJonathan and Ethan met studying computer science at Stanford. Jonathan worked at Convergint, one of the world's largest building system integrators.",
       "website": "https://www.sembleai.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "SaaS"
+        "SaaS",
+        "AI"
       ],
       "team_size": 14,
       "location": "San Francisco, CA, USA",
@@ -21973,7 +21994,7 @@
       "name": "Sinter",
       "batch": "Fall 2026",
       "one_liner": "Accelerating scaled plastics with additive technologies",
-      "long_description": "Sinter is creating a faster and radically more affordable American plastics pipeline, helping iteration heavy hardware teams evolve from additive prototypes to production parts on week-scale timelines.",
+      "long_description": "Sinter is a radically faster plastics pipeline, helping iteration heavy hardware teams evolve from prototypes to production parts on week-scale timelines.",
       "website": "https://sinter.systems",
       "industries": [
         "Industrials",
@@ -22596,6 +22617,27 @@
       "launched_at": 1774843315
     },
     {
+      "slug": "stacktrace",
+      "name": "Stacktrace",
+      "batch": "Fall 2026",
+      "one_liner": "See and control what your agents actually do",
+      "long_description": "We’re building Stacktrace to help teams see what AI agents actually do, detect risky\r\nbehavior, and alert the people responsible. Administrators can also deploy policies that block unapproved tools, such as MCP servers and plugins, before agents use them.\r\n",
+      "website": "https://stacktrace.ai",
+      "industries": [
+        "B2B",
+        "Security"
+      ],
+      "tags": [
+        "DevSecOps",
+        "Cybersecurity",
+        "AI"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1790912378
+    },
+    {
       "slug": "stage",
       "name": "Stage",
       "batch": "Spring 2026",
@@ -22608,7 +22650,7 @@
       ],
       "tags": [],
       "team_size": 2,
-      "location": "San Francisco, CA, USA",
+      "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1774297910
     },
@@ -23180,15 +23222,15 @@
       "name": "Swerve",
       "batch": "Winter 2025",
       "one_liner": "AI Chat & Stories",
-      "long_description": "Swerve is an AI character chat app that immerses users in rich stories and conversations. Users discover unique AI characters, choose their own persona, and dive into one-on-one or group chats that evolve naturally with no scripts and no limits. Our goal is to make Swerve the most entertaining part of your phone, a place where you step into any world, build stories with characters you connect with, and let every conversation go wherever it leads.",
+      "long_description": "Play stories in your own words. Swerve is AI fiction that unfolds around what you say and do.",
       "website": "https://www.getswerve.com/",
       "industries": [
         "Consumer"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Consumer",
-        "Entertainment"
+        "Entertainment",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -25233,7 +25275,7 @@
         "Fintech",
         "B2B"
       ],
-      "team_size": 5,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1785975971
@@ -26012,19 +26054,19 @@
       "slug": "volaren-inc",
       "name": "Volaren Inc.",
       "batch": "Fall 2026",
-      "one_liner": "Volaren collapses the hedge fund model and making it accessible to…",
-      "long_description": "Every great investment starts as an idea about the world. Institutions have teams of analysts turning those ideas into positions. Volaren is that team, processing data through fundamentals and quantitative models that can be personalized with AI.\r\n\r\nTurn your views into trades, portfolios, and back-testable frameworks and strategies, and Volaren stays with you from there, showing you what's actually driving each position and what it means for your next move.",
+      "one_liner": "Turning Ideas into Trades. Volaren puts the hedge fund in the hands…",
+      "long_description": "Turning ideas into trades. Every great investment starts as an idea about the world. Institutions have teams of analysts turning those ideas into positions. Volaren is that team, processing data through fundamentals and quantitative models that can be personalized with AI.\r\n\r\nTurn your views into trades, portfolios, and back-testable frameworks and strategies, and Volaren stays with you from there, showing you what's actually driving each position and what it means for your next move.",
       "website": "https://www.volaren.ai",
       "industries": [
         "Fintech",
         "Asset Management"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Fintech",
         "Marketplace",
         "Finance",
-        "Creator Economy"
+        "Creator Economy",
+        "AI"
       ],
       "team_size": 4,
       "location": "New York City, NY, USA",

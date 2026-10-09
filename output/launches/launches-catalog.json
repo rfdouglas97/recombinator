@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-10-08T19:41:05.354Z",
-  "count": 1351,
+  "updated_at": "2026-10-09T19:15:11.638Z",
+  "count": 1353,
   "launches": [
+    {
+      "launch_id": 120824,
+      "launch_slug": "VQm-maritime-fully-managed-cloud-for-running-ai-agents-at-scale",
+      "launch_url": "https://www.ycombinator.com/launches/VQm-maritime-fully-managed-cloud-for-running-ai-agents-at-scale",
+      "title": "Maritime: Fully managed cloud for running AI agents at scale ",
+      "tagline": "Run millions of agents, each on its own isolated, persistent VM.",
+      "body": "Hi everyone, we’re Maria and Ary, founders of [Maritime](https://bookface.ycombinator.com/company/38061) (YC F26).\n\n**TL;DR:** Maritime is a fully managed cloud platform for running millions of AI agents, each on its own isolated, persistent VM.\n\n<https://www.youtube.com/watch?v=TnGXH9H0cTw>\n\n**Why we built Maritime** \n\nWe believe we’re heading toward a world with billions of AI agents. Everyone will have agents working for them, and businesses will run entire teams of AI employees. A new generation of startups will build and sell these agents, giving every customer one of their own.\n\nWe started working on Maritime when OpenClaw was released. Now, with dots, Instinct, Grok Bot, and Muse, that future is taking shape. We saw the infrastructure challenge firsthand while hosting hundreds of agents during our research at MIT. Even at that scale, our time went into getting environments running, maintaining them, and debugging individual agents.\n\nRunning billions of agents will require infrastructure that lets developers give each one a persistent computer and manage entire fleets with ease. We’re building Maritime to make that possible, so any startup can launch an agent product, give every customer their own agent, and scale it to millions in no time.\n\n![uploaded image](/media/?key=user_uploads/3118952/6772cfd5-737c-4278-8a02-ec3793cb070b)\n\n**What Maritime does**\n\nMaritime gives every agent a persistent computer and manages the infrastructure around it:\n\n* **An isolated VM for each agent.** Run code, install software, and use a browser.\n* **Pricing built for scale.** Hosting starts at $1 per agent per month, making it practical to give every customer their own persistent computer and grow your fleet as your product grows.\n* **Persistence between tasks.** Keep files, memory, installed software, and logins so agents can pick up where they left off.\n* **Tools to manage individual agents.** Inspect, debug, and fix each customer’s agent directly.\n* **Different environments for different workflows.** Choose Linux computers, Windows desktops, or virtual Android phones based on the software and apps your agents need.\n\nYou can run your agent code inside a Maritime VM, or keep your agent on your existing backend and use MCP to let it control a Maritime computer.\n\n![uploaded image](/media/?key=user_uploads/3118952/db071ab8-94f8-4245-9de8-f574cc2aba1d)\n\n**Who it’s for**\n\nTeams building and selling AI employees, personal assistants, and other products where every customer has an agent of their own.\n\nWe want founders to focus on building and growing their products, with Maritime managing the infrastructure to run them.\n\n**Our ask**\n\n* **Try Maritime:** Host three agents for free at [maritime.sh](http://maritime.sh). Hosting starts at $1 per agent per month.\n* **Introduce us:** If you know teams building and selling agents, especially those deploying a separate agent or computer for every customer, please comment or connect us.",
+      "created_at": "2026-10-09T19:00:00.166Z",
+      "total_vote_count": 2,
+      "company_slug": "maritime",
+      "company_name": "Maritime",
+      "company_website": "https://maritime.sh/",
+      "company_batch": "Fall 2026",
+      "company_industry": "B2B",
+      "company_id": 38061,
+      "author_name": "Maria Gorskikh",
+      "scraped_at": "2026-10-09T19:15:10.364Z",
+      "review_summary": {
+        "conformance_index": 57,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 120585,
+      "launch_slug": "VMv-sona8-ai-voice-agents-surveying-employees-about-their-work",
+      "launch_url": "https://www.ycombinator.com/launches/VMv-sona8-ai-voice-agents-surveying-employees-about-their-work",
+      "title": "Sona8: AI voice agents surveying employees about their work",
+      "tagline": "The context layer for AI automation, starting with what employees say",
+      "body": "**TL;DR:** [Sona8](https://sona8.com/) is building the context layer for AI automation tools, starting with AI voice surveys of employees. Corporate development, transformation and consulting teams use Sona8 to find out how to improve or automate processes.\n\n<https://www.youtube.com/watch?v=jGs7M46UsSE>\n\nWe're [Thilo](https://www.linkedin.com/in/ttamme/), [Madeleine](https://www.linkedin.com/in/mmalmsten/) and [Anton](https://www.linkedin.com/in/anton-hantel/). We're building Sona8.\\\nAt BCG and McKinsey we often interviewed a few dozen people, hired interpreters and came back with a deck. The processes that were written down were never the lived processes and a few dozen interviews never gave us the full picture.\\\n\\\n**How it works**\n\n* **Choose what you want to improve or automate.** Pick a question and the people to survey. This could be about sales quoting or mapping processes before implementing AI.\n* **Survey employees with AI voice agents.** Employees talk to our voice agent about their work, in their own language. The agent asks follow-up questions to understand the problems they describe.\n* **Use the findings and check progress.** See themes across interviews by department, get process maps, and ask again later to see what changed.\n\n\\\n**Already live**\\\nWe’ve completed more than 10,000 employee interviews and signed one of the top three consulting firms.\\\n\\\n**Where this is going** \\\nCompanies will try a lot of AI agents and automation tools in the next few years. Each one needs to know how the work is done before it changes anything, and most of that isn't written down. Sona8 creates infrastructure for AI automation tools. Over time we are building a live context graph of workflows by reading the systems a company already uses and connecting them to what employees say. \\\n\\\n**Who it’s for**\\\nSona8 is for corporate development and transformation teams in enterprises, and the consulting firms supporting them. Reach out if you want to understand and improve how work gets done, roll out AI, or build AI tools that understand real-world workflows.\\\n**👉 [Book a demo](https://sona8.com/book-demo) / [anton@sona8.com](mailto:anton@sona8.com)**\n\n\\\n**Team**\n\n* [Anton Hantel (CEO):](https://www.linkedin.com/in/anton-hantel/) ex BCG, MIT MBA (dropped out)\n* [Thilo Tamme (CPO): ](https://www.linkedin.com/in/ttamme/)ex BCG X, TUM Conversational AI PhD (dropped out)\n* [Madeleine Malmsten (CTO):](https://www.linkedin.com/in/mmalmsten/) ex McKinsey QuantumBlack\n* [Jakob Schepers (Founding Engineer):](https://www.linkedin.com/in/jakob-schepers/) TUM CS Master's\n* [Niklas Schneider (Founding Account Executive): ](https://www.linkedin.com/in/nikschneider/) ITONICS, Maastricht SBE",
+      "created_at": "2026-10-09T14:30:04.447Z",
+      "total_vote_count": 33,
+      "company_slug": "sona8",
+      "company_name": "Sona8",
+      "company_website": "https://sona8.com",
+      "company_batch": "Fall 2026",
+      "company_industry": "B2B",
+      "company_id": 36777,
+      "author_name": "Anton Hantel",
+      "scraped_at": "2026-10-09T19:15:10.365Z",
+      "review_summary": {
+        "conformance_index": 72,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
     {
       "launch_id": 120590,
       "launch_slug": "VN0-quivly-ai-agents-that-run-everything-after-the-sale-from-onboarding-to-renewal",
