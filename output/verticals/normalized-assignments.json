@@ -16355,6 +16355,73 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "capto",
+    "name": "Capto",
+    "website": "https://gocapto.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/capto",
+    "batch": "Summer 2026",
+    "one_liner": "Helping startups win gov contracts",
+    "description_combined": "Helping startups win gov contracts\n\nThe intelligent operating system for government contracting. Built by former AI engineers and government officials.",
+    "industry_sub_vertical": "Government contracting compliance & proposal automation for startups",
+    "canonical_vertical_id": "enterprise.legal.regulatory-consulting",
+    "vertical_id": "enterprise.legal.regulatory-consulting",
+    "vertical_label": "Regulatory consulting (cross-industry)",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "compliance-gov-automation",
+    "phenotype_primary_label": "Compliance / regulatory / gov automation",
+    "phenotype_family": "regulated_workflow",
+    "value_wedge": "risk_reduction",
+    "ai_application": "policy_automation",
+    "ai_application_patterns": [
+      "workflow_automation",
+      "compliance_enforcement",
+      "document_processing",
+      "contract_management"
+    ],
+    "what_they_sell": "An intelligent operating system that automates end-to-end government contracting workflows for startups — from compliance verification, proposal generation, contract compliance tracking, and regulatory adherence to submission and post-award management.",
+    "ai_play": "AI agents parse regulatory requirements (DFARS, FAR, ITAR, etc.), extract compliance obligations from RFPs, auto-populate proposals with compliant language, monitor ongoing contract compliance, and flag risk in real-time. Reduces manual legal/compliance overhead and accelerates time-to-contract for startups unfamiliar with gov procurement.",
+    "who_pays": "Startup founders and business development teams seeking to win government contracts; secondary: prime contractors managing subcontractor compliance.",
+    "confidence": 0.78,
+    "rationale": "Capto is a gov-critical workflow automation platform targeting the high-friction, compliance-heavy process of government contracting. Primary fit is compliance-gov-automation (SOX/FDA/audit/gov workflows). Secondary fit is vertical-workflow-automation-ai because it automates multi-step procurement and compliance workflows specific to the gov contracting vertical. The 'intelligent operating system' framing and founder background (AI engineers + gov officials) suggest agentic automation of document parsing, compliance checking, and proposal generation — core gov-automation patterns. Confidence 0.78 (not higher because website is light on technical detail about AI/agent architecture; 'operating system' could mean workflow orchestration or simple SaaS; but GovTech + Workflow Automation tags + founder profile strongly suggest agentic compliance automation).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "GovTech",
+      "Workflow Automation"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2373564,
+        "full_name": "Ananth Sankaralingam",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at chromie.dev. Computer Science from University of Maryland, published ML research at NeurIPS, worked at LinkedIn and Amazon. Completed half iron, play the Mridangam and trumpet. Play soccer and basketball.",
+        "linkedin_url": "https://www.linkedin.com/in/ananth-s/",
+        "twitter_url": "https://x.com/_ananthhh",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/808def4baf8fc8cb01cf72462f93ef1e5c32654c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHYUCFSSO%2F20261010%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261010T181251Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC9EEWdRcUNGhqcZNxToQdI4xpUv7eTMT5k9RrUEXbAUwIhAK0t616cUrYl%2BvjrPSUYSjkIS7l5z6hD4gVNRg1YpzRzKuUDCFoQABoMMDA2MjAxODExMDcyIgwhJhL5yHb90rnICv0qwgOPRgf4IiQZqYw78bqPvOLLSwR9al5ZGrwLHBMg68cMnn3z%2FOFvUzXuRS4yFdLubs4n%2BcxpkuFKQ8Tw2DrKUpTxsLz8DKREw6TKHGFIDQcDbvppC9JNk%2B4s1J22v112Aj0CtABhohKbb0g3U60%2Fx5KUO5pSHNGUOIkXFlEM%2Bkhe34q%2BpXR3fw%2FqaDCvaRsRbieNHfXkzE5vGoq8b3ycz7PJmQ1UkkcOyFxwuJ5kalMWcNjeQ%2Fta8ByVzYsvwU8pBwUW3shg6Pt%2FMvWK2gKRIv%2FoAoHCZGCVKckWjAU4pUT%2BGAzKVHogRbHgZcoJrYNcZ8zPpNL%2Fb2pxIidV%2FgithtmYLwI%2BljXnZ0yHOkZ5VyHwnw9QR5hgVU9JS4z07dtggdjgOS%2FD64cb3wg2ZIU7qUeDE%2FZHtozp9HiarVCzBIxqK6H%2BOmh4wLIQ%2Bnynt9MZfWtzXVjMprdCp%2ByLB8%2B5TtLgZ142a1hth8AzYF2M7skoYqio2GIC%2FwI0%2BZZUiq0rGciD3MI%2BXBKaibjFuPK%2BjOUdfzpdp7gEh6CeD3dxxESVu4SqQky6FOhbH5g5r0gJyBBCD49fTWRqNJSaVUhJwwoSRQIwhtCp1gY6pAEvij5Iiq66%2F869mtXtOX%2BNxnC6WLwMSDyoXhvUaZp1HDhqO9qvg03yKUVbFOoTofohZxqswB0n9RznMdoMywIvpFjgAsPtcZP%2FFX7xZ80l5UaiHBt5u9TH9rYR5THaigzWVxL46vczhVgakC3EQVTqXqLHdAZrhrIN6i7c2%2FlJQ9gKWLKptJouPVXmcg1OvUeMmEflTz%2Bzz%2Fxk2DNdmsZU4ECWRQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=56b4c9875d752b5d0d074f92067f3e2041e500e57d39dee1ef70105c25ff1c90",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Capto",
+          "href": "https://www.ycombinator.com/companies/capto"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-10T18:13:01.678Z",
+    "classified_at": "2026-10-10T18:13:01.678Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
+  },
+  {
     "slug": "capveon",
     "name": "Capveon",
     "website": "https://capveon.ai",
@@ -61507,6 +61574,75 @@
     "primary_bm": "BM-05"
   },
   {
+    "slug": "munito-ai",
+    "name": "Munito AI",
+    "website": "https://munito.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/munito-ai",
+    "batch": "Fall 2026",
+    "one_liner": "Open-model inference provider for Europe, private by default.",
+    "description_combined": "Open-model inference provider for Europe, private by default.\n\nMunito is an open-model inference provider for Europe, private by default. Its API lets users choose their models and keep inference and storage in the EU. \r\nFounded by the former inference lead at Mistral AI, Munito is built on one belief: open and independent intelligence, both models and inference, is key to economic growth and prosperity.",
+    "industry_sub_vertical": "European open-model inference infrastructure with GDPR data residency",
+    "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_label": "GPU infrastructure for model deployment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "edge-inference-runtime",
+    "phenotype_primary_label": "Edge Inference Runtime & Optimization",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "inference_optimization",
+      "data_residency_compliance",
+      "model_routing",
+      "cost_optimization"
+    ],
+    "what_they_sell": "API-driven inference infrastructure for open-source models with EU data residency guarantees and privacy-first architecture. Customers choose their models and execute inference workloads entirely within European infrastructure.",
+    "ai_play": "Munito abstracts away model deployment complexity and regulatory friction for European enterprises and developers. By providing a managed inference layer that keeps data in-EU and supports model choice (vs. vendor lock-in to proprietary models), they reduce compliance risk, latency, and cost for regulated industries (finance, healthcare, government) that cannot use US-based inference providers.",
+    "who_pays": "European enterprises, regulated institutions, and developers requiring GDPR/data residency compliance; AI labs and startups building on open models without US infrastructure dependency.",
+    "confidence": 0.75,
+    "rationale": "Munito is a developer-facing infrastructure provider enabling efficient deployment of open-source models on managed EU infrastructure. This maps cleanly to edge-inference-runtime: they solve model deployment, cost optimization, and compliance without cloud lock-in. The 'private by default' and EU-residency positioning is a regulatory/compliance moat, not a core phenotype differentiator. Secondary consideration: they could be positioned as agent-context-infra if they focus on context preparation for agents, but the description emphasizes general inference, not agent-specific context optimization. Confidence is 0.75 (not higher) because the description is sparse on whether they're optimizing for edge devices specifically or just EU-hosted inference; if they're purely EU-hosted managed inference without edge optimization, they might be better classified as a horizontal infrastructure provider. However, the 'open-model' and 'model choice' positioning suggests they're solving the deployment abstraction problem that edge-inference-runtime addresses.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Enterprise",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 1,
+    "location": "Paris, Île-de-France, France; Remote",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2088690,
+        "full_name": "Alexey Eryshev",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Munito AI.\nI led inference at Mistral AI, where my team built its API and inference products, and I built Le Chat&#x27;s Deep Research. Before that, I spent five years at Airbnb, where I built Hosting Services from scratch and grew it to a global product.",
+        "linkedin_url": "https://www.linkedin.com/in/alexeyeryshev",
+        "twitter_url": "https://x.com/alexeyeryshev",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d01ad026718a1d4bfcc97df015c0c5ded6c49bda.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAQSNHA3I%2F20261010%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261010T181318Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICzuR8C1nB5ZPOEGf7b%2F50PW35QjUVWwhbR2ju7NpiiMAiEA0OGPL6blBvdoEbSC86zergFkgZMNdq0ouYMHg9lRKM4q5QMIWhAAGgwwMDYyMDE4MTEwNzIiDHwnC5Bf2fXXlSDg7SrCAz2LQ34WlGqMN%2B%2FrDSbpVsnkGHCnRAj78C%2BVNeFAYaRUnHGaE10B0u3b7Mv%2Fz2A04BU1EGiJQyoiXXCoFsRjZILqCrUlZXdsbk0PXe12n8BGWpnMIypfT7sPwJZvVNSWhPhDqxkfd3HINxJzPUkrCLfL7IcosPHDb%2FvqUGpuw%2FpWAh2y4mVbgkvPrHCz0UtpCNavKH2TzzhCwIABdiP7kJNn0pGwjiREaqRfMVOfUF%2BVkwE24M9bWGYjtMw3QZTb5ueFn8hjQ%2FkJBHRlP2yVj5VswcA6CWMXfh3adQkmdLhrzbiWJVS0cc1p9MtpTRr9tYaDz4VZr9k%2Beh637CcszzJMQtYwu28NkjXSRAEF4tfbhniiwIEL%2BOCxl1XrezA5QSv96ROLdthsXJS2mXLwG2GgaW1duaskNJ66bTvBAyxP3zsTWt75J%2BvNYat%2BxLnDEEWu2ZN7%2FZQmMGX%2BfGz4cTdPaF%2BNKZwbeZlTTTXrefhNTe40oeXputxqZ5WDN0zim%2FyMWjD6%2FpQComuHHdu5qMMZaAZXlK%2BXyvDYuBLZmQbcTysQbT0K5N87c2b7INSebW1pzu9TeVxIbKF21DZtfTpKJzCE0KnWBjqlASKUku7ncOb6zjT6%2F8I6IJ4bzZeJR8qC3PLhcU9V078JBUAPC5vQNJKyMULI7Gz5gpcS6Vb8jyqtb6nCVpSJN6rxBIv3iUPeMLDufKQzJ%2BmcBBjWYPw%2F%2FnDMqVrkUhG1IT%2FN8wvbBoOEXaXZ9E9Obda3fPkeDoReEKtA0o3%2Fyi0HY%2FFtgYHfKsPUK3UotevIpQmolPaK87btKtrzRz0YoAVjEYz3sw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c2c3aaeb1f62ee7df6be618caac3e336a5b8864b6866cf7a23417c2f00b59b38",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Munito AI",
+          "href": "https://www.ycombinator.com/companies/munito-ai"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-10T18:13:29.769Z",
+    "classified_at": "2026-10-10T18:13:29.769Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "musicarena",
     "name": "MusicArena",
     "website": "https://musicarena.io/",
@@ -61871,6 +62007,74 @@
     "vertical_normalize_confidence": 0.55,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-10"
+  },
+  {
+    "slug": "native",
+    "name": "Native",
+    "website": "https://native.no/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/native",
+    "batch": "Fall 2026",
+    "one_liner": "Artificial Intuition for marketing",
+    "description_combined": "Artificial Intuition for marketing\n\nNative is building an autonomous marketing platform where business can do all of their marketing within one platform using our artificial intuition model called Norn, that predicts what people will respond to, researched and built in house.",
+    "industry_sub_vertical": "Autonomous marketing campaign orchestration & optimization",
+    "canonical_vertical_id": "marketing.marketing-automation-ops",
+    "vertical_id": "marketing.marketing-automation-ops",
+    "vertical_label": "Marketing automation platform administration",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "horizontal-copilot-saas",
+    "phenotype_primary_label": "Horizontal copilot / productivity SaaS",
+    "phenotype_family": "horizontal_saas",
+    "value_wedge": "productivity_multiplier",
+    "ai_application": "campaign_optimization_prediction",
+    "ai_application_patterns": [
+      "predictive_targeting",
+      "autonomous_campaign_execution",
+      "audience_response_modeling"
+    ],
+    "what_they_sell": "Autonomous marketing platform (Norn) that consolidates campaign planning, execution, and optimization in a single interface. AI predicts audience response patterns and autonomously optimizes creative, targeting, and channel allocation across social and digital channels.",
+    "ai_play": "Proprietary 'artificial intuition' model trained in-house that predicts what audiences will respond to, enabling autonomous campaign optimization without manual A/B testing or creative iteration. Replaces manual marketing workflow with AI-driven decision-making.",
+    "who_pays": "Marketing teams and growth leaders at mid-market and enterprise companies seeking to consolidate marketing tools and reduce campaign iteration cycles.",
+    "confidence": 0.72,
+    "rationale": "Native is a horizontal SaaS platform sold to marketing teams across industries. The core value is productivity multiplier (consolidating fragmented marketing workflows) and AI-driven prediction of audience response. While they emphasize 'autonomous' execution, the primary buyer is the marketing team using the platform, not a vertical-specific workflow replacement. The proprietary Norn model is the AI differentiator, but the product positioning is cross-industry marketing automation with AI copilot capabilities. Fits horizontal-copilot-saas better than vertical-workflow-agent because: (1) no vertical focus, (2) seat-based SaaS model, (3) augments human marketing decision-making rather than replacing a specific job function. Confidence 0.72 due to 'autonomous' language suggesting potential agent-forward positioning, but current description emphasizes platform consolidation and prediction, not autonomous execution.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Marketing"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Social Media"
+    ],
+    "business_models": [
+      "BM-02"
+    ],
+    "team_size": 6,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1927795,
+        "full_name": "Benjamin Bekken",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Native (YC F26). Previous Minecraft YouTuber and video creator with 15 years of experience in marketing, and millions of views. Got a double master&#x27;s degree in media, communication & IT.",
+        "linkedin_url": "https://www.linkedin.com/in/bekken/",
+        "twitter_url": "https://x.com/BenjaminBekken",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d6923430733c9716418ec8ac86102f5a4dfdf586.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHSROR67E%2F20261010%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261010T181310Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCjwbicerKUmZxMZ6IiFxgKkhSrFWqxnt6O7FdGoM9pwwIgZ8coDXbLFVjvSzatEZE38PImZ73otVofnChxLGG9XL0q5QMIWhAAGgwwMDYyMDE4MTEwNzIiDFAAiizm7HgzTTC4JyrCA5edcgsDlCkgGnoaxiGxnWS89o1ZzGFKNtvya7QEQZqPg0ZF5PmXZ%2FNIo94kcVG7nohdFUbDpJTHqPwM8bJX3iMPVu8o8JJy%2FUHGejyNTnERe%2BtzJw%2FtKSMZ78g4XhQjlS%2BXy58mQ2hAC5iNG6NzGK9PUPbiDY9wXWb%2Fuiya2H%2Fio9RWPLZB57nduB5RvihNNywhdPQ%2BPmVoAwFu4lBlgHvcSyKWC6ubGBUIEXedB%2FUCU4GxRZMLDHuglbb5vWyJAUt5ahuO%2Bo1su0viqkXxst7ZFxbFtH5%2BReh4s550CElofGtUB97IFotjw%2BjWwWV1E3b4Gl8y84lrgWPQ3XKNxn7Tg7kbPWx7h1BIZD4DP5kmn%2Fv80pjEUWm4JMWCJOlv76qDbsVGydsjyGHcRaMCAzmbs84oSbfiyJzbXRbcgv088perEwysXHOJTzEj1f5J2%2FAq1BE6b7mE%2B4auRAy4UIBe1goIH3AY3WKUA%2FI1AND%2BxWG%2BPr54cvTsbeuM5X0aVlLLQqyr5RAa36mlQPfDDvLaDOceC5ujV87COMem5ieAjJ%2FGWBI7530cf1hmsh3NXngff26xFFH%2FgNxFcrSblJON2DCG0KnWBjqlAWW5yRy0OZLMLC5sIxakCy9ifqVwLkAGOBKoidydsF2NKCoJ%2FUYjKD9P80QMCIIkUK%2BYT%2FcfwsUpznIJr6ClEDT52rTzN4RxAd0i2hZh1sdXbdF9cH5beamwgoo%2BGB5cUk0UVCXbQ51LF05hpIrAKm62juW9BaavtCbE00vXgobKCJDjvvrhi5pb2CruBXQW5tf0OS8BruJkOYdAlniAefzjp1o4lg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=5641e4dc98e5129a373762cd90f3b3b5f459f764bcac694894ae85affe0db065",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Native",
+          "href": "https://www.ycombinator.com/companies/native"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-10T18:13:18.758Z",
+    "classified_at": "2026-10-10T18:13:18.758Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-02"
   },
   {
     "slug": "nautilus",
@@ -97981,6 +98185,104 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "theseus-robotics",
+    "name": "Theseus Robotics",
+    "website": "https://theseus.bot/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/theseus-robotics",
+    "batch": "Fall 2026",
+    "one_liner": "Humanoids to restock retail shelves & pick orders",
+    "description_combined": "Humanoids to restock retail shelves & pick orders\n\nTheseus Robotics creates the OS & Physical AI to deploys humanoids to automate menial tasks in supermarkets. During the day, our robotics pick orders for e-grocery orders. Overnight, they restocks shelves with goods from the back warehouse. ",
+    "industry_sub_vertical": "Retail & e-grocery fulfillment automation via humanoid robotics",
+    "canonical_vertical_id": "industrials.manufacturing.automation",
+    "vertical_id": "industrials.manufacturing.automation",
+    "vertical_label": "Manufacturing & logistics automation",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "physical-ai-autonomous-systems",
+    "phenotype_primary_label": "Physical AI & Autonomous Manufacturing",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "embodied_control",
+    "ai_application_patterns": [
+      "autonomous_task_execution",
+      "multi_robot_coordination",
+      "real_time_perception_control"
+    ],
+    "what_they_sell": "Humanoid robots + OS/control stack for autonomous retail operations (order picking, shelf restocking). Deployed as a service or capital equipment to supermarkets and e-grocery operators.",
+    "ai_play": "Physical AI orchestrates multi-robot fleets to perceive retail environments, plan pick/restock sequences, navigate dynamic spaces, and execute tasks autonomously with minimal human intervention. OS abstracts hardware complexity and enables fleet-level coordination.",
+    "who_pays": "Supermarket chains, e-grocery platforms, fulfillment centers seeking to automate high-volume, repetitive physical tasks and reduce labor costs.",
+    "confidence": 0.85,
+    "rationale": "Theseus is a hardware-centric company deploying embodied AI (humanoid robots) to autonomously execute physical tasks in retail environments. The core value is the integrated physical system (humanoid + OS + control stack) where AI enables end-to-end autonomy in unstructured retail spaces. This fits physical-ai-autonomous-systems: hardware-first, AI-driven autonomous control, sold to enterprises seeking to scale physical operations. Not robotics-embodied-ai (which is narrower, hardware-focused without operational scale focus) but the broader autonomous-systems phenotype that emphasizes AI-coordinated fleet execution and operational autonomy.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Hard Tech",
+      "Robotics",
+      "Retail Tech"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 7,
+    "location": "ZH, Switzerland",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 4007490,
+        "full_name": "Samarth Malhotra",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder/CEO at Theseus Robotics. Previously founded and scaled Parts World USA from sub-$100k to $3M revenue in 4 years by building global supply chains across China, India, Vietnam, Malaysia & USA. Founded Jumps Tronic (hardware manufacturing). Worked on ML at Facebook and HP. BS in Computer Science from Carnegie Mellon; Dropped out of ETH Zürich.",
+        "linkedin_url": "https://www.linkedin.com/in/sam-malhotra",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/403466207082fcec6636388b8a98bc53905bd948.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHYUCFSSO%2F20261010%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261010T181301Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC9EEWdRcUNGhqcZNxToQdI4xpUv7eTMT5k9RrUEXbAUwIhAK0t616cUrYl%2BvjrPSUYSjkIS7l5z6hD4gVNRg1YpzRzKuUDCFoQABoMMDA2MjAxODExMDcyIgwhJhL5yHb90rnICv0qwgOPRgf4IiQZqYw78bqPvOLLSwR9al5ZGrwLHBMg68cMnn3z%2FOFvUzXuRS4yFdLubs4n%2BcxpkuFKQ8Tw2DrKUpTxsLz8DKREw6TKHGFIDQcDbvppC9JNk%2B4s1J22v112Aj0CtABhohKbb0g3U60%2Fx5KUO5pSHNGUOIkXFlEM%2Bkhe34q%2BpXR3fw%2FqaDCvaRsRbieNHfXkzE5vGoq8b3ycz7PJmQ1UkkcOyFxwuJ5kalMWcNjeQ%2Fta8ByVzYsvwU8pBwUW3shg6Pt%2FMvWK2gKRIv%2FoAoHCZGCVKckWjAU4pUT%2BGAzKVHogRbHgZcoJrYNcZ8zPpNL%2Fb2pxIidV%2FgithtmYLwI%2BljXnZ0yHOkZ5VyHwnw9QR5hgVU9JS4z07dtggdjgOS%2FD64cb3wg2ZIU7qUeDE%2FZHtozp9HiarVCzBIxqK6H%2BOmh4wLIQ%2Bnynt9MZfWtzXVjMprdCp%2ByLB8%2B5TtLgZ142a1hth8AzYF2M7skoYqio2GIC%2FwI0%2BZZUiq0rGciD3MI%2BXBKaibjFuPK%2BjOUdfzpdp7gEh6CeD3dxxESVu4SqQky6FOhbH5g5r0gJyBBCD49fTWRqNJSaVUhJwwoSRQIwhtCp1gY6pAEvij5Iiq66%2F869mtXtOX%2BNxnC6WLwMSDyoXhvUaZp1HDhqO9qvg03yKUVbFOoTofohZxqswB0n9RznMdoMywIvpFjgAsPtcZP%2FFX7xZ80l5UaiHBt5u9TH9rYR5THaigzWVxL46vczhVgakC3EQVTqXqLHdAZrhrIN6i7c2%2FlJQ9gKWLKptJouPVXmcg1OvUeMmEflTz%2Bzz%2Fxk2DNdmsZU4ECWRQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=8b4f4f9d0d410ddc59a1a8b7212532e23ceae67b7e6e123ceaf20e265486ec07",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Theseus Robotics",
+          "href": "https://www.ycombinator.com/companies/theseus-robotics"
+        }
+      },
+      {
+        "user_id": 3185593,
+        "full_name": "Kristof Floch",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder/CTO at Theseus Robotics. Ex. VP of Technology at ETH Robotics Club, leading development of 6 technical divisions including Switzerland&#x27;s first fully-Swiss humanoid robot. Previously Research Assistant at ETH Zürich&#x27;s Intelligent Control Systems Group, focusing on high-performance learning-based control. MSc in Robotics, Systems and Control at ETH Zürich.",
+        "linkedin_url": "https://www.linkedin.com/in/kristof-floch",
+        "twitter_url": "https://x.com/kristof_floch",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0b4fc486294601139a191d8aea184d2510aa5880.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHYUCFSSO%2F20261010%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261010T181301Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC9EEWdRcUNGhqcZNxToQdI4xpUv7eTMT5k9RrUEXbAUwIhAK0t616cUrYl%2BvjrPSUYSjkIS7l5z6hD4gVNRg1YpzRzKuUDCFoQABoMMDA2MjAxODExMDcyIgwhJhL5yHb90rnICv0qwgOPRgf4IiQZqYw78bqPvOLLSwR9al5ZGrwLHBMg68cMnn3z%2FOFvUzXuRS4yFdLubs4n%2BcxpkuFKQ8Tw2DrKUpTxsLz8DKREw6TKHGFIDQcDbvppC9JNk%2B4s1J22v112Aj0CtABhohKbb0g3U60%2Fx5KUO5pSHNGUOIkXFlEM%2Bkhe34q%2BpXR3fw%2FqaDCvaRsRbieNHfXkzE5vGoq8b3ycz7PJmQ1UkkcOyFxwuJ5kalMWcNjeQ%2Fta8ByVzYsvwU8pBwUW3shg6Pt%2FMvWK2gKRIv%2FoAoHCZGCVKckWjAU4pUT%2BGAzKVHogRbHgZcoJrYNcZ8zPpNL%2Fb2pxIidV%2FgithtmYLwI%2BljXnZ0yHOkZ5VyHwnw9QR5hgVU9JS4z07dtggdjgOS%2FD64cb3wg2ZIU7qUeDE%2FZHtozp9HiarVCzBIxqK6H%2BOmh4wLIQ%2Bnynt9MZfWtzXVjMprdCp%2ByLB8%2B5TtLgZ142a1hth8AzYF2M7skoYqio2GIC%2FwI0%2BZZUiq0rGciD3MI%2BXBKaibjFuPK%2BjOUdfzpdp7gEh6CeD3dxxESVu4SqQky6FOhbH5g5r0gJyBBCD49fTWRqNJSaVUhJwwoSRQIwhtCp1gY6pAEvij5Iiq66%2F869mtXtOX%2BNxnC6WLwMSDyoXhvUaZp1HDhqO9qvg03yKUVbFOoTofohZxqswB0n9RznMdoMywIvpFjgAsPtcZP%2FFX7xZ80l5UaiHBt5u9TH9rYR5THaigzWVxL46vczhVgakC3EQVTqXqLHdAZrhrIN6i7c2%2FlJQ9gKWLKptJouPVXmcg1OvUeMmEflTz%2Bzz%2Fxk2DNdmsZU4ECWRQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f78edd2730865037280b5a3b1d95e5734dfd9c9824baa2e2cdf3ae4471a8d81e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Theseus Robotics",
+          "href": "https://www.ycombinator.com/companies/theseus-robotics"
+        }
+      },
+      {
+        "user_id": 4027568,
+        "full_name": "Ádám Weinhardt-Kovács",
+        "title": "Founder/CPO",
+        "is_active": true,
+        "bio": "Founder/CPO at Theseus Robotics. Previously robotics engineer at Flink Robotics, where he led deployment of a pick-and-place system at live sorting centers achieving 800 picks/hour matching human performance. Designed full robotic work-cells and built custom pneumatic grippers. Published ML research on vehicle dynamics at IFAC SYSID 2024. MA in Robotics from ETH Zürich.",
+        "linkedin_url": "https://www.linkedin.com/in/adam-weinhardt/",
+        "twitter_url": "https://x.com/AdamWeinhardt",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/49ba95ea880e2aa533b2c69d0ea69f567dcda74d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHYUCFSSO%2F20261010%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261010T181301Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC9EEWdRcUNGhqcZNxToQdI4xpUv7eTMT5k9RrUEXbAUwIhAK0t616cUrYl%2BvjrPSUYSjkIS7l5z6hD4gVNRg1YpzRzKuUDCFoQABoMMDA2MjAxODExMDcyIgwhJhL5yHb90rnICv0qwgOPRgf4IiQZqYw78bqPvOLLSwR9al5ZGrwLHBMg68cMnn3z%2FOFvUzXuRS4yFdLubs4n%2BcxpkuFKQ8Tw2DrKUpTxsLz8DKREw6TKHGFIDQcDbvppC9JNk%2B4s1J22v112Aj0CtABhohKbb0g3U60%2Fx5KUO5pSHNGUOIkXFlEM%2Bkhe34q%2BpXR3fw%2FqaDCvaRsRbieNHfXkzE5vGoq8b3ycz7PJmQ1UkkcOyFxwuJ5kalMWcNjeQ%2Fta8ByVzYsvwU8pBwUW3shg6Pt%2FMvWK2gKRIv%2FoAoHCZGCVKckWjAU4pUT%2BGAzKVHogRbHgZcoJrYNcZ8zPpNL%2Fb2pxIidV%2FgithtmYLwI%2BljXnZ0yHOkZ5VyHwnw9QR5hgVU9JS4z07dtggdjgOS%2FD64cb3wg2ZIU7qUeDE%2FZHtozp9HiarVCzBIxqK6H%2BOmh4wLIQ%2Bnynt9MZfWtzXVjMprdCp%2ByLB8%2B5TtLgZ142a1hth8AzYF2M7skoYqio2GIC%2FwI0%2BZZUiq0rGciD3MI%2BXBKaibjFuPK%2BjOUdfzpdp7gEh6CeD3dxxESVu4SqQky6FOhbH5g5r0gJyBBCD49fTWRqNJSaVUhJwwoSRQIwhtCp1gY6pAEvij5Iiq66%2F869mtXtOX%2BNxnC6WLwMSDyoXhvUaZp1HDhqO9qvg03yKUVbFOoTofohZxqswB0n9RznMdoMywIvpFjgAsPtcZP%2FFX7xZ80l5UaiHBt5u9TH9rYR5THaigzWVxL46vczhVgakC3EQVTqXqLHdAZrhrIN6i7c2%2FlJQ9gKWLKptJouPVXmcg1OvUeMmEflTz%2Bzz%2Fxk2DNdmsZU4ECWRQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=528f40f890ef41c32d5f3890d4efbf8b23c268fd85e50e5743e727ec97b557ac",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Theseus Robotics",
+          "href": "https://www.ycombinator.com/companies/theseus-robotics"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-10T18:13:10.124Z",
+    "classified_at": "2026-10-10T18:13:10.124Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "thesis",

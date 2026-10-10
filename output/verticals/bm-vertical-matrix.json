@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-09T19:15:12.596Z",
+  "generated_at": "2026-10-10T18:13:57.777Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1560,
-    "mapped_verticals": 248,
-    "observed_cells": 498,
+    "assignment_count": 1564,
+    "mapped_verticals": 249,
+    "observed_cells": 499,
     "total_verticals": 525,
-    "gap_candidates": 836
+    "gap_candidates": 835
   },
   "observed_cells": [
     {
@@ -606,6 +606,30 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "belvedir",
+        "cactus-compute",
+        "dotwave",
+        "exla",
+        "freesolo",
+        "isoquant",
+        "kailash-labs",
+        "lilac",
+        "munito-ai",
+        "nodus-compute",
+        "openrelay",
+        "pirislabs",
+        "stellon-labs",
+        "tinfoil",
+        "wafer"
+      ]
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.ops.process-automation",
@@ -678,29 +702,6 @@
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "belvedir",
-        "cactus-compute",
-        "dotwave",
-        "exla",
-        "freesolo",
-        "isoquant",
-        "kailash-labs",
-        "lilac",
-        "nodus-compute",
-        "openrelay",
-        "pirislabs",
-        "stellon-labs",
-        "tinfoil",
-        "wafer"
-      ]
-    },
-    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.devtools.productivity",
@@ -720,6 +721,28 @@
         "rivet-design",
         "syntropy",
         "velum-labs"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.manufacturing.automation",
+      "vertical_label": "Manufacturing & logistics automation",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "antropi-robotics",
+        "bramante",
+        "dawn-industries",
+        "eden-robotics",
+        "neuron-industries",
+        "nox-metals",
+        "parametric",
+        "prototypingio",
+        "remy-ai",
+        "sinter-systems",
+        "theseus-robotics",
+        "twentyfour26",
+        "ultrasonium"
       ]
     },
     {
@@ -763,27 +786,6 @@
         "tandem-2",
         "tenor",
         "trope"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.manufacturing.automation",
-      "vertical_label": "Manufacturing & logistics automation",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "antropi-robotics",
-        "bramante",
-        "dawn-industries",
-        "eden-robotics",
-        "neuron-industries",
-        "nox-metals",
-        "parametric",
-        "prototypingio",
-        "remy-ai",
-        "sinter-systems",
-        "twentyfour26",
-        "ultrasonium"
       ]
     },
     {
@@ -1092,6 +1094,22 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.legal.regulatory-consulting",
+      "vertical_label": "Regulatory consulting (cross-industry)",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "capto",
+        "cardamon",
+        "fed10",
+        "payna",
+        "regbase",
+        "scoop",
+        "vulcan-technologies"
+      ]
+    },
+    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.sales.enablement",
@@ -1197,21 +1215,6 @@
         "parameter",
         "parameter-fka-hex-security",
         "veria-labs"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.legal.regulatory-consulting",
-      "vertical_label": "Regulatory consulting (cross-industry)",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "cardamon",
-        "fed10",
-        "payna",
-        "regbase",
-        "scoop",
-        "vulcan-technologies"
       ]
     },
     {
@@ -5452,6 +5455,16 @@
       "sector_id": "enterprise-software",
       "companies": [
         "pavoot"
+      ]
+    },
+    {
+      "business_model": "BM-02",
+      "business_model_label": "Horizontal AI SaaS",
+      "vertical_id": "marketing.marketing-automation-ops",
+      "vertical_label": "Marketing automation platform administration",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "native"
       ]
     },
     {

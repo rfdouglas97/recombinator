@@ -1,151 +1,17 @@
 {
-  "checked_at": "2026-10-09T19:15:11.742Z",
+  "checked_at": "2026-10-10T18:13:57.196Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 2,
-  "new_count": 2,
-  "skipped_count": 928,
-  "ingest": {
-    "addedCompanies": 0,
-    "enrichedCompanies": 2
-  },
+  "checked_count": 0,
+  "new_count": 0,
+  "skipped_count": 930,
+  "ingest": null,
   "summary": {
-    "conforming": 1,
-    "partial": 1,
+    "conforming": 0,
+    "partial": 0,
     "non_conforming": 0,
-    "would_have_predicted": 2,
+    "would_have_predicted": 0,
     "surprise": 0,
     "predicted": 0
   },
-  "reviews": [
-    {
-      "launch": {
-        "launch_id": 120824,
-        "company_slug": "maritime",
-        "company_name": "Maritime",
-        "launch_url": "https://www.ycombinator.com/launches/VQm-maritime-fully-managed-cloud-for-running-ai-agents-at-scale",
-        "created_at": "2026-10-09T19:00:00.166Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-09T19:15:10.397Z",
-        "launch_id": 120824,
-        "company_slug": "maritime",
-        "taxonomy": {
-          "conformance_index": 57,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 3,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 93,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 71,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.agent-runtime",
-            "phenotype_primary_id": "agent-runtime-infra",
-            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Agent runtime & orchestration",
-            "phenotype_label": "Agent runtime / harness / orchestration"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 120585,
-        "company_slug": "sona8",
-        "company_name": "Sona8",
-        "launch_url": "https://www.ycombinator.com/launches/VMv-sona8-ai-voice-agents-surveying-employees-about-their-work",
-        "created_at": "2026-10-09T14:30:04.447Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-09T19:15:10.399Z",
-        "launch_id": 120585,
-        "company_slug": "sona8",
-        "taxonomy": {
-          "conformance_index": 72,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 89,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 71,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "enterprise.ops.process-automation",
-            "phenotype_primary_id": "vertical-agentic-workflow-saas",
-            "cell_key": "BM-01::enterprise.ops.process-automation::vertical-agentic-workflow-saas",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Cross-industry process automation",
-            "phenotype_label": "Vertical Agentic Workflow SaaS"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    }
-  ]
+  "reviews": []
 }
