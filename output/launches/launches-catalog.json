@@ -1,7 +1,76 @@
 {
-  "updated_at": "2026-10-09T19:15:11.638Z",
-  "count": 1353,
+  "updated_at": "2026-10-12T21:59:38.232Z",
+  "count": 1356,
   "launches": [
+    {
+      "launch_id": 121221,
+      "launch_slug": "VXB-frontrunner-cursor-for-gtm",
+      "launch_url": "https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm",
+      "title": "Frontrunner 🏇: Cursor for GTM",
+      "tagline": "Platform to build and run GTM agents",
+      "body": "We’re Maya and Carl, founders of Frontrunner. Previously, we built GTM systems at Console and Encord that supported hundreds of millions of dollars in pipeline. At Console, Maya built and led a 10 person team across GTM engineering, demand gen, content, events, product marketing, and outbound. At Encord, Carl led GTM engineering and built out robust internal systems to bridge the gap between sales and marketing. \n\n<https://www.youtube.com/watch?v=RA1-78Gpkgo>\n\n\\\nFrontrunner is the agent platform for GTM. **How it works:** \n\n* We plug into where your data already lives: CRM, email, calendar, product, call recordings\n* We turn it into a graph of your business: accounts, people, conversations, signals, and how they connect.\n* A fleet of agents run on the graph to continuously research accounts, find and enrich prospects, monitor buying signals, prioritize who to go after, and hand the right action off to your team.\n\n**The result:** instead of rebuilding context in Claude or stitching together point solutions for every workflow, your GTM team has a system that remembers what it learns and gets better as it runs.\n\n**What customers run on Frontrunner:**\n\n* Signal-based outbound: Monitor buying signals → identify and enrich the right people → score and route them to reps\n* Account research: Continuously research target accounts and keep CRM context current\n* Pipeline revival: Monitor closed-lost and dormant opportunities for reasons to re-engage\n* Inbound qualification: Research and score inbound accounts → route them to the right rep\n* Attribution: understand which signals, campaigns + touchpoints actually turn into revenue\n\n**Results from customers**\n\n1. 15% higher win rate on new business\n2. 40-50% conversion to meeting booked on signal based outbound \n3. 10,000+ contacts in their TAM sourced and enriched\n4. 100+ of signal based opportunities actioned daily\n\n_“We are already booking more meetings with you than we did with our first GTM hire”_ \n\nUnlike Claude or other general purpose AI tools, Frontrunner is an opinionated harness for GTM. Your nth project in Claude will not incorporate the meeting outcomes, closed won business to scale and improve revenue for you based on bespoke playbooks for your company. But it will gladly take up your team members afternoons vibe coding on siloed ideas and projects.\n\n**🏇**\n\nWe’re building Frontrunner so GTM teams can spend less time stitching together tools and rebuilding context, and more time figuring out what _actually_ moves the business. If your team wants to or is already experimenting with agents across sales or marketing, we would love to chat!",
+      "created_at": "2026-10-12T16:00:00.063Z",
+      "total_vote_count": 4,
+      "company_slug": "frontrunner",
+      "company_name": "Frontrunner",
+      "company_website": "https://usefr.com/",
+      "company_batch": "Fall 2026",
+      "company_industry": "B2B",
+      "company_id": 37273,
+      "author_name": "Maya Nayyar",
+      "scraped_at": "2026-10-12T21:59:26.466Z",
+      "review_summary": {
+        "conformance_index": 78,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 121522,
+      "launch_slug": "Vc2-expand-fetch-reading-glasses-for-your-ai-agent",
+      "launch_url": "https://www.ycombinator.com/launches/Vc2-expand-fetch-reading-glasses-for-your-ai-agent",
+      "title": "Expand Fetch: Reading glasses for your AI agent",
+      "tagline": "Send a URL. Get accurate Markdown, the hidden JSON and a snapshot you can cite.",
+      "body": "Hi everyone! 👋 I'm Tim, founder of Expand, and today we're launching Expand Fetch.\n\n**TL;DR:** Send a URL, get back Markdown written by Iris, our own vision model. It keeps the tables, icons and hidden JSON other tools drop, and every line links back to where it came from. On our benchmark, agents answer 74% of questions from our Markdown. The next best API gets 55%. Live today, $1 per 1,000 fetches.\n\n<https://youtu.be/qQCqpShmrLA>\n\n## **🚨 The problem**\n\nYour agent has an IQ of 500, but fails at basic questions about the web.\n\nWeb Markdown APIs drop icons, break tables and miss the JSON in the page. So your agent answers wrong, with confidence. And you can't tell whether the page didn't load or the conversion dropped it. The workaround is a full browser per page, which is slow and expensive.\n\nWe tried fixing it with heuristics. It's whack-a-mole. The rule that drops a footer deletes a company's address on one page and ships 100,000+ tokens of trash on the next.\n\n## **🚀 Expand Fetch**\n\nOne API call gets you:\n\n* **👁️ Iris:** our vision model sees the rendered page and writes frontier quality Markdown. Tables stay tables. Navigation and footers go to an appendix.\n* **🩻 X-Ray:** finds the useful JSON hidden in the page, like coordinates or flight gates.\n* **🕰️ Wayback Machine:** every fetch is a snapshot you own. Every line links back to its spot on the page.\n* **🔦 Highlights:** ask a question, get only the passages that answer it. Over 95% fewer tokens.\n\nPlus **Crawl** for whole sites and **WebSync** to follow every change.\n\n![uploaded image](/media/?type=post&id=121522&key=user_uploads/12878/bc51849e-4cb3-44e4-9301-fecce93b599f)\n\nOr paste this into your coding agent and it sets itself up:\n\n> Set up <https://expand.ai/start.md>\n\n## **📊 Benchmarks**\n\nExisting Markdown benchmarks assume a page has one main content, like reader mode. The web doesn't work like that. Iris sorts every element into preserve, prune or appendix, and on our validation set it beats Jev on F1, 92.7% to 69.6%.\n\n![uploaded image](/media/?type=post&id=121522&key=user_uploads/12878/b146a886-44d4-45de-bf32-953958a5360c)\n\nThen the test that matters. We built MDBench with our customers: 1,094 questions on 326 hard pages. Expand is also the only API we tested that returns the hidden JSON.\n\n![uploaded image](/media/?type=post&id=121522&key=user_uploads/12878/100dfebd-bfad-4abd-96cb-a4d5afb61b24)\n\n## **👶 About us**\n\nExpand is an applied research lab. We want to make the web queryable like a database, and found we first need to see it. Iris took us a year of sweat and tears. I've spent 10 years in developer tools, as founding engineer at Prisma and founder of Stellate.\n\n## **📢 Ask**\n\nIf you, or anyone you know, has struggled with the quality of web data, including for your own agents, please reach out at [tim@expand.ai](mailto:tim@expand.ai). Send me a page your agent gets wrong, and I'll show you what Expand returns.\n\nTry it at [expand.ai](http://expand.ai) with $10 in free credits, or [join the waitlist](https://expand.ai/blog/announcing-expand-fetch#waitlist) if you want to query the web like a database.",
+      "created_at": "2026-10-12T00:25:58.796Z",
+      "total_vote_count": 2,
+      "company_slug": "expand-ai",
+      "company_name": "expand.ai",
+      "company_website": "https://expand.ai/",
+      "company_batch": "Summer 2024",
+      "company_industry": "B2B",
+      "company_id": 29728,
+      "author_name": "Tim Suchanek",
+      "scraped_at": "2026-10-12T21:59:26.466Z",
+      "review_summary": {
+        "conformance_index": 58,
+        "predictability_band": "surprise",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 121520,
+      "launch_slug": "Vc0-paul-by-trelium",
+      "launch_url": "https://www.ycombinator.com/launches/Vc0-paul-by-trelium",
+      "title": "Paul by Trelium",
+      "tagline": "An AI automation scout that finds repetitive work and shows your team what to automate.",
+      "body": "Meet Paul, an agent built on Trelium to be our Lazy Champion and automation scout 🐧 His job is simple: figure out where your team could be doing less. \n<https://www.youtube.com/watch?v=sjyM_gIDmB0>\nOver the last year, we rebranded Questom to Trelium and evolved from building AI agents for B2B inbound sales into a platform where non-technical enterprise teams can build deterministic AI agents in simple English to automate back-office work across the tools they already use. Since then, we have been creating value for distributors, suppliers, and decorators across print, merch, and apparel by helping them automate work like order entry, purchase order creation, PO-invoice matching and a lot more.\n\nIn sales calls, we keep hearing the same thing: “We want to use AI, but we do not know what to automate.” The funny part is that figuring this out is still extremely manual. AI audits usually mean workshops, interviews, process maps, and asking people to remember all the repetitive things they do. But the work wasting the most time is often so routine that nobody even remembers to mention it.\n\nSo we thought, why not make Paul? Paul is an agent built on our own platform, and now he is available to everyone. Connect him to places like email and chat, and he watches how work actually moves across your team, spots repetitive processes, and tells you what is worth automating. He might notice someone doing the same tiny task 40 times a week because apparently copy-paste has become a job description. Instead of a giant consulting deck, Paul gives you the opportunity, the reasoning behind it, and a ready-made prompt to build that agent on Trelium.\n\nWe have been using Paul on ourselves too, and unfortunately he keeps finding things. The idea is simple: spend less time talking about “adopting AI” and more time removing work nobody wanted to do in the first place. Paul has mastered laziness. We are trying to catch up. 🐧\n\n[trelium.com/PaulThePenguin](http://trelium.com/PaulThePenguin)\n",
+      "created_at": "2026-10-11T22:23:55.414Z",
+      "total_vote_count": 1,
+      "company_slug": "trelium",
+      "company_name": "Trelium",
+      "company_website": "https://www.trelium.com",
+      "company_batch": "Fall 2025",
+      "company_industry": "B2B",
+      "company_id": 30877,
+      "author_name": "Ritanshu Dokania",
+      "scraped_at": "2026-10-12T21:59:26.466Z",
+      "review_summary": {
+        "conformance_index": 72,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
     {
       "launch_id": 120824,
       "launch_slug": "VQm-maritime-fully-managed-cloud-for-running-ai-agents-at-scale",

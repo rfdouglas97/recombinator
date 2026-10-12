@@ -18528,6 +18528,105 @@
     "vertical_normalize_method": "slug_override"
   },
   {
+    "slug": "chempilotai",
+    "name": "ChemPilot.ai",
+    "website": "https://chempilot.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/chempilotai",
+    "batch": "Fall 2026",
+    "one_liner": "Discover novel defense related materials/molecules.",
+    "description_combined": "Discover novel defense related materials/molecules.\n\nWe use AI and quantum-based simulations to discover and develop new materials for defense and dual-use applications, from energetics and propellants to carbon fibers, polymers, coatings and composites. Developing a new material today takes 10+ years of trial-and-error lab work. We compress that to months, using physics-based simulation, machine learning and AI agents that only send labs candidates that can actually be made.\r\n\r\nSam, Ofir and Maor have spent the past two years researching the discovery of these exact materials together at the Technion lab of our CSO, Prof. Alon Grinberg Dana (former MIT postdoc), working directly with defense primes and government R&D agencies. Together we bring deep expertise in chemical engineering, computational chemistry and AI, and the production systems to put them to work. ChemPilot spun out of that work.\r\n\r\nThe defense and dual-use industrial base runs on materials with fragile, sole-source and often adversarial supply chains, from energetics and propellants to carbon fibers, high-temperature composites and specialty polymers. Demand for new capabilities is surging, and materials take decades to develop. The West needs new materials it can make securely, fast and cheap - ChemPilot will help find and develop them.",
+    "industry_sub_vertical": "Defense materials R&D acceleration for energetics, propellants, composites, and polymers",
+    "canonical_vertical_id": "defense.weapons-testing",
+    "vertical_id": "defense.weapons-testing",
+    "vertical_label": "Weapons system testing & qualification",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "biotech-rd-agent",
+    "phenotype_primary_label": "Biotech / clinical R&D acceleration",
+    "phenotype_family": "life_sciences",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "materials_discovery_automation",
+      "physics_simulation_ml",
+      "lab_candidate_screening",
+      "synthesis_feasibility_prediction"
+    ],
+    "what_they_sell": "AI-driven materials discovery platform that compresses 10+ year R&D cycles to months by combining physics-based quantum simulations, machine learning, and autonomous agents to identify novel defense materials (energetics, propellants, composites, polymers, coatings) and predict synthesizability before lab work.",
+    "ai_play": "AI agents autonomously screen candidate molecules/materials using physics simulations and ML models trained on chemical feasibility, then route only viable candidates to labs. Eliminates trial-and-error by predicting which materials can actually be synthesized. Quantum simulation + ML reduces computational cost and accelerates discovery cycles.",
+    "who_pays": "Defense primes, government R&D agencies (DoD, DARPA), industrial materials manufacturers in defense supply chain seeking to de-risk sole-source material dependencies.",
+    "confidence": 0.82,
+    "rationale": "ChemPilot is a scientific R&D acceleration platform using AI agents and physics simulations to automate materials discovery. While biotech-rd-agent is traditionally pharma/clinical focused, the phenotype's core value (rd_acceleration + scientific_workflow) maps directly: AI agents conduct primary research (materials screening, feasibility prediction) with minimal human intervention, compressing R&D timelines. Secondary phenotype ai-enabled-physical-systems also fits because the core value includes accelerating design optimization (materials design) and manufacturing precision (synthesis feasibility). The defense/materials domain is adjacent to biotech R&D in methodology (simulation, ML, lab automation) but distinct in application. biotech-rd-agent is the best existing fit; no new phenotype needed.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Defense"
+    ],
+    "yc_tags": [
+      "Machine Learning",
+      "Advanced Materials",
+      "Defense"
+    ],
+    "business_models": [
+      "BM-09"
+    ],
+    "team_size": 3,
+    "location": "Haifa, Haifa District, Israel",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 4000868,
+        "full_name": "Sam Cogan",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at ChemPilot.ai. MSc in Biochemical Engineering from Technion. Love competing, both in business and in any sport.",
+        "linkedin_url": "https://www.linkedin.com/in/sam-cogan-16435916b/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/52cee213d8d6c3ed123701998ac0813c86155160.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOI26ZAUJ%2F20261012%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261012T215849Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFec9%2F6%2FQad%2BulNDzLMAVqWvInT%2BT%2B7zjot6MwZ%2FpZikAiBc8u837DQlRevRoa23ipJlqN9ZMkcvpQUbcsilKr2lBCruAwiP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMnzZ7EParghs8R5KrKsIDFLHya7dfcknFYcIa4uV%2Bu3ftBF5oSFZMQzUig1vFFouKVwx4cnFfOema%2FeeRuuWf3F%2BL7tJwXyS8VCNXC8qOqLj5vMGEGTi7XRQIukAl2B3oGQqQKpvXWkrtpUgz9tq1LdG7GB1dWWjZlAZIjYwd9rfECEJqrOFDz31kwRmPk2liLchcbH7JvK61b9aIPAaZgP2j9Py7abdNHqE9a7QZ3axZWpFDpGqcQ7OmoV6TTNtcYXW%2BIh8E2JKL3OvmpGPfiEuJOyDDTT0f%2FvrQusHVKyC9bEX0ArHf81so1qKM1TmNPb31ntwgmINOlpWn8HVS9UORwvQoLN43UJRzxLCBJ3MXVEzkqxpLBKF25B1o7EkbOuaTv0HuOHr8Og662FoB4IHnCPmDrWKIQwIAlWiJAbWT6%2BP3ObzbNNGdHhqRQQWaCeKrWnA50W3lNqNVTWZ2lgid3urUPR%2BGgdWYoJfUGdo1NZtqXMcfRsUPhNBGOMzP1MxGOssCl4PAT4ULwVD5JEqT2Ls0e6gsgvifLs9bmCzpzGHhrMZz0b2W9q6yhV0aaWnQJ1d0NEkvxxPF2rt8vL3VBo%2F5CZfBn5Fc6nQCYqBBMKOstdYGOqYBm2FiZZDRCekeCKf%2FaIrBcnaocLidFUFkDm%2FcswV%2Ba4b%2FSm4JHy7UCnBNVBZNwmFoVPGacuMCM2OW4rKRYsaD9eJXZPgAMKz0SLLp6l9wXJyLvVadCe%2BNtTWtocKhmfSINh89MGstWUY4FOTVbJWACV88cwG%2FhawoX6eXG3G2XXCGce4u6%2FhEGOm66P14ymx09UwDg3eE%2BSYIDfg74pWr7ZjDGEKUxQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4add867264370f999be080ab2ea65293def748237ad953641710cae279e0d2bd",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "ChemPilot.ai",
+          "href": "https://www.ycombinator.com/companies/chempilotai"
+        }
+      },
+      {
+        "user_id": 4006886,
+        "full_name": "Maor Goldman",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at ChemPilot.ai | Ethical Hacker | BS Computer Engineering from Technion | Served in 8200 ",
+        "linkedin_url": "https://www.linkedin.com/in/maor-goldman-03b43a119/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/cfb6b71947255e63c3da4ad31df3bcdb630bad8a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOI26ZAUJ%2F20261012%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261012T215849Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFec9%2F6%2FQad%2BulNDzLMAVqWvInT%2BT%2B7zjot6MwZ%2FpZikAiBc8u837DQlRevRoa23ipJlqN9ZMkcvpQUbcsilKr2lBCruAwiP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMnzZ7EParghs8R5KrKsIDFLHya7dfcknFYcIa4uV%2Bu3ftBF5oSFZMQzUig1vFFouKVwx4cnFfOema%2FeeRuuWf3F%2BL7tJwXyS8VCNXC8qOqLj5vMGEGTi7XRQIukAl2B3oGQqQKpvXWkrtpUgz9tq1LdG7GB1dWWjZlAZIjYwd9rfECEJqrOFDz31kwRmPk2liLchcbH7JvK61b9aIPAaZgP2j9Py7abdNHqE9a7QZ3axZWpFDpGqcQ7OmoV6TTNtcYXW%2BIh8E2JKL3OvmpGPfiEuJOyDDTT0f%2FvrQusHVKyC9bEX0ArHf81so1qKM1TmNPb31ntwgmINOlpWn8HVS9UORwvQoLN43UJRzxLCBJ3MXVEzkqxpLBKF25B1o7EkbOuaTv0HuOHr8Og662FoB4IHnCPmDrWKIQwIAlWiJAbWT6%2BP3ObzbNNGdHhqRQQWaCeKrWnA50W3lNqNVTWZ2lgid3urUPR%2BGgdWYoJfUGdo1NZtqXMcfRsUPhNBGOMzP1MxGOssCl4PAT4ULwVD5JEqT2Ls0e6gsgvifLs9bmCzpzGHhrMZz0b2W9q6yhV0aaWnQJ1d0NEkvxxPF2rt8vL3VBo%2F5CZfBn5Fc6nQCYqBBMKOstdYGOqYBm2FiZZDRCekeCKf%2FaIrBcnaocLidFUFkDm%2FcswV%2Ba4b%2FSm4JHy7UCnBNVBZNwmFoVPGacuMCM2OW4rKRYsaD9eJXZPgAMKz0SLLp6l9wXJyLvVadCe%2BNtTWtocKhmfSINh89MGstWUY4FOTVbJWACV88cwG%2FhawoX6eXG3G2XXCGce4u6%2FhEGOm66P14ymx09UwDg3eE%2BSYIDfg74pWr7ZjDGEKUxQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=bb29feed5c5b8f03c095fe0fbdc32e1bbf0c85abe2ac0d49e19cbdbab0eb47ce",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "ChemPilot.ai",
+          "href": "https://www.ycombinator.com/companies/chempilotai"
+        }
+      },
+      {
+        "user_id": 4003220,
+        "full_name": "Ofir Simhi",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder and CTO at ChemPilot.ai. Previously a full-stack developer, one of the first developers in an acquired startup (Skiff, acquired by Notion), and a main developer in another acquired startup (StoreMaven, acquired by Zynga). \nBSc. in Biochemical Engineering.",
+        "linkedin_url": "https://www.linkedin.com/in/ofir-simhi-b8098a196/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a3d87d13345612a8a48e34155eb8d933ed91977a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOI26ZAUJ%2F20261012%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261012T215849Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFec9%2F6%2FQad%2BulNDzLMAVqWvInT%2BT%2B7zjot6MwZ%2FpZikAiBc8u837DQlRevRoa23ipJlqN9ZMkcvpQUbcsilKr2lBCruAwiP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDAwNjIwMTgxMTA3MiIMnzZ7EParghs8R5KrKsIDFLHya7dfcknFYcIa4uV%2Bu3ftBF5oSFZMQzUig1vFFouKVwx4cnFfOema%2FeeRuuWf3F%2BL7tJwXyS8VCNXC8qOqLj5vMGEGTi7XRQIukAl2B3oGQqQKpvXWkrtpUgz9tq1LdG7GB1dWWjZlAZIjYwd9rfECEJqrOFDz31kwRmPk2liLchcbH7JvK61b9aIPAaZgP2j9Py7abdNHqE9a7QZ3axZWpFDpGqcQ7OmoV6TTNtcYXW%2BIh8E2JKL3OvmpGPfiEuJOyDDTT0f%2FvrQusHVKyC9bEX0ArHf81so1qKM1TmNPb31ntwgmINOlpWn8HVS9UORwvQoLN43UJRzxLCBJ3MXVEzkqxpLBKF25B1o7EkbOuaTv0HuOHr8Og662FoB4IHnCPmDrWKIQwIAlWiJAbWT6%2BP3ObzbNNGdHhqRQQWaCeKrWnA50W3lNqNVTWZ2lgid3urUPR%2BGgdWYoJfUGdo1NZtqXMcfRsUPhNBGOMzP1MxGOssCl4PAT4ULwVD5JEqT2Ls0e6gsgvifLs9bmCzpzGHhrMZz0b2W9q6yhV0aaWnQJ1d0NEkvxxPF2rt8vL3VBo%2F5CZfBn5Fc6nQCYqBBMKOstdYGOqYBm2FiZZDRCekeCKf%2FaIrBcnaocLidFUFkDm%2FcswV%2Ba4b%2FSm4JHy7UCnBNVBZNwmFoVPGacuMCM2OW4rKRYsaD9eJXZPgAMKz0SLLp6l9wXJyLvVadCe%2BNtTWtocKhmfSINh89MGstWUY4FOTVbJWACV88cwG%2FhawoX6eXG3G2XXCGce4u6%2FhEGOm66P14ymx09UwDg3eE%2BSYIDfg74pWr7ZjDGEKUxQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ae5f0aaf4fcabb55cd314921b05c1ee329d3f0a35861cc6167c1b2be6a40ee75",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "ChemPilot.ai",
+          "href": "https://www.ycombinator.com/companies/chempilotai"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-12T21:58:59.307Z",
+    "classified_at": "2026-10-12T21:58:59.307Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
+  },
+  {
     "slug": "chert",
     "name": "Chert",
     "website": "https://www.trychert.com/",
@@ -32383,6 +32482,55 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "expand-ai",
+    "name": "expand.ai",
+    "website": "https://expand.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/expand-ai",
+    "batch": "Summer 2024",
+    "one_liner": "Send a URL. Get accurate Markdown, the hidden JSON and a snapshot you can cite.",
+    "description_combined": "Send a URL. Get accurate Markdown, the hidden JSON and a snapshot you can cite.\n\nHi everyone! 👋 I'm Tim, founder of Expand, and today we're launching Expand Fetch.\n\nTL;DR: Send a URL, get back Markdown written by Iris, our own vision model. It keeps the tables, icons and hidden JSON other tools drop, and every line links back to where it came from. On our benchmark, agents answer 74% of questions from our Markdown. The next best API gets 55%. Live today, $1 per 1,000 fetches.\n\n\n\n## 🚨 The problem\n\nYour agent has an IQ of 500, but fails at basic questions about the web.\n\nWeb Markdown APIs drop icons, break tables and miss the JSON in the page. So your agent answers wrong, with confidence. And you can't tell whether the page didn't load or the conversion dropped it. The workaround is a full browser per page, which is slow and expensive.\n\nWe tried fixing it with heuristics. It's whack-a-mole. The rule that drops a footer deletes a company's address on one page and ships 100,000+ tokens of trash on the next.\n\n## 🚀 Expand Fetch\n\nOne API call gets you:\n\n* 👁️ Iris: our vision model sees the rendered page and writes frontier quality Markdown. Tables stay tables. Navigation and footers go to an appendix.\n* 🩻 X-Ray: finds the useful JSON hidden in the page, like coordinates or flight gates.\n* 🕰️ Wayback Machine: every fetch is a snapshot you own. Every line links back to its spot on the page.\n* 🔦 Highlights: ask a question, get only the passages that answer it. Over 95% fewer tokens.\n\nPlus Crawl for whole sites and WebSync to follow every change.\n\n\n\nOr paste ",
+    "industry_sub_vertical": "Agent web context & data enrichment via vision-based Markdown extraction",
+    "canonical_vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_label": "Agent web context & data enrichment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-context-data",
+    "phenotype_primary_label": "Agent context & web/data enrichment API",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "data_access",
+    "ai_application": "context_retrieval",
+    "ai_application_patterns": [
+      "web_extraction",
+      "markdown_generation",
+      "token_optimization",
+      "structured_data_recovery"
+    ],
+    "what_they_sell": "API service that converts web URLs into high-fidelity Markdown, structured JSON extraction, and citable snapshots optimized for agent consumption. Vision model (Iris) renders pages and preserves tables, icons, and embedded data that traditional web scrapers drop. Includes token-efficient highlighting, site crawling, and change monitoring.",
+    "ai_play": "Vision model replaces heuristic-based web-to-Markdown conversion, enabling agents to extract accurate context from web pages with 74% question-answering accuracy vs. 55% for competing APIs. Solves the 'context explosion' problem by compressing verbose web content into semantically dense, agent-readable formats while preserving fidelity.",
+    "who_pays": "AI agent builders, LLM application developers, and enterprises deploying agents that need reliable web context (research agents, data enrichment pipelines, autonomous workflows).",
+    "confidence": 0.92,
+    "rationale": "Expand.ai is a pure-play agent context infrastructure company. They solve the critical problem of feeding agents high-quality, structured web data without token bloat or information loss. The vision model (Iris) is the AI differentiator—it replaces brittle heuristics with learned rendering and extraction. This is a wedge into agent infrastructure (data_access layer), not a vertical workflow agent or consumer app. Secondary phenotype (agent-context-infra) also fits because they compress and structure external data for agent consumption. Confidence 0.92: clear fit to agent-context-data; vision model is core AI play; B2B SaaS to developers.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "launch_id": 121522,
+    "launch_url": "https://www.ycombinator.com/launches/Vc2-expand-fetch-reading-glasses-for-your-ai-agent",
+    "launch_title": "Expand Fetch: Reading glasses for your AI agent",
+    "launch_created_at": "2026-10-12T00:25:58.796Z",
+    "launch_tagline": "Send a URL. Get accurate Markdown, the hidden JSON and a snapshot you can cite.",
+    "launch_ingested_at": "2026-10-12T21:59:38.228Z",
+    "classified_at": "2026-10-12T21:59:38.228Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "expanse",
     "name": "Expanse",
     "website": "https://expanse.sh",
@@ -35902,7 +36050,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/frontrunner",
     "batch": "Fall 2026",
     "one_liner": "Cursor for GTM",
-    "description_combined": "Cursor for GTM\n\nBuild agents that research accounts, find prospects, run campaigns, update your CRM, qualify inbound, and more. Connect them to the systems you already use and let them work alongside your GTM team.\r\n\r\nEngineer your revenue factory on Frontrunner. ",
+    "description_combined": "Cursor for GTM\n\nBuild agents that research accounts, find prospects, run campaigns, update your CRM, qualify inbound, and more. Connect them to the systems you already use and let them work alongside your GTM team.\r\n\r\nEngineer your revenue factory on Frontrunner. \n\nPlatform to build and run GTM agents\n\nWe’re Maya and Carl, founders of Frontrunner. Previously, we built GTM systems at Console and Encord that supported hundreds of millions of dollars in pipeline. At Console, Maya built and led a 10 person team across GTM engineering, demand gen, content, events, product marketing, and outbound. At Encord, Carl led GTM engineering and built out robust internal systems to bridge the gap between sales and marketing. \n\n\n\n\nFrontrunner is the agent platform for GTM. How it works: \n\n* We plug into where your data already lives: CRM, email, calendar, product, call recordings\n* We turn it into a graph of your business: accounts, people, conversations, signals, and how they connect.\n* A fleet of agents run on the graph to continuously research accounts, find and enrich prospects, monitor buying signa",
     "industry_sub_vertical": "Sales operations agent automation for GTM workflow execution",
     "canonical_vertical_id": "enterprise.sales.enablement",
     "vertical_id": "enterprise.sales.enablement",
@@ -35975,6 +36123,12 @@
     "directory_synced_at": "2026-09-10T17:29:22.139Z",
     "classified_at": "2026-09-10T17:29:22.139Z",
     "proposed_phenotype": null,
+    "launch_id": 121221,
+    "launch_url": "https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm",
+    "launch_title": "Frontrunner 🏇: Cursor for GTM",
+    "launch_created_at": "2026-10-12T16:00:00.063Z",
+    "launch_tagline": "Platform to build and run GTM agents",
+    "launch_evaluated_at": "2026-10-12T21:59:38.227Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-01"
@@ -75405,6 +75559,58 @@
     "primary_bm": "BM-07"
   },
   {
+    "slug": "polemos-industries",
+    "name": "Polemos Industries",
+    "website": "https://lokberg.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/polemos-industries",
+    "batch": "Fall 2026",
+    "one_liner": "AI-guided ballistic missiles, cheap enough to field in numbers that…",
+    "description_combined": "AI-guided ballistic missiles, cheap enough to field in numbers that…\n\nPrecision strike is rationed. Forces see more targets than they can afford to hit.\r\n\r\nPolemos builds AI-guided ballistic missiles and the compact launchers that fire them, designed for mass manufacturing. Our launchers form a strike network wired into the recon drones already in the sky: a drone geolocates a target, the nearest launcher fires, and a guided round lands in seconds.\r\n\r\nShort range, no wasted kilometers, no modified trucks. Built on production lines that already exist, so output scales when it matters most.",
+    "industry_sub_vertical": "AI-guided autonomous weapons systems & networked precision strike",
+    "canonical_vertical_id": "industrials.defense.drones",
+    "vertical_id": "industrials.defense.drones",
+    "vertical_label": "Defense drone & UAS operations",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "physical-ai-autonomous-systems",
+    "phenotype_primary_label": "Physical AI & Autonomous Manufacturing",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "autonomous_targeting_coordination",
+    "ai_application_patterns": [
+      "autonomous_targeting",
+      "multi_agent_coordination",
+      "real_time_optimization",
+      "hardware_integration"
+    ],
+    "what_they_sell": "AI-guided ballistic missiles and compact networked launchers designed for mass manufacturing and rapid deployment. The system integrates drone reconnaissance with autonomous targeting and firing coordination across distributed launcher nodes.",
+    "ai_play": "AI coordinates real-time targeting decisions across a distributed network of drones and launchers, enabling autonomous strike execution with minimal latency. AI handles target geolocalization, launcher selection, ballistic computation, and network coordination—replacing manual targeting workflows and enabling mass-scale precision strike at lower cost per round.",
+    "who_pays": "Defense ministries, military procurement agencies, armed forces seeking scalable precision strike capability.",
+    "confidence": 0.85,
+    "rationale": "Polemos is a hardware-centric defense company deploying AI for autonomous control of physical systems (missiles, launchers, drone networks). The core value is the physical weapon system itself, but AI dramatically improves targeting speed, coordination, and operational autonomy. This fits physical-ai-autonomous-systems: AI coordinates multi-agent hardware (drones + launchers), optimizes real-world execution (ballistic targeting, network routing), and enables end-to-end autonomy. The phenotype emphasizes hardware-first with AI as the operational enabler—exactly Polemos's model. Secondary consideration: could map to ai-enabled-physical-systems, but physical-ai-autonomous-systems is more precise for autonomous weapon coordination.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Defense"
+    ],
+    "yc_tags": [
+      "Defense",
+      "AI"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 0,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-10-12T21:58:29.687Z",
+    "classified_at": "2026-10-12T21:58:29.687Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
+  },
+  {
     "slug": "pollen",
     "name": "Pollen",
     "website": "https://www.pollen.cx/",
@@ -75653,6 +75859,92 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.65,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "pomerado",
+    "name": "Pomerado",
+    "website": "https://www.pomerado.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/pomerado",
+    "batch": "Fall 2026",
+    "one_liner": "Turn any website into an MCP for your agents, in minutes",
+    "description_combined": "Turn any website into an MCP for your agents, in minutes\n\nPomerado turns any website into an API / MCP in minutes. Empower your agents to use previously inaccessable consumer websites, legacy portals, and internal tools. \r\n\r\nYou or your agent describe a task, Pomerado asks a few clarifying questions, and then delivers an integration. We manage hosting, permissioning, testing, and maintenance, so you can focus on building. \r\n\r\nAs consultants at McKinsey and Scale AI, we saw that legacy systems were the true blocker to agentic workflows. Pomerado connects those systems to agents.",
+    "industry_sub_vertical": "Agent web context & legacy system integration for agentic workflows",
+    "canonical_vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_label": "Agent web context & data enrichment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-workflow-abstraction-infra",
+    "phenotype_primary_label": "Agent Workflow Abstraction Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "workflow_conversion",
+    "ai_application": "workflow_to_api_abstraction",
+    "ai_application_patterns": [
+      "website_to_api_conversion",
+      "legacy_system_integration",
+      "agent_tooling",
+      "mcp_generation"
+    ],
+    "what_they_sell": "A platform that converts any website or legacy portal into an MCP (Model Context Protocol) or API that agents can invoke. Users describe a task, Pomerado auto-generates the integration, handles hosting, permissioning, testing, and ongoing maintenance.",
+    "ai_play": "AI-driven workflow extraction and abstraction: uses LLMs to understand website interactions, infer task semantics from user descriptions, and automatically generate reliable agent-executable APIs without manual coding. Solves the 'legacy system blocker' — agents can now access previously inaccessible consumer websites, internal tools, and legacy portals.",
+    "who_pays": "AI teams, agentic workflow builders, enterprises with legacy systems; buyers are engineering leads and AI product teams deploying multi-agent systems.",
+    "confidence": 0.82,
+    "rationale": "Pomerado is a developer-facing infrastructure layer that converts human-driven workflows (website interactions) into agent-executable APIs/MCPs. This directly matches agent-workflow-abstraction-infra: it enables agents to interact with legacy systems and web-based workflows without custom integration. Secondary phenotype (agent-context-infra) applies because Pomerado also enriches agent context by structuring previously inaccessible data sources (legacy portals, internal tools) into token-efficient, agent-consumable formats. The founders' McKinsey/Scale AI background and focus on 'legacy systems as the true blocker' confirms the infrastructure-first, agent-enablement positioning. Confidence is high (0.82) because the fit is clear, but not 0.90+ because the company is early-stage and positioning may evolve.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Developer Tools",
+      "B2B",
+      "Workflow Automation",
+      "API"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2657756,
+        "full_name": "Akshay Manglik",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder & CEO at Pomerado (YC F26). Previously Applied AI Engineer at Scale AI, building frontier agents for enterprises in telecom, finance, and healthcare. Led Scale&#x27;s research on agentic trace analysis for automated agent optimization. Prior ML research at Johns Hopkins APL, Columbia, and Stanford, published in Nature Communications.",
+        "linkedin_url": "https://www.linkedin.com/in/akshay-manglik/",
+        "twitter_url": "https://x.com/akshay_manglik",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6ff94e97b1746aa73487deb7f786228af7de43f4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAGAMISBPB%2F20261012%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261012T215829Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDz242ACcOANNEPPcCD2z2qdDV1RNoJpQ63TxaAyOmkpAIhAN4ncCN%2BnX9ICqrRGhQnGYn3Uqw727Vvqlo%2BldZeeIcAKu4DCI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwn7zY9%2Bz8d683k96QqwgPFvbr2yUckCC8OcuYg0SLQrfz1uFOtsrpPhrzjJoJ1mNSqwMBUZbnjhjf%2BwpuFQW3TcKZIT1xF0kscdsIvcIQw9Chu7AKrIPacvltn50sNqQbLF4uyppVUvxrONjcqGTVM58vzdIzQxvNcTfKqPAjRrqa5G6w57RVThAlJZFpyFV2EUYS3adYi6SpEWGV%2B%2BZWZmRpBTP5lWKugXEPUPbO6jHPdLie0epowcecmAr8ysfACmCAW4dg9r0kp8vPQPLQqddzR8F3ThQaZLYjpJasbWeDKGSWzO%2B2nxFHRt1Umx%2FRZp7bpHEO9A5GIkKIhVOiFXjj06Wp471t0usB60xiAzr%2BlfPEY35MN8%2B7TGNo30qj0F95P%2FDG%2FzBk6e9o7Gw%2FencPCqYQkmOZdY3nBPkSHT7lvbpiywHYGn36KoDTznFt%2BdNVrhfHKmvUQuuyQyRJufs9c3MuqDiem69dUkaIhFntbxMvD93gUo3nV6DMhD8PG9EfYvkU3h2gUKr2tw69TWBSi27PyQNjodZ1uG4LQHiaJqM3sN08wDvnE9H8o3ec%2B51LICF7KQBQkDbuDJ2sIx%2FrDF2h6SBNKfEsOSrl50j0wrqy11gY6pAEdu5ZhQ4RGXeN6uj%2B393sGYDGEFIg3iTyVjakKe7kYuyaNw9nxYsJB59ruDv%2BzpjczGTtSyD%2B3WrWnyMhf8S6%2BkvWoVNzNr67nYuNMBVI3sdnVvp0Y7FeLIg8IriWfRyk8t7VDOaonSnfeIucrxdDfteQb22VXXCZy%2FYrXuDFEKEfEmpDPZhQsx%2Fzlup5GFw48UuYrg83RTqmQ2EvqopYaxlnHmQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=359da5c07f839585f99d9bf45de03b3cdeed68aa69698421b800bc7ff2ddacb0",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Pomerado",
+          "href": "https://www.ycombinator.com/companies/pomerado"
+        }
+      },
+      {
+        "user_id": 4166436,
+        "full_name": "Alan Ma",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder at Pomerado (YC F26). Previously Business Analyst at McKinsey, setting Data and AI strategy for F500 companies. Mathematics and Computer Science at Columbia",
+        "linkedin_url": "https://www.linkedin.com/in/ajma867/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6a24f3d62778bfb1147f0ff82b10cbe2322cc3fb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAGAMISBPB%2F20261012%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261012T215829Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDz242ACcOANNEPPcCD2z2qdDV1RNoJpQ63TxaAyOmkpAIhAN4ncCN%2BnX9ICqrRGhQnGYn3Uqw727Vvqlo%2BldZeeIcAKu4DCI%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwn7zY9%2Bz8d683k96QqwgPFvbr2yUckCC8OcuYg0SLQrfz1uFOtsrpPhrzjJoJ1mNSqwMBUZbnjhjf%2BwpuFQW3TcKZIT1xF0kscdsIvcIQw9Chu7AKrIPacvltn50sNqQbLF4uyppVUvxrONjcqGTVM58vzdIzQxvNcTfKqPAjRrqa5G6w57RVThAlJZFpyFV2EUYS3adYi6SpEWGV%2B%2BZWZmRpBTP5lWKugXEPUPbO6jHPdLie0epowcecmAr8ysfACmCAW4dg9r0kp8vPQPLQqddzR8F3ThQaZLYjpJasbWeDKGSWzO%2B2nxFHRt1Umx%2FRZp7bpHEO9A5GIkKIhVOiFXjj06Wp471t0usB60xiAzr%2BlfPEY35MN8%2B7TGNo30qj0F95P%2FDG%2FzBk6e9o7Gw%2FencPCqYQkmOZdY3nBPkSHT7lvbpiywHYGn36KoDTznFt%2BdNVrhfHKmvUQuuyQyRJufs9c3MuqDiem69dUkaIhFntbxMvD93gUo3nV6DMhD8PG9EfYvkU3h2gUKr2tw69TWBSi27PyQNjodZ1uG4LQHiaJqM3sN08wDvnE9H8o3ec%2B51LICF7KQBQkDbuDJ2sIx%2FrDF2h6SBNKfEsOSrl50j0wrqy11gY6pAEdu5ZhQ4RGXeN6uj%2B393sGYDGEFIg3iTyVjakKe7kYuyaNw9nxYsJB59ruDv%2BzpjczGTtSyD%2B3WrWnyMhf8S6%2BkvWoVNzNr67nYuNMBVI3sdnVvp0Y7FeLIg8IriWfRyk8t7VDOaonSnfeIucrxdDfteQb22VXXCZy%2FYrXuDFEKEfEmpDPZhQsx%2Fzlup5GFw48UuYrg83RTqmQ2EvqopYaxlnHmQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6aca0c83448080f559a98d9f5e8291fbe14aebbf597aeff61d8159e344fdb188",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Pomerado",
+          "href": "https://www.ycombinator.com/companies/pomerado"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-12T21:58:39.265Z",
+    "classified_at": "2026-10-12T21:58:39.265Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "pops",
@@ -80548,6 +80840,90 @@
     "vertical_normalize_confidence": 0.72,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-08"
+  },
+  {
+    "slug": "reconero",
+    "name": "Reconero",
+    "website": "https://reconero.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/reconero",
+    "batch": "Fall 2026",
+    "one_liner": "Reconero helps police officers automate their workflows with AI",
+    "description_combined": "Reconero helps police officers automate their workflows with AI\n\nOfficers join the force to protect their communities, yet over 40% of their day is eaten by paperwork that keeps them behind a desk. The burden reaches beyond lost time. Burnout is driving officers out of the force, leaving those who remain carrying an even heavier workload.\r\n\r\nReconero is built to give that time back. By automating reports, forms, analytics, and more, we help officers finish their administrative paperwork faster, spend more time serving their communities, and protect the time they have with their families.",
+    "industry_sub_vertical": "Law enforcement administrative workflow automation",
+    "canonical_vertical_id": "government.govtech.ops",
+    "vertical_id": "government.govtech.ops",
+    "vertical_label": "Government operations & GovTech",
+    "vertical_sector_id": "government-public",
+    "phenotype_primary_id": "gov-critical-workflow-automation",
+    "phenotype_primary_label": "Government-Critical Workflow Automation",
+    "phenotype_family": "regulated_workflow",
+    "value_wedge": "risk_reduction",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "document_automation",
+      "form_generation",
+      "report_synthesis",
+      "administrative_task_elimination"
+    ],
+    "what_they_sell": "SaaS platform that automates police officer administrative workflows (report writing, form completion, analytics) using AI, freeing officers from desk work to focus on community policing.",
+    "ai_play": "AI agents process incident data, witness statements, and case details to auto-generate compliant police reports and administrative forms, eliminating manual transcription and paperwork burden while maintaining audit trails and regulatory compliance.",
+    "who_pays": "Police departments and law enforcement agencies (government buyers)",
+    "confidence": 0.85,
+    "rationale": "Reconero is a mission-critical workflow automation tool sold to government agencies (police departments) to eliminate high-friction, compliance-heavy administrative tasks. It fits gov-critical-workflow-automation because: (1) it targets law enforcement, a high-compliance domain; (2) it automates manual data processing (incident reports, forms) with AI; (3) it maintains audit trails and regulatory compliance; (4) it's sold to government agencies as infrastructure. Secondary consideration of vertical-agentic-workflow-saas was rejected because the primary buyer is the government agency itself (not end-user officers as direct customers), and the focus is on mission-critical compliance workflows rather than general job-function automation. The AI play is document/form generation from unstructured incident data, which is core to reducing administrative burden.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Government"
+    ],
+    "yc_tags": [
+      "SaaS",
+      "GovTech",
+      "Data Visualization",
+      "AI"
+    ],
+    "business_models": [
+      "BM-11"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3396155,
+        "full_name": "Riwan Azeroual",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "previously built a sentiment analysis company that generated $150k ARR, interned at Safran Electronics & Defense and Europrop International. Created the open-source exploit \"PirateStealer\" that helped ElectronJS (used by OpenAI, Discord, etc) fix code injection.",
+        "linkedin_url": "https://www.linkedin.com/in/riwan-azeroual-19398a359/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a25d46c33453e66c2da0eacaf5f07f14d15477be.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAGMVKGWZC%2F20261012%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261012T215812Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIC3AkxfBN7ulLnYSY4Za%2ByRkKUxUJ1oId5uAHCqwae%2FaAiEA%2BB8UgTOAfmaDFOHeNn0GkhrNkKcH2CHgI2kWIdHgFFsq7gMIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDPfkSpip64V4U1wwTirCAxqocs%2Bmg4JwPUFCQC2gP8t%2FiiFIRYaaE5s%2Fm6mhCjsM4KpMbGcLdAlH96aO%2BjxqB%2BHaVqyM6iTeDXvFyzXTkhCqM6goeTtgJpmbh31gAilU4cLJDtCsUnSOBDvL8avt3R49ikpzAlZkqK49JB3379mOUR561c%2FAbv2XJ48XT4QDc4ilzchaJfaO4HzjRJoQDNF%2BXpM6SjeawBC3HGD7HOZvbgynTim7ShyTdAoMkSztELxtgERgdkiOPmmK4lcgvMCndVfaE0J332pTovqIPsEQN0nW35TuJ4z3hTXaxVJBzBGRXNh7SU5ofmITBkkNmsFzmSdqzAuCIJxQqWXwe6mg8yvE4TA4A7SsFlqLAISjODJpBUHNPR1f2Mo96mbKCYuchjVz6r7bOSMn%2BGOLcpqp3lW7oxSf0ZH7tzWeSfujTOIBApuDzTklAG4ak%2BhPt1D0FLAmsr9GEU2h4PdRtJUjbRMKKCy72z21JoryrAtlPNfbwAoDft1GjLhYhZfjBCfwpjC%2FTP8MeHLY%2BNjAjLBpXojsvk2xqVIC%2BG6sf0DXtJDNUdvr4A5DwhuNtpKoV5k4PGJfVbzTUvBnQos7i%2BuJ2zCirLXWBjqlAZqbP%2BbCLjHxHFvrLTFt6LFIcOL4ek4AdwstyYKw0WZBTYbBDyIZy0NEht%2F0nSt4fdHVhiL9qlYyHeCPctndq1Cko%2FOPy3jeWKb7CeIBvocXQ4Vl8vKDYWrExUIKt0oOPgFiSOloKtIqBsiGcDUHtKGbHcqNyFGl02xoHx4qcEyuZBEXWhckRSeUX7MjkSBIIcLQSqb2pE7ZC1rjrodaLHiH2ilPNw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3a4431eb37ffa51bbf7620b93dc0b1f133d09e53c690caae1a070b213dbd7a54",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Reconero",
+          "href": "https://www.ycombinator.com/companies/reconero"
+        }
+      },
+      {
+        "user_id": 3640723,
+        "full_name": "Edward \"JiuJiu\" Liu",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Left CS/Eng @ Stanford to build for the police",
+        "linkedin_url": "https://www.linkedin.com/in/edward-liu-5030a0282/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/7fecb24a0266b53ddb28a03095d65f78d90b76bb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAGMVKGWZC%2F20261012%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261012T215812Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIC3AkxfBN7ulLnYSY4Za%2ByRkKUxUJ1oId5uAHCqwae%2FaAiEA%2BB8UgTOAfmaDFOHeNn0GkhrNkKcH2CHgI2kWIdHgFFsq7gMIj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDPfkSpip64V4U1wwTirCAxqocs%2Bmg4JwPUFCQC2gP8t%2FiiFIRYaaE5s%2Fm6mhCjsM4KpMbGcLdAlH96aO%2BjxqB%2BHaVqyM6iTeDXvFyzXTkhCqM6goeTtgJpmbh31gAilU4cLJDtCsUnSOBDvL8avt3R49ikpzAlZkqK49JB3379mOUR561c%2FAbv2XJ48XT4QDc4ilzchaJfaO4HzjRJoQDNF%2BXpM6SjeawBC3HGD7HOZvbgynTim7ShyTdAoMkSztELxtgERgdkiOPmmK4lcgvMCndVfaE0J332pTovqIPsEQN0nW35TuJ4z3hTXaxVJBzBGRXNh7SU5ofmITBkkNmsFzmSdqzAuCIJxQqWXwe6mg8yvE4TA4A7SsFlqLAISjODJpBUHNPR1f2Mo96mbKCYuchjVz6r7bOSMn%2BGOLcpqp3lW7oxSf0ZH7tzWeSfujTOIBApuDzTklAG4ak%2BhPt1D0FLAmsr9GEU2h4PdRtJUjbRMKKCy72z21JoryrAtlPNfbwAoDft1GjLhYhZfjBCfwpjC%2FTP8MeHLY%2BNjAjLBpXojsvk2xqVIC%2BG6sf0DXtJDNUdvr4A5DwhuNtpKoV5k4PGJfVbzTUvBnQos7i%2BuJ2zCirLXWBjqlAZqbP%2BbCLjHxHFvrLTFt6LFIcOL4ek4AdwstyYKw0WZBTYbBDyIZy0NEht%2F0nSt4fdHVhiL9qlYyHeCPctndq1Cko%2FOPy3jeWKb7CeIBvocXQ4Vl8vKDYWrExUIKt0oOPgFiSOloKtIqBsiGcDUHtKGbHcqNyFGl02xoHx4qcEyuZBEXWhckRSeUX7MjkSBIIcLQSqb2pE7ZC1rjrodaLHiH2ilPNw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=76c7690eb52e258c1be7fbf8689a9e58579c835dc80bb5d58cf61338851f1f5f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Reconero",
+          "href": "https://www.ycombinator.com/companies/reconero"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-12T21:58:20.905Z",
+    "classified_at": "2026-10-12T21:58:20.905Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-11"
   },
   {
     "slug": "red-barn-robotics",
@@ -88984,6 +89360,74 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
+  },
+  {
+    "slug": "sintem",
+    "name": "Sintem",
+    "website": "https://sintem.co",
+    "yc_profile_url": "https://www.ycombinator.com/companies/sintem",
+    "batch": "Fall 2026",
+    "one_liner": "Agentic phones for teams",
+    "description_combined": "Agentic phones for teams\n\nWe make agentic phones for teams. Each phone runs our new agentic operating system with an army of agents that proactively work across the tools your team already uses and take care of the routine work. \r\n\r\nYour best people get even more done and spend less time on their screens.",
+    "industry_sub_vertical": "Agentic phone operating system for enterprise team productivity",
+    "canonical_vertical_id": "ai-infrastructure.agent-telecom",
+    "vertical_id": "ai-infrastructure.agent-telecom",
+    "vertical_label": "Agent telecommunications infrastructure",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "agent_orchestration",
+      "multi_tool_integration",
+      "proactive_task_automation",
+      "team_productivity"
+    ],
+    "what_they_sell": "An agentic operating system deployed on team phones that runs autonomous agents to handle routine work across integrated tools (email, calendar, CRM, project management, etc.). Agents proactively manage tasks, freeing high-value team members from screen time and manual coordination.",
+    "ai_play": "AI agents replace manual, repetitive task execution (scheduling, email triage, status updates, routine coordination) by orchestrating across existing enterprise tools. The OS layer enables agents to understand team workflows, learn patterns, and autonomously execute work without human intervention per task.",
+    "who_pays": "Enterprise teams and departments (sales, operations, customer success, HR) seeking to reduce manual overhead and increase productivity for high-value employees.",
+    "confidence": 0.75,
+    "rationale": "Sintem is a vertical agentic workflow SaaS targeting team productivity. Primary fit: vertical-agentic-workflow-saas (end-user-facing SaaS deploying autonomous agents to replace routine job functions). Secondary fit: agent-runtime-infra (the OS layer orchestrating multi-agent execution across tools). The 'agentic phone' is the distribution mechanism; the core value is autonomous workflow execution. Confidence is 0.75 (not higher) because the exact vertical focus (which teams/functions) is not fully specified, and the product positioning as 'phone OS' is unconventional—but the phenotype clearly maps to autonomous agent-driven workflow automation sold to enterprise teams.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Telecommunications"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 1,
+    "location": "BY, Germany",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 322102,
+        "full_name": "Isa Usmanov",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder of Sintem (F26): agentic phones for teams.\n\nWon OpenAI&#x27;s hackathon at their HQ solo, building an agentic OS for phones. Previously founded droov (Shopify for restaurants), with $3.4M+ GMV and 32K+ users across Germany, Austria, and Belgium. Co-founded an ed-tech SaaS ($1.1M+ ARR). Founded Reinio (Uber for laundry) and sold it to Munich&#x27;s largest laundromat chain.\n\nTechnical University of Munich (TUM) graduate.\n\nCompeted internationally in Judo: 90+ competitions, about 300 matches.",
+        "linkedin_url": "https://linkedin.com/in/isausmanov",
+        "twitter_url": "https://x.com/isausmanov",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b985250aeae8faa45c1aac1113f29990c659eed6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAOLHVZ52Y%2F20261012%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261012T215839Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAtI%2FNfRXWvuJV5cvcO%2FPZZRUxbUk9pwbhGbiLuRVcR1AiEAvxvpRh9MhOV88IT7IXffwhfQ2%2BI5IGimuG7BxYqkwmcq7gMIjv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDEFPXbm4ag4maKB%2BsirCA4XFVFG4xWqanT9dfZfuEOQYvOYHO348xMgTTUdU45VK9toni6HxfmBYxOQSu21tk7Y0ZtR%2Bu%2FX2m23AEA3DO3el6nOtoue3vXHenbQV%2FGFIFzi9UgD%2FSUuMyNx7EI%2BoveoV%2FgDxKEnRLNaxCKLu3JxqQXlR%2FvfC%2BH%2FNrYgsxlxR%2FXB%2BOAwajOP29x7Qgz7um3CMoWS55f1x2z7Vrx101IaaoE207UQn6A69dgZSKtdRdZOF3HaIMg6FxS17cwuSx%2B7MAYXBq7JQDDrDa10dofDzWLhKF%2BxfnU1MhRIPAfdHb%2BbPezjfYBWHAwCDYFU9UJt9Wa87UtF%2Btll%2BObSo0iNWjKdNE5OO4SAe55k5JF0G6m8oxSYqJ6SOsqpcyOWM0IzVX0CS%2FiK69Fte6i3EebOWFa6R%2BYg2%2B844IzC5qnz7EJJYpdHQDZNsacJitG5uh1yioB%2F5VqpT16yUWOqFH19h1jmete%2FwJAt5vMjQkG9dPawiA8ptGbNkY7j%2FfUbYAPzgcLSIG6q33LoAsgzgS7ph%2BoNgaykVgfVzqYvvAkpMk7k25EcLaGcGs6ncY2Z49fIMalDV78hhEJ6RZRL3TjK0tTCirLXWBjqlAcNNgs03gB0WxSIhXCmhWKgiSyBtacCRz3oSb07Y2DsRksmDUxPL4g6RCiBZK%2Ft87c%2FgMEpR6eVF%2BIuiEEXmjvMc8ayPlCIXcIQfevA3dQt2ksRKqv7mIIJXUHnd8Wnyi289yf3rZ7j%2BANyOWoVwQNAVAQ9g5daRHTjhXVmiD%2BeKAI88OIAWosjcGcNlwHA7G9r4gRzlkA5n4hhGjPet7tUEWSlwfw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=566c061065f57b5c599a06d63ba0a9c8dbea965961bda905af254dc6183b7045",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sintem",
+          "href": "https://www.ycombinator.com/companies/sintem"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-12T21:58:49.697Z",
+    "classified_at": "2026-10-12T21:58:49.697Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "sinter-systems",
@@ -100742,7 +101186,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/trelium",
     "batch": "Fall 2025",
     "one_liner": "The Agent to Build Your Agents",
-    "description_combined": "The Agent to Build Your Agents",
+    "description_combined": "The Agent to Build Your Agents\n\nAn AI automation scout that finds repetitive work and shows your team what to automate.\n\nMeet Paul, an agent built on Trelium to be our Lazy Champion and automation scout 🐧 His job is simple: figure out where your team could be doing less. \n\nOver the last year, we rebranded Questom to Trelium and evolved from building AI agents for B2B inbound sales into a platform where non-technical enterprise teams can build deterministic AI agents in simple English to automate back-office work across the tools they already use. Since then, we have been creating value for distributors, suppliers, and decorators across print, merch, and apparel by helping them automate work like order entry, purchase order creation, PO-invoice matching and a lot more.\n\nIn sales calls, we keep hearing the same thing: “We want to use AI, but we do not know what to automate.” The funny part is that figuring th",
     "industry_sub_vertical": "Agent development platform & multi-agent orchestration",
     "phenotype_primary_id": "vertical-workflow-agent",
     "phenotype_secondary_id": "open-source-commercial",
@@ -100797,6 +101241,12 @@
     "primary_bm_rationale": "Trelium is an agent development platform and runtime/orchestration tool sold to builders and developers, making it AI devtools/infrastructure rather than vertical SaaS or managed labor.",
     "primary_bm_assigned_at": "2026-06-05T20:00:32.948Z",
     "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 121520,
+    "launch_url": "https://www.ycombinator.com/launches/Vc0-paul-by-trelium",
+    "launch_title": "Paul by Trelium",
+    "launch_created_at": "2026-10-11T22:23:55.414Z",
+    "launch_tagline": "An AI automation scout that finds repetitive work and shows your team what to automate.",
+    "launch_evaluated_at": "2026-10-12T21:59:38.232Z",
     "vertical_normalize_confidence": 0.92,
     "vertical_normalize_method": "llm_vertical"
   },

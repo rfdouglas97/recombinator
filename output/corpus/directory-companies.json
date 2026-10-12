@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-11T18:36:08.574Z",
+  "synced_at": "2026-10-12T21:58:11.969Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1372,
+  "company_count": 1378,
   "companies": [
     {
       "slug": "10x",
@@ -1798,7 +1798,7 @@
       "name": "Armature",
       "batch": "Spring 2026",
       "one_liner": "We get your product picked by coding agents.",
-      "long_description": "Coding agents like Claude Code, Codex and Cursor now decide which tools get installed in a codebase. Armature runs the real agents inside a panel of realistic repositories, measures whether they pick you, and works with your team on the docs, SDK and content changes that make them choose you. Every change is tested on real agent runs before it ships.\r\n\r\nOnce agents use your product, Armature shows you what users do with it through AI, with self-serve MCP analytics and evals that catch regressions before your users see them.",
+      "long_description": "Coding agents like Claude Code, Codex and Cursor now decide which tools get installed in a codebase. Armature runs the real agents inside a panel of realistic repositories, measures whether they pick you, and works with your team on the docs, SDK and content that make them choose you.\r\n\r\nWe call this Agent-Led Growth (~coding agents GEO for dev tools).\r\n\r\nAnd once agents use your product, Armature shows you what users do with it through AI, with self-serve MCP analytics and evals that catch regressions before your users see them.",
       "website": "https://armature.tech",
       "industries": [
         "B2B",
@@ -1874,7 +1874,7 @@
       "slug": "asakana",
       "name": "Asakana",
       "batch": "Fall 2026",
-      "one_liner": "AI order entry for food distributors: emails and texts to ERP",
+      "one_liner": "Automating away manual admin for food distributors: texts to ERP",
       "long_description": "Restaurants send orders to food distributors by email, text, and photo. Someone at the distributor retypes every one of them into the ERP. Asakana does that entry instead: orders land in the ERP already entered, and anything unclear goes to a person before it goes in. Live at US seafood distributors today, returning 40%+ of order-desk time to selling. Founded by a seafood distributor and a Gemini builder.",
       "website": "https://www.asakana.co/",
       "industries": [
@@ -4801,6 +4801,27 @@
       "launched_at": 1765343151
     },
     {
+      "slug": "chempilotai",
+      "name": "ChemPilot.ai",
+      "batch": "Fall 2026",
+      "one_liner": "Discover novel defense related materials/molecules.",
+      "long_description": "We use AI and quantum-based simulations to discover and develop new materials for defense and dual-use applications, from energetics and propellants to carbon fibers, polymers, coatings and composites. Developing a new material today takes 10+ years of trial-and-error lab work. We compress that to months, using physics-based simulation, machine learning and AI agents that only send labs candidates that can actually be made.\r\n\r\nSam, Ofir and Maor have spent the past two years researching the discovery of these exact materials together at the Technion lab of our CSO, Prof. Alon Grinberg Dana (former MIT postdoc), working directly with defense primes and government R&D agencies. Together we bring deep expertise in chemical engineering, computational chemistry and AI, and the production systems to put them to work. ChemPilot spun out of that work.\r\n\r\nThe defense and dual-use industrial base runs on materials with fragile, sole-source and often adversarial supply chains, from energetics and propellants to carbon fibers, high-temperature composites and specialty polymers. Demand for new capabilities is surging, and materials take decades to develop. The West needs new materials it can make securely, fast and cheap - ChemPilot will help find and develop them.",
+      "website": "https://chempilot.ai/",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "tags": [
+        "Machine Learning",
+        "Advanced Materials",
+        "Defense"
+      ],
+      "team_size": 3,
+      "location": "Haifa, Haifa District, Israel",
+      "status": "Active",
+      "launched_at": 1791753586
+    },
+    {
       "slug": "chert",
       "name": "Chert",
       "batch": "Spring 2026",
@@ -5713,16 +5734,16 @@
       "name": "Conntour",
       "batch": "Winter 2025",
       "one_liner": "Query mission-critical video",
-      "long_description": "Conntour enables government agencies to query their video - from security cameras, body cams, and drones.\r\n\r\nUsers can search past footage (“Find a man with tattoos on his left arm”), configure real-time alerts (“Notify me if someone climbs over the wall”), and extract data (“How many pickup trucks entered yesterday?”).\r\n\r\nUnlike traditional video analytics solutions, which are limited to fixed parameters (like a weapon, bag, or car color), Conntour supports an unlimited range of highly specific scenarios described in plain language. This enables a single human to monitor thousands of cameras, or find a specific moment in minutes instead of days.\r\n\r\nWhat makes Conntour's technology unique is its ability to process video using natural language at scale, fully on-premises, with minimal hardware requirements. The system is already deployed with mission-critical teams at leading intelligence and homeland security agencies.\r\n\r\nConntour is backed by top-tier investors including General Catalyst and Y Combinator, was selected for the first-ever Palantir Fellowship, and has the former CTO of the CIA on its advisory board.",
+      "long_description": "Conntour enables government agencies to query their video - from security cameras, body cams, and drones.\r\n\r\nUsers can search past footage (“Find a man with tattoos on his left arm”), configure real-time alerts (“Notify me if someone climbs over the wall”), and extract data (“How many pickup trucks entered yesterday?”).\r\n\r\nUnlike traditional video analytics solutions, which are limited to fixed parameters (like a weapon, bag, or car color), Conntour supports an unlimited range of highly specific scenarios described in plain language. This enables a single human to monitor thousands of cameras, or find a specific moment in minutes instead of days.\r\n\r\nWhat makes Conntour's technology unique is its ability to process video using natural language at scale, fully on-premises, with minimal hardware requirements. The system is deployed with mission-critical teams at leading intelligence and homeland security agencies.\r\n\r\nConntour is backed by top-tier investors including General Catalyst and Y Combinator, was selected for the first-ever Palantir Fellowship, and has the former CTO of the CIA on its advisory board.",
       "website": "https://www.conntour.com/",
       "industries": [
         "Industrials",
         "Defense"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Computer Vision",
-        "Defense",
-        "AI"
+        "Defense"
       ],
       "team_size": 20,
       "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
@@ -9676,7 +9697,7 @@
         "GovTech"
       ],
       "team_size": 0,
-      "location": "Chicago, IL, USA",
+      "location": "",
       "status": "Active",
       "launched_at": 1776807232
     },
@@ -12229,18 +12250,17 @@
       "slug": "knowlify",
       "name": "Knowlify",
       "batch": "Summer 2025",
-      "one_liner": "The AI Explainer Video Maker",
-      "long_description": "Knowlify makes it easy for companies to create animated explainer videos using AI. Upload any document and/or prompt deck to get a professional explainer video in minutes - no designers, animators, or video editors needed. \r\n\r\nTeams use Knowlify to produce training videos, customer literacy videos, product explainers, onboarding content, and internal communications at a fraction of the traditional cost and timeline. \r\n\r\nAvailable as a self-serve platform or a fully managed service.",
+      "one_liner": "DFY video paid ads agency for startups",
+      "long_description": "Knowlify is a done-for-you video ads agency for startups running paid social. We write the ads and make them: UGC-style talking-head, commercials, and character animation. You brief us on a 20-minute call. We send the direction in writing, you approve it, and the first finished batch lands in days. New ads come every week, ready to upload.\r\n\r\nIf you have been prompting an AI video tool and getting back something that is not the ad you asked for, that is the job we take. You wrote the prompt. You still do not have an ad. You wrote the brief. The tool ignored it. You do not write another prompt. You approve the direction, and we make the ads.\r\n\r\nStartups use Knowlify when they need more creative to test than an agency round, a creator roster, or a prompt box can ship. We produce the videos. Media spend stays yours.",
       "website": "https://www.knowlify.com/",
       "industries": [
-        "B2B"
+        "B2B",
+        "Marketing"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Education",
-        "Generative AI",
         "Video",
-        "Enterprise Software"
+        "Marketing",
+        "Advertising"
       ],
       "team_size": 6,
       "location": "San Francisco, CA, USA",
@@ -14737,7 +14757,7 @@
       "slug": "mirrors",
       "name": "Mirrors",
       "batch": "Fall 2026",
-      "one_liner": "Give AI agents the right instructions at the right moment",
+      "one_liner": "Give AI agents the right context at the right moment",
       "long_description": "Production agents handle many different customer workflows. Currently, when one handles a situation badly, an engineer reads the trace and patches the prompt. The next situation needs another exception. Soon, improving the agent becomes a recurring engineering job, and the prompt keeps growing.\r\n\r\nMirrors finds patterns in past runs. Engineers review guidance for a specific situation and preview where it would apply. Mirrors then delivers that guidance while the agent works, inside the team’s existing setup. The team can check whether the change improved the outcome.\r\n\r\nWe’re building Mirrors for engineering teams running customer-facing agents across varied workflows, so they can improve behavior without hardcoding every lesson in the global prompt.",
       "website": "https://www.mirrors.dev",
       "industries": [
@@ -14746,10 +14766,10 @@
       ],
       "tags": [
         "AIOps",
-        "Artificial Intelligence",
         "Developer Tools",
         "SaaS",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -14936,8 +14956,8 @@
       "slug": "moda",
       "name": "Moda",
       "batch": "Winter 2026",
-      "one_liner": "Harness Engineering Infrastructure that developers love.",
-      "long_description": "Moda is a harness engineering platform. It turns production traces into verified improvements for your agent harness: prompts, tools, skills, evals, and memory.\r\n\r\nThe infra problems we actually take: transfer what a frontier model learned onto an open-source one without losing performance, and stand up a model router for your own system and task. Same loop both times. Name the layer that broke, ship the change, replay it on old traffic before it goes out. We've built the infrastructure to tackle these harness problems at scale.\r\n\r\nWe do not sell a platform that solves every harness problem. We sell those jobs, on an agent already in production.",
+      "one_liner": "Your agents should never make the same mistake twice.",
+      "long_description": "Your agents should never make the same mistake twice. Moda helps you engineer better agents from production data. Find recurring failures, understand what caused them, and build evals from real agent runs. Compare models on the tasks your users actually need. Test changes to your prompts, tools, and workflows against past production traffic before you ship. Know what broke, what to change, and whether the fix worked.",
       "website": "https://moda.dev",
       "industries": [
         "B2B",
@@ -15721,8 +15741,8 @@
       "slug": "nex",
       "name": "Nex",
       "batch": "Summer 2026",
-      "one_liner": "AI for high volume GTM Engineering",
-      "long_description": "Nex builds and runs the complex, high-volume GTM workflows that general-purpose agents struggle with. Built by ex-HubSpotters who ran its three largest customer platforms and backed by HubSpot founder Dharmesh Shah.",
+      "one_liner": "Grok bot for GTM & Revenue teams",
+      "long_description": "We build and deploy AI agents that manage prospecting, qualification, CRM hygiene, forecasting, lead routing, revenue recovery, and all the complex revenue work in between, on autopilot.",
       "website": "https://nex.ai",
       "industries": [
         "B2B",
@@ -16077,7 +16097,7 @@
       "tags": [
         "Manufacturing"
       ],
-      "team_size": 35,
+      "team_size": 52,
       "location": "Detroit, MI, USA",
       "status": "Active",
       "launched_at": 1751751667
@@ -16857,14 +16877,14 @@
         "Supply Chain and Logistics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Logistics",
         "Manufacturing",
         "Supply Chain",
-        "Operations"
+        "Operations",
+        "AI"
       ],
       "team_size": 2,
-      "location": "New York City, NY, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1790381980
     },
@@ -18745,7 +18765,7 @@
         "Consumer"
       ],
       "tags": [],
-      "team_size": 15,
+      "team_size": 35,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1764996860
@@ -18771,6 +18791,26 @@
       "location": "Jaco, Puntarenas Province, Costa Rica",
       "status": "Active",
       "launched_at": 1785028791
+    },
+    {
+      "slug": "polemos-industries",
+      "name": "Polemos Industries",
+      "batch": "Fall 2026",
+      "one_liner": "AI-guided ballistic missiles, cheap enough to field in numbers that…",
+      "long_description": "Precision strike is rationed. Forces see more targets than they can afford to hit.\r\n\r\nPolemos builds AI-guided ballistic missiles and the compact launchers that fire them, designed for mass manufacturing. Our launchers form a strike network wired into the recon drones already in the sky: a drone geolocates a target, the nearest launcher fires, and a guided round lands in seconds.\r\n\r\nShort range, no wasted kilometers, no modified trucks. Built on production lines that already exist, so output scales when it matters most.",
+      "website": "https://lokberg.com/",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "tags": [
+        "Defense",
+        "AI"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1791838393
     },
     {
       "slug": "pollen",
@@ -18820,6 +18860,29 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1771290879
+    },
+    {
+      "slug": "pomerado",
+      "name": "Pomerado",
+      "batch": "Fall 2026",
+      "one_liner": "Turn any website into an MCP for your agents, in minutes",
+      "long_description": "Pomerado turns any website into an API / MCP in minutes. Empower your agents to use previously inaccessable consumer websites, legacy portals, and internal tools. \r\n\r\nYou or your agent describe a task, Pomerado asks a few clarifying questions, and then delivers an integration. We manage hosting, permissioning, testing, and maintenance, so you can focus on building. \r\n\r\nAs consultants at McKinsey and Scale AI, we saw that legacy systems were the true blocker to agentic workflows. Pomerado connects those systems to agents.",
+      "website": "https://www.pomerado.ai",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Developer Tools",
+        "B2B",
+        "Workflow Automation",
+        "API"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1791788322
     },
     {
       "slug": "pops",
@@ -19655,18 +19718,18 @@
       "slug": "ramain",
       "name": "RamAIn",
       "batch": "Winter 2026",
-      "one_liner": "Automate any UI task with natural language",
-      "long_description": "RamAIn can intelligently automate any super complex and repetitive process across applications (Browser & Desktop) super fast. It doesn’t matter whether you have API access or not - if you can see it, RamAIn can do it. \r\n\r\nSimply chat with it and get your UI task as a composable API - fully managed, self-healing and self-evolving!",
+      "one_liner": "RamAIn - AI Employees with a computer to perform business tasks just…",
+      "long_description": "RamAIn Employees join your team just like a human. Teach them to work across systems just like a new hire and watch them work autonomously to do the work 24/7. ",
       "website": "https://ramain.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Robotic Process Automation",
-        "Automation"
+        "Automation",
+        "AI"
       ],
-      "team_size": 4,
+      "team_size": 7,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1767663208
@@ -19909,6 +19972,27 @@
       "location": "Olathe, KS, USA",
       "status": "Active",
       "launched_at": 1752017595
+    },
+    {
+      "slug": "reconero",
+      "name": "Reconero",
+      "batch": "Fall 2026",
+      "one_liner": "Reconero helps police officers automate their workflows with AI",
+      "long_description": "Officers join the force to protect their communities, yet over 40% of their day is eaten by paperwork that keeps them behind a desk. The burden reaches beyond lost time. Burnout is driving officers out of the force, leaving those who remain carrying an even heavier workload.\r\n\r\nReconero is built to give that time back. By automating reports, forms, analytics, and more, we help officers finish their administrative paperwork faster, spend more time serving their communities, and protect the time they have with their families.",
+      "website": "https://reconero.com",
+      "industries": [
+        "Government"
+      ],
+      "tags": [
+        "SaaS",
+        "GovTech",
+        "Data Visualization",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1791833877
     },
     {
       "slug": "red-barn-robotics",
@@ -21721,6 +21805,26 @@
       "launched_at": 1774901696
     },
     {
+      "slug": "sherpa-labs",
+      "name": "Sherpa Labs",
+      "batch": "Winter 2025",
+      "one_liner": "Frontier Data",
+      "long_description": "",
+      "website": "https://www.sherpalabs.ai",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Reinforcement Learning",
+        "Data Labeling",
+        "AI"
+      ],
+      "team_size": 5,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1737526775
+    },
+    {
       "slug": "shielded",
       "name": "Shielded",
       "batch": "Summer 2026",
@@ -22048,6 +22152,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1786468833
+    },
+    {
+      "slug": "sintem",
+      "name": "Sintem",
+      "batch": "Fall 2026",
+      "one_liner": "Agentic phones for teams",
+      "long_description": "We make agentic phones for teams. Each phone runs our new agentic operating system with an army of agents that proactively work across the tools your team already uses and take care of the routine work. \r\n\r\nYour best people get even more done and spend less time on their screens.",
+      "website": "https://sintem.co",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Telecommunications"
+      ],
+      "team_size": 1,
+      "location": "BY, Germany",
+      "status": "Active",
+      "launched_at": 1791832761
     },
     {
       "slug": "sinter-systems",
@@ -22531,7 +22655,7 @@
       "name": "Spine",
       "batch": "Fall 2026",
       "one_liner": "We run benefits, payroll & compliance for startups, for free",
-      "long_description": "Spine runs benefits, payroll, and compliance for startups for free.\r\n\r\nWe do the work by giving teams dedicated senior HR and benefits specialists who operate on top of their existing HRIS (Rippling, Deel, Gusto, ADP). We help companies find better-fit, more cost-effective health plans - reducing healthcare costs by around 15% on average - while running payroll, handling compliance, managing open enrollment, and supporting employees directly in Slack.\r\n\r\n30+ startups already use Spine to lower healthcare costs and take hours of back-office work off their teams. Learn more at joinspine.ai",
+      "long_description": "Spine runs benefits, payroll, and compliance for startups for free.\r\n\r\nWe do the work by giving teams dedicated senior HR and benefits specialists who operate on top of their existing HRIS (Rippling, Deel, Gusto, ADP). We help companies find better-fit, more cost-effective health plans - reducing healthcare costs by around 15% on average - while running payroll, handling compliance, managing open enrollment, and supporting employees directly in Slack.\r\n\r\n30+ startups already use Spine to lower healthcare costs and take hours of back-office work off their teams. Learn more at joinspine.ai or email onur@joinspine.ai",
       "website": "https://www.joinspine.ai/",
       "industries": [
         "B2B",
@@ -23456,7 +23580,7 @@
         "Recruiting and Talent"
       ],
       "tags": [
-        "AI",
+        "Artificial Intelligence",
         "Careers",
         "Conversational AI"
       ],
@@ -24609,8 +24733,8 @@
       "slug": "traceroot-ai",
       "name": "TraceRoot.AI",
       "batch": "Summer 2025",
-      "one_liner": "Open source self-improving layer for AI agents",
-      "long_description": "TraceRoot is the open-source self-improving layer for AI agents — observability that detects failures in production, root-causes them against your source code and GitHub history, opens verified fix PRs, and evals every fix — so your agent gets better with every release.",
+      "one_liner": "Open Source AI Agent Improvement Platform",
+      "long_description": "TraceRoot is the open-source AI agent improvement platform. Turn production traces into actionable feedback and evals, closing the improvement loop with your coding agent.",
       "website": "https://traceroot.ai",
       "industries": [
         "B2B",

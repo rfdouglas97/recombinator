@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-11T18:36:54.140Z",
+  "generated_at": "2026-10-12T21:59:39.242Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1566,
-    "mapped_verticals": 249,
-    "observed_cells": 499,
+    "assignment_count": 1572,
+    "mapped_verticals": 250,
+    "observed_cells": 500,
     "total_verticals": 525,
     "gap_candidates": 835
   },
@@ -188,6 +188,7 @@
         "compresr",
         "contextdev",
         "egoist-machines",
+        "expand-ai",
         "fiber-ai",
         "financial-datasets",
         "glen",
@@ -214,6 +215,7 @@
         "parse-bot",
         "perseus",
         "ploid",
+        "pomerado",
         "rindler",
         "screenpipe",
         "shepherd-3",
@@ -606,6 +608,31 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.defense.drones",
+      "vertical_label": "Defense drone & UAS operations",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "9-mothers-corporation",
+        "aice",
+        "albacore-inc",
+        "aviern",
+        "earendil-robotics",
+        "greypoint-industries",
+        "impact-drones",
+        "isengard-industries-inc",
+        "keres",
+        "maquoketa-research",
+        "notus-autonomous-systems",
+        "ornadyne",
+        "polemos-industries",
+        "seeing-systems",
+        "splash-inc",
+        "streamline-systems"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "logistics.supply-chain.ops",
@@ -676,30 +703,6 @@
         "sila",
         "supafax",
         "vela"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.defense.drones",
-      "vertical_label": "Defense drone & UAS operations",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "9-mothers-corporation",
-        "aice",
-        "albacore-inc",
-        "aviern",
-        "earendil-robotics",
-        "greypoint-industries",
-        "impact-drones",
-        "isengard-industries-inc",
-        "keres",
-        "maquoketa-research",
-        "notus-autonomous-systems",
-        "ornadyne",
-        "seeing-systems",
-        "splash-inc",
-        "streamline-systems"
       ]
     },
     {
@@ -1033,6 +1036,22 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "ai-infrastructure.agent-telecom",
+      "vertical_label": "Agent telecommunications infrastructure",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "altur",
+        "carecycle",
+        "certus-ai",
+        "codyco",
+        "flai",
+        "geo-ai",
+        "sintem"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "ai-infrastructure.qa-testing",
       "vertical_label": "Software QA & test automation",
       "sector_id": "enterprise-software",
@@ -1156,21 +1175,6 @@
         "pax-historia",
         "playablai",
         "pops"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.agent-telecom",
-      "vertical_label": "Agent telecommunications infrastructure",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "altur",
-        "carecycle",
-        "certus-ai",
-        "codyco",
-        "flai",
-        "geo-ai"
       ]
     },
     {
@@ -2967,6 +2971,17 @@
       ]
     },
     {
+      "business_model": "BM-11",
+      "business_model_label": "Defense / gov-critical infrastructure",
+      "vertical_id": "government.govtech.ops",
+      "vertical_label": "Government operations & GovTech",
+      "sector_id": "government-public",
+      "companies": [
+        "reconero",
+        "stratum-industries"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.payer.care-management",
@@ -3880,6 +3895,16 @@
       ]
     },
     {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "defense.weapons-testing",
+      "vertical_label": "Weapons system testing & qualification",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "chempilotai"
+      ]
+    },
+    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "devtools.build-optimization",
@@ -4677,16 +4702,6 @@
       "sector_id": "media-entertainment",
       "companies": [
         "pokerclubhub"
-      ]
-    },
-    {
-      "business_model": "BM-11",
-      "business_model_label": "Defense / gov-critical infrastructure",
-      "vertical_id": "government.govtech.ops",
-      "vertical_label": "Government operations & GovTech",
-      "sector_id": "government-public",
-      "companies": [
-        "stratum-industries"
       ]
     },
     {
