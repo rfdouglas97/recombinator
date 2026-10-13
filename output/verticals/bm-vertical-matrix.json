@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-12T21:59:39.242Z",
+  "generated_at": "2026-10-13T20:04:55.589Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1572,
+    "assignment_count": 1578,
     "mapped_verticals": 250,
-    "observed_cells": 500,
+    "observed_cells": 502,
     "total_verticals": 525,
     "gap_candidates": 835
   },
@@ -772,6 +772,27 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "enterprise.devtools.productivity",
+      "vertical_label": "Developer productivity & engineering tools",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "aemon",
+        "alkera-ai",
+        "ara",
+        "artifact-2",
+        "aurorin-cad",
+        "compyle",
+        "deep-interactions",
+        "gradon",
+        "lab0",
+        "lightsprint",
+        "rev1",
+        "rovr"
+      ]
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "enterprise.ops.process-automation",
@@ -790,26 +811,6 @@
         "tandem-2",
         "tenor",
         "trope"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "aemon",
-        "alkera-ai",
-        "ara",
-        "artifact-2",
-        "aurorin-cad",
-        "compyle",
-        "deep-interactions",
-        "lab0",
-        "lightsprint",
-        "rev1",
-        "rovr"
       ]
     },
     {
@@ -1210,6 +1211,21 @@
     {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "devtools.cost-optimization",
+      "vertical_label": "Cloud resource optimization & cost management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "carrot-labs",
+        "caveman",
+        "conifer",
+        "mentlio",
+        "quotient-labs",
+        "theta"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "devtools.security-scanning",
       "vertical_label": "Static & dynamic application security testing",
       "sector_id": "enterprise-software",
@@ -1264,20 +1280,6 @@
         "parsewise",
         "surface-labs",
         "wildcard"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "devtools.cost-optimization",
-      "vertical_label": "Cloud resource optimization & cost management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "carrot-labs",
-        "conifer",
-        "mentlio",
-        "quotient-labs",
-        "theta"
       ]
     },
     {
@@ -1617,6 +1619,19 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.provider.prior-authorization",
+      "vertical_label": "Prior authorization & utilization review",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "claimglide",
+        "janeen",
+        "locata",
+        "ruma-care"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.provider.scheduling-capacity",
       "vertical_label": "Provider scheduling & capacity optimization",
       "sector_id": "healthcare-life-sciences",
@@ -1755,6 +1770,19 @@
         "epicenter",
         "palmier",
         "pocket"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "robotics.simulation-digital-twin",
+      "vertical_label": "Robotic digital twin & offline simulation",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "hemlock",
+        "one-robot",
+        "runtimesi",
+        "the-robot-learning-company"
       ]
     },
     {
@@ -2181,18 +2209,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.provider.prior-authorization",
-      "vertical_label": "Prior authorization & utilization review",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "claimglide",
-        "locata",
-        "ruma-care"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.provider.revenue-integrity",
       "vertical_label": "Revenue integrity & denial management",
       "sector_id": "healthcare-life-sciences",
@@ -2416,18 +2432,6 @@
         "advanced-metal-research",
         "hundred",
         "salem-robotics-inc"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "robotics.simulation-digital-twin",
-      "vertical_label": "Robotic digital twin & offline simulation",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "hemlock",
-        "one-robot",
-        "the-robot-learning-company"
       ]
     },
     {
@@ -3735,6 +3739,16 @@
       ]
     },
     {
+      "business_model": "BM-07",
+      "business_model_label": "Marketplace / network",
+      "vertical_id": "consumer.finance.peer-lending",
+      "vertical_label": "Peer-to-peer lending marketplace & underwriting",
+      "sector_id": "consumer",
+      "companies": [
+        "godpack"
+      ]
+    },
+    {
       "business_model": "BM-05",
       "business_model_label": "Fintech / insurance product",
       "vertical_id": "consumer.finance.peer-lending",
@@ -4712,6 +4726,16 @@
       "sector_id": "healthcare-life-sciences",
       "companies": [
         "astraea"
+      ]
+    },
+    {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "healthcare.clinical.trials-data",
+      "vertical_label": "Clinical trial data & biometrics",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "sutrix"
       ]
     },
     {

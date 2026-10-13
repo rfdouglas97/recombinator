@@ -1,46 +1,112 @@
 {
-  "checked_at": "2026-10-12T21:59:38.416Z",
+  "checked_at": "2026-10-13T20:04:54.733Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 3,
-  "new_count": 3,
-  "skipped_count": 927,
+  "checked_count": 5,
+  "new_count": 5,
+  "skipped_count": 925,
   "ingest": {
-    "addedCompanies": 1,
-    "enrichedCompanies": 2
+    "addedCompanies": 0,
+    "enrichedCompanies": 5
   },
   "summary": {
-    "conforming": 2,
-    "partial": 1,
+    "conforming": 1,
+    "partial": 4,
     "non_conforming": 0,
-    "would_have_predicted": 2,
-    "surprise": 1,
+    "would_have_predicted": 4,
+    "surprise": 0,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 121221,
-        "company_slug": "frontrunner",
-        "company_name": "Frontrunner",
-        "launch_url": "https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm",
-        "created_at": "2026-10-12T16:00:00.063Z"
+        "launch_id": 121747,
+        "company_slug": "saccade",
+        "company_name": "Saccade",
+        "launch_url": "https://www.ycombinator.com/launches/Vff-saccade-world-s-earliest-test-for-alzheimer-s-biomarkers",
+        "created_at": "2026-10-13T18:00:00.187Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-12T21:59:26.499Z",
-        "launch_id": 121221,
-        "company_slug": "frontrunner",
+        "evaluated_at": "2026-10-13T20:04:53.390Z",
+        "launch_id": 121747,
+        "company_slug": "saccade",
         "taxonomy": {
-          "conformance_index": 78,
-          "verdict": "conforming",
+          "conformance_index": 59,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 0,
+              "band": "weak"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-09",
+            "vertical_id": "healthcare.medtech.devices",
+            "phenotype_primary_id": "biotech-rd-agent",
+            "cell_key": "BM-09::healthcare.medtech.devices::biotech-rd-agent",
+            "business_model_label": "Biotech / R&D platform",
+            "vertical_label": "Medical devices & diagnostics",
+            "phenotype_label": "Biotech / clinical R&D acceleration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "occupied_first",
+          "signals": [
+            "first_occupant_of_cell"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 121714,
+        "company_slug": "gradon",
+        "company_name": "Gradon",
+        "launch_url": "https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms",
+        "created_at": "2026-10-13T17:00:00.164Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-13T20:04:53.391Z",
+        "launch_id": 121714,
+        "company_slug": "gradon",
+        "taxonomy": {
+          "conformance_index": 51,
+          "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
               "score": 65,
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
+              "score": 5,
+              "band": "weak"
             },
             "business_model_fit": {
               "score": 70,
@@ -51,25 +117,23 @@
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 80,
-              "band": "strong"
+              "score": 44,
+              "band": "weak"
             }
           },
           "cell": {
             "business_model": "BM-01",
-            "vertical_id": "enterprise.sales.enablement",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::enterprise.sales.enablement::vertical-workflow-agent",
+            "vertical_id": "enterprise.ops.process-automation",
+            "phenotype_primary_id": "vertical-workflow-automation-ai",
+            "cell_key": "BM-01::enterprise.ops.process-automation::vertical-workflow-automation-ai",
             "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Sales enablement & execution",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+            "vertical_label": "Cross-industry process automation",
+            "phenotype_label": "Vertical Workflow Automation Agent"
           }
         },
         "predictor": {
           "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
+          "signals": [],
           "cell_was_whitespace": false,
           "ranked_gap": null,
           "synthetic_match": null,
@@ -78,99 +142,34 @@
           "retro_transfer_band": "acceptable",
           "would_have_been_predicted": true
         },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 121522,
-        "company_slug": "expand-ai",
-        "company_name": "expand.ai",
-        "launch_url": "https://www.ycombinator.com/launches/Vc2-expand-fetch-reading-glasses-for-your-ai-agent",
-        "created_at": "2026-10-12T00:25:58.796Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-12T21:59:36.733Z",
-        "launch_id": 121522,
-        "company_slug": "expand-ai",
-        "taxonomy": {
-          "conformance_index": 58,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 4,
-              "band": "weak"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 96,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 75,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.agent-context-web",
-            "phenotype_primary_id": "agent-context-data",
-            "cell_key": "BM-03::ai-infrastructure.agent-context-web::agent-context-data",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Agent web context & data enrichment",
-            "phenotype_label": "Agent context & web/data enrichment API"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "unclassified_new_company"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
         "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
         ]
       }
     },
     {
       "launch": {
-        "launch_id": 121520,
-        "company_slug": "trelium",
-        "company_name": "Trelium",
-        "launch_url": "https://www.ycombinator.com/launches/Vc0-paul-by-trelium",
-        "created_at": "2026-10-11T22:23:55.414Z"
+        "launch_id": 121621,
+        "company_slug": "native",
+        "company_name": "Native",
+        "launch_url": "https://www.ycombinator.com/launches/Vdd-native-artificial-intuition-for-marketing",
+        "created_at": "2026-10-13T16:00:00.176Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-12T21:59:36.735Z",
-        "launch_id": 121520,
-        "company_slug": "trelium",
+        "evaluated_at": "2026-10-13T20:04:53.393Z",
+        "launch_id": 121621,
+        "company_slug": "native",
         "taxonomy": {
-          "conformance_index": 72,
-          "verdict": "conforming",
+          "conformance_index": 70,
+          "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
               "score": 65,
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 85,
+              "score": 75,
               "band": "strong"
             },
             "business_model_fit": {
@@ -188,17 +187,89 @@
           },
           "cell": {
             "business_model": "BM-01",
-            "vertical_id": "ai-infrastructure.agent-runtime",
+            "vertical_id": "marketing.marketing-automation-ops",
             "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::ai-infrastructure.agent-runtime::vertical-workflow-agent",
+            "cell_key": "BM-01::marketing.marketing-automation-ops::vertical-workflow-agent",
             "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Agent runtime & orchestration",
+            "vertical_label": "Marketing automation platform administration",
             "phenotype_label": "Vertical AI workflow agent (AI department for X)"
           }
         },
         "predictor": {
           "predictability_band": "plausible",
-          "signals": [],
+          "signals": [
+            "ranked_gap:rank=364,score=13"
+          ],
+          "cell_was_whitespace": true,
+          "ranked_gap": {
+            "rank": 364,
+            "opportunity_score": 13,
+            "transfer_score": 89
+          },
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 66,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 121642,
+        "company_slug": "inflection-space-systems",
+        "company_name": "Inflection Space Systems",
+        "launch_url": "https://www.ycombinator.com/launches/Vdy-inflection-space-systems-hyperscaling-spacecraft-manufacturing-10-000-year",
+        "created_at": "2026-10-13T15:00:00.132Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-13T20:04:53.395Z",
+        "launch_id": 121642,
+        "company_slug": "inflection-space-systems",
+        "taxonomy": {
+          "conformance_index": 76,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 75,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "industrials.aviation.space",
+            "phenotype_primary_id": "ai-enabled-physical-systems",
+            "cell_key": "BM-08::industrials.aviation.space::ai-enabled-physical-systems",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Space & satellite systems",
+            "phenotype_label": "AI-enabled physical infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
           "cell_was_whitespace": false,
           "ranked_gap": null,
           "synthetic_match": null,
@@ -208,6 +279,70 @@
           "would_have_been_predicted": true
         },
         "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 121625,
+        "company_slug": "conus",
+        "company_name": "CONUS",
+        "launch_url": "https://www.ycombinator.com/launches/Vdh-conus-f26-the-ai-knowledge-layer-for-medical-devices",
+        "created_at": "2026-10-13T14:00:00.117Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-13T20:04:53.396Z",
+        "launch_id": 121625,
+        "company_slug": "conus",
+        "taxonomy": {
+          "conformance_index": 68,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-07",
+            "vertical_id": "healthcare.medtech.hospital-procurement",
+            "phenotype_primary_id": "marketplace-network-ai",
+            "cell_key": "BM-07::healthcare.medtech.hospital-procurement::marketplace-network-ai",
+            "business_model_label": "Marketplace / network",
+            "vertical_label": "Hospital procurement & medical device contracting",
+            "phenotype_label": "Marketplace / exchange / liquidity network"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
       }
     }
   ]

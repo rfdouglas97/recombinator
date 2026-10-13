@@ -17130,6 +17130,56 @@
     "launch_evaluated_at": "2026-08-05T16:01:32.297Z"
   },
   {
+    "slug": "caveman",
+    "name": "Caveman",
+    "website": "https://caveman.so",
+    "yc_profile_url": "https://www.ycombinator.com/companies/caveman",
+    "batch": "Fall 2026",
+    "one_liner": "Caveman cuts what AI agents cost without making them dumber.",
+    "description_combined": "Caveman cuts what AI agents cost without making them dumber.\n\nCaveman is the optimization stack for AI agents. It observes real agent workloads, finds cost and performance inefficiencies, tests improvements, and safely deploys the ones that work.",
+    "industry_sub_vertical": "AI agent inference cost optimization & performance tuning",
+    "canonical_vertical_id": "devtools.cost-optimization",
+    "vertical_id": "devtools.cost-optimization",
+    "vertical_label": "Cloud resource optimization & cost management",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "cost_optimization",
+      "performance_tuning",
+      "workload_observability",
+      "safe_deployment_automation"
+    ],
+    "what_they_sell": "An optimization stack that observes live agent workloads, identifies cost and performance inefficiencies, tests improvements autonomously, and safely deploys optimizations without degrading agent quality.",
+    "ai_play": "Uses AI/ML to analyze agent execution patterns, predict optimization impact, and automate the test-and-deploy cycle. Replaces manual prompt engineering and cost-tuning with continuous, data-driven optimization loops.",
+    "who_pays": "AI engineers and platform teams building or operating multi-agent systems; companies with high agent inference costs seeking to reduce spend without sacrificing capability.",
+    "confidence": 0.78,
+    "rationale": "Caveman is developer-facing infrastructure for agent cost/performance optimization. Primary fit is agent-runtime-infra (cost optimization, reliability, tool routing for agents). Secondary fit is model-optimization-rl (automated tuning via feedback loops). Open-source + commercial model aligns with developer GTM. Not a vertical workflow agent (not selling domain automation) or observability tool (not just tracing/evals—actively optimizes). Core value is reducing agent TCO while maintaining quality.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "Open Source",
+      "Infrastructure",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 1,
+    "location": "Amsterdam, NH, Netherlands",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-10-13T20:03:46.193Z",
+    "classified_at": "2026-10-13T20:03:46.193Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "cedar",
     "name": "Cedar",
     "website": "https://mail.cedarcopilot.com/",
@@ -22002,7 +22052,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/conus",
     "batch": "Fall 2026",
     "one_liner": "The AI knowledge layer for medical devices",
-    "description_combined": "The AI knowledge layer for medical devices\n\nCONUS is the AI knowledge layer for surgery, connecting medical device manufacturers with hospitals. We bring product information, hospital protocols and medical research together, helping doctors and sales reps find answers in seconds.\r\n\r\nWe already work with leading manufacturers including Johnson & Johnson, Stryker and Zimmer Biomet. Our long-term ambition is to let hospitals select and order implants from all manufacturers on one platform: Amazon for implants, embedded in the surgical workflow.",
+    "description_combined": "The AI knowledge layer for medical devices\n\nCONUS is the AI knowledge layer for surgery, connecting medical device manufacturers with hospitals. We bring product information, hospital protocols and medical research together, helping doctors and sales reps find answers in seconds.\r\n\r\nWe already work with leading manufacturers including Johnson & Johnson, Stryker and Zimmer Biomet. Our long-term ambition is to let hospitals select and order implants from all manufacturers on one platform: Amazon for implants, embedded in the surgical workflow.\n\nWe structure fragmented medical device information for surgeons.\n\n## Surgery is complex. Finding answers shouldn't be.\n\nModern surgery relies on complex implants and instruments. But manufacturer instructions, surgical techniques and hospital protocols are scattered across PDFs, portals and disconnected systems.\n\nFor a single procedure, surgeons may need to navigate multiple sources just to find the relevant information.\n\nThe knowledge exists. It just has no common home.\n\n## How CONUS works\n\nCONUS brings medical device knowledge into one place.\n\nSurgeons can select a procedure, see which implant systems are available at their hospital and access manufacturer instructions, surgical techniques and hospital protocols.\n\n\n\nFor medical device manufacturers, CONUS provides a shared platform to make their product knowledge accessible to surgeons and equip field ",
     "industry_sub_vertical": "Surgical device selection & procurement workflow integration",
     "canonical_vertical_id": "healthcare.medtech.hospital-procurement",
     "vertical_id": "healthcare.medtech.hospital-procurement",
@@ -22086,7 +22136,13 @@
     ],
     "directory_synced_at": "2026-09-29T19:07:04.128Z",
     "classified_at": "2026-09-29T19:07:04.128Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 121625,
+    "launch_url": "https://www.ycombinator.com/launches/Vdh-conus-f26-the-ai-knowledge-layer-for-medical-devices",
+    "launch_title": "CONUS (F26): The AI Knowledge Layer for Medical Devices",
+    "launch_created_at": "2026-10-13T14:00:00.117Z",
+    "launch_tagline": "We structure fragmented medical device information for surgeons.",
+    "launch_evaluated_at": "2026-10-13T20:04:54.630Z"
   },
   {
     "slug": "convexia",
@@ -36786,6 +36842,85 @@
     }
   },
   {
+    "slug": "godpack",
+    "name": "Godpack",
+    "website": "https://godpack.gg/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/godpack",
+    "batch": "Winter 2027",
+    "one_liner": "100% EV fair gacha",
+    "description_combined": "100% EV fair gacha",
+    "industry_sub_vertical": "Digital collectibles peer-to-peer trading marketplace",
+    "canonical_vertical_id": "consumer.finance.peer-lending",
+    "vertical_id": "consumer.finance.peer-lending",
+    "vertical_label": "Peer-to-peer lending marketplace & underwriting",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "marketplace-network-ai",
+    "phenotype_primary_label": "Marketplace / exchange / liquidity network",
+    "phenotype_family": "network",
+    "value_wedge": "network_effects",
+    "ai_application": "matching_routing",
+    "ai_application_patterns": [
+      "marketplace_matching",
+      "fair_pricing",
+      "liquidity_optimization"
+    ],
+    "what_they_sell": "Two-sided marketplace for trading digital collectibles (gacha items) with guaranteed fair odds and transparent pricing mechanisms.",
+    "ai_play": "AI-driven pricing engine and matching algorithm to ensure fair valuation of collectibles, optimize liquidity between buyers/sellers, and prevent market manipulation in gacha trading.",
+    "who_pays": "Gamers and collectors buying/selling digital assets; platform takes transaction fees.",
+    "confidence": 0.65,
+    "rationale": "Godpack is a consumer-facing two-sided marketplace for trading gaming collectibles ('gacha' items). The 'fair' positioning suggests algorithmic fairness/pricing as a core differentiator. Primary phenotype is marketplace-network-ai (trading venue, liquidity matching, network effects). Secondary is consumer-ai-app (end-user app). Confidence is moderate (0.65) because the description is minimal and doesn't explicitly confirm AI involvement in pricing/matching — but the 'fair gacha' claim and marketplace structure strongly suggest algorithmic fairness/valuation as the AI play. If AI is NOT core to their offering (just a standard marketplace), confidence drops further.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [
+      "Marketplace",
+      "Consumer",
+      "Trading"
+    ],
+    "business_models": [
+      "BM-07"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2530388,
+        "full_name": "William Yu",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "CEO at Godpack // prev. QFEX, Kalshi, hs dropout",
+        "linkedin_url": "https://www.linkedin.com/in/wlyu/",
+        "twitter_url": "https://x.com/hft_larp",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f90f42dc6bd611512d81ceae4098ea624a1d8d53.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJDFWHWBL%2F20261013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261013T200415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBHEORPqY%2FtskKnxD4SZQEuDMz4u1IngEG6xmPwjAilgAiEA98%2BZKZPZbL8Z7I%2FtEWVMDLdOwiprynYm6kojw1qW8xsq7gMIpP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDK5SII%2Bwwjx%2Fu3rKZSrCA5IYfPfvA9k%2Bu2MgasrsZGhCcTw9wasXbboToTNm5QcquLSEVZi1jiQtq8lu0gv5mDoU%2BuIlmIZMrvzsKtRakfOiomooJR8Ed1FkMejlDFOeL132A9QxJOpFwHowmkK8vZhpmVgWztv4ysM6xlvkw7SB2l1iv49QcNfD8oLLOUYhr4m%2BAfy89uykUtaCCHBNqb%2B7J7Z1002svl6gsNmtYcfA%2FBVXNX33tFnvunNCLSwJVdp%2BJt0WnSq5AR2ZDT7UPwRkapyJ0XAsQFkD2wlp1wYkjE2YqZjwWNMKUs1cNZPG1yNMagUAZh%2BsswfNNGyfQqDozudRUBrPoifOVIODjPxDKxKvyuJYlV3r7%2Fp%2BdGgeLlsVE6fupP6WpSSnUTyo%2BVz6snh8BdeTk05KGPs1q6s33Uj41PPyrGOX6OhqtWCPmln306F%2Fmcz92pG2x3AoGBBEumcWPsVOXsup2oK0GT9wI1CjM1CsvNQEEtlXQDZHs2yuHW5dMkC%2BE9cOTw1TlvVdhd5bdZ%2FvqJq20YTiBxdmZFIn%2BSbGjZeiMa6f67eTqlzruHorYFb5B3B9zdRIWeJc7br9QDCm7t%2FQGdUxMKjhRDCHkbrWBjqlARgCamIe8zgbNhbvAfNsySxrBmaffpDQMngDDxgnH9rtR0siF0%2FG74hxPP9QYRV7IGsqBLHJbKFF%2F2ttLcGKWXdILw3cZzrVgqM7i9Dw9yBtwvh4Qo9QsDXes0xu%2BAodKPzfB9fkdTlrSQcVVX43%2BV1BLUD5NE6d9nWTFFdSkIrGmX%2Ft19D4wN1hcex%2BGILqG9Tptx3jo7w5rL%2FmXKJfDAbOCmTJDQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1de6a8f61bc8fc7b6b031c7bb2f530ec826ef50d82538c1a2ec2dacc27342a75",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Godpack",
+          "href": "https://www.ycombinator.com/companies/godpack"
+        }
+      },
+      {
+        "user_id": 3113618,
+        "full_name": "Samyak Jain",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "CTO at Godpack",
+        "linkedin_url": "https://www.linkedin.com/in/skjn/",
+        "twitter_url": "https://x.com/samyaksimulates",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/126281640c788104828b8bd4722a5371c201450f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJDFWHWBL%2F20261013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261013T200415Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBHEORPqY%2FtskKnxD4SZQEuDMz4u1IngEG6xmPwjAilgAiEA98%2BZKZPZbL8Z7I%2FtEWVMDLdOwiprynYm6kojw1qW8xsq7gMIpP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDK5SII%2Bwwjx%2Fu3rKZSrCA5IYfPfvA9k%2Bu2MgasrsZGhCcTw9wasXbboToTNm5QcquLSEVZi1jiQtq8lu0gv5mDoU%2BuIlmIZMrvzsKtRakfOiomooJR8Ed1FkMejlDFOeL132A9QxJOpFwHowmkK8vZhpmVgWztv4ysM6xlvkw7SB2l1iv49QcNfD8oLLOUYhr4m%2BAfy89uykUtaCCHBNqb%2B7J7Z1002svl6gsNmtYcfA%2FBVXNX33tFnvunNCLSwJVdp%2BJt0WnSq5AR2ZDT7UPwRkapyJ0XAsQFkD2wlp1wYkjE2YqZjwWNMKUs1cNZPG1yNMagUAZh%2BsswfNNGyfQqDozudRUBrPoifOVIODjPxDKxKvyuJYlV3r7%2Fp%2BdGgeLlsVE6fupP6WpSSnUTyo%2BVz6snh8BdeTk05KGPs1q6s33Uj41PPyrGOX6OhqtWCPmln306F%2Fmcz92pG2x3AoGBBEumcWPsVOXsup2oK0GT9wI1CjM1CsvNQEEtlXQDZHs2yuHW5dMkC%2BE9cOTw1TlvVdhd5bdZ%2FvqJq20YTiBxdmZFIn%2BSbGjZeiMa6f67eTqlzruHorYFb5B3B9zdRIWeJc7br9QDCm7t%2FQGdUxMKjhRDCHkbrWBjqlARgCamIe8zgbNhbvAfNsySxrBmaffpDQMngDDxgnH9rtR0siF0%2FG74hxPP9QYRV7IGsqBLHJbKFF%2F2ttLcGKWXdILw3cZzrVgqM7i9Dw9yBtwvh4Qo9QsDXes0xu%2BAodKPzfB9fkdTlrSQcVVX43%2BV1BLUD5NE6d9nWTFFdSkIrGmX%2Ft19D4wN1hcex%2BGILqG9Tptx3jo7w5rL%2FmXKJfDAbOCmTJDQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=554a0bd8d12bcd1c3fafc600b86793ba1905a10bac83dae8b2a99b3ab060e2b3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Godpack",
+          "href": "https://www.ycombinator.com/companies/godpack"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-13T20:04:23.117Z",
+    "classified_at": "2026-10-13T20:04:23.117Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "gojiberry-ai",
     "name": "Gojiberry AI",
     "website": "https://www.gojiberry.ai",
@@ -37285,6 +37420,93 @@
       "vertical_id": "payments.payroll-disbursement",
       "industry_sub_vertical": "Performance-based payroll API for AI agents & contractors"
     }
+  },
+  {
+    "slug": "gradon",
+    "name": "Gradon",
+    "website": "https://heygradon.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/gradon",
+    "batch": "Fall 2026",
+    "one_liner": "Legora for AEC (Architecture, Engineering, & Construction) firms",
+    "description_combined": "Legora for AEC (Architecture, Engineering, & Construction) firms\n\nGradon is Legora for the firms that design the world&#x27;s buildings and infrastructure. Every road, bridge, water system and building starts with engineers, and there aren&#x27;t nearly enough of them for everything the world needs to build. \r\n\r\nGradon works across every workflow and tool an engineering firm runs on, from CAD design and calculations to full plan sets, and firms using it today have decreased average project times by more than 75%. We&#x27;re building the platform that makes every engineer a 10x engineer, and with it, how the world gets built.\n\nThe AI partner that makes every engineer 10x.\n\nHey everyone 👋 We're Nour and Yousef, co-founders of Gradon.\n\nTL;DR: Gradon is the AI partner for AEC (Architecture, Engineering, Construction) firms. Engineers send it work the way they'd message a teammate, and it works across every workflow and tool the firm runs on, from CAD design and calculations, to reports and full plan sets. Firms using it today have decreased average project times by more than 75%.\n\n\n\n### How Gradon Works\n\n* Message it like a teammate. Type or talk to it, or share your screen and walk it through a problem. It takes the task from there.\n* It works the firm's way. Before Gradon ever touches a project, a firm brain is built, that learns the firm's past work and standards, so everything comes out just the way their team would do it.\n* It works inside their tools, fr",
+    "industry_sub_vertical": "AEC engineering workflow automation for design, calculations, and plan generation",
+    "canonical_vertical_id": "enterprise.ops.process-automation",
+    "vertical_id": "enterprise.ops.process-automation",
+    "vertical_label": "Cross-industry process automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-workflow-automation-ai",
+    "phenotype_primary_label": "Vertical Workflow Automation Agent",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "document_parsing_cad",
+      "multi_tool_orchestration",
+      "design_automation",
+      "expert_knowledge_augmentation"
+    ],
+    "what_they_sell": "End-to-end AI agent platform that automates engineering workflows across CAD design, calculations, and plan set generation for AEC firms. Integrates with existing design tools and reduces project timelines by 75%+.",
+    "ai_play": "AI agents parse architectural/engineering specifications, CAD files, and regulatory requirements to autonomously generate design iterations, calculations, and compliant plan sets. Replaces manual, detail-intensive design work and acts as a 10x multiplier for scarce engineering talent.",
+    "who_pays": "Architecture, engineering, and construction firms (project managers, design leads, principals)",
+    "confidence": 0.82,
+    "rationale": "Gradon is a vertical workflow automation agent targeting AEC. Primary fit: vertical-workflow-automation-ai (parses domain documents like CAD/specs, integrates with existing tools, automates end-to-end design workflows, high switching cost via tool integration). Secondary fit: domain-expert-replacement-agent (replaces scarce, expensive engineering expertise with AI agents trained on design standards and calculations). The 75% project time reduction and 'every engineer a 10x engineer' positioning confirms workflow replacement + expertise scarcity resolution. Not a horizontal copilot (vertical-specific, not cross-industry). Not a consulting service (product-first, not labor-based). Confidence 0.82 due to clear vertical focus and workflow automation pattern; slight discount because website lacks explicit agent/automation language, but description and Legora comparison (which is agentic workflow automation) strongly support classification.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Construction",
+      "B2B"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2705364,
+        "full_name": "Nour Zahzah",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-Founder & CEO at Gradon (YC F26). MechE at UC Berkeley. Previously founded a company building in-store AI shopping assistants for retailers and did mechanical design for startups. Played professional academy soccer at SJ Earthquakes for 7 years. ",
+        "linkedin_url": "https://www.linkedin.com/in/nourzahzah",
+        "twitter_url": "https://x.com/nourzahzah",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8b85fea4ac10bda81aabb36b1cc583ed77d0bbe3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIX3KZ72D%2F20261013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261013T200404Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIC0eGH%2Fb8DVObTYOFbznAtNnoA139hfusCiDLY5dc8mjAiEA2eRott6v8mmc0C4P9MOb2rIbthKcva6bEhaod7E9ygkq7gMIpf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDLb%2Fc88%2BHw6lQG2uWSrCAzHsl6Uz5ckmJQicvOT7l%2Bb9oKC5Wbl8whMIvRUE2mkD7zCUM%2BvR122Cq7bS7jmZlh91h7e%2BZ9lAWHLyGRqNYzlRCD4s9D1SwhUpXsq5nV1NOBOvXHXbyhPwDm8uTyFpDP0%2B3c8B%2F0ekljr97npTUgj9R%2BcmkZlzASqzF08twS7Pc3JHPXg3CL0JaLq7Phsc0RTqlkTVqaGUmNOMOBGOdXgxJzCgqVlykNg7KRt89Lzs5uI4kjaHlhBRqlBWWCWqwjIHY8D42gHb9KXcc1hNVe60Pf3Db8rZ7TUKyFwdS085xhZIeOEvxyy8LjqFnTVCFK4Y8E8lJYKM1jnkLxQ%2FGoh53P84%2BdaFuHgem4%2BnUhokvR3j%2BLhYNwZfF0faL83Tc73kgXAFufweNfr8ybjL4FW690uJ1IwK6FQYC%2FOCKrLRllQ%2F3t4XRyko6yerxictOnv1JJwqKdyrtv9krmTlH4pVFEI6lo7dL5yDQcXmA06oJXfYdLjAxSoKTxBhKKqEAuX7daRaeshoRoVe2MDzeQ71oLFvHBj4hFQSnnwMjzgJjL%2BWGrWqcxAgihaSYYCWvo6Ag1%2FsAgNQxN4c2rno9qdI0TCGkbrWBjqlAfjDHno8VG8%2BTZLeDIFlFmAwebUNWql%2B08uh%2F%2BPfHgRbYJ7xkiHsEGAmbiHAtKvEY8Oyaf7xvyxB9AuJyustgGel53xWVWciHE%2B4qi27%2Fal89CMmf4a58wXcZt90xrFECC5axz5dchorTpMvNm9jNaJ9DY7NXYP7sc3ThuLB5xhmjFmWiF2jCO1P09z2uI0qvOfmiY2yxvhOu7HeOk3TcQXIInY9lQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e389640efa9ceb26798e12e6029a3861450ceab2bf42c279b7b75f3c4d530fe3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Gradon",
+          "href": "https://www.ycombinator.com/companies/gradon"
+        }
+      },
+      {
+        "user_id": 1301156,
+        "full_name": "Yousef Helal",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-Founder at Gradon (YC F26). I graduated top of my class from UC Berkeley at 19, and then went and got an MS from Stanford.\n\nI previously designed software and hardware at Apple (FPGA infrastructure) and AMD (Microblaze V), and then founded a startup building in-store AI shopping assistants for retailers. Before that, my teachings methods as a TA at Berkeley won awards and got published in a paper.",
+        "linkedin_url": "https://linkedin.com/in/yousef-helal",
+        "twitter_url": "https://x.com/yousefhll",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/18f62c8cc62917996227855f8991296782ecadab.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIX3KZ72D%2F20261013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261013T200404Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIC0eGH%2Fb8DVObTYOFbznAtNnoA139hfusCiDLY5dc8mjAiEA2eRott6v8mmc0C4P9MOb2rIbthKcva6bEhaod7E9ygkq7gMIpf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDLb%2Fc88%2BHw6lQG2uWSrCAzHsl6Uz5ckmJQicvOT7l%2Bb9oKC5Wbl8whMIvRUE2mkD7zCUM%2BvR122Cq7bS7jmZlh91h7e%2BZ9lAWHLyGRqNYzlRCD4s9D1SwhUpXsq5nV1NOBOvXHXbyhPwDm8uTyFpDP0%2B3c8B%2F0ekljr97npTUgj9R%2BcmkZlzASqzF08twS7Pc3JHPXg3CL0JaLq7Phsc0RTqlkTVqaGUmNOMOBGOdXgxJzCgqVlykNg7KRt89Lzs5uI4kjaHlhBRqlBWWCWqwjIHY8D42gHb9KXcc1hNVe60Pf3Db8rZ7TUKyFwdS085xhZIeOEvxyy8LjqFnTVCFK4Y8E8lJYKM1jnkLxQ%2FGoh53P84%2BdaFuHgem4%2BnUhokvR3j%2BLhYNwZfF0faL83Tc73kgXAFufweNfr8ybjL4FW690uJ1IwK6FQYC%2FOCKrLRllQ%2F3t4XRyko6yerxictOnv1JJwqKdyrtv9krmTlH4pVFEI6lo7dL5yDQcXmA06oJXfYdLjAxSoKTxBhKKqEAuX7daRaeshoRoVe2MDzeQ71oLFvHBj4hFQSnnwMjzgJjL%2BWGrWqcxAgihaSYYCWvo6Ag1%2FsAgNQxN4c2rno9qdI0TCGkbrWBjqlAfjDHno8VG8%2BTZLeDIFlFmAwebUNWql%2B08uh%2F%2BPfHgRbYJ7xkiHsEGAmbiHAtKvEY8Oyaf7xvyxB9AuJyustgGel53xWVWciHE%2B4qi27%2Fal89CMmf4a58wXcZt90xrFECC5axz5dchorTpMvNm9jNaJ9DY7NXYP7sc3ThuLB5xhmjFmWiF2jCO1P09z2uI0qvOfmiY2yxvhOu7HeOk3TcQXIInY9lQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=0b2762518090690ceccf214e2ebeb20fae57169707407cdb5a7dddd610a79141",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Gradon",
+          "href": "https://www.ycombinator.com/companies/gradon"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-13T20:04:15.161Z",
+    "classified_at": "2026-10-13T20:04:15.161Z",
+    "proposed_phenotype": null,
+    "launch_id": 121714,
+    "launch_url": "https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms",
+    "launch_title": "Gradon: Legora for AEC (Architecture, Engineering, & Construction) firms",
+    "launch_created_at": "2026-10-13T17:00:00.164Z",
+    "launch_tagline": "The AI partner that makes every engineer 10x.",
+    "launch_evaluated_at": "2026-10-13T20:04:54.630Z"
   },
   {
     "slug": "graphify-labs",
@@ -42526,7 +42748,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/inflection-space-systems",
     "batch": "Fall 2026",
     "one_liner": "Hyperscaling space manufacturing",
-    "description_combined": "Hyperscaling space manufacturing\n\nInflection is building the industrial capacity to manufacture tens of thousands of spacecraft per year for next generation commercial and government space applications. Imagine a factory that looks like an Amazon fulfillment center instead of a NASA clean room.",
+    "description_combined": "Hyperscaling space manufacturing\n\nInflection is building the industrial capacity to manufacture tens of thousands of spacecraft per year for next generation commercial and government space applications. Imagine a factory that looks like an Amazon fulfillment center instead of a NASA clean room.\n\nInflection Space Systems is mass manufacturing standardized spacecraft, and will manufacture 10,000 spacecraft per year by 2031.\n\nTL;DR: Mass manufacturing spacecraft using robots and terrestrial parts\n\n\n\nAt Inflection we are developing the industrial capacity to manufacture tens of thousands of spacecraft per year. Imagine a factory that looks more like an Amazon fulfillment center than a NASA-style clean room.\n\nThe Problem\n\nThere is a massive disparity between (1) humanity’s plans for space and (2) the manufacturing reality in the space sector. The human race has made about 30,000 spacecraft, _ever_. Next-gen space constellations like orbital data centers, Golden Dome, lunar infrastructure, and global D2D connectivity will require _hundreds of thousands_ of spacecraft to become reality. There are actual FCC filings for over 1M spacecraft. Inflection was founded to bridge this 970,000-spacecraft gap.\n\nWhat We’re Doi",
     "industry_sub_vertical": "Hyperscaled spacecraft manufacturing and satellite production",
     "canonical_vertical_id": "industrials.aviation.space",
     "vertical_id": "industrials.aviation.space",
@@ -42597,7 +42819,13 @@
     ],
     "directory_synced_at": "2026-09-18T17:29:07.795Z",
     "classified_at": "2026-09-18T17:29:07.795Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 121642,
+    "launch_url": "https://www.ycombinator.com/launches/Vdy-inflection-space-systems-hyperscaling-spacecraft-manufacturing-10-000-year",
+    "launch_title": "Inflection Space Systems - Hyperscaling Spacecraft Manufacturing (>10,000/year)",
+    "launch_created_at": "2026-10-13T15:00:00.132Z",
+    "launch_tagline": "Inflection Space Systems is mass manufacturing standardized spacecraft, and will manufacture 10,000 spacecraft per year by 2031.",
+    "launch_evaluated_at": "2026-10-13T20:04:54.630Z"
   },
   {
     "slug": "inkbox",
@@ -44580,6 +44808,67 @@
     "primary_bm_rationale": "item is primarily a vertical AI SaaS product sold to sales teams as software-as-a-service with AI-native features (Assistant and Agents), not a managed service or outsourced labor model where item executes outcomes on behalf of customers.",
     "primary_bm_assigned_at": "2026-07-30T18:59:56.680Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "janeen",
+    "name": "Janeen",
+    "website": "https://janeen.care",
+    "yc_profile_url": "https://www.ycombinator.com/companies/janeen",
+    "batch": "Winter 2026",
+    "one_liner": "Prior auths and benefits investigation for infusion clinics ",
+    "description_combined": "Prior auths and benefits investigation for infusion clinics \n\nJaneen is built for infusion clinics. We handle prior authorizations and benefit investigations from start to finish (actually though!).\r\n\r\nBiologics are expensive medications that cost $80-$150K+ per year per patient, and often need to be administered in specific settings called infusion clinics. Medical providers buy these drugs up front to secure pricing deals and safer inventory - they are reimbursed for the cost of the medications through the patients’ insurance. \r\n\r\nCurrent medical workflows aren&#x27;t built for infusion clinics. Inventory, storage, transport, and billing is still managed through paper and excel spreadsheets. And because they’re so expensive, these specialty medications are denied by insurers at a rate of 37% each year. When they are denied, when workflows fail, or patients are infused before paperwork is cleared, providers don’t get reimbursed for the medication and are left covering the costs. Ruma Care solves this so clinics get paid, patients get treated faster, and care teams spend less time fighting forms. \r\n\r\nWe work with clinics across the country and have removed 95% of all manual labor in the process.",
+    "industry_sub_vertical": "Prior authorization and benefits investigation automation for specialty infusion clinics",
+    "canonical_vertical_id": "healthcare.provider.prior-authorization",
+    "vertical_id": "healthcare.provider.prior-authorization",
+    "vertical_label": "Prior authorization & utilization review",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "vertical-workflow-agent",
+    "phenotype_primary_label": "Vertical AI Workflow Agent",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "prior_auth_automation",
+      "benefits_investigation",
+      "claims_processing",
+      "document_extraction"
+    ],
+    "what_they_sell": "End-to-end prior authorization and benefits investigation automation platform purpose-built for infusion clinics. Handles the full workflow from patient eligibility verification through insurance approval, eliminating manual paperwork and reducing denial rates.",
+    "ai_play": "AI agents autonomously navigate insurance verification workflows, extract patient/medication data from EHRs and insurance systems, generate compliant prior auth submissions, and track approval status. Replaces manual form-filling and phone calls with structured, auditable agentic processes that integrate with clinic billing systems.",
+    "who_pays": "Infusion clinic operators and medical practice administrators managing specialty medication reimbursement and revenue cycle.",
+    "confidence": 0.82,
+    "rationale": "Janeen is a vertical workflow automation agent targeting a specific healthcare vertical (infusion clinics). The core value is autonomous execution of a high-friction, compliance-heavy workflow (prior auth + benefits investigation) that currently requires manual labor. The AI application is agentic automation of document processing, eligibility verification, and insurance submission — classic vertical workflow agent pattern. Secondary phenotype (compliance-gov-automation) applies because prior auth is a regulatory/compliance workflow with audit requirements. This is NOT a fintech product (no insurance SKU, no capital taking) and NOT a horizontal copilot (vertical-specific, workflow-specific, deep EHR/billing integration). Confidence 0.82 due to clear vertical focus, workflow automation, and compliance integration.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 5,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2091502,
+        "full_name": "Meng Fei Shen",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder & CEO @ Janeen (formerly Ruma Care). Previously, led Uber One global to 13M+ members and AI integrations for 100K+ suppliers at Walmart Data Ventures. Runs a 120+ person music collective in SF @juicytrees",
+        "linkedin_url": "https://www.linkedin.com/in/mengfei-shen/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/562da7dc515d2f39415fae05f4dd537bac11796e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACWNO4E42%2F20261013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261013T200328Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDBPWeu7rCX0V254Ulot9eu2HqapWe9VoUjyCyQkBaCbgIhAI4yxwUDZ8Fv2lGV7xHo4y8dO16rfkvtUuimgeqh84k8Ku4DCKX%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgzFYxUKA7qCBdTqCGIqwgNVuYnjNiuhc9ureQ36m0ss1d0ODh6dh8WDzExoaluShS2SPBlb%2BqHwcd%2FTGl28%2F%2Bw7PxA7ZvUYgDa51TBbrcsrV6ZOifV6qrFoFZbCvNrSrH3UbaKGlLhBrnWAs4dIqpnMz99EyRSd%2Fldzb1%2BcGnkYfPzKv0ri%2BG%2FqodP69QR1o5Z1jNkAFbGjH2AjWlrl5nBjOmVOZqngADtrupp5r6Hv59sIJnjTpQqr27%2BERkalIABgiRanIM%2BXX3rjkP9oIOki9x3GsArNlejV7uqxPI7KwwUN9Lkbjr3UTiY2Iqd3ZaMYxkBbKSMyQSREojNvidQJzaq9n04rz5ui6uaQpFyixrzxVzPYC9MVYdhKrH4t7hMA8xTvzfikZw5OGYqAcZTmjT7SX%2FtpijF1ZtLVwcYpykSLFFAGWU%2FtMpDBAmulZrfzGLTIRNM8%2FUdwKclh9ISdRjPN6zDpWs64ZGrBQoOmyhHEJw8G2oc%2BpvgaOtt7Wejxic3TUpW%2FZ%2BvNnN4wgqGSfcGTkTuJ5nQHNqGJpftZlXIBzhAatLqVUS%2Bn5pv4qiqQriervjhSABf%2BiRS8FA4dbtREmmwZCx1Dg2ov2CWuDMMwhpG61gY6pAFaRft6MOzLdlXqrqA%2FHjtjW571lWDECfu30t5vtPEkLYlMq4uLvPjTkhPXAnsWXjuJpOa18DsvAp9YLMUNSWhJSl2vxJHsWHKpRU1PTmO6wAHtlw8zJqSnqh30UiR3mGDLTWi8uDqx4sjxOYuJnb77k5%2B8bszXBqFuk5zjRrsvK3hnLHsNO6z9KBvEWWkGaCE2cqRw7OxKPGKri%2Fs15qUA7GmtCQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=653cc629fd696358447644b20592fbc6a976a9be10fbdcb750c530b7f55c0b07",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Janeen",
+          "href": "https://www.ycombinator.com/companies/janeen"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-13T20:03:38.080Z",
+    "classified_at": "2026-10-13T20:03:38.080Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "jarmin",
@@ -59905,7 +60194,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/native",
     "batch": "Fall 2026",
     "one_liner": "Artificial Intuition for marketing",
-    "description_combined": "Artificial Intuition for marketing\n\nNative is building an autonomous marketing platform where business can do all of their marketing within one platform using our artificial intuition model called Norn, that predicts what people will respond to, researched and built in house.",
+    "description_combined": "Artificial Intuition for marketing\n\nNative is building an autonomous marketing platform where business can do all of their marketing within one platform using our artificial intuition model called Norn, that predicts what people will respond to, researched and built in house.\n\nNative predicts what you should post, and then runs it across your socials and ads.\n\nHey everyone! 👋\n\nBen, Håkon and Trond here, founders of Native (YC F26). \n\nToday we're introducing Norn, a model that predicts which marketing ideas are outliers, before the content is made. We call it artificial intuition, and have our first model live in Native helping over 2000 companies run their marketing. By dogfooding we've reached $2M ARR within our first 6 months.\n\n\n\nThe problem\n\nAI has made it much easier to produce text, images and video. But you still have to decide what’s worth saying, which angle fits your brand and what your audience might care about.\n\nProducing more content doesn’t answer those questions. It just produces more noise.\n\nOur bet: knowing what to say becomes more valuable as creating it gets cheaper.\n\nHow Norn works\n\nJust type in your website. Native gathers y",
     "industry_sub_vertical": "Autonomous marketing campaign orchestration & optimization",
     "canonical_vertical_id": "marketing.marketing-automation-ops",
     "vertical_id": "marketing.marketing-automation-ops",
@@ -59961,7 +60250,13 @@
     ],
     "directory_synced_at": "2026-10-10T18:13:18.758Z",
     "classified_at": "2026-10-10T18:13:18.758Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 121621,
+    "launch_url": "https://www.ycombinator.com/launches/Vdd-native-artificial-intuition-for-marketing",
+    "launch_title": "Native: Artificial intuition for marketing",
+    "launch_created_at": "2026-10-13T16:00:00.176Z",
+    "launch_tagline": "Native predicts what you should post, and then runs it across your socials and ads.",
+    "launch_evaluated_at": "2026-10-13T20:04:54.630Z"
   },
   {
     "slug": "nautilus",
@@ -82077,6 +82372,102 @@
     "archetype_refined_at": "2026-06-04T00:39:33.849Z"
   },
   {
+    "slug": "runtimesi",
+    "name": "Runtime.si",
+    "website": "https://runtime.si/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/runtimesi",
+    "batch": "Fall 2026",
+    "one_liner": "Evaluation Infrastructure for Robotics (YC F26)",
+    "description_combined": "Evaluation Infrastructure for Robotics (YC F26)\n\nRuntime is building the evaluation layer for physical intelligence. We push robot policies to their limits across thousands of simulated worlds, before they face the real one.",
+    "industry_sub_vertical": "Robot policy evaluation and simulation infrastructure for physical AI validation",
+    "canonical_vertical_id": "robotics.simulation-digital-twin",
+    "vertical_id": "robotics.simulation-digital-twin",
+    "vertical_label": "Robotic digital twin & offline simulation",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "agent-observability-evals",
+    "phenotype_primary_label": "Agent observability, evals, or safety",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "policy_evaluation",
+      "simulation_benchmarking",
+      "robustness_testing",
+      "pre_deployment_validation"
+    ],
+    "what_they_sell": "Evaluation infrastructure platform that simulates robot policies across thousands of synthetic environments before real-world deployment. Provides benchmarking, stress-testing, and safety validation for robotic systems.",
+    "ai_play": "Enables robotics teams to systematically evaluate and harden robot policies through large-scale simulation-based testing, reducing deployment risk and accelerating iteration cycles. Solves the critical bottleneck of validating embodied AI policies before physical execution.",
+    "who_pays": "Robotics companies, autonomous systems teams, hardware manufacturers, and research labs building physical AI systems.",
+    "confidence": 0.78,
+    "rationale": "Runtime is primarily an evaluation and benchmarking infrastructure for robot policies — this maps cleanly to agent-observability-evals (tracing, benchmarks, red-teaming, compliance testing for agents). The secondary phenotype robotics-embodied-ai captures the physical AI domain context. While they operate in robotics, their core value proposition is the evaluation layer (testing policies at scale in simulation), not the robot runtime itself or embodied control. This is infrastructure-for-infrastructure: they enable robotics teams to validate policies before deployment, analogous to how evals platforms validate LLM agents before production.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Artificial Intelligence",
+      "Robotics",
+      "Infrastructure"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 5,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3900443,
+        "full_name": "Chen Peng",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder, CEO at Runtime.si. Researcher at UPenn&#x27;s GRASP and Penn Engineering; Previously investment analyst at BlackRock. BA in Physics from UPenn.",
+        "linkedin_url": "https://www.linkedin.com/in/chen-peng-6737681bb",
+        "twitter_url": "https://x.com/chennpeng",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f13d7e62eab252812a41d0f0434752acd19c176f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMVGUTVKE%2F20261013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261013T200356Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBL4CEUhdEqukOuhK0hc%2BWOoZS8jYk%2FbE%2BmuOFNt3HRoAiEA8ij1airpX0pmGCVwSppIucgcXa%2FNtqFkWNKRQ7naggQq7gMIpP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDPY7CgyeP1jNhdvwQyrCA0B4kr9ZDIgIo0zZhdWYqGC9syQKdHzpqkUcU2n7a5JZ%2B0qyDdOlhNwlatoocAx%2F2WlJm7TwO5Tj66KbgXUiYmeMl2me8%2BCdbeDVgwtNGlP%2BqWl%2BjJawFmwde%2FWWxTuFpmcREOv3s6kv0vUvuz3yLMbvz0ku5DacyEIJ2QWsiF8lpras8lNinz11wWEbCpCvbQKYBmMAwWdXq%2FdF%2FYQTOHyc0zCiwWa6PpQXkf%2BQBoSLWUDZgk%2FZLHAxMJJsMEa8zte3m2pqjKYZDkszV%2BfvT9mfb30ZkXcHI9%2F4O4%2F8G6iIZnC3dqqHCctTS9pz3ccX6WmKzB0QI6OUTTp0Wm1bWUUN5HOBxDiZlG4aYLx9enDB8TDi3qxinUxE82%2F6Egl6JSITIXJTmEGXaKHWC%2FleE7fqdi1OF5mKLMrMZmx264JB%2FtIiWwqq1syjrShWaw9Syg75xGqyaJgdLefuLIpeoWzrQeZXREnueYIDBWG0mwPh8LkQffVpdqUtGU%2BMB3v6hpj9rtv2bAJHoTszxoqlPvX7FwrrpNJboDAhQLvXyV4gmp%2BjyrCdQ%2BYTc43E82C3bul2Zh00oYCOifJ%2F%2BRTVz6xTOzCGkbrWBjqlAWL0qPbAegJiUw3OPn1c%2B3p96%2FxBOKFZ0mxRddkxdQykaQ6ejV2PdDPvsLN2g0Qp62iwbioV%2F2zc4ivG1BEIqRQ%2BQ4iLSP63jiEVhNGgSaITXc8RE%2BJ%2BBcQN0fBEZJtb6W6zCPZE3ynoOIBcG7f50MyAR103SiDI%2Bz4XjAQUYi4NypHYL%2F7RpkHlWvPTZIIm7GN%2FZ0nNftXYDNba3AY2se3tb0V5%2Bg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=21b7951e1dda75c6a36125a0b2432ab3018f59fddd671464aabe1fe932cafaf3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Runtime.si",
+          "href": "https://www.ycombinator.com/companies/runtimesi"
+        }
+      },
+      {
+        "user_id": 3900687,
+        "full_name": "Yim Ying",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder at Runtime.si. Full-stack robotics engineer focused on robotics productization, manipulation, and manufacturing.MechE @ Penn.",
+        "linkedin_url": "https://www.linkedin.com/in/qingyun-ying-46558235b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/3abf1241b0a3a88b9721dba23ce1cce5e431f5ea.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMVGUTVKE%2F20261013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261013T200356Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBL4CEUhdEqukOuhK0hc%2BWOoZS8jYk%2FbE%2BmuOFNt3HRoAiEA8ij1airpX0pmGCVwSppIucgcXa%2FNtqFkWNKRQ7naggQq7gMIpP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDPY7CgyeP1jNhdvwQyrCA0B4kr9ZDIgIo0zZhdWYqGC9syQKdHzpqkUcU2n7a5JZ%2B0qyDdOlhNwlatoocAx%2F2WlJm7TwO5Tj66KbgXUiYmeMl2me8%2BCdbeDVgwtNGlP%2BqWl%2BjJawFmwde%2FWWxTuFpmcREOv3s6kv0vUvuz3yLMbvz0ku5DacyEIJ2QWsiF8lpras8lNinz11wWEbCpCvbQKYBmMAwWdXq%2FdF%2FYQTOHyc0zCiwWa6PpQXkf%2BQBoSLWUDZgk%2FZLHAxMJJsMEa8zte3m2pqjKYZDkszV%2BfvT9mfb30ZkXcHI9%2F4O4%2F8G6iIZnC3dqqHCctTS9pz3ccX6WmKzB0QI6OUTTp0Wm1bWUUN5HOBxDiZlG4aYLx9enDB8TDi3qxinUxE82%2F6Egl6JSITIXJTmEGXaKHWC%2FleE7fqdi1OF5mKLMrMZmx264JB%2FtIiWwqq1syjrShWaw9Syg75xGqyaJgdLefuLIpeoWzrQeZXREnueYIDBWG0mwPh8LkQffVpdqUtGU%2BMB3v6hpj9rtv2bAJHoTszxoqlPvX7FwrrpNJboDAhQLvXyV4gmp%2BjyrCdQ%2BYTc43E82C3bul2Zh00oYCOifJ%2F%2BRTVz6xTOzCGkbrWBjqlAWL0qPbAegJiUw3OPn1c%2B3p96%2FxBOKFZ0mxRddkxdQykaQ6ejV2PdDPvsLN2g0Qp62iwbioV%2F2zc4ivG1BEIqRQ%2BQ4iLSP63jiEVhNGgSaITXc8RE%2BJ%2BBcQN0fBEZJtb6W6zCPZE3ynoOIBcG7f50MyAR103SiDI%2Bz4XjAQUYi4NypHYL%2F7RpkHlWvPTZIIm7GN%2FZ0nNftXYDNba3AY2se3tb0V5%2Bg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=73a3f70d05100753fc6d87c5d29d2f3369e5bc4b099765d226854338abe58ab1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Runtime.si",
+          "href": "https://www.ycombinator.com/companies/runtimesi"
+        }
+      },
+      {
+        "user_id": 3133784,
+        "full_name": "Liam Zhong",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder & CTO at Lambda Robotics. Researcher at UPenn GRASP, CV, Control, and RL. Reviewer and author for CVPR, etc. Robotics@Penn.",
+        "linkedin_url": "https://www.linkedin.com/in/ningze-zhong-a62917388/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/44689e138268d43bdde7deebc7f696481422fcea.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMVGUTVKE%2F20261013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261013T200356Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBL4CEUhdEqukOuhK0hc%2BWOoZS8jYk%2FbE%2BmuOFNt3HRoAiEA8ij1airpX0pmGCVwSppIucgcXa%2FNtqFkWNKRQ7naggQq7gMIpP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDPY7CgyeP1jNhdvwQyrCA0B4kr9ZDIgIo0zZhdWYqGC9syQKdHzpqkUcU2n7a5JZ%2B0qyDdOlhNwlatoocAx%2F2WlJm7TwO5Tj66KbgXUiYmeMl2me8%2BCdbeDVgwtNGlP%2BqWl%2BjJawFmwde%2FWWxTuFpmcREOv3s6kv0vUvuz3yLMbvz0ku5DacyEIJ2QWsiF8lpras8lNinz11wWEbCpCvbQKYBmMAwWdXq%2FdF%2FYQTOHyc0zCiwWa6PpQXkf%2BQBoSLWUDZgk%2FZLHAxMJJsMEa8zte3m2pqjKYZDkszV%2BfvT9mfb30ZkXcHI9%2F4O4%2F8G6iIZnC3dqqHCctTS9pz3ccX6WmKzB0QI6OUTTp0Wm1bWUUN5HOBxDiZlG4aYLx9enDB8TDi3qxinUxE82%2F6Egl6JSITIXJTmEGXaKHWC%2FleE7fqdi1OF5mKLMrMZmx264JB%2FtIiWwqq1syjrShWaw9Syg75xGqyaJgdLefuLIpeoWzrQeZXREnueYIDBWG0mwPh8LkQffVpdqUtGU%2BMB3v6hpj9rtv2bAJHoTszxoqlPvX7FwrrpNJboDAhQLvXyV4gmp%2BjyrCdQ%2BYTc43E82C3bul2Zh00oYCOifJ%2F%2BRTVz6xTOzCGkbrWBjqlAWL0qPbAegJiUw3OPn1c%2B3p96%2FxBOKFZ0mxRddkxdQykaQ6ejV2PdDPvsLN2g0Qp62iwbioV%2F2zc4ivG1BEIqRQ%2BQ4iLSP63jiEVhNGgSaITXc8RE%2BJ%2BBcQN0fBEZJtb6W6zCPZE3ynoOIBcG7f50MyAR103SiDI%2Bz4XjAQUYi4NypHYL%2F7RpkHlWvPTZIIm7GN%2FZ0nNftXYDNba3AY2se3tb0V5%2Bg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9f6ce3487b435483ac3633708b91fa524d168bd1afdaae52dfadb7304e1272a3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Runtime.si",
+          "href": "https://www.ycombinator.com/companies/runtimesi"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-13T20:04:04.064Z",
+    "classified_at": "2026-10-13T20:04:04.064Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "ruvo",
     "name": "Ruvo",
     "website": "https://ruvo.com/",
@@ -82258,7 +82649,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/saccade",
     "batch": "Fall 2026",
     "one_liner": "World&#x27;s Earliest Test for Alzheimer&#x27;s Biomarkers",
-    "description_combined": "World&#x27;s Earliest Test for Alzheimer&#x27;s Biomarkers\n\nAlzheimer&#x27;s testing today is bottlenecked around the onset of symptoms, when the damage is already done. Current treatments, including the FDA-approved drugs released in 2024, don&#x27;t reverse the disease; they only slow it down. Earlier detection means earlier intervention.\r\n\r\nEye movement changes linked to Alzheimer&#x27;s surface sooner than any other biomarker, up to 15 years before symptoms appear.\r\n\r\nWe deliver a 15-minute VR assessment delivered to patients in longevity clinics:\r\n• Tasks: patients perform visual tasks designed by neurologists to trigger a distinct oculomotor response in people with Alzheimer&#x27;s or on its path\r\n• Hardware: our patent-pending attachment connects to any VR headset on the market and captures these eye movement patterns.\r\n• Analysis: the patterns are compared against our ML model to produce a risk analysis.\r\n\r\nOnce classified, patients can access new interventions, such as the FDA-approved drugs. They&#x27;re also referred to longevity practices, neurology practices or both, depending on their stage of decline.\r\n\r\nTesting for the earliest biomarkers allows the earliest possible intervention. In some cases, that slows the disease enough that patients outlive the onset of symptoms and never face memory loss in their lifetime.",
+    "description_combined": "World&#x27;s Earliest Test for Alzheimer&#x27;s Biomarkers\n\nAlzheimer&#x27;s testing today is bottlenecked around the onset of symptoms, when the damage is already done. Current treatments, including the FDA-approved drugs released in 2024, don&#x27;t reverse the disease; they only slow it down. Earlier detection means earlier intervention.\r\n\r\nEye movement changes linked to Alzheimer&#x27;s surface sooner than any other biomarker, up to 15 years before symptoms appear.\r\n\r\nWe deliver a 15-minute VR assessment delivered to patients in longevity clinics:\r\n• Tasks: patients perform visual tasks designed by neurologists to trigger a distinct oculomotor response in people with Alzheimer&#x27;s or on its path\r\n• Hardware: our patent-pending attachment connects to any VR headset on the market and captures these eye movement patterns.\r\n• Analysis: the patterns are compared against our ML model to produce a risk analysis.\r\n\r\nOnce classified, patients can access new interventions, such as the FDA-approved drugs. They&#x27;re also referred to longevity practices, neurology practices or both, depending on their stage of decline.\r\n\r\nTesting for the earliest biomarkers allows the earliest possible intervention. In some cases, that slows the disease enough that patients outlive the onset of symptoms and never face memory loss in their lifetime.\n\nWorld's Earliest Test for Alzheimer's Biomarkers\n\nTL;DR: Saccade is a 15-minute VR test that catches Alzheimer’s biomarkers earlier than ever before. That lets people start lifestyle changes and new FDA-approved drugs years sooner, when they work best. Sometimes that pushes symptoms past life expectancy, so they never show up. \nWe’re live in San Francisco clinics, testing people in their 30s and older for early risk indicators. \nYou can book a test at saccade.health today.\n\n\n\nProblem\nCurrent Alzheimer's testing only screens patients after clear symptoms appear, at which point an individual has already suffered significant cognitive decline. New FDA-approved drugs have been proven to slow this decline, but not reverse it. By the time most people get their diagnosis, they've missed their best window to act.\n\nInsight\nEye movement changes lin",
     "industry_sub_vertical": "Neurodegenerative disease early detection via biomarker screening devices",
     "canonical_vertical_id": "healthcare.medtech.devices",
     "vertical_id": "healthcare.medtech.devices",
@@ -82316,7 +82707,13 @@
     ],
     "directory_synced_at": "2026-10-06T19:19:23.078Z",
     "classified_at": "2026-10-06T19:19:23.078Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 121747,
+    "launch_url": "https://www.ycombinator.com/launches/Vff-saccade-world-s-earliest-test-for-alzheimer-s-biomarkers",
+    "launch_title": "Saccade: World's Earliest Test for Alzheimer's Biomarkers",
+    "launch_created_at": "2026-10-13T18:00:00.187Z",
+    "launch_tagline": "World's Earliest Test for Alzheimer's Biomarkers",
+    "launch_evaluated_at": "2026-10-13T20:04:54.630Z"
   },
   {
     "slug": "saffron",
@@ -91437,6 +91834,83 @@
       "vertical_id": "industrials.defense.surveillance",
       "industry_sub_vertical": "Counter-UAS threat detection & multi-sensor fusion for defense"
     }
+  },
+  {
+    "slug": "sutrix",
+    "name": "Sutrix",
+    "website": "https://www.sutrix.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/sutrix",
+    "batch": "Fall 2026",
+    "one_liner": "Patient outcomes research at the speed of care",
+    "description_combined": "Patient outcomes research at the speed of care\n\nSutrix enables hospital clinical research teams to deliver tailored patient outcomes 80% faster. We deploy software to turn data from EHRs, wearables, and other sources into validated, analysis-ready datasets and run auditable statistical analyses.",
+    "industry_sub_vertical": "Clinical trial data infrastructure for hospital outcomes research",
+    "canonical_vertical_id": "healthcare.clinical.trials-data",
+    "vertical_id": "healthcare.clinical.trials-data",
+    "vertical_label": "Clinical trial data & biometrics",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "agent-context-infra",
+    "phenotype_primary_label": "Agent Context Infrastructure",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "data_access",
+    "ai_application": "context_retrieval",
+    "ai_application_patterns": [
+      "data_integration_pipeline",
+      "ehr_extraction_structuring",
+      "dataset_validation_preparation"
+    ],
+    "what_they_sell": "Software platform that ingests fragmented clinical data (EHRs, wearables, lab systems) and transforms it into validated, analysis-ready datasets for clinical research teams. Enables rapid cohort identification, outcome measurement, and statistical analysis execution.",
+    "ai_play": "AI automates data extraction, normalization, and validation across heterogeneous clinical sources; compresses verbose EHR records into semantically dense, research-ready formats; accelerates dataset curation from months to weeks by eliminating manual data cleaning and validation bottlenecks.",
+    "who_pays": "Hospital clinical research departments, research coordinators, biostatisticians, outcomes research teams",
+    "confidence": 0.72,
+    "rationale": "Sutrix solves the 'context explosion' problem endemic to clinical research: researchers need rich longitudinal patient data from multiple sources (EHRs, wearables, labs) but lack tools to efficiently integrate, structure, and validate it for analysis. The core value is converting raw, verbose clinical data into token-efficient, semantically dense datasets that research teams can immediately analyze. This maps cleanly to agent-context-infra (data preparation for downstream consumption) with secondary overlap to training-data-synthetic (dataset curation and validation). The 80% speed improvement comes from AI-driven automation of data pipeline construction, not from being an agent runtime or research automation platform itself. Buyers are clinical research operators (not AI researchers), and the product is infrastructure enabling faster research execution, not the research itself.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [
+      "Healthcare"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3672292,
+        "full_name": "Ritvik Panuganti",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "B.S. Neuroscience, Georgia Tech. Published clinical researcher at Hospital for Special Surgery, Emory, and Georgia Tech. Built a multi-sport injury surveillance system at HSS now running across 700+ teams and 30+ tournaments. Led a 300-participant IRB-approved concussion study at GT and prepared a VR concussion assessment tool for FDA 510(k) submission.",
+        "linkedin_url": "https://www.linkedin.com/in/ritvik-panuganti-739822273/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/5d9d8f4035f0b26dade992ecbcd9e433f849d5b3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMVGUTVKE%2F20261013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261013T200346Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBL4CEUhdEqukOuhK0hc%2BWOoZS8jYk%2FbE%2BmuOFNt3HRoAiEA8ij1airpX0pmGCVwSppIucgcXa%2FNtqFkWNKRQ7naggQq7gMIpP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDPY7CgyeP1jNhdvwQyrCA0B4kr9ZDIgIo0zZhdWYqGC9syQKdHzpqkUcU2n7a5JZ%2B0qyDdOlhNwlatoocAx%2F2WlJm7TwO5Tj66KbgXUiYmeMl2me8%2BCdbeDVgwtNGlP%2BqWl%2BjJawFmwde%2FWWxTuFpmcREOv3s6kv0vUvuz3yLMbvz0ku5DacyEIJ2QWsiF8lpras8lNinz11wWEbCpCvbQKYBmMAwWdXq%2FdF%2FYQTOHyc0zCiwWa6PpQXkf%2BQBoSLWUDZgk%2FZLHAxMJJsMEa8zte3m2pqjKYZDkszV%2BfvT9mfb30ZkXcHI9%2F4O4%2F8G6iIZnC3dqqHCctTS9pz3ccX6WmKzB0QI6OUTTp0Wm1bWUUN5HOBxDiZlG4aYLx9enDB8TDi3qxinUxE82%2F6Egl6JSITIXJTmEGXaKHWC%2FleE7fqdi1OF5mKLMrMZmx264JB%2FtIiWwqq1syjrShWaw9Syg75xGqyaJgdLefuLIpeoWzrQeZXREnueYIDBWG0mwPh8LkQffVpdqUtGU%2BMB3v6hpj9rtv2bAJHoTszxoqlPvX7FwrrpNJboDAhQLvXyV4gmp%2BjyrCdQ%2BYTc43E82C3bul2Zh00oYCOifJ%2F%2BRTVz6xTOzCGkbrWBjqlAWL0qPbAegJiUw3OPn1c%2B3p96%2FxBOKFZ0mxRddkxdQykaQ6ejV2PdDPvsLN2g0Qp62iwbioV%2F2zc4ivG1BEIqRQ%2BQ4iLSP63jiEVhNGgSaITXc8RE%2BJ%2BBcQN0fBEZJtb6W6zCPZE3ynoOIBcG7f50MyAR103SiDI%2Bz4XjAQUYi4NypHYL%2F7RpkHlWvPTZIIm7GN%2FZ0nNftXYDNba3AY2se3tb0V5%2Bg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=313e1abe02b8b5faa21b77b2f067bd48b7c46a15ab806471b0a700d914e368d2",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sutrix",
+          "href": "https://www.ycombinator.com/companies/sutrix"
+        }
+      },
+      {
+        "user_id": 3047383,
+        "full_name": "Supratik Panuganti",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder & CTO @ Sutrix (YC F26). \nGeorgia Tech CS + Math dropout\nPrev Exited founder @ Kairo (a16z Speedrun), SDE @ Amazon\n\n",
+        "linkedin_url": "https://www.linkedin.com/in/supratik-panuganti-4732532a4/",
+        "twitter_url": "https://x.com/supratikp07",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a6275e789bb0dd1dc558b95e798ad95027248bbe.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAMVGUTVKE%2F20261013%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261013T200346Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIBL4CEUhdEqukOuhK0hc%2BWOoZS8jYk%2FbE%2BmuOFNt3HRoAiEA8ij1airpX0pmGCVwSppIucgcXa%2FNtqFkWNKRQ7naggQq7gMIpP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgwwMDYyMDE4MTEwNzIiDPY7CgyeP1jNhdvwQyrCA0B4kr9ZDIgIo0zZhdWYqGC9syQKdHzpqkUcU2n7a5JZ%2B0qyDdOlhNwlatoocAx%2F2WlJm7TwO5Tj66KbgXUiYmeMl2me8%2BCdbeDVgwtNGlP%2BqWl%2BjJawFmwde%2FWWxTuFpmcREOv3s6kv0vUvuz3yLMbvz0ku5DacyEIJ2QWsiF8lpras8lNinz11wWEbCpCvbQKYBmMAwWdXq%2FdF%2FYQTOHyc0zCiwWa6PpQXkf%2BQBoSLWUDZgk%2FZLHAxMJJsMEa8zte3m2pqjKYZDkszV%2BfvT9mfb30ZkXcHI9%2F4O4%2F8G6iIZnC3dqqHCctTS9pz3ccX6WmKzB0QI6OUTTp0Wm1bWUUN5HOBxDiZlG4aYLx9enDB8TDi3qxinUxE82%2F6Egl6JSITIXJTmEGXaKHWC%2FleE7fqdi1OF5mKLMrMZmx264JB%2FtIiWwqq1syjrShWaw9Syg75xGqyaJgdLefuLIpeoWzrQeZXREnueYIDBWG0mwPh8LkQffVpdqUtGU%2BMB3v6hpj9rtv2bAJHoTszxoqlPvX7FwrrpNJboDAhQLvXyV4gmp%2BjyrCdQ%2BYTc43E82C3bul2Zh00oYCOifJ%2F%2BRTVz6xTOzCGkbrWBjqlAWL0qPbAegJiUw3OPn1c%2B3p96%2FxBOKFZ0mxRddkxdQykaQ6ejV2PdDPvsLN2g0Qp62iwbioV%2F2zc4ivG1BEIqRQ%2BQ4iLSP63jiEVhNGgSaITXc8RE%2BJ%2BBcQN0fBEZJtb6W6zCPZE3ynoOIBcG7f50MyAR103SiDI%2Bz4XjAQUYi4NypHYL%2F7RpkHlWvPTZIIm7GN%2FZ0nNftXYDNba3AY2se3tb0V5%2Bg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c6cd8429e05294914e30f04f0e83ace400e0a02a3317a073ad52ed0a0d2d123d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sutrix",
+          "href": "https://www.ycombinator.com/companies/sutrix"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-13T20:03:55.589Z",
+    "classified_at": "2026-10-13T20:03:55.589Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "swerve",
