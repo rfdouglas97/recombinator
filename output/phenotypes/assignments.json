@@ -26234,7 +26234,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/deploy",
     "batch": "Fall 2026",
     "one_liner": "The generalist robot deployment company.",
-    "description_combined": "The generalist robot deployment company.\n\nDeploy&#x27;s core belief is that robots should be useful. Getting a generalist robot to do real work is fundamentally the same problem across industries. We build everything between the model and the task to bring generalist robots to the businesses that actually need them.",
+    "description_combined": "The generalist robot deployment company.\n\nDeploy&#x27;s core belief is that robots should be useful. Getting a generalist robot to do real work is fundamentally the same problem across industries. We build everything between the model and the task to bring generalist robots to the businesses that actually need them.\n\nWe turn generalist robots into a reliable workforce. \n\nHello world, we’re Irene &amp; Sahith, co-founders of Deploy!\n\nTL;DR: Deploy puts generalist robots, aka humanoid arms, to work in real businesses as a service. You pay for the work getting done (packing, kitting, returns, manufacturing, data center maintenance), not the robot.\n\n\n\nProblem: \nThe world was full of physical tasks no technology could automate till now. Generalist robot models can finally handle the messy, variable work that traditional automation never could: mixed orders, returns, tasks that change every day.\n\nBut a capable model isn't the same as a robot reliably doing the job on your floor. Most robotics projects stall in the gap between a good demo and a shift that runs 24/7. \n\nSolution: \nDeploy closes that gap. We’re the generalist robot deployment company. We turn genera",
     "industry_sub_vertical": "Generalist robot deployment and factory integration platform",
     "canonical_vertical_id": "robotics.integration-deployment",
     "vertical_id": "robotics.integration-deployment",
@@ -26303,7 +26303,13 @@
     ],
     "directory_synced_at": "2026-09-11T17:29:47.657Z",
     "classified_at": "2026-09-11T17:29:47.657Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 121648,
+    "launch_url": "https://www.ycombinator.com/launches/Ve4-deploy-the-generalist-robot-deployment-company",
+    "launch_title": "Deploy - The Generalist Robot Deployment Company",
+    "launch_created_at": "2026-10-14T14:30:00.140Z",
+    "launch_tagline": "We turn generalist robots into a reliable workforce. ",
+    "launch_evaluated_at": "2026-10-14T18:18:13.740Z"
   },
   {
     "slug": "deployparagon",
@@ -48302,7 +48308,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/ladderai",
     "batch": "Winter 2025",
     "one_liner": "AI personal assistant for in-home sales",
-    "description_combined": "AI personal assistant for in-home sales\n\nLadder is an AI personal assistant for in-home sales. It takes notes on the in-person conversation and helps reps close more deals, improve with each pitch, and deliver and generate more leads.",
+    "description_combined": "AI personal assistant for in-home sales\n\nLadder is an AI personal assistant for in-home sales. It takes notes on the in-person conversation and helps reps close more deals, improve with each pitch, and deliver and generate more leads.\n\nLadder helps home services sales reps be successful\n\nHey everyone! We're Will and David, co-founders of Ladder.\n\nTL;DR: Ladder is the first AI personal assistant for in-home sales reps. It works for reps instead of monitoring them.\n\nThe problem\nHome services companies leave millions on the table every year because their reps are on their own in the field. No one is there to listen and help them improve. Most sales AI feels like Big Brother, so reps don't use it.\n\nThe solution\nLadder works for reps. Reps love it because it helps them:\n\n* Earn more commission.\n* Handle busy work.\n* Generate more referrals.\n\nWe price based on outcomes, so we only get paid when reps use ladder to sell a project. \n\nLeading home services companies already trust Ladder across more than $100M in jobs.\n\nOur ask\nDo you know someone who runs sales at a home services co",
     "industry_sub_vertical": "Home services sales rep coaching and close-rate optimization",
     "canonical_vertical_id": "enterprise.sales.enablement",
     "vertical_id": "enterprise.sales.enablement",
@@ -48373,7 +48379,13 @@
     ],
     "directory_synced_at": "2026-10-06T19:18:41.112Z",
     "classified_at": "2026-10-06T19:18:41.112Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 119329,
+    "launch_url": "https://www.ycombinator.com/launches/V2f-ladder-the-personal-ai-assistant-for-home-services-sales-reps",
+    "launch_title": "Ladder: The Personal AI Assistant for Home Services Sales Reps",
+    "launch_created_at": "2026-10-14T14:42:34.139Z",
+    "launch_tagline": "Ladder helps home services sales reps be successful",
+    "launch_evaluated_at": "2026-10-14T18:18:13.740Z"
   },
   {
     "slug": "lakonia",
@@ -75442,6 +75454,51 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "proof-of-human",
+    "name": "Proof of Human",
+    "website": "https://poh.org",
+    "yc_profile_url": "https://www.ycombinator.com/companies/proof-of-human",
+    "batch": "Summer 2023",
+    "one_liner": "The Proof of Human API continuously distinguishes humans from bots and AI agents.",
+    "description_combined": "The Proof of Human API continuously distinguishes humans from bots and AI agents.\n\nThe internet is losing the ability to know who is human.\n\nAI agents can now browse websites, fill out forms, complete tasks, and produce responses that are increasingly difficult to distinguish from those of real people. The systems the internet has historically relied on to separate humans from machines were not built for this world.\n\n## PROOF OF HUMAN\n\nThe Proof of Human API continuously distinguishes humans from bots and AI agents.\n\nModern AI can produce very human-like outputs. But producing an answer and producing it like a human are different things. Humans hesitate. We make mistakes. We correct ourselves. Our attention changes over time. The way we type, move, and interact leaves rich signatures that remain difficult for AI systems to reproduce. We call the broader research program _the Invisible Turing Test for the Internet_.\n\nProof of Human runs in the background while someone uses a website—no CAPTCHA, no puzzle, no interruption. We combine behavioral, device, and network signals and return a real-time assessment that companies can use to decide whether to trust an account, accept a response, or pay for work.\n\n\n\n## BENCHMARKS\n\nWe tested scripted bots and AI agents against Proof of Human and other leading detection systems.  \n\n\n\n_On a five-question survey, Proof of Human identified 99% of automated sessions, followed by reCAPTCHA v3 at 69.4%, hCaptcha at 44.3%, Cloudflare Turnstile at 42.1%, and Cloudflare Bot Management at 9.1%._\n\nTraditional automation signals rema",
+    "industry_sub_vertical": "AI agent & bot detection for platform trust and account verification",
+    "canonical_vertical_id": "ai-infrastructure.agent-security",
+    "vertical_id": "ai-infrastructure.agent-security",
+    "vertical_label": "Agent security & authorization",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-security-control-plane",
+    "phenotype_primary_label": "Agent Security & Access Control Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "bot_detection",
+      "behavioral_analysis",
+      "real_time_verification"
+    ],
+    "what_they_sell": "API that continuously distinguishes humans from bots and AI agents using behavioral, device, and network signals. Runs passively in background without interrupting user experience (no CAPTCHA). Returns real-time trust assessment for account decisions, response validation, and work payment authorization.",
+    "ai_play": "Uses behavioral ML and signal analysis to detect AI-agent and bot activity patterns that traditional CAPTCHA/puzzle systems miss. Captures signatures of human interaction (hesitation, mistakes, attention shifts, typing/movement patterns) that AI systems struggle to reproduce at scale.",
+    "who_pays": "Website operators, platforms, and services that need to distinguish legitimate human users from automated agents and bots (e.g., survey platforms, gig work marketplaces, content platforms, financial services).",
+    "confidence": 0.72,
+    "rationale": "Proof of Human is infrastructure that protects against agentic AI and bot abuse. While not strictly 'access control' in the traditional sense, it solves the critical security gap of verifying human identity in an era of sophisticated AI agents. The phenotype agent-security-control-plane covers infrastructure that enables enterprises to safely interact with agents and distinguish legitimate actors; Proof of Human is the inverse—it detects when agents/bots are impersonating humans. The behavioral ML, real-time evaluation, and trust-scoring model align with evaluation_monitoring and trust_and_quality wedges. Secondary consideration: could map to agent-observability-evals (monitoring/detection), but the primary value is security/trust rather than observability of owned agents.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-03"
+    ],
+    "launch_id": 117699,
+    "launch_url": "https://www.ycombinator.com/launches/UcN-proof-of-human-pbc-the-invisible-turing-test-for-the-internet",
+    "launch_title": "Proof of Human, PBC: The invisible Turing Test for the Internet",
+    "launch_created_at": "2026-10-14T14:43:03.903Z",
+    "launch_tagline": "The Proof of Human API continuously distinguishes humans from bots and AI agents.",
+    "launch_ingested_at": "2026-10-14T18:18:13.739Z",
+    "classified_at": "2026-10-14T18:18:13.739Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "propolis",
     "name": "Propolis",
     "website": "https://propolis.tech/",
@@ -89763,6 +89820,82 @@
     ],
     "directory_synced_at": "2026-08-16T14:19:12.165Z",
     "classified_at": "2026-08-16T14:19:12.165Z",
+    "proposed_phenotype": null
+  },
+  {
+    "slug": "standard-physics",
+    "name": "Standard Physics",
+    "website": "https://standardphysics.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/standard-physics",
+    "batch": "Winter 2026",
+    "one_liner": "Fast Physics Simulations for Rapid Design and Real Time Control",
+    "description_combined": "Fast Physics Simulations for Rapid Design and Real Time Control\n\nStandard Physics (formerly Inviscid AI) builds AI that does real physics. Most AI tools approximate physical behavior and get it wrong in ways engineers can’t see. Ours run actual numerical solvers, so the results are accurate enough to make real engineering decisions on.\r\n\r\nWe have three products built on one engine.\r\n\r\nReynolds runs computational fluid dynamics for you. An engineer describes the flow in plain language, and Reynolds writes the OpenFOAM case, builds the mesh, runs the solver, and returns the figures, the numbers, and a case they can rerun. It’s open source.\r\n\r\nArchimedes searches the design itself. Swarms of agents try thousands of layouts in parallel, simulate each one through Reynolds, keep what the physics rewards, and redraw the search space when the best answer was never in the original plan. We sell it as outcome-based engineering: customers pay for a better design, not for compute.\r\n\r\nInviscid AI (now a product!) points the same engine at a running building. It holds a data center within its thermal limits in real time, computed continuously from live telemetry. Our platform optimizes airflow patterns and ventilation strategies to eliminate dead zones, improve air distribution, and reduce the load on mechanical systems. On the energy side, we minimize HVAC power consumption, reduce cooling costs, and lower overall operational expenses while maintaining optimal thermal comfort and indoor air quality. \r\n\r\nWe work with hardware startups and engineering te",
+    "industry_sub_vertical": "Physics simulation for accelerated design optimization and real-time thermal control",
+    "canonical_vertical_id": "manufacturing.product-lifecycle",
+    "vertical_id": "manufacturing.product-lifecycle",
+    "vertical_label": "Product lifecycle & engineering change management",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "physics_simulation_automation",
+      "design_optimization_search",
+      "real_time_operational_control",
+      "numerical_solver_orchestration"
+    ],
+    "what_they_sell": "Three integrated products: (1) Reynolds — automated CFD simulation via natural language that writes OpenFOAM cases and runs solvers; (2) Archimedes — agentic design search that runs thousands of physics simulations in parallel to optimize layouts and geometries; (3) Inviscid AI — real-time thermal control for data centers using live telemetry to optimize HVAC and airflow patterns.",
+    "ai_play": "AI orchestrates numerical physics solvers (OpenFOAM, CFD engines) to replace manual engineering iteration. Instead of engineers hand-tuning designs or running single simulations, AI agents parallelize design exploration, interpret natural language specs into solver inputs, and continuously optimize real-world systems from live sensor data. Accuracy comes from actual physics, not approximation.",
+    "who_pays": "Hardware startups, data center operators, industrial manufacturers, and engineering teams seeking faster design cycles and lower operational costs.",
+    "confidence": 0.82,
+    "rationale": "Standard Physics is primarily an AI-enabled physical infrastructure play: they build AI that accelerates design R&D (Archimedes) and optimizes real-time operational control (Inviscid AI for thermal management). The core value is the physical system performance (better designs, lower cooling costs), with AI as the accelerator. Secondary phenotype (vertical-workflow-automation-ai) applies to Reynolds as a vertical SaaS automating CFD workflows for engineers. Confidence is high because the company explicitly targets hardware/engineering teams and sells outcome-based results (better designs, lower energy costs), not just software seats. The physics simulation engine and real-time control loop are the differentiators.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2566201,
+        "full_name": "Kabir Jain",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "I like physics and AI",
+        "linkedin_url": "https://www.linkedin.com/in/kabir-jain-781a6525a",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8d706dd634d225e95f024a467c2a9705078328a7.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACV6MK43Q%2F20261014%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261014T181735Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCYHtnDeCv40JAvCaSwOF%2BGJqZzxMWyzlz8CNdGHMyJ%2FAIhAPw8AVAEiDRFz6r3NkRntEirGTyeP7i2A%2Frex%2FfdTZldKu4DCLr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwu5MHpSqd65XEIlAcqwgN7qrcRbOmgsuf5D2RE3DMrqeMsG3c3a%2BexYrKaVpSioET2bgRlZ9nWbMlCqIcwWZ0bKxzE%2FgXPfWzSPB2wZ%2BkhFxIpTkhE467dIN3dv1bFipmO7NcRhkS%2FRd%2F1Aq%2FjpbJORdVsaXNG8yOg%2BVBSkCrE%2FmPUqR4nmyhUtTUzyg%2FBWBbrpdiV%2FNLRIcaT2XMD56mzI2RnWNJH%2FphfrTjyy3ifBpUxou4sflqS5Hv7yPptMeyuJAd5QpmXNjPfnPfGua88ZqoVPBTG9BeC6YlXPI21LAFllJAH8RrAXxVUPoKRG4VJRyqMc9%2B4Fk4po34OrsUxT4H09A%2B4B0Fr%2Fk2p2jJSwS%2B%2FOTy4kZOwdPV48DYNkka6JZVC5EshnGGhOIiCm%2BPUCgrAt%2B0WyqYeWTrMebT1RXzF1nEEpjv4QpBR0CJyJTyfOVaJlX856fD5nEgJULVTm3EzR38vRp3K77599LDC7KpUtKeAOSSDrUJ27ljcV3QOwrdexS6wJ9UmMeJo605t51pI3%2FjAw4C0Jx3c0lKZZeIi7O%2FxULgm%2FzHfCemq87gLbm8CWevG6ok3DdX4%2FMVM46qgpPucdQwJlkv9v6shY0kw6OW%2B1gY6pAF2Sg7NO0jcMFif3qOIOtw9%2BANAPXTJhI%2Fn8LZlXHfztODves0HM45cNfb6eBfz%2FIizlNWFkfutkLLH9kRNE%2Fzkcfyi6IGNzFZr%2FgH4s5LaqcsJ6LO16IuWibjmpg3XmtC8%2BMSVGDW8vMMR9uPaZHfE%2BAv0ZKMBbSJYhxS0fAXZ5LMRBSlqXd7vg4LVCcsz06S8Abarc%2FQJknd8hs%2F0FMtgPgHg9A%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=dd4648a20d315b6570d646fb81b4ee63dd6c1965f343317ca378b71daa9f786f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Standard Physics",
+          "href": "https://www.ycombinator.com/companies/standard-physics"
+        }
+      },
+      {
+        "user_id": 2965234,
+        "full_name": "Ziming Qiu",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "I make simulations :).",
+        "linkedin_url": "https://www.linkedin.com/in/qiu-ziming-1b746a276",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/68c0985a83fc0499721539da91ea610e5a39234a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACV6MK43Q%2F20261014%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261014T181735Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCYHtnDeCv40JAvCaSwOF%2BGJqZzxMWyzlz8CNdGHMyJ%2FAIhAPw8AVAEiDRFz6r3NkRntEirGTyeP7i2A%2Frex%2FfdTZldKu4DCLr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMDA2MjAxODExMDcyIgwu5MHpSqd65XEIlAcqwgN7qrcRbOmgsuf5D2RE3DMrqeMsG3c3a%2BexYrKaVpSioET2bgRlZ9nWbMlCqIcwWZ0bKxzE%2FgXPfWzSPB2wZ%2BkhFxIpTkhE467dIN3dv1bFipmO7NcRhkS%2FRd%2F1Aq%2FjpbJORdVsaXNG8yOg%2BVBSkCrE%2FmPUqR4nmyhUtTUzyg%2FBWBbrpdiV%2FNLRIcaT2XMD56mzI2RnWNJH%2FphfrTjyy3ifBpUxou4sflqS5Hv7yPptMeyuJAd5QpmXNjPfnPfGua88ZqoVPBTG9BeC6YlXPI21LAFllJAH8RrAXxVUPoKRG4VJRyqMc9%2B4Fk4po34OrsUxT4H09A%2B4B0Fr%2Fk2p2jJSwS%2B%2FOTy4kZOwdPV48DYNkka6JZVC5EshnGGhOIiCm%2BPUCgrAt%2B0WyqYeWTrMebT1RXzF1nEEpjv4QpBR0CJyJTyfOVaJlX856fD5nEgJULVTm3EzR38vRp3K77599LDC7KpUtKeAOSSDrUJ27ljcV3QOwrdexS6wJ9UmMeJo605t51pI3%2FjAw4C0Jx3c0lKZZeIi7O%2FxULgm%2FzHfCemq87gLbm8CWevG6ok3DdX4%2FMVM46qgpPucdQwJlkv9v6shY0kw6OW%2B1gY6pAF2Sg7NO0jcMFif3qOIOtw9%2BANAPXTJhI%2Fn8LZlXHfztODves0HM45cNfb6eBfz%2FIizlNWFkfutkLLH9kRNE%2Fzkcfyi6IGNzFZr%2FgH4s5LaqcsJ6LO16IuWibjmpg3XmtC8%2BMSVGDW8vMMR9uPaZHfE%2BAv0ZKMBbSJYhxS0fAXZ5LMRBSlqXd7vg4LVCcsz06S8Abarc%2FQJknd8hs%2F0FMtgPgHg9A%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=89a01bf01bf4152c2f0f940aae7b8def3ff91eb9b33ac67bfa317f9641464015",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Standard Physics",
+          "href": "https://www.ycombinator.com/companies/standard-physics"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-14T18:17:45.380Z",
+    "classified_at": "2026-10-14T18:17:45.380Z",
     "proposed_phenotype": null
   },
   {

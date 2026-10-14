@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-13T20:03:28.365Z",
+  "synced_at": "2026-10-14T18:17:35.619Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -3643,9 +3643,9 @@
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
-        "B2B",
-        "AI"
+        "B2B"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -3831,8 +3831,8 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "B2B"
+        "B2B",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -3981,11 +3981,11 @@
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Generative AI",
         "SaaS",
-        "Enterprise Software",
-        "AI"
+        "Enterprise Software"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -4599,10 +4599,10 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "Open Source",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "team_size": 1,
       "location": "Amsterdam, NH, Netherlands",
@@ -5138,17 +5138,17 @@
       "slug": "click",
       "name": "Click",
       "batch": "Summer 2026",
-      "one_liner": "Research services for ChatGPT and Claude",
-      "long_description": "Click builds useful services that meet users right inside ChatGPT and Claude.\r\nWe're starting with a research service that provides external context that the built-in web search misses - like data from professional & social platforms, marketplaces, financials, and more. \r\nIt makes research on people & companies even deeper with specialized, source-backed context beyond built-in web search, while enabling new tasks like comparing live flight fares right inside the chat.",
+      "one_liner": "Managed Agents API",
+      "long_description": "Click serves agents over an API. Bring your model keys, tools, and context - Click runs the agent and streams back events.\r\nAsk your coding agent about useclick.ai/reference!",
       "website": "https://www.useclick.ai",
       "industries": [
         "B2B",
-        "Analytics"
+        "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "API",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 1,
       "location": "San Francisco, CA, USA",
@@ -7444,15 +7444,17 @@
       "slug": "dydema",
       "name": "Dydema",
       "batch": "Fall 2026",
-      "one_liner": "The model company for neurotech.",
-      "long_description": "A data-first model company for neurotech. We collect brain data for others, and use it to build toward general models of the brain.",
+      "one_liner": "A consumer brain-computer interface you can map to anything.",
+      "long_description": "We’re building a brain-computer interface anyone can wear, so you can use a computer at the speed of thought. To get there, we’re recording brain data at model company scale.",
       "website": "https://dydema.com/",
       "industries": [
-        "B2B"
+        "Consumer"
       ],
       "tags": [
+        "Hardware",
         "Neurotechnology",
-        "Neuroinformatics",
+        "Consumer",
+        "Big Data",
         "AI"
       ],
       "team_size": 2,
@@ -8211,7 +8213,7 @@
         "Telecommunications"
       ],
       "team_size": 3,
-      "location": "Singapore, Singapore",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1786056981
     },
@@ -9438,15 +9440,17 @@
       "slug": "generalastro",
       "name": "General Astronautics",
       "batch": "Winter 2026",
-      "one_liner": "Robotics for Space R&D",
-      "long_description": "Robots for microgravity research and manufacturing.",
+      "one_liner": "Superintelligent space Robots",
+      "long_description": "Autonomous robotics for space operations.",
       "website": "https://generalastro.com/",
       "industries": [
         "Industrials",
         "Aviation and Space"
       ],
-      "tags": [],
-      "team_size": 2,
+      "tags": [
+        "Aerospace"
+      ],
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1772084363
@@ -9874,8 +9878,8 @@
         "Productivity"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Fintech"
+        "Fintech",
+        "AI"
       ],
       "team_size": 6,
       "location": "San Francisco, CA, USA",
@@ -10055,7 +10059,7 @@
       "slug": "haladir",
       "name": "Haladir",
       "batch": "Winter 2026",
-      "one_liner": "Operational Superintelligence for Global Logistics",
+      "one_liner": "Operational Intelligence for Global Logistics",
       "long_description": "Haladir builds advanced AI systems for logistics. We sit on top of your WMS, TMS and ERP, turning their data into decisions across supply chain planning and execution: solver-grade optimization that decides what should happen, and AI agents that run the workflows. Today's AI brought intelligence. The next frontier is judgement.",
       "website": "https://www.haladir.com/",
       "industries": [
@@ -10063,10 +10067,10 @@
         "Supply Chain and Logistics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Logistics",
         "Supply Chain",
-        "Operations"
+        "Operations",
+        "AI"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -10677,7 +10681,7 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence"
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -11412,23 +11416,6 @@
       "launched_at": 1789740763
     },
     {
-      "slug": "inviscid-ai",
-      "name": "Inviscid AI",
-      "batch": "Winter 2026",
-      "one_liner": "Real-time Physics Simulations for Industrial Facilities & Data Centers",
-      "long_description": "Inviscid AI builds physics-informed AI solutions that transform how buildings and data centers operate. By combining real-time IoT sensor data with computational fluid dynamics (CFD) modeling, we create digital twins that simulate building performance in real time and autonomously optimize operations.\r\n\r\nOur platform optimizes airflow patterns and ventilation strategies to eliminate dead zones, improve air distribution, and reduce the load on mechanical systems. On the energy side, we minimize HVAC power consumption, reduce cooling costs, and lower overall operational expenses while maintaining optimal thermal comfort and indoor air quality. Beyond immediate operational efficiency, we optimize equipment scheduling and maintenance cycles by predicting system behavior under different conditions, allowing facilities managers to proactively address issues before they become problems.\r\n\r\nOur physics first approach ensures that we're not just optimizing against historical patterns, but optimizing based on a deep understanding of how air, heat, and energy actually move through your building, enabling us to find solutions that traditional rule-based or purely data-driven systems would miss.",
-      "website": "https://inviscidai.com/",
-      "industries": [
-        "Industrials",
-        "Energy"
-      ],
-      "tags": [],
-      "team_size": 2,
-      "location": "Singapore, Singapore; Remote",
-      "status": "Active",
-      "launched_at": 1769244149
-    },
-    {
       "slug": "invo",
       "name": "Invo",
       "batch": "Winter 2025",
@@ -11696,7 +11683,7 @@
         "Consumer Health and Wellness"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 5,
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1776751581
@@ -11843,7 +11830,7 @@
         "B2B"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1759705278
@@ -12328,8 +12315,8 @@
       "slug": "knowlify",
       "name": "Knowlify",
       "batch": "Summer 2025",
-      "one_liner": "DFY video paid ads agency for startups",
-      "long_description": "Knowlify is a done-for-you video ads agency for startups running paid social. We write the ads and make them: UGC-style talking-head, commercials, and Pixar-style. You brief us on a 20-minute call. We send the direction in writing, you approve it, and the first finished batch lands in days. New ads come every week, ready to upload.\r\n\r\nIf you have been prompting an AI video tool and getting back something that is not the ad you asked for, that is the job we take. You wrote the prompt. You still do not have an ad. You wrote the brief. The tool ignored it. You do not write another prompt. You approve the direction, and we make the ads.\r\n\r\nStartups use Knowlify when they need more creative to test than an agency round, a creator roster, or a prompt box can ship. We produce the videos. Media spend stays yours.",
+      "one_liner": "Done-for-you AI video ads and Meta campaign management",
+      "long_description": "Knowlify is a done-for-you video ads agency for B2B and B2C companies running paid social. We concept, script, produce and edit AI UGC ads, Pixar-style character animation ads and AI commercials, with a human quality check before delivery.\r\n\r\nOur team starts with a 20-minute kickoff call, sends creative direction for approval within 48 hours, and delivers the first batch five days after the first call. New batches arrive weekly, with about 25 finished ads a week on a monthly plan.\r\n\r\nWe also offer end-to-end Meta advertising for Facebook and Instagram, combining creative production with campaign management. Creative-only engagements are available for teams with their own media buyer. Media spend is separate, and clients keep every finished ad.\r\n\r\nSee examples and book a call at https://knowlify.com/.",
       "website": "https://www.knowlify.com/",
       "industries": [
         "B2B",
@@ -12399,7 +12386,7 @@
         "Infrastructure"
       ],
       "tags": [],
-      "team_size": 4,
+      "team_size": 5,
       "location": "Berlin, Berlin, Germany",
       "status": "Active",
       "launched_at": 1777590592
@@ -13824,7 +13811,7 @@
       ],
       "tags": [],
       "team_size": 3,
-      "location": "",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1772177133
     },
@@ -16302,8 +16289,8 @@
       "slug": "octapulse",
       "name": "OctaPulse",
       "batch": "Winter 2026",
-      "one_liner": "CV and robotics to automate quality inspection in fish farms",
-      "long_description": "OctaPulse uses AI vision to automate hatchery QA for fish farms, starting with broodstock phenotyping and juvenile deformity inspection. We cut inspection time from about 5 minutes to under 30 seconds per fish, with more than 90 percent accuracy, so farms advance only high quality fish and waste less feed and labor. Our goal is to bring automation across the entire fish production lifecycle for the $300B aquaculture industry.\r\n\r\nAquaculture is the fastest growing food sector, and has already surpassed commercial fishing for production of seafood. Yet two of the most critical QA and QC steps in fish production are still done by hand: phenotyping and deformity inspection. These processes are slow, error prone, and despised by technicians but vital for the success of the farm, so much so that farms spend >$200K a year on trained technicians and geneticists to operate. We’ve built an AI vision platform for vertically integrated finfish farms that drops into existing workflows starting in the hatchery, uses off the shelf cameras, standardizes these QA steps, and creates a proprietary multi species dataset that becomes the brain for future autonomous aquafarms. Phenotyping is the start, but the platform is designed to be a drop in solution that can easily expand into feeding, health monitoring, and processing so we can solve production problems across the lifecycle.\r\n\r\n We signed a 6-figure paid pilot with the largest trout producer in the United States, are deploying into 2 more farms early 2026, and trained models above 90 percent accuracy while cutting inspection time from 5 minutes to under 30 seconds. Each deployment adds labeled images to our dataset and improves cross species generalization.\r\n",
+      "one_liner": "Building the robotics layer for seafood production",
+      "long_description": "OctaPulse is building the robotics layer for seafood production. Aquaculture is the fastest-growing food sector and already produces more seafood than commercial fishing, yet the people who breed and process fish still make thousands of decisions a day with almost no data about the fish in front of them, and much of the most important work is still done by hand, one fish at a time.\n\nWe put cameras where fish are already handled, turn every image into measurements, and give farms and plants the tools to act on them. Today that is two products: Phenotyping, which measures every fish for shape, size and condition and links it to its family for breeding decisions, and Digital Twin, which places cameras on processing lines and farm sites onto the floor plan with live views, automatic counts and a built-in AI assistant.\n\nThe same per-fish measurements are the foundation for Plant Robotics: robot cells that handle whole fish on the processing line, working alongside the people there. Fish are wet, slippery, soft and never the same twice, which is exactly why this work is still manual and why it needs measurement-driven robots built for food plants rather than rigid grippers and tabletop demos. We are now selecting processing plants for the first pilots on real lines.\n\nWe signed a 6-figure paid pilot with the largest trout producer in the United States, and every deployment adds labeled images to a proprietary multi-species dataset that improves our models across species and becomes the brain for autonomous seafood production.",
       "website": "https://www.tryoctapulse.com/",
       "industries": [
         "Industrials",
@@ -16311,7 +16298,7 @@
       ],
       "tags": [],
       "team_size": 2,
-      "location": "",
+      "location": "Frisco, TX, USA",
       "status": "Active",
       "launched_at": 1766417530
     },
@@ -16376,8 +16363,8 @@
       "slug": "olam-labs",
       "name": "Olam Labs",
       "batch": "Summer 2026",
-      "one_liner": "Building multi-agent simulations for model evals and training.",
-      "long_description": "Multi-agent environments let us evaluate and train models in complex, simulated worlds. We work with researchers on both evaluations and training for character and agentic performance typically difficult to assess for using current popular datasets. \r\n\r\nPlay one of our first releases, Multi-Agent Arena (https://olamlabs.ai/arena), where humans come play social strategy games against multiple AI agents. It's currently top 50 on OpenRouter and has thousands of matches played each day. We use Multi-Agent Arena to build datasets on agentic performance and real-world socialization.",
+      "one_liner": "Crafting simulations for frontier lab model training",
+      "long_description": "Craftsmen that research complex, high-fidelity simulations for training and evaluating frontier AI models alongside the infrastructure to test and deploy them at scale. Our research focuses on simulations with realistic socialization, multi-agent interaction, swarms, and ultra-long-horizon tasks.\r\n\r\nTry one of our first releases, Multi-Agent Arena (https://olamarena.com/), where humans come play social strategy games against multiple AI agents. It has multi-agent social games like Poker, Diplomacy, Risk, and more.",
       "website": "https://olamlabs.ai",
       "industries": [
         "B2B"
@@ -16934,11 +16921,11 @@
         "Supply Chain and Logistics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Logistics",
         "Manufacturing",
         "Supply Chain",
-        "Operations",
-        "AI"
+        "Operations"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -17778,10 +17765,10 @@
       ],
       "tags": [
         "AIOps",
+        "Artificial Intelligence",
         "B2B",
         "Enterprise Software",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -18928,11 +18915,11 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "B2B",
         "Workflow Automation",
-        "API"
+        "API",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -19120,7 +19107,7 @@
     },
     {
       "slug": "primordiant",
-      "name": "Primordiant (Formerly SuperRadiant)",
+      "name": "Primordiant",
       "batch": "Fall 2026",
       "one_liner": "Embodied Scientific Intelligence",
       "long_description": "Every instance of intelligence occurring in nature is embodied. Scientific intelligence is no different. We are building general-purpose robotic experimentalists: systems that unite scientific reasoning and physical action to iterate toward discovery by observing, hypothesizing and experimenting.",
@@ -19130,10 +19117,10 @@
         "Manufacturing and Robotics"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Robotics",
         "Energy",
         "Advanced Materials",
-        "AI",
         "Biotechnology"
       ],
       "team_size": 3,
@@ -21769,17 +21756,17 @@
       "name": "Serafis",
       "batch": "Summer 2025",
       "one_liner": "Deep intelligence for private markets",
-      "long_description": "Serafis is building the AI knowledge graph for market intelligence, starting with the information frontier.\r\n\r\nTrusted by top funds ($70B+ AUM) and the largest global consulting firms.",
+      "long_description": "Serafis is building the AI knowledge graph for market intelligence, starting with the information frontier. Trusted by top investors ($70B+ AUM) and the largest global consulting firms.",
       "website": "https://serafis.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "Finance",
         "Investing",
-        "Search",
-        "AI"
+        "Search"
       ],
       "team_size": 4,
       "location": "San Francisco, CA, USA",
@@ -22103,8 +22090,8 @@
       "slug": "sila",
       "name": "Sila",
       "batch": "Winter 2026",
-      "one_liner": "Agentic Whatsapp",
-      "long_description": "Sila is an agentic WhatsApp where messaging is built for teams and agents to get work done in the same conversations. Instant team and agent messaging available around the world. Our mission is to bring super intelligence to everyone globally.",
+      "one_liner": "Agentic Messenger",
+      "long_description": "Sila is an agentic messenger built for teams and agents to get work done in the same conversation. Simple, instant, global AI messaging and calling. Our mission is to bring super intelligence to everyone worldwide. ",
       "website": "https://silahq.com",
       "industries": [
         "B2B",
@@ -22198,7 +22185,7 @@
       "slug": "simulithic",
       "name": "Simulithic",
       "batch": "Fall 2026",
-      "one_liner": "User simulations for production monitoring.",
+      "one_liner": "AI users that test your app on every device and browser",
       "long_description": "Simulithic continuously uses your production product like your real users do. We learn representative user journeys and run user simulations across different devices, browsers, account states, and environments to find failures that traditional scripted end-to-end tests miss. ",
       "website": "https://simulithic.com",
       "industries": [
@@ -22206,7 +22193,7 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "AI"
+        "Artificial Intelligence"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -22380,7 +22367,7 @@
       "name": "Slashy",
       "batch": "Summer 2025",
       "one_liner": "Cursor for Email",
-      "long_description": "AI that helps you fly through your inbox.\r\n",
+      "long_description": "Slashy is an AI-native email client for founders and operators. It drafts replies in your voice from your sent mail, triages your inbox, tracks follow-ups, keeps your calendar in the inbox, and can be run from iMessage, Slack, or an AI agent through its MCP server. Slashy works with Gmail, Google Workspace, Outlook.com, and Microsoft 365, on web, Mac, and iOS.",
       "website": "https://www.slashy.com/",
       "industries": [
         "B2B",
@@ -22494,9 +22481,9 @@
         "Operations"
       ],
       "tags": [
+        "Artificial Intelligence",
         "HR Tech",
         "Infrastructure",
-        "AI",
         "Conversational AI"
       ],
       "team_size": 5,
@@ -22530,18 +22517,17 @@
       "slug": "soren",
       "name": "Soren",
       "batch": "Fall 2025",
-      "one_liner": "The AI workforce for business operations.",
-      "long_description": "Soren builds the AI workforce for business operations. We power companies around the world across a range of traditional industries, including legal, financial services, healthcare, and more.\r\n\r\nOur specialized AI agents combine frontier intelligence with deep operational expertise to execute critical work behind the scenes, becoming an engine businesses rely on to run faster, leaner, and more effectively.\r\n\r\nOur goal is to build the AI operating layer that the world’s businesses will run on.\r\n",
-      "website": "https://usesoren.com",
+      "one_liner": "The AI Transformation Company",
+      "long_description": "Soren is an AI-native engineering firm that helps traditional businesses put AI to work.\r\n\r\nWe combine world-class engineering talent with AI-powered delivery to modernize legacy systems, build intelligent software, and solve complex business problems.\r\n\r\nBy pairing human expertise and judgment with the speed and efficiency of AI, we deliver better technology, faster and at a fraction of the cost of traditional engineering firms.\r\n",
+      "website": "https://soren-ai.com",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "B2B",
-        "Enterprise",
         "Enterprise Software",
-        "Operations"
+        "Operations",
+        "AI"
       ],
       "team_size": null,
       "location": "San Francisco, CA, USA",
@@ -22872,10 +22858,10 @@
         "Infrastructure"
       ],
       "tags": [
-        "Artificial Intelligence",
         "DevSecOps",
         "Cybersecurity",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -22955,6 +22941,22 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1785623138
+    },
+    {
+      "slug": "standard-physics",
+      "name": "Standard Physics",
+      "batch": "Winter 2026",
+      "one_liner": "Fast Physics Simulations for Rapid Design and Real Time Control",
+      "long_description": "Standard Physics (formerly Inviscid AI) builds AI that does real physics. Most AI tools approximate physical behavior and get it wrong in ways engineers can’t see. Ours run actual numerical solvers, so the results are accurate enough to make real engineering decisions on.\r\n\r\nWe have three products built on one engine.\r\n\r\nReynolds runs computational fluid dynamics for you. An engineer describes the flow in plain language, and Reynolds writes the OpenFOAM case, builds the mesh, runs the solver, and returns the figures, the numbers, and a case they can rerun. It’s open source.\r\n\r\nArchimedes searches the design itself. Swarms of agents try thousands of layouts in parallel, simulate each one through Reynolds, keep what the physics rewards, and redraw the search space when the best answer was never in the original plan. We sell it as outcome-based engineering: customers pay for a better design, not for compute.\r\n\r\nInviscid AI (now a product!) points the same engine at a running building. It holds a data center within its thermal limits in real time, computed continuously from live telemetry. Our platform optimizes airflow patterns and ventilation strategies to eliminate dead zones, improve air distribution, and reduce the load on mechanical systems. On the energy side, we minimize HVAC power consumption, reduce cooling costs, and lower overall operational expenses while maintaining optimal thermal comfort and indoor air quality. \r\n\r\nWe work with hardware startups and engineering teams on data center cooling, drones, energy systems, piping, and electronics. Reynolds earns engineers’ trust in daily use, and Archimedes and Inviscid AI turn that trust into large contracts.",
+      "website": "https://standardphysics.com/",
+      "industries": [
+        "Industrials"
+      ],
+      "tags": [],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1769244149
     },
     {
       "slug": "standard-signal",
@@ -23465,14 +23467,16 @@
       "slug": "sutrix",
       "name": "Sutrix",
       "batch": "Fall 2026",
-      "one_liner": "Patient outcomes research at the speed of care",
-      "long_description": "Sutrix enables hospital clinical research teams to deliver tailored patient outcomes 80% faster. We deploy software to turn data from EHRs, wearables, and other sources into validated, analysis-ready datasets and run auditable statistical analyses.",
+      "one_liner": "Turns EHR data into study-ready datasets for hospital research teams",
+      "long_description": "Sutrix turns messy EHR records into clean, study-ready datasets for hospital research teams.\r\n\r\nBefore a clinical study can start, research staff spend weeks pulling records, reading notes chart by chart and fixing conflicting entries in spreadsheets. Sutrix automates that work inside each hospital's own systems. It applies the study's rules and flags unclear cases for staff to review.\r\n\r\nPaying research teams at HSS, Emory, and Mount Sinai cut data prep from 3 weeks per study to 4 days, so they start studies sooner and run more of them.\r\n\r\nWe built Sutrix because we lived this problem. Ritvik ran clinical research at HSS and Emory, and Supratik previously founded Kairo (a16z Speedrun, exited) and was an engineer at Amazon.",
       "website": "https://www.sutrix.ai/",
       "industries": [
-        "Healthcare"
+        "Healthcare",
+        "Healthcare IT"
       ],
       "tags": [
-        "Healthcare"
+        "Healthcare",
+        "Healthcare IT"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -26942,10 +26946,10 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Developer Tools",
         "B2B",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -27067,10 +27071,10 @@
         "Operations"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "B2B"
+        "B2B",
+        "AI"
       ],
-      "team_size": 3,
+      "team_size": 7,
       "location": "Stockholm, Stockholm County, Sweden",
       "status": "Active",
       "launched_at": 1784823049

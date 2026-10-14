@@ -1,7 +1,76 @@
 {
-  "updated_at": "2026-10-13T20:04:54.631Z",
-  "count": 1361,
+  "updated_at": "2026-10-14T18:18:13.740Z",
+  "count": 1364,
   "launches": [
+    {
+      "launch_id": 117699,
+      "launch_slug": "UcN-proof-of-human-pbc-the-invisible-turing-test-for-the-internet",
+      "launch_url": "https://www.ycombinator.com/launches/UcN-proof-of-human-pbc-the-invisible-turing-test-for-the-internet",
+      "title": "Proof of Human, PBC: The invisible Turing Test for the Internet",
+      "tagline": "The Proof of Human API continuously distinguishes humans from bots and AI agents.",
+      "body": "**The internet is losing the ability to know who is human.**\n\nAI agents can now browse websites, fill out forms, complete tasks, and produce responses that are increasingly difficult to distinguish from those of real people. The systems the internet has historically relied on to separate humans from machines were not built for this world.\n\n## PROOF OF HUMAN\n\nThe Proof of Human API continuously distinguishes humans from bots and AI agents.\\\n\\\nModern AI can produce very human-like outputs. But producing an answer and producing it like a human are different things. Humans hesitate. We make mistakes. We correct ourselves. Our attention changes over time. The way we type, move, and interact leaves rich signatures that remain difficult for AI systems to reproduce. We call the broader research program _the Invisible Turing Test for the Internet_.\n\nProof of Human runs in the background while someone uses a website—no CAPTCHA, no puzzle, no interruption. We combine behavioral, device, and network signals and return a real-time assessment that companies can use to decide whether to trust an account, accept a response, or pay for work.\n\n<https://www.youtube.com/watch?v=swJabsQubf4>\n\n## BENCHMARKS\n\nWe tested scripted bots and AI agents against Proof of Human and other leading detection systems.  \n\n![uploaded image](/media/?type=post&id=117699&key=user_uploads/1202145/ae031489-b618-4c0f-a1e7-a68dfa8cca03)\n\n_On a five-question survey, Proof of Human identified 99% of automated sessions, followed by reCAPTCHA v3 at 69.4%, hCaptcha at 44.3%, Cloudflare Turnstile at 42.1%, and Cloudflare Bot Management at 9.1%._\n\nTraditional automation signals remain effective against scripted browsers, but they are less reliable when AI agents operate through genuine browser environments. Even interactive challenges may offer limited protection when vision-capable agents can interpret and complete them. As browser-level indicators become easier to avoid, the way a user behaves throughout a session becomes increasingly important for distinguishing human activity from automation.\n\n## OUR CUSTOMERS\n\n**Today, Proof of Human acts as the trust layer behind online human research.** Stanford Psychology uses it to verify that participants in online studies are real. GrowProgress uses it as part of its quality-control stack for polling and public-opinion research. Market insights firms including Obsurvant use it to identify AI agents and other fraudulent respondents before they enter client datasets.\\\n\\\nThe common problem is the same: a response itself is no longer enough. An AI agent can give a coherent answer, pass an attention check, and look perfectly legitimate in the final dataset. Proof of Human looks at the process that produced it—how someone types, clicks, scrolls, moves through a page, and interacts with their device—continuously and without interrupting the user.\\\n\\\nProduction traffic also teaches us what to look for next. Customer deployments have uncovered new patterns of automation, from unnatural typing to partial AI copy-pasting, that are difficult or impossible to identify from the final answer alone. Those behaviors become new detectors, which are then tested across human, bot, and agent traffic before being deployed back into the network. The result is a system that improves as the adversary changes.\n\n![uploaded image](/media/?type=post&id=117699&key=user_uploads/1202145/0f53b0f4-ec5e-4837-acec-549a275ac727)\n\n_Proof of Human at Stanford Psychology. We first encountered this problem as researchers ourselves; today, research groups use Proof of Human to verify that the people behind online studies are actually people._\n\n## THE FUTURE\n\nWe started with online research because the problem was acute and measurable: organizations were paying for human judgment without reliably knowing whether a human had produced it.\n\nBut the same problem is rapidly appearing across applications, marketplaces, transactions, social platforms, and digital work. The internet needs a way to know when a human is actually on the other side—continuously, invisibly, and without another CAPTCHA.\n\nWelcome to the Proof of Human era.\n\nMatt &amp; Mayank",
+      "created_at": "2026-10-14T14:43:03.903Z",
+      "total_vote_count": 8,
+      "company_slug": "proof-of-human",
+      "company_name": "Proof of Human",
+      "company_website": "https://poh.org",
+      "company_batch": "Summer 2023",
+      "company_industry": "B2B",
+      "company_id": 29005,
+      "author_name": "Matt Hardy",
+      "scraped_at": "2026-10-14T18:18:03.310Z",
+      "review_summary": {
+        "conformance_index": 57,
+        "predictability_band": "surprise",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 119329,
+      "launch_slug": "V2f-ladder-the-personal-ai-assistant-for-home-services-sales-reps",
+      "launch_url": "https://www.ycombinator.com/launches/V2f-ladder-the-personal-ai-assistant-for-home-services-sales-reps",
+      "title": "Ladder: The Personal AI Assistant for Home Services Sales Reps",
+      "tagline": "Ladder helps home services sales reps be successful",
+      "body": "Hey everyone! We're Will and David, co-founders of Ladder.\n\n**TL;DR:** Ladder is the first AI personal assistant for in-home sales reps. It works for reps instead of monitoring them.\n\n**The problem**\\\nHome services companies leave millions on the table every year because their reps are on their own in the field. No one is there to listen and help them improve. Most sales AI feels like Big Brother, so reps don't use it.\n\n**The solution**\\\nLadder works for reps. Reps love it because it helps them:\n\n* Earn more commission.\n* Handle busy work.\n* Generate more referrals.\n\nWe price based on outcomes, so we only get paid when reps use ladder to sell a project. \n\nLeading home services companies already trust Ladder across more than $100M in jobs.\n\n**Our ask**\\\nDo you know someone who runs sales at a home services company? We'd love an intro. Get in touch at [hey@ladderai.com](mailto:hey@ladderai.com).\n\n![uploaded image](/media/?type=post&id=119329&key=user_uploads/833145/05e6249a-fa16-4e0d-996a-0befe44fea04)\n\n",
+      "created_at": "2026-10-14T14:42:34.139Z",
+      "total_vote_count": 2,
+      "company_slug": "ladderai",
+      "company_name": "Ladder",
+      "company_website": "https://ladderai.com",
+      "company_batch": "Winter 2025",
+      "company_industry": "B2B",
+      "company_id": 30229,
+      "author_name": "Will Cray",
+      "scraped_at": "2026-10-14T18:18:03.311Z",
+      "review_summary": {
+        "conformance_index": 75,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 121648,
+      "launch_slug": "Ve4-deploy-the-generalist-robot-deployment-company",
+      "launch_url": "https://www.ycombinator.com/launches/Ve4-deploy-the-generalist-robot-deployment-company",
+      "title": "Deploy - The Generalist Robot Deployment Company",
+      "tagline": "We turn generalist robots into a reliable workforce. ",
+      "body": "Hello world, we’re [Irene](https://www.linkedin.com/in/irene-grace-karot-polson/) &amp; [Sahith](https://www.linkedin.com/in/sahith-reddy-chada/), co-founders of [Deploy](https://deployrobotics.co/)!\\\n\\\n**TL;DR:** Deploy puts generalist robots, aka humanoid arms, to work in real businesses as a service. You pay for the work getting done (packing, kitting, returns, manufacturing, data center maintenance), not the robot.\n\n<https://youtu.be/cPinFIhI7b8>\n\n**Problem:** \\\nThe world was full of physical tasks no technology could automate till now. Generalist robot models can finally handle the messy, variable work that traditional automation never could: mixed orders, returns, tasks that change every day.\n\nBut a capable model isn't the same as a robot reliably doing the job on your floor. Most robotics projects stall in the gap between a good demo and a shift that runs 24/7. \n\n**Solution:** \\\nDeploy closes that gap. We’re the generalist robot deployment company. We turn generalist robots into reliable workers, and our customers pay for completed work, not the robot.\n\n**How it works:** \\\n→ We break each new task into a sequence of steps and track progress in real time\\\n→ The system knows what's done, what's next, and when a robot needs help\\\n→ Every human intervention becomes training data, so the robots get better the longer they run\n\n**The backstory**\\\n[Irene](https://www.linkedin.com/in/irene-grace-karot-polson/) and [Sahith](https://www.linkedin.com/in/sahith-reddy-chada/) have been building robots for over a decade, from opposite ends of the stack. Sahith built robot models at Honda Research Institute. Irene deployed autonomous vehicles in safety-critical airport environments. We kept hitting the same wall: deployment. Deploying across different robots and different models is fundamentally the same problem. If it’s one problem, one platform can solve it. So we’re building Deploy.\n\n![uploaded image](/media/?key=user_uploads/3445935/cd171680-2427-4c8f-80fc-ceb223d46485)\n\n**Ask:** \\\nCan you introduce us to 3PLs, brands, warehouses or distribution centers that could benefit from rolling out robotics as a workforce? Reach us at [founders@deployrobotics.co](mailto:founders@deployrobotics.co) or [deployrobotics.co](http://deployrobotics.co).",
+      "created_at": "2026-10-14T14:30:00.140Z",
+      "total_vote_count": 5,
+      "company_slug": "deploy",
+      "company_name": "Deploy",
+      "company_website": "https://deployrobotics.co/",
+      "company_batch": "Fall 2026",
+      "company_industry": "Industrials",
+      "company_id": 35455,
+      "author_name": "Irene Grace Karot Polson",
+      "scraped_at": "2026-10-14T18:18:03.311Z",
+      "review_summary": {
+        "conformance_index": 77,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
     {
       "launch_id": 121747,
       "launch_slug": "Vff-saccade-world-s-earliest-test-for-alzheimer-s-biomarkers",

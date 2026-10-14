@@ -1,7 +1,214 @@
 {
-  "updated_at": "2026-10-13T20:04:53.417Z",
+  "updated_at": "2026-10-14T18:18:12.216Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 117699,
+      "company_slug": "proof-of-human",
+      "launch_url": "https://www.ycombinator.com/launches/UcN-proof-of-human-pbc-the-invisible-turing-test-for-the-internet",
+      "created_at": "2026-10-14T14:43:03.903Z",
+      "classification": {
+        "phenotype_primary_id": "agent-security-control-plane",
+        "vertical_id": "ai-infrastructure.agent-security",
+        "business_models": [
+          "BM-03"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-14T18:18:12.188Z",
+        "launch_id": 117699,
+        "company_slug": "proof-of-human",
+        "taxonomy": {
+          "conformance_index": 57,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 83,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-security",
+            "phenotype_primary_id": "agent-security-control-plane",
+            "cell_key": "BM-03::ai-infrastructure.agent-security::agent-security-control-plane",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent security & authorization",
+            "phenotype_label": "Agent Security & Access Control Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 67,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch_id": 119329,
+      "company_slug": "ladderai",
+      "launch_url": "https://www.ycombinator.com/launches/V2f-ladder-the-personal-ai-assistant-for-home-services-sales-reps",
+      "created_at": "2026-10-14T14:42:34.139Z",
+      "classification": {
+        "phenotype_primary_id": "horizontal-copilot-saas",
+        "vertical_id": "enterprise.sales.enablement",
+        "business_models": [
+          "BM-02"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-14T18:18:12.189Z",
+        "launch_id": 119329,
+        "company_slug": "ladderai",
+        "taxonomy": {
+          "conformance_index": 75,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 86,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-02",
+            "vertical_id": "enterprise.sales.enablement",
+            "phenotype_primary_id": "horizontal-copilot-saas",
+            "cell_key": "BM-02::enterprise.sales.enablement::horizontal-copilot-saas",
+            "business_model_label": "Horizontal AI SaaS",
+            "vertical_label": "Sales enablement & execution",
+            "phenotype_label": "Horizontal copilot / productivity SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch_id": 121648,
+      "company_slug": "deploy",
+      "launch_url": "https://www.ycombinator.com/launches/Ve4-deploy-the-generalist-robot-deployment-company",
+      "created_at": "2026-10-14T14:30:00.140Z",
+      "classification": {
+        "phenotype_primary_id": "robotics-embodied-ai",
+        "vertical_id": "robotics.integration-deployment",
+        "business_models": [
+          "BM-08"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-14T18:18:12.191Z",
+        "launch_id": 121648,
+        "company_slug": "deploy",
+        "taxonomy": {
+          "conformance_index": 77,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-08",
+            "vertical_id": "robotics.integration-deployment",
+            "phenotype_primary_id": "robotics-embodied-ai",
+            "cell_key": "BM-08::robotics.integration-deployment::robotics-embodied-ai",
+            "business_model_label": "Hardware + software",
+            "vertical_label": "Robotic system integration & factory deployment",
+            "phenotype_label": "Robotics / embodied / teleoperation"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
     {
       "launch_id": 121747,
       "company_slug": "saccade",
