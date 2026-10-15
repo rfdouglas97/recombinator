@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-14T18:17:35.619Z",
+  "synced_at": "2026-10-15T17:59:39.918Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1382,
+  "company_count": 1390,
   "companies": [
     {
       "slug": "10x",
@@ -500,8 +500,11 @@
         "Engineering, Product and Design"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
-        "Swarm AI"
+        "Swarm AI",
+        "Open Source",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -1082,6 +1085,27 @@
       "location": "Los Angeles, CA, USA",
       "status": "Active",
       "launched_at": 1761174591
+    },
+    {
+      "slug": "altair-health",
+      "name": "Altair Health",
+      "batch": "Fall 2026",
+      "one_liner": "Stripe for medical billing",
+      "long_description": "Altair is an AI-native medical billing service for independent practices. We take over a practice's billing end to end and get doctors paid by insurers. AI does the work; our billers handle the exceptions.\r\n\r\nThat can only work if a practice can trust an agent alone with its revenue. So we formalized insurers' billing policies and put a theorem prover under the agent. Before the agent acts on a claim, the prover checks the action against that insurer's policies, and anything that fails goes to one of our billers. \r\n\r\nEvery claim teaches Altair how each insurer behaves, so the longer we run a practice's billing, the better we predict what its insurers will pay, deny or delay.\r\n\r\nWe're building the default way a new practice gets paid: a doctor connects their EHR and bills clean from the first patient, completely self-serve and on auto-pilot.\r\n\r\nAltair will be the financial platform every independent practice in America starts on and stays on.",
+      "website": "https://www.altair-health.com",
+      "industries": [
+        "Healthcare",
+        "Healthcare Services"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Health Tech",
+        "Healthcare"
+      ],
+      "team_size": 4,
+      "location": "Austin, TX, USA",
+      "status": "Active",
+      "launched_at": 1792016571
     },
     {
       "slug": "alter",
@@ -1854,10 +1878,33 @@
       "launched_at": 1739843143
     },
     {
+      "slug": "artil",
+      "name": "Artil",
+      "batch": "Winter 2025",
+      "one_liner": "Agent identity and communication infrastructure",
+      "long_description": "Artil gives AI agents their own email addresses and phone numbers so they can communicate and use online services. Agents can send and receive emails and text messages, sign up for services, and complete email and SMS verification. We’re building the identity and communication infrastructure for teams developing agents and people putting them to work.",
+      "website": "https://artil.dev/",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Developer Tools",
+        "B2B",
+        "Email",
+        "Infrastructure",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "London, England, United Kingdom",
+      "status": "Active",
+      "launched_at": 1736800806
+    },
+    {
       "slug": "arzana",
       "name": "Arzana",
       "batch": "Spring 2026",
-      "one_liner": "The autonomous ERP for every manufacturer",
+      "one_liner": "Adaptive AI built for manufacturers",
       "long_description": "Arzana trains custom models on manufacturers' operational data to automate their quoting, order entry, invoicing, and other repetitive office work. We've saved our customers over $1.5M in avoided staff costs.\r\n\r\nIn the future, we'll expand into shop-floor automation, sending instructions to machinery and robots to produce the orders that our office agents processed. By 2035, we aim to fully automate 10,000 American factories.",
       "website": "https://www.arzana.com/",
       "industries": [
@@ -1865,7 +1912,7 @@
         "Operations"
       ],
       "tags": [],
-      "team_size": 9,
+      "team_size": 13,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1773098013
@@ -2615,7 +2662,7 @@
       "tags": [],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
-      "status": "Active",
+      "status": "Acquired",
       "launched_at": 1779165169
     },
     {
@@ -3456,14 +3503,14 @@
         "Legal"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Consumer",
         "B2B",
         "Legal",
-        "LegalTech"
+        "LegalTech",
+        "AI"
       ],
       "team_size": 2,
-      "location": "Boston, MA, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1746075411
     },
@@ -8591,21 +8638,25 @@
       "launched_at": 1751218179
     },
     {
-      "slug": "fira",
-      "name": "Fira",
-      "batch": "Winter 2025",
-      "one_liner": "Financial research platform for investment firms",
-      "long_description": "Fira accelerates financial research for investment analysts by instantly searching and analyzing thousands of pages of company filings and earnings reports, delivering source-cited answers and verifiable calculations.\r\n\r\nOur mission is to build a comprehensive research platform that integrates seamlessly with internal and external data sources, handles research and analysis, generates investment documents, and automates repetitive workflows. This frees investment professionals to focus on what matters most: building relationships and making strategic decisions.",
-      "website": "https://firaresearch.com/",
+      "slug": "fire-wallet",
+      "name": "Fire Wallet",
+      "batch": "Fall 2026",
+      "one_liner": "Fire Wallet is a privacy-first crypto wallet designed to just work,…",
+      "long_description": "🔥FIRE WALLET 🔥\r\n\r\nhttps://www.youtube.com/watch?v=JeXDDegwhgA\r\n\r\nTL;DR: Fire Wallet is a fast, end-to-end encrypted, non-custodial stablecoin wallet with built-in payment processing and fiat on/off ramps, built by the team that created MobileCoin, the cryptocurrency inside Signal.\r\n\r\nHey Bookface! We're Josh, Michael, and Manny and we're building Fire Wallet!\r\n\r\n🔥Why we built this\r\n\r\nMost wallets and payment processors don’t work FOR you. They're slow, route your payments in the way that earns them the most, and they leak your financial life to anyone asking. Worse: every single one hold the keys to your money.\r\n\r\nWe believe your financial tools should act in your interest and, frankly, that your money should be yours.\r\n\r\n 🔥What Fire does\r\n\r\nMulti-chain, non-custodial, end-to-end encrypted wallet. \r\nYour keys, your money, your assets: you are in full control of your funds at all times. \r\nLeast Cost Routing. Every swap and payment takes the cheapest path, not the one that pays a middleman the most.\r\nSelf-sovereign payment processing. Send an invoice straight from the wallet. Get paid from your web checkout. No middleman.\r\nEasy fiat on/off ramps. Move stablecoins to USD and back without the pain.\r\nBuilt for agentic commerce. Manage per-agent sub-wallets for agentic workflows.\r\nEncrypted by default. Protecting you from bad actors and surveillance capitalism.\r\n\r\n🔥Early traction\r\n\r\nSigned our first major LOI with @Trustboop (founded by Justice Laub of Drone Racing League and Rob Rhinehart of Soylent).\r\n\r\nOnboarding our first enterprise customer in ecommerce packaging and marketing, doing about $1.5M/month in volume. They've connected us to 10 more companies in the same vertical at similar volume, roughly a $100M/yr GMV opportunity.\r\n\r\n🔥Why us\r\n\r\nJosh and Manuel led the creation of MobileCoin, the cryptocurrency in Signal Messenger: $100M+ raised, $1.16B peak valuation, $4B+ peak coin market cap, acquired in 2026.\r\n\r\nMichael runs product and design. He's an internat",
+      "website": "https://fire.co",
       "industries": [
-        "B2B",
-        "Finance and Accounting"
+        "Fintech"
       ],
-      "tags": [],
-      "team_size": 4,
-      "location": "London, England, United Kingdom",
+      "tags": [
+        "FinOps",
+        "Fintech",
+        "Security",
+        "Cryptocurrency"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
       "status": "Active",
-      "launched_at": 1736800806
+      "launched_at": 1792046296
     },
     {
       "slug": "fixture",
@@ -8636,7 +8687,7 @@
         "Automotive"
       ],
       "tags": [],
-      "team_size": 35,
+      "team_size": 40,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1751567522
@@ -9606,8 +9657,8 @@
       "slug": "godhands",
       "name": "GodHands",
       "batch": "Fall 2026",
-      "one_liner": "Your company’s operating model, learned from the work.",
-      "long_description": "GodHands learns how your teams actually work, capturing the steps, decisions, and exceptions that never get written down. It turns that knowledge into living playbooks and answers with sources, so people and AI agents can put it to work. Teams use GodHands to run operations, onboard employees, hand over roles, integrate acquisitions, and automate work.",
+      "one_liner": "Turn how your team works into playbooks and agents",
+      "long_description": "GodHands learns how your teams actually work from the apps they already use, capturing the steps, decisions and exceptions that never get written down. It turns them into playbooks, gives people and AI agents the answers, and builds agents that do the work the same way. Teams use GodHands to run operations, onboard new hires, hand over roles, integrate acquisitions and automate repetitive work.",
       "website": "https://godhands.ai",
       "industries": [
         "B2B",
@@ -9615,7 +9666,9 @@
       ],
       "tags": [
         "B2B",
+        "Workflow Automation",
         "Enterprise",
+        "Automation",
         "Operations"
       ],
       "team_size": 2,
@@ -9807,6 +9860,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1784444284
+    },
+    {
+      "slug": "graphide",
+      "name": "Graphide",
+      "batch": "Fall 2026",
+      "one_liner": "A graph based IDE for when agents program faster than you can read",
+      "long_description": "Graphide (YC F26) is a code editor that maps your codebase into a graph so you can see what your agents are building. Agents now write code faster than anyone can read it, and a line by line diff doesn't show what actually changed in the system. Graphide keeps a live graph of the modules, classes, functions, etc. how they connect, and what each agent is touching as it works. Graphide then checks their changes against your architecture, making sure your agents are implementing what you had in mind.",
+      "website": "https://Graphide.com",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [
+        "Generative AI",
+        "DevOps",
+        "AI"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792011169
     },
     {
       "slug": "graphify-labs",
@@ -10434,7 +10507,7 @@
       ],
       "tags": [],
       "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1778807756
     },
@@ -10969,7 +11042,7 @@
       "name": "Imagine AI",
       "batch": "Fall 2025",
       "one_liner": "We reverse engineer B2B growth, starting with LinkedIn.",
-      "long_description": "Imagine AI is a research and software company reverse engineering modern B2B growth, starting with LinkedIn.\r\n\r\nWe build coordinated content systems for executive teams, where the CEO, VP of Sales, and Head of Marketing post aligned narratives from a single calendar, producing compounding reach that single-founder posting cannot reach.\r\n\r\n50+ B2B companies are now using Imagine AI, including MongoDB, Rippling, Slash, and Corgi Insurance. Customers have generated $31M in attributed revenue, 12M impressions, and 1,400 hours of executive time saved.",
+      "long_description": "Imagine AI is a research and software company reverse engineering modern B2B growth, starting with LinkedIn.\r\n\r\nAs companies get more automated, more of B2B growth will happen between agents, and the companies that connect will compound each other's output. We're building the connective layer between them. We start with content because it's still the fastest way to build B2B relationships at scale.\r\n\r\nToday our content agent decides what your team should post based on data from 1M+ people (who posts what, who engages, where they work and how they're connected). It drafts the posts and graphics, schedules them for your execs and company page, and maps engagement back to your pipeline.\r\n\r\nRippling, MarqVision, Slash, Corgi and Fondo use Imagine AI. Customers have generated $40M in revenue, 100M impressions and 14,341 MQLs.\r\n\r\nFree public benchmark of how 1,000+ B2B companies and their execs perform on LinkedIn: https://benchmark.useimagine.ai",
       "website": "https://imagineai.me",
       "industries": [
         "B2B",
@@ -12292,7 +12365,7 @@
       "tags": [],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
-      "status": "Active",
+      "status": "Inactive",
       "launched_at": 1770051535
     },
     {
@@ -12509,7 +12582,7 @@
       "name": "Lamb Labs",
       "batch": "Summer 2026",
       "one_liner": "Lightning fast chips with hardcoded AI models",
-      "long_description": "Lamb Labs is building MPUs (Model Processing Units), custom chips that hardcode LLM weights directly into the chip. Unlike GPUs, which move weights between memory and compute, MPUs keep the model on-chip, targeting up to 20,000+ tok/s and a 63× higher intelligence per watt.\r\n\r\n",
+      "long_description": "Lamb Labs is building Model Processing Units (MPUs), custom AI chips that hardcode LLM weights directly into silicon. Rather than adapting general-purpose processors to run AI models, we're rethinking how LLMs are implemented in hardware to make inference dramatically faster and more energy-efficient.\r\n",
       "website": "http://lamb-labs.com",
       "industries": [
         "B2B"
@@ -12951,8 +13024,8 @@
       "slug": "libra-robotics",
       "name": "Libra Robotics",
       "batch": "Summer 2026",
-      "one_liner": "A self-evolving robot workforce for infrastructure.",
-      "long_description": "Libra is building a self-evolving robot workforce for infrastructure, including data centers and energy infrastructure. We developed an AI robotics engineer that autonomously designs, simulates, tests, deploys, and improves robotic systems, allowing our robots to take on different jobs. We started with utility-scale solar, where our robots have already been deployed on real construction sites, and are now expanding into electrician work in data centers. Powered by Recursive Self-Improvement (RSI), each new capability builds on what came before, making the next task much faster to engineer and deploy.",
+      "one_liner": "The robot workforce for infrastructure",
+      "long_description": "Infrastructure faces a labor shortage, but robots struggle to scale with high-mix work. Libra builds AI that engineers robots for new tasks across embodiments, cutting zero-to-deployment time from months to days. We deploy across solar farms, data centers, and beyond. Customers pay for completed work, not robots. Our goal is to achieve 100 million hours of robotic work annually by 2031.",
       "website": "https://www.librabots.com/",
       "industries": [
         "Industrials",
@@ -13757,7 +13830,7 @@
       "name": "Magnitude",
       "batch": "Summer 2025",
       "one_liner": "Run open models as fast as your hardware allows",
-      "long_description": "Magnitude is an open source inference engine that optimizes each model for your exact hardware. When you download a model, Magnitude spends up to a minute tuning its kernels to find the fastest configuration for your hardware. On the same hardware, it's 2x faster than Ollama. It works on Apple Silicon, NVIDIA, AMD, or just a CPU. One click connects it to the agent you already use (Pi, OpenCode, Hermes, Codex, and more).",
+      "long_description": "Magnitude is an open source inference engine that tunes its kernels on your hardware to find the fastest way to run each model. It's over 2x faster than Ollama and works on Apple Silicon, NVIDIA, AMD, or just a CPU. One click connects it to the agent you already use (Pi, OpenCode, Hermes, Codex, and more)",
       "website": "https://magnitude.dev",
       "industries": [
         "B2B",
@@ -13845,7 +13918,7 @@
         "Marketing"
       ],
       "tags": [],
-      "team_size": 7,
+      "team_size": 8,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1773484930
@@ -14496,8 +14569,8 @@
       "launched_at": 1747147618
     },
     {
-      "slug": "meteor",
-      "name": "Meteor",
+      "slug": "meteor-labs",
+      "name": "Meteor Labs",
       "batch": "Summer 2025",
       "one_liner": "We provide hedge funds with information they can trade on",
       "long_description": "Meteor Labs is a research company focused on providing a granular view of the data center supply chain.\r\n\r\nWe track upstream of the major data center buildout to understand the OEMs winning the market, the bottlenecks, and supply chain links.\r\n\r\nOur expertise in browser agents and AI helps us source this information from esoteric public filings across the web.",
@@ -14506,9 +14579,9 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Big Data",
-        "Data Engineering"
+        "Data Engineering",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -16021,9 +16094,9 @@
         "Industrials"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Hardware",
         "Manufacturing",
-        "AI",
         "Industrial"
       ],
       "team_size": 4,
@@ -16286,10 +16359,31 @@
       "launched_at": 1789659235
     },
     {
+      "slug": "obsessiondb",
+      "name": "ObsessionDB",
+      "batch": "Fall 2026",
+      "one_liner": "Real-time data warehouse for agents",
+      "long_description": "ObsessionDB is a blazing-fast data warehouse built for the explosive amounts of data created by software and AI agents.\r\n\r\nWe make massive datasets instantly queryable at a fraction of the cost, powered by our own more efficient fork of ClickHouse®.",
+      "website": "https://obsessiondb.com",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Analytics",
+        "Big Data",
+        "Databases"
+      ],
+      "team_size": 5,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1787064993
+    },
+    {
       "slug": "octapulse",
       "name": "OctaPulse",
       "batch": "Winter 2026",
-      "one_liner": "Building the robotics layer for seafood production",
+      "one_liner": "OctaPulse builds computer vision and robotics for fish farms and…",
       "long_description": "OctaPulse is building the robotics layer for seafood production. Aquaculture is the fastest-growing food sector and already produces more seafood than commercial fishing, yet the people who breed and process fish still make thousands of decisions a day with almost no data about the fish in front of them, and much of the most important work is still done by hand, one fish at a time.\n\nWe put cameras where fish are already handled, turn every image into measurements, and give farms and plants the tools to act on them. Today that is two products: Phenotyping, which measures every fish for shape, size and condition and links it to its family for breeding decisions, and Digital Twin, which places cameras on processing lines and farm sites onto the floor plan with live views, automatic counts and a built-in AI assistant.\n\nThe same per-fish measurements are the foundation for Plant Robotics: robot cells that handle whole fish on the processing line, working alongside the people there. Fish are wet, slippery, soft and never the same twice, which is exactly why this work is still manual and why it needs measurement-driven robots built for food plants rather than rigid grippers and tabletop demos. We are now selecting processing plants for the first pilots on real lines.\n\nWe signed a 6-figure paid pilot with the largest trout producer in the United States, and every deployment adds labeled images to a proprietary multi-species dataset that improves our models across species and becomes the brain for autonomous seafood production.",
       "website": "https://www.tryoctapulse.com/",
       "industries": [
@@ -16481,7 +16575,7 @@
         "B2B",
         "Video"
       ],
-      "team_size": 7,
+      "team_size": 6,
       "location": "Vancouver, BC, Canada",
       "status": "Active",
       "launched_at": 1755488960
@@ -17995,6 +18089,24 @@
       "launched_at": 1743057715
     },
     {
+      "slug": "particularity",
+      "name": "Particularity",
+      "batch": "Fall 2026",
+      "one_liner": "Building the tech stack for government regulators",
+      "long_description": "Agentic case sourcing: proactively find violations of consumer protection statutes in public data and prepackage cases for regulators",
+      "website": "https://particularity.io",
+      "industries": [
+        "Government"
+      ],
+      "tags": [
+        "GovTech"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792043635
+    },
+    {
       "slug": "patent-watch",
       "name": "Patent Watch",
       "batch": "Fall 2025",
@@ -18419,8 +18531,8 @@
       "launched_at": 1782965522
     },
     {
-      "slug": "petrichor-bio",
-      "name": "Petrichor Bio",
+      "slug": "petrichor",
+      "name": "Petrichor",
       "batch": "Fall 2026",
       "one_liner": "Wet lab infrastructure that turns AI experiments into training data.",
       "long_description": "Real biology requires a wet lab, and building one takes years and a team most AI companies don't have. Petrichor runs their experiments at scale and sends back the dense, clean data their models need to learn from.",
@@ -18429,8 +18541,8 @@
         "B2B"
       ],
       "tags": [
-        "Deep Learning",
-        "AI"
+        "Artificial Intelligence",
+        "Deep Learning"
       ],
       "team_size": 3,
       "location": "San Francisco, CA, USA",
@@ -18763,7 +18875,7 @@
       "name": "Ploid",
       "batch": "Fall 2026",
       "one_liner": "The people data company for the agent era",
-      "long_description": "Ploid is the AI-native people data infrastructure for building products, workflows, and agents around people. We’ve built an index of 2B+ people across professional and social sources, with the infrastructure to search, resolve, enrich, and retrieve up-to-date information about anyone on demand.\r\n\r\nThrough Ploid’s API, CLI, and MCP, developers and companies can search for people, enrich profiles, find emails and phone numbers, resolve identities across different data points, and access the broader web context associated with a person. Unlike traditional people databases that rely primarily on static records, Ploid is designed for AI-native workflows. We combine our people index with real-time retrieval and entity resolution so data can be refreshed and expanded at the moment it is requested.\r\n\r\nPloid can power everything from sales and recruiting products to customer intelligence, identity resolution, trust and safety, and AI agents that need reliable information about people. Instead of building and maintaining dozens of data integrations yourself, Ploid gives you one infrastructure layer for people data.\r\n\r\n2B+ people. One API. Built for AI.",
+      "long_description": "Ploid is the AI-native people data infrastructure for developers and companies building products, workflows, and agents around people.\r\n\r\nWe've built an index of 2B+ people across professional and social sources, giving developers one API to search for people, enrich profiles, find emails and phone numbers, resolve identities, and retrieve up-to-date information from across the web. Unlike traditional people databases built around static records, Ploid combines its massive people index with real-time retrieval and identity resolution, delivering fresh, reliable information whenever it's needed. From sales and recruiting to customer intelligence, trust and safety, and AI agents, Ploid replaces fragmented data providers with a single infrastructure layer.\r\n\r\n2B+ people. One API. Built for AI.",
       "website": "https://ploid.com",
       "industries": [
         "B2B",
@@ -18795,6 +18907,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1780958556
+    },
+    {
+      "slug": "plyxl",
+      "name": "Plyxl",
+      "batch": "Winter 2027",
+      "one_liner": "The workspace that does the work",
+      "long_description": "Plyxl is the workspace that molds to your business. It builds apps, creates automations, and works across your entire company.",
+      "website": "https://plyxl.com/",
+      "industries": [
+        "B2B",
+        "Operations"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "B2B",
+        "Enterprise"
+      ],
+      "team_size": 4,
+      "location": "",
+      "status": "Active",
+      "launched_at": 1792084503
     },
     {
       "slug": "pocket",
@@ -19009,6 +19142,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1740746196
+    },
+    {
+      "slug": "praxis",
+      "name": "Praxis",
+      "batch": "Fall 2026",
+      "one_liner": "AI agents that run law firm operations.",
+      "long_description": "At Praxis, we’ve built AI agents that run law firm operations, from first inquiry to paid invoice. Agents do the admin end to end, and the lawyer supervises and approves every step. Firms reply in minutes, onboard clients in days instead of weeks, and spend their time practicing law.\r\n\r\nLawyers spend 62% of their day on admin nobody pays for: intake, conflict checks, chasing documents, engagement letters, follow-ups, billing. Every hour on admin is an hour a client waits, and clients go to the firm that answers first. One law firm owner shared: “Every month we lose 3-5 clients, $10k each, because we’re 3 paralegals to handle the process, it’s too slow.”\r\n\r\nWe’re live with law firms across the US.",
+      "website": "https://runpraxis.ai",
+      "industries": [
+        "B2B",
+        "Legal"
+      ],
+      "tags": [
+        "Artificial Intelligence",
+        "Legal",
+        "LegalTech"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792015189
     },
     {
       "slug": "praxis-robotics",
@@ -19713,6 +19867,22 @@
       "location": "San Francisco, CA, USA; Remote",
       "status": "Active",
       "launched_at": 1786061168
+    },
+    {
+      "slug": "rainbrand",
+      "name": "Rainbrand",
+      "batch": "Spring 2026",
+      "one_liner": "The brand layer for agents.",
+      "long_description": "Rainbrand is the brand layer for agents. It turns a brand’s identity, guidance, and assets into shared context that agents and products can use. That context evolves with the brand, alongside the tools where it is created and managed.\r\n\r\nStarting with websites, social media, and files, Rainbrand develops and maintains versioned brand context. Through MCP or the API, connected agents and products can retrieve and update that context, then apply it to images, websites, slides, video, copy, and other brand work.\r\n\r\nWe’re an ai infra company making brand as operable as software.\r\n",
+      "website": "https://rainbrand.com",
+      "industries": [
+        "B2B"
+      ],
+      "tags": [],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1776275888
     },
     {
       "slug": "rally-3",
@@ -22091,7 +22261,7 @@
       "name": "Sila",
       "batch": "Winter 2026",
       "one_liner": "Agentic Messenger",
-      "long_description": "Sila is an agentic messenger built for teams and agents to get work done in the same conversation. Simple, instant, global AI messaging and calling. Our mission is to bring super intelligence to everyone worldwide. ",
+      "long_description": "Sila is an agentic messenger built for teams and agents to get work done in the same conversations. Simple, instant, global AI messaging and calling. Our mission is to bring super intelligence to everyone worldwide. ",
       "website": "https://silahq.com",
       "industries": [
         "B2B",
@@ -22464,7 +22634,7 @@
         "Insurance"
       ],
       "tags": [],
-      "team_size": 15,
+      "team_size": 7,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1754360048
@@ -22473,17 +22643,17 @@
       "slug": "sona8",
       "name": "Sona8",
       "batch": "Fall 2026",
-      "one_liner": "Context layer for enterprise AI surveying employees with voice agents ",
-      "long_description": "Sona8 is a voice agent that talks to every employee about how their work gets done. Consulting, transformation and corporate development teams spend a large part of every project on stakeholder interviews and stakeholder alignment, and still only hear from a small share of the people affected.\r\n\r\nEach employee gets a link and talks to the agent for about 20 minutes. The agent asks follow-up questions, for example why a step is still done by hand or who else is involved. From the conversations we build process maps and a list of the problems people described, by site and team.\r\n\r\nDuring the implementation, the agent goes back to the employees involved after each initiative and asks whether it was implemented and what changed. The result is a project management office that has talked to every employee. Today consulting firms buy it for the stakeholder interviews at the start of an engagement. Transformation and corporate development teams buy it to run the implementation of a change program.\r\n\r\nOver time this becomes the way a company knows how it runs. Sona8 reads the systems the company already uses, connects them to what employees said, and keeps the picture current by asking again. Before a decision, you ask what it would do across sites and teams and get an answer from the whole company. A small team steers a company-wide program that used to need a large one. And AI agents inside the company come here first to learn how the work is done before they change anything.",
+      "one_liner": "Context layer from employee voices to improve & automate workflows",
+      "long_description": "Sona8 uses AI voice agents to interview employees about how work gets done. Consulting, transformation and corporate development teams use it to hear from more people and follow up after changes.\r\n\r\nEmployees open a link and speak in their own language. The agent asks follow-up questions, and teams compare problems across sites and departments. We’ve completed 10,000+ employee interviews and signed one of the world’s top three consulting firms.\r\n\r\nWe’re building the context layer and operating system for strategy teams: combining employee knowledge with company data to understand operations, improve processes and put decisions into action. The same context will guide AI agents as they take over work, so the company keeps what it learns.",
       "website": "https://sona8.com",
       "industries": [
         "B2B",
         "Operations"
       ],
       "tags": [
-        "Artificial Intelligence",
         "HR Tech",
         "Infrastructure",
+        "AI",
         "Conversational AI"
       ],
       "team_size": 5,
@@ -23125,13 +23295,13 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "SaaS",
         "B2B",
-        "Food & Beverage",
-        "AI"
+        "Food & Beverage"
       ],
       "team_size": 2,
-      "location": "Paris, Île-de-France, France",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753355964
     },
@@ -23467,8 +23637,8 @@
       "slug": "sutrix",
       "name": "Sutrix",
       "batch": "Fall 2026",
-      "one_liner": "Turns EHR data into study-ready datasets for hospital research teams",
-      "long_description": "Sutrix turns messy EHR records into clean, study-ready datasets for hospital research teams.\r\n\r\nBefore a clinical study can start, research staff spend weeks pulling records, reading notes chart by chart and fixing conflicting entries in spreadsheets. Sutrix automates that work inside each hospital's own systems. It applies the study's rules and flags unclear cases for staff to review.\r\n\r\nPaying research teams at HSS, Emory, and Mount Sinai cut data prep from 3 weeks per study to 4 days, so they start studies sooner and run more of them.\r\n\r\nWe built Sutrix because we lived this problem. Ritvik ran clinical research at HSS and Emory, and Supratik previously founded Kairo (a16z Speedrun, exited) and was an engineer at Amazon.",
+      "one_liner": "Deployed AI to turn EHR data into study-ready datasets ",
+      "long_description": "Sutrix turns messy EHR records into clean, study-ready datasets by deploying ai systems within a hospital research team enviornment.\r\n\r\nBefore a clinical study can start, research staff spend weeks pulling records, reading notes chart by chart and fixing conflicting entries in spreadsheets. Sutrix automates that work inside each hospital's own systems. It applies the study's rules and flags unclear cases for staff to review.\r\n\r\nPaying research teams at HSS, Emory, and Mount Sinai cut data prep from 3 weeks per study to 4 days, and now they are able to deliver tailored patient outcomes faster.\r\n\r\nWe built Sutrix because we lived this problem. Ritvik ran clinical research at HSS and Emory, and Supratik previously founded Kairo (a16z Speedrun, exited) and was an engineer at Amazon.",
       "website": "https://www.sutrix.ai/",
       "industries": [
         "Healthcare",
@@ -23589,7 +23759,9 @@
         "B2B",
         "Engineering, Product and Design"
       ],
-      "tags": [],
+      "tags": [
+        "Reinforcement Learning"
+      ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -24189,11 +24361,12 @@
       "slug": "the-company-company",
       "name": "The Company Company",
       "batch": "Fall 2026",
-      "one_liner": "The last agent your company will ever need.",
-      "long_description": "The Company Company builds the agent and the infrastructure to run companies.",
+      "one_liner": "The operating system for tech startups.",
+      "long_description": "The Company Company is an applied AI lab building the operating system for technology startups. Instead of stitching together 15 disconnected SaaS tools, teams run engineering, product, growth, sales, finance, legal, recruiting, support, and executive operations on a single autonomous agent runtime backed by full Linux sandboxes and a shared company memory map.",
       "website": "https://www.thecompany.company",
       "industries": [
-        "B2B"
+        "B2B",
+        "Engineering, Product and Design"
       ],
       "tags": [],
       "team_size": 1,
@@ -24506,6 +24679,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1789207215
+    },
+    {
+      "slug": "tilo",
+      "name": "Tilo",
+      "batch": "Fall 2026",
+      "one_liner": "A Linux-based, AI-native operating system.",
+      "long_description": "Tilo is a Linux-based operating system built for AI agents to work alongside people. On Tilo, computer use is up to 15x cheaper than on a normal OS.\r\n\r\nToday agents use computers the way people do. They take screenshots and click through apps, which is slow, expensive, and brittle. In Tilo, every app exports actions, so agents work over MCP while people use the UI. You still see what each agent does in your apps, and anything it changes can be undone.\r\n\r\nAny number of people and agents can work in one workspace in real time, across apps. Tilo runs as your OS, in our cloud, or headless on your machine, and you can open and share any workspace from the browser.",
+      "website": "https://tilo.so",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "AIOps",
+        "AI"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792039962
     },
     {
       "slug": "tinfoil",
@@ -25109,22 +25302,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1753229882
-    },
-    {
-      "slug": "trybloom",
-      "name": "Bloom",
-      "batch": "Spring 2026",
-      "one_liner": "The brand layer for agents.",
-      "long_description": "Bloom is the brand layer for agents. It turns a brand’s identity, guidance, and assets into shared context that agents and products can use. That context evolves with the brand, alongside the tools where it is created and managed.\r\n\r\nStarting with websites, social media, and files, Bloom develops and maintains versioned brand context. Through MCP or the API, connected agents and products can retrieve and update that context, then apply it to images, websites, slides, video, copy, and other brand work.\r\n\r\nWe’re an ai infra company making brand as operable as software.\r\n",
-      "website": "https://trybloom.ai",
-      "industries": [
-        "B2B"
-      ],
-      "tags": [],
-      "team_size": 3,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1776275888
     },
     {
       "slug": "trycardinal-ai",
@@ -26678,12 +26855,12 @@
         "Supply Chain and Logistics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Logistics",
-        "Procurement"
+        "Procurement",
+        "AI"
       ],
       "team_size": 3,
-      "location": "Gurugram, HR, India",
+      "location": "Bengaluru, KA, India",
       "status": "Active",
       "launched_at": 1786690936
     },
