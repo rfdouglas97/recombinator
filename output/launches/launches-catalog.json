@@ -1,7 +1,53 @@
 {
-  "updated_at": "2026-10-15T18:02:43.558Z",
-  "count": 1374,
+  "updated_at": "2026-10-16T17:48:40.031Z",
+  "count": 1376,
   "launches": [
+    {
+      "launch_id": 122247,
+      "launch_slug": "Vnj-placecall-by-voygr-the-phone-is-the-last-api",
+      "launch_url": "https://www.ycombinator.com/launches/Vnj-placecall-by-voygr-the-phone-is-the-last-api",
+      "title": "PlaceCall by VOYGR – The phone is the last API",
+      "tagline": "Find the right businesses. Call them in parallel. Get answers, quotes, and bookings – all through one API.",
+      "body": "Hey everyone 👋 We are Vlad and Yarik, founders of[ VOYGR](https://voygr.tech/), building tools for apps and agents to engage with local businesses. \n\nWe created[ PlaceCall](https://voygr.tech/placecall/) so apps and AI agents can call US businesses and get things done. Give it phone numbers and a task in plain English - or describe what you need, and it finds businesses to contact. PlaceCall navigates phone menus, waits on hold, talks to the business, and returns a structured outcome, transcript, and recording.\n\n<https://youtu.be/leGYyjSV6Bc>\n\n☎️ **The problem**\n\nWe previously worked on Google Maps and Search, where we saw how hard it is to keep business information current. At VOYGR, we kept running into the same problem: sometimes the only way to verify whether a business is open is to call. So we built PlaceCall.\n\nOn July 4, we were driving through Portland looking for dinner. Google Maps said “Holiday hours may vary.” We tried AI assistants (Poke was trending then), but they couldn’t confirm which restaurants were open and taking walk-ins. Our own API found 15 sushi or Thai restaurants and called them in parallel. **Two confirmed they were open and taking walk-ins. One was marked closed on Google Maps.** Your app can find a restaurant, but someone still has to call.\n\nThis is the problem we kept seeing. “Are you showing the game tonight?” “Are you accepting new patients?” “Do you have this collectible in stock?” These answers often live with whoever picks up the phone.\n\n✅ **Why PlaceCall?**\n\n* **Task in, outcome out.** Describe what you need in plain English – no agent to build or configure. Get a structured outcome + transcript + recording.\n* **Parallel calls.** Contact multiple businesses at once to find availability or compare quotes.\n* **Discovery built in.** Don’t have phone numbers? PraceCall recommends the best venue, service, or vendor.\n\n**💻What developers are building**\n\nAt our hackathon, developers used PlaceCall to:\n\n* Check whether doctors were accepting new patients.\n* Get tire quotes from local shops.\n* Find stores carrying specific collectibles.\n* Run short phone surveys.\n\nSince then, we’ve secured pilots with **AI business assistants across travel, healthcare, and service dispatch.** They often need both parts: finding the right businesses and handling tasks over the phone.\n\n**💻Try it - first 250 calls free**\n\nUse PlaceCall through the API or connect your agent via MCP.\n\nSetup guide:[ ](https://github.com/voygr-tech/placecall)[**github.com/voygr-tech/placecall**](http://github.com/voygr-tech/placecall) or [**voygr.tech/placecall/**](http://voygr.tech/placecall/)\n\nMCP endpoint:[ **https://api.voygr.tech/mcp**](https://api.voygr.tech/mcp)\n\n**🤝 Our ask**\n\nTry PlaceCall on a real task and tell us what worked, what failed, and what’s missing. Building an app or agent that needs to call businesses? We’d love to hear what you’re building:\n\n**📩 [founders@voygr.tech](mailto:founders@voygr.tech)**\n\n**🌐 [voygr.tech](http://voygr.tech)**\n\n![uploaded image](/media/?key=user_uploads/325375/c118df4b-4ab8-4dd3-b20a-de636aeed8ab)\n\n",
+      "created_at": "2026-10-15T20:12:23.191Z",
+      "total_vote_count": 97,
+      "company_slug": "voygr",
+      "company_name": "VOYGR",
+      "company_website": "https://voygr.tech",
+      "company_batch": "Winter 2026",
+      "company_industry": "B2B",
+      "company_id": 31271,
+      "author_name": "Vlad Baskakov",
+      "scraped_at": "2026-10-16T17:48:39.182Z",
+      "review_summary": {
+        "conformance_index": 55,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
+    {
+      "launch_id": 122389,
+      "launch_slug": "Vq1-particularity-ai-investigators-for-government-regulators",
+      "launch_url": "https://www.ycombinator.com/launches/Vq1-particularity-ai-investigators-for-government-regulators",
+      "title": "Particularity: AI investigators for government regulators",
+      "tagline": "AI agents that catch consumer protection violations before anyone complains",
+      "body": "Hey everyone! We're Kavin and Chris.\n\n**TL;DR:** Particularity gives federal, state, and city consumer protection agencies AI agents that check live websites for violations like junk fees, subscription traps, and deceptive ads and turn what they find into court-ready evidence.\n\n<https://youtu.be/f6qVdEjYR9Y>\n\n**What enforcement looks like today**\n\nChris and I found ourselves frustrated by the deluge of undisclosed advertising on social media (which violates FTC guidelines) and started thinking,“How does a government agency capture the true scope of illicit activity at scale?”\n\nThat question led us to find that most consumer protection regulation today still starts with a complaint. Investigators work through an inbox that never empties, while millions of websites change every day. Most people who are harmed never file at all. \n\nThe result is ad hoc enforcement: few companies get caught and often years later. When breaking the rules rarely costs anything, competition stops being about who builds the better product and starts being about who's willing to cheat.\n\n**What Particularity does**\n\n\\- **Uncover.** Agents check live websites the way a consumer would. Does the advertised price match checkout? Can you actually cancel online? Every step is captured, timestamped, and hashed.\n\n\\- **Investigate.** Every complaint gets a first-pass investigation within the same minute, matched against evidence already on file.\n\n\\- **Act.** Findings map to the elements of the law, so staff can move straight to a warning letter or enforcement action.\n\n**About us**\n\nKavin worked at a causal inference startup and on consumer protection and capital markets at the Senate Banking Committee. Chris built security and compliance infrastructure at AWS, including services for the EU Sovereign Cloud. \\\n\\\n**If you’re a regulator, please reach out!**\n\nWe’re interested in talking to consumer protection staff at state AG offices, large city consumer affairs departments, and state agencies. We’d also love to talk to any former FTC or CFPB folks and others generally in the consumer protection space.",
+      "created_at": "2026-10-15T18:30:00.097Z",
+      "total_vote_count": 3,
+      "company_slug": "particularity",
+      "company_name": "Particularity",
+      "company_website": "https://particularity.io",
+      "company_batch": "Fall 2026",
+      "company_industry": "Government",
+      "company_id": 36114,
+      "author_name": "Kavin Kumaravel",
+      "scraped_at": "2026-10-16T17:48:39.182Z",
+      "review_summary": {
+        "conformance_index": 55,
+        "predictability_band": "plausible",
+        "verdict": "partial"
+      }
+    },
     {
       "launch_id": 122248,
       "launch_slug": "Vnk-neomatter-the-operating-system-for-in-house-legal-teams",

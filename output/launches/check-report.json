@@ -1,46 +1,112 @@
 {
-  "checked_at": "2026-10-15T18:02:43.790Z",
+  "checked_at": "2026-10-16T17:48:40.113Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 10,
-  "new_count": 10,
-  "skipped_count": 920,
+  "checked_count": 2,
+  "new_count": 2,
+  "skipped_count": 928,
   "ingest": {
-    "addedCompanies": 3,
-    "enrichedCompanies": 7
+    "addedCompanies": 0,
+    "enrichedCompanies": 2
   },
   "summary": {
-    "conforming": 8,
+    "conforming": 0,
     "partial": 2,
     "non_conforming": 0,
-    "would_have_predicted": 8,
-    "surprise": 2,
+    "would_have_predicted": 2,
+    "surprise": 0,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 122248,
-        "company_slug": "neomatter",
-        "company_name": "Neomatter",
-        "launch_url": "https://www.ycombinator.com/launches/Vnk-neomatter-the-operating-system-for-in-house-legal-teams",
-        "created_at": "2026-10-15T17:00:00.152Z"
+        "launch_id": 122247,
+        "company_slug": "voygr",
+        "company_name": "VOYGR",
+        "launch_url": "https://www.ycombinator.com/launches/Vnj-placecall-by-voygr-the-phone-is-the-last-api",
+        "created_at": "2026-10-15T20:12:23.191Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-15T18:02:10.392Z",
-        "launch_id": 122248,
-        "company_slug": "neomatter",
+        "evaluated_at": "2026-10-16T17:48:39.205Z",
+        "launch_id": 122247,
+        "company_slug": "voygr",
         "taxonomy": {
-          "conformance_index": 76,
-          "verdict": "conforming",
+          "conformance_index": 55,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 98,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-context-web",
+            "phenotype_primary_id": "agent-context-data",
+            "cell_key": "BM-03::ai-infrastructure.agent-context-web::agent-context-data",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent web context & data enrichment",
+            "phenotype_label": "Agent context & web/data enrichment API"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 122389,
+        "company_slug": "particularity",
+        "company_name": "Particularity",
+        "launch_url": "https://www.ycombinator.com/launches/Vq1-particularity-ai-investigators-for-government-regulators",
+        "created_at": "2026-10-15T18:30:00.097Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-16T17:48:39.206Z",
+        "launch_id": 122389,
+        "company_slug": "particularity",
+        "taxonomy": {
+          "conformance_index": 55,
+          "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
               "score": 65,
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
+              "score": 3,
+              "band": "weak"
             },
             "business_model_fit": {
               "score": 70,
@@ -57,143 +123,11 @@
           },
           "cell": {
             "business_model": "BM-01",
-            "vertical_id": "enterprise.legal.contracts",
+            "vertical_id": "government.govtech.ops",
             "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::enterprise.legal.contracts::vertical-workflow-agent",
+            "cell_key": "BM-01::government.govtech.ops::vertical-workflow-agent",
             "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Contract lifecycle & legal ops",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 122378,
-        "company_slug": "korrai",
-        "company_name": "KorrAI",
-        "launch_url": "https://www.ycombinator.com/launches/Vpq-trail-by-korrai-ai-agents-for-mining-risk",
-        "created_at": "2026-10-15T16:06:07.640Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-15T18:02:21.734Z",
-        "launch_id": 122378,
-        "company_slug": "korrai",
-        "taxonomy": {
-          "conformance_index": 76,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 75,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 89,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 83,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "robotics.safety-compliance",
-            "phenotype_primary_id": "compliance-gov-automation",
-            "cell_key": "BM-01::robotics.safety-compliance::compliance-gov-automation",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Robotic safety certification & compliance auditing",
-            "phenotype_label": "Compliance / regulatory / gov automation"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "ranked_gap:rank=245,score=30"
-          ],
-          "cell_was_whitespace": true,
-          "ranked_gap": {
-            "rank": 245,
-            "opportunity_score": 30,
-            "transfer_score": 89
-          },
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 122246,
-        "company_slug": "praxis",
-        "company_name": "Praxis",
-        "launch_url": "https://www.ycombinator.com/launches/Vni-praxis-ai-agents-that-run-law-firm-operations-from-first-inquiry-to-paid-invoice",
-        "created_at": "2026-10-15T16:00:00.155Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-15T18:02:21.736Z",
-        "launch_id": 122246,
-        "company_slug": "praxis",
-        "taxonomy": {
-          "conformance_index": 80,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 96,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 83,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "professional.law-firms",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::professional.law-firms::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Law firm operations & litigation",
+            "vertical_label": "Government operations & GovTech",
             "phenotype_label": "Vertical AI workflow agent (AI department for X)"
           }
         },
@@ -204,471 +138,13 @@
           "ranked_gap": null,
           "synthetic_match": null,
           "analog_gap_matches": [],
-          "retro_transfer_score": 67,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 122375,
-        "company_slug": "oway",
-        "company_name": "Oway",
-        "launch_url": "https://www.ycombinator.com/launches/Vpn-oway-building-the-internet-of-industrials",
-        "created_at": "2026-10-15T15:50:53.501Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-15T18:02:31.845Z",
-        "launch_id": 122375,
-        "company_slug": "oway",
-        "taxonomy": {
-          "conformance_index": 73,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 89,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 56,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "logistics.freight.brokerage",
-            "phenotype_primary_id": "infrastructure-optimization-ai",
-            "cell_key": "BM-03::logistics.freight.brokerage::infrastructure-optimization-ai",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Freight brokerage & logistics",
-            "phenotype_label": "Infrastructure Optimization & Streaming AI"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "unclassified_new_company"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 122341,
-        "company_slug": "omnistrate",
-        "company_name": "Omnistrate",
-        "launch_url": "https://www.ycombinator.com/launches/VpF-deploy-your-product-in-your-customer-vpc-or-single-tenant-saas-or-airgapped",
-        "created_at": "2026-10-15T15:50:12.811Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-15T18:02:42.004Z",
-        "launch_id": 122341,
-        "company_slug": "omnistrate",
-        "taxonomy": {
-          "conformance_index": 76,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 75,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 81,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 90,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "devtools.container-orchestration",
-            "phenotype_primary_id": "agent-runtime-infra",
-            "cell_key": "BM-03::devtools.container-orchestration::agent-runtime-infra",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Container deployment & Kubernetes management",
-            "phenotype_label": "Agent runtime / harness / orchestration"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "unclassified_new_company"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 71,
-          "retro_transfer_band": "strong",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 122276,
-        "company_slug": "libra-robotics",
-        "company_name": "Libra Robotics",
-        "launch_url": "https://www.ycombinator.com/launches/VoC-libra-robotics-the-robot-workforce-for-infrastructure",
-        "created_at": "2026-10-15T15:49:58.924Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-15T18:02:42.006Z",
-        "launch_id": 122276,
-        "company_slug": "libra-robotics",
-        "taxonomy": {
-          "conformance_index": 59,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 1,
-              "band": "weak"
-            },
-            "vertical_workflow_fit": {
-              "score": 75,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 55,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 90,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "power.asset-maintenance",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::power.asset-maintenance::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Power plant & transmission asset maintenance scheduling",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "ranked_gap:rank=374,score=12"
-          ],
-          "cell_was_whitespace": true,
-          "ranked_gap": {
-            "rank": 374,
-            "opportunity_score": 12,
-            "transfer_score": 83
-          },
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 71,
-          "retro_transfer_band": "strong",
-          "would_have_been_predicted": true
-        },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 122077,
-        "company_slug": "ratlog",
-        "company_name": "RATLOG",
-        "launch_url": "https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts",
-        "created_at": "2026-10-15T15:00:00.047Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-15T18:02:42.008Z",
-        "launch_id": 122077,
-        "company_slug": "ratlog",
-        "taxonomy": {
-          "conformance_index": 72,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 86,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 57,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-08",
-            "vertical_id": "industrials.aviation.space",
-            "phenotype_primary_id": "ai-enabled-physical-systems",
-            "cell_key": "BM-08::industrials.aviation.space::ai-enabled-physical-systems",
-            "business_model_label": "Hardware + software",
-            "vertical_label": "Space & satellite systems",
-            "phenotype_label": "AI-enabled physical infrastructure"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 67,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 122209,
-        "company_slug": "godhands",
-        "company_name": "GodHands",
-        "launch_url": "https://www.ycombinator.com/launches/Vn7-godhands-agents-that-learn-by-watching-your-best-people",
-        "created_at": "2026-10-15T13:30:00.116Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-15T18:02:42.009Z",
-        "launch_id": 122209,
-        "company_slug": "godhands",
-        "taxonomy": {
-          "conformance_index": 70,
-          "verdict": "partial",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 98,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 29,
-              "band": "weak"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.agent-runtime",
-            "phenotype_primary_id": "agent-runtime-infra",
-            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Agent runtime & orchestration",
-            "phenotype_label": "Agent runtime / harness / orchestration"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
+          "retro_transfer_score": 69,
           "retro_transfer_band": "acceptable",
           "would_have_been_predicted": true
         },
         "notes": [
           "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
         ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 122233,
-        "company_slug": "epsilla",
-        "company_name": "Epsilla",
-        "launch_url": "https://www.ycombinator.com/launches/VnV-uhp-unified-harness-protocol-by-harnessrouter",
-        "created_at": "2026-10-14T22:11:14.980Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-15T18:02:42.011Z",
-        "launch_id": 122233,
-        "company_slug": "epsilla",
-        "taxonomy": {
-          "conformance_index": 77,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 96,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 65,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.agent-runtime",
-            "phenotype_primary_id": "agent-runtime-infra",
-            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Agent runtime & orchestration",
-            "phenotype_label": "Agent runtime / harness / orchestration"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 122231,
-        "company_slug": "teaflask",
-        "company_name": "Teaflask",
-        "launch_url": "https://www.ycombinator.com/launches/VnT-teaflask-make-your-existing-saas-ai-native-by-tomorrow-self-serve-byok",
-        "created_at": "2026-10-14T21:53:28.379Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-15T18:02:42.013Z",
-        "launch_id": 122231,
-        "company_slug": "teaflask",
-        "taxonomy": {
-          "conformance_index": 73,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 56,
-              "band": "acceptable"
-            }
-          },
-          "cell": {
-            "business_model": "BM-03",
-            "vertical_id": "ai-infrastructure.agent-runtime",
-            "phenotype_primary_id": "agent-runtime-infra",
-            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
-            "business_model_label": "AI devtools / infrastructure",
-            "vertical_label": "Agent runtime & orchestration",
-            "phenotype_label": "Agent runtime / harness / orchestration"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
       }
     }
   ]

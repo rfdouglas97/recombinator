@@ -1,7 +1,147 @@
 {
-  "updated_at": "2026-10-15T18:02:42.039Z",
+  "updated_at": "2026-10-16T17:48:39.216Z",
   "rubric_version": "1.0",
   "reviews": [
+    {
+      "launch_id": 122247,
+      "company_slug": "voygr",
+      "launch_url": "https://www.ycombinator.com/launches/Vnj-placecall-by-voygr-the-phone-is-the-last-api",
+      "created_at": "2026-10-15T20:12:23.191Z",
+      "classification": {
+        "phenotype_primary_id": "agent-context-data",
+        "vertical_id": "ai-infrastructure.agent-context-web",
+        "business_models": [
+          "BM-03",
+          "BM-06"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-16T17:48:39.205Z",
+        "launch_id": 122247,
+        "company_slug": "voygr",
+        "taxonomy": {
+          "conformance_index": 55,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 98,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-context-web",
+            "phenotype_primary_id": "agent-context-data",
+            "cell_key": "BM-03::ai-infrastructure.agent-context-web::agent-context-data",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent web context & data enrichment",
+            "phenotype_label": "Agent context & web/data enrichment API"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 64,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
+    {
+      "launch_id": 122389,
+      "company_slug": "particularity",
+      "launch_url": "https://www.ycombinator.com/launches/Vq1-particularity-ai-investigators-for-government-regulators",
+      "created_at": "2026-10-15T18:30:00.097Z",
+      "classification": {
+        "phenotype_primary_id": "vertical-workflow-agent",
+        "vertical_id": "government.govtech.ops",
+        "business_models": [
+          "BM-01",
+          "BM-04"
+        ]
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-16T17:48:39.206Z",
+        "launch_id": 122389,
+        "company_slug": "particularity",
+        "taxonomy": {
+          "conformance_index": 55,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "government.govtech.ops",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::government.govtech.ops::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Government operations & GovTech",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
+      }
+    },
     {
       "launch_id": 122248,
       "company_slug": "neomatter",

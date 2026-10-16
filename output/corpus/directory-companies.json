@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-15T17:59:39.918Z",
+  "synced_at": "2026-10-16T17:47:43.900Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1390,
+  "company_count": 1392,
   "companies": [
     {
       "slug": "10x",
@@ -346,6 +346,26 @@
       "launched_at": 1773702631
     },
     {
+      "slug": "adsideai",
+      "name": "Adside.ai",
+      "batch": "Fall 2026",
+      "one_liner": "AI agency that manages paid ads on Meta, Google, LinkedIn, etc. ",
+      "long_description": "We're Robin Choy and Guillaume Miara, founders of Adside (adside.ai). We're building Adside, a swarm of agents that manages ads on Meta, Google and LinkedIn, etc. We’re building the service we wished we had in our previous B2B marketing software company that we sold earlier this year.",
+      "website": "https://adside.ai",
+      "industries": [
+        "B2B",
+        "Marketing"
+      ],
+      "tags": [
+        "Swarm AI",
+        "Marketing"
+      ],
+      "team_size": 2,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792099524
+    },
+    {
       "slug": "advanced-metal-research",
       "name": "Advanced Metal Research",
       "batch": "Spring 2026",
@@ -492,8 +512,8 @@
       "slug": "agent-relay",
       "name": "Agent Relay",
       "batch": "Fall 2026",
-      "one_liner": "The infrastructure to run coding agents for your team",
-      "long_description": "Agent Relay helps software teams work better with coding agents, and helps those agents work better as a team. It gives Claude Code, Codex, OpenCode, and custom agents shared messaging, session history, and access to tools like GitHub, Linear, and Slack. Teams can see what every agent is doing, run checked and resumable workflows, and step in when human judgment is needed. Run it in our cloud, locally, or on your own hardware.",
+      "one_liner": "Let your team's coding agents message each other",
+      "long_description": "Agent Relay lets software teams' AI coding agents message each other directly, so people stop copy/pasting between Claude Code, Codex, Cursor, and their teammates' agents. A frontend agent can ask the backend agent what an API returns, two agents can sort out a merge conflict between themselves, and your agent can answer a colleague's agent while you sleep.\r\n \r\nAgents connect wherever they run: terminals, desktop apps, phones, laptops, cloud boxes, or a Mac mini across the world. Every session goes into shared, searchable history, so decisions don't get stuck in one person's chat. You can even let a customer's agent debug with yours. Setup takes about 5 minutes: give your agent the link and it installs itself. Use our hosted version free, or self-host the open-source version",
       "website": "https://agentrelay.com",
       "industries": [
         "B2B",
@@ -2404,6 +2424,27 @@
       "launched_at": 1745346268
     },
     {
+      "slug": "aucert",
+      "name": "Aucert",
+      "batch": "Fall 2026",
+      "one_liner": "A team of expert AI agents that test mobile apps on their own.",
+      "long_description": "Top apps need weeks and multiple teams to test every release. Aucert does it in hours, and plugs into agentic coding workflows so issues get fixed in the same loop.\r\n\r\nAgents: Functional QA · Accessibility · Google Play Policy · App Store Policy\r\n\r\nNext: Performance · Security. DM if you need either.",
+      "website": "https://www.aucert.ai/",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Developer Tools",
+        "B2B",
+        "AI"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792125836
+    },
+    {
       "slug": "auctor",
       "name": "Auctor",
       "batch": "Spring 2025",
@@ -2600,17 +2641,17 @@
     },
     {
       "slug": "autumn-ai",
-      "name": "Autumn AI",
+      "name": "Autumn",
       "batch": "Winter 2026",
-      "one_liner": "Everything on anyone.",
-      "long_description": "Autumn is building the world’s most comprehensive index of people and companies.\r\n\r\nInformation about anyone is scattered across profiles, filings, event pages, code, posts, news, and the rest of the open web. Autumn reads across these sources, determines which records belong together, and creates a complete, source-backed profile of people and companies - including relationships, work history, contact information, and digital footprint.\r\n\r\nSearch for anyone, build a cohort, or research a company through our API.",
+      "one_liner": "The people-intelligence company.",
+      "long_description": "Autumn builds research agents that answer questions about people and companies at scale. These AI agents are powered by a live index of over 1 billion people, 100 million companies, and state-of-the-art web research tools. Autumn is already in production with enterprise teams at Brex, Rippling, PostHog across sourcing, enrichment, and identity-verification workflows.\r\n\r\nWe are a small, highly-technical team. Our vision is to be the search engine that agents use when they need to understand people, their networks, and professional lives.",
       "website": "https://autumn.ai",
       "industries": [
         "B2B",
         "Infrastructure"
       ],
       "tags": [],
-      "team_size": 2,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1770313792
@@ -3033,9 +3074,9 @@
         "B2B"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Machine Learning",
-        "Reinforcement Learning",
-        "AI"
+        "Reinforcement Learning"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -3776,7 +3817,7 @@
         "Housing and Real Estate"
       ],
       "tags": [],
-      "team_size": 13,
+      "team_size": 12,
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1762137164
@@ -4276,8 +4317,8 @@
       "slug": "capto",
       "name": "Capto",
       "batch": "Summer 2026",
-      "one_liner": "Helping startups win gov contracts",
-      "long_description": "The intelligent operating system for government contracting. Built by former AI engineers and government officials.",
+      "one_liner": "Build something the government wants",
+      "long_description": "The intelligent operating system for government contracting. Built by AI engineers and former government officials.",
       "website": "https://gocapto.com/",
       "industries": [
         "B2B"
@@ -7078,8 +7119,8 @@
       "slug": "dialogus",
       "name": "Dialogus",
       "batch": "Summer 2026",
-      "one_liner": "The AI-native contact center",
-      "long_description": "Dialogus builds self-improving AI voice agents for enterprise operations.\r\n\r\nOur agents handle high-volume workflows across customer support, sales, collections, and other operational functions, integrating directly with the systems enterprises already use.\r\n\r\nOur agents continuously learn from real conversations and business outcomes: identifying where interactions fail, proposing improvements, testing those changes across thousands of simulated conversations, and deploying better versions with human oversight.\r\n\r\nThe result is AI that doesn’t just automate calls, it gets better at doing the job over time.",
+      "one_liner": "AI agents that learn how your company actually works",
+      "long_description": "Dialogus builds Duet, the operating layer for companies run by people and agents.\r\n\r\nEvery company now has an AI mandate, but most stall after one or two automations. The rest of operations is a long tail of workflows like claims, disputes, approvals and exceptions that run on rules nobody ever wrote down.\r\n\r\nDuet learns how your company actually works, from the tools your team uses and the way they really do the work. It turns those workflows into agents, proves each one alongside your team before it acts, and runs it with hard limits and full audit.\r\n\r\nEvery workflow teaches Duet more about your company, so the next one goes live faster. The result: companies automate dozens of workflows, not one or two.",
       "website": "https://www.dialoguslabs.com/",
       "industries": [
         "B2B",
@@ -7911,7 +7952,7 @@
       "slug": "emdash",
       "name": "Emdash",
       "batch": "Winter 2026",
-      "one_liner": "Open-source Agentic Development Environment",
+      "one_liner": "Agentic Development Environment",
       "long_description": "Agent-first development environment. Emdash enables engineering teams to develop software faster, by running multiple coding agents in parallel. We're an open-source and provider-agnostic desktop application.",
       "website": "https://emdash.com",
       "industries": [
@@ -9680,7 +9721,7 @@
       "slug": "godpack",
       "name": "Godpack",
       "batch": "Winter 2027",
-      "one_liner": "100% EV fair gacha",
+      "one_liner": "100% fair packs for collectors",
       "long_description": "",
       "website": "https://godpack.gg/",
       "industries": [
@@ -13032,11 +13073,11 @@
         "Manufacturing and Robotics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Hard Tech",
         "Robotics",
         "Construction",
-        "Energy"
+        "Energy",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -13047,15 +13088,15 @@
       "slug": "light-anchor",
       "name": "Light Anchor",
       "batch": "Spring 2026",
-      "one_liner": "AI-run consumer brands",
-      "long_description": "Light Anchor (YC P26) builds AI-run consumer brands that run at the speed of compute. \r\n\r\nConsumer brands have always been limited by the speed of humans: hiring, coordinating, and sleeping. AI agents that now run operations end-to-end break all those constraints, making a new kind of consumer business possible: one capped by compute, not headcount.\r\n\r\nToday, Light Anchor operates one flagship brand and multiple experiment stores, all run by AI agents on a shared platform that compounds with every new brand launched. The vision is thousands of consumer businesses, operating with little to no human intervention.",
+      "one_liner": "AI-native growth agency for consumer brands",
+      "long_description": "Light Anchor (YC P26) is an AI-native growth agency for consumer brands.\r\n\r\nConsumer brands have always been limited by the speed of humans: hiring, coordinating, and sleeping. AI agents that now run operations end-to-end break all those constraints, making a new kind of consumer business possible: one capped by compute, not headcount.\r\n\r\nToday, Light Anchor operates 7 brands, all run by AI agents on a shared platform that compounds with every new brand launched. The vision is thousands of consumer businesses, operating with little to no human intervention.",
       "website": "https://lightanchor.ai",
       "industries": [
         "Consumer"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "E-commerce"
+        "E-commerce",
+        "AI"
       ],
       "team_size": 2,
       "location": "Seoul, Seoul, South Korea",
@@ -14172,7 +14213,7 @@
         "Data Engineering"
       ],
       "team_size": 2,
-      "location": "Bengaluru, KA, India",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1782277833
     },
@@ -14770,7 +14811,7 @@
         "Infrastructure"
       ],
       "tags": [],
-      "team_size": 8,
+      "team_size": 9,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1772756028
@@ -15111,14 +15152,20 @@
       "slug": "modern",
       "name": "Modern",
       "batch": "Spring 2026",
-      "one_liner": "Modern - the ServiceNow killer",
-      "long_description": "Modern is consolidating the IT function into a single platform powered by secure, always-on agents who understand your business. Help desk, access, hardware, on/off-boarding, security, procurement are automated end-to-end inside the channels your team already uses (Slack, Teams, Email, Voice, WhatsApp, Telegram).",
+      "one_liner": "Modern automates the entire order-to-cash process for B2B companies.",
+      "long_description": "Modern is the AI coworker that automates the full order-to-cash journey for global finance teams. ",
       "website": "https://getmodern.ai",
       "industries": [
         "B2B",
         "Operations"
       ],
-      "tags": [],
+      "tags": [
+        "Artificial Intelligence",
+        "Finance",
+        "B2B",
+        "Enterprise",
+        "Enterprise Software"
+      ],
       "team_size": 2,
       "location": "Melbourne, VIC, Australia",
       "status": "Active",
@@ -16010,8 +16057,8 @@
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
-        "Infrastructure"
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -16359,6 +16406,26 @@
       "launched_at": 1789659235
     },
     {
+      "slug": "obia",
+      "name": "Obia",
+      "batch": "Fall 2026",
+      "one_liner": "AI-native commercial real estate brokerage",
+      "long_description": "OBIA is an AI-native commercial real estate brokerage for industrial and office. We help businesses find their best-fit space, negotiate a competitive deal backed by market data, and get the keys in as little as two weeks.\r\n\r\nFinding the right space means evaluating operational fit, zoning, and pricing using information scattered across listings, brochures, municipal codes, maps, and broker conversations. That research can take a broker hours per property. OBIA reduces that work to minutes.\r\n\r\nWe started with industrial and office properties in California, with plans to expand nationally and into other asset classes. Our goal is to make thorough, responsive commercial real estate representation available to every business.",
+      "website": "https://obia.io/",
+      "industries": [
+        "Real Estate and Construction"
+      ],
+      "tags": [
+        "Real Estate",
+        "B2B",
+        "Proptech"
+      ],
+      "team_size": 4,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792101173
+    },
+    {
       "slug": "obsessiondb",
       "name": "ObsessionDB",
       "batch": "Fall 2026",
@@ -16377,7 +16444,7 @@
       "team_size": 5,
       "location": "San Francisco, CA, USA",
       "status": "Active",
-      "launched_at": 1787064993
+      "launched_at": 1792056940
     },
     {
       "slug": "octapulse",
@@ -16458,16 +16525,16 @@
       "name": "Olam Labs",
       "batch": "Summer 2026",
       "one_liner": "Crafting simulations for frontier lab model training",
-      "long_description": "Craftsmen that research complex, high-fidelity simulations for training and evaluating frontier AI models alongside the infrastructure to test and deploy them at scale. Our research focuses on simulations with realistic socialization, multi-agent interaction, swarms, and ultra-long-horizon tasks.\r\n\r\nTry one of our first releases, Multi-Agent Arena (https://olamarena.com/), where humans come play social strategy games against multiple AI agents. It has multi-agent social games like Poker, Diplomacy, Risk, and more.",
+      "long_description": "We research complex, high-fidelity simulations for training and evaluating frontier AI models, alongside the infrastructure to test and deploy them at scale. Our research focuses on simulations with realistic socialization, multi-agent interaction, swarms, and ultra-long-horizon tasks.\r\n\r\nTry one of our first releases, Multi-Agent Arena (https://olamarena.com/), where humans come play social strategy games against multiple AI agents. It has multi-agent social games like Poker, Diplomacy, Risk, and more.",
       "website": "https://olamlabs.ai",
       "industries": [
         "B2B"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Reinforcement Learning",
         "Gaming",
-        "Data Engineering"
+        "Data Engineering",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -17015,11 +17082,11 @@
         "Supply Chain and Logistics"
       ],
       "tags": [
-        "Artificial Intelligence",
         "Logistics",
         "Manufacturing",
         "Supply Chain",
-        "Operations"
+        "Operations",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -18979,10 +19046,10 @@
         "Defense"
       ],
       "tags": [
-        "Defense",
-        "AI"
+        "Artificial Intelligence",
+        "Defense"
       ],
-      "team_size": 0,
+      "team_size": 3,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1791838393
@@ -19048,11 +19115,11 @@
         "Infrastructure"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Developer Tools",
         "B2B",
         "Workflow Automation",
-        "API",
-        "AI"
+        "API"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -20034,7 +20101,7 @@
       "batch": "Fall 2026",
       "one_liner": "Reusable heavy-lift rockets",
       "long_description": "",
-      "website": "",
+      "website": "https://www.ratlog.space/",
       "industries": [
         "Industrials",
         "Aviation and Space"
@@ -22363,7 +22430,9 @@
         "Engineering, Product and Design"
       ],
       "tags": [
-        "Artificial Intelligence"
+        "Developer Tools",
+        "Infrastructure",
+        "AI"
       ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
@@ -22651,9 +22720,9 @@
         "Operations"
       ],
       "tags": [
+        "Artificial Intelligence",
         "HR Tech",
         "Infrastructure",
-        "AI",
         "Conversational AI"
       ],
       "team_size": 5,
@@ -23638,7 +23707,7 @@
       "name": "Sutrix",
       "batch": "Fall 2026",
       "one_liner": "Deployed AI to turn EHR data into study-ready datasets ",
-      "long_description": "Sutrix turns messy EHR records into clean, study-ready datasets by deploying ai systems within a hospital research team enviornment.\r\n\r\nBefore a clinical study can start, research staff spend weeks pulling records, reading notes chart by chart and fixing conflicting entries in spreadsheets. Sutrix automates that work inside each hospital's own systems. It applies the study's rules and flags unclear cases for staff to review.\r\n\r\nPaying research teams at HSS, Emory, and Mount Sinai cut data prep from 3 weeks per study to 4 days, and now they are able to deliver tailored patient outcomes faster.\r\n\r\nWe built Sutrix because we lived this problem. Ritvik ran clinical research at HSS and Emory, and Supratik previously founded Kairo (a16z Speedrun, exited) and was an engineer at Amazon.",
+      "long_description": "Sutrix turns messy EHR records into clean, study-ready datasets by deploying ai systems within hospital research teams' enviornment.\r\n\r\nBefore a clinical study can start, research staff spend weeks pulling records, reading notes chart by chart and fixing conflicting entries in spreadsheets. Sutrix automates that work inside each hospital's own systems. It applies the study's rules and flags unclear cases for staff to review.\r\n\r\nPaying research teams at HSS, Emory, and Mount Sinai cut data prep from 3 weeks per study to 4 days, and now they are able to deliver tailored patient outcomes faster.\r\n\r\nWe built Sutrix because we lived this problem. Ritvik ran clinical research at HSS and Emory, and Supratik previously founded Kairo (a16z Speedrun, exited) and was an engineer at Amazon.",
       "website": "https://www.sutrix.ai/",
       "industries": [
         "Healthcare",
@@ -23753,7 +23822,7 @@
       "name": "Synthetic Sciences",
       "batch": "Winter 2026",
       "one_liner": "Infrastructure for Autonomous Science",
-      "long_description": "Synthetic Sciences is a research lab building infrastructure for scientific superintelligence. Empirical science is bottlenecked by verification that is slow, expensive, and imperfect. We work on tooling, evals, training environments, algorithms, and models that make autonomous science possible.",
+      "long_description": "Synthetic Sciences is a research lab building infrastructure for scientific superintelligence. Empirical science is bottlenecked by verification that is slow, expensive, and imperfect. We work on tooling, evals, training environments, algorithms, and labs that make autonomous science possible.",
       "website": "https://syntheticsciences.ai/",
       "industries": [
         "B2B",
@@ -23762,7 +23831,7 @@
       "tags": [
         "Reinforcement Learning"
       ],
-      "team_size": 2,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1770489645
@@ -23873,7 +23942,9 @@
         "Energy"
       ],
       "tags": [
+        "Artificial Intelligence",
         "Deep Learning",
+        "Hardware",
         "IoT",
         "Energy"
       ],
@@ -25131,7 +25202,7 @@
       "slug": "traverse",
       "name": "Traverse",
       "batch": "Winter 2026",
-      "one_liner": "Research lab solving non-verifiable work",
+      "one_liner": "Custom models and inference, built and run for enterprises",
       "long_description": "",
       "website": "https://www.traverse.so",
       "industries": [
@@ -25855,9 +25926,9 @@
         "Infrastructure"
       ],
       "tags": [
+        "Artificial Intelligence",
         "API",
-        "Infrastructure",
-        "AI"
+        "Infrastructure"
       ],
       "team_size": 2,
       "location": "New York City, NY, USA",
@@ -26267,7 +26338,7 @@
       "name": "Verne Robotics",
       "batch": "Summer 2025",
       "one_liner": "AI models that teach robots new skills in hours",
-      "long_description": "We build AI models for controlling robot arms, enabling them to learn new skills in just hours. Our robots help businesses cut costs by automating back-of-house tasks with an innovative  pay-by-the-hour business model. Our customers include a biotech unicorn, a leading biotech non-profit, and a direct to consumer apparel brand.",
+      "long_description": "Verne builds general‑purpose physical AI. We deploy robots to expand the productive capacity of the physical world.",
       "website": "https://vernerobotics.com/",
       "industries": [
         "Industrials",
@@ -26306,8 +26377,8 @@
       "slug": "vesence",
       "name": "Vesence",
       "batch": "Spring 2025",
-      "one_liner": "AI for High-Stakes Work",
-      "long_description": "Vesence is building AI for High-Stakes Work.\r\n\r\nAlready rolled out at law firms, investment funds, consultants, and where details matters the most.\r\n\r\nVesence is a browser-based desktop where professionals work alongside agents to review work, send emails, manage their calendar, and edit decks, documents and spreadsheets.",
+      "one_liner": "The Agent-Native Computer",
+      "long_description": "Vesence is a computer built for agents doing 99% of the work. \r\n\r\nDevice-agnostic and model-agnostic, it brings your inbox, files, browser, and tools into one workspace. Run Claude Code and Codex, direct agents in parallel, and stay in control from any device.",
       "website": "https://vesence.com",
       "industries": [
         "B2B"
@@ -26749,8 +26820,8 @@
       "slug": "waffle",
       "name": "Waffle",
       "batch": "Spring 2025",
-      "one_liner": "AI generated podcasts",
-      "long_description": "Learn new ideas in 20 minutes! Explore hundreds of AI generated podcasts based on top books.",
+      "one_liner": "AI Video Editor",
+      "long_description": "AI video editor with hundreds of templates for reels, shorts, and tiktoks. Make short-form content for marketing or personal use. ",
       "website": "https://www.waffle.ai",
       "industries": [
         "Consumer"
@@ -27115,8 +27186,8 @@
       "slug": "workers-io",
       "name": "Workers IO",
       "batch": "Fall 2026",
-      "one_liner": "Simulation Environments for Verifying Mission Critical Software",
-      "long_description": "Workers IO verifies your entire system across millions of interleaving, faults, and timings to find the exact conditions that break the software properties you care about.\r\n\r\nBuilt for teams where 99.99% uptime is table-stakes. ",
+      "one_liner": "Simulation environments for verifying mission-critical software",
+      "long_description": "Workers IO verifies your entire system across millions of interleaving, faults, and timings to find the exact conditions that break the properties you care about.\r\n\r\nBuilt for teams where 99.99% uptime is table-stakes. ",
       "website": "https://workers.io",
       "industries": [
         "B2B",
@@ -27312,27 +27383,6 @@
       "location": "London, England, United Kingdom",
       "status": "Active",
       "launched_at": 1758482945
-    },
-    {
-      "slug": "zenbu-2",
-      "name": "Zenbu",
-      "batch": "Spring 2026",
-      "one_liner": "The browser for agentic development",
-      "long_description": "https://github.com/zenbu-labs/terminal-browser",
-      "website": "https://www.zenbu.dev/",
-      "industries": [
-        "B2B",
-        "Engineering, Product and Design"
-      ],
-      "tags": [
-        "Developer Tools",
-        "Open Source",
-        "AI"
-      ],
-      "team_size": 1,
-      "location": "San Francisco, CA, USA; Remote",
-      "status": "Active",
-      "launched_at": 1780458165
     },
     {
       "slug": "zeon-systems",
