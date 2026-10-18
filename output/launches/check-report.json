@@ -1,85 +1,17 @@
 {
-  "checked_at": "2026-10-17T16:49:55.884Z",
+  "checked_at": "2026-10-18T17:04:29.818Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 1,
-  "new_count": 1,
-  "skipped_count": 929,
-  "ingest": {
-    "addedCompanies": 0,
-    "enrichedCompanies": 1
-  },
+  "checked_count": 0,
+  "new_count": 0,
+  "skipped_count": 930,
+  "ingest": null,
   "summary": {
-    "conforming": 1,
+    "conforming": 0,
     "partial": 0,
     "non_conforming": 0,
-    "would_have_predicted": 1,
+    "would_have_predicted": 0,
     "surprise": 0,
     "predicted": 0
   },
-  "reviews": [
-    {
-      "launch": {
-        "launch_id": 122477,
-        "company_slug": "asakana",
-        "company_name": "Asakana",
-        "launch_url": "https://www.ycombinator.com/launches/VrR-asakana-automating-sales-and-the-entire-back-office-for-food-distributors",
-        "created_at": "2026-10-16T19:00:00.208Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-17T16:49:55.008Z",
-        "launch_id": 122477,
-        "company_slug": "asakana",
-        "taxonomy": {
-          "conformance_index": 77,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 75,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "hospitality.restaurant.ops",
-            "phenotype_primary_id": "vertical-agentic-workflow-saas",
-            "cell_key": "BM-01::hospitality.restaurant.ops::vertical-agentic-workflow-saas",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Restaurant & food service operations",
-            "phenotype_label": "Vertical Agentic Workflow SaaS"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [
-            "cell_observed_with_peers"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 64,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    }
-  ]
+  "reviews": []
 }
