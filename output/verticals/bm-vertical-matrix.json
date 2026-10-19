@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-18T17:04:30.727Z",
+  "generated_at": "2026-10-19T19:39:14.984Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1599,
+    "assignment_count": 1604,
     "mapped_verticals": 252,
     "observed_cells": 505,
     "total_verticals": 525,
@@ -457,6 +457,34 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.agent-security",
+      "vertical_label": "Agent security & authorization",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "agentic-fabriq",
+        "armorer-labs",
+        "caution",
+        "clawvisor",
+        "contextfort",
+        "decawork",
+        "deepmark",
+        "fabraix",
+        "golf",
+        "graypass",
+        "multifactor",
+        "nuntius",
+        "onecli",
+        "proof-of-human",
+        "salus",
+        "silmaril",
+        "stacktrace",
+        "trustai",
+        "truthsystems"
+      ]
+    },
+    {
       "business_model": "BM-09",
       "business_model_label": "Biotech / R&D platform",
       "vertical_id": "healthcare.pharma.drug-discovery",
@@ -514,33 +542,6 @@
     {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.agent-security",
-      "vertical_label": "Agent security & authorization",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "agentic-fabriq",
-        "caution",
-        "clawvisor",
-        "contextfort",
-        "decawork",
-        "deepmark",
-        "fabraix",
-        "golf",
-        "graypass",
-        "multifactor",
-        "nuntius",
-        "onecli",
-        "proof-of-human",
-        "salus",
-        "silmaril",
-        "stacktrace",
-        "trustai",
-        "truthsystems"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "ai-infrastructure.qa-testing",
       "vertical_label": "Software QA & test automation",
       "sector_id": "enterprise-software",
@@ -578,6 +579,7 @@
         "callab-ai",
         "calltree",
         "chert",
+        "fini",
         "leaping-ai",
         "minimal-ai",
         "monumint",
@@ -864,6 +866,26 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "marketing.content-ops",
+      "vertical_label": "Content operations & asset management",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "absurd",
+        "awen",
+        "cardboard",
+        "clueso",
+        "golpo",
+        "martini",
+        "mimos",
+        "prism",
+        "tdaycom",
+        "theo",
+        "usenarrative"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "ai-infrastructure.gpu-deploy",
@@ -918,25 +940,6 @@
         "saffron",
         "skillsync",
         "spott"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "marketing.content-ops",
-      "vertical_label": "Content operations & asset management",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "absurd",
-        "awen",
-        "cardboard",
-        "clueso",
-        "golpo",
-        "martini",
-        "mimos",
-        "prism",
-        "tdaycom",
-        "usenarrative"
       ]
     },
     {
@@ -1616,6 +1619,19 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.dental.practice",
+      "vertical_label": "Dental practice operations",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "10x",
+        "denta",
+        "kairos-health",
+        "patientdeskai"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.provider.patient-engagement",
       "vertical_label": "Patient engagement & adherence",
       "sector_id": "healthcare-life-sciences",
@@ -2231,18 +2247,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.dental.practice",
-      "vertical_label": "Dental practice operations",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "10x",
-        "denta",
-        "patientdeskai"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "healthcare.digital.consumer-wellness",
       "vertical_label": "Consumer digital health & wearables",
       "sector_id": "healthcare-life-sciences",
@@ -2735,6 +2739,17 @@
       "companies": [
         "cyclon",
         "vexo"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "energy.climate.carbon",
+      "vertical_label": "Climate & carbon management",
+      "sector_id": "energy-climate",
+      "companies": [
+        "aernata",
+        "rise-reforming"
       ]
     },
     {
@@ -4144,16 +4159,6 @@
       "sector_id": "retail-commerce",
       "companies": [
         "complir"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "energy.climate.carbon",
-      "vertical_label": "Climate & carbon management",
-      "sector_id": "energy-climate",
-      "companies": [
-        "rise-reforming"
       ]
     },
     {

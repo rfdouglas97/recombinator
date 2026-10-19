@@ -1,7 +1,99 @@
 {
-  "updated_at": "2026-10-17T16:49:55.756Z",
-  "count": 1377,
+  "updated_at": "2026-10-19T19:39:13.960Z",
+  "count": 1381,
   "launches": [
+    {
+      "launch_id": 123265,
+      "launch_slug": "W49-antropi-robotics-cnc-parts-in-days-from-autnomous-factories",
+      "launch_url": "https://www.ycombinator.com/launches/W49-antropi-robotics-cnc-parts-in-days-from-autnomous-factories",
+      "title": "Antropi Robotics | CNC parts in days, from autnomous factories",
+      "tagline": "Turning your designs into precision metal parts in days",
+      "body": "👋 **Hey Everyone!** I’m Naman. My best friend Shubh and I are building **Antropi Robotics**.\n\n**We make inspected CNC parts for hardware teams.** Our first factory is live and already shipping parts to customers with **lead times under 7 days**.\n\n**Our goal:** a network of autonomous factories across the US, making and delivering parts locally in as little as 24 hours.\n\n<https://www.youtube.com/watch?v=V4Ll5DZSP0I>\n\n## ⚙️ Problem\n\nBefore starting Antropi, I spent six months running my dad’s CNC machining business in India. The biggest lesson was simple: **automating the machine is not the same as automating the factory.**\n\nA CNC machine can cut automatically. But someone still has to plan the job, load the machine, inspect the part, and decide what to do when something goes wrong.\n\nFor hardware teams, this becomes a familiar cycle. Prepare drawings. Request quotes. Go back and forth on manufacturing details. Wait for a production slot. Wait for the parts.\n\n**Every week spent waiting is a design iteration you don’t get before your next demo.**\n\nAdding a robot to load the machine fixes one step. It does not tell the factory whether the part is correct, or what should happen next.\n\n## 🤖 Solution\n\nWe’re building **dark factories: autonomous factories designed to run 24/7.** Our Factory OS connects job planning, CNC machines, robots, and inspection into one system.\n\nSoftware turns CAD into machining programs and checks them in simulation, with an engineer approving them before production.\n\nRobots load and unload. Machines cut. **Every part is inspected.**\n\nInspection feeds back into production, so the system can make supported corrections or stop the machine before a problem repeats.\n\n![uploaded image](/media/?type=post&id=123265&key=user_uploads/2771579/275935ea-e97d-40e7-b0fa-cc9d04977486)\n\nFor you, it’s simple: upload your CAD, confirm your requirements, and receive inspected parts with an inspection report.\n\n**You buy parts. We handle the factory.**\n\nWe’re also building agent ordering through our MCP server and a **Rush option** for priority production.\n\n![uploaded image](/media/?type=post&id=123265&key=user_uploads/2771579/c7d0124b-0e12-4a10-b4ca-322ecac60205)\n\n\n## 🌎 Vision\n\n**One factory is the start. The network is the point.**\n\nOur long-term plan is hundreds, eventually thousands, of microfactories across the US, close to the teams building hardware. The same Factory OS will coordinate production across the network.\n\nAutonomy removes waiting inside the factory. Local production puts the finished part closer to you.\n\nThe target: **American-made precision at China-competitive prices**, with local delivery in as little as 24 hours for supported parts.\n\nShenzhen-like speed, without needing to build in Shenzhen.\n\n![uploaded image](/media/?type=post&id=123265&key=user_uploads/2771579/e012541d-ba88-4809-9423-a1935c878aec)\n\n\n## 🛠️ We’ve spent nine years getting hardware built.\n\nShubh and I met in college in 2017. We both studied computer science, built Mars rovers together, and competed internationally. We also spent plenty of days in CNC shops waiting for parts.\n\nBefore running my dad’s business, I was the first employee and Chief of Staff at Accio Robotics, a warehouse automation company in India, participating in its journey from the first product through scaling and acquisition.\n\nShubh completed his Master’s in Robotics at the University of Pennsylvania, working with robotic manipulators. After his master’s, we started Antropi.\n\nWe have experienced this problem as the people waiting for parts and as the people responsible for making them.\n\n**Now we’re building the factories we wish we’d had.**\n\n## 🙌 Ask\n\n**Need CNC parts?** Send us your most challenging part and we’ll get it done. \n\n👉 [www.antropi.shop](http://antropi.shop)\n\n**Know a team scaling production?** We’d appreciate introductions to hardware or procurement teams at Series B+ companies in computing infrastructure, robotics, medical devices, and energy.\n\nWe’re happy to start with one part and earn the next order.\n\n**Naman &amp; Shubh**\n\nAntropi Robotics",
+      "created_at": "2026-10-19T18:00:00.087Z",
+      "total_vote_count": 4,
+      "company_slug": "antropi-robotics",
+      "company_name": "Antropi Robotics",
+      "company_website": "https://www.antropi.world/",
+      "company_batch": "Fall 2026",
+      "company_industry": "Industrials",
+      "company_id": 35290,
+      "author_name": "Naman Gupta",
+      "scraped_at": "2026-10-19T19:39:02.376Z",
+      "review_summary": {
+        "conformance_index": 76,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 122484,
+      "launch_slug": "VrY-veeza-ai-f26-ai-tourist-visa-agent-for-people-with-weak-passports",
+      "launch_url": "https://www.ycombinator.com/launches/VrY-veeza-ai-f26-ai-tourist-visa-agent-for-people-with-weak-passports",
+      "title": "Veeza AI (F26) — AI tourist visa agent for people with weak passports",
+      "tagline": "Pick your destination. We'll handle everything else.",
+      "body": "**TL;DR** [Veeza AI](https://veeza.ai) helps people with weak passports get tourist visas. Upload your passport, and our computer-use agents verify your documents, fill in all the forms and book your visa appointment.\n\n<https://www.youtube.com/watch?v=pGgKG-L-VBU>\n\n**The problem**\n\nHey, I'm Aly. I'm Canadian-Egyptian, and I've traveled on a strong passport and a weak one. With a strong one, you book a flight. With a weak one, you spend hours filling out forms (the UK's is 68 steps long), collect a stack of documents, then fight for an appointment like Taylor Swift tickets. And just like with Taylor Swift tickets, scalpers get there first. Their bots grab the slots and resell them for as much as $1,000.\n\nMy friends and I have missed weddings, engagements and conferences because of this. I get that countries need to vet who comes in. It just shouldn't be this hard.\n\n**How Veeza AI works**\n\n1. Pick your destination from 33 countries, including the US, the UK, Canada and Schengen countries.\n2. Upload your passport and documents. Our AI verifies them, flags anything missing, fills in all the forms and books your visa appointment.\n3. A human reviews everything to make sure it's done right.\n\nBehind the scenes, our computer-use agents work through the government portals for you.\n\n![](https://bookface.ycombinator.com/media/?key=user_uploads/578651/140a58f6-93a5-4631-aaff-51ce99d2417f)\n\nSince joining YC, we've grown from 1,000 to 7,000+ users. People are recommending us to their families and coming back for their next visa. A woman applied through Veeza AI, then her mom did, then her grandmother. One traveler has had four visas approved through us since June.\n\nAbout 5 billion people have weak passports. We estimate the Global South files 200 million tourist visa applications a year. We're starting with MENA, then the entire Global South. And as personal AI agents start planning and booking people's trips, Veeza AI will be where they turn for visas.\n\n**How you can help**\n\nKnow a travel agency or company whose customers need tourist visas? I'd love an intro for B2B2C partnerships.\n\nYou can reach us at [**founders@veeza.ai**](mailto:founders@veeza.ai).\n\nAly",
+      "created_at": "2026-10-19T17:00:00.202Z",
+      "total_vote_count": 48,
+      "company_slug": "veeza-ai",
+      "company_name": "Veeza AI",
+      "company_website": "https://veeza.ai",
+      "company_batch": "Fall 2026",
+      "company_industry": "Consumer",
+      "company_id": 34761,
+      "author_name": "Aly Moursy",
+      "scraped_at": "2026-10-19T19:39:02.376Z",
+      "review_summary": {
+        "conformance_index": 79,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 123337,
+      "launch_slug": "W5J-scout-by-fini-an-ai-teammate-for-your-support-team",
+      "launch_url": "https://www.ycombinator.com/launches/W5J-scout-by-fini-an-ai-teammate-for-your-support-team",
+      "title": "Scout by Fini: An AI teammate for your support team",
+      "tagline": "Turn customer conversations into insights, knowledge updates and bug reports, from Slack.",
+      "body": "![uploaded image](/media/?type=post&id=123337&key=user_uploads/1010279/d5b943fa-4982-44a2-95a5-41a6821f5a48)\n\nHey everyone, Deepak here, co-founder of Fini (S22). We just launched **Scout, an AI teammate that turns customer conversations into better support knowledge, bug reports and insights.**\n\nAt Fini, we build AI agents that answer customer questions. But answering a ticket doesn’t fix the outdated help article or product issue that caused it. Someone still has to investigate, gather evidence and make the fix. That’s the work we built Scout to take on.\n\n**Scout lives in Slack and works across your support tickets, customer reviews and threads.** You can ask it:\n\n* “Why did CSAT drop last month, and has it recovered?”\n* “What are customers asking that our help center doesn’t cover?”\n* “Which product issues keep coming up, and who’s affected?”\n\nIt investigates and brings back answers with evidence and customers’ own words. It can then draft a knowledge update or file a Jira/Linear bug with the findings attached. Your team approves every change.\n\nIt also runs recurring reviews, so the work keeps moving without someone remembering to ask. Teach it a rule like “Always exclude our test tickets” and it remembers for future work.\n\n**What customers are seeing:**\n\nAt TrainingPeaks, weekly knowledge upkeep went from 6 hours to 1. At Snapdocs, the share of customer questions covered by approved knowledge grew from 44% to 72% in 11 weeks.\n\nScout works with your existing support stack. You don’t need to use Fini’s customer-facing agent.\n\n**We’d love feedback from YC founders and support teams.** Reply here or DM me and we’ll help you get set up.\n\n<https://www.usefini.com/scout?utm_source=bookface&amp;utm_medium=community&amp;utm_campaign=scout_launch>\n\nWhat’s one thing buried in your customer conversations that you wish your team had time to investigate?",
+      "created_at": "2026-10-19T16:29:07.812Z",
+      "total_vote_count": 3,
+      "company_slug": "fini",
+      "company_name": "Fini",
+      "company_website": "https://www.usefini.com",
+      "company_batch": "Summer 2022",
+      "company_industry": "B2B",
+      "company_id": 27038,
+      "author_name": "Deepak Singla",
+      "scraped_at": "2026-10-19T19:39:02.376Z",
+      "review_summary": {
+        "conformance_index": 80,
+        "predictability_band": "surprise",
+        "verdict": "conforming"
+      }
+    },
+    {
+      "launch_id": 123200,
+      "launch_slug": "W36-theo-the-site-builder-and-engine-that-gets-your-business-found",
+      "launch_url": "https://www.ycombinator.com/launches/W36-theo-the-site-builder-and-engine-that-gets-your-business-found",
+      "title": "Theo - The site-builder and engine that gets your business found",
+      "tagline": "Search is changing. The days of getting 30 pages of Google results (that you never scroll through anyway) are over. Today, AI agents give customers three choices. Max. Theo helps make sure your business is one of them.",
+      "body": "<https://youtu.be/asxjV4jlCTY?si=gae61cXG75s7I2Kt>\n\n**WHAT IS THEO?**\n\nTheo is like having an expert professional web guru working for you 24 hours a day. Those aren’t our words but the words of one of our customers. Theo is constantly analyzing where your potential customers are coming from and what they are searching for. Theo writes and publishes content automatically so you’re getting consistently ranked and your domain authority rises.\n\nWe’ve built 10,000+ sites since July with an average increase of over 50% in traffic and generated 100s of thousands of impressions.\n\n**OUR TARGET**\n\nAnyone who runs a small to medium sized business and has been frustrated by where they rank on search.\n\n**CHECK IT OUT**\n\nTake the Theo test. Paste any small business website into [theo.site/audit](http://theo.site/audit) and see whether search can find it and what you need to improve your results. It takes two minutes, with no login.\n\n**HOW MUCH IT COSTS**\n\nA web guy will charge you $150 an hour to do anything. Theo charges $69.99 a month to do everything. It’ll build you a site in minutes and update it continually and intelligently. It publishes content to keep your site fresh. Theo does what an SEO agency does but better and automatically and without a $1,000 monthly retainer.\n\n**ABOUT THE FOUNDER**\n\nMiles Pines is a solo founder with a Harvard CS degree. Before Theo, he co-founded Endgrate and bootstrapped it to $100k+ a year in revenue. Previously, he worked on low-latency software at Citadel Securities.\n\nMiles learned SEO the hard way at Endgrate. He took a product nobody had heard of to thousands of organic clicks a month. Then friends who own businesses asked him to do the same for them, and Miles found himself doing the exact same work every week, for every one of them. That work never ends, and most small businesses can't afford to pay someone to do it forever. So he built Theo: the agent that does it for them.\n\n**THE ASK**\n\nIf you run a small business, or know someone who does, run the free audit at [https://theo.site](https://theo.site/)\n\nTry the product for free.\n\nIntroductions to people who serve lots of small businesses: accountants, marketing agencies, chambers of commerce, franchise groups, and business banks.\n\nReach me at [miles@theo.site](mailto:miles@theo.site)\n\nThank you!\n\nMiles",
+      "created_at": "2026-10-19T16:00:00.151Z",
+      "total_vote_count": 13,
+      "company_slug": "theo",
+      "company_name": "Theo",
+      "company_website": "https://theo.site/",
+      "company_batch": "Fall 2026",
+      "company_industry": "B2B",
+      "company_id": 34530,
+      "author_name": "Miles Pines",
+      "scraped_at": "2026-10-19T19:39:02.376Z",
+      "review_summary": {
+        "conformance_index": 72,
+        "predictability_band": "plausible",
+        "verdict": "conforming"
+      }
+    },
     {
       "launch_id": 122477,
       "launch_slug": "VrR-asakana-automating-sales-and-the-entire-back-office-for-food-distributors",

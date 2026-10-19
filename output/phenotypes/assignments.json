@@ -1467,6 +1467,72 @@
     "primary_bm_method": "assign_primary_bm_haiku"
   },
   {
+    "slug": "aernata",
+    "name": "Aernata",
+    "website": "https://aernata.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/aernata",
+    "batch": "Spring 2026",
+    "one_liner": "Making clean methanol out of CO2.",
+    "description_combined": "Making clean methanol out of CO2.\n\nAernata is an American chemicals company producing clean fuel from industrial emissions.\r\n\r\nWe&#x27;re starting by converting CO2 to methanol for synthetic fuel production.",
+    "industry_sub_vertical": "Industrial CO2-to-methanol conversion and carbon utilization for synthetic fuel production",
+    "canonical_vertical_id": "energy.climate.carbon",
+    "vertical_id": "energy.climate.carbon",
+    "vertical_label": "Climate & carbon management",
+    "vertical_sector_id": "energy-climate",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "process_optimization",
+      "catalytic_design",
+      "production_efficiency"
+    ],
+    "what_they_sell": "Clean methanol production systems that convert CO2 (industrial emissions) into synthetic fuel via proprietary catalytic and chemical processes.",
+    "ai_play": "AI accelerates catalytic design optimization, reaction kinetics modeling, and production process control. Machine learning optimizes conversion efficiency, yield prediction, and real-time reactor management to reduce cost-per-unit and improve scalability of CO2-to-methanol synthesis.",
+    "who_pays": "Industrial operators, refineries, chemical manufacturers, and energy companies seeking to monetize or neutralize CO2 emissions while producing alternative fuels.",
+    "confidence": 0.72,
+    "rationale": "Aernata is a hardware/chemistry company where AI is an enabler of core value (physical fuel production system), not the primary product. The phenotype ai-enabled-physical-systems fits: AI accelerates R&D cycles (catalytic discovery, reaction modeling), manufacturing precision (reactor control, yield optimization), and operational efficiency (process automation). This is distinct from vertical-workflow-agent (which sells software to operators) or biotech-rd-agent (which is primarily a research lab). Aernata IS building the physical system; AI is the accelerant. Confidence is moderate (0.72) because the company description does not explicitly mention AI/ML deployment yet—this is inferred from the chemistry/process optimization opportunity.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Energy"
+    ],
+    "yc_tags": [
+      "Carbon Capture and Removal",
+      "Alternative Fuels",
+      "Climate",
+      "Energy"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 402484,
+        "full_name": "Edgar Pavlovsky",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder @ Aernata (P26) - an American chemicals company producing clean fuel from industrial emissions.\n\nPreviously founded: marginfi (DeFi lending on Solana), mtndao (Solana&#x27;s largest builder community), a trading firm & a logistics SaaS.\n\nBefore that: Uber, Goldman Sachs.",
+        "linkedin_url": "https://www.linkedin.com/in/edgarpavlovsky/",
+        "twitter_url": "https://x.com/edgarpavlovsky",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6b30edf88abaa421a8619ecae8211bf532982bbb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAE2BUOFQI%2F20261019%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261019T193758Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJIMEYCIQC0r11SOM5OQqgtZx6xPbLHAAcTh1Z7W5%2FHJPlYwXZqogIhAMv%2FOusD9nVMHHoZtmCwG64JX5CLS7dwLe2UDGCEPx5mKuUDCDUQABoMMDA2MjAxODExMDcyIgz0WJLoZTVroQhbuLYqwgMuJD0NzF7XXplhAMLt9Cpgvu4GqHSRiRquryC529qZ4berdBR7gP7VbfadPgb5k6JcdiwsigNkV8HJvBcnDOyigxdXyNoh2hBblMjCa8wfpAuxNb0YdwZVIJLFz7MNkcdmY3vUFmFP%2Fp1HkNDSDfmlGyEjS7lCmTLWrMJhqM1olD9dlhC6nDhABV26Hs6FdTZl4GMckUnbkY7WqPRbgkB0OWWKwNk5OJA1ulSRCFG0vY6V5Fu0%2BonQ8pm1cgFCk8L%2FrxrcXSIMi32hO%2BLHMhZnoKe8EmitTLlKY79cmLU40%2Fvr4A6mveyqeG6%2F9%2FtnYhX1dTxJYOcGyqy1w2TfUI2gS%2BlXv5UCrgLNp1qRZLSCuJc4TVQh6ER9jz4%2F1Waisaf3hZax2h6E1iGvYMaOpACnNk%2FUPFB88IBd6qSjQnB2xh2Bylho3vLExxAp3HxFkNmfRGL0DYHuyv8CNcUkTInD0A3sOYC30jqgixgoPq8nCk%2FD61kdN%2FyRsTgcvj7lts%2F%2FRgcYzMK%2BhBUzsZ5MOw2QoTs5mCO74%2B14Mgl2dUZ7fi51QgqqngdVo4Az4n6Nz%2Ft6Te5jyMFClHaecxBnNXwMTtEwjuLZ1gY6pAGiV%2FGAxSs3HdqaoV3qBRUmPpMa8tpzFxIzrvmxAzcYMsGRLKc07NIOnp5LZQXouCirLGHIuiqONmDjszKKNlYd%2FcRdO4uzUmoqRBn8fzerfREIpRDfVLVhwqKM360s9YztYovHorLk%2FA3bqWcflE2uZ43na1q5I5xvtWid5ZnUWJlAxyq7tpht%2BmDpq7vb3pw7xESlrPfC8Y%2F4PM1dLijLzucmPw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=97fdd8f999e91a2548a2c8e588b3a2ce8fd326014b5eb49a3d2c4c977998cc78",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Aernata",
+          "href": "https://www.ycombinator.com/companies/aernata"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-19T19:38:06.436Z",
+    "classified_at": "2026-10-19T19:38:06.436Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "aerogen-systems",
     "name": "Aerogen Systems",
     "website": "https://www.aerogensystems.com/",
@@ -5729,7 +5795,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/antropi-robotics",
     "batch": "Fall 2026",
     "one_liner": "Autonomous CNC factories for faster hardware",
-    "description_combined": "Autonomous CNC factories for faster hardware",
+    "description_combined": "Autonomous CNC factories for faster hardware\n\nTurning your designs into precision metal parts in days\n\n👋 Hey Everyone! I’m Naman. My best friend Shubh and I are building Antropi Robotics.\n\nWe make inspected CNC parts for hardware teams. Our first factory is live and already shipping parts to customers with lead times under 7 days.\n\nOur goal: a network of autonomous factories across the US, making and delivering parts locally in as little as 24 hours.\n\n\n\n## ⚙️ Problem\n\nBefore starting Antropi, I spent six months running my dad’s CNC machining business in India. The biggest lesson was simple: automating the machine is not the same as automating the factory.\n\nA CNC machine can cut automatically. But someone still has to plan the job, load the machine, inspect the part, and decide what to do when something goes wrong.\n\nFor hardware teams, this becomes a familiar cycle. Prepare drawings. Reques",
     "industry_sub_vertical": "Autonomous CNC factory systems for hardware manufacturing acceleration",
     "canonical_vertical_id": "industrials.manufacturing.automation",
     "vertical_id": "industrials.manufacturing.automation",
@@ -5799,7 +5865,13 @@
     ],
     "directory_synced_at": "2026-08-09T14:31:49.241Z",
     "classified_at": "2026-08-09T14:31:49.241Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 123265,
+    "launch_url": "https://www.ycombinator.com/launches/W49-antropi-robotics-cnc-parts-in-days-from-autnomous-factories",
+    "launch_title": "Antropi Robotics | CNC parts in days, from autnomous factories",
+    "launch_created_at": "2026-10-19T18:00:00.087Z",
+    "launch_tagline": "Turning your designs into precision metal parts in days",
+    "launch_evaluated_at": "2026-10-19T19:39:13.959Z"
   },
   {
     "slug": "apollo-atomics-inc",
@@ -7265,6 +7337,88 @@
     "primary_bm_rationale": "Armature primarily monetizes as a software product sold to a vertical (AI agent builders/platforms) for monitoring and optimizing agent experience, not as a managed service or labor replacement.",
     "primary_bm_assigned_at": "2026-06-05T19:58:53.509Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "armorer-labs",
+    "name": "Armorer Labs",
+    "website": "https://armorerlabs.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/armorer-labs",
+    "batch": "Fall 2026",
+    "one_liner": "Continuous security verification for AI agents in regulated industries",
+    "description_combined": "Continuous security verification for AI agents in regulated industries\n\nArmorer helps companies in regulated industries ship their own AI agents faster and keep them secure in production.\n\nMost security tools flag an issue and file a ticket. Armorer assesses your agent and simulates attacks to find the real issues. Then it creates a verified fix that stops the attack without breaking the business, ready for your approval in about 4 hours.\n\nIn production, Armorer checks every agent action in milliseconds, with no GPU needed. It detects malicious behavior such as prompt injection, goal hijacking and data leaks, then allows, holds or denies the action.\n\nArmorer&#x27;s detection models beat every other detector we tested on six public benchmarks. Armorer is 22% more accurate than JEV while being 88x faster, so users won&#x27;t feel the delay.\n\nWe spent years building and evaluating AI security systems together at AWS, including its first customer-facing AI security agent, which scaled to 100k+ customers. Armorer is backed by Paul Vixie, Internet Hall of Fame inductee and former AWS Deputy CISO.",
+    "industry_sub_vertical": "AI agent security verification & runtime protection for regulated industries",
+    "canonical_vertical_id": "ai-infrastructure.agent-security",
+    "vertical_id": "ai-infrastructure.agent-security",
+    "vertical_label": "Agent security & authorization",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-security-control-plane",
+    "phenotype_primary_label": "Agent Security & Access Control Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "trust_and_quality",
+    "ai_application": "evaluation_monitoring",
+    "ai_application_patterns": [
+      "adversarial_testing",
+      "runtime_threat_detection",
+      "automated_remediation",
+      "compliance_verification"
+    ],
+    "what_they_sell": "Continuous security verification platform for AI agents: pre-deployment adversarial testing & automated fix generation (4-hour turnaround), plus real-time production monitoring that detects prompt injection, goal hijacking, data leaks, and malicious behavior at millisecond latency with no GPU overhead.",
+    "ai_play": "AI-powered red-teaming and threat detection: uses AI to simulate attacks, identify vulnerabilities, generate verified fixes, and monitor agent actions in production. Detection models trained to outperform public benchmarks on adversarial robustness.",
+    "who_pays": "Security & compliance teams (CISOs, DevSecOps engineers) at enterprises in regulated industries (finance, healthcare, defense) deploying AI agents internally.",
+    "confidence": 0.85,
+    "rationale": "Armorer is a developer-facing security infrastructure layer for multi-agent systems. Primary fit: agent-security-control-plane (zero-trust threat detection, fine-grained action auditing, compliance-ready controls for regulated domains). Secondary fit: agent-observability-evals (red-teaming, benchmarking, production monitoring). The company solves the critical security gap between rapid agentic adoption and mature threat detection in regulated industries. Value wedge (trust_and_quality) and AI application (evaluation_monitoring) align with agent infrastructure family. Confidence 0.85 (not 0.90+ because secondary observability component is present, but primary security/control-plane fit is clear).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Security"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "DevSecOps",
+      "Cybersecurity",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3565232,
+        "full_name": "Daniel Begimher",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder of Armorer Labs. Previously led the global Application Security technical field community at AWS, where he led development of AWS Security Incident Response&#x27;s AI-powered investigative agent from early development through public launch. Author of SIR-Bench - evaluation method for security agents; author of ASH code scanner (200K+ monthly clones); co-created ThreatForest, selected for Black Hat USA 2026 briefing. Led incident response for Fortune 500 breaches and red-team operations.",
+        "linkedin_url": "https://www.linkedin.com/in/begimher",
+        "twitter_url": "https://x.com/begimher",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/65ec4b4f705715309b8e611b94be913d1dd8b4bb.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJ6V7GU5M%2F20261019%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261019T193815Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCICMoAFVdyguPrMIOn0C5v2hgPnPUBOdc53SUakyPIVo3AiBlWRAbLdg%2Bq2qSZa2AZQDuATklJY2Uom3bUf6yEF63ByrlAwg1EAAaDDAwNjIwMTgxMTA3MiIMGafL3m6MZt%2FbeUp9KsIDlYwep5KG74V0ubcl8811FgpC3zPmeZC%2BIYJ9JBpiGpXneyeAYg7n8DpPyvSHuvK6veD4ae7RLPXWhWxtQjqiu0PvvPCo8hLobexJMN19xJeHmxo8LhpZ%2FouI%2BdzHUcbJjKcuP4yshyVzkcaqllNEtwYoNnjkGr3wPDwNmIq5FQQkZYpnQ72ZxqjD4SQL%2FyzHVT54YpkikPAJz218THY9rGjgGpjXqMt1WFb6fklLI3CxX30eDXh3tZqZYoIjmSEr%2Bq1b4kPWQfMP%2B0XlOH3c0boDXh61GnfIfgA4OIwEb%2F47O74fl4B2J4e7m03vgwaHa6Ib2vv7JOT1EwlAgLCKn%2FU%2F%2Fhe48knb57AbeosGh7ZDu5Y7MMN6o7aNR8JnB9uQE2DQdPi0rBkR5j%2FcHTNYN%2FR8Si4jteMXNS%2FMo4Dl4VvQ1DLtGUSISSC%2BbfcWg2CP1d0AzsqQnFzGRaaNx7KOQgUav%2B2coIxHmgSqdqRi2ODopZ5L52vbr8vK1EBTt4XdiVLQr8X3xcS5sGJ0YCMY1Yr36sWiM48FBkQFPmY6Y%2FpGEUZjqKsqsHAfvL6mZixrrQwMMoVKo%2FTFGQ2fQgjQ%2Fe9yMI7i2dYGOqYBYYrt6CLh9RCVDLcoyhnbobabN%2BUjghS5%2BF51Q7%2BvLasoEn86RfH2zBCiMyntzmMqqyzP5ST4hPm51IF5tpvPWfLv2V3tMnGAMN34F6HruBSewkUP8fmuQzKWmnH3K8aPegtEjgY7d9gLngWoyxaP5Ag42pCge2Yhri9i%2BMnuv3%2FkqksfMS%2Fdzri8zu%2BYA5EU06vy1I4ecBbG7G6wwMf3n%2FArcqpFzA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e870214871ea0bb37369d1f72130ed223744578896ae7381eb2e6f8bc6bdced4",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Armorer Labs",
+          "href": "https://www.ycombinator.com/companies/armorer-labs"
+        }
+      },
+      {
+        "user_id": 2650696,
+        "full_name": "Cristian Leo",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-Founder of Armorer Labs (YC F26). Led AI security science at AWS, building and evaluating AI systems for security.\n\nHe is the creator of ThreatForest, the first open source automated threat modeling agent, and a co-author of SIR-Bench, a benchmark for evaluating AI security investigations. He is a Black Hat and re:Invent speaker.",
+        "linkedin_url": "https://www.linkedin.com/in/cristian-leo",
+        "twitter_url": "https://x.com/cristian_le0",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/4915942599f3bc8c2903c0737b6be6746b2d15a9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJ6V7GU5M%2F20261019%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261019T193815Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCICMoAFVdyguPrMIOn0C5v2hgPnPUBOdc53SUakyPIVo3AiBlWRAbLdg%2Bq2qSZa2AZQDuATklJY2Uom3bUf6yEF63ByrlAwg1EAAaDDAwNjIwMTgxMTA3MiIMGafL3m6MZt%2FbeUp9KsIDlYwep5KG74V0ubcl8811FgpC3zPmeZC%2BIYJ9JBpiGpXneyeAYg7n8DpPyvSHuvK6veD4ae7RLPXWhWxtQjqiu0PvvPCo8hLobexJMN19xJeHmxo8LhpZ%2FouI%2BdzHUcbJjKcuP4yshyVzkcaqllNEtwYoNnjkGr3wPDwNmIq5FQQkZYpnQ72ZxqjD4SQL%2FyzHVT54YpkikPAJz218THY9rGjgGpjXqMt1WFb6fklLI3CxX30eDXh3tZqZYoIjmSEr%2Bq1b4kPWQfMP%2B0XlOH3c0boDXh61GnfIfgA4OIwEb%2F47O74fl4B2J4e7m03vgwaHa6Ib2vv7JOT1EwlAgLCKn%2FU%2F%2Fhe48knb57AbeosGh7ZDu5Y7MMN6o7aNR8JnB9uQE2DQdPi0rBkR5j%2FcHTNYN%2FR8Si4jteMXNS%2FMo4Dl4VvQ1DLtGUSISSC%2BbfcWg2CP1d0AzsqQnFzGRaaNx7KOQgUav%2B2coIxHmgSqdqRi2ODopZ5L52vbr8vK1EBTt4XdiVLQr8X3xcS5sGJ0YCMY1Yr36sWiM48FBkQFPmY6Y%2FpGEUZjqKsqsHAfvL6mZixrrQwMMoVKo%2FTFGQ2fQgjQ%2Fe9yMI7i2dYGOqYBYYrt6CLh9RCVDLcoyhnbobabN%2BUjghS5%2BF51Q7%2BvLasoEn86RfH2zBCiMyntzmMqqyzP5ST4hPm51IF5tpvPWfLv2V3tMnGAMN34F6HruBSewkUP8fmuQzKWmnH3K8aPegtEjgY7d9gLngWoyxaP5Ag42pCge2Yhri9i%2BMnuv3%2FkqksfMS%2Fdzri8zu%2BYA5EU06vy1I4ecBbG7G6wwMf3n%2FArcqpFzA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9a99effd2549410c8fbe1b4ef799d8b711b0a350ac7246a39e23efd5c33e3f42",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Armorer Labs",
+          "href": "https://www.ycombinator.com/companies/armorer-labs"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-19T19:38:24.330Z",
+    "classified_at": "2026-10-19T19:38:24.330Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "artie",
@@ -33085,6 +33239,52 @@
     "launch_evaluated_at": "2026-10-01T19:15:53.677Z"
   },
   {
+    "slug": "fini",
+    "name": "Fini",
+    "website": "https://www.usefini.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/fini",
+    "batch": "Summer 2022",
+    "one_liner": "Turn customer conversations into insights, knowledge updates and bug reports, from Slack.",
+    "description_combined": "Turn customer conversations into insights, knowledge updates and bug reports, from Slack.\n\nHey everyone, Deepak here, co-founder of Fini (S22). We just launched Scout, an AI teammate that turns customer conversations into better support knowledge, bug reports and insights.\n\nAt Fini, we build AI agents that answer customer questions. But answering a ticket doesn’t fix the outdated help article or product issue that caused it. Someone still has to investigate, gather evidence and make the fix. That’s the work we built Scout to take on.\n\nScout lives in Slack and works across your support tickets, customer reviews and threads. You can ask it:\n\n* “Why did CSAT drop last month, and has it recovered?”\n* “What are customers asking that our help center doesn’t cover?”\n* “Which product issues keep coming up, and who’s affected?”\n\nIt investigates and brings back answers with evidence and customers’ own words. It can then draft a knowledge update or file a Jira/Linear bug with the findings attached. Your team approves every change.\n\nIt also runs recurring reviews, so the work keeps moving without someone remembering to ask. Teach it a rule like “Always exclude our test tickets” and it remembers for future work.\n\nWhat customers are seeing:\n\nAt TrainingPeaks, weekly knowledge upkeep went from 6 hours to 1. At Snapdocs, the share of customer questions covered by approved knowledge grew from 44% to 72% in 11 weeks.\n\nScout works with your existing support stack. You don’t need to use Fini’s customer-facing agent.\n\nWe’d love feedback from YC founders and support teams. Reply here or",
+    "industry_sub_vertical": "Support operations knowledge management & bug triage automation",
+    "canonical_vertical_id": "enterprise.support.customer",
+    "vertical_id": "enterprise.support.customer",
+    "vertical_label": "Customer support & contact center",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "knowledge_extraction",
+      "ticket_analysis",
+      "insight_synthesis",
+      "workflow_automation"
+    ],
+    "what_they_sell": "AI agent (Scout) that autonomously analyzes customer support conversations across Slack, tickets, and reviews to extract insights, identify knowledge gaps, generate bug reports, and draft knowledge base updates. Integrates with existing support stacks (Jira, Linear, help centers) and runs recurring reviews without manual intervention.",
+    "ai_play": "Replaces manual support operations work (6 hours → 1 hour per week at TrainingPeaks) by automating the post-ticket triage workflow: investigation, evidence gathering, knowledge synthesis, and bug filing. AI extracts patterns from unstructured customer conversations and routes findings to appropriate systems with human approval gates.",
+    "who_pays": "Support operations teams, customer success leaders, and product teams at B2B SaaS companies seeking to reduce manual knowledge upkeep and improve support coverage (44% → 72% knowledge coverage at Snapdocs).",
+    "confidence": 0.82,
+    "rationale": "Fini Scout is a vertical SaaS agent deployed into the support operations workflow. It automates a specific job function (knowledge management, bug triage, insight extraction) within the support vertical. Primary phenotype is vertical-agentic-workflow-saas because Scout is the end-product sold to support teams, not infrastructure or a horizontal tool. Secondary phenotype agent-context-data applies because Scout ingests and enriches unstructured customer conversation data (Slack, tickets, reviews) to feed downstream workflows. The AI play is workflow replacement: automating the labor-intensive post-ticket investigation and knowledge update cycle. Confidence is high (0.82) because the product clearly fits the vertical SaaS + agentic automation archetype, though there is minor secondary value in context enrichment.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-01"
+    ],
+    "launch_id": 123337,
+    "launch_url": "https://www.ycombinator.com/launches/W5J-scout-by-fini-an-ai-teammate-for-your-support-team",
+    "launch_title": "Scout by Fini: An AI teammate for your support team",
+    "launch_created_at": "2026-10-19T16:29:07.812Z",
+    "launch_tagline": "Turn customer conversations into insights, knowledge updates and bug reports, from Slack.",
+    "launch_ingested_at": "2026-10-19T19:39:13.959Z",
+    "classified_at": "2026-10-19T19:39:13.959Z",
+    "proposed_phenotype": null
+  },
+  {
     "slug": "finic",
     "name": "Finic",
     "website": "https://www.finic.ai",
@@ -46150,6 +46350,117 @@
     "primary_bm_rationale": "Kairos primarily monetizes by selling specialized AI software agents to critical industries for workflow automation, making it a vertical AI SaaS product rather than a managed service where Kairos would be responsible for executing outcomes.",
     "primary_bm_assigned_at": "2026-06-05T19:59:21.212Z",
     "primary_bm_method": "assign_primary_bm_haiku"
+  },
+  {
+    "slug": "kairos-health",
+    "name": "Kairos Health",
+    "website": "https://kairoshealthai.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/kairos-health",
+    "batch": "Fall 2026",
+    "one_liner": "AI front desk that fills every chair for dental practices",
+    "description_combined": "AI front desk that fills every chair for dental practices\n\nKairos Health automates patient engagement for dentists by handling phones and insurance.\r\n\r\nKairos plugs into a dental practice&#x27;s software, calls patients who are overdue for care, and books them directly into the schedule. It also answers every inbound call 24/7 and verifies insurance.\r\n\r\nOur mission is to put practice operations on autopilot and keep every chair filled.",
+    "industry_sub_vertical": "Dental practice patient engagement & appointment scheduling automation",
+    "canonical_vertical_id": "healthcare.dental.practice",
+    "vertical_id": "healthcare.dental.practice",
+    "vertical_label": "Dental practice operations",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "conversational_ai_agent",
+      "patient_outreach_automation",
+      "insurance_verification_automation",
+      "scheduling_integration"
+    ],
+    "what_they_sell": "AI-powered front desk agent that automates inbound/outbound patient calls, appointment booking, and insurance verification for dental practices. Integrates with practice management software to access schedules and patient records.",
+    "ai_play": "Replaces human front desk staff for call handling, patient recall outreach, and insurance verification. AI agent learns practice workflows, handles 24/7 availability, and directly books appointments into the practice's system—eliminating manual scheduling friction and reducing no-shows.",
+    "who_pays": "Dental practice owners and office managers seeking to reduce labor costs, improve patient access, and maximize chair utilization.",
+    "confidence": 0.85,
+    "rationale": "Kairos is a clear fit for vertical-agentic-workflow-saas: it deploys autonomous AI agents to replace human job functions (front desk, patient outreach, insurance verification) within a specific vertical (dental practices). The product is end-user-facing SaaS sold directly to practices, integrates with vertical-specific tools (practice management software), and executes tasks autonomously. Distinct from horizontal copilots (not cross-industry) and agent infrastructure (it IS the end-product). High confidence because the description explicitly describes autonomous call handling, scheduling, and insurance verification—core workflow automation.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare",
+      "Healthcare IT"
+    ],
+    "yc_tags": [
+      "SaaS",
+      "Health Tech",
+      "Conversational AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 4,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2064089,
+        "full_name": "Tanush Chintala",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Kairos Health. Previously SWE at AWS GuardDuty. Georgia Tech CS & Stamps President&#x27;s Scholar (full-ride)",
+        "linkedin_url": "https://linkedin.com/in/tanushc",
+        "twitter_url": "https://x.com/ChintalaTanush",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/62f34f8350d81317b1280cf65cb9d14c73cb4ad9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALXK3VI2G%2F20261019%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261019T193806Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCIGUxRE2rClZAO0iwVo5qTS%2FV9IZMuDU1%2B%2FOXUWzPTal%2FAiAIvrKOKKWehIVjCT5CnzBFZL7mgDnXsh1v37%2FifG4QeSrlAwg0EAAaDDAwNjIwMTgxMTA3MiIMBE0cSjYDL1aEYtu4KsID1taxicr%2B%2F3UdN75l%2BPAaslb%2FteaUA4Gw%2BWfaZtqvNAmwaNyHyC7b0x7TmldPiav3mPkQS7Zfh7yDi4dVKI2nrnnHAkQH0hPILWnhtew21zLhS0Te%2BqRmRilqveOhMJXnU8TrX%2FgOCSipRapECcnctAzzkRI0hrf3yJNw%2F8H0r%2BE8%2F%2BxvcfRknNvsWFrtxqoiNjVRS1GzQBJASRnDucXep1UnVFC0RMx1ufdIGDsc3VwxatLWZbjQWjOeRFA3MXthWf2XuZR6rQixjjR8XFVfLHJ1KqVE8dkXGDtIQOZ0vhq1zsrD4AxSrdpoGizfVku61rzbOkc8YY7y7C24PyD4Q2Bm1g%2FOo8UIfmkpSJdTnnbXK7%2BbbzFVSZ0hde9EWYnmQPrrc6k1Y7oeb19BUM%2BDTXSeE5jKdJO8DXDbfM%2BGNKS4E8YFCqzs7ymeOU4Y9Gfx%2BY9s%2FrXyJwaOAIegIL3KAXNpIToh7KLH8Y2HKPW8Nua9fdp3c2jHLrZmwcB%2FxYl69V%2FnMA%2F5cjAac8Ui20%2BXNkwUbBl43mavX%2BxYag%2BumEWXHkWNOTcx5ef%2B%2BDEukgDyYchqkvXzxNFbEdCUr%2BGtY%2BTLMI%2Fi2dYGOqYBMW4RxPcCbiIJ1cQ%2B%2BhY4DlJxp6VFRmVKU9sj2fKx735NC%2F9aAsHeC5Jshh7Cno5ycd8zsgyYFwo%2FzGvZGom33tc3mbUDSMnqttt%2ByTrTzXx4mo7g8nTUDS2LYXI5u2IUtOEw%2FXGVgSbIbC93M2TSpCiHubdtam1fkeYQQGkv834b2OgGKZ070PGuS1SKY8nWf4XUKn6siEGFWZvJ4JjfcIjDtN7dBg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=d2de0dd5c2c2c07a612e0846a0371de887fc32be61d4534ddfe3a1a3023720e1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kairos Health",
+          "href": "https://www.ycombinator.com/companies/kairos-health"
+        }
+      },
+      {
+        "user_id": 3126375,
+        "full_name": "Aditya Jain",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Kairos Health. Previously at Intercontinental Exchange. Georgia Tech CS & Math.",
+        "linkedin_url": "https://www.linkedin.com/in/aditya-jain27",
+        "twitter_url": "https://www.x.com/aditya_j27",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/9e1c53ac1461011f6fb1252d3fdeb65e4685a835.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALXK3VI2G%2F20261019%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261019T193806Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCIGUxRE2rClZAO0iwVo5qTS%2FV9IZMuDU1%2B%2FOXUWzPTal%2FAiAIvrKOKKWehIVjCT5CnzBFZL7mgDnXsh1v37%2FifG4QeSrlAwg0EAAaDDAwNjIwMTgxMTA3MiIMBE0cSjYDL1aEYtu4KsID1taxicr%2B%2F3UdN75l%2BPAaslb%2FteaUA4Gw%2BWfaZtqvNAmwaNyHyC7b0x7TmldPiav3mPkQS7Zfh7yDi4dVKI2nrnnHAkQH0hPILWnhtew21zLhS0Te%2BqRmRilqveOhMJXnU8TrX%2FgOCSipRapECcnctAzzkRI0hrf3yJNw%2F8H0r%2BE8%2F%2BxvcfRknNvsWFrtxqoiNjVRS1GzQBJASRnDucXep1UnVFC0RMx1ufdIGDsc3VwxatLWZbjQWjOeRFA3MXthWf2XuZR6rQixjjR8XFVfLHJ1KqVE8dkXGDtIQOZ0vhq1zsrD4AxSrdpoGizfVku61rzbOkc8YY7y7C24PyD4Q2Bm1g%2FOo8UIfmkpSJdTnnbXK7%2BbbzFVSZ0hde9EWYnmQPrrc6k1Y7oeb19BUM%2BDTXSeE5jKdJO8DXDbfM%2BGNKS4E8YFCqzs7ymeOU4Y9Gfx%2BY9s%2FrXyJwaOAIegIL3KAXNpIToh7KLH8Y2HKPW8Nua9fdp3c2jHLrZmwcB%2FxYl69V%2FnMA%2F5cjAac8Ui20%2BXNkwUbBl43mavX%2BxYag%2BumEWXHkWNOTcx5ef%2B%2BDEukgDyYchqkvXzxNFbEdCUr%2BGtY%2BTLMI%2Fi2dYGOqYBMW4RxPcCbiIJ1cQ%2B%2BhY4DlJxp6VFRmVKU9sj2fKx735NC%2F9aAsHeC5Jshh7Cno5ycd8zsgyYFwo%2FzGvZGom33tc3mbUDSMnqttt%2ByTrTzXx4mo7g8nTUDS2LYXI5u2IUtOEw%2FXGVgSbIbC93M2TSpCiHubdtam1fkeYQQGkv834b2OgGKZ070PGuS1SKY8nWf4XUKn6siEGFWZvJ4JjfcIjDtN7dBg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a3678990e89aafb38e69dc25c8cba18c6db1cc5d7c412517a09ea4180772246f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kairos Health",
+          "href": "https://www.ycombinator.com/companies/kairos-health"
+        }
+      },
+      {
+        "user_id": 2414502,
+        "full_name": "Sanjana Kavula",
+        "title": "Founder/Sales",
+        "is_active": true,
+        "bio": "Founder at Kairos Health. Studied computational neuroscience at Rice University as a Trustee Scholar. She previously worked at Blueprint Medicines at Sanofi and developed AI models at the Icahn School of Medicine.",
+        "linkedin_url": "https://www.linkedin.com/in/sanjana-kavula-710384236/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f813e4619a4554a4049f457c3b5f6cd506307ffc.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALXK3VI2G%2F20261019%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261019T193806Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCIGUxRE2rClZAO0iwVo5qTS%2FV9IZMuDU1%2B%2FOXUWzPTal%2FAiAIvrKOKKWehIVjCT5CnzBFZL7mgDnXsh1v37%2FifG4QeSrlAwg0EAAaDDAwNjIwMTgxMTA3MiIMBE0cSjYDL1aEYtu4KsID1taxicr%2B%2F3UdN75l%2BPAaslb%2FteaUA4Gw%2BWfaZtqvNAmwaNyHyC7b0x7TmldPiav3mPkQS7Zfh7yDi4dVKI2nrnnHAkQH0hPILWnhtew21zLhS0Te%2BqRmRilqveOhMJXnU8TrX%2FgOCSipRapECcnctAzzkRI0hrf3yJNw%2F8H0r%2BE8%2F%2BxvcfRknNvsWFrtxqoiNjVRS1GzQBJASRnDucXep1UnVFC0RMx1ufdIGDsc3VwxatLWZbjQWjOeRFA3MXthWf2XuZR6rQixjjR8XFVfLHJ1KqVE8dkXGDtIQOZ0vhq1zsrD4AxSrdpoGizfVku61rzbOkc8YY7y7C24PyD4Q2Bm1g%2FOo8UIfmkpSJdTnnbXK7%2BbbzFVSZ0hde9EWYnmQPrrc6k1Y7oeb19BUM%2BDTXSeE5jKdJO8DXDbfM%2BGNKS4E8YFCqzs7ymeOU4Y9Gfx%2BY9s%2FrXyJwaOAIegIL3KAXNpIToh7KLH8Y2HKPW8Nua9fdp3c2jHLrZmwcB%2FxYl69V%2FnMA%2F5cjAac8Ui20%2BXNkwUbBl43mavX%2BxYag%2BumEWXHkWNOTcx5ef%2B%2BDEukgDyYchqkvXzxNFbEdCUr%2BGtY%2BTLMI%2Fi2dYGOqYBMW4RxPcCbiIJ1cQ%2B%2BhY4DlJxp6VFRmVKU9sj2fKx735NC%2F9aAsHeC5Jshh7Cno5ycd8zsgyYFwo%2FzGvZGom33tc3mbUDSMnqttt%2ByTrTzXx4mo7g8nTUDS2LYXI5u2IUtOEw%2FXGVgSbIbC93M2TSpCiHubdtam1fkeYQQGkv834b2OgGKZ070PGuS1SKY8nWf4XUKn6siEGFWZvJ4JjfcIjDtN7dBg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a84faa391b64e2524598e05d84098eb07f8f8906fc837b0ea6dbeaec2437b16c",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kairos Health",
+          "href": "https://www.ycombinator.com/companies/kairos-health"
+        }
+      },
+      {
+        "user_id": 3686279,
+        "full_name": "Adhira Tippur",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Kairos Health (YC F26). Previously at ClearView Healthcare Partners.",
+        "linkedin_url": "https://www.linkedin.com/in/adhira-tippur",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f697f5f381cd54d9e50edf0f983517af2f8826ed.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECALXK3VI2G%2F20261019%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261019T193806Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJGMEQCIGUxRE2rClZAO0iwVo5qTS%2FV9IZMuDU1%2B%2FOXUWzPTal%2FAiAIvrKOKKWehIVjCT5CnzBFZL7mgDnXsh1v37%2FifG4QeSrlAwg0EAAaDDAwNjIwMTgxMTA3MiIMBE0cSjYDL1aEYtu4KsID1taxicr%2B%2F3UdN75l%2BPAaslb%2FteaUA4Gw%2BWfaZtqvNAmwaNyHyC7b0x7TmldPiav3mPkQS7Zfh7yDi4dVKI2nrnnHAkQH0hPILWnhtew21zLhS0Te%2BqRmRilqveOhMJXnU8TrX%2FgOCSipRapECcnctAzzkRI0hrf3yJNw%2F8H0r%2BE8%2F%2BxvcfRknNvsWFrtxqoiNjVRS1GzQBJASRnDucXep1UnVFC0RMx1ufdIGDsc3VwxatLWZbjQWjOeRFA3MXthWf2XuZR6rQixjjR8XFVfLHJ1KqVE8dkXGDtIQOZ0vhq1zsrD4AxSrdpoGizfVku61rzbOkc8YY7y7C24PyD4Q2Bm1g%2FOo8UIfmkpSJdTnnbXK7%2BbbzFVSZ0hde9EWYnmQPrrc6k1Y7oeb19BUM%2BDTXSeE5jKdJO8DXDbfM%2BGNKS4E8YFCqzs7ymeOU4Y9Gfx%2BY9s%2FrXyJwaOAIegIL3KAXNpIToh7KLH8Y2HKPW8Nua9fdp3c2jHLrZmwcB%2FxYl69V%2FnMA%2F5cjAac8Ui20%2BXNkwUbBl43mavX%2BxYag%2BumEWXHkWNOTcx5ef%2B%2BDEukgDyYchqkvXzxNFbEdCUr%2BGtY%2BTLMI%2Fi2dYGOqYBMW4RxPcCbiIJ1cQ%2B%2BhY4DlJxp6VFRmVKU9sj2fKx735NC%2F9aAsHeC5Jshh7Cno5ycd8zsgyYFwo%2FzGvZGom33tc3mbUDSMnqttt%2ByTrTzXx4mo7g8nTUDS2LYXI5u2IUtOEw%2FXGVgSbIbC93M2TSpCiHubdtam1fkeYQQGkv834b2OgGKZ070PGuS1SKY8nWf4XUKn6siEGFWZvJ4JjfcIjDtN7dBg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f9d5b56e3729a93f9bf12c4382b9c05b525b388934a0b3aba42b70abdb56b340",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kairos Health",
+          "href": "https://www.ycombinator.com/companies/kairos-health"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-19T19:38:15.538Z",
+    "classified_at": "2026-10-19T19:38:15.538Z",
+    "proposed_phenotype": null
   },
   {
     "slug": "kaizen",
@@ -96997,6 +97308,78 @@
     }
   },
   {
+    "slug": "theo",
+    "name": "Theo",
+    "website": "https://theo.site/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/theo",
+    "batch": "Fall 2026",
+    "one_liner": "The site-builder and engine that gets your business found. ",
+    "description_combined": "The site-builder and engine that gets your business found. \n\nTheo is an AI agent that builds your small business website in minutes, then works on it every week so customers find you, whether they search Google themselves or ask an AI. Theo studies your site, your market and your search data, picks what will win the next customer, and ships it: a page for what people are searching for, a post that answers their question, or the fix that was holding you back.\n\nSearch is changing. The days of getting 30 pages of Google results (that you never scroll through anyway) are over. Today, AI agents give customers three choices. Max. Theo helps make sure your business is one of them.\n\nWHAT IS THEO?\n\nTheo is like having an expert professional web guru working for you 24 hours a day. Those aren’t our words but the words of one of our customers. Theo is constantly analyzing where your potential customers are coming from and what they are searching for. Theo writes and publishes content automatically so you’re getting consistently ranked and your domain authority rises.\n\nWe’ve built 10,000+ sites since July with an average increase of over 50% in traffic and generated 100s of thousands of impressions.\n\nOUR TARGET\n\nAnyone who runs a small to medium sized business and has been frustrated by where they rank on search.\n\nCHECK IT OUT\n\nTake the Theo test. Paste any small business website into theo.site/audit and see whether search can find it and what you need to improve your res",
+    "industry_sub_vertical": "SMB website content generation & SEO automation",
+    "canonical_vertical_id": "marketing.content-ops",
+    "vertical_id": "marketing.content-ops",
+    "vertical_label": "Content operations & asset management",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "autonomous_content_generation",
+      "seo_optimization_agent",
+      "search_data_analysis",
+      "continuous_site_improvement"
+    ],
+    "what_they_sell": "An AI agent platform that autonomously builds and continuously optimizes small business websites for search visibility. The agent studies site performance, market competition, and search data, then autonomously ships new pages, blog posts, and fixes weekly to improve organic discoverability.",
+    "ai_play": "Replaces manual SEO work and content creation by deploying autonomous agents that analyze search intent, competitive landscape, and site performance data, then execute optimization tasks (page creation, content writing, technical fixes) without human intervention. AI learns what drives customer acquisition for each business and prioritizes high-impact changes.",
+    "who_pays": "Small business owners and marketing teams seeking organic growth without hiring SEO specialists or content writers.",
+    "confidence": 0.78,
+    "rationale": "Theo is an end-user-facing SaaS product deploying autonomous AI agents to replace manual, repetitive workflows (SEO optimization, content creation, site management) within a specific vertical (SMB marketing). The agent integrates with search data and site analytics, learns workflows, and executes tasks autonomously. This fits vertical-agentic-workflow-saas (0.78 confidence). Secondary phenotype agent-context-data applies because the agent ingests and enriches search data, analytics, and competitive context to inform decisions. Not horizontal-copilot-saas because it's vertical-specific (SMBs) and autonomous (not just assisting humans). Not consumer-ai-app because it's B2B SaaS sold to business owners, not end-consumers.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Marketing"
+    ],
+    "yc_tags": [
+      "SMB",
+      "SEO",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": null,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 4013716,
+        "full_name": "Miles Pines",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Solo founder, Harvard CS. Previously co-founded Endgrate and bootstrapped it to $100k+ a year in revenue and worked on low-latency software at Citadel Securities.",
+        "linkedin_url": "https://www.linkedin.com/in/milespines/",
+        "twitter_url": "https://x.com/MilesPines",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8ce580a0bd26fff9c3b1aab1a026b362f4174141.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAIMQHCYAO%2F20261019%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261019T193824Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGwaCXVzLXdlc3QtMiJHMEUCICEicSPaE5xvy6%2BBZJYtXhDTdCy4LAtHPZkOx%2FT5i8%2BfAiEAxMH9gpZkZLbYjt6Nbw2DVLtV3SM%2FanSR5iGgmXFxz%2Fkq5QMINBAAGgwwMDYyMDE4MTEwNzIiDOFrcprfMk6hLgAtsSrCA0Q7INucX9Qx4KIi0qN1OhUEW9q3sce%2FM63Aq9AVbP48fgO%2Fp0aXHM8QdRUa2thvJQolB1C2EwIYp2pM69t4gFRaNuL0ySc10btLhqDdpZ9YXhRk%2FpnQji36YKqgOZyyUWIl6K1qPMBIrPO0UTW5658dCXatqvlrRxwlQZrGqQeXNTqlePXi0tUHOCuZ0mKetlLFTOtULsxQPTHxeIoaj8a4DFMBktx1ZssMb61zgzM9mXsLFdmNYgBhP7onzihFo%2FtAsO9y%2Bcq0IKVo1zQsL3GwwXDXb1KqXCAPb56n6oO%2BPDC7ZK%2BUCBIJrSf65ZR6KnEF%2FBuf1Edbale5Q%2BcAaSYvF5ooXw9GhZPUQWRtL6DclSgprKNkt8Ty6FoTh4E3K9S0HQD1OixFgwcnasipyyDwj6N7skJtlp%2FTadvrP4mGYHb5Qq1xfg3IA%2FX0bGqxP3u6EBrvYfLlVHg2xcxnInkMnlCqFEI842RYGdE8SBdtEE5TSKtVoLFmaFWqQnX4dnhf93Lt2uM4wRLyxjQxB8UmODHg7rVJ1FwClXulbd4DYnfcIXTNb4s7sxIkc725B%2FZNe0lmEa3XHwk1CE4A4hoiMzCO4tnWBjqlAXbAmX8RnIX5yMmbh2oLUbufGRdCYMKd2bTLBwpTADUgmd5QbAHRTsLafzxZfinr5vyhrw50j59YLaf0kdK%2BbWdJuueea7afGUa9b0KufVNdspeiXH%2FeFTcS%2FI2I86BJ94xMIcjY%2FFBziNL2O0weC%2FY4BvTgwrC%2FNYJ%2BYLvfMHuEh3ghH%2FSqrc4vJcWdPNBkROCfeiwm8cgO7AkaJKakY10Y3T3HXw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=674145805248f1b1d7944b40646dd9bef10403a549ce589e042d9fb42f66094b",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Theo",
+          "href": "https://www.ycombinator.com/companies/theo"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-19T19:38:34.322Z",
+    "classified_at": "2026-10-19T19:38:34.322Z",
+    "proposed_phenotype": null,
+    "launch_id": 123200,
+    "launch_url": "https://www.ycombinator.com/launches/W36-theo-the-site-builder-and-engine-that-gets-your-business-found",
+    "launch_title": "Theo - The site-builder and engine that gets your business found",
+    "launch_created_at": "2026-10-19T16:00:00.151Z",
+    "launch_tagline": "Search is changing. The days of getting 30 pages of Google results (that you never scroll through anyway) are over. Today, AI agents give customers three choices. Max. Theo helps make sure your business is one of them.",
+    "launch_evaluated_at": "2026-10-19T19:39:13.960Z"
+  },
+  {
     "slug": "theora",
     "name": "Theora",
     "website": "https://www.theorahq.com",
@@ -102947,7 +103330,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/veeza-ai",
     "batch": "Fall 2026",
     "one_liner": "AI travel agent for people with weak passports, starting with visas.",
-    "description_combined": "AI travel agent for people with weak passports, starting with visas.\n\nBillions of people need tourist visas to travel the world. We use AI agents to prepare applications, verify documents, secure appointments, and handle the visa process end to end.\r\n",
+    "description_combined": "AI travel agent for people with weak passports, starting with visas.\n\nBillions of people need tourist visas to travel the world. We use AI agents to prepare applications, verify documents, secure appointments, and handle the visa process end to end.\r\n\n\nPick your destination. We'll handle everything else.\n\nTL;DR Veeza AI helps people with weak passports get tourist visas. Upload your passport, and our computer-use agents verify your documents, fill in all the forms and book your visa appointment.\n\n\n\nThe problem\n\nHey, I'm Aly. I'm Canadian-Egyptian, and I've traveled on a strong passport and a weak one. With a strong one, you book a flight. With a weak one, you spend hours filling out forms (the UK's is 68 steps long), collect a stack of documents, then fight for an appointment like Taylor Swift tickets. And just like with Taylor Swift tickets, scalpers get there first. Their bots grab the slots and resell them for as much as $1,000.\n\nMy friends and I have missed weddings, engagements and conferences because of this. I get that countries need to vet who comes in. It just shouldn't be this har",
     "industry_sub_vertical": "Visa application & travel documentation automation for consumers",
     "canonical_vertical_id": "hospitality.travel",
     "vertical_id": "hospitality.travel",
@@ -103004,7 +103387,13 @@
     ],
     "directory_synced_at": "2026-08-16T14:19:21.341Z",
     "classified_at": "2026-08-16T14:19:21.341Z",
-    "proposed_phenotype": null
+    "proposed_phenotype": null,
+    "launch_id": 122484,
+    "launch_url": "https://www.ycombinator.com/launches/VrY-veeza-ai-f26-ai-tourist-visa-agent-for-people-with-weak-passports",
+    "launch_title": "Veeza AI (F26) — AI tourist visa agent for people with weak passports",
+    "launch_created_at": "2026-10-19T17:00:00.202Z",
+    "launch_tagline": "Pick your destination. We'll handle everything else.",
+    "launch_evaluated_at": "2026-10-19T19:39:13.959Z"
   },
   {
     "slug": "vela",
