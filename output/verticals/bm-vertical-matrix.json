@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-19T19:39:14.984Z",
+  "generated_at": "2026-10-20T18:20:22.072Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1604,
+    "assignment_count": 1612,
     "mapped_verticals": 252,
-    "observed_cells": 505,
+    "observed_cells": 507,
     "total_verticals": 525,
-    "gap_candidates": 834
+    "gap_candidates": 833
   },
   "observed_cells": [
     {
@@ -79,6 +79,7 @@
         "nodus",
         "notte",
         "openwork",
+        "orgo",
         "overshoot",
         "polymorph",
         "projectx",
@@ -422,7 +423,8 @@
         "text-ai",
         "touchy",
         "whip",
-        "wondering"
+        "wondering",
+        "yam"
       ]
     },
     {
@@ -485,6 +487,34 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.qa-testing",
+      "vertical_label": "Software QA & test automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "ashr",
+        "aucert",
+        "autosana",
+        "chronicle-labs",
+        "composal",
+        "hue",
+        "instance",
+        "kashikoi",
+        "lark",
+        "momentic",
+        "perfectbit-inc",
+        "phone-harness",
+        "qualgent",
+        "rystic",
+        "simantic",
+        "simulithic",
+        "spur",
+        "synthetic-society",
+        "workers-io"
+      ]
+    },
+    {
       "business_model": "BM-09",
       "business_model_label": "Biotech / R&D platform",
       "vertical_id": "healthcare.pharma.drug-discovery",
@@ -537,33 +567,6 @@
         "synthetic-sciences",
         "tasklet-2",
         "zarna"
-      ]
-    },
-    {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.qa-testing",
-      "vertical_label": "Software QA & test automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "ashr",
-        "aucert",
-        "autosana",
-        "chronicle-labs",
-        "composal",
-        "hue",
-        "instance",
-        "kashikoi",
-        "lark",
-        "momentic",
-        "perfectbit-inc",
-        "qualgent",
-        "rystic",
-        "simantic",
-        "simulithic",
-        "spur",
-        "synthetic-society",
-        "workers-io"
       ]
     },
     {
@@ -1252,6 +1255,21 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "healthcare.provider.revenue-cycle",
+      "vertical_label": "Healthcare revenue cycle management",
+      "sector_id": "healthcare-life-sciences",
+      "companies": [
+        "amby-health",
+        "cesara",
+        "egress-health",
+        "eos-ai",
+        "kandor",
+        "lunabill"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "robotics.integration-deployment",
@@ -1335,20 +1353,6 @@
         "frekil",
         "omanta",
         "paceline-bio"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "healthcare.provider.revenue-cycle",
-      "vertical_label": "Healthcare revenue cycle management",
-      "sector_id": "healthcare-life-sciences",
-      "companies": [
-        "amby-health",
-        "egress-health",
-        "eos-ai",
-        "kandor",
-        "lunabill"
       ]
     },
     {
@@ -1692,6 +1696,19 @@
         "atomarine",
         "maritime-fusion",
         "zephyr-fusion"
+      ]
+    },
+    {
+      "business_model": "BM-06",
+      "business_model_label": "Data / intelligence product",
+      "vertical_id": "industrials.robotics.general",
+      "vertical_label": "General-purpose robotics intelligence",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "asimov",
+        "linewise",
+        "praxis-robotics",
+        "vision-lab"
       ]
     },
     {
@@ -2329,15 +2346,15 @@
       ]
     },
     {
-      "business_model": "BM-06",
-      "business_model_label": "Data / intelligence product",
-      "vertical_id": "industrials.robotics.general",
-      "vertical_label": "General-purpose robotics intelligence",
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.defense.supply-chain",
+      "vertical_label": "Defense supply chain & prime contracting",
       "sector_id": "industrials-defense",
       "companies": [
-        "asimov",
-        "praxis-robotics",
-        "vision-lab"
+        "kyten-technologies",
+        "mass-magnetics",
+        "super-powers-mobility-spm"
       ]
     },
     {
@@ -3124,17 +3141,6 @@
       "companies": [
         "cascade-space",
         "zymbly"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.defense.supply-chain",
-      "vertical_label": "Defense supply chain & prime contracting",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "kyten-technologies",
-        "mass-magnetics"
       ]
     },
     {
@@ -5062,6 +5068,16 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "hospitality.travel",
+      "vertical_label": "Travel & hospitality operations",
+      "sector_id": "consumer",
+      "companies": [
+        "axel-travel"
+      ]
+    },
+    {
       "business_model": "BM-04",
       "business_model_label": "AI labor / managed service",
       "vertical_id": "hospitality.travel",
@@ -5779,6 +5795,16 @@
       "sector_id": "consumer",
       "companies": [
         "opennote"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "productivity.project-portfolio-oversight",
+      "vertical_label": "Project portfolio management & resource allocation",
+      "sector_id": "consumer",
+      "companies": [
+        "odin-robotics"
       ]
     },
     {

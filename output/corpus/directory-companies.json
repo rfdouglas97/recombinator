@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-19T19:37:57.873Z",
+  "synced_at": "2026-10-20T18:18:38.398Z",
   "source": "algolia:YCCompany_production",
   "batches": [
     "Winter 2025",
@@ -12,7 +12,7 @@
     "Fall 2026",
     "Winter 2027"
   ],
-  "company_count": 1394,
+  "company_count": 1401,
   "companies": [
     {
       "slug": "10x",
@@ -555,16 +555,16 @@
       "slug": "agentcard",
       "name": "Agentcard",
       "batch": "Summer 2026",
-      "one_liner": "cards for AI agents",
-      "long_description": "Agentcard.sh is a debit card for AI agents. Agents can use Agentcard’s API to issue cards and pay for things online autonomously.",
-      "website": "https://agentcard.sh",
+      "one_liner": "let agents buy anything online",
+      "long_description": "Agentcard let's companies buy anything online. We work with companies building personal assistants to enable payments.",
+      "website": "https://www.agentcard.com",
       "industries": [
         "Fintech"
       ],
       "tags": [
         "Fintech"
       ],
-      "team_size": 0,
+      "team_size": 4,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1780682746
@@ -3306,7 +3306,7 @@
         "Agriculture"
       ],
       "tags": [],
-      "team_size": 13,
+      "team_size": 24,
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1740392812
@@ -3921,11 +3921,11 @@
     },
     {
       "slug": "brumby",
-      "name": "Brumby (Formerly GrazeMate)",
+      "name": "Brumby",
       "batch": "Winter 2026",
       "one_liner": "Robot Cowboys that Herd Cattle with AI Drones",
       "long_description": "Brumby builds autonomous drones that herd cattle.\r\n\r\nOn command, our drones fly to a paddock, position themselves around the mob, and move them where they need to go. What used to take a full day of helicopters, motorbikes, and horses now runs on a schedule.\r\n\r\nWe work with some of the largest cattle ranches in the world. While the drones are herding, they're also estimating animal weights, measuring grass biomass, monitoring water levels, and flagging sick animals. We're building physical AI that lets a grazier manage thousands of head across millions of acres from their phone.",
-      "website": "https://brumby",
+      "website": "https://brumby.com",
       "industries": [
         "Industrials",
         "Agriculture"
@@ -3945,7 +3945,7 @@
       "slug": "bryel",
       "name": "Bryel",
       "batch": "Fall 2026",
-      "one_liner": "Building in-house, frontier AI labs for companies",
+      "one_liner": "Perceptual reasoning models that are easily customizable",
       "long_description": "",
       "website": "https://www.bryel.ai/",
       "industries": [
@@ -4829,6 +4829,25 @@
       "launched_at": 1753135662
     },
     {
+      "slug": "cesara",
+      "name": "Cesara",
+      "batch": "Fall 2026",
+      "one_liner": "Faster & Accurate payments for health systems",
+      "long_description": "",
+      "website": "https://cesara.com",
+      "industries": [
+        "Healthcare"
+      ],
+      "tags": [
+        "Healthcare",
+        "AI"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792499143
+    },
+    {
       "slug": "chamber",
       "name": "Chamber",
       "batch": "Winter 2026",
@@ -5237,8 +5256,8 @@
       "slug": "click",
       "name": "Click",
       "batch": "Summer 2026",
-      "one_liner": "Managed Agents API",
-      "long_description": "Click serves agents over an API. Bring your model keys, tools, and context - Click runs the agent and streams back events.\r\nAsk your coding agent about useclick.ai/reference!",
+      "one_liner": "Serverless agents",
+      "long_description": "Click serves agents over an API. Use any model, bring your tools, and submit inputs - Click runs the agent and streams back events.\r\nAsk your coding agent about useclick.ai/reference!",
       "website": "https://www.useclick.ai",
       "industries": [
         "B2B",
@@ -5777,8 +5796,8 @@
       "slug": "confident-ai",
       "name": "Confident AI",
       "batch": "Winter 2025",
-      "one_liner": "The LLM Eval and Observability Platform for AI Quality",
-      "long_description": "Confident AI provides enterprises an all-in-one platform to evaluate, observe, red team, and govern AI applications. Built by the creators of DeepEval (16k stars, 8m monthly downloads), Confident AI is able to offer battle-tested, open-source evaluation algorithms while providing the infrastructure needed for teams to stay confident their AI systems.",
+      "one_liner": "Production Monitoring & Evals for AI Agents",
+      "long_description": "Confident AI surfaces failures in AI agents and automatically turns problematic traces into the the next eval, so teams don't ship the same issue twice. Unlike a general purpose AI observability tool, Confident AI has specialized evals for each AI system including multi-agent systems, voice, MCP, and more. For enterprises, Confident AI's an all-in-one AI quality platform including red teaming and AI governance.",
       "website": "https://confident-ai.com",
       "industries": [
         "B2B",
@@ -7127,8 +7146,8 @@
       "slug": "dialogus",
       "name": "Dialogus",
       "batch": "Summer 2026",
-      "one_liner": "AI agents that learn how your company actually works",
-      "long_description": "Dialogus builds Duet, the operating layer for companies run by people and agents.\r\n\r\nEvery company now has an AI mandate, but most stall after one or two automations. The rest of operations is a long tail of workflows like claims, disputes, approvals and exceptions that run on rules nobody ever wrote down.\r\n\r\nDuet learns how your company actually works, from the tools your team uses and the way they really do the work. It turns those workflows into agents, proves each one alongside your team before it acts, and runs it with hard limits and full audit.\r\n\r\nEvery workflow teaches Duet more about your company, so the next one goes live faster. The result: companies automate dozens of workflows, not one or two.",
+      "one_liner": "voice AI agents that learn how your company actually works",
+      "long_description": "",
       "website": "https://www.dialoguslabs.com/",
       "industries": [
         "B2B",
@@ -7199,7 +7218,7 @@
         "Market Research",
         "AI"
       ],
-      "team_size": 3,
+      "team_size": 5,
       "location": "New York City, NY, USA",
       "status": "Active",
       "launched_at": 1762366564
@@ -9490,7 +9509,10 @@
         "Industrials",
         "Manufacturing and Robotics"
       ],
-      "tags": [],
+      "tags": [
+        "Robotics",
+        "AI"
+      ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -10706,8 +10728,8 @@
       "slug": "hopper",
       "name": "Hopper",
       "batch": "Fall 2026",
-      "one_liner": "Fast inference for voice",
-      "long_description": "Hopper post-trains STT, TTS, and speech LLMs on your production calls, then serves and improves them against your live traffic",
+      "one_liner": "Inference and post-training for realtime agents",
+      "long_description": "Train, inference, and continuously improve any model.\r\n\r\nHopper post-trains STT, TTS, and LLMs on your production traces, then serves and improves them against your live traffic.",
       "website": "https://withhopper.com",
       "industries": [
         "B2B",
@@ -10887,7 +10909,7 @@
       "name": "Hundred",
       "batch": "Fall 2026",
       "one_liner": "100% automated inspection for consumer electronics parts",
-      "long_description": "Hundred is an automated inspection system for the components that make up consumer devices like phones, smartwatches, and laptops. Hundred helps factories cut waste and prevent line-down issues by catching sub-millimeter cosmetic defects before parts reach the assembly line. \r\n\r\nIn the consumer electronics industry, designs change so fast that traditional machine vision can't keep up, forcing factories to rely on manual inspection, literally people checking parts under microscopes to sort out bad parts. Human inspectors miss roughly 15% of defects, and a single bad part can turn a finished device into scrap. Hundred is replacing manual inspection with an imaging rig that scans an entire shipping tray of parts at once. \r\n\r\nThe Hundred rig blocks ambient light and uses varied controlled lighting configurations to detect defects smaller than 100µm on a range of materials. The controlled environment means Hundred only needs to scan a single good part before it can find defects, categorize them, and assess their severity accurately.\r\n\r\nDefects cost U.S. discrete manufacturers $45 billion a year, a problem Hundred's CEO, Erica, saw firsthand as a mechanical engineer designing devices at Meta, Google, and Magic Leap. She met Imani, Hundred's CPO, at Columbia University's admitted-students day in 2017 and Imani went on to spend five years at Twitch building software that handles billions of requests a day. Erica later met Iris, Hundred's CTO, in the Bay Area. Iris worked as a quant at Citadel before pivoting to study at Imperial College London where she researched machine learning on 3D meshes and other structured data. Together, they're building Hundred because manual inspection shouldn't still exist in 2026.",
+      "long_description": "Hundred is an automated inspection system for the components that make up consumer devices like phones, smartwatches, and laptops. Hundred helps factories cut waste and prevent line-down issues by catching sub-100µm cosmetic defects before parts reach the assembly line. \r\n\r\nIn the consumer electronics industry, designs change so fast that traditional machine vision can't keep up, forcing factories to rely on manual inspection, literally people checking parts under microscopes to sort out bad parts. Human inspectors miss roughly 15% of defects, and a single bad part can turn a finished device into scrap. Hundred is replacing manual inspection with an imaging rig that scans an entire shipping tray of parts at once. \r\n\r\nThe Hundred rig blocks ambient light and uses varied controlled lighting configurations to detect defects smaller than 100µm on a range of materials. The controlled environment means Hundred only needs to scan a single good part before it can find defects, categorize them, and assess their severity accurately.\r\n\r\nDefects cost U.S. discrete manufacturers $45 billion a year, a problem Hundred's CEO, Erica, saw firsthand as a mechanical engineer designing devices at Meta, Google, and Magic Leap. She met Imani, Hundred's CPO, at Columbia University's admitted-students day in 2017 and Imani went on to spend five years at Twitch building software that handles billions of requests a day. Erica later met Iris, Hundred's CTO, in the Bay Area. Iris worked as a quant at Citadel before pivoting to study at Imperial College London where she researched machine learning on 3D meshes and other structured data. Together, they're building Hundred because manual inspection shouldn't still exist in 2026.",
       "website": "http://hundred.systems/",
       "industries": [
         "Industrials",
@@ -13206,6 +13228,28 @@
       "launched_at": 1779230895
     },
     {
+      "slug": "linewise",
+      "name": "Linewise",
+      "batch": "Spring 2025",
+      "one_liner": "Industrial data layer for physical RSI",
+      "long_description": "We capture how physical things are made, from the first design to the final assembly, and turn it into training data for frontier AI and robotics models.",
+      "website": "https://linewise.io/",
+      "industries": [
+        "Industrials",
+        "Manufacturing and Robotics"
+      ],
+      "tags": [
+        "Robotics",
+        "Manufacturing",
+        "Data Engineering",
+        "AI"
+      ],
+      "team_size": 25,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1743036496
+    },
+    {
       "slug": "linklane",
       "name": "LinkLane",
       "batch": "Winter 2027",
@@ -15115,7 +15159,7 @@
       "name": "Mochi",
       "batch": "Summer 2026",
       "one_liner": "Watch and create anime",
-      "long_description": "Mochi is an app to watch and create anime microdramas: fast paced shows with a cliffhanger every minute. We produce originals with AI, collaborating with writers from Marvel, Cartoon Network, and Toei Animation, and our users can also create in app too - with over 500 episodes created each day from 3,000+ creators.",
+      "long_description": "We're the #1 app for AI anime, where fans make the stories. In just 2 months, we’ve grown to 20K+ creators publishing 2K+ series a month, with originals from Marvel, Toei, and Webtoon writers. To date we’ve crossed 300M views on socials.",
       "website": "https://www.mochi.tv/",
       "industries": [
         "Consumer",
@@ -15125,8 +15169,8 @@
         "Consumer",
         "AI"
       ],
-      "team_size": 3,
-      "location": "San Francisco, CA, USA",
+      "team_size": 5,
+      "location": "Los Angeles, CA, USA",
       "status": "Active",
       "launched_at": 1786602622
     },
@@ -16070,15 +16114,12 @@
       "name": "Nodus Compute",
       "batch": "Fall 2026",
       "one_liner": "Intelligent Cloud for AI workloads",
-      "long_description": "Intelligent Cloud for AI workloads",
+      "long_description": "GPU capacity is sold like real estate: locked up, prepaid and idle half the time. Nodus makes it liquid, runs any AI workload on it through one execution layer, and puts research agents on every run to make the next one cheaper. More workloads mean better research, and better research means cheaper compute, a loop no single-product cloud can match.",
       "website": "https://www.nodus-compute.ai/",
       "industries": [
         "B2B"
       ],
-      "tags": [
-        "Infrastructure",
-        "AI"
-      ],
+      "tags": [],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -16385,21 +16426,21 @@
       "slug": "o11",
       "name": "o11",
       "batch": "Winter 2026",
-      "one_liner": "AI account managers for consumer/self-serve apps",
-      "long_description": "o11 is the AI account manager for consumer and self-serve applications, helping teams treat every customer like a flagship client. It brings email and iMessage conversations together, suggests personal replies, and turns customer signals into timely follow-ups. Teams can tailor each persona’s voice and review response plans before turning them on.",
+      "one_liner": "OpenRouter wallet for paid goods and services",
+      "long_description": "o11 helps your AI agents access apis, tools, and other paid goods and services. Instead of hacky computer use, managing credit card permissions, assigning each agent a new email, we handle all the hard parts of accessing the paid web. o11 has zero markup and gives teams better prices, easy checkout, and full auditability when purchasing with AI agents. \r\n\r\nThe o11 wallet gives your AI agents access to the paid world.\r\n",
       "website": "https://o11.ai",
       "industries": [
-        "B2B",
-        "Sales"
+        "B2B"
       ],
       "tags": [
+        "Developer Tools",
+        "Fintech",
         "SaaS",
         "B2B",
-        "Customer Success",
         "AI"
       ],
       "team_size": 2,
-      "location": "New York City, NY, USA",
+      "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1765258468
     },
@@ -16498,6 +16539,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Inactive",
       "launched_at": 1773859660
+    },
+    {
+      "slug": "odin-robotics",
+      "name": "Odin Robotics",
+      "batch": "Fall 2026",
+      "one_liner": "Robot arms that do repetitive manual work in existing factories.",
+      "long_description": "Odin Robotics deploys robot arms in small and mid-sized factories to do repetitive manual work, like machine tending and packing. They work alongside existing machines and people, so factories don't have to redesign their lines. With deterministic controls and learned skills, they're both reliable and flexible.",
+      "website": "https://odin-robotics.com",
+      "industries": [
+        "Consumer",
+        "Home and Personal"
+      ],
+      "tags": [
+        "Robotics",
+        "Manufacturing",
+        "Industrial"
+      ],
+      "team_size": 2,
+      "location": "ZH, Switzerland",
+      "status": "Active",
+      "launched_at": 1792472507
     },
     {
       "slug": "oki",
@@ -17280,6 +17342,27 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1746733443
+    },
+    {
+      "slug": "orgo",
+      "name": "Orgo",
+      "batch": "Fall 2026",
+      "one_liner": "Computers for Agents",
+      "long_description": "Orgo is the simplest way to give your AI employees their own secure, persistent cloud computers. Over 1000 teams use Orgo to run AI workers.",
+      "website": "https://www.orgo.ai",
+      "industries": [
+        "B2B",
+        "Infrastructure"
+      ],
+      "tags": [
+        "Developer Tools",
+        "Cloud Computing",
+        "AI"
+      ],
+      "team_size": 0,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792474206
     },
     {
       "slug": "origami-robotics",
@@ -18675,6 +18758,28 @@
       "launched_at": 1761067885
     },
     {
+      "slug": "phone-harness",
+      "name": "Phone Harness",
+      "batch": "Fall 2026",
+      "one_liner": "Let your agent control your phone",
+      "long_description": "Phone Harness is the most popular open-source harness for phone automation with 3,800+ GitHub stars. We enable agents to tap, type, and scroll on your personal phone or cloud-hosted phones. Supports iPhone and Android. No jailbreak, API, or app installation needed.\r\n\r\n- Access 2FA, MFA, and SMS codes to complete login.\r\n- Automate mobile applications with authentication.\r\n- QA test mobile applications on real or emulated devices.",
+      "website": "https://phone-harness.com/",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Open Source",
+        "API",
+        "Automation",
+        "AI"
+      ],
+      "team_size": 1,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792518932
+    },
+    {
       "slug": "photonium",
       "name": "Photonium",
       "batch": "Spring 2025",
@@ -19106,7 +19211,7 @@
       "name": "Pomerado",
       "batch": "Fall 2026",
       "one_liner": "Turn any website into an MCP for your agents, in minutes",
-      "long_description": "Pomerado turns any website into an API / MCP in minutes. Empower your agents to use previously inaccessable consumer websites, legacy portals, and internal tools. \r\n\r\nYou or your agent describe a task, Pomerado asks a few clarifying questions, and then delivers an integration. We manage hosting, permissioning, testing, and maintenance, so you can focus on building. \r\n\r\nCustomers can use us to:\r\n    • automate back office workflows on legacy systems (ERP, EHR, CRM)\r\n    • speed up customer integrations for forward deployments\r\n    • connect enterprise assistants to internal tools\r\n    • supercharge personal assistants with fast and reliable browser use\r\n\r\nWe’re ex-McKinsey and Scale AI. While driving F500 enterprise agent deployments, we saw that legacy systems were the true blocker to agentic workflows. Pomerado connects those systems to agents.",
+      "long_description": "Pomerado turns any website into an API / MCP in minutes. Connect your agents to legacy portals, consumer websites, and internal tools. \r\n\r\nWhy Pomerado:\r\n    • 7x faster than browser agents on customer workflows\r\n    • 100x cheaper than browser agents\r\n    • Self healing, deterministic APIs\r\n    • Universal website coverage\r\n    • Hosting, authentication, and permissions handled\r\n\r\nCustomers can use us to:\r\n    • automate back office workflows on legacy systems (ERP, EHR, CRM)\r\n    • speed up customer integrations for forward deployments\r\n    • connect enterprise assistants to internal tools\r\n    • supercharge personal assistants with fast and reliable browser use\r\n\r\nWe’re ex-McKinsey and Scale AI. We drove enterprise agent deployments at F500s and orgs like the Mayo Clinic. We saw how legacy systems block agent development and AI transformations; Pomerado turns those systems into AI-native components automatically.",
       "website": "https://www.pomerado.ai",
       "industries": [
         "B2B",
@@ -19408,6 +19513,29 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1782800618
+    },
+    {
+      "slug": "probe",
+      "name": "Probe",
+      "batch": "Spring 2026",
+      "one_liner": "The Agent-Native Research Stack",
+      "long_description": "Probe is building the agent-native research stack.\r\n\r\nOur goal is simple: help AI/ML teams run better experiments, faster. We believe research will drive progress and everyone deserves to have their own personalized lab that iterates faster than ever before. \r\n\r\nProbe brings core research tools, shared context from past experiments, and visibility into each run together in one platform. Helping teams spend less time setting up infrastructure, supervising agents, catching teammates up and more time testing ideas.\r\n\r\nBuilt for helping research labs experiment faster while keeping every researcher and agent aligned, and helping AI/ML teams setup a research capability without building a lab’s infrastructure first.",
+      "website": "https://useprobe.ai/",
+      "industries": [
+        "B2B",
+        "Engineering, Product and Design"
+      ],
+      "tags": [
+        "Machine Learning",
+        "SaaS",
+        "B2B",
+        "Enterprise Software",
+        "AI"
+      ],
+      "team_size": null,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1779943372
     },
     {
       "slug": "probo",
@@ -20782,7 +20910,13 @@
         "B2B",
         "Infrastructure"
       ],
-      "tags": [],
+      "tags": [
+        "Developer Tools",
+        "Generative AI",
+        "Machine Learning",
+        "Infrastructure",
+        "AI"
+      ],
       "team_size": 2,
       "location": "San Francisco, CA, USA",
       "status": "Active",
@@ -23592,6 +23726,29 @@
       "launched_at": 1757558729
     },
     {
+      "slug": "super-powers-mobility-spm",
+      "name": "Super Powers Mobility (SPM)",
+      "batch": "Fall 2026",
+      "one_liner": "Modular battery packs for mobility/vehicles",
+      "long_description": "We started off building the highest performance, 470 volt electric off-road vehicles but we realized our ultra power dense battery packs are useful for mobile and stationary energy storage and power export, for military and consumer use cases. We develop battery packs, power electronics, and traction powertrain systems for vehicles.\r\n\r\nFor the majority of 2026 we were marketing our electric off-road vehicles, but we pivoted to selling our high performance battery packs and power export capabilities in the month of September. We went from having $769,000 in consumer pre-orders (possibly low conversion rate to sales) to $421,815 in realized revenue in 1 month, with a $792,000 qualified pipeline. \r\n\r\nOur tech is so compelling because the safety and layout of high voltage battery packs has only been mastered by large, well funded OEM companies who have brought it in-house. That means all other companies without the in-house expertise rely on battery companies to develop packs, and power electronics companies to develop power export capabilities. SPM has both of those capabilities in-house so we can ensure a fast turnaround and much more reliable product. \r\n\r\nOne of the biggest priorities of the department of war is energy dominance. We're seeing it constantly in new solicitations. Our strategy is superior - become a prime, but simultaneously service primes because most of then don't actually have the battery and power electronics expertise we have.\r\n\r\nFounded by Jon Powers - Ex-Tesla Sr. Mechanical Integration Engineer leading Cybertruck vehicle integration. ",
+      "website": "https://www.spm.fun",
+      "industries": [
+        "Industrials",
+        "Defense"
+      ],
+      "tags": [
+        "Energy Storage",
+        "Unmanned Vehicle",
+        "Manufacturing",
+        "Electric Vehicles",
+        "Electronics"
+      ],
+      "team_size": 4,
+      "location": "Pittsburgh, PA, USA",
+      "status": "Active",
+      "launched_at": 1792455040
+    },
+    {
       "slug": "superglue",
       "name": "superglue",
       "batch": "Winter 2025",
@@ -23702,7 +23859,7 @@
       "name": "Sutrix",
       "batch": "Fall 2026",
       "one_liner": "Deployed AI to turn EHR data into study-ready datasets ",
-      "long_description": "Sutrix turns messy data from EHRs, clinical notes, wearables, and surveys into clean, study-ready datasets allowing hospital research teams' to deliver tailored patient care faster.\r\n\r\nBefore a clinical study can start, research staff spend weeks pulling patient data from disconnected systems like the EHR, REDCap, and wearable platforms, reading notes chart by chart, and reconciling conflicting entries in spreadsheets. Sutrix automates that work by deploying AI systems within each team’s own environment, linking patient records across sources, applying the study's rules, and flagging unclear cases for staff to review.\r\n\r\nPaying research teams at HSS, Emory, and WashU cut data prep from 3 weeks per study to 4 days.\r\n\r\nWe're brothers who've built together for 4 years. We first solved this problem doing forward-deployed work at HSS, where we built an injury surveillance system now used by 700+ teams. Ritvik's clinical research at HSS and Emory showed us every research team has the same bottleneck. Supratik previously founded Kairo (a16z Speedrun, exited) and built production AI agents at Amazon.",
+      "long_description": "Sutrix turns messy data from EHRs, clinical notes, wearables, and surveys into clean, study-ready datasets allowing hospital research teams' to deliver tailored patient care faster.\r\n\r\nBefore a clinical study can start, research staff spend weeks pulling patient data from disconnected systems like the EHR, REDCap, and wearable platforms, reading notes chart by chart, and reconciling conflicting entries in spreadsheets. Sutrix automates that work by deploying AI systems within each team’s own environment, linking patient records across sources, applying the study's rules, and flagging unclear cases for staff to review.\r\n\r\nPaying research teams at 10+ institutions cut data prep by 80% going from months per study to weeks.\r\n\r\nWe're brothers who've built together for 4 years. We first solved this problem doing forward-deployed work at HSS, where we built an injury surveillance system now used by 700+ teams. Ritvik's clinical research at HSS and Emory showed us every research team has the same bottleneck. Supratik previously founded Kairo (a16z Speedrun, exited) and built production AI agents at Amazon.",
       "website": "https://www.sutrix.ai/",
       "industries": [
         "Healthcare",
@@ -25953,8 +26110,8 @@
       "slug": "uxduck",
       "name": "UXDuck",
       "batch": "Fall 2026",
-      "one_liner": "Android for drones",
-      "long_description": "Starting with a modern interface for drones that users can build on and adapt. \r\n\r\nWorks with planes, copters, rovers, boats and submarines.",
+      "one_liner": "Build better drones. Run better missions.",
+      "long_description": "Starting with a modern interface for drones that users can build on and adapt. \r\n\r\nWorks with planes, copters, rovers, boats and submarines.\r\n\r\nTry it in 5 seconds with simulated drones - https://uxduck.com/",
       "website": "https://uxduck.com",
       "industries": [
         "Industrials",
@@ -26026,7 +26183,7 @@
       "name": "ValueMate",
       "batch": "Spring 2025",
       "one_liner": "Valuemate automates real estate appraisals with AI ",
-      "long_description": "Property appraisals suck — September’s new federal rules will make them even worse.\r\n\r\nValueMate’s LiDAR-plus-AI app captures a property in a three-minute walkthrough and delivers a regulator-ready report on our dashboard, slashing cycle times by 80% for the valuation firms already on board.\r\n\r\nIn the next few months, every bank, AMC, and independent appraiser must switch to the new format or watch loans pile up. ValueMate handles the transition end-to-end, with zero tape measures, zero data entry, and zero closing delay.\r\n\r\nWe’re transforming the multi-billion dollar appraisal industry with technology that captures millions of 3D data points per walkthrough.",
+      "long_description": "ValueMate’s LiDAR-plus-AI app captures a property in a three-minute walkthrough and delivers a regulator-ready report on our dashboard, slashing cycle times by 80% for the valuation firms already on board.\r\n\r\nIn the next few months, every bank, AMC, and independent appraiser must switch to the new format or watch loans pile up. ValueMate handles the transition end-to-end, with zero tape measures, zero data entry, and zero closing delay.\r\n\r\nWe’re transforming the multi-billion dollar appraisal industry with technology that captures millions of 3D data points per walkthrough.",
       "website": "https://valuemate.ai",
       "industries": [
         "B2B"
@@ -26537,28 +26694,6 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1767637338
-    },
-    {
-      "slug": "vision-lab",
-      "name": "Vision Lab",
-      "batch": "Spring 2025",
-      "one_liner": "Industrial data layer for robotics training",
-      "long_description": "We capture and structure real factory workflows at scale by combining first-person industrial video with SOP-level process knowledge.\r\n\r\nThis enables robotics and AI labs to train on real production data, not just controlled lab environments.",
-      "website": "https://thevisionlab.ai/",
-      "industries": [
-        "Industrials",
-        "Manufacturing and Robotics"
-      ],
-      "tags": [
-        "Robotics",
-        "Manufacturing",
-        "Data Engineering",
-        "AI"
-      ],
-      "team_size": 11,
-      "location": "San Francisco, CA, USA",
-      "status": "Active",
-      "launched_at": 1743036496
     },
     {
       "slug": "vocality-health",
@@ -27235,6 +27370,26 @@
       "location": "San Francisco, CA, USA",
       "status": "Active",
       "launched_at": 1737406523
+    },
+    {
+      "slug": "yam",
+      "name": "Yam",
+      "batch": "Fall 2026",
+      "one_liner": "AI-powered dating sims for women",
+      "long_description": "Yam simulates a Love Island–style dating experience for women, starring their favorite characters. Avg playtime per DAU is 3+ hrs! ",
+      "website": "https://hiyam.ai/",
+      "industries": [
+        "Consumer"
+      ],
+      "tags": [
+        "Generative AI",
+        "Gaming",
+        "Creator Economy"
+      ],
+      "team_size": 3,
+      "location": "San Francisco, CA, USA",
+      "status": "Active",
+      "launched_at": 1792446812
     },
     {
       "slug": "youart",

@@ -1,37 +1,37 @@
 {
-  "checked_at": "2026-10-19T19:39:14.184Z",
+  "checked_at": "2026-10-20T18:20:21.148Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 4,
-  "new_count": 4,
-  "skipped_count": 926,
+  "checked_count": 5,
+  "new_count": 5,
+  "skipped_count": 925,
   "ingest": {
     "addedCompanies": 1,
-    "enrichedCompanies": 3
+    "enrichedCompanies": 4
   },
   "summary": {
-    "conforming": 4,
+    "conforming": 5,
     "partial": 0,
     "non_conforming": 0,
-    "would_have_predicted": 3,
-    "surprise": 1,
+    "would_have_predicted": 5,
+    "surprise": 0,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 123265,
-        "company_slug": "antropi-robotics",
-        "company_name": "Antropi Robotics",
-        "launch_url": "https://www.ycombinator.com/launches/W49-antropi-robotics-cnc-parts-in-days-from-autnomous-factories",
-        "created_at": "2026-10-19T18:00:00.087Z"
+        "launch_id": 123678,
+        "company_slug": "axel-travel",
+        "company_name": "Axel Travel",
+        "launch_url": "https://www.ycombinator.com/launches/WAo-axel-ai-travel-agent-that-saves-you-money-on-flights-and-hotels",
+        "created_at": "2026-10-20T18:10:01.516Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-19T19:39:02.409Z",
-        "launch_id": 123265,
-        "company_slug": "antropi-robotics",
+        "evaluated_at": "2026-10-20T18:20:19.656Z",
+        "launch_id": 123678,
+        "company_slug": "axel-travel",
         "taxonomy": {
-          "conformance_index": 76,
+          "conformance_index": 75,
           "verdict": "conforming",
           "dimensions": {
             "phenotype_alignment": {
@@ -39,15 +39,207 @@
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 70,
-              "band": "acceptable"
+              "score": 85,
+              "band": "strong"
             },
             "business_model_fit": {
               "score": 70,
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 91,
+              "score": 88,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-10",
+            "vertical_id": "hospitality.travel",
+            "phenotype_primary_id": "consumer-ai-app",
+            "cell_key": "BM-10::hospitality.travel::consumer-ai-app",
+            "business_model_label": "Consumer app / prosumer",
+            "vertical_label": "Travel & hospitality operations",
+            "phenotype_label": "Consumer / prosumer AI application"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_in_gap_list"
+          ],
+          "cell_was_whitespace": true,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 122479,
+        "company_slug": "adsideai",
+        "company_name": "Adside.ai",
+        "launch_url": "https://www.ycombinator.com/launches/VrT-adside-ai-ai-native-paid-ads-agency",
+        "created_at": "2026-10-20T17:58:40.813Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-20T18:20:19.658Z",
+        "launch_id": 122479,
+        "company_slug": "adsideai",
+        "taxonomy": {
+          "conformance_index": 70,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 56,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "marketing.demand-gen",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::marketing.demand-gen::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Demand generation & lead scoring",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 66,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 123497,
+        "company_slug": "probe",
+        "company_name": "Probe",
+        "launch_url": "https://www.ycombinator.com/launches/W7t-probe-the-agent-native-research-stack",
+        "created_at": "2026-10-20T16:56:47.594Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-20T18:20:19.659Z",
+        "launch_id": 123497,
+        "company_slug": "probe",
+        "taxonomy": {
+          "conformance_index": 71,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 96,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 38,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::ai-infrastructure.agent-runtime::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 67,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 122342,
+        "company_slug": "obsessiondb",
+        "company_name": "ObsessionDB",
+        "launch_url": "https://www.ycombinator.com/launches/VpG-obsessiondb-a-real-time-data-warehouse-built-for-agents",
+        "created_at": "2026-10-20T14:00:00.069Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-20T18:20:19.660Z",
+        "launch_id": 122342,
+        "company_slug": "obsessiondb",
+        "taxonomy": {
+          "conformance_index": 77,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 75,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
               "band": "strong"
             },
             "thesis_coherence": {
@@ -56,13 +248,77 @@
             }
           },
           "cell": {
-            "business_model": "BM-08",
-            "vertical_id": "industrials.manufacturing.automation",
-            "phenotype_primary_id": "physical-ai-autonomous-systems",
-            "cell_key": "BM-08::industrials.manufacturing.automation::physical-ai-autonomous-systems",
-            "business_model_label": "Hardware + software",
-            "vertical_label": "Manufacturing & logistics automation",
-            "phenotype_label": "Physical AI & Autonomous Manufacturing"
+            "business_model": "BM-03",
+            "vertical_id": "data.real-time-data-streaming",
+            "phenotype_primary_id": "agent-context-infra",
+            "cell_key": "BM-03::data.real-time-data-streaming::agent-context-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Real-time data streaming & ingestion",
+            "phenotype_label": "Agent Context Infrastructure"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 71,
+          "retro_transfer_band": "strong",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 123366,
+        "company_slug": "kairos-health",
+        "company_name": "Kairos Health",
+        "launch_url": "https://www.ycombinator.com/launches/W5m-kairos-health-ai-front-desk-for-dental-practices",
+        "created_at": "2026-10-19T21:30:02.808Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-20T18:20:19.661Z",
+        "launch_id": 123366,
+        "company_slug": "kairos-health",
+        "taxonomy": {
+          "conformance_index": 77,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 93,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "healthcare.dental.practice",
+            "phenotype_primary_id": "vertical-agentic-workflow-saas",
+            "cell_key": "BM-01::healthcare.dental.practice::vertical-agentic-workflow-saas",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Dental practice operations",
+            "phenotype_label": "Vertical Agentic Workflow SaaS"
           }
         },
         "predictor": {
@@ -75,196 +331,6 @@
           "synthetic_match": null,
           "analog_gap_matches": [],
           "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 122484,
-        "company_slug": "veeza-ai",
-        "company_name": "Veeza AI",
-        "launch_url": "https://www.ycombinator.com/launches/VrY-veeza-ai-f26-ai-tourist-visa-agent-for-people-with-weak-passports",
-        "created_at": "2026-10-19T17:00:00.202Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-19T19:39:02.410Z",
-        "launch_id": 122484,
-        "company_slug": "veeza-ai",
-        "taxonomy": {
-          "conformance_index": 79,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 89,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 90,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "hospitality.travel",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::hospitality.travel::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Travel & hospitality operations",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": true
-        },
-        "notes": []
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 123337,
-        "company_slug": "fini",
-        "company_name": "Fini",
-        "launch_url": "https://www.ycombinator.com/launches/W5J-scout-by-fini-an-ai-teammate-for-your-support-team",
-        "created_at": "2026-10-19T16:29:07.812Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-19T19:39:12.752Z",
-        "launch_id": 123337,
-        "company_slug": "fini",
-        "taxonomy": {
-          "conformance_index": 80,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 70,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 91,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 90,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "enterprise.support.customer",
-            "phenotype_primary_id": "vertical-agentic-workflow-saas",
-            "cell_key": "BM-01::enterprise.support.customer::vertical-agentic-workflow-saas",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Customer support & contact center",
-            "phenotype_label": "Vertical Agentic Workflow SaaS"
-          }
-        },
-        "predictor": {
-          "predictability_band": "surprise",
-          "signals": [
-            "unclassified_new_company"
-          ],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 69,
-          "retro_transfer_band": "acceptable",
-          "would_have_been_predicted": false
-        },
-        "notes": [
-          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
-        ]
-      }
-    },
-    {
-      "launch": {
-        "launch_id": 123200,
-        "company_slug": "theo",
-        "company_name": "Theo",
-        "launch_url": "https://www.ycombinator.com/launches/W36-theo-the-site-builder-and-engine-that-gets-your-business-found",
-        "created_at": "2026-10-19T16:00:00.151Z"
-      },
-      "review": {
-        "rubric_version": "1.0",
-        "evaluated_at": "2026-10-19T19:39:12.754Z",
-        "launch_id": 123200,
-        "company_slug": "theo",
-        "taxonomy": {
-          "conformance_index": 72,
-          "verdict": "conforming",
-          "dimensions": {
-            "phenotype_alignment": {
-              "score": 65,
-              "band": "acceptable"
-            },
-            "vertical_workflow_fit": {
-              "score": 75,
-              "band": "strong"
-            },
-            "business_model_fit": {
-              "score": 55,
-              "band": "acceptable"
-            },
-            "ontology_completeness": {
-              "score": 89,
-              "band": "strong"
-            },
-            "thesis_coherence": {
-              "score": 75,
-              "band": "strong"
-            }
-          },
-          "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "marketing.content-ops",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::marketing.content-ops::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Content operations & asset management",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
-          }
-        },
-        "predictor": {
-          "predictability_band": "plausible",
-          "signals": [],
-          "cell_was_whitespace": false,
-          "ranked_gap": null,
-          "synthetic_match": null,
-          "analog_gap_matches": [],
-          "retro_transfer_score": 66,
           "retro_transfer_band": "acceptable",
           "would_have_been_predicted": true
         },

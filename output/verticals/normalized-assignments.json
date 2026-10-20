@@ -1250,7 +1250,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/adsideai",
     "batch": "Fall 2026",
     "one_liner": "AI agency that manages paid ads on Meta, Google, LinkedIn, etc. ",
-    "description_combined": "AI agency that manages paid ads on Meta, Google, LinkedIn, etc. \n\nWe&#x27;re Robin Choy and Guillaume Miara, founders of Adside (adside.ai). We&#x27;re building Adside, a swarm of agents that manages ads on Meta, Google and LinkedIn, etc. We’re building the service we wished we had in our previous B2B marketing software company that we sold earlier this year.",
+    "description_combined": "AI agency that manages paid ads on Meta, Google, LinkedIn, etc. \n\nWe&#x27;re Robin Choy and Guillaume Miara, founders of Adside (adside.ai). We&#x27;re building Adside, a swarm of agents that manages ads on Meta, Google and LinkedIn, etc. We’re building the service we wished we had in our previous B2B marketing software company that we sold earlier this year.\n\nWe're re-building a paid marketing agency from the ground up using agents for operational work, instead of people\n\nAdside.ai: AI-native paid ads agency \n\n## We're re-building a paid marketing agency from the ground up using agents for operational work, instead of people\n\nTL;DR: We're building Adside, the AI that manages your ads on Meta, Google and LinkedIn, etc. We’re building the tool we wished we had in our previous company (B2B SaaS PLG) that we sold earlier this year.\n\n👉 YouTube Video\n\n## What Adside does\n\n* We help you build your strategy: what to run, and who to target.\n* We make your creatives (getting much better on this very soon) and optimized landing pages (soon too)\n* We run, monitor and improve your campaigns across Meta, Google, LinkedIn, Reddit, Twitter (and more coming)\n* We help you dig, investigate, fix - all autonomously. An AI ad expert working 24/7 on your account.\n\nIf you want s",
     "industry_sub_vertical": "Paid advertising campaign optimization & autonomous bid management (Meta, Google, LinkedIn)",
     "canonical_vertical_id": "marketing.demand-gen",
     "vertical_id": "marketing.demand-gen",
@@ -1322,6 +1322,12 @@
     "directory_synced_at": "2026-10-16T17:47:54.210Z",
     "classified_at": "2026-10-16T17:47:54.210Z",
     "proposed_phenotype": null,
+    "launch_id": 122479,
+    "launch_url": "https://www.ycombinator.com/launches/VrT-adside-ai-ai-native-paid-ads-agency",
+    "launch_title": "Adside.ai: AI-native paid ads agency",
+    "launch_created_at": "2026-10-20T17:58:40.813Z",
+    "launch_tagline": "We're re-building a paid marketing agency from the ground up using agents for operational work, instead of people",
+    "launch_evaluated_at": "2026-10-20T18:20:21.001Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-01"
@@ -11537,6 +11543,54 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "axel-travel",
+    "name": "Axel Travel",
+    "website": "https://helloaxel.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/axel-travel",
+    "batch": "Winter 2019",
+    "one_liner": "Travel for less. Book yourself or send your AI agent.",
+    "description_combined": "Travel for less. Book yourself or send your AI agent.\n\nTL;DR: Pay less for the same trip. Axel finds private flight and hotel deals and keeps hunting for savings after you book. Use it yourself or send your AI agent.\n\n## How Axel saves you money\n\n• Save when you book. Access private flight and hotel rates that can save you 10–40% compared with public booking sites.\n\n• Keep saving afterward. Axel watches for price drops and captures eligible savings.\n\n• Send your AI agent. AI agents can search live prices, compare options, and help you book with your approval.\n\n## How Axel gets these deals\n\nAxel is made by Gordian Software (W19), a leading flight API provider for travel sites like Kiwi, Priceline, Trip.com and others. We use our access to private deals to help you pay less.\n\nFriends don't let friends overpay for travel.\n\nVisit helloaxel.com or send your AI agent there to find your next deal.",
+    "industry_sub_vertical": "Consumer travel booking with AI agent integration & price-drop monitoring",
+    "canonical_vertical_id": "hospitality.travel",
+    "vertical_id": "hospitality.travel",
+    "vertical_label": "Travel & hospitality operations",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / prosumer AI application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "personal_assistant",
+    "ai_application_patterns": [
+      "deal_discovery",
+      "price_monitoring",
+      "booking_automation"
+    ],
+    "what_they_sell": "Consumer travel booking platform with access to private flight and hotel rates, price-drop monitoring, and optional AI agent integration for autonomous search and booking.",
+    "ai_play": "AI agents can autonomously search live prices, compare options, and execute bookings on behalf of users. Agents reduce friction in deal discovery and booking workflows while maintaining user approval gates.",
+    "who_pays": "Individual consumers and prosumers seeking discounted travel; monetized via subscription, commission on bookings, or freemium premium features.",
+    "confidence": 0.75,
+    "rationale": "Axel is a consumer-facing travel app that monetizes savings and convenience. The AI agent capability is secondary—users can send agents to search and book, but the primary value is access to private deals and price monitoring. This fits consumer-ai-app (end-user SaaS with AI-enhanced features) rather than vertical-workflow-agent (which targets business operators like travel agencies or corporate travel teams). The AI agent is a feature, not the core product. Confidence is 0.75 because the agent integration is meaningful but not the primary revenue driver; the deal access and price monitoring are.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-10"
+    ],
+    "launch_id": 123678,
+    "launch_url": "https://www.ycombinator.com/launches/WAo-axel-ai-travel-agent-that-saves-you-money-on-flights-and-hotels",
+    "launch_title": "Axel: AI travel agent that saves you money on flights and hotels",
+    "launch_created_at": "2026-10-20T18:10:01.516Z",
+    "launch_tagline": "Travel for less. Book yourself or send your AI agent.",
+    "launch_ingested_at": "2026-10-20T18:20:21.000Z",
+    "classified_at": "2026-10-20T18:20:21.000Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-10"
+  },
+  {
     "slug": "axelrod",
     "name": "Axelrod",
     "website": "https://axelrod.live/",
@@ -18741,6 +18795,88 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.65,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "cesara",
+    "name": "Cesara",
+    "website": "https://cesara.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/cesara",
+    "batch": "Fall 2026",
+    "one_liner": "Faster & Accurate payments for health systems",
+    "description_combined": "Faster & Accurate payments for health systems",
+    "industry_sub_vertical": "Health system payment processing & revenue cycle automation",
+    "canonical_vertical_id": "healthcare.provider.revenue-cycle",
+    "vertical_id": "healthcare.provider.revenue-cycle",
+    "vertical_label": "Healthcare revenue cycle management",
+    "vertical_sector_id": "healthcare-life-sciences",
+    "phenotype_primary_id": "vertical-workflow-agent",
+    "phenotype_primary_label": "Vertical AI Workflow Agent",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "revenue_cycle_automation",
+      "payment_processing",
+      "claims_adjudication",
+      "ehr_integration"
+    ],
+    "what_they_sell": "AI-powered payment processing and revenue cycle automation platform for health systems. Automates claim submission, payment reconciliation, denial management, and cash posting workflows.",
+    "ai_play": "AI agents parse unstructured claim data, EHR records, and payer communications to autonomously route payments, identify denials, and accelerate cash collection cycles. Replaces manual revenue cycle staff work with agentic automation integrated into existing hospital billing systems.",
+    "who_pays": "Health systems, hospital networks, billing departments seeking faster payment cycles and reduced manual processing overhead.",
+    "confidence": 0.75,
+    "rationale": "Cesara targets healthcare revenue cycle—a high-friction, detail-intensive, vertically-specific workflow dominated by manual data entry and claim processing. The 'faster & accurate payments' positioning suggests AI automation of claim routing, payment matching, and denial resolution. This fits vertical-workflow-agent: end-to-end job function automation (billing/revenue cycle) within healthcare, integrated with EHR/billing systems, high switching cost via system integration. Not a horizontal copilot (domain-specific), not a regulated product (they don't take underwriting risk—they automate the payer/provider workflow). Confidence 0.75 due to limited public detail on exact AI implementation, but phenotype fit is strong.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Healthcare"
+    ],
+    "yc_tags": [
+      "Healthcare",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 0,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 768398,
+        "full_name": "Xinan Rahman",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-Founder @ Cesara. \n\nPreviously founded @ Auctor; Agents for enterprise software implementations; Seed and Series A led by Sequoia. Privileged to partner with undisclosed F500s, NTT Data, Valiantys, ServiceRocket, Ravus, etc.\n\n",
+        "linkedin_url": "https://www.linkedin.com/in/xinanrahman/",
+        "twitter_url": "https://x.com/xinanrahman",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/ec644834339b02159d61c5c299aca366f9a32c0f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADPT6HZW4%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181848Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBWRFUMTNOJQSsVqhjemkx%2BREwR%2FboAIGZK%2BWNs6MVXZAiA7CGGa5zoPNiTCOr9P%2Fq8XsvH7Y0BB6JAspA75uwZ8WyrlAwhLEAAaDDAwNjIwMTgxMTA3MiIMwPFWCOa9VXqVPRyxKsID6l%2FZIA4jV8k2F%2F%2BUhexMLFGM%2FIwz047u%2BAG8Ma5rgeOQI1zJTzAq9BxPQagZIv1vjPQCmXSRDHSevK970lIQhiA7lnscVYiaaghWhNa8FGH%2FZrohZoDw8xjyClzON7qfhXI0%2BJPF9s2BX94IpgThVfMVYV4eu6Rktjv%2FWMOVVx9hipwX8POEYFnhD16biL5Z6qjw1AQxKXLt4d%2BW1G74RS2Afaj%2F%2FWymVcpwkxovcBsSYOmTAmyU6mtXGcnaiGOsQjQxnbBQC%2B%2BuQC3p8W7zLqow%2BaCAp1lvJdFo7b3ko4%2F8XH0zYxJnd0AipBs27wJ15G3n4ffAV7mujR%2FCr6rCenW2H4f9MBGyJu9a13fnfLUBKZ33tv2V%2FnKlXj2hCqZx8gcNBCsH6WfGCbL60Dbl0gsBK9Tx9iIcOi9pOGMfiGsxcRrt5fT648mYoe0ulBwmm4X6mUOxq0d8Cf2Cn4wNy77xbWyEwBMJDpDp8QgPNBZe%2FNMep5%2B35h0KQN0IcadO%2Ba92xWFcbXYKzoz1BodnD2l7L6ADpEBMvYlzG4%2Fn7LZrGkg3Q7WJzdX6kdnV%2FOSKME0dGJx%2BwGXWcE5Z4antA0%2B%2FMNDe3tYGOqYBPCZ4x8yTPkTqZQyDYtPCK7xvFw53WWxroO6lKvyw9N17jO3PuYOdCuflw2yqTQRFyC%2BuDDi%2BkrzRPQtutVvGXyOYLs5zokCNZcrmTjWaET896RFpOgq%2B%2FHGtyrxvzetvaVkzfFuiXs30R7RzKUndImzE9%2FA%2FmJRdGNbkRf%2BQN4KyZL5nnbUcE34VHdhAwwX%2FvrX4WX1Cc153GN%2BNI6jSh5FlKHwl7A%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=171deacd84d4639355ec8aa71f6ca0db34e17c4aa4910f585ff096b53404d2cf",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Cesara",
+          "href": "https://www.ycombinator.com/companies/cesara"
+        }
+      },
+      {
+        "user_id": 1550618,
+        "full_name": "Junwoo Lee",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Cesara",
+        "linkedin_url": "https://www.linkedin.com/in/junwoo-lee/",
+        "twitter_url": "",
+        "avatar_url": "/avatars/thumb/missing.png",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Cesara",
+          "href": "https://www.ycombinator.com/companies/cesara"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-20T18:18:57.193Z",
+    "classified_at": "2026-10-20T18:18:57.193Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "chamber",
@@ -48115,7 +48251,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/kairos-health",
     "batch": "Fall 2026",
     "one_liner": "AI front desk that fills every chair for dental practices",
-    "description_combined": "AI front desk that fills every chair for dental practices\n\nKairos Health automates patient engagement for dentists by handling phones and insurance.\r\n\r\nKairos plugs into a dental practice&#x27;s software, calls patients who are overdue for care, and books them directly into the schedule. It also answers every inbound call 24/7 and verifies insurance.\r\n\r\nOur mission is to put practice operations on autopilot and keep every chair filled.",
+    "description_combined": "AI front desk that fills every chair for dental practices\n\nKairos Health automates patient engagement for dentists by handling phones and insurance.\r\n\r\nKairos plugs into a dental practice&#x27;s software, calls patients who are overdue for care, and books them directly into the schedule. It also answers every inbound call 24/7 and verifies insurance.\r\n\r\nOur mission is to put practice operations on autopilot and keep every chair filled.\n\nKairos Health automates patient engagement for dentists by handling phones and insurance.\n\nTL;DR: Kairos plugs into a dental practice's software, calls patients who are overdue for care, and books them directly into the schedule. It also answers every inbound call 24/7 and verifies insurance.\n\nThe problem Every dental practice has hundreds of thousands of dollars in revenue sitting idle in their patient management system. It comes from overdue cleanings, unscheduled treatment plans and insurance benefits that are about to expire. The front desk knows these patients are there, but they’re juggling check-ins, phones, and insurance all day, so these calls never get made. Automated texts are easy to ignore, and patients who call in often end up at voicemail.\n\nWhat we do\n\n* Find the patients who should be coming back by analyzing the practice’s data\n* Send personalized calls and text",
     "industry_sub_vertical": "Dental practice patient engagement & appointment scheduling automation",
     "canonical_vertical_id": "healthcare.dental.practice",
     "vertical_id": "healthcare.dental.practice",
@@ -48218,6 +48354,12 @@
     "directory_synced_at": "2026-10-19T19:38:15.538Z",
     "classified_at": "2026-10-19T19:38:15.538Z",
     "proposed_phenotype": null,
+    "launch_id": 123366,
+    "launch_url": "https://www.ycombinator.com/launches/W5m-kairos-health-ai-front-desk-for-dental-practices",
+    "launch_title": "Kairos Health: AI Front Desk for Dental Practices",
+    "launch_created_at": "2026-10-19T21:30:02.808Z",
+    "launch_tagline": "Kairos Health automates patient engagement for dentists by handling phones and insurance.",
+    "launch_evaluated_at": "2026-10-20T18:20:21.001Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-01"
@@ -53628,6 +53770,106 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
+  },
+  {
+    "slug": "linewise",
+    "name": "Linewise",
+    "website": "https://linewise.io/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/linewise",
+    "batch": "Spring 2025",
+    "one_liner": "Industrial data layer for physical RSI",
+    "description_combined": "Industrial data layer for physical RSI\n\nWe capture how physical things are made, from the first design to the final assembly, and turn it into training data for frontier AI and robotics models.",
+    "industry_sub_vertical": "Manufacturing training data for frontier AI and robotics model development",
+    "canonical_vertical_id": "industrials.robotics.general",
+    "vertical_id": "industrials.robotics.general",
+    "vertical_label": "General-purpose robotics intelligence",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "training-data-synthetic",
+    "phenotype_primary_label": "Training / eval data generation",
+    "phenotype_family": "data_assets",
+    "value_wedge": "data_asset",
+    "ai_application": "dataset_creation",
+    "ai_application_patterns": [
+      "manufacturing_data_capture",
+      "robotics_training_dataset",
+      "design_to_assembly_pipeline",
+      "synthetic_physical_data"
+    ],
+    "what_they_sell": "Industrial data layer that captures end-to-end manufacturing workflows (design → assembly) and converts them into high-quality training datasets for frontier AI and robotics models. Proprietary data collection infrastructure that extracts structured, labeled data from physical manufacturing processes.",
+    "ai_play": "Solves the critical bottleneck in robotics and manufacturing AI: lack of diverse, high-fidelity training data from real production environments. By instrumenting factories and design-to-assembly workflows, Linewise creates proprietary datasets that train better robotics models, computer vision systems, and autonomous manufacturing agents. Data becomes a defensible moat for downstream AI/robotics applications.",
+    "who_pays": "Robotics companies, frontier AI labs, manufacturing automation vendors, and enterprises building in-house robotics/autonomous systems who need domain-specific training data.",
+    "confidence": 0.78,
+    "rationale": "Linewise is primarily a training-data company (phenotype: training-data-synthetic) — they capture and curate manufacturing process data into datasets for AI/robotics model training. Secondary signal: they enable AI-enabled physical systems by providing the data layer that accelerates robotics R&D and manufacturing automation. The core value is the dataset asset, not the physical system itself or the robotics product. High confidence because description explicitly states 'turn it into training data for frontier AI and robotics models' — this is data-as-product, not a robotics or manufacturing platform.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Robotics",
+      "Manufacturing",
+      "Data Engineering",
+      "AI"
+    ],
+    "business_models": [
+      "BM-06"
+    ],
+    "team_size": 25,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2371704,
+        "full_name": "Tanachart (James) Kujareevanich",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "James is the co-founder and CEO at Vision Lab. MBA from MIT. Former McKinsey Ops consultant.",
+        "linkedin_url": "https://www.linkedin.com/in/tanachartkujareevanich/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a51605bd53380345564966573f52709d42356d3c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPNVWPK7T%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181838Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDX6QMLfnQW9GqnzkRDpg0gbAtPKT2TsBT7RgkcaGLu6AiBxHQLPe4SBIUWPmnYKMXxCWxkkZ4c6LcUawcQqjpyRqyrlAwhLEAAaDDAwNjIwMTgxMTA3MiIMehUVyR4o5VjrusCfKsIDsHsfCRVxvluHBc2S9i7YtwzHXX5c83wknVGsblLu7l050mNnddkSFAtekLRkwP%2Bx6p1IGHGecgaUDDyRg%2F7LP%2BcOD3vlJ8CxHI2czWe7enY1q5Y1HWT8Qk3Qa9hBedu1ar1KgUYHDZ9Ho7xoMhvZJh3tOtrCSa0Clny9FkysMzI3HNzVhRAZMciU00Ua1OnnIiN4xewOzKxl%2FAZhRLFrTlUaM2YDw%2BIvO6fvF8A1jc3p8CEOkMgdkpw8Yr7cNybj6gsOwFULv32ZvV362%2F6TUJSrwzVNbj3RhV8TNhjsmE%2BgBPxT%2Bgnrz49EqUFcHyxSetX5H5zYkBdxvqSO8811JqXFTRgBb3yL4HebTGrE4xU6SW2h4VcFrzA%2FFqLuZ%2BhPjzrBUd%2BQ8sARZqA3bqPk9QXJ58SGMc392M2rzvjva4uOXxNRm0yaTJ8RNAHnVsk%2BVrnzZiDW4Kr42vBXujnB6OE8ATlkXaCw%2BAs2Rr8tK%2BttHBLdpViWONkVxMdSlwa5BOmHxFXvPBYKOgjL%2BbjZbfKc3Mb38SPh8VtJo1PzXCLA5R0MokPfVmqPhl0AfTGTSHpmOcZB%2FZYkfx2jrhLTXnVTMM%2Fe3tYGOqYBOLcR7fjUtFZ9qqAdSQ98Qd9QFldvqPeHz%2FtnAllbVmv88ccAgqmKEtWSjIddycvOTuoIfti6%2FQwoLtHkVZ615otH%2FuE62hoYtzuPwD4Za0HNmsTTT8g14nW%2Bb3YhZhVY0U4v4o5p3MZccEylBwDPl%2BID71YAcTg%2BF%2FP7PE%2FdfqK9w7nmSCPU6DO3CEXQmZfVAdIikzMkK2fn01WaIolYrGaU91lJUw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=112dd71f6da6cb1713a5fccf3816448ac7f4fc52d008dc26da39d2d516a4e16b",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Linewise",
+          "href": "https://www.ycombinator.com/companies/linewise"
+        }
+      },
+      {
+        "user_id": 2373140,
+        "full_name": "Zhichu Ren",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Zhichu is the co-founder and CTO at Linewise. MIT PhD. Built robotics automation for materials research.",
+        "linkedin_url": "https://www.linkedin.com/in/zhichu-ren/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/98ef468f54a1e6b309dcae7ccfd3531eacb003e8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPNVWPK7T%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181838Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDX6QMLfnQW9GqnzkRDpg0gbAtPKT2TsBT7RgkcaGLu6AiBxHQLPe4SBIUWPmnYKMXxCWxkkZ4c6LcUawcQqjpyRqyrlAwhLEAAaDDAwNjIwMTgxMTA3MiIMehUVyR4o5VjrusCfKsIDsHsfCRVxvluHBc2S9i7YtwzHXX5c83wknVGsblLu7l050mNnddkSFAtekLRkwP%2Bx6p1IGHGecgaUDDyRg%2F7LP%2BcOD3vlJ8CxHI2czWe7enY1q5Y1HWT8Qk3Qa9hBedu1ar1KgUYHDZ9Ho7xoMhvZJh3tOtrCSa0Clny9FkysMzI3HNzVhRAZMciU00Ua1OnnIiN4xewOzKxl%2FAZhRLFrTlUaM2YDw%2BIvO6fvF8A1jc3p8CEOkMgdkpw8Yr7cNybj6gsOwFULv32ZvV362%2F6TUJSrwzVNbj3RhV8TNhjsmE%2BgBPxT%2Bgnrz49EqUFcHyxSetX5H5zYkBdxvqSO8811JqXFTRgBb3yL4HebTGrE4xU6SW2h4VcFrzA%2FFqLuZ%2BhPjzrBUd%2BQ8sARZqA3bqPk9QXJ58SGMc392M2rzvjva4uOXxNRm0yaTJ8RNAHnVsk%2BVrnzZiDW4Kr42vBXujnB6OE8ATlkXaCw%2BAs2Rr8tK%2BttHBLdpViWONkVxMdSlwa5BOmHxFXvPBYKOgjL%2BbjZbfKc3Mb38SPh8VtJo1PzXCLA5R0MokPfVmqPhl0AfTGTSHpmOcZB%2FZYkfx2jrhLTXnVTMM%2Fe3tYGOqYBOLcR7fjUtFZ9qqAdSQ98Qd9QFldvqPeHz%2FtnAllbVmv88ccAgqmKEtWSjIddycvOTuoIfti6%2FQwoLtHkVZ615otH%2FuE62hoYtzuPwD4Za0HNmsTTT8g14nW%2Bb3YhZhVY0U4v4o5p3MZccEylBwDPl%2BID71YAcTg%2BF%2FP7PE%2FdfqK9w7nmSCPU6DO3CEXQmZfVAdIikzMkK2fn01WaIolYrGaU91lJUw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=b2390ac0ae8b7ea1931263f25b2345440e2d3354131cef8521c76bb2bcfbb5ad",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Linewise",
+          "href": "https://www.ycombinator.com/companies/linewise"
+        }
+      },
+      {
+        "user_id": 2547908,
+        "full_name": "Will Wenbo Zhang",
+        "title": "Founder/CPO",
+        "is_active": true,
+        "bio": "Will is the co-founder and CPO at Linewise. MSE in AI & Robotics at UPenn GRASP Lab. Former founding engineer at Greyscale AI and Bestmow.",
+        "linkedin_url": "https://www.linkedin.com/in/wenbo-zhang6",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dae0fb87a14c53d5de2764acef1e34263c5c100a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPNVWPK7T%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181838Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDX6QMLfnQW9GqnzkRDpg0gbAtPKT2TsBT7RgkcaGLu6AiBxHQLPe4SBIUWPmnYKMXxCWxkkZ4c6LcUawcQqjpyRqyrlAwhLEAAaDDAwNjIwMTgxMTA3MiIMehUVyR4o5VjrusCfKsIDsHsfCRVxvluHBc2S9i7YtwzHXX5c83wknVGsblLu7l050mNnddkSFAtekLRkwP%2Bx6p1IGHGecgaUDDyRg%2F7LP%2BcOD3vlJ8CxHI2czWe7enY1q5Y1HWT8Qk3Qa9hBedu1ar1KgUYHDZ9Ho7xoMhvZJh3tOtrCSa0Clny9FkysMzI3HNzVhRAZMciU00Ua1OnnIiN4xewOzKxl%2FAZhRLFrTlUaM2YDw%2BIvO6fvF8A1jc3p8CEOkMgdkpw8Yr7cNybj6gsOwFULv32ZvV362%2F6TUJSrwzVNbj3RhV8TNhjsmE%2BgBPxT%2Bgnrz49EqUFcHyxSetX5H5zYkBdxvqSO8811JqXFTRgBb3yL4HebTGrE4xU6SW2h4VcFrzA%2FFqLuZ%2BhPjzrBUd%2BQ8sARZqA3bqPk9QXJ58SGMc392M2rzvjva4uOXxNRm0yaTJ8RNAHnVsk%2BVrnzZiDW4Kr42vBXujnB6OE8ATlkXaCw%2BAs2Rr8tK%2BttHBLdpViWONkVxMdSlwa5BOmHxFXvPBYKOgjL%2BbjZbfKc3Mb38SPh8VtJo1PzXCLA5R0MokPfVmqPhl0AfTGTSHpmOcZB%2FZYkfx2jrhLTXnVTMM%2Fe3tYGOqYBOLcR7fjUtFZ9qqAdSQ98Qd9QFldvqPeHz%2FtnAllbVmv88ccAgqmKEtWSjIddycvOTuoIfti6%2FQwoLtHkVZ615otH%2FuE62hoYtzuPwD4Za0HNmsTTT8g14nW%2Bb3YhZhVY0U4v4o5p3MZccEylBwDPl%2BID71YAcTg%2BF%2FP7PE%2FdfqK9w7nmSCPU6DO3CEXQmZfVAdIikzMkK2fn01WaIolYrGaU91lJUw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3107391332fa5196c3706b4a4a89a086b409ba333afb979297ec25ced3f334b5",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Linewise",
+          "href": "https://www.ycombinator.com/companies/linewise"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-20T18:18:48.656Z",
+    "classified_at": "2026-10-20T18:18:48.656Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-06"
   },
   {
     "slug": "linklane",
@@ -66491,7 +66733,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/obsessiondb",
     "batch": "Fall 2026",
     "one_liner": "Real-time data warehouse for agents",
-    "description_combined": "Real-time data warehouse for agents\n\nObsessionDB is a blazing-fast data warehouse built for the explosive amounts of data created by software and AI agents.\r\n\r\nWe make massive datasets instantly queryable at a fraction of the cost, powered by our own more efficient fork of ClickHouse®.",
+    "description_combined": "Real-time data warehouse for agents\n\nObsessionDB is a blazing-fast data warehouse built for the explosive amounts of data created by software and AI agents.\r\n\r\nWe make massive datasets instantly queryable at a fraction of the cost, powered by our own more efficient fork of ClickHouse®.\n\nGive your agents the data stack they need\n\nHi YC, we are Marc, Rafael, and Marc - co-founders of ObsessionDB.\n\nTL;DR: ObsessionDB is a real-time data warehouse that makes your data stack agent-ready. Your agents can ingest and query vast amounts of data in seconds, without the scary infra bill.\n\n\n\nWhy now\n\nAgents are the new heaviest users of your data warehouse. They generate data nonstop, scan it millions of times a day, and provision their own infra. Existing data warehouses and data platforms weren't built for these workloads. We see this as a generational opportunity, and we're building it.\n\nWarehouses and data platforms like Snowflake, BigQuery, and Databricks are built for batch jobs and get expensive fast at this volume. Operational, transactional databases fall short. Without a scalable, cost-effective solution, teams end ",
     "industry_sub_vertical": "Real-time operational data warehouse for AI agent fleets",
     "canonical_vertical_id": "data.real-time-data-streaming",
     "vertical_id": "data.real-time-data-streaming",
@@ -66564,6 +66806,12 @@
     "directory_synced_at": "2026-10-15T18:00:29.129Z",
     "classified_at": "2026-10-15T18:00:29.129Z",
     "proposed_phenotype": null,
+    "launch_id": 122342,
+    "launch_url": "https://www.ycombinator.com/launches/VpG-obsessiondb-a-real-time-data-warehouse-built-for-agents",
+    "launch_title": "ObsessionDB: a real-time data warehouse built for agents",
+    "launch_created_at": "2026-10-20T14:00:00.069Z",
+    "launch_tagline": "Give your agents the data stack they need",
+    "launch_evaluated_at": "2026-10-20T18:20:21.001Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -66714,6 +66962,89 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.98,
     "vertical_normalize_method": "prediction_markets_slug"
+  },
+  {
+    "slug": "odin-robotics",
+    "name": "Odin Robotics",
+    "website": "https://odin-robotics.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/odin-robotics",
+    "batch": "Fall 2026",
+    "one_liner": "Robot arms that do repetitive manual work in existing factories.",
+    "description_combined": "Robot arms that do repetitive manual work in existing factories.\n\nOdin Robotics deploys robot arms in small and mid-sized factories to do repetitive manual work, like machine tending and packing. They work alongside existing machines and people, so factories don&#x27;t have to redesign their lines. With deterministic controls and learned skills, they&#x27;re both reliable and flexible.",
+    "industry_sub_vertical": "Small-to-mid-size factory automation; machine tending and packing",
+    "canonical_vertical_id": "productivity.project-portfolio-oversight",
+    "vertical_id": "productivity.project-portfolio-oversight",
+    "vertical_label": "Project portfolio management & resource allocation",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "physical-ai-autonomous-systems",
+    "phenotype_primary_label": "Physical AI & Autonomous Manufacturing",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "robotic_control",
+      "skill_learning",
+      "autonomous_task_execution"
+    ],
+    "what_they_sell": "Deployed robot arms that autonomously perform repetitive manual tasks (machine tending, packing) in existing factory lines without requiring line redesign or extensive retraining.",
+    "ai_play": "Combines deterministic control with learned skills to enable robots to execute complex, variable manual tasks reliably and flexibly. AI learns task variations and adapts execution in real-time, reducing need for manual reprogramming while maintaining safety and reliability alongside human workers.",
+    "who_pays": "Small-to-mid-sized manufacturers seeking to automate labor-intensive, repetitive processes without capital-intensive line redesigns.",
+    "confidence": 0.82,
+    "rationale": "Odin is a hardware-centric robotics company deploying physical AI systems (robot arms) for autonomous control of factory operations. The core value is the embodied robotic system itself, not software or services. AI enables skill learning and adaptive task execution, but the primary product is the deployed robot performing end-to-end autonomous work. Fits physical-ai-autonomous-systems: hardware-first, AI coordinates execution, sold to manufacturers for autonomous operations. Secondary consideration: robotics-embodied-ai (older phenotype) also fits, but physical-ai-autonomous-systems is more precise for manufacturing-scale deployment with learned autonomy.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer",
+      "Home and Personal"
+    ],
+    "yc_tags": [
+      "Robotics",
+      "Manufacturing",
+      "Industrial"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 2,
+    "location": "ZH, Switzerland",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3760526,
+        "full_name": "Samriddhi Singh",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder at Odin Robotics (YC F26).\nEE@ETH\nHacked my school for a high school project. National silver science medal\nFounder and ex-CEO of GirlsCanCode \n5x hackathon winner (in a row)",
+        "linkedin_url": "https://www.linkedin.com/in/samriddhi-simi-s-1240321b5/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/8109231b9098d0f0cc33ff205f7c1a7dc308194f.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHWAKAEB2%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181916Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAzAPzOsT3iIB4u38wGfvDruTg9JkyVjek%2Bbn%2FblNAaIAiB3yj9TCvSIo21dVNwjSwJIbHn2UxLZlM%2FaFs0otOdIwCrlAwhLEAAaDDAwNjIwMTgxMTA3MiIMRYE8GuyamPmjtSa6KsID1tqN9MijGo5YHymSKVym0ugyOGIIpFKmZELYy0xaXxFCUpca%2FdY%2F5gMc9vx2zNEEctnOZdHAOWew6reNdmqC67GLPmYXKPzSOgwRNmQTvLzYoffJgnOnIUzCkN%2BnZs7%2FUkm9nHhFrhrzC5O9QttTXyWtB1lCxBkNDl2UunKAFC%2B2H%2BituPvJOuM1Bqn2bx0FPvVbnAV6q1066pgct4UrtynwgdQXVZ6GmaoL9tChua9YqGdbfta9UlEi3DOxQRmlbF%2FcZZvCxMUUjQwx97OcAvB3%2FqqcB38I0BBJtL5Z1xcdlqkg9Qpc1gijeTth%2Fwl%2FjLLwG0vAXi443X%2FJEYeO%2BPksIL4XKaorrVDO7CfJuSUZz0mExZv8gIZBoUK6UkjVUgJRnnHP2%2FgSAJz7prH4yhBbW3rDdrLbswEti3VplMZfqMPnvwg0d33xILZU7S0vfmjE8WtAMixvnj3X6K3co9PGf%2Fanm2%2BzxnHO1wNizUGBZamhVM8Ijh94nLQkGm%2BCGX8R4IvnXd9CNILEdPOA3V620Rtr2IbDSEqw4dH%2F4%2FAJJsfvV%2Fczux4YkyKuS7lWbu8GMN%2Fb922rXcK2N7ATnkmPMM%2Fe3tYGOqYBSYb%2FFwuXh1fLn35XBBlIQv70wBJbQxSyRUE0Ui7j3H2wAEN0WTRlYiZUoQiaC%2FTo8NQxwsdJ86TKvT%2F67fvU8LJXmaF0jUbw09X%2FPDqKI%2FYeqltqfK0seIuhUu0XIHT3uqMulxSn5awEyXZ%2F7UP%2FUmEOBeC2peYNZArTChCbTyzZJm0J34mxZYV%2F%2FlN73Mwo%2FuDSJ%2BDU18U7wnNm5yQXcVtlNuGxNw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=ebfc92fe9926b5fe7c4286099b9fe33ab99d807e0ef17e06c400a0bba2c81e67",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Odin Robotics",
+          "href": "https://www.ycombinator.com/companies/odin-robotics"
+        }
+      },
+      {
+        "user_id": 3340308,
+        "full_name": "Alper Sametoglu",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder at Odin Robotics (YC F26).\nPreviously Space Systems @ ETH Zurich\nBuilt rockets, satellite engines and now robots",
+        "linkedin_url": "https://www.linkedin.com/in/alper-sametoglu",
+        "twitter_url": "https://x.com/alperbuilds",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d39d50f306c66f1dc32520ce47af876c1700110e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHWAKAEB2%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181916Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAzAPzOsT3iIB4u38wGfvDruTg9JkyVjek%2Bbn%2FblNAaIAiB3yj9TCvSIo21dVNwjSwJIbHn2UxLZlM%2FaFs0otOdIwCrlAwhLEAAaDDAwNjIwMTgxMTA3MiIMRYE8GuyamPmjtSa6KsID1tqN9MijGo5YHymSKVym0ugyOGIIpFKmZELYy0xaXxFCUpca%2FdY%2F5gMc9vx2zNEEctnOZdHAOWew6reNdmqC67GLPmYXKPzSOgwRNmQTvLzYoffJgnOnIUzCkN%2BnZs7%2FUkm9nHhFrhrzC5O9QttTXyWtB1lCxBkNDl2UunKAFC%2B2H%2BituPvJOuM1Bqn2bx0FPvVbnAV6q1066pgct4UrtynwgdQXVZ6GmaoL9tChua9YqGdbfta9UlEi3DOxQRmlbF%2FcZZvCxMUUjQwx97OcAvB3%2FqqcB38I0BBJtL5Z1xcdlqkg9Qpc1gijeTth%2Fwl%2FjLLwG0vAXi443X%2FJEYeO%2BPksIL4XKaorrVDO7CfJuSUZz0mExZv8gIZBoUK6UkjVUgJRnnHP2%2FgSAJz7prH4yhBbW3rDdrLbswEti3VplMZfqMPnvwg0d33xILZU7S0vfmjE8WtAMixvnj3X6K3co9PGf%2Fanm2%2BzxnHO1wNizUGBZamhVM8Ijh94nLQkGm%2BCGX8R4IvnXd9CNILEdPOA3V620Rtr2IbDSEqw4dH%2F4%2FAJJsfvV%2Fczux4YkyKuS7lWbu8GMN%2Fb922rXcK2N7ATnkmPMM%2Fe3tYGOqYBSYb%2FFwuXh1fLn35XBBlIQv70wBJbQxSyRUE0Ui7j3H2wAEN0WTRlYiZUoQiaC%2FTo8NQxwsdJ86TKvT%2F67fvU8LJXmaF0jUbw09X%2FPDqKI%2FYeqltqfK0seIuhUu0XIHT3uqMulxSn5awEyXZ%2F7UP%2FUmEOBeC2peYNZArTChCbTyzZJm0J34mxZYV%2F%2FlN73Mwo%2FuDSJ%2BDU18U7wnNm5yQXcVtlNuGxNw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=f91de6248ec25610397a4e17255be312eb401b058169907f61746a94af22b6da",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Odin Robotics",
+          "href": "https://www.ycombinator.com/companies/odin-robotics"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-20T18:19:24.553Z",
+    "classified_at": "2026-10-20T18:19:24.553Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "oki",
@@ -69778,6 +70109,90 @@
     "vertical_normalize_confidence": 0.62,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-02"
+  },
+  {
+    "slug": "orgo",
+    "name": "Orgo",
+    "website": "https://www.orgo.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/orgo",
+    "batch": "Fall 2026",
+    "one_liner": "Computers for Agents",
+    "description_combined": "Computers for Agents\n\nOrgo is the simplest way to give your AI employees their own secure, persistent cloud computers. Over 1000 teams use Orgo to run AI workers.",
+    "industry_sub_vertical": "AI agent compute runtime & persistent execution environment",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Harness / Orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_compute_provisioning",
+      "persistent_state_management",
+      "multi_agent_isolation",
+      "secure_execution_environment"
+    ],
+    "what_they_sell": "Managed cloud compute infrastructure purpose-built for AI agents — persistent, isolated virtual environments where agents can execute autonomously with state persistence, file systems, and secure credential management. Abstracts away infrastructure complexity so teams can deploy and scale AI workers without managing VMs, containers, or orchestration.",
+    "ai_play": "Orgo solves the critical operational gap between agent frameworks (which assume stateless execution) and production requirements (agents need persistent memory, file access, credential isolation, and multi-tenant security). By providing 'computers for agents' rather than just APIs, Orgo enables agents to maintain context across sessions, access persistent storage, and operate with fine-grained access controls — essential for autonomous workflows in regulated or high-stakes domains.",
+    "who_pays": "AI platform teams, AI application builders, enterprises deploying multi-agent systems, and developers building agentic workflows who need production-grade compute isolation and state management.",
+    "confidence": 0.82,
+    "rationale": "Orgo is clearly agent infrastructure — specifically a runtime/compute layer for agent execution. It sits between agent frameworks (like LangChain, CrewAI) and cloud providers, providing secure, persistent compute environments for autonomous agents. This is a direct fit for agent-runtime-infra (runtimes, sandboxes, auth layers, tool routing, reliability/cost optimization). The 'secure, persistent cloud computers' positioning emphasizes isolation, state management, and multi-tenant safety — core runtime concerns. Secondary fit with edge-inference-runtime is weaker (Orgo is cloud-based, not edge-focused). Confidence is high (0.82) because the phenotype match is clear, though Orgo's exact positioning (whether they also handle tool routing, observability, or cost optimization) would benefit from deeper product exploration.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "Cloud Computing",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 0,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3656742,
+        "full_name": "Spencer Kinney",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder @ Orgo - give your AI agent a computer. Z Fellow. Prev JPMorgan.",
+        "linkedin_url": "https://www.linkedin.com/in/spencerkinney/",
+        "twitter_url": "https://x.com/spncrk",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f9a4b888e3965c9b81e38a46c084a509144ad787.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACNI4NP3S%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181932Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGVR4SnmcrQjzjF35i%2BkEHj9s65AP8ednDj3Rv47NBPNAiEAolLR7RQzbxKIgCWzLY9vhpE83%2FnpBDxeOsO%2Bl0rpQ4Yq5QMISxAAGgwwMDYyMDE4MTEwNzIiDK0Pun45YECQlsEA%2FirCA8JaP7nRcyCvpCZaNMfBIyE1IZ669B%2BsLP1kRc2XTXGKJ1RfSASScHN4FFYOjMc6jxbZmDCLJr%2BumcG7LClvmkNdJ0W2X3QVBNB3A3T%2Fl1Eb1RnyBF2wgD1%2FTI14TyD57Y1U6fzwHReO0ZdkX0IgHh1JnUubrJaV4ugxPPYYVcn4gC3CEG0w4PjW0Kin8x7U%2F5JOfb765vBKKPVNemunUrImyLPcRsJ3BOmcDyyPs2FIXO02OyKzT33WfbwLD%2BIzTeISPtHaMfFxWc%2BL5RqP5vkMFtbDxTOMw0RhDHYBYTKX%2FiLeemJ20LYf7Kg2VYRjszh8p5BFIAMtRRNa5dqTYOLdmMnOVE8w8sUcGjPFTN1vy3iDhmZ2PsOwG0hbVUcEytdE4NObqRlzrm6B%2F6xufE5f1TK5o%2BTG9fDMAHSxqUBN2B3kKj0HQX6c9w%2Bgh37B30Dhi9Sgc3ywCnV31%2F0StHKfy9o32NKzzVtN3aHsH5r%2BMWJwPxmA3oqFxODF%2BNiuG5yI5FbxUy8ETyhV2Wh9ZoehBttMqUbYKe4G4ft5CpVMjz6loqBL%2BmzNwecH4HkzjdZhP81IkT8nQIDru2f9SbLNJTC73t7WBjqlAdWQW6QKiLB1ek%2FUWgFi4rmMtTj7pTRnf4fR%2FuF8lQ87LCvYb9HX6lPL5z%2BiREba7OFgjRc7SifUukZey527FXSvfd2GC7w8Z5KwbYtzEpjtBb6kl%2FuK%2BE6VQkbESmKcmJdnAFgBh29pDLmoNE%2FaPw0e7%2FV%2FVED65SYCMf6mq6GVY99hLFjBAzVMIQ10Za5XS%2BvDHGwhmY%2FaRjeoiLGj%2BPn4TH8b%2Bw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4ea9f71f70d56ff81c2f9ca28fac3432f02152bf9e061426f9dceccf77477371",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Orgo",
+          "href": "https://www.ycombinator.com/companies/orgo"
+        }
+      },
+      {
+        "user_id": 1351160,
+        "full_name": "Nick Vasilescu",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Co-founder at Orgo, cloud computers for AI agents. Previously ran computeruse.agency, building Computer-Use Agents for businesses. BS Molecular Biology, NU. MS Innovation Design, WSU.",
+        "linkedin_url": "https://www.linkedin.com/in/nickvasilescu/",
+        "twitter_url": "https://x.com/nickvasiles",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/d505b01905a808dbc2c3de5e36f3ca881ff55b28.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECACNI4NP3S%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181932Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGVR4SnmcrQjzjF35i%2BkEHj9s65AP8ednDj3Rv47NBPNAiEAolLR7RQzbxKIgCWzLY9vhpE83%2FnpBDxeOsO%2Bl0rpQ4Yq5QMISxAAGgwwMDYyMDE4MTEwNzIiDK0Pun45YECQlsEA%2FirCA8JaP7nRcyCvpCZaNMfBIyE1IZ669B%2BsLP1kRc2XTXGKJ1RfSASScHN4FFYOjMc6jxbZmDCLJr%2BumcG7LClvmkNdJ0W2X3QVBNB3A3T%2Fl1Eb1RnyBF2wgD1%2FTI14TyD57Y1U6fzwHReO0ZdkX0IgHh1JnUubrJaV4ugxPPYYVcn4gC3CEG0w4PjW0Kin8x7U%2F5JOfb765vBKKPVNemunUrImyLPcRsJ3BOmcDyyPs2FIXO02OyKzT33WfbwLD%2BIzTeISPtHaMfFxWc%2BL5RqP5vkMFtbDxTOMw0RhDHYBYTKX%2FiLeemJ20LYf7Kg2VYRjszh8p5BFIAMtRRNa5dqTYOLdmMnOVE8w8sUcGjPFTN1vy3iDhmZ2PsOwG0hbVUcEytdE4NObqRlzrm6B%2F6xufE5f1TK5o%2BTG9fDMAHSxqUBN2B3kKj0HQX6c9w%2Bgh37B30Dhi9Sgc3ywCnV31%2F0StHKfy9o32NKzzVtN3aHsH5r%2BMWJwPxmA3oqFxODF%2BNiuG5yI5FbxUy8ETyhV2Wh9ZoehBttMqUbYKe4G4ft5CpVMjz6loqBL%2BmzNwecH4HkzjdZhP81IkT8nQIDru2f9SbLNJTC73t7WBjqlAdWQW6QKiLB1ek%2FUWgFi4rmMtTj7pTRnf4fR%2FuF8lQ87LCvYb9HX6lPL5z%2BiREba7OFgjRc7SifUukZey527FXSvfd2GC7w8Z5KwbYtzEpjtBb6kl%2FuK%2BE6VQkbESmKcmJdnAFgBh29pDLmoNE%2FaPw0e7%2FV%2FVED65SYCMf6mq6GVY99hLFjBAzVMIQ10Za5XS%2BvDHGwhmY%2FaRjeoiLGj%2BPn4TH8b%2Bw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=fc9e0bfc93553261c051cdbdecb75781f11a4bed815273643315a600e540453b",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Orgo",
+          "href": "https://www.ycombinator.com/companies/orgo"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-20T18:19:42.729Z",
+    "classified_at": "2026-10-20T18:19:42.729Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "origami-robotics",
@@ -75786,6 +76201,76 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "phone-harness",
+    "name": "Phone Harness",
+    "website": "https://phone-harness.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/phone-harness",
+    "batch": "Fall 2026",
+    "one_liner": "Let your agent control your phone",
+    "description_combined": "Let your agent control your phone\n\nPhone Harness is the most popular open-source harness for phone automation with 3,800+ GitHub stars. We enable agents to tap, type, and scroll on your personal phone or cloud-hosted phones. Supports iPhone and Android. No jailbreak, API, or app installation needed.\r\n\r\n- Access 2FA, MFA, and SMS codes to complete login.\r\n- Automate mobile applications with authentication.\r\n- QA test mobile applications on real or emulated devices.",
+    "industry_sub_vertical": "Mobile application QA automation via AI agent control",
+    "canonical_vertical_id": "ai-infrastructure.qa-testing",
+    "vertical_id": "ai-infrastructure.qa-testing",
+    "vertical_label": "Software QA & test automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "agent-workflow-abstraction-infra",
+    "phenotype_primary_label": "Agent Workflow Abstraction Infrastructure",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "workflow_conversion",
+    "ai_application": "workflow_to_api_abstraction",
+    "ai_application_patterns": [
+      "agent_tooling",
+      "mobile_automation",
+      "workflow_abstraction",
+      "authentication_handling"
+    ],
+    "what_they_sell": "Open-source harness + commercial hosting/managed service enabling AI agents to control mobile devices (iPhone, Android) via programmatic tap, type, scroll, and 2FA/MFA interception. No jailbreak or app installation required. Supports real devices and cloud-hosted emulators.",
+    "ai_play": "Converts mobile app workflows (login flows, in-app navigation, form filling) into agent-executable operations. Solves the critical gap where agents can't interact with mobile-first applications or authenticate through 2FA/SMS without human intervention. Enables end-to-end mobile automation for agents without requiring app-level API access.",
+    "who_pays": "AI agent builders, automation platforms, QA teams, and enterprises deploying agents to automate mobile workflows (banking, e-commerce, SaaS mobile apps). Secondary: mobile app developers using it for QA automation.",
+    "confidence": 0.82,
+    "rationale": "Phone Harness is a developer-facing infrastructure layer that abstracts mobile app interactions into agent-executable operations—directly analogous to Libretto (website workflows → APIs). Primary fit is agent-workflow-abstraction-infra because it converts human-driven mobile workflows into reliable, reusable APIs for agents. Secondary fit is agent-runtime-infra because it provides a runtime harness for agent execution on mobile devices. The open-source + commercial model (managed hosting, cloud phones) aligns with developer GTM. 2FA/MFA handling is a critical enabler for agentic workflows in regulated/secure contexts. Confidence is high (0.82) because the phenotype fit is clear, though the company is early-stage and may pivot toward vertical SaaS or agent infrastructure licensing.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Open Source",
+      "API",
+      "Automation",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2048642,
+        "full_name": "Shawn Pana",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder/CEO at Phone Harness (YC F26). Previously Head of Growth at Browser Use, leading product launches and developer partnerships. Studied Mathematics and Computer Science at UC San Diego.",
+        "linkedin_url": "https://www.linkedin.com/in/shawnpana/",
+        "twitter_url": "https://x.com/shawn_pana",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c21b64c068301f68e92e3d0dfc6a04e8b403d45c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAPDWCJ2VM%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181906Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDCZ6h5f3TP%2B0bLbMuYeHuqPEUxYg3M%2FOomHvdUIw4K4AIhALNeeegEjhmIKL1Hp7vpgIrcxNDufa2vGRRmKulYIBVWKuUDCEsQABoMMDA2MjAxODExMDcyIgzUQa005n3zx6h3mg4qwgO25BAFaXpDSkb0Wf98GQlxY0ZEI8Gk463NVC3R2lcp66GvmmDN4RHvPb7g3oGg8EVBIukTLvOsj0gEEJQdVe0A8HFT4T4Xs3OacWQNaakqD7%2B2N6HqQbiI%2FNeXkAh5mYjX7uV2brUj7m%2F%2Fi0%2B2MXiGWMjCKQ3MA0tE1iXJARAFyQqem2C624Jk5ebsnqVJ0%2Bn%2FeK7o5WKGsxRwKRe9hckkdtpd50npwCVYH53GhKlp3ux6MsYahjawgPQpW4%2FPXKuIc2odmVFyEOc%2BMY4PZWPS4TbXCm4jBdr12fE9rvGf96qMIGm%2Fk2HTAs67T7nsf6Bk7ytWN%2Fk5hyZGBWG0kiAa7ee2UKn%2FFvecCUX5nYNXjWJwZi4zq949Gkm%2BL0hvoqVJrY0aLXTUOTrWChuqavLfSfJvPSv4tcBA%2FsiJErvoyQNa7Jf2CznIQeOBQPF%2BcIYisW5kUP8IKClUXrLd%2BGDA9yeD23HiPi2eC9lZ3MtclNt%2FiVLnQMkJZ%2B5lGJSfUfMO0qUBqPKPCsoG2i6wndVrLlXuU077uUIctHXJGtcdA2cdPX3M%2FTAEF9stbm9LFAD7mzr9q5P3dXSL%2FHlDKLTrFLMw0N7e1gY6pAHoKtqNO69lJgqYmplhbZRrDWygtiD%2F1k0H0fK%2B9wp0xXZiQlgESKkwfEO96erZYQshhIto33vlrS7jb1nxvax23s3VMHGOHeE3s3YIn3y4st2983bJGnyPt1ZVxvSWdflpkZrph2%2F75ngZTuMds1DVEjAEjuNIUrZCK2mlWFBYUJUhmBq4%2FQZcraDhlNEu4OcCr1PRpf7TaMaM%2Bo7XmLKrcslh0g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=62b631ba35ec9ff5d825bb114da8e003c9440d2137da317fde62135f7f1a7105",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Phone Harness",
+          "href": "https://www.ycombinator.com/companies/phone-harness"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-20T18:19:16.516Z",
+    "classified_at": "2026-10-20T18:19:16.516Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "photonium",
     "name": "Photonium",
     "website": "https://www.photoniumoptics.com/",
@@ -79223,7 +79708,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/probe",
     "batch": "Spring 2026",
     "one_liner": "Agent-Native Incident Management",
-    "description_combined": "Agent-Native Incident Management\n\nProbe is an incident management platform built for AI agents. It uses a knowledge base to ground agents in the context buried across a team's stack and surfaces the right pieces the moment an engineer is paged. When an incident hits, the agent is already working from the team's tribal knowledge: what happened and why, who has touched the code before, where it broke last time, and who to wake versus who to let sleep. Engineers debug faster and simply approve the fix. Once resolved, Probe writes the postmortems and updates your knowledge base so every incident makes the next one easier.",
+    "description_combined": "Agent-Native Incident Management\n\nProbe is an incident management platform built for AI agents. It uses a knowledge base to ground agents in the context buried across a team's stack and surfaces the right pieces the moment an engineer is paged. When an incident hits, the agent is already working from the team's tribal knowledge: what happened and why, who has touched the code before, where it broke last time, and who to wake versus who to let sleep. Engineers debug faster and simply approve the fix. Once resolved, Probe writes the postmortems and updates your knowledge base so every incident makes the next one easier.\n\nRun better experiments, faster.\n\nIntroducing Probe: The Agent-Native Research Stack.\n\nOur goal is simple: help AI/ML teams run better experiments faster.\n\n \n\n## The Problem\n\nTeams are using agents for research, but their work is disordered. \n\nThey lose hours verifying what their agents actually did, managing environments, sourcing and setting up compute, babysitting runs, wiring up evals, and re-explaining company context their agents should already know.\n\nOn top of that, they have to spend critical time in meetings to share learnings across one another, and figuring out what to try next. \n\n## The Solution\n\nSo we rebuilt the research stack from the ground up for agent-driven research.\n\nHow it works: Probe brings three things together in one unified platform:\n\n* Agent-native research tools: From experiment tracking, comput",
     "industry_sub_vertical": "AI agent runtime for incident management & on-call orchestration",
     "canonical_vertical_id": "ai-infrastructure.agent-runtime",
     "vertical_id": "ai-infrastructure.agent-runtime",
@@ -79290,6 +79775,12 @@
     "primary_bm_rationale": "Probe is a software product sold to engineering teams for incident management; it monetizes through SaaS subscriptions to a vertical (DevOps/SRE), not through outsourced labor or managed services.",
     "primary_bm_assigned_at": "2026-06-05T19:59:37.319Z",
     "primary_bm_method": "assign_primary_bm_haiku",
+    "launch_id": 123497,
+    "launch_url": "https://www.ycombinator.com/launches/W7t-probe-the-agent-native-research-stack",
+    "launch_title": "Probe: The Agent-Native Research Stack",
+    "launch_created_at": "2026-10-20T16:56:47.594Z",
+    "launch_tagline": "Run better experiments, faster.",
+    "launch_evaluated_at": "2026-10-20T18:20:21.001Z",
     "vertical_normalize_confidence": 0.92,
     "vertical_normalize_method": "llm_vertical"
   },
@@ -96628,6 +97119,76 @@
     "primary_bm": "BM-02"
   },
   {
+    "slug": "super-powers-mobility-spm",
+    "name": "Super Powers Mobility (SPM)",
+    "website": "https://www.spm.fun",
+    "yc_profile_url": "https://www.ycombinator.com/companies/super-powers-mobility-spm",
+    "batch": "Fall 2026",
+    "one_liner": "Modular battery packs for mobility/vehicles",
+    "description_combined": "Modular battery packs for mobility/vehicles\n\nWe started off building the highest performance, 470 volt electric off-road vehicles but we realized our ultra power dense battery packs are useful for mobile and stationary energy storage and power export, for military and consumer use cases. We develop battery packs, power electronics, and traction powertrain systems for vehicles.\r\n\r\nFor the majority of 2026 we were marketing our electric off-road vehicles, but we pivoted to selling our high performance battery packs and power export capabilities in the month of September. We went from having $769,000 in consumer pre-orders (possibly low conversion rate to sales) to $421,815 in realized revenue in 1 month, with a $792,000 qualified pipeline. \r\n\r\nOur tech is so compelling because the safety and layout of high voltage battery packs has only been mastered by large, well funded OEM companies who have brought it in-house. That means all other companies without the in-house expertise rely on battery companies to develop packs, and power electronics companies to develop power export capabilities. SPM has both of those capabilities in-house so we can ensure a fast turnaround and much more reliable product. \r\n\r\nOne of the biggest priorities of the department of war is energy dominance. We&#x27;re seeing it constantly in new solicitations. Our strategy is superior - become a prime, but simultaneously service primes because most of then don&#x27;t actually have the battery and power electronics expertise we have.\r\n\r\nFounded by Jon Pow",
+    "industry_sub_vertical": "Defense prime contracting for advanced battery & power electronics systems",
+    "canonical_vertical_id": "industrials.defense.supply-chain",
+    "vertical_id": "industrials.defense.supply-chain",
+    "vertical_label": "Defense supply chain & prime contracting",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "battery_optimization",
+      "power_electronics_control",
+      "manufacturing_precision"
+    ],
+    "what_they_sell": "Modular, high-performance battery packs and integrated power electronics/traction systems for military vehicles, mobile energy storage, and stationary power export. Vertically integrated design covering battery chemistry, pack safety/layout, power conversion, and vehicle integration.",
+    "ai_play": "AI likely optimizes battery thermal management, power distribution algorithms, charging/discharging cycles, and manufacturing precision for high-voltage pack assembly. AI may also enable predictive maintenance and real-time power routing in multi-pack systems. Core value is the physical hardware and engineering expertise; AI accelerates R&D cycles and operational efficiency.",
+    "who_pays": "Department of Defense, military vehicle OEMs, defense primes (as component supplier or co-developer), commercial EV/energy storage companies seeking outsourced battery expertise.",
+    "confidence": 0.72,
+    "rationale": "SPM is fundamentally a hardware/manufacturing company building physical energy systems (battery packs, power electronics, traction systems) for vehicles and stationary storage. The phenotype 'ai-enabled-physical-systems' fits because: (1) core value is the physical product (batteries, power electronics), not software; (2) AI likely plays a supporting role in design optimization, thermal/power management algorithms, and manufacturing precision; (3) they compete on engineering expertise and vertical integration, not AI as the primary SKU. Secondary consideration: 'physical-ai-autonomous-systems' was rejected because SPM is not primarily focused on autonomous control of multi-agent hardware systems—they are a component/subsystem supplier. The defense/energy storage vertical and modular architecture suggest AI may optimize pack configuration and power routing, but this is secondary to the core hardware engineering value proposition.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Defense"
+    ],
+    "yc_tags": [
+      "Energy Storage",
+      "Unmanned Vehicle",
+      "Manufacturing",
+      "Electric Vehicles",
+      "Electronics"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 4,
+    "location": "Pittsburgh, PA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1979736,
+        "full_name": "Jonathan Powers",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder/CEO at Super Powers Mobility (YC F26). Previously Senior Mechanical Design Engineer at Tesla, leading Cybertruck architecture integration including drive units, structures, exterior surfaces, occupant seating, low and high voltage distribution routing, and safety systems. Earlier lead brake system on electric vehicle development at Workhorse and powersports design at Honda R&D. MS & BS in Mechanical Engineering, MBA from Pitt. Also was a pro off-road racer during college. ",
+        "linkedin_url": "https://www.linkedin.com/in/jonathancpowers/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/785f983ba364140a70ee62f55b77dbfb3babfe1c.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHWAKAEB2%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181857Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIAzAPzOsT3iIB4u38wGfvDruTg9JkyVjek%2Bbn%2FblNAaIAiB3yj9TCvSIo21dVNwjSwJIbHn2UxLZlM%2FaFs0otOdIwCrlAwhLEAAaDDAwNjIwMTgxMTA3MiIMRYE8GuyamPmjtSa6KsID1tqN9MijGo5YHymSKVym0ugyOGIIpFKmZELYy0xaXxFCUpca%2FdY%2F5gMc9vx2zNEEctnOZdHAOWew6reNdmqC67GLPmYXKPzSOgwRNmQTvLzYoffJgnOnIUzCkN%2BnZs7%2FUkm9nHhFrhrzC5O9QttTXyWtB1lCxBkNDl2UunKAFC%2B2H%2BituPvJOuM1Bqn2bx0FPvVbnAV6q1066pgct4UrtynwgdQXVZ6GmaoL9tChua9YqGdbfta9UlEi3DOxQRmlbF%2FcZZvCxMUUjQwx97OcAvB3%2FqqcB38I0BBJtL5Z1xcdlqkg9Qpc1gijeTth%2Fwl%2FjLLwG0vAXi443X%2FJEYeO%2BPksIL4XKaorrVDO7CfJuSUZz0mExZv8gIZBoUK6UkjVUgJRnnHP2%2FgSAJz7prH4yhBbW3rDdrLbswEti3VplMZfqMPnvwg0d33xILZU7S0vfmjE8WtAMixvnj3X6K3co9PGf%2Fanm2%2BzxnHO1wNizUGBZamhVM8Ijh94nLQkGm%2BCGX8R4IvnXd9CNILEdPOA3V620Rtr2IbDSEqw4dH%2F4%2FAJJsfvV%2Fczux4YkyKuS7lWbu8GMN%2Fb922rXcK2N7ATnkmPMM%2Fe3tYGOqYBSYb%2FFwuXh1fLn35XBBlIQv70wBJbQxSyRUE0Ui7j3H2wAEN0WTRlYiZUoQiaC%2FTo8NQxwsdJ86TKvT%2F67fvU8LJXmaF0jUbw09X%2FPDqKI%2FYeqltqfK0seIuhUu0XIHT3uqMulxSn5awEyXZ%2F7UP%2FUmEOBeC2peYNZArTChCbTyzZJm0J34mxZYV%2F%2FlN73Mwo%2FuDSJ%2BDU18U7wnNm5yQXcVtlNuGxNw%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=7e144d579a1f409034c150a8bf185fa3e409568cc2a52274ad91278c2a82f95a",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Super Powers Mobility (SPM)",
+          "href": "https://www.ycombinator.com/companies/super-powers-mobility-spm"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-20T18:19:06.875Z",
+    "classified_at": "2026-10-20T18:19:06.875Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
+  },
+  {
     "slug": "superglue",
     "name": "superglue",
     "website": "https://superglue.ai/",
@@ -111809,6 +112370,103 @@
     "vertical_normalize_confidence": 0.85,
     "vertical_normalize_method": "llm_vertical",
     "primary_bm": "BM-07"
+  },
+  {
+    "slug": "yam",
+    "name": "Yam",
+    "website": "https://hiyam.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/yam",
+    "batch": "Fall 2026",
+    "one_liner": "AI-powered dating sims for women",
+    "description_combined": "AI-powered dating sims for women\n\nYam simulates a Love Island–style dating experience for women, starring their favorite characters. Avg playtime per DAU is 3+ hrs! ",
+    "industry_sub_vertical": "AI-powered entertainment & interactive storytelling for consumer engagement",
+    "canonical_vertical_id": "consumer.productivity.personal",
+    "vertical_id": "consumer.productivity.personal",
+    "vertical_label": "Personal productivity software",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / prosumer AI application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "interactive_narrative_generation",
+    "ai_application_patterns": [
+      "generative_narrative",
+      "character_simulation",
+      "engagement_loop"
+    ],
+    "what_they_sell": "AI-powered dating simulation games (Love Island–style experiences) featuring licensed or user-favorite characters, monetized via freemium subscriptions, premium story branches, and in-game currency.",
+    "ai_play": "Generative AI creates dynamic, personalized dialogue, character responses, and branching narrative paths in real-time. AI agents simulate character personalities and relationship progression, enabling high replayability and long session times (3+ hrs/DAU). Reduces manual content creation bottleneck for dating sim studios.",
+    "who_pays": "End-user consumers (primarily women 18–35); freemium + premium in-app purchases and battle pass subscriptions.",
+    "confidence": 0.85,
+    "rationale": "Yam is a direct consumer AI application: an end-user-facing game with AI as the core product differentiator. Generative AI powers dynamic character interactions and narrative branching, creating engagement loops that drive high session time. Monetization is subscription/IAP-based, not B2B. Fits consumer-ai-app phenotype (wedge: consumer_subscription, ai: personal_assistant/interactive_experience). Secondary consideration of consumer-ai-creation-platform rejected because Yam is a finished product, not a platform for users to create AI experiences.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [
+      "Generative AI",
+      "Gaming",
+      "Creator Economy"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 352249,
+        "full_name": "Shan Zhong",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder & CEO at Yam. Previously founded consumer fintech and grew it from 0 to 100K users and 2M ARR. Ex-Meta, worked on group chat and creator safety at Instagram and Messenger. Went to college at 14.",
+        "linkedin_url": "https://www.linkedin.com/in/shanzzh/",
+        "twitter_url": "https://x.com/shanzzh1",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/08351d708aaa167fe20d4a54c1936d39ff4993b2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADNSDJQA3%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181924Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIC8svX220hQja1jfZN8lTilasPYc7TU9lZ%2Bzuv50J61TAiEAxbUTzI59K2RXTzBGtIsztZYaaWKGtoRjfFL%2B7FHS9zoq5QMISxAAGgwwMDYyMDE4MTEwNzIiDGJ%2BavyOLAVZBXH%2F7CrCA7FU%2FLlkSaxaVz8v6rHKcZ5dQAglP9%2FgGOf4kuPacg8zWmI9uQp0Nv1auvwG3D%2FDq7CoY%2F7uziS4vWbcwWzxnNkpQ4orJ96NuLTJlK842xj73dYsclhIY0g7grEKI66m%2FGVdV8oxUCZTnXWzHG6mpUjvSkfpKJPhB2%2FfKvnDvlAbL3MXGSrN1d78I3mAEsAonXD3hNIOH64EK%2Beyf56W4%2BEqyRzV4YrX%2FRsszJVw4hGvrsYq6DXhfnzLgpGuOtEoacqVyuD9wa%2F0BOH08VfFBw3fI7G8IIbWIHmccLn5TiU6YcRzDtTLmCZTJJdy%2FKF7%2BqLNOS9Nxp6f4bLYQDPmDdcartpcv7JR2sxpd95BuyL2bnxhqWD6TvJwLVO1CYeMmpqcZGdKjvvFzBi7I8qMFih8f1MlQHuaJr8oggbf3TQow78BAN6Dp3T0Bk7wnEnW6CgH6RbAjczg%2BTlV8iqTPaGpj3959h6wnxkFfm0tei26ZNKjBIjIkGO%2FXjOSGcOG6c8asYhBCPFWJa%2BRf7Q19H7M2yp8U5hYrA4a6WeXvyC1W3IcrN2VuP9yVkzwjAs86dWDjKqf%2BKg4eGJgbdtatGnizjDP3t7WBjqlAXrE7aluBYycu4uh46ThU1CFOgEoT6aRe96YGcuN7kkZAbYFkVNogph0HMsnYxxLhTPPqQgUhJhdn4mWqsZDnP65vBQOYWlehWH5ezYjMbTI%2BoXacj2Wrqx0i%2BJ%2F4VSGAOrOmQ0NkTJX2YOFnh%2BtsOvTADNGh%2FQ2GWAWGTkHVevGtTN%2Fvu6MF28UOt3n%2BiBjBg7kJdzgy90mKF82Ea8VxWBvFe1%2B9A%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3fd2157f97c499176a3ec920c7691a528e52dda270aa6b154c5e6d43362863f3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Yam",
+          "href": "https://www.ycombinator.com/companies/yam"
+        }
+      },
+      {
+        "user_id": 3423087,
+        "full_name": "Yu Qin",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "CTO at Yam; ex-TikTok, where I built AI creation tools and grew Effect House&#x27;s creator community to 800k. Built for no.1 esport team. Pro gamer. ",
+        "linkedin_url": "https://www.linkedin.com/in/qin-yu-01a41212a/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/954251828cfca22765e7aa9c7f48630f994f2d47.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADNSDJQA3%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181924Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIC8svX220hQja1jfZN8lTilasPYc7TU9lZ%2Bzuv50J61TAiEAxbUTzI59K2RXTzBGtIsztZYaaWKGtoRjfFL%2B7FHS9zoq5QMISxAAGgwwMDYyMDE4MTEwNzIiDGJ%2BavyOLAVZBXH%2F7CrCA7FU%2FLlkSaxaVz8v6rHKcZ5dQAglP9%2FgGOf4kuPacg8zWmI9uQp0Nv1auvwG3D%2FDq7CoY%2F7uziS4vWbcwWzxnNkpQ4orJ96NuLTJlK842xj73dYsclhIY0g7grEKI66m%2FGVdV8oxUCZTnXWzHG6mpUjvSkfpKJPhB2%2FfKvnDvlAbL3MXGSrN1d78I3mAEsAonXD3hNIOH64EK%2Beyf56W4%2BEqyRzV4YrX%2FRsszJVw4hGvrsYq6DXhfnzLgpGuOtEoacqVyuD9wa%2F0BOH08VfFBw3fI7G8IIbWIHmccLn5TiU6YcRzDtTLmCZTJJdy%2FKF7%2BqLNOS9Nxp6f4bLYQDPmDdcartpcv7JR2sxpd95BuyL2bnxhqWD6TvJwLVO1CYeMmpqcZGdKjvvFzBi7I8qMFih8f1MlQHuaJr8oggbf3TQow78BAN6Dp3T0Bk7wnEnW6CgH6RbAjczg%2BTlV8iqTPaGpj3959h6wnxkFfm0tei26ZNKjBIjIkGO%2FXjOSGcOG6c8asYhBCPFWJa%2BRf7Q19H7M2yp8U5hYrA4a6WeXvyC1W3IcrN2VuP9yVkzwjAs86dWDjKqf%2BKg4eGJgbdtatGnizjDP3t7WBjqlAXrE7aluBYycu4uh46ThU1CFOgEoT6aRe96YGcuN7kkZAbYFkVNogph0HMsnYxxLhTPPqQgUhJhdn4mWqsZDnP65vBQOYWlehWH5ezYjMbTI%2BoXacj2Wrqx0i%2BJ%2F4VSGAOrOmQ0NkTJX2YOFnh%2BtsOvTADNGh%2FQ2GWAWGTkHVevGtTN%2Fvu6MF28UOt3n%2BiBjBg7kJdzgy90mKF82Ea8VxWBvFe1%2B9A%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=8248e51d8a0f906917dd64af7fd11ff48e46b7b9f60a6c21390a004bb6704035",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Yam",
+          "href": "https://www.ycombinator.com/companies/yam"
+        }
+      },
+      {
+        "user_id": 354341,
+        "full_name": "Crystal Shan",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Founder at Yam. Previously Lead Product Designer at Webex, where she built a Voice AI Agent platform from the ground up; spent 2 years in growth design at Webex, optimizing engagement and activation funnels for millions of users; and redesigned self-service trials for Webex Contact Center, generating $13M in revenue. First product hire at Amesite, an AI-powered education startup, helping take the company from zero to IPO in 3 years. ",
+        "linkedin_url": "https://linkedin.com/in/crystalshan",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/e8a85ad08f6dbcab1425b00854a4c7806a4a741e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECADNSDJQA3%2F20261020%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261020T181924Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIC8svX220hQja1jfZN8lTilasPYc7TU9lZ%2Bzuv50J61TAiEAxbUTzI59K2RXTzBGtIsztZYaaWKGtoRjfFL%2B7FHS9zoq5QMISxAAGgwwMDYyMDE4MTEwNzIiDGJ%2BavyOLAVZBXH%2F7CrCA7FU%2FLlkSaxaVz8v6rHKcZ5dQAglP9%2FgGOf4kuPacg8zWmI9uQp0Nv1auvwG3D%2FDq7CoY%2F7uziS4vWbcwWzxnNkpQ4orJ96NuLTJlK842xj73dYsclhIY0g7grEKI66m%2FGVdV8oxUCZTnXWzHG6mpUjvSkfpKJPhB2%2FfKvnDvlAbL3MXGSrN1d78I3mAEsAonXD3hNIOH64EK%2Beyf56W4%2BEqyRzV4YrX%2FRsszJVw4hGvrsYq6DXhfnzLgpGuOtEoacqVyuD9wa%2F0BOH08VfFBw3fI7G8IIbWIHmccLn5TiU6YcRzDtTLmCZTJJdy%2FKF7%2BqLNOS9Nxp6f4bLYQDPmDdcartpcv7JR2sxpd95BuyL2bnxhqWD6TvJwLVO1CYeMmpqcZGdKjvvFzBi7I8qMFih8f1MlQHuaJr8oggbf3TQow78BAN6Dp3T0Bk7wnEnW6CgH6RbAjczg%2BTlV8iqTPaGpj3959h6wnxkFfm0tei26ZNKjBIjIkGO%2FXjOSGcOG6c8asYhBCPFWJa%2BRf7Q19H7M2yp8U5hYrA4a6WeXvyC1W3IcrN2VuP9yVkzwjAs86dWDjKqf%2BKg4eGJgbdtatGnizjDP3t7WBjqlAXrE7aluBYycu4uh46ThU1CFOgEoT6aRe96YGcuN7kkZAbYFkVNogph0HMsnYxxLhTPPqQgUhJhdn4mWqsZDnP65vBQOYWlehWH5ezYjMbTI%2BoXacj2Wrqx0i%2BJ%2F4VSGAOrOmQ0NkTJX2YOFnh%2BtsOvTADNGh%2FQ2GWAWGTkHVevGtTN%2Fvu6MF28UOt3n%2BiBjBg7kJdzgy90mKF82Ea8VxWBvFe1%2B9A%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=04689587c56755c54e361d4791df850ed7a6133e73f65eb6c9835a91a90a0eee",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Yam",
+          "href": "https://www.ycombinator.com/companies/yam"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-20T18:19:32.798Z",
+    "classified_at": "2026-10-20T18:19:32.798Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-10"
   },
   {
     "slug": "youart",
