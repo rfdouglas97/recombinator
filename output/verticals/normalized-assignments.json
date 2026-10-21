@@ -7627,7 +7627,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/armorer-labs",
     "batch": "Fall 2026",
     "one_liner": "Continuous security verification for AI agents in regulated industries",
-    "description_combined": "Continuous security verification for AI agents in regulated industries\n\nArmorer helps companies in regulated industries ship their own AI agents faster and keep them secure in production.\n\nMost security tools flag an issue and file a ticket. Armorer assesses your agent and simulates attacks to find the real issues. Then it creates a verified fix that stops the attack without breaking the business, ready for your approval in about 4 hours.\n\nIn production, Armorer checks every agent action in milliseconds, with no GPU needed. It detects malicious behavior such as prompt injection, goal hijacking and data leaks, then allows, holds or denies the action.\n\nArmorer&#x27;s detection models beat every other detector we tested on six public benchmarks. Armorer is 22% more accurate than JEV while being 88x faster, so users won&#x27;t feel the delay.\n\nWe spent years building and evaluating AI security systems together at AWS, including its first customer-facing AI security agent, which scaled to 100k+ customers. Armorer is backed by Paul Vixie, Internet Hall of Fame inductee and former AWS Deputy CISO.",
+    "description_combined": "Continuous security verification for AI agents in regulated industries\n\nArmorer helps companies in regulated industries ship their own AI agents faster and keep them secure in production.\n\nMost security tools flag an issue and file a ticket. Armorer assesses your agent and simulates attacks to find the real issues. Then it creates a verified fix that stops the attack without breaking the business, ready for your approval in about 4 hours.\n\nIn production, Armorer checks every agent action in milliseconds, with no GPU needed. It detects malicious behavior such as prompt injection, goal hijacking and data leaks, then allows, holds or denies the action.\n\nArmorer&#x27;s detection models beat every other detector we tested on six public benchmarks. Armorer is 22% more accurate than JEV while being 88x faster, so users won&#x27;t feel the delay.\n\nWe spent years building and evaluating AI security systems together at AWS, including its first customer-facing AI security agent, which scaled to 100k+ customers. Armorer is backed by Paul Vixie, Internet Hall of Fame inductee and former AWS Deputy CISO.\n\nContinuous security verification for AI agents in regulated industries\n\nArmorer helps companies in regulated industries ship their own AI agents faster and keep them secure in production.\n\nTL;DR: For regulated companies building their own agents, Armorer finds real security issues in those agents and fixes them without interrupting the business.\n\n“The problem I have with most security solutions is they come along and give me another problem to go and fix. You’ve actually solved the problem.” Gaetan Licci, Director of Engineering, Just Eat Takeaway\n\nSecurity and engineering leaders in companies building their own agents: book a demo → https://armorer-labs-inc.cal.com/armorer-labs/launch-demo · founders@armorerlabs.com\n\nhttps://youtu.be/fkqdK47PEeM\n\n## Team\n\nWe spent years building and evaluating AI security systems together at AWS.\n\n- Daniel Begimher (CEO) has ",
     "industry_sub_vertical": "AI agent security verification & runtime protection for regulated industries",
     "canonical_vertical_id": "ai-infrastructure.agent-security",
     "vertical_id": "ai-infrastructure.agent-security",
@@ -7701,6 +7701,12 @@
     "directory_synced_at": "2026-10-19T19:38:24.330Z",
     "classified_at": "2026-10-19T19:38:24.330Z",
     "proposed_phenotype": null,
+    "launch_id": 123364,
+    "launch_url": "https://www.ycombinator.com/launches/W5k-armorer-labs-continuous-security-verification-for-ai-agents-in-regulated-industries",
+    "launch_title": "Armorer Labs: Continuous security verification for AI agents in regulated industries",
+    "launch_created_at": "2026-10-21T14:00:00.189Z",
+    "launch_tagline": "Continuous security verification for AI agents in regulated industries",
+    "launch_evaluated_at": "2026-10-21T18:23:09.728Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -10021,6 +10027,73 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "audora",
+    "name": "Audora",
+    "website": "https://audora.art",
+    "yc_profile_url": "https://www.ycombinator.com/companies/audora",
+    "batch": "Fall 2026",
+    "one_liner": "Audiobooks where every character has their own voice.",
+    "description_combined": "Audiobooks where every character has their own voice.\n\nAudora turns your book or story into an audiobook where every character has their own voice.\r\n\r\nThe best adaptation of a book is the one in your head. You can see the characters in front of you and hear them talking to each other. We want an audiobook to do those characters justice: a voice that fits each of them, so a conversation actually sounds like a conversation.\r\n\r\nPaste a story link or upload a file. Audora works out who’s speaking and gives each character a distinct voice alongside the narrator. You can start listening while the rest of the book is still being made.\r\n\r\nOur roots are in fanfiction. We’re building for readers who already know these characters by heart, with a focus on voices that capture their personalities and stay consistent throughout the story.\r\n\r\nTry Audora: https://audora.art\r\nWatch the demo: https://youtu.be/R6Pt2O0fD4c",
+    "industry_sub_vertical": "Consumer audiobook creation & multi-voice narration",
+    "canonical_vertical_id": "consumer.productivity.personal",
+    "vertical_id": "consumer.productivity.personal",
+    "vertical_label": "Personal productivity software",
+    "vertical_sector_id": "consumer",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / prosumer AI application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "generative_audio_synthesis",
+    "ai_application_patterns": [
+      "voice_synthesis",
+      "character_voice_consistency",
+      "audio_generation"
+    ],
+    "what_they_sell": "End-user-facing SaaS platform that converts written stories (books, fanfiction, user-uploaded text) into multi-voice audiobooks where each character has a distinct, consistent AI-generated voice. Users upload or paste story links, Audora auto-detects speakers, assigns voices, and streams playback while generation completes.",
+    "ai_play": "AI voice synthesis (text-to-speech with character-specific voice models) + speaker detection (NLP to identify who's speaking in dialogue) + voice consistency engine (ensures same character maintains same voice across the book). Replaces manual voice casting and expensive human narration with scalable, personalized AI audio generation.",
+    "who_pays": "Individual readers, fanfiction enthusiasts, prosumers who want to consume stories as audiobooks; potential B2B2C via publishing platforms or fanfiction communities.",
+    "confidence": 0.82,
+    "rationale": "Audora is a consumer-facing AI application (not B2B SaaS, not infrastructure). It targets end-users (readers, fanfiction fans) with a direct subscription or freemium model. The core value is generative AI (voice synthesis + speaker detection) that transforms written content into personalized audio experiences. Fits consumer-ai-app phenotype: seat-based or subscription consumption, AI-native feature (multi-voice synthesis), entertainment/creative use case. Secondary consideration: could be framed as a 'consumer AI creation platform' (users create audiobooks), but Audora is primarily a consumption/listening tool, not a social creation/sharing platform like A1Zap. Confidence 0.82 (clear consumer app, strong AI play, minor ambiguity on monetization model not yet public).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Consumer"
+    ],
+    "yc_tags": [
+      "Generative AI",
+      "Consumer",
+      "Entertainment"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 1,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2838702,
+        "full_name": "Dhanush R",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "At eight, I started learning to code to become an ethical hacker. That led to security research, CTFs, and building for the Minecraft and fanfiction communities I grew up in.\n\nI built Python and Rust libraries with 65,000+ downloads and a fanfiction platform that reached a million views in a month. At eighteen, I joined YC straight out of high school as Audora’s solo founder.\n\nNow I’m building audiobooks that sound like the story in your head, with a distinct voice for every character.",
+        "linkedin_url": "https://www.linkedin.com/in/dhanushrv",
+        "twitter_url": "https://x.com/Th3OnlyWayUp",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/aec5bcb9d1c6d7c4491e92b579cc25c9a66722f4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJNT5D6Z6%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182220Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBc4On5eI%2F9oBx0AraEs7AUnoOiDy%2Fy8Z3G8fWbJLJd%2FAiBrwJMohng5cgAzT8bgs%2FOayvD3ODG69EqnWZjHMu%2BGXCrlAwhjEAAaDDAwNjIwMTgxMTA3MiIMChqtx90Hza0a%2B5bmKsIDv8cTx69bSoT7yEy17JkqtDa18DTpIVErJd3vFen90XANUnO%2F1OkzHGOmtDXLAvs8MzLNa4PIckLEzTxpXGF5s%2FSeMfCdtmMQXWIp8hSS433MSBEQG%2BG2lYmgjXKni9qZlF%2B8h5BeumBM3qsusbPjRhfHUR1DIe8wz6TjWIk0DUjC7D%2FbAewCInFZ6Dcb9Nf95Wg%2Fxaio8gArRATbuIS395W5R3Uh5NVh9WGpO0t3OXJFzUbWvZiQklJIMa2FeWeoGSix0%2BY%2FfeD61JyKLUnfl%2BLxQDPVa%2FKvUayW%2FkzniieoOhmgKdgiHz80oOqcVQVqTs%2FHnVf6frK4pUw6PSyczFtfSOOyht4MipVz5Bez64id4cz1vnLAuhu0XKOklVah9Le%2BA8vqpCQ%2B4MqbjQrKK7ZlXRkKtzlL17%2FAZWmJy1SMgbJTE1IbjJOc3B6rA5fZty%2FBQxwvgi7F2ibfeQOFwTo36%2Fz1ghZ0HLblMRCWbRkHJVYLOb0TsJBKVkUFAjWfIaGmL5Qnr7fPG4FhDz38opiz8F85TBsWOUWyPq2am330oYD2dmnhX6ry%2BfSHLgeP5HSlzAYDV6I2%2FumsEw0c5iZ6MJeD5NYGOqYBCRyOx%2FPVx4kKjqWSByV74e2keRw16OZYlKHVAs9Re2OkKbdZiqt9qPqycoYRO7N03N7DTvfEcHuzFWvYSNH6Ub%2FxUr4Ff4CONnY0dHT7nUq5fny4z9QttRyjt2wUWJKrLa%2BeaSZUNOpl3GUJfK%2Ffcll8VsMd5sO8iAYu%2FV9%2FtmNLJ7IhCJQ%2FBvt8l9xmnNHgWuZ1c0Z3ZOBKzT3y95JL2138EQd32Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=20f4e873dc375a5e4f3124782dceec6008e3cf44e1ec096a284c788f2e8b7e93",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Audora",
+          "href": "https://www.ycombinator.com/companies/audora"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-21T18:22:29.640Z",
+    "classified_at": "2026-10-21T18:22:29.640Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-10"
+  },
+  {
     "slug": "audun",
     "name": "Audun",
     "website": "https://www.getaudun.com/",
@@ -12173,6 +12246,60 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit"
+  },
+  {
+    "slug": "baymachines",
+    "name": "BayMachines",
+    "website": "https://baymachines.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/baymachines",
+    "batch": "Spring 2026",
+    "one_liner": "AI compute for defense contractors",
+    "description_combined": "AI compute for defense contractors\n\nBayMachines deploys on-prem, air-gapped GPU systems for defense teams to run and fine-tune AI locally. We support defense technology companies serving the DoW and special operations, with deployments built to support CMMC and NIST 800-171 requirements.",
+    "industry_sub_vertical": "Defense contractor GPU compute infrastructure for classified AI workloads",
+    "canonical_vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_id": "ai-infrastructure.gpu-deploy",
+    "vertical_label": "GPU infrastructure for model deployment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "edge-inference-runtime",
+    "phenotype_primary_label": "Edge Inference Runtime & Optimization",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "model_optimization_deployment",
+    "ai_application_patterns": [
+      "on_prem_inference",
+      "air_gapped_compute",
+      "compliance_hardened_runtime",
+      "gpu_acceleration"
+    ],
+    "what_they_sell": "On-premises, air-gapped GPU compute infrastructure purpose-built for defense contractors. Enables local deployment and fine-tuning of AI models while maintaining CMMC and NIST 800-171 compliance. Eliminates cloud dependency and data exfiltration risk for sensitive defense workloads.",
+    "ai_play": "Removes the cloud-dependency bottleneck for defense AI adoption by providing hardened, compliant local inference and fine-tuning infrastructure. AI models can run autonomously on-prem without transmitting sensitive data to external services, enabling defense teams to deploy frontier models while maintaining operational security and regulatory compliance.",
+    "who_pays": "Defense contractors, prime contractors, and special operations technology vendors serving DoD/DoW who need to run AI workloads locally under strict compliance regimes.",
+    "confidence": 0.78,
+    "rationale": "BayMachines is primarily an edge inference runtime provider — they solve the deployment and optimization problem for frontier AI models in air-gapped, compliance-heavy environments. Secondary phenotype (agent-security-control-plane) applies because compliance hardening and access control are core to their offering. They are NOT a domain-specific foundation model (no proprietary training), NOT a vertical workflow agent (they don't automate defense workflows), and NOT a physical AI system (GPU infrastructure is the product, not the application). The primary value is enabling efficient, secure, local AI inference for defense contractors who cannot use cloud infrastructure.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Defense"
+    ],
+    "yc_tags": [
+      "Hardware",
+      "Defense",
+      "Infrastructure",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 7,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-10-21T18:21:29.475Z",
+    "classified_at": "2026-10-21T18:21:29.475Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "beacon-health",
@@ -20154,6 +20281,87 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "claimkit",
+    "name": "ClaimKit",
+    "website": "https://claimkit.co/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/claimkit",
+    "batch": "Fall 2026",
+    "one_liner": "AI-native professional services agency ",
+    "description_combined": "AI-native professional services agency ",
+    "industry_sub_vertical": "Insurance claims processing & adjudication via AI agents",
+    "canonical_vertical_id": "enterprise.ops.process-automation",
+    "vertical_id": "enterprise.ops.process-automation",
+    "vertical_label": "Cross-industry process automation",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "ai-native-service-provider",
+    "phenotype_primary_label": "AI-Native Service Provider (Outcome-Based)",
+    "phenotype_family": "services",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "claims_automation",
+      "outcome_based_pricing",
+      "agent_execution"
+    ],
+    "what_they_sell": "End-to-end claims processing, adjudication, and recovery services delivered via AI agents. Operates as a managed service provider taking contractual responsibility for claims outcomes rather than selling software seats.",
+    "ai_play": "AI agents autonomously handle claims intake, document analysis, eligibility determination, and recovery coordination. Replaces manual claims adjusters and recovery specialists with agentic workflows that execute at software-like scale and margins.",
+    "who_pays": "Insurance carriers, third-party administrators (TPAs), self-insured employers, and claims recovery firms seeking to reduce manual processing costs and accelerate claims resolution.",
+    "confidence": 0.72,
+    "rationale": "ClaimKit is positioned as an 'AI-native professional services agency' — the key signal is 'professional services' + 'AI-native.' This maps to ai-native-service-provider: they ARE the service provider (not a software vendor), use AI agents to execute claims workflows autonomously, and likely monetize via outcome-based or contingency models (typical for claims recovery). They take contractual responsibility for end-to-end claims handling. Secondary consideration was vertical-agentic-workflow-saas, but the 'agency' framing and claims recovery domain (traditionally outcome-based) suggest they operate as a service provider, not a SaaS platform. Confidence is moderate (0.72) because the website and description lack explicit detail on pricing model and scope; if they are purely a SaaS tool sold to claims teams, vertical-agentic-workflow-saas would be more accurate.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "B2B",
+      "AI"
+    ],
+    "business_models": [
+      "BM-04"
+    ],
+    "team_size": 4,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 2829318,
+        "full_name": "Rachel Huang",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder @ ClaimKit, 4x founder, ex-KPMG, ex-pro tennis player",
+        "linkedin_url": "https://www.linkedin.com/in/rach-huang/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/46e6480b7840c17a260e576130f2c4a50618769b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAM2QEQT2F%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182229Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDButikHA8PBWKB3wWxosmT%2BWYlue5bdL6%2FYa%2FwUC3uZwIhAPPRPd4fRGiHIuDLIdn6vfXs0XJEZNvvYptAUUaoCZ4sKuUDCGMQABoMMDA2MjAxODExMDcyIgwJFN4ew2iaaikkp2AqwgMZTrNlSxsYhBIqUjmlnJlDyMHVfMtdh3qWBh8O54Zq%2B6zSBHYhoN5GDnStW9hbhYc4P7OWvinfUt%2B%2BXtoX19lxBv9tvfufB5r%2FCi22QdPQJ5NmylErgQWfH0s1e%2BJoh3OSAAhD6C7gMKFqQyCfIWOv9I3ok0Zzea50Voz%2Bc%2BZP4GtaQK8Dk8FCmZGO1e5516UJJjSGZungAXNsOX34cTajET%2FQr4Q%2FsCe9wuqR%2B0bn8fCTD4YDtHkS1iKePhziA23JxwuoVcoSPDnjSDD6W%2BrB4Rw4lnI87ML%2FHC9yqWVTpY8y2ES7SmTJwOOi%2F9JHG8JeyCZPxYqVJHA5bnx5BW9pvXQaAJlJQSbdpvfywPfQXTDDEf8gxXZ8pZ7S0LuC6d9QkmJIHSQFFJ9JgsN%2BaPWo9Q7yCIpW33Nx9qAjLH9a1lN5%2BFGiZQq6AnVZXzIO%2BGedhu%2FYWTe0reLJ%2FfJRyTYopLId8K%2Fxe%2B%2BzQ3x%2FWx9oBgWd%2BUVMDOYG1Fuwsvr47hPI%2BT7ElVaoXwEQvHt8dt%2FP5GRsdBeX5Xvq0TxJ4X6cumoT6KY1KsDjI1RMDzDDtJKAGILNZfKqOZnur1OvsIgWeYQw7YLk1gY6pAFCIweu2ikR643A0tBjYhVVcdC%2BpLQkb3Kp9EEy417ssjxU1siO0YP5b7fBLLSKMegZL8b3vJ%2F3aDw%2FpPpdB0xnFgExgMPi6N%2Fzd1z28PPV%2BYESmDKmk9%2FjxZuQa%2BY1wdQnwFF8DAv3T6y4HSDWVajUjp0URWPM2Wq%2FNqX%2F52%2FIYOsDSMvRXtDU2WgkGrYMHgwHmCCpxT1EsOBuTmLVFNnOmwKAGA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1f5d015047f15480e26b1588c0619c0d957c8d2f7c7661e07a3af24f57d01dd2",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "ClaimKit",
+          "href": "https://www.ycombinator.com/companies/claimkit"
+        }
+      },
+      {
+        "user_id": 2552276,
+        "full_name": "William Mahon",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Previous low-level systems engineer @ Google & High Frequency Trading",
+        "linkedin_url": "https://www.linkedin.com/in/wmaho/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/99b383a86ee3a3dcc18dc1b787e1263cd91d41da.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAM2QEQT2F%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182229Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDButikHA8PBWKB3wWxosmT%2BWYlue5bdL6%2FYa%2FwUC3uZwIhAPPRPd4fRGiHIuDLIdn6vfXs0XJEZNvvYptAUUaoCZ4sKuUDCGMQABoMMDA2MjAxODExMDcyIgwJFN4ew2iaaikkp2AqwgMZTrNlSxsYhBIqUjmlnJlDyMHVfMtdh3qWBh8O54Zq%2B6zSBHYhoN5GDnStW9hbhYc4P7OWvinfUt%2B%2BXtoX19lxBv9tvfufB5r%2FCi22QdPQJ5NmylErgQWfH0s1e%2BJoh3OSAAhD6C7gMKFqQyCfIWOv9I3ok0Zzea50Voz%2Bc%2BZP4GtaQK8Dk8FCmZGO1e5516UJJjSGZungAXNsOX34cTajET%2FQr4Q%2FsCe9wuqR%2B0bn8fCTD4YDtHkS1iKePhziA23JxwuoVcoSPDnjSDD6W%2BrB4Rw4lnI87ML%2FHC9yqWVTpY8y2ES7SmTJwOOi%2F9JHG8JeyCZPxYqVJHA5bnx5BW9pvXQaAJlJQSbdpvfywPfQXTDDEf8gxXZ8pZ7S0LuC6d9QkmJIHSQFFJ9JgsN%2BaPWo9Q7yCIpW33Nx9qAjLH9a1lN5%2BFGiZQq6AnVZXzIO%2BGedhu%2FYWTe0reLJ%2FfJRyTYopLId8K%2Fxe%2B%2BzQ3x%2FWx9oBgWd%2BUVMDOYG1Fuwsvr47hPI%2BT7ElVaoXwEQvHt8dt%2FP5GRsdBeX5Xvq0TxJ4X6cumoT6KY1KsDjI1RMDzDDtJKAGILNZfKqOZnur1OvsIgWeYQw7YLk1gY6pAFCIweu2ikR643A0tBjYhVVcdC%2BpLQkb3Kp9EEy417ssjxU1siO0YP5b7fBLLSKMegZL8b3vJ%2F3aDw%2FpPpdB0xnFgExgMPi6N%2Fzd1z28PPV%2BYESmDKmk9%2FjxZuQa%2BY1wdQnwFF8DAv3T6y4HSDWVajUjp0URWPM2Wq%2FNqX%2F52%2FIYOsDSMvRXtDU2WgkGrYMHgwHmCCpxT1EsOBuTmLVFNnOmwKAGA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=886dbae83b714659b3bfe9186d57b68abbe4729a9e9a9050931e02ff797a7a7d",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "ClaimKit",
+          "href": "https://www.ycombinator.com/companies/claimkit"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-21T18:22:38.477Z",
+    "classified_at": "2026-10-21T18:22:38.477Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 0.55,
+    "vertical_normalize_method": "yc_subindustry_default",
+    "primary_bm": "BM-04"
   },
   {
     "slug": "clara-2",
@@ -43092,6 +43300,81 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "horizontal",
+    "name": "horizontal.",
+    "website": "https://horizontal-tech.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/horizontal",
+    "batch": "Fall 2026",
+    "one_liner": "AI agents that run factory operations end-to-end.",
+    "description_combined": "AI agents that run factory operations end-to-end.\n\nEvery factory will be run by AI agents. Horizontal is building them.\n\nToday, the work that keeps production moving is scattered across people, teams, and disconnected software. When plans change, materials run short, or quality issues appear, factory teams piece together the context and coordinate the response by hand.\n\nHorizontal&#x27;s AI agents take on that operational work inside the systems factories already use. They replan production around a disruption, investigate quality issues and coordinate order releases across teams and tools. Manufacturers start with one process and add agents over time, building toward a system that coordinates the factory end to end.\n\nFactories are demanding environments for AI: every plant has its own systems and procedures, and every action must work in the context of real production. Our team combines mechanical engineering and shop-floor experience with a track record of building and deploying agentic AI in global industrial companies.\n\nHorizontal connects the people, software and machines that run production.\n\nTaking over the daily work that keeps a plant running.\n\nHorizontal (YC F26) is building autonomous factory operations, one agent at a time.\n\nRobots build the product, but people still run the factory. Production &amp; material planners, logistics and quality teams spend their days keeping the plant in sync, by hand, across emails, spreadsheets and a dozen disconnected systems.\n\nHorizontal's agents do that work themselves, across the whole operation. They replan production when an order changes, check material availability, investigate quality issues, release finished batches and keep shipments on time. The agents work directly in the systems the factory already uses and get better with every task. Enterprise manufacturers start with one process and add agents over time, until the whole factory runs end to end.\n\n\n\nThe founders Niklas Marxer and ",
+    "industry_sub_vertical": "Factory operations AI agents for production replanning, quality investigation, and order coordination",
+    "canonical_vertical_id": "industrials.manufacturing.ops",
+    "vertical_id": "industrials.manufacturing.ops",
+    "vertical_label": "Manufacturing operations & order management",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "production_planning_automation",
+      "multi_system_orchestration",
+      "disruption_response_coordination",
+      "quality_investigation_agents"
+    ],
+    "what_they_sell": "End-to-end AI agent platform that automates factory operations (production replanning, quality investigation, order coordination) by integrating with existing manufacturing systems (ERP, MES, quality tools). Agents learn plant-specific procedures and execute operational decisions autonomously across disconnected software.",
+    "ai_play": "AI agents replace manual coordination work: when disruptions occur (material shortages, quality issues, plan changes), agents autonomously replan production, investigate root causes, and coordinate responses across teams and tools without human intervention. Reduces friction from context-gathering and manual rework.",
+    "who_pays": "Manufacturing operations teams, plant managers, production planners at mid-to-large factories seeking to reduce operational friction and improve responsiveness to disruptions.",
+    "confidence": 0.82,
+    "rationale": "Horizontal is a vertical SaaS deploying autonomous AI agents to replace manual, detail-intensive operational workflows within manufacturing. The core value is end-to-end workflow automation (production replanning, quality investigation, order coordination) integrated into existing factory systems. This is distinct from horizontal copilots (not cross-industry productivity) and from agent infrastructure (they are the end-product, not the underlying runtime). Secondary phenotype (ai-enabled-physical-systems) applies because AI optimizes real-world factory execution and coordination, though the primary value is workflow automation, not hardware design. High confidence: clear vertical focus, agentic autonomy, integration with existing tools, and domain-specific operational complexity.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Manufacturing",
+      "Automation",
+      "Industrial"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1250819,
+        "full_name": "Niklas Marxer",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-Founder & CEO of Horizontal (YC F26). Niklas is a mechanical engineer and was one of the first employees at askLio (YC S23), where he helped scale the company into one of the world&#x27;s fastest-growing AI startups. Since then, he has worked on bringing agentic AI into more than 150 industrial companies worldwide. He combines a shop-floor understanding of manufacturing with first-hand experience scaling an AI company and deploying AI in complex industrial environments.",
+        "linkedin_url": "https://www.linkedin.com/in/niklas-marxer",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/1112406de57451b45301ba499c19ec0c1eaf571b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABOE74DBN%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182210Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC9fcdaUS3iQxP%2Bd6Xo%2BJKq55snIeDFE5BH%2F8PoosjgZwIgaqSFZoH8ixq5m5YviyJhgRuq4fJVG%2FErx554L%2FTvQv0q5QMIYxAAGgwwMDYyMDE4MTEwNzIiDGJG15%2BylSDFduXvlirCA4bz2ztiJO4LSIiWBgXthaG3dlDE5smhRt%2BxA350E7yLcWWn4fhR4gq7VqP7L%2FMJ8u1%2BlmHsY1lEcbT3ehYPKJQpWSSz4KeX7HsYsITpKJ%2F1OeXpUqX2AWXWDFX6woHIajpjUC9l5QC0UofFnbV66%2B%2FDKOvf1NVkhYm9lpF%2Ft%2FnqJHQfu48RvjrydGlEAQ55Gao5OFAzj44lHJ3SWp3XRRlvZsAtcIjrcVJ8y5yXwvKf8Yig%2F7KvGMmWwg%2FZg2F7kpXNJfVs2u19CbVOxq10cTDTb3g9fxe%2Bd8HMfRC%2Bsde4rzQ2MAZlKLfciFgr4tc8GCvKiIM6EbpdHCHVjKtmCxpgPS1mh3AS9voHiSqh6L0TFUlN%2FCtjO2cY1u6PDPiWbrbWmLeprycs2%2F4ctSovn0S9GXpOvfZdtYun09k7GqEllmbUsthkBn%2FZFL7tMCLxbdQ75k7RltJ06Yn%2B%2FYp9MBP2n5TLbXbU58w6sXc6coLwFyC3d7TkhVty3eiSOEvIAsFk61pqg0qXtS0ixfiDzo6vbpieWaMNPbSA5tBHyTBv4kfVX0p1lHy5p4UQWkjF%2Bobfa%2FP1dZiqjVtU0r%2FT87%2FIXjCWg%2BTWBjqlAfbLggRfgwTpT7JVWS7cWPu%2Bl8HsYI4KHRipVvNXXm%2BYo5PTIn4fozvuUqiBqwv%2F08rfDQ%2FCKW2OPKjPhrUryKzYZOpp4rOcdl6pWCNQLyPGDsdK5GipV4QqqkG5vfikxLvsXuKTlzRQityT1Z1GRrXSxfGOr9acwILaThquaGQh%2BkzW%2FuO6EcEflt7F1VILNXqJC9bWCDkQYuT%2BfkZutG3sHwIn6g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4282aebaab168de8fcb4833e161efb68d71cb3e0cf9ec0c37b8311eb34b16804",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "horizontal.",
+          "href": "https://www.ycombinator.com/companies/horizontal"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-21T18:22:20.175Z",
+    "classified_at": "2026-10-21T18:22:20.175Z",
+    "proposed_phenotype": null,
+    "launch_id": 123565,
+    "launch_url": "https://www.ycombinator.com/launches/W8z-horizontal-ai-agents-that-run-factory-operations-end-to-end",
+    "launch_title": "Horizontal: AI agents that run factory operations end-to-end",
+    "launch_created_at": "2026-10-21T15:00:00.072Z",
+    "launch_tagline": "Taking over the daily work that keeps a plant running.",
+    "launch_evaluated_at": "2026-10-21T18:23:09.728Z",
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
+  },
+  {
     "slug": "hub",
     "name": "Hub",
     "website": "https://hub.xyz",
@@ -50261,6 +50544,74 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.95,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "kiwi",
+    "name": "Kiwi",
+    "website": "https://withkiwi.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/kiwi",
+    "batch": "Fall 2026",
+    "one_liner": "Kiwi is your GTM agent&#x27;s favorite data engineer.",
+    "description_combined": "Kiwi is your GTM agent&#x27;s favorite data engineer.\n\nWhile engineering teams have become fully AI-native, GTM teams have fallen behind. Teams struggle with continuous enablement of their teams, keeping context, agent skills, and connectors up to date with shifting GTM states and strategies, as well as accuracy, when operators can&#x27;t trust their agents because the data is incomplete, inconsistent, or unreliable. With Kiwi, every agent is self-improving, and cites the SQL query and data snapshot pulled from the Kiwi GTM brain used to produce every output. Kiwi enables GTM teams to be fully AI-native. ",
+    "industry_sub_vertical": "GTM agent context & data infrastructure for sales operations",
+    "canonical_vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_label": "Agent web context & data enrichment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-context-infra",
+    "phenotype_primary_label": "Agent Context Infrastructure",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "data_access",
+    "ai_application": "context_retrieval",
+    "ai_application_patterns": [
+      "rag_data_enrichment",
+      "sql_query_abstraction",
+      "agent_context_compression",
+      "continuous_data_sync"
+    ],
+    "what_they_sell": "A data infrastructure layer that structures, maintains, and serves GTM-specific context (customer data, pipeline state, account intelligence, strategy) to AI agents in a reliable, queryable, and citable format. Acts as a 'GTM brain' that agents can query via SQL, with full lineage and snapshot tracking for transparency and trust.",
+    "ai_play": "Solves the critical gap between AI agents needing rich, real-time GTM context and GTM teams' inability to keep data clean, consistent, and up-to-date. Enables agents to self-improve by learning from production queries and feedback, and provides citation/explainability (SQL query + data snapshot) so GTM operators can trust agent outputs. Transforms GTM from manual data wrangling into continuous, agent-driven data ops.",
+    "who_pays": "GTM leaders (VP Sales, VP Marketing, RevOps) and sales operations teams deploying AI agents for prospecting, account research, pipeline management, and customer engagement.",
+    "confidence": 0.78,
+    "rationale": "Kiwi is primarily an agent-context-infra play: it's a data access and structuring layer that feeds agents with reliable, queryable GTM context. The core value is solving 'context explosion' — agents need rich GTM data but can't ingest raw, inconsistent sources. Kiwi compresses and structures this into a SQL-queryable 'GTM brain' with citation/lineage. Secondary phenotype is vertical-agentic-workflow-saas because Kiwi also enables GTM agents to execute autonomously with continuous self-improvement and skill updates. The company is positioned as infrastructure for GTM AI-native teams, not as a standalone agent product, but the outcome is that GTM agents become more capable and trustworthy. Confidence is 0.78 (not higher) because the positioning blurs infrastructure (context layer) and vertical SaaS (GTM workflow automation); the primary wedge is data_access and context_retrieval, which maps cleanly to agent-context-infra.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Operations"
+    ],
+    "yc_tags": [
+      "Collaboration",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1678005,
+        "full_name": "Melanie Chen",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder/CEO at Kiwi (YC F26). Previously Head of Post Sales at Chalk AI (8th employee, scaled FDE org + hired account teams), founding engineer at two seed-stage startups, data infra engineer at Plaid, and studied CS at MIT. ",
+        "linkedin_url": "https://www.linkedin.com/in/-melaniechen-/",
+        "twitter_url": "https://x.com/__melchen__",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/caa806518ebd66bc254c1cb06027aef0d2ee39ad.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAGSRK7TS%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182148Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCkWZt5bOfjsLV5i5CH0EW3WqgFQCasynrY%2BJ%2FjPFKcqgIgDjVclsXOvQnqhayZK5E5TK19S7fcOXKAypkxj2NCxRsq5QMIYxAAGgwwMDYyMDE4MTEwNzIiDFeLpWC2IO3DnmdInyrCA4QCkLtaSrGJ3B2CF3jNANO19BpEpkNku5LkA4cvnnsjGO1l1sWZfQ6L5fk%2FbiKG8kFlAiNiOvWemnDDfU1lYQ%2Bf%2FyaztTfyYBwfFxlOGSVtZ2%2BRI0ileVomf2kZ4ad2DkjNdvILO50dqYk5Ek2x8rZ4MeAnEgXjatoeH1UsSkn57fWemth%2BmLhFRaUh02JS6w0hLX6kbxAOJ0l97ApcZAOqiD9mp%2FxPiUChP3N%2FClQEWvh0dy9E%2BOY9ZkNaTkT6YZYau5QJ0u9H6WMb6vBNcCKxrwNEwn4T9fkazjpyYAZEg6xsAQZmLejr9JNE0CZfuVqdvGgNjWk9XoqeRg%2Fa0Si%2BQqDtsozc69Jz47B7gWIl%2BxGfdGs2Bz3oDeOdM%2BP5r60n%2FLDP8R8uePF%2B7GXkVkg2%2BSWpnyjBknsFpDaoANSQtY3sLrTddyS%2Bh3SpHIUpPLy%2FEy8%2F6FPbXhTZAQu0cvKl5Qa3fZ2AkL8Ilht08J3%2Ffh7RxcOIn3uA6GM6OLTEsYBXUb5ckGkLdr9aReeXFcs62pMwoTcnruJ%2Ft704TpXFCPVCM8xJPQ9c%2BuvSJRA35l%2Fzenn1MR3babn9XiU7E2bW5DCYg%2BTWBjqlAZUwEG8P2%2B6CO%2F1lAAn6Q0sE6zy4kA3cIdkAAeQfK47dLWQ3fV06xaoS%2FO9U9BgdDi1jpyzkx8w8vd1YJNIvvDVlsDCPcLgtAnSuH%2BejrpZ2HC0SLp9QqjJ5SvWBnX7SaBsbfmpR4tb%2FU0Ki1xJ7bHhez%2FBzysZPdm6fiiUWS3HsIpkjlNoOeYC5N%2BD3ZUy6A9lU8x0vQXcf3%2B5KLAQ4W%2BeXwFdpzA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=3b5cdace4f5ce6c89c80d64d552363ac4845751c5aeed93e2eddec160c78fde3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kiwi",
+          "href": "https://www.ycombinator.com/companies/kiwi"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-21T18:21:59.036Z",
+    "classified_at": "2026-10-21T18:21:59.036Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "klaimee",
@@ -73089,6 +73440,101 @@
     "primary_bm": "BM-12"
   },
   {
+    "slug": "paper-star",
+    "name": "Paper Star",
+    "website": "https://paperstar.cc",
+    "yc_profile_url": "https://www.ycombinator.com/companies/paper-star",
+    "batch": "Spring 2026",
+    "one_liner": "Building the next generation of agents",
+    "description_combined": "Building the next generation of agents\n\nmore coming soon...",
+    "industry_sub_vertical": "Agent runtime & orchestration infrastructure for autonomous agent deployment",
+    "canonical_vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_id": "ai-infrastructure.agent-runtime",
+    "vertical_label": "Agent runtime & orchestration",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-runtime-infra",
+    "phenotype_primary_label": "Agent Runtime / Harness / Orchestration",
+    "phenotype_family": "agent_infrastructure",
+    "value_wedge": "infrastructure_pickaxe",
+    "ai_application": "agent_orchestration",
+    "ai_application_patterns": [
+      "agent_runtime",
+      "orchestration",
+      "developer_tooling"
+    ],
+    "what_they_sell": "Next-generation agent infrastructure — likely runtime, orchestration, or harness for deploying and managing autonomous agents at scale.",
+    "ai_play": "Provides foundational infrastructure layer that enables developers and enterprises to build, deploy, and operate multi-agent systems reliably. Solves orchestration, reliability, and operational complexity for agentic applications.",
+    "who_pays": "AI engineers, platform teams, enterprises building agent-native applications.",
+    "confidence": 0.55,
+    "rationale": "Paper Star describes itself as 'building the next generation of agents' with minimal detail. The phrasing suggests infrastructure or tooling for agent development/deployment rather than a vertical application or end-user product. Best fit is agent-runtime-infra (agent orchestration, harness, runtime) given the developer-focused positioning and B2B model. However, confidence is moderate (0.55) because the description is extremely sparse — could also fit agent-context-infra, agent-observability-evals, or open-source-commercial depending on actual product. Recommend follow-up to clarify: (1) Is this a runtime/orchestration layer? (2) Context/data enrichment? (3) Observability/evals? (4) Open-source + commercial? (5) Novel agent architecture?",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3394765,
+        "full_name": "Jynnie Tang",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Making Napkin Math, the personalized AI food journal that helps people achieve their health goals\nPreviously: Retool, One More Multiverse, MIT",
+        "linkedin_url": "https://www.linkedin.com/in/jynnie/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/194c883ee7171b5e87a5228dc4a14517ea79373e.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJNT5D6Z6%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182112Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBc4On5eI%2F9oBx0AraEs7AUnoOiDy%2Fy8Z3G8fWbJLJd%2FAiBrwJMohng5cgAzT8bgs%2FOayvD3ODG69EqnWZjHMu%2BGXCrlAwhjEAAaDDAwNjIwMTgxMTA3MiIMChqtx90Hza0a%2B5bmKsIDv8cTx69bSoT7yEy17JkqtDa18DTpIVErJd3vFen90XANUnO%2F1OkzHGOmtDXLAvs8MzLNa4PIckLEzTxpXGF5s%2FSeMfCdtmMQXWIp8hSS433MSBEQG%2BG2lYmgjXKni9qZlF%2B8h5BeumBM3qsusbPjRhfHUR1DIe8wz6TjWIk0DUjC7D%2FbAewCInFZ6Dcb9Nf95Wg%2Fxaio8gArRATbuIS395W5R3Uh5NVh9WGpO0t3OXJFzUbWvZiQklJIMa2FeWeoGSix0%2BY%2FfeD61JyKLUnfl%2BLxQDPVa%2FKvUayW%2FkzniieoOhmgKdgiHz80oOqcVQVqTs%2FHnVf6frK4pUw6PSyczFtfSOOyht4MipVz5Bez64id4cz1vnLAuhu0XKOklVah9Le%2BA8vqpCQ%2B4MqbjQrKK7ZlXRkKtzlL17%2FAZWmJy1SMgbJTE1IbjJOc3B6rA5fZty%2FBQxwvgi7F2ibfeQOFwTo36%2Fz1ghZ0HLblMRCWbRkHJVYLOb0TsJBKVkUFAjWfIaGmL5Qnr7fPG4FhDz38opiz8F85TBsWOUWyPq2am330oYD2dmnhX6ry%2BfSHLgeP5HSlzAYDV6I2%2FumsEw0c5iZ6MJeD5NYGOqYBCRyOx%2FPVx4kKjqWSByV74e2keRw16OZYlKHVAs9Re2OkKbdZiqt9qPqycoYRO7N03N7DTvfEcHuzFWvYSNH6Ub%2FxUr4Ff4CONnY0dHT7nUq5fny4z9QttRyjt2wUWJKrLa%2BeaSZUNOpl3GUJfK%2Ffcll8VsMd5sO8iAYu%2FV9%2FtmNLJ7IhCJQ%2FBvt8l9xmnNHgWuZ1c0Z3ZOBKzT3y95JL2138EQd32Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=0c30cc58ca73046a821e061c4c1793de35de423925c0eec25ed0958d8fef04a0",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Paper Star",
+          "href": "https://www.ycombinator.com/companies/paper-star"
+        }
+      },
+      {
+        "user_id": 797433,
+        "full_name": "Manuel Castro",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Building the next generation of agents\n\nPreviously: Verkada, Sonos, Healthcare Tech",
+        "linkedin_url": "https://www.linkedin.com/in/manuelccastro",
+        "twitter_url": "https://x.com/manny4c",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/c97eeb66aa51fdea902f0e1e8541d228440cb529.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJNT5D6Z6%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182112Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBc4On5eI%2F9oBx0AraEs7AUnoOiDy%2Fy8Z3G8fWbJLJd%2FAiBrwJMohng5cgAzT8bgs%2FOayvD3ODG69EqnWZjHMu%2BGXCrlAwhjEAAaDDAwNjIwMTgxMTA3MiIMChqtx90Hza0a%2B5bmKsIDv8cTx69bSoT7yEy17JkqtDa18DTpIVErJd3vFen90XANUnO%2F1OkzHGOmtDXLAvs8MzLNa4PIckLEzTxpXGF5s%2FSeMfCdtmMQXWIp8hSS433MSBEQG%2BG2lYmgjXKni9qZlF%2B8h5BeumBM3qsusbPjRhfHUR1DIe8wz6TjWIk0DUjC7D%2FbAewCInFZ6Dcb9Nf95Wg%2Fxaio8gArRATbuIS395W5R3Uh5NVh9WGpO0t3OXJFzUbWvZiQklJIMa2FeWeoGSix0%2BY%2FfeD61JyKLUnfl%2BLxQDPVa%2FKvUayW%2FkzniieoOhmgKdgiHz80oOqcVQVqTs%2FHnVf6frK4pUw6PSyczFtfSOOyht4MipVz5Bez64id4cz1vnLAuhu0XKOklVah9Le%2BA8vqpCQ%2B4MqbjQrKK7ZlXRkKtzlL17%2FAZWmJy1SMgbJTE1IbjJOc3B6rA5fZty%2FBQxwvgi7F2ibfeQOFwTo36%2Fz1ghZ0HLblMRCWbRkHJVYLOb0TsJBKVkUFAjWfIaGmL5Qnr7fPG4FhDz38opiz8F85TBsWOUWyPq2am330oYD2dmnhX6ry%2BfSHLgeP5HSlzAYDV6I2%2FumsEw0c5iZ6MJeD5NYGOqYBCRyOx%2FPVx4kKjqWSByV74e2keRw16OZYlKHVAs9Re2OkKbdZiqt9qPqycoYRO7N03N7DTvfEcHuzFWvYSNH6Ub%2FxUr4Ff4CONnY0dHT7nUq5fny4z9QttRyjt2wUWJKrLa%2BeaSZUNOpl3GUJfK%2Ffcll8VsMd5sO8iAYu%2FV9%2FtmNLJ7IhCJQ%2FBvt8l9xmnNHgWuZ1c0Z3ZOBKzT3y95JL2138EQd32Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=4ceed2cee1aa0c4caf0ed46e749b663442e1adc701371458a3be23f0957ac2ee",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Paper Star",
+          "href": "https://www.ycombinator.com/companies/paper-star"
+        }
+      },
+      {
+        "user_id": 3394185,
+        "full_name": "Claire Nord",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "CTO @ Paper Star\n\nPrev. Apple OS security, Samsara, MIT 6-3 &#x27;19",
+        "linkedin_url": "https://linkedin.com/in/cmnord",
+        "twitter_url": "https://x.com/clairen19",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6b17eb8d9720c97f51fabae0e5fe5a286c8cce70.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJNT5D6Z6%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182112Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIBc4On5eI%2F9oBx0AraEs7AUnoOiDy%2Fy8Z3G8fWbJLJd%2FAiBrwJMohng5cgAzT8bgs%2FOayvD3ODG69EqnWZjHMu%2BGXCrlAwhjEAAaDDAwNjIwMTgxMTA3MiIMChqtx90Hza0a%2B5bmKsIDv8cTx69bSoT7yEy17JkqtDa18DTpIVErJd3vFen90XANUnO%2F1OkzHGOmtDXLAvs8MzLNa4PIckLEzTxpXGF5s%2FSeMfCdtmMQXWIp8hSS433MSBEQG%2BG2lYmgjXKni9qZlF%2B8h5BeumBM3qsusbPjRhfHUR1DIe8wz6TjWIk0DUjC7D%2FbAewCInFZ6Dcb9Nf95Wg%2Fxaio8gArRATbuIS395W5R3Uh5NVh9WGpO0t3OXJFzUbWvZiQklJIMa2FeWeoGSix0%2BY%2FfeD61JyKLUnfl%2BLxQDPVa%2FKvUayW%2FkzniieoOhmgKdgiHz80oOqcVQVqTs%2FHnVf6frK4pUw6PSyczFtfSOOyht4MipVz5Bez64id4cz1vnLAuhu0XKOklVah9Le%2BA8vqpCQ%2B4MqbjQrKK7ZlXRkKtzlL17%2FAZWmJy1SMgbJTE1IbjJOc3B6rA5fZty%2FBQxwvgi7F2ibfeQOFwTo36%2Fz1ghZ0HLblMRCWbRkHJVYLOb0TsJBKVkUFAjWfIaGmL5Qnr7fPG4FhDz38opiz8F85TBsWOUWyPq2am330oYD2dmnhX6ry%2BfSHLgeP5HSlzAYDV6I2%2FumsEw0c5iZ6MJeD5NYGOqYBCRyOx%2FPVx4kKjqWSByV74e2keRw16OZYlKHVAs9Re2OkKbdZiqt9qPqycoYRO7N03N7DTvfEcHuzFWvYSNH6Ub%2FxUr4Ff4CONnY0dHT7nUq5fny4z9QttRyjt2wUWJKrLa%2BeaSZUNOpl3GUJfK%2Ffcll8VsMd5sO8iAYu%2FV9%2FtmNLJ7IhCJQ%2FBvt8l9xmnNHgWuZ1c0Z3ZOBKzT3y95JL2138EQd32Q%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=bd3b068a115fcb95ba919dbd5b1894439498a5d16acacb8ed4251ed845ebf4af",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Paper Star",
+          "href": "https://www.ycombinator.com/companies/paper-star"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-21T18:21:19.701Z",
+    "classified_at": "2026-10-21T18:21:19.701Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
+  },
+  {
     "slug": "parachute",
     "name": "Parachute",
     "website": "https://parachute-ai.com",
@@ -88598,6 +89044,85 @@
     "primary_bm": "BM-07"
   },
   {
+    "slug": "sava-trust-company",
+    "name": "Sava Trust Company",
+    "website": "https://www.savatrustcompany.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/sava-trust-company",
+    "batch": "Fall 2025",
+    "one_liner": "Building the future of trusts",
+    "description_combined": "Building the future of trusts\n\nIf you are a trusts & estates attorney, RIA, fintech, or family office interested in Sava, reach us at founders@savahq.com",
+    "industry_sub_vertical": "Trusts & estates administration workflow automation for attorneys, RIAs, and family offices",
+    "canonical_vertical_id": "fintech.wealth.asset-management",
+    "vertical_id": "fintech.wealth.asset-management",
+    "vertical_label": "Asset & wealth management",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "vertical-workflow-agent",
+    "phenotype_primary_label": "Vertical AI workflow agent",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "trust_administration_automation",
+      "document_processing",
+      "compliance_workflow",
+      "multi_party_coordination"
+    ],
+    "what_they_sell": "AI-powered trust administration and management platform targeting trusts & estates attorneys, RIAs, and family offices. Automates document preparation, beneficiary coordination, compliance tracking, and trust accounting workflows.",
+    "ai_play": "AI agents automate repetitive, detail-intensive trust administration tasks (document generation, beneficiary communications, tax compliance, asset tracking) that currently require manual attorney/RIA labor. Reduces friction in multi-party coordination (trustees, beneficiaries, executors) and accelerates trust settlement cycles.",
+    "who_pays": "Trusts & estates attorneys, Registered Investment Advisors (RIAs), family offices, and trust companies seeking to scale operations and reduce manual overhead.",
+    "confidence": 0.72,
+    "rationale": "Sava targets a specific vertical (trusts & estates) with workflow automation for knowledge workers (attorneys, RIAs, family office operators). The pitch 'building the future of trusts' and audience (attorneys, RIAs, family offices) indicates end-to-end automation of trust administration workflows rather than a regulated financial product (they are not taking trustee liability or managing assets directly). This fits vertical-workflow-agent: software/agents sold to professionals to automate their job function. Secondary consideration: could be domain-data-ontology if they build a trust-specific knowledge layer, but the pitch emphasizes workflow automation for end-users, not data infrastructure.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 8,
+    "location": "New York City, NY, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 29272,
+        "full_name": "Nimit Maru",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder & CEO at Sava (YC F25) - The Agentic Trust Company\nCo-founder & CEO at Fullstack Academy (YC S12, Acquired).\nCo-founder at Bloomspot ($46M raised, Acquired by JPM/Chase)\nCo-Founder Yahoo! MapMixer\nSr. Software Engineer Yahoo Maps/Travel\n\nEnjoy racket sports, guitar, history and Illinois college sports.",
+        "linkedin_url": "https://www.linkedin.com/in/nimit/",
+        "twitter_url": "http://x.com/nimit",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/dc13e17b61c37566f3aef18f8d57e22dd211841d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABOE74DBN%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182103Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC9fcdaUS3iQxP%2Bd6Xo%2BJKq55snIeDFE5BH%2F8PoosjgZwIgaqSFZoH8ixq5m5YviyJhgRuq4fJVG%2FErx554L%2FTvQv0q5QMIYxAAGgwwMDYyMDE4MTEwNzIiDGJG15%2BylSDFduXvlirCA4bz2ztiJO4LSIiWBgXthaG3dlDE5smhRt%2BxA350E7yLcWWn4fhR4gq7VqP7L%2FMJ8u1%2BlmHsY1lEcbT3ehYPKJQpWSSz4KeX7HsYsITpKJ%2F1OeXpUqX2AWXWDFX6woHIajpjUC9l5QC0UofFnbV66%2B%2FDKOvf1NVkhYm9lpF%2Ft%2FnqJHQfu48RvjrydGlEAQ55Gao5OFAzj44lHJ3SWp3XRRlvZsAtcIjrcVJ8y5yXwvKf8Yig%2F7KvGMmWwg%2FZg2F7kpXNJfVs2u19CbVOxq10cTDTb3g9fxe%2Bd8HMfRC%2Bsde4rzQ2MAZlKLfciFgr4tc8GCvKiIM6EbpdHCHVjKtmCxpgPS1mh3AS9voHiSqh6L0TFUlN%2FCtjO2cY1u6PDPiWbrbWmLeprycs2%2F4ctSovn0S9GXpOvfZdtYun09k7GqEllmbUsthkBn%2FZFL7tMCLxbdQ75k7RltJ06Yn%2B%2FYp9MBP2n5TLbXbU58w6sXc6coLwFyC3d7TkhVty3eiSOEvIAsFk61pqg0qXtS0ixfiDzo6vbpieWaMNPbSA5tBHyTBv4kfVX0p1lHy5p4UQWkjF%2Bobfa%2FP1dZiqjVtU0r%2FT87%2FIXjCWg%2BTWBjqlAfbLggRfgwTpT7JVWS7cWPu%2Bl8HsYI4KHRipVvNXXm%2BYo5PTIn4fozvuUqiBqwv%2F08rfDQ%2FCKW2OPKjPhrUryKzYZOpp4rOcdl6pWCNQLyPGDsdK5GipV4QqqkG5vfikxLvsXuKTlzRQityT1Z1GRrXSxfGOr9acwILaThquaGQh%2BkzW%2FuO6EcEflt7F1VILNXqJC9bWCDkQYuT%2BfkZutG3sHwIn6g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9de8386a5b9692ee17434c1d7c29fb8f78781a3aac06ff75b4a6b13dc566018a",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sava Trust Company",
+          "href": "https://www.ycombinator.com/companies/sava-trust-company"
+        }
+      },
+      {
+        "user_id": 167048,
+        "full_name": "Rush Sadiwala",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Co-Founder & COO @ Sava\n\nPreviously Founder @ Framework.so (online creator platform backed by Kevin Rose). Scaled platform to over 3 million end users and generated over $10M in sales for customers such as Ryan Holiday and Columbia University. \n\nBuilt Zolt, a news summarizer app featured by the App Store, nominated for a Webby and featured in TechCrunch: https://techcrunch.com/2016/05/26/zolt-news-in-60-words/\n\nI spent the first five years of my career on the buy side in investment management.",
+        "linkedin_url": "https://www.linkedin.com/in/rushabh-sadiwala/",
+        "twitter_url": "https://x.com/updating_priors",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b08ef95fe7188704f81188631c2f89ce030d0ff5.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECABOE74DBN%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182103Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC9fcdaUS3iQxP%2Bd6Xo%2BJKq55snIeDFE5BH%2F8PoosjgZwIgaqSFZoH8ixq5m5YviyJhgRuq4fJVG%2FErx554L%2FTvQv0q5QMIYxAAGgwwMDYyMDE4MTEwNzIiDGJG15%2BylSDFduXvlirCA4bz2ztiJO4LSIiWBgXthaG3dlDE5smhRt%2BxA350E7yLcWWn4fhR4gq7VqP7L%2FMJ8u1%2BlmHsY1lEcbT3ehYPKJQpWSSz4KeX7HsYsITpKJ%2F1OeXpUqX2AWXWDFX6woHIajpjUC9l5QC0UofFnbV66%2B%2FDKOvf1NVkhYm9lpF%2Ft%2FnqJHQfu48RvjrydGlEAQ55Gao5OFAzj44lHJ3SWp3XRRlvZsAtcIjrcVJ8y5yXwvKf8Yig%2F7KvGMmWwg%2FZg2F7kpXNJfVs2u19CbVOxq10cTDTb3g9fxe%2Bd8HMfRC%2Bsde4rzQ2MAZlKLfciFgr4tc8GCvKiIM6EbpdHCHVjKtmCxpgPS1mh3AS9voHiSqh6L0TFUlN%2FCtjO2cY1u6PDPiWbrbWmLeprycs2%2F4ctSovn0S9GXpOvfZdtYun09k7GqEllmbUsthkBn%2FZFL7tMCLxbdQ75k7RltJ06Yn%2B%2FYp9MBP2n5TLbXbU58w6sXc6coLwFyC3d7TkhVty3eiSOEvIAsFk61pqg0qXtS0ixfiDzo6vbpieWaMNPbSA5tBHyTBv4kfVX0p1lHy5p4UQWkjF%2Bobfa%2FP1dZiqjVtU0r%2FT87%2FIXjCWg%2BTWBjqlAfbLggRfgwTpT7JVWS7cWPu%2Bl8HsYI4KHRipVvNXXm%2BYo5PTIn4fozvuUqiBqwv%2F08rfDQ%2FCKW2OPKjPhrUryKzYZOpp4rOcdl6pWCNQLyPGDsdK5GipV4QqqkG5vfikxLvsXuKTlzRQityT1Z1GRrXSxfGOr9acwILaThquaGQh%2BkzW%2FuO6EcEflt7F1VILNXqJC9bWCDkQYuT%2BfkZutG3sHwIn6g%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9a29b67aa5b51c7a8c2d6ecbe682980f03f5f747d8202ba86f39c6e4b69bc6bf",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Sava Trust Company",
+          "href": "https://www.ycombinator.com/companies/sava-trust-company"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-21T18:21:12.579Z",
+    "classified_at": "2026-10-21T18:21:12.579Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
+  },
+  {
     "slug": "savahq",
     "name": "Sava",
     "website": "https://www.savahq.com",
@@ -91856,7 +92381,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/simulithic",
     "batch": "Fall 2026",
     "one_liner": "Simulate how any product change will perform before shipping.",
-    "description_combined": "Simulate how any product change will perform before shipping.\n\nWe build simulations of your real users, grounded in your session data, so you can predict how any product change will perform before you ship it.",
+    "description_combined": "Simulate how any product change will perform before shipping.\n\nWe build simulations of your real users, grounded in your session data, so you can predict how any product change will perform before you ship it.\n\nVerify that code works as fast as agents can write it. \n\nHey everyone! We're Ryan and Satyam.\n\nTL;DR: Simulithic sends AI agents through your app the way real users do, on every device, browser, and account type. No test scripts to write, nothing to maintain, and you hear about broken flows before your users do.\n\nThe problem: Verification is the new bottleneck\n\nEvery engineering team is limited by how fast it can verify what it built works. \n\nFor decades, writing code was the slow part, so nobody noticed.\n\nBut now, AI changed that. Agents now write code in minutes, but checking it still means hand-written Playwright tests, or worse, manual clicking before every deploy.\n\nThis means teams can generate 10x more code but can't ship 10x more, because every change still has to be verified. And the faster code gets written, the bigger this gap becomes.",
     "industry_sub_vertical": "Product change impact simulation & prediction for SaaS teams",
     "canonical_vertical_id": "ai-infrastructure.qa-testing",
     "vertical_id": "ai-infrastructure.qa-testing",
@@ -91926,6 +92451,12 @@
     "directory_synced_at": "2026-08-12T14:54:28.377Z",
     "classified_at": "2026-08-12T14:54:28.377Z",
     "proposed_phenotype": null,
+    "launch_id": 123207,
+    "launch_url": "https://www.ycombinator.com/launches/W3D-simulithic-ai-users-that-test-your-app-on-every-device-and-browser",
+    "launch_title": "Simulithic — AI users that test your app on every device and browser.",
+    "launch_created_at": "2026-10-21T16:02:18.580Z",
+    "launch_tagline": "Verify that code works as fast as agents can write it. ",
+    "launch_evaluated_at": "2026-10-21T18:23:09.727Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -93863,6 +94394,77 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-01"
+  },
+  {
+    "slug": "spacesheep",
+    "name": "Spacesheep",
+    "website": "https://spacesheep.dev/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/spacesheep",
+    "batch": "Fall 2026",
+    "one_liner": "Documents of the future: the collaboration surface for people and…",
+    "description_combined": "Documents of the future: the collaboration surface for people and…\n\nAgents now write faster than anyone can read. Spacesheep is where their work lands: any agent turns a session&#x27;s output into a space that your team takes in at a glance. It works with the agents you already use, and has its own agent built in.\r\n\r\nTeams work on it together: comment on the exact spot, @mention a teammate, or ask @spacesheep and an agent makes the change live on every screen. Every change is a version, and every space is searchable by meaning, for people and agents alike. Spaces can show live data streamed from servers and sensors, and connect to the tools your team already uses.\r\n\r\nTeams use it for research, design docs, dashboards, slides and internal apps.",
+    "industry_sub_vertical": "Agent output consumption & team collaboration layer for agentic workflows",
+    "canonical_vertical_id": "enterprise.ops.knowledge",
+    "vertical_id": "enterprise.ops.knowledge",
+    "vertical_label": "Enterprise knowledge management",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "horizontal-copilot-saas",
+    "phenotype_primary_label": "Horizontal copilot / productivity SaaS",
+    "phenotype_family": "horizontal_saas",
+    "value_wedge": "productivity_multiplier",
+    "ai_application": "copilot_assistant",
+    "ai_application_patterns": [
+      "agent_output_synthesis",
+      "collaborative_editing",
+      "semantic_search",
+      "live_data_integration"
+    ],
+    "what_they_sell": "A collaborative workspace platform where agent-generated outputs (research, designs, dashboards, docs) are automatically structured, versioned, and made team-readable. Built-in agent handles live edits and integrations; works with external agents. Semantic search, version control, and live data streaming included.",
+    "ai_play": "AI agents produce work faster than humans can consume it. Spacesheep solves the 'output bottleneck' by: (1) auto-structuring agent outputs into readable, collaborative spaces; (2) embedding an agent that responds to team requests and edits live; (3) enabling semantic search so teams find agent-generated insights by meaning, not keywords. AI is both the problem (agent velocity) and the solution (synthesis + search + live collaboration).",
+    "who_pays": "Product, design, research, and engineering teams at mid-market and enterprise companies; teams using agentic workflows and needing a shared consumption/collaboration layer.",
+    "confidence": 0.72,
+    "rationale": "Spacesheep is primarily a horizontal productivity SaaS (cross-industry, seat-based collaboration tool) with a strong secondary phenotype as agent-context infrastructure. It solves a real gap: agents generate outputs faster than teams can read/integrate them. The built-in agent + semantic search + live collaboration features position it as a copilot-adjacent tool for knowledge workers. It's not a vertical workflow agent (not automating a specific job function) and not a research terminal (not decision intelligence for a specific domain). The 'documents of the future' framing and multi-agent integration suggest it's a platform layer for agent-driven teams, making horizontal-copilot-saas the best fit (0.72 confidence due to secondary infrastructure angle).",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Productivity"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "Generative AI",
+      "Consumer",
+      "Productivity",
+      "Collaboration"
+    ],
+    "business_models": [
+      "BM-02"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 836233,
+        "full_name": "Michael Makarov",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder/CEO of Spacesheep (YC F26). Previously MTS at Anthropic, where I built the internal app deployment framework and the first version of CC Artifacts. Before that, staff engineer at Pinecone and Twitter.",
+        "linkedin_url": "https://www.linkedin.com/in/micmakarov/",
+        "twitter_url": "https://x.com/micmakarov",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/92e445a52e3cb719e2bb362afdcaaa50379410f3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAM2QEQT2F%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182129Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDButikHA8PBWKB3wWxosmT%2BWYlue5bdL6%2FYa%2FwUC3uZwIhAPPRPd4fRGiHIuDLIdn6vfXs0XJEZNvvYptAUUaoCZ4sKuUDCGMQABoMMDA2MjAxODExMDcyIgwJFN4ew2iaaikkp2AqwgMZTrNlSxsYhBIqUjmlnJlDyMHVfMtdh3qWBh8O54Zq%2B6zSBHYhoN5GDnStW9hbhYc4P7OWvinfUt%2B%2BXtoX19lxBv9tvfufB5r%2FCi22QdPQJ5NmylErgQWfH0s1e%2BJoh3OSAAhD6C7gMKFqQyCfIWOv9I3ok0Zzea50Voz%2Bc%2BZP4GtaQK8Dk8FCmZGO1e5516UJJjSGZungAXNsOX34cTajET%2FQr4Q%2FsCe9wuqR%2B0bn8fCTD4YDtHkS1iKePhziA23JxwuoVcoSPDnjSDD6W%2BrB4Rw4lnI87ML%2FHC9yqWVTpY8y2ES7SmTJwOOi%2F9JHG8JeyCZPxYqVJHA5bnx5BW9pvXQaAJlJQSbdpvfywPfQXTDDEf8gxXZ8pZ7S0LuC6d9QkmJIHSQFFJ9JgsN%2BaPWo9Q7yCIpW33Nx9qAjLH9a1lN5%2BFGiZQq6AnVZXzIO%2BGedhu%2FYWTe0reLJ%2FfJRyTYopLId8K%2Fxe%2B%2BzQ3x%2FWx9oBgWd%2BUVMDOYG1Fuwsvr47hPI%2BT7ElVaoXwEQvHt8dt%2FP5GRsdBeX5Xvq0TxJ4X6cumoT6KY1KsDjI1RMDzDDtJKAGILNZfKqOZnur1OvsIgWeYQw7YLk1gY6pAFCIweu2ikR643A0tBjYhVVcdC%2BpLQkb3Kp9EEy417ssjxU1siO0YP5b7fBLLSKMegZL8b3vJ%2F3aDw%2FpPpdB0xnFgExgMPi6N%2Fzd1z28PPV%2BYESmDKmk9%2FjxZuQa%2BY1wdQnwFF8DAv3T6y4HSDWVajUjp0URWPM2Wq%2FNqX%2F52%2FIYOsDSMvRXtDU2WgkGrYMHgwHmCCpxT1EsOBuTmLVFNnOmwKAGA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a974eb5a1fba824566d23e64ec89c664ace81c2511b9097f17df900404ebdbee",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Spacesheep",
+          "href": "https://www.ycombinator.com/companies/spacesheep"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-21T18:21:39.350Z",
+    "classified_at": "2026-10-21T18:21:39.350Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-02"
   },
   {
     "slug": "spark",
@@ -98031,6 +98633,65 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-08"
+  },
+  {
+    "slug": "synara",
+    "name": "Synara",
+    "website": "https://synaraops.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/synara",
+    "batch": "Fall 2026",
+    "one_liner": "We are the last monitoring station, run by AI",
+    "description_combined": "We are the last monitoring station, run by AI\n\nSecurity cameras don’t stop crime. They film it. Traditional monitoring does one job: watching an empty site after hours. It misses anything more complex, and anything that happens during the day. When something does happen, it sends an alert and leaves the response to you.\r\n\r\nSynara is the AI monitoring station for the cameras that are already installed. It needs no new hardware and watches day and night. It understands far more than intruders: falls, guns, fights. And it owns the response. Synara verifies incidents in seconds, talks intruders down on site or sends police a verified alarm, then coordinates with officers on who’s on site and where people are safe, until the insurance claim is resolved.\r\n\r\nBecause AI does the watching, monitoring becomes drastically cheaper and more accurate. Synara sells through security integrators under their own brand, so every camera they’ve installed becomes recurring revenue.\n\nAI monitoring for the cameras you already have. We own the response until the problem is gone.\n\n# \\*\\*\\*\\*\n\nSecurity cameras don’t stop crime. They film it.\n\nTraditional monitoring does one job: watching an empty site after hours. It misses anything more complex, and anything during the day. And when something does happen, it sends an alert and stops. The response is left to you.\n\nSolution\n\nSynara is the AI monitoring station for the cameras already installed. It needs no new hardware and is typically live the same day.\n\n* Day and night: at 4 AM, and at 12 PM when the guards are at lunch.\n* Far more than intruders: falls, guns, fights.\n* We own the response: we verify in seconds, talk the intruder down on site, or send police a verified alarm. Then we coordinate with police on who’s on site and where people are safe, until the insurance claim is resolved.\n* Cheaper and more accurate,",
+    "industry_sub_vertical": "Physical security incident detection & autonomous response orchestration for property protection",
+    "canonical_vertical_id": "ai-infrastructure.agent-security",
+    "vertical_id": "ai-infrastructure.agent-security",
+    "vertical_label": "Agent security & authorization",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "vertical-agentic-workflow-saas",
+    "phenotype_primary_label": "Vertical Agentic Workflow SaaS",
+    "phenotype_family": "vertical_automation",
+    "value_wedge": "workflow_replacement",
+    "ai_application": "autonomous_workflow",
+    "ai_application_patterns": [
+      "incident_detection_verification",
+      "autonomous_response_coordination",
+      "multi_modal_perception",
+      "real_time_decision_making"
+    ],
+    "what_they_sell": "AI-powered monitoring station software that ingests existing CCTV feeds, detects and verifies security incidents (intrusions, falls, weapons, fights) in real-time, autonomously responds (de-escalation, police dispatch with verified alarms), and coordinates with first responders until incident resolution and insurance claim closure. Sold through security integrators as white-label recurring revenue.",
+    "ai_play": "Replaces human security monitors with autonomous AI agents that: (1) continuously analyze multi-camera feeds 24/7 with computer vision for threat detection; (2) verify incidents with high confidence before dispatch to reduce false alarms; (3) autonomously execute response workflows (two-way audio de-escalation, police notification with verified incident data, real-time officer coordination); (4) maintain audit trail for insurance and liability. AI transforms monitoring from reactive alert-sending to proactive autonomous incident management.",
+    "who_pays": "Security integrators (resellers), property managers, retail chains, industrial facilities, and insurance companies seeking to reduce false alarms, response times, and monitoring labor costs.",
+    "confidence": 0.82,
+    "rationale": "Synara is a vertical agentic workflow SaaS targeting physical security operations. It deploys autonomous AI agents that replace human security monitors by detecting, verifying, and responding to incidents end-to-end. The product is sold to end-users (via integrator channel) as a SaaS application, not as infrastructure or consulting. Secondary phenotype (agent-security-control-plane) applies because the system manages access control, coordinates with first responders, and maintains compliance/audit trails for regulated incident response. The AI application is core to the SKU: without autonomous detection and response, the product is just another camera analytics tool. High confidence due to clear vertical focus (physical security), autonomous workflow execution (incident response), and recurring revenue model through integrator partnerships.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Analytics"
+    ],
+    "yc_tags": [
+      "Deep Learning",
+      "Security Orchestration, Automation and Response (SOAR)",
+      "Monitoring"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [],
+    "directory_synced_at": "2026-10-21T18:22:10.217Z",
+    "classified_at": "2026-10-21T18:22:10.217Z",
+    "proposed_phenotype": null,
+    "launch_id": 123679,
+    "launch_url": "https://www.ycombinator.com/launches/WAp-synara-the-ai-monitoring-station-that-makes-the-problem-go-away",
+    "launch_title": "Synara | The AI monitoring station that makes the problem go away",
+    "launch_created_at": "2026-10-20T19:00:00.365Z",
+    "launch_tagline": "AI monitoring for the cameras you already have. We own the response until the problem is gone.",
+    "launch_evaluated_at": "2026-10-21T18:23:09.728Z",
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
   },
   {
     "slug": "synphony",
@@ -112164,6 +112825,90 @@
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-10"
+  },
+  {
+    "slug": "wondersearch",
+    "name": "Wondersearch",
+    "website": "https://wondersearch.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/wondersearch",
+    "batch": "Fall 2026",
+    "one_liner": "Instant semantic search over your data without embeddings.",
+    "description_combined": "Instant semantic search over your data without embeddings.\n\nOur mission is to give every AI agent the right context, from any amount of data.\r\n\r\nWonderSearch is search built for AI agents. We let developers make all of their data searchable by meaning, without embeddings, servers or ingestion, so agents can pull the right context and cite where it came from. Unlike vector databases and RAG stacks, there&#x27;s no pipeline to build or maintain: connect your files and data, and they&#x27;re searchable right away. It runs on our own search model, and you pay only per query, whatever the size of your data.\r\n\r\nTeams use WonderSearch across their own documents and knowledge, and build it into their products, help centres and AI features, connecting through MCP, our API, the CLI or the Python SDK.\r\n\r\n(Evokoa, Inc. is the company behind WonderSearch.)",
+    "industry_sub_vertical": "Semantic search API for agent context retrieval without embeddings pipelines",
+    "canonical_vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_id": "ai-infrastructure.agent-context-web",
+    "vertical_label": "Agent web context & data enrichment",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "agent-context-infra",
+    "phenotype_primary_label": "Agent Context Infrastructure",
+    "phenotype_family": "infrastructure",
+    "value_wedge": "data_access",
+    "ai_application": "context_retrieval",
+    "ai_application_patterns": [
+      "semantic_search",
+      "rag_optimization",
+      "context_compression",
+      "citation_tracking"
+    ],
+    "what_they_sell": "Semantic search API/SDK that indexes unstructured data (documents, files, knowledge bases) and enables agents to retrieve relevant context by meaning without requiring embeddings pipelines, vector databases, or server infrastructure. Pay-per-query pricing model. Integrates via MCP, REST API, CLI, and Python SDK.",
+    "ai_play": "Solves the 'context explosion' problem for agentic systems: agents need rich, semantically relevant context to reason accurately, but traditional RAG stacks (embedding pipelines, vector DBs, ingestion) are slow to set up, expensive to maintain, and create latency bottlenecks. WonderSearch compresses this into a single semantic search call with built-in citation/provenance tracking, enabling agents to ground responses in source data without hallucination.",
+    "who_pays": "AI/ML engineers, product teams, and enterprises building agentic applications; developers integrating AI features into products; teams managing internal knowledge bases for agent consumption.",
+    "confidence": 0.92,
+    "rationale": "Perfect fit for agent-context-infra: WonderSearch is explicitly positioned as 'search built for AI agents' and solves the core problem of feeding agents token-efficient, semantically dense context without embedding pipelines. The product is infrastructure (API/SDK), not an end-user application or vertical workflow. It enables downstream agents to retrieve context reliably, with citation tracking for compliance/transparency. The pay-per-query model and emphasis on 'no embeddings, no servers, no ingestion' aligns with the infrastructure-pickaxe wedge. Secondary consideration of agent-context-data rejected because WonderSearch is not a data enrichment/crawling service—it's a search layer over existing data.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Infrastructure"
+    ],
+    "yc_tags": [
+      "Developer Tools",
+      "Infrastructure",
+      "AI"
+    ],
+    "business_models": [
+      "BM-03"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3185776,
+        "full_name": "Dale Ng",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Founder at Wondersearch. Previously in Founder&#x27;s Inc. Prev. scaled own company to 5,000+ paying customers. At 17, co-founded Master Technologies (AI).\n\nGraduated as an institutional medallist, awarded the Toh Chin Chye & IMDA Gold Medal.",
+        "linkedin_url": "https://www.linkedin.com/in/dale-everett",
+        "twitter_url": "https://x.com/daleverett",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/f367d7331af60c8483b49405eee6fc4567be4abd.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAGSRK7TS%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182139Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCkWZt5bOfjsLV5i5CH0EW3WqgFQCasynrY%2BJ%2FjPFKcqgIgDjVclsXOvQnqhayZK5E5TK19S7fcOXKAypkxj2NCxRsq5QMIYxAAGgwwMDYyMDE4MTEwNzIiDFeLpWC2IO3DnmdInyrCA4QCkLtaSrGJ3B2CF3jNANO19BpEpkNku5LkA4cvnnsjGO1l1sWZfQ6L5fk%2FbiKG8kFlAiNiOvWemnDDfU1lYQ%2Bf%2FyaztTfyYBwfFxlOGSVtZ2%2BRI0ileVomf2kZ4ad2DkjNdvILO50dqYk5Ek2x8rZ4MeAnEgXjatoeH1UsSkn57fWemth%2BmLhFRaUh02JS6w0hLX6kbxAOJ0l97ApcZAOqiD9mp%2FxPiUChP3N%2FClQEWvh0dy9E%2BOY9ZkNaTkT6YZYau5QJ0u9H6WMb6vBNcCKxrwNEwn4T9fkazjpyYAZEg6xsAQZmLejr9JNE0CZfuVqdvGgNjWk9XoqeRg%2Fa0Si%2BQqDtsozc69Jz47B7gWIl%2BxGfdGs2Bz3oDeOdM%2BP5r60n%2FLDP8R8uePF%2B7GXkVkg2%2BSWpnyjBknsFpDaoANSQtY3sLrTddyS%2Bh3SpHIUpPLy%2FEy8%2F6FPbXhTZAQu0cvKl5Qa3fZ2AkL8Ilht08J3%2Ffh7RxcOIn3uA6GM6OLTEsYBXUb5ckGkLdr9aReeXFcs62pMwoTcnruJ%2Ft704TpXFCPVCM8xJPQ9c%2BuvSJRA35l%2Fzenn1MR3babn9XiU7E2bW5DCYg%2BTWBjqlAZUwEG8P2%2B6CO%2F1lAAn6Q0sE6zy4kA3cIdkAAeQfK47dLWQ3fV06xaoS%2FO9U9BgdDi1jpyzkx8w8vd1YJNIvvDVlsDCPcLgtAnSuH%2BejrpZ2HC0SLp9QqjJ5SvWBnX7SaBsbfmpR4tb%2FU0Ki1xJ7bHhez%2FBzysZPdm6fiiUWS3HsIpkjlNoOeYC5N%2BD3ZUy6A9lU8x0vQXcf3%2B5KLAQ4W%2BeXwFdpzA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1cba33de4c378c4c6f718b3515d864cfc18586e056cc4d8463cc2ac1a367c887",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Wondersearch",
+          "href": "https://www.ycombinator.com/companies/wondersearch"
+        }
+      },
+      {
+        "user_id": 3195577,
+        "full_name": "Dalton Prescott",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Founder/CTO at Wondersearch (YC F26)\nStarted coding at 11. First company at 14. 2x Apple Scholar.\n\nPreviously Head of Product & Pre-Sales at BitCyber, managing 250+ B2B partners across APAC.",
+        "linkedin_url": "https://www.linkedin.com/in/dalton-prescott-ng",
+        "twitter_url": "https://x.com/daltonmeon",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a3d1bdf8251e635f30d4316310c1463843c4ae5d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAAGSRK7TS%2F20261021%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261021T182139Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJr%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCkWZt5bOfjsLV5i5CH0EW3WqgFQCasynrY%2BJ%2FjPFKcqgIgDjVclsXOvQnqhayZK5E5TK19S7fcOXKAypkxj2NCxRsq5QMIYxAAGgwwMDYyMDE4MTEwNzIiDFeLpWC2IO3DnmdInyrCA4QCkLtaSrGJ3B2CF3jNANO19BpEpkNku5LkA4cvnnsjGO1l1sWZfQ6L5fk%2FbiKG8kFlAiNiOvWemnDDfU1lYQ%2Bf%2FyaztTfyYBwfFxlOGSVtZ2%2BRI0ileVomf2kZ4ad2DkjNdvILO50dqYk5Ek2x8rZ4MeAnEgXjatoeH1UsSkn57fWemth%2BmLhFRaUh02JS6w0hLX6kbxAOJ0l97ApcZAOqiD9mp%2FxPiUChP3N%2FClQEWvh0dy9E%2BOY9ZkNaTkT6YZYau5QJ0u9H6WMb6vBNcCKxrwNEwn4T9fkazjpyYAZEg6xsAQZmLejr9JNE0CZfuVqdvGgNjWk9XoqeRg%2Fa0Si%2BQqDtsozc69Jz47B7gWIl%2BxGfdGs2Bz3oDeOdM%2BP5r60n%2FLDP8R8uePF%2B7GXkVkg2%2BSWpnyjBknsFpDaoANSQtY3sLrTddyS%2Bh3SpHIUpPLy%2FEy8%2F6FPbXhTZAQu0cvKl5Qa3fZ2AkL8Ilht08J3%2Ffh7RxcOIn3uA6GM6OLTEsYBXUb5ckGkLdr9aReeXFcs62pMwoTcnruJ%2Ft704TpXFCPVCM8xJPQ9c%2BuvSJRA35l%2Fzenn1MR3babn9XiU7E2bW5DCYg%2BTWBjqlAZUwEG8P2%2B6CO%2F1lAAn6Q0sE6zy4kA3cIdkAAeQfK47dLWQ3fV06xaoS%2FO9U9BgdDi1jpyzkx8w8vd1YJNIvvDVlsDCPcLgtAnSuH%2BejrpZ2HC0SLp9QqjJ5SvWBnX7SaBsbfmpR4tb%2FU0Ki1xJ7bHhez%2FBzysZPdm6fiiUWS3HsIpkjlNoOeYC5N%2BD3ZUy6A9lU8x0vQXcf3%2B5KLAQ4W%2BeXwFdpzA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c1f8e6d3c23bfa00ca4aefc008e6c98b733b11539dc791f5e52731333cc481fc",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Wondersearch",
+          "href": "https://www.ycombinator.com/companies/wondersearch"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-21T18:21:48.216Z",
+    "classified_at": "2026-10-21T18:21:48.216Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-03"
   },
   {
     "slug": "wondertx",

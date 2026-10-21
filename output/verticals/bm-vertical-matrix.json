@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-20T18:20:22.072Z",
+  "generated_at": "2026-10-21T18:23:10.725Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1612,
+    "assignment_count": 1622,
     "mapped_verticals": 252,
     "observed_cells": 507,
     "total_verticals": 525,
@@ -81,6 +81,7 @@
         "openwork",
         "orgo",
         "overshoot",
+        "paper-star",
         "polymorph",
         "projectx",
         "radiusbrowser",
@@ -204,6 +205,7 @@
         "invofox",
         "kaelio",
         "kernel",
+        "kiwi",
         "labric",
         "leadbay",
         "libretto",
@@ -233,7 +235,8 @@
         "turnstone",
         "unsiloed-ai",
         "upsolve-ai",
-        "voygr"
+        "voygr",
+        "wondersearch"
       ]
     },
     {
@@ -402,6 +405,7 @@
       "sector_id": "consumer",
       "companies": [
         "aleph-lab",
+        "audora",
         "digipals",
         "dollyglot",
         "doomersion",
@@ -597,6 +601,31 @@
       ]
     },
     {
+      "business_model": "BM-03",
+      "business_model_label": "AI devtools / infrastructure",
+      "vertical_id": "ai-infrastructure.gpu-deploy",
+      "vertical_label": "GPU infrastructure for model deployment",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "baymachines",
+        "belvedir",
+        "cactus-compute",
+        "dotwave",
+        "exla",
+        "freesolo",
+        "isoquant",
+        "kailash-labs",
+        "lilac",
+        "munito-ai",
+        "nodus-compute",
+        "openrelay",
+        "pirislabs",
+        "stellon-labs",
+        "tinfoil",
+        "wafer"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.aviation.space",
@@ -672,30 +701,6 @@
       ]
     },
     {
-      "business_model": "BM-03",
-      "business_model_label": "AI devtools / infrastructure",
-      "vertical_id": "ai-infrastructure.gpu-deploy",
-      "vertical_label": "GPU infrastructure for model deployment",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "belvedir",
-        "cactus-compute",
-        "dotwave",
-        "exla",
-        "freesolo",
-        "isoquant",
-        "kailash-labs",
-        "lilac",
-        "munito-ai",
-        "nodus-compute",
-        "openrelay",
-        "pirislabs",
-        "stellon-labs",
-        "tinfoil",
-        "wafer"
-      ]
-    },
-    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.ops.process-automation",
@@ -765,6 +770,28 @@
       ]
     },
     {
+      "business_model": "BM-04",
+      "business_model_label": "AI labor / managed service",
+      "vertical_id": "enterprise.ops.process-automation",
+      "vertical_label": "Cross-industry process automation",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "callbook-ai",
+        "claimkit",
+        "clicks",
+        "flowscope",
+        "jeevy-fabrication",
+        "no-logo",
+        "paloma",
+        "rocketable",
+        "sennu-ai",
+        "soren",
+        "tandem-2",
+        "tenor",
+        "trope"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "industrials.manufacturing.automation",
@@ -808,27 +835,6 @@
       ]
     },
     {
-      "business_model": "BM-04",
-      "business_model_label": "AI labor / managed service",
-      "vertical_id": "enterprise.ops.process-automation",
-      "vertical_label": "Cross-industry process automation",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "callbook-ai",
-        "clicks",
-        "flowscope",
-        "jeevy-fabrication",
-        "no-logo",
-        "paloma",
-        "rocketable",
-        "sennu-ai",
-        "soren",
-        "tandem-2",
-        "tenor",
-        "trope"
-      ]
-    },
-    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "enterprise.ops.knowledge",
@@ -845,6 +851,7 @@
         "pally",
         "rivereditor",
         "sentient-os",
+        "spacesheep",
         "stamp"
       ]
     },
@@ -864,6 +871,7 @@
         "maywood",
         "oasive",
         "powder",
+        "sava-trust-company",
         "savahq",
         "wealor"
       ]
@@ -1270,6 +1278,21 @@
       ]
     },
     {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "industrials.manufacturing.ops",
+      "vertical_label": "Manufacturing operations & order management",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "arzana",
+        "horizontal",
+        "noso-labs",
+        "smartbase",
+        "ventura",
+        "walter"
+      ]
+    },
+    {
       "business_model": "BM-08",
       "business_model_label": "Hardware + software",
       "vertical_id": "robotics.integration-deployment",
@@ -1311,6 +1334,20 @@
         "parsewise",
         "surface-labs",
         "wildcard"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "ai-infrastructure.agent-security",
+      "vertical_label": "Agent security & authorization",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "allowance",
+        "protent",
+        "synara",
+        "tectoai",
+        "wedge"
       ]
     },
     {
@@ -1384,20 +1421,6 @@
       ]
     },
     {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "industrials.manufacturing.ops",
-      "vertical_label": "Manufacturing operations & order management",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "arzana",
-        "noso-labs",
-        "smartbase",
-        "ventura",
-        "walter"
-      ]
-    },
-    {
       "business_model": "BM-02",
       "business_model_label": "Horizontal AI SaaS",
       "vertical_id": "marketing.content-ops",
@@ -1423,19 +1446,6 @@
         "third-chair",
         "vector-legal",
         "withasync"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "ai-infrastructure.agent-security",
-      "vertical_label": "Agent security & authorization",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "allowance",
-        "protent",
-        "tectoai",
-        "wedge"
       ]
     },
     {
