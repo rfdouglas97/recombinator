@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-21T18:23:10.725Z",
+  "generated_at": "2026-10-22T18:16:33.144Z",
   "dimensions": {
     "row": "business_model",
     "column": "vertical_id"
   },
   "summary": {
-    "assignment_count": 1622,
+    "assignment_count": 1628,
     "mapped_verticals": 252,
     "observed_cells": 507,
     "total_verticals": 525,
@@ -601,6 +601,32 @@
       ]
     },
     {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.defense.drones",
+      "vertical_label": "Defense drone & UAS operations",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "9-mothers-corporation",
+        "aice",
+        "albacore-inc",
+        "aviern",
+        "earendil-robotics",
+        "greypoint-industries",
+        "impact-drones",
+        "isengard-industries-inc",
+        "kairox-systems",
+        "keres",
+        "maquoketa-research",
+        "notus-autonomous-systems",
+        "ornadyne",
+        "polemos-industries",
+        "seeing-systems",
+        "splash-inc",
+        "streamline-systems"
+      ]
+    },
+    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "ai-infrastructure.gpu-deploy",
@@ -651,31 +677,6 @@
       ]
     },
     {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.defense.drones",
-      "vertical_label": "Defense drone & UAS operations",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "9-mothers-corporation",
-        "aice",
-        "albacore-inc",
-        "aviern",
-        "earendil-robotics",
-        "greypoint-industries",
-        "impact-drones",
-        "isengard-industries-inc",
-        "keres",
-        "maquoketa-research",
-        "notus-autonomous-systems",
-        "ornadyne",
-        "polemos-industries",
-        "seeing-systems",
-        "splash-inc",
-        "streamline-systems"
-      ]
-    },
-    {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
       "vertical_id": "logistics.supply-chain.ops",
@@ -722,6 +723,29 @@
         "sila",
         "supafax",
         "vela"
+      ]
+    },
+    {
+      "business_model": "BM-08",
+      "business_model_label": "Hardware + software",
+      "vertical_id": "industrials.manufacturing.automation",
+      "vertical_label": "Manufacturing & logistics automation",
+      "sector_id": "industrials-defense",
+      "companies": [
+        "antropi-robotics",
+        "bramante",
+        "dawn-industries",
+        "eden-robotics",
+        "lux-foods",
+        "neuron-industries",
+        "nox-metals",
+        "parametric",
+        "prototypingio",
+        "remy-ai",
+        "sinter-systems",
+        "theseus-robotics",
+        "twentyfour26",
+        "ultrasonium"
       ]
     },
     {
@@ -789,28 +813,6 @@
         "tandem-2",
         "tenor",
         "trope"
-      ]
-    },
-    {
-      "business_model": "BM-08",
-      "business_model_label": "Hardware + software",
-      "vertical_id": "industrials.manufacturing.automation",
-      "vertical_label": "Manufacturing & logistics automation",
-      "sector_id": "industrials-defense",
-      "companies": [
-        "antropi-robotics",
-        "bramante",
-        "dawn-industries",
-        "eden-robotics",
-        "neuron-industries",
-        "nox-metals",
-        "parametric",
-        "prototypingio",
-        "remy-ai",
-        "sinter-systems",
-        "theseus-robotics",
-        "twentyfour26",
-        "ultrasonium"
       ]
     },
     {
@@ -1043,6 +1045,23 @@
       ]
     },
     {
+      "business_model": "BM-09",
+      "business_model_label": "Biotech / R&D platform",
+      "vertical_id": "ai-infrastructure.training-data",
+      "vertical_label": "Training & eval data generation",
+      "sector_id": "ai-infrastructure",
+      "companies": [
+        "antinuous",
+        "arcten",
+        "delineate",
+        "edotenv",
+        "gutgutgoose",
+        "lamin",
+        "monte",
+        "petrichor-bio"
+      ]
+    },
+    {
       "business_model": "BM-06",
       "business_model_label": "Data / intelligence product",
       "vertical_id": "ai-infrastructure.agent-context-web",
@@ -1088,22 +1107,6 @@
         "propolis",
         "testerarmy",
         "velt"
-      ]
-    },
-    {
-      "business_model": "BM-09",
-      "business_model_label": "Biotech / R&D platform",
-      "vertical_id": "ai-infrastructure.training-data",
-      "vertical_label": "Training & eval data generation",
-      "sector_id": "ai-infrastructure",
-      "companies": [
-        "antinuous",
-        "arcten",
-        "delineate",
-        "edotenv",
-        "gutgutgoose",
-        "monte",
-        "petrichor-bio"
       ]
     },
     {
@@ -1566,6 +1569,19 @@
       ]
     },
     {
+      "business_model": "BM-10",
+      "business_model_label": "Consumer app / prosumer",
+      "vertical_id": "enterprise.devtools.productivity",
+      "vertical_label": "Developer productivity & engineering tools",
+      "sector_id": "enterprise-software",
+      "companies": [
+        "bloom-4",
+        "floot",
+        "openbuilder",
+        "sidekit"
+      ]
+    },
+    {
       "business_model": "BM-03",
       "business_model_label": "AI devtools / infrastructure",
       "vertical_id": "enterprise.ops.knowledge",
@@ -1926,6 +1942,18 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
+      "vertical_id": "construction.contract-administration",
+      "vertical_label": "Contract administration & change management",
+      "sector_id": "real-estate-construction",
+      "companies": [
+        "alloovium",
+        "telamont",
+        "vestris"
+      ]
+    },
+    {
+      "business_model": "BM-01",
+      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "construction.permit-compliance",
       "vertical_label": "Permit acquisition & regulatory compliance",
       "sector_id": "real-estate-construction",
@@ -2041,18 +2069,6 @@
         "invertix",
         "marengo",
         "micora"
-      ]
-    },
-    {
-      "business_model": "BM-10",
-      "business_model_label": "Consumer app / prosumer",
-      "vertical_id": "enterprise.devtools.productivity",
-      "vertical_label": "Developer productivity & engineering tools",
-      "sector_id": "enterprise-software",
-      "companies": [
-        "bloom-4",
-        "floot",
-        "openbuilder"
       ]
     },
     {
@@ -2672,17 +2688,6 @@
     {
       "business_model": "BM-01",
       "business_model_label": "Vertical AI SaaS",
-      "vertical_id": "construction.contract-administration",
-      "vertical_label": "Contract administration & change management",
-      "sector_id": "real-estate-construction",
-      "companies": [
-        "alloovium",
-        "vestris"
-      ]
-    },
-    {
-      "business_model": "BM-01",
-      "business_model_label": "Vertical AI SaaS",
       "vertical_id": "construction.quality-assurance",
       "vertical_label": "Quality inspection & defect management",
       "sector_id": "real-estate-construction",
@@ -2997,6 +3002,17 @@
       "companies": [
         "forum",
         "totalis"
+      ]
+    },
+    {
+      "business_model": "BM-07",
+      "business_model_label": "Marketplace / network",
+      "vertical_id": "fintech.prediction-markets.execution",
+      "vertical_label": "Prediction markets trading & prime brokerage",
+      "sector_id": "financial-services",
+      "companies": [
+        "anyalpha",
+        "sequence-markets"
       ]
     },
     {
@@ -4665,16 +4681,6 @@
       "sector_id": "financial-services",
       "companies": [
         "valctrl"
-      ]
-    },
-    {
-      "business_model": "BM-07",
-      "business_model_label": "Marketplace / network",
-      "vertical_id": "fintech.prediction-markets.execution",
-      "vertical_label": "Prediction markets trading & prime brokerage",
-      "sector_id": "financial-services",
-      "companies": [
-        "sequence-markets"
       ]
     },
     {

@@ -6103,6 +6103,89 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "anyalpha",
+    "name": "AnyAlpha",
+    "website": "https://anyalpha.ai/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/anyalpha",
+    "batch": "Fall 2026",
+    "one_liner": "The agentic trading platform",
+    "description_combined": "The agentic trading platform\n\nAnyAlpha is the agentic trading platform. It turns your trading idea into an agent that trades it for you, 24/7.\r\n\r\nStart with an idea. AnyAlpha builds the agent on institutional-grade data, backtests it on historical data, and trades it live on multiple exchanges. We&#x27;re starting with prediction markets, with more asset classes to follow.",
+    "industry_sub_vertical": "Prediction markets algorithmic trading & agent execution",
+    "canonical_vertical_id": "fintech.prediction-markets.execution",
+    "vertical_id": "fintech.prediction-markets.execution",
+    "vertical_label": "Prediction markets trading & prime brokerage",
+    "vertical_sector_id": "financial-services",
+    "phenotype_primary_id": "marketplace-network-ai",
+    "phenotype_primary_label": "Marketplace / exchange / liquidity network",
+    "phenotype_family": "network",
+    "value_wedge": "network_effects",
+    "ai_application": "matching_routing",
+    "ai_application_patterns": [
+      "agent_execution",
+      "algorithmic_trading",
+      "backtesting_automation"
+    ],
+    "what_they_sell": "End-user-facing platform that converts trading ideas into autonomous AI agents that execute trades 24/7 across prediction markets and other asset classes. Users define trading logic; AnyAlpha builds, backtests, and deploys the agent on institutional-grade data and live exchanges.",
+    "ai_play": "AI agents autonomously execute trading strategies without human intervention. Agents learn from backtesting, optimize execution across multiple exchanges, and manage risk in real-time. The platform abstracts away infrastructure (data, execution, compliance) so users focus on strategy.",
+    "who_pays": "Retail and semi-professional traders; prediction market participants; eventually institutional traders seeking algorithmic execution.",
+    "confidence": 0.72,
+    "rationale": "AnyAlpha is a two-sided marketplace/exchange platform where AI agents execute trades on behalf of users. The core value is the liquidity network (prediction markets, multiple asset classes) and the ability to route user capital/strategies through it via autonomous agents. This fits marketplace-network-ai better than vertical-workflow-agent (which would be selling tools TO traders/funds, not operating the venue itself) or fintech-insurance-ai-product (no regulated financial product SKU; they don't take principal risk or manage LP capital). The AI application is agent execution and routing, not just data enrichment or observability. Secondary consideration: could be consumer-ai-app (end-user facing), but the marketplace/exchange nature and multi-party liquidity routing make marketplace-network-ai the stronger fit.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Fintech"
+    ],
+    "yc_tags": [
+      "Fintech",
+      "Marketplace",
+      "Consumer Finance",
+      "Trading"
+    ],
+    "business_models": [
+      "BM-07"
+    ],
+    "team_size": 2,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1353596,
+        "full_name": "Shirley (Shiyi) Peng",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "Co-founder and CEO @ AnyAlpha. Shirley studied computer science at the University of Waterloo and built trading systems at companies including Coinbase and LSEG. Before AnyAlpha, she created MasterInterview, a top-10 GPT in OpenAI’s GPT Store, and she and co-founder Jerry bootstrapped their own apps to $500K ARR.",
+        "linkedin_url": "https://linkedin.com/in/shiyi-peng",
+        "twitter_url": "https://x.com/shiyi_peng",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/0d77408441533ba0f6304f18f854a49598ca68ad.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJ4RMYDAN%2F20261022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261022T181547Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDRbo6h5nJZhogaFIR%2BbcEkGUYURYPfDs5T5aOFuw%2FQAAIhAOIsZ%2FBu0MVOBka2bYtqmTi0lfM7NGmX7LYlfOzx07b7KuUDCHsQABoMMDA2MjAxODExMDcyIgyLihdJkw%2FBMPIEXCIqwgOq8b5%2FspOXe%2BCaWwCVJ%2BrffRBqmM9z%2BOhEEmjSODDReA7oQHll3GB7AYlfzTA1thJC0KUGEZBhdGP3svSwM0TmYda5N%2BPbnlN2R9p0Wzyd8Cyld4viFNg8px20JnRAT7epB9gFGRe9D9WjMovq%2FQ8e1RAMM7IUHe0NkGXEmKiaeYWjQk5Pf00scsHtnOVc5AELkmqRVibHNC5T0q7HA4GsYEXAEwyv9jkmjD37zu4kXZr4Bf9b8jbPxsDOF%2FyQ7n%2BEOGF8nmr0UudDKyWDt2rkbFg9487Mfqm6N0IlT0K7u%2BxRivUOUbBthZYjuf4H4c6CNam%2B1yQ5mTvRY0tYbuOoh5tfbYQCMT1g7ZbpoaUo13VqZmGjxKlPXvw%2FH4G33g5Trv4xKjEZKudGA%2Bo3mdQFwaNcp678x7iOWOYZ0UB3KKT2Txcw84wa79eOZDa86NSbHBOOY6qB5kgKZt6Qi0k6e3TJ9dqxYRSZDeA0UbtN%2BTX2o207HQFEYI07j7gOfuqsksPZtm9lWamft826nqT%2FkKDIgkUEEKydCs0M5oH94kAFaAvqzYhYv1ySALyvdEqOFN3Qyr2bIBAJozGP0YRGCr4wr6Dp1gY6pAGyorhh%2BfSmQGWDMBqZRtEwefTgTwsgJMpcDJ%2B8zGxG9cz2vtNb1nZ3%2FBHGCvn6jdFjz9TF2fWs%2Bg3SKA7QzWCdfFw8G%2BC%2FuuioqxIsoWmptAPa2da4NZuORR73ljN7w4qU7UIw5RLs1KA62yWt0jMdM5pEOXndiNzIPaqFhXc3bxwED6s844qlu7%2Fc7DVU7J7jGTzybzRi7EEJDVvZT3X3I78NgQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=6a18dc5b747f82a698713f7bd7ff2f1bd0ffa85b7684c65513fcf7093b0dc321",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "AnyAlpha",
+          "href": "https://www.ycombinator.com/companies/anyalpha"
+        }
+      },
+      {
+        "user_id": 2970583,
+        "full_name": "Jerry Miao",
+        "title": "Founder/CTO",
+        "is_active": true,
+        "bio": "Co-founder and CTO @ AnyAlpha. Jerry studied computer science at UC Berkeley and spent six years as a solo quant, building his own data, models, backtests and execution. Trading his own money, he grew $50K to seven figures, about 85% a year.",
+        "linkedin_url": "https://www.linkedin.com/in/binxumiao/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/fc86c682d1658cf7e38353bdc49322f9bb0eb954.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJ4RMYDAN%2F20261022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261022T181547Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDRbo6h5nJZhogaFIR%2BbcEkGUYURYPfDs5T5aOFuw%2FQAAIhAOIsZ%2FBu0MVOBka2bYtqmTi0lfM7NGmX7LYlfOzx07b7KuUDCHsQABoMMDA2MjAxODExMDcyIgyLihdJkw%2FBMPIEXCIqwgOq8b5%2FspOXe%2BCaWwCVJ%2BrffRBqmM9z%2BOhEEmjSODDReA7oQHll3GB7AYlfzTA1thJC0KUGEZBhdGP3svSwM0TmYda5N%2BPbnlN2R9p0Wzyd8Cyld4viFNg8px20JnRAT7epB9gFGRe9D9WjMovq%2FQ8e1RAMM7IUHe0NkGXEmKiaeYWjQk5Pf00scsHtnOVc5AELkmqRVibHNC5T0q7HA4GsYEXAEwyv9jkmjD37zu4kXZr4Bf9b8jbPxsDOF%2FyQ7n%2BEOGF8nmr0UudDKyWDt2rkbFg9487Mfqm6N0IlT0K7u%2BxRivUOUbBthZYjuf4H4c6CNam%2B1yQ5mTvRY0tYbuOoh5tfbYQCMT1g7ZbpoaUo13VqZmGjxKlPXvw%2FH4G33g5Trv4xKjEZKudGA%2Bo3mdQFwaNcp678x7iOWOYZ0UB3KKT2Txcw84wa79eOZDa86NSbHBOOY6qB5kgKZt6Qi0k6e3TJ9dqxYRSZDeA0UbtN%2BTX2o207HQFEYI07j7gOfuqsksPZtm9lWamft826nqT%2FkKDIgkUEEKydCs0M5oH94kAFaAvqzYhYv1ySALyvdEqOFN3Qyr2bIBAJozGP0YRGCr4wr6Dp1gY6pAGyorhh%2BfSmQGWDMBqZRtEwefTgTwsgJMpcDJ%2B8zGxG9cz2vtNb1nZ3%2FBHGCvn6jdFjz9TF2fWs%2Bg3SKA7QzWCdfFw8G%2BC%2FuuioqxIsoWmptAPa2da4NZuORR73ljN7w4qU7UIw5RLs1KA62yWt0jMdM5pEOXndiNzIPaqFhXc3bxwED6s844qlu7%2Fc7DVU7J7jGTzybzRi7EEJDVvZT3X3I78NgQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=9d06de62be7a121695f5a48d5c366d35fa0723b054f6f5d9ebdb8b766b5de0f5",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "AnyAlpha",
+          "href": "https://www.ycombinator.com/companies/anyalpha"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-22T18:15:55.844Z",
+    "classified_at": "2026-10-22T18:15:55.844Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-07"
+  },
+  {
     "slug": "apollo-atomics-inc",
     "name": "Apollo Atomics, Inc.",
     "website": "https://apolloatomics.com/",
@@ -9884,7 +9967,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/aucert",
     "batch": "Fall 2026",
     "one_liner": "A team of expert AI agents that test mobile apps on their own.",
-    "description_combined": "A team of expert AI agents that test mobile apps on their own.\n\nTop apps need weeks and multiple teams to test every release. Aucert does it in hours, and plugs into agentic coding workflows so issues get fixed in the same loop.\r\n\r\nAgents: Functional QA · Accessibility · Google Play Policy · App Store Policy\r\n\r\nNext: Performance · Security. DM if you need either.",
+    "description_combined": "A team of expert AI agents that test mobile apps on their own.\n\nTop apps need weeks and multiple teams to test every release. Aucert does it in hours, and plugs into agentic coding workflows so issues get fixed in the same loop.\r\n\r\nAgents: Functional QA · Accessibility · Google Play Policy · App Store Policy\r\n\r\nNext: Performance · Security. DM if you need either.\n\nExpert agents that do the actual testing - in less than 2 hours!\n\nWe are Vivek and Rajesh, co-founders of Aucert.\n\nTesting mobile apps has always been slow, manual and error prone. Aucert solves this by deploying a team of expert AI agents that operate autonomously to ensure your app meets your expectations.\n\nTL;DR: Aucert is an autonomous mobile app verification platform with a team of expert AI agents. Pick a build, start a scan, and the agents test it like a real user, then report what broke with the evidence: functional bugs, accessibility issues, design issues, and Google Play and App Store policy violations etc. What takes top apps weeks and multiple teams, Aucert does in hours.\n\n\n\nWhy is mobile validation so hard?\n\nOn the web, you roll back a bad release in minutes. On mobile, the bug sits on people's phones until they update, while the fix waits ",
     "industry_sub_vertical": "Mobile app QA automation via autonomous AI agents",
     "canonical_vertical_id": "ai-infrastructure.qa-testing",
     "vertical_id": "ai-infrastructure.qa-testing",
@@ -9957,6 +10040,12 @@
     "directory_synced_at": "2026-10-16T17:48:03.323Z",
     "classified_at": "2026-10-16T17:48:03.323Z",
     "proposed_phenotype": null,
+    "launch_id": 124025,
+    "launch_url": "https://www.ycombinator.com/launches/WGP-aucert-ai-agents-that-verify-mobile-apps-autonomously",
+    "launch_title": "Aucert - AI agents that verify mobile apps autonomously",
+    "launch_created_at": "2026-10-22T14:00:00.166Z",
+    "launch_tagline": "Expert agents that do the actual testing - in less than 2 hours!",
+    "launch_evaluated_at": "2026-10-22T18:16:32.263Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -48648,6 +48737,77 @@
     "primary_bm": "BM-01"
   },
   {
+    "slug": "kairox-systems",
+    "name": "Kairox Systems",
+    "website": "http://www.kairoxsys.com/",
+    "yc_profile_url": "https://www.ycombinator.com/companies/kairox-systems",
+    "batch": "Fall 2026",
+    "one_liner": "Autonomous drones that fly and swim",
+    "description_combined": "Autonomous drones that fly and swim\n\nKairox Systems combines the speed of aerial drones and the stealth of underwater drones into one vehicle. We can look for mines in a strait, fly out of the water to inspect a coastline, and then engage maritime threats in one go. \r\n\r\nJoel, Alex, and Jorge all met at MIT. After conversations with warfighters and drone researchers, they decided to create a vehicle unlike any before: A long-range vehicle that is truly amphibious, low-cost enough for one-way swarms, can operate fully autonomously, and can be repurposed on the front lines. Engaged with the Marine Corps and validated with end users across the U.S. and allied militaries.",
+    "industry_sub_vertical": "Amphibious autonomous drone platforms for maritime surveillance, mine detection, and coastal interdiction",
+    "canonical_vertical_id": "industrials.defense.drones",
+    "vertical_id": "industrials.defense.drones",
+    "vertical_label": "Defense drone & UAS operations",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "robotics-embodied-ai",
+    "phenotype_primary_label": "Robotics / embodied / teleoperation",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "embodied_control",
+    "ai_application_patterns": [
+      "autonomous_vehicle_control",
+      "multi_modal_navigation",
+      "swarm_coordination",
+      "threat_detection"
+    ],
+    "what_they_sell": "Amphibious autonomous drones that operate in air and underwater modes for maritime surveillance, mine detection, coastal inspection, and threat engagement. Hardware platform designed for one-way swarms and full autonomous operation without human teleoperation.",
+    "ai_play": "AI enables autonomous navigation, sensor fusion (aerial + underwater), real-time threat detection and engagement, swarm coordination, and adaptive mission planning across heterogeneous environments (water, air, coastline). Model-hardware co-design optimizes for low cost, long range, and autonomous execution in denied-communication environments.",
+    "who_pays": "U.S. Marine Corps, allied militaries, defense procurement agencies, maritime security operators.",
+    "confidence": 0.85,
+    "rationale": "Kairox is a hardware-first embodied AI system: the core product is a physical amphibious drone platform where AI is the control and autonomy layer. Matches robotics-embodied-ai (drones, autonomous control, model-hardware co-design) and physical-ai-autonomous-systems (autonomous hardware for defense/military operations). Primary phenotype is robotics-embodied-ai because the company is building the drone itself, not just software. Secondary is physical-ai-autonomous-systems because they're deploying autonomous hardware for defense operations. Not a vertical workflow agent (they're not selling software to warfighters to automate their workflows) — they're selling the autonomous platform itself. Confidence 0.85: clear robotics/embodied AI fit; some uncertainty around whether secondary phenotype adds clarity or is redundant.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Defense"
+    ],
+    "yc_tags": [
+      "Hardware",
+      "Drones",
+      "Aerospace",
+      "Maritime",
+      "Defense"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 3,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3814524,
+        "full_name": "Jorge Cavazos",
+        "title": "Founder/COO",
+        "is_active": true,
+        "bio": "Founder at Kairox Systems. Previously lead ADCS engineer at Oligo Space, responsible for control law design, magnetorquer fabrication, and hardware-in-the-loop qualification. Designed self-regulating membrane testing systems at MIT Bioinstrumentation Lab. BS in Aerospace Engineering from MIT.",
+        "linkedin_url": "https://www.linkedin.com/in/jorge-cavazos-46767520a/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/631025187618a0cf5e276833f45b7b02bcef5eaa.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAGIM6XJMM%2F20261022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261022T181538Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGkPOkveRnESrY3wInzW68NxB1s0wCV%2FhX7F2bVHcsA7AiABry6NrrJwk1fhGDanaY%2FiG%2B3qF93GnvwemL2eDaun%2ByrlAwh7EAAaDDAwNjIwMTgxMTA3MiIM%2FS%2BZ4DSruyPXKel%2BKsIDQauSJJSopEiB8zcLnnYE4ytHyAld%2FM%2FhhL7cbCZc8UqMYEvRXgxh23uZ8qJMb00x7TUWjtxxcysmHuoNUyLkhfed7pHFuWcqJFLxzkFZRzRgptqoQsW0ct%2FeQyqDjWjeW%2BfS9tE8pBa5ELPQCImh1KgTz0%2FhiOjYr2LSqhz8AkYU9k57UHDkCF%2FK5QZXjNvyY4VJEmEo%2BHT9FTXypDhhpLzVEBqtiNLqxSoNyCMJ9KPAXQVNZX1NHrON%2BUPb8ndNUiVOY4iZnrG1lU3T2bKdnFVdoAb8stAigBVoJXrw72GedQM9RTCJO6rR2CQGnO1B1Kz6TgXW%2FBS6SEBKZqYXr%2Fth8yZC5VJqKcvdVQHHgWr75I78fEcBaWZX17Nx3ldwK26Qn7AC7LuUqk5qmT58HKQp29%2FqFEoUPPrJOIUEn0qGkdHeqvy1QE7jhNfNl3SPU8bJy96aaVagcoOO4J%2F8qyVx2h86JLuW8X%2FmIVLoKFdlwfCAioVwA4I3t5ymldAOL6T4OQT6TBCTECf%2FEciVvDSRAm5y%2FulnZbfxBOzrdImxaizlZ3hqqkpSEUjxn3II%2BP%2BgvonEG0g3FZbPPEH6V6HJMK%2Bg6dYGOqYBeonbNKxHAccxtlIzmlQjG6VK6%2F2hBI%2FCXwm2fGztb84iyce%2F04J65%2FfvP624Xozz0kYzJV6bpocUBUWuGCt4ayNSu%2FBAO2MbjnCM2zngwDAgpCO9rsWKRBeogLNr1HZG9eWPrquIOQ4RZR%2FxWIu9q%2B3GNkKZyuQwQ3Rbs3DxVUDkk2SsZGtSCN8RUaeTiObrdpIgEDOY3GiIc5auahwhQwf%2FGG%2FEdA%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=44b36adfec61acdcd8e92d9cf5086b1463db4dbcc757f82261f56f6a76665d1e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Kairox Systems",
+          "href": "https://www.ycombinator.com/companies/kairox-systems"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-22T18:15:47.437Z",
+    "classified_at": "2026-10-22T18:15:47.437Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
+  },
+  {
     "slug": "kaizen",
     "name": "Kaizen",
     "website": "https://kaizenautomation.com",
@@ -50552,7 +50712,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/kiwi",
     "batch": "Fall 2026",
     "one_liner": "Kiwi is your GTM agent&#x27;s favorite data engineer.",
-    "description_combined": "Kiwi is your GTM agent&#x27;s favorite data engineer.\n\nWhile engineering teams have become fully AI-native, GTM teams have fallen behind. Teams struggle with continuous enablement of their teams, keeping context, agent skills, and connectors up to date with shifting GTM states and strategies, as well as accuracy, when operators can&#x27;t trust their agents because the data is incomplete, inconsistent, or unreliable. With Kiwi, every agent is self-improving, and cites the SQL query and data snapshot pulled from the Kiwi GTM brain used to produce every output. Kiwi enables GTM teams to be fully AI-native. ",
+    "description_combined": "Kiwi is your GTM agent&#x27;s favorite data engineer.\n\nWhile engineering teams have become fully AI-native, GTM teams have fallen behind. Teams struggle with continuous enablement of their teams, keeping context, agent skills, and connectors up to date with shifting GTM states and strategies, as well as accuracy, when operators can&#x27;t trust their agents because the data is incomplete, inconsistent, or unreliable. With Kiwi, every agent is self-improving, and cites the SQL query and data snapshot pulled from the Kiwi GTM brain used to produce every output. Kiwi enables GTM teams to be fully AI-native. \n\nWe help GTM teams build agents that they can trust. \n\nHi, I’m Melanie and I’m the founder of Kiwi. \n\n | linkedin | x/twitter\n\n### Tl;dr\n\nKiwi makes GTM agents self-improving and accurate, without having to hire data engineers. Every agent run can cite the SQL query it ran over the GTM data lake as evidence, and every decision or approval in the agent workflow powers evals that improve the agent. \n\nIf you or another GTM team that you know is struggling to use agents in their day-to-day workflows and keeps falling back to repetitive, manual tasks, trykiwi.now. \n\n\n\n### The problem\n\n6 months ago, I was leading the post-sales team at a startup, and I hit a breaking point. I had spent 20 hours that week reviewing and fixing the work that my GTM teams’ agents had done. Despite spending hours each week on enablement, I always felt behind. Every week,",
     "industry_sub_vertical": "GTM agent context & data infrastructure for sales operations",
     "canonical_vertical_id": "ai-infrastructure.agent-context-web",
     "vertical_id": "ai-infrastructure.agent-context-web",
@@ -50609,6 +50769,12 @@
     "directory_synced_at": "2026-10-21T18:21:59.036Z",
     "classified_at": "2026-10-21T18:21:59.036Z",
     "proposed_phenotype": null,
+    "launch_id": 124027,
+    "launch_url": "https://www.ycombinator.com/launches/WGR-kiwi-your-gtm-agent-s-data-engineer",
+    "launch_title": "Kiwi 🥝: your GTM agent’s data engineer ",
+    "launch_created_at": "2026-10-22T13:00:00.180Z",
+    "launch_tagline": "We help GTM teams build agents that they can trust. ",
+    "launch_evaluated_at": "2026-10-22T18:16:32.263Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -51787,6 +51953,55 @@
     "primary_bm": "BM-08"
   },
   {
+    "slug": "lamin",
+    "name": "Lamin",
+    "website": "https://lamin.ai",
+    "yc_profile_url": "https://www.ycombinator.com/companies/lamin",
+    "batch": "Summer 2022",
+    "one_liner": "pip install lamindb to trace, query & govern multimodal data in bio/AI",
+    "description_combined": "pip install lamindb to trace, query & govern multimodal data in bio/AI\n\nWe’re thrilled to share that Lamin is now generally available! With just a few clicks, anyone can create a database on lamin.ai.\n\nIn 2022, we set out to build an open-source data management tool that’d make it easier to scale AI workflows in the life sciences. Over the past few years, we’ve served research labs and enterprises of all sizes with what used to take a dozen tools:\n\n\\- Data lineage\n\\- Format-agnostic lakehouse\n\\- Notes, ELN, LIMS, ontologies, projects\n\\- Versioning + branching\n\\- Data lake + catalog\n\\- Agents, workflows, notebooks\n\\- Feature store, MLOps\n\nWith Lamin, it’s just Postgres &amp; storage in a Python package, plus an optional GitHub-like web platform.\n\nGive it a try: pip install lamindb\n\n\n\nRepo: \n\nPost:",
+    "industry_sub_vertical": "Biotech R&D multimodal data lineage, versioning & governance for AI workflows",
+    "canonical_vertical_id": "ai-infrastructure.training-data",
+    "vertical_id": "ai-infrastructure.training-data",
+    "vertical_label": "Training & eval data generation",
+    "vertical_sector_id": "ai-infrastructure",
+    "phenotype_primary_id": "biotech-rd-agent",
+    "phenotype_primary_label": "Biotech / clinical R&D acceleration",
+    "phenotype_family": "life_sciences",
+    "value_wedge": "rd_acceleration",
+    "ai_application": "scientific_workflow",
+    "ai_application_patterns": [
+      "data_lineage_tracking",
+      "multimodal_data_governance",
+      "workflow_orchestration",
+      "mlops_automation"
+    ],
+    "what_they_sell": "Open-source Python package (lamindb) + optional hosted SaaS platform for data management, lineage tracking, versioning, and workflow orchestration in biotech R&D. Replaces fragmented tooling (ELN, LIMS, data lake, feature store, MLOps) with unified, format-agnostic lakehouse backed by Postgres and cloud storage.",
+    "ai_play": "Enables biotech labs and enterprises to govern multimodal experimental data (sequences, images, tables, logs) at scale, track data provenance, version datasets, and orchestrate AI-driven research workflows (agents, notebooks, feature engineering) without manual data plumbing. AI agents can reliably query, transform, and reason over governed data.",
+    "who_pays": "Research labs, biotech enterprises, pharma R&D teams, and AI-native life-sciences companies building on top of Lamin's infrastructure.",
+    "confidence": 0.82,
+    "rationale": "Lamin is a dual-phenotype play: (1) Primary: biotech-rd-agent — core value is accelerating R&D workflows in life sciences by automating data governance, lineage, and orchestration for scientific teams. (2) Secondary: open-source-commercial — monetizes via OSS adoption (pip install lamindb) + hosted SaaS platform (lamin.ai). The 'agents, workflows, notebooks' language and multimodal data handling suggest agentic automation is a first-class feature, not an afterthought. Confidence is high (0.82) because the positioning is explicitly R&D-focused and the tool directly enables AI workflows in biotech, but slightly tempered because the primary revenue model appears to be infrastructure/platform licensing rather than outcome-based R&D acceleration.",
+    "method": "launch_agent",
+    "yc_industries": [
+      "B2B"
+    ],
+    "yc_tags": [],
+    "business_models": [
+      "BM-09"
+    ],
+    "launch_id": 124124,
+    "launch_url": "https://www.ycombinator.com/launches/WI0-lamin-open-data-platform-for-science",
+    "launch_title": "Lamin — Open data platform for science",
+    "launch_created_at": "2026-10-22T15:28:46.644Z",
+    "launch_tagline": "pip install lamindb to trace, query & govern multimodal data in bio/AI",
+    "launch_ingested_at": "2026-10-22T18:16:32.262Z",
+    "classified_at": "2026-10-22T18:16:32.262Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-09"
+  },
+  {
     "slug": "lamina-labs",
     "name": "Lamina Labs",
     "website": "https://laminalabs.ai",
@@ -52297,7 +52512,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/lark-2",
     "batch": "Fall 2026",
     "one_liner": "Lark - Specialized agents for wholesale distributors",
-    "description_combined": "Lark - Specialized agents for wholesale distributors\n\nLark builds specialized AI agents that automate manual workflows for wholesale distributors. Our agents work with existing ERP systems, learning from each distributor’s historical data and the team’s decisions. Together, these agents can run a distributor’s entire operation.",
+    "description_combined": "Lark - Specialized agents for wholesale distributors\n\nLark builds specialized AI agents that automate manual workflows for wholesale distributors. Our agents work with existing ERP systems, learning from each distributor’s historical data and the team’s decisions. Together, these agents can run a distributor’s entire operation.\n\nAutomate purchasing, inventory, and sales without replacing your ERP.\n\nHey YC! We’re Jason and Michael, brothers and co-founders of Lark.\n\nTL;DR: Lark builds AI agents that automate the daily work of running a distributor. It recommends what to reorder, prepares purchase orders and supplier emails, monitors inventory, and keeps sales records current, all on top of the ERP you already use.\n\nThe problem: distributors still run on email and spreadsheets\nDistributors supply everything from construction materials to restaurant ingredients. Their teams still spend hours piecing together information across email, spreadsheets, and legacy software.\n\nTake a basic question: what should we reorder today? A buyer has to check stock, customer orders, incoming deliveries, and sales history, then decide quantities and prepare purchase orders. The decisions often depend on r",
     "industry_sub_vertical": "Wholesale distributor procurement & order fulfillment automation",
     "canonical_vertical_id": "logistics.supply-chain.ops",
     "vertical_id": "logistics.supply-chain.ops",
@@ -52369,6 +52584,12 @@
     "directory_synced_at": "2026-09-17T17:55:57.651Z",
     "classified_at": "2026-09-17T17:55:57.651Z",
     "proposed_phenotype": null,
+    "launch_id": 123372,
+    "launch_url": "https://www.ycombinator.com/launches/W5s-lark-ai-agents-for-distributors",
+    "launch_title": "Lark — AI agents for distributors",
+    "launch_created_at": "2026-10-22T17:30:00.125Z",
+    "launch_tagline": "Automate purchasing, inventory, and sales without replacing your ERP.",
+    "launch_evaluated_at": "2026-10-22T18:16:32.262Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-01"
@@ -56146,6 +56367,76 @@
     "primary_bm_method": "assign_primary_bm_haiku",
     "vertical_normalize_confidence": 0.72,
     "vertical_normalize_method": "llm_vertical"
+  },
+  {
+    "slug": "lux-foods",
+    "name": "Lux Foods",
+    "website": "https://www.luxfoods.xyz",
+    "yc_profile_url": "https://www.ycombinator.com/companies/lux-foods",
+    "batch": "Fall 2026",
+    "one_liner": "Crops engineered for fruit, grown without sunlight.",
+    "description_combined": "Crops engineered for fruit, grown without sunlight.\n\nLux Foods engineers compact, fruit-focused plants and grows them on sugar under low-intensity artificial light. We design the biology and hardware together to make robotic farming easier. Starting with tomatoes, we’re building year-round production of flavorful, nutritious, pesticide-free fruit near the people who eat it.",
+    "industry_sub_vertical": "Controlled environment agriculture (CEA) robotic farming systems and engineered crop production",
+    "canonical_vertical_id": "industrials.manufacturing.automation",
+    "vertical_id": "industrials.manufacturing.automation",
+    "vertical_label": "Manufacturing & logistics automation",
+    "vertical_sector_id": "industrials-defense",
+    "phenotype_primary_id": "ai-enabled-physical-systems",
+    "phenotype_primary_label": "AI-Enabled Physical Infrastructure",
+    "phenotype_family": "physical_ai",
+    "value_wedge": "physical_system",
+    "ai_application": "design_manufacturing_control",
+    "ai_application_patterns": [
+      "plant_biology_optimization",
+      "robotic_farming_automation",
+      "hardware_software_codesign"
+    ],
+    "what_they_sell": "Engineered crop varieties (tomatoes) optimized for indoor cultivation under artificial light, paired with robotic farming hardware and autonomous growing systems. Year-round, pesticide-free fruit production in controlled environments.",
+    "ai_play": "AI optimizes plant biology design (crop engineering for low-light, compact growth), robotic system control (autonomous harvesting, environmental monitoring), and hardware-software co-design to reduce manual labor and maximize yield efficiency in indoor farms.",
+    "who_pays": "Food producers, regional distributors, and retailers seeking local, year-round fruit supply; potentially direct-to-consumer or B2B food service.",
+    "confidence": 0.78,
+    "rationale": "Lux Foods is fundamentally a physical systems company: they engineer biology (crop genetics) and hardware (robotic farming infrastructure) together. AI is the enabler—optimizing plant phenotypes for robotic cultivation, automating farm operations, and enabling autonomous control of growing conditions. This fits ai-enabled-physical-systems better than robotics-embodied-ai (which focuses on robot design/teleoperation) or biotech-rd-agent (which focuses on R&D acceleration, not production operations). The core value is the integrated physical system (engineered plants + robotic farm), not AI as the primary product. Confidence is high (0.78) because the description explicitly states 'design the biology and hardware together' and 'make robotic farming easier,' indicating AI-driven co-optimization of physical systems.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Industrials",
+      "Manufacturing and Robotics"
+    ],
+    "yc_tags": [
+      "Cellular Agriculture",
+      "Robotics",
+      "Agriculture",
+      "AI",
+      "Biotechnology"
+    ],
+    "business_models": [
+      "BM-08"
+    ],
+    "team_size": 4,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 1500439,
+        "full_name": "Andre Yeung",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "CEO & co-founder at Lux Foods. Stanford BioE/Computer Science (AI) B.S./B.S.. First lab student in Dr. Robert Jinkerson&#x27;s lab at UC Riverside, leading project on endosymbiotic gene transfer in algae. Previously student researcher at Brophy Lab working on synthetic genetic circuits in plants. Founded Fruit for Homeless nonprofit, leading 25 students to rescue and distribute 300,000 pounds of fresh fruit to underserved LA communities. Regeneron STS Semi-finalist, iGEM silver medalist.",
+        "linkedin_url": "https://www.linkedin.com/in/andre-yeung",
+        "twitter_url": "https://x.com/ayyeung42",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/2caa51763e8bff60f6eccdbbdd90c0ec050dbe12.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAJ4RMYDAN%2F20261022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261022T181519Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDRbo6h5nJZhogaFIR%2BbcEkGUYURYPfDs5T5aOFuw%2FQAAIhAOIsZ%2FBu0MVOBka2bYtqmTi0lfM7NGmX7LYlfOzx07b7KuUDCHsQABoMMDA2MjAxODExMDcyIgyLihdJkw%2FBMPIEXCIqwgOq8b5%2FspOXe%2BCaWwCVJ%2BrffRBqmM9z%2BOhEEmjSODDReA7oQHll3GB7AYlfzTA1thJC0KUGEZBhdGP3svSwM0TmYda5N%2BPbnlN2R9p0Wzyd8Cyld4viFNg8px20JnRAT7epB9gFGRe9D9WjMovq%2FQ8e1RAMM7IUHe0NkGXEmKiaeYWjQk5Pf00scsHtnOVc5AELkmqRVibHNC5T0q7HA4GsYEXAEwyv9jkmjD37zu4kXZr4Bf9b8jbPxsDOF%2FyQ7n%2BEOGF8nmr0UudDKyWDt2rkbFg9487Mfqm6N0IlT0K7u%2BxRivUOUbBthZYjuf4H4c6CNam%2B1yQ5mTvRY0tYbuOoh5tfbYQCMT1g7ZbpoaUo13VqZmGjxKlPXvw%2FH4G33g5Trv4xKjEZKudGA%2Bo3mdQFwaNcp678x7iOWOYZ0UB3KKT2Txcw84wa79eOZDa86NSbHBOOY6qB5kgKZt6Qi0k6e3TJ9dqxYRSZDeA0UbtN%2BTX2o207HQFEYI07j7gOfuqsksPZtm9lWamft826nqT%2FkKDIgkUEEKydCs0M5oH94kAFaAvqzYhYv1ySALyvdEqOFN3Qyr2bIBAJozGP0YRGCr4wr6Dp1gY6pAGyorhh%2BfSmQGWDMBqZRtEwefTgTwsgJMpcDJ%2B8zGxG9cz2vtNb1nZ3%2FBHGCvn6jdFjz9TF2fWs%2Bg3SKA7QzWCdfFw8G%2BC%2FuuioqxIsoWmptAPa2da4NZuORR73ljN7w4qU7UIw5RLs1KA62yWt0jMdM5pEOXndiNzIPaqFhXc3bxwED6s844qlu7%2Fc7DVU7J7jGTzybzRi7EEJDVvZT3X3I78NgQ%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=1d7a1cf98f614ed0cf95052b3c9510d7d592c09280aa96973d59767b2f29dba3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Lux Foods",
+          "href": "https://www.ycombinator.com/companies/lux-foods"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-22T18:15:27.901Z",
+    "classified_at": "2026-10-22T18:15:27.901Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-08"
   },
   {
     "slug": "lyon",
@@ -69807,7 +70098,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/opera",
     "batch": "Fall 2026",
     "one_liner": "Automated operations research (OR) lab",
-    "description_combined": "Automated operations research (OR) lab\n\nOpera (YC F26) is an automated operations research lab applying mathematics and AI to optimize operations for retail, logistics, manufacturing, agriculture and more, delivering solutions for VP of Operations, supply chain leaders, plant managers and COOs to improve efficiency and decision-making.",
+    "description_combined": "Automated operations research (OR) lab\n\nOpera (YC F26) is an automated operations research lab applying mathematics and AI to optimize operations for retail, logistics, manufacturing, agriculture and more, delivering solutions for VP of Operations, supply chain leaders, plant managers and COOs to improve efficiency and decision-making.\n\nOpEra: The AI decision engine for factories, warehouses and fleets\n\nTL;DR: OpEra helps operations teams make the best decision at every step of the supply chain: what to produce, what to stock, which orders go on which truck, who works which shift. We build custom AI decision engines that re-plan when reality changes: a sick employee, a broken machine, a new regulation.\n\n🎬 Launch Video: \n\nHi, we're Hindy and Bernardo. We met at MIT's Operations Research Center, where we worked on delivery routing for a major retailer. On their data, our model cut transportation costs by 38%. More projects followed, and we turned down offers from Palantir, Mercor and Stack AI to build OpEra.\n\n🏭 The problem\n\nEvery day, companies decide what to produce, how much stock to hold, which orders go on which trucks and who works which shift. Most still plan in spreadsheets, or in ",
     "industry_sub_vertical": "Supply chain optimization & operations research for retail, logistics, manufacturing, and agriculture",
     "canonical_vertical_id": "logistics.supply-chain.ops",
     "vertical_id": "logistics.supply-chain.ops",
@@ -69851,6 +70142,12 @@
     "directory_synced_at": "2026-09-26T17:36:57.350Z",
     "classified_at": "2026-09-26T17:36:57.350Z",
     "proposed_phenotype": null,
+    "launch_id": 123232,
+    "launch_url": "https://www.ycombinator.com/launches/W3c-opera-the-ai-decision-engine-for-factories-warehouses-and-fleets",
+    "launch_title": "OpEra: The AI decision engine for factories, warehouses and fleets",
+    "launch_created_at": "2026-10-22T16:00:00.298Z",
+    "launch_tagline": "OpEra: The AI decision engine for factories, warehouses and fleets",
+    "launch_evaluated_at": "2026-10-22T18:16:32.262Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-01"
@@ -70468,7 +70765,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/orgo",
     "batch": "Fall 2026",
     "one_liner": "Computers for Agents",
-    "description_combined": "Computers for Agents\n\nOrgo is the simplest way to give your AI employees their own secure, persistent cloud computers. Over 1000 teams use Orgo to run AI workers.",
+    "description_combined": "Computers for Agents\n\nOrgo is the simplest way to give your AI employees their own secure, persistent cloud computers. Over 1000 teams use Orgo to run AI workers.\n\nOrgo gives AI agents their own cloud computers.\n\nTL;DR: Orgo gives AI agents their own cloud computers. Persistent desktops, ready in seconds, that work with any model or agent.\n\nWhether you're building an AI employee, an always-on assistant or an agent connected to hardware, it needs a computer to run tools, keep files and use software. Orgo gives it one, and we already run thousands of desktops in production.\n\nBuilding that yourself means months of work on VMs, desktop streaming, storage, snapshots, isolation and autoscaling before your agent does anything useful. With Orgo, you launch a desktop in seconds and get back to building your agent.\n\n\n\n_^ A few fun examples above of AI agents using remote computers from Orgo, along with a couple of GPU demos (Minecraft and UE5) from our GPU desktop beta._\n\nWhat you get:\n\n* Full GUI desktops, ",
     "industry_sub_vertical": "AI agent compute runtime & persistent execution environment",
     "canonical_vertical_id": "ai-infrastructure.agent-runtime",
     "vertical_id": "ai-infrastructure.agent-runtime",
@@ -70541,6 +70838,12 @@
     "directory_synced_at": "2026-10-20T18:19:42.729Z",
     "classified_at": "2026-10-20T18:19:42.729Z",
     "proposed_phenotype": null,
+    "launch_id": 123737,
+    "launch_url": "https://www.ycombinator.com/launches/WBl-orgo-computers-for-agents",
+    "launch_title": "Orgo - Computers for Agents",
+    "launch_created_at": "2026-10-21T18:52:17.507Z",
+    "launch_tagline": "Orgo gives AI agents their own cloud computers.",
+    "launch_evaluated_at": "2026-10-22T18:16:32.263Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"
@@ -91750,6 +92053,89 @@
     "primary_bm": "BM-03"
   },
   {
+    "slug": "sidekit",
+    "name": "SideKit",
+    "website": "https://appsidekit.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/sidekit",
+    "batch": "Winter 2026",
+    "one_liner": "Consumer app studio.",
+    "description_combined": "Consumer app studio.\n\nSideKit is a consumer app studio that makes Island, a different kind of screen time app.",
+    "industry_sub_vertical": "Consumer digital wellness & screen time optimization",
+    "canonical_vertical_id": "enterprise.devtools.productivity",
+    "vertical_id": "enterprise.devtools.productivity",
+    "vertical_label": "Developer productivity & engineering tools",
+    "vertical_sector_id": "enterprise-software",
+    "phenotype_primary_id": "consumer-ai-app",
+    "phenotype_primary_label": "Consumer / prosumer AI application",
+    "phenotype_family": "consumer",
+    "value_wedge": "consumer_subscription",
+    "ai_application": "personal_assistant",
+    "ai_application_patterns": [
+      "screen_time_optimization",
+      "behavioral_nudging",
+      "personalization"
+    ],
+    "what_they_sell": "Island: a consumer screen time management app that uses AI to intelligently monitor, analyze, and optimize user app usage patterns and digital wellness.",
+    "ai_play": "AI powers behavioral analysis and personalized recommendations to help consumers reduce unproductive screen time, improve focus, and manage digital habits autonomously.",
+    "who_pays": "End consumers (freemium or subscription model)",
+    "confidence": 0.72,
+    "rationale": "SideKit is a consumer app studio building Island, a screen time / digital wellness product for end users. This is a consumer-facing AI application (not B2B SaaS, not vertical automation, not infrastructure). The AI likely powers behavioral analysis, usage pattern recognition, and personalized nudging/recommendations to optimize screen time. Fits consumer-ai-app phenotype: end-user facing, subscription-monetized, AI-enhanced personal productivity tool. Secondary consideration: could have elements of horizontal-copilot-saas if Island is positioned as a productivity multiplier, but the description emphasizes 'screen time app' (wellness/behavior) rather than work productivity, so consumer-ai-app is primary fit.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "B2B",
+      "Engineering, Product and Design"
+    ],
+    "yc_tags": [
+      "Enterprise Software",
+      "Infrastructure",
+      "AI"
+    ],
+    "business_models": [
+      "BM-10"
+    ],
+    "team_size": 2,
+    "location": "Toronto, ON, Canada",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3229135,
+        "full_name": "Ethan Pronev",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder at SideKit, a consumer app studio. Previously worked on trading systems at Jane Street and Citadel Securities. Computer Science graduate from the University of Waterloo, class of 2025.",
+        "linkedin_url": "https://www.linkedin.com/in/ethan-pronev",
+        "twitter_url": "https://x.com/ethanpronev",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/bc2e0a901422a1951b677c9ae1edbf7f9d8b954a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHBXECHQ7%2F20261022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261022T181512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCWC9MD1i4ivUBS%2F49PSaGjpWRlDGCDVALilmfTZub6wwIgbTi62iR2EgiU9Rk%2Bhy4Vtri5sdl9cjunhTR%2FGHwCALoq5QMIexAAGgwwMDYyMDE4MTEwNzIiDC%2Bksjl2MXnN1DGV7CrCA%2BYZDzIeBXUx8HHCd8toVGHMB4AA3JKMs4568o0DNcdsD%2FYygD16ZJaX7EXHhvbut%2FRklFJVcRk3MXB%2F8OiPrnSfi34YTEnQzjwDIW3ckLLZmHuqWfbyv8LR%2BP9I%2Bmm9httd98FNp5bwIpuN%2FSYyzijIWKkxMcdDxTKW9nWd7ppz%2Fbr8TL3R4Z9R0mEjK06KmME8e%2BJtIpQdqNBsp55gi84vOi3mHnvmFqxXfSrVOdCDulTf8FPxGU15%2BsBlITFggA9KseJylTNI4Nvtvvs4zm6KXXKtanVBL%2F9hTpu4qwhMKRRFqSeJ%2BkVMXoiML8JQhYJfsC5rupjiG0unaOZ6odpvdIDw14qQRdqu9gxBVI%2FELAlxXcCDpF0jK9Jdf%2FcCkW5%2BWKUeVgLw95MJ0ufQvuvcunNNLxugD%2Fh254UzF1JzswjSZNVD58tL7WOAfGXWJYGsd4rZqys6B5KCkSHOEEMhP4oSeGgz3NQRHZk%2FrYSfKtoYIDF%2Bbb2uojLJmbTWNjJb8ButOoquM5LN%2BA3U956Q7v64OOJ6XNZUuOb2N1bXuVNDemUvK4vt5Nuep6LVMfCcwhIU4hYwqFt%2FuXNHWrb7NTCuoOnWBjqlAbAUM2YEYMXBLKi0bihibErIFl7aV4hFu5h%2Bdc2xQ4ptOJF3qub1OMYlNgutbUPbmrD3cIpILzoi6vXNiIm1zQm0ZHJCHOEWZNQVGHEvZSmZi8BOkvjz6YBHVLVoRNCsHIKlJgK4hG%2Fb%2BaPkgxweWFWAPqQhREfkJ0DtzuZNQICORTUZyFS5DMM2Kiwlj8Mq7JidkUWt25OPbiA9pMmEgsqfr4Afeg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=90cbad97e354777129f7722b4093cd9d85fb27f0a772eecfb332ad3d78f0fea1",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "SideKit",
+          "href": "https://www.ycombinator.com/companies/sidekit"
+        }
+      },
+      {
+        "user_id": 2960509,
+        "full_name": "Ashish Selvaraj",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder at SideKit, a consumer app studio. Previously worked on delta live tables at Databricks, an infra testing engine at Microsoft and graduated with a double degree in Computer Science and Business from Waterloo in 2025.",
+        "linkedin_url": "https://www.linkedin.com/in/ashish-selvaraj/",
+        "twitter_url": "https://x.com/asheeeeeshh",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/b55ae2511335d9eef1ee99bbf880a8b7585339e1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHBXECHQ7%2F20261022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261022T181512Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCWC9MD1i4ivUBS%2F49PSaGjpWRlDGCDVALilmfTZub6wwIgbTi62iR2EgiU9Rk%2Bhy4Vtri5sdl9cjunhTR%2FGHwCALoq5QMIexAAGgwwMDYyMDE4MTEwNzIiDC%2Bksjl2MXnN1DGV7CrCA%2BYZDzIeBXUx8HHCd8toVGHMB4AA3JKMs4568o0DNcdsD%2FYygD16ZJaX7EXHhvbut%2FRklFJVcRk3MXB%2F8OiPrnSfi34YTEnQzjwDIW3ckLLZmHuqWfbyv8LR%2BP9I%2Bmm9httd98FNp5bwIpuN%2FSYyzijIWKkxMcdDxTKW9nWd7ppz%2Fbr8TL3R4Z9R0mEjK06KmME8e%2BJtIpQdqNBsp55gi84vOi3mHnvmFqxXfSrVOdCDulTf8FPxGU15%2BsBlITFggA9KseJylTNI4Nvtvvs4zm6KXXKtanVBL%2F9hTpu4qwhMKRRFqSeJ%2BkVMXoiML8JQhYJfsC5rupjiG0unaOZ6odpvdIDw14qQRdqu9gxBVI%2FELAlxXcCDpF0jK9Jdf%2FcCkW5%2BWKUeVgLw95MJ0ufQvuvcunNNLxugD%2Fh254UzF1JzswjSZNVD58tL7WOAfGXWJYGsd4rZqys6B5KCkSHOEEMhP4oSeGgz3NQRHZk%2FrYSfKtoYIDF%2Bbb2uojLJmbTWNjJb8ButOoquM5LN%2BA3U956Q7v64OOJ6XNZUuOb2N1bXuVNDemUvK4vt5Nuep6LVMfCcwhIU4hYwqFt%2FuXNHWrb7NTCuoOnWBjqlAbAUM2YEYMXBLKi0bihibErIFl7aV4hFu5h%2Bdc2xQ4ptOJF3qub1OMYlNgutbUPbmrD3cIpILzoi6vXNiIm1zQm0ZHJCHOEWZNQVGHEvZSmZi8BOkvjz6YBHVLVoRNCsHIKlJgK4hG%2Fb%2BaPkgxweWFWAPqQhREfkJ0DtzuZNQICORTUZyFS5DMM2Kiwlj8Mq7JidkUWt25OPbiA9pMmEgsqfr4Afeg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=e05a6881a6ec98a51af63d836cd778be1ad0f366a9c2183b47cc415dacf1403e",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "SideKit",
+          "href": "https://www.ycombinator.com/companies/sidekit"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-22T18:15:19.202Z",
+    "classified_at": "2026-10-22T18:15:19.202Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 0.55,
+    "vertical_normalize_method": "yc_subindustry_default",
+    "primary_bm": "BM-10"
+  },
+  {
     "slug": "sieveai",
     "name": "sieve",
     "website": "https://usesieve.com/",
@@ -100384,6 +100770,90 @@
     "vertical_normalize_method": "llm_vertical"
   },
   {
+    "slug": "telamont",
+    "name": "Telamont",
+    "website": "https://telamont.com",
+    "yc_profile_url": "https://www.ycombinator.com/companies/telamont",
+    "batch": "Fall 2026",
+    "one_liner": "Sentry for risks in construction documents",
+    "description_combined": "Sentry for risks in construction documents\n\nTelamont catches contractual, technical and code-compliance risks in construction documents and gives teams the system to act on them before they become costly rework or disputes.\r\n\r\nConstruction projects lose money in the gap between what the documents say and what gets built. One missed discrepancy between the specs, drawings, geotechnical study and code can become a seven-figure claim eighteen months later.\r\n\r\nTelamont connects to where your documents live and pulls in every file and revision as it lands, continuously building a complete picture of the project. Every page is checked against the rest of the project, so risks are flagged as soon as they appear. Instead of reviewing documents, teams act on flagged risks, tracking each from detection to resolution while managing exposure and pursuing recovery opportunities across every project.",
+    "industry_sub_vertical": "Construction document risk detection and contract compliance management",
+    "canonical_vertical_id": "construction.contract-administration",
+    "vertical_id": "construction.contract-administration",
+    "vertical_label": "Contract administration & change management",
+    "vertical_sector_id": "real-estate-construction",
+    "phenotype_primary_id": "compliance-gov-automation",
+    "phenotype_primary_label": "Compliance / regulatory / gov automation",
+    "phenotype_family": "regulated_workflow",
+    "value_wedge": "risk_reduction",
+    "ai_application": "policy_automation",
+    "ai_application_patterns": [
+      "document_risk_detection",
+      "cross_document_consistency_checking",
+      "compliance_violation_flagging",
+      "workflow_tracking_resolution"
+    ],
+    "what_they_sell": "Continuous document risk monitoring and compliance platform for construction projects. Ingests all project documents (specs, drawings, geotechnical studies, code requirements) in real-time, detects contractual, technical, and code-compliance discrepancies, flags risks automatically, and provides workflow tools to track remediation from detection to resolution.",
+    "ai_play": "AI continuously analyzes multi-document relationships to detect inconsistencies, compliance gaps, and contractual risks that would otherwise require manual expert review. Replaces reactive document review with proactive risk detection, reducing costly rework and disputes by catching discrepancies before construction execution.",
+    "who_pays": "Construction project managers, general contractors, owners, and construction teams managing project delivery and risk exposure.",
+    "confidence": 0.78,
+    "rationale": "Telamont is primarily a compliance and risk-automation platform for construction workflows. The core value is detecting and managing regulatory/contractual/technical compliance risks in a highly regulated, document-heavy domain. This maps to compliance-gov-automation (risk_reduction, policy_automation) as the primary phenotype. Secondary fit is vertical-workflow-automation-ai because it automates document-driven workflows specific to construction. The AI application is document analysis, cross-reference checking, and compliance violation detection — not agent orchestration or general copilot. Confidence is 0.78 (not higher) because while compliance automation is clear, the platform is more specialized risk-detection SaaS than traditional gov/regulatory automation; however, construction is a highly regulated domain with similar compliance friction to gov/defense workflows.",
+    "method": "directory_agent",
+    "yc_industries": [
+      "Real Estate and Construction",
+      "Construction"
+    ],
+    "yc_tags": [
+      "Documents",
+      "Construction",
+      "AI"
+    ],
+    "business_models": [
+      "BM-01"
+    ],
+    "team_size": 6,
+    "location": "San Francisco, CA, USA",
+    "status": "Active",
+    "founders": [
+      {
+        "user_id": 3119151,
+        "full_name": "Charles Goulet",
+        "title": "Founder/CEO",
+        "is_active": true,
+        "bio": "3rd-generation construction family. Previously 1Password Sr Engineer & Scotiabank Quant. CS, Université Laval.",
+        "linkedin_url": "https://www.linkedin.com/in/charles-goulet-62655b17a",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/a464db6bfc715a217e4281f11350fde18a57e6b1.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHBXECHQ7%2F20261022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261022T181528Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCWC9MD1i4ivUBS%2F49PSaGjpWRlDGCDVALilmfTZub6wwIgbTi62iR2EgiU9Rk%2Bhy4Vtri5sdl9cjunhTR%2FGHwCALoq5QMIexAAGgwwMDYyMDE4MTEwNzIiDC%2Bksjl2MXnN1DGV7CrCA%2BYZDzIeBXUx8HHCd8toVGHMB4AA3JKMs4568o0DNcdsD%2FYygD16ZJaX7EXHhvbut%2FRklFJVcRk3MXB%2F8OiPrnSfi34YTEnQzjwDIW3ckLLZmHuqWfbyv8LR%2BP9I%2Bmm9httd98FNp5bwIpuN%2FSYyzijIWKkxMcdDxTKW9nWd7ppz%2Fbr8TL3R4Z9R0mEjK06KmME8e%2BJtIpQdqNBsp55gi84vOi3mHnvmFqxXfSrVOdCDulTf8FPxGU15%2BsBlITFggA9KseJylTNI4Nvtvvs4zm6KXXKtanVBL%2F9hTpu4qwhMKRRFqSeJ%2BkVMXoiML8JQhYJfsC5rupjiG0unaOZ6odpvdIDw14qQRdqu9gxBVI%2FELAlxXcCDpF0jK9Jdf%2FcCkW5%2BWKUeVgLw95MJ0ufQvuvcunNNLxugD%2Fh254UzF1JzswjSZNVD58tL7WOAfGXWJYGsd4rZqys6B5KCkSHOEEMhP4oSeGgz3NQRHZk%2FrYSfKtoYIDF%2Bbb2uojLJmbTWNjJb8ButOoquM5LN%2BA3U956Q7v64OOJ6XNZUuOb2N1bXuVNDemUvK4vt5Nuep6LVMfCcwhIU4hYwqFt%2FuXNHWrb7NTCuoOnWBjqlAbAUM2YEYMXBLKi0bihibErIFl7aV4hFu5h%2Bdc2xQ4ptOJF3qub1OMYlNgutbUPbmrD3cIpILzoi6vXNiIm1zQm0ZHJCHOEWZNQVGHEvZSmZi8BOkvjz6YBHVLVoRNCsHIKlJgK4hG%2Fb%2BaPkgxweWFWAPqQhREfkJ0DtzuZNQICORTUZyFS5DMM2Kiwlj8Mq7JidkUWt25OPbiA9pMmEgsqfr4Afeg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=c2d7e94a068da814c0af758227100b08d6b1218aca8b66690235321db2519e2f",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Telamont",
+          "href": "https://www.ycombinator.com/companies/telamont"
+        }
+      },
+      {
+        "user_id": 3169754,
+        "full_name": "William G. Gagnon",
+        "title": "Founder",
+        "is_active": true,
+        "bio": "Co-founder & CTO at Telamont. Previously Data and AI Engineer at Poka. CS, Université Laval.",
+        "linkedin_url": "https://www.linkedin.com/in/williamggagnon/",
+        "twitter_url": "",
+        "avatar_url": "https://bookface-images.s3.us-west-2.amazonaws.com/avatars/6a0b7b3cc7ee976a5d904c49ae9c16cd54f7d294.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQC4NIECAHBXECHQ7%2F20261022%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20261022T181528Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCWC9MD1i4ivUBS%2F49PSaGjpWRlDGCDVALilmfTZub6wwIgbTi62iR2EgiU9Rk%2Bhy4Vtri5sdl9cjunhTR%2FGHwCALoq5QMIexAAGgwwMDYyMDE4MTEwNzIiDC%2Bksjl2MXnN1DGV7CrCA%2BYZDzIeBXUx8HHCd8toVGHMB4AA3JKMs4568o0DNcdsD%2FYygD16ZJaX7EXHhvbut%2FRklFJVcRk3MXB%2F8OiPrnSfi34YTEnQzjwDIW3ckLLZmHuqWfbyv8LR%2BP9I%2Bmm9httd98FNp5bwIpuN%2FSYyzijIWKkxMcdDxTKW9nWd7ppz%2Fbr8TL3R4Z9R0mEjK06KmME8e%2BJtIpQdqNBsp55gi84vOi3mHnvmFqxXfSrVOdCDulTf8FPxGU15%2BsBlITFggA9KseJylTNI4Nvtvvs4zm6KXXKtanVBL%2F9hTpu4qwhMKRRFqSeJ%2BkVMXoiML8JQhYJfsC5rupjiG0unaOZ6odpvdIDw14qQRdqu9gxBVI%2FELAlxXcCDpF0jK9Jdf%2FcCkW5%2BWKUeVgLw95MJ0ufQvuvcunNNLxugD%2Fh254UzF1JzswjSZNVD58tL7WOAfGXWJYGsd4rZqys6B5KCkSHOEEMhP4oSeGgz3NQRHZk%2FrYSfKtoYIDF%2Bbb2uojLJmbTWNjJb8ButOoquM5LN%2BA3U956Q7v64OOJ6XNZUuOb2N1bXuVNDemUvK4vt5Nuep6LVMfCcwhIU4hYwqFt%2FuXNHWrb7NTCuoOnWBjqlAbAUM2YEYMXBLKi0bihibErIFl7aV4hFu5h%2Bdc2xQ4ptOJF3qub1OMYlNgutbUPbmrD3cIpILzoi6vXNiIm1zQm0ZHJCHOEWZNQVGHEvZSmZi8BOkvjz6YBHVLVoRNCsHIKlJgK4hG%2Fb%2BaPkgxweWFWAPqQhREfkJ0DtzuZNQICORTUZyFS5DMM2Kiwlj8Mq7JidkUWt25OPbiA9pMmEgsqfr4Afeg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=fc2c71bdcf834f96638f23789159d30de0438e36e742b2f250fb04e43a0a9fd3",
+        "has_email": true,
+        "latest_yc_company": {
+          "name": "Telamont",
+          "href": "https://www.ycombinator.com/companies/telamont"
+        }
+      }
+    ],
+    "directory_synced_at": "2026-10-22T18:15:38.434Z",
+    "classified_at": "2026-10-22T18:15:38.434Z",
+    "proposed_phenotype": null,
+    "vertical_normalize_confidence": 1,
+    "vertical_normalize_method": "assignment_explicit",
+    "primary_bm": "BM-01"
+  },
+  {
     "slug": "telemetron-ai",
     "name": "Telemetron",
     "website": "https://www.telemetron.ai/",
@@ -105830,7 +106300,7 @@
     "yc_profile_url": "https://www.ycombinator.com/companies/trylatent",
     "batch": "Fall 2026",
     "one_liner": "Catch wrong LLM answers before your customers do",
-    "description_combined": "Catch wrong LLM answers before your customers do\n\nLatent catches wrong or unsupported LLM answers before they reach your users. Instead of running a second model to check every output, it reads the model&#x27;s own internal state as it generates, so every request is verified with no added latency, no extra inference cost, and nothing leaving your deployment. Teams running LLMs in production, in finance, legal, healthcare and customer support, get a review queue of the answers most likely to be wrong, calibrated to their own model and traffic, with a plain explanation of why each one was flagged.",
+    "description_combined": "Catch wrong LLM answers before your customers do\n\nLatent catches wrong or unsupported LLM answers before they reach your users. Instead of running a second model to check every output, it reads the model&#x27;s own internal state as it generates, so every request is verified with no added latency, no extra inference cost, and nothing leaving your deployment. Teams running LLMs in production, in finance, legal, healthcare and customer support, get a review queue of the answers most likely to be wrong, calibrated to their own model and traffic, with a plain explanation of why each one was flagged.\n\nCatch your AI's wrong answers before your customers see them.\n\nHey everyone! I'm Vedant Gaur from Latent.\n\nTL;DR: Latent catches your AI's wrong answers before your users see them. It reads signals inside the model while it answers, scores every response, and stops the ones about to be wrong. It works with any model and costs over 500x less than an LLM judge.\n\nWebsite: runlatent.ai\nStart free: app.runlatent.ai\n\nDemo\n\n\n\nThe Problem:\n\nAI fails quietly. A model gives a fluent, confident answer that's wrong: the wrong dosage, a refund policy that doesn't exist, a clause that isn't in the contract. Latency is fine, the dashboard is green, and the model passed last week's evals. You find out when a customer does.\n\nThe usual fix is a second LLM that re-reads the output. That's slow and expensive, so most teams only check a sample, and everything outside it s",
     "industry_sub_vertical": "LLM output verification & hallucination detection for regulated enterprises",
     "canonical_vertical_id": "ai-infrastructure.agent-observability",
     "vertical_id": "ai-infrastructure.agent-observability",
@@ -105871,6 +106341,12 @@
     "directory_synced_at": "2026-10-06T19:19:13.651Z",
     "classified_at": "2026-10-06T19:19:13.651Z",
     "proposed_phenotype": null,
+    "launch_id": 123748,
+    "launch_url": "https://www.ycombinator.com/launches/WBw-latent-stop-hallucinations-before-they-reach-your-customers",
+    "launch_title": "Latent - Stop hallucinations before they reach your customers",
+    "launch_created_at": "2026-10-21T19:00:00.152Z",
+    "launch_tagline": "Catch your AI's wrong answers before your customers see them.",
+    "launch_evaluated_at": "2026-10-22T18:16:32.263Z",
     "vertical_normalize_confidence": 1,
     "vertical_normalize_method": "assignment_explicit",
     "primary_bm": "BM-03"

@@ -1,37 +1,232 @@
 {
-  "checked_at": "2026-10-21T18:23:09.837Z",
+  "checked_at": "2026-10-22T18:16:32.457Z",
   "source": "https://www.ycombinator.com/launches",
-  "checked_count": 4,
-  "new_count": 4,
-  "skipped_count": 926,
+  "checked_count": 7,
+  "new_count": 7,
+  "skipped_count": 923,
   "ingest": {
-    "addedCompanies": 0,
-    "enrichedCompanies": 4
+    "addedCompanies": 1,
+    "enrichedCompanies": 6
   },
   "summary": {
-    "conforming": 2,
-    "partial": 2,
+    "conforming": 4,
+    "partial": 3,
     "non_conforming": 0,
-    "would_have_predicted": 4,
-    "surprise": 0,
+    "would_have_predicted": 6,
+    "surprise": 1,
     "predicted": 0
   },
   "reviews": [
     {
       "launch": {
-        "launch_id": 123207,
-        "company_slug": "simulithic",
-        "company_name": "Simulithic",
-        "launch_url": "https://www.ycombinator.com/launches/W3D-simulithic-ai-users-that-test-your-app-on-every-device-and-browser",
-        "created_at": "2026-10-21T16:02:18.580Z"
+        "launch_id": 123372,
+        "company_slug": "lark-2",
+        "company_name": "Lark",
+        "launch_url": "https://www.ycombinator.com/launches/W5s-lark-ai-agents-for-distributors",
+        "created_at": "2026-10-22T17:30:00.125Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-21T18:23:08.460Z",
-        "launch_id": 123207,
-        "company_slug": "simulithic",
+        "evaluated_at": "2026-10-22T18:16:21.824Z",
+        "launch_id": 123372,
+        "company_slug": "lark-2",
         "taxonomy": {
-          "conformance_index": 78,
+          "conformance_index": 76,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 90,
+              "band": "strong"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "logistics.supply-chain.ops",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::logistics.supply-chain.ops::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Supply chain & procurement operations",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 123232,
+        "company_slug": "opera",
+        "company_name": "OpEra",
+        "launch_url": "https://www.ycombinator.com/launches/W3c-opera-the-ai-decision-engine-for-factories-warehouses-and-fleets",
+        "created_at": "2026-10-22T16:00:00.298Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-22T18:16:21.825Z",
+        "launch_id": 123232,
+        "company_slug": "opera",
+        "taxonomy": {
+          "conformance_index": 73,
+          "verdict": "conforming",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 85,
+              "band": "strong"
+            },
+            "business_model_fit": {
+              "score": 55,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 89,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 71,
+              "band": "acceptable"
+            }
+          },
+          "cell": {
+            "business_model": "BM-01",
+            "vertical_id": "logistics.supply-chain.ops",
+            "phenotype_primary_id": "vertical-workflow-agent",
+            "cell_key": "BM-01::logistics.supply-chain.ops::vertical-workflow-agent",
+            "business_model_label": "Vertical AI SaaS",
+            "vertical_label": "Supply chain & procurement operations",
+            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+          }
+        },
+        "predictor": {
+          "predictability_band": "plausible",
+          "signals": [
+            "cell_observed_with_peers"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": true
+        },
+        "notes": []
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 124124,
+        "company_slug": "lamin",
+        "company_name": "Lamin",
+        "launch_url": "https://www.ycombinator.com/launches/WI0-lamin-open-data-platform-for-science",
+        "created_at": "2026-10-22T15:28:46.644Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-22T18:16:31.371Z",
+        "launch_id": 124124,
+        "company_slug": "lamin",
+        "taxonomy": {
+          "conformance_index": 51,
+          "verdict": "partial",
+          "dimensions": {
+            "phenotype_alignment": {
+              "score": 65,
+              "band": "acceptable"
+            },
+            "vertical_workflow_fit": {
+              "score": 8,
+              "band": "weak"
+            },
+            "business_model_fit": {
+              "score": 70,
+              "band": "acceptable"
+            },
+            "ontology_completeness": {
+              "score": 91,
+              "band": "strong"
+            },
+            "thesis_coherence": {
+              "score": 44,
+              "band": "weak"
+            }
+          },
+          "cell": {
+            "business_model": "BM-09",
+            "vertical_id": "ai-infrastructure.training-data",
+            "phenotype_primary_id": "biotech-rd-agent",
+            "cell_key": "BM-09::ai-infrastructure.training-data::biotech-rd-agent",
+            "business_model_label": "Biotech / R&D platform",
+            "vertical_label": "Training & eval data generation",
+            "phenotype_label": "Biotech / clinical R&D acceleration"
+          }
+        },
+        "predictor": {
+          "predictability_band": "surprise",
+          "signals": [
+            "unclassified_new_company"
+          ],
+          "cell_was_whitespace": false,
+          "ranked_gap": null,
+          "synthetic_match": null,
+          "analog_gap_matches": [],
+          "retro_transfer_score": 69,
+          "retro_transfer_band": "acceptable",
+          "would_have_been_predicted": false
+        },
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy.",
+          "Launch diverges from model expectations — candidate for ontology expansion or reclassification."
+        ]
+      }
+    },
+    {
+      "launch": {
+        "launch_id": 124025,
+        "company_slug": "aucert",
+        "company_name": "Aucert",
+        "launch_url": "https://www.ycombinator.com/launches/WGP-aucert-ai-agents-that-verify-mobile-apps-autonomously",
+        "created_at": "2026-10-22T14:00:00.166Z"
+      },
+      "review": {
+        "rubric_version": "1.0",
+        "evaluated_at": "2026-10-22T18:16:31.373Z",
+        "launch_id": 124025,
+        "company_slug": "aucert",
+        "taxonomy": {
+          "conformance_index": 74,
           "verdict": "conforming",
           "dimensions": {
             "phenotype_alignment": {
@@ -47,12 +242,12 @@
               "band": "acceptable"
             },
             "ontology_completeness": {
-              "score": 81,
+              "score": 88,
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 90,
-              "band": "strong"
+              "score": 64,
+              "band": "acceptable"
             }
           },
           "cell": {
@@ -74,7 +269,7 @@
           "ranked_gap": null,
           "synthetic_match": null,
           "analog_gap_matches": [],
-          "retro_transfer_score": 69,
+          "retro_transfer_score": 67,
           "retro_transfer_band": "acceptable",
           "would_have_been_predicted": true
         },
@@ -83,19 +278,19 @@
     },
     {
       "launch": {
-        "launch_id": 123565,
-        "company_slug": "horizontal",
-        "company_name": "horizontal.",
-        "launch_url": "https://www.ycombinator.com/launches/W8z-horizontal-ai-agents-that-run-factory-operations-end-to-end",
-        "created_at": "2026-10-21T15:00:00.072Z"
+        "launch_id": 124027,
+        "company_slug": "kiwi",
+        "company_name": "Kiwi",
+        "launch_url": "https://www.ycombinator.com/launches/WGR-kiwi-your-gtm-agent-s-data-engineer",
+        "created_at": "2026-10-22T13:00:00.180Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-21T18:23:08.461Z",
-        "launch_id": 123565,
-        "company_slug": "horizontal",
+        "evaluated_at": "2026-10-22T18:16:31.375Z",
+        "launch_id": 124027,
+        "company_slug": "kiwi",
         "taxonomy": {
-          "conformance_index": 65,
+          "conformance_index": 53,
           "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
@@ -103,35 +298,37 @@
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
+              "score": 3,
+              "band": "weak"
+            },
+            "business_model_fit": {
               "score": 70,
               "band": "acceptable"
             },
-            "business_model_fit": {
-              "score": 55,
-              "band": "acceptable"
-            },
             "ontology_completeness": {
-              "score": 91,
+              "score": 89,
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 44,
-              "band": "weak"
+              "score": 61,
+              "band": "acceptable"
             }
           },
           "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "industrials.manufacturing.ops",
-            "phenotype_primary_id": "vertical-agentic-workflow-saas",
-            "cell_key": "BM-01::industrials.manufacturing.ops::vertical-agentic-workflow-saas",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Manufacturing operations & order management",
-            "phenotype_label": "Vertical Agentic Workflow SaaS"
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-context-web",
+            "phenotype_primary_id": "agent-context-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-context-web::agent-context-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent web context & data enrichment",
+            "phenotype_label": "Agent Context Infrastructure"
           }
         },
         "predictor": {
           "predictability_band": "plausible",
-          "signals": [],
+          "signals": [
+            "cell_observed_with_peers"
+          ],
           "cell_was_whitespace": false,
           "ranked_gap": null,
           "synthetic_match": null,
@@ -147,28 +344,28 @@
     },
     {
       "launch": {
-        "launch_id": 123364,
-        "company_slug": "armorer-labs",
-        "company_name": "Armorer Labs",
-        "launch_url": "https://www.ycombinator.com/launches/W5k-armorer-labs-continuous-security-verification-for-ai-agents-in-regulated-industries",
-        "created_at": "2026-10-21T14:00:00.189Z"
+        "launch_id": 123748,
+        "company_slug": "trylatent",
+        "company_name": "Latent",
+        "launch_url": "https://www.ycombinator.com/launches/WBw-latent-stop-hallucinations-before-they-reach-your-customers",
+        "created_at": "2026-10-21T19:00:00.152Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-21T18:23:08.463Z",
-        "launch_id": 123364,
-        "company_slug": "armorer-labs",
+        "evaluated_at": "2026-10-22T18:16:31.376Z",
+        "launch_id": 123748,
+        "company_slug": "trylatent",
         "taxonomy": {
-          "conformance_index": 81,
-          "verdict": "conforming",
+          "conformance_index": 57,
+          "verdict": "partial",
           "dimensions": {
             "phenotype_alignment": {
               "score": 70,
               "band": "acceptable"
             },
             "vertical_workflow_fit": {
-              "score": 85,
-              "band": "strong"
+              "score": 3,
+              "band": "weak"
             },
             "business_model_fit": {
               "score": 70,
@@ -179,23 +376,25 @@
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 90,
-              "band": "strong"
+              "score": 71,
+              "band": "acceptable"
             }
           },
           "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "ai-infrastructure.agent-security",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::ai-infrastructure.agent-security::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Agent security & authorization",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-observability",
+            "phenotype_primary_id": "agent-observability-evals",
+            "cell_key": "BM-03::ai-infrastructure.agent-observability::agent-observability-evals",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent observability & logging",
+            "phenotype_label": "Agent observability, evals, or safety"
           }
         },
         "predictor": {
           "predictability_band": "plausible",
-          "signals": [],
+          "signals": [
+            "cell_observed_with_peers"
+          ],
           "cell_was_whitespace": false,
           "ranked_gap": null,
           "synthetic_match": null,
@@ -204,25 +403,27 @@
           "retro_transfer_band": "acceptable",
           "would_have_been_predicted": true
         },
-        "notes": []
+        "notes": [
+          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
+        ]
       }
     },
     {
       "launch": {
-        "launch_id": 123679,
-        "company_slug": "synara",
-        "company_name": "Synara",
-        "launch_url": "https://www.ycombinator.com/launches/WAp-synara-the-ai-monitoring-station-that-makes-the-problem-go-away",
-        "created_at": "2026-10-20T19:00:00.365Z"
+        "launch_id": 123737,
+        "company_slug": "orgo",
+        "company_name": "Orgo",
+        "launch_url": "https://www.ycombinator.com/launches/WBl-orgo-computers-for-agents",
+        "created_at": "2026-10-21T18:52:17.507Z"
       },
       "review": {
         "rubric_version": "1.0",
-        "evaluated_at": "2026-10-21T18:23:08.464Z",
-        "launch_id": 123679,
-        "company_slug": "synara",
+        "evaluated_at": "2026-10-22T18:16:31.376Z",
+        "launch_id": 123737,
+        "company_slug": "orgo",
         "taxonomy": {
-          "conformance_index": 68,
-          "verdict": "partial",
+          "conformance_index": 76,
+          "verdict": "conforming",
           "dimensions": {
             "phenotype_alignment": {
               "score": 65,
@@ -241,34 +442,34 @@
               "band": "strong"
             },
             "thesis_coherence": {
-              "score": 29,
-              "band": "weak"
+              "score": 71,
+              "band": "acceptable"
             }
           },
           "cell": {
-            "business_model": "BM-01",
-            "vertical_id": "ai-infrastructure.agent-security",
-            "phenotype_primary_id": "vertical-workflow-agent",
-            "cell_key": "BM-01::ai-infrastructure.agent-security::vertical-workflow-agent",
-            "business_model_label": "Vertical AI SaaS",
-            "vertical_label": "Agent security & authorization",
-            "phenotype_label": "Vertical AI workflow agent (AI department for X)"
+            "business_model": "BM-03",
+            "vertical_id": "ai-infrastructure.agent-runtime",
+            "phenotype_primary_id": "agent-runtime-infra",
+            "cell_key": "BM-03::ai-infrastructure.agent-runtime::agent-runtime-infra",
+            "business_model_label": "AI devtools / infrastructure",
+            "vertical_label": "Agent runtime & orchestration",
+            "phenotype_label": "Agent runtime / harness / orchestration"
           }
         },
         "predictor": {
           "predictability_band": "plausible",
-          "signals": [],
+          "signals": [
+            "cell_observed_with_peers"
+          ],
           "cell_was_whitespace": false,
           "ranked_gap": null,
           "synthetic_match": null,
           "analog_gap_matches": [],
-          "retro_transfer_score": 64,
+          "retro_transfer_score": 69,
           "retro_transfer_band": "acceptable",
           "would_have_been_predicted": true
         },
-        "notes": [
-          "Review vertical or phenotype assignment; launch narrative only partially matches taxonomy."
-        ]
+        "notes": []
       }
     }
   ]
